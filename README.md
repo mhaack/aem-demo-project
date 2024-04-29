@@ -2,8 +2,8 @@
 
 ## Environments
 
-- Preview: https://main--hlx-test--urfuwo.hlx.page/
-- Live: https://main--hlx-test--urfuwo.hlx.live/
+- Preview: https://main--builder-prospect--sapudex.hlx.page
+- Live: https://main--builder-prospect--sapudex.hlx.live
 
 ## Documentation
 
