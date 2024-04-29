@@ -8,7 +8,7 @@ on:
       - main
 jobs:
   cleanup:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, solinas]
     permissions:
       contents: write
       actions: write
