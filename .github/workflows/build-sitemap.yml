@@ -8,6 +8,9 @@ on:
     branches: 
       - main
 
+env:
+  DEBIAN_FRONTEND: noninteractive
+
 jobs:
   build-sitemap:
     runs-on: [self-hosted, solinas]
