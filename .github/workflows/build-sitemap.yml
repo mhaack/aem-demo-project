@@ -21,6 +21,14 @@ jobs:
     steps:
       - name: Install sudo
         run: apt-get update && apt-get install -y sudo
+      - name: Update GIT to latest
+        run: |
+          apt-get install -y software-properties-common \
+          && apt-get update \
+          && add-apt-repository -y ppa:git-core/ppa \
+          && apt-get update \
+          && apt-get install -y git
+          git config --global --add safe.directory `pwd`
       - name: Checkout code
         uses: actions/checkout@v4
       - run: |
