@@ -4,6 +4,7 @@
 
 - Preview: https://main--builder-prospect--sapudex.hlx.page
 - Live: https://main--builder-prospect--sapudex.hlx.live
+- External: https://www-qa.sap.com
 
 ## Documentation
 
