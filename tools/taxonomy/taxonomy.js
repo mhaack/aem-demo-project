@@ -1,5 +1,5 @@
 async function main() {
-  const resp = await fetch('https://main--hlx-test--urfuwo.hlx.page/germany/articles-index.json');
+  const resp = await fetch('https://main--builder-prospect--sapudex.hlx.page/germany/articles-index.json');
 
   if (resp.ok) {
     const json = await resp.json();

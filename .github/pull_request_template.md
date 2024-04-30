@@ -4,12 +4,12 @@ Fix #<gh-issue-id>
 
 Test URLs:
 **Content Hub:**
-Before: https://main--hlx-test--urfuwo.hlx.live/blog/2023/11/idc-marketscape-sap-a-leader-cloud-enabled-sourcing-applications
-After: https://<branch>--hlx-test--urfuwo.hlx.live/blog/2023/11/idc-marketscape-sap-a-leader-cloud-enabled-sourcing-applications
+Before: https://main--builder-prospect--sapudex.hlx.live/blog/2023/11/idc-marketscape-sap-a-leader-cloud-enabled-sourcing-applications
+After: https://<branch>--builder-prospect--sapudex.hlx.live/blog/2023/11/idc-marketscape-sap-a-leader-cloud-enabled-sourcing-applications
 
 **Design system:**
-Before: https://main--hlx-test--urfuwo.hlx.live/fiori-design-web/button-web-component
-After: https://<branch>--hlx-test--urfuwo.hlx.live/fiori-design-web/button-web-component
+Before: https://main--builder-prospect--sapudex.hlx.live/fiori-design-web/button-web-component
+After: https://<branch>--builder-prospect--sapudex.hlx.live/fiori-design-web/button-web-component
 
 
 - [ ] New Blocks introduced in this PR
@@ -17,7 +17,7 @@ After: https://<branch>--hlx-test--urfuwo.hlx.live/fiori-design-web/button-web-c
 
 Block Name    | Documentation | Library Link
 ------------- | -------------|----------------
-social | [doc-link](https://sap.sharepoint.com/sites/207899/_layouts/15/doc.aspx?sourcedoc={5c2d8d7b-f6d5-4356-b71c-3730ad5886db}&action=edit) | [Library Link](https://social--hlx-test--urfuwo.hlx.page/tools/sidekick/library.html?plugin=blocks&path=/tools/sidekick/blocks/social&index=1)
+social | [doc-link](https://sap.sharepoint.com/sites/207899/_layouts/15/doc.aspx?sourcedoc={5c2d8d7b-f6d5-4356-b71c-3730ad5886db}&action=edit) | [Library Link](https://social--builder-prospect--sapudex.hlx.page/tools/sidekick/library.html?plugin=blocks&path=/tools/sidekick/blocks/social&index=1)
 
 
 - [ ] New variations introduced in this PR

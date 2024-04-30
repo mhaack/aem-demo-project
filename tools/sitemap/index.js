@@ -178,7 +178,7 @@ const buildNewsSitemap = (config) => {
   };
 
   try {
-    const response = await fetch('https://main--hlx-test--urfuwo.hlx.page/aemedge/config.json');
+    const response = await fetch('https://main--builder-prospect--sapudex.hlx.page/aemedge/config.json');
     const configResponse = await response.json();
     const config = await async.reduce(configResponse.data, {}, configAccumulator);
     const taskQueue = async.cargoQueue(

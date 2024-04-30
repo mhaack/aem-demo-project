@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 const siteRoot = 'https://www.sap.com';
-const sourceRoot = 'https://main--hlx-test--urfuwo.hlx.page';
+const sourceRoot = 'https://main--builder-prospect--sapudex.hlx.page';
 const targetRoot = '../../aemedge/feeds';
 const maxPosts = 30;
 
