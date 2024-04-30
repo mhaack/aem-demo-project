@@ -8,6 +8,6 @@ export async function decorate(container, data, searchTerm, context) {
 }
 
 export default {
-  title: 'Design System',
+  title: 'design-system',
   searchEnabled: false,
 };

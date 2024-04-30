@@ -1,30 +1,19 @@
-/* TODO: WIP */
 html:has(.web-component) {
   height: 100%;
 }
 
-.web-component.appear {
+.web-component {
   --headerHeight: 60px;
-  
+
   grid-template:
     'content' 1fr
     'footer' auto
     / 1fr;
   height: 100%;
   padding-top: var(--headerHeight);
-  
-  @media (width >= 980px) {
-    display: grid;
-  }
-  
-  @media (width >= 1600px) {
-    & {
-      --udexGridMargins: 246px;
-    }
-  }
-  
+
   /* Master Header */
-  & > header {
+  > header {
     /* grid-area: header; */
     background: var(--udexColorGrey1);
     position: fixed;
@@ -32,66 +21,160 @@ html:has(.web-component) {
     width: 100%;
     z-index: 20;
   }
-  
+
   /* Main Navigation, not part of the grid */
-  & > nav {
+  > nav {
     z-index: 10;
   }
-  
+
   /* Main Content */
-  & > main {
+  main {
     display: flex;
     flex-direction: column;
     grid-area: content;
-    
-    /* S */
-    @media (width >= 640px) {
-      & > * {
-        /* --udexGridXLGutters */
-        --hero-margin--left: 48px;
+
+    .default-content-wrapper {
+      h1 {
+        color: var(--sapContent_TitleColor);
+        font-size: var(--udexTypographyHeadingMediumXSFontSize);
+        font-weight: var(--udexTypographyFontWeightMedium);
+        line-height: var(--udexTypographyHeadingLineHeight);
+        margin: 0 0 var(--udexSpacer16);
+        padding: 0;
       }
     }
-    
-    & > :not(.hero-container, .title-banner-container) {
-      & > * {
-        margin: 0 var(--udexGridMargins);
+
+    > :first-child {
+      > :first-child {
+        border: 0 none !important;
+        padding: unset;
       }
     }
-    
-    /* M */
-    @media (width >= 980px) {
-      margin: 0 0 0 var(--udexGridMargins);
-      
-      & .hero-container + .section {
-        padding-block-start: 84px;
+
+    /* Sections */
+    > :not(.hero-container) {
+      margin-block-end: var(--udexSpacer40);
+
+      > :first-child {
+        border-top: 1px solid var(--udexCoreDividerLight);
+        padding-block-start: var(--udexSpacer40);
       }
-      
-      & > :not(.hero-container, .title-banner-container) {
-        /* padding-inline: var(--udexGridMargins); */
-        padding-inline: var(--udexGridGutters) var(--udexGridMargins);
-        
-        & > * {
-          margin: unset;
+
+      & > * {
+        margin-inline: var(--udexGridMargins);
+      }
+    }
+  }
+
+  /* Page Footer */
+  > footer {
+    grid-area: footer;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 1rem;
+  }
+}
+
+/* XS */
+@media (width < 640px) {
+  .web-component {
+    main {
+      p,
+      li {
+        font-size: var(--udexTypographyBodyXSFontSize);
+        font-weight: var(--udexTypographyFontWeightRegular);
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* S */
+@media (width >= 640px) {
+  .web-component {
+    main {
+      .default-content-wrapper {
+        h1 {
+          font-size: var(--udexTypographyHeadingMediumSFontSize);
+        }
+      }
+
+      /* Sections */
+      > :not(.hero-container) {
+        margin-block-end: var(--udexSpacer48);
+
+        > :first-child {
+          padding-block-start: var(--udexSpacer48);
         }
       }
     }
-    
-    & > :not(:last-child, .hero-container) {
-      padding-block-end: var(--udexSpacer56);
+  }
+}
+
+/* M */
+@media (width >= 980px) {
+  .web-component {
+    display: grid;
+
+    main {
+      margin: 0 0 0 var(--udexGridMargins);
+
+      .default-content-wrapper {
+        h1 {
+          font-size: var(--udexTypographyHeadingMediumMFontSize);
+        }
+      }
+
+      /* Sections */
+      > :not(.hero-container) {
+        padding-inline: var(--udexGridMargins);
+
+        /* stylelint-disable */
+        /* TODO: CH grid settings also valid for DS? */
+        /* padding-inline: var(--udexGridGutters) var(--udexGridMargins); */
+        /* stylelint-enable */
+
+        & > * {
+          margin-inline: unset;
+        }
+      }
     }
-    
-    & > :last-child {
-      padding-block-end: var(--udexSpacer84);
+
+    /* Page Footer */
+    > footer {
+      /* TODO: Should stay 72px? */
+      margin: 0 0 0 var(--udexGridMMargins);
     }
   }
-  
-  /* Page Footer */
-  & > footer {
-    grid-area: footer;
-    
-    /* M */
-    @media (width >= 980px) {
-      margin: 0 0 0 var(--udexGridXLGutters);
+}
+
+/* L */
+@media (width >= 1280px) {
+  .web-component {
+    main {
+      /* Sections */
+      > :not(.hero-container) {
+        margin-block-end: var(--udexSpacer56);
+
+        > :first-child {
+          padding-block-start: var(--udexSpacer56);
+        }
+      }
     }
+  }
+}
+
+/* XL */
+@media (width >= 1600px) {
+  .web-component {
+    /* stylelint-disable */
+    /* TODO: This breaks layout */
+    /* --udexGridMargins: 246px; */
+    /* stylelint-enable */
   }
 }

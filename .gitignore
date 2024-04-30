@@ -9,3 +9,4 @@ helix-importer-ui
 *.bak
 .idea
 tools/atom/node_modules
+/tools/importer/import.js

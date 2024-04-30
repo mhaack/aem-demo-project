@@ -1,21 +1,8 @@
 .when-to-use-container {
-  margin: var(--udexSpacer40) 0;
-  
-  .default-content-wrapper {
-    h1 {
-      color: var(--sapContent_TitleColor);
-      font-size: var(--udexTypographyHeadingMediumXSFontSize);
-      font-weight: var(--udexTypographyFontWeightMedium);
-      line-height: var(--udexTypographyHeadingLineHeight);
-      margin: 0;
-      padding: 0;
-    }
-  }
-  
   em {
     font-style: normal;
   }
-  
+
   strong {
     font-weight: normal;
   }
@@ -26,32 +13,37 @@
 }
 
 .when-to-use {
+  display: flex;
+  flex-direction: column;
+  gap: var(--udexSpacer32);
+
   > div {
-    margin-top: var(--udexSpacer32);
     width: 100%;
-    
+
     /* Do + Don't headings */
     p:first-child {
-      font-size: var(--udexTypographyHeadingMediumXSFontSize);
+      font-size: var(--udexTypographyHeadingMediumXXSFontSize);
       font-weight: var(--udexTypographyFontWeightMedium);
       line-height: var(--udexTypographyHeadingLineHeight);
       margin: 0;
       padding: 0;
     }
-    
+
     /* Do section */
     &:nth-child(1) {
       /* Do heading */
       & > div p:first-child {
         color: var(--udexColorGreen7);
+        margin-bottom: var(--udexSpacer8);
       }
     }
-    
+
     /* Don't' section */
     &:nth-child(2) {
       /* Don't heading */
       & > div p:first-child {
         color: var(--udexColorRed7);
+        margin-bottom: var(--udexSpacer8);
       }
     }
   }
@@ -60,11 +52,12 @@
 /* XS */
 @media (width < 640px) {
   .when-to-use-container {
-    * {
+    p,
+    ul {
       font-size: var(--udexTypographyBodyXSFontSize);
       font-weight: var(--udexTypographyFontWeightRegular);
     }
-    
+
     a {
       text-decoration: none;
     }
@@ -74,31 +67,29 @@
 /* S */
 @media (width >= 640px) {
   .when-to-use-container {
-    margin: var(--udexSpacer56) 0;
-    
     .default-content-wrapper {
       h1 {
         font-size: var(--udexTypographyHeadingMediumSFontSize);
       }
     }
   }
-  
+
   .when-to-use {
-    display: flex;
-    gap: var(--udexSpacer16);
-    
     > div {
       /* Do + Don't headings */
       p:first-child {
-        font-size: var(--udexTypographyHeadingMediumSFontSize);
+        font-size: var(--udexTypographyHeadingMediumXSFontSize);
       }
     }
   }
 }
 
 /* M */
-/* stylelint-disable-next-line block-no-empty */
 @media (width >= 980px) {
+  .when-to-use-wrapper {
+    margin-bottom: var(--udexSpacer48);
+  }
+
   .when-to-use-container {
     .default-content-wrapper {
       h1 {
@@ -106,14 +97,15 @@
       }
     }
   }
-  
+
   .when-to-use {
-    gap: var(--udexSpacer24);
-    
+    flex-direction: row;
+    gap: var(--udexSpacer48);
+
     > div {
       /* Do + Don't headings */
       p:first-child {
-        font-size: var(--udexTypographyHeadingMediumMFontSize);
+        font-size: var(--udexTypographyHeadingMediumXXSFontSize);
       }
     }
   }
@@ -121,15 +113,15 @@
 
 /* L */
 @media (width >= 1280px) {
+  .when-to-use-wrapper {
+    margin-bottom: var(--udexSpacer56);
+  }
+
   .when-to-use {
     > div {
       /* Do + Don't headings */
       p:first-child {
-        border-bottom: 1px solid;
         font-size: var(--udexTypographyHeadingMediumXXSFontSize);
-        margin: 0 0 2px;
-        padding: 0 0 2px;
-        
       }
     }
   }
