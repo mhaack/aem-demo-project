@@ -26,10 +26,11 @@ indices:
         value: attribute(el, "content")
   articles:
     include:
-      - /blog/**
+      - /blogs/**
       - /news/**
       - /videos/**
       - /resources/**
+      - /research/**
       - /design/**
     exclude:
       - '**/fragments/**'
