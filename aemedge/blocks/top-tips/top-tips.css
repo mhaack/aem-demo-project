@@ -5,19 +5,19 @@
   flex-direction: column;
   gap: var(--udexSpacer16);
   padding: var(--udexSpacer24);
-  
-  /* h1 + (content + icon) */
+
+  /* h3 + (content + icon) */
   > div {
     order: 2;
-    
+
     .default-content-wrapper {
-      h1 {
+      h3 {
         font-size: var(--udexTypographyHeadingMediumXXSFontSize);
         margin: 0 0 var(--udexSpacer16);
       }
     }
   }
-  
+
   > .icon {
     align-items: center;
     background: var(--udexColorBlue2);
@@ -27,7 +27,7 @@
     justify-content: center;
     order: 1;
     width: 32px;
-    
+
     img {
       display: block;
       height: auto;
@@ -40,11 +40,11 @@
 @media (width >= 640px) {
   .top-tips {
     gap: var(--udexSpacer20);
-    
+
     > .icon {
       height: 64px;
       width: 64px;
-      
+
       img {
         width: 30px;
       }
@@ -57,7 +57,7 @@
   .top-tips {
     > div {
       .default-content-wrapper {
-        h1 {
+        h3 {
           margin: 0 0 var(--udexSpacer8);
         }
       }

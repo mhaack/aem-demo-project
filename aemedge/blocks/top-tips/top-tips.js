@@ -1,5 +1,5 @@
 import { decorateIcons } from '../../scripts/aem.js';
-import { div, h1, span } from '../../scripts/dom-builder.js';
+import { div, h3, span } from '../../scripts/dom-builder.js';
 
 /**
  * Formats a string to be more readable by capitalizing the first letter of each word.
@@ -19,7 +19,7 @@ export default async function decorate(block) {
   const blockHeadline = getReadableBlockName(blockName);
   const headline = div({
     class: 'default-content-wrapper',
-  }, h1(
+  }, h3(
     {
       id: blockName,
     },
