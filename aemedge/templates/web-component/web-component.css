@@ -1,3 +1,4 @@
+/* TODO: WIP */
 html:has(.web-component) {
   height: 100%;
 }
@@ -74,6 +75,14 @@ html:has(.web-component) {
   ul {
     margin: 0;
     padding: 0 0 0 1rem;
+  }
+
+  img {
+    display: block;
+  }
+
+  picture {
+    display: block;
   }
 }
 
@@ -176,5 +185,115 @@ html:has(.web-component) {
     /* TODO: This breaks layout */
     /* --udexGridMargins: 246px; */
     /* stylelint-enable */
+  }
+}
+
+/**
+ * =ANATOMY
+ */
+/* stylelint-disable no-duplicate-selectors */
+.web-component {
+  :is(#anatomy) {
+    /* Picture */
+    + p:has(> picture) {
+      margin: 0 0 var(--udexSpacer16);
+      padding: 0;
+
+      & img {
+        border-radius: var(--udexRadiusM);
+      }
+
+      /* Caption */
+      & + p {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    ~ ol {
+      display: flex;
+      flex-direction: column;
+      gap: var(--udexSpacer16);
+      margin: var(--udexSpacer32) 0 0;
+      padding: 0 0 0 1rem;
+
+      li {
+        margin: 0;
+        padding: 0;
+
+        &::marker {
+          font-weight: var(--udexTypographyFontWeightBold);
+        }
+
+        strong {
+          font-weight: var(--udexTypographyFontWeightBold);
+        }
+      }
+    }
+  }
+}
+
+/* XS */
+@media (width < 640px) {
+  .web-component {
+    :is(#anatomy) {
+      ~ ol {
+        em {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* S */
+@media (width >= 640px) {
+  .web-component {
+    --anatomy-requirements-with: 110px;
+
+    :is(#anatomy) {
+      + p:has(> picture) {
+        /* Caption */
+        & + p {
+          font-size: var(--udexTypographyBodyXSFontSize);
+        }
+      }
+
+      ~ ol {
+        margin-top: var(--udexSpacer16);
+        margin-left: var(--anatomy-requirements-with);
+
+        li {
+          position: relative;
+        }
+
+        em[data-requirement-status] {
+          border: 1px solid;
+          border-radius: var(--sapButton_BorderCornerRadius);
+          color: var(--udexColorNeutralWhite);
+          display: block;
+          font-size: var(--sapFontSmallSize);
+          font-style: normal;
+          font-weight: var(--udexTypographyFontWeightBold);
+          left: calc((var(--anatomy-requirements-with) + 1rem) * -1);
+          padding: 3px 4px;
+          position: absolute;
+          text-shadow: var(--sapContent_ContrastTextShadow);
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        em[data-requirement-status="mandatory"] {
+          border-color: var(--sapIndicationColor_3_Background);
+          background: var(--sapIndicationColor_3_Background);
+        }
+
+        em[data-requirement-status="optional"] {
+          border-color: var(--sapIndicationColor_4_Background);
+          background: var(--sapIndicationColor_4_Background);
+        }
+      }
+    }
   }
 }
