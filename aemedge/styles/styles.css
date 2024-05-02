@@ -424,9 +424,9 @@ main .section {
   &.divider-top {
     margin-top: 5px;
     box-shadow:
-      0 -2px 0 var(--udexColorNeutralBlack),
+      0 -2px 0 var(--udexColorNeutralWhite),
       0 -3px 0 var(--udexCoreDividerLight),
-      0 -5px 0 var(--udexColorNeutralBlack);
+      0 -5px 0 var(--udexColorNeutralWhite);
   }
 
   & .text {
