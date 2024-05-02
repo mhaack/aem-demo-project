@@ -11,7 +11,7 @@
 
 * {
   box-sizing: border-box;
-  
+
   &::before,
   &::after {
     box-sizing: border-box;
@@ -205,18 +205,18 @@ a {
     color: var(--udexColorBlue7);
     text-decoration: underline;
   }
-  
+
   &:visited {
     color: var(--udexColorBlue10);
   }
-  
+
   &:hover,
   &:focus{
     color: var(--udexColorBlue9);
     cursor: pointer;
     text-decoration: underline;
   }
-  
+
   &:active {
     color: var(--udexColorBlue11);
   }
@@ -236,6 +236,10 @@ a {
   font-weight: var(--udexTypographyFontWeightRegular);
   line-height: var(--udexTypographyDisplayLineHeight);
   color: var(--udexColorGrey6);
+}
+
+[aria-hidden="true"] {
+  display: none;
 }
 
 main .button-container {

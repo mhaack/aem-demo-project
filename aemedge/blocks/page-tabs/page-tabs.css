@@ -1,0 +1,40 @@
+main .page-tabs {
+  height: 40px;
+}
+
+main .page-tabs ul {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+  border-bottom: 1px solid var(--sapShell_Category_15_BorderColor);
+}
+
+main .page-tabs li {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-bottom: transparent 3px solid;
+}
+
+main .page-tabs li a {
+  color: var(--text-color);
+  border: 0;
+  line-height: 60px;
+  margin: 0;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+main .page-tabs li[aria-selected="true"] a {
+  color: var(--sapShell_Navigation_SelectedColor);
+}
+
+main .page-tabs li[aria-selected="true"] {
+  /* TODO implement not as a border but an "after" element to get it to look exactly like the design */
+  border-bottom: var(--sapShell_Navigation_SelectedColor) 3px solid;
+}
+
