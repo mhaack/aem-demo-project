@@ -10,7 +10,7 @@ export default class DeDuplicator extends Transform {
   _transform(chunk, encoding, callback) {
     chunk.split(',').forEach((entry) => {
       const element = entry.trim();
-      if (!this.seenElements.has(element)) {
+      if (element !== '0' && !this.seenElements.has(element)) {
         this.seenElements.add(element);
         this.push(element);
       }

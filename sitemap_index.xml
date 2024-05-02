@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-        <loc>https://www-qa.sap.com/aemedge/sitemap-articles.xml</loc>
+        <loc>https://www-qa.sap.com/aemedge/sitemap-hub-articles.xml</loc>
     </sitemap>
     <sitemap>
-        <loc>https://www-qa.sap.com/aemedge/sitemap-authors.xml</loc>
+        <loc>https://www-qa.sap.com/aemedge/sitemap-hub-authors.xml</loc>
     </sitemap>
     <sitemap>
-        <loc>https://www-qa.sap.com/aemedge/sitemap-news.xml.gz</loc>
+        <loc>https://www-qa.sap.com/aemedge/sitemap-hub-news.xml</loc>
     </sitemap>
     <sitemap>
-        <loc>https://www-qa.sap.com/aemedge/sitemap-pages.xml.gz</loc>
+        <loc>https://www-qa.sap.com/aemedge/sitemap-hub-pages.xml</loc>
     </sitemap>
     <sitemap>
-        <loc>https://www-qa.sap.com/aemedge/sitemap-tags.xml.gz</loc>
-    </sitemap>
-    <sitemap>
-        <loc>https://www-qa.sap.com/aemedge/sitemap-topics.xml.gz</loc>
+        <loc>https://www-qa.sap.com/aemedge/sitemap-hub-topics.xml</loc>
     </sitemap>
 </sitemapindex>

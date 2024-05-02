@@ -38,6 +38,22 @@ const addHttpsPrefix = (url) => {
   return `https://${url}`;
 };
 
+const extractTagInfo = (tags) => {
+  const info = {
+    keywords: '',
+  };
+  tags.forEach((tag) => {
+    const [key, value] = tag.split('/');
+    if (key === 'content-type') {
+      if (value === 'press-release') info.genres = 'PressRelease';
+      if (value === 'executive-blog') info.genres = 'Blog';
+    } else {
+      info.keywords = info.keywords === '' ? value : `${info.keywords}, ${value}`;
+    }
+  });
+  return info;
+};
+
 const validateXml = (siteMapPath) => {
   xmlLint(createReadStream(siteMapPath)).then(
     () => logger.info('sitemap valid:', siteMapPath),
@@ -56,7 +72,7 @@ const getSiteMapStream = (siteMapPath, domain) => {
 const buildSiteMap = async (domain, url, sitemapName, transformers) => {
   const response = await fetch(url);
   const responseStream = new ReadableWebToNodeStream(response.body);
-  const siteMapPath = resolve('../../', 'aemedge', `sitemap-${sitemapName}.xml.gz`);
+  const siteMapPath = resolve('../../', 'aemedge', `sitemap-${sitemapName}.xml`);
   const sitemap = getSiteMapStream(siteMapPath, domain);
   const pipeline = chain([
     responseStream,
@@ -80,38 +96,25 @@ const buildSiteMap = async (domain, url, sitemapName, transformers) => {
 };
 
 const buildTopicsSiteMap = async (config) => {
-  const { domain, 'index.endpoint': endpoint, 'article.index.path': indexPath } = config;
+  const {
+    domain,
+    'index.endpoint': endpoint,
+    'ch.tag.index.path': indexPath,
+    'topics.update.frequency': updateFrequency,
+  } = config;
   const deDuplicator = new DeDuplicator();
   try {
     const transformers = [
       (data) => {
         const { value } = data;
-        return JSON.parse(value.topics);
+        return value['topic-path'];
       },
       deDuplicator,
-      (data) => ({ url: `/topics/${data}`, changefreq: 'weekly' }),
+      (data) => ({ url: data, changefreq: updateFrequency }),
     ];
-    buildSiteMap(domain, `${endpoint}${indexPath}`, 'topics', transformers);
+    buildSiteMap(domain, `${endpoint}${indexPath}`, 'hub-topics', transformers);
   } catch (error) {
     logger.error('error while generating sitemap for topics', error);
-  }
-};
-
-const buildTagsSiteMap = async (config) => {
-  const { domain, 'index.endpoint': endpoint, 'article.index.path': indexPath } = config;
-  const deDuplicator = new DeDuplicator();
-  try {
-    const transformers = [
-      (data) => {
-        const { value } = data;
-        return JSON.parse(value.tags);
-      },
-      deDuplicator,
-      (data) => ({ url: `/tags/${data}`, changefreq: 'weekly' }),
-    ];
-    buildSiteMap(domain, `${endpoint}${indexPath}`, 'tags', transformers);
-  } catch (error) {
-    logger.error('error while generating sitemap for tags', error);
   }
 };
 
@@ -130,7 +133,7 @@ const buildPagesSiteMap = async (config) => {
     lastmod: formatDate(data.lastModified),
   });
   try {
-    buildSiteMap(domain, `${endpoint}${indexPath}`, 'pages', [
+    buildSiteMap(domain, `${endpoint}${indexPath}`, 'hub-pages', [
       filter,
       (data) => mappingFn(data.value),
     ]);
@@ -142,6 +145,7 @@ const buildPagesSiteMap = async (config) => {
 const buildNewsSitemap = (config) => {
   const filter = new Filter((data) => data.value.path.startsWith('/news/'));
   const mappingFn = (item) => {
+    const info = extractTagInfo(JSON.parse(item.tags));
     const newsItem = {
       url: item.path,
       news: {
@@ -151,17 +155,15 @@ const buildNewsSitemap = (config) => {
         },
         publication_date: formatDate(item.lastModified),
         title: item.title,
-        keywords: JSON.parse(item.topics)[0],
+        keywords: info.keywords,
       },
     };
-    const contentType = item['content-type'].split(',');
-    if (contentType.includes('press-release')) newsItem.genres = 'PressRelease';
-    if (contentType.includes('blog')) newsItem.genres = 'Blog';
+    if (info.genres) newsItem.genres = info.genres;
     return newsItem;
   };
   try {
     const { domain, 'index.endpoint': endpoint, 'article.index.path': indexPath } = config;
-    buildSiteMap(domain, `${endpoint}${indexPath}`, 'news', [
+    buildSiteMap(domain, `${endpoint}${indexPath}`, 'hub-news', [
       filter,
       (data) => mappingFn(data.value),
     ]);
@@ -178,7 +180,9 @@ const buildNewsSitemap = (config) => {
   };
 
   try {
-    const response = await fetch('https://main--builder-prospect--sapudex.hlx.page/aemedge/config.json');
+    const response = await fetch(
+      'https://main--builder-prospect--sapudex.hlx.page/aemedge/config.json',
+    );
     const configResponse = await response.json();
     const config = await async.reduce(configResponse.data, {}, configAccumulator);
     const taskQueue = async.cargoQueue(
@@ -193,7 +197,6 @@ const buildNewsSitemap = (config) => {
     );
 
     taskQueue.push({ name: 'buildTopicsSiteMap' }, buildTopicsSiteMap);
-    taskQueue.push({ name: 'buildTagsSiteMap' }, buildTagsSiteMap);
     taskQueue.push({ name: 'buildNewsSitemap' }, buildNewsSitemap);
     taskQueue.push({ name: 'buildPagesSiteMap' }, buildPagesSiteMap);
   } catch (err) {

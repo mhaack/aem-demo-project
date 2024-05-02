@@ -4,7 +4,7 @@ indices:
     include:
       - /**
     exclude:
-      - '/drafts/**'
+      - '/draft/**'
       - '/tools/sidekick/**'
       - '/fragments/**'
     target: /aemedge/query-index.json
