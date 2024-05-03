@@ -69,8 +69,8 @@ async function fetchTagList(prefix = 'default') {
   return window.tags[`${prefix}`];
 }
 
-function getContentType() {
-  const tags = getMetadata('article:tag').split(', ');
+function getContentType(doc = document) {
+  const tags = getMetadata('article:tag', doc).split(', ');
   return tags.find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
 }
 
