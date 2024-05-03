@@ -24,6 +24,7 @@
 .accordion .accordion-arrow {
   box-sizing: border-box;
   display: inline-block;
+  flex-shrink: 0;
   transform: rotate(0deg);
   transition: transform .3s ease;
 
