@@ -3,10 +3,10 @@ aside {
   --nav-links-font-weight: var(--udexTypographyFontWeightRegular);
   --nav-links-line-height: var(--udexTypographyNavigationLineHeight);
   --nav-text-color: var(--udexColorGrey8);
-  --line-separator-color: var(--udexColorGrey2);
+  --nav-line-separator-color: var(--udexColorGrey2);
   --nav-margin: var(--udexGridMargins);
   --side-nav-vertical-height: 2.5rem;
-  --active-marker-color: var(--udexColorBlue7);
+  --nav-active-marker-color: var(--udexColorBlue7);
 
   #sidenav {
     display: flex;
@@ -154,11 +154,11 @@ aside {
     @media (width < 980px) {
       &[aria-expanded='true'] {
         & .nav-side-home {
-          border-bottom: 1px solid var(--active-marker-color);
+          border-bottom: 1px solid var(--nav-active-marker-color);
           box-shadow: 0 5px 2px -2px #2236494d;
 
           & p::after {
-            color: var(--active-marker-color);
+            color: var(--nav-active-marker-color);
             transform: rotate(90deg) scale(1.4);
             transition: transform 0.3s;
           }
@@ -178,7 +178,7 @@ aside {
       @media (width >=980px) {
         & {
           padding: var(--udexSpacer16) 0;
-          border-bottom: 1px solid var(--line-separator-color);
+          border-bottom: 1px solid var(--nav-line-separator-color);
           width: 90%;
           box-shadow: unset;
           border-radius: unset;
