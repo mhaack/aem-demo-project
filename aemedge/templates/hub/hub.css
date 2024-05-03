@@ -126,6 +126,7 @@
       @media (width >= 640px) {
         & > * {
           --hero-margin--left: 48px;
+          --hero-margin--right: var(--udexGridMargins);
         }
       }
 
