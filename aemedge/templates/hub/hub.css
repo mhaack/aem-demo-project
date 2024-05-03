@@ -26,7 +26,7 @@
     grid-area: side-nav;
 
     @media (width >= 980px) {
-      margin: 0 0 0 var(--udexGridMargins);
+      margin-inline-start: var(--udexGridMargins);
       min-width: 200px;
     }
   }
