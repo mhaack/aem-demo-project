@@ -4,11 +4,15 @@ import {
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 
 function collapse(collapsable) {
-  collapsable.setAttribute('aria-expanded', 'false');
+  if (collapsable) {
+    collapsable.setAttribute('aria-expanded', 'false');
+  }
 }
 
 function expand(expandable) {
-  expandable.setAttribute('aria-expanded', 'true');
+  if (expandable) {
+    expandable.setAttribute('aria-expanded', 'true');
+  }
 }
 
 function setActiveLink() {
@@ -80,11 +84,17 @@ function buildList(headers) {
       subheaders = [];
     } else if (isH2) {
       currentParentHeader = header;
+      subheaders.forEach((subheader) => tocList.appendChild(buildListItem(subheader, [])));
+      subheaders = [];
     } else {
       subheaders.push(header);
     }
     if (index === headers.length - 1) {
-      tocList.appendChild(buildListItem(currentParentHeader, subheaders));
+      if (currentParentHeader) {
+        tocList.appendChild(buildListItem(currentParentHeader, subheaders));
+      } else {
+        subheaders.forEach((subheader) => tocList.appendChild(buildListItem(subheader, [])));
+      }
     }
   });
   return tocList;
