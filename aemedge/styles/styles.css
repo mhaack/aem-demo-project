@@ -347,6 +347,22 @@ main .button-container {
 
 main .section.background-dark .button-container {
   :is(.button) {
+    &:any-link {
+      color: var(--udexColorNeutralWhite);
+
+      &:hover {
+        color: var(--udexColorBlue3);
+      }
+
+      &:active {
+        color: var(--udexColorBlue5);
+      }
+
+      &:visited {
+        color: var(--udexColorBlue2);
+      }
+    }
+    
     &.primary {
       color: var(--udexColorBlue8);
       border-color: var(--udexColorNeutralWhite);
