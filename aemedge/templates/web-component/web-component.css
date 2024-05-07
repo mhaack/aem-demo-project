@@ -1,4 +1,3 @@
-/* TODO: WIP */
 html:has(.web-component) {
   height: 100%;
 }
@@ -6,16 +5,16 @@ html:has(.web-component) {
 .web-component {
   --headerHeight: 60px;
 
+  display: grid !important;
   grid-template:
-    'content' 1fr
-    'footer' auto
-    / 1fr;
-  height: 100%;
-  padding-top: var(--headerHeight);
+    'main'
+    'footer' !important;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto !important;
+  min-height: 100%;
 
   /* Master Header */
   > header {
-    /* grid-area: header; */
     background: var(--udexColorGrey1);
     position: fixed;
     top: 0;
@@ -30,9 +29,14 @@ html:has(.web-component) {
 
   /* Main Content */
   main {
-    display: flex;
-    flex-direction: column;
-    grid-area: content;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: repeat(var(--udexGridColumns), 1fr);
+    grid-template-rows: min-content;
+    column-gap: var(--udexGridXSGutters);
+    margin-top: var(--headerHeight);
+    padding: 0 var(--udexGridMargins);
+    position: relative;
 
     .default-content-wrapper {
       h2 {
@@ -45,24 +49,29 @@ html:has(.web-component) {
       }
     }
 
-    > :first-child {
-      > :first-child {
-        border: 0 none !important;
-        padding: unset;
+    .section {
+      border-bottom: 1px solid var(--udexCoreDividerLight);
+      grid-column: span var(--udexGridColumns);
+
+      &:first-child {
+        border: 0 none;
+        display: grid;
+        grid-column: 1 / -1;
+        grid-template-columns: subgrid;
+        margin-inline: calc(var(--udexGridMargins) * -1);
+
+        > div {
+          grid-column: span var(--udexGridColumns);
+          margin-inline: calc(var(--udexGridMargins));
+        }
       }
-    }
 
-    /* Sections */
-    > :not(.hero-container) {
-      margin-block-end: var(--udexSpacer40);
-
-      > :first-child {
-        border-top: 1px solid var(--udexCoreDividerLight);
-        padding-block-start: var(--udexSpacer40);
+      &:not(:first-child) {
+        padding-block: var(--udexSpacer40);
       }
 
-      & > * {
-        margin-inline: var(--udexGridMargins);
+      &[data-position="last"] {
+        border: 0 none;
       }
     }
   }
@@ -107,18 +116,11 @@ html:has(.web-component) {
 @media (width >= 640px) {
   .web-component {
     main {
+      column-gap: var(--udexGridSGutters);
+
       .default-content-wrapper {
         h2 {
           font-size: var(--udexTypographyHeadingMediumSFontSize);
-        }
-      }
-
-      /* Sections */
-      > :not(.hero-container) {
-        margin-block-end: var(--udexSpacer48);
-
-        > :first-child {
-          padding-block-start: var(--udexSpacer48);
         }
       }
     }
@@ -128,10 +130,8 @@ html:has(.web-component) {
 /* M */
 @media (width >= 980px) {
   .web-component {
-    display: grid;
-
     main {
-      margin: 0 0 0 var(--udexGridMargins);
+      column-gap: var(--udexGridMGutters);
 
       .default-content-wrapper {
         h2 {
@@ -139,26 +139,24 @@ html:has(.web-component) {
         }
       }
 
-      /* Sections */
-      > :not(.hero-container) {
-        padding-inline: var(--udexGridMargins);
+      .section {
+        &:first-child {
+          > div {
+            grid-column: 2 / 13;
+            margin-inline: unset;
+          }
+        }
 
-        /* stylelint-disable */
-        /* TODO: CH grid settings also valid for DS? */
-        /* padding-inline: var(--udexGridGutters) var(--udexGridMargins); */
-        /* stylelint-enable */
-
-        & > * {
-          margin-inline: unset;
+        &:not(:first-child) {
+          grid-column: 2 / 13;
+          padding-block: var(--udexSpacer48);
         }
       }
     }
 
     /* Page Footer */
-    > footer {
-      /* TODO: Should stay 72px? */
-      margin: 0 0 0 var(--udexGridMMargins);
-    }
+    /* stylelint-disable-next-line */
+    > footer {}
   }
 }
 
@@ -166,12 +164,24 @@ html:has(.web-component) {
 @media (width >= 1280px) {
   .web-component {
     main {
-      /* Sections */
-      > :not(.hero-container) {
-        margin-block-end: var(--udexSpacer56);
+      margin-top: calc(var(--headerHeight) + var(--udexSpacer56));
 
-        > :first-child {
-          padding-block-start: var(--udexSpacer56);
+      .section {
+        &:not(:first-child) {
+          grid-column: 2 / 11;
+          padding-block: var(--udexSpacer56);
+        }
+
+        &.design-system-toc-container {
+          grid-column: 11 / 13; /* Move TOC always to end of the column */
+          grid-row: 2; /* Move TOC always to second row */
+          border: 0 none;
+          padding: 0;
+          position: sticky;
+          display: block;
+          right: var(--udexGridMargins);
+          top: 10%;
+          z-index: 1;
         }
       }
     }
@@ -180,12 +190,8 @@ html:has(.web-component) {
 
 /* XL */
 @media (width >= 1600px) {
-  .web-component {
-    /* stylelint-disable */
-    /* TODO: This breaks layout */
-    /* --udexGridMargins: 246px; */
-    /* stylelint-enable */
-  }
+  /* stylelint-disable-next-line */
+  .web-component {}
 }
 
 /**

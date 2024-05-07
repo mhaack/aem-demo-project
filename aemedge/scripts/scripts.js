@@ -338,7 +338,7 @@ async function loadEager(doc) {
 }
 
 function isDesignSystemSite() {
-  return document.body.classList.contains('design-system');
+  return document.body.classList.contains('web-component');
 }
 
 /**
