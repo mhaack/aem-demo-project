@@ -1,0 +1,15 @@
+.error-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: var(--udexSpacer16);
+
+  .button-container {
+    margin: 0;
+  }
+}
+
+@media (width >= 640px) {
+  .error-buttons {
+    flex-direction: row;
+  }
+}
