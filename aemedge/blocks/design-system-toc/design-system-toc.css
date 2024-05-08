@@ -71,16 +71,20 @@
         }
 
         &:hover,
-        &:focus {
+        &:focus,
+        &:active {
           color: var(--udexColorBlue7);
         }
       }
 
-      &:hover,
-      &:focus {
+      &:hover {
         color: var(--udexCoreHeadingDark);
         background: var(--sapList_Hover_Background);
         border-radius: var(--udexRadiusXS);
+      }
+
+      &:focus {
+        color: var(--udexCoreHeadingDark);
       }
     }
   }

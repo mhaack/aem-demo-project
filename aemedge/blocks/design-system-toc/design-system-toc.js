@@ -70,26 +70,6 @@ function updateTocAndScrollToContent(e) {
 }
 
 /**
- * Set link as the current link.
- * @param element The link element
- */
-// TODO
-// eslint-disable-next-line
-function setLinkAsCurrent(element) {
-  const currentLink = element;
-  const targetElement = document.getElementById(element.hash.substring(1));
-
-  if (currentLink) {
-    currentLink.setAttribute('aria-current', 'true');
-  }
-
-  window.scrollTo({
-    top: targetElement.offsetTop,
-    behavior: 'smooth',
-  });
-}
-
-/**
  * Create a list item element with an anchor element.
  * @param h2 The h2 element
  * @returns {Element} The list item element
@@ -146,8 +126,6 @@ function initTocList(block) {
 
   if (lists.length > 0) {
     // Always show the first list
-    // TODO
-    // setLinkAsCurrent(lists[0].querySelector('a'));
     lists[0].setAttribute('aria-hidden', 'false');
   }
 
