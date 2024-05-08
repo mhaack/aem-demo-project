@@ -1,1 +1,102 @@
-@import url("../footer/footer.css");
+.design-system-footer-wrapper {
+  background: var(--udexCoreSurfaceHigher);
+
+  .section {
+    .default-content-wrapper {
+      align-items: start;
+      display: flex;
+      flex-direction: column;
+      gap: var(--udexSpacer16);
+    }
+
+    /* Logo */
+    p:has(+ ul):has(> a) {
+      margin: 0;
+      padding: 0;
+
+      a {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+      }
+
+      .icon-sap-logo {
+        display: block;
+        width: 52px;
+      }
+    }
+
+    /* Links */
+    p + ul {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 0;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+
+      li {
+        line-height: 1;
+        padding: 14px 0;
+        width: 50%;
+
+        /* stylelint-disable-next-line */
+        a {
+          color: var(--udexColorGrey8);
+          text-decoration: none;
+
+          &:visited {
+            color: var(--udexColorGrey8);
+          }
+
+          &:hover,
+          &:focus{
+            color: var(--udexColorGrey8);
+            cursor: pointer;
+            text-decoration: underline;
+          }
+
+          &:active {
+            color: var(--udexColorGrey8);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* M */
+@media (width >= 980px) {
+  .design-system-footer-wrapper {
+    .section {
+      .default-content-wrapper {
+        align-items: center;
+        flex-direction: row;
+        gap: var(--udexSpacer24);
+      }
+
+      /* Links */
+      p + ul {
+        display: flex;
+        flex-direction: row;
+        gap: var(--udexSpacer16);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        &::before {
+          background: var(--udexCoreDividerLight);
+          content: "";
+          width: 1px;
+        }
+
+        li {
+          padding-inline: 12px;
+          width: auto;
+        }
+      }
+    }
+  }
+}
