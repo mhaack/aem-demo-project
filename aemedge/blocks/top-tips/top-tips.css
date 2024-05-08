@@ -13,6 +13,7 @@
     .default-content-wrapper {
       h3 {
         font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+        font-weight: var(--udexTypographyFontWeightMedium);
         margin: 0 0 var(--udexSpacer16);
       }
     }
