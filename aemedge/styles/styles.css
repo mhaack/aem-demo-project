@@ -362,7 +362,7 @@ main .section.background-dark .button-container {
         color: var(--udexColorBlue2);
       }
     }
-    
+
     &.primary {
       color: var(--udexColorBlue8);
       border-color: var(--udexColorNeutralWhite);
@@ -621,9 +621,10 @@ main .section {
 }
 
 .section.additional-reading {
-  padding: var(--udexSpacer24) var(--udexSpacer20);
-  border-radius: var(--udexSpacer8);
+  background-color: var(--udexColorGrey1);
+  border-radius: var(--udexSpacer12);
   margin-block-end: var(--udexSpacer56);
+  padding: var(--udexSpacer24) var(--udexSpacer20);
 
   :first-child {
     margin-block-start: 0;
