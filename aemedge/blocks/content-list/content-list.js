@@ -83,7 +83,7 @@ export default async function decorateBlock(block) {
   let viewBtn;
   if (itemCount > 10 && itemCount < 20) {
     articleStream = articleStream.slice(0, 10); // only show first 10, rest will be paginated
-    viewBtn = new Button('Show More', 'icon-link-arrow');
+    viewBtn = new Button('Show More', 'icon-slim-arrow-right', 'secondary', 'large');
   }
   const authEntries = await allAuthorEntries(articleStream);
   const cardList = ul({ class: 'card-items' });

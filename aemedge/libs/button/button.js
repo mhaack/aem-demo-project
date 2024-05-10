@@ -1,10 +1,15 @@
-import { button, p, span } from '../../scripts/dom-builder.js';
+import {
+  a, button, p, span,
+} from '../../scripts/dom-builder.js';
 import { loadCSS, decorateIcons } from '../../scripts/aem.js';
 
 export default class Button {
-  constructor(label, icon) {
+  constructor(label, icon, level, size, href) {
     this.label = label;
     this.icon = icon;
+    this.level = level;
+    this.size = size;
+    this.href = href;
   }
 
   getIcon() {
@@ -19,11 +24,11 @@ export default class Button {
       { class: 'button-wrapper' },
       button(
         {
-          class: 'button',
+          class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''}`,
           type: 'button',
           'aria-label': this.label,
         },
-        this.label,
+        this.href ? a({ href: this.href }, this.label) : span(this.label),
         this.getIcon(),
       ),
     );

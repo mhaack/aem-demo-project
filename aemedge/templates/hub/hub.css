@@ -24,6 +24,7 @@
 
   & > aside {
     grid-area: side-nav;
+    transition: margin-inline 0.3s ease-in-out;
 
     @media (width >= 980px) {
       margin-inline-start: var(--udexGridMargins);
@@ -72,26 +73,26 @@
         }
       }
     }
-  }
 
-  & .button-container:has(> a) {
-    margin-block: 0;
-    padding-block-start: var(--udexSpacer24);
+    & .button-container:has(> a) {
+      margin-block: 0;
+      padding-block-start: var(--udexSpacer24);
 
-    &:not(:only-child) {
-      padding-block: var(--udexSpacer24) var(--udexSpacer56);
-    }
+      &:not(:only-child) {
+        padding-block: var(--udexSpacer24) var(--udexSpacer56);
+      }
 
-    & + h2 {
-      padding-block-start: var(--udexSpacer56);
-      margin-block-start: 0;
+      & + h2 {
+        padding-block-start: var(--udexSpacer56);
+        margin-block-start: 0;
+      }
     }
   }
 }
 
 .hub-l2.appear {
   grid-template:
-    'header' 60px
+    'header' var(--nav-height)
     'main-content' auto
     'footer' auto
     / 1fr;
@@ -117,7 +118,7 @@
     --hero-margin--right: 0;
 
     grid-template:
-      'header header' 60px
+      'header header' var(--nav-height)
       'side-nav main-content' auto
       'footer footer' auto
       / min-content 1fr;

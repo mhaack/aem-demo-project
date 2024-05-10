@@ -2,13 +2,14 @@
 
 /* header and nav layout */
 header {
+  --grid-width: calc(100vw - 2 * var(--udexGridMargins));
+  --column-width: calc((var(--grid-width) - (11 * var(--udexGridGutters))) / 12);
   --nav-active-marker-color: var(--udexColorBlue7);
   --nav-active-tab-underline-radius: 2px;
   --nav-active-tab-underline-height: 3px;
   --nav-box-shadow-l: 0 10px 30px 0 #2235484d;
   --nav-box-shadow-s: 0 2px 4px 0 #22354833;
   --nav-header-margin: var(--udexGridMargins);
-  --nav-height: 60px;
   --nav-line-separator-color: var(--udexColorGrey2);
   --nav-links-font-size: var(--udexTypographyNavigationRegularMFontSize);
   --nav-links-font-weight: var(--udexTypographyFontWeightRegular);
@@ -16,7 +17,8 @@ header {
   --nav-tab-list-spacing: var(--udexSpacer24);
   --nav-text-color: var(--udexColorGrey8);
 
-  height: var(--nav-height);
+  position: sticky;
+  top: calc(-1 * var(--nav-primary-height));
   z-index: 100;
 
   & ul, p {
@@ -49,6 +51,8 @@ header {
       height: 1rem;
       margin-inline-start: var(--udexSpacer4);
       mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
+      transition: transform .3s ease;
+      transform: rotate(0deg);
       width: 1rem;
     }
   }
@@ -59,7 +63,7 @@ header {
 
   & .nav__tab-list, .nav__list-parent {
     & li :is(a, .text) {
-      padding:var(--udexSpacer16) var(--udexSpacer12) var(--udexSpacer16) var(--udexSpacer8);
+      padding: var(--udexSpacer16) var(--udexSpacer12) var(--udexSpacer16) var(--udexSpacer8);
 
       &:hover {
         text-decoration: underline;
@@ -130,7 +134,7 @@ header {
     align-items: center;
     background: var(--udexColorGrey1);
     display: flex;
-    height: var(--nav-height);
+    height: var(--nav-primary-height);
     justify-content: space-between;
     inset: 0;
     position: relative;
@@ -201,6 +205,7 @@ header {
       }
 
       & .icon {
+        display: block;
         height: 2rem;
         width: 4rem;
       }
@@ -357,7 +362,7 @@ header {
           background: var(--nav-active-marker-color);
           border-top-left-radius: var(--nav-active-tab-underline-radius);
           border-top-right-radius: var(--nav-active-tab-underline-radius);
-          bottom: calc((-1 * ((var(--nav-height) - 32px) / 2)));
+          bottom: calc((-1 * ((var(--nav-primary-height) - 32px) / 2)));
           content: '';
           display: block;
           height: var(--nav-active-tab-underline-height);
@@ -372,10 +377,10 @@ header {
 
       & .nav-bar {
         background: var(--sapNeutralBackground);
-        height: calc(100vh - var(--nav-height));
+        height: calc(100vh - var(--nav-primary-height));
         margin: 0;
         padding-block-start: var(--nav-tab-list-spacing);
-        top: var(--nav-height);
+        top: var(--nav-primary-height);
         transition: margin 0.3s ease-in-out;
         width: 100%;
       }
@@ -413,18 +418,16 @@ header {
         }
 
         & .nav-sections > .default-content-wrapper {
-          display: inline-flex;
-          height: 100%;
           margin: 0;
 
-          & > ul {
+          & > li {
             align-items: center;
             display: inline-flex;
-            gap: var(--nav-tab-list-spacing);
+            height: 100%;
+          }
 
-            & > li :is(a, .text) {
-              border-bottom: unset;
-            }
+          & > ul > li :is(a, .text) {
+            border-bottom: unset;
           }
         }
       }
@@ -502,19 +505,6 @@ header {
       }
     }
 
-    & .nav__tab-list {
-      gap: var(--nav-tab-list-spacing);
-
-      & li :is(a, .text) {
-        padding: unset;
-
-        &:hover {
-          color: var(--udexColorBlue7);
-          text-decoration: none;
-        }
-      }
-    }
-
     & .nav__list-parent {
       & .text {
         align-items: center;
@@ -585,6 +575,28 @@ header {
 
         &::after {
           display: none;
+        }
+      }
+    }
+
+    & .nav__tab-list {
+      & > .default-content-wrapper {
+        display: inline-flex;
+        height: 100%;
+
+        & > ul {
+          align-items: center;
+          display: inline-flex;
+          gap: var(--nav-tab-list-spacing);
+
+          & > li > :is(a, .text) {
+            padding: unset;
+
+            &:hover {
+              color: var(--udexColorBlue7);
+              text-decoration: none;
+            }
+          }
         }
       }
     }

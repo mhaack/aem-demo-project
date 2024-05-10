@@ -1,8 +1,9 @@
-import { getMetadata, decorateIcons } from '../../scripts/aem.js';
+import { getMetadata, decorateIcons, loadCSS } from '../../scripts/aem.js';
 import { loadFragment } from '../../scripts/scripts.js';
 import {
   div, span, input, p, button, a, nav as navBuilder,
 } from '../../scripts/dom-builder.js';
+import Button from '../../libs/button/button.js';
 
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
@@ -94,7 +95,7 @@ function getActionBar(nav, navSections) {
       {
         class: 'button',
         type: 'button',
-        'aria-controls': 'nav',
+        'aria-controls': 'nav-primary',
         'aria-label': 'Open Navigation',
       },
       span({ class: 'icon icon-burger' }),
@@ -107,7 +108,7 @@ function getActionBar(nav, navSections) {
       {
         class: 'button',
         type: 'button',
-        'aria-controls': 'nav',
+        'aria-controls': 'nav-primary',
         'aria-label': 'Close Navigation',
       },
       span({ class: 'icon icon-close' }),
@@ -209,8 +210,8 @@ function createDropMenu(sections) {
 
 async function generateTopNavigation() {
   // load nav as fragment
-  const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
+  const navMeta = getMetadata('global-nav');
+  const navPath = navMeta ? new URL(navMeta).pathname : '/global-nav';
   const fragment = await loadFragment(navPath);
   const primaryNav = navBuilder({ id: 'nav-primary', 'aria-label': 'primary navigation' });
   while (fragment.firstElementChild) primaryNav.append(fragment.firstElementChild);
@@ -239,13 +240,112 @@ async function generateTopNavigation() {
   return primaryNav;
 }
 
+function removeIconString(text) {
+  return text ? text.replace(/:.+:/, '') : '';
+}
+
+async function generateSecondaryNavigation() {
+  const navMeta = getMetadata('nav');
+  if (!navMeta) {
+    return null;
+  }
+
+  const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
+  const navFragment = await loadFragment(navPath);
+  if (!navFragment) {
+    return null;
+  }
+
+  loadCSS(`${window.hlx.codeBasePath}/blocks/header/secondary-nav.css`);
+
+  const [title, tabs, action] = navFragment.children;
+
+  const secondNav = navBuilder(
+    { id: 'nav-secondary', 'aria-label': 'secondary navigation' },
+    title?.children.length > 0 ? div({ class: 'nav-secondary-title' }, ...title.children) : null,
+    div(
+      { class: 'nav-secondary__dropdown' },
+      tabs?.children.length > 0 ? div({ class: 'nav-secondary-tabs' }, ...tabs.children) : null,
+      action?.children.length > 0 ? div({ class: 'nav-secondary-actions' }, ...action.children) : null,
+    ),
+  );
+
+  const sideSections = secondNav.querySelector('.nav-secondary-tabs');
+  let tabText;
+  if (sideSections) {
+    createDropMenu(sideSections);
+    sideSections.querySelectorAll('a').forEach((link) => {
+      const href = new URL(link.href);
+      if (window.location.pathname === href.pathname) {
+        link.parentElement.setAttribute('aria-current', 'page');
+      }
+    });
+    const activeTabText = removeIconString(sideSections.querySelector('li[aria-current="page"] a')?.textContent);
+    const firstTabText = removeIconString(sideSections.querySelector('a')?.textContent);
+    tabText = activeTabText || firstTabText;
+  }
+
+  const navActions = secondNav.querySelector('.nav-secondary-actions');
+  if (navActions) {
+    navActions.querySelectorAll('a').forEach((link, index) => {
+      const isSecondary = link.parentElement.tagName === 'EM';
+      const text = link?.textContent || null;
+      const href = link?.href || null;
+      if (index === 0) {
+        const navCta = new Button(text, null, isSecondary ? 'secondary' : 'primary', 'small', href);
+        navActions.append(navCta.render());
+      }
+      const navCtaLarge = new Button(text, null, isSecondary ? 'secondary' : 'primary', 'medium', href);
+      navActions.append(navCtaLarge.render());
+    });
+    navActions.firstElementChild.remove();
+  }
+
+  secondNav.querySelectorAll('.default-content-wrapper a').forEach((link) => {
+    const href = new URL(link.href);
+    if (window.location.pathname === href.pathname) {
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+
+  const navTitle = removeIconString(secondNav.querySelector('.nav-secondary-title')?.textContent);
+  const mobileDropdownButton = button(
+    {
+      class: 'nav-secondary__dropdown-trigger',
+      'aria-expanded': 'false',
+      'aria-haspopup': 'true',
+      'aria-label': 'Secondary Navigation toggle',
+      'aria-controls': 'nav-secondary',
+    },
+    span(
+      { class: 'nav-secondary__dropdown-trigger__content' },
+      navTitle ? span({ class: 'nav-secondary__dropdown-trigger__title' }, navTitle) : null,
+      tabText ? span({ class: 'nav-secondary__dropdown-trigger__tab-label' }, tabText) : null,
+    ),
+  );
+  mobileDropdownButton.addEventListener('click', () => {
+    const expanded = secondNav.getAttribute('aria-expanded') === 'true';
+    toggleAllNavSections(secondNav);
+    secondNav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+    mobileDropdownButton.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  });
+  secondNav.insertBefore(mobileDropdownButton, secondNav.firstChild);
+  return secondNav;
+}
+
 /**
  * decorates the header, mainly the nav
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
   const nav = await generateTopNavigation();
-  if (nav) block.append(nav);
+  if (nav) {
+    block.append(nav);
+  }
+  const secondNav = await generateSecondaryNavigation();
+  if (secondNav) {
+    block.append(secondNav);
+  }
   document.addEventListener('click', (event) => {
     if (nav.contains(event.target)) return;
     toggleAllNavSections(nav);

@@ -3,7 +3,7 @@ html:has(.web-component) {
 }
 
 .web-component {
-  --headerHeight: 60px;
+  --headerHeight: var(--nav-height);
 
   display: grid !important;
   grid-template:
