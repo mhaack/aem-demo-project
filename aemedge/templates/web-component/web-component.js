@@ -1,5 +1,20 @@
 import { div, nav } from '../../scripts/dom-builder.js';
-import { buildBlock } from '../../scripts/aem.js';
+import { buildBlock, decorateBlock } from '../../scripts/aem.js';
+
+function decorateLiveExamples(element) {
+  element.querySelectorAll('a').forEach((link) => {
+    const { href, textContent } = link;
+    // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
+    if (href !== textContent || !href.includes('https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/')) {
+      return;
+    }
+
+    const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
+
+    link.parentElement.replaceWith(embedBlock);
+    decorateBlock(embedBlock);
+  });
+}
 
 function setAnatomyRequirementStatus() {
   const requirements = document.querySelectorAll('.web-component ol:has(li > em + strong) em');
@@ -91,6 +106,8 @@ async function decorate(doc) {
   setAnatomyRequirementStatus();
 
   markFirstAndLastInSectionCategory();
+
+  decorateLiveExamples(doc);
 }
 
 decorate(document);

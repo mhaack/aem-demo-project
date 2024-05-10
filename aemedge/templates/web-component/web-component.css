@@ -104,6 +104,35 @@ html:has(.web-component) {
   picture {
     display: block;
   }
+
+  .block.columns.columns-2-cols {
+    > div {
+      grid-gap: var(--udexSpacer16) var(--udexSpacer48);
+      display: grid;
+      align-items: start;
+
+      p {
+        margin: 0;
+      }
+
+      .embed-wrapper > p > p:last-child {
+        margin-top: var(--udexSpacer16);
+      }
+
+      ul {
+        padding-inline-start: 1.5rem;
+      }
+
+      > div {
+        width: 100%;
+        word-wrap: anywhere;
+      }
+    }
+
+    >div:not(:last-child) {
+      margin-bottom: var(--udexSpacer32);
+    }
+  }
 }
 
 /* XS */
@@ -156,6 +185,10 @@ html:has(.web-component) {
             grid-column: 2 / 13;
             margin-inline: unset;
           }
+        }
+
+        .columns.columns-2-cols > div {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
         &:not(:first-child) {

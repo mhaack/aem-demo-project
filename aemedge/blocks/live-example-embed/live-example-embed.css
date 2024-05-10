@@ -1,0 +1,14 @@
+.live-example-embed {
+  > iframe {
+    display: block;
+    height: 154px;
+  }
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  @media (width >= 980px) {
+    margin-top: 0;
+  }
+}
+
