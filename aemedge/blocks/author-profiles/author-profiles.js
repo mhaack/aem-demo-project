@@ -7,7 +7,7 @@ async function addAuthorProfiles(block, keys) {
   if (entries && entries.length) {
     const multipleProfiles = keys.length > 1;
     entries.forEach((authorEntry) => {
-      block.append(Profile.fromAuthorEntry(authorEntry).render(false, multipleProfiles));
+      block.append(Profile.fromAuthorEntry(authorEntry).renderCard(multipleProfiles));
     });
     if (multipleProfiles) {
       block.classList.add(`elems${keys.length}`);

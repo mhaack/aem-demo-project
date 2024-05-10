@@ -53,7 +53,7 @@ export default class Avatar {
         p(this.description),
         this.path ? p(
           { class: 'link' },
-          a({ href: this.path, 'aria-label': 'Read more' }, 'See more by this author'),
+          a({ href: this.path, 'aria-label': 'Read more' }, 'Link'),
           span({ class: 'icon icon-link-arrow' }),
         ) : '',
       ),

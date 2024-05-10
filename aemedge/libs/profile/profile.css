@@ -30,6 +30,11 @@
         overflow: hidden;
         position: relative;
 
+        &:hover {
+            border: 1px solid var(--udexColorBlue6);;
+            box-shadow: var(--sapContent_Shadow1);
+        }
+
         & > div {
             border: none;
             box-shadow: none;

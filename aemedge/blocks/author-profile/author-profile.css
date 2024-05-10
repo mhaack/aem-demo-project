@@ -1,1 +1,13 @@
 /* Uses common styles */
+.author-profiles {
+    & > .plink {
+        text-decoration: none;
+    
+        &:any-link,
+        &:visited,
+        &:hover,
+        &:focus {
+            color: inherit;
+        }
+    }
+}
