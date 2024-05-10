@@ -21,12 +21,12 @@ function buildAuthorEl(author) {
   return a({ class: 'media-blend__author', href: buildAuthorUrl(author) }, author);
 }
 
-function addAuthorAvatarImage(authorName, avatar) {
+function getAuthorAvatarImage(authorName) {
   return getAuthorEntries([authorName]).then((authorEntries) => {
     if (authorEntries && authorEntries.length > 0) {
-      const picture = Avatar.fromAuthorEntry(authorEntries[0]).getImage();
-      avatar.append(picture.querySelector('img')); /* default slot */
+      return Avatar.fromAuthorEntry(authorEntries[0]).getImage();
     }
+    return null;
   });
 }
 
@@ -37,12 +37,16 @@ function decorateMetaInfo() {
   const authorEl = span({ class: 'media-blend__authors' });
   if (authorNames.length > 0) {
     if (authorNames.length === 1 && !!authorNames[0]) {
-      const avatar = document.createElement('udex-avatar');
-      avatar.setAttribute('size', 'XS');
-      avatar.setAttribute('initials', calculateInitials(authorNames[0]));
-      avatar.setAttribute('color-scheme', 'Neutral');
-      addAuthorAvatarImage(authorNames[0], avatar);
-      infoBlockWrapper.append(avatar);
+      getAuthorAvatarImage(authorNames[0]).then((avatarImage) => {
+        if (avatarImage) {
+          const avatar = document.createElement('udex-avatar');
+          avatar.setAttribute('size', 'XS');
+          avatar.setAttribute('initials', calculateInitials(authorNames[0]));
+          avatar.setAttribute('color-scheme', 'Neutral');
+          avatar.append(avatarImage.querySelector('img'));
+          infoBlockWrapper.prepend(avatar);
+        }
+      });
       authorEl.append(buildAuthorEl(authorNames[0]));
     } else {
       authorNames.forEach((author) => {
