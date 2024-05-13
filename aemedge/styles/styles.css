@@ -56,14 +56,16 @@
 
 :root {
   --background-color: var(--udexColorNeutralWhite);
-  --text-color: var(--sapShell_TextColor);
+  --card-tile-height: 360px;
+  --column-width: calc((var(--grid-width) - (11 * var(--udexGridGutters))) / 12);
+  --grid-width: calc(100vw - 2 * var(--udexGridMargins));
+  --hero-margin--left: var(--udexGridMargins);
+  --hero-margin--right: var(--udexGridMargins);
   --udexGridGutters: var(--udexGridXSGutters);
   --udexGridMargins: var(--udexGridXSMargins);
   --sapFontFamily: '72 Brand Variable', '72 Brand Variable Fallback', 'Arial',
     'Helvetica', 'sans-serif';
-  --hero-margin--left: var(--udexGridMargins);
-  --hero-margin--right: var(--udexGridMargins);
-  --card-tile-height: 360px;
+  --text-color: var(--sapShell_TextColor);
 }
 
 /* S */
@@ -116,6 +118,10 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+
+  &:has(dialog[open]) {
+    overflow: hidden;
+  }
 
   &:has(#nav-secondary) {
     --nav-height: calc(var(--nav-primary-height) + var(--nav-secondary-height));

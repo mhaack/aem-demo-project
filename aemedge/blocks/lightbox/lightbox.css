@@ -1,0 +1,76 @@
+/* stylelint-disable selector-class-pattern */
+
+.lightbox-modal {
+  height: 60vh;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  width: var(--grid-width);
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .lightbox-modal__content {
+    flex-grow: 1;
+    position: relative;
+
+    .lightbox-modal__content__image-container {
+      inset: 0;
+      position: absolute;
+      padding: var(--udexSpacer32);
+
+      picture {
+        height: 100%;
+        width: 100%;
+      }
+
+      img {
+        height: inherit;
+        object-fit: contain;
+        width: inherit;
+      }
+    }
+  }
+
+  .lightbox-modal__header__caption {
+    border-bottom: 1px solid var(--udexCoreDividerLight);
+    min-height: calc(var(--udexTypographyHeadingMediumXSFontSize) + var(--udexSpacer32) + var(--udexSpacer32));
+    padding: var(--udexSpacer32);
+    padding-inline-end: 104px;
+  }
+}
+
+.lightbox {
+  p {
+    margin: 0;
+  }
+
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-block-start: var(--udexSpacer20);
+
+    &:not(:last-child) {
+      margin-block-end: var(--udexSpacer20);
+    }
+  }
+}
+
+@media (width >= 980px) {
+  .lightbox-modal {
+    width: calc((9 * var(--udexGridGutters)) + (10 * var(--column-width)));
+  }
+}
+
+@media (width >= 1280px) {
+  .lightbox-modal {
+    width: calc((7 * var(--udexGridGutters)) + (8 * var(--column-width)));
+  }
+}
+
+@media (width >= 1600px) {
+  .lightbox-modal {
+    width: calc((5 * var(--udexGridGutters)) + (6 * var(--column-width)));
+  }
+}

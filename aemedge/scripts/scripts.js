@@ -295,9 +295,7 @@ function initSidekick() {
     decorateBlock(preflightBlock);
     await loadBlock(preflightBlock);
     const { default: getModal } = await import(`${window.hlx.codeBasePath}/blocks/modal/modal.js`);
-    const customModal = await getModal('dialog-modal', () => section.innerHTML, (modal) => {
-      modal.querySelector('button[name="close"]')?.addEventListener('click', () => modal.close());
-    });
+    const customModal = await getModal('dialog-modal', () => Array.from(section.children));
     customModal.showModal();
   };
 

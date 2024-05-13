@@ -5,7 +5,7 @@
 }
 
 @media (width >= 1600px) {
-  main {
+  .article {
     --udexGridMargins: 246px;
   }
 }
@@ -130,7 +130,7 @@ main {
   color: var(--udexColorGrey9);
 }
 
-.article p .picture-container {
+.article :is(.lightbox, p .picture-container) {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;

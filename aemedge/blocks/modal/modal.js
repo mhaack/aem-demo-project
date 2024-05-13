@@ -1,4 +1,7 @@
-import { loadCSS } from '../../scripts/aem.js';
+import { decorateIcons, loadCSS } from '../../scripts/aem.js';
+import {
+  button, div, domEl, span,
+} from '../../scripts/dom-builder.js';
 
 /**
  * Creates a modal with id modalId, or if that id already exists, returns the existing modal.
@@ -13,26 +16,33 @@ import { loadCSS } from '../../scripts/aem.js';
 export default async function getModal(modalId, createContent, addEventListeners) {
   await loadCSS(`${window.hlx.codeBasePath}/blocks/modal/modal.css`);
 
-  let dialogElement = document.getElementById(modalId);
-  if (!dialogElement) {
-    dialogElement = document.createElement('dialog');
-    dialogElement.id = modalId;
+  let dialog = document.getElementById(modalId);
+  if (!dialog) {
+    const content = createContent?.() || [];
+    const dialogContent = div({ class: 'modal-content' }, ...(Array.isArray(content) ? content : [content]));
 
-    const contentHTML = createContent?.() || '';
+    const closeButton = button(
+      { class: 'close-button', 'aria-label': 'Close', type: 'button' },
+      span({ class: 'icon icon-close' }),
+    );
+    decorateIcons(closeButton);
+    closeButton.addEventListener('click', () => dialog.close());
 
-    dialogElement.innerHTML = `
-          <button name="close"><span class="close-x"></span></button>
-          ${contentHTML}
-      `;
+    dialog = domEl('dialog', { id: modalId }, dialogContent, closeButton);
 
-    document.body.appendChild(dialogElement);
+    // close dialog on clicks outside the dialog. https://stackoverflow.com/a/70593278/79461
+    dialog.addEventListener('click', (event) => {
+      const dialogDimensions = dialog.getBoundingClientRect();
+      if (event.clientX < dialogDimensions.left || event.clientX > dialogDimensions.right
+        || event.clientY < dialogDimensions.top || event.clientY > dialogDimensions.bottom) {
+        dialog.close();
+      }
+    });
 
-    dialogElement.querySelector('button[name="close"]')
-      .addEventListener('click', () => {
-        dialogElement.close();
-      });
+    addEventListeners?.(dialog);
 
-    addEventListeners?.(dialogElement);
+    document.body.appendChild(dialog);
   }
-  return dialogElement;
+
+  return dialog;
 }
