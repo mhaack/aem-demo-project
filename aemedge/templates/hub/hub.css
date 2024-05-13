@@ -110,6 +110,10 @@
           margin: unset;
         }
       }
+
+      & > .section > .default-content-wrapper > p {
+        width: 75%;
+      }
     }
   }
 
