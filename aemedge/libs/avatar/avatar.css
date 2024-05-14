@@ -88,7 +88,11 @@
     font-size: var(--udexTypographyBodyXSFontSize);
     color: var(--udexColorGrey7);
     text-align: left;
-    margin: 0;
+    margin-block: 0 6px;
+  }
+
+  & .link {
+    padding-block-start: 6px;
   }
 }
 
