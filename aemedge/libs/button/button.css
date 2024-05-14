@@ -19,11 +19,6 @@
     padding-block: var(--button-block-padding);
     padding-inline: var(--button-inline-padding);
 
-    a {
-      text-decoration: unset;
-      color: unset;
-    }
-
     &, &.large {
       /* Large styles as default */
       --button-icon-spacing: var(--udexSpacer8);

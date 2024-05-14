@@ -1,6 +1,4 @@
-import {
-  a, button, p, span,
-} from '../../scripts/dom-builder.js';
+import { button, p, span } from '../../scripts/dom-builder.js';
 import { loadCSS, decorateIcons } from '../../scripts/aem.js';
 
 export default class Button {
@@ -28,12 +26,17 @@ export default class Button {
           type: 'button',
           'aria-label': this.label,
         },
-        this.href ? a({ href: this.href }, this.label) : span(this.label),
+        this.label ? span(this.label) : '',
         this.getIcon(),
       ),
     );
     if (this.icon) {
       decorateIcons(btn);
+    }
+    if (this.href) {
+      btn.addEventListener('click', () => {
+        window.location.href = this.href;
+      });
     }
     return btn;
   }
