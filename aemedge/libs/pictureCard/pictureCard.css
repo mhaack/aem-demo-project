@@ -127,6 +127,16 @@
         display: none;
       }
     }
+
+    &:hover {
+        border: 1px solid var(--udexColorBlue6);
+        box-shadow: var(--sapContent_Shadow1);
+    }
+    
+    &:active {
+      border: 1px solid var(--udexColorBlue7);
+      box-shadow: var(--sapContent_Shadow0);
+    }
   }
 }
 
