@@ -1,33 +1,38 @@
 .article-collection {
-    container: article-collection / inline-size;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
     gap: var(--udexSpacer16);
 
-    & ul {
-        list-style: none;
+    & p {
         margin: 0;
-        padding: 0;
-        display: contents;
+        text-wrap: wrap;
+        white-space: wrap;
 
-        & .card {
-            grid-column: 1 / -1;
-
-            @media (width >= 980px) {
-                & {
-                    grid-column: span 4;
-                }
-            }
-
-            @container article-collection (240px < width < 480px) {
-                grid-column: 1 / -1;
-            }
+        &:not(:last-child) {
+            margin-block-end: var(--udexSpacer4);
         }
     }
 
-    @media (width >= 980px) {
-        & {
-            grid-template-columns: repeat(9, 1fr);
+    & em {
+        font-size: var(--udexTypographyBodyXSFontSize);
+        line-height: var(--udexTypographyBodyLineHeight);
+        color: var(--udexColorGrey7);
+    }
+
+    & .eyebrow {
+        font-size: var(--udexTypographyEyebrowSFontSize);
+        font-weight: var(--udexTypographyFontWeightMedium);
+        letter-spacing: 0.03em;
+        line-height: var(--udexTypographyEyebrowLineHeight);
+        text-transform: uppercase;
+    }
+
+    & .button-container .button:is(a):not(.primary, .secondary) {
+        text-decoration: underline;
+        text-wrap: wrap;
+        white-space: wrap;
+
+        &::after {
+            display: none;
         }
     }
 }

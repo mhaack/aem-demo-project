@@ -18,7 +18,7 @@ function decorate(doc) {
     const parent = pictureEl.parentElement;
     const { nextElementSibling } = parent;
     const isCaption = nextElementSibling?.tagName === 'P'
-      && nextElementSibling.firstElementChild?.tagName === 'EM';
+      && nextElementSibling?.firstElementChild?.tagName === 'EM';
 
     const container = domEl(
       'figure',
@@ -27,11 +27,11 @@ function decorate(doc) {
       domEl(
         'figcaption',
         { class: 'picture-caption' },
-        isCaption ? nextElementSibling.firstElementChild : '',
+        isCaption ? nextElementSibling?.firstElementChild : '',
       ),
     );
-    if (!nextElementSibling.hasChildNodes()) {
-      nextElementSibling.remove();
+    if (!nextElementSibling?.hasChildNodes()) {
+      nextElementSibling?.remove();
     }
     parent.append(container);
   });
