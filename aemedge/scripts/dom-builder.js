@@ -99,3 +99,6 @@ export function dt(...items) { return domEl('dt', ...items); }
 export function dd(...items) { return domEl('dd', ...items); }
 export function hr(...items) { return domEl('hr', ...items); }
 export function aside(...items) { return domEl('aside', ...items); }
+export function menu(...items) { return domEl('menu', ...items); }
+export function dialog(...items) { return domEl('dialog', ...items); }
+export function section(...items) { return domEl('section', ...items); }

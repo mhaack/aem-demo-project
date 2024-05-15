@@ -1,135 +1,100 @@
-main ul.article-list {
-  --article-tile-height: auto;
+.article-list {
+  container: article-list / inline-size;
 
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: var(--udexGridGutters);
+  & .heading {
+    grid-column: 1 / -1;
+    margin: unset;
+  }
+
+  & ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+    gap: var(--udexGridGutters);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &.text-only {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--udexSpacer16);
+
+    @media (width >= 980px) {
+      & {
+        grid-template-columns: repeat(9, 1fr);
+      }
+    }
+
+    & ul {
+      display: contents;
+
+      & .card {
+        grid-column: 1 / -1;
+
+        @media (width >= 980px) {
+          & {
+            grid-column: span 4;
+          }
+        }
+      }
+    }
+
+    & .button-wrapper {
+      display: flex;
+      justify-content: center;
+      grid-column: span 6;
+
+      @media (width >= 980px) {
+        & {
+          grid-column: span 8;
+        }
+      }
+    }
+  }
 }
 
-@media (width >= 640px) {
-  main ul.article-list {
+body.hub-l2 .content-list {
+  @media (width >= 980px) {
+    ul {
+      /* Restrict columns to 3 when sidebar is present, i.e. L2 pages */
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &.wide ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@container content-list (240px < width < 480px) {
+  .content-list.text-only ul .card {
+    grid-column: 1 / -1;
+  }
+}
+
+@container content-list (width >= 640px) {
+  .content-list ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .content-list.wide ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (width >= 980px) {
-  main ul.article-list {
-    grid-template-columns: repeat(3, 1fr);
+@container content-list (width >= 980px) {
+  .content-list ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .content-list.wide ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-main ul.article-list > li {
-  border: 1px solid var(--udexColorGrey2);
-  box-shadow: 0 2px 4px rgb(34 54 73 / 20%);
-  background-color: var(--background-color);
-  height: var(--article-tile-height);
-  border-radius: var(--sapTile_BorderCornerRadius);
-  overflow: hidden;
-  position: relative;
-}
-
-main ul.article-list > li span.cardcontent {
-  display: block;
-  padding: var(--udexSpacer16);
-}
-
-main ul.article-list > li img {
-  width: 100%;
-  height: 130px;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-}
-
-main ul.article-list > li span.cardcontent span.template {
-  font-style: normal;
-  font-size: var(--udexTypographyBodyXSFontSize);
-  font-weight: var(--udexTypographyFontWeightMedium);
-  line-height: var(--udexTypographyEyebrowLineHeight);
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--udexColorGrey6);
-  flex: var(--sapContent_ForcedColorAdjust);
-  order: var(--sapShell_BackgroundImageOpacity);
-  flex-grow: var(--sapShell_BackgroundImageOpacity);
-  margin-bottom: var(--udexSpacer8);
-}
-
-main ul.article-list > li span.cardcontent span.hot {
-  position: absolute;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 4px 8px;
-  gap: 10px;
-  height: var(--udexTypographyHeadingRegularXSLineHeight);
-  right: var(--udexRadiusM);
-  top: var(--udexRadiusM);
-  background: var(--udexColorBlue1);
-  border: 1px solid #0070f2;
-  border-radius: var(--udexRadiusS);
-  font-size: var(--udexGridXSColumns);
-  font-weight: var(--udexTypographyFontWeightRegular);
-  line-height: var(--udexTypographyHeadingLineHeight);
-  text-align: center;
-  color: var(--udexColorBlue9);
-  flex: var(--sapContent_ForcedColorAdjust);
-  order: 0;
-  flex-grow: 0;
-}
-
-main ul.article-list > li span.cardcontent span.title {
-  display: block;
-}
-
-main ul.article-list > li span.cardcontent span.title,
-main ul.article-list > li span.cardcontent span.title a {
-  font-style: normal;
-  text-decoration: none;
-  font-size: var(--udexSpacer20);
-  font-weight: var(--udexTypographyFontWeightMedium);
-  line-height: var(--udexTypographyHeadingLineHeight);
-  color: var(--udexColorNeutralBlack);
-  flex: var(--sapContent_ForcedColorAdjust);
-  order: var(--sapShell_BackgroundImageOpacity);
-  align-self: stretch;
-  flex-grow: 0;
-  margin-bottom: 12px;
-}
-
-main ul.article-list > li span.cardcontent span.author {
-  display: block;
-}
-
-main ul.article-list > li span.cardcontent span.author,
-main ul.article-list > li span.cardcontent span.author > a {
-  font-style: normal;
-  text-decoration: none;
-  font-size: var(--udexTypographyBodyXSFontSize);
-  font-weight: var(--udexTypographyFontWeightMedium);
-  line-height: var(--udexTypographyDisplayLineHeight);
-  color: var(--udexColorNeutralBlack);
-  flex: var(--sapContent_ForcedColorAdjust);
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-main ul.article-list > li span.cardcontent span.date {
-  display: block;
-  font-style: normal;
-  font-size: var(--udexTypographyNavigationRegularXSFontSize);
-  font-weight: var(--udexTypographyFontWeightRegular);
-  line-height: var(--udexTypographyDisplayLineHeight);
-  color: var(--udexColorGrey6);
-  flex: var(--sapContent_ForcedColorAdjust);
-  order: var(--sapShell_BackgroundImageOpacity);
-  align-self: stretch;
-  flex-grow: 0;
+:is(.background-light, .background-dark):has(
+    .content-list-wrapper:first-child
+  ) {
+  padding-block-start: var(--udexSpacer56);
 }

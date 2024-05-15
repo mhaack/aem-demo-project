@@ -1,58 +1,35 @@
+/* eslint-disable no-param-reassign */
 import {
-  createOptimizedPicture, getMetadata, toClassName, loadCSS, fetchPlaceholders,
+  getMetadata, fetchPlaceholders, readBlockConfig, toCamelCase,
 } from '../../scripts/aem.js';
+import { ul } from '../../scripts/dom-builder.js';
 import {
-  ul, li, a, span,
-} from '../../scripts/dom-builder.js';
-import { extractFieldValue, fetchTagList } from '../../scripts/utils.js';
+  extractFieldValue,
+  fetchTagList,
+  toTitleCase,
+  formatDate,
+  getParameterMap,
+} from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
+import Filters from '../../libs/filters/filters.js';
+import PictureCard from '../../libs/pictureCard/pictureCard.js';
+import Pages from '../../libs/pages/pages.js';
 
-const ARTICLE_FORMATTER = new Intl.DateTimeFormat('default', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-});
-
-function renderCard(card) {
-  const formattedDate = ARTICLE_FORMATTER.format(new Date(card.publicationDate * 1000));
-  const cardAuthorUrl = `/author/${toClassName(card.author).replace('-', '')}`; // TODO look up author URL from index
-  const contentType = extractFieldValue(card, 'tags', 'content-type');
-  const cardElement = li(
-    { class: 'card' },
-    a(
-      { href: card.path, 'aria-label': card.title },
-      createOptimizedPicture(card.image, card.tile, false, [{ width: '750' }]),
-    ),
-    span(
-      { class: 'cardcontent' },
-      span({ class: 'template' }, contentType || ''),
-      (card['hot-story'] ? span({ class: 'hot' }, 'Hot Story') : ''),
-      span(
-        { class: 'title' },
-        a({ href: card.path }, card.title),
-      ),
-      span(
-        { class: 'author' },
-        a({ href: cardAuthorUrl }, span(`${card.author}`)),
-      ),
-      span({ class: 'date' }, formattedDate),
-    ),
-  );
-  fetchPlaceholders().then((placeholders) => {
-    const hot = cardElement.querySelector('.hot');
-    if (hot) hot.textContent = placeholders['Hot Story'] || 'Hot Story';
-  });
-  return cardElement;
+function getPictureCard(article, placeholders) {
+  const type = extractFieldValue(article, 'tags', 'content-type');
+  const {
+    image, path, title, priority,
+  } = article;
+  const tagLabel = placeholders[toCamelCase(priority)] || '';
+  const info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
+  return new PictureCard(title, path, type, info, null, image, tagLabel);
 }
 
-function determineContextFilter(tags) {
+function getPathFilter(entry, tags) {
   const location = window.location.pathname;
-
-  // for authors, filter by author
   if (location.startsWith('/author/') > 0) {
-    return (entry) => entry.author === getMetadata('author');
+    return entry.author === getMetadata('author');
   }
-
   // check if location match is valid tag /topics/.* or /news/.*
   if (location.match(/\/topics\/.*|\/news\/.*/) && tags) {
     let matchedTag;
@@ -63,43 +40,89 @@ function determineContextFilter(tags) {
       }
     });
 
-    return (entry) => entry.tags.includes(matchedTag.key);
+    return entry.tags.includes(matchedTag.key);
   }
-
-  return () => true;
+  return true;
 }
 
-export default async function listArticles(block, config = { filter: null, maxEntries: null }) {
-  loadCSS(`${window.hlx.codeBasePath}/blocks/article-list/article-list.css`);
+function getTagFilter(entry, filterTags) {
+  return filterTags.every((item) => JSON.parse(entry.tags).includes(item));
+}
 
-  const links = Array.from(block.querySelectorAll(':scope > div a')).map((link) => new URL(link.href).pathname);
-  if (links.length > 0) {
-    config.filter = (entry) => links.includes(entry.path);
-    config.sorting = (l, r) => links.indexOf(l.path) - links.indexOf(r.path);
+function getFilter(tags, filterTags) {
+  if (filterTags.length > 0) {
+    return (entry) => getTagFilter(entry, filterTags);
   }
+  return (entry) => getPathFilter(entry, tags);
+}
 
-  let contextFilter = config.filter;
-  if (!contextFilter) {
-    const tags = await fetchTagList();
-    contextFilter = determineContextFilter(tags);
-  }
-
-  let articles = await ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles').filter(contextFilter);
-
-  if (config.maxEntries !== null) {
-    articles = await articles.limit(config.maxEntries);
-  }
-
-  articles = await articles.all();
-  if (config.sorting) {
-    articles = articles.sort(config.sorting);
-  }
-
-  const cardList = ul({ class: 'article-list' });
-
-  articles.forEach((article) => {
-    const card = renderCard(article);
-    cardList.append(card);
+async function getArticles(tags, startPage = 1, batchSize = 6) {
+  const nonFilterParams = ['page', 'sort', 'order', 'limit'];
+  const filterTags = [];
+  getParameterMap().forEach((value, key) => {
+    if (!nonFilterParams.includes(key)) {
+      filterTags.push(value);
+    }
   });
-  block.replaceWith(cardList);
+  const filter = getFilter(tags, filterTags.flat());
+  return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
+    .filter(filter)
+    .paginate(batchSize, startPage);
+}
+
+function renderCards(articles, placeholders) {
+  const cardList = ul({ class: 'card-items' });
+  articles.forEach((article) => {
+    const card = getPictureCard(article, placeholders);
+    cardList.append(card.render());
+  });
+  return cardList;
+}
+
+function registerHandler(block, tags, filters, pages, placeholders, articleStream) {
+  ['sap:itemSelect', 'sap:itemClose'].forEach((e) => {
+    window.addEventListener(e, async () => {
+      articleStream = await getArticles(tags);
+      articleStream.next().then((cursor) => {
+        block.querySelector('.card-items').remove();
+        const cards = renderCards(cursor.value.results, placeholders);
+        filters.updateResults(cursor.value.total);
+        block.append(cards);
+        pages.updatePages(cursor.value.pages, 1);
+      });
+    });
+  });
+  window.addEventListener('sap:pageChange', (e) => {
+    articleStream.next({ direction: e.detail.direction }).then((cursor) => {
+      block.querySelector('.card-items').remove();
+      const cards = renderCards(cursor.value.results, placeholders);
+      block.append(cards);
+      pages.updatePages(cursor.value.pages);
+    });
+  });
+}
+
+export default async function decorateBlock(block) {
+  const tags = await fetchTagList();
+  const filterList = Object.entries(readBlockConfig(block)).map(([key, value]) => {
+    const items = value.split(',').map((item) => {
+      const tag = tags[toCamelCase(item.trim())];
+      return { label: tag.label, value: tag.key };
+    });
+    return { name: toTitleCase(key), items };
+  });
+  block.textContent = '';
+  const filters = new Filters(filterList);
+  block.append(filters.render());
+  const placeholders = await fetchPlaceholders();
+  const urlParams = new URLSearchParams(window.location.search);
+  const page = +urlParams.get('page') || 1;
+  const articleStream = await getArticles(tags, page);
+  const cursor = await articleStream.next();
+  const cardList = renderCards(cursor.value.results, placeholders);
+  filters.updateResults(cursor.value.total);
+  block.append(cardList);
+  const pages = new Pages(block, cursor.value.pages, page);
+  pages.render();
+  registerHandler(block, tags, filters, pages, placeholders, articleStream);
 }

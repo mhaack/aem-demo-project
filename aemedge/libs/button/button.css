@@ -19,7 +19,13 @@
     padding-block: var(--button-block-padding);
     padding-inline: var(--button-inline-padding);
 
-    &, &.large {
+    a {
+      text-decoration: unset;
+      color: unset;
+    }
+
+    &,
+    &.large {
       /* Large styles as default */
       --button-icon-spacing: var(--udexSpacer8);
       --button-icon-size: 18px;
@@ -42,7 +48,8 @@
       --button-icon-spacing: var(--udexSpacer4);
     }
 
-    &, &.primary {
+    &,
+    &.primary {
       --button-background-color: var(--udexColorBlue7);
       --button-border-color: var(--udexColorBlue7);
       --button-text-color: var(--udexColorNeutralWhite);
@@ -59,7 +66,9 @@
         --button-background-color: var(--udexColorNeutralWhite);
         --button-border-color: var(--udexColorBlue9);
         --button-text-color: var(--udexColorBlue9);
-        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+          sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+          contrast(107%); /* blue 9 */
       }
     }
 
@@ -67,20 +76,35 @@
       --button-background-color: var(--udexColorNeutralWhite);
       --button-border-color: var(--udexColorGrey7);
       --button-text-color: var(--udexColorBlue9);
-      --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+      --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+        sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+        contrast(107%); /* blue 9 */
 
       &:hover {
         --button-background-color: var(--udexColorGrey2);
         --button-border-color: var(--udexColorGrey7);
         --button-text-color: var(--udexColorBlue9);
-        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+          sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+          contrast(107%); /* blue 9 */
       }
 
       &:active {
         --button-background-color: var(--udexColorNeutralWhite);
         --button-border-color: var(--udexColorBlue9);
         --button-text-color: var(--udexColorBlue9);
-        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+          sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+          contrast(107%); /* blue 9 */
+      }
+
+      &:disabled {
+        --button-background-color: var(--udexColorNeutralWhite);
+        --button-border-color: var(--udexColorGrey7);
+        --button-text-color: var(--udexColorBlue9);
+
+        opacity: 0.4;
+        cursor: not-allowed;
       }
     }
 

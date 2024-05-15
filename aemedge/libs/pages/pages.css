@@ -1,0 +1,25 @@
+.pages {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: var(--udexSpacer40);
+
+  & .button-wrapper {
+    margin: 0;
+
+    & .button {
+      border: unset;
+
+      &:hover {
+        border: initial;
+      }
+    }
+  }
+
+  & .page {
+    margin: 0 var(--udexSpacer24);
+    display: flex;
+    gap: var(--udexSpacer8);
+  }
+}

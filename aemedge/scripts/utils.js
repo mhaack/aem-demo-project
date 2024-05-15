@@ -18,8 +18,10 @@ function containerize(container, targetClass) {
     const sectionMetadata = target.parentElement.querySelector(':scope > .section-metadata');
     const wrapperDiv = div({}, target, sectionMetadata || '');
     container.insertBefore(wrapperDiv, container.firstChild);
-    if (!parent.hasChildNodes()
-      || Array.from(parent.childNodes).every((node) => isWhitespaceNode(node))) {
+    if (
+      !parent.hasChildNodes()
+      || Array.from(parent.childNodes).every((node) => isWhitespaceNode(node))
+    ) {
       parent.remove();
     }
   }
@@ -75,10 +77,46 @@ function getContentType(doc = document) {
 }
 
 function extractFieldValue(entry, field, prefix) {
-  const value = JSON.parse(entry[field]).find((item) => item.trim().toLowerCase().startsWith(prefix)).split(',');
+  const value = JSON.parse(entry[field])
+    .find((item) => item.trim().toLowerCase().startsWith(prefix))
+    .split(',');
   return value[0].replace(`${prefix}/`, '');
 }
 
+function getTagLink(tag, path) {
+  let tagHref = tag['topic-path'];
+  if (path.startsWith('/news/') || tagHref === '0') {
+    tagHref = tag['news-path'];
+  }
+  return tagHref;
+}
+
+function toTitleCase(inputString) {
+  const modifiedString = inputString.replace(/-/g, ' ');
+  return modifiedString.replace(/(^|\s)([a-z])/g, (match, p1, p2) => p1 + p2.toUpperCase());
+}
+
+function getParameterMap() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const params = new Map();
+  urlParams.forEach((value, key) => {
+    if (urlParams.getAll(key).length > 1) {
+      params.set(key, urlParams.getAll(key));
+    } else {
+      params.set(key, urlParams.get(key).split(','));
+    }
+  });
+  return params;
+}
+
 export {
-  formatDate, containerize, fetchPages, fetchTagList, getContentType, extractFieldValue,
+  formatDate,
+  containerize,
+  fetchPages,
+  fetchTagList,
+  getContentType,
+  extractFieldValue,
+  getTagLink,
+  toTitleCase,
+  getParameterMap,
 };

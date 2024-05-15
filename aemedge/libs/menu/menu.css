@@ -1,0 +1,67 @@
+.menu {
+  cursor: pointer;
+  padding: unset;
+  position: relative;
+
+  & p {
+    margin: 0.25rem;
+  }
+
+  & .title {
+    text-wrap: wrap;
+    white-space: wrap;
+    position: relative;
+    display: block;
+    cursor: pointer;
+
+    &::after {
+      position: absolute;
+      top: 4px;
+      box-sizing: border-box;
+      content: "";
+      display: inline-block;
+      height: 1rem;
+      width: 1rem;
+      margin-left: var(--udexSpacer4);
+      mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
+      background-color: currentcolor;
+      rotate: 90deg;
+    }
+  }
+
+  & .items {
+    position: absolute;
+    display: inline-flex;
+    gap: 0;
+    flex-direction: column;
+    visibility: hidden;
+    list-style: none;
+    padding: unset;
+    margin-block: var(--udexSpacer4);
+    box-shadow: var(--sapContent_Shadow2);
+    border-radius: var(--udexRadiusS);
+    transform: translateY(-10px);
+    background-color: var(--udexColorNeutralWhite);
+    z-index: 100;
+
+    & li {
+      height: var(--udexSpacer32);
+      min-width: 16ch;
+
+      &:hover {
+        background-color: var(--udexColorGrey1);
+      }
+
+      & > p {
+        padding-inline: var(--udexSpacer4);
+        text-wrap: nowrap;
+      }
+    }
+  }
+
+  &[aria-expanded="true"] .items {
+    visibility: visible;
+    transform: translateY(0);
+    transition: transform 0.3s ease-out;
+  }
+}

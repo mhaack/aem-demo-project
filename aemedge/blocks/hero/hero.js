@@ -3,7 +3,9 @@ import {
   a, div, p, span,
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
-import { fetchTagList, formatDate, getContentType } from '../../scripts/utils.js';
+import {
+  fetchTagList, formatDate, getContentType, getTagLink,
+} from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import { buildAuthorUrl, getAuthorEntries, getAuthorNames } from '../../scripts/article.js';
 import Avatar from '../../libs/avatar/avatar.js';
@@ -65,7 +67,9 @@ function decorateMetaInfo() {
     ? getMetadata('modified-time')
     : getMetadata('published-time');
   if (lastUpdate) {
-    const lastUpdatePrefix = (window.location.pathname.startsWith('/news/')) ? 'Published on' : 'Updated on';
+    const lastUpdatePrefix = window.location.pathname.startsWith('/news/')
+      ? 'Published on'
+      : 'Updated on';
     infoBlockWrapper.append(
       span({ class: 'media-blend__date' }, `${lastUpdatePrefix} ${formatDate(lastUpdate)}`),
     );
@@ -73,9 +77,7 @@ function decorateMetaInfo() {
 
   const readingTime = getMetadata('twitter:data2');
   if (readingTime) {
-    infoBlockWrapper.append(
-      span({ class: 'media-blend__read-time' }, readingTime),
-    );
+    infoBlockWrapper.append(span({ class: 'media-blend__read-time' }, readingTime));
   }
 
   return infoBlockWrapper;
@@ -87,7 +89,10 @@ function replacePlaceholderText(elem, tags) {
     let h1TitleTag;
     Object.keys(tags).forEach((tag) => {
       const tagData = tags[tag];
-      if (tagData['topic-path'] === window.location.pathname || tagData['news-path'] === window.location.pathname) {
+      if (
+        tagData['topic-path'] === window.location.pathname
+        || tagData['news-path'] === window.location.pathname
+      ) {
         h1TitleTag = tagData;
       }
     });
@@ -98,18 +103,21 @@ function replacePlaceholderText(elem, tags) {
 }
 
 function buildEyebrow(content) {
-  return p(
-    { class: 'media-blend__intro-text' },
-    content,
-  );
+  return p({ class: 'media-blend__intro-text' }, content);
 }
 
 function findFirstTag(tags) {
   const articleTags = getMetadata('article:tag');
-  const tagsLiEL = articleTags.split(', ').filter((articleTag) => {
-    const tag = tags[toCamelCase(articleTag)];
-    return tag && !tag.key.startsWith('content-type/') && (tag['topic-path'] || tag['news-path']);
-  }).map((articleTag) => new Tag(tags[toCamelCase(articleTag)]));
+  const tagsLiEL = articleTags
+    .split(', ')
+    .filter((articleTag) => {
+      const tag = tags[toCamelCase(articleTag)];
+      return tag && !tag.key.startsWith('content-type/') && (tag['topic-path'] || tag['news-path']);
+    })
+    .map((articleTag) => {
+      const tag = tags[toCamelCase(articleTag)];
+      return new Tag(tag.label, getTagLink(tag, document.location.pathname));
+    });
   return tagsLiEL[0];
 }
 
@@ -140,7 +148,9 @@ export default async function decorate(block) {
     newEyebrow = buildEyebrow(eyebrow.firstElementChild);
   } else if (eyebrowText && isArticle) {
     // If article, add link to parent topics page, and appropriate classes for styling
-    const eyeBrowHref = contentTypeTag['topic-path'] !== '0' ? contentTypeTag['topic-path'] : contentTypeTag['news-path'];
+    const eyeBrowHref = contentTypeTag['topic-path'] !== '0'
+      ? contentTypeTag['topic-path']
+      : contentTypeTag['news-path'];
     newEyebrow = buildEyebrow(a({ href: eyeBrowHref }, eyebrowText));
   } else if (eyebrowText) {
     // Else display simple span or nothing
@@ -194,13 +204,7 @@ export default async function decorate(block) {
   const tagContainer = div({ class: 'media-blend__tags' });
   if (window.location.pathname.startsWith('/news/') && isArticle) {
     const placeholders = await fetchPlaceholders();
-    tagContainer.append(
-      new Tag({
-        key: 'news-center',
-        label: placeholders[toCamelCase('SAP News Center')],
-        'news-path': '/news',
-      }).render(),
-    );
+    tagContainer.append(new Tag(placeholders[toCamelCase('SAP News Center')], '/news').render());
   } else {
     const firstTag = findFirstTag(tags);
     if (firstTag) {

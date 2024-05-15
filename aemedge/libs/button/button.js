@@ -1,4 +1,6 @@
-import { button, p, span } from '../../scripts/dom-builder.js';
+import {
+  a, button, p, span,
+} from '../../scripts/dom-builder.js';
 import { loadCSS, decorateIcons } from '../../scripts/aem.js';
 
 export default class Button {
@@ -14,30 +16,31 @@ export default class Button {
     return this.icon ? span({ class: `icon ${this.icon}` }) : '';
   }
 
-  render(excludeStyles) {
+  render(isDisabled, excludeStyles) {
     if (!excludeStyles) {
       loadCSS(`${window.hlx.codeBasePath}/libs/button/button.css`);
     }
-    const btn = p(
-      { class: 'button-wrapper' },
-      button(
-        {
-          class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''}`,
-          type: 'button',
-          'aria-label': this.label,
-        },
-        this.label ? span(this.label) : '',
-        this.getIcon(),
-      ),
+    const btn = button(
+      {
+        class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''}`,
+        type: 'button',
+        'aria-label': this.label,
+      },
+      this.href ? a({ href: this.href }, this.label) : span(this.label),
+      this.getIcon(),
     );
+    if (isDisabled) {
+      btn.setAttribute('disabled', 'disabled');
+    }
+    const btnWrapper = p({ class: 'button-wrapper' }, btn);
     if (this.icon) {
-      decorateIcons(btn);
+      decorateIcons(btnWrapper);
     }
     if (this.href) {
-      btn.addEventListener('click', () => {
+      btnWrapper.addEventListener('click', () => {
         window.location.href = this.href;
       });
     }
-    return btn;
+    return btnWrapper;
   }
 }

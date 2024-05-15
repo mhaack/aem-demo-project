@@ -130,14 +130,19 @@ function slice(upstream, context, from, to) {
 
 function follow(upstream, context, name, newName, maxInFlight = 5) {
   const { fetch, parseHtml } = context;
-  return map(upstream, context, async (entry) => {
-    const value = entry[name];
-    if (value) {
-      const resp = await fetch(value);
-      return { ...entry, [newName || name]: resp.ok ? parseHtml(await resp.text()) : null };
-    }
-    return entry;
-  }, maxInFlight);
+  return map(
+    upstream,
+    context,
+    async (entry) => {
+      const value = entry[name];
+      if (value) {
+        const resp = await fetch(value);
+        return { ...entry, [newName || name]: resp.ok ? parseHtml(await resp.text()) : null };
+      }
+      return entry;
+    },
+    maxInFlight,
+  );
 }
 
 async function all(upstream) {
@@ -146,6 +151,42 @@ async function all(upstream) {
     result.push(entry);
   }
   return result;
+}
+
+/**
+ * Implements cursor based pagination on given dataset. The cursor is flexible enough
+ * to move forward and backward in the dataset. The natural movement is forward but if
+ * cursor is explictly supplied with a page number in next(), the cursor will jump to that
+ * page and subsequenly calling next() again without parameter will make it to move forward
+ * again.
+ * @param upstream Dataset received from upstream pipeline
+ * @param context Provides context for overall operation
+ * @param batchSize Decides the number of elements to be returned in one page
+ * @param startPage The page number from where the pagination should start
+ * @returns {*} Returns a cursor that can be used to paginate through the dataset
+ * The cursor has the following properties:
+ * - results: The results of the current page
+ * - page: The current page number
+ * - total: Total number of elements in the dataset
+ * - hasNext: Whether there are more pages to be fetched
+ * - pages: Total number of pages in the dataset
+ * - direction: The direction in which the cursor is moving
+ */
+async function* paginate(upstream, context, batchSize = 6, startPage = 1) {
+  const entries = await all(upstream);
+  let page = +startPage;
+  while (true) {
+    const results = entries.slice((page - 1) * batchSize, page * batchSize);
+    const cursor = yield {
+      results,
+      page,
+      total: entries.length,
+      hasNext: results.length === batchSize,
+      pages: Math.ceil(entries.length / batchSize),
+      direction: 'forward',
+    };
+    page = cursor?.direction === 'reverse' ? page - 1 : cursor?.page || page + 1;
+  }
 }
 
 async function first(upstream) {
@@ -180,6 +221,7 @@ function assignOperations(generator, context) {
     withFetch: withFetch.bind(null, generator, context),
     withHtmlParser: withHtmlParser.bind(null, generator, context),
     sheet: sheet.bind(null, generator, context),
+    paginate: paginate.bind(null, generator, context),
   };
 
   Object.assign(generator, operations, functions);
@@ -197,7 +239,9 @@ export default function ffetch(url, cacheKey) {
       // request smaller chunks in save data mode
       chunkSize = 64;
     }
-  } catch (e) { /* ignore */ }
+  } catch (e) {
+    /* ignore */
+  }
 
   const context = { chunkSize, fetch, parseHtml };
   const generator = request(url, context, cacheKey);
