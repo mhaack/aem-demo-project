@@ -129,13 +129,11 @@
     }
 
     &:hover {
-        border: 1px solid var(--udexColorBlue6);
-        box-shadow: var(--sapContent_Shadow1);
+      box-shadow: 0 0 0 1px var(--udexColorBlue6), var(--sapContent_Shadow1);
     }
     
     &:active {
-      border: 1px solid var(--udexColorBlue7);
-      box-shadow: var(--sapContent_Shadow0);
+      box-shadow: 0 0 0 1px var(--udexColorBlue7), var(--sapContent_Shadow0);
     }
   }
 }
