@@ -4,12 +4,13 @@ import {
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 import {
-  fetchAuthors,
+  fetchAuthorList,
   fetchTagList,
   formatDate,
   getAuthorMetadata,
   getContentType,
   getTagLink,
+  lookupAuthors,
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
@@ -224,7 +225,8 @@ export default async function decorate(block) {
     if (getMetadata('author')) {
       await import('@udex/webcomponents/dist/Avatar.js');
     }
-    const authors = await fetchAuthors(getAuthorMetadata());
+    const authorIndex = await fetchAuthorList();
+    const authors = await lookupAuthors(getAuthorMetadata(), authorIndex);
     contentSlot.append(decorateMetaInfo(authors));
   }
 

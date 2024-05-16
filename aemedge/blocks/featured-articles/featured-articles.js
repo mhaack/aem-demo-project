@@ -8,9 +8,10 @@ import {
   fetchPages,
   getContentType,
   fetchTagList,
-  fetchAuthors,
   buildCardDisplayAuthor,
   getAuthorMetadata,
+  lookupAuthors,
+  fetchAuthorList,
 } from '../../scripts/utils.js';
 
 function getPictureCard(article, placeholders, tags, author, eager) {
@@ -43,12 +44,11 @@ export default async function decorateBlock(block) {
     );
     const placeholders = await fetchPlaceholders();
     const tags = await fetchTagList();
-    const cardList = ul();
+    const authorIndex = await fetchAuthorList();
 
-    // eslint-disable-next-line no-restricted-syntax
-    for (const article of articles) {
-      // eslint-disable-next-line no-await-in-loop
-      const authors = await fetchAuthors(getAuthorMetadata(article));
+    const cardList = ul();
+    articles.forEach(async (article) => {
+      const authors = lookupAuthors(getAuthorMetadata(article), authorIndex);
       const displayAuthor = buildCardDisplayAuthor(authors);
       const card = getPictureCard(
         article,
@@ -58,7 +58,7 @@ export default async function decorateBlock(block) {
         article === articles[0],
       );
       cardList.append(card.render(horizontal, true));
-    }
+    });
     block.append(cardList);
   }
   block.querySelector('div').remove();

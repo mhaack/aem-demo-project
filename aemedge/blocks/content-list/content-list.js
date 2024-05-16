@@ -7,7 +7,11 @@ import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import Card from '../../libs/card/card.js';
 import Button from '../../libs/button/button.js';
 import {
-  formatDate, extractFieldValue, fetchAuthors, buildCardDisplayAuthor,
+  formatDate,
+  extractFieldValue,
+  buildCardDisplayAuthor,
+  lookupAuthors,
+  fetchAuthorList,
 } from '../../scripts/utils.js';
 
 function matchTags(entry, config) {
@@ -82,6 +86,7 @@ export default async function decorateBlock(block) {
     .slice(0, limit - 1)
     .all();
   const placeholders = await fetchPlaceholders();
+  const authorIndex = await fetchAuthorList();
   const itemCount = articleStream.length;
   let viewBtn;
   if (itemCount > 10 && itemCount < 20) {
@@ -90,9 +95,9 @@ export default async function decorateBlock(block) {
   }
 
   const cardList = ul({ class: 'card-items' });
-  articleStream.forEach(async (article) => {
+  articleStream.forEach((article) => {
     let card;
-    const authors = await fetchAuthors(article.author);
+    const authors = lookupAuthors(article.author, authorIndex);
     const displayAuthor = buildCardDisplayAuthor(authors);
     if (textOnly) {
       card = getCard(article, config);

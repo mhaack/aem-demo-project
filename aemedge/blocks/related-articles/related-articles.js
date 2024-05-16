@@ -5,7 +5,8 @@ import {
 import ffetch from '../../scripts/ffetch.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import {
-  buildCardDisplayAuthor, fetchAuthors, fetchTagList, formatDate,
+  buildCardDisplayAuthor, fetchAuthorList, fetchTagList, formatDate,
+  lookupAuthors,
 } from '../../scripts/utils.js';
 
 function getFilter(pageTags) {
@@ -50,12 +51,11 @@ export default async function decorateBlock(block) {
     .all();
   const placeholders = await fetchPlaceholders();
   const tags = await fetchTagList();
+  const authorIndex = await fetchAuthorList();
 
   const cardList = ul();
-  // eslint-disable-next-line no-restricted-syntax
-  for (const article of articles) {
-    // eslint-disable-next-line no-await-in-loop
-    const authors = await fetchAuthors(article.author);
+  articles.forEach((article) => {
+    const authors = lookupAuthors(article.author, authorIndex);
     const displayAuthor = buildCardDisplayAuthor(authors);
     const card = getPictureCard(
       article,
@@ -64,6 +64,6 @@ export default async function decorateBlock(block) {
       displayAuthor,
     );
     cardList.append(card.render());
-  }
+  });
   block.append(cardList);
 }

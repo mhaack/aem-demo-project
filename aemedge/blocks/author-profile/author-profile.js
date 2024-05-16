@@ -1,9 +1,10 @@
 import { addAuthorProfiles } from '../author-profiles/author-profiles.js';
-import { fetchAuthors, getAuthorMetadata } from '../../scripts/utils.js';
+import { fetchAuthorList, getAuthorMetadata, lookupAuthors } from '../../scripts/utils.js';
 
 export default async function decorate(block) {
   const authorNames = getAuthorMetadata();
-  const authors = await fetchAuthors(authorNames);
+  const authorIndex = await fetchAuthorList();
+  const authors = lookupAuthors(authorNames, authorIndex);
 
   if (authors && authors.length > 0) {
     block.classList.add('author-profiles');

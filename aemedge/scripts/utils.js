@@ -148,22 +148,24 @@ function buildCardDisplayAuthor(authors) {
   return firstAuthor;
 }
 
+async function fetchAuthorList() {
+  return ffetch(
+    `${window.hlx.codeBasePath}/authors-index.json`,
+    'sapContentHubAuthorEntries',
+  ).all();
+}
+
 /**
  * Fetches author information based on the provided author names.
  * @param {string|string[]} authors - The author name(s) to fetch information for.
  * @returns {Promise<Object[]>} - A promise that resolves to an array of author objects.
  */
-async function fetchAuthors(authors) {
-  if (!authors || authors === '0' || (Array.isArray(authors) && authors.length === 1 && authors[0] === '')) {
+function lookupAuthors(authorsKeys, authorIndex) {
+  if (!authorsKeys || authorsKeys === '0' || (Array.isArray(authorsKeys) && authorsKeys.length === 1 && authorsKeys[0] === '')) {
     return [];
   }
 
-  const authorIndex = await ffetch(
-    `${window.hlx.codeBasePath}/authors-index.json`,
-    'sapContentHubAuthorEntries',
-  ).all();
-
-  const authorKeys = Array.isArray(authors) ? authors : authors.split(',').map((author) => author.trim());
+  const authorKeys = Array.isArray(authorsKeys) ? authorsKeys : authorsKeys.split(',').map((author) => author.trim());
   return authorKeys.map((authorName) => {
     const cachedAuthor = sessionStorage.getItem(`author-${toClassName(authorName)}`);
     let authorEntry = cachedAuthor ? JSON.parse(cachedAuthor) : null;
@@ -192,6 +194,7 @@ export {
   getParameterMap,
   buildAuthorUrl,
   getAuthorMetadata,
-  fetchAuthors,
+  fetchAuthorList,
+  lookupAuthors,
   buildCardDisplayAuthor,
 };

@@ -10,7 +10,8 @@ import {
   formatDate,
   getParameterMap,
   buildCardDisplayAuthor,
-  fetchAuthors,
+  fetchAuthorList,
+  lookupAuthors,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
@@ -72,10 +73,10 @@ async function getArticles(tags, startPage = 1, batchSize = 6) {
     .paginate(batchSize, startPage);
 }
 
-function renderCards(articles, placeholders) {
+function renderCards(articles, placeholders, authorIndex) {
   const cardList = ul({ class: 'card-items' });
-  articles.forEach(async (article) => {
-    const authors = await fetchAuthors(article.author);
+  articles.forEach((article) => {
+    const authors = lookupAuthors(article.author, authorIndex);
     const displayAuthor = buildCardDisplayAuthor(authors);
     const card = getPictureCard(article, placeholders, displayAuthor);
     cardList.append(card.render());
@@ -83,13 +84,13 @@ function renderCards(articles, placeholders) {
   return cardList;
 }
 
-function registerHandler(block, tags, filters, pages, placeholders, articleStream) {
+function registerHandler(block, tags, filters, pages, placeholders, articleStream, authorIndex) {
   ['sap:itemSelect', 'sap:itemClose'].forEach((e) => {
     window.addEventListener(e, async () => {
       articleStream = await getArticles(tags);
       articleStream.next().then((cursor) => {
         block.querySelector('.card-items').remove();
-        const cards = renderCards(cursor.value.results, placeholders);
+        const cards = renderCards(cursor.value.results, placeholders, authorIndex);
         filters.updateResults(cursor.value.total);
         block.append(cards);
         pages.updatePages(cursor.value.pages, 1);
@@ -99,7 +100,7 @@ function registerHandler(block, tags, filters, pages, placeholders, articleStrea
   window.addEventListener('sap:pageChange', (e) => {
     articleStream.next({ direction: e.detail.direction }).then((cursor) => {
       block.querySelector('.card-items').remove();
-      const cards = renderCards(cursor.value.results, placeholders);
+      const cards = renderCards(cursor.value.results, placeholders, authorIndex);
       block.append(cards);
       pages.updatePages(cursor.value.pages);
     });
@@ -119,14 +120,15 @@ export default async function decorateBlock(block) {
   const filters = new Filters(filterList);
   block.append(filters.render());
   const placeholders = await fetchPlaceholders();
+  const authorIndex = await fetchAuthorList();
   const urlParams = new URLSearchParams(window.location.search);
   const page = +urlParams.get('page') || 1;
   const articleStream = await getArticles(tags, page);
   const cursor = await articleStream.next();
-  const cardList = renderCards(cursor.value.results, placeholders);
+  const cardList = renderCards(cursor.value.results, placeholders, authorIndex);
   filters.updateResults(cursor.value.total);
   block.append(cardList);
   const pages = new Pages(block, cursor.value.pages, page);
   pages.render();
-  registerHandler(block, tags, filters, pages, placeholders, articleStream);
+  registerHandler(block, tags, filters, pages, placeholders, articleStream, authorIndex);
 }

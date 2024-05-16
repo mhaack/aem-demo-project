@@ -1,6 +1,6 @@
 import { loadCSS } from '../../scripts/aem.js';
 import Profile from '../../libs/profile/profile.js';
-import { fetchAuthors } from '../../scripts/utils.js';
+import { fetchAuthorList, lookupAuthors } from '../../scripts/utils.js';
 
 function addAuthorProfiles(block, authors) {
   if (authors && authors.length) {
@@ -26,7 +26,8 @@ export default async function decorateBlock(block) {
   });
   block.innerHTML = '';
 
-  const authors = await fetchAuthors(keys);
+  const authorIndex = await fetchAuthorList();
+  const authors = lookupAuthors(keys, authorIndex);
   addAuthorProfiles(block, authors);
 }
 
