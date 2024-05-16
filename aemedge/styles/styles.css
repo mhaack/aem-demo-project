@@ -272,6 +272,10 @@ main .button-container {
     margin-top: 0;
   }
 
+  & a:is(.primary, .secondary) {
+    display: inline-flex;
+  }
+
   .button {
     position: relative;
     text-decoration: none;

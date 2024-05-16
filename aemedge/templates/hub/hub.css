@@ -74,17 +74,19 @@
       }
     }
 
-    & .button-container:has(> a) {
-      margin-block: 0;
-      padding-block-start: var(--udexSpacer24);
+    & > .section > .default-content-wrapper {
+      & .button-container:has(> a) {
+        margin-block: 0;
+        padding-block-start: var(--udexSpacer24);
 
-      &:not(:only-child) {
-        padding-block: var(--udexSpacer24) var(--udexSpacer56);
-      }
+        &:not(:only-child) {
+          padding-block: var(--udexSpacer24) var(--udexSpacer56);
+        }
 
-      & + h2 {
-        padding-block-start: var(--udexSpacer56);
-        margin-block-start: 0;
+        & + h2 {
+          padding-block-start: var(--udexSpacer56);
+          margin-block-start: 0;
+        }
       }
     }
   }
