@@ -4,10 +4,14 @@ import {
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 import {
-  fetchTagList, formatDate, getContentType, getTagLink,
+  fetchAuthors,
+  fetchTagList,
+  formatDate,
+  getAuthorMetadata,
+  getContentType,
+  getTagLink,
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
-import { buildAuthorUrl, getAuthorEntries, getAuthorNames } from '../../scripts/article.js';
 import Avatar from '../../libs/avatar/avatar.js';
 
 function calculateInitials(name) {
@@ -20,46 +24,32 @@ function calculateInitials(name) {
 }
 
 function buildAuthorEl(author) {
-  return a({ class: 'media-blend__author', href: buildAuthorUrl(author) }, author);
+  return a({ class: 'media-blend__author', href: author.path }, author.author);
 }
 
-function getAuthorAvatarImage(authorName) {
-  return getAuthorEntries([authorName]).then((authorEntries) => {
-    if (authorEntries && authorEntries.length > 0) {
-      return Avatar.fromAuthorEntry(authorEntries[0]).getImage();
-    }
-    return null;
-  });
-}
-
-function decorateMetaInfo() {
+function decorateMetaInfo(authors) {
   const infoBlockWrapper = span({ class: 'media-blend__info-block' });
 
-  const authorNames = getAuthorNames();
-  const authorEl = span({ class: 'media-blend__authors' });
-  if (authorNames.length > 0) {
-    if (authorNames.length === 1 && !!authorNames[0]) {
-      getAuthorAvatarImage(authorNames[0]).then((avatarImage) => {
-        if (avatarImage) {
-          const avatar = document.createElement('udex-avatar');
-          avatar.setAttribute('size', 'XS');
-          avatar.setAttribute('initials', calculateInitials(authorNames[0]));
-          avatar.setAttribute('color-scheme', 'Neutral');
-          avatar.append(avatarImage.querySelector('img'));
-          infoBlockWrapper.prepend(avatar);
-        }
-      });
-      authorEl.append(buildAuthorEl(authorNames[0]));
+  if (authors.length > 0) {
+    const authorEl = span({ class: 'media-blend__authors' });
+    if (authors.length === 1) {
+      const avatarImage = Avatar.fromAuthorEntry(authors[0]).getImage();
+      if (avatarImage) {
+        const avatar = document.createElement('udex-avatar');
+        avatar.setAttribute('size', 'XS');
+        avatar.setAttribute('initials', calculateInitials(authors[0].author));
+        avatar.setAttribute('color-scheme', 'Neutral');
+        avatar.append(avatarImage.querySelector('img'));
+        infoBlockWrapper.prepend(avatar);
+      }
+      authorEl.append(buildAuthorEl(authors[0]));
     } else {
-      authorNames.forEach((author) => {
+      authors.forEach((author) => {
         if (author) {
           authorEl.append(buildAuthorEl(author));
         }
       });
     }
-  }
-
-  if (authorEl.children.length > 0) {
     infoBlockWrapper.append(authorEl);
   }
 
@@ -227,13 +217,15 @@ export default async function decorate(block) {
     buttonContainer.appendChild(button);
     anchor.closest('p').remove();
   });
+
   if (block.querySelector(':scope div > div').childElementCount > 0) contentSlot.append(...block.querySelector(':scope div > div').children);
 
   if (isMediaBlend) {
     if (getMetadata('author')) {
       await import('@udex/webcomponents/dist/Avatar.js');
     }
-    contentSlot.append(decorateMetaInfo());
+    const authors = await fetchAuthors(getAuthorMetadata());
+    contentSlot.append(decorateMetaInfo(authors));
   }
 
   if (tagContainer.children.length > 0) {

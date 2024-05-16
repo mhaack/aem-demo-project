@@ -1,16 +1,15 @@
 import { loadCSS } from '../../scripts/aem.js';
-import { getAuthorEntries } from '../../scripts/article.js';
 import Profile from '../../libs/profile/profile.js';
+import { fetchAuthors } from '../../scripts/utils.js';
 
-async function addAuthorProfiles(block, keys) {
-  const entries = await getAuthorEntries(keys);
-  if (entries && entries.length) {
-    const multipleProfiles = keys.length > 1;
-    entries.forEach((authorEntry) => {
+function addAuthorProfiles(block, authors) {
+  if (authors && authors.length) {
+    const multipleProfiles = authors.length > 1;
+    authors.forEach((authorEntry) => {
       block.append(Profile.fromAuthorEntry(authorEntry).renderCard(multipleProfiles));
     });
     if (multipleProfiles) {
-      block.classList.add(`elems${keys.length}`);
+      block.classList.add(`elems${authors.length}`);
     } else {
       block.classList.add('vertical');
     }
@@ -26,7 +25,9 @@ export default async function decorateBlock(block) {
     keys.push(new URL(link.href).pathname);
   });
   block.innerHTML = '';
-  await addAuthorProfiles(block, keys);
+
+  const authors = await fetchAuthors(keys);
+  addAuthorProfiles(block, authors);
 }
 
 export { addAuthorProfiles };

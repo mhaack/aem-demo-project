@@ -9,20 +9,22 @@ import {
   toTitleCase,
   formatDate,
   getParameterMap,
+  buildCardDisplayAuthor,
+  fetchAuthors,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import Pages from '../../libs/pages/pages.js';
 
-function getPictureCard(article, placeholders) {
+function getPictureCard(article, placeholders, author) {
   const type = extractFieldValue(article, 'tags', 'content-type');
   const {
     image, path, title, priority,
   } = article;
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
-  return new PictureCard(title, path, type, info, null, image, tagLabel);
+  return new PictureCard(title, path, type, info, author, image, tagLabel);
 }
 
 function getPathFilter(entry, tags) {
@@ -72,8 +74,10 @@ async function getArticles(tags, startPage = 1, batchSize = 6) {
 
 function renderCards(articles, placeholders) {
   const cardList = ul({ class: 'card-items' });
-  articles.forEach((article) => {
-    const card = getPictureCard(article, placeholders);
+  articles.forEach(async (article) => {
+    const authors = await fetchAuthors(article.author);
+    const displayAuthor = buildCardDisplayAuthor(authors);
+    const card = getPictureCard(article, placeholders, displayAuthor);
     cardList.append(card.render());
   });
   return cardList;

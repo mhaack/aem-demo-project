@@ -33,8 +33,9 @@ export default class PictureCard extends Card {
     if (!authorEntry) {
       return '';
     }
+
     return authorEntry?.image
-      && new URL(this.authorEntry.image).pathname !== '/default-meta-image.png'
+      && new URL(this.authorEntry.image).pathname !== '/default-meta-image.png' && authorEntry.author.indexOf('+ more') === -1
       ? div(
         { class: 'author-profile' },
         Avatar.fromAuthorEntry(authorEntry).render('small'),

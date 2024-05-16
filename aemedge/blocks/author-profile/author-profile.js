@@ -1,11 +1,13 @@
 import { addAuthorProfiles } from '../author-profiles/author-profiles.js';
-import { getAuthorNames } from '../../scripts/article.js';
+import { fetchAuthors, getAuthorMetadata } from '../../scripts/utils.js';
 
 export default async function decorate(block) {
-  const keys = getAuthorNames();
-  if (keys && keys.length > 0) {
+  const authorNames = getAuthorMetadata();
+  const authors = await fetchAuthors(authorNames);
+
+  if (authors && authors.length > 0) {
     block.classList.add('author-profiles');
     block.classList.remove('author-profile');
-    await addAuthorProfiles(block, keys);
+    addAuthorProfiles(block, authors);
   }
 }

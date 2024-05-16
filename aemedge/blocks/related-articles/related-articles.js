@@ -4,8 +4,9 @@ import {
 } from '../../scripts/aem.js';
 import ffetch from '../../scripts/ffetch.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
-import { fetchTagList, formatDate } from '../../scripts/utils.js';
-import { allAuthorEntries, authorEntry } from '../../scripts/article.js';
+import {
+  buildCardDisplayAuthor, fetchAuthors, fetchTagList, formatDate,
+} from '../../scripts/utils.js';
 
 function getFilter(pageTags) {
   return (entry) => {
@@ -18,14 +19,24 @@ function getFilter(pageTags) {
   };
 }
 
-function getPictureCard(article, placeholders, authEntry) {
+function getPictureCard(article, placeholders, tags, author) {
   const {
-    contentType, image, path, title, priority,
+    image, path, title, priority,
   } = article;
-
+  const type = JSON.parse(article.tags).find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
+  const tagType = tags[toCamelCase(type)];
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
-  return new PictureCard(title, path, contentType, info, authEntry, image, tagLabel);
+
+  return new PictureCard(
+    title,
+    path,
+    tagType ? tagType.label : type,
+    info,
+    author,
+    image,
+    tagLabel,
+  );
 }
 
 export default async function decorateBlock(block) {
@@ -39,17 +50,20 @@ export default async function decorateBlock(block) {
     .all();
   const placeholders = await fetchPlaceholders();
   const tags = await fetchTagList();
-  const authEntries = await allAuthorEntries(articles);
+
   const cardList = ul();
-  articles.forEach((article) => {
-    const contentType = JSON.parse(article.tags).find((tag) => tag.startsWith('content-type'));
-    if (contentType) {
-      article.contentType = tags[toCamelCase(contentType)]?.label || '';
-    }
-
-    const card = getPictureCard(article, placeholders, authorEntry(article, authEntries));
+  // eslint-disable-next-line no-restricted-syntax
+  for (const article of articles) {
+    // eslint-disable-next-line no-await-in-loop
+    const authors = await fetchAuthors(article.author);
+    const displayAuthor = buildCardDisplayAuthor(authors);
+    const card = getPictureCard(
+      article,
+      placeholders,
+      tags,
+      displayAuthor,
+    );
     cardList.append(card.render());
-  });
-
+  }
   block.append(cardList);
 }

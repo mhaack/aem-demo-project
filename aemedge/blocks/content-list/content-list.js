@@ -1,11 +1,14 @@
-import { readBlockConfig, fetchPlaceholders, toCamelCase } from '../../scripts/aem.js';
+import {
+  readBlockConfig, fetchPlaceholders, toCamelCase,
+} from '../../scripts/aem.js';
 import ffetch from '../../scripts/ffetch.js';
 import { ul, h3 } from '../../scripts/dom-builder.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import Card from '../../libs/card/card.js';
 import Button from '../../libs/button/button.js';
-import { formatDate, extractFieldValue } from '../../scripts/utils.js';
-import { allAuthorEntries, authorEntry } from '../../scripts/article.js';
+import {
+  formatDate, extractFieldValue, fetchAuthors, buildCardDisplayAuthor,
+} from '../../scripts/utils.js';
 
 function matchTags(entry, config) {
   if (!config.tags) return true;
@@ -44,14 +47,14 @@ function getInfo(article, config) {
   return '';
 }
 
-function getPictureCard(article, config, placeholders, authEntry) {
+function getPictureCard(article, config, placeholders, author) {
   const type = extractFieldValue(article, 'tags', 'content-type');
   const {
     image, path, title, priority,
   } = article;
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const info = getInfo(article, config);
-  return new PictureCard(title, path, type, info, authEntry, image, tagLabel);
+  return new PictureCard(title, path, type, info, author, image, tagLabel);
 }
 
 function getCard(article, config) {
@@ -85,14 +88,16 @@ export default async function decorateBlock(block) {
     articleStream = articleStream.slice(0, 10); // only show first 10, rest will be paginated
     viewBtn = new Button('Show More', 'icon-slim-arrow-right', 'secondary', 'large');
   }
-  const authEntries = await allAuthorEntries(articleStream);
+
   const cardList = ul({ class: 'card-items' });
-  articleStream.forEach((article) => {
+  articleStream.forEach(async (article) => {
     let card;
+    const authors = await fetchAuthors(article.author);
+    const displayAuthor = buildCardDisplayAuthor(authors);
     if (textOnly) {
       card = getCard(article, config);
     } else {
-      card = getPictureCard(article, config, placeholders, authorEntry(article, authEntries));
+      card = getPictureCard(article, config, placeholders, displayAuthor);
     }
     cardList.append(card.render());
   });

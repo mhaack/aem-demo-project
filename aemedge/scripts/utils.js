@@ -1,5 +1,6 @@
-import { getMetadata, toCamelCase } from './aem.js';
+import { getMetadata, toCamelCase, toClassName } from './aem.js';
 import { div } from './dom-builder.js';
+import ffetch from './ffetch.js';
 
 function formatDate(inputDate) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
@@ -27,6 +28,24 @@ function containerize(container, targetClass) {
   }
 }
 
+function toTitleCase(inputString) {
+  const modifiedString = inputString.replace(/-/g, ' ');
+  return modifiedString.replace(/(^|\s)([a-z])/g, (match, p1, p2) => p1 + p2.toUpperCase());
+}
+
+function getParameterMap() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const params = new Map();
+  urlParams.forEach((value, key) => {
+    if (urlParams.getAll(key).length > 1) {
+      params.set(key, urlParams.getAll(key));
+    } else {
+      params.set(key, urlParams.get(key).split(','));
+    }
+  });
+  return params;
+}
+
 /**
  * Fetch pages from specified paths and parse into queryable document objects
  * @param paths {string[]}
@@ -40,6 +59,9 @@ async function fetchPages(paths) {
   );
 }
 
+/**
+ * Tag related helper functions
+ */
 async function fetchTagList(prefix = 'default') {
   window.tags = window.tags || {};
   if (!window.tags[prefix]) {
@@ -91,22 +113,71 @@ function getTagLink(tag, path) {
   return tagHref;
 }
 
-function toTitleCase(inputString) {
-  const modifiedString = inputString.replace(/-/g, ' ');
-  return modifiedString.replace(/(^|\s)([a-z])/g, (match, p1, p2) => p1 + p2.toUpperCase());
+/**
+ * Author related helper functions
+ */
+function buildAuthorUrl(author) {
+  return `/author/${toClassName(author.trim()).replaceAll('-', '')}`;
 }
 
-function getParameterMap() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const params = new Map();
-  urlParams.forEach((value, key) => {
-    if (urlParams.getAll(key).length > 1) {
-      params.set(key, urlParams.getAll(key));
-    } else {
-      params.set(key, urlParams.get(key).split(','));
-    }
+const defaultSuffixes = ['PhD', 'Ph.D.']; // TODO
+function getAuthorMetadata(doc) {
+  const authorNames = getMetadata('author', doc).split(',').map((e) => e.trim());
+  if (!authorNames || authorNames.length === 0) {
+    return '';
+  }
+
+  return authorNames.map((authorName) => {
+    let modifiedAuthor = authorName;
+    defaultSuffixes.forEach((suffix) => {
+      modifiedAuthor = modifiedAuthor.replace(new RegExp(`,*\\s*${suffix}(?=,|$)`, 'g'), '');
+    });
+    return modifiedAuthor.trim();
   });
-  return params;
+}
+
+function buildCardDisplayAuthor(authors) {
+  if (!authors || authors.length === 0) {
+    return null;
+  }
+  if (authors.length === 1) {
+    return authors[0];
+  }
+  const firstAuthor = { ...authors[0] };
+  firstAuthor.author = `${firstAuthor.author} + more`;
+  return firstAuthor;
+}
+
+/**
+ * Fetches author information based on the provided author names.
+ * @param {string|string[]} authors - The author name(s) to fetch information for.
+ * @returns {Promise<Object[]>} - A promise that resolves to an array of author objects.
+ */
+async function fetchAuthors(authors) {
+  if (!authors || authors === '0' || (Array.isArray(authors) && authors.length === 1 && authors[0] === '')) {
+    return [];
+  }
+
+  const authorIndex = await ffetch(
+    `${window.hlx.codeBasePath}/authors-index.json`,
+    'sapContentHubAuthorEntries',
+  ).all();
+
+  const authorKeys = Array.isArray(authors) ? authors : authors.split(',').map((author) => author.trim());
+  return authorKeys.map((authorName) => {
+    const cachedAuthor = sessionStorage.getItem(`author-${toClassName(authorName)}`);
+    let authorEntry = cachedAuthor ? JSON.parse(cachedAuthor) : null;
+    if (!authorEntry) {
+      [authorEntry] = authorIndex.filter(
+        (entry) => entry.author === authorName || entry.path === authorName,
+      );
+      if (!authorEntry) {
+        authorEntry = { author: authorName, path: buildAuthorUrl(authorName) };
+      }
+      sessionStorage.setItem(`author-${toClassName(authorName)}`, JSON.stringify(authorEntry));
+    }
+    return authorEntry;
+  });
 }
 
 export {
@@ -119,4 +190,8 @@ export {
   getTagLink,
   toTitleCase,
   getParameterMap,
+  buildAuthorUrl,
+  getAuthorMetadata,
+  fetchAuthors,
+  buildCardDisplayAuthor,
 };

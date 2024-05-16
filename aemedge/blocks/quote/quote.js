@@ -1,35 +1,34 @@
-import { getAuthorEntries, removeAuthorsSuffixes } from '../../scripts/article.js';
 import Avatar from '../../libs/avatar/avatar.js';
 import { getMetadata } from '../../scripts/aem.js';
+import { fetchAuthors } from '../../scripts/utils.js';
 
 export default async function decorate(block) {
-  const qtContent = block.querySelector(':scope > div:first-of-type > div');
-  const qsContent = block.querySelector(':scope > div:nth-of-type(2) > div');
-  const linkContent = block.querySelector(':scope > div:nth-of-type(3) > div');
+  const quoteText = block.querySelector(':scope > div:first-of-type > div');
+  const quoteAuthor = block.querySelector(':scope > div:nth-of-type(2) > div');
+  const quoteLink = block.querySelector(':scope > div:nth-of-type(3) > div');
   const isNotArticle = getMetadata('template') !== 'article';
   const isSmall = block.classList.contains('small');
-  qtContent.classList.add('col', 'content');
-  qtContent.parentNode.classList.add('qt');
-  if (qsContent) {
-    qsContent.classList.add('col', 'content');
-    qsContent.parentNode.classList.add('qs');
+  quoteText.classList.add('col', 'content');
+  quoteText.parentNode.classList.add('qt');
+  if (quoteAuthor) {
+    quoteAuthor.classList.add('col', 'content');
+    quoteAuthor.parentNode.classList.add('qs');
     if (isNotArticle) {
-      const [author] = removeAuthorsSuffixes(qsContent.textContent).split(',');
-      const [authorEntry] = await getAuthorEntries([author.trim()]);
-      if (authorEntry) {
+      const authorEntry = (await fetchAuthors(quoteAuthor.textContent))[0];
+      if (authorEntry && authorEntry.image) {
         const avatar = Avatar.fromAuthorEntry(authorEntry).render(isSmall ? 'medium' : 'big', false, true);
-        block.insertBefore(avatar, qtContent.parentNode);
+        block.insertBefore(avatar, quoteText.parentNode);
       }
     }
   }
-  if (linkContent && isNotArticle) {
-    linkContent.classList.add('col', 'content');
-    linkContent.parentNode.classList.add('quote-link');
-  } else if (linkContent) {
+  if (quoteLink && isNotArticle) {
+    quoteLink.classList.add('col', 'content');
+    quoteLink.parentNode.classList.add('quote-link');
+  } else if (quoteLink) {
     // If article page, remove from DOM and ignore
-    linkContent.parentNode.remove();
+    quoteLink.parentNode.remove();
   }
-  if (!linkContent && !qsContent) {
-    qtContent.parentNode.classList.add('qt single-qt');
+  if (!quoteLink && !quoteAuthor) {
+    quoteText.parentNode.classList.add('qt single-qt');
   }
 }
