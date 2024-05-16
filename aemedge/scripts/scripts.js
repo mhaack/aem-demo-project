@@ -36,6 +36,10 @@ async function loadFonts() {
   }
 }
 
+function isDesignSystemSite() {
+  return document.body.classList.contains('design-system');
+}
+
 async function decorateTemplates(main) {
   try {
     const template = toClassName(getMetadata('template'));
@@ -193,6 +197,24 @@ function decorateFragmentLinks(main) {
  */
 let decorateFragments;
 
+function decorateLiveExamples(element) {
+  if (!isDesignSystemSite()) {
+    return;
+  }
+  element.querySelectorAll('a').forEach((link) => {
+    const { href, textContent } = link;
+    // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
+    if (href !== textContent || !href.includes('https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/')) {
+      return;
+    }
+
+    const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
+
+    link.parentElement.replaceWith(embedBlock);
+    decorateBlock(embedBlock);
+  });
+}
+
 /**
  * Decorates the main element.
  * @param {Element} main The main element
@@ -201,6 +223,7 @@ let decorateFragments;
 export async function decorateMain(main, shouldDecorateTemplates = true) {
   // hopefully forward compatible button decoration
   decorateFragmentLinks(main);
+  decorateLiveExamples(main);
   decorateButtons(main);
   decorateIcons(main);
   decorateImageLinks(main);
@@ -333,10 +356,6 @@ async function loadEager(doc) {
   } catch (e) {
     // do nothing
   }
-}
-
-function isDesignSystemSite() {
-  return document.body.classList.contains('design-system');
 }
 
 /**

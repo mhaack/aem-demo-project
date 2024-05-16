@@ -1,20 +1,5 @@
 import { div, nav } from '../../scripts/dom-builder.js';
-import { buildBlock, decorateBlock } from '../../scripts/aem.js';
-
-function decorateLiveExamples(element) {
-  element.querySelectorAll('a').forEach((link) => {
-    const { href, textContent } = link;
-    // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
-    if (href !== textContent || !href.includes('https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/')) {
-      return;
-    }
-
-    const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
-
-    link.parentElement.replaceWith(embedBlock);
-    decorateBlock(embedBlock);
-  });
-}
+import { buildBlock } from '../../scripts/aem.js';
 
 function setAnatomyRequirementStatus() {
   const requirements = document.querySelectorAll('.web-component ol:has(li > em + strong) em');
@@ -57,57 +42,11 @@ async function decorate(doc) {
   const mainNavContainer = nav();
   main.parentNode.insertBefore(mainNavContainer, main);
 
-  // get first section and all the others
-  const [firstSection, ...otherSections] = main.children;
-
-  const sectionDividers = [
-    {
-      sectionName: 'Usage',
-      firstSectionTitle: 'Intro',
-    },
-    {
-      sectionName: 'Style',
-      firstSectionTitle: 'Styles intro',
-    },
-    {
-      sectionName: 'Accessibility',
-      firstSectionTitle: 'Accessibility intro',
-    },
-    {
-      sectionName: 'Code',
-      firstSectionTitle: 'Code intro',
-    },
-  ];
-
-  let currentTabName;
-  let sectionDividerIndex = 0;
-
-  otherSections.forEach((section) => {
-    const sectionTitle = section.querySelector('h2');
-    if (sectionTitle.textContent === sectionDividers[sectionDividerIndex].firstSectionTitle) {
-      currentTabName = sectionDividers[sectionDividerIndex].sectionName;
-      sectionDividerIndex += 1;
-    }
-
-    const sectionMetadata = section.querySelector('.section-metadata');
-    const nameMetadata = div(div('name'), div(currentTabName));
-    if (sectionMetadata) {
-      sectionMetadata.append(nameMetadata);
-    } else {
-      section.append(div({ class: 'section-metadata' }, nameMetadata));
-    }
-  });
-
-  const pageTabsBlock = buildBlock('page-tabs', [[]]);
-  firstSection.append(pageTabsBlock);
-
   main.append(div(buildBlock('design-system-toc', '')));
 
   setAnatomyRequirementStatus();
 
   markFirstAndLastInSectionCategory();
-
-  decorateLiveExamples(doc);
 }
 
 decorate(document);

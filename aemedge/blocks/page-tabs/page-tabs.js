@@ -1,4 +1,5 @@
 import { a, li, ul } from '../../scripts/dom-builder.js';
+import { loadFragment } from '../../scripts/scripts.js';
 
 function openTab(target) {
   const parent = target.parentNode;
@@ -32,7 +33,9 @@ async function createTabList(sections, active) {
         { 'aria-selected': tabName === active },
         a({
           href: `#${tabName}`,
-          onclick: (e) => { openTab(e.target); }, // tabName, tabSections); },
+          onclick: (e) => {
+            openTab(e.target);
+          }, // tabName, tabSections); },
         }, tabName),
       )),
   );
@@ -40,37 +43,51 @@ async function createTabList(sections, active) {
 
 export default async function decorate(block) {
   const main = block.closest('main');
-  const sections = main.querySelectorAll('div.section[data-name]');
-  const namedSections = [...sections].filter((section) => section.hasAttribute('data-name'));
-  if (namedSections) {
-    const activeHash = window.location.hash;
-    const id = activeHash.substring(1, activeHash.length);
+  const tabNames = [...block.children].map((child) => child.textContent.trim());
+  if (!tabNames) return;
 
-    const tabExists = namedSections.some((section) => section.getAttribute('data-name') === id);
-    let activeTab = id;
-    if (!tabExists) {
-      const element = document.getElementById(id);
-      if (element) {
-        activeTab = element.closest('.section')?.getAttribute('aria-labelledby');
-        element.scrollIntoView();
-      } else {
-        activeTab = namedSections[0].getAttribute('data-name');
-      }
+  const namedSections = (await Promise.all(tabNames.map(async (tabName) => {
+    const sanitizedTabName = tabName.toLowerCase().replace(/ /g, '-');
+    const tabUrl = `${document.location.pathname}${sanitizedTabName}`;
+    // eslint-disable-next-line no-await-in-loop
+    return [await loadFragment(tabUrl), tabName];
+  }))).reduce((acc, [tab, tabName]) => {
+    const sections = [...tab.children];
+    sections.forEach((section) => section.setAttribute('data-name', tabName));
+    acc.push(...sections);
+
+    return acc;
+  }, []);
+
+  block.closest('.section').after(...namedSections);
+
+  let activeHash = window.location.hash;
+  const id = activeHash.substring(1, activeHash.length);
+
+  const tabExists = namedSections.some((section) => section?.getAttribute('data-name') === id);
+  let activeTab = id;
+  if (!tabExists) {
+    const element = document.getElementById(id);
+    if (element) {
+      activeTab = element.closest('.section')?.getAttribute('aria-labelledby');
+      element.scrollIntoView();
+    } else {
+      activeTab = namedSections[0].getAttribute('data-name');
     }
-
-    sections.forEach((section) => {
-      if (activeTab === section.getAttribute('data-name')) {
-        section.setAttribute('aria-hidden', false);
-      } else {
-        section.setAttribute('aria-hidden', true);
-      }
-    });
-
-    block.replaceChildren(await createTabList(namedSections, activeTab));
   }
 
+  namedSections.forEach((section) => {
+    if (activeTab === section.getAttribute('data-name')) {
+      section.setAttribute('aria-hidden', false);
+    } else {
+      section.setAttribute('aria-hidden', true);
+    }
+  });
+
+  block.replaceChildren(await createTabList(namedSections, activeTab));
+
   window.addEventListener('hashchange', () => {
-    let activeHash = window.location.hash;
+    activeHash = window.location.hash;
     activeHash = activeHash ? activeHash.substring(1) : namedSections[0].getAttribute('data-name');
     if (!activeHash) return;
 
