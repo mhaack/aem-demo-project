@@ -4,7 +4,6 @@ import {
 } from '../../scripts/aem.js';
 import { ul } from '../../scripts/dom-builder.js';
 import {
-  extractFieldValue,
   fetchTagList,
   toTitleCase,
   formatDate,
@@ -12,20 +11,21 @@ import {
   buildCardDisplayAuthor,
   fetchAuthorList,
   lookupAuthors,
+  getContentTypeFromArticle,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import Pages from '../../libs/pages/pages.js';
 
-function getPictureCard(article, placeholders, author) {
-  const type = extractFieldValue(article, 'tags', 'content-type');
+function getPictureCard(article, placeholders, tags, author) {
+  const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const {
     image, path, title, priority,
   } = article;
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
-  return new PictureCard(title, path, type, info, author, image, tagLabel);
+  return new PictureCard(title, path, contentType.label, info, author, image, tagLabel);
 }
 
 function getPathFilter(entry, tags) {
@@ -73,12 +73,12 @@ async function getArticles(tags, startPage = 1, batchSize = 6) {
     .paginate(batchSize, startPage);
 }
 
-function renderCards(articles, placeholders, authorIndex) {
+function renderCards(articles, placeholders, tags, authorIndex) {
   const cardList = ul({ class: 'card-items' });
   articles.forEach((article) => {
     const authors = lookupAuthors(article.author, authorIndex);
     const displayAuthor = buildCardDisplayAuthor(authors);
-    const card = getPictureCard(article, placeholders, displayAuthor);
+    const card = getPictureCard(article, placeholders, tags, displayAuthor);
     cardList.append(card.render());
   });
   return cardList;
@@ -90,7 +90,7 @@ function registerHandler(block, tags, filters, pages, placeholders, articleStrea
       articleStream = await getArticles(tags);
       articleStream.next().then((cursor) => {
         block.querySelector('.card-items').remove();
-        const cards = renderCards(cursor.value.results, placeholders, authorIndex);
+        const cards = renderCards(cursor.value.results, placeholders, tags, authorIndex);
         filters.updateResults(cursor.value.total);
         block.append(cards);
         pages.updatePages(cursor.value.pages, 1);
@@ -100,7 +100,7 @@ function registerHandler(block, tags, filters, pages, placeholders, articleStrea
   window.addEventListener('sap:pageChange', (e) => {
     articleStream.next({ direction: e.detail.direction }).then((cursor) => {
       block.querySelector('.card-items').remove();
-      const cards = renderCards(cursor.value.results, placeholders, authorIndex);
+      const cards = renderCards(cursor.value.results, placeholders, tags, authorIndex);
       block.append(cards);
       pages.updatePages(cursor.value.pages);
     });
@@ -125,7 +125,7 @@ export default async function decorateBlock(block) {
   const page = +urlParams.get('page') || 1;
   const articleStream = await getArticles(tags, page);
   const cursor = await articleStream.next();
-  const cardList = renderCards(cursor.value.results, placeholders, authorIndex);
+  const cardList = renderCards(cursor.value.results, placeholders, tags, authorIndex);
   filters.updateResults(cursor.value.total);
   block.append(cardList);
   const pages = new Pages(block, cursor.value.pages, page);

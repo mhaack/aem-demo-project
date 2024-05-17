@@ -12,6 +12,8 @@ import {
   buildCardDisplayAuthor,
   lookupAuthors,
   fetchAuthorList,
+  fetchTagList,
+  getContentTypeFromArticle,
 } from '../../scripts/utils.js';
 
 function matchTags(entry, config) {
@@ -51,21 +53,21 @@ function getInfo(article, config) {
   return '';
 }
 
-function getPictureCard(article, config, placeholders, author) {
-  const type = extractFieldValue(article, 'tags', 'content-type');
+function getPictureCard(article, config, placeholders, tags, author) {
+  const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const {
     image, path, title, priority,
   } = article;
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const info = getInfo(article, config);
-  return new PictureCard(title, path, type, info, author, image, tagLabel);
+  return new PictureCard(title, path, contentType.label, info, author, image, tagLabel);
 }
 
-function getCard(article, config) {
-  const type = extractFieldValue(article, 'tags', 'content-type');
+function getCard(article, config, tags) {
+  const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const { path, title } = article;
   const info = getInfo(article, config);
-  return new Card(title, path, type, info);
+  return new Card(title, path, contentType.label, info);
 }
 
 export default async function decorateBlock(block) {
@@ -86,6 +88,7 @@ export default async function decorateBlock(block) {
     .slice(0, limit - 1)
     .all();
   const placeholders = await fetchPlaceholders();
+  const tags = await fetchTagList();
   const authorIndex = await fetchAuthorList();
   const itemCount = articleStream.length;
   let viewBtn;
@@ -100,9 +103,9 @@ export default async function decorateBlock(block) {
     const authors = lookupAuthors(article.author, authorIndex);
     const displayAuthor = buildCardDisplayAuthor(authors);
     if (textOnly) {
-      card = getCard(article, config);
+      card = getCard(article, config, tags);
     } else {
-      card = getPictureCard(article, config, placeholders, displayAuthor);
+      card = getPictureCard(article, config, placeholders, tags, displayAuthor);
     }
     cardList.append(card.render());
   });

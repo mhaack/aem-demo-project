@@ -98,6 +98,11 @@ function getContentType(doc = document) {
   return tags.find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
 }
 
+function getContentTypeFromArticle(article) {
+  const tags = Array.isArray(article.tags) ? article.tags : JSON.parse(article.tags);
+  return tags.find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
+}
+
 function extractFieldValue(entry, field, prefix) {
   const value = JSON.parse(entry[field])
     .find((item) => item.trim().toLowerCase().startsWith(prefix))
@@ -188,6 +193,7 @@ export {
   fetchPages,
   fetchTagList,
   getContentType,
+  getContentTypeFromArticle,
   extractFieldValue,
   getTagLink,
   toTitleCase,
