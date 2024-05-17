@@ -61,6 +61,12 @@ indices:
       template:
         select: head > meta[name="template"]
         value: attribute(el, "content")
+      cardC2A:
+        select: head > meta[name="card-c2a"]
+        value: attribute(el, "content")  
+      cardUrl:
+        select: head > meta[name="card-url"]
+        value: attribute(el, "content")
       robots:
         select: head > meta[name="robots"]
         value: attribute(el, "content")
