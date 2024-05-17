@@ -127,7 +127,9 @@ function buildAuthorUrl(author) {
 
 const defaultSuffixes = ['PhD', 'Ph.D.']; // TODO
 function getAuthorMetadata(doc) {
-  const authorNames = getMetadata('author', doc).split(',').map((e) => e.trim());
+  const authorNames = getMetadata('author', doc)
+    .split(',')
+    .map((e) => e.trim());
   if (!authorNames || authorNames.length === 0) {
     return '';
   }
@@ -166,11 +168,17 @@ async function fetchAuthorList() {
  * @returns {Promise<Object[]>} - A promise that resolves to an array of author objects.
  */
 function lookupAuthors(authorsKeys, authorIndex) {
-  if (!authorsKeys || authorsKeys === '0' || (Array.isArray(authorsKeys) && authorsKeys.length === 1 && authorsKeys[0] === '')) {
+  if (
+    !authorsKeys
+    || authorsKeys === '0'
+    || (Array.isArray(authorsKeys) && authorsKeys.length === 1 && authorsKeys[0] === '')
+  ) {
     return [];
   }
 
-  const authorKeys = Array.isArray(authorsKeys) ? authorsKeys : authorsKeys.split(',').map((author) => author.trim());
+  const authorKeys = Array.isArray(authorsKeys)
+    ? authorsKeys
+    : authorsKeys.split(',').map((author) => author.trim());
   return authorKeys.map((authorName) => {
     const cachedAuthor = sessionStorage.getItem(`author-${toClassName(authorName)}`);
     let authorEntry = cachedAuthor ? JSON.parse(cachedAuthor) : null;
@@ -185,6 +193,11 @@ function lookupAuthors(authorsKeys, authorIndex) {
     }
     return authorEntry;
   });
+}
+
+function getConfig(key) {
+  const config = sessionStorage.getItem('config-ch');
+  return config ? JSON.parse(config)[key] : null;
 }
 
 export {
@@ -203,4 +216,5 @@ export {
   fetchAuthorList,
   lookupAuthors,
   buildCardDisplayAuthor,
+  getConfig,
 };

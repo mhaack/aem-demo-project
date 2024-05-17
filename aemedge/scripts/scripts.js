@@ -47,7 +47,9 @@ async function decorateTemplates(main) {
     if (templates.includes(template)) {
       const templateName = TEMPLATE_LIST[template];
       loadCSS(`${window.hlx.codeBasePath}/templates/${templateName}/${templateName}.css`);
-      const mod = await import(`${window.hlx.codeBasePath}/templates/${templateName}/${templateName}.js`);
+      const mod = await import(
+        `${window.hlx.codeBasePath}/templates/${templateName}/${templateName}.js`
+      );
       if (mod.default) {
         await mod.default(main);
       }
@@ -152,7 +154,11 @@ function decorateSections(main) {
 function decorateImageLinks(main) {
   main.querySelectorAll('p picture').forEach((picture) => {
     const linkElement = picture.nextElementSibling;
-    if (linkElement && linkElement.tagName === 'A' && linkElement.href.startsWith('https://www.linkedin.com/posts/')) {
+    if (
+      linkElement
+      && linkElement.tagName === 'A'
+      && linkElement.href.startsWith('https://www.linkedin.com/posts/')
+    ) {
       const linkURL = linkElement.href;
 
       /**
@@ -204,7 +210,12 @@ function decorateLiveExamples(element) {
   element.querySelectorAll('a').forEach((link) => {
     const { href, textContent } = link;
     // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
-    if (href !== textContent || !href.includes('https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/')) {
+    if (
+      href !== textContent
+      || !href.includes(
+        'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/',
+      )
+    ) {
       return;
     }
 
@@ -308,6 +319,17 @@ function setSAPTheme() {
   }
 }
 
+async function loadConfig() {
+  const response = await fetch(`${window.hlx.codeBasePath}/config.json`);
+  const configResponse = await response.json();
+  const config = {};
+  configResponse.data.forEach((data) => {
+    const { Key: key, Value: value } = data;
+    config[key] = value;
+  });
+  sessionStorage.setItem('config-ch', JSON.stringify(config));
+}
+
 function initSidekick() {
   const preflightListener = async () => {
     const section = document.createElement('div');
@@ -326,10 +348,14 @@ function initSidekick() {
   if (sk) {
     sk.addEventListener('custom:preflight', preflightListener); // TODO change to preflight
   } else {
-    document.addEventListener('sidekick-ready', () => {
-      const oAddedSidekick = document.querySelector('helix-sidekick');
-      oAddedSidekick.addEventListener('custom:preflight', preflightListener);
-    }, { once: true });
+    document.addEventListener(
+      'sidekick-ready',
+      () => {
+        const oAddedSidekick = document.querySelector('helix-sidekick');
+        oAddedSidekick.addEventListener('custom:preflight', preflightListener);
+      },
+      { once: true },
+    );
   }
 }
 
@@ -340,6 +366,7 @@ function initSidekick() {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   setSAPTheme();
+  loadConfig();
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -364,7 +391,7 @@ async function loadEager(doc) {
  * @returns {Promise}
  */
 async function loadHeader(header) {
-  const headerBlock = buildBlock((isDesignSystemSite()) ? 'design-system-header' : 'header', '');
+  const headerBlock = buildBlock(isDesignSystemSite() ? 'design-system-header' : 'header', '');
   header.append(headerBlock);
   decorateBlock(headerBlock);
   return loadBlock(headerBlock);
