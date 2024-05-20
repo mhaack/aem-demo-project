@@ -8,8 +8,8 @@ Before: https://main--builder-prospect--sapudex.hlx.live/blog/2023/11/idc-market
 After: https://<branch>--builder-prospect--sapudex.hlx.live/blog/2023/11/idc-marketscape-sap-a-leader-cloud-enabled-sourcing-applications
 
 **Design system:**
-Before: https://main--builder-prospect--sapudex.hlx.live/fiori-design-web/button-web-component
-After: https://<branch>--builder-prospect--sapudex.hlx.live/fiori-design-web/button-web-component
+Before: https://main--builder-prospect--sapudex.hlx.live/fiori-design-web/button-web-component/
+After: https://<branch>--builder-prospect--sapudex.hlx.live/fiori-design-web/button-web-component/
 
 
 - [ ] New Blocks introduced in this PR
