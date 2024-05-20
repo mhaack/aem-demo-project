@@ -390,3 +390,15 @@ udex-hero-banner .text-neutral-black {
 .section.hero-container {
   padding-bottom: unset;
 }
+
+.hero-ds-wrapper udex-hero-banner .hero-banner.media-blend__additional-content img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--udexSpacer16, 16px);
+  object-fit: contain;
+}
+
+.hero-ds-wrapper udex-hero-banner .hero-banner p {
+  font-size: var(--udexTypographyBodyMFontSize);
+}
