@@ -41,6 +41,35 @@ async function createTabList(sections, active) {
   );
 }
 
+/**
+ * Mark the last section in each category with a data-position attribute.
+ * This is used to style the last section differently.
+ */
+function markFirstAndLastInSectionCategory() {
+  const namedSections = [...document.querySelectorAll('div.section[data-name]')];
+  const sectionsByName = new Map();
+
+  // Group the sections by their data-name attribute
+  namedSections.forEach((section) => {
+    const name = section.getAttribute('data-name');
+    if (!sectionsByName.has(name)) {
+      sectionsByName.set(name, []);
+    }
+    sectionsByName.get(name)
+      .push(section);
+  });
+
+  // Mark the first and last section in each category
+  sectionsByName.forEach((sections) => {
+    if (sections.length > 0) {
+      const firstSection = sections[0];
+      firstSection.setAttribute('data-position', 'first');
+      const lastSection = sections[sections.length - 1];
+      lastSection.setAttribute('data-position', 'last');
+    }
+  });
+}
+
 export default async function decorate(block) {
   const main = block.closest('main');
   const tabNames = [...block.children].map((child) => child.textContent.trim());
@@ -119,4 +148,5 @@ export default async function decorate(block) {
 
   const pageTabsBlock = main.querySelector('.page-tabs-wrapper');
   pageTabsBlock.classList.add('sticky-element', 'sticky-desktop');
+  markFirstAndLastInSectionCategory();
 }
