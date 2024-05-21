@@ -200,21 +200,32 @@ function getConfig(key) {
   return config ? JSON.parse(config)[key] : null;
 }
 
+/**
+ * Converts a given string to "kebab case" making all letters lowercase and replacing all
+ * whitespaces with dashes.
+ * @param {string} str - The input string to be converted.
+ * @returns {string} The string in kebab case format.
+ */
+function convertStringToKebabCase(str) {
+  return str.toLowerCase().replace(/\s+/g, '-');
+}
+
 export {
-  formatDate,
+  buildAuthorUrl,
+  buildCardDisplayAuthor,
   containerize,
+  convertStringToKebabCase,
+  extractFieldValue,
+  fetchAuthorList,
   fetchPages,
   fetchTagList,
+  formatDate,
+  getAuthorMetadata,
+  getConfig,
   getContentType,
   getContentTypeFromArticle,
-  extractFieldValue,
-  getTagLink,
-  toTitleCase,
   getParameterMap,
-  buildAuthorUrl,
-  getAuthorMetadata,
-  fetchAuthorList,
+  getTagLink,
   lookupAuthors,
-  buildCardDisplayAuthor,
-  getConfig,
+  toTitleCase,
 };

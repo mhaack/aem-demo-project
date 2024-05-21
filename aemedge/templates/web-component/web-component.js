@@ -1,4 +1,4 @@
-import { div, nav } from '../../scripts/dom-builder.js';
+import { div } from '../../scripts/dom-builder.js';
 import { buildBlock } from '../../scripts/aem.js';
 
 function setAnatomyRequirementStatus() {
@@ -9,13 +9,13 @@ function setAnatomyRequirementStatus() {
   });
 }
 
+function initDsTocBlock(main) {
+  main.append(div(buildBlock('design-system-toc', '')));
+}
+
 async function decorate(doc) {
   const main = doc.querySelector('main');
-  const mainNavContainer = nav();
-  main.parentNode.insertBefore(mainNavContainer, main);
-
-  main.append(div(buildBlock('design-system-toc', '')));
-
+  initDsTocBlock(main);
   setAnatomyRequirementStatus();
 }
 
