@@ -111,6 +111,19 @@ function createToc(dataName, h2s) {
   return list;
 }
 
+function updateToc(lists) {
+  const currentHash = window.location.hash.substring(1);
+
+  lists.forEach((list) => {
+    const listDataName = list.getAttribute('data-toc-list');
+    if (listDataName === currentHash) {
+      list.setAttribute('aria-hidden', 'false');
+    } else {
+      list.setAttribute('aria-hidden', 'true');
+    }
+  });
+}
+
 /**
  * Initialize the TOC list by setting the aria-hidden attribute to true for all lists except the
  * first one.
@@ -120,26 +133,10 @@ function createToc(dataName, h2s) {
  */
 function initTocList(block) {
   const lists = block.querySelectorAll('.ds-toc-list');
-  lists.forEach((list) => {
-    list.setAttribute('aria-hidden', 'true');
-  });
-
-  if (lists.length > 0) {
-    // Always show the first list
-    lists[0].setAttribute('aria-hidden', 'false');
-  }
+  updateToc(lists);
 
   window.addEventListener('hashchange', () => {
-    const currentHash = window.location.hash.substring(1);
-
-    lists.forEach((list) => {
-      const listDataName = list.getAttribute('data-toc-list');
-      if (listDataName === currentHash) {
-        list.setAttribute('aria-hidden', 'false');
-      } else {
-        list.setAttribute('aria-hidden', 'true');
-      }
-    });
+    updateToc(lists);
   });
 }
 
