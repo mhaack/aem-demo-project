@@ -122,6 +122,10 @@ function updateToc(lists) {
       list.setAttribute('aria-hidden', 'true');
     }
   });
+
+  if (currentHash === '' && lists.length > 0) {
+    lists[0].setAttribute('aria-hidden', 'false');
+  }
 }
 
 /**
