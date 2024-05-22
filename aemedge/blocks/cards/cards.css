@@ -13,9 +13,13 @@
 
   & .cards-card {
     & div:nth-child(2) {
-      & > h2 {
-        font-size: var(--udexTypographyHeadingMediumXXSFontSize);
-        font-weight: var(--udexTypographyFontWeightMedium);
+      & > h3 {
+        font-size: var(--udexTypographyBodySFontSize);
+
+        @media (width >= 1280px) {
+          font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+          font-weight: var(--udexTypographyFontWeightMedium);
+        }
 
         & + p {
          padding-block: 0 var(--udexSpacer20);
@@ -100,7 +104,11 @@
 }
 
 .cards.tiles > ul {
-  grid-row-gap: var(--udexSpacer20);
+  grid-row-gap: var(--udexSpacer16);
+
+  @media (width >= 640px) {
+    grid-row-gap: var(--udexSpacer20);
+  }
 }
 
 .cards.tiles > ul > li {
@@ -151,7 +159,7 @@
 
 @media (width >= 980px) {
   .cards.tiles:not(.elems9plus) > ul {
-    grid-row-gap: var(--udexSpacer40);
+    grid-row-gap: var(--udexSpacer48);
   }
 
   .cards.tiles:not(.elems9plus) > ul > li .cards-card {
