@@ -9,6 +9,10 @@ udex-hero-banner .hero-banner {
 
 udex-hero-banner .hero-banner p {
   font-size: var(--udexTypographyBodySFontSize);
+
+  @media (width >= 1280px) {
+    font-size: var(--udexTypographyBodyMFontSize);
+  }
 }
 
 /* stylelint-disable selector-class-pattern */
