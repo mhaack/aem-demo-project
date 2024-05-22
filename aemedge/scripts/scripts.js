@@ -6,14 +6,14 @@ import {
   decorateIcons,
   decorateTemplateAndTheme,
   getMetadata,
-  readBlockConfig,
   loadBlock,
   loadBlocks,
   loadCSS,
   loadSideNav,
+  readBlockConfig,
   sampleRUM,
-  toClassName,
   toCamelCase,
+  toClassName,
 } from './aem.js';
 
 const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
@@ -226,6 +226,26 @@ function decorateLiveExamples(element) {
   });
 }
 
+function filterInternalExternalData(main) {
+  let isExternal = new URLSearchParams(window.location.search).has('external');
+  if (getMetadata('access') === 'internal') {
+    isExternal = false;
+  }
+  if (isExternal) {
+    document.body.classList.add('external');
+    const internalOnlyRegex = /\[internal_only](.*?)\[\/internal_only]/gs;
+    const externalOnlyRegex = /\[external_only]|\[\/external_only]/gs;
+    main.innerHTML = main.innerHTML.replace(internalOnlyRegex, '').replace(externalOnlyRegex, '');
+    main.querySelectorAll('[data-visibility="internal_only"]').forEach((elem) => elem.remove());
+  } else {
+    document.body.classList.add('internal');
+    const internalOnlyRegex = /\[external_only](.*?)\[\/external_only]/gs;
+    const externalOnlyRegex = /\[internal_only]|\[\/internal_only]/gs;
+    main.innerHTML = main.innerHTML.replace(internalOnlyRegex, '').replace(externalOnlyRegex, '');
+    main.querySelectorAll('[data-visibility="external_only"]').forEach((elem) => elem.remove());
+  }
+}
+
 /**
  * Decorates the main element.
  * @param {Element} main The main element
@@ -242,6 +262,10 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
     await decorateTemplates(main);
   }
   decorateSections(main);
+  if (isDesignSystemSite()) {
+    filterInternalExternalData(main);
+  }
+
   decorateBlocks(main);
   decorateFragments(main);
 }

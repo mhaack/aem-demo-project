@@ -91,7 +91,8 @@ export default async function decorate(block) {
   block.closest('.section').after(...namedSections);
 
   let activeHash = window.location.hash;
-  const id = activeHash.substring(1, activeHash.length);
+  // eslint-disable-next-line no-unused-vars
+  const [id, queryString] = activeHash.substring(1, activeHash.length).split('?');
 
   const tabExists = namedSections.some((section) => section?.getAttribute('data-name') === id);
   let activeTab = id;

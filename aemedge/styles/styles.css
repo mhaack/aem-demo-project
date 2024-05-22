@@ -18,6 +18,16 @@
   }
 }
 
+.external .internal-only,
+.external [data-visibility="internal_only"] {
+  display: none;
+}
+
+.internal .external-only,
+.internal [data-visibility="external_only"] {
+  display: none;
+}
+
 /* Fall back to Arial for 72 Brand Variable
  Added to styles.css for early loading */
 
