@@ -28,6 +28,7 @@ indices:
     include:
       - /blogs/**
       - /news/**
+      - /topics/**
       - /videos/**
       - /resources/**
       - /research/**
