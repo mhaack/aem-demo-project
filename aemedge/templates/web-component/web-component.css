@@ -38,15 +38,46 @@ html:has(.web-component) {
     padding: 0 var(--udexGridMargins);
     position: relative;
 
-    .default-content-wrapper {
-      h2 {
-        color: var(--sapContent_TitleColor);
-        font-size: var(--udexTypographyHeadingMediumXSFontSize);
-        font-weight: var(--udexTypographyFontWeightMedium);
-        line-height: var(--udexTypographyHeadingLineHeight);
-        margin: 0 0 var(--udexSpacer16);
+    h2 {
+      color: var(--sapContent_TitleColor);
+      font-size: var(--udexTypographyHeadingMediumXSFontSize);
+      font-weight: var(--udexTypographyFontWeightMedium);
+      line-height: var(--udexTypographyHeadingLineHeight);
+      margin: 0 0 var(--udexSpacer16);
+      padding: 0;
+    }
+
+    /* Picture */
+    /* stylelint-disable-next-line */
+    p:has(> picture) {
+      margin: 0 0 var(--udexSpacer16);
+      padding: 0;
+
+      /* Caption */
+      /* stylelint-disable-next-line */
+      & + p {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+        margin: 0;
         padding: 0;
+
+        em {
+          display: block;
+          font-style: inherit;
+        }
       }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0 0 0 1rem;
+    }
+
+    img {
+      display: block;
+    }
+
+    picture {
+      display: block;
     }
 
     .section {
@@ -92,19 +123,6 @@ html:has(.web-component) {
     }
   }
 
-  ul {
-    margin: 0;
-    padding: 0 0 0 1rem;
-  }
-
-  img {
-    display: block;
-  }
-
-  picture {
-    display: block;
-  }
-
   .block.columns.columns-2-cols {
     > div {
       grid-gap: var(--udexSpacer16) var(--udexSpacer48);
@@ -129,7 +147,7 @@ html:has(.web-component) {
       }
     }
 
-    >div:not(:last-child) {
+    > div:not(:last-child) {
       margin-bottom: var(--udexSpacer32);
     }
   }
@@ -158,9 +176,14 @@ html:has(.web-component) {
     main {
       column-gap: var(--udexGridSGutters);
 
-      .default-content-wrapper {
-        h2 {
-          font-size: var(--udexTypographyHeadingMediumSFontSize);
+      h2 {
+        font-size: var(--udexTypographyHeadingMediumSFontSize);
+      }
+
+      p:has(> picture) {
+        /* Caption */
+        & + p {
+          font-size: var(--udexTypographyBodyXSFontSize);
         }
       }
     }
@@ -173,10 +196,8 @@ html:has(.web-component) {
     main {
       column-gap: var(--udexGridMGutters);
 
-      .default-content-wrapper {
-        h2 {
-          font-size: var(--udexTypographyHeadingMediumMFontSize);
-        }
+      h2 {
+        font-size: var(--udexTypographyHeadingMediumMFontSize);
       }
 
       .section {
@@ -242,105 +263,12 @@ html:has(.web-component) {
  */
 /* stylelint-disable no-duplicate-selectors */
 .web-component {
-  :is(#anatomy) {
-    /* Picture */
-    + p:has(> picture) {
-      margin: 0 0 var(--udexSpacer16);
-      padding: 0;
-
-      & img {
-        border-radius: var(--udexRadiusM);
-      }
-
-      /* Caption */
-      & + p {
-        font-size: var(--udexTypographyBodyXXSFontSize);
-        margin: 0;
-        padding: 0;
-      }
-    }
-
-    ~ ol {
-      display: flex;
-      flex-direction: column;
-      gap: var(--udexSpacer16);
-      margin: var(--udexSpacer32) 0 0;
-      padding: 0 0 0 1rem;
-
-      li {
-        margin: 0;
-        padding: 0;
-
-        &::marker {
-          font-weight: var(--udexTypographyFontWeightBold);
-        }
-
-        strong {
-          font-weight: var(--udexTypographyFontWeightBold);
-        }
-      }
-    }
-  }
-}
-
-/* XS */
-@media (width < 640px) {
-  .web-component {
+  main {
     :is(#anatomy) {
-      ~ ol {
-        em {
-          display: none;
-        }
-      }
-    }
-  }
-}
-
-/* S */
-@media (width >= 640px) {
-  .web-component {
-    --anatomy-requirements-with: 110px;
-
-    :is(#anatomy) {
+      /* Picture */
       + p:has(> picture) {
-        /* Caption */
-        & + p {
-          font-size: var(--udexTypographyBodyXSFontSize);
-        }
-      }
-
-      ~ ol {
-        margin-top: var(--udexSpacer16);
-        margin-left: var(--anatomy-requirements-with);
-
-        li {
-          position: relative;
-        }
-
-        em[data-requirement-status] {
-          border: 1px solid;
-          border-radius: var(--sapButton_BorderCornerRadius);
-          color: var(--udexColorNeutralWhite);
-          display: block;
-          font-size: var(--sapFontSmallSize);
-          font-style: normal;
-          font-weight: var(--udexTypographyFontWeightBold);
-          left: calc((var(--anatomy-requirements-with) + 1rem) * -1);
-          padding: 3px 4px;
-          position: absolute;
-          text-shadow: var(--sapContent_ContrastTextShadow);
-          top: 50%;
-          transform: translateY(-50%);
-        }
-
-        em[data-requirement-status="mandatory"] {
-          border-color: var(--sapIndicationColor_3_Background);
-          background: var(--sapIndicationColor_3_Background);
-        }
-
-        em[data-requirement-status="optional"] {
-          border-color: var(--sapIndicationColor_4_Background);
-          background: var(--sapIndicationColor_4_Background);
+        & img {
+          border-radius: var(--udexRadiusM);
         }
       }
     }

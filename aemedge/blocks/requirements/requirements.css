@@ -1,0 +1,82 @@
+.requirements {
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--udexSpacer16);
+    margin: var(--udexSpacer32) 0 0;
+    padding: 0 0 0 1rem;
+
+    li {
+      margin: 0;
+      padding: 0;
+
+      &::marker {
+        font-weight: var(--udexTypographyFontWeightBold);
+      }
+
+      strong {
+        font-weight: var(--udexTypographyFontWeightBold);
+      }
+    }
+  }
+}
+
+/* XS */
+@media (width < 640px) {
+  .requirements {
+    ol {
+      em {
+        display: none;
+      }
+    }
+  }
+}
+
+/* S */
+@media (width >= 640px) {
+  .requirements {
+    --requirements-width: 110px;
+
+    ol {
+      margin-left: var(--requirements-width);
+
+      li {
+        position: relative;
+      }
+
+      em[data-requirement-status] {
+        border: 1px solid;
+        border-radius: var(--sapButton_BorderCornerRadius);
+        color: var(--udexColorNeutralWhite);
+        display: block;
+        font-size: var(--sapFontSmallSize);
+        font-style: normal;
+        font-weight: var(--udexTypographyFontWeightBold);
+        left: calc((var(--requirements-width) + 1rem) * -1);
+        padding: 3px 4px;
+        position: absolute;
+        text-shadow: var(--sapContent_ContrastTextShadow);
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      em[data-requirement-status="mandatory"] {
+        border-color: var(--sapIndicationColor_3_Background);
+        background: var(--sapIndicationColor_3_Background);
+      }
+
+      em[data-requirement-status="optional"] {
+        border-color: var(--sapIndicationColor_4_Background);
+        background: var(--sapIndicationColor_4_Background);
+      }
+    }
+  }
+}
+
+
+/* M */
+@media (width >= 980px) {
+  .requirements {
+    --requirements-width: 85px;
+  }
+}
