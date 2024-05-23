@@ -1,0 +1,86 @@
+.error {
+    & > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-block: var(--udexSpacer56);
+        margin-inline: var(--udexGridMargins);
+
+        @media (width >= 980px) {
+            margin-block: var(--udexSpacer64);
+        }
+        
+        @media (width >= 1280px) {
+            margin-block: var(--udexSpacer84);
+        }
+
+        & .button-container {
+            margin: 0;
+        }
+
+        & > :first-child {
+            height: 100px;
+            width: 100px;
+
+            @media (width >= 980px) {
+                height: 120px;
+                width: 120px;
+            }
+
+            @media (width >= 980px) {
+                height: 140px;
+                width: 140px;
+            }
+        }
+
+        & > :nth-child(2) {
+            margin-block: var(--udexSpacer24) var(--udexSpacer20);
+
+            @media (width >= 980px) {
+                margin-block-start: var(--udexSpacer32);
+            }
+
+            @media (width >= 1280px) {
+                margin-block-start: var(--udexSpacer40);
+            }
+
+            & > h1 {
+                margin: 0;
+                font-size: var(--udexTypographyHeadingMediumSFontSize);
+                font-weight: var(--udexTypographyFontWeightMedium);
+
+                @media (width >= 980px) {
+                    font-size: var(--udexTypographyHeadingMediumMFontSize);
+                }
+
+                @media (width >= 1280px) {
+                    font-size: var(--udexTypographyHeadingMediumLFontSize);
+                }
+
+                @media (width >= 1600px) {
+                    font-size: var(--udexTypographyHeadingMediumXLFontSize);
+                }
+            }
+        }
+
+        & > :nth-child(3) {
+            & > p { 
+                margin: 0;
+            }
+
+            @media (width >= 1280px) {
+                    font-size: var(--udexTypographyBodyMFontSize);
+            }
+
+        }
+
+        & > :last-child {
+            margin-block-start: var(--udexSpacer32);
+
+             @media (width >= 1280px) {
+                margin-block-start: var(--udexSpacer40);
+            }
+        }
+    }
+}
