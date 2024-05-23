@@ -1,7 +1,33 @@
 .hub-l2.appear,
 .hub-l1.appear {
+  & > main > .section > .default-content-wrapper {
+    h2 {
+      font-size: var(--udexTypographyHeadingMediumSFontSize);
+      font-weight: var(--udexTypographyFontWeightMedium);
+    }
+
+    h2 + p {
+      font-size: var(--udexTypographyBodyMFontSize);
+    }
+  }
+  
+
   @media (width >= 980px) {
     display: grid;
+
+    & > main > .section > .default-content-wrapper {
+      h2 + p {
+        font-size: var(--udexTypographyBodyLFontSize);
+      }
+    }
+  }
+
+  @media (width >= 1280px) {
+    & > main > .section > .default-content-wrapper {
+      h2 {
+        font-size: var(--udexTypographyHeadingMediumMFontSize);
+      }
+    }
   }
 
   @media (width >= 1600px) {
@@ -43,12 +69,20 @@
       }
     }
 
-    & > :not(:last-child, .hero-container) {
+    & > :not(:last-child, .hero-container, .hero-container + *) {
       padding-block-end: var(--udexSpacer56);
     }
 
     & > :last-child {
-      padding-block-end: var(--udexSpacer84);
+      padding-block-end: var(--udexSpacer56);
+
+      @media (width >= 980px){
+        padding-block-end: var(--udexSpacer64);
+      }
+
+      @media (width >= 1280px){
+        padding-block-end: var(--udexSpacer84);
+      }
     }
   }
 
@@ -75,12 +109,12 @@
     }
 
     & > .section > .default-content-wrapper {
-      & .button-container:has(> a) {
+      & .button-container {
         margin-block: 0;
-        padding-block-start: var(--udexSpacer24);
-
-        &:not(:only-child) {
-          padding-block: var(--udexSpacer24) var(--udexSpacer56);
+        padding-block-start: var(--udexSpacer16);
+        
+        &:first-child {
+          padding-block-start: var(--udexSpacer56);
         }
 
         & + h2 {
