@@ -1,21 +1,21 @@
 import { getMetadata, decorateIcons, loadCSS } from '../../scripts/aem.js';
 import { loadFragment } from '../../scripts/scripts.js';
 import {
-  div, span, input, p, button, a, nav as navBuilder,
+  div, span, p, button, a, nav as navBuilder, hr,
 } from '../../scripts/dom-builder.js';
 import Button from '../../libs/button/button.js';
 
 // media query match that indicates mobile/tablet width
-const isDesktop = window.matchMedia('(min-width: 900px)');
+const isDesktop = window.matchMedia('(min-width: 980px)');
 
 function closeOnEscape(e) {
   if (e.code === 'Escape') {
-    const navElement = document.getElementById('nav');
+    const navElement = document.getElementById('nav-primary');
     const navSections = navElement.querySelector('.nav-sections');
     const navSectionExpanded = navSections.querySelector('[aria-expanded="true"]');
     if (navSectionExpanded && isDesktop.matches) {
       // eslint-disable-next-line no-use-before-define
-      toggleAllNavSections(navSections);
+      toggleAllNavLists(navSections);
       navSectionExpanded.focus();
     } else if (!isDesktop.matches) {
       // eslint-disable-next-line no-use-before-define
@@ -26,14 +26,18 @@ function closeOnEscape(e) {
 }
 
 /**
- * Toggles all nav sections
+ * Toggles all nav lists
  * @param {Element} sections The container element
+ * @param {Element[]} exclude Elements to exclude
  * @param {Boolean} expanded Whether the element should be expanded or collapsed
  */
-function toggleAllNavSections(sections, expanded = false) {
+function toggleAllNavLists(sections, exclude = [], expanded = false) {
   sections
-    .querySelectorAll('.nav-sections .default-content-wrapper > ul > li')
+    .querySelectorAll('.nav__tab-list .nav__list-parent')
     .forEach((section) => {
+      if (exclude.includes(section)) {
+        return;
+      }
       section.setAttribute('aria-expanded', Boolean(expanded).toString());
     });
 }
@@ -50,7 +54,6 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   const ariaExpandedOrDesktop = expanded || isDesktop.matches;
   document.body.style.overflowY = ariaExpandedOrDesktop ? '' : 'hidden';
   nav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-  toggleAllNavSections(navSections, ariaExpandedOrDesktop);
   menuButton.setAttribute('aria-label', expanded ? 'Open navigation' : 'Close navigation');
   menuButton.setAttribute('aria-current', Boolean(!expanded).toString());
   // enable menu collapse on escape keypress
@@ -62,19 +65,20 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   }
 }
 
-function addSearchBar(element) {
-  const searchBar = div(
-    { class: 'search-bar' },
-    div(
-      { class: 'text-box' },
-      span({ class: 'label-text' }),
-      div({ class: 'voice-search' }, div({ class: 'microphone' })),
-      div({ class: 'search' }, div({ class: 'search-e' })),
-    ),
-    input({ class: 'search-box', placeholder: 'Search' }),
-  );
-  element.prepend(searchBar);
-}
+// TODO: Add search bar to nav when search is implemented
+// function addSearchBar(element) {
+//   const searchBar = div(
+//     { class: 'search-bar' },
+//     div(
+//       { class: 'text-box' },
+//       span({ class: 'label-text' }),
+//       div({ class: 'voice-search' }, div({ class: 'microphone' })),
+//       div({ class: 'search' }, div({ class: 'search-e' })),
+//     ),
+//     input({ class: 'search-box', placeholder: 'Search' }),
+//   );
+//   element.prepend(searchBar);
+// }
 
 function getNavBar(nav) {
   const navBar = div({ class: 'nav-bar' });
@@ -169,11 +173,11 @@ function decorateLogo(nav) {
   decorateIcons(brandLogo);
 }
 
-function wrapLinkTextNodeInSpan(link, className) {
+function wrapLinkTextNodeInSpan(link) {
   Array.from(link.childNodes)
     .forEach((node) => {
       if (node.nodeType === Node.TEXT_NODE && node.textContent.trim().length > 0) {
-        const spanElement = span({ class: className, tabindex: 0 });
+        const spanElement = span();
         const textNode = node.cloneNode(true);
         spanElement.appendChild(textNode);
         link.replaceChild(spanElement, node);
@@ -181,30 +185,77 @@ function wrapLinkTextNodeInSpan(link, className) {
     });
 }
 
-function decorateListItem(list, isTopLevel) {
-  let clickableElement = list;
-  if (list.querySelector('ul')) {
-    wrapLinkTextNodeInSpan(list, 'text');
-    clickableElement = list.querySelector('.text');
-    list.classList.add('nav__list-parent');
-    if (isTopLevel) {
-      list.classList.add('nav__list-parent--top');
-    }
-    list.querySelectorAll('li:has(ul)').forEach((li) => {
-      decorateListItem(li, false);
-    });
-  }
-  clickableElement.addEventListener('click', () => {
-    const expanded = list.getAttribute('aria-expanded') === 'true';
-    toggleAllNavSections(list);
-    list.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-  });
+function decorateListItemText(listItem) {
+  wrapLinkTextNodeInSpan(listItem);
+  const firstChild = listItem.querySelector(':first-child');
+  firstChild?.classList.add('text');
+  firstChild?.setAttribute('tabindex', 0);
+  return firstChild;
 }
 
-function createDropMenu(sections) {
-  sections.classList.add('nav__tab-list');
-  sections.querySelectorAll(':scope > .default-content-wrapper > ul > li').forEach((section) => {
-    decorateListItem(section, true);
+function decorateListItem(nav, listItem, parents = []) {
+  let clickableElement = listItem;
+  if (listItem.querySelector('ul')) {
+    clickableElement = decorateListItemText(listItem);
+    listItem.classList.add('nav__list-parent');
+    listItem.querySelectorAll('li').forEach((item) => {
+      decorateListItem(nav, item, [listItem, ...parents]);
+    });
+    const toggle = (event) => {
+      event.preventDefault();
+      toggleAllNavLists(nav, [listItem, ...parents]);
+      const expanded = listItem.getAttribute('aria-expanded') === 'true';
+      listItem.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+    };
+    clickableElement?.addEventListener('click', toggle);
+    clickableElement?.addEventListener('keydown', (event) => {
+      if (event.code === 'Enter' || event.code === 'Space') {
+        toggle(event);
+      }
+    });
+  } else if (listItem.textContent === '---') {
+    listItem.parentElement?.replaceChild(hr({ class: 'nav__separator' }), listItem);
+  }
+  return listItem;
+}
+
+function addHeadingToDropMenu(listItem) {
+  const headingText = listItem.querySelector('.text')?.textContent;
+  if (headingText) {
+    const heading = div({ class: 'nav__list-parent__dropdown__heading' }, headingText);
+    const ul = listItem.querySelector('ul');
+    const dropdown = div({ class: 'nav__list-parent__dropdown' }, heading, ul);
+    listItem.appendChild(dropdown);
+  }
+}
+
+function addColumnClasses(tabItem) {
+  const sublistCount = tabItem.querySelectorAll(':scope > ul > li > ul').length;
+  let columnClass = '';
+  if (sublistCount >= 7) {
+    columnClass = 'nav__list--4-column';
+  } else if (sublistCount >= 5) {
+    columnClass = 'nav__list--3-column';
+  } else if (sublistCount >= 2) {
+    columnClass = 'nav__list--2-column';
+  }
+  if (columnClass) {
+    tabItem.classList.add(columnClass);
+  }
+}
+
+function createDropMenu(nav, tabs, addTitles) {
+  tabs.classList.add('nav__tab-list');
+
+  tabs.querySelectorAll(':scope > .default-content-wrapper > ul > li').forEach((tabItem) => {
+    decorateListItem(nav, tabItem, []);
+    tabItem.classList.add('nav__tab');
+
+    addColumnClasses(tabItem);
+
+    if (addTitles) {
+      addHeadingToDropMenu(tabItem);
+    }
   });
 }
 
@@ -214,9 +265,14 @@ async function generateTopNavigation() {
   const navPath = navMeta ? new URL(navMeta).pathname : '/global-nav';
   const fragment = await loadFragment(navPath);
   const primaryNav = navBuilder({ id: 'nav-primary', 'aria-label': 'primary navigation' });
-  while (fragment.firstElementChild) primaryNav.append(fragment.firstElementChild);
+
+  while (fragment.firstElementChild) {
+    primaryNav.append(fragment.firstElementChild);
+  }
+  // Brand section should never contain a list element
   const hasBrand = !primaryNav.children[0].querySelector('ul');
   if (!hasBrand) {
+    // Populate with a dummy div if brand is not present
     primaryNav.insertBefore(div(), primaryNav.firstElementChild);
   }
   const classes = ['brand', 'sections', 'explore', 'tools'];
@@ -224,19 +280,27 @@ async function generateTopNavigation() {
     const section = primaryNav.children[i];
     if (section) section.classList.add(`nav-${c}`);
   });
+
   // populate logo
   decorateLogo(primaryNav);
+
+  const navExplore = primaryNav.querySelector('.nav-explore');
+  if (navExplore) {
+    createDropMenu(primaryNav, navExplore, true);
+  }
 
   // generate links
   const navSections = primaryNav.querySelector('.nav-sections');
   if (navSections) {
-    createDropMenu(navSections);
-    addSearchBar(navSections);
+    createDropMenu(primaryNav, navSections);
+    // TODO: Add search bar to nav when search is implemented
+    // addSearchBar(navSections);
   }
+
   primaryNav.setAttribute('aria-expanded', 'false');
   primaryNav.append(getNavBar(primaryNav));
-  const actionBar = getActionBar(primaryNav, navSections);
-  primaryNav.append(actionBar);
+  primaryNav.append(getActionBar(primaryNav, navSections));
+
   return primaryNav;
 }
 
@@ -273,7 +337,7 @@ async function generateSecondaryNavigation() {
   const sideSections = secondNav.querySelector('.nav-secondary-tabs');
   let tabText;
   if (sideSections) {
-    createDropMenu(sideSections);
+    createDropMenu(secondNav, sideSections);
     sideSections.querySelectorAll('a').forEach((link) => {
       const href = new URL(link.href);
       if (window.location.pathname === href.pathname) {
@@ -325,7 +389,7 @@ async function generateSecondaryNavigation() {
   );
   mobileDropdownButton.addEventListener('click', () => {
     const expanded = secondNav.getAttribute('aria-expanded') === 'true';
-    toggleAllNavSections(secondNav);
+    toggleAllNavLists(secondNav);
     secondNav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
     mobileDropdownButton.setAttribute('aria-expanded', expanded ? 'false' : 'true');
   });
@@ -347,8 +411,26 @@ export default async function decorate(block) {
     block.append(secondNav);
   }
   document.addEventListener('click', (event) => {
-    if (nav.contains(event.target)) return;
-    toggleAllNavSections(nav);
-    nav.setAttribute('aria-expanded', 'false');
+    if (!nav.contains(event.target)) {
+      toggleAllNavLists(nav);
+      nav.setAttribute('aria-expanded', 'false');
+    }
+    if (!secondNav.contains(event.target)) {
+      toggleAllNavLists(secondNav);
+      secondNav.setAttribute('aria-expanded', 'false');
+    }
   });
+
+  const hero = document.body.querySelector('.hero-wrapper');
+  if (secondNav && hero) {
+    // Should appear at top of screen when hero is no longer visible
+    const heroObserver = new IntersectionObserver((entries) => {
+      if (!entries[0].isIntersecting) {
+        secondNav.classList.add('nav-secondary--fixed');
+      } else {
+        secondNav.classList.remove('nav-secondary--fixed');
+      }
+    });
+    heroObserver.observe(hero);
+  }
 }

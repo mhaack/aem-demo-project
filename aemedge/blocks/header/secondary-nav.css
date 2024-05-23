@@ -2,12 +2,24 @@
 
 header {
   & #nav-secondary {
+    --nav-dropdown-desktop-inline-spacing: var(--udexSpacer16);
+    --nav-dropdown-desktop-block-spacing: var(--udexSpacer16);
+    --nav-list-item-padding: var(--udexSpacer16) 0;
+
     align-items: center;
     background: var(--sapNeutralBackground);
     display: flex;
     height: var(--nav-secondary-height);
+    position: relative;
     text-wrap: nowrap;
-    z-index: 101;
+    z-index: 99;
+
+    &.nav-secondary--fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
 
     & .nav-secondary-actions {
       border-top: 1px solid var(--nav-line-separator-color);
@@ -104,12 +116,6 @@ header {
       display: none;
     }
 
-    & .nav-secondary-tabs {
-      & li :is(a, .text) {
-        padding-inline: 0;
-      }
-    }
-
     &[aria-expanded='true'] {
       & .nav-secondary__dropdown-trigger::after {
         transform: rotate(-90deg);
@@ -175,14 +181,12 @@ header {
         gap: 0;
         max-width: 360px;
         min-width: 240px;
-        padding: var(--udexSpacer16);
 
         & li {
           margin: 0;
         }
 
         & li :is(a, .text) {
-          padding: var(--udexSpacer16) 0;
           width: unset;
         }
       }
