@@ -11,7 +11,7 @@ html:has(.web-component) {
     'footer' !important;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto !important;
-  min-height: 100%;
+  height: 100%;
 
   /* Master Header */
   > header {
@@ -34,6 +34,7 @@ html:has(.web-component) {
     grid-area: main;
     grid-template-columns: repeat(var(--udexGridColumns), 1fr);
     grid-template-rows: min-content;
+    height: fit-content;
     margin-top: var(--headerHeight);
     padding: 0 var(--udexGridMargins);
     position: relative;
@@ -109,6 +110,7 @@ html:has(.web-component) {
 
   /* Page Footer */
   > footer {
+    bottom: 0;
     display: grid;
     column-gap: var(--udexGridXSGutters);
     grid-area: footer;
@@ -116,6 +118,7 @@ html:has(.web-component) {
     grid-template-rows: min-content;
     padding: 0 var(--udexGridMargins);
     position: relative;
+    width: 100%;
 
     .design-system-footer {
       grid-column: span var(--udexGridColumns);

@@ -1,0 +1,112 @@
+.design-guidelines-container {
+  background: var(--udexColorGrey1);
+  border: 0 none !important;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-column: 1 / -1 !important;
+  grid-template-columns: subgrid;
+  margin-block: var(--udexSpacer40);
+  margin-inline: calc(var(--udexGridMargins) * -1);
+  padding-block: var(--udexSpacer40) !important;
+
+  h2 {
+    font-size: var(--udexTypographyHeadingMediumXSFontSize) !important;
+    margin: 0 0 var(--udexSpacer16) !important;
+    padding: 0 !important;
+  }
+
+  > div {
+    grid-column: span var(--udexGridColumns);
+    margin-inline: calc(var(--udexGridMargins));
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: var(--udexSpacer24) !important;
+    padding: 0 !important;
+    width: 100%;
+
+    li {
+      a {
+        align-items: center;
+        background: var(--udexColorNeutralWhite);
+        border: 1px solid var(--sapTile_BorderColor);
+        border-radius: var(--udexRadiusL);
+        box-shadow: var(--sapContent_Shadow0);
+        color: var(--udexColorGrey9);
+        display: flex;
+        line-height: 1;
+        margin: 0;
+        padding: calc(var(--udexSpacer16) - 1px);
+        text-decoration: none;
+
+        &:hover,
+        &:focus{
+          border-color: var(--sapTile_Interactive_BorderColor);
+          box-shadow: var(--sapContent_Shadow1);
+        }
+
+        &:active {
+          border: 2px solid var(--sapTile_Interactive_BorderColor);
+          box-shadow: var(--sapContent_Shadow0);
+          padding: calc(var(--udexSpacer16) - 2px)
+        }
+
+        .icon {
+          margin-right: var(--udexSpacer24);
+        }
+      }
+    }
+  }
+
+  /* S */
+  @media (width >= 640px) {
+    > div {
+      grid-column: 1 / 13;
+    }
+
+    ul {
+      margin-top: var(--udexSpacer32) !important;
+    }
+  }
+
+  /* M */
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer48);
+    padding-block: var(--udexSpacer48) !important;
+
+    h2 {
+      font-size: var(--udexTypographyHeadingMediumMFontSize) !important;
+    }
+
+    > div {
+      grid-column: 2 / 12;
+      margin-inline: unset;
+    }
+
+    ul {
+      align-items: start;
+      flex-flow: row wrap;
+      gap: var(--udexSpacer48);
+      justify-content: space-between;
+
+      li {
+        width: calc(50% - (var(--udexSpacer48)/2));
+      }
+    }
+  }
+
+  /* L */
+  @media (width >= 1280px) {
+    margin-block: var(--udexSpacer56);
+    padding-block: var(--udexSpacer56) !important;
+  }
+}

@@ -1,9 +1,18 @@
+.design-system-toc-container {
+  border: 0 none !important;
+  display: none;
+}
+
 .design-system-toc {
   display: none;
 }
 
 /* L */
 @media (width >= 1280px) {
+  .design-system-toc-container {
+    display: block;
+  }
+
   .design-system-toc {
     display: block;
     margin: var(--udexSpacer56) 0 0;
