@@ -41,6 +41,9 @@ function getFilter(config) {
 
 function getInfo(article, config) {
   const { info = ['publicationDate'] } = config;
+  if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
+    return article.cardC2A;
+  }
   if (info[0] === 'publicationDate') {
     return `Updated on ${formatDate(article.publicationDate * 1000)}`;
   }
@@ -56,11 +59,12 @@ function getInfo(article, config) {
 function getPictureCard(article, config, placeholders, tags, author) {
   const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const {
-    image, path, title, priority,
+    image, path, title, priority, cardUrl,
   } = article;
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const info = getInfo(article, config);
-  return new PictureCard(title, path, contentType.label, info, author, image, tagLabel);
+  const link = cardUrl !== '0' ? cardUrl : path;
+  return new PictureCard(title, link, contentType.label, info, author, image, tagLabel);
 }
 
 function getCard(article, config, tags) {

@@ -50,11 +50,13 @@ export default class PictureCard extends Card {
     if (!excludeStyles) {
       loadCSS(`${window.hlx.codeBasePath}/libs/pictureCard/pictureCard.css`);
     }
+    const externalLink = this.path.startsWith('http') || this.path.startsWith('//');
+    const info = externalLink ? span({ class: 'external-link' }, this.info) : this.info;
 
     return li(
       { class: `picture-card ${horizontal ? 'horizontal' : ''}` },
       a(
-        { href: this.path, 'aria-label': this.title },
+        { href: this.path, 'aria-label': this.title, target: externalLink ? '_blank' : '_self' },
         div(
           { class: 'picture' },
           this.getOptimizedPicture(),
@@ -69,7 +71,7 @@ export default class PictureCard extends Card {
         div(
           { class: 'infoblock' },
           this.getAvatarElement(this.authorEntry),
-          div({ class: 'info' }, this.info),
+          div({ class: 'info' }, info),
         ),
       ),
     );

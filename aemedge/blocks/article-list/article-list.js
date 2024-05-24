@@ -21,11 +21,15 @@ import Pages from '../../libs/pages/pages.js';
 function getPictureCard(article, placeholders, tags, author) {
   const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const {
-    image, path, title, priority,
+    image, path, title, priority, cardUrl,
   } = article;
   const tagLabel = placeholders[toCamelCase(priority)] || '';
-  const info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
-  return new PictureCard(title, path, contentType.label, info, author, image, tagLabel);
+  const link = cardUrl !== '0' ? cardUrl : path;
+  let info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
+  if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
+    info = article.cardC2A;
+  }
+  return new PictureCard(title, link, contentType.label, info, author, image, tagLabel);
 }
 
 function getPathFilter(entry, tags) {

@@ -126,6 +126,26 @@
       & .author-profile:has(.avatar) + .info {
         display: none;
       }
+
+      & .external-link {
+        color: var(--udexColorBlue7);
+        display: inline-flex;
+        align-items: center;
+        font-size: var(--udexTypographyNavigationMediumXLFontSize);
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &::after {
+          box-sizing: border-box;
+          content: "";
+          display: inline-block;
+          height: 1rem;
+          width: 1rem;
+          margin-left: var(--udexSpacer4);
+          mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
+          background-color: currentcolor;
+        }
+      }
     }
 
     &:hover {

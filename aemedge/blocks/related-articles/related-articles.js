@@ -22,16 +22,20 @@ function getFilter(pageTags) {
 
 function getPictureCard(article, placeholders, tags, author) {
   const {
-    image, path, title, priority,
+    image, path, title, priority, cardUrl,
   } = article;
   const type = JSON.parse(article.tags).find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
   const tagType = tags[toCamelCase(type)];
   const tagLabel = placeholders[toCamelCase(priority)] || '';
-  const info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
+  const link = cardUrl !== '0' ? cardUrl : path;
+  let info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
+  if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
+    info = article.cardC2A;
+  }
 
   return new PictureCard(
     title,
-    path,
+    link,
     tagType ? tagType.label : type,
     info,
     author,
