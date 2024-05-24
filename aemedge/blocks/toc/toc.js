@@ -1,5 +1,5 @@
 import {
-  h2, ol, li, span, a, aside, div, button,
+  h2, ol, li, span, a, div, button, nav,
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 
@@ -152,7 +152,7 @@ export default async function decorate(block) {
     const selected = button({
       class: 'toc__selected', 'aria-expanded': 'false', 'aria-haspopup': 'true', 'aria-controls': 'toc', 'aria-label': 'Table of Contents',
     }, span(heading));
-    const tocElement = aside(
+    const tocElement = nav(
       {
         class: 'toc', role: 'navigation', 'aria-label': 'In page',
       },

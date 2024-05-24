@@ -411,11 +411,11 @@ export default async function decorate(block) {
     block.append(secondNav);
   }
   document.addEventListener('click', (event) => {
-    if (!nav.contains(event.target)) {
+    if (nav && !nav.contains(event.target)) {
       toggleAllNavLists(nav);
       nav.setAttribute('aria-expanded', 'false');
     }
-    if (!secondNav.contains(event.target)) {
+    if (secondNav && !secondNav.contains(event.target)) {
       toggleAllNavLists(secondNav);
       secondNav.setAttribute('aria-expanded', 'false');
     }
