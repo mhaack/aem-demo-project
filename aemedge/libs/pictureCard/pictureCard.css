@@ -151,21 +151,19 @@
     &:hover {
       box-shadow: 0 0 0 1px var(--udexColorBlue6), var(--sapContent_Shadow1);
     }
-    
+
     &:active {
       box-shadow: 0 0 0 1px var(--udexColorBlue7), var(--sapContent_Shadow0);
     }
   }
 }
 
-@media (width >= 640px) {
+@media (width >= 980px) {
   .picture-card.horizontal {
     display: grid;
-    grid-template-rows: subgrid;
-    grid-template-columns: subgrid;
-    grid-column: 1 / -1;
+    grid-template-columns: 3fr 2fr;
     grid-column-gap: var(--udexSpacer24);
-    height: min-content;
+    height: 240px;
 
     & a {
       grid-template-columns: subgrid;

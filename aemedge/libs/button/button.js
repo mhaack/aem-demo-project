@@ -1,15 +1,14 @@
-import {
-  a, button, p, span,
-} from '../../scripts/dom-builder.js';
+import { button, p, span } from '../../scripts/dom-builder.js';
 import { loadCSS, decorateIcons } from '../../scripts/aem.js';
 
 export default class Button {
-  constructor(label, icon, level, size, href) {
+  constructor(label, icon, level, size, href, iconOnly = false) {
     this.label = label;
     this.icon = icon;
     this.level = level;
     this.size = size;
     this.href = href;
+    this.iconOnly = iconOnly;
   }
 
   getIcon() {
@@ -22,11 +21,11 @@ export default class Button {
     }
     const btn = button(
       {
-        class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''}`,
+        class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''} ${this.iconOnly ? '' : 'icon-only'}`,
         type: 'button',
         'aria-label': this.label,
       },
-      this.href ? a({ href: this.href }, this.label) : span(this.label),
+      this.label && !this.iconOnly ? span(this.label) : '',
       this.getIcon(),
     );
     if (isDisabled) {

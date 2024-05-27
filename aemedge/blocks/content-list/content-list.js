@@ -15,6 +15,7 @@ import {
   fetchTagList,
   getContentTypeFromArticle,
 } from '../../scripts/utils.js';
+import Carousel from '../../libs/carousel/carousel.js';
 
 function matchTags(entry, config) {
   if (!config.tags) return true;
@@ -76,6 +77,7 @@ function getCard(article, config, tags) {
 
 export default async function decorateBlock(block) {
   const textOnly = block.classList.contains('text-only');
+  const carousel = block.classList.contains('carousel');
   const config = Object.fromEntries(
     Object.entries(readBlockConfig(block)).map(([key, value]) => [key, value.split(',')]),
   );
@@ -101,18 +103,28 @@ export default async function decorateBlock(block) {
     viewBtn = new Button('Show More', 'icon-slim-arrow-right', 'secondary', 'large');
   }
 
-  const cardList = ul({ class: 'card-items' });
+  const cards = [];
   articleStream.forEach((article) => {
     let card;
     const authors = lookupAuthors(article.author, authorIndex);
     const displayAuthor = buildCardDisplayAuthor(authors);
     if (textOnly) {
-      card = getCard(article, config, tags);
+      card = getCard(article, config, tags).render();
+    } else if (carousel) {
+      card = getPictureCard(article, config, placeholders, tags, displayAuthor).render(true);
     } else {
-      card = getPictureCard(article, config, placeholders, tags, displayAuthor);
+      card = getPictureCard(article, config, placeholders, tags, displayAuthor).render();
     }
-    cardList.append(card.render());
+    cards.push(card);
   });
+
+  let cardList;
+  if (carousel) {
+    cardList = new Carousel(cards).render();
+  } else {
+    cardList = ul({ class: 'card-items' }, ...cards);
+  }
+
   block.textContent = '';
   if (heading) block.append(heading);
   block.append(cardList);
