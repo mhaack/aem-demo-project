@@ -5,7 +5,6 @@
   grid-auto-rows: auto;
   grid-column: 1 / -1 !important;
   grid-template-columns: subgrid;
-  margin-block: var(--udexSpacer40);
   margin-inline: calc(var(--udexGridMargins) * -1);
   padding-block: var(--udexSpacer40) !important;
 
@@ -80,7 +79,6 @@
 
   /* M */
   @media (width >= 980px) {
-    margin-block: var(--udexSpacer48);
     padding-block: var(--udexSpacer48) !important;
 
     h2 {
@@ -106,7 +104,6 @@
 
   /* L */
   @media (width >= 1280px) {
-    margin-block: var(--udexSpacer56);
     padding-block: var(--udexSpacer56) !important;
   }
 }
