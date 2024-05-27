@@ -20,7 +20,7 @@ function getScope(path = window.location.pathname) {
     || (path.startsWith('/blogs/') && getMetadata('article:tag')?.includes('content-type/executive-blog'))) {
     return 'ch_mvp_slc';
   }
-  if (path.startsWith('/design/') || path.startsWith('/design-system/')) {
+  if (path.startsWith('/design-system/')) {
     return 'ds_slc'; // return null if internal
   }
   return 'ch_full_slc';
