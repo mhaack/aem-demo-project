@@ -2,6 +2,9 @@ import { getMetadata, toCamelCase, toClassName } from './aem.js';
 import { div } from './dom-builder.js';
 import ffetch from './ffetch.js';
 
+// Match author names and Ph.D. titles
+const authorTitleRegex = /[^,]+(?:,\s*Ph\.?D\.?)?/gi;
+
 function formatDate(inputDate) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   const formattedDate = new Date(inputDate).toLocaleDateString('en-US', options);
@@ -125,22 +128,16 @@ function buildAuthorUrl(author) {
   return `/author/${toClassName(author.trim()).replaceAll('-', '')}`;
 }
 
-const defaultSuffixes = ['PhD', 'Ph.D.']; // TODO
 function getAuthorMetadata(doc) {
-  const authorNames = getMetadata('author', doc)
-    .split(',')
-    .map((e) => e.trim());
+  const authorMeta = getMetadata('author', doc);
+
+  const matches = authorMeta.match(authorTitleRegex);
+  const authorNames = matches?.map((match) => match.trim());
   if (!authorNames || authorNames.length === 0) {
     return '';
   }
 
-  return authorNames.map((authorName) => {
-    let modifiedAuthor = authorName;
-    defaultSuffixes.forEach((suffix) => {
-      modifiedAuthor = modifiedAuthor.replace(new RegExp(`,*\\s*${suffix}(?=,|$)`, 'g'), '');
-    });
-    return modifiedAuthor.trim();
-  });
+  return authorNames;
 }
 
 function buildCardDisplayAuthor(authors) {
@@ -178,7 +175,7 @@ function lookupAuthors(authorsKeys, authorIndex) {
 
   const authorKeys = Array.isArray(authorsKeys)
     ? authorsKeys
-    : authorsKeys.split(',').map((author) => author.trim());
+    : authorsKeys.match(authorTitleRegex).map((match) => match.trim());
   return authorKeys.map((authorName) => {
     const cachedAuthor = sessionStorage.getItem(`author-${toClassName(authorName)}`);
     let authorEntry = cachedAuthor ? JSON.parse(cachedAuthor) : null;

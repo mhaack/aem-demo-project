@@ -46,11 +46,11 @@ export default class Avatar {
     }
     const element = div(
       { class: 'avatar-wrapper' },
-      div({ class: `avatar ${size}` }, this.image ? div(this.getImage()) : div()),
+      this.image ? div({ class: `avatar ${size}` }, div(this.getImage())) : '',
       div(
         { class: 'avatar-details' },
         h2(this.name),
-        p(this.description),
+        this.description ? p(this.description) : '',
         this.path ? p(
           { class: 'link' },
           a({ href: this.path, 'aria-label': 'Read more' }, 'Link'),

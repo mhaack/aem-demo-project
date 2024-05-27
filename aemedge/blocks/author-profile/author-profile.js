@@ -4,9 +4,7 @@ import { fetchAuthorList, getAuthorMetadata, lookupAuthors } from '../../scripts
 export default async function decorate(block) {
   const authorNames = getAuthorMetadata();
   const authorIndex = await fetchAuthorList();
-  let authors = lookupAuthors(authorNames, authorIndex);
-
-  authors = authors.filter((author) => author.image);
+  const authors = lookupAuthors(authorNames, authorIndex);
 
   if (authors && authors.length > 0) {
     block.classList.add('author-profiles');
