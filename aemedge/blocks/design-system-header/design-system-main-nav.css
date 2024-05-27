@@ -31,11 +31,6 @@
 
 /* Block */
 .design-system-main-nav {
-  --main-nav-link-color-visited-hover: #DCF3FF;
-  --main-nav-link-color-visited: #DEE2E5;
-  --main-nav-link-color-pressed: #DEE2E5;
-  --main-nav-utility-section-border-color: #A8B3BD;
-
   height: 100%;
 }
 
@@ -73,7 +68,7 @@
 
       /* Keep the order: LoVeHAte: `:link`, `:visited`, `:hover`, `:focus`, `:active` */
       &:visited {
-        background: var(--main-nav-link-color-visited);
+        background: #DEE2E5;
       }
 
       &:hover,
@@ -89,7 +84,7 @@
 
       /* Pressed state */
       &:active {
-        background: var(--main-nav-link-color-pressed);
+        background: #DEE2E5;
       }
 
       img {
@@ -105,7 +100,7 @@
         overflow: hidden;
 
         &:hover {
-          background: var(--main-nav-link-color-visited-hover);
+          background: #DCF3FF;
         }
 
         &::before {
@@ -170,7 +165,7 @@
 }
 
 .main-nav__section-utility {
-  border-top: 1px solid var(--main-nav-utility-section-border-color);
+  border-top: 1px solid #A8B3BD;
   padding-top: var(--udexGridXSMargins);
 }
 
