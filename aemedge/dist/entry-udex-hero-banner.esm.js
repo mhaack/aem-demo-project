@@ -1,4 +1,4 @@
-import { e as i, l, r as h, s as m, a as b, p as s, b as x, c as f, U as B, d as k } from "./parameters-bundle.css-CHnJxdKC.js";
+import { e as i, l, r as h, s as m, a as b, p as s, b as x, c as f, U as B, d as k } from "./parameters-bundle.css-D8cwbzFi.js";
 function y(n, e, t) {
   return i`<div class="udex-hero-banner" part="wrapper" style="background-color: ${l(this.wrapperBackgroundColor)}">${this.hasCustomBackgroundPicture ? H.call(this, n, e, t) : v.call(this, n, e, t)}<slot name="content" part="content"></slot>${this.hasAdditionalContent ? I.call(this, n, e, t) : void 0}</div>`;
 }

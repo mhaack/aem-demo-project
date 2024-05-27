@@ -2,14 +2,14 @@ var ct = {}, ft = ct.hasOwnProperty, eo = ct.toString, _t = ft.toString, to = _t
   var e, o;
   return !t || eo.call(t) !== "[object Object]" ? !1 : (e = Object.getPrototypeOf(t), e ? (o = ft.call(e, "constructor") && e.constructor, typeof o == "function" && _t.call(o) === to) : !0);
 }, oo = /* @__PURE__ */ Object.create(null), pt = function(t, e, o, r) {
-  var a, n, s, i, l, c, f = arguments[2] || {}, d = 3, p = arguments.length, _ = arguments[0] || !1, B = arguments[1] ? void 0 : oo;
-  for (typeof f != "object" && typeof f != "function" && (f = {}); d < p; d++)
-    if ((l = arguments[d]) != null)
-      for (i in l)
-        a = f[i], s = l[i], !(i === "__proto__" || f === s) && (_ && s && (je(s) || (n = Array.isArray(s))) ? (n ? (n = !1, c = a && Array.isArray(a) ? a : []) : c = a && je(a) ? a : {}, f[i] = pt(_, arguments[1], c, s)) : s !== B && (f[i] = s));
+  var a, n, s, l, i, d, f = arguments[2] || {}, c = 3, u = arguments.length, _ = arguments[0] || !1, C = arguments[1] ? void 0 : oo;
+  for (typeof f != "object" && typeof f != "function" && (f = {}); c < u; c++)
+    if ((i = arguments[c]) != null)
+      for (l in i)
+        a = f[l], s = i[l], !(l === "__proto__" || f === s) && (_ && s && (je(s) || (n = Array.isArray(s))) ? (n ? (n = !1, d = a && Array.isArray(a) ? a : []) : d = a && je(a) ? a : {}, f[l] = pt(_, arguments[1], d, s)) : s !== C && (f[l] = s));
   return f;
 };
-const Le = function(t, e) {
+const Pe = function(t, e) {
   return pt(!0, !1, ...arguments);
 }, ro = () => new Promise((t) => {
   document.body ? t() : document.addEventListener("DOMContentLoaded", () => {
@@ -72,7 +72,7 @@ const ao = (t, e) => {
   return o.type = "text/css", o.rel = "stylesheet", e && Object.entries(e).forEach((r) => o.setAttribute(...r)), o.href = t, document.head.appendChild(o), new Promise((r) => {
     o.addEventListener("load", r), o.addEventListener("error", r);
   });
-}, g = typeof document > "u", u = {
+}, g = typeof document > "u", p = {
   get userAgent() {
     return g ? "" : navigator.userAgent;
   },
@@ -80,19 +80,19 @@ const ao = (t, e) => {
     return g ? !1 : "ontouchstart" in window || navigator.maxTouchPoints > 0;
   },
   get ie() {
-    return g ? !1 : /(msie|trident)/i.test(u.userAgent);
+    return g ? !1 : /(msie|trident)/i.test(p.userAgent);
   },
   get chrome() {
-    return g ? !1 : !u.ie && /(Chrome|CriOS)/.test(u.userAgent);
+    return g ? !1 : !p.ie && /(Chrome|CriOS)/.test(p.userAgent);
   },
   get firefox() {
-    return g ? !1 : /Firefox/.test(u.userAgent);
+    return g ? !1 : /Firefox/.test(p.userAgent);
   },
   get safari() {
-    return g ? !1 : !u.ie && !u.chrome && /(Version|PhantomJS)\/(\d+\.\d+).*Safari/.test(u.userAgent);
+    return g ? !1 : !p.ie && !p.chrome && /(Version|PhantomJS)\/(\d+\.\d+).*Safari/.test(p.userAgent);
   },
   get webkit() {
-    return g ? !1 : !u.ie && /webkit/.test(u.userAgent);
+    return g ? !1 : !p.ie && /webkit/.test(p.userAgent);
   },
   get windows() {
     return g ? !1 : navigator.platform.indexOf("Win") !== -1;
@@ -101,66 +101,66 @@ const ao = (t, e) => {
     return g ? !1 : !!navigator.userAgent.match(/Macintosh|Mac OS X/i);
   },
   get iOS() {
-    return g ? !1 : !!navigator.platform.match(/iPhone|iPad|iPod/) || !!(u.userAgent.match(/Mac/) && "ontouchend" in document);
+    return g ? !1 : !!navigator.platform.match(/iPhone|iPad|iPod/) || !!(p.userAgent.match(/Mac/) && "ontouchend" in document);
   },
   get android() {
-    return g ? !1 : !u.windows && /Android/.test(u.userAgent);
+    return g ? !1 : !p.windows && /Android/.test(p.userAgent);
   },
   get androidPhone() {
-    return g ? !1 : u.android && /(?=android)(?=.*mobile)/i.test(u.userAgent);
+    return g ? !1 : p.android && /(?=android)(?=.*mobile)/i.test(p.userAgent);
   },
   get ipad() {
-    return g ? !1 : /ipad/i.test(u.userAgent) || /Macintosh/i.test(u.userAgent) && "ontouchend" in document;
+    return g ? !1 : /ipad/i.test(p.userAgent) || /Macintosh/i.test(p.userAgent) && "ontouchend" in document;
   }
 };
-let pe, ue, y;
-const Pe = () => {
-  if (g || !u.windows)
-    return !1;
-  if (pe === void 0) {
-    const t = u.userAgent.match(/Windows NT (\d+).(\d)/);
-    pe = t ? parseFloat(t[1]) : 0;
-  }
-  return pe >= 8;
-}, so = () => {
-  if (g || !u.webkit)
+let ue, he, y;
+const Me = () => {
+  if (g || !p.windows)
     return !1;
   if (ue === void 0) {
-    const t = u.userAgent.match(/(webkit)[ /]([\w.]+)/);
+    const t = p.userAgent.match(/Windows NT (\d+).(\d)/);
     ue = t ? parseFloat(t[1]) : 0;
   }
-  return ue >= 537.1;
+  return ue >= 8;
+}, so = () => {
+  if (g || !p.webkit)
+    return !1;
+  if (he === void 0) {
+    const t = p.userAgent.match(/(webkit)[ /]([\w.]+)/);
+    he = t ? parseFloat(t[1]) : 0;
+  }
+  return he >= 537.1;
 }, ut = () => {
   if (g)
     return !1;
   if (y === void 0) {
-    if (u.ipad) {
+    if (p.ipad) {
       y = !0;
       return;
     }
-    if (u.touch) {
-      if (Pe()) {
+    if (p.touch) {
+      if (Me()) {
         y = !0;
         return;
       }
-      if (u.chrome && u.android) {
-        y = !/Mobile Safari\/[.0-9]+/.test(u.userAgent);
+      if (p.chrome && p.android) {
+        y = !/Mobile Safari\/[.0-9]+/.test(p.userAgent);
         return;
       }
       let t = window.devicePixelRatio ? window.devicePixelRatio : 1;
-      u.android && so() && (t = 1), y = Math.min(window.screen.width / t, window.screen.height / t) >= 600;
+      p.android && so() && (t = 1), y = Math.min(window.screen.width / t, window.screen.height / t) >= 600;
       return;
     }
-    y = u.ie && u.userAgent.indexOf("Touch") !== -1 || u.android && !u.androidPhone;
+    y = p.ie && p.userAgent.indexOf("Touch") !== -1 || p.android && !p.androidPhone;
   }
-}, W = () => u.safari, ht = () => (ut(), (u.touch || Pe()) && y), io = () => (ut(), u.touch && !y), lo = () => g ? !1 : !ht() && !io() || Pe(), sa = () => ht() && lo(), co = {
-  version: "1.23.0-rc.4",
+}, W = () => p.safari, ht = () => (ut(), (p.touch || Me()) && y), io = () => (ut(), p.touch && !y), lo = () => g ? !1 : !ht() && !io() || Me(), sa = () => ht() && lo(), co = {
+  version: "1.24.0",
   major: 1,
-  minor: 23,
+  minor: 24,
   patch: 0,
-  suffix: "-rc.4",
+  suffix: "",
   isNext: !1,
-  buildTime: 1708963667
+  buildTime: 1712256366
 }, gt = (t, e = document.body, o) => {
   let r = document.querySelector(t);
   return r || (r = o ? o() : document.createElement(t), e.insertBefore(r, e.firstChild));
@@ -179,7 +179,7 @@ const Pe = () => {
   return r;
 };
 let Q, po = "";
-const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
+const ge = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
   if (Q === void 0) {
     Q = N.length;
     const t = co;
@@ -191,8 +191,8 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
   }
 }, P = () => Q, Ct = (t, e) => {
   const o = `${t},${e}`;
-  if (he.has(o))
-    return he.get(o);
+  if (ge.has(o))
+    return ge.get(o);
   const r = N[t], a = N[e];
   if (!r || !a)
     throw new Error("Invalid runtime index supplied");
@@ -204,11 +204,11 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
   const s = r.minor - a.minor;
   if (s)
     return s;
-  const i = r.patch - a.patch;
-  if (i)
-    return i;
-  const c = new Intl.Collator(void 0, { numeric: !0, sensitivity: "base" }).compare(r.suffix, a.suffix);
-  return he.set(o, c), c;
+  const l = r.patch - a.patch;
+  if (l)
+    return l;
+  const d = new Intl.Collator(void 0, { numeric: !0, sensitivity: "base" }).compare(r.suffix, a.suffix);
+  return ge.set(o, d), d;
 }, ho = () => N, go = typeof document > "u", de = (t, e) => e ? `${t}|${e}` : t, ze = (t) => t === void 0 ? !0 : Ct(P(), parseInt(t)) === 1, ce = (t, e, o = "", r) => {
   const a = typeof t == "string" ? t : t.content, n = P();
   if (document.adoptedStyleSheets && !W()) {
@@ -221,14 +221,14 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
 }, Co = (t, e, o = "", r) => {
   const a = typeof t == "string" ? t : t.content, n = P();
   if (document.adoptedStyleSheets && !W()) {
-    const s = document.adoptedStyleSheets.find((i) => i._ui5StyleId === de(e, o));
+    const s = document.adoptedStyleSheets.find((l) => l._ui5StyleId === de(e, o));
     if (!s)
       return;
     if (!r)
       s.replaceSync(a || "");
     else {
-      const i = s._ui5RuntimeIndex;
-      (s._ui5Theme !== r || ze(i)) && (s.replaceSync(a || ""), s._ui5RuntimeIndex = String(n), s._ui5Theme = r);
+      const l = s._ui5RuntimeIndex;
+      (s._ui5Theme !== r || ze(l)) && (s.replaceSync(a || ""), s._ui5RuntimeIndex = String(n), s._ui5Theme = r);
     }
   } else {
     const s = document.querySelector(`head>style[${e}="${o}"]`);
@@ -237,8 +237,8 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
     if (!r)
       s.textContent = a || "";
     else {
-      const i = s.getAttribute("data-ui5-runtime-index") || void 0;
-      (s.getAttribute("data-ui5-theme") !== r || ze(i)) && (s.textContent = a || "", s.setAttribute("data-ui5-runtime-index", String(n)), s.setAttribute("data-ui5-theme", r));
+      const l = s.getAttribute("data-ui5-runtime-index") || void 0;
+      (s.getAttribute("data-ui5-theme") !== r || ze(l)) && (s.textContent = a || "", s.setAttribute("data-ui5-runtime-index", String(n)), s.setAttribute("data-ui5-theme", r));
     }
   }
 }, fe = (t, e = "") => {
@@ -267,7 +267,7 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
     packageName: t.packageName,
     fileName: t.fileName
   };
-}, vo = /* @__PURE__ */ new Map(), v = (t) => vo.get(t), So = {
+}, vo = /* @__PURE__ */ new Map(), S = (t) => vo.get(t), So = {
   packageName: "@ui5/webcomponents-base",
   fileName: "FontFace.css",
   content: `@font-face{font-family:"72";font-style:normal;font-weight:400;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Regular.woff2?ui5-webcomponents) format("woff2"),local("72");unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}@font-face{font-family:"72full";font-style:normal;font-weight:400;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Regular-full.woff2?ui5-webcomponents) format("woff2"),local('72-full')}@font-face{font-family:"72";font-style:normal;font-weight:700;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold.woff2?ui5-webcomponents) format("woff2"),local('72-Bold');unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}@font-face{font-family:"72full";font-style:normal;font-weight:700;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold-full.woff2?ui5-webcomponents) format("woff2")}@font-face{font-family:'72-Bold';font-style:normal;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold.woff2?ui5-webcomponents) format("woff2"),local('72-Bold');unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}@font-face{font-family:'72-Boldfull';font-style:normal;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold-full.woff2?ui5-webcomponents) format("woff2")}@font-face{font-family:'72-Light';font-style:normal;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Light.woff2?ui5-webcomponents) format("woff2"),local('72-Light');unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}@font-face{font-family:'72-Lightfull';font-style:normal;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Light-full.woff2?ui5-webcomponents) format("woff2")}@font-face{font-family:'72Mono';src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72Mono-Regular.woff2?ui5-webcomponents) format('woff2'),local('72Mono');unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}@font-face{font-family:'72Monofull';src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72Mono-Regular-full.woff2?ui5-webcomponents) format('woff2')}@font-face{font-family:'72Mono-Bold';src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72Mono-Bold.woff2?ui5-webcomponents) format('woff2'),local('72Mono-Bold');unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}@font-face{font-family:'72Mono-Boldfull';src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72Mono-Bold-full.woff2?ui5-webcomponents) format('woff2')}@font-face{font-family:"72Black";font-style:bold;font-weight:900;src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Black.woff2?ui5-webcomponents) format("woff2"),local('72Black');unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}@font-face{font-family:'72Blackfull';src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-Black-full.woff2?ui5-webcomponents) format('woff2')}@font-face{font-family:"72-SemiboldDuplex";src:url(https://sdk.openui5.org/resources/sap/ui/core/themes/sap_horizon/fonts/72-SemiboldDuplex.woff2?ui5-webcomponents) format("woff2"),local('72-SemiboldDuplex');unicode-range:U+00,U+0D,U+20-7E,U+A0-FF,U+131,U+152-153,U+161,U+178,U+17D-17E,U+192,U+237,U+2C6,U+2DC,U+3BC,U+1E9E,U+2013-2014,U+2018-201A,U+201C-201E,U+2020-2022,U+2026,U+2030,U+2039-203A,U+2044,U+20AC,U+2122}`
@@ -276,7 +276,7 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
   fileName: "OverrideFontFace.css",
   content: "@font-face{font-family:'72override';unicode-range:U+0102-0103,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EB7,U+1EB8-1EC7,U+1EC8-1ECB,U+1ECC-1EE3,U+1EE4-1EF1,U+1EF4-1EF7;src:local('Arial'),local('Helvetica'),local('sans-serif')}"
 }, yo = () => {
-  const t = v("OpenUI5Support");
+  const t = S("OpenUI5Support");
   (!t || !t.isOpenUI5Detected()) && Ao(), To();
 }, Ao = () => {
   fe("data-ui5-font-face") || ce(So, "data-ui5-font-face");
@@ -288,7 +288,7 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
   content: ":root{--_ui5_content_density:cozy}.sapUiSizeCompact,.ui5-content-density-compact,[data-ui5-compact-size]{--_ui5_content_density:compact}"
 }, wo = () => {
   fe("data-ui5-system-css-vars") || ce(ko, "data-ui5-system-css-vars");
-}, _e = { themes: { default: "sap_horizon", all: ["sap_fiori_3", "sap_fiori_3_dark", "sap_belize", "sap_belize_hcb", "sap_belize_hcw", "sap_fiori_3_hcb", "sap_fiori_3_hcw", "sap_horizon", "sap_horizon_dark", "sap_horizon_hcb", "sap_horizon_hcw", "sap_horizon_exp", "sap_horizon_dark_exp", "sap_horizon_hcb_exp", "sap_horizon_hcw_exp"] }, languages: { default: "en", all: ["ar", "bg", "ca", "cnr", "cs", "cy", "da", "de", "el", "en", "en_GB", "en_US_sappsd", "en_US_saprigi", "en_US_saptrc", "es", "es_MX", "et", "fi", "fr", "fr_CA", "hi", "hr", "hu", "in", "it", "iw", "ja", "kk", "ko", "lt", "lv", "mk", "ms", "nl", "no", "pl", "pt_PT", "pt", "ro", "ru", "sh", "sk", "sl", "sr", "sv", "th", "tr", "uk", "vi", "zh_CN", "zh_TW"] }, locales: { default: "en", all: ["ar", "ar_EG", "ar_SA", "bg", "ca", "cs", "da", "de", "de_AT", "de_CH", "el", "el_CY", "en", "en_AU", "en_GB", "en_HK", "en_IE", "en_IN", "en_NZ", "en_PG", "en_SG", "en_ZA", "es", "es_AR", "es_BO", "es_CL", "es_CO", "es_MX", "es_PE", "es_UY", "es_VE", "et", "fa", "fi", "fr", "fr_BE", "fr_CA", "fr_CH", "fr_LU", "he", "hi", "hr", "hu", "id", "it", "it_CH", "ja", "kk", "ko", "lt", "lv", "ms", "nb", "nl", "nl_BE", "pl", "pt", "pt_PT", "ro", "ru", "ru_UA", "sk", "sl", "sr", "sr_Latn", "sv", "th", "tr", "uk", "vi", "zh_CN", "zh_HK", "zh_SG", "zh_TW"] } }, re = _e.themes.default, Io = _e.themes.all, ia = _e.languages.default, la = _e.locales.default, xo = (t) => {
+}, _e = { themes: { default: "sap_horizon", all: ["sap_fiori_3", "sap_fiori_3_dark", "sap_belize", "sap_belize_hcb", "sap_belize_hcw", "sap_fiori_3_hcb", "sap_fiori_3_hcw", "sap_horizon", "sap_horizon_dark", "sap_horizon_hcb", "sap_horizon_hcw", "sap_horizon_exp", "sap_horizon_dark_exp", "sap_horizon_hcb_exp", "sap_horizon_hcw_exp"] }, languages: { default: "en", all: ["ar", "bg", "ca", "cnr", "cs", "cy", "da", "de", "el", "en", "en_GB", "en_US_sappsd", "en_US_saprigi", "en_US_saptrc", "es", "es_MX", "et", "fi", "fr", "fr_CA", "hi", "hr", "hu", "in", "it", "iw", "ja", "kk", "ko", "lt", "lv", "mk", "ms", "nl", "no", "pl", "pt_PT", "pt", "ro", "ru", "sh", "sk", "sl", "sr", "sv", "th", "tr", "uk", "vi", "zh_CN", "zh_TW"] }, locales: { default: "en", all: ["ar", "ar_EG", "ar_SA", "bg", "ca", "cnr", "cs", "da", "de", "de_AT", "de_CH", "el", "el_CY", "en", "en_AU", "en_GB", "en_HK", "en_IE", "en_IN", "en_NZ", "en_PG", "en_SG", "en_ZA", "es", "es_AR", "es_BO", "es_CL", "es_CO", "es_MX", "es_PE", "es_UY", "es_VE", "et", "fa", "fi", "fr", "fr_BE", "fr_CA", "fr_CH", "fr_LU", "he", "hi", "hr", "hu", "id", "it", "it_CH", "ja", "kk", "ko", "lt", "lv", "ms", "mk", "nb", "nl", "nl_BE", "pl", "pt", "pt_PT", "ro", "ru", "ru_UA", "sk", "sl", "sr", "sr_Latn", "sv", "th", "tr", "uk", "vi", "zh_CN", "zh_HK", "zh_SG", "zh_TW"] } }, re = _e.themes.default, Io = _e.themes.all, ia = _e.languages.default, la = _e.locales.default, xo = (t) => {
   const e = document.querySelector(`META[name="${t}"]`);
   return e && e.getAttribute("content");
 }, Eo = (t) => {
@@ -310,12 +310,12 @@ const he = /* @__PURE__ */ new Map(), N = le("Runtimes", []), uo = () => {
   } catch {
   }
 };
-var xe;
+var Ee;
 (function(t) {
   t.Full = "full", t.Basic = "basic", t.Minimal = "minimal", t.None = "none";
-})(xe || (xe = {}));
-const $o = xe;
-let Ve = !1, m = {
+})(Ee || (Ee = {}));
+const $o = Ee;
+let Ve = !1, v = {
   animationMode: $o.Full,
   theme: re,
   themeRoot: void 0,
@@ -328,7 +328,7 @@ let Ve = !1, m = {
   formatSettings: {},
   fetchDefaultLanguage: !1
 };
-const Lo = () => (q(), m.theme), Po = () => (q(), m.themeRoot), da = () => (q(), m.language), ca = () => (q(), m.fetchDefaultLanguage), Mo = () => (q(), m.noConflict), ae = /* @__PURE__ */ new Map();
+const Lo = () => (q(), v.theme), Po = () => (q(), v.themeRoot), da = () => (q(), v.language), ca = () => (q(), v.fetchDefaultLanguage), Mo = () => (q(), v.noConflict), ae = /* @__PURE__ */ new Map();
 ae.set("true", !0);
 ae.set("false", !1);
 const Fo = () => {
@@ -340,7 +340,7 @@ const Fo = () => {
     } catch {
       console.warn("Incorrect data-sap-ui-config format. Please use JSON");
     }
-    e && (m = Le(m, e));
+    e && (v = Pe(v, e));
   }
 }, Oo = () => {
   const t = new URLSearchParams(window.location.search);
@@ -355,13 +355,13 @@ const Fo = () => {
   return Ho(e);
 }, No = (t, e) => t === "theme" && e.includes("@") ? e.split("@")[0] : e, We = (t, e, o) => {
   const r = e.toLowerCase(), a = t.split(`${o}-`)[1];
-  ae.has(e) && (e = ae.get(r)), a === "theme" ? (m.theme = No(a, e), e && e.includes("@") && (m.themeRoot = Ro(e))) : m[a] = e;
+  ae.has(e) && (e = ae.get(r)), a === "theme" ? (v.theme = No(a, e), e && e.includes("@") && (v.themeRoot = Ro(e))) : v[a] = e;
 }, Do = () => {
-  const t = v("OpenUI5Support");
+  const t = S("OpenUI5Support");
   if (!t || !t.isOpenUI5Detected())
     return;
   const e = t.getConfigurationSettingsObject();
-  m = Le(m, e);
+  v = Pe(v, e);
 }, q = () => {
   typeof document > "u" || Ve || (Fo(), Oo(), Do(), Ve = !0);
 }, qe = 10;
@@ -403,14 +403,14 @@ class jo {
     }
   }
 }
-const Bt = le("Tags", /* @__PURE__ */ new Map()), Me = /* @__PURE__ */ new Set();
-let T = /* @__PURE__ */ new Map(), ge;
+const Bt = le("Tags", /* @__PURE__ */ new Map()), Fe = /* @__PURE__ */ new Set();
+let T = /* @__PURE__ */ new Map(), Ce;
 const vt = -1, zo = (t) => {
-  Me.add(t), Bt.set(t, P());
-}, Vo = (t) => Me.has(t), Wo = () => [...Me.values()], qo = (t) => {
+  Fe.add(t), Bt.set(t, P());
+}, Vo = (t) => Fe.has(t), Wo = () => [...Fe.values()], qo = (t) => {
   let e = Bt.get(t);
-  e === void 0 && (e = vt), T.has(e) || T.set(e, /* @__PURE__ */ new Set()), T.get(e).add(t), ge || (ge = setTimeout(() => {
-    Go(), T = /* @__PURE__ */ new Map(), ge = void 0;
+  e === void 0 && (e = vt), T.has(e) || T.set(e, /* @__PURE__ */ new Set()), T.get(e).add(t), Ce || (Ce = setTimeout(() => {
+    Go(), T = /* @__PURE__ */ new Map(), Ce = void 0;
   }, 1e3));
 }, Go = () => {
   const t = ho(), e = P(), o = t[e];
@@ -422,10 +422,10 @@ ${a.description}`).join("")}`), [...T.keys()].forEach((a) => {
     a === vt ? (n = 1, s = {
       description: "Older unknown runtime"
     }) : (n = Ct(e, a), s = t[a]);
-    let i;
-    n > 0 ? i = "an older" : n < 0 ? i = "a newer" : i = "the same", r = `${r}
+    let l;
+    n > 0 ? l = "an older" : n < 0 ? l = "a newer" : l = "the same", r = `${r}
 
-"${o.description}" failed to define ${T.get(a).size} tag(s) as they were defined by a runtime of ${i} version "${s.description}": ${[...T.get(a)].sort().join(", ")}.`, n > 0 ? r = `${r}
+"${o.description}" failed to define ${T.get(a).size} tag(s) as they were defined by a runtime of ${l} version "${s.description}": ${[...T.get(a)].sort().join(", ")}.`, n > 0 ? r = `${r}
 WARNING! If your code uses features of the above web components, unavailable in ${s.description}, it might not work as expected!` : r = `${r}
 Since the above web components were defined by the same or newer version runtime, they should be compatible with your code.`;
   }), r = `${r}
@@ -433,19 +433,19 @@ Since the above web components were defined by the same or newer version runtime
 To prevent other runtimes from defining tags that you use, consider using scoping or have third-party libraries use scoping: https://github.com/SAP/ui5-webcomponents/blob/main/docs/2-advanced/03-scoping.md.`, console.warn(r);
 }, St = /* @__PURE__ */ new Set(), Jo = (t) => {
   St.add(t);
-}, Ko = (t) => St.has(t), Fe = /* @__PURE__ */ new Set(), Zo = new w(), H = new jo();
-let E, ee, Ce, K;
+}, Ko = (t) => St.has(t), Oe = /* @__PURE__ */ new Set(), Zo = new w(), H = new jo();
+let E, ee, me, K;
 const bt = async (t) => {
   H.add(t), await Yo();
 }, yt = (t) => {
-  Zo.fireEvent("beforeComponentRender", t), Fe.add(t), t._render();
+  Zo.fireEvent("beforeComponentRender", t), Oe.add(t), t._render();
 }, Xo = (t) => {
-  H.remove(t), Fe.delete(t);
+  H.remove(t), Oe.delete(t);
 }, Yo = async () => {
   K || (K = new Promise((t) => {
     window.requestAnimationFrame(() => {
-      H.process(yt), K = null, t(), Ce || (Ce = setTimeout(() => {
-        Ce = void 0, H.isEmpty() && tr();
+      H.process(yt), K = null, t(), me || (me = setTimeout(() => {
+        me = void 0, H.isEmpty() && tr();
       }, 200));
     });
   })), await K;
@@ -461,7 +461,7 @@ const bt = async (t) => {
 }, tr = () => {
   H.isEmpty() && ee && (ee(), ee = void 0, E = void 0);
 }, or = async (t) => {
-  Fe.forEach((e) => {
+  Oe.forEach((e) => {
     const o = e.constructor, r = o.getMetadata().getTag(), a = Ko(o), n = o.getMetadata().isLanguageAware(), s = o.getMetadata().isThemeAware();
     (!t || t.tag === r || t.rtlAware && a || t.languageAware && n || t.themeAware && s) && bt(e);
   }), await At();
@@ -474,15 +474,15 @@ const bt = async (t) => {
   if (a !== void 0)
     return a;
   if (!ne.has(e)) {
-    const l = [...ne.values()].join(", ");
-    return console.warn(`You have requested a non-registered theme ${e} - falling back to ${re}. Registered themes are: ${l}`), me(t, re);
+    const i = [...ne.values()].join(", ");
+    return console.warn(`You have requested a non-registered theme ${e} - falling back to ${re}. Registered themes are: ${i}`), Be(t, re);
   }
   const [n, s] = await Promise.all([
-    me(t, e),
-    o ? me(t, o, !0) : void 0
-  ]), i = Bo(n, s);
-  return i && Ge.set(r, i), i;
-}, me = async (t, e, o = !1) => {
+    Be(t, e),
+    o ? Be(t, o, !0) : void 0
+  ]), l = Bo(n, s);
+  return l && Ge.set(r, l), l;
+}, Be = async (t, e, o = !1) => {
   const a = (o ? nr : wt).get(`${t}/${e}`);
   if (!a) {
     o || console.error(`Theme [${e}] not registered for package [${t}]`);
@@ -491,8 +491,8 @@ const bt = async (t) => {
   let n;
   try {
     n = await a(e);
-  } catch (i) {
-    console.error(t, i.message);
+  } catch (l) {
+    console.error(t, l.message);
     return;
   }
   return n._ || n;
@@ -532,7 +532,7 @@ const bt = async (t) => {
     themeName: e,
     baseThemeName: o
   };
-}, Ee = () => {
+}, Ue = () => {
   const t = ir();
   if (!t || t === "none")
     return;
@@ -540,8 +540,8 @@ const bt = async (t) => {
   if (e)
     return dr(e);
 }, cr = new w(), fr = "themeLoaded", _r = (t) => cr.fireEvent(fr, t);
-let Be;
-const Ut = () => (Be === void 0 && (Be = Po()), Be), pr = (t) => `${Ut()}Base/baseLib/${t}/css_variables.css`, ur = async (t) => {
+let ve;
+const Ut = () => (ve === void 0 && (ve = Po()), ve), pr = (t) => `${Ut()}Base/baseLib/${t}/css_variables.css`, ur = async (t) => {
   const e = document.querySelector(`[sap-ui-webcomponents-theme="${t}"]`);
   e && document.head.removeChild(e), await no(pr(t), { "sap-ui-webcomponents-theme": t });
 }, D = "@ui5/webcomponents-theming", hr = () => Et().has(D), gr = async (t) => {
@@ -561,10 +561,10 @@ const Ut = () => (Be === void 0 && (Be = Po()), Be), pr = (t) => `${Ut()}Base/ba
   return Promise.all(r);
 }, Br = async (t) => {
   var r;
-  const e = Ee();
+  const e = Ue();
   if (e)
     return e;
-  const o = v("OpenUI5Support");
+  const o = S("OpenUI5Support");
   if (o && o.isOpenUI5Detected()) {
     if (o.cssVariablesLoaded())
       return {
@@ -573,18 +573,18 @@ const Ut = () => (Be === void 0 && (Be = Po()), Be), pr = (t) => `${Ut()}Base/ba
         // baseThemeName is only relevant for custom themes
       };
   } else if (Ut())
-    return await ur(t), Ee();
+    return await ur(t), Ue();
 }, Ht = async (t) => {
   const e = await Br(t);
   !e || t !== e.themeName ? await gr(t) : Cr();
   const o = sr(t) ? t : e && e.baseThemeName;
   await mr(o || re, e && e.themeName === t ? t : void 0), _r(t);
 };
-let ve;
-const Oe = () => (ve === void 0 && (ve = Lo()), ve), _a = () => {
+let Se;
+const Re = () => (Se === void 0 && (Se = Lo()), Se), _a = () => {
   var e, o;
-  const t = Oe();
-  return vr(t) ? !t.startsWith("sap_horizon") : !((o = (e = Ee()) == null ? void 0 : e.baseThemeName) != null && o.startsWith("sap_horizon"));
+  const t = Re();
+  return vr(t) ? !t.startsWith("sap_horizon") : !((o = (e = Ue()) == null ? void 0 : e.baseThemeName) != null && o.startsWith("sap_horizon"));
 }, vr = (t) => Io.includes(t);
 let $t = !1, Z;
 const Sr = new w(), br = async () => {
@@ -596,25 +596,25 @@ const Sr = new w(), br = async () => {
       return;
     }
     rr(yr), uo();
-    const o = v("OpenUI5Support"), r = o ? o.isOpenUI5Detected() : !1, a = v("F6Navigation");
-    o && await o.init(), a && !r && a.init(), await ro(), await Ht(Oe()), o && o.attachListeners(), yo(), wo(), e(), $t = !0, await Sr.fireEventAsync("boot");
+    const o = S("OpenUI5Support"), r = o ? o.isOpenUI5Detected() : !1, a = S("F6Navigation");
+    o && await o.init(), a && !r && a.init(), await ro(), await Ht(Re()), o && o.attachListeners(), yo(), wo(), e(), $t = !0, await Sr.fireEventAsync("boot");
   };
   return Z = new Promise(t), Z;
 }, yr = (t) => {
-  const e = Oe();
+  const e = Re();
   $t && t === e && Ht(e);
-}, Se = /* @__PURE__ */ new Map(), be = /* @__PURE__ */ new Map(), Je = (t) => {
-  if (!Se.has(t)) {
-    const e = Ar(t.split("-"));
-    Se.set(t, e);
-  }
-  return Se.get(t);
-}, Lt = (t) => {
+}, be = /* @__PURE__ */ new Map(), ye = /* @__PURE__ */ new Map(), Je = (t) => {
   if (!be.has(t)) {
-    const e = t.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
+    const e = Ar(t.split("-"));
     be.set(t, e);
   }
   return be.get(t);
+}, Lt = (t) => {
+  if (!ye.has(t)) {
+    const e = t.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
+    ye.set(t, e);
+  }
+  return ye.get(t);
 }, Ar = (t) => t.map((e, o) => o === 0 ? e.toLowerCase() : e.charAt(0).toUpperCase() + e.slice(1).toLowerCase()).join(""), Tr = (t) => {
   if (!(t instanceof HTMLElement))
     return "default";
@@ -629,14 +629,14 @@ let wr, Ke = {
   include: [/^ui5-/],
   exclude: []
 };
-const ye = /* @__PURE__ */ new Map(), Mt = () => wr, Ue = (t) => {
-  if (!ye.has(t)) {
+const Ae = /* @__PURE__ */ new Map(), Mt = () => wr, He = (t) => {
+  if (!Ae.has(t)) {
     const e = Ke.include.some((o) => t.match(o)) && !Ke.exclude.some((o) => t.match(o));
-    ye.set(t, e);
+    Ae.set(t, e);
   }
-  return ye.get(t);
+  return Ae.get(t);
 }, Ft = (t) => {
-  if (Ue(t))
+  if (He(t))
     return Mt();
 };
 class Ir {
@@ -664,8 +664,8 @@ class Ir {
     if (o) {
       const a = this.getSlots();
       for (const [n, s] of Object.entries(a)) {
-        const i = s.propertyName || n;
-        e[i] = [];
+        const l = s.propertyName || n;
+        e[l] = [];
       }
     }
     return this._initialState = e, e;
@@ -673,7 +673,7 @@ class Ir {
   /**
    * Validates the property's value and returns it if correct
    * or returns the default value if not.
-   * <b>Note:</b> Only intended for use by UI5Element.js
+   * **Note:** Only intended for use by UI5Element.js
    * @public
    */
   static validatePropertyValue(e, o) {
@@ -682,7 +682,7 @@ class Ir {
   /**
    * Validates the slot's value and returns it if correct
    * or throws an exception if not.
-   * <b>Note:</b> Only intended for use by UI5Element.js
+   * **Note:** Only intended for use by UI5Element.js
    * @public
    */
   static validateSlotValue(e, o) {
@@ -845,34 +845,34 @@ const Ze = (t, e) => {
 class Er extends HTMLElement {
 }
 customElements.get("ui5-static-area") || customElements.define("ui5-static-area", Er);
-const Ur = () => le("CustomStyle.eventProvider", new w()), Hr = "CustomCSSChange", Re = (t) => {
+const Ur = () => le("CustomStyle.eventProvider", new w()), Hr = "CustomCSSChange", Ne = (t) => {
   Ur().attachEvent(Hr, t);
 }, $r = () => le("CustomStyle.customCSSFor", {});
-Re((t) => {
+Ne((t) => {
   or({ tag: t });
 });
 const Lr = (t) => {
   const e = $r();
   return e[t] ? e[t].join("") : "";
-}, Pr = 10, Ae = (t) => Array.isArray(t) ? t.filter((e) => !!e).flat(Pr).map((e) => typeof e == "string" ? e : e.content).join(" ") : typeof t == "string" ? t : t.content, te = /* @__PURE__ */ new Map();
-Re((t) => {
+}, Pr = 10, Te = (t) => Array.isArray(t) ? t.filter((e) => !!e).flat(Pr).map((e) => typeof e == "string" ? e : e.content).join(" ") : typeof t == "string" ? t : t.content, te = /* @__PURE__ */ new Map();
+Ne((t) => {
   te.delete(`${t}_normal`);
 });
 const Ot = (t, e = !1) => {
-  const o = t.getMetadata().getTag(), r = `${o}_${e ? "static" : "normal"}`, a = v("OpenUI5Enablement");
+  const o = t.getMetadata().getTag(), r = `${o}_${e ? "static" : "normal"}`, a = S("OpenUI5Enablement");
   if (!te.has(r)) {
     let n, s = "";
-    if (a && (s = Ae(a.getBusyIndicatorStyles())), e)
-      n = Ae(t.staticAreaStyles);
+    if (a && (s = Te(a.getBusyIndicatorStyles())), e)
+      n = Te(t.staticAreaStyles);
     else {
-      const i = Lr(o) || "";
-      n = `${Ae(t.styles)} ${i}`;
+      const l = Lr(o) || "";
+      n = `${Te(t.styles)} ${l}`;
     }
     n = `${n} ${s}`, te.set(r, n);
   }
   return te.get(r);
 }, oe = /* @__PURE__ */ new Map();
-Re((t) => {
+Ne((t) => {
   oe.delete(`${t}_normal`);
 });
 const Mr = (t, e = !1) => {
@@ -882,7 +882,7 @@ const Mr = (t, e = !1) => {
     n.replaceSync(a), oe.set(r, [n]);
   }
   return oe.get(r);
-}, He = (t, e = !1) => {
+}, $e = (t, e = !1) => {
   let o;
   const r = t.constructor, a = e ? t.staticAreaItem.shadowRoot : t.shadowRoot;
   let n;
@@ -910,7 +910,7 @@ class R extends HTMLElement {
    * Updates the shadow root of the static area item with the latest state, if rendered
    */
   update() {
-    this._rendered && (this.updateAdditionalProperties(), He(this.ownerElement, !0));
+    this._rendered && (this.updateAdditionalProperties(), $e(this.ownerElement, !0));
   }
   updateAdditionalProperties() {
     this._updateAdditionalAttrs(), this._updateContentDensity(), this._updateDirection();
@@ -936,7 +936,7 @@ class R extends HTMLElement {
    * @protected
    */
   async getDomRef() {
-    return this.updateAdditionalProperties(), this._rendered || (this._rendered = !0, He(this.ownerElement, !0)), await At(), this.shadowRoot;
+    return this.updateAdditionalProperties(), this._rendered || (this._rendered = !0, $e(this.ownerElement, !0)), await At(), this.shadowRoot;
   }
   static getTag() {
     const e = Ft(X);
@@ -946,21 +946,21 @@ class R extends HTMLElement {
     return customElements.get(R.getTag()) || customElements.define(R.getTag(), R), document.createElement(this.getTag());
   }
 }
-const Nr = [], Dr = (t) => Nr.some((e) => t.startsWith(e)), $e = /* @__PURE__ */ new WeakMap(), jr = (t, e, o) => {
+const Nr = [], Dr = (t) => Nr.some((e) => t.startsWith(e)), Le = /* @__PURE__ */ new WeakMap(), jr = (t, e, o) => {
   const r = new MutationObserver(e);
-  $e.set(t, r), r.observe(t, o);
+  Le.set(t, r), r.observe(t, o);
 }, zr = (t) => {
-  const e = $e.get(t);
-  e && (e.disconnect(), $e.delete(t));
+  const e = Le.get(t);
+  e && (e.disconnect(), Le.delete(t));
 }, Vr = [
   "value-changed",
   "click"
 ];
-let Te;
+let ke;
 const Wr = (t) => Vr.includes(t), qr = (t) => {
   const e = Nt();
   return !(typeof e != "boolean" && e.events && e.events.includes && e.events.includes(t));
-}, Nt = () => (Te === void 0 && (Te = Mo()), Te), Gr = (t) => {
+}, Nt = () => (ke === void 0 && (ke = Mo()), ke), Gr = (t) => {
   const e = Nt();
   return Wr(t) ? !1 : e === !0 ? !0 : !qr(t);
 }, Jr = [
@@ -984,15 +984,15 @@ const Wr = (t) => Vr.includes(t), qr = (t) => {
   const o = Kr(e), r = Mt();
   return t.call(e, e, o, r);
 }, Kr = (t) => {
-  const e = t.constructor, o = e.getMetadata().getPureTag(), r = e.getUniqueDependencies().map((a) => a.getMetadata().getPureTag()).filter(Ue);
-  return Ue(o) && r.push(o), r;
+  const e = t.constructor, o = e.getMetadata().getPureTag(), r = e.getUniqueDependencies().map((a) => a.getMetadata().getPureTag()).filter(He);
+  return He(o) && r.push(o), r;
 };
 let Zr = 0;
-const et = /* @__PURE__ */ new Map(), ke = /* @__PURE__ */ new Map();
+const et = /* @__PURE__ */ new Map(), we = /* @__PURE__ */ new Map();
 function F(t) {
   this._suppressInvalidation || (this.onInvalidation(t), this._changedState.push(t), bt(this), this._invalidationEventProvider.fireEvent("invalidate", { ...t, target: this }));
 }
-class Ne extends HTMLElement {
+class pe extends HTMLElement {
   constructor() {
     super();
     const e = this.constructor;
@@ -1068,7 +1068,7 @@ class Ne extends HTMLElement {
     const o = this.constructor.getMetadata();
     if (!o.hasSlots())
       return;
-    const a = o.canSlotText(), n = Object.keys(o.getSlots()).some((i) => o.getSlots()[i].cloned), s = {
+    const a = o.canSlotText(), n = Object.keys(o.getSlots()).some((l) => o.getSlots()[l].cloned), s = {
       childList: !0,
       subtree: a || n,
       characterData: a
@@ -1093,48 +1093,48 @@ class Ne extends HTMLElement {
    */
   async _updateSlots() {
     const e = this.constructor, o = e.getMetadata().getSlots(), r = e.getMetadata().canSlotText(), a = Array.from(r ? this.childNodes : this.children), n = /* @__PURE__ */ new Map(), s = /* @__PURE__ */ new Map();
-    for (const [d, p] of Object.entries(o)) {
-      const _ = p.propertyName || d;
-      s.set(_, d), n.set(_, [...this._state[_]]), this._clearSlot(d, p);
+    for (const [c, u] of Object.entries(o)) {
+      const _ = u.propertyName || c;
+      s.set(_, c), n.set(_, [...this._state[_]]), this._clearSlot(c, u);
     }
-    const i = /* @__PURE__ */ new Map(), l = /* @__PURE__ */ new Map(), c = a.map(async (d, p) => {
-      const _ = Tr(d), B = o[_];
-      if (B === void 0) {
+    const l = /* @__PURE__ */ new Map(), i = /* @__PURE__ */ new Map(), d = a.map(async (c, u) => {
+      const _ = Tr(c), C = o[_];
+      if (C === void 0) {
         if (_ !== "default") {
-          const C = Object.keys(o).join(", ");
-          console.warn(`Unknown slotName: ${_}, ignoring`, d, `Valid values are: ${C}`);
+          const B = Object.keys(o).join(", ");
+          console.warn(`Unknown slotName: ${_}, ignoring`, c, `Valid values are: ${B}`);
         }
         return;
       }
-      if (B.individualSlots) {
-        const C = (i.get(_) || 0) + 1;
-        i.set(_, C), d._individualSlot = `${_}-${C}`;
+      if (C.individualSlots) {
+        const B = (l.get(_) || 0) + 1;
+        l.set(_, B), c._individualSlot = `${_}-${B}`;
       }
-      if (d instanceof HTMLElement) {
-        const C = d.localName;
-        if (C.includes("-") && !Dr(C)) {
-          if (!customElements.get(C)) {
-            const Yt = customElements.whenDefined(C);
-            let J = et.get(C);
-            J || (J = new Promise((Qt) => setTimeout(Qt, 1e3)), et.set(C, J)), await Promise.race([Yt, J]);
+      if (c instanceof HTMLElement) {
+        const B = c.localName;
+        if (B.includes("-") && !Dr(B)) {
+          if (!customElements.get(B)) {
+            const Yt = customElements.whenDefined(B);
+            let J = et.get(B);
+            J || (J = new Promise((Qt) => setTimeout(Qt, 1e3)), et.set(B, J)), await Promise.race([Yt, J]);
           }
-          customElements.upgrade(d);
+          customElements.upgrade(c);
         }
       }
-      if (d = e.getMetadata().constructor.validateSlotValue(d, B), tt(d) && B.invalidateOnChildChange) {
-        const C = this._getChildChangeListener(_);
-        C && d.attachInvalidate.call(d, C);
+      if (c = e.getMetadata().constructor.validateSlotValue(c, C), tt(c) && C.invalidateOnChildChange) {
+        const B = this._getChildChangeListener(_);
+        B && c.attachInvalidate.call(c, B);
       }
-      d instanceof HTMLSlotElement && this._attachSlotChange(d, _);
-      const b = B.propertyName || _;
-      l.has(b) ? l.get(b).push({ child: d, idx: p }) : l.set(b, [{ child: d, idx: p }]);
+      c instanceof HTMLSlotElement && this._attachSlotChange(c, _);
+      const m = C.propertyName || _;
+      i.has(m) ? i.get(m).push({ child: c, idx: u }) : i.set(m, [{ child: c, idx: u }]);
     });
-    await Promise.all(c), l.forEach((d, p) => {
-      this._state[p] = d.sort((_, B) => _.idx - B.idx).map((_) => _.child);
+    await Promise.all(d), i.forEach((c, u) => {
+      this._state[u] = c.sort((_, C) => _.idx - C.idx).map((_) => _.child);
     });
     let f = !1;
-    for (const [d, p] of Object.entries(o)) {
-      const _ = p.propertyName || d;
+    for (const [c, u] of Object.entries(o)) {
+      const _ = u.propertyName || c;
       Ye(n.get(_), this._state[_]) || (F.call(this, {
         type: "slot",
         name: s.get(_),
@@ -1202,11 +1202,11 @@ class Ne extends HTMLElement {
     let a;
     if (this._doNotSyncAttributes.has(e))
       return;
-    const n = this.constructor.getMetadata().getProperties(), s = e.replace(/^ui5-/, ""), i = Je(s);
-    if (n.hasOwnProperty(i)) {
-      const l = n[i], c = l.type;
-      let f = l.validator;
-      c && c.isDataTypeClass && (f = c), f ? a = f.attributeToProperty(r) : c === Boolean ? a = r !== null : a = r, this[i] = a;
+    const n = this.constructor.getMetadata().getProperties(), s = e.replace(/^ui5-/, ""), l = Je(s);
+    if (n.hasOwnProperty(l)) {
+      const i = n[l], d = i.type;
+      let f = i.validator;
+      d && d.isDataTypeClass && (f = d), f ? a = f.attributeToProperty(r) : d === Boolean ? a = r !== null : a = r, this[l] = a;
     }
   }
   /**
@@ -1217,13 +1217,13 @@ class Ne extends HTMLElement {
     if (!r.getMetadata().hasAttribute(e))
       return;
     const n = r.getMetadata().getProperties()[e], s = n.type;
-    let i = n.validator;
-    const l = Lt(e), c = this.getAttribute(l);
-    if (s && s.isDataTypeClass && (i = s), i) {
-      const f = i.propertyToAttribute(o);
-      f === null ? (this._doNotSyncAttributes.add(l), this.removeAttribute(l), this._doNotSyncAttributes.delete(l)) : this.setAttribute(l, f);
+    let l = n.validator;
+    const i = Lt(e), d = this.getAttribute(i);
+    if (s && s.isDataTypeClass && (l = s), l) {
+      const f = l.propertyToAttribute(o);
+      f === null ? (this._doNotSyncAttributes.add(i), this.removeAttribute(i), this._doNotSyncAttributes.delete(i)) : this.setAttribute(i, f);
     } else
-      s === Boolean ? o === !0 && c === null ? this.setAttribute(l, "") : o === !1 && c !== null && this.removeAttribute(l) : typeof o != "object" && c !== o && this.setAttribute(l, o);
+      s === Boolean ? o === !0 && d === null ? this.setAttribute(i, "") : o === !1 && d !== null && this.removeAttribute(i) : typeof o != "object" && d !== o && this.setAttribute(i, o);
   }
   /**
    * @private
@@ -1320,7 +1320,7 @@ class Ne extends HTMLElement {
    */
   _render() {
     const e = this.constructor, o = e.getMetadata().hasIndividualSlots();
-    this._suppressInvalidation = !0, this.onBeforeRendering(), this._componentStateFinalizedEventProvider.fireEvent("componentStateFinalized"), this._suppressInvalidation = !1, this._changedState = [], e._needsShadowDOM() && He(this), this.staticAreaItem && this.staticAreaItem.update(), o && this._assignIndividualSlotsToChildren(), this.onAfterRendering();
+    this._suppressInvalidation = !0, this.onBeforeRendering(), this._componentStateFinalizedEventProvider.fireEvent("componentStateFinalized"), this._suppressInvalidation = !1, this._changedState = [], e._needsShadowDOM() && $e(this), this.staticAreaItem && this.staticAreaItem.update(), o && this._assignIndividualSlotsToChildren(), this.onAfterRendering();
   }
   /**
    * @private
@@ -1401,13 +1401,13 @@ class Ne extends HTMLElement {
     }), s = this.dispatchEvent(n);
     if (Gr(e))
       return s;
-    const i = new CustomEvent(e, {
+    const l = new CustomEvent(e, {
       detail: o,
       composed: !1,
       bubbles: a,
       cancelable: r
     });
-    return this.dispatchEvent(i) && s;
+    return this.dispatchEvent(l) && s;
   }
   /**
    * Returns the actual children, associated with a slot.
@@ -1457,6 +1457,13 @@ class Ne extends HTMLElement {
     return {};
   }
   /**
+   * Returns the component accessibility info.
+   * @private
+   */
+  get accessibilityInfo() {
+    return {};
+  }
+  /**
    * Do not override this method in derivatives of UI5Element, use metadata properties instead
    * @private
    */
@@ -1497,25 +1504,31 @@ class Ne extends HTMLElement {
         throw new Error(`Cannot set a default value for property "${a}". All properties of type "Object" are empty objects by default.`);
       if (n.multiple && n.defaultValue)
         throw new Error(`Cannot set a default value for property "${a}". All multiple properties are empty arrays by default.`);
-      Object.defineProperty(e, a, {
+      const s = Object.getOwnPropertyDescriptor(e, a);
+      let l;
+      s != null && s.set && (l = s.set);
+      let i;
+      s != null && s.get && (i = s.get), Object.defineProperty(e, a, {
         get() {
+          if (i)
+            return i.call(this);
           if (this._state[a] !== void 0)
             return this._state[a];
-          const s = n.defaultValue;
-          return n.type === Boolean ? !1 : n.type === String ? s : n.multiple ? [] : s;
+          const d = n.defaultValue;
+          return n.type === Boolean ? !1 : n.type === String ? d : n.multiple ? [] : d;
         },
-        set(s) {
-          let i;
-          s = this.constructor.getMetadata().constructor.validatePropertyValue(s, n);
-          const f = n.type;
-          let d = n.validator;
-          const p = this._state[a];
-          f && f.isDataTypeClass && (d = f), d ? i = !d.valuesAreEqual(p, s) : Array.isArray(p) && Array.isArray(s) && n.multiple && n.compareValues ? i = !Ye(p, s) : i = p !== s, i && (this._state[a] = s, F.call(this, {
+        set(d) {
+          let f;
+          d = this.constructor.getMetadata().constructor.validatePropertyValue(d, n);
+          const _ = n.type;
+          let C = n.validator;
+          const m = i ? i.call(this) : this._state[a];
+          _ && _.isDataTypeClass && (C = _), C ? f = !C.valuesAreEqual(m, d) : Array.isArray(m) && Array.isArray(d) && n.multiple && n.compareValues ? f = !Ye(m, d) : f = m !== d, f && (l ? l.call(this, d) : this._state[a] = d, F.call(this, {
             type: "property",
             name: a,
-            newValue: s,
-            oldValue: p
-          }), this._updateAttribute(a, s));
+            newValue: d,
+            oldValue: m
+          }), this._updateAttribute(a, d));
         }
       });
     }
@@ -1523,10 +1536,10 @@ class Ne extends HTMLElement {
       const a = this.getMetadata().getSlots();
       for (const [n, s] of Object.entries(a)) {
         Xe(n) || console.warn(`"${n}" is not a valid property name. Use a name that does not collide with DOM APIs`);
-        const i = s.propertyName || n;
-        Object.defineProperty(e, i, {
+        const l = s.propertyName || n;
+        Object.defineProperty(e, l, {
           get() {
-            return this._state[i] !== void 0 ? this._state[i] : [];
+            return this._state[l] !== void 0 ? this._state[l] : [];
           },
           set() {
             throw new Error("Cannot set slot content directly, use the DOM APIs (appendChild, removeChild, etc...)");
@@ -1534,13 +1547,6 @@ class Ne extends HTMLElement {
         });
       }
     }
-  }
-  /**
-   * Returns the CSS for this UI5 Web Component Class
-   * @protected
-   */
-  static get styles() {
-    return "";
   }
   /**
    * Returns the Static Area CSS for this UI5 Web Component Class
@@ -1565,11 +1571,11 @@ class Ne extends HTMLElement {
    * @public
    */
   static getUniqueDependencies() {
-    if (!ke.has(this)) {
+    if (!we.has(this)) {
       const e = this.dependencies.filter((o, r, a) => a.indexOf(o) === r);
-      ke.set(this, e);
+      we.set(this, e);
     }
-    return ke.get(this) || [];
+    return we.get(this) || [];
   }
   /**
    * Returns a promise that resolves whenever all dependencies for this UI5 Web Component have resolved
@@ -1607,13 +1613,14 @@ class Ne extends HTMLElement {
       return this._metadata;
     const e = [this.metadata];
     let o = this;
-    for (; o !== Ne; )
+    for (; o !== pe; )
       o = Object.getPrototypeOf(o), e.unshift(o.metadata);
-    const r = Le({}, ...e);
+    const r = Pe({}, ...e);
     return this._metadata = new Ir(r), this._metadata;
   }
 }
-Ne.metadata = {};
+pe.metadata = {};
+pe.styles = "";
 const tt = (t) => "isUI5Element" in t, pa = (t = {}) => (e) => {
   if (Object.prototype.hasOwnProperty.call(e, "metadata") || (e.metadata = {}), typeof t == "string") {
     e.metadata.tag = t;
@@ -1621,9 +1628,9 @@ const tt = (t) => "isUI5Element" in t, pa = (t = {}) => (e) => {
   }
   const { tag: o, languageAware: r, themeAware: a, fastNavigation: n } = t;
   e.metadata.tag = o, r && (e.metadata.languageAware = r), a && (e.metadata.themeAware = a), n && (e.metadata.fastNavigation = n), ["render", "renderer", "template", "staticAreaTemplate", "styles", "staticAreaStyles", "dependencies"].forEach((s) => {
-    const l = t[s === "render" ? "renderer" : s];
-    l && Object.defineProperty(e, s, {
-      get: () => l
+    const i = t[s === "render" ? "renderer" : s];
+    i && Object.defineProperty(e, s, {
+      get: () => i
     });
   });
 }, ua = (t) => (e, o) => {
@@ -1649,9 +1656,9 @@ const tt = (t) => "isUI5Element" in t, pa = (t = {}) => (e) => {
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-var we;
-const se = window, $ = se.trustedTypes, ot = $ ? $.createPolicy("lit-html", { createHTML: (t) => t }) : void 0, ie = "$lit$", S = `lit$${(Math.random() + "").slice(9)}$`, De = "?" + S, Xr = `<${De}>`, I = document, j = () => I.createComment(""), z = (t) => t === null || typeof t != "object" && typeof t != "function", Dt = Array.isArray, jt = (t) => Dt(t) || typeof (t == null ? void 0 : t[Symbol.iterator]) == "function", Ie = `[ 	
-\f\r]`, O = /<(?:(!--|\/[^a-zA-Z])|(\/?[a-zA-Z][^>\s]*)|(\/?$))/g, rt = /-->/g, at = />/g, A = RegExp(`>|${Ie}(?:([^\\s"'>=/]+)(${Ie}*=${Ie}*(?:[^ 	
+var Ie;
+const se = window, $ = se.trustedTypes, ot = $ ? $.createPolicy("lit-html", { createHTML: (t) => t }) : void 0, ie = "$lit$", b = `lit$${(Math.random() + "").slice(9)}$`, De = "?" + b, Xr = `<${De}>`, I = document, j = () => I.createComment(""), z = (t) => t === null || typeof t != "object" && typeof t != "function", Dt = Array.isArray, jt = (t) => Dt(t) || typeof (t == null ? void 0 : t[Symbol.iterator]) == "function", xe = `[ 	
+\f\r]`, O = /<(?:(!--|\/[^a-zA-Z])|(\/?[a-zA-Z][^>\s]*)|(\/?$))/g, rt = /-->/g, at = />/g, A = RegExp(`>|${xe}(?:([^\\s"'>=/]+)(${xe}*=${xe}*(?:[^ 	
 \f\r"'\`<>=]|("|')|))|$)`, "g"), nt = /'/g, st = /"/g, zt = /^(?:script|style|textarea|title)$/i, Vt = (t) => (e, ...o) => ({ _$litType$: t, strings: e, values: o }), Yr = Vt(1), Qr = Vt(2), L = Symbol.for("lit-noChange"), h = Symbol.for("lit-nothing"), it = /* @__PURE__ */ new WeakMap(), k = I.createTreeWalker(I, 129, null, !1);
 function Wt(t, e) {
   if (!Array.isArray(t) || !t.hasOwnProperty("raw"))
@@ -1661,13 +1668,13 @@ function Wt(t, e) {
 const qt = (t, e) => {
   const o = t.length - 1, r = [];
   let a, n = e === 2 ? "<svg>" : "", s = O;
-  for (let i = 0; i < o; i++) {
-    const l = t[i];
-    let c, f, d = -1, p = 0;
-    for (; p < l.length && (s.lastIndex = p, f = s.exec(l), f !== null); )
-      p = s.lastIndex, s === O ? f[1] === "!--" ? s = rt : f[1] !== void 0 ? s = at : f[2] !== void 0 ? (zt.test(f[2]) && (a = RegExp("</" + f[2], "g")), s = A) : f[3] !== void 0 && (s = A) : s === A ? f[0] === ">" ? (s = a ?? O, d = -1) : f[1] === void 0 ? d = -2 : (d = s.lastIndex - f[2].length, c = f[1], s = f[3] === void 0 ? A : f[3] === '"' ? st : nt) : s === st || s === nt ? s = A : s === rt || s === at ? s = O : (s = A, a = void 0);
-    const _ = s === A && t[i + 1].startsWith("/>") ? " " : "";
-    n += s === O ? l + Xr : d >= 0 ? (r.push(c), l.slice(0, d) + ie + l.slice(d) + S + _) : l + S + (d === -2 ? (r.push(void 0), i) : _);
+  for (let l = 0; l < o; l++) {
+    const i = t[l];
+    let d, f, c = -1, u = 0;
+    for (; u < i.length && (s.lastIndex = u, f = s.exec(i), f !== null); )
+      u = s.lastIndex, s === O ? f[1] === "!--" ? s = rt : f[1] !== void 0 ? s = at : f[2] !== void 0 ? (zt.test(f[2]) && (a = RegExp("</" + f[2], "g")), s = A) : f[3] !== void 0 && (s = A) : s === A ? f[0] === ">" ? (s = a ?? O, c = -1) : f[1] === void 0 ? c = -2 : (c = s.lastIndex - f[2].length, d = f[1], s = f[3] === void 0 ? A : f[3] === '"' ? st : nt) : s === st || s === nt ? s = A : s === rt || s === at ? s = O : (s = A, a = void 0);
+    const _ = s === A && t[l + 1].startsWith("/>") ? " " : "";
+    n += s === O ? i + Xr : c >= 0 ? (r.push(d), i.slice(0, c) + ie + i.slice(c) + b + _) : i + b + (c === -2 ? (r.push(void 0), l) : _);
   }
   return [Wt(t, n + (t[o] || "<?>") + (e === 2 ? "</svg>" : "")), r];
 };
@@ -1676,43 +1683,43 @@ class V {
     let a;
     this.parts = [];
     let n = 0, s = 0;
-    const i = e.length - 1, l = this.parts, [c, f] = qt(e, o);
-    if (this.el = V.createElement(c, r), k.currentNode = this.el.content, o === 2) {
-      const d = this.el.content, p = d.firstChild;
-      p.remove(), d.append(...p.childNodes);
+    const l = e.length - 1, i = this.parts, [d, f] = qt(e, o);
+    if (this.el = V.createElement(d, r), k.currentNode = this.el.content, o === 2) {
+      const c = this.el.content, u = c.firstChild;
+      u.remove(), c.append(...u.childNodes);
     }
-    for (; (a = k.nextNode()) !== null && l.length < i; ) {
+    for (; (a = k.nextNode()) !== null && i.length < l; ) {
       if (a.nodeType === 1) {
         if (a.hasAttributes()) {
-          const d = [];
-          for (const p of a.getAttributeNames())
-            if (p.endsWith(ie) || p.startsWith(S)) {
+          const c = [];
+          for (const u of a.getAttributeNames())
+            if (u.endsWith(ie) || u.startsWith(b)) {
               const _ = f[s++];
-              if (d.push(p), _ !== void 0) {
-                const B = a.getAttribute(_.toLowerCase() + ie).split(S), b = /([.?@])?(.*)/.exec(_);
-                l.push({ type: 1, index: n, name: b[2], strings: B, ctor: b[1] === "." ? Jt : b[1] === "?" ? Kt : b[1] === "@" ? Zt : G });
+              if (c.push(u), _ !== void 0) {
+                const C = a.getAttribute(_.toLowerCase() + ie).split(b), m = /([.?@])?(.*)/.exec(_);
+                i.push({ type: 1, index: n, name: m[2], strings: C, ctor: m[1] === "." ? Jt : m[1] === "?" ? Kt : m[1] === "@" ? Zt : G });
               } else
-                l.push({ type: 6, index: n });
+                i.push({ type: 6, index: n });
             }
-          for (const p of d)
-            a.removeAttribute(p);
+          for (const u of c)
+            a.removeAttribute(u);
         }
         if (zt.test(a.tagName)) {
-          const d = a.textContent.split(S), p = d.length - 1;
-          if (p > 0) {
+          const c = a.textContent.split(b), u = c.length - 1;
+          if (u > 0) {
             a.textContent = $ ? $.emptyScript : "";
-            for (let _ = 0; _ < p; _++)
-              a.append(d[_], j()), k.nextNode(), l.push({ type: 2, index: ++n });
-            a.append(d[p], j());
+            for (let _ = 0; _ < u; _++)
+              a.append(c[_], j()), k.nextNode(), i.push({ type: 2, index: ++n });
+            a.append(c[u], j());
           }
         }
       } else if (a.nodeType === 8)
         if (a.data === De)
-          l.push({ type: 2, index: n });
+          i.push({ type: 2, index: n });
         else {
-          let d = -1;
-          for (; (d = a.data.indexOf(S, d + 1)) !== -1; )
-            l.push({ type: 7, index: n }), d += S.length - 1;
+          let c = -1;
+          for (; (c = a.data.indexOf(b, c + 1)) !== -1; )
+            i.push({ type: 7, index: n }), c += b.length - 1;
         }
       n++;
     }
@@ -1723,12 +1730,12 @@ class V {
   }
 }
 function x(t, e, o = t, r) {
-  var a, n, s, i;
+  var a, n, s, l;
   if (e === L)
     return e;
-  let l = r !== void 0 ? (a = o._$Co) === null || a === void 0 ? void 0 : a[r] : o._$Cl;
-  const c = z(e) ? void 0 : e._$litDirective$;
-  return (l == null ? void 0 : l.constructor) !== c && ((n = l == null ? void 0 : l._$AO) === null || n === void 0 || n.call(l, !1), c === void 0 ? l = void 0 : (l = new c(t), l._$AT(t, o, r)), r !== void 0 ? ((s = (i = o)._$Co) !== null && s !== void 0 ? s : i._$Co = [])[r] = l : o._$Cl = l), l !== void 0 && (e = x(t, l._$AS(t, e.values), l, r)), e;
+  let i = r !== void 0 ? (a = o._$Co) === null || a === void 0 ? void 0 : a[r] : o._$Cl;
+  const d = z(e) ? void 0 : e._$litDirective$;
+  return (i == null ? void 0 : i.constructor) !== d && ((n = i == null ? void 0 : i._$AO) === null || n === void 0 || n.call(i, !1), d === void 0 ? i = void 0 : (i = new d(t), i._$AT(t, o, r)), r !== void 0 ? ((s = (l = o)._$Co) !== null && s !== void 0 ? s : l._$Co = [])[r] = i : o._$Cl = i), i !== void 0 && (e = x(t, i._$AS(t, e.values), i, r)), e;
 }
 class Gt {
   constructor(e, o) {
@@ -1744,13 +1751,13 @@ class Gt {
     var o;
     const { el: { content: r }, parts: a } = this._$AD, n = ((o = e == null ? void 0 : e.creationScope) !== null && o !== void 0 ? o : I).importNode(r, !0);
     k.currentNode = n;
-    let s = k.nextNode(), i = 0, l = 0, c = a[0];
-    for (; c !== void 0; ) {
-      if (i === c.index) {
+    let s = k.nextNode(), l = 0, i = 0, d = a[0];
+    for (; d !== void 0; ) {
+      if (l === d.index) {
         let f;
-        c.type === 2 ? f = new M(s, s.nextSibling, this, e) : c.type === 1 ? f = new c.ctor(s, c.name, c.strings, this, e) : c.type === 6 && (f = new Xt(s, this, e)), this._$AV.push(f), c = a[++l];
+        d.type === 2 ? f = new M(s, s.nextSibling, this, e) : d.type === 1 ? f = new d.ctor(s, d.name, d.strings, this, e) : d.type === 6 && (f = new Xt(s, this, e)), this._$AV.push(f), d = a[++i];
       }
-      i !== (c == null ? void 0 : c.index) && (s = k.nextNode(), i++);
+      l !== (d == null ? void 0 : d.index) && (s = k.nextNode(), l++);
     }
     return k.currentNode = I, n;
   }
@@ -1798,8 +1805,8 @@ class M {
     if (((o = this._$AH) === null || o === void 0 ? void 0 : o._$AD) === n)
       this._$AH.v(r);
     else {
-      const s = new Gt(n, this), i = s.u(this.options);
-      s.v(r), this.$(i), this._$AH = s;
+      const s = new Gt(n, this), l = s.u(this.options);
+      s.v(r), this.$(l), this._$AH = s;
     }
   }
   _$AC(e) {
@@ -1842,10 +1849,10 @@ class G {
     if (n === void 0)
       e = x(this, e, o, 0), s = !z(e) || e !== this._$AH && e !== L, s && (this._$AH = e);
     else {
-      const i = e;
-      let l, c;
-      for (e = n[0], l = 0; l < n.length - 1; l++)
-        c = x(this, i[r + l], o, l), c === L && (c = this._$AH[l]), s || (s = !z(c) || c !== this._$AH[l]), c === h ? e = h : e !== h && (e += (c ?? "") + n[l + 1]), this._$AH[l] = c;
+      const l = e;
+      let i, d;
+      for (e = n[0], i = 0; i < n.length - 1; i++)
+        d = x(this, l[r + i], o, i), d === L && (d = this._$AH[i]), s || (s = !z(d) || d !== this._$AH[i]), d === h ? e = h : e !== h && (e += (d ?? "") + n[i + 1]), this._$AH[i] = d;
     }
     s && !a && this.j(e);
   }
@@ -1897,15 +1904,15 @@ class Xt {
     x(this, e);
   }
 }
-const ga = { O: ie, P: S, A: De, C: 1, M: qt, L: Gt, R: jt, D: x, I: M, V: G, H: Kt, N: Zt, U: Jt, F: Xt }, lt = se.litHtmlPolyfillSupport;
-lt == null || lt(V, M), ((we = se.litHtmlVersions) !== null && we !== void 0 ? we : se.litHtmlVersions = []).push("2.8.0");
+const ga = { O: ie, P: b, A: De, C: 1, M: qt, L: Gt, R: jt, D: x, I: M, V: G, H: Kt, N: Zt, U: Jt, F: Xt }, lt = se.litHtmlPolyfillSupport;
+lt == null || lt(V, M), ((Ie = se.litHtmlVersions) !== null && Ie !== void 0 ? Ie : se.litHtmlVersions = []).push("2.8.0");
 const ta = (t, e, o) => {
   var r, a;
   const n = (r = o == null ? void 0 : o.renderBefore) !== null && r !== void 0 ? r : e;
   let s = n._$litPart$;
   if (s === void 0) {
-    const i = (a = o == null ? void 0 : o.renderBefore) !== null && a !== void 0 ? a : null;
-    n._$litPart$ = s = new M(e.insertBefore(j(), i), i, void 0, o ?? {});
+    const l = (a = o == null ? void 0 : o.renderBefore) !== null && a !== void 0 ? a : null;
+    n._$litPart$ = s = new M(e.insertBefore(j(), l), l, void 0, o ?? {});
   }
   return s._$AI(t), s;
 };
@@ -1963,29 +1970,29 @@ class dt extends ra {
 }
 dt.directiveName = "unsafeHTML", dt.resultType = 1;
 const Y = (t, ...e) => {
-  const o = v("LitStatic");
+  const o = S("LitStatic");
   return (o ? o.html : Yr)(t, ...e);
 }, Ba = (t, ...e) => {
-  const o = v("LitStatic");
+  const o = S("LitStatic");
   return (o ? o.svg : Qr)(t, ...e);
 }, va = (t, e, o, r, a) => {
-  const n = v("OpenUI5Enablement");
+  const n = S("OpenUI5Enablement");
   n && !r && (t = n.wrapTemplateResultInBusyMarkup(Y, a.host, t)), typeof o == "string" ? t = Y`<style>${o}</style>${t}` : Array.isArray(o) && o.length && (t = Y`${o.map((s) => Y`<link type="text/css" rel="stylesheet" href="${s}">`)}${t}`), ta(t, e, a);
 }, Sa = (t, e, o) => {
-  const r = v("LitStatic");
+  const r = S("LitStatic");
   if (r)
     return r.unsafeStatic((e || []).includes(t) ? `${t}-${o}` : t);
 }, ba = { packageName: "@ui5/webcomponents-theming", fileName: "themes/sap_horizon/parameters-bundle.css.ts", content: `:root{--sapThemeMetaData-Base-baseLib:{"Path": "Base.baseLib.sap_horizon.css_variables","PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css","Extends": ["baseTheme"],"Tags": ["Fiori_3","LightColorScheme"],"FallbackThemeId": "sap_fiori_3","Engine":{"Name": "theming-engine","Version": "8.0.2"},"Version":{"Build": "11.12.0.20240207130903","Source": "11.12.0"}};--sapBrandColor: #0070f2;--sapHighlightColor: #0064d9;--sapBaseColor: #fff;--sapShellColor: #fff;--sapBackgroundColor: #f5f6f7;--sapFontFamily: "72", "72full", Arial, Helvetica, sans-serif;--sapFontSize: .875rem;--sapTextColor: #1d2d3e;--sapLinkColor: #0064d9;--sapCompanyLogo: none;--sapBackgroundImage: none;--sapBackgroundImageOpacity: 1;--sapBackgroundImageRepeat: false;--sapSelectedColor: #0064d9;--sapHoverColor: #eaecee;--sapActiveColor: #dee2e5;--sapHighlightTextColor: #fff;--sapTitleColor: #1d2d3e;--sapNegativeColor: #aa0808;--sapCriticalColor: #e76500;--sapPositiveColor: #256f3a;--sapInformativeColor: #0070f2;--sapNeutralColor: #788fa6;--sapNegativeElementColor: #f53232;--sapCriticalElementColor: #e76500;--sapPositiveElementColor: #30914c;--sapInformativeElementColor: #0070f2;--sapNeutralElementColor: #788fa6;--sapNegativeTextColor: #aa0808;--sapCriticalTextColor: #b44f00;--sapPositiveTextColor: #256f3a;--sapInformativeTextColor: #0064d9;--sapNeutralTextColor: #1d2d3e;--sapErrorColor: #aa0808;--sapWarningColor: #e76500;--sapSuccessColor: #256f3a;--sapInformationColor: #0070f2;--sapErrorBackground: #ffeaf4;--sapWarningBackground: #fff8d6;--sapSuccessBackground: #f5fae5;--sapInformationBackground: #e1f4ff;--sapNeutralBackground: #eff1f2;--sapErrorBorderColor: #e90b0b;--sapWarningBorderColor: #dd6100;--sapSuccessBorderColor: #30914c;--sapInformationBorderColor: #0070f2;--sapNeutralBorderColor: #788fa6;--sapElement_LineHeight: 2.75rem;--sapElement_Height: 2.25rem;--sapElement_BorderWidth: .0625rem;--sapElement_BorderCornerRadius: .75rem;--sapElement_Compact_LineHeight: 2rem;--sapElement_Compact_Height: 1.625rem;--sapElement_Condensed_LineHeight: 1.5rem;--sapElement_Condensed_Height: 1.375rem;--sapContent_LineHeight: 1.5;--sapContent_IconHeight: 1rem;--sapContent_IconColor: #1d2d3e;--sapContent_ContrastIconColor: #fff;--sapContent_NonInteractiveIconColor: #758ca4;--sapContent_MarkerIconColor: #5d36ff;--sapContent_MarkerTextColor: #046c7a;--sapContent_MeasureIndicatorColor: #556b81;--sapContent_Selected_MeasureIndicatorColor: #0064d9;--sapContent_Placeholderloading_Background: #ccc;--sapContent_Placeholderloading_Gradient: linear-gradient(to right, #ccc 0%, #ccc 20%, #999 50%, #ccc 80%, #ccc 100%);--sapContent_ImagePlaceholderBackground: #eaecee;--sapContent_ImagePlaceholderForegroundColor: #5b738b;--sapContent_RatedColor: #d27700;--sapContent_UnratedColor: #758ca4;--sapContent_BusyColor: #0064d9;--sapContent_FocusColor: #0032a5;--sapContent_FocusStyle: solid;--sapContent_FocusWidth: .125rem;--sapContent_ContrastFocusColor: #fff;--sapContent_ShadowColor: #223548;--sapContent_ContrastShadowColor: #fff;--sapContent_Shadow0: 0 0 .125rem 0 rgba(34,53,72,.2), 0 .125rem .25rem 0 rgba(34,53,72,.2);--sapContent_Shadow1: 0 0 0 .0625rem rgba(34,53,72,.48), 0 .125rem .5rem 0 rgba(34,53,72,.3);--sapContent_Shadow2: 0 0 0 .0625rem rgba(34,53,72,.48), 0 .625rem 1.875rem 0 rgba(34,53,72,.25);--sapContent_Shadow3: 0 0 0 .0625rem rgba(34,53,72,.48), 0 1.25rem 5rem 0 rgba(34,53,72,.25);--sapContent_TextShadow: 0 0 .125rem #fff;--sapContent_ContrastTextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapContent_HeaderShadow: 0 .125rem .125rem 0 rgba(34,53,72,.05), inset 0 -.0625rem 0 0 #d9d9d9;--sapContent_Interaction_Shadow: inset 0 0 0 .0625rem rgba(85,107,129,.25);--sapContent_Selected_Shadow: inset 0 0 0 .0625rem rgba(79,160,255,.5);--sapContent_Negative_Shadow: inset 0 0 0 .0625rem rgba(255,142,196,.45);--sapContent_Critical_Shadow: inset 0 0 0 .0625rem rgba(255,213,10,.4);--sapContent_Positive_Shadow: inset 0 0 0 .0625rem rgba(48,145,76,.18);--sapContent_Informative_Shadow: inset 0 0 0 .0625rem rgba(104,174,255,.5);--sapContent_Neutral_Shadow: inset 0 0 0 .0625rem rgba(120,143,166,.3);--sapContent_SearchHighlightColor: #dafdf5;--sapContent_HelpColor: #188918;--sapContent_LabelColor: #556b82;--sapContent_MonospaceFontFamily: "72Mono", "72Monofull", lucida console, monospace;--sapContent_MonospaceBoldFontFamily: "72Mono-Bold", "72Mono-Boldfull", lucida console, monospace;--sapContent_IconFontFamily: "SAP-icons";--sapContent_DisabledTextColor: rgba(29,45,62,.6);--sapContent_DisabledOpacity: .4;--sapContent_ContrastTextThreshold: .65;--sapContent_ContrastTextColor: #fff;--sapContent_ForegroundColor: #efefef;--sapContent_ForegroundBorderColor: #758ca4;--sapContent_ForegroundTextColor: #1d2d3e;--sapContent_BadgeBackground: #aa0808;--sapContent_BadgeTextColor: #fff;--sapContent_DragAndDropActiveColor: #0064d9;--sapContent_Selected_TextColor: #0064d9;--sapContent_Selected_Background: #fff;--sapContent_Selected_Hover_Background: #e3f0ff;--sapContent_Selected_ForegroundColor: #0064d9;--sapContent_ForcedColorAdjust: none;--sapContent_Illustrative_Color1: #5d36ff;--sapContent_Illustrative_Color2: #0070f2;--sapContent_Illustrative_Color3: #f58b00;--sapContent_Illustrative_Color4: #00144a;--sapContent_Illustrative_Color5: #a9b4be;--sapContent_Illustrative_Color6: #d5dadd;--sapContent_Illustrative_Color7: #ebf8ff;--sapContent_Illustrative_Color8: #fff;--sapContent_Illustrative_Color9: #64edd2;--sapContent_Illustrative_Color10: #ebf8ff;--sapContent_Illustrative_Color11: #f31ded;--sapContent_Illustrative_Color12: #00a800;--sapContent_Illustrative_Color13: #005dc9;--sapContent_Illustrative_Color14: #004da5;--sapContent_Illustrative_Color15: #cc7400;--sapContent_Illustrative_Color16: #3b0ac6;--sapContent_Illustrative_Color17: #00a58a;--sapContent_Illustrative_Color18: #d1efff;--sapContent_Illustrative_Color19: #b8e6ff;--sapContent_Illustrative_Color20: #9eddff;--sapFontLightFamily: "72-Light", "72-Lightfull", "72", "72full", Arial, Helvetica, sans-serif;--sapFontBoldFamily: "72-Bold", "72-Boldfull", "72", "72full", Arial, Helvetica, sans-serif;--sapFontSemiboldFamily: "72-Semibold", "72-Semiboldfull", "72", "72full", Arial, Helvetica, sans-serif;--sapFontSemiboldDuplexFamily: "72-SemiboldDuplex", "72-SemiboldDuplexfull", "72", "72full", Arial, Helvetica, sans-serif;--sapFontBlackFamily: "72Black", "72Blackfull","72", "72full", Arial, Helvetica, sans-serif;--sapFontHeaderFamily: "72-Bold", "72-Boldfull", "72", "72full", Arial, Helvetica, sans-serif;--sapFontSmallSize: .75rem;--sapFontLargeSize: 1rem;--sapFontHeader1Size: 3rem;--sapFontHeader2Size: 2rem;--sapFontHeader3Size: 1.5rem;--sapFontHeader4Size: 1.25rem;--sapFontHeader5Size: 1rem;--sapFontHeader6Size: .875rem;--sapLink_TextDecoration: none;--sapLink_Hover_Color: #0064d9;--sapLink_Hover_TextDecoration: underline;--sapLink_Active_Color: #0064d9;--sapLink_Active_TextDecoration: none;--sapLink_Visited_Color: #0064d9;--sapLink_InvertedColor: #a6cfff;--sapLink_SubtleColor: #1d2d3e;--sapShell_Background: #eff1f2;--sapShell_BackgroundImage: linear-gradient(to bottom, #eff1f2, #eff1f2);--sapShell_BackgroundImageOpacity: 1;--sapShell_BackgroundImageRepeat: false;--sapShell_BorderColor: #fff;--sapShell_TextColor: #1d2d3e;--sapShell_InteractiveBackground: #eff1f2;--sapShell_InteractiveTextColor: #1d2d3e;--sapShell_InteractiveBorderColor: #556b81;--sapShell_GroupTitleTextColor: #1d2d3e;--sapShell_GroupTitleTextShadow: 0 0 .125rem #fff;--sapShell_Hover_Background: #fff;--sapShell_Active_Background: #fff;--sapShell_Active_TextColor: #0070f2;--sapShell_Selected_Background: #fff;--sapShell_Selected_TextColor: #0070f2;--sapShell_Selected_Hover_Background: #fff;--sapShell_Favicon: none;--sapShell_Navigation_Background: #fff;--sapShell_Navigation_Hover_Background: #fff;--sapShell_Navigation_SelectedColor: #0064d9;--sapShell_Navigation_Selected_TextColor: #0064d9;--sapShell_Navigation_TextColor: #1d2d3e;--sapShell_Navigation_Active_TextColor: #0064d9;--sapShell_Navigation_Active_Background: #fff;--sapShell_Shadow: 0 .125rem .125rem 0 rgba(34,53,72,.15), inset 0 -.0625rem 0 0 rgba(34,53,72,.2);--sapShell_NegativeColor: #aa0808;--sapShell_CriticalColor: #b44f00;--sapShell_PositiveColor: #256f3a;--sapShell_InformativeColor: #0064d9;--sapShell_NeutralColor: #1d2d3e;--sapShell_Assistant_ForegroundColor: #5d36ff;--sapShell_Category_1_Background: #0057d2;--sapShell_Category_1_BorderColor: #0057d2;--sapShell_Category_1_TextColor: #fff;--sapShell_Category_1_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_2_Background: #df1278;--sapShell_Category_2_BorderColor: #df1278;--sapShell_Category_2_TextColor: #fff;--sapShell_Category_2_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_3_Background: #e76500;--sapShell_Category_3_BorderColor: #e76500;--sapShell_Category_3_TextColor: #fff;--sapShell_Category_3_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_4_Background: #7800a4;--sapShell_Category_4_BorderColor: #7800a4;--sapShell_Category_4_TextColor: #fff;--sapShell_Category_4_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_5_Background: #aa2608;--sapShell_Category_5_BorderColor: #aa2608;--sapShell_Category_5_TextColor: #fff;--sapShell_Category_5_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_6_Background: #07838f;--sapShell_Category_6_BorderColor: #07838f;--sapShell_Category_6_TextColor: #fff;--sapShell_Category_6_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_7_Background: #f31ded;--sapShell_Category_7_BorderColor: #f31ded;--sapShell_Category_7_TextColor: #fff;--sapShell_Category_7_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_8_Background: #188918;--sapShell_Category_8_BorderColor: #188918;--sapShell_Category_8_TextColor: #fff;--sapShell_Category_8_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_9_Background: #002a86;--sapShell_Category_9_BorderColor: #002a86;--sapShell_Category_9_TextColor: #fff;--sapShell_Category_9_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_10_Background: #5b738b;--sapShell_Category_10_BorderColor: #5b738b;--sapShell_Category_10_TextColor: #fff;--sapShell_Category_10_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_11_Background: #d20a0a;--sapShell_Category_11_BorderColor: #d20a0a;--sapShell_Category_11_TextColor: #fff;--sapShell_Category_11_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_12_Background: #7858ff;--sapShell_Category_12_BorderColor: #7858ff;--sapShell_Category_12_TextColor: #fff;--sapShell_Category_12_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_13_Background: #a00875;--sapShell_Category_13_BorderColor: #a00875;--sapShell_Category_13_TextColor: #fff;--sapShell_Category_13_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_14_Background: #14565b;--sapShell_Category_14_BorderColor: #14565b;--sapShell_Category_14_TextColor: #fff;--sapShell_Category_14_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_15_Background: #223548;--sapShell_Category_15_BorderColor: #223548;--sapShell_Category_15_TextColor: #fff;--sapShell_Category_15_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapShell_Category_16_Background: #1e592f;--sapShell_Category_16_BorderColor: #1e592f;--sapShell_Category_16_TextColor: #fff;--sapShell_Category_16_TextShadow: 0 0 .0625rem rgba(0,0,0,.7);--sapAssistant_Color1: #5d36ff;--sapAssistant_Color2: #a100c2;--sapAssistant_BackgroundGradient: linear-gradient(#5d36ff, #a100c2);--sapAssistant_Background: #5d36ff;--sapAssistant_BorderColor: #5d36ff;--sapAssistant_TextColor: #fff;--sapAssistant_Hover_Background: #2800cf;--sapAssistant_Hover_BorderColor: #2800cf;--sapAssistant_Hover_TextColor: #fff;--sapAssistant_Active_Background: #fff;--sapAssistant_Active_BorderColor: #5d36ff;--sapAssistant_Active_TextColor: #5d36ff;--sapAssistant_Question_Background: #eae5ff;--sapAssistant_Question_BorderColor: #eae5ff;--sapAssistant_Question_TextColor: #1d2d3e;--sapAssistant_Answer_Background: #eff1f2;--sapAssistant_Answer_BorderColor: #eff1f2;--sapAssistant_Answer_TextColor: #1d2d3e;--sapAvatar_1_Background: #fff3b8;--sapAvatar_1_BorderColor: #fff3b8;--sapAvatar_1_TextColor: #a45d00;--sapAvatar_2_Background: #ffd0e7;--sapAvatar_2_BorderColor: #ffd0e7;--sapAvatar_2_TextColor: #aa0808;--sapAvatar_3_Background: #ffdbe7;--sapAvatar_3_BorderColor: #ffdbe7;--sapAvatar_3_TextColor: #ba066c;--sapAvatar_4_Background: #ffdcf3;--sapAvatar_4_BorderColor: #ffdcf3;--sapAvatar_4_TextColor: #a100c2;--sapAvatar_5_Background: #ded3ff;--sapAvatar_5_BorderColor: #ded3ff;--sapAvatar_5_TextColor: #552cff;--sapAvatar_6_Background: #d1efff;--sapAvatar_6_BorderColor: #d1efff;--sapAvatar_6_TextColor: #0057d2;--sapAvatar_7_Background: #c2fcee;--sapAvatar_7_BorderColor: #c2fcee;--sapAvatar_7_TextColor: #046c7a;--sapAvatar_8_Background: #ebf5cb;--sapAvatar_8_BorderColor: #ebf5cb;--sapAvatar_8_TextColor: #256f3a;--sapAvatar_9_Background: #ddccf0;--sapAvatar_9_BorderColor: #ddccf0;--sapAvatar_9_TextColor: #6c32a9;--sapAvatar_10_Background: #eaecee;--sapAvatar_10_BorderColor: #eaecee;--sapAvatar_10_TextColor: #556b82;--sapButton_Background: #fff;--sapButton_BorderColor: #bcc3ca;--sapButton_BorderWidth: .0625rem;--sapButton_BorderCornerRadius: .5rem;--sapButton_TextColor: #0064d9;--sapButton_Hover_Background: #eaecee;--sapButton_Hover_BorderColor: #bcc3ca;--sapButton_Hover_TextColor: #0064d9;--sapButton_IconColor: #0064d9;--sapButton_Active_Background: #fff;--sapButton_Active_BorderColor: #0064d9;--sapButton_Active_TextColor: #0064d9;--sapButton_Emphasized_Background: #0070f2;--sapButton_Emphasized_BorderColor: #0070f2;--sapButton_Emphasized_TextColor: #fff;--sapButton_Emphasized_Hover_Background: #0064d9;--sapButton_Emphasized_Hover_BorderColor: #0064d9;--sapButton_Emphasized_Hover_TextColor: #fff;--sapButton_Emphasized_Active_Background: #fff;--sapButton_Emphasized_Active_BorderColor: #0064d9;--sapButton_Emphasized_Active_TextColor: #0064d9;--sapButton_Emphasized_TextShadow: transparent;--sapButton_Emphasized_FontWeight: bold;--sapButton_Reject_Background: #ffd6e9;--sapButton_Reject_BorderColor: #ffc2de;--sapButton_Reject_TextColor: #aa0808;--sapButton_Reject_Hover_Background: #ffbddb;--sapButton_Reject_Hover_BorderColor: #ffbddb;--sapButton_Reject_Hover_TextColor: #aa0808;--sapButton_Reject_Active_Background: #fff;--sapButton_Reject_Active_BorderColor: #e90b0b;--sapButton_Reject_Active_TextColor: #aa0808;--sapButton_Reject_Selected_Background: #fff;--sapButton_Reject_Selected_BorderColor: #e90b0b;--sapButton_Reject_Selected_TextColor: #aa0808;--sapButton_Reject_Selected_Hover_Background: #ffbddb;--sapButton_Reject_Selected_Hover_BorderColor: #e90b0b;--sapButton_Accept_Background: #ebf5cb;--sapButton_Accept_BorderColor: #dbeda0;--sapButton_Accept_TextColor: #256f3a;--sapButton_Accept_Hover_Background: #e3f1b6;--sapButton_Accept_Hover_BorderColor: #e3f1b6;--sapButton_Accept_Hover_TextColor: #256f3a;--sapButton_Accept_Active_Background: #fff;--sapButton_Accept_Active_BorderColor: #30914c;--sapButton_Accept_Active_TextColor: #256f3a;--sapButton_Accept_Selected_Background: #fff;--sapButton_Accept_Selected_BorderColor: #30914c;--sapButton_Accept_Selected_TextColor: #256f3a;--sapButton_Accept_Selected_Hover_Background: #e3f1b6;--sapButton_Accept_Selected_Hover_BorderColor: #30914c;--sapButton_Lite_Background: transparent;--sapButton_Lite_BorderColor: transparent;--sapButton_Lite_TextColor: #0064d9;--sapButton_Lite_Hover_Background: #eaecee;--sapButton_Lite_Hover_BorderColor: #bcc3ca;--sapButton_Lite_Hover_TextColor: #0064d9;--sapButton_Lite_Active_Background: #fff;--sapButton_Lite_Active_BorderColor: #0064d9;--sapButton_Selected_Background: #edf6ff;--sapButton_Selected_BorderColor: #0064d9;--sapButton_Selected_TextColor: #0064d9;--sapButton_Selected_Hover_Background: #d9ecff;--sapButton_Selected_Hover_BorderColor: #0064d9;--sapButton_Attention_Background: #fff3b7;--sapButton_Attention_BorderColor: #ffeb84;--sapButton_Attention_TextColor: #b44f00;--sapButton_Attention_Hover_Background: #ffef9e;--sapButton_Attention_Hover_BorderColor: #ffef9e;--sapButton_Attention_Hover_TextColor: #b44f00;--sapButton_Attention_Active_Background: #fff;--sapButton_Attention_Active_BorderColor: #dd6100;--sapButton_Attention_Active_TextColor: #b44f00;--sapButton_Attention_Selected_Background: #fff;--sapButton_Attention_Selected_BorderColor: #dd6100;--sapButton_Attention_Selected_TextColor: #b44f00;--sapButton_Attention_Selected_Hover_Background: #ffef9e;--sapButton_Attention_Selected_Hover_BorderColor: #dd6100;--sapButton_Negative_Background: #f53232;--sapButton_Negative_BorderColor: #f53232;--sapButton_Negative_TextColor: #fff;--sapButton_Negative_Hover_Background: #e90b0b;--sapButton_Negative_Hover_BorderColor: #e90b0b;--sapButton_Negative_Hover_TextColor: #fff;--sapButton_Negative_Active_Background: #fff;--sapButton_Negative_Active_BorderColor: #f53232;--sapButton_Negative_Active_TextColor: #aa0808;--sapButton_Critical_Background: #e76500;--sapButton_Critical_BorderColor: #e76500;--sapButton_Critical_TextColor: #fff;--sapButton_Critical_Hover_Background: #dd6100;--sapButton_Critical_Hover_BorderColor: #dd6100;--sapButton_Critical_Hover_TextColor: #fff;--sapButton_Critical_Active_Background: #fff;--sapButton_Critical_Active_BorderColor: #dd6100;--sapButton_Critical_Active_TextColor: #b44f00;--sapButton_Success_Background: #30914c;--sapButton_Success_BorderColor: #30914c;--sapButton_Success_TextColor: #fff;--sapButton_Success_Hover_Background: #2c8646;--sapButton_Success_Hover_BorderColor: #2c8646;--sapButton_Success_Hover_TextColor: #fff;--sapButton_Success_Active_Background: #fff;--sapButton_Success_Active_BorderColor: #30914c;--sapButton_Success_Active_TextColor: #256f3a;--sapButton_Information_Background: #e8f3ff;--sapButton_Information_BorderColor: #b5d8ff;--sapButton_Information_TextColor: #0064d9;--sapButton_Information_Hover_Background: #d4e8ff;--sapButton_Information_Hover_BorderColor: #b5d8ff;--sapButton_Information_Hover_TextColor: #0064d9;--sapButton_Information_Active_Background: #fff;--sapButton_Information_Active_BorderColor: #0064d9;--sapButton_Information_Active_TextColor: #0064d9;--sapButton_Neutral_Background: #e8f3ff;--sapButton_Neutral_BorderColor: #b5d8ff;--sapButton_Neutral_TextColor: #0064d9;--sapButton_Neutral_Hover_Background: #d4e8ff;--sapButton_Neutral_Hover_BorderColor: #b5d8ff;--sapButton_Neutral_Hover_TextColor: #0064d9;--sapButton_Neutral_Active_Background: #fff;--sapButton_Neutral_Active_BorderColor: #0064d9;--sapButton_Neutral_Active_TextColor: #0064d9;--sapButton_Track_Background: #788fa6;--sapButton_Track_BorderColor: #788fa6;--sapButton_Track_TextColor: #fff;--sapButton_Track_Hover_Background: #637d97;--sapButton_Track_Hover_BorderColor: #637d97;--sapButton_Track_Selected_Background: #0064d9;--sapButton_Track_Selected_BorderColor: #0064d9;--sapButton_Track_Selected_TextColor: #fff;--sapButton_Track_Selected_Hover_Background: #0058c0;--sapButton_Track_Selected_Hover_BorderColor: #0058c0;--sapButton_Handle_Background: #fff;--sapButton_Handle_BorderColor: #fff;--sapButton_Handle_TextColor: #1d2d3e;--sapButton_Handle_Hover_Background: #fff;--sapButton_Handle_Hover_BorderColor: rgba(255,255,255,.5);--sapButton_Handle_Selected_Background: #edf6ff;--sapButton_Handle_Selected_BorderColor: #edf6ff;--sapButton_Handle_Selected_TextColor: #0064d9;--sapButton_Handle_Selected_Hover_Background: #edf6ff;--sapButton_Handle_Selected_Hover_BorderColor: rgba(237,246,255,.5);--sapButton_Track_Negative_Background: #f53232;--sapButton_Track_Negative_BorderColor: #f53232;--sapButton_Track_Negative_TextColor: #fff;--sapButton_Track_Negative_Hover_Background: #e90b0b;--sapButton_Track_Negative_Hover_BorderColor: #e90b0b;--sapButton_Handle_Negative_Background: #fff;--sapButton_Handle_Negative_BorderColor: #fff;--sapButton_Handle_Negative_TextColor: #aa0808;--sapButton_Handle_Negative_Hover_Background: #fff;--sapButton_Handle_Negative_Hover_BorderColor: rgba(255,255,255,.5);--sapButton_Track_Positive_Background: #30914c;--sapButton_Track_Positive_BorderColor: #30914c;--sapButton_Track_Positive_TextColor: #fff;--sapButton_Track_Positive_Hover_Background: #2c8646;--sapButton_Track_Positive_Hover_BorderColor: #2c8646;--sapButton_Handle_Positive_Background: #fff;--sapButton_Handle_Positive_BorderColor: #fff;--sapButton_Handle_Positive_TextColor: #256f3a;--sapButton_Handle_Positive_Hover_Background: #fff;--sapButton_Handle_Positive_Hover_BorderColor: rgba(255,255,255,.5);--sapButton_TokenBackground: #fff;--sapButton_TokenBorderColor: #bcc3ca;--sapField_Background: #fff;--sapField_BackgroundStyle: 0 100% / 100% .0625rem no-repeat linear-gradient(0deg, #556b81, #556b81) border-box;--sapField_TextColor: #131e29;--sapField_PlaceholderTextColor: #556b82;--sapField_BorderColor: #556b81;--sapField_HelpBackground: #fff;--sapField_BorderWidth: .0625rem;--sapField_BorderStyle: none;--sapField_BorderCornerRadius: .25rem;--sapField_Shadow: inset 0 0 0 .0625rem rgba(85,107,129,.25);--sapField_Hover_Background: #fff;--sapField_Hover_BackgroundStyle: 0 100% / 100% .0625rem no-repeat linear-gradient(0deg, #0064d9, #0064d9) border-box;--sapField_Hover_BorderColor: #0064d9;--sapField_Hover_HelpBackground: #fff;--sapField_Hover_Shadow: inset 0 0 0 .0625rem rgba(79,160,255,.5);--sapField_Hover_InvalidShadow: inset 0 0 0 .0625rem rgba(255,142,196,.45);--sapField_Hover_WarningShadow: inset 0 0 0 .0625rem rgba(255,213,10,.4);--sapField_Hover_SuccessShadow: inset 0 0 0 .0625rem rgba(48,145,76,.18);--sapField_Hover_InformationShadow: inset 0 0 0 .0625rem rgba(104,174,255,.5);--sapField_Active_BorderColor: #0064d9;--sapField_Focus_Background: #fff;--sapField_Focus_BorderColor: #0032a5;--sapField_Focus_HelpBackground: #fff;--sapField_ReadOnly_Background: #eaecee;--sapField_ReadOnly_BackgroundStyle: 0 100% / .375rem .0625rem repeat-x linear-gradient(90deg, #556b81 0, #556b81 .25rem, transparent .25rem) border-box;--sapField_ReadOnly_BorderColor: #556b81;--sapField_ReadOnly_BorderStyle: none;--sapField_ReadOnly_HelpBackground: #eaecee;--sapField_RequiredColor: #ba066c;--sapField_InvalidColor: #e90b0b;--sapField_InvalidBackground: #ffeaf4;--sapField_InvalidBackgroundStyle: 0 100% / 100% .125rem no-repeat linear-gradient(0deg, #e90b0b, #e90b0b) border-box;--sapField_InvalidBorderWidth: .125rem;--sapField_InvalidBorderStyle: none;--sapField_InvalidShadow: inset 0 0 0 .0625rem rgba(255,142,196,.45);--sapField_WarningColor: #dd6100;--sapField_WarningBackground: #fff8d6;--sapField_WarningBackgroundStyle: 0 100% / 100% .125rem no-repeat linear-gradient(0deg, #dd6100, #dd6100) border-box;--sapField_WarningBorderWidth: .125rem;--sapField_WarningBorderStyle: none;--sapField_WarningShadow: inset 0 0 0 .0625rem rgba(255,213,10,.4);--sapField_SuccessColor: #30914c;--sapField_SuccessBackground: #f5fae5;--sapField_SuccessBackgroundStyle: 0 100% / 100% .0625rem no-repeat linear-gradient(0deg, #30914c, #30914c) border-box;--sapField_SuccessBorderWidth: .0625rem;--sapField_SuccessBorderStyle: none;--sapField_SuccessShadow: inset 0 0 0 .0625rem rgba(48,145,76,.18);--sapField_InformationColor: #0070f2;--sapField_InformationBackground: #e1f4ff;--sapField_InformationBackgroundStyle: 0 100% / 100% .125rem no-repeat linear-gradient(0deg, #0070f2, #0070f2) border-box;--sapField_InformationBorderWidth: .125rem;--sapField_InformationBorderStyle: none;--sapField_InformationShadow: inset 0 0 0 .0625rem rgba(104,174,255,.5);--sapGroup_TitleBackground: #fff;--sapGroup_TitleBorderColor: #a8b2bd;--sapGroup_TitleTextColor: #1d2d3e;--sapGroup_Title_FontSize: 1rem;--sapGroup_ContentBackground: #fff;--sapGroup_ContentBorderColor: #d9d9d9;--sapGroup_BorderWidth: .0625rem;--sapGroup_BorderCornerRadius: .5rem;--sapGroup_FooterBackground: transparent;--sapToolbar_Background: #fff;--sapToolbar_SeparatorColor: #d9d9d9;--sapList_HeaderBackground: #fff;--sapList_HeaderBorderColor: #a8b2bd;--sapList_HeaderTextColor: #1d2d3e;--sapList_BorderColor: #e5e5e5;--sapList_BorderWidth: .0625rem;--sapList_TextColor: #1d2d3e;--sapList_Active_TextColor: #1d2d3e;--sapList_Active_Background: #dee2e5;--sapList_SelectionBackgroundColor: #ebf8ff;--sapList_SelectionBorderColor: #0064d9;--sapList_Hover_SelectionBackground: #dcf3ff;--sapList_Background: #fff;--sapList_Hover_Background: #eaecee;--sapList_AlternatingBackground: #f5f6f7;--sapList_GroupHeaderBackground: #fff;--sapList_GroupHeaderBorderColor: #a8b2bd;--sapList_GroupHeaderTextColor: #1d2d3e;--sapList_TableGroupHeaderBackground: #eff1f2;--sapList_TableGroupHeaderBorderColor: #a8b2bd;--sapList_TableGroupHeaderTextColor: #1d2d3e;--sapList_FooterBackground: #fff;--sapList_FooterTextColor: #1d2d3e;--sapList_TableFooterBorder: #a8b2bd;--sapList_TableFixedBorderColor: #8c8c8c;--sapMessage_ErrorBorderColor: #ff8ec4;--sapMessage_WarningBorderColor: #ffe770;--sapMessage_SuccessBorderColor: #cee67e;--sapMessage_InformationBorderColor: #7bcfff;--sapPopover_BorderCornerRadius: .5rem;--sapProgress_Background: #d5dadd;--sapProgress_BorderColor: #d5dadd;--sapProgress_TextColor: #1d2d3e;--sapProgress_FontSize: .875rem;--sapProgress_NegativeBackground: #ffdbec;--sapProgress_NegativeBorderColor: #ffdbec;--sapProgress_NegativeTextColor: #1d2d3e;--sapProgress_CriticalBackground: #fff4bd;--sapProgress_CriticalBorderColor: #fff4bd;--sapProgress_CriticalTextColor: #1d2d3e;--sapProgress_PositiveBackground: #e5f2ba;--sapProgress_PositiveBorderColor: #e5f2ba;--sapProgress_PositiveTextColor: #1d2d3e;--sapProgress_InformationBackground: #cdedff;--sapProgress_InformationBorderColor: #cdedff;--sapProgress_InformationTextColor: #1d2d3e;--sapProgress_Value_Background: #617b94;--sapProgress_Value_BorderColor: #617b94;--sapProgress_Value_TextColor: #788fa6;--sapProgress_Value_NegativeBackground: #f53232;--sapProgress_Value_NegativeBorderColor: #f53232;--sapProgress_Value_NegativeTextColor: #f53232;--sapProgress_Value_CriticalBackground: #e76500;--sapProgress_Value_CriticalBorderColor: #e76500;--sapProgress_Value_CriticalTextColor: #e76500;--sapProgress_Value_PositiveBackground: #30914c;--sapProgress_Value_PositiveBorderColor: #30914c;--sapProgress_Value_PositiveTextColor: #30914c;--sapProgress_Value_InformationBackground: #0070f2;--sapProgress_Value_InformationBorderColor: #0070f2;--sapProgress_Value_InformationTextColor: #0070f2;--sapScrollBar_FaceColor: #7b91a8;--sapScrollBar_TrackColor: #fff;--sapScrollBar_BorderColor: #7b91a8;--sapScrollBar_SymbolColor: #0064d9;--sapScrollBar_Dimension: .75rem;--sapScrollBar_Hover_FaceColor: #5b728b;--sapSlider_Background: #d5dadd;--sapSlider_BorderColor: #d5dadd;--sapSlider_Selected_Background: #0064d9;--sapSlider_Selected_BorderColor: #0064d9;--sapSlider_HandleBackground: #fff;--sapSlider_HandleBorderColor: #b0d5ff;--sapSlider_RangeHandleBackground: #fff;--sapSlider_Hover_HandleBackground: #d9ecff;--sapSlider_Hover_HandleBorderColor: #b0d5ff;--sapSlider_Hover_RangeHandleBackground: #d9ecff;--sapSlider_Active_HandleBackground: #fff;--sapSlider_Active_HandleBorderColor: #0064d9;--sapSlider_Active_RangeHandleBackground: transparent;--sapPageHeader_Background: #fff;--sapPageHeader_BorderColor: #d9d9d9;--sapPageHeader_TextColor: #1d2d3e;--sapPageFooter_Background: #fff;--sapPageFooter_BorderColor: #d9d9d9;--sapPageFooter_TextColor: #1d2d3e;--sapInfobar_Background: #c2fcee;--sapInfobar_Hover_Background: #fff;--sapInfobar_Active_Background: #fff;--sapInfobar_NonInteractive_Background: #f5f6f7;--sapInfobar_TextColor: #046c7a;--sapObjectHeader_Background: #fff;--sapObjectHeader_Hover_Background: #eaecee;--sapObjectHeader_BorderColor: #d9d9d9;--sapObjectHeader_Title_TextColor: #1d2d3e;--sapObjectHeader_Title_FontSize: 1.5rem;--sapObjectHeader_Title_SnappedFontSize: 1.25rem;--sapObjectHeader_Title_FontFamily: "72Black", "72Blackfull","72", "72full", Arial, Helvetica, sans-serif;--sapObjectHeader_Subtitle_TextColor: #556b82;--sapBlockLayer_Background: #000;--sapTile_Background: #fff;--sapTile_Hover_Background: #eaecee;--sapTile_Active_Background: #dee2e5;--sapTile_BorderColor: transparent;--sapTile_BorderCornerRadius: 1rem;--sapTile_TitleTextColor: #1d2d3e;--sapTile_TextColor: #556b82;--sapTile_IconColor: #556b82;--sapTile_SeparatorColor: #ccc;--sapTile_Interactive_BorderColor: #b3b3b3;--sapTile_OverlayBackground: #fff;--sapTile_OverlayForegroundColor: #1d2d3e;--sapAccentColor1: #d27700;--sapAccentColor2: #aa0808;--sapAccentColor3: #ba066c;--sapAccentColor4: #a100c2;--sapAccentColor5: #5d36ff;--sapAccentColor6: #0057d2;--sapAccentColor7: #046c7a;--sapAccentColor8: #256f3a;--sapAccentColor9: #6c32a9;--sapAccentColor10: #5b738b;--sapAccentBackgroundColor1: #fff3b8;--sapAccentBackgroundColor2: #ffd0e7;--sapAccentBackgroundColor3: #ffdbe7;--sapAccentBackgroundColor4: #ffdcf3;--sapAccentBackgroundColor5: #ded3ff;--sapAccentBackgroundColor6: #d1efff;--sapAccentBackgroundColor7: #c2fcee;--sapAccentBackgroundColor8: #ebf5cb;--sapAccentBackgroundColor9: #ddccf0;--sapAccentBackgroundColor10: #eaecee;--sapIndicationColor_1: #840606;--sapIndicationColor_1_Background: #840606;--sapIndicationColor_1_BorderColor: #840606;--sapIndicationColor_1_TextColor: #fff;--sapIndicationColor_1_Hover_Background: #6c0505;--sapIndicationColor_1_Active_Background: #fff;--sapIndicationColor_1_Active_BorderColor: #fb9d9d;--sapIndicationColor_1_Active_TextColor: #840606;--sapIndicationColor_1_Selected_Background: #fff;--sapIndicationColor_1_Selected_BorderColor: #fb9d9d;--sapIndicationColor_1_Selected_TextColor: #840606;--sapIndicationColor_1b: #fb9d9d;--sapIndicationColor_1b_BorderColor: #fb9d9d;--sapIndicationColor_1b_Hover_Background: #fa8585;--sapIndicationColor_2: #aa0808;--sapIndicationColor_2_Background: #aa0808;--sapIndicationColor_2_BorderColor: #aa0808;--sapIndicationColor_2_TextColor: #fff;--sapIndicationColor_2_Hover_Background: #920707;--sapIndicationColor_2_Active_Background: #fff;--sapIndicationColor_2_Active_BorderColor: #fcc4c4;--sapIndicationColor_2_Active_TextColor: #aa0808;--sapIndicationColor_2_Selected_Background: #fff;--sapIndicationColor_2_Selected_BorderColor: #fcc4c4;--sapIndicationColor_2_Selected_TextColor: #aa0808;--sapIndicationColor_2b: #fcc4c4;--sapIndicationColor_2b_BorderColor: #fcc4c4;--sapIndicationColor_2b_Hover_Background: #fbacac;--sapIndicationColor_3: #b95100;--sapIndicationColor_3_Background: #e76500;--sapIndicationColor_3_BorderColor: #e76500;--sapIndicationColor_3_TextColor: #fff;--sapIndicationColor_3_Hover_Background: #d85e00;--sapIndicationColor_3_Active_Background: #fff;--sapIndicationColor_3_Active_BorderColor: #fff2c0;--sapIndicationColor_3_Active_TextColor: #b95100;--sapIndicationColor_3_Selected_Background: #fff;--sapIndicationColor_3_Selected_BorderColor: #fff2c0;--sapIndicationColor_3_Selected_TextColor: #b95100;--sapIndicationColor_3b: #fff2c0;--sapIndicationColor_3b_BorderColor: #fff2c0;--sapIndicationColor_3b_Hover_Background: #ffeda6;--sapIndicationColor_4: #256f3a;--sapIndicationColor_4_Background: #256f3a;--sapIndicationColor_4_BorderColor: #256f3a;--sapIndicationColor_4_TextColor: #fff;--sapIndicationColor_4_Hover_Background: #1f5c30;--sapIndicationColor_4_Active_Background: #fff;--sapIndicationColor_4_Active_BorderColor: #bae8bc;--sapIndicationColor_4_Active_TextColor: #256f3a;--sapIndicationColor_4_Selected_Background: #fff;--sapIndicationColor_4_Selected_BorderColor: #bae8bc;--sapIndicationColor_4_Selected_TextColor: #256f3a;--sapIndicationColor_4b: #bae8bc;--sapIndicationColor_4b_BorderColor: #bae8bc;--sapIndicationColor_4b_Hover_Background: #a7e2a9;--sapIndicationColor_5: #0070f2;--sapIndicationColor_5_Background: #0070f2;--sapIndicationColor_5_BorderColor: #0070f2;--sapIndicationColor_5_TextColor: #fff;--sapIndicationColor_5_Hover_Background: #0064d9;--sapIndicationColor_5_Active_Background: #fff;--sapIndicationColor_5_Active_BorderColor: #d3effd;--sapIndicationColor_5_Active_TextColor: #0070f2;--sapIndicationColor_5_Selected_Background: #fff;--sapIndicationColor_5_Selected_BorderColor: #d3effd;--sapIndicationColor_5_Selected_TextColor: #0070f2;--sapIndicationColor_5b: #d3effd;--sapIndicationColor_5b_BorderColor: #d3effd;--sapIndicationColor_5b_Hover_Background: #bbe6fc;--sapIndicationColor_6: #046c7a;--sapIndicationColor_6_Background: #046c7a;--sapIndicationColor_6_BorderColor: #046c7a;--sapIndicationColor_6_TextColor: #fff;--sapIndicationColor_6_Hover_Background: #035661;--sapIndicationColor_6_Active_Background: #fff;--sapIndicationColor_6_Active_BorderColor: #cdf5ec;--sapIndicationColor_6_Active_TextColor: #046c7a;--sapIndicationColor_6_Selected_Background: #fff;--sapIndicationColor_6_Selected_BorderColor: #cdf5ec;--sapIndicationColor_6_Selected_TextColor: #046c7a;--sapIndicationColor_6b: #cdf5ec;--sapIndicationColor_6b_BorderColor: #cdf5ec;--sapIndicationColor_6b_Hover_Background: #b8f1e4;--sapIndicationColor_7: #5d36ff;--sapIndicationColor_7_Background: #5d36ff;--sapIndicationColor_7_BorderColor: #5d36ff;--sapIndicationColor_7_TextColor: #fff;--sapIndicationColor_7_Hover_Background: #481cff;--sapIndicationColor_7_Active_Background: #fff;--sapIndicationColor_7_Active_BorderColor: #e2dbff;--sapIndicationColor_7_Active_TextColor: #5d36ff;--sapIndicationColor_7_Selected_Background: #fff;--sapIndicationColor_7_Selected_BorderColor: #e2dbff;--sapIndicationColor_7_Selected_TextColor: #5d36ff;--sapIndicationColor_7b: #e2dbff;--sapIndicationColor_7b_BorderColor: #e2dbff;--sapIndicationColor_7b_Hover_Background: #cdc2ff;--sapIndicationColor_8: #a100c2;--sapIndicationColor_8_Background: #a100c2;--sapIndicationColor_8_BorderColor: #a100c2;--sapIndicationColor_8_TextColor: #fff;--sapIndicationColor_8_Hover_Background: #8c00a9;--sapIndicationColor_8_Active_Background: #fff;--sapIndicationColor_8_Active_BorderColor: #f8d6ff;--sapIndicationColor_8_Active_TextColor: #a100c2;--sapIndicationColor_8_Selected_Background: #fff;--sapIndicationColor_8_Selected_BorderColor: #f8d6ff;--sapIndicationColor_8_Selected_TextColor: #a100c2;--sapIndicationColor_8b: #f8d6ff;--sapIndicationColor_8b_BorderColor: #f8d6ff;--sapIndicationColor_8b_Hover_Background: #f4bdff;--sapIndicationColor_9: #1d2d3e;--sapIndicationColor_9_Background: #1d2d3e;--sapIndicationColor_9_BorderColor: #1d2d3e;--sapIndicationColor_9_TextColor: #fff;--sapIndicationColor_9_Hover_Background: #15202d;--sapIndicationColor_9_Active_Background: #fff;--sapIndicationColor_9_Active_BorderColor: #d9d9d9;--sapIndicationColor_9_Active_TextColor: #1d2d3e;--sapIndicationColor_9_Selected_Background: #fff;--sapIndicationColor_9_Selected_BorderColor: #d9d9d9;--sapIndicationColor_9_Selected_TextColor: #1d2d3e;--sapIndicationColor_9b: #fff;--sapIndicationColor_9b_BorderColor: #d9d9d9;--sapIndicationColor_9b_Hover_Background: #f2f2f2;--sapIndicationColor_10: #45484a;--sapIndicationColor_10_Background: #83888b;--sapIndicationColor_10_BorderColor: #83888b;--sapIndicationColor_10_TextColor: #fff;--sapIndicationColor_10_Hover_Background: #767b7e;--sapIndicationColor_10_Active_Background: #fff;--sapIndicationColor_10_Active_BorderColor: #eaecee;--sapIndicationColor_10_Active_TextColor: #45484a;--sapIndicationColor_10_Selected_Background: #fff;--sapIndicationColor_10_Selected_BorderColor: #eaecee;--sapIndicationColor_10_Selected_TextColor: #45484a;--sapIndicationColor_10b: #eaecee;--sapIndicationColor_10b_BorderColor: #eaecee;--sapIndicationColor_10b_Hover_Background: #dcdfe3;--sapLegend_WorkingBackground: #fff;--sapLegend_NonWorkingBackground: #ebebeb;--sapLegend_CurrentDateTime: #a100c2;--sapLegendColor1: #c35500;--sapLegendColor2: #d23a0a;--sapLegendColor3: #df1278;--sapLegendColor4: #840606;--sapLegendColor5: #cc00dc;--sapLegendColor6: #0057d2;--sapLegendColor7: #07838f;--sapLegendColor8: #188918;--sapLegendColor9: #5b738b;--sapLegendColor10: #7800a4;--sapLegendColor11: #a93e00;--sapLegendColor12: #aa2608;--sapLegendColor13: #ba066c;--sapLegendColor14: #8d2a00;--sapLegendColor15: #4e247a;--sapLegendColor16: #002a86;--sapLegendColor17: #035663;--sapLegendColor18: #1e592f;--sapLegendColor19: #1a4796;--sapLegendColor20: #470ced;--sapLegendBackgroundColor1: #ffef9f;--sapLegendBackgroundColor2: #feeae1;--sapLegendBackgroundColor3: #fbf6f8;--sapLegendBackgroundColor4: #fbebeb;--sapLegendBackgroundColor5: #ffe5fe;--sapLegendBackgroundColor6: #d1efff;--sapLegendBackgroundColor7: #c2fcee;--sapLegendBackgroundColor8: #f5fae5;--sapLegendBackgroundColor9: #f5f6f7;--sapLegendBackgroundColor10: #fff0fa;--sapLegendBackgroundColor11: #fff8d6;--sapLegendBackgroundColor12: #fff6f6;--sapLegendBackgroundColor13: #f7ebef;--sapLegendBackgroundColor14: #f1ecd5;--sapLegendBackgroundColor15: #f0e7f8;--sapLegendBackgroundColor16: #ebf8ff;--sapLegendBackgroundColor17: #dafdf5;--sapLegendBackgroundColor18: #ebf5cb;--sapLegendBackgroundColor19: #fafdff;--sapLegendBackgroundColor20: #eceeff;--sapChart_OrderedColor_1: #0070f2;--sapChart_OrderedColor_2: #c87b00;--sapChart_OrderedColor_3: #75980b;--sapChart_OrderedColor_4: #df1278;--sapChart_OrderedColor_5: #8b47d7;--sapChart_OrderedColor_6: #049f9a;--sapChart_OrderedColor_7: #3c8cdd;--sapChart_OrderedColor_8: #cc00dc;--sapChart_OrderedColor_9: #798c77;--sapChart_OrderedColor_10: #da6c6c;--sapChart_OrderedColor_11: #5d36ff;--sapChart_Bad: #f53232;--sapChart_Critical: #e76500;--sapChart_Good: #30914c;--sapChart_Neutral: #788fa6;--sapChart_Sequence_1: #0070f2;--sapChart_Sequence_2: #c87b00;--sapChart_Sequence_3: #75980b;--sapChart_Sequence_4: #df1278;--sapChart_Sequence_5: #8b47d7;--sapChart_Sequence_6: #049f9a;--sapChart_Sequence_7: #3c8cdd;--sapChart_Sequence_8: #cc00dc;--sapChart_Sequence_9: #798c77;--sapChart_Sequence_10: #da6c6c;--sapChart_Sequence_11: #5d36ff;--sapChart_Sequence_Neutral: #788fa6;}
 ` }, ya = { packageName: "@udex/web-components", fileName: "themes/sap_horizon/parameters-bundle.css.ts", content: "" };
 export {
-  Oe as A,
+  Re as A,
   le as B,
   Ba as C,
   ia as D,
   w as E,
   Qe as F,
   L as T,
-  Ne as U,
+  pe as U,
   ya as a,
   ha as b,
   pa as c,
@@ -1995,7 +2002,7 @@ export {
   ht as g,
   sa as h,
   io as i,
-  v as j,
+  S as j,
   W as k,
   ma as l,
   lo as m,
