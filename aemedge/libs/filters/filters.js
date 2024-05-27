@@ -85,6 +85,7 @@ export default class Filters {
     const tagsPanel = this.getTagsPanel();
     const resultsPanel = div({ class: 'results-panel' }, '0 results');
     this.filters.forEach((filter) => {
+      if (filter.items.length === 0) return;
       const filterMenu = new Menu(filter.name, filter.items).render();
       filterPanel.append(filterMenu);
       this.registerHandler(filterMenu, tagsPanel);

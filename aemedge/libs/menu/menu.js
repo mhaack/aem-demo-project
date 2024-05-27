@@ -57,10 +57,12 @@ export default class List {
       loadCSS(`${window.hlx.codeBasePath}/libs/menu/menu.css`);
     }
     const menuItems = this.items.map((item) => this.getListItem(item.label, item.value));
+    let scroll = '';
+    if (menuItems.length > 10) scroll = 'scrollable';
     const menu = menuBuilder(
       { class: 'menu' },
       label({ class: 'title' }, this.name),
-      ul({ class: 'items' }, ...menuItems),
+      ul({ class: `items ${scroll}` }, ...menuItems),
     );
     this.attachHandler(menu);
     return menu;

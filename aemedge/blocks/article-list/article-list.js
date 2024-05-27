@@ -19,17 +19,23 @@ import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import Pages from '../../libs/pages/pages.js';
 
 function getPictureCard(article, placeholders, tags, author) {
-  const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
-  const {
-    image, path, title, priority, cardUrl,
-  } = article;
-  const tagLabel = placeholders[toCamelCase(priority)] || '';
-  const link = cardUrl !== '0' ? cardUrl : path;
-  let info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
-  if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
-    info = article.cardC2A;
+  try {
+    const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
+    const {
+      image, path, title, priority, cardUrl,
+    } = article;
+    const tagLabel = placeholders[toCamelCase(priority)] || '';
+    const link = cardUrl !== '0' ? cardUrl : path;
+    let info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
+    if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
+      info = article.cardC2A;
+    }
+    return new PictureCard(title, link, contentType.label, info, author, image, tagLabel);
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.error('Error creating card', error);
+    return null;
   }
-  return new PictureCard(title, link, contentType.label, info, author, image, tagLabel);
 }
 
 function getPathFilter(entry, tags) {
@@ -52,26 +58,34 @@ function getPathFilter(entry, tags) {
   return true;
 }
 
-function getTagFilter(entry, filterTags) {
-  return filterTags.every((item) => JSON.parse(entry.tags).includes(item));
-}
-
-function getFilter(tags, filterTags) {
-  if (filterTags.length > 0) {
-    return (entry) => getTagFilter(entry, filterTags);
-  }
-  return (entry) => getPathFilter(entry, tags);
-}
-
-async function getArticles(tags, startPage = 1, batchSize = 6) {
-  const nonFilterParams = ['page', 'sort', 'order', 'limit'];
-  const filterTags = [];
-  getParameterMap().forEach((value, key) => {
+function getTagFilter(entry, params) {
+  const nonFilterParams = ['page', 'sort', 'order', 'limit', 'month-year'];
+  let filterTags = [];
+  params.forEach((value, key) => {
     if (!nonFilterParams.includes(key)) {
       filterTags.push(value);
     }
   });
-  const filter = getFilter(tags, filterTags.flat());
+  filterTags = filterTags.flat();
+  return filterTags.every((item) => JSON.parse(entry.tags).includes(item));
+}
+
+function getDateFilter(entry, params) {
+  const dateRange = params.get('month-year');
+  if (!dateRange) return true;
+  const publicationDate = new Date(entry.publicationDate * 1000);
+  const dateString = `${publicationDate.getUTCFullYear()}/${(publicationDate.getUTCMonth() + 1).toString().padStart(2, '0')}`;
+  return dateRange.find((date) => date === dateString);
+}
+
+function getFilter(tags, params) {
+  if (params.size === 0) return (entry) => getPathFilter(entry, tags);
+  return (entry) => getDateFilter(entry, params) && getTagFilter(entry, params);
+}
+
+async function getArticles(tags, startPage = 1, batchSize = 6) {
+  const params = getParameterMap();
+  const filter = getFilter(tags, params);
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
     .filter(filter)
     .paginate(batchSize, startPage);
@@ -83,7 +97,7 @@ function renderCards(articles, placeholders, tags, authorIndex) {
     const authors = lookupAuthors(article.author, authorIndex);
     const displayAuthor = buildCardDisplayAuthor(authors);
     const card = getPictureCard(article, placeholders, tags, displayAuthor);
-    cardList.append(card.render());
+    if (card) cardList.append(card.render());
   });
   return cardList;
 }
@@ -103,7 +117,7 @@ function registerHandler(block, tags, filters, pages, placeholders, articleStrea
   });
   window.addEventListener('sap:pageChange', (e) => {
     articleStream.next({ direction: e.detail.direction }).then((cursor) => {
-      block.querySelector('.card-items').remove();
+      block.querySelector('.card-items')?.remove();
       const cards = renderCards(cursor.value.results, placeholders, tags, authorIndex);
       block.append(cards);
       pages.updatePages(cursor.value.pages);
@@ -111,13 +125,63 @@ function registerHandler(block, tags, filters, pages, placeholders, articleStrea
   });
 }
 
+function getMonthRange(startDate, endDate) {
+  const start = new Date(startDate);
+  const end = new Date(endDate);
+
+  const months = [];
+  const monthNames = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+
+  while (start <= end) {
+    const month = monthNames[start.getUTCMonth()];
+    months.push({
+      label: `${month} ${start.getUTCFullYear()}`,
+      value: `${start.getUTCFullYear()}/${(start.getUTCMonth() + 1).toString().padStart(2, '0')}`,
+    });
+    start.setUTCMonth(start.getUTCMonth() + 1);
+  }
+
+  return months.reverse();
+}
+
 export default async function decorateBlock(block) {
   const tags = await fetchTagList();
   const filterList = Object.entries(readBlockConfig(block)).map(([key, value]) => {
-    const items = value.split(',').map((item) => {
-      const tag = tags[toCamelCase(item.trim())];
-      return { label: tag.label, value: tag.key };
-    });
+    if (key === 'date-range') {
+      const dates = value.split('to');
+      return { name: 'Month/Year', items: getMonthRange(dates[0].trim(), dates[1].trim()) };
+    }
+    const items = value
+      .split(',')
+      .flatMap((item) => {
+        if (item.endsWith('/*')) {
+          const prefix = toCamelCase(item);
+          const filteredEntries = Object.entries(tags)
+            .filter(([tagKey]) => tagKey.startsWith(prefix))
+            .reduce(
+              // eslint-disable-next-line no-unused-vars
+              (acc, [tagKey, tagValue]) => [...acc, { label: tagValue.label, value: tagValue.key }],
+              [],
+            );
+          return filteredEntries;
+        }
+        const tag = tags[toCamelCase(item.trim())];
+        return tag ? { label: tag.label, value: tag.key } : null;
+      })
+      .filter((item) => item !== null);
     return { name: toTitleCase(key), items };
   });
   block.textContent = '';

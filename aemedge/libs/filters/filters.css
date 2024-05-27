@@ -21,5 +21,6 @@
     display: flex;
     gap: var(--udexSpacer8);
     position: relative;
+    flex-wrap: wrap;
   }
 }

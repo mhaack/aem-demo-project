@@ -44,6 +44,11 @@
     background-color: var(--udexColorNeutralWhite);
     z-index: 100;
 
+    &.scrollable {
+      max-height: 20rem;
+      overflow-y: scroll;
+    }
+
     & li {
       height: var(--udexSpacer32);
       min-width: 16ch;
