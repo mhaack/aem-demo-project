@@ -27,13 +27,15 @@
   ul {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: var(--udexSpacer20);
     list-style-type: none;
     margin-top: var(--udexSpacer24) !important;
     padding: 0 !important;
     width: 100%;
 
     li {
+      width: 100%;
+
       a {
         align-items: center;
         background: var(--udexColorNeutralWhite);
@@ -46,6 +48,7 @@
         margin: 0;
         padding: calc(var(--udexSpacer16) - 1px);
         text-decoration: none;
+        width: 100%;
 
         &:hover,
         &:focus{
@@ -93,7 +96,7 @@
     ul {
       align-items: start;
       flex-flow: row wrap;
-      gap: var(--udexSpacer48);
+      gap: var(--udexSpacer20);
       justify-content: space-between;
 
       li {
