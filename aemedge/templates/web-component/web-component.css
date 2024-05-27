@@ -48,6 +48,14 @@ html:has(.web-component) {
       padding: 0;
     }
 
+    p {
+      font-size: var(--udexTypographyBodySFontSize);
+    }
+
+    :is(h1, h2, h3) + p {
+      margin-block: 0 var(--udexSpacer16);
+    }
+
     /* Picture */
     /* stylelint-disable-next-line */
     p:has(> picture) {
@@ -105,6 +113,16 @@ html:has(.web-component) {
       &[data-position="last"] {
         border: 0 none;
       }
+
+      &:last-child {
+        border: none;
+      }
+
+      /* Remove the border from the second last section */
+      &:nth-last-child(2):has(+ .design-system-toc-container) {
+        border: none;
+        padding-bottom: var(--udexSpacer40);
+      }
     }
   }
 
@@ -160,12 +178,6 @@ html:has(.web-component) {
 @media (width < 640px) {
   .web-component {
     main {
-      p,
-      li {
-        font-size: var(--udexTypographyBodyXSFontSize);
-        font-weight: var(--udexTypographyFontWeightRegular);
-      }
-
       a {
         text-decoration: none;
       }
@@ -187,6 +199,16 @@ html:has(.web-component) {
         /* Caption */
         & + p {
           font-size: var(--udexTypographyBodyXSFontSize);
+        }
+      }
+
+      .section {
+        &:not(:first-child) {
+          padding-block: var(--udexSpacer48);
+        }
+
+        &:nth-last-child(2):has(+ .design-system-toc-container) {
+          padding-bottom: var(--udexSpacer48);
         }
       }
     }
@@ -217,7 +239,10 @@ html:has(.web-component) {
 
         &:not(:first-child) {
           grid-column: 2 / 13;
-          padding-block: var(--udexSpacer48);
+        }
+
+        &:nth-last-child(2):has(+ .design-system-toc-container) {
+          padding-bottom: var(--udexSpacer64);
         }
       }
     }
@@ -256,6 +281,14 @@ html:has(.web-component) {
           top: 10%;
           z-index: 1;
         }
+
+        &:nth-last-child(2):has(+ .design-system-toc-container) {
+          padding-bottom: var(--udexSpacer84);
+        }
+      }
+
+      :is(h1, h2, h3) + p {
+        margin-block: 0 var(--udexSpacer40);
       }
     }
   }
