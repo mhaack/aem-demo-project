@@ -228,7 +228,7 @@ html:has(.web-component) {
       .section {
         &:first-child {
           > div {
-            grid-column: 2 / 13;
+            grid-column: 1 / 13;
             margin-inline: unset;
           }
         }
@@ -262,8 +262,6 @@ html:has(.web-component) {
 @media (width >= 1280px) {
   .web-component {
     main {
-      margin-top: calc(var(--headerHeight) + var(--udexSpacer56));
-
       .section {
         &:not(:first-child) {
           grid-column: 2 / 11;

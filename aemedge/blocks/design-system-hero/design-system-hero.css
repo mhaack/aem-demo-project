@@ -1,0 +1,90 @@
+.design-system-hero-wrapper {
+    margin-inline: unset !important;
+}
+
+.fiori-hero-banner {
+    align-items: center;
+    display: grid;
+    gap: var(--udexGridXSGutters);
+    grid-template-columns: repeat(var(--udexGridColumns), 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 192px;
+    position: relative;
+    
+    picture[slot="backgroundPicture"] {
+        grid-column: 1 / 13;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+
+    picture[slot="backgroundPicture"] > img {
+        height: 192px;
+        width: 100%;
+    }
+
+    div[slot="content"] {
+        grid-row: 3 / 4;
+    }
+
+    div[slot="additionalContent"] {
+        grid-row: 2 / 3;
+    }
+
+    div[slot="content"] > h1 {
+        font-size: var(--udexTypographyHeadingRegularSFontSize);
+        margin-top: 15px;
+    }
+
+    div[slot="additionalContent"] > span {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+    }
+
+    div[slot="content"], div[slot="additionalContent"] {
+        color: white;
+        grid-column: span 12;
+        padding: 0 var(--udexSpacer24);
+        z-index: var(--udexHeroBannerContentZIndex, 2);
+    }
+}
+
+@media (width >= 640px) {
+    .fiori-hero-banner { 
+        div[slot="content"], div[slot="additionalContent"] {
+            padding: 0 var(--udexSpacer48);
+        }
+    }
+}
+
+@media (width >= 980px) {
+    .fiori-hero-banner {
+        div[slot="content"], div[slot="additionalContent"] {
+            grid-column: 2 / 13;
+            padding: 0 var(--udexSpacer64);
+        }
+
+        div[slot="content"] > h1 {
+            font-size: var(--udexTypographyHeadingRegularMFontSize);
+        }
+    }
+}
+
+@media(width >= 1280px) {
+    .fiori-hero-banner { 
+        div[slot="content"], div[slot="additionalContent"] {
+            padding: 0 var(--udexSpacer64);
+        }
+
+        div[slot="content"] > h1 {
+            font-size: var(--udexTypographyHeadingRegularXLFontSize);
+        }
+    }
+}
+
+@media(width >= 1600px) {
+    .fiori-hero-banner {
+        div[slot="content"], div[slot="additionalContent"] {
+            padding: 0 var(--udexSpacer72);
+        }
+    }
+}
