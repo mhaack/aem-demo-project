@@ -1,5 +1,5 @@
 import {
-  h2, ol, li, span, a, div, button, nav,
+  h2, ol, li, span, a, div, button, nav as navBuilder,
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 
@@ -15,11 +15,10 @@ function expand(expandable) {
   }
 }
 
-function setActiveLink() {
-  const selected = document.querySelector('.toc .toc__selected');
+function setActiveLink(nav, selected) {
   const selectedLabel = selected.querySelector('span');
 
-  const links = document.querySelectorAll('.toc li');
+  const links = nav.querySelectorAll('.toc li');
   links.forEach((link) => {
     const anchor = link.querySelector('a');
     const linkHash = anchor?.hash;
@@ -152,7 +151,7 @@ export default async function decorate(block) {
     const selected = button({
       class: 'toc__selected', 'aria-expanded': 'false', 'aria-haspopup': 'true', 'aria-controls': 'toc', 'aria-label': 'Table of Contents',
     }, span(heading));
-    const tocElement = nav(
+    const tocElement = navBuilder(
       {
         class: 'toc', role: 'navigation', 'aria-label': 'In page',
       },
@@ -162,7 +161,7 @@ export default async function decorate(block) {
     );
     block.append(tocElement);
 
-    setActiveLink(selected);
+    setActiveLink(selected, tocElement);
     addClickHandlerToSelectedItem(selected);
     addClickHandlerToDocument(tocElement, selected);
     addEscKeyHandler(tocElement, selected);

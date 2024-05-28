@@ -8,7 +8,7 @@ header {
   --nav-box-shadow-l: 0 10px 30px 0 #2235484d;
   --nav-box-shadow-s: 0 2px 4px 0 #22354833;
   --nav-header-margin: var(--udexGridMargins);
-  --nav-line-separator-color: var(--udexColorGrey2);
+  --nav-line-separator-color: var(--udexCoreDividerLight);
   --nav-links-font-size: var(--udexTypographyNavigationRegularMFontSize);
   --nav-links-font-weight: var(--udexTypographyFontWeightRegular);
   --nav-links-line-height: var(--udexTypographyNavigationLineHeight);

@@ -1,5 +1,10 @@
 .hub-l2.appear,
 .hub-l1.appear {
+  column-gap: var(--udexGridGutters);
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  margin-inline: var(--udexGridMargins);
+
   & > main > .section > .default-content-wrapper {
     h2 {
       font-size: var(--udexTypographyHeadingMediumSFontSize);
@@ -10,7 +15,6 @@
       font-size: var(--udexTypographyBodyMFontSize);
     }
   }
-  
 
   @media (width >= 980px) {
     display: grid;
@@ -45,28 +49,41 @@
   }
 
   & > header {
-    grid-area: header;
+    grid-column: 1 / -1;
+    margin-inline: calc(-1 * var(--udexGridMargins));
   }
 
   & > aside {
-    grid-area: side-nav;
-    transition: margin-inline 0.3s ease-in-out;
+    grid-column: 1 / -1;
+    margin-inline: calc(-1 * var(--udexGridMargins));
+    transition: none;
 
     @media (width >= 980px) {
-      margin-inline-start: var(--udexGridMargins);
-      min-width: 200px;
+      grid-column: 1 / 4;
+      margin-inline: 0;
     }
   }
 
   & > main {
     display: flex;
     flex-direction: column;
-    grid-area: main-content;
+    grid-column: 1 / -1;
+
+    .hero-container,
+    .section.background-dark:not(.additional-reading),
+    .section.background-light:not(.additional-reading) {
+      margin-inline: calc(-1 * var(--udexGridMargins));
+    }
 
     & > :not(.hero-container, .title-banner-container) {
       & > * {
-        margin: 0 var(--udexGridMargins);
+        margin: 0;
       }
+    }
+
+    .section.background-dark:not(.hero-container, .additional-reading),
+    .section.background-light:not(.hero-container, .additional-reading) {
+      padding-inline: var(--udexGridMargins);
     }
 
     & > :not(:last-child, .hero-container, .hero-container + *) {
@@ -87,21 +104,15 @@
   }
 
   & > footer {
-    grid-area: footer;
+    grid-column: 1 / -1;
+    margin-inline: calc(-1 * var(--udexGridMargins));
   }
 }
 
 .hub-l1.appear {
-  grid-template-areas:
-    'header'
-    'main-content'
-    'footer';
-
   & > main {
     @media (width >= 980px) {
       & > :not(.hero-container) {
-        padding-inline: var(--udexGridMargins);
-
         & > * {
           margin: unset;
         }
@@ -112,7 +123,7 @@
       & .button-container {
         margin-block: 0;
         padding-block-start: var(--udexSpacer16);
-        
+
         &:first-child {
           padding-block-start: var(--udexSpacer56);
         }
@@ -127,12 +138,6 @@
 }
 
 .hub-l2.appear {
-  grid-template:
-    'header' var(--nav-height)
-    'main-content' auto
-    'footer' auto
-    / 1fr;
-
   & > main {
     @media (width >= 980px) {
       & .hero-container + .section {
@@ -140,8 +145,6 @@
       }
 
       & > :not(.hero-container, .title-banner-container) {
-        padding-inline: var(--udexGridMargins);
-
         & > * {
           margin: unset;
         }
@@ -157,12 +160,6 @@
     --hero-margin--left: 0;
     --hero-margin--right: 0;
 
-    grid-template:
-      'header header' var(--nav-height)
-      'side-nav main-content' auto
-      'footer footer' auto
-      / min-content 1fr;
-
     & > main {
       @media (width >= 640px) {
         & > * {
@@ -172,12 +169,25 @@
       }
 
       @media (width >= 980px) {
-        & > :not(.hero-container, .title-banner-container) {
-          padding-inline: var(--udexGridGutters) var(--udexGridMargins);
+        & {
+          grid-column: 4 / -1;
+        }
 
+        & > :not(.hero-container, .title-banner-container) {
           & > * {
             margin: unset;
           }
+        }
+
+        .hero-container,
+        .section.background-dark:not(.additional-reading),
+        .section.background-light:not(.additional-reading) {
+          margin-inline: calc(-1 * var(--udexGridGutters))  calc(-1 * var(--udexGridMargins));
+        }
+
+        .section.background-dark:not(.hero-container, .additional-reading),
+        .section.background-light:not(.hero-container, .additional-reading) {
+          padding-inline-start: var(--udexGridGutters);
         }
       }
     }
