@@ -1,5 +1,6 @@
 .design-system-hero-wrapper {
     margin-inline: unset !important;
+    grid-column: 1 / 13 !important;
 }
 
 .fiori-hero-banner {
