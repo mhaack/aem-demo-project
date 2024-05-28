@@ -60,5 +60,5 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: 'sitemap-*.xml.gz'
+          file_pattern: 'sitemap-*.xml'
           commit_message: "Update sitemap files"    
