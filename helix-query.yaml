@@ -82,8 +82,8 @@ indices:
       - '**/fragments/**'
     target: /aemedge/profiles-index.json
     properties:
-      author:
-        select: head > meta[name="author"]
+      name:
+        select: head > meta[name="name"]
         value: attribute(el, "content")
       image:
         select: head > meta[property="og:image"]
