@@ -1,9 +1,0 @@
-.article-intro {
-  font-size: var(--udexTypographyBodyMFontSize);
-}
-
-@media (width >= 980px) {
-  .article-intro {
-    font-size: var(--udexTypographyBodyLFontSize);
-  }
-}
