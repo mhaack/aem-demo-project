@@ -1,8 +1,8 @@
-main .article-tags {
+main .tags {
     margin-top: var(--udexSpacer20);
 }
 
-main .article-tags div.tag-list {
+main .tags div.tag-list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
