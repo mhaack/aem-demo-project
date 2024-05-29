@@ -74,12 +74,13 @@ indices:
       description:
         select: head > meta[name="description"]
         value: attribute(el, "content")
-  authors:
+  profiles:
     include:
       - /author/**
+      - /people/**
     exclude:
       - '**/fragments/**'
-    target: /aemedge/authors-index.json
+    target: /aemedge/profiles-index.json
     properties:
       author:
         select: head > meta[name="author"]
