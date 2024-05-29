@@ -40,11 +40,18 @@ html:has(.web-component) {
     position: relative;
 
     h2 {
-      color: var(--sapContent_TitleColor);
       font-size: var(--udexTypographyHeadingMediumXSFontSize);
       font-weight: var(--udexTypographyFontWeightMedium);
       line-height: var(--udexTypographyHeadingLineHeight);
       margin: 0 0 var(--udexSpacer16);
+      padding: 0;
+    }
+
+    h3 {
+      font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+      font-weight: var(--udexTypographyFontWeightMedium);
+      line-height: var(--udexTypographyHeadingLineHeight);
+      margin-block: var(--udexSpacer24) var(--udexSpacer16);
       padding: 0;
     }
 
@@ -53,7 +60,7 @@ html:has(.web-component) {
     }
 
     :is(h1, h2, h3) + p {
-      margin-block: 0 var(--udexSpacer16);
+      margin-block: 0 var(--udexSpacer24);
     }
 
     /* Picture */
@@ -195,6 +202,11 @@ html:has(.web-component) {
         font-size: var(--udexTypographyHeadingMediumSFontSize);
       }
 
+      h3 {
+        font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+        margin-block: var(--udexSpacer32) var(--udexSpacer16);
+      }
+
       p:has(> picture) {
         /* Caption */
         & + p {
@@ -223,6 +235,14 @@ html:has(.web-component) {
 
       h2 {
         font-size: var(--udexTypographyHeadingMediumMFontSize);
+      }
+
+      h3 {
+        margin-block: var(--udexSpacer48) var(--udexSpacer16);
+      }
+
+      :is(h1, h2, h3) + p {
+        margin-block: 0 var(--udexSpacer16);
       }
 
       .section {
