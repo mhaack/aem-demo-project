@@ -15,6 +15,7 @@ import {
   toCamelCase,
   toClassName,
 } from './aem.js';
+import { filterInternalExternalData } from './ds-scripts.js';
 
 const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
 const TEMPLATE_LIST = {
@@ -36,7 +37,7 @@ async function loadFonts() {
   }
 }
 
-function isDesignSystemSite() {
+export function isDesignSystemSite() {
   return document.body.classList.contains('design-system');
 }
 
@@ -224,26 +225,6 @@ function decorateLiveExamples(element) {
     link.parentElement.replaceWith(embedBlock);
     decorateBlock(embedBlock);
   });
-}
-
-function filterInternalExternalData(main) {
-  let isExternal = new URLSearchParams(window.location.search).has('external');
-  if (getMetadata('access') === 'internal') {
-    isExternal = false;
-  }
-  if (isExternal) {
-    document.body.classList.add('external');
-    const internalOnlyRegex = /\[internal_only](.*?)\[\/internal_only]/gs;
-    const externalOnlyRegex = /\[external_only]|\[\/external_only]/gs;
-    main.innerHTML = main.innerHTML.replace(internalOnlyRegex, '').replace(externalOnlyRegex, '');
-    main.querySelectorAll('[data-visibility="internal_only"]').forEach((elem) => elem.remove());
-  } else {
-    document.body.classList.add('internal');
-    const internalOnlyRegex = /\[external_only](.*?)\[\/external_only]/gs;
-    const externalOnlyRegex = /\[internal_only]|\[\/internal_only]/gs;
-    main.innerHTML = main.innerHTML.replace(internalOnlyRegex, '').replace(externalOnlyRegex, '');
-    main.querySelectorAll('[data-visibility="external_only"]').forEach((elem) => elem.remove());
-  }
 }
 
 /**

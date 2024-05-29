@@ -1,6 +1,8 @@
 import {
   thead, tbody, table, tr,
 } from '../../scripts/dom-builder.js';
+import { isDesignSystemSite } from '../../scripts/scripts.js';
+import { decorateSpans } from '../../scripts/ds-scripts.js';
 
 function buildCell(rowIndex) {
   const cell = rowIndex ? document.createElement('td') : document.createElement('th');
@@ -29,6 +31,30 @@ export default async function decorate(block) {
       trEl.append(cell);
     });
   });
+
+  if (isDesignSystemSite()) {
+    if (header) {
+      let hasStatusArray = [false, -1];
+      tableEl.querySelectorAll('th').forEach((th, i) => {
+        if (th.textContent.toLowerCase().trim() === 'status') {
+          hasStatusArray = [true, i];
+        }
+      });
+
+      if (hasStatusArray[0]) {
+        tableEl.querySelectorAll('tr').forEach((trow, i) => {
+          if (i === 0) return;
+          const td = trow.querySelectorAll('td')[hasStatusArray[1]];
+          if (td.textContent.toLowerCase().trim() === 'new') {
+            td.children[0].classList.add('badge-info');
+          }
+        });
+      }
+    }
+
+    decorateSpans(tableEl);
+  }
+
   block.innerHTML = '';
   block.append(tableEl);
 }
