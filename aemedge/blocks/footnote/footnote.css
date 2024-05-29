@@ -1,4 +1,4 @@
-.article-footnote {
+.footnote {
   color: var(--udexColorGrey7);
   font-size: var(--udexTypographyBodyXSFontSize);
   margin-top: 58px;
@@ -7,14 +7,14 @@
   margin-bottom: var(--udexSpacer56);
 }
 
-.article-footnote>div>div:last-of-type {
+.footnote>div>div:last-of-type {
   margin-top: var(--udexSpacer16);
 }
 
-.article-footnote p:first-of-type {
+.footnote p:first-of-type {
   margin-top: 0;
 }
 
-.article-footnote p:last-of-type {
+.footnote p:last-of-type {
   margin-bottom: 0;
 }
