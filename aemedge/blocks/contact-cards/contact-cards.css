@@ -1,6 +1,6 @@
 /* stylelint-disable selector-class-pattern */
-.contacts.block {
-  & .contacts-list {
+.contact-cards.block {
+  & .contact-cards-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, 1fr);
     gap: var(--udexSpacer48);
@@ -61,13 +61,13 @@
 }
 
 @media (width >= 640px) {
-  .contacts-list {
+  .contact-cards-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (width >= 1280px) {
-  .contacts-list {
+  .contact-cards-list {
     grid-template-columns: repeat(3, 1fr);
   }
 }

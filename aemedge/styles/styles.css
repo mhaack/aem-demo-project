@@ -645,18 +645,3 @@ main .section {
     --udex-button-color-secondary-standard-active-text-and-icon: var(--udexColorBlue10);
   }
 }
-
-.section.additional-reading {
-  background-color: var(--udexColorGrey1);
-  border-radius: var(--udexSpacer12);
-  margin-block-end: var(--udexSpacer56);
-  padding: var(--udexSpacer24) var(--udexSpacer20);
-
-  :first-child {
-    margin-block-start: 0;
-  }
-
-  :last-child {
-    margin-block-end: 0;
-  }
-}

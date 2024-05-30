@@ -20,8 +20,13 @@ function getContactCard(entry) {
   );
 }
 
+function getOrigin() {
+  const { location } = window;
+  return location.href === 'about:srcdoc' ? window.parent.location.origin : location.origin;
+}
+
 export default async function decorate(block) {
-  const siteName = window.location.href.replace(window.location.pathname, '');
+  const siteName = getOrigin();
   const contactsEndpoint = getConfig('contacts');
   const config = readBlockConfig(block);
   block.textContent = '';
@@ -29,7 +34,7 @@ export default async function decorate(block) {
     .filter((entry) => entry.Region === config.region)
     .map((entry) => getContactCard(entry))
     .paginate(6, 1);
-  const contactList = div({ class: 'contacts-list' });
+  const contactList = div({ class: 'contact-cards-list' });
   contactStream.next().then((cursor) => {
     cursor.value.results.forEach((contact) => contactList.append(contact));
     block.append(contactList);
