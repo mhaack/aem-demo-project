@@ -66,7 +66,7 @@
 
 .fast-facts__item {
     text-align: center;
-    width: 60%;
+    width: calc((3 * var(--udexGridGutters)) + (4 * var(--column-width)));
 
     > *:not(:last-child) {
         margin-block-end: var(--udexSpacer20);
@@ -123,10 +123,11 @@
 
 @media (width >= 640px) {
     .fast-facts__items.even-count {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
 
         .fast-facts__item {
-            width: 100%;
+            width: auto;
+            max-width: calc((3 * var(--udexGridGutters)) + (4 * var(--column-width)));
         }
     }
 }
