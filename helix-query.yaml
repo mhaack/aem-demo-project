@@ -77,7 +77,7 @@ indices:
   profiles:
     include:
       - /author/**
-      - /people/**
+      - **/people/**
     exclude:
       - '**/fragments/**'
     target: /aemedge/profiles-index.json
