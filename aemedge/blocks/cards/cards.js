@@ -95,34 +95,6 @@ export default function decorate(block) {
     });
     const li = document.createElement('li');
     li.append(cardDiv);
-    if (block.classList.contains('tiles') && cardDiv.children.length > 0) {
-      const lastDiv = cardDiv.children[cardDiv.children.length - 1];
-      let cardLink = null;
-      let current = lastDiv;
-      while (current.children.length > 0) {
-        [current] = current.children;
-        if (current.tagName === 'A') {
-          cardLink = current;
-          break;
-        }
-      }
-      if (cardLink !== null) {
-        const linkParent = cardLink.parentNode;
-        const linkContent = cardLink.childNodes;
-        [...linkContent].forEach((node) => {
-          linkParent.insertBefore(node, cardLink);
-        });
-        linkParent.removeChild(cardLink);
-        linkParent.normalize();
-        const linkElement = document.createElement('a');
-        linkElement.href = cardLink.href;
-        linkElement.append(cardDiv);
-        const linkDiv = document.createElement('div');
-        linkDiv.className = 'cards-card-link';
-        linkDiv.append(linkElement);
-        li.append(linkDiv);
-      }
-    }
     ul.append(li);
   });
   ul.querySelectorAll('img').forEach((img) => img.closest('picture')

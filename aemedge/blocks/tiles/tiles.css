@@ -1,0 +1,286 @@
+.tiles {
+  & .tile {
+    & div:nth-child(2) {
+      & > h3 {
+        font-size: var(--udexTypographyBodySFontSize);
+
+        @media (width >= 1280px) {
+          font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+          font-weight: var(--udexTypographyFontWeightMedium);
+        }
+
+        & + p {
+          padding-block: 0 var(--udexSpacer20);
+          margin-block: 0;
+        }
+      }
+
+      & .button-container {
+        margin-block: 0;
+      }
+
+      & > .button-container:not(:last-child) {
+        margin-block: 0 var(--udexSpacer12);
+      }
+    }
+  }
+
+  & > ul {
+    list-style: none;
+    margin: var(--udexSpacer40) 0 0;
+    padding: 0;
+    display: grid;
+
+    /* XS one per row */
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: var(--udexSpacer16) var(--udexGridGutters);
+
+    @media (width >= 640px) {
+      grid-row-gap: var(--udexSpacer20);
+    }
+
+    & > li {
+      display: block;
+
+      & img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
+      }
+
+      & .tile {
+        font-size: var(--udexTypographyBodySFontSize);
+        font-weight: var(--udexTypographyFontWeightRegular);
+        line-height: var(--udexTypographyHeadingLineHeight);
+        border-radius: var(--udexRadiusL, 12px);
+        padding: 0 var(--udexSpacer16, 16px);
+        box-shadow: var(--sapContent_Shadow0);
+        background: var(--sapTile_Background);
+        color: var(--udexCoreTextDark);
+        height: 56px;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+          border-radius: var(--udexRadiusL, 12px);
+          box-shadow: var(--sapContent_Shadow1);
+        }
+      }
+
+      & .tile-link .tile:hover {
+        outline: 1px solid var(--udexColorBlue6);
+
+        &:active {
+          outline: 2px solid var(--udexColorBlue6);
+          box-shadow: var(--sapContent_Shadow0);
+        }
+      }
+    }
+  }
+
+  & .tile-body {
+    margin: 0 0 0 var(--udexSpacer24);
+
+    & > *:first-child {
+      margin: 0;
+    }
+  }
+
+  & .tile-image {
+    line-height: 0;
+
+    & picture {
+      display: block;
+    }
+
+    & img {
+      display: block;
+      height: 24px;
+      object-fit: contain;
+      width: 24px;
+    }
+  }
+
+  & .tile-link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+    & > a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: var(--udexColorNeutralBlack);
+    }
+  }
+}
+
+/* S - 1 or 2 per row */
+@media (width >= 640px) {
+  body.hub-l1 .tiles:not(.elems1) > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* M - 2 or 3 per row */
+@media (width >= 980px) {
+  & .tiles:not(.elems9plus) {
+    & > ul {
+      grid-row-gap: var(--udexSpacer48);
+
+      & > li .tile {
+        display: block;
+        font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+        height: 100%;
+        padding: var(--udexSpacer24, 24px) var(--udexSpacer20, 20px);
+      }
+    }
+
+    & .tile-image img {
+      width: 40px;
+      height: 40px;
+    }
+
+    & .tile-body {
+      margin: 16px 0 0;
+    }
+  }
+
+  .tiles.elems9plus > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tiles:not(.elems1) > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  body.hub-l1 .tiles {
+    &:not(.elems1, .elems2) > ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    &.elems9plus > ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+/* L and XL - 3 or 4 per row */
+@media (width >= 1280px) {
+  .tiles:not(.elems1, .elems2) > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  body.hub-l1 .tiles:not(.elems1, .elems2, .elems3) > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/**
+ * Design System
+ */
+.design-system {
+  /* Tiles */
+  .tiles {
+    & > ul {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: var(--udexSpacer40) var(--udexGridGutters);
+    }
+
+    /* Plain */
+    &.plain {
+      > ul {
+        /* Set all children to be equal height */
+        grid-auto-rows: 1fr;
+        grid-row-gap: var(--udexSpacer16);
+        margin: 0;
+        padding: 0;
+
+        li {
+          align-items: center;
+          display: flex;
+          height: 100%;
+
+          .tile-link {
+            > a {
+              color: inherit;
+            }
+          }
+
+          /* stylelint-disable-next-line */
+          .tile {
+            align-items: unset;
+            display: block;
+            height: 100%;
+            padding: var(--udexSpacer16);
+            width: 100%;
+          }
+
+          .tile-body {
+            margin: 0;
+
+            p {
+              margin: 0;
+              font-size: var(--udexTypographyBodyXXSFontSize);
+              font-weight: var(--udexTypographyFontWeightRegular);
+
+              &:first-of-type {
+                color: var(--udexColorBlue8);
+                font-size: var(--udexTypographyBodySFontSize);
+                font-weight: var(--udexTypographyFontWeightMedium);
+                margin-bottom: var(--udexSpacer8);
+              }
+            }
+          }
+        }
+      }
+
+      /* S */
+      @media (width >= 640px) {
+        > ul {
+          grid-gap: var(--udexSpacer20) 0;
+
+          li {
+            .tile-body {
+              p {
+                font-size: var(--udexTypographyBodyXSFontSize);
+              }
+            }
+          }
+        }
+      }
+
+      /* M */
+      @media (width >= 980px) {
+        > ul {
+          grid-gap: var(--udexSpacer20) var(--udexSpacer48);
+          grid-template-columns: repeat(2, 1fr);
+
+          li {
+            .tile-body {
+              p {
+                font-size: var(--udexTypographyBodyXXSFontSize);
+              }
+            }
+          }
+        }
+      }
+
+      /* L */
+      @media (width >= 1280px) {
+        > ul {
+          grid-row-gap: var(--udexSpacer24);
+
+          li {
+            .tile-body {
+              p {
+                font-size: var(--udexTypographyBodyXSFontSize);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
