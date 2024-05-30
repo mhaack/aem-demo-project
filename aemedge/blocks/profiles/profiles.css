@@ -67,9 +67,9 @@
     padding-left: 4px;
 }
 
-/* Use horizontal view for S, M, L, XL if more than 1 */
+/* Use portrait view for S, M, L, XL if more than 1 */
 @media (width >=640px) {
-    :is(.profiles):not(.stacked) .profile.hor {
+    :is(.profiles):not(.stacked) .profile.portrait {
         height: 360px;
         border: 1px solid var(--udexColorGrey2);
         box-shadow: 0 2px 4px rgb(34 54 73 / 20%);

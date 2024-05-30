@@ -6,17 +6,19 @@ import { getMetadata } from '../../scripts/aem.js';
 function renderProfiles(block, profiles, stacked = false) {
   if (profiles && profiles.length) {
     const multipleProfiles = profiles.length > 1;
+    const portraitMode = multipleProfiles && !stacked;
     profiles.forEach((profile) => {
       const renderLink = profile.path && profile.path.indexOf('/people/') === -1;
       const cardContent = div(
-        { class: multipleProfiles && !stacked ? 'profile hor' : 'profile' },
+        { class: portraitMode ? 'profile portrait' : 'profile' },
         new Avatar(
           profile.name,
           profile.title,
           profile.description,
           renderLink ? profile.path : '',
           profile.image,
-        ).renderDetails('big'),
+          portraitMode,
+        ).renderDetails(portraitMode ? 'flexible-big' : ''),
       );
 
       if (renderLink) {
@@ -53,5 +55,3 @@ export default async function decorateBlock(block) {
   const profiles = lookupProfiles(keys, profileIndex);
   renderProfiles(block, profiles, stackedLayout);
 }
-
-export { renderProfiles as addAuthorProfiles };
