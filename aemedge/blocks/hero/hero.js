@@ -4,13 +4,13 @@ import {
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 import {
-  fetchAuthorList,
+  fetchProfiles,
   fetchTagList,
   formatDate,
   getAuthorMetadata,
   getContentType,
   getTagLink,
-  lookupAuthors,
+  lookupProfiles,
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
@@ -25,7 +25,7 @@ function calculateInitials(name) {
 }
 
 function buildAuthorEl(author) {
-  return a({ class: 'media-blend__author', href: author.path }, author.author);
+  return a({ class: 'media-blend__author', href: author.path }, author.name);
 }
 
 function decorateMetaInfo(authors) {
@@ -38,7 +38,7 @@ function decorateMetaInfo(authors) {
       if (avatarImage) {
         const avatar = document.createElement('udex-avatar');
         avatar.setAttribute('size', 'XS');
-        avatar.setAttribute('initials', calculateInitials(authors[0].author));
+        avatar.setAttribute('initials', calculateInitials(authors[0].name));
         avatar.setAttribute('color-scheme', 'Neutral');
         avatar.append(avatarImage.querySelector('img'));
         infoBlockWrapper.prepend(avatar);
@@ -225,8 +225,8 @@ export default async function decorate(block) {
     if (getMetadata('author')) {
       await import('@udex/webcomponents/dist/Avatar.js');
     }
-    const authorIndex = await fetchAuthorList();
-    const authors = await lookupAuthors(getAuthorMetadata(), authorIndex);
+    const authorIndex = await fetchProfiles();
+    const authors = await lookupProfiles(getAuthorMetadata(), authorIndex);
     contentSlot.append(decorateMetaInfo(authors));
   }
 

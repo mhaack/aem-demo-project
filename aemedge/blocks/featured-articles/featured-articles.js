@@ -8,10 +8,10 @@ import {
   fetchPages,
   getContentType,
   fetchTagList,
-  buildCardDisplayAuthor,
+  buildCardDisplayProfile,
   getAuthorMetadata,
-  lookupAuthors,
-  fetchAuthorList,
+  lookupProfiles,
+  fetchProfiles,
 } from '../../scripts/utils.js';
 
 function getPictureCard(article, placeholders, tags, author, eager) {
@@ -44,12 +44,12 @@ export default async function decorateBlock(block) {
     );
     const placeholders = await fetchPlaceholders();
     const tags = await fetchTagList();
-    const authorIndex = await fetchAuthorList();
+    const authorIndex = await fetchProfiles();
 
     const cardList = ul();
     articles.forEach(async (article) => {
-      const authors = lookupAuthors(getAuthorMetadata(article), authorIndex);
-      const displayAuthor = buildCardDisplayAuthor(authors);
+      const authors = lookupProfiles(getAuthorMetadata(article), authorIndex);
+      const displayAuthor = buildCardDisplayProfile(authors);
       const card = getPictureCard(
         article,
         placeholders,

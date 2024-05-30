@@ -8,9 +8,9 @@ import {
   toTitleCase,
   formatDate,
   getParameterMap,
-  buildCardDisplayAuthor,
-  fetchAuthorList,
-  lookupAuthors,
+  buildCardDisplayProfile,
+  fetchProfiles,
+  lookupProfiles,
   getContentTypeFromArticle,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
@@ -94,8 +94,8 @@ async function getArticles(tags, startPage = 1, batchSize = 6) {
 function renderCards(articles, placeholders, tags, authorIndex) {
   const cardList = ul({ class: 'card-items' });
   articles.forEach((article) => {
-    const authors = lookupAuthors(article.author, authorIndex);
-    const displayAuthor = buildCardDisplayAuthor(authors);
+    const authors = lookupProfiles(article.author, authorIndex);
+    const displayAuthor = buildCardDisplayProfile(authors);
     const card = getPictureCard(article, placeholders, tags, displayAuthor);
     if (card) cardList.append(card.render());
   });
@@ -188,7 +188,7 @@ export default async function decorateBlock(block) {
   const filters = new Filters(filterList);
   block.append(filters.render());
   const placeholders = await fetchPlaceholders();
-  const authorIndex = await fetchAuthorList();
+  const authorIndex = await fetchProfiles();
   const urlParams = new URLSearchParams(window.location.search);
   const page = +urlParams.get('page') || 1;
   const articleStream = await getArticles(tags, page);

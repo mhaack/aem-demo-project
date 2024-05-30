@@ -9,9 +9,9 @@ import Button from '../../libs/button/button.js';
 import {
   formatDate,
   extractFieldValue,
-  buildCardDisplayAuthor,
-  lookupAuthors,
-  fetchAuthorList,
+  buildCardDisplayProfile,
+  lookupProfiles,
+  fetchProfiles,
   fetchTagList,
   getContentTypeFromArticle,
 } from '../../scripts/utils.js';
@@ -95,7 +95,7 @@ export default async function decorateBlock(block) {
     .all();
   const placeholders = await fetchPlaceholders();
   const tags = await fetchTagList();
-  const authorIndex = await fetchAuthorList();
+  const authorIndex = await fetchProfiles();
   const itemCount = articleStream.length;
   let viewBtn;
   if (itemCount > 10 && itemCount < 20) {
@@ -106,8 +106,8 @@ export default async function decorateBlock(block) {
   const cards = [];
   articleStream.forEach((article) => {
     let card;
-    const authors = lookupAuthors(article.author, authorIndex);
-    const displayAuthor = buildCardDisplayAuthor(authors);
+    const authors = lookupProfiles(article.author, authorIndex);
+    const displayAuthor = buildCardDisplayProfile(authors);
     if (textOnly) {
       card = getCard(article, config, tags).render();
     } else if (carousel) {

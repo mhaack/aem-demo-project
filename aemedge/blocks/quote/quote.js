@@ -1,6 +1,6 @@
 import Avatar from '../../libs/avatar/avatar.js';
 import { getMetadata } from '../../scripts/aem.js';
-import { fetchAuthorList, lookupAuthors } from '../../scripts/utils.js';
+import { fetchProfiles, lookupProfiles } from '../../scripts/utils.js';
 
 export default async function decorate(block) {
   const quoteText = block.querySelector(':scope > div:first-of-type > div');
@@ -14,8 +14,8 @@ export default async function decorate(block) {
     quoteAuthor.classList.add('col', 'content');
     quoteAuthor.parentNode.classList.add('qs');
     if (isNotArticle) {
-      const authorIndex = await fetchAuthorList();
-      const authorEntry = lookupAuthors(quoteAuthor.textContent, authorIndex)?.[0];
+      const authorIndex = await fetchProfiles();
+      const authorEntry = lookupProfiles(quoteAuthor.textContent, authorIndex)?.[0];
       if (authorEntry && authorEntry.image) {
         const avatar = Avatar.fromAuthorEntry(authorEntry).render(isSmall ? 'medium' : 'big', false, true);
         block.insertBefore(avatar, quoteText.parentNode);

@@ -15,7 +15,6 @@ function addDsMainNav(block) {
 }
 
 export default async function decorate(block) {
-  console.log('decorating design system header');
   await decorateHeader(block);
   addDsMainNav(block);
 }
