@@ -1,4 +1,4 @@
-.link-list {
+.list-external {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--udexSpacer16) var(--udexSpacer48);
