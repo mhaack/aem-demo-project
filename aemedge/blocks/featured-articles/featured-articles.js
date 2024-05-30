@@ -16,13 +16,14 @@ import {
 
 function getPictureCard(article, placeholders, tags, author, eager) {
   const tagLabel = placeholders[toCamelCase(getMetadata('priority', article))] || '';
-  const path = new URL(getMetadata('og:url', article));
-  const info = `Updated on ${formatDate(getMetadata('published-time', article))}`;
+  const url = getMetadata('card-url', article) || new URL(getMetadata('og:url', article)).pathname;
+  const info = getMetadata('card-c2a', article) || `Updated on ${formatDate(getMetadata('published-time', article))}`;
+
   const contentType = tags[toCamelCase(getContentType(article))];
 
   return new PictureCard(
     getMetadata('og:title', article),
-    path.pathname,
+    url,
     contentType.label,
     info,
     author,
