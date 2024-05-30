@@ -11,6 +11,7 @@ import {
   getContentType,
   getTagLink,
   lookupProfiles,
+  toTitleCase,
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
@@ -30,7 +31,6 @@ function buildAuthorEl(author) {
 
 function decorateMetaInfo(authors) {
   const infoBlockWrapper = span({ class: 'media-blend__info-block' });
-
   if (authors.length > 0) {
     const authorEl = span({ class: 'media-blend__authors' });
     if (authors.length === 1) {
@@ -88,7 +88,14 @@ function replacePlaceholderText(elem, tags) {
       }
     });
     elem.innerHTML = elem.innerHTML.replace('[page]', h1TitleTag?.label || '');
-    elem.innerHTML = elem.innerHTML.replace('[author]', getMetadata('author') || '');
+    let author = getMetadata('author');
+    if (!author) {
+      const path = window.location.pathname;
+      if (path.startsWith('/author/')) {
+        author = toTitleCase(path.replace('/author/', ''));
+      }
+    }
+    elem.innerHTML = elem.innerHTML.replace('[author]', author || '');
   }
   return elem;
 }

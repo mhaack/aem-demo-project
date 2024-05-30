@@ -125,7 +125,7 @@ function getTagLink(tag, path) {
  * Author related helper functions
  */
 function buildAuthorUrl(author) {
-  return `/author/${toClassName(author.trim()).replaceAll('-', '')}`;
+  return `/author/${toClassName(author.trim())}`;
 }
 
 function getAuthorMetadata(doc) {
