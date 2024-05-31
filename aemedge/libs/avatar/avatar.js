@@ -48,7 +48,7 @@ export default class Avatar {
     );
   }
 
-  renderDetails(size, excludeStyles) {
+  renderDetails(size, excludeStyles, linkText) {
     if (!excludeStyles) {
       loadCSS(`${window.hlx.codeBasePath}/libs/avatar/avatar.css`);
     }
@@ -62,7 +62,7 @@ export default class Avatar {
         this.path
           ? p(
             { class: 'link' },
-            a({ href: this.path, 'aria-label': 'Read more' }, 'Link'),
+            a({ href: this.path, 'aria-label': 'Read more' }, linkText),
             span({ class: 'icon icon-link-arrow' }),
           )
           : '',

@@ -1,9 +1,9 @@
 import { a, div } from '../../scripts/dom-builder.js';
 import { fetchProfiles, getAuthorMetadata, lookupProfiles } from '../../scripts/utils.js';
 import Avatar from '../../libs/avatar/avatar.js';
-import { getMetadata } from '../../scripts/aem.js';
+import { getMetadata, fetchPlaceholders, toCamelCase } from '../../scripts/aem.js';
 
-function renderProfiles(block, profiles, stacked = false) {
+function renderProfiles(block, profiles, linkText, stacked = false) {
   if (profiles && profiles.length) {
     const multipleProfiles = profiles.length > 1;
     const portraitMode = multipleProfiles && !stacked;
@@ -18,7 +18,7 @@ function renderProfiles(block, profiles, stacked = false) {
           renderLink ? profile.path : '',
           profile.image,
           portraitMode,
-        ).renderDetails(portraitMode ? 'flexible-big' : ''),
+        ).renderDetails(portraitMode ? 'flexible-big' : '', false, linkText),
       );
 
       if (renderLink) {
@@ -53,5 +53,7 @@ export default async function decorateBlock(block) {
   const stackedLayout = getMetadata('template') === 'article';
   const profileIndex = await fetchProfiles();
   const profiles = lookupProfiles(keys, profileIndex);
-  renderProfiles(block, profiles, stackedLayout);
+  const placeholders = await fetchPlaceholders();
+  const linkText = placeholders[toCamelCase('Profile Link')] || 'Link';
+  renderProfiles(block, profiles, linkText, stackedLayout);
 }
