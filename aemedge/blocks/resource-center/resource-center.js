@@ -80,26 +80,17 @@ function getEditorFilter(config) {
   return (entry) => matchTags(entry, config) && matchAuthors(entry, config) && matchContentType(entry, config);
 }
 
-function getPathFilter(entry, tags) {
+function getPathFilter(entry, author, matchedPathTag) {
   const path = window.location.pathname;
   if (path.startsWith('/author/')) {
     if (!entry.author || entry.author === '0') return false;
-    const author = getMetadata('author');
     const authorNames = entry.author.split(',').map((a) => toClassName(a.trim()));
     if (author) return authorNames.includes(toClassName(author));
     return authorNames.includes(path.replace('/author/', ''));
   }
   // check if location match is valid tag /topics/.* or /news/.*
-  if (path.match(/\/topics\/.*|\/news\/.*/) && tags) {
-    let matchedTag;
-    Object.keys(tags).forEach((tag) => {
-      const tagData = tags[tag];
-      if (path.includes(tagData['topic-path']) || path.includes(tagData['news-path'])) {
-        matchedTag = tagData;
-      }
-    });
-
-    return entry.tags.includes(matchedTag.key);
+  if (path.match(/\/topics\/.*|\/news\/.*/) && matchedPathTag) {
+    return entry.tags.includes(matchedPathTag.key);
   }
   return true;
 }
@@ -124,16 +115,24 @@ function getDateFilter(entry, params) {
   return dateRange.find((date) => date === dateString);
 }
 
-function getUserFilter(tags, params) {
-  if (params.size === 0) return (entry) => getPathFilter(entry, tags);
+function getUserFilter(params) {
   return (entry) => getDateFilter(entry, params) && getTagFilter(entry, params);
 }
 
 async function getArticles(tags, editorConfig, startPage = 1, batchSize = 6) {
   const params = getParameterMap();
+  const path = window.location.pathname;
+  let author;
+  if (path.startsWith('/author/')) {
+    author = getMetadata('name');
+  }
+  const matchedPathTag = Object.values(tags).find(
+    (tag) => path === tag['topic-path'] || path === tag['news-path'],
+  );
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
+    .filter((entry) => getPathFilter(entry, author, matchedPathTag))
     .filter(getEditorFilter(editorConfig))
-    .filter(getUserFilter(tags, params))
+    .filter(getUserFilter(params))
     .limit(editorConfig.limit ? +editorConfig.limit[0] : -1)
     .paginate(batchSize, startPage);
 }
@@ -150,13 +149,10 @@ function renderCards(articles, placeholders, tags, profilesIndex, textOnly, caro
     }
     return getPictureCard(article, placeholders, tags, displayAuthor).render();
   });
-  let cardList;
   if (carousel) {
-    cardList = new Carousel(cards).render();
-  } else {
-    cardList = ul({ class: 'card-items' }, ...cards);
+    return new Carousel(cards).render();
   }
-  return cardList;
+  return ul({ class: 'card-items' }, ...cards);
 }
 
 function registerHandler(
@@ -298,7 +294,7 @@ export default async function decorateBlock(block) {
   const page = +urlParams.get('page') || 1;
   const articleStream = await getArticles(tags, editorConfig, page);
   const cursor = await articleStream.next();
-  let cardList = renderCards(
+  const cardList = renderCards(
     cursor.value.results,
     placeholders,
     tags,
@@ -317,7 +313,7 @@ export default async function decorateBlock(block) {
     const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', 'large').render();
     viewBtn.addEventListener('click', () => {
       articleStream.next().then((nextCursor) => {
-        cardList = renderCards(
+        const cards = renderCards(
           nextCursor.value.results,
           placeholders,
           tags,
@@ -325,7 +321,9 @@ export default async function decorateBlock(block) {
           textOnly,
           carousel,
         );
-        viewBtn.before(cardList);
+        Array.from(cards.children).forEach((card) => {
+          cardList.append(card);
+        });
         if (!nextCursor.value.hasNext) {
           viewBtn.remove();
         }
