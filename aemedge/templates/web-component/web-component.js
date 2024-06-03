@@ -1,13 +1,14 @@
 import { div } from '../../scripts/dom-builder.js';
 import { buildBlock } from '../../scripts/aem.js';
 
-function initDsTocBlock(main) {
-  main.append(div(buildBlock('design-system-toc', '')));
+function initBlock(main, blockName) {
+  main.append(div(buildBlock(blockName, '')));
 }
 
 async function decorate(doc) {
   const main = doc.querySelector('main');
-  initDsTocBlock(main);
+  initBlock(main, 'design-system-toc');
+  initBlock(main, 'deep-link');
 }
 
 decorate(document);
