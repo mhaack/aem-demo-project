@@ -24,7 +24,7 @@ function getPictureCard(article, placeholders, tags, author, eager) {
   return new PictureCard(
     getMetadata('og:title', article),
     url,
-    contentType.label,
+    contentType?.label || '',
     info,
     author,
     getMetadata('og:image', article),
