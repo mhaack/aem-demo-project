@@ -92,6 +92,7 @@
 .avatar-details {
   & h2 {
     font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
     text-align: left;
     margin: 0;
     margin-bottom: 6px;
