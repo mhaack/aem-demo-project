@@ -1,0 +1,64 @@
+.info {
+    --sapGuidelineBackground: #F1ECFF;
+    --sapHintBackground: #F5F6F7;
+    --sapChangesBackground: #DAFDF5;
+
+    display: grid;
+    grid-template-columns: 7% 1fr;
+    row-gap: 8px;
+    padding: 8px 12px;
+
+    &.warning {
+        background-color: var(--sapWarningBackground);
+    }
+
+    &.hint {
+        background-color: var(--sapHintBackground);
+    }
+
+    &.changes {
+        background-color: var(--sapChangesBackground);
+    }
+
+    &.information {
+        background-color: var(--sapInformationBackground);
+    }
+
+    &.guideline {
+        background-color: var(--sapGuidelineBackground);
+    }
+
+    .icon {
+        grid-column: 1 / 2;
+        padding: 0 3px;
+    }
+
+    .heading {
+        grid-column: 2 / 3;
+        font-weight: var(--udexTypographyFontWeightRegular);
+        font-size: var(--udexTypographyHeadingRegularXXXXSFontSize);
+        line-height: 24px;
+        color: var(--udexColorNeutralBlack);
+
+        p {
+            margin: unset;
+            padding: unset;
+        }
+    }
+
+    .description {
+        grid-column: 2 / 3;
+
+        p {
+            margin: unset;
+            padding: unset;
+        }
+
+        ul, p {
+            color: var(--udexColorGrey7);
+            font-size: var(--udexTypographyBodyXSFontSize);
+            font-weight: var(--udexTypographyFontWeightRegular);
+            line-height: 21px;
+        }
+    }
+}
