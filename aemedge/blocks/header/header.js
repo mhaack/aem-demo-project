@@ -326,11 +326,11 @@ async function generateSecondaryNavigation() {
 
   const secondNav = navBuilder(
     { id: 'nav-secondary', 'aria-label': 'secondary navigation' },
-    title?.children.length > 0 ? div({ class: 'nav-secondary-title' }, ...title.children) : null,
+    title?.children.length > 0 ? div({ class: 'nav-secondary-title' }, ...title.children) : '',
     div(
       { class: 'nav-secondary__dropdown' },
-      tabs?.children.length > 0 ? div({ class: 'nav-secondary-tabs' }, ...tabs.children) : null,
-      action?.children.length > 0 ? div({ class: 'nav-secondary-actions' }, ...action.children) : null,
+      tabs?.children.length > 0 ? div({ class: 'nav-secondary-tabs' }, ...tabs.children) : '',
+      action?.children.length > 0 ? div({ class: 'nav-secondary-actions' }, ...action.children) : '',
     ),
   );
 
@@ -383,8 +383,8 @@ async function generateSecondaryNavigation() {
     },
     span(
       { class: 'nav-secondary__dropdown-trigger__content' },
-      navTitle ? span({ class: 'nav-secondary__dropdown-trigger__title' }, navTitle) : null,
-      tabText ? span({ class: 'nav-secondary__dropdown-trigger__tab-label' }, tabText) : null,
+      navTitle ? span({ class: 'nav-secondary__dropdown-trigger__title' }, navTitle) : '',
+      tabText ? span({ class: 'nav-secondary__dropdown-trigger__tab-label' }, tabText) : '',
     ),
   );
   mobileDropdownButton.addEventListener('click', () => {

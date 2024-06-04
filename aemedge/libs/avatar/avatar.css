@@ -52,6 +52,19 @@
   }
 }
 
+@media (width >=640px) {
+  .avatar.flexible-big {
+    flex: 0 0 7.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
+
+    & img {
+      height: 7.5rem;
+      width: 7.5rem;
+    }
+  }
+}
+
 .avatar-info {
   display: flex;
   flex-direction: column;
@@ -78,7 +91,8 @@
 
 .avatar-details {
   & h2 {
-    font-size: var(--udexTypographyHeadingMediumXSFontSize);
+    font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
     text-align: left;
     margin: 0;
     margin-bottom: 6px;
@@ -89,6 +103,10 @@
     color: var(--udexColorGrey7);
     text-align: left;
     margin-block: 0 6px;
+  }
+
+  & :last-child {
+    margin-block: 0;
   }
 
   & .link {

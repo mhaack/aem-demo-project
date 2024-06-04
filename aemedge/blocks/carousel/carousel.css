@@ -213,14 +213,14 @@
   align-items: center;
   justify-content: center;
   border: none;
-  background-color: white;
+  background-color: transparent;
 }
 
 .design-system .carousel nav button span {
   display: flex;
   align-items: center;
   border: none;
-  background-color: white;
+  background-color: transparent;
   width: 18px;
   height: 18px;
 }
@@ -230,8 +230,6 @@
   justify-content: center;
   padding: 8px;
   align-items: center;
-  width: 64px;
-  height: 8px;
 }
 
 .design-system .carousel .carousel-slide-indicator button {
@@ -354,4 +352,43 @@
 /* stylelint-disable-next-line no-descending-specificity */
 .column-section-1-1 .carousel-wrapper .carousel nav {
   display: flex;
+}
+
+.carousel-slide .full-image{
+  aspect-ratio:4/3 !important;
+  height:100% !important;
+}
+
+.carousel-slide .hide-content{
+  display:none;
+}
+
+.zero-bottom-padding{
+  padding-bottom:0 !important;
+}
+
+/* Carousel full-width variation */
+.design-system {
+  & .carousel.full-width {
+    height: auto;
+
+    & nav {
+      display: flex;
+    }
+
+    & .carousel-slide {
+      border-radius: 0;
+      box-shadow: none;
+      flex: 0 0 100%;
+      height: auto;
+    }
+
+    & .carousel-slide .carousel-slide-image {
+      height: auto;
+    }
+
+    & .carousel-slide .carousel-slide-image picture > img {
+      border-radius: 0;
+    }
+  }
 }

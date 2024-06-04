@@ -7,6 +7,7 @@ indices:
       - '/draft/**'
       - '/tools/sidekick/**'
       - '/fragments/**'
+      - '**/people/**'
     target: /aemedge/query-index.json
     properties:
       title:
@@ -36,6 +37,7 @@ indices:
     exclude:
       - '**/fragments/**'
       - '**/sidenav'
+      - '**/people/**'
     target: /aemedge/articles-index.json
     properties:
       title:
@@ -77,9 +79,7 @@ indices:
   profiles:
     include:
       - /author/**
-      - /people/**
-    exclude:
-      - '**/fragments/**'
+      - /**/people/**
     target: /aemedge/profiles-index.json
     properties:
       name:

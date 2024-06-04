@@ -81,12 +81,6 @@ function createSlide(row, slideIndex, carouselId) {
   slide.setAttribute('id', `carousel-${carouselId}-slide-${slideIndex}`);
   slide.classList.add('carousel-slide');
 
-  const cols = row.querySelectorAll(':scope > div');
-  if (cols.length === 1) {
-    const newCol = document.createElement('div');
-    row.append(newCol);
-  }
-
   row.querySelectorAll(':scope > div').forEach((column, colIdx) => {
     column.classList.add(
       `carousel-slide-${colIdx === 0 ? 'image' : 'content'}`,

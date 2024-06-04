@@ -6,9 +6,9 @@ import { createOptimizedPicture, loadCSS } from '../../scripts/aem.js';
 import Avatar from '../avatar/avatar.js';
 
 export default class PictureCard extends Card {
-  constructor(title, path, type, info, authorEntry, image, tagLabel, description, eager) {
+  constructor(title, path, type, info, profileEntry, image, tagLabel, description, eager) {
     super(title, path, type, info);
-    this.authorEntry = authorEntry;
+    this.profileEntry = profileEntry;
     this.image = image;
     this.tagLabel = tagLabel;
     this.description = description;
@@ -29,20 +29,20 @@ export default class PictureCard extends Card {
       : '';
   }
 
-  getAvatarElement(authorEntry) {
-    if (!authorEntry) {
+  getAvatarElement(profileEntry) {
+    if (!profileEntry) {
       return '';
     }
 
-    return authorEntry?.image
-      && new URL(this.authorEntry.image).pathname !== '/default-meta-image.png' && authorEntry.author.indexOf('+ more') === -1
+    return profileEntry?.image
+      && new URL(this.profileEntry.image).pathname !== '/default-meta-image.png' && profileEntry.name.indexOf('+ more') === -1
       ? div(
         { class: 'author-profile' },
-        Avatar.fromAuthorEntry(authorEntry).render('small'),
+        Avatar.fromAuthorEntry(profileEntry).render('small'),
       )
       : div(
         { class: 'author subtitle' },
-        span(`${this.authorEntry.author}`),
+        span(`${this.profileEntry.name}`),
       );
   }
 
@@ -70,7 +70,7 @@ export default class PictureCard extends Card {
         ),
         div(
           { class: 'infoblock' },
-          this.getAvatarElement(this.authorEntry),
+          this.getAvatarElement(this.profileEntry),
           div({ class: 'info' }, info),
         ),
       ),

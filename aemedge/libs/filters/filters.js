@@ -6,8 +6,9 @@ import Menu from '../menu/menu.js';
 import Tag from '../tag/tag.js';
 
 export default class Filters {
-  constructor(filters, nonFilterParams) {
+  constructor(filters, placeholders, nonFilterParams) {
     this.filters = filters || [];
+    this.placeholders = placeholders || {};
     this.nonFilterParams = nonFilterParams || ['page', 'sort', 'order', 'limit'];
   }
 
@@ -81,9 +82,10 @@ export default class Filters {
     if (!excludeStyles) {
       loadCSS(`${window.hlx.codeBasePath}/libs/filters/filters.css`);
     }
+    const noResultLabel = this.placeholders.noResults || 'No results found';
     const filterPanel = this.getFilterPanel();
     const tagsPanel = this.getTagsPanel();
-    const resultsPanel = div({ class: 'results-panel' }, '0 results');
+    const resultsPanel = div({ class: 'results-panel' }, noResultLabel);
     this.filters.forEach((filter) => {
       if (filter.items.length === 0) return;
       const filterMenu = new Menu(filter.name, filter.items).render();
@@ -96,6 +98,7 @@ export default class Filters {
 
   updateResults(count) {
     const resultsPanel = document.querySelector('.results-panel');
-    resultsPanel.textContent = `${count} results`;
+    const resultLabel = count === 0 ? this.placeholders.noResults || 'No results found' : `${count} results`;
+    resultsPanel.textContent = resultLabel;
   }
 }

@@ -8,22 +8,23 @@ import {
   fetchPages,
   getContentType,
   fetchTagList,
-  buildCardDisplayAuthor,
+  buildCardDisplayProfile,
   getAuthorMetadata,
-  lookupAuthors,
-  fetchAuthorList,
+  lookupProfiles,
+  fetchProfiles,
 } from '../../scripts/utils.js';
 
 function getPictureCard(article, placeholders, tags, author, eager) {
   const tagLabel = placeholders[toCamelCase(getMetadata('priority', article))] || '';
-  const path = new URL(getMetadata('og:url', article));
-  const info = `Updated on ${formatDate(getMetadata('published-time', article))}`;
+  const url = getMetadata('card-url', article) || new URL(getMetadata('og:url', article)).pathname;
+  const info = getMetadata('card-c2a', article) || `Updated on ${formatDate(getMetadata('published-time', article))}`;
+
   const contentType = tags[toCamelCase(getContentType(article))];
 
   return new PictureCard(
     getMetadata('og:title', article),
-    path.pathname,
-    contentType.label,
+    url,
+    contentType?.label || '',
     info,
     author,
     getMetadata('og:image', article),
@@ -44,12 +45,12 @@ export default async function decorateBlock(block) {
     );
     const placeholders = await fetchPlaceholders();
     const tags = await fetchTagList();
-    const authorIndex = await fetchAuthorList();
+    const authorIndex = await fetchProfiles();
 
     const cardList = ul();
     articles.forEach(async (article) => {
-      const authors = lookupAuthors(getAuthorMetadata(article), authorIndex);
-      const displayAuthor = buildCardDisplayAuthor(authors);
+      const authors = lookupProfiles(getAuthorMetadata(article), authorIndex);
+      const displayAuthor = buildCardDisplayProfile(authors);
       const card = getPictureCard(
         article,
         placeholders,

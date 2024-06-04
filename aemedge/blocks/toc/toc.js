@@ -15,10 +15,11 @@ function expand(expandable) {
   }
 }
 
-function setActiveLink(nav, selected) {
+function setActiveLink() {
+  const selected = document.querySelector('.toc .toc__selected');
   const selectedLabel = selected.querySelector('span');
 
-  const links = nav.querySelectorAll('.toc li');
+  const links = document.querySelectorAll('.toc li');
   links.forEach((link) => {
     const anchor = link.querySelector('a');
     const linkHash = anchor?.hash;
@@ -161,7 +162,7 @@ export default async function decorate(block) {
     );
     block.append(tocElement);
 
-    setActiveLink(selected, tocElement);
+    setActiveLink();
     addClickHandlerToSelectedItem(selected);
     addClickHandlerToDocument(tocElement, selected);
     addEscKeyHandler(tocElement, selected);

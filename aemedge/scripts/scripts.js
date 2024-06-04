@@ -10,11 +10,17 @@ import {
   loadBlocks,
   loadCSS,
   loadSideNav,
+  loadScript,
   readBlockConfig,
   sampleRUM,
   toCamelCase,
   toClassName,
 } from './aem.js';
+import {
+  scheduleSolutionsLoad,
+  isCFEnabled,
+  isCLEnabled,
+} from '../libs/analytics/analytics-core.js';
 import { filterInternalExternalData } from './ds-scripts.js';
 
 const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
@@ -375,9 +381,15 @@ async function loadEager(doc) {
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
-    await decorateMain(main);
-    document.body.classList.add('appear');
-    await waitForLCP(LCP_BLOCKS);
+    // show the LCP block in a dedicated frame to reduce TBT
+    await new Promise((resolve) => {
+      window.requestAnimationFrame(async () => {
+        await decorateMain(main);
+        document.body.classList.add('appear');
+        await waitForLCP(LCP_BLOCKS);
+        resolve();
+      });
+    });
   }
 
   try {
@@ -449,16 +461,25 @@ function loadDelayed() {
   // load anything that can be postponed to the latest here
 }
 
-async function loadPage() {
-  await loadEager(document);
-  await loadLazy(document);
-  loadDelayed();
+async function scheduleAdobeDCLoad() {
+  window.setTimeout(() => import('../libs/analytics/adobedc.js'), 3000);
+}
+
+function dispatchDLEvent(event) {
+  const e = new Event('dl:event');
+  e.data = event;
+  document.dispatchEvent(e);
 }
 
 async function initDataLayer() {
-  window.adobeDataLayer = [];
+  await loadScript('/aemedge/libs/analytics/dl/acdl.min.js');
+  if (isCLEnabled()) {
+    await import('../libs/analytics/cl-aa.js');
+    await import('../libs/analytics/cl-cdi.js');
+  }
+  window.adobeDataLayer = window.adobeDataLayer || [];
   const loginStatus = window.sessionStorage.getItem('loginStatus') === 'logY' ? 'yes' : 'no';
-  window.adobeDataLayer.push({
+  const globalDLEvent = {
     event: 'globalDL',
     site: {
       country: 'glo',
@@ -468,9 +489,11 @@ async function initDataLayer() {
       type: 'visitor',
       loginStatus,
     },
-  });
+  };
+  window.adobeDataLayer.push(globalDLEvent);
+  dispatchDLEvent(globalDLEvent);
   const relpath = window.location.pathname.substring(1);
-  window.adobeDataLayer.push({
+  const pageViewEvent = {
     event: 'pageView',
     page: {
       country: 'glo',
@@ -485,8 +508,19 @@ async function initDataLayer() {
       type: 'visitor',
       loginStatus,
     },
-  });
+  };
+  window.adobeDataLayer.push(pageViewEvent);
+  dispatchDLEvent(pageViewEvent);
 }
 
-initDataLayer();
+async function loadPage() {
+  await loadEager(document);
+  await initDataLayer();
+  const cfEnabled = isCFEnabled();
+  if (cfEnabled) { await scheduleSolutionsLoad(); }
+  await loadLazy(document);
+  if (cfEnabled) { await scheduleAdobeDCLoad(); }
+  loadDelayed();
+}
+
 loadPage();

@@ -5,8 +5,8 @@ import {
 import ffetch from '../../scripts/ffetch.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import {
-  buildCardDisplayAuthor, fetchAuthorList, fetchTagList, formatDate,
-  lookupAuthors,
+  buildCardDisplayProfile, fetchProfiles, fetchTagList, formatDate,
+  lookupProfiles,
 } from '../../scripts/utils.js';
 
 function getFilter(pageTags) {
@@ -55,12 +55,12 @@ export default async function decorateBlock(block) {
     .all();
   const placeholders = await fetchPlaceholders();
   const tags = await fetchTagList();
-  const authorIndex = await fetchAuthorList();
+  const authorIndex = await fetchProfiles();
 
   const cardList = ul();
   articles.forEach((article) => {
-    const authors = lookupAuthors(article.author, authorIndex);
-    const displayAuthor = buildCardDisplayAuthor(authors);
+    const authors = lookupProfiles(article.author, authorIndex);
+    const displayAuthor = buildCardDisplayProfile(authors);
     const card = getPictureCard(
       article,
       placeholders,

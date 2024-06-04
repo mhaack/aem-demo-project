@@ -113,7 +113,7 @@ main {
     }
   }
 
-  [data-location="sidebar"] :is(.content-list, .article-collection) {
+  [data-location="sidebar"] :is(.content-list, .collection) {
     ul .card {
       grid-column: 1 / -1;
     }

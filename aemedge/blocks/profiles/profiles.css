@@ -1,5 +1,108 @@
-.profiles .profile {
-    .avatar {
-        border: none;
+.profiles {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: var(--udexGridGutters);
+
+    &>.plink {
+        text-decoration: none;
+
+        &:any-link,
+        &:visited,
+        &:hover,
+        &:focus {
+            color: inherit;
+        }
+    }
+}
+
+/* S: use 2 per row */
+@media (width >=640px) {
+    :is(.profiles):not(.stacked) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* M: use 2 per row */
+@media (width >=980px) {
+    :is(.profiles):not(.stacked) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    :is(.profiles).elems2:not(.stacked) {
+        grid-template-columns: 4fr 4fr 0.75fr;
+    }
+}
+
+/* L and XL: use 3 per row, unless there are two elements */
+@media (width >=1280px) {
+    :is(.profiles):not(.stacked) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    :is(.profiles).elems2:not(.stacked) {
+        grid-template-columns: 4fr 4fr 0.75fr;
+    }
+}
+
+.profile {
+    margin-top: var(--udexSpacer20);
+}
+
+.profile .link a {
+    font-size: var(--udexTypographyBodySFontSize);
+    padding-top: var(--udexSpacer4);
+    padding-bottom: var(--udexSpacer4);
+    text-decoration: none;
+}
+
+.profile .link a:hover {
+    text-decoration: underline;
+}
+
+.profile .link .icon img {
+    height: 12px;
+    width: 12px;
+    padding-left: 4px;
+}
+
+/* Use portrait view for S, M, L, XL if more than 1 */
+@media (width >=640px) {
+    :is(.profiles):not(.stacked) .profile.portrait {
+        height: 360px;
+        border: 1px solid var(--udexColorGrey2);
+        box-shadow: 0 2px 4px rgb(34 54 73 / 20%);
+        background-color: var(--background-color);
+        border-radius: var(--sapTile_BorderCornerRadius);
+        overflow: hidden;
+        position: relative;
+
+        &:hover {
+            border: 1px solid var(--udexColorBlue6);
+            ;
+            box-shadow: var(--sapContent_Shadow1);
+        }
+
+        &>div {
+            border: none;
+            box-shadow: none;
+            background: linear-gradient(to bottom,
+                    var(--udexColorBlue1) 0%,
+                    var(--udexColorBlue1) 110px,
+                    var(--udexColorNeutralWhite) 111px);
+            flex-direction: column;
+            align-items: center;
+            padding-top: var(--udexSpacer32);
+        }
+
+        & p {
+            text-align: center;
+        }
+
+        & h2 {
+            text-align: center;
+            font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+        }
     }
 }

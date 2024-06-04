@@ -4,13 +4,14 @@ import {
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 import {
-  fetchAuthorList,
+  fetchProfiles,
   fetchTagList,
   formatDate,
   getAuthorMetadata,
   getContentType,
   getTagLink,
-  lookupAuthors,
+  lookupProfiles,
+  toTitleCase,
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
@@ -25,12 +26,11 @@ function calculateInitials(name) {
 }
 
 function buildAuthorEl(author) {
-  return a({ class: 'media-blend__author', href: author.path }, author.author);
+  return a({ class: 'media-blend__author', href: author.path }, author.name);
 }
 
 function decorateMetaInfo(authors) {
   const infoBlockWrapper = span({ class: 'media-blend__info-block' });
-
   if (authors.length > 0) {
     const authorEl = span({ class: 'media-blend__authors' });
     if (authors.length === 1) {
@@ -38,7 +38,7 @@ function decorateMetaInfo(authors) {
       if (avatarImage) {
         const avatar = document.createElement('udex-avatar');
         avatar.setAttribute('size', 'XS');
-        avatar.setAttribute('initials', calculateInitials(authors[0].author));
+        avatar.setAttribute('initials', calculateInitials(authors[0].name));
         avatar.setAttribute('color-scheme', 'Neutral');
         avatar.append(avatarImage.querySelector('img'));
         infoBlockWrapper.prepend(avatar);
@@ -88,7 +88,14 @@ function replacePlaceholderText(elem, tags) {
       }
     });
     elem.innerHTML = elem.innerHTML.replace('[page]', h1TitleTag?.label || '');
-    elem.innerHTML = elem.innerHTML.replace('[author]', getMetadata('author') || '');
+    let author = getMetadata('author');
+    if (!author) {
+      const path = window.location.pathname;
+      if (path.startsWith('/author/')) {
+        author = toTitleCase(path.replace('/author/', ''));
+      }
+    }
+    elem.innerHTML = elem.innerHTML.replace('[author]', author || '');
   }
   return elem;
 }
@@ -225,8 +232,8 @@ export default async function decorate(block) {
     if (getMetadata('author')) {
       await import('@udex/webcomponents/dist/Avatar.js');
     }
-    const authorIndex = await fetchAuthorList();
-    const authors = await lookupAuthors(getAuthorMetadata(), authorIndex);
+    const authorIndex = await fetchProfiles();
+    const authors = await lookupProfiles(getAuthorMetadata(), authorIndex);
     contentSlot.append(decorateMetaInfo(authors));
   }
 

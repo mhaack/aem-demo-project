@@ -73,6 +73,7 @@
 
 .promo h2 {
   font-size: var(--udexTypographyHeadingMediumXSFontSize);
+  font-weight: var(--udexTypographyFontWeightMedium);
   text-align: left;
   margin: 0 0 var(--udexSpacer8);
 }

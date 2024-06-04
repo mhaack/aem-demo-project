@@ -32,3 +32,22 @@
     order: unset;
   }
 }
+
+.design-system {
+  & .columns.blue-links {
+    --sapLinkColorBlue: #0064D9;
+
+    & ul {
+      padding: 0;
+
+      & li {
+        list-style-type: none;
+      }
+    }
+
+    & a {
+      color: var(--sapLinkColorBlue);
+      text-decoration: none;
+    }
+  }
+}

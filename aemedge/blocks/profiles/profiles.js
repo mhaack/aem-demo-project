@@ -1,18 +1,59 @@
-import Profile from '../../libs/profile/profile.js';
+import { a, div } from '../../scripts/dom-builder.js';
+import { fetchProfiles, getAuthorMetadata, lookupProfiles } from '../../scripts/utils.js';
+import Avatar from '../../libs/avatar/avatar.js';
+import { getMetadata, fetchPlaceholders, toCamelCase } from '../../scripts/aem.js';
 
-export default function decorate(block) {
-  const multipleProfiles = block.children.length > 1;
-  [...block.children].forEach((profileEl) => {
-    const name = profileEl.querySelector('div:nth-child(1) h2').textContent || '';
-    const description = profileEl.querySelector('div:nth-child(1) p')?.textContent || '';
-    const image = profileEl.querySelector('div:nth-child(2) img');
-    block.append(new Profile(name, name, description, '', image.src)
-      .render(false, multipleProfiles));
-    profileEl.remove();
-  });
-  if (multipleProfiles) {
-    block.classList.add(`elems${block.children.length}`);
+function renderProfiles(block, profiles, linkText, stacked = false) {
+  if (profiles && profiles.length) {
+    const multipleProfiles = profiles.length > 1;
+    const portraitMode = multipleProfiles && !stacked;
+    profiles.forEach((profile) => {
+      const renderLink = profile.path && profile.path.indexOf('/people/') === -1;
+      const cardContent = div(
+        { class: portraitMode ? 'profile portrait' : 'profile' },
+        new Avatar(
+          profile.name,
+          profile.title,
+          profile.description,
+          renderLink ? profile.path : '',
+          profile.image,
+          portraitMode,
+        ).renderDetails(portraitMode ? 'flexible-big' : '', false, linkText),
+      );
+
+      if (renderLink) {
+        block.append(a({ class: 'plink', href: profile.path, 'aria-label': 'Read more' }, cardContent));
+      } else {
+        block.append(cardContent);
+      }
+    });
+    if (multipleProfiles && !stacked) {
+      block.classList.add(`elems${profiles.length}`);
+    } else {
+      block.classList.add('stacked');
+    }
   } else {
-    block.classList.add('vertical');
+    block.parentNode.remove();
   }
+}
+
+export default async function decorateBlock(block) {
+  let keys = [];
+  // use configured profile links
+  block.querySelectorAll('a').forEach((link) => {
+    keys.push(new URL(link.href).pathname);
+  });
+
+  // use author metadata if no links are configured (on L3 pages)
+  if (!keys.length) {
+    keys = getAuthorMetadata();
+  }
+  block.innerHTML = '';
+
+  const stackedLayout = getMetadata('template') === 'article';
+  const profileIndex = await fetchProfiles();
+  const profiles = lookupProfiles(keys, profileIndex);
+  const placeholders = await fetchPlaceholders();
+  const linkText = placeholders[toCamelCase('Profile Link')] || 'Link';
+  renderProfiles(block, profiles, linkText, stackedLayout);
 }

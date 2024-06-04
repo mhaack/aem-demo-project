@@ -125,7 +125,7 @@ function getTagLink(tag, path) {
  * Author related helper functions
  */
 function buildAuthorUrl(author) {
-  return `/author/${toClassName(author.trim()).replaceAll('-', '')}`;
+  return `/author/${toClassName(author.trim())}`;
 }
 
 function getAuthorMetadata(doc) {
@@ -140,22 +140,22 @@ function getAuthorMetadata(doc) {
   return authorNames;
 }
 
-function buildCardDisplayAuthor(authors) {
-  if (!authors || authors.length === 0) {
+function buildCardDisplayProfile(profiles) {
+  if (!profiles || profiles.length === 0) {
     return null;
   }
-  if (authors.length === 1) {
-    return authors[0];
+  if (profiles.length === 1) {
+    return profiles[0];
   }
-  const firstAuthor = { ...authors[0] };
-  firstAuthor.author = `${firstAuthor.author} + more`;
-  return firstAuthor;
+  const firstProfile = { ...profiles[0] };
+  firstProfile.name = `${firstProfile.name} + more`;
+  return firstProfile;
 }
 
-async function fetchAuthorList() {
+async function fetchProfiles() {
   return ffetch(
-    `${window.hlx.codeBasePath}/authors-index.json`,
-    'sapContentHubAuthorEntries',
+    `${window.hlx.codeBasePath}/profiles-index.json`,
+    'sapContentHubProfilesEntries',
   ).all();
 }
 
@@ -164,31 +164,31 @@ async function fetchAuthorList() {
  * @param {string|string[]} authors - The author name(s) to fetch information for.
  * @returns {Promise<Object[]>} - A promise that resolves to an array of author objects.
  */
-function lookupAuthors(authorsKeys, authorIndex) {
+function lookupProfiles(profilesKeys, profileIndex) {
   if (
-    !authorsKeys
-    || authorsKeys === '0'
-    || (Array.isArray(authorsKeys) && authorsKeys.length === 1 && authorsKeys[0] === '')
+    !profilesKeys
+    || profilesKeys === '0'
+    || (Array.isArray(profilesKeys) && profilesKeys.length === 1 && profilesKeys[0] === '')
   ) {
     return [];
   }
 
-  const authorKeys = Array.isArray(authorsKeys)
-    ? authorsKeys
-    : authorsKeys.match(authorTitleRegex).map((match) => match.trim());
-  return authorKeys.map((authorName) => {
-    const cachedAuthor = sessionStorage.getItem(`author-${toClassName(authorName)}`);
-    let authorEntry = cachedAuthor ? JSON.parse(cachedAuthor) : null;
-    if (!authorEntry) {
-      [authorEntry] = authorIndex.filter(
-        (entry) => entry.author === authorName || entry.path === authorName,
+  const profileKeys = Array.isArray(profilesKeys)
+    ? profilesKeys
+    : profilesKeys.match(authorTitleRegex).map((match) => match.trim());
+  return profileKeys.map((profileName) => {
+    const cachedProfile = sessionStorage.getItem(`profile-${toClassName(profileName)}`);
+    let profileEntry = cachedProfile ? JSON.parse(cachedProfile) : null;
+    if (!profileEntry) {
+      [profileEntry] = profileIndex.filter(
+        (entry) => entry.name === profileName || entry.path === profileName,
       );
-      if (!authorEntry) {
-        authorEntry = { author: authorName, path: buildAuthorUrl(authorName) };
+      if (!profileEntry) {
+        profileEntry = { name: profileName, path: buildAuthorUrl(profileName) };
       }
-      sessionStorage.setItem(`author-${toClassName(authorName)}`, JSON.stringify(authorEntry));
+      sessionStorage.setItem(`profile-${toClassName(profileName)}`, JSON.stringify(profileEntry));
     }
-    return authorEntry;
+    return profileEntry;
   });
 }
 
@@ -209,11 +209,11 @@ function convertStringToKebabCase(str) {
 
 export {
   buildAuthorUrl,
-  buildCardDisplayAuthor,
+  buildCardDisplayProfile,
   containerize,
   convertStringToKebabCase,
   extractFieldValue,
-  fetchAuthorList,
+  fetchProfiles,
   fetchPages,
   fetchTagList,
   formatDate,
@@ -223,6 +223,6 @@ export {
   getContentTypeFromArticle,
   getParameterMap,
   getTagLink,
-  lookupAuthors,
+  lookupProfiles,
   toTitleCase,
 };

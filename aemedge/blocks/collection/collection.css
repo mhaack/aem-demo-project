@@ -1,4 +1,4 @@
-.article-collection {
+.collection {
     display: grid;
     gap: var(--udexSpacer16);
 
@@ -37,6 +37,6 @@
     }
 }
 
-.article-collection-wrapper:not(:last-child) {
+.collection-wrapper:not(:last-child) {
     margin-bottom: var(--udexSpacer56);
 }

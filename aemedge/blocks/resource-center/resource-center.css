@@ -1,5 +1,16 @@
-.article-list {
-  container: article-list / inline-size;
+.resource-center {
+  container: resource-center / inline-size;
+  display: flex;
+  flex-direction: column;
+  gap: var(--udexGridGutters);
+
+  & > .button-wrapper {
+    align-self: center;
+
+    & img {
+      rotate: 90deg;
+    }
+  }
 
   & .heading {
     grid-column: 1 / -1;
@@ -51,10 +62,14 @@
         }
       }
     }
+
+    & .pages {
+      grid-column: 1 / -1;
+    }
   }
 }
 
-body.hub-l2 .content-list {
+body.hub-l2 .resource-center {
   @media (width >= 980px) {
     ul {
       /* Restrict columns to 3 when sidebar is present, i.e. L2 pages */
@@ -67,34 +82,34 @@ body.hub-l2 .content-list {
   }
 }
 
-@container content-list (240px < width < 480px) {
-  .content-list.text-only ul .card {
+@container resource-center (240px < width < 480px) {
+  .resource-center.text-only ul .card {
     grid-column: 1 / -1;
   }
 }
 
-@container content-list (width >= 640px) {
-  .content-list ul {
+@container resource-center (width >= 640px) {
+  .resource-center ul {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .content-list.wide ul {
+  .resource-center.wide ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@container content-list (width >= 980px) {
-  .content-list ul {
+@container resource-center (width >= 980px) {
+  .resource-center ul {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .content-list.wide ul {
+  .resource-center.wide ul {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 :is(.background-light, .background-dark):has(
-    .content-list-wrapper:first-child
+    .resource-center-wrapper:first-child
   ) {
   padding-block-start: var(--udexSpacer56);
 }
