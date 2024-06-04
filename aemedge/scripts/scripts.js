@@ -187,6 +187,21 @@ function decorateImageLinks(main) {
 }
 
 /**
+ * Decorates external links to make them open in new browser window.
+ * @param {HTMLElement} main - The container element to search for links.
+ */
+function decorateExternalLinks(main) {
+  main.querySelectorAll('a').forEach((link) => {
+    const isPdfLink = link.href?.includes('.pdf');
+    const isExternalLink = !link.href?.startsWith(window.location.origin);
+    if (isExternalLink || isPdfLink) {
+      link.rel = 'noopener noreferrer';
+      link.target = '_blank';
+    }
+  });
+}
+
+/**
  * Decorates fragment links, replacing them with a placeholder,
  * which is processed later in decorateFragments.
  * This separate step ensures that the fragment links do not become buttons in decorateButtons
@@ -245,6 +260,7 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
   decorateButtons(main);
   decorateIcons(main);
   decorateImageLinks(main);
+  decorateExternalLinks(main);
   if (shouldDecorateTemplates) {
     await decorateTemplates(main);
   }
