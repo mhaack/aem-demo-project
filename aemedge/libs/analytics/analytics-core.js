@@ -49,13 +49,13 @@ async function scheduleSolutionsLoad() {
   window.setTimeout(() => {
     document.addEventListener('cc-initialized', () => {
       if (window.isConsentEnabled('omtrdc.net', 1)) {
-        import('../../dist/analytics/solutions/6s.js');
+        import('./solutions/6s.js');
       }
     });
     (async () => {
       await setCountry();
-      import('../../dist/analytics/solutions/ta.js');
-      import('../../dist/analytics/solutions/cc.js');
+      import('./solutions/ta.js');
+      import('./solutions/cc.js');
     })();
   }, delayMs);
 }

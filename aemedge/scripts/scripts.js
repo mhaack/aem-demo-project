@@ -472,7 +472,7 @@ function dispatchDLEvent(event) {
 }
 
 async function initDataLayer() {
-  await loadScript('/aemedge/dist/analytics/dl/acdl.min.js');
+  await loadScript('/aemedge/libs/analytics/dl/acdl.min.js');
   if (isCLEnabled()) {
     await import('../libs/analytics/cl-aa.js');
     await import('../libs/analytics/cl-cdi.js');
