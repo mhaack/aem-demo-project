@@ -36,5 +36,21 @@ export default function decorate(block) {
     );
     row.replaceWith(details);
   });
+
+  // Accordion bulk-toggle functionality
+  const hasExpandAll = block.classList.contains('expand-all');
+  if (hasExpandAll) {
+    const expandAll = p({ class: 'expand' }, 'Expand all');
+    block.parentElement.prepend(expandAll);
+
+    expandAll.addEventListener('click', () => {
+      const isExpanded = expandAll.textContent === 'Collapse all';
+      expandAll.textContent = isExpanded ? 'Expand all' : 'Collapse all';
+      block.querySelectorAll('details').forEach((details) => {
+        details.open = !isExpanded;
+      });
+    });
+  }
+
   decorateIcons(block);
 }
