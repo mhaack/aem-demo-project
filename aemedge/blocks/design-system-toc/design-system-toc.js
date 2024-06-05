@@ -115,8 +115,37 @@ function createToc(dataName, h2s) {
   return list;
 }
 
+/**
+ * Retrieves the current hash value from the URL.
+ * @returns {string} The current hash value.
+ */
+function getCurrentHash() {
+  const sections = document.querySelectorAll('.section[data-name]');
+  const dataNames = getDataNames(sections);
+  const tocLists = createDsTocList(dataNames);
+  const hashExists = dataNames.includes(window.location.hash.substring(1));
+  let currentHash = '';
+
+  if (!hashExists) {
+    tocLists.some((list) => {
+      const [dataName, h2s] = Object.entries(list)[0];
+      return h2s.some((h2) => {
+        if (h2.id === window.location.hash.substring(1)) {
+          currentHash = dataName;
+          return true;
+        }
+        return false;
+      });
+    });
+  } else {
+    currentHash = window.location.hash.substring(1);
+  }
+
+  return currentHash;
+}
+
 function updateToc(lists) {
-  const currentHash = window.location.hash.substring(1);
+  const currentHash = getCurrentHash();
 
   lists.forEach((list) => {
     const listDataName = list.getAttribute('data-toc-list');
