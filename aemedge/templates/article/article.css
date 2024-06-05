@@ -19,9 +19,14 @@ main > .section:not(.fragment-container) {
 }
 
 /* Article paragraph spacing */
-.article p {
-  margin-top: 18px; /* no design, assumption */
-  margin-bottom: 18px; /* no design, assumption */
+.article {
+  & p {
+    margin-block-start: var(--udexSpacer20);
+  }
+
+  & h3 + p {
+     margin-block-start: var(--udexSpacer8);
+  }
 }
 
 @media (width >= 1600px) {
@@ -158,6 +163,19 @@ main {
   [data-location="sidebar"] :is(.content-list, .collection) {
     ul .card {
       grid-column: 1 / -1;
+    }
+  }
+
+  & > .section > .default-content-wrapper > h2 {
+    font-size: var(--udexTypographyHeadingMediumXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+
+    @media (width >= 980px) {
+    font-size: var(--udexTypographyHeadingMediumSFontSize);
+    }
+
+    @media (width >= 1280px) {
+    font-size: var(--udexTypographyHeadingMediumMFontSize);
     }
   }
 }

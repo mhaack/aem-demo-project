@@ -33,6 +33,7 @@ main > .section:not(.fragment-container) {
 
     h2 + p {
       font-size: var(--udexTypographyBodyMFontSize);
+      margin-top: 16px;
     }
   }
 
@@ -136,6 +137,19 @@ main > .section:not(.fragment-container) {
       & > .hero-container + .section {
         padding-block-start: var(--udexSpacer84);
       }
+    }
+
+    & > .section > .default-content-wrapper > h2 {
+       font-size: var(--udexTypographyHeadingMediumXSFontSize);
+       font-weight: var(--udexTypographyFontWeightMedium);
+
+       @media (width >= 980px) {
+        font-size: var(--udexTypographyHeadingMediumSFontSize);
+       }
+
+       @media (width >= 1280px) {
+        font-size: var(--udexTypographyHeadingMediumMFontSize);
+       }
     }
   }
 
