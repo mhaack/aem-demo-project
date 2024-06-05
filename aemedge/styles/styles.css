@@ -385,6 +385,13 @@ main .button-container {
   }
 }
 
+main .section.transpose-columns {
+  &.column-section-1-1 {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
 main .section.background-dark .button-container {
   :is(.button) {
     &:any-link {
@@ -626,6 +633,23 @@ main img {
 
 .fragment-container .section:last-of-type {
   padding-bottom: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+body main .section {
+  &.no-footprint {
+    border-bottom: none;
+    padding-block: 0 !important;
+
+    & + .section {
+      padding-block-start: 0;
+    }
+  }
+
+  &:has(+ &.no-footprint) {
+    border-bottom: none;
+    padding-block-end: 0;
+  }
 }
 
 .hero-text-white-wrapper,
