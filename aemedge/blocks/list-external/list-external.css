@@ -24,10 +24,6 @@
       & {
         grid-column: span 4;
       }
-
-      &:has(div:nth-child(1) img) {
-        grid-column: span 3;
-      }
     }
 
     & p {
@@ -35,24 +31,13 @@
       padding: 0;
     }
 
-    /* Image + Headline */
+    /* Headline */
     & > div:nth-child(1) {
       /* Headline (in `p`) */
       & p {
         font-size: var(--udexTypographyHeadingMediumXXSFontSize);
         font-weight: var(--udexTypographyFontWeightMedium);
         line-height: var(--udexTypographyHeadingLineHeight);
-      }
-
-      /* Image */
-      & picture {
-        display: block;
-        margin-bottom: var(--udexSpacer20);
-      }
-
-      & img {
-        display: block;
-        width: 100%;
       }
     }
 
@@ -112,12 +97,6 @@
           }
         }
       }
-    }
-
-    &:has(div:nth-child(1) img) > div:nth-child(2) {
-      border-bottom: none;
-      margin-top: var(--udexSpacer20);
-      padding-bottom: 0;
     }
   }
 
