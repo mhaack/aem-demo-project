@@ -14,17 +14,6 @@ function getEnvType(hostname = window.location.hostname) {
   return fqdnToEnvType[hostname] || (hostname.includes(suffixToEnvType) ? 'stage' : 'dev');
 }
 
-function getScope(path = window.location.pathname) {
-  if (path.startsWith('/news/')
-    || (path.startsWith('/blogs/') && getMetadata('article:tag')?.includes('content-type/executive-blog'))) {
-    return 'ch_mvp';
-  }
-  if (path.startsWith('/design-system/')) {
-    return 'ds'; // return null if internal
-  }
-  return 'ch_full';
-}
-
 function isCFEnabled() {
   const trackingFlag = getMetadata('tracking');
   return trackingFlag !== 'consentless only' && trackingFlag !== 'off'; // default: enabled
@@ -65,5 +54,4 @@ export {
   isCFEnabled,
   isCLEnabled,
   getEnvType,
-  getScope,
 };
