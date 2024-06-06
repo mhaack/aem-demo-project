@@ -89,7 +89,7 @@ function getPathFilter(entry, author, matchedPathTags) {
     return authorNames.includes(path.replace('/author/', ''));
   }
   // check if location match is valid tag /topics/.* or /news/.*
-  if (path.match(/\/topics\/.*|\/news\/.*/) && matchedPathTags) {
+  if (path.match(/\/topics\/.*|\/news\/.*/) && matchedPathTags && matchedPathTags.length > 0) {
     return matchedPathTags.some((tag) => entry.tags.includes(tag.key));
   }
   return true;
