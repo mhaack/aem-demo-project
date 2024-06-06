@@ -2,7 +2,7 @@
   margin: 0
 }
 
-.accordion details {
+.accordion details:not([open]) {
   border-bottom: 1px solid var(--udexColorGrey3);
   width: 100%
 }
@@ -19,6 +19,11 @@
   font-weight: var(--udexTypographyFontWeightMedium);
   box-sizing: border-box;
   width: 100%;
+}
+
+.accordion details[open] summary {
+  border-bottom: 1px solid var(--udexColorGrey3);
+  width: 100%
 }
 
 .accordion .accordion-arrow {
