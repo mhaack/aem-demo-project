@@ -236,7 +236,7 @@ function getMonthRange(startDate, endDate) {
 }
 
 function getFilterConfig(block, tags) {
-  const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info'];
+  const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info', 'page-size'];
   const editorConfig = {};
   const userConfig = [];
   Object.entries(readBlockConfig(block)).forEach(([key, value]) => {
@@ -288,11 +288,12 @@ export default async function decorateBlock(block) {
   block.textContent = '';
   let filters;
   let pages;
+  const pageSize = Number(editorConfig['page-size']) || 6;
   const placeholders = await fetchPlaceholders();
   const profilesIndex = await fetchProfiles();
   const urlParams = new URLSearchParams(window.location.search);
   const page = +urlParams.get('page') || 1;
-  const articleStream = await getArticles(tags, editorConfig, page);
+  const articleStream = await getArticles(tags, editorConfig, page, pageSize);
   const cursor = await articleStream.next();
   const cardList = renderCards(
     cursor.value.results,
@@ -302,13 +303,14 @@ export default async function decorateBlock(block) {
     textOnly,
     carousel,
   );
-  if (userConfig.length > 0 && !carousel) {
+  const totalMoreThanPageSize = cursor.value?.total && cursor.value?.total > pageSize;
+  if (userConfig.length > 0 && !carousel && totalMoreThanPageSize) {
     filters = new Filters(userConfig, placeholders);
     block.append(filters.render());
     filters.updateResults(cursor.value.total);
   }
   block.append(cardList);
-  if (!carousel && cursor.value.pages > 1 && cursor.value.pages <= 2 && userConfig.length === 0) {
+  if (!carousel && cursor.value.pages > 1 && cursor.value.pages <= 2 && userConfig.length === 0 && totalMoreThanPageSize) {
     const btnLabel = placeholders.showMore || 'Show More';
     const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', 'large').render();
     viewBtn.addEventListener('click', () => {
@@ -331,7 +333,7 @@ export default async function decorateBlock(block) {
     });
     block.append(viewBtn);
   }
-  if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0)) {
+  if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0) && totalMoreThanPageSize) {
     pages = new Pages(block, cursor.value.pages, page);
     pages.render();
   }
