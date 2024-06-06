@@ -1,7 +1,32 @@
+main .section {
+  padding-block: var(--section-spacing-vertical);
+
+  &:first-child {
+    padding-block-start: 0;
+  }
+}
+
+main > .section:not(.fragment-container) {
+  & > :first-child {
+    margin-block-start: 0;
+  }
+
+  & > .default-content-wrapper:first-child {
+    & :first-child {
+      margin-block-start: 0;
+    }
+  }
+}
+
 /* Article paragraph spacing */
-.article p {
-  margin-top: 18px; /* no design, assumption */
-  margin-bottom: 18px; /* no design, assumption */
+.article {
+  & p {
+    margin-block-start: var(--udexSpacer20);
+  }
+
+  & h3 + p {
+     margin-block-start: var(--udexSpacer8);
+  }
 }
 
 @media (width >= 1600px) {
@@ -16,6 +41,22 @@ main {
   grid-auto-flow: row;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   margin-inline: var(--udexGridMargins);
+
+  & > :first-child {
+    padding-block-start: 0;
+  }
+
+  & > :last-child {
+    padding-block-end: var(--udexSpacer56);
+
+    @media (width >= 980px){
+      padding-block-end: var(--udexSpacer64);
+    }
+
+    @media (width >= 1280px){
+      padding-block-end: var(--udexSpacer84);
+    }
+  }
 
   & > * {
     grid-column: 1 / -1;
@@ -64,7 +105,7 @@ main {
     > .hero-container + .section,
     > .toc-container + .section,
     > .hero-container ~ [data-location='sidebar'] {
-      padding-block-start: var(--udexSpacer84);
+      padding-block-start: var(--udexSpacer64);
     }
 
     &
@@ -77,12 +118,10 @@ main {
           )
       ) {
       grid-column: 1 / 9;
-      padding-block-end: 56px;
     }
 
     & > [data-location='document-footer'] {
       grid-column: 1 / -1;
-      padding-block-end: 84px;
     }
 
     &:has(.toc-container) {
@@ -113,9 +152,30 @@ main {
     }
   }
 
+  @media (width >= 1280px) {
+    > .hero-container + .section,
+    > .toc-container + .section,
+    > .hero-container ~ [data-location='sidebar'] {
+      padding-block-start: var(--udexSpacer84);
+    }
+  }
+
   [data-location="sidebar"] :is(.content-list, .collection) {
     ul .card {
       grid-column: 1 / -1;
+    }
+  }
+
+  & > .section > .default-content-wrapper > h2 {
+    font-size: var(--udexTypographyHeadingMediumXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+
+    @media (width >= 980px) {
+    font-size: var(--udexTypographyHeadingMediumSFontSize);
+    }
+
+    @media (width >= 1280px) {
+    font-size: var(--udexTypographyHeadingMediumMFontSize);
     }
   }
 }

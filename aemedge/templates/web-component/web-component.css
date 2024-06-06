@@ -131,13 +131,11 @@ html:has(.web-component) {
         padding-bottom: var(--udexSpacer40);
       }
 
-      .carousel-container {
-        &.section {
-          &.column-section {
-            @media (width >=980px) {
-              &.column-section-1-1 {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-              }
+      &.carousel-container {
+        &.column-section {
+          @media (width >= 980px) {
+            &.column-section-1-1 {
+              grid-template-columns: repeat(2, minmax(0, 1fr));
             }
           }
         }

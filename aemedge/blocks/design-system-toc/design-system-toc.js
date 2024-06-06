@@ -9,21 +9,23 @@ import {
  */
 function createDsTocList(dataNames) {
   const tocLists = [];
-  dataNames.forEach((dataName) => {
-    const h2Elements = document.querySelectorAll(`.section[data-name="${dataName}"] h2`);
-    const h2Arr = [];
-    h2Elements.forEach((h2) => {
-      const h2Id = h2.getAttribute('id');
-      const h2Text = h2.textContent;
-      h2Arr.push({
-        id: h2Id,
-        text: h2Text,
-      });
-    });
 
-    tocLists.push({
-      [dataName]: h2Arr,
-    });
+  const processH2Elements = (selector) => {
+    const h2Elements = document.querySelectorAll(selector);
+    const h2Arr = Array.from(h2Elements).map((h2) => ({
+      id: h2.getAttribute('id'),
+      text: h2.textContent,
+    }));
+    return h2Arr;
+  };
+
+  if (dataNames.length === 0) {
+    tocLists.push({ default: processH2Elements('h2') });
+  }
+
+  dataNames.forEach((dataName) => {
+    const selector = `.section[data-name="${dataName}"] h2`;
+    tocLists.push({ [dataName]: processH2Elements(selector) });
   });
 
   return tocLists;
@@ -38,7 +40,9 @@ function getDataNames(sections) {
   let dataNames = [];
   sections.forEach((section) => {
     const dataName = section.getAttribute('data-name');
-    dataNames.push(dataName);
+    if (dataName) {
+      dataNames.push(dataName);
+    }
   });
 
   // Remove the duplicates
@@ -111,8 +115,37 @@ function createToc(dataName, h2s) {
   return list;
 }
 
+/**
+ * Retrieves the current hash value from the URL.
+ * @returns {string} The current hash value.
+ */
+function getCurrentHash() {
+  const sections = document.querySelectorAll('.section[data-name]');
+  const dataNames = getDataNames(sections);
+  const tocLists = createDsTocList(dataNames);
+  const hashExists = dataNames.includes(window.location.hash.substring(1));
+  let currentHash = '';
+
+  if (!hashExists) {
+    tocLists.some((list) => {
+      const [dataName, h2s] = Object.entries(list)[0];
+      return h2s.some((h2) => {
+        if (h2.id === window.location.hash.substring(1)) {
+          currentHash = dataName;
+          return true;
+        }
+        return false;
+      });
+    });
+  } else {
+    currentHash = window.location.hash.substring(1);
+  }
+
+  return currentHash;
+}
+
 function updateToc(lists) {
-  const currentHash = window.location.hash.substring(1);
+  const currentHash = getCurrentHash();
 
   lists.forEach((list) => {
     const listDataName = list.getAttribute('data-toc-list');
@@ -155,7 +188,10 @@ export default async function decorate(block) {
     class: 'ds-toc-heading',
   }, 'On this page'));
 
-  const sections = document.querySelectorAll('.section[data-name]');
+  let sections = document.querySelectorAll('.section[data-name]');
+  if (sections.length === 0) {
+    sections = document.querySelectorAll('h2');
+  }
   const dataNames = getDataNames(sections);
   const tocLists = createDsTocList(dataNames);
 

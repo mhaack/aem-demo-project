@@ -80,7 +80,7 @@ function getEditorFilter(config) {
   return (entry) => matchTags(entry, config) && matchAuthors(entry, config) && matchContentType(entry, config);
 }
 
-function getPathFilter(entry, author, matchedPathTag) {
+function getPathFilter(entry, author, matchedPathTags) {
   const path = window.location.pathname;
   if (path.startsWith('/author/')) {
     if (!entry.author || entry.author === '0') return false;
@@ -89,8 +89,8 @@ function getPathFilter(entry, author, matchedPathTag) {
     return authorNames.includes(path.replace('/author/', ''));
   }
   // check if location match is valid tag /topics/.* or /news/.*
-  if (path.match(/\/topics\/.*|\/news\/.*/) && matchedPathTag) {
-    return entry.tags.includes(matchedPathTag.key);
+  if (path.match(/\/topics\/.*|\/news\/.*/) && matchedPathTags && matchedPathTags.length > 0) {
+    return matchedPathTags.some((tag) => entry.tags.includes(tag.key));
   }
   return true;
 }
@@ -126,11 +126,11 @@ async function getArticles(tags, editorConfig, startPage = 1, batchSize = 6) {
   if (path.startsWith('/author/')) {
     author = getMetadata('name');
   }
-  const matchedPathTag = Object.values(tags).find(
+  const matchedPathTags = Object.values(tags).filter(
     (tag) => path === tag['topic-path'] || path === tag['news-path'],
   );
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
-    .filter((entry) => getPathFilter(entry, author, matchedPathTag))
+    .filter((entry) => getPathFilter(entry, author, matchedPathTags))
     .filter(getEditorFilter(editorConfig))
     .filter(getUserFilter(params))
     .limit(editorConfig.limit ? +editorConfig.limit[0] : -1)
@@ -241,7 +241,7 @@ function getFilterConfig(block, tags) {
   const userConfig = [];
   Object.entries(readBlockConfig(block)).forEach(([key, value]) => {
     if (configKeys.includes(key)) {
-      editorConfig[key] = value.split(',');
+      editorConfig[key] = value.split(',').map((v) => v.trim());
       return;
     }
     if (key === 'date-range') {

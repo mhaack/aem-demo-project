@@ -118,6 +118,7 @@ body {
   --nav-secondary-height-large-screens: 60px;
   --nav-secondary-height: var(--nav-secondary-height-small-screens);
   --nav-height: var(--nav-primary-height);
+  --section-spacing-vertical: var(--udexSpacer40);
 
   font-family: var(--sapFontFamily);
   font-size: var(--udexTypographyBodySFontSize);
@@ -139,6 +140,11 @@ body {
 
   @media (width >= 980px) {
     --nav-secondary-height: var(--nav-secondary-height-large-screens);
+    --section-spacing-vertical: var(--udexSpacer48);
+  }
+
+  @media (width >= 1280px) {
+    --section-spacing-vertical: var(--udexSpacer56);
   }
 }
 
@@ -379,6 +385,13 @@ main .button-container {
   }
 }
 
+main .section.transpose-columns {
+  &.column-section-1-1 {
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
 main .section.background-dark .button-container {
   :is(.button) {
     &:any-link {
@@ -470,15 +483,17 @@ main img {
   left: 0;
 }
 
-main .section {
-  &.divider-top::before {
-    content: '';
-    box-shadow:
-      0 -2px 0 var(--udexColorNeutralWhite),
-      0 -3px 0 var(--udexCoreDividerLight),
-      0 -5px 0 var(--udexColorNeutralWhite);
-    display: block;
-    height: 5px;
+.section {
+  &.divider-top {
+    padding-block-start: 0;
+
+    &::before {
+      content: '';
+      background-color: var(--udexCoreDividerLight);
+      display: block;
+      height: 1px;
+      margin-block: 2px calc(2px + var(--section-spacing-vertical));
+    }
   }
 
   &.text-large {
@@ -608,8 +623,8 @@ main .section {
 
 /* Embedded sections within blocks */
 .fragment-container .section {
-  padding-left: 0;
-  padding-right: 0;
+  padding-inline: 0;
+  padding-block-end: 0;
 }
 
 .fragment-container .section:first-of-type {
@@ -618,6 +633,23 @@ main .section {
 
 .fragment-container .section:last-of-type {
   padding-bottom: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+body main .section {
+  &.no-footprint {
+    border-bottom: none;
+    padding-block: 0 !important;
+
+    & + .section {
+      padding-block-start: 0;
+    }
+  }
+
+  &:has(+ &.no-footprint) {
+    border-bottom: none;
+    padding-block-end: 0;
+  }
 }
 
 .hero-text-white-wrapper,

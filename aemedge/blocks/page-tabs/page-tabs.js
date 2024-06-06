@@ -99,7 +99,8 @@ export default async function decorate(block) {
   if (!tabExists) {
     const element = document.getElementById(id);
     if (element) {
-      activeTab = element.closest('.section')?.getAttribute('aria-labelledby');
+      activeTab = element.closest('.section')?.getAttribute('aria-labelledby')
+                  || element.closest('.section')?.getAttribute('data-name');
       element.scrollIntoView();
     } else {
       activeTab = namedSections[0].getAttribute('data-name');
