@@ -13,6 +13,10 @@ udex-hero-banner .hero-banner p {
   @media (width >= 1280px) {
     font-size: var(--udexTypographyBodyMFontSize);
   }
+
+  @media (width >= 1600px) {
+    font-size: var(--udexTypographyBodyLFontSize);
+  }
 }
 
 /* stylelint-disable selector-class-pattern */
@@ -151,8 +155,20 @@ udex-hero-banner .hero-banner.media-blend__content {
   justify-content: center;
 
   h1 {
-    font-size: var(--udexTypographyHeadingMediumLFontSize);
+    font-size: var(--udexTypographyHeadingMediumSFontSize);
     font-weight: var(--udexTypographyFontWeightMedium);
+
+    @media (width >= 980px) {
+      font-size: var(--udexTypographyHeadingMediumMFontSize);
+    }
+
+    @media (width >= 1280px) {
+      font-size: var(--udexTypographyHeadingMediumLFontSize);
+    }
+
+    @media (width >= 1600px) {
+      font-size: var(--udexTypographyHeadingMediumXXLFontSize);
+    }
   }
 
   > * {
