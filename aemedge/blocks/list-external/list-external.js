@@ -4,6 +4,11 @@ import ffetch from '../../scripts/ffetch.js';
 import Card from '../../libs/card/card.js';
 import Pages from '../../libs/pages/pages.js';
 
+function getBlockId() {
+  window.sapListExternalCount = window.sapListExternalCount ? window.sapListExternalCount + 1 : 1;
+  return `le-${window.sapListExternalCount}`;
+}
+
 /**
  * @param link {Element} The link element
  */
@@ -30,7 +35,7 @@ function decorateStatic(block) {
 function registerHandler(stream, block, pages) {
   block.addEventListener('sap:pageChange', (e) => {
     stream.next({ direction: e.detail.direction }).then((cursor) => {
-      document.querySelectorAll('.card').forEach((card) => card.remove());
+      block.querySelectorAll('.card').forEach((card) => card.remove());
       cursor.value.results.forEach((entry) => {
         const card = new Card(entry.Title, entry.URL, `Read Media on ${entry.Source}`, entry.Date);
         block.append(card.renderExternalCard(true));
@@ -41,6 +46,7 @@ function registerHandler(stream, block, pages) {
 }
 
 export default async function decorate(block) {
+  const id = getBlockId();
   const isDynamic = block.classList.contains('dynamic');
   if (!isDynamic) {
     decorateStatic(block);
@@ -49,8 +55,8 @@ export default async function decorate(block) {
   const config = readBlockConfig(block);
   block.textContent = '';
   const urlParams = new URLSearchParams(window.location.search);
-  const page = +urlParams.get('page') || 1;
-  const stream = await ffetch(config.source).paginate(config.limit || 6, page);
+  const page = +urlParams.get(`${id}-page`) || 1;
+  const stream = await ffetch(config.source, 'sapContentHubArticles').paginate(config.limit || 6, page);
   stream.next().then((cursor) => {
     cursor.value.results.forEach((entry) => {
       const linkTitle = entry.Source
@@ -60,7 +66,7 @@ export default async function decorate(block) {
       block.append(card.renderExternalCard(true));
     });
     if (cursor.value.pages > 1) {
-      const pages = new Pages(block, cursor.value.pages, page);
+      const pages = new Pages(block, cursor.value.pages, page, id);
       pages.render();
       registerHandler(stream, block, pages);
     }

@@ -6,11 +6,12 @@ import { loadCSS } from '../../scripts/aem.js';
 import Button from '../button/button.js';
 
 export default class Pages {
-  constructor(block, totalPages, currentPage = 1) {
+  constructor(block, totalPages, currentPage = 1, prefix = '') {
     this.block = block;
-    this.id = block.getAttribute('data-block-name');
+    this.id = prefix ? `${prefix}-${block.getAttribute('data-block-name')}` : block.getAttribute('data-block-name');
     this.totalPages = totalPages;
     this.currentPage = currentPage;
+    this.pageKey = prefix ? `${prefix}-page` : 'page';
   }
 
   getActionButton(icon, isDisabled) {
@@ -68,15 +69,17 @@ export default class Pages {
     if (!excludeStyles) {
       loadCSS(`${window.hlx.codeBasePath}/libs/pages/pages.css`);
     }
-    this.block.append(this.getElement());
+    const element = this.getElement();
+    this.block.append(element);
     this.block.addEventListener('sap:pageChange', (e) => {
       const url = new URL(window.location.href);
       const params = new URLSearchParams(url.search);
-      params.set('page', e.detail.current);
+      params.set(this.pageKey, e.detail.current);
       url.search = params.toString();
       window.history.pushState(null, null, url);
       this.block.querySelector('.pages').remove();
       this.block.append(this.getElement());
     });
+    return element;
   }
 }

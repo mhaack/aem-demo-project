@@ -1,15 +1,16 @@
 /* eslint-disable class-methods-use-this */
-import { section, div } from '../../scripts/dom-builder.js';
-import { loadCSS } from '../../scripts/aem.js';
+import { div, section } from '../../scripts/dom-builder.js';
+import { loadCSS, toClassName } from '../../scripts/aem.js';
 import { getParameterMap } from '../../scripts/utils.js';
 import Menu from '../menu/menu.js';
 import Tag from '../tag/tag.js';
 
 export default class Filters {
-  constructor(filters, placeholders, nonFilterParams) {
+  constructor(filters, placeholders, nonFilterParams, id) {
     this.filters = filters || [];
     this.placeholders = placeholders || {};
     this.nonFilterParams = nonFilterParams || ['page', 'sort', 'order', 'limit'];
+    this.id = id;
   }
 
   registerHandler(filter, dialog) {
@@ -43,7 +44,9 @@ export default class Filters {
         },
       };
     });
-    return [...getParameterMap().values()]
+    return [...getParameterMap().entries()]
+      .filter(([key]) => key.startsWith(this.id))
+      .map(([, value]) => value)
       .map((value) => value.map((tag) => {
         if (!tagMap[tag]) return null;
         return new Tag(tagMap[tag].name, tag, tagMap[tag].category);
@@ -88,7 +91,7 @@ export default class Filters {
     const resultsPanel = div({ class: 'results-panel' }, noResultLabel);
     this.filters.forEach((filter) => {
       if (filter.items.length === 0) return;
-      const filterMenu = new Menu(filter.name, filter.items).render();
+      const filterMenu = new Menu(filter.name, filter.items, `${this.id}-${toClassName(filter.name)}`).render();
       filterPanel.append(filterMenu);
       this.registerHandler(filterMenu, tagsPanel);
     });
@@ -96,9 +99,8 @@ export default class Filters {
     return section({ class: 'filters' }, filterPanel, resultsPanel, tagsPanel);
   }
 
-  updateResults(count) {
-    const resultsPanel = document.querySelector('.results-panel');
-    const resultLabel = count === 0 ? this.placeholders.noResults || 'No results found' : `${count} results`;
-    resultsPanel.textContent = resultLabel;
+  updateResults(block, count) {
+    const resultsPanel = block.querySelector('.results-panel');
+    resultsPanel.textContent = count === 0 ? this.placeholders.noResults || 'No results found' : `${count} results`;
   }
 }
