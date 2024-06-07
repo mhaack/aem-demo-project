@@ -342,10 +342,6 @@
     min-width: 228px;
     flex: 0 0 31%;
   }
-
-  .design-system .carousel .carousel-slide .carousel-slide-image picture > img {
-    object-fit: contain;
-  }
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
@@ -380,7 +376,12 @@
       display: flex;
     }
 
+    & .carousel-slides {
+      min-height: unset;
+    }
+
     & .carousel-slide {
+      min-height: unset;
       border-radius: 0;
       box-shadow: none;
       flex: 0 0 100%;
@@ -393,6 +394,7 @@
 
     & .carousel-slide .carousel-slide-image picture > img {
       border-radius: 0;
+      aspect-ratio: unset;
     }
   }
-}
+} 
