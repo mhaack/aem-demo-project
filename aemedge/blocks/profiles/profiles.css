@@ -103,3 +103,49 @@
         }
     }
 }
+
+/* Use portrait view for XS in any page and for any number of cards */
+@media (width < 640px) {
+    .profiles .profile {
+        height: 360px;
+        border: 1px solid var(--udexColorGrey2);
+        box-shadow: 0 2px 4px rgb(34 54 73 / 20%);
+        background-color: var(--background-color);
+        border-radius: var(--sapTile_BorderCornerRadius);
+        overflow: hidden;
+        position: relative;
+
+        &>div {
+            border: none;
+            box-shadow: none;
+            background: linear-gradient(to bottom,
+                    var(--udexColorBlue1) 0%,
+                    var(--udexColorBlue1) 110px,
+                    var(--udexColorNeutralWhite) 111px);
+            flex-direction: column;
+            align-items: center;
+            padding-top: var(--udexSpacer32);
+        }
+
+        & .avatar {
+            flex: 0 0 7.5rem;
+            width: 7.5rem;
+            height: 7.5rem;
+
+            & img {
+                height: 7.5rem;
+                width: 7.5rem;
+            }
+        }
+
+        & p {
+            text-align: center;
+        }
+
+        & h2 {
+            text-align: center;
+            font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+        }
+       
+    }
+}
