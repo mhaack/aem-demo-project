@@ -342,6 +342,10 @@
     min-width: 228px;
     flex: 0 0 31%;
   }
+
+  .design-system .carousel .carousel-slide .carousel-slide-image picture > img {
+    object-fit: contain;
+  }
 }
 
 /* stylelint-disable-next-line no-descending-specificity */

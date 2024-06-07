@@ -4,7 +4,7 @@ import {
 } from '../../scripts/dom-builder.js';
 import { fetchPlaceholders, getMetadata, toCamelCase } from '../../scripts/aem.js';
 import {
-  fetchProfiles,
+  fetchAuthors,
   fetchTagList,
   formatDate,
   getAuthorMetadata,
@@ -26,7 +26,11 @@ function calculateInitials(name) {
 }
 
 function buildAuthorEl(author) {
-  return a({ class: 'media-blend__author', href: author.path }, author.name);
+  const renderLink = author.path && author.path.indexOf('/people/') === -1;
+  if (renderLink) {
+    return a({ class: 'media-blend__author', href: author.path }, author.name);
+  }
+  return span({ class: 'media-blend__author' }, author.name);
 }
 
 function decorateMetaInfo(authors) {
@@ -232,7 +236,7 @@ export default async function decorate(block) {
     if (getMetadata('author')) {
       await import('@udex/webcomponents/dist/Avatar.js');
     }
-    const authorIndex = await fetchProfiles();
+    const authorIndex = await fetchAuthors();
     const authors = await lookupProfiles(getAuthorMetadata(), authorIndex);
     contentSlot.append(decorateMetaInfo(authors));
   }

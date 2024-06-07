@@ -159,6 +159,13 @@ async function fetchProfiles() {
   ).all();
 }
 
+async function fetchAuthors() {
+  return ffetch(
+    `${window.hlx.codeBasePath}/profiles-index.json`,
+    'sapContentHubAuthorEntries',
+  ).sheet('authors').all();
+}
+
 /**
  * Fetches author information based on the provided author names.
  * @param {string|string[]} authors - The author name(s) to fetch information for.
@@ -214,6 +221,7 @@ export {
   convertStringToKebabCase,
   extractFieldValue,
   fetchProfiles,
+  fetchAuthors,
   fetchPages,
   fetchTagList,
   formatDate,

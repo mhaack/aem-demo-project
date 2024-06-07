@@ -65,14 +65,14 @@ function getPictureCard(article, config, placeholders, tags, author) {
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const info = getInfo(article, config);
   const link = cardUrl !== '0' ? cardUrl : path;
-  return new PictureCard(title, link, contentType.label, info, author, image, tagLabel);
+  return new PictureCard(title, link, contentType?.label || '', info, author, image, tagLabel);
 }
 
 function getCard(article, config, tags) {
   const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const { path, title } = article;
   const info = getInfo(article, config);
-  return new Card(title, path, contentType.label, info);
+  return new Card(title, path, contentType?.label || '', info);
 }
 
 export default async function decorateBlock(block) {
