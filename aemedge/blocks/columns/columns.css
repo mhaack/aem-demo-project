@@ -54,7 +54,6 @@
 @media (width >= 980px) {
   .columns {
     & > div {
-      align-items: center;
       flex-direction: unset;
       gap: 32px;
 
