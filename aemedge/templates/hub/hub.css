@@ -31,7 +31,7 @@ main > .section:not(.fragment-container) {
       font-weight: var(--udexTypographyFontWeightMedium);
     }
 
-    h2 + p {
+    p {
       font-size: var(--udexTypographyBodyMFontSize);
       margin-top: 16px;
     }
@@ -41,7 +41,7 @@ main > .section:not(.fragment-container) {
     display: grid;
 
     & > main > .section > .default-content-wrapper {
-      h2 + p {
+      p {
         font-size: var(--udexTypographyBodyLFontSize);
       }
     }
