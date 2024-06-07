@@ -14,9 +14,9 @@ import {
   formatDate,
   getParameterMap,
   buildCardDisplayProfile,
-  fetchProfiles,
   lookupProfiles,
   getContentTypeFromArticle,
+  fetchAuthors,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
@@ -38,7 +38,7 @@ function getPictureCard(article, placeholders, tags, author) {
     if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
       info = article.cardC2A;
     }
-    return new PictureCard(title, link, contentType.label, info, author, image, tagLabel);
+    return new PictureCard(title, link, contentType?.label || '', info, author, image, tagLabel);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Error creating card', error);
@@ -53,7 +53,7 @@ function getCard(article, tags) {
   if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
     info = article.cardC2A;
   }
-  return new Card(title, path, contentType.label, info);
+  return new Card(title, path, contentType?.label || '', info);
 }
 
 function matchTags(entry, config) {
@@ -137,9 +137,9 @@ async function getArticles(tags, editorConfig, startPage = 1, batchSize = 6) {
     .paginate(batchSize, startPage);
 }
 
-function renderCards(articles, placeholders, tags, profilesIndex, textOnly, carousel) {
+function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel) {
   const cards = articles.map((article) => {
-    const authors = lookupProfiles(article.author, profilesIndex);
+    const authors = lookupProfiles(article.author, authorIndex);
     const displayAuthor = buildCardDisplayProfile(authors);
     if (textOnly) {
       return getCard(article, tags).render();
@@ -290,7 +290,7 @@ export default async function decorateBlock(block) {
   let pages;
   const pageSize = Number(editorConfig['page-size']) || 6;
   const placeholders = await fetchPlaceholders();
-  const profilesIndex = await fetchProfiles();
+  const authorIndex = await fetchAuthors();
   const urlParams = new URLSearchParams(window.location.search);
   const page = +urlParams.get('page') || 1;
   const articleStream = await getArticles(tags, editorConfig, page, pageSize);
@@ -299,7 +299,7 @@ export default async function decorateBlock(block) {
     cursor.value.results,
     placeholders,
     tags,
-    profilesIndex,
+    authorIndex,
     textOnly,
     carousel,
   );
@@ -319,7 +319,7 @@ export default async function decorateBlock(block) {
           nextCursor.value.results,
           placeholders,
           tags,
-          profilesIndex,
+          authorIndex,
           textOnly,
           carousel,
         );
@@ -344,7 +344,7 @@ export default async function decorateBlock(block) {
     pages,
     placeholders,
     articleStream,
-    profilesIndex,
+    authorIndex,
     editorConfig,
     textOnly,
     carousel,
