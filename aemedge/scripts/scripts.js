@@ -21,7 +21,7 @@ import {
   isCFEnabled,
   isCLEnabled,
 } from '../libs/analytics/analytics-core.js';
-import { filterInternalExternalData } from './ds-scripts.js';
+import { autoblockColumns, decorateDesignSystemSite } from './ds-scripts.js';
 
 const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
 const TEMPLATE_LIST = {
@@ -225,29 +225,6 @@ function decorateFragmentLinks(main) {
  */
 let decorateFragments;
 
-function decorateLiveExamples(element) {
-  if (!isDesignSystemSite()) {
-    return;
-  }
-  element.querySelectorAll('a').forEach((link) => {
-    const { href, textContent } = link;
-    // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
-    if (
-      href !== textContent
-      || !href.includes(
-        'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/',
-      )
-    ) {
-      return;
-    }
-
-    const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
-
-    link.parentElement.replaceWith(embedBlock);
-    decorateBlock(embedBlock);
-  });
-}
-
 /**
  * Decorates the main element.
  * @param {Element} main The main element
@@ -256,7 +233,6 @@ function decorateLiveExamples(element) {
 export async function decorateMain(main, shouldDecorateTemplates = true) {
   // hopefully forward compatible button decoration
   decorateFragmentLinks(main);
-  decorateLiveExamples(main);
   decorateButtons(main);
   decorateIcons(main);
   decorateImageLinks(main);
@@ -266,10 +242,14 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
   }
   decorateSections(main);
   if (isDesignSystemSite()) {
-    filterInternalExternalData(main);
+    decorateDesignSystemSite(main);
   }
 
   decorateBlocks(main);
+  if (isDesignSystemSite()) {
+    autoblockColumns(main);
+  }
+
   decorateFragments(main);
 }
 

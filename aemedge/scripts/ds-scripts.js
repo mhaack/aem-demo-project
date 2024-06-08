@@ -1,4 +1,4 @@
-import { getMetadata } from './aem.js';
+import { buildBlock, decorateBlock, getMetadata } from './aem.js';
 
 const encodeHTML = (str) => str.replace(/[\u00A0-\u9999<>&]/g, (i) => `&#${i.charCodeAt(0)};`);
 
@@ -49,11 +49,31 @@ function decorateTextNode(node) {
  * helper - walkes the DOM and replaces text nodes with spans if they have inline-attributes
  * @param {HTMLElement} main
  */
-function decorateSpans(main) {
+export function decorateSpans(main) {
   const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
   while (walker.nextNode()) {
     decorateTextNode(walker.currentNode);
   }
+}
+
+function decorateLiveExamples(element) {
+  element.querySelectorAll('a').forEach((link) => {
+    const { href, textContent } = link;
+    // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
+    if (
+      href !== textContent
+      || !href.includes(
+        'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/',
+      )
+    ) {
+      return;
+    }
+
+    const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
+
+    link.parentElement.replaceWith(embedBlock);
+    decorateBlock(embedBlock);
+  });
 }
 
 function filterInternalExternalData(main) {
@@ -76,7 +96,14 @@ function filterInternalExternalData(main) {
   }
 }
 
-export {
-  decorateSpans,
-  filterInternalExternalData,
-};
+export function autoblockColumns(main) {
+  main.innerHTML = main.innerHTML.replace(/&amp;&amp;&amp;([^]*?)&amp;&amp;&amp;/g, (match, columnText) => {
+    const columns = columnText.split('%%%');
+    return buildBlock('columns', [columns]).outerHTML;
+  });
+}
+
+export function decorateDesignSystemSite(main) {
+  filterInternalExternalData(main);
+  decorateLiveExamples(main);
+}
