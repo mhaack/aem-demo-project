@@ -25,13 +25,13 @@ main > .section:not(.fragment-container) {
   grid-template-columns: repeat(12, minmax(0, 1fr));
   margin-inline: var(--udexGridMargins);
 
-  & > main > .section > .default-content-wrapper {
-    h2 {
+  & > main .section .default-content-wrapper {
+    & > h2 {
       font-size: var(--udexTypographyHeadingMediumSFontSize);
       font-weight: var(--udexTypographyFontWeightMedium);
     }
 
-    p {
+    & > p {
       font-size: var(--udexTypographyBodyMFontSize);
       margin-top: 16px;
     }
@@ -40,16 +40,16 @@ main > .section:not(.fragment-container) {
   @media (width >= 980px) {
     display: grid;
 
-    & > main > .section > .default-content-wrapper {
-      p {
+    & > main .section .default-content-wrapper {
+     & > p {
         font-size: var(--udexTypographyBodyLFontSize);
       }
     }
   }
 
   @media (width >= 1280px) {
-    & > main > .section > .default-content-wrapper {
-      h2 {
+    & > main .section .default-content-wrapper {
+      & > h2 {
         font-size: var(--udexTypographyHeadingMediumMFontSize);
       }
     }
