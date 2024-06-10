@@ -465,6 +465,10 @@ main img {
   width: 100%;
 }
 
+.design-system main .image-border img {
+  border: 1px solid #e7e7e7;
+}
+
 /**
  * Styles for embedding video content.
  */
