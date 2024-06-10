@@ -681,3 +681,7 @@ body main .section {
     --udex-button-color-secondary-standard-active-text-and-icon: var(--udexColorBlue10);
   }
 }
+
+.ta-consent {
+  display: none;
+}
