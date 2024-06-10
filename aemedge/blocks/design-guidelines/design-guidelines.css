@@ -89,8 +89,8 @@
     }
 
     > div {
-      grid-column: 2 / 12;
-      margin-inline: unset;
+      grid-column: 2 / 13;
+      margin-inline: 0 calc(var(--udexGridMargins));
     }
 
     ul {
@@ -108,5 +108,10 @@
   /* L */
   @media (width >= 1280px) {
     padding-block: var(--udexSpacer56) !important;
+
+    > div {
+      grid-column: 2 / 11;
+      margin-inline: unset;
+    }
   }
 }

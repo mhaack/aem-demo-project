@@ -12,6 +12,7 @@ html:has(.web-component) {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto !important;
   height: 100%;
+  position: relative;
 
   /* Master Header */
   > header {
