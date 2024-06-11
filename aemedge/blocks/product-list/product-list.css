@@ -7,7 +7,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(1fr);
-  grid-gap: var(--udexGridGutters);
+  gap: var(--udexSpacer32) var(--udexGridGutters);
 }
 
 @media (width >= 640px) {
@@ -22,6 +22,7 @@
 
 @media (width >= 980px) {
   .product-list ul {
+    gap: var(--udexSpacer40) var(--udexGridGutters);
     grid-template-columns: repeat(4, 1fr);
   }
 

@@ -3,7 +3,7 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: var(--udexGridGutters);
+    gap: var(--udexSpacer32) var(--udexGridGutters);
 
     &>.plink {
         text-decoration: none;
@@ -14,6 +14,10 @@
         &:focus {
             color: inherit;
         }
+    }
+
+    @media (width >= 980px) {
+        gap: var(--udexSpacer40) var(--udexGridGutters);
     }
 }
 
