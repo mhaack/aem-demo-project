@@ -124,19 +124,7 @@
   }
 }
 
-/* !* XS *! */
-/* @media (width < 640px) { */
-/* } */
-
-/* !* S *! */
-/* @media (width >= 640px) { */
-/* } */
-
-/* !* M *! */
-/* @media (width >= 980px) { */
-/* } */
-
-/* !* L *! */
+/* =L */
 @media (width >= 1280px) {
   .masthead-area-search {
     & .search-form {
@@ -144,7 +132,3 @@
     }
   }
 }
-
-/* !* XL *! */
-/* @media (width >= 1600px) { */
-/* } */

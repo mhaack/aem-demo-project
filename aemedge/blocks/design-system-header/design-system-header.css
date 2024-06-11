@@ -3,11 +3,15 @@
   --masthead-height: 60px;
 }
 
-.design-system-header {
-  max-width: var(--udexGridXLMinWidth);
+.design-system-masthead-nav {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 0 var(--udexGridMargins);
+  position: relative;
+  width: 100%;
 }
 
-.design-system-masthead-nav {
+.masthead-areas {
   --masthead-padding-inline: var(--masthead-padding-inline-xs);
   --masthead-padding-inline-xs: 48px;
   --masthead-padding-inline-s: 48px;
@@ -40,10 +44,10 @@
   background: var(--udexColorGrey1);
   display: flex;
   gap: var(--udexSpacer16);
+  grid-column: 1 / 13;
   height: var(--masthead-height);
   margin: 0;
   padding: 0;
-  padding-inline: var(--masthead-padding-inline);
   position: relative;
   width: 100%;
 }
@@ -71,11 +75,11 @@
       /* based on `visually-hidden` */
       border: 0 !important;
       clip: rect(0, 0, 0, 0) !important;
-      display: block;
       height: 1px !important;
       margin: -1px !important;
       overflow: hidden !important;
       padding: 0 !important;
+      position: absolute;
       white-space: nowrap !important;
       width: 1px !important;
     }
@@ -168,6 +172,12 @@
 .masthead-area-brand {
   align-items: center;
   display: flex;
+  height: 100%;
+  position: relative;
+
+  &[data-mobile="true"] {
+    left: calc(var(--udexSpacer8) * -1);
+  }
 
   & .masthead-logo {
     order: 2;
@@ -180,9 +190,9 @@
   }
 
   & .main-nav-expand-btn {
-    left: var(--udexSpacer16);
+    margin-right: var(--udexSpacer16);
     order: 1;
-    position: absolute;
+    position: relative;
   }
 }
 
@@ -194,6 +204,7 @@
   gap: var(--udexSpacer24);
   height: var(--masthead-height);
   line-height: var(--udexTypographyNavigationLineHeight);
+  position: relative;
 
   &[aria-hidden="true"] {
     display: none;
@@ -353,7 +364,7 @@
     justify-content: space-between;
     padding-right: 0 !important;
 
-    /* Address external links */
+    /* address external links */
     &[href^="http"]:not([href*="experience.sap.com"]) {
       &::after {
         aspect-ratio: 1;
@@ -379,21 +390,25 @@
   display: flex;
   height: var(--masthead-height);
 
+  &[data-mobile="true"] {
+    position: relative;
+  }
+
+  &[aria-expanded="true"] {
+    right: 50px;
+  }
+
   & ~ div {
     align-content: center;
     height: 100%;
   }
 
-  & .explore-zone {
+  & .masthead-area-explore-zones {
     align-items: center;
     display: flex;
     gap: 22px;
     height: 100%;
     justify-content: flex-end;
-
-    &[aria-expanded="true"] {
-      margin-right: 24px;
-    }
 
     & > div {
       height: 100%;
@@ -443,259 +458,258 @@
     }
   }
 
-  & .explore-menu {
-    & .explore-nav {
-      background: var(--udexColorNeutralWhite);
-      box-shadow: var(--sapContent_Shadow2);
-      font-size: var(--udexTypographyBodyXSFontSize);
-      font-weight: var(--udexTypographyFontWeightRegular);
-      line-height: var(--udexTypographyNavigationLineHeight);
-      list-style: none;
-      margin: 0;
-      padding: var(--explore-nav-padding-xs);
-      position: absolute;
-      right: 0;
-      top: var(--masthead-height);
-      width: var(--explore-nav-width);
+  & .explore-menu-nav {
+    background: var(--udexColorNeutralWhite);
+    box-shadow: var(--sapContent_Shadow2);
+    font-size: var(--udexTypographyBodyXSFontSize);
+    font-weight: var(--udexTypographyFontWeightRegular);
+    left: 0;
+    line-height: var(--udexTypographyNavigationLineHeight);
+    list-style: none;
+    margin: 0;
+    padding: var(--explore-nav-padding-xs);
+    position: fixed;
+    right: 0;
+    top: var(--masthead-height);
+    width: auto;
 
-      &[aria-expanded="false"] {
-        display: none;
-      }
-
-      &[aria-expanded="true"] {
-        display: block;
-        height: calc(100vh - var(--masthead-height));
-      }
-
-      & a {
-        color: inherit;
-        display: block;
-        margin: 0;
-        padding: var(--udexSpacer8) var(--udexSpacer12);
-        text-decoration: none;
-
-        &:visited {
-          color: inherit;
-        }
-
-        &:hover,
-        &:focus {
-          color: inherit;
-          cursor: pointer;
-          text-decoration: underline;
-        }
-
-        &:active {
-          color: inherit;
-        }
-      }
-    }
-
-    & .explore-nav-desktop {
+    &[aria-expanded="false"] {
       display: none;
-      height: auto;
     }
 
-    & .explore-nav-group {
-      margin-bottom: var(--udexSpacer32);
-      height: auto;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-
-    & .explore-nav-group-title {
-      border-bottom: 1px solid var(--udexColorGrey2);
-      font-weight: var(--udexTypographyFontWeightMedium);
-      margin: 0 0 var(--udexSpacer12) 0;
-      padding: var(--udexSpacer8) 0 var(--udexSpacer12);
-      user-select: none;
-    }
-
-    & .explore-nav-group-list {
-      display: flex;
-      flex-direction: column;
-      gap: var(--udexSpacer4);
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    & .explore-nav-group-list-link {
-      display: flex !important;
-      justify-content: space-between;
-      padding-right: 0 !important;
-
-      /* Address external links */
-      &[href^="http"]:not([href*="experience.sap.com"]) {
-        &::after {
-          aspect-ratio: 1;
-          background-color: var(--udexColorGrey8);
-          content: "";
-          display: block;
-          height: var(--explore-button-icon-size);
-          mask: url("/aemedge/icons/link-external.svg") center no-repeat;
-          width: var(--explore-button-icon-size);
-        }
-      }
-    }
-
-    & .explore-nav-mobile {
+    &[aria-expanded="true"] {
       display: block;
-      height: auto;
+      height: calc(100vh - var(--masthead-height));
     }
 
-    /* & .explore-nav-mobile-group {} */
-
-    /* & .explore-nav-mobile-group-design-system {} */
-
-    & .explore-nav-mobile-group-title {
-      border-bottom: 1px solid var(--udexColorGrey2);
-      font-weight: var(--udexTypographyFontWeightMedium);
-      padding: var(--udexSpacer16) var(--udexSpacer8);
-    }
-
-    & .explore-nav-mobile-group-title-btn {
-      align-items: center;
-      background: transparent;
-      border: 0 none;
-      border-bottom: 1px solid var(--udexColorGrey2);
-      color: var(--udexColorGrey8);
-      cursor: pointer;
-      display: flex;
-      font-size: var(--udexTypographyBodyXSFontSize);
-      font-family: inherit;
-      font-weight: var(--udexTypographyFontWeightMedium);
-      height: 100%;
-      justify-content: space-between;
-      line-height: var(--udexTypographyNavigationLineHeight);
+    & a {
+      color: inherit;
+      display: block;
       margin: 0;
-      padding: var(--udexSpacer16) var(--udexSpacer8);
-      position: relative;
-      text-transform: none;
-      width: 100%;
+      padding: var(--udexSpacer8) var(--udexSpacer12);
+      text-decoration: none;
 
-      /* icon to the right, label left aligned */
-      & .label {
-        order: 1;
-        text-align: left;
+      &:visited {
+        color: inherit;
       }
 
-      & .icon {
+      &:hover,
+      &:focus {
+        color: inherit;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      &:active {
+        color: inherit;
+      }
+    }
+  }
+
+  & .explore-menu-nav-desktop {
+    display: none;
+    height: auto;
+  }
+
+  & .explore-menu-nav-group {
+    margin-bottom: var(--udexSpacer32);
+    height: auto;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  & .explore-menu-nav-group-title {
+    border-bottom: 1px solid var(--udexColorGrey2);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    margin: 0 0 var(--udexSpacer12) 0;
+    padding: var(--udexSpacer8) 0 var(--udexSpacer12);
+    user-select: none;
+  }
+
+  & .explore-menu-nav-group-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--udexSpacer4);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  & .explore-menu-nav-group-list-link {
+    display: flex !important;
+    justify-content: space-between;
+    padding-right: 0 !important;
+
+    /* address external links */
+    &[href^="http"]:not([href*="experience.sap.com"]) {
+      &::after {
         aspect-ratio: 1;
         background-color: var(--udexColorGrey8);
         content: "";
-        height: var(--explore-button-icon-size);
         display: block;
-        mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
-        order: 2;
-        transition: transform 0.3s ease-in-out;
+        height: var(--explore-button-icon-size);
+        mask: url("/aemedge/icons/link-external.svg") center no-repeat;
         width: var(--explore-button-icon-size);
       }
+    }
+  }
 
-      & ~ .explore-nav-mobile-group-products,
-      & ~ .explore-nav-mobile-group-websites {
-        height: 0;
-        overflow: hidden;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, height 0.3s ease-in-out;
-        visibility: hidden;
-      }
+  & .explore-menu-nav-mobile {
+    display: block;
+    height: auto;
+  }
 
-      /* &[aria-pressed="false"] {} */
+  /* & .explore-menu-nav-mobile-group {} */
 
-      &[aria-pressed="true"] {
-        /* icon to the left, label center aligned */
-        & .label {
-          flex: 1;
-          order: 2;
-          text-align: center;
-        }
+  /* & .explore-menu-nav-mobile-group-design-system {} */
 
-        & .icon {
-          order: 1;
-          transform: rotate(180deg);
-        }
+  & .explore-menu-nav-mobile-group-title {
+    border-bottom: 1px solid var(--udexColorGrey2);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    padding: var(--udexSpacer16) var(--udexSpacer8);
+  }
 
-        & ~ .explore-nav-mobile-group-products,
-        & ~ .explore-nav-mobile-group-websites {
-          height: 100%;
-          transform: translateX(0);
-          visibility: visible;
-        }
+  & .explore-menu-nav-mobile-group-title-btn {
+    align-items: center;
+    background: transparent;
+    border: 0 none;
+    border-bottom: 1px solid var(--udexColorGrey2);
+    color: var(--udexColorGrey8);
+    cursor: pointer;
+    display: flex;
+    font-size: var(--udexTypographyBodyXSFontSize);
+    font-family: inherit;
+    font-weight: var(--udexTypographyFontWeightMedium);
+    height: 100%;
+    justify-content: space-between;
+    line-height: var(--udexTypographyNavigationLineHeight);
+    margin: 0;
+    padding: var(--udexSpacer16) var(--udexSpacer8);
+    position: relative;
+    text-transform: none;
+    width: 100%;
 
-        & + .explore-nav-mobile-group-list {
-          height: 100%;
-          transform: translateX(0);
-          visibility: visible;
-        }
-      }
+    /* icon to the right, label left aligned */
+    & .label {
+      order: 1;
+      text-align: left;
     }
 
-    & .explore-nav-mobile-group-explore-sap {
-      background: var(--udexColorBlue7);
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-
-      & .explore-nav-mobile-group-title-btn {
-        border: 0 none;
-        color: var(--udexColorNeutralWhite);
-        padding: var(--udexSpacer24);
-
-        & .icon {
-          background-color: var(--udexColorNeutralWhite);
-        }
-      }
+    & .icon {
+      aspect-ratio: 1;
+      background-color: var(--udexColorGrey8);
+      content: "";
+      height: var(--explore-button-icon-size);
+      display: block;
+      mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
+      order: 2;
+      transition: transform 0.3s ease-in-out;
+      width: var(--explore-button-icon-size);
     }
 
-    /* stylelint-disable-next-line */
-    & .explore-nav-mobile-group-list {
-      display: flex;
-      flex-direction: column;
-      gap: var(--udexSpacer4);
+    & ~ .explore-menu-nav-mobile-group-products,
+    & ~ .explore-menu-nav-mobile-group-websites {
       height: 0;
-      list-style: none;
-      margin: 0;
       overflow: hidden;
-      padding: 0;
       transform: translateX(100%);
       transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, height 0.3s ease-in-out;
       visibility: hidden;
     }
 
-    & .explore-nav-mobile-group-design-system {
-      & .explore-nav-mobile-group-list {
+    /* &[aria-pressed="false"] {} */
+
+    &[aria-pressed="true"] {
+      /* icon to the left, label center aligned */
+      & .label {
+        flex: 1;
+        order: 2;
+        text-align: center;
+      }
+
+      & .icon {
+        order: 1;
+        transform: rotate(180deg);
+      }
+
+      & ~ .explore-menu-nav-mobile-group-products,
+      & ~ .explore-menu-nav-mobile-group-websites {
         height: 100%;
-        transform: unset;
-        transition: unset;
+        transform: translateX(0);
+        visibility: visible;
+      }
+
+      & + .explore-menu-nav-mobile-group-list {
+        height: 100%;
+        transform: translateX(0);
         visibility: visible;
       }
     }
+  }
 
-    & .explore-nav-mobile-group-list-link {
-      border-bottom: 1px solid var(--udexColorGrey2);
-      display: flex !important;
-      justify-content: space-between;
-      padding: var(--udexSpacer16) var(--udexSpacer12) var(--udexSpacer16) var(--udexSpacer8) !important;
+  & .explore-menu-nav-mobile-group-explore-sap {
+    background: var(--udexColorBlue7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
-      &:focus-visible {
-        outline-offset: -2px; /* fix outline */
+    & .explore-menu-nav-mobile-group-title-btn {
+      border: 0 none;
+      color: var(--udexColorNeutralWhite);
+      padding: var(--udexSpacer24);
+
+      & .icon {
+        background-color: var(--udexColorNeutralWhite);
       }
+    }
+  }
 
-      /* Address external links */
-      &[href^="http"]:not([href*="experience.sap.com"]) {
-        &::after {
-          aspect-ratio: 1;
-          background-color: var(--udexColorGrey8);
-          content: "";
-          display: block;
-          height: var(--explore-button-icon-size);
-          mask: url("/aemedge/icons/link-external.svg") center no-repeat;
-          width: var(--explore-button-icon-size);
-        }
+  /* stylelint-disable-next-line */
+  & .explore-menu-nav-mobile-group-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--udexSpacer4);
+    height: 0;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, height 0.3s ease-in-out;
+    visibility: hidden;
+  }
+
+  & .explore-menu-nav-mobile-group-design-system {
+    & .explore-menu-nav-mobile-group-list {
+      height: 100%;
+      transform: unset;
+      transition: unset;
+      visibility: visible;
+    }
+  }
+
+  & .explore-menu-nav-mobile-group-list-link {
+    border-bottom: 1px solid var(--udexColorGrey2);
+    display: flex !important;
+    justify-content: space-between;
+    padding: var(--udexSpacer16) var(--udexSpacer12) var(--udexSpacer16) var(--udexSpacer8) !important;
+
+    &:focus-visible {
+      outline-offset: -2px; /* fix outline */
+    }
+
+    /* Address external links */
+    &[href^="http"]:not([href*="experience.sap.com"]) {
+      &::after {
+        aspect-ratio: 1;
+        background-color: var(--udexColorGrey8);
+        content: "";
+        display: block;
+        height: var(--explore-button-icon-size);
+        mask: url("/aemedge/icons/link-external.svg") center no-repeat;
+        width: var(--explore-button-icon-size);
       }
     }
   }
@@ -725,7 +739,7 @@
   background-color: var(--udexColorNeutralBlack);
   height: 100vh;
   opacity: 0.5;
-  position: absolute;
+  position: fixed;
   top: var(--masthead-height);
   width: 100%;
 
@@ -734,9 +748,9 @@
   }
 }
 
-/* XS */
+/* =XS */
 @media (width < 640px) {
-  .design-system-masthead-nav {
+  .masthead-areas {
     --explore-nav-width: var(--explore-nav-width-xs);
   }
 
@@ -753,11 +767,25 @@
   }
 }
 
-/* S */
+/* =S */
 @media (width >= 640px) {
   .design-system-masthead-nav {
+    column-gap: var(--udexGridSGutters);
+  }
+
+  .masthead-areas {
     --masthead-padding-inline: var(--masthead-padding-inline-s);
     --explore-nav-width: var(--explore-nav-width-s);
+  }
+
+  .masthead-area-brand {
+    &[data-mobile="true"] {
+      left: calc(var(--udexGridSGutters) * -1);
+
+      & + .masthead-area-landing-zone {
+        left: calc(var(--udexGridSGutters) * -1);
+      }
+    }
   }
 
   .masthead-area-landing-zone {
@@ -767,13 +795,25 @@
       }
     }
   }
+
+  .masthead-area-explore {
+    &[aria-expanded="true"] {
+      right: 24px;
+    }
+  }
 }
 
-/* M */
+/* =M */
 @media (width >= 980px) {
   .design-system-masthead-nav {
+    column-gap: var(--udexGridMGutters);
+  }
+
+  .masthead-areas {
     --masthead-padding-inline: var(--masthead-padding-inline-m);
     --explore-nav-width: var(--explore-nav-width-m);
+
+    grid-column: 2 / 13;
   }
 
   .masthead-area-brand {
@@ -783,23 +823,24 @@
   }
 
   .masthead-area-explore {
-    & .explore-zone {
-      &[aria-expanded="true"] {
-        margin-right: unset;
-      }
+    &[data-mobile="true"] {
+      right: 50px;
+      position: relative;
     }
 
-    & .explore-menu {
-      & .explore-nav {
-        padding: var(--explore-nav-padding-m);
-      }
+    & .explore-menu-nav {
+      left: unset;
+      padding: var(--explore-nav-padding-m);
+      position: absolute;
+      right: calc(var(--udexGridMargins) * -1);
+      width: var(--explore-nav-width);
     }
   }
 }
 
-/* L */
+/* =L */
 @media (width >= 1280px) {
-  .design-system-masthead-nav {
+  .masthead-areas {
     --explore-nav-width: var(--explore-nav-width-l);
   }
 
@@ -832,46 +873,35 @@
       }
     }
 
-    & .explore-menu {
-      & .explore-nav {
-        padding: var(--explore-nav-padding-top) var(--explore-nav-padding-inline) var(--explore-nav-padding-bottom);
+    & .explore-menu-nav {
+      padding: var(--explore-nav-padding-top) var(--explore-nav-padding-inline) var(--explore-nav-padding-bottom);
 
-        &[aria-expanded="true"] {
-          height: auto;
-          right: 65px;
-        }
-      }
-
-      & .explore-nav-desktop {
-        display: block;
-      }
-
-      & .explore-nav-mobile {
-        display: none;
+      &[aria-expanded="true"] {
         height: auto;
+        right: -6px;
       }
+    }
+
+    & .explore-menu-nav-desktop {
+      display: block;
+    }
+
+    & .explore-menu-nav-mobile {
+      display: none;
+      height: auto;
     }
   }
 }
 
-/* XL */
+/* =XL */
 @media (width >= 1600px) {
   .design-system-masthead-nav {
-    --masthead-padding-inline: var(--masthead-padding-inline-xl);
-    --explore-nav-width: var(--explore-nav-width-xl);
-
-    max-width: 1920px;
-    padding-inline: var(--masthead-padding-inline);
+    margin-inline: auto;
+    max-width: var(--udexGridXLMinWidth);
   }
 
-  .masthead-area-explore {
-    & .explore-menu {
-      & .explore-nav {
-        &[aria-expanded="true"] {
-          height: auto;
-          right: 240px;
-        }
-      }
-    }
+  .masthead-areas {
+    --masthead-padding-inline: var(--masthead-padding-inline-xl);
+    --explore-nav-width: var(--explore-nav-width-xl);
   }
 }

@@ -36,6 +36,7 @@ html:has(.web-component) {
     margin-top: var(--headerHeight);
     padding: 0 var(--udexGridMargins);
     position: relative;
+    width: 100%;
 
     h2 {
       font-size: var(--udexTypographyHeadingMediumXSFontSize);

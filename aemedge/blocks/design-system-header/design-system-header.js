@@ -191,13 +191,13 @@ function generateExploreNavLists(jsonObj, className, container) {
    */
   function titleButtonClickHandler(e) {
     const target = e.currentTarget;
-    const navMobile = target.closest('.explore-nav-mobile');
-    const buttons = navMobile.querySelectorAll('button');
+    const menuNavMobile = target.closest('.explore-menu-nav-mobile');
+    const buttons = menuNavMobile.querySelectorAll('button');
     const currentGroup = target.parentElement;
     const navGroups = {
-      designSystem: navMobile.querySelector('.explore-nav-mobile-group-design-system'),
-      implementationDocumentation: navMobile.querySelector('.explore-nav-mobile-group-implementation-documentation'),
-      relatedSites: navMobile.querySelector('.explore-nav-mobile-group-related-sites'),
+      designSystem: menuNavMobile.querySelector('.explore-menu-nav-mobile-group-design-system'),
+      implementationDocumentation: menuNavMobile.querySelector('.explore-menu-nav-mobile-group-implementation-documentation'),
+      relatedSites: menuNavMobile.querySelector('.explore-menu-nav-mobile-group-related-sites'),
     };
 
     target.setAttribute('aria-pressed', target.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
@@ -249,6 +249,7 @@ function generateExploreNavLists(jsonObj, className, container) {
         `${className}-group-design-system`,
       ],
     }, button({
+      'aria-label': LANDING_ZONE_LABEL_MOBILE,
       'aria-pressed': 'false',
       class: `${className}-group-title-btn`,
       onclick: (e) => {
@@ -270,8 +271,9 @@ function generateExploreNavLists(jsonObj, className, container) {
      * In the desktop view, the group title is a simple paragraph.
      */
     let groupTitle;
-    if (className === 'explore-nav-mobile' && (groupName !== 'products' && groupName !== 'websites')) {
+    if (className === 'explore-menu-nav-mobile' && (groupName !== 'products' && groupName !== 'websites')) {
       groupTitle = button({
+        'aria-label': groupObj.title,
         'aria-pressed': 'false',
         class: `${className}-group-title-btn`,
         onclick: (e) => {
@@ -356,7 +358,7 @@ function generateExploreNavLists(jsonObj, className, container) {
       container.appendChild(groupContainer);
     }
 
-    if (container.classList.contains('explore-nav-mobile')) {
+    if (container.classList.contains('explore-menu-nav-mobile')) {
       container.prepend(groupContainerDs);
     }
   });
@@ -417,6 +419,7 @@ function addLandingZone(mastheadLandingZone) {
   function generateCurrentLandingZoneButton() {
     const currentLandingZone = getCurrentLandingZone();
     const currentLandingZoneButton = button({
+      'aria-label': currentLandingZone,
       'aria-expanded': 'false',
       class: 'landing-zone-current-btn',
       title: currentLandingZone,
@@ -496,14 +499,14 @@ function loadJouleAiIframe() {
 
 /**
  * Generate the Explore (additional) Menu and navigation items.
- * @param exploreZone {HTMLElement} The Explore Zone.
  * @returns {Element} The Explore Menu.
+ * @param exploreZones {object} The Explore Zones.
  */
-function generateExploreMenu(exploreZone) {
-  const exploreZones = {
-    jouleAiZone: exploreZone.querySelector('.explore-joule-ai'),
-    notifactionsZone: exploreZone.querySelector('.explore-notifications'),
-    avatarZone: exploreZone.querySelector('.explore-avatar'),
+function generateExploreMenu(exploreZones) {
+  const exploreAreaZones = {
+    jouleAiZone: exploreZones.querySelector('.explore-joule-ai'),
+    // notifactionsZone: exploreZone.querySelector('.explore-notifications'), // TODO: MVP Q2
+    avatarZone: exploreZones.querySelector('.explore-avatar'),
   };
 
   /**
@@ -514,24 +517,20 @@ function generateExploreMenu(exploreZone) {
    * @param exploreNav {object} The explore navigation.
    */
   function handleCloseBtnState(menuBtn, closeBtn, exploreNav) {
-    const mastheadNav = exploreZone?.closest('.design-system-masthead-nav');
-    const mastheadBrand = mastheadNav?.querySelector('.masthead-area-brand');
+    const mastheadNav = exploreZones?.closest('.masthead-areas');
     const mastheadLandingZone = mastheadNav?.querySelector('.masthead-area-landing-zone');
-    // const header = mastheadNav?.closest('.design-system-header');
-    // const mainNav = header?.querySelector('.design-system-main-nav-wrapper');
+    const mastheadExplore = mastheadNav?.querySelector('.masthead-area-explore');
+    const mastheadAreaExploreZones = mastheadExplore?.querySelector('.masthead-area-explore-zones');
 
     menuBtn.setAttribute('aria-expanded', 'false');
     menuBtn.setAttribute('aria-pressed', 'false');
     exploreNav.setAttribute('aria-expanded', 'false');
     closeBtn.style.display = 'none';
-    mastheadBrand.setAttribute('aria-hidden', 'false');
     mastheadLandingZone.setAttribute('aria-hidden', 'false');
+    mastheadExplore.setAttribute('aria-expanded', 'false');
+    mastheadAreaExploreZones.setAttribute('aria-expanded', 'false');
 
-    // Handle Main Navigation states
-    // mainNav.setAttribute('aria-expanded', 'false');
-    // mainNav.style.display = 'none';
-
-    Object.values(exploreZones).forEach((zone) => {
+    Object.values(exploreAreaZones).forEach((zone) => {
       zone.removeAttribute('style');
     });
   }
@@ -541,6 +540,7 @@ function generateExploreMenu(exploreZone) {
   });
 
   const exploreMenuButton = button({
+    'aria-label': 'Menu',
     class: 'masthead-btn explore-btn explore-menu-btn',
     title: 'Menu',
     type: 'button',
@@ -550,21 +550,21 @@ function generateExploreMenu(exploreZone) {
       const closeBtn = menuBtn.nextSibling;
       const exploreNav = menuBtn.nextSibling.nextSibling;
       const isExploreNavExpanded = exploreNav?.getAttribute('aria-expanded') === 'true';
-      const mastheadNav = exploreZone?.closest('.design-system-masthead-nav');
-      const mastheadBrand = mastheadNav?.querySelector('.masthead-area-brand');
-      const mastheadLandingZone = mastheadNav?.querySelector('.masthead-area-landing-zone');
+      const mastheadAreas = exploreZones?.closest('.masthead-areas');
+      const mastheadLandingZone = mastheadAreas?.querySelector('.masthead-area-landing-zone');
+      const mastheadExplore = mastheadAreas?.querySelector('.masthead-area-explore');
 
       // Set masthead states
       if (
         (mediaQueryLists.XS.matches || mediaQueryLists.S.matches)
         && !mediaQueryLists.M.matches
       ) {
-        mastheadBrand.setAttribute('aria-hidden', (!isPressed).toString());
         mastheadLandingZone.setAttribute('aria-hidden', (!isPressed).toString());
       }
 
       // Set zone states
-      exploreZone.setAttribute('aria-expanded', (!isPressed).toString());
+      exploreZones.setAttribute('aria-expanded', (!isPressed).toString());
+      mastheadExplore.setAttribute('aria-expanded', (!isPressed).toString());
 
       // Set button states
       menuBtn.setAttribute('aria-pressed', (!isPressed).toString());
@@ -586,11 +586,11 @@ function generateExploreMenu(exploreZone) {
         !isPressed
         && (mediaQueryLists.XS.matches || mediaQueryLists.S.matches || mediaQueryLists.M.matches)
       ) {
-        Object.values(exploreZones).forEach((zone) => {
+        Object.values(exploreAreaZones).forEach((zone) => {
           zone.style.display = 'block';
         });
       } else {
-        Object.values(exploreZones).forEach((zone) => {
+        Object.values(exploreAreaZones).forEach((zone) => {
           zone.removeAttribute('style');
         });
       }
@@ -600,7 +600,7 @@ function generateExploreMenu(exploreZone) {
 
       // On every click outside the button (but not the menu), close the dropdown
       document.addEventListener('click', (event) => {
-        if (!event.target.closest('.explore-menu-btn') && !event.target.closest('.explore-nav')) {
+        if (!event.target.closest('.explore-menu-btn') && !event.target.closest('.explore-menu-nav')) {
           handleCloseBtnState(menuBtn, closeBtn, exploreNav);
         }
       });
@@ -612,6 +612,7 @@ function generateExploreMenu(exploreZone) {
   }));
 
   const exploreMenuButtonClose = button({
+    'aria-label': 'Close Menu',
     class: 'masthead-btn explore-btn explore-menu-close-btn',
     title: 'Close Menu',
     type: 'button',
@@ -627,63 +628,65 @@ function generateExploreMenu(exploreZone) {
     class: 'icon icon-close',
   }));
 
-  const exploreNav = nav({
+  const exploreMenuNav = nav({
     'aria-expanded': 'false',
-    class: 'explore-nav',
+    class: 'explore-menu-nav',
   });
 
-  const exploreNavDesktopContainer = div({
-    class: 'explore-nav-desktop',
+  const exploreMenuNavDesktopContainer = div({
+    class: 'explore-menu-nav-desktop',
   });
 
-  const exploreNavMobileContainer = div({
-    class: 'explore-nav-mobile',
+  const exploreMenuNavMobileContainer = div({
+    class: 'explore-menu-nav-mobile',
   });
 
   function generateExploreNav() {
-    generateExploreNavLists(EXPLORE_MENU_URLS, 'explore-nav', exploreNavDesktopContainer);
-    exploreNav.appendChild(exploreNavDesktopContainer);
+    generateExploreNavLists(EXPLORE_MENU_URLS, 'explore-menu-nav', exploreMenuNavDesktopContainer);
+    exploreMenuNav.appendChild(exploreMenuNavDesktopContainer);
   }
 
   function generateExploreNavMobile() {
-    generateExploreNavLists(LANDING_ZONE_MENU_GROUPS, 'explore-nav-mobile', exploreNavMobileContainer);
-    generateExploreNavLists(EXPLORE_MENU_URLS, 'explore-nav-mobile', exploreNavMobileContainer);
+    generateExploreNavLists(LANDING_ZONE_MENU_GROUPS, 'explore-menu-nav-mobile', exploreMenuNavMobileContainer);
+    generateExploreNavLists(EXPLORE_MENU_URLS, 'explore-menu-nav-mobile', exploreMenuNavMobileContainer);
 
     const exploreSAP = div({
       class: [
-        'explore-nav-mobile-group',
-        'explore-nav-mobile-group-explore-sap',
+        'explore-menu-nav-mobile-group',
+        'explore-menu-nav-mobile-group-explore-sap',
       ],
     }, button({
+      'aria-label': 'Explore SAP',
       'aria-pressed': 'false',
-      class: 'explore-nav-mobile-group-title-btn',
+      class: 'explore-menu-nav-mobile-group-title-btn',
     }, span({
       class: 'label',
     }, 'Explore SAP'), span({
       class: 'icon',
     })));
 
-    exploreNavMobileContainer.appendChild(exploreSAP);
-    exploreNav.appendChild(exploreNavMobileContainer);
+    exploreMenuNavMobileContainer.appendChild(exploreSAP);
+    exploreMenuNav.appendChild(exploreMenuNavMobileContainer);
   }
 
   exploreMenuContainer.appendChild(exploreMenuButton);
   exploreMenuContainer.appendChild(exploreMenuButtonClose);
   generateExploreNav();
   generateExploreNavMobile();
-  exploreMenuContainer.appendChild(exploreNav);
+  exploreMenuContainer.appendChild(exploreMenuNav);
 
   return exploreMenuContainer;
 }
 
 function addExploreZone(mastheadExplore) {
-  const exploreZone = div({
-    class: 'explore-zone',
+  const exploreZones = div({
+    class: 'masthead-area-explore-zones',
   });
 
   const search = div({
     class: 'explore-search',
   }, button({
+    'aria-label': 'Search',
     class: 'masthead-btn explore-btn explore-search-btn',
     title: 'Search',
     type: 'button',
@@ -700,6 +703,7 @@ function addExploreZone(mastheadExplore) {
   const jouleAi = div({
     class: 'explore-joule-ai',
   }, button({
+    'aria-label': 'Joule AI',
     class: 'masthead-btn explore-btn explore-joule-ai-btn',
     title: 'Joule AI',
     type: 'button',
@@ -721,25 +725,28 @@ function addExploreZone(mastheadExplore) {
     class: 'icon icon-joule-ai',
   })));
 
-  const notifications = div({
-    class: 'explore-notifications',
-  }, button({
-    class: 'masthead-btn explore-btn explore-notifications-btn',
-    title: 'Notifications',
-    type: 'button',
-    onclick: (e) => {
-      const isPressed = e.currentTarget.getAttribute('aria-pressed') === 'true';
-      e.currentTarget.setAttribute('aria-pressed', (!isPressed).toString());
-    },
-  }, span({
-    class: 'label',
-  }, 'Notifications'), span({
-    class: 'icon icon-notifications',
-  })));
+  // TODO: MVP Q2
+  // const notifications = div({
+  //   class: 'explore-notifications',
+  // }, button({
+  //   'aria-label': 'Notifications',
+  //   class: 'masthead-btn explore-btn explore-notifications-btn',
+  //   title: 'Notifications',
+  //   type: 'button',
+  //   onclick: (e) => {
+  //     const isPressed = e.currentTarget.getAttribute('aria-pressed') === 'true';
+  //     e.currentTarget.setAttribute('aria-pressed', (!isPressed).toString());
+  //   },
+  // }, span({
+  //   class: 'label',
+  // }, 'Notifications'), span({
+  //   class: 'icon icon-notifications',
+  // })));
 
   const avatar = div({
     class: 'explore-avatar',
   }, button({
+    'aria-label': 'User Profile',
     class: 'masthead-btn explore-btn explore-avatar-btn',
     title: 'User Profile',
     type: 'button',
@@ -753,13 +760,13 @@ function addExploreZone(mastheadExplore) {
     class: 'icon icon-avatar',
   })));
 
-  exploreZone.appendChild(search);
-  exploreZone.appendChild(jouleAi);
-  exploreZone.appendChild(notifications);
-  exploreZone.appendChild(avatar);
-  const menu = generateExploreMenu(exploreZone);
-  exploreZone.appendChild(menu);
-  mastheadExplore.appendChild(exploreZone);
+  exploreZones.appendChild(search);
+  exploreZones.appendChild(jouleAi);
+  // exploreZone.appendChild(notifications); // TODO: MVP Q2
+  exploreZones.appendChild(avatar);
+  const menu = generateExploreMenu(exploreZones);
+  exploreZones.appendChild(menu);
+  mastheadExplore.appendChild(exploreZones);
 }
 
 /**
@@ -773,7 +780,10 @@ function generateMasthead(block) {
     'aria-label': 'Masthead Navigation',
   });
 
+  const mastheadAreas = div({ class: 'masthead-areas' });
+
   const mainNavExpandButton = button({
+    'aria-label': 'Open Main Navigation',
     class: 'masthead-btn main-nav-expand-btn',
     title: 'Open Main Navigation',
     type: 'button',
@@ -799,6 +809,7 @@ function generateMasthead(block) {
   const mastheadBrand = div({
     class: 'masthead-area masthead-area-brand',
     'aria-label': 'Brand',
+    'data-mobile': ((mediaQueryLists.XS.matches || mediaQueryLists.S.matches) && !mediaQueryLists.M.matches) ? 'true' : 'false',
   });
 
   const mastheadLandingZone = div({
@@ -814,6 +825,7 @@ function generateMasthead(block) {
   const mastheadExplore = div({
     class: 'masthead-area masthead-area-explore',
     'aria-label': 'Explore',
+    'data-mobile': ((mediaQueryLists.XS.matches || mediaQueryLists.S.matches) && !mediaQueryLists.M.matches) ? 'true' : 'false',
   });
 
   mastheadBrand.append(mainNavExpandButton);
@@ -823,13 +835,14 @@ function generateMasthead(block) {
   addDesignSystemSearch(block, mastheadSearch);
   addExploreZone(mastheadExplore);
 
-  mastheadNav.append(
+  mastheadAreas.append(
     mastheadBrand,
     mastheadLandingZone,
     mastheadSearch,
     mastheadExplore,
   );
 
+  mastheadNav.append(mastheadAreas);
   block.append(mastheadNav);
 }
 
@@ -839,24 +852,37 @@ function generateMasthead(block) {
  */
 
 /* eslint-disable no-unused-vars */
-function addMediaQueryHandler() {
+function addMediaQueryHandler(block) {
+  const mastheadBrand = block.querySelector(':scope .masthead-area-brand');
+  const mastheadExplore = block.querySelector(':scope .masthead-area-explore');
+
   /**
    * Handle the media query changes.
    * TODO: Remove console.log statements and add the actual logic
    */
   function changeHandler() {
     if (mediaQueryLists.XL.matches) {
-      console.log('XL');
+      console.info('XL');
+      mastheadBrand.setAttribute('data-mobile', 'false');
+      mastheadExplore.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.L.matches) {
-      console.log('L');
+      console.info('L');
+      mastheadBrand.setAttribute('data-mobile', 'false');
+      mastheadExplore.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.M.matches) {
-      console.log('M');
+      console.info('M');
+      mastheadBrand.setAttribute('data-mobile', 'false');
+      mastheadExplore.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.S.matches) {
-      console.log('S');
+      console.info('S');
+      mastheadBrand.setAttribute('data-mobile', 'true');
+      mastheadExplore.setAttribute('data-mobile', 'true');
     } else if (mediaQueryLists.XS.matches) {
-      console.log('XS');
+      console.info('XS');
+      mastheadBrand.setAttribute('data-mobile', 'true');
+      mastheadExplore.setAttribute('data-mobile', 'true');
     } else {
-      console.log('No media query matched');
+      console.info('No media query matched');
     }
   }
 
@@ -867,7 +893,7 @@ function addMediaQueryHandler() {
 }
 
 export default async function decorate(block) {
-  // addMediaQueryHandler();
   await generateMasthead(block);
+  await addMediaQueryHandler(block);
   addDesignSystemMainNav(block);
 }
