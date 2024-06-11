@@ -1,10 +1,13 @@
 /* stylelint-disable no-descending-specificity */
+:root {
+  --masthead-height: 60px;
+}
+
 .design-system-header {
   max-width: var(--udexGridXLMinWidth);
 }
 
 .design-system-masthead-nav {
-  --masthead-height: 60px;
   --masthead-padding-inline: var(--masthead-padding-inline-xs);
   --masthead-padding-inline-xs: 48px;
   --masthead-padding-inline-s: 48px;

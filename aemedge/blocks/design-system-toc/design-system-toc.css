@@ -10,7 +10,14 @@
 /* L */
 @media (width >= 1280px) {
   .design-system-toc-container {
-    display: block;
+    border: 0 none !important;
+    display: block !important;
+    grid-column: 11 / 13 !important;
+    grid-row: 2 !important;
+    padding: 0 !important;
+    position: sticky !important;
+    top: 10% !important;
+    z-index: 1 !important;
   }
 
   .design-system-toc {

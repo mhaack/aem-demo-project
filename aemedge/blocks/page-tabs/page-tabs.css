@@ -1,40 +1,74 @@
-main .page-tabs {
-  height: 40px;
+main {
+  & .page-tabs {
+    height: 40px;
+    margin-top: var(--udexSpacer32);
+
+    & ul {
+      border-bottom: 1px solid var(--sapShell_Category_15_BorderColor);
+      display: flex;
+      gap: 32px;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    & li {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      position: relative;
+      text-align: center;
+
+      a {
+        border: 0 none;
+        color: var(--sapTextColor);
+        display: block;
+        font-size: var(--udexTypographyNavigationRegularXLFontSize);
+        font-weight: var(--udexTypographyFontWeightBold);
+        line-height: var(--udexTypographyNavigationLineHeight);
+        margin: 0;
+        padding: var(--udexSpacer12) var(--udexSpacer4) var(--udexSpacer16);
+        text-decoration: none;
+
+        &:hover {
+          color: var(--udexColorBlue7);
+        }
+      }
+
+      &[aria-selected="true"] a {
+        color: var(--udexColorBlue7);
+
+        &::after {
+          background: var(--udexColorBlue7);
+          border-top-left-radius: var(--udexRadiusXXS);
+          border-top-right-radius: var(--udexRadiusXXS);
+          bottom: 0;
+          content: "";
+          height: 3px;
+          left: -4px;
+          position: absolute;
+          right: -4px;
+          width: calc(100% + 8px);
+        }
+      }
+    }
+  }
 }
 
-main .page-tabs ul {
-  margin: 0;
-  height: 100%;
-  padding: 0;
-  display: flex;
-  gap: 32px;
-  border-bottom: 1px solid var(--sapShell_Category_15_BorderColor);
+/* M */
+@media (width >= 980px) {
+  main {
+    .page-tabs {
+      margin-right: calc(var(--udexGridMargins));
+    }
+  }
 }
 
-main .page-tabs li {
-  height: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  border-bottom: transparent 3px solid;
+/* L */
+@media (width >= 1280px) {
+  main {
+    .page-tabs {
+      margin-right: calc(var(--udexGridMargins) * 4);
+    }
+  }
 }
-
-main .page-tabs li a {
-  color: var(--text-color);
-  border: 0;
-  line-height: 60px;
-  margin: 0;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-main .page-tabs li[aria-selected="true"] a {
-  color: var(--sapShell_Navigation_SelectedColor);
-}
-
-main .page-tabs li[aria-selected="true"] {
-  /* TODO implement not as a border but an "after" element to get it to look exactly like the design */
-  border-bottom: var(--sapShell_Navigation_SelectedColor) 3px solid;
-}
-

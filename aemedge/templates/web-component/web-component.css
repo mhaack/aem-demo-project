@@ -14,7 +14,6 @@ html:has(.web-component) {
   height: 100%;
   position: relative;
 
-  /* Master Header */
   > header {
     background: var(--udexColorGrey1);
     position: fixed;
@@ -23,12 +22,10 @@ html:has(.web-component) {
     z-index: 20;
   }
 
-  /* Main Navigation, not part of the grid */
   > nav {
     z-index: 10;
   }
 
-  /* Main Content */
   main {
     column-gap: var(--udexGridXSGutters);
     display: grid;
@@ -144,21 +141,24 @@ html:has(.web-component) {
     }
   }
 
-  /* Page Footer */
-  > footer {
+  & > footer {
     bottom: 0;
-    display: grid;
-    column-gap: var(--udexGridXSGutters);
     grid-area: footer;
-    grid-template-columns: repeat(var(--udexGridColumns), 1fr);
-    grid-template-rows: min-content;
-    padding: 0 var(--udexGridMargins);
     position: relative;
     width: 100%;
 
-    .design-system-footer {
+    & .design-system-footer {
+      column-gap: var(--udexGridXSGutters);
+      display: grid;
       grid-column: span var(--udexGridColumns);
-      padding-block: var(--udexSpacer16);
+      grid-template-columns: repeat(var(--udexGridColumns), 1fr);
+      grid-template-rows: min-content;
+      padding: var(--udexSpacer16) var(--udexGridMargins);
+
+      /* stylelint-disable-next-line */
+      & div {
+        grid-column: 1 / 13;
+      }
     }
   }
 
@@ -195,8 +195,8 @@ html:has(.web-component) {
 /* XS */
 @media (width < 640px) {
   .web-component {
-    main {
-      a {
+    & main {
+      & a {
         text-decoration: none;
       }
     }
@@ -206,26 +206,26 @@ html:has(.web-component) {
 /* S */
 @media (width >= 640px) {
   .web-component {
-    main {
+    & main {
       column-gap: var(--udexGridSGutters);
 
-      h2 {
+      & h2 {
         font-size: var(--udexTypographyHeadingMediumSFontSize);
       }
 
-      h3 {
+      & h3 {
         font-size: var(--udexTypographyHeadingMediumXXSFontSize);
         margin-block: var(--udexSpacer32) var(--udexSpacer16);
       }
 
-      p:has(> picture) {
+      & p:has(> picture) {
         /* Caption */
         & + p {
           font-size: var(--udexTypographyBodyXSFontSize);
         }
       }
 
-      .section {
+      & .section {
         &:not(:first-child) {
           padding-block: var(--udexSpacer48);
         }
@@ -235,36 +235,42 @@ html:has(.web-component) {
         }
       }
     }
+
+    & > footer {
+      .design-system-footer {
+        column-gap: var(--udexGridSGutters);
+      }
+    }
   }
 }
 
 /* M */
 @media (width >= 980px) {
   .web-component {
-    main {
+    & main {
       column-gap: var(--udexGridMGutters);
 
-      h2 {
+      & h2 {
         font-size: var(--udexTypographyHeadingMediumMFontSize);
       }
 
-      h3 {
+      & h3 {
         margin-block: var(--udexSpacer48) var(--udexSpacer16);
       }
 
-      :is(h1, h2, h3) + p {
+      & :is(h1, h2, h3) + p {
         margin-block: 0 var(--udexSpacer16);
       }
 
-      .section {
+      & .section {
         &:first-child {
-          > div {
+          & > div {
             grid-column: 2 / 13;
             margin-inline: unset;
           }
         }
 
-        .columns.columns-2-cols > div {
+        & .columns.columns-2-cols > div {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
@@ -278,12 +284,14 @@ html:has(.web-component) {
       }
     }
 
-    /* Page Footer */
-    > footer {
-      column-gap: var(--udexGridMGutters);
+    & > footer {
+      & .design-system-footer {
+        column-gap: var(--udexGridMGutters);
 
-      .design-system-footer {
-        grid-column: 2 / 13;
+        /* stylelint-disable-next-line */
+        & div {
+          grid-column: 2 / 13;
+        }
       }
     }
   }
@@ -292,23 +300,11 @@ html:has(.web-component) {
 /* L */
 @media (width >= 1280px) {
   .web-component {
-    main {
-      .section {
+    & main {
+      & .section {
         &:not(:first-child) {
           grid-column: 2 / 11;
           padding-block: var(--udexSpacer56);
-        }
-
-        &.design-system-toc-container {
-          grid-column: 11 / 13; /* Move TOC always to end of the column */
-          grid-row: 2; /* Move TOC always to second row */
-          border: 0 none;
-          padding: 0;
-          position: sticky;
-          display: block;
-          right: var(--udexGridMargins);
-          top: 10%;
-          z-index: 1;
         }
 
         &:nth-last-child(2):has(+ .design-system-toc-container) {
@@ -316,8 +312,36 @@ html:has(.web-component) {
         }
       }
 
-      :is(h1, h2, h3) + p {
+      & :is(h1, h2, h3) + p {
         margin-block: 0 var(--udexSpacer40);
+      }
+    }
+  }
+}
+
+/* XL */
+@media (width >= 1600px) {
+  .web-component {
+    & main {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      margin-inline: auto;
+      max-width: var(--udexGridXLMinWidth);
+      position: relative;
+
+      & .section {
+        /* &:first-child {} */
+
+        &:not(:first-child) {
+          position: relative;
+        }
+      }
+    }
+
+    & > footer {
+      & .design-system-footer {
+        margin: 0 auto;
+        max-width: var(--udexGridXLMinWidth);
       }
     }
   }
@@ -328,10 +352,10 @@ html:has(.web-component) {
  */
 /* stylelint-disable no-duplicate-selectors */
 .web-component {
-  main {
-    :is(#anatomy) {
+  & main {
+    & :is(#anatomy) {
       /* Picture */
-      + p:has(> picture) {
+      & + p:has(> picture) {
         & img {
           border-radius: var(--udexRadiusM);
         }
