@@ -721,6 +721,19 @@
   }
 }
 
+.overlay {
+  background-color: var(--udexColorNeutralBlack);
+  height: 100vh;
+  opacity: 0.5;
+  position: absolute;
+  top: var(--masthead-height);
+  width: 100%;
+
+  &[aria-hidden="true"] {
+    display: none;
+  }
+}
+
 /* XS */
 @media (width < 640px) {
   .design-system-masthead-nav {

@@ -781,8 +781,10 @@ function generateMasthead(block) {
       const target = e.currentTarget;
       const header = target.closest('.design-system-header');
       const mainNav = header?.querySelector('.design-system-main-nav-wrapper');
+      const overlayNav = document.querySelector('.overlay');
       const isPressed = target.getAttribute('aria-pressed') === 'true';
       target.setAttribute('aria-pressed', (!isPressed).toString());
+      overlayNav.setAttribute('aria-hidden', isPressed.toString());
       mainNav.setAttribute('aria-expanded', (!isPressed).toString());
       mainNav.style.display = isPressed ? 'none' : 'block';
     },
@@ -791,6 +793,8 @@ function generateMasthead(block) {
   }, 'Open Main Navigation'), span({
     class: 'icon icon-menu-expand',
   }));
+
+  const overlay = div({ class: 'overlay', 'aria-hidden': 'true' });
 
   const mastheadBrand = div({
     class: 'masthead-area masthead-area-brand',
@@ -813,6 +817,7 @@ function generateMasthead(block) {
   });
 
   mastheadBrand.append(mainNavExpandButton);
+  mastheadBrand.append(overlay);
   addBrand(mastheadBrand);
   addLandingZone(mastheadLandingZone);
   addDesignSystemSearch(block, mastheadSearch);
