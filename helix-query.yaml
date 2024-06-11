@@ -100,3 +100,17 @@ indices:
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"])
+  fiori-design-web:
+    include:
+      - /design-system-versioned/fiori-design-web/**
+    target: /design-system-versioned/fiori-design-web/query-index.json
+    properties:
+      version:
+        select: head > meta[name="version"]
+        value: attribute(el, "content")
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, "content")
+      lastModified:
+        select: none
+        value: parseTimestamp(headers["last-modified"])
