@@ -9,6 +9,7 @@ import {
   formatDate,
   getAuthorMetadata,
   getContentType,
+  getMetadataOverride,
   getTagLink,
   lookupProfiles,
   toTitleCase,
@@ -70,7 +71,7 @@ function decorateMetaInfo(authors) {
     );
   }
 
-  const readingTime = getMetadata('twitter:data2');
+  const readingTime = getMetadataOverride('twitter:data2');
   if (readingTime) {
     infoBlockWrapper.append(span({ class: 'media-blend__read-time' }, readingTime));
   }
