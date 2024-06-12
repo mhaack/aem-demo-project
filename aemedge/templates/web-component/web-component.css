@@ -169,10 +169,6 @@ html:has(.web-component) {
       display: grid;
       align-items: start;
 
-      p {
-        margin: 0;
-      }
-
       .embed-wrapper > p > p:last-child {
         margin-top: var(--udexSpacer16);
       }
@@ -273,6 +269,13 @@ html:has(.web-component) {
 
         & .columns.columns-2-cols > div {
           grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        & .columns.columns-2-cols > div > div,
+        & .columns.columns-3-cols > div > div {
+          & :is(h2, h3, p):first-child {
+            margin-top: 0;
+          }
         }
 
         &:not(:first-child) {
