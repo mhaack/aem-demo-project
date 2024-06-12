@@ -5,8 +5,8 @@
   & ul {
     border-bottom: 1px solid var(--sapShell_Category_15_BorderColor);
     display: flex;
-    gap: 32px;
     height: 100%;
+    justify-content: space-between;
   }
 
   & li {
@@ -20,7 +20,7 @@
       border: 0 none;
       color: var(--sapTextColor);
       display: block;
-      font-size: var(--udexTypographyNavigationRegularXLFontSize);
+      font-size: var(--udexTypographyNavigationRegularXSFontSize);
       font-weight: var(--udexTypographyFontWeightBold);
       line-height: var(--udexTypographyNavigationLineHeight);
       margin: 0;
@@ -72,6 +72,22 @@ main {
   }
 }
 
+/* =S */
+@media (width >= 640px) {
+  .page-tabs {
+    & ul {
+      gap: var(--udexSpacer32);
+      justify-content: unset;
+    }
+
+    & li {
+      & a {
+        font-size: var(--udexTypographyNavigationRegularSFontSize);
+      }
+    }
+  }
+}
+
 /* =M */
 @media (width >= 980px) {
   .web-component {
@@ -88,6 +104,12 @@ main {
 
   .page-tabs {
     margin-right: calc(var(--udexGridMargins));
+
+    & li {
+      & a {
+        font-size: var(--udexTypographyNavigationRegularXLFontSize);
+      }
+    }
   }
 }
 
