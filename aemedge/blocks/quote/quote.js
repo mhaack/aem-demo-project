@@ -30,6 +30,6 @@ export default async function decorate(block) {
     quoteLink.parentNode.remove();
   }
   if (!quoteLink && !quoteAuthor) {
-    quoteText.parentNode.classList.add('qt single-qt');
+    quoteText.parentNode.classList.add('qt', 'single-qt');
   }
 }

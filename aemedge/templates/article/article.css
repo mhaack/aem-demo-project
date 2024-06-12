@@ -202,8 +202,8 @@ main {
     padding-block-start: var(--udexSpacer56);
   }
 
-  > .toc-container {
-    margin-block-end: var(--udexSpacer40);
+  > .toc-container.section {
+    padding-bottom: 0;
     position: sticky;
     top: calc(-1 * var(--udexSpacer32));
     z-index: 2;
@@ -265,7 +265,7 @@ main {
       }
     }
 
-    & > .toc-container {
+    & > .toc-container.section {
       grid-column: 1 / 4;
       grid-row: 2 / -2;
       margin-block-end: var(--udexSpacer56);

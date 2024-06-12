@@ -139,13 +139,25 @@ function addFocusOutHandler(tocElement, selected) {
 }
 
 export default async function decorate(block) {
-  const mainContent = document.querySelectorAll(
-    'main > .section:not(.hero-container, .toc-container, .section[data-location="sidebar"], .section[data-location="document-footer"]) .default-content-wrapper',
-  );
-  const headers = mainContent ? Array.from(mainContent).reduce((acc, currentSection) => {
-    acc.push(...currentSection.querySelectorAll('h2, h3'));
+  /*
+  Exclude content in hero, TOC, sidebar, and doc footer.
+
+  Ignore .default-content-wrapper elements that are not direct children of sections as these could
+  be part of a block.
+
+  Ignore headings that are not direct children of .default-content-wrapper as these could be part
+  of a block.
+  */
+  const mainSections = document.querySelectorAll('main > .section:not(.hero-container, .toc-container, [data-location="sidebar"], [data-location="document-footer"])');
+  const fragmentSections = Array.from(mainSections).reduce((acc, currentSection) => {
+    acc.push(...currentSection.querySelectorAll('.section'));
     return acc;
-  }, []) : [];
+  }, []);
+  const headers = [...Array.from(mainSections), ...Array.from(fragmentSections)]
+    .reduce((acc, currentSection) => {
+      acc.push(...currentSection.querySelectorAll(':scope > .default-content-wrapper > :is(h2, h3)'));
+      return acc;
+    }, []);
   if (headers.length > 0) {
     const placeholders = await fetchPlaceholders();
     const heading = getMetadata('toc-heading') || placeholders[toCamelCase('toc-heading')];
