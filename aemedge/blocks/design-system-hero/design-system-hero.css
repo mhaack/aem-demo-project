@@ -25,8 +25,25 @@
     grid-row: 3 / 4;
 
     & > h1 {
-      font-size: var(--udexTypographyHeadingRegularSFontSize);
-      margin-top: 15px;
+      font-size: var(--udexTypographyHeadingRegularMFontSize);
+      margin-top: 16px;
+      margin-bottom: 40px;
+
+      .hero-sub-heading {
+        margin: 4px 0;
+        font-size: var(--udexTypographyBodyXSFontSize);
+      }
+    }
+
+    .tags-container {
+      .tag {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+        margin-right: 4px;
+        background-color: white;
+        color: var(--sapShell_TextColor);
+        padding: 4px 8px;
+        border-radius: 6px;
+      }
     }
   }
 
@@ -35,6 +52,26 @@
 
     & > span {
       font-size: var(--udexTypographyBodyXXSFontSize);
+    }
+
+    .breadcrumb-container {
+      span {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+
+        &.breadcrumb-item {
+          color: var(--sapShell_Category_14_TextColor);
+
+          &:not(:last-child) {
+            color: var(--sapShell_Category_15_Background);
+          }
+          
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+            color: var(--sapShell_Navigation_Active_Background);
+          }
+        }
+      }
     }
   }
 
@@ -90,7 +127,7 @@
     }
 
     div[slot="content"] > h1 {
-      font-size: var(--udexTypographyHeadingRegularXLFontSize);
+      font-size: var(--udexTypographyHeadingRegularMFontSize);
     }
   }
 }

@@ -42,21 +42,54 @@ function decorateImage(hero, imageName) {
 
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
+  const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3').textContent;
   const imageName = block.querySelector('div:nth-child(1) > div > div > div:nth-child(2) > div').textContent;
-  const breadcrumbText = getMetadata('breadcrumbs');
-  const breadcrumb = document.createElement('span');
-  breadcrumb.innerHTML = breadcrumbText;
+  const breadcrumb = div({
+    class: 'breadcrumb-container',
+  });
+  const breadcrumbText = `Home / ${getMetadata('breadcrumbs')}`;
+  breadcrumbText.split('/').forEach((itemText) => {
+    const item = Object.assign(document.createElement('span'), { className: 'breadcrumb-item' });
+    if (itemText.trim() === 'Home') {
+      item.innerHTML = itemText.trim();
+    } else {
+      const seprator = document.createElement('span');
+      seprator.innerHTML = ' / ';
+      breadcrumb.append(seprator);
+      item.innerHTML = `${itemText.trim()}`;
+    }
+    breadcrumb.append(item);
+  });
 
   const hero = div({
     class: 'fiori-hero-banner',
   });
+
+  const subHeading = document.createElement('p');
+  subHeading.classList.add('hero-sub-heading');
+  const textValue = subHeadingText.substring(0, subHeadingText.indexOf('|') - 1);
+  subHeading.innerHTML = textValue;
+  heading.append(subHeading);
+
+  const tagsContainer = Object.assign(document.createElement('div'), { className: 'tags-container' });
+  const componentTags = [getMetadata('designowner'), getMetadata('uielementstechnology'), getMetadata('elementtype')];
+  componentTags.forEach((tagName) => {
+    if (tagName.trim().length > 0) {
+      const tagItem = Object.assign(document.createElement('span'), { className: 'tag' });
+      tagItem.innerHTML = tagName;
+      tagsContainer.append(tagItem);
+    }
+  });
+
   const contentSlot = div(
     {
       slot: 'content',
       class: ['hero-banner', 'media-content'],
     },
     heading,
+    tagsContainer,
   );
+
   hero.append(contentSlot);
   const breadcrumbSlot = div(
     {
@@ -66,6 +99,7 @@ export default async function decorate(block) {
     breadcrumb,
   );
   hero.append(breadcrumbSlot);
+
   decorateImage(hero, imageName);
   mediaQueryXL.addEventListener('change', () => {
     decorateImage(hero, imageName);
