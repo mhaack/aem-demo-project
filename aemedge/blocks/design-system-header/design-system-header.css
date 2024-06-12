@@ -812,8 +812,6 @@
   .masthead-areas {
     --masthead-padding-inline: var(--masthead-padding-inline-m);
     --explore-nav-width: var(--explore-nav-width-m);
-
-    grid-column: 2 / 13;
   }
 
   .masthead-area-brand {
@@ -903,5 +901,7 @@
   .masthead-areas {
     --masthead-padding-inline: var(--masthead-padding-inline-xl);
     --explore-nav-width: var(--explore-nav-width-xl);
+
+    grid-column: 2 / 13;
   }
 }
