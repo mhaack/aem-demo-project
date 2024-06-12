@@ -1,19 +1,5 @@
 /* stylelint-disable selector-class-pattern */
 
-.fast-facts-wrapper {
-    &:not(:first-child) {
-        margin-block-start: var(--udexSpacer40);
-    }
-
-    &:not(:last-child) {
-        margin-block-end: var(--udexSpacer40);
-    }
-}
-
-.section:is(.background-dark, .background-light) .fast-facts-wrapper:first-child {
-    margin-block-start: var(--udexSpacer56);
-}
-
 .fast-facts {
     --fast-facts-display-color: var(--udexColorBlue8);
 
@@ -129,5 +115,21 @@
             width: auto;
             max-width: calc((3 * var(--udexGridGutters)) + (4 * var(--column-width)));
         }
+    }
+}
+
+.fast-facts-wrapper {
+    margin-block: var(--udexSpacer32);
+
+    &:first-child {
+        margin-block-start: 0;
+    }
+
+    &:last-child {
+        margin-block-end: 0;
+    }
+
+    @media (width >= 980px) {
+        margin-block: var(--udexSpacer40);
     }
 }

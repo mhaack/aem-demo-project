@@ -6,29 +6,6 @@ main .section {
   }
 }
 
-main > .section:not(.fragment-container) {
-  & > :first-child {
-    margin-block-start: 0;
-  }
-
-  & > .default-content-wrapper:first-child {
-    & :first-child {
-      margin-block-start: 0;
-    }
-  }
-}
-
-/* Article paragraph spacing */
-.article {
-  & p {
-    margin-block-start: var(--udexSpacer20);
-  }
-
-  & h3 + p {
-     margin-block-start: var(--udexSpacer8);
-  }
-}
-
 @media (width >= 1600px) {
   .article {
     --udexGridMargins: 246px;
@@ -64,6 +41,150 @@ main {
     margin-block-end;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
+  }
+
+  & .section > .default-content-wrapper {
+    & > h2 {
+      font-size: var(--udexTypographyHeadingMediumXSFontSize);
+      line-height: var(--udexTypographyHeadingLineHeight);
+      font-weight: var(--udexTypographyFontWeightMedium);
+
+      @media (width >= 980px) {
+        font-size: var(--udexTypographyHeadingMediumSFontSize);
+      }
+
+      @media (width >= 1280px) {
+        font-size: var(--udexTypographyHeadingMediumMFontSize);
+      }
+
+      @media (width >= 1600px) {
+        font-size: var(--udexTypographyHeadingMediumXLFontSize);
+      }
+    }
+
+    & > h3 {
+      font-size: var(--udexTypographyHeadingMediumXXXSFontSize);
+      line-height: var(--udexTypographyHeadingLineHeight);
+      font-weight: var(--udexTypographyFontWeightMedium);
+
+      @media (width >= 980px) {
+        font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+      }
+    }
+
+    & > h4 {
+      font-size: var(--udexTypographyHeadingMediumXXXSFontSize);
+      line-height: var(--udexTypographyHeadingLineHeight);
+      font-weight: var(--udexTypographyFontWeightMedium);
+    }
+
+    & > h3 + p, & > h4 + p {
+      margin-block: var(--udexSpacer8) 0;
+    }
+
+    /* Disabling rule as it is giving contradictory errors */
+    /* stylelint-disable no-descending-specificity */
+    & > p {
+      font-size: var(--udexTypographyBodySFontSize);
+      line-height: var(--udexTypographyBodyLineHeight);
+      margin-block: var(--udexSpacer20) 0;
+    }
+    /* stylelint-enable no-descending-specificity */
+
+    & > p.button-container {
+      margin-block: var(--udexSpacer12) 0;
+    }
+
+    & > p:has(.picture-container) {
+      margin-block: var(--udexSpacer24) 0;
+
+      @media (width >= 980px) {
+        margin-block: var(--udexSpacer32) 0;
+      }
+
+      @media (width >= 1280px) {
+        margin-block: var(--udexSpacer40) 0;
+      }
+    }
+
+    & > p:has(.picture-container) + p {
+      margin-block-start: var(--udexSpacer24);
+
+      @media (width >= 980px) {
+        margin-block-start: var(--udexSpacer32);
+      }
+
+      @media (width >= 1280px) {
+        margin-block-start: var(--udexSpacer40);
+      }
+    }
+
+    & > ul, & > li {
+      margin-block: var(--udexSpacer20) 0;
+    }
+
+    & > h2, & > h3, & > h4 {
+      margin-block: var(--udexSpacer40) 0;
+
+      @media (width >= 980px) {
+        margin-block: var(--udexSpacer48) 0;
+      }
+
+      @media (width >= 1280px) {
+        margin-block: var(--udexSpacer56) 0;
+      }
+    }
+
+    & > h2 + h3 {
+      margin-block: var(--udexSpacer20) 0;
+    }
+
+    &:has(h4:last-child) + * {
+      margin-block: var(--udexSpacer20) 0;
+    }
+  }
+
+  & .section[data-location="document-footer"] :is(> .default-content-wrapper, .section > .default-content-wrapper) {
+    /* Should align with L1 and L2 typography */
+    & > h2 {
+      margin-block: 0;
+    }
+
+    /* Disabling rule as p:has(.picture-container) + p shouldn't occur in document footer */
+    /* stylelint-disable no-descending-specificity */
+    & > p {
+      font-size: var(--udexTypographyBodyMFontSize);
+      margin-block: var(--udexSpacer16) 0;
+
+      @media (width >= 980px) {
+        font-size: var(--udexTypographyBodyLFontSize);
+      }
+    }
+    /* stylelint-enable no-descending-specificity */
+
+    & > p.button-container {
+      margin-block: var(--udexSpacer48) 0;
+
+      @media (width >= 980px) {
+        margin-block: var(--udexSpacer56) 0;
+      }
+
+      &:not(:has(.primary, .secondary)) {
+        margin-block-end: var(--udexSpacer48);
+
+        @media (width >= 980px) {
+          margin-block-end: var(--udexSpacer56);
+        }
+      }
+
+      &:last-child {
+        margin-block-end: 0;
+      }
+    }
+
+    & > p.button-container:has(.primary, .secondary) + p.button-container:not(:has(.primary, .secondary)) {
+      margin-block-start: var(--udexSpacer16);
+    }
   }
 
   & .hero-container,
@@ -165,19 +286,6 @@ main {
       grid-column: 1 / -1;
     }
   }
-
-  & > .section > .default-content-wrapper > h2 {
-    font-size: var(--udexTypographyHeadingMediumXSFontSize);
-    font-weight: var(--udexTypographyFontWeightMedium);
-
-    @media (width >= 980px) {
-    font-size: var(--udexTypographyHeadingMediumSFontSize);
-    }
-
-    @media (width >= 1280px) {
-    font-size: var(--udexTypographyHeadingMediumMFontSize);
-    }
-  }
 }
 
 /* image and video caption */
@@ -192,22 +300,39 @@ main {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-block: 0;
 
-  picture {
+  & picture {
     display: block;
 
-    img {
+    & img {
       display: block;
     }
   }
 
-  .picture-caption {
+  & .picture-caption {
     margin-top: var(--udexSpacer20);
     width: 0;
     min-width: 100%;
 
-    em {
+    & em {
       display: inline-block;
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+}
+
+main > .section:not(.fragment-container) {
+  & > :first-child {
+    margin-block-start: 0;
+  }
+
+  & > .default-content-wrapper:first-child {
+    & :first-child {
+      margin-block-start: 0;
     }
   }
 }

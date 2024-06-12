@@ -1,8 +1,8 @@
 .read-more h3 {
   font-size: var(--udexTypographyHeadingRegularLFontSize);
-  
-  
-  
+
+
+
 
   --webkit-font-smoothing: antialiased;
 }
@@ -29,5 +29,21 @@
         grid-template-columns: repeat(3, 1fr);
       }
     }
+  }
+}
+
+.related-articles-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
   }
 }

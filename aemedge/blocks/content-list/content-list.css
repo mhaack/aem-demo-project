@@ -93,6 +93,18 @@ body.hub-l2 .content-list {
   }
 }
 
-:is(.background-light, .background-dark):has(.content-list-wrapper:first-child):not(.hero-container + *) {
-  padding-block-start: var(--udexSpacer56);
+.content-list-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
+  }
 }

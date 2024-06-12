@@ -62,7 +62,20 @@
 
 /* expand all styles */
 .accordion-wrapper {
+  margin-block: var(--udexSpacer32);
   position: relative;
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
+  }
 
   & .expand {
     color: var(--sapInformationColor);

@@ -1,16 +1,10 @@
 .filters {
-  margin-block: var(--udexSpacer32);
-
   & .filter-panel {
     display: flex;
     justify-content: flex-start;
     gap: var(--udexSpacer40);
     margin-bottom: var(--udexSpacer16);
     position: relative;
-
-    /* & :last-child {
-      margin-left: auto;
-    } */
   }
 
   & .results-panel {

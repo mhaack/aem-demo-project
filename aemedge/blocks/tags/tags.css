@@ -1,10 +1,18 @@
-main .tags {
-    margin-top: var(--udexSpacer20);
-}
-
 main .tags div.tag-list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1rem;
+}
+
+.tags-wrapper {
+    margin-block: var(--udexSpacer20);
+
+    &:first-child {
+        margin-block-start: 0;
+    }
+
+    &:last-child {
+        margin-block-end: 0;
+    }
 }

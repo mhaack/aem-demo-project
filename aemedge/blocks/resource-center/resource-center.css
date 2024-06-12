@@ -108,8 +108,22 @@ body.hub-l2 .resource-center {
   }
 }
 
-:is(.background-light, .background-dark):has(
-    .resource-center-wrapper:first-child
-  ) {
-  padding-block-start: var(--udexSpacer56);
+.resource-center-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
+  }
+}
+
+.resource-center-carousel-wrapper {
+  margin-block-start: var(--udexSpacer8);
 }

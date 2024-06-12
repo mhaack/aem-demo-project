@@ -1,4 +1,8 @@
 .tiles {
+  & ul {
+    margin: 0;
+  }
+
   & .tile {
     & div:nth-child(2) {
       & > h3 {
@@ -27,7 +31,6 @@
 
   & > ul {
     list-style: none;
-    margin: var(--udexSpacer40) 0 0;
     padding: 0;
     display: grid;
 
@@ -282,5 +285,21 @@
         }
       }
     }
+  }
+}
+
+.tiles-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
   }
 }

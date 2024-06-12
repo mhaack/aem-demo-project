@@ -69,91 +69,91 @@
     span[color="grey-7"] {
       color: var(--udexColorGrey7) !important;
     }
-  
+
     span[color="grey-8"] {
       color: var(--udexColorGrey8) !important;
     }
-  
+
     span[color="grey-9"] {
       color: var(--udexColorGrey9) !important;
     }
-  
+
     span[color="grey-10"] {
       color: var(--udexColorGrey10) !important;
     }
-  
+
     span[color="red-7"] {
       color: var(--udexColorRed7) !important;
     }
-  
+
     span[color="red-8"] {
       color: var(--udexColorRed8) !important;
     }
-  
+
     span[color="red-9"] {
       color: var(--udexColorRed9) !important;
     }
-  
+
     span[color="mango-8"] {
       color: var(--udexColorMango8) !important;
     }
-  
+
     span[color="mango-9"] {
       color: var(--udexColorMango9) !important;
     }
-  
+
     span[color="green-7"] {
       color: var(--udexColorGreen7) !important;
     }
-  
+
     span[color="green-8"] {
       color: var(--udexColorGreen8) !important;
     }
-  
+
     span[color="green-9"] {
       color: var(--udexColorGreen9) !important;
     }
-  
+
     span[color="teal-8"] {
       color: var(--udexColorTeal8) !important;
     }
-  
+
     span[color="teal-9"] {
       color: var(--udexColorTeal9) !important;
     }
-  
+
     span[color="blue-8"] {
       color: var(--udexColorBlue8) !important;
     }
-  
+
     span[color="blue-9"] {
       color: var(--udexColorBlue9) !important;
     }
-  
+
     span[color="indigo-7"] {
       color: var(--udexColorIndigo7) !important;
     }
-  
+
     span[color="indigo-8"] {
       color: var(--udexColorIndigo8) !important;
     }
-  
+
     span[color="indigo-9"] {
       color: var(--udexColorIndigo9) !important;
     }
-  
+
     span[color="pink-8"] {
       color: var(--udexColorPink8) !important;
     }
-  
+
     span[color="pink-9"] {
       color: var(--udexColorPink9) !important;
     }
-  
+
     span[color="raspberry-8"] {
       color: var(--udexColorRaspberry8) !important;
     }
-  
+
     span[color="raspberry-9"] {
       color: var(--udexColorRaspberry9) !important;
     }
@@ -194,5 +194,21 @@
         width: 100%;
       }
     }
+  }
+}
+
+.table-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
   }
 }
