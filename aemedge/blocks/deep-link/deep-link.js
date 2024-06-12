@@ -2,12 +2,12 @@ import { decorateIcons } from '../../scripts/aem.js';
 import { a, span } from '../../scripts/dom-builder.js';
 
 export default function decorate() {
-  const headings = document.querySelectorAll('.section .default-content-wrapper > h2');
+  const headings = document.querySelectorAll('.section .default-content-wrapper > h2, .section .default-content-wrapper > h3');
 
   function handleChainLinkClick(event, href) {
     event.preventDefault();
     const target = event.currentTarget;
-    const currentHeadingEl = target.closest('h2');
+    const currentHeadingEl = target.closest('h2') || target.closest('h3');
 
     window.scrollTo({
       top: currentHeadingEl.offsetTop,
