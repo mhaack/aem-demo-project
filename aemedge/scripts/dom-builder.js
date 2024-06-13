@@ -72,7 +72,8 @@ export function ul(...items) { return domEl('ul', ...items); }
 export function ol(...items) { return domEl('ol', ...items); }
 export function li(...items) { return domEl('li', ...items); }
 export function i(...items) { return domEl('i', ...items); }
-export function picture(...items) { return domEl('img', ...items); }
+export function picture(...items) { return domEl('picture', ...items); }
+export function source(...items) { return domEl('source', ...items); }
 export function img(...items) { return domEl('img', ...items); }
 export function span(...items) { return domEl('span', ...items); }
 export function form(...items) { return domEl('form', ...items); }

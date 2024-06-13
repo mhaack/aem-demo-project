@@ -1,44 +1,11 @@
-import { createOptimizedPicture, getMetadata } from '../../scripts/aem.js';
-import { div } from '../../scripts/dom-builder.js';
+import { getMetadata } from '../../scripts/aem.js';
+import {
+  div,
+  img,
+  picture,
+  source,
+} from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
-
-const mediaQueryXL = window.matchMedia('(min-width: 1600px)');
-const mediaQueryL = window.matchMedia('(min-width: 1280px)');
-const mediaQueryM = window.matchMedia('(min-width: 980px)');
-const mediaQueryS = window.matchMedia('(min-width: 640px)');
-
-function decorateImageName(imageName) {
-  let decoratedImageName = '';
-  if (mediaQueryXL.matches) {
-    decoratedImageName = `xl-${imageName}`;
-  } else if (mediaQueryL.matches) {
-    decoratedImageName = `l-${imageName}`;
-  } else if (mediaQueryM.matches) {
-    decoratedImageName = `m-${imageName}`;
-  } else if (mediaQueryS.matches) {
-    decoratedImageName = `s-${imageName}`;
-  } else {
-    decoratedImageName = `xs-${imageName}`;
-  }
-
-  return `/design-system/images/hero/${decoratedImageName}.png`;
-}
-
-function decorateImage(hero, imageName) {
-  const decoratedImageName = decorateImageName(imageName);
-  const picture = createOptimizedPicture(decoratedImageName);
-  const oldPicture = hero.querySelector('picture');
-  if (picture) {
-    picture.setAttribute('slot', 'backgroundPicture');
-    const img = picture.querySelector('img');
-    img.classList.add('custom-background-image');
-    hero.append(picture);
-  }
-  if (oldPicture) {
-    oldPicture.remove();
-  }
-  return hero;
-}
 
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
@@ -53,22 +20,17 @@ export default async function decorate(block) {
     if (itemText.trim() === 'Home') {
       item.innerHTML = itemText.trim();
     } else {
-      const seprator = document.createElement('span');
-      seprator.innerHTML = ' / ';
-      breadcrumb.append(seprator);
+      const separator = document.createElement('span');
+      separator.innerHTML = ' / ';
+      breadcrumb.append(separator);
       item.innerHTML = `${itemText.trim()}`;
     }
     breadcrumb.append(item);
   });
 
-  const hero = div({
-    class: 'fiori-hero-banner',
-  });
-
   const subHeading = document.createElement('p');
   subHeading.classList.add('hero-sub-heading');
-  const textValue = subHeadingText.substring(0, subHeadingText.indexOf('|') - 1);
-  subHeading.innerHTML = textValue;
+  subHeading.innerHTML = subHeadingText.substring(0, subHeadingText.indexOf('|') - 1);
   heading.append(subHeading);
 
   const tagsContainer = Object.assign(document.createElement('div'), { className: 'tags-container' });
@@ -81,37 +43,32 @@ export default async function decorate(block) {
     }
   });
 
-  const contentSlot = div(
-    {
-      slot: 'content',
-      class: ['hero-banner', 'media-content'],
-    },
-    heading,
-    tagsContainer,
+  const hero = div(
+    { class: 'fiori-hero-banner' },
+    div(
+      {
+        slot: 'content',
+        class: ['hero-banner', 'media-content'],
+      },
+      heading,
+      tagsContainer,
+    ),
+    div(
+      {
+        slot: 'additionalContent',
+        class: ['hero-banner', 'media-additionalContent'],
+      },
+      breadcrumb,
+    ),
+    picture(
+      { slot: 'backgroundPicture' },
+      source({ media: '(min-width: 1600px)', srcset: `/design-system/images/hero/xl-${imageName}.svg` }),
+      source({ media: '(min-width: 1280px)', srcset: `/design-system/images/hero/l-${imageName}.svg` }),
+      source({ media: '(min-width: 980px)', srcset: `/design-system/images/hero/m-${imageName}.svg` }),
+      source({ media: '(min-width: 640px)', srcset: `/design-system/images/hero/s-${imageName}.svg` }),
+      img({ src: `/design-system/images/hero/xs-${imageName}.svg`, classList: 'custom-background-image' }),
+    ),
   );
 
-  hero.append(contentSlot);
-  const breadcrumbSlot = div(
-    {
-      slot: 'additionalContent',
-      class: ['hero-banner', 'media-additionalContent'],
-    },
-    breadcrumb,
-  );
-  hero.append(breadcrumbSlot);
-
-  decorateImage(hero, imageName);
-  mediaQueryXL.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
-  mediaQueryL.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
-  mediaQueryM.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
-  mediaQueryS.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
   block.replaceWith(hero);
 }
