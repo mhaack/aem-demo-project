@@ -99,6 +99,18 @@ html:has(.web-component) {
       border-bottom: 1px solid var(--udexCoreDividerLight);
       grid-column: span var(--udexGridColumns);
 
+      /* Remove the margin bottom from the last child of all the wrappers */
+      > [class$="wrapper"] > *:last-child:not(h1,h2,h3,h4,h5,h6) {
+        margin-bottom: 0;
+      }
+
+      /* After every wrapper if there is a wrapper then margin top should be
+      applied to the next one excluding the table wrapper */
+      > [class$="wrapper"]:not(.table-wrapper):has(> *:last-child:not(h1,h2,h3,h4,h5,h6))
+      + [class$="wrapper"]:not(.table-wrapper) {
+        margin-top: var(--udexSpacer40);
+      }
+
       &:first-child {
         border: 0 none;
         display: grid;
@@ -223,6 +235,11 @@ html:has(.web-component) {
       }
 
       & .section {
+        > [class$="wrapper"]:not(.table-wrapper):has(> *:last-child:not(h1,h2,h3,h4,h5,h6))
+        + [class$="wrapper"]:not(.table-wrapper) {
+          margin-top: var(--udexSpacer48);
+        }
+
         &:not(:first-child) {
           padding-block: var(--udexSpacer48);
         }
@@ -287,6 +304,7 @@ html:has(.web-component) {
           }
         }
 
+        /* stylelint-disable-next-line no-descending-specificity */
         & .columns.columns-2-cols > div > div,
         & .columns.columns-3-cols > div > div {
           & :is(h2, h3, p):first-child {
@@ -322,6 +340,11 @@ html:has(.web-component) {
   .web-component {
     & main {
       & .section {
+        > [class$="wrapper"]:not(.table-wrapper):has(> *:last-child:not(h1,h2,h3,h4,h5,h6))
+        + [class$="wrapper"]:not(.table-wrapper) {
+          margin-top: var(--udexSpacer56);
+        }
+
         &:not(:first-child) {
           grid-column: 2 / 11;
           padding-block: var(--udexSpacer56);

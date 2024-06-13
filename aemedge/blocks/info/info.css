@@ -4,8 +4,8 @@
     --sapChangesBackground: #DAFDF5;
 
     display: grid;
-    grid-template-columns: 7% 1fr;
-    row-gap: 8px;
+    grid-template-columns: 1fr;
+    gap: 8px;
     padding: 8px 12px;
 
     &.warning {
@@ -40,7 +40,7 @@
         line-height: 24px;
         color: var(--udexColorNeutralBlack);
 
-        p {
+        p:first-child {
             margin: unset;
             padding: unset;
         }
@@ -49,16 +49,17 @@
     .description {
         grid-column: 2 / 3;
 
-        p {
-            margin: unset;
-            padding: unset;
-        }
-
+        /* stylelint-disable-next-line no-descending-specificity */
         ul, p {
             color: var(--udexColorGrey7);
             font-size: var(--udexTypographyBodyXSFontSize);
             font-weight: var(--udexTypographyFontWeightRegular);
             line-height: 21px;
+        }
+
+        p:first-child {
+            margin: unset;
+            padding: unset;
         }
     }
 }
