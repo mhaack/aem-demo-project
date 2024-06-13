@@ -9,24 +9,27 @@ import '@udex/webcomponents/dist/HeroBanner.js';
 
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
-  const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3').textContent;
+  const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3')?.textContent ?? '';
   const imageName = block.querySelector('div:nth-child(1) > div > div > div:nth-child(2) > div').textContent;
   const breadcrumb = div({
     class: 'breadcrumb-container',
   });
-  const breadcrumbText = `Home / ${getMetadata('breadcrumbs')}`;
-  breadcrumbText.split('/').forEach((itemText) => {
-    const item = Object.assign(document.createElement('span'), { className: 'breadcrumb-item' });
-    if (itemText.trim() === 'Home') {
-      item.innerHTML = itemText.trim();
-    } else {
-      const separator = document.createElement('span');
-      separator.innerHTML = ' / ';
-      breadcrumb.append(separator);
-      item.innerHTML = `${itemText.trim()}`;
-    }
-    breadcrumb.append(item);
-  });
+  const metaBreadcrumbs = getMetadata('breadcrumbs');
+  if (metaBreadcrumbs) {
+    const breadcrumbText = `Home / ${metaBreadcrumbs}`;
+    breadcrumbText.split('/').forEach((itemText) => {
+      const item = Object.assign(document.createElement('span'), { className: 'breadcrumb-item' });
+      if (itemText.trim() === 'Home') {
+        item.innerHTML = itemText.trim();
+      } else {
+        const separator = document.createElement('span');
+        separator.innerHTML = ' / ';
+        breadcrumb.append(separator);
+        item.innerHTML = `${itemText.trim()}`;
+      }
+      breadcrumb.append(item);
+    });
+  }
 
   const subHeading = document.createElement('p');
   subHeading.classList.add('hero-sub-heading');
