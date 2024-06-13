@@ -191,8 +191,17 @@
       height: fit-content;
       min-height: 327px;
       border-radius: var(--udexRadiusXL);
+      border: 1px solid transparent;
       box-shadow: var(--sapContent_Shadow1);
       scroll-snap-align: center;
+      
+      &:hover {
+        --box-ShadowM: 0px 2px 8px 0px rgb(27 144 255 / 30%);
+  
+        background-color: white;
+        border: 1px solid var(--udexColorBlue6);
+        box-shadow: var(--box-ShadowM);
+      }
 
       .carousel-slide-image {
         border-radius: var(--udexRadiusXL);
@@ -264,6 +273,7 @@
       display: flex;
       align-self: center;
       align-items: center;
+      justify-content: center;
       width: 188px;
       gap: 12px;
       padding: 8px;
