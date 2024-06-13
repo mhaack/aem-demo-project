@@ -16,10 +16,13 @@ import {
   loadCSS,
 } from '../../scripts/aem.js';
 import { mediaQueryLists } from '../../scripts/config-ds.js';
+import {
+  camelToKebab,
+  log,
+} from '../../scripts/ds-scripts.js';
 
 const LANDING_ZONE_LABEL = 'Design System';
 const LANDING_ZONE_LABEL_MOBILE = 'SAP Design System';
-
 const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
   {
     web: {
@@ -49,7 +52,6 @@ const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
     },
   },
 ];
-
 const LANDING_ZONE_MENU_GROUP_WEBSITES_URLS = [
   {
     designSystem: {
@@ -58,7 +60,6 @@ const LANDING_ZONE_MENU_GROUP_WEBSITES_URLS = [
     },
   },
 ];
-
 const LANDING_ZONE_MENU_GROUPS = [
   {
     products: {
@@ -73,8 +74,8 @@ const LANDING_ZONE_MENU_GROUPS = [
     },
   },
 ];
-
 let JOULE_AI_URL_PARAM = null;
+const body = document.querySelector('body');
 
 const EXPLORE_MENU_URLS = [
   {
@@ -126,19 +127,6 @@ const EXPLORE_MENU_URLS = [
  */
 function removeEmptyStringsFromArray(array) {
   return array.filter((item) => item !== '');
-}
-
-/**
- * Convert camelCase to kebab-case.
- * @param str The string to convert.
- * @returns {*} The converted string.
- */
-function camelToKebab(str) {
-  return str
-    .replace(/([a-z])([A-Z])/g, '$1-$2') // Handle lowercase followed by uppercase
-    .replace(/([a-zA-Z])([0-9])/g, '$1-$2') // Handle letters followed by numbers
-    .replace(/([0-9])([a-zA-Z])/g, '$1-$2') // Handle numbers followed by letters
-    .toLowerCase();
 }
 
 /**
@@ -204,7 +192,7 @@ function generateExploreNavLists(jsonObj, className, container) {
 
     /**
      * If the button is pressed, show the group container and hide all other group containers.
-     * Due to the fact, that the links are only "not visible" in the mobile view, they should
+     * Since the links are only "not visible" in the mobile view, they should
      * also be not focusable (and vice versa).
      */
     buttons.forEach((btn) => {
@@ -782,21 +770,21 @@ function generateMasthead(block) {
 
   const mastheadAreas = div({ class: 'masthead-areas' });
 
-  const mainNavExpandButton = button({
+  const mainNavButton = button({
     'aria-label': 'Open Main Navigation',
-    class: 'masthead-btn main-nav-expand-btn',
+    class: 'masthead-btn main-nav-btn',
     title: 'Open Main Navigation',
     type: 'button',
     onclick: (e) => {
       const target = e.currentTarget;
       const header = target.closest('.design-system-header');
-      const mainNav = header?.querySelector('.design-system-main-nav-wrapper');
-      const overlayNav = document.querySelector('.overlay');
+      const mainNavWrapper = header?.querySelector('.design-system-main-nav-wrapper');
+      const mainNavOverlay = target.nextElementSibling;
       const isPressed = target.getAttribute('aria-pressed') === 'true';
       target.setAttribute('aria-pressed', (!isPressed).toString());
-      overlayNav.setAttribute('aria-hidden', isPressed.toString());
-      mainNav.setAttribute('aria-expanded', (!isPressed).toString());
-      mainNav.style.display = isPressed ? 'none' : 'block';
+      mainNavOverlay.setAttribute('aria-hidden', isPressed.toString());
+      mainNavWrapper.setAttribute('aria-expanded', (!isPressed).toString());
+      mainNavWrapper.style.display = isPressed ? 'none' : 'block';
     },
   }, span({
     class: 'label',
@@ -804,12 +792,11 @@ function generateMasthead(block) {
     class: 'icon icon-menu-expand',
   }));
 
-  const overlay = div({ class: 'overlay', 'aria-hidden': 'true' });
+  const mainNavOverlay = div({ class: 'main-nav-overlay', 'aria-hidden': 'true' });
 
   const mastheadBrand = div({
     class: 'masthead-area masthead-area-brand',
     'aria-label': 'Brand',
-    'data-mobile': ((mediaQueryLists.XS.matches || mediaQueryLists.S.matches) && !mediaQueryLists.M.matches) ? 'true' : 'false',
   });
 
   const mastheadLandingZone = div({
@@ -825,11 +812,10 @@ function generateMasthead(block) {
   const mastheadExplore = div({
     class: 'masthead-area masthead-area-explore',
     'aria-label': 'Explore',
-    'data-mobile': ((mediaQueryLists.XS.matches || mediaQueryLists.S.matches) && !mediaQueryLists.M.matches) ? 'true' : 'false',
   });
 
-  mastheadBrand.append(mainNavExpandButton);
-  mastheadBrand.append(overlay);
+  mastheadBrand.append(mainNavButton);
+  mastheadBrand.append(mainNavOverlay);
   addBrand(mastheadBrand);
   addLandingZone(mastheadLandingZone);
   addDesignSystemSearch(block, mastheadSearch);
@@ -846,66 +832,57 @@ function generateMasthead(block) {
   block.append(mastheadNav);
 }
 
-// TODO: Remove this temporary function later
-/**
- * Logs the given data to the console.
- *
- * @param {any} data - The data to be logged.
- * @param {string} [type='log'] - The type of log (e.g., 'log', 'warn', 'error').
- */
-function log(data, type = 'log') {
-  // eslint-disable-next-line no-console
-  console[type](data);
-}
+function addMediaQueryHandler(mainNavElements) {
+  function resetMainNav() {
+    if (body.getAttribute('data-mobile') === 'true') {
+      mainNavElements.mainNavButton.setAttribute('aria-pressed', 'false');
+      mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
+      mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
+      mainNavElements.mainNavWrapper.style.display = 'none';
+    } else {
+      mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
+      mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
+      mainNavElements.mainNavWrapper.style.display = 'block';
+    }
+  }
 
-/**
- * Add media query handlers.
- * TODO: Remove function if not needed
- */
-
-/* eslint-disable no-unused-vars */
-function addMediaQueryHandler(block) {
-  const mastheadBrand = block.querySelector(':scope .masthead-area-brand');
-  const mastheadExplore = block.querySelector(':scope .masthead-area-explore');
-
-  /**
-   * Handle the media query changes.
-   * TODO: Remove console.log statements and add the actual logic
-   */
-  function changeHandler() {
+  function mediaQueryChangeHandler() {
     if (mediaQueryLists.XL.matches) {
       log('XL', 'info');
-      mastheadBrand.setAttribute('data-mobile', 'false');
-      mastheadExplore.setAttribute('data-mobile', 'false');
+      resetMainNav();
     } else if (mediaQueryLists.L.matches) {
       log('L', 'info');
-      mastheadBrand.setAttribute('data-mobile', 'false');
-      mastheadExplore.setAttribute('data-mobile', 'false');
+      resetMainNav();
     } else if (mediaQueryLists.M.matches) {
       log('M', 'info');
-      mastheadBrand.setAttribute('data-mobile', 'false');
-      mastheadExplore.setAttribute('data-mobile', 'false');
+      resetMainNav();
     } else if (mediaQueryLists.S.matches) {
       log('S', 'info');
-      mastheadBrand.setAttribute('data-mobile', 'true');
-      mastheadExplore.setAttribute('data-mobile', 'true');
+      resetMainNav();
     } else if (mediaQueryLists.XS.matches) {
       log('XS', 'info');
-      mastheadBrand.setAttribute('data-mobile', 'true');
-      mastheadExplore.setAttribute('data-mobile', 'true');
-    } else {
-      log('No media query matched', 'info');
+      resetMainNav();
     }
   }
 
   // Add event listeners to the media query lists
-  Object.values(mediaQueryLists).forEach((mql) => mql.addEventListener('change', changeHandler));
+  Object.values(mediaQueryLists).forEach((mql) => mql.addEventListener('change', mediaQueryChangeHandler));
   // Call the change handler once
-  changeHandler();
+  mediaQueryChangeHandler();
 }
 
 export default async function decorate(block) {
   await generateMasthead(block);
-  await addMediaQueryHandler(block);
   addDesignSystemMainNav(block);
+
+  const mainNavElements = {
+    dsHeader: block.querySelector(':scope .design-system-header'),
+    mainNavWrapper: block.querySelector(':scope .design-system-main-nav-wrapper'),
+    mainNavOverlay: block.querySelector(':scope .main-nav-overlay'),
+    mastheadBrand: block.querySelector(':scope .masthead-area-brand'),
+    mastheadExplore: block.querySelector(':scope .masthead-area-explore'),
+    mainNavButton: block.querySelector(':scope .masthead-area .main-nav-btn'),
+  };
+
+  await addMediaQueryHandler(mainNavElements);
 }

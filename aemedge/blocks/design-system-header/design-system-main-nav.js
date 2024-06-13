@@ -8,39 +8,29 @@ import {
 } from '../../scripts/dom-builder.js';
 import ffetch from '../../scripts/ffetch.js';
 import { convertStringToKebabCase } from '../../scripts/utils.js';
+import { mediaQueryLists } from '../../scripts/config-ds.js';
 
+// TODO: Update the URL to the actual query index URL
 const QUERY_INDEX_URL = '/fiori-design-web/mock-query-index.json';
 const VALUE_SEPARATOR = ',';
-
-/**
- * Check if the link is a category header link.
- * @param el {Element}
- * @returns {boolean} true/false if the link is a category header link.
- */
 const isCategoryHeaderLink = (el) => el.tagName === 'A' && el.getAttribute('href') === '#' && el.hasAttribute('data-category');
-
-/**
- * Check if the link is an overview page link.
- * @param el {Element}
- * @returns {boolean} true/false if the link is an overview page link.
- */
-
 const isOverviewPageLink = (el) => el.tagName === 'A' && el.hasAttribute('data-overview');
-
-/**
- * Check if the link is a level 2 list link.
- * @param el {Element}
- * @returns {boolean} true/false if the link is a level 2 list link.
- */
 const isLevel2ListLink = (el) => el.tagName === 'A' && !isCategoryHeaderLink(el) && !isOverviewPageLink(el);
+const body = document.querySelector('body');
+let mainNavWrapper;
+let mainNavLinks;
+let level1ListItems;
+let level2Lists;
+let categoryHeaderLinks;
+let isExpanded = false;
+let isPointerInside = false;
 
 /**
  * Handle the click event on a link and update the visual state of the main navigation.
  * @param event {Event} The click event.
  */
-function handleLinkClick(event) {
+function handleMainNavLinkClick(event) {
   const target = event.target.closest('a');
-  const mainNavWrapper = document.querySelector('.design-system-main-nav-wrapper');
   const categoryHeaders = [...mainNavWrapper.querySelectorAll('.main-nav__category-header')];
 
   /**
@@ -97,13 +87,11 @@ function handleLinkClick(event) {
 
 /**
  * Set the current page link as active.
- * @description
- * The current page link is determined by comparing the `href` attribute of each link with
- * the current pathname.
+ * The current page link is determined by comparing the `href`
+ * attribute of each link with the current pathname.
  * The comparison is done without the trailing slash to ensure uniformity.
- * @param mainNavWrapper
  */
-function setInitialState(mainNavWrapper) {
+function setInitialState() {
   const path = window.location.pathname.replace(/\/$/, '');
   const links = [...mainNavWrapper.querySelectorAll('a')];
 
@@ -144,27 +132,36 @@ function setInitialState(mainNavWrapper) {
 }
 
 /**
- * Register click events on the main navigation wrapper for event delegation.
- * @param mainNavWrapper
+ * Reset the main navigation to its initial (empty and clean) state.
  */
-function registerLinkClickEvents(mainNavWrapper) {
+function resetMainNav() {
+  mainNavWrapper.setAttribute('aria-expanded', 'false');
+  level1ListItems.forEach((item) => item.setAttribute('aria-expanded', 'false'));
+  level2Lists.forEach((list) => list.setAttribute('aria-expanded', 'false'));
+  categoryHeaderLinks.forEach((link) => link.setAttribute('aria-current', 'false'));
+}
+
+function registerMainNavLinkClickEvents() {
+  // delegate the event down to the links
   mainNavWrapper.addEventListener('click', (event) => {
     const target = event.target.closest('a');
-    if (target) {
-      handleLinkClick(event);
-    }
+    if (target) { handleMainNavLinkClick(event); }
   });
 }
 
 /**
  * Update the state of the main navigation.
- * @param mainNavWrapper {Element} The main navigation wrapper.
  * @param expand {boolean} The state to set the main navigation to.
  * @param event {Event|PointerEvent|KeyboardEvent} Event that triggered the state update.
  */
-function updateState(mainNavWrapper, expand, event) {
+function updateMainNavState(expand, event) {
   const links = [...mainNavWrapper.querySelectorAll('a')];
-  mainNavWrapper.setAttribute('aria-expanded', expand ? 'true' : 'false');
+
+  if (body.getAttribute('data-mobile') === 'true') {
+    mainNavWrapper.setAttribute('aria-expanded', 'true');
+  } else {
+    mainNavWrapper.setAttribute('aria-expanded', expand ? 'true' : 'false');
+  }
 
   /**
    * Handle the pointerenter event on the main navigation wrapper.
@@ -199,7 +196,7 @@ function updateState(mainNavWrapper, expand, event) {
    * Handle the pointerleave and blur events on the main navigation wrapper.
    * @param linkState {Object} The state of the link.
    */
-  function pointerleaveBlurHandler(linkState) {
+  function pointerleaveAndBlurHandler(linkState) {
     const {
       link,
       level1ListItem,
@@ -215,7 +212,7 @@ function updateState(mainNavWrapper, expand, event) {
       }
     } else if (isOverviewPageLink(link)) {
       if (link.getAttribute('aria-current') === 'false') {
-        setInitialState(mainNavWrapper);
+        setInitialState();
       }
     } else if (isLevel2ListLink(link)) {
       if (link.getAttribute('aria-current') === 'true') {
@@ -237,156 +234,146 @@ function updateState(mainNavWrapper, expand, event) {
       categoryHeaderLink,
     };
 
-    if (event.type === 'pointerenter') {
-      pointerenterHandler(linkState);
-    } else if (event.type === 'pointerleave' || event.type === 'blur') {
-      pointerleaveBlurHandler(linkState);
+    if (body.getAttribute('data-mobile') === 'false') {
+      if (event.type === 'pointerenter') {
+        pointerenterHandler(linkState);
+      } else if (event.type === 'pointerleave' || event.type === 'blur') {
+        pointerleaveAndBlurHandler(linkState);
+      }
     }
   });
 }
 
 /**
- * Set the expanded state of the main navigation.
- * @param mainNavWrapper {Element}
+ * Consolidated update the state of the main navigation helper.
+ * @param expand {boolean} The state to set the main navigation to.
+ * @param event {Event|PointerEvent|KeyboardEvent} Event that triggered the state update.
  */
-function handleExpandedState(mainNavWrapper) {
-  if (!mainNavWrapper) return;
+function updateNavState(expand, event) {
+  isExpanded = expand;
+  updateMainNavState(expand, event);
+}
 
-  const categoryHeaders = [...mainNavWrapper.querySelectorAll('.main-nav__category-header')];
-  const links = [...mainNavWrapper.querySelectorAll('a')];
-  let isExpanded = false;
-  let isPointerInside = false;
+/**
+ * Handle the pointerenter event on the main navigation wrapper.
+ * @param event {PointerEvent} The pointerenter event.
+ */
+function handlePointerenterEvent(event) {
+  isPointerInside = true;
+  updateNavState(true, event);
+}
 
-  /**
-   * Consolidated update the state of the main navigation helper.
-   * @param expand {boolean} The state to set the main navigation to.
-   * @param event {Event|PointerEvent|KeyboardEvent} Event that triggered the state update.
-   */
-  function updateNavState(expand, event) {
-    isExpanded = expand;
-    updateState(mainNavWrapper, expand, event);
-  }
-
-  /**
-   * Handle the pointerenter event on the main navigation wrapper.
-   * @param event {PointerEvent} The pointerenter event.
-   */
-  function handlePointerenterEvent(event) {
-    isPointerInside = true;
-    updateNavState(true, event);
-  }
-
-  /**
-   * Handle the focus event on the main navigation wrapper.
-   * @param event {KeyboardEvent} The focus event.
-   */
-  function handleFocusEvent(event) {
-    updateNavState(true, event);
-  }
-
-  /**
-   * Handle the pointerleave event on the main navigation wrapper.
-   * Checks if the `relatedTarget` of the event (the element the mouse pointer is moving to)
-   * is not a child of `mainNavWrapper`.
-   * Delay is used to ensure that focus can return or another pointerenter can occur.
-   * @param event {PointerEvent} The pointerleave event.
-   */
-  function handlePointerleaveEvent(event) {
-    isPointerInside = false;
-    if (!mainNavWrapper.contains(event.relatedTarget)) {
-      setTimeout(() => {
-        if (!isPointerInside) {
-          updateNavState(false, event);
-        }
-      }, 100);
-    }
-  }
-
-  /**
-   * Handle the blur event on the main navigation wrapper.
-   * @param event {KeyboardEvent|PointerEvent} The blur event.
-   */
-  function handleBlurEvent(event) {
-    if (!mainNavWrapper.contains(event.relatedTarget) && !isPointerInside) {
-      updateNavState(false, event);
-    }
-  }
-
-  /**
-   * General interaction handler for pointer (mouse) and keyboard events.
-   * 1. Check if pointerleave/blur is going to an element outside the nav wrapper.
-   * 2. On pointerenter/focus within the nav, keep the nav expanded.
-   * @param event {Event|PointerEvent|KeyboardEvent} The event.
-   */
-  function handleInteraction(event) {
-    switch (event.type) {
-      case 'pointerenter':
-        handlePointerenterEvent(event);
-        break;
-      case 'focus':
-        handleFocusEvent(event);
-        break;
-      case 'pointerleave':
-        handlePointerleaveEvent(event);
-        break;
-      case 'blur':
-        handleBlurEvent(event);
-        break;
-      default:
-        break;
-    }
-  }
-
-  /**
-   * Prevent the default click behavior when the nav wrapper is expanded and clicked on.
-   * Ensure the nav stays expanded unless a link is specifically clicked.
-   * @param event {Event} The click event.
-   */
-  function handleNavWrapperClick(event) {
-    if (event.target === mainNavWrapper) {
-      event.preventDefault();
-      event.stopPropagation();
-      if (!isExpanded) {
-        updateNavState(true, event);
+/**
+ * Handle the pointerleave event on the main navigation wrapper.
+ * Checks if the `relatedTarget` of the event (the element the mouse pointer is moving to)
+ * is not a child of `mainNavWrapper`.
+ * Delay is used to ensure that focus can return or another pointerenter can occur.
+ * @param event {PointerEvent} The pointerleave event.
+ */
+function handlePointerleaveEvent(event) {
+  isPointerInside = false;
+  if (!mainNavWrapper.contains(event.relatedTarget)) {
+    setTimeout(() => {
+      if (!isPointerInside) {
+        updateNavState(false, event);
       }
+    }, 100);
+  }
+}
+
+/**
+ * Handle the blur event on the main navigation wrapper.
+ * @param event {KeyboardEvent|PointerEvent} The blur event.
+ */
+function handleBlurEvent(event) {
+  if (!mainNavWrapper.contains(event.relatedTarget) && !isPointerInside) {
+    updateNavState(false, event);
+  }
+}
+
+/**
+ * Handle the focus event on the main navigation wrapper.
+ * @param event {KeyboardEvent} The focus event.
+ */
+function handleFocusEvent(event) {
+  updateNavState(true, event);
+}
+
+/**
+ * General interaction handler for pointer (mouse) and keyboard events.
+ * 1. Check if pointerleave/blur is going to an element outside the nav wrapper.
+ * 2. On pointerenter/focus within the nav, keep the nav expanded.
+ * @param event {Event|PointerEvent|KeyboardEvent} The event.
+ */
+function handleInteraction(event) {
+  switch (event.type) {
+    case 'pointerenter':
+      handlePointerenterEvent(event);
+      break;
+    case 'focus':
+      handleFocusEvent(event);
+      break;
+    case 'pointerleave':
+      handlePointerleaveEvent(event);
+      break;
+    case 'blur':
+      handleBlurEvent(event);
+      break;
+    default:
+      break;
+  }
+}
+
+/**
+ * Prevent the default click behavior when the nav wrapper is expanded and clicked on.
+ * Ensure the nav stays expanded unless a link is specifically clicked.
+ * @param event {Event} The click event.
+ */
+function handleNavWrapperClick(event) {
+  if (event.target === mainNavWrapper) {
+    event.preventDefault();
+    event.stopPropagation();
+    if (!isExpanded) {
+      updateNavState(true, event);
     }
   }
+}
 
-  /**
-   * Handle the escape key to collapse the main navigation and remove the focus from all links.
-   * @param event {KeyboardEvent} The keyboard event.
-   */
-  function handleEscapeKey(event) {
-    if (isPointerInside) return;
+/**
+ * Handle the escape key to collapse the main navigation and remove the focus from all links.
+ * @param event {KeyboardEvent} The keyboard event.
+ */
+function handleEscapeKey(event) {
+  if (isPointerInside) return;
 
-    if (event.key === 'Escape') {
-      updateNavState(false, event);
-      links.forEach((link) => link.blur());
-    }
+  if (event.key === 'Escape') {
+    updateNavState(false, event);
+    mainNavLinks.forEach((link) => link.blur());
   }
+}
 
-  /**
-   * Register pointer events (mouse) for the main navigation wrapper.
-   */
-  function registerPointerEvents() {
-    mainNavWrapper.addEventListener('pointerenter', handleInteraction);
-    mainNavWrapper.addEventListener('pointerleave', handleInteraction);
-    mainNavWrapper.addEventListener('click', handleNavWrapperClick, true);
-  }
+function addPointerEvents() {
+  mainNavWrapper.addEventListener('pointerenter', handleInteraction);
+  mainNavWrapper.addEventListener('pointerleave', handleInteraction);
+  mainNavWrapper.addEventListener('click', handleNavWrapperClick, true);
+}
 
-  /**
-   * Register keyboard events for the main navigation wrapper.
-   */
-  function registerKeyboardEvents() {
-    categoryHeaders.forEach((link) => {
-      link.addEventListener('focus', handleInteraction);
-      link.addEventListener('blur', handleInteraction);
-    });
-    document.addEventListener('keydown', handleEscapeKey);
-  }
+function removePointerEvents() {
+  mainNavWrapper.removeEventListener('pointerenter', handleInteraction);
+  mainNavWrapper.removeEventListener('pointerleave', handleInteraction);
+  mainNavWrapper.removeEventListener('click', handleNavWrapperClick, true);
+}
 
-  registerPointerEvents();
-  registerKeyboardEvents();
+/**
+ * Register keyboard events for the main navigation wrapper.
+ */
+function registerKeyboardEvents() {
+  const categoryHeaders = [...mainNavWrapper.querySelectorAll('.main-nav__category-header')];
+  categoryHeaders.forEach((link) => {
+    link.addEventListener('focus', handleInteraction);
+    link.addEventListener('blur', handleInteraction);
+  });
+  document.addEventListener('keydown', handleEscapeKey);
 }
 
 /**
@@ -555,10 +542,10 @@ function createMainNav(queryIndexData) {
     targetList.appendChild(categoryHeaderListItem);
   });
 
-  // Append the main and utility sections to the container
+  // Append the main (and utility) section to the container
   mainNavContainer.appendChild(mainSection);
 
-  // Append the utility container only if it contains items
+  // Append the utility section only if it contains items
   if (utilityList.childNodes.length > 0) {
     mainNavContainer.appendChild(utilitySection);
   }
@@ -566,16 +553,53 @@ function createMainNav(queryIndexData) {
   return mainNavContainer;
 }
 
+function addMediaQueryHandler() {
+  function changeHandler() {
+    if (mediaQueryLists.XL.matches) {
+      addPointerEvents();
+      resetMainNav();
+      setInitialState();
+    } else if (mediaQueryLists.L.matches) {
+      addPointerEvents();
+      resetMainNav();
+      setInitialState();
+    } else if (mediaQueryLists.M.matches) {
+      addPointerEvents();
+      resetMainNav();
+      setInitialState();
+    } else if (mediaQueryLists.S.matches) {
+      removePointerEvents();
+      resetMainNav();
+      setInitialState();
+    } else if (mediaQueryLists.XS.matches) {
+      removePointerEvents();
+      resetMainNav();
+      setInitialState();
+    }
+  }
+
+  // Add event listeners to the media query lists
+  Object.values(mediaQueryLists).forEach((mql) => mql.addEventListener('change', changeHandler));
+  // Call the change handler once
+  changeHandler();
+}
+
 export default async function init(wrapper) {
   const mainNavQueryIndex = await ffetch(QUERY_INDEX_URL).all();
   const mainNav = createMainNav(mainNavQueryIndex);
-  const mainNavWrapper = document.querySelector('.design-system-main-nav-wrapper');
 
   if (mainNav) {
     wrapper.append(mainNav);
   }
 
-  handleExpandedState(mainNavWrapper);
-  setInitialState(mainNavWrapper);
-  registerLinkClickEvents(mainNavWrapper);
+  mainNavWrapper = document.querySelector('.design-system-main-nav-wrapper');
+  mainNavLinks = [...mainNavWrapper.querySelectorAll('a')];
+  level1ListItems = mainNavWrapper.querySelectorAll('.main-nav__list-level-1-item');
+  level2Lists = mainNavWrapper.querySelectorAll('.main-nav__list-level-2');
+  categoryHeaderLinks = mainNavWrapper.querySelectorAll('.main-nav__category-header');
+
+  registerKeyboardEvents();
+  setInitialState();
+  registerMainNavLinkClickEvents();
+  addMediaQueryHandler();
 }

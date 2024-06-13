@@ -103,6 +103,30 @@ export function autoblockColumns(main) {
   });
 }
 
+/**
+ * Logs the given data to the console.
+ *
+ * @param {any} data - The data to be logged.
+ * @param {string} [type='log'] - The type of log (e.g., 'log', 'warn', 'error').
+ */
+export function log(data, type = 'log') {
+  // eslint-disable-next-line no-console
+  console[type](data);
+}
+
+/**
+ * Convert camelCase to kebab-case.
+ * @param str The string to convert.
+ * @returns {*} The converted string.
+ */
+export function camelToKebab(str) {
+  return str
+    .replace(/([a-z])([A-Z])/g, '$1-$2') // Handle lowercase followed by uppercase
+    .replace(/([a-zA-Z])([0-9])/g, '$1-$2') // Handle letters followed by numbers
+    .replace(/([0-9])([a-zA-Z])/g, '$1-$2') // Handle numbers followed by letters
+    .toLowerCase();
+}
+
 export function decorateDesignSystemSite(main) {
   filterInternalExternalData(main);
   decorateLiveExamples(main);

@@ -18,18 +18,18 @@
   user-select: none;
   width: var(--main-nav-width);
 
-  /* M */
-  @media (width >= 980px) {
-    display: block;
-  }
-
   &:hover,
   &[aria-expanded="true"] {
     width: var(--main-nav-width-expanded);
   }
 }
 
-/* Block */
+[data-mobile="true"] {
+  .design-system-main-nav-wrapper {
+    overflow-y: auto;
+  }
+}
+
 .design-system-main-nav {
   height: 100%;
 }
@@ -226,5 +226,27 @@
     .main-nav__category-header-arrow {
       display: block;
     }
+  }
+}
+
+.main-nav-overlay {
+  background-color: var(--udexColorNeutralBlack);
+  height: 100vh;
+  left: 0;
+  opacity: 0.5;
+  position: fixed;
+  right: 0;
+  top: var(--masthead-height);
+  width: 100%;
+
+  &[aria-hidden="true"] {
+    display: none;
+  }
+}
+
+/* =M */
+@media (width >= 980px) {
+  .design-system-main-nav-wrapper {
+    display: block;
   }
 }
