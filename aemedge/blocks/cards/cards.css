@@ -3,7 +3,7 @@
     margin: 0;
   }
 
-  & h2 {
+  & h3 {
     font-size: var(--udexTypographyHeadingMediumXXXSFontSize);
     font-weight: var(--udexTypographyFontWeightMedium);
     margin-block-end: var(--udexSpacer8);
@@ -34,20 +34,6 @@
 
   & .cards-card {
     & div:nth-child(2) {
-      & > h3 {
-        font-size: var(--udexTypographyBodySFontSize);
-
-        @media (width >= 1280px) {
-          font-size: var(--udexTypographyHeadingMediumXXSFontSize);
-          font-weight: var(--udexTypographyFontWeightMedium);
-        }
-
-        & + p {
-          padding-block: 0 var(--udexSpacer20);
-          margin-block: 0;
-        }
-      }
-
       & .button-container {
         margin-block: 0;
       }
