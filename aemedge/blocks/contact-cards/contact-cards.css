@@ -1,4 +1,6 @@
 /* stylelint-disable selector-class-pattern */
+@import url("/aemedge/libs/button/button.css");
+
 .contact-cards-wrapper {
   margin-block: var(--udexSpacer32);
 

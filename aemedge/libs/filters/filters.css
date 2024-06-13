@@ -1,3 +1,6 @@
+@import url("/aemedge/libs/menu/menu.css");
+@import url("/aemedge/libs/tag/tag.css");
+
 .filters {
   & .filter-panel {
     display: flex;

@@ -64,7 +64,7 @@
   size-adjust: 99.94%;
 }
 
-:root {
+:root, :host {
   --background-color: var(--udexColorNeutralWhite);
   --card-tile-height: 360px;
   --column-width: calc((var(--grid-width) - (11 * var(--udexGridGutters))) / 12);
@@ -80,7 +80,7 @@
 
 /* S */
 @media (width >=640px) {
-  :root {
+  :root, :host {
     --udexGridGutters: var(--udexGridSGutters);
     --udexGridMargins: var(--udexGridSMargins);
   }
@@ -88,7 +88,7 @@
 
 /* M */
 @media (width >=980px) {
-  :root {
+  :root, :host {
     --udexGridGutters: var(--udexGridMGutters);
     --udexGridMargins: var(--udexGridMMargins);
   }
@@ -96,7 +96,7 @@
 
 /* L */
 @media (width >=1280px) {
-  :root {
+  :root, :host {
     --udexGridGutters: var(--udexGridLGutters);
     --udexGridMargins: var(--udexGridLMargins);
   }
@@ -104,7 +104,7 @@
 
 /* XL */
 @media (width >=1600px) {
-  :root {
+  :root, :host {
     --udexGridGutters: var(--udexGridXLGutters);
     --udexGridMargins: var(--udexGridXLMargins);
     --hero-margin--left: 246px;

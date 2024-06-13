@@ -1,3 +1,7 @@
+@import url("/aemedge/libs/card/card.css");
+@import url("/aemedge/libs/pages/pages.css");
+
+
 .list-external {
   display: grid;
   grid-template-columns: 1fr;

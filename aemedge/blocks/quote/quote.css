@@ -1,3 +1,5 @@
+@import url("/aemedge/libs/avatar/avatar.css");
+
 .quote {
     display: grid;
     grid-template: "avatar" min-content "qt" min-content "qs" min-content "link" min-content / 1fr;

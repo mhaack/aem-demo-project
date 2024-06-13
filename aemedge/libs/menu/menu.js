@@ -2,7 +2,7 @@
 import {
   li, p, label, ul, menu as menuBuilder,
 } from '../../scripts/dom-builder.js';
-import { loadCSS, toClassName } from '../../scripts/aem.js';
+import { toClassName } from '../../scripts/aem.js';
 
 export default class List {
   constructor(name, items, id) {
@@ -52,10 +52,7 @@ export default class List {
     return item;
   }
 
-  render(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/menu/menu.css`);
-    }
+  render() {
     const menuItems = this.items.map((item) => this.getListItem(item.label, item.value));
     let scroll = '';
     if (menuItems.length > 10) scroll = 'scrollable';

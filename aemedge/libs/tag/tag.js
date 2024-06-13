@@ -1,4 +1,4 @@
-import { loadCSS, toClassName } from '../../scripts/aem.js';
+import { toClassName } from '../../scripts/aem.js';
 import { a, span, button } from '../../scripts/dom-builder.js';
 
 export default class Tag {
@@ -9,17 +9,11 @@ export default class Tag {
     this.id = id || toClassName(name);
   }
 
-  render(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/tag/tag.css`);
-    }
+  render() {
     return a({ class: 'tag', href: this.value }, this.name);
   }
 
-  renderButtonTag(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/tag/tag.css`);
-    }
+  renderButtonTag() {
     const clostBtn = span({ class: 'close' });
     clostBtn.addEventListener('click', (e) => {
       const tagEvent = new CustomEvent('sap:itemClose', {

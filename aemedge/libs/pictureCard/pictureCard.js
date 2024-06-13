@@ -2,7 +2,7 @@ import Card from '../card/card.js';
 import {
   li, a, span, div, p,
 } from '../../scripts/dom-builder.js';
-import { createOptimizedPicture, loadCSS } from '../../scripts/aem.js';
+import { createOptimizedPicture } from '../../scripts/aem.js';
 import Avatar from '../avatar/avatar.js';
 
 export default class PictureCard extends Card {
@@ -46,10 +46,7 @@ export default class PictureCard extends Card {
       );
   }
 
-  render(horizontal, excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/pictureCard/pictureCard.css`);
-    }
+  render(horizontal) {
     const externalLink = this.path.startsWith('http') || this.path.startsWith('//');
     const info = externalLink ? span({ class: 'external-link' }, this.info) : this.info;
 

@@ -1,5 +1,5 @@
 import {
-  fetchPlaceholders, getMetadata, loadCSS, toCamelCase,
+  fetchPlaceholders, getMetadata, toCamelCase,
 } from '../../scripts/aem.js';
 import { ul } from '../../scripts/dom-builder.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
@@ -35,7 +35,6 @@ function getPictureCard(article, placeholders, tags, author, eager) {
 }
 
 export default async function decorateBlock(block) {
-  loadCSS(`${window.hlx.codeBasePath}/libs/pictureCard/pictureCard.css`);
   const horizontal = block.classList.contains('horizontal');
   const links = Array.from(block.querySelectorAll('a')).map((link) => new URL(link.href).pathname);
   if (links.length > 0) {
@@ -58,7 +57,7 @@ export default async function decorateBlock(block) {
         displayAuthor,
         article === articles[0],
       );
-      cardList.append(card.render(horizontal, true));
+      cardList.append(card.render(horizontal));
     });
     block.append(cardList);
   }

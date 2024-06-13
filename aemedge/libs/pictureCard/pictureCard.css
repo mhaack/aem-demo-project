@@ -1,3 +1,6 @@
+@import url("/aemedge/libs/avatar/avatar.css");
+@import url("/aemedge/libs/card/card.css");
+
 .picture-card {
   position: relative;
   height: 360px;

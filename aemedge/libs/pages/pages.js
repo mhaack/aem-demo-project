@@ -2,7 +2,6 @@
 import {
   p, div, span, label,
 } from '../../scripts/dom-builder.js';
-import { loadCSS } from '../../scripts/aem.js';
 import Button from '../button/button.js';
 
 export default class Pages {
@@ -65,10 +64,7 @@ export default class Pages {
     this.block.append(this.getElement());
   }
 
-  render(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/pages/pages.css`);
-    }
+  render() {
     const element = this.getElement();
     this.block.append(element);
     this.block.addEventListener('sap:pageChange', (e) => {

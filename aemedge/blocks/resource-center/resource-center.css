@@ -1,3 +1,8 @@
+@import url("/aemedge/libs/filters/filters.css");
+@import url("/aemedge/libs/pages/pages.css");
+@import url("/aemedge/libs/carousel/carousel.css");
+@import url("/aemedge/libs/pictureCard/pictureCard.css");
+
 .resource-center {
   container: resource-center / inline-size;
   display: flex;

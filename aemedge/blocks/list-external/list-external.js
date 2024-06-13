@@ -38,7 +38,7 @@ function registerHandler(stream, block, pages) {
       block.querySelectorAll('.card').forEach((card) => card.remove());
       cursor.value.results.forEach((entry) => {
         const card = new Card(entry.Title, entry.URL, `Read Media on ${entry.Source}`, entry.Date);
-        block.append(card.renderExternalCard(true));
+        block.append(card.renderExternalCard());
       });
       pages.updatePages(cursor.value.pages);
     });
@@ -63,7 +63,7 @@ export default async function decorate(block) {
         ? `${config['reading-label']} ${entry.Source}`
         : config['reading-label'];
       const card = new Card(entry.Title, entry.URL, linkTitle, entry.Date);
-      block.append(card.renderExternalCard(true));
+      block.append(card.renderExternalCard());
     });
     if (cursor.value.pages > 1) {
       const pages = new Pages(block, cursor.value.pages, page, id);

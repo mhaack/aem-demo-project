@@ -1,7 +1,6 @@
 import {
   li, a, p, div, span,
 } from '../../scripts/dom-builder.js';
-import { loadCSS } from '../../scripts/aem.js';
 
 export default class Card {
   constructor(title, path, type, info) {
@@ -19,10 +18,7 @@ export default class Card {
     return this.info ? p({ class: 'label eyebrow' }, this.info) : '';
   }
 
-  render(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/card/card.css`);
-    }
+  render() {
     return li(
       { class: 'card' },
       p({ class: 'type eyebrow' }, this.getType()),
@@ -31,10 +27,7 @@ export default class Card {
     );
   }
 
-  renderExternalCard(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/card/card.css`);
-    }
+  renderExternalCard() {
     return div(
       { class: 'card' },
       div({ class: 'title' }, p(this.title)),

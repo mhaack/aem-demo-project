@@ -18,7 +18,7 @@ function renderProfiles(block, profiles, linkText, stacked = false) {
           renderLink ? profile.path : '',
           profile.image,
           portraitMode,
-        ).renderDetails(portraitMode ? 'flexible-big' : '', false, linkText),
+        ).renderDetails(portraitMode ? 'flexible-big' : '', linkText),
       );
 
       if (renderLink) {

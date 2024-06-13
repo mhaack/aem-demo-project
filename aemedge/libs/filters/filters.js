@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
 import { div, section } from '../../scripts/dom-builder.js';
-import { loadCSS, toClassName } from '../../scripts/aem.js';
+import { toClassName } from '../../scripts/aem.js';
 import { getParameterMap } from '../../scripts/utils.js';
 import Menu from '../menu/menu.js';
 import Tag from '../tag/tag.js';
@@ -72,7 +72,7 @@ export default class Filters {
 
   getFilterPanel() {
     const filterPanel = div({ class: 'filter-panel' });
-    document.addEventListener('click', (event) => {
+    this.block.addEventListener('click', (event) => {
       if (filterPanel.contains(event.target)) return;
       filterPanel.querySelectorAll('.menu').forEach((menu) => {
         menu.setAttribute('aria-expanded', 'false');
@@ -81,10 +81,7 @@ export default class Filters {
     return filterPanel;
   }
 
-  render(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/filters/filters.css`);
-    }
+  render() {
     const noResultLabel = this.placeholders.noResults || 'No results found';
     const filterPanel = this.getFilterPanel();
     const tagsPanel = this.getTagsPanel();

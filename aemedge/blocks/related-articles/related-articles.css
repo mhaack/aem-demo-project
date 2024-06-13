@@ -1,8 +1,7 @@
+@import url("/aemedge/libs/pictureCard/pictureCard.css");
+
 .read-more h3 {
   font-size: var(--udexTypographyHeadingRegularLFontSize);
-
-
-
 
   --webkit-font-smoothing: antialiased;
 }
