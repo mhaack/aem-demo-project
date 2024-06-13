@@ -72,7 +72,7 @@ export default class Filters {
 
   getFilterPanel() {
     const filterPanel = div({ class: 'filter-panel' });
-    this.block.addEventListener('click', (event) => {
+    filterPanel.addEventListener('click', (event) => {
       if (filterPanel.contains(event.target)) return;
       filterPanel.querySelectorAll('.menu').forEach((menu) => {
         menu.setAttribute('aria-expanded', 'false');
