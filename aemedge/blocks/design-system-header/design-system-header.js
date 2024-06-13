@@ -846,6 +846,18 @@ function generateMasthead(block) {
   block.append(mastheadNav);
 }
 
+// TODO: Remove this temporary function later
+/**
+ * Logs the given data to the console.
+ *
+ * @param {any} data - The data to be logged.
+ * @param {string} [type='log'] - The type of log (e.g., 'log', 'warn', 'error').
+ */
+function log(data, type = 'log') {
+  // eslint-disable-next-line no-console
+  console[type](data);
+}
+
 /**
  * Add media query handlers.
  * TODO: Remove function if not needed
@@ -862,27 +874,27 @@ function addMediaQueryHandler(block) {
    */
   function changeHandler() {
     if (mediaQueryLists.XL.matches) {
-      console.info('XL');
+      log('XL', 'info');
       mastheadBrand.setAttribute('data-mobile', 'false');
       mastheadExplore.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.L.matches) {
-      console.info('L');
+      log('L', 'info');
       mastheadBrand.setAttribute('data-mobile', 'false');
       mastheadExplore.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.M.matches) {
-      console.info('M');
+      log('M', 'info');
       mastheadBrand.setAttribute('data-mobile', 'false');
       mastheadExplore.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.S.matches) {
-      console.info('S');
+      log('S', 'info');
       mastheadBrand.setAttribute('data-mobile', 'true');
       mastheadExplore.setAttribute('data-mobile', 'true');
     } else if (mediaQueryLists.XS.matches) {
-      console.info('XS');
+      log('XS', 'info');
       mastheadBrand.setAttribute('data-mobile', 'true');
       mastheadExplore.setAttribute('data-mobile', 'true');
     } else {
-      console.info('No media query matched');
+      log('No media query matched', 'info');
     }
   }
 
