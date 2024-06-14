@@ -46,12 +46,27 @@ function showSlide(block, slideIndex = 0) {
 
 function bindEvents(block) {
   const slideIndicators = block.querySelector('.carousel-slide-indicators');
+  const carouselSlides = block.querySelectorAll('.carousel-slide');
+
   if (!slideIndicators) return;
+  if (!carouselSlides) return;
 
   slideIndicators.querySelectorAll('button').forEach((button) => {
     button.addEventListener('click', (e) => {
       const slideIndicator = e.currentTarget.parentElement;
       showSlide(block, parseInt(slideIndicator.dataset.targetSlide, 10));
+    });
+  });
+
+  carouselSlides.forEach((slide) => {
+    slide.addEventListener('click', () => {
+      const slideLink = slide.querySelector('.button-container a.button');
+      if (slideLink) {
+        const slideLinkHref = slideLink.getAttribute('href');
+        if (slideLinkHref) {
+          window.location.href = slideLinkHref;
+        }
+      }
     });
   });
 

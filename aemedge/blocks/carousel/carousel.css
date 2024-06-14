@@ -21,6 +21,7 @@
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     overflow: scroll clip;
+    cursor: pointer;
 
     &::-webkit-scrollbar {
       display: none;
@@ -191,16 +192,15 @@
       height: fit-content;
       min-height: 327px;
       border-radius: var(--udexRadiusXL);
-      border: 1px solid transparent;
-      box-shadow: var(--sapContent_Shadow1);
+      border: 1px solid var(--udexColorGrey2);
+      box-shadow: var(--sapContent_Shadow0);
       scroll-snap-align: center;
       
       &:hover {
-        --box-ShadowM: 0px 2px 8px 0px rgb(27 144 255 / 30%);
-  
         background-color: white;
         border: 1px solid var(--udexColorBlue6);
-        box-shadow: var(--box-ShadowM);
+        box-shadow: var(--sapContent_Shadow1);
+
       }
 
       .carousel-slide-image {
@@ -247,7 +247,7 @@
         }
 
         h3 {
-          margin-top: 16px;
+          margin-top: 0;
           margin-bottom: 0;
           min-height: 26px;
           height: fit-content;
@@ -310,6 +310,14 @@
       width: 4px;
       height: 4px;
       padding: 2px 0;
+
+      &:not(:disabled) {
+        span {
+          img {
+            content: url("/aemedge/icons/dot-regular.svg");
+          }
+        }
+      }
 
       &:disabled {
         background-color: white;
