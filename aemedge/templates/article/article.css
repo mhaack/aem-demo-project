@@ -44,6 +44,14 @@ main {
   }
 
   & .section > .default-content-wrapper {
+    & > :is(h2, h3, h4) {
+      scroll-margin-top: 104px; /* TOC height (40px) + TOC offset (24px) + 40px */
+
+      @media (width >= 980px) {
+        scroll-margin-top: var(--udexSpacer40);
+      }
+    }
+
     & > h2 {
       font-size: var(--udexTypographyHeadingMediumXSFontSize);
       line-height: var(--udexTypographyHeadingLineHeight);
