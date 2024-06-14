@@ -133,12 +133,22 @@ html:has(.web-component) {
       }
 
       &:last-child {
-        border: none;
+        border: 0 none;
+      }
+
+      /* Remove the border from the section that has a TOC sibling */
+      &:has(+ .design-system-toc-container) {
+        border: 0 none;
+      }
+
+      /* Remove the border from the section that has a TOC sibling and section siblings */
+      &:has(+ .design-system-toc-container ~ .section) {
+        border: 0 none;
       }
 
       /* Remove the border from the second last section */
       &:nth-last-child(2):has(+ .design-system-toc-container) {
-        border: none;
+        border: 0 none;
         padding-bottom: var(--udexSpacer40);
       }
 
@@ -351,6 +361,10 @@ html:has(.web-component) {
         }
 
         &:nth-last-child(2):has(+ .design-system-toc-container) {
+          padding-bottom: var(--udexSpacer84);
+        }
+
+        &:has(+ .design-system-toc-container ~ .section) {
           padding-bottom: var(--udexSpacer84);
         }
       }

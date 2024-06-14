@@ -1,4 +1,12 @@
 .web-component {
+  & main {
+    & .section {
+      &.deep-link-container {
+        display: none;
+      }
+    }
+  }
+
   & h2 {
     & .deep-link {
       & .icon-chain-link {
@@ -16,12 +24,12 @@
       }
     }
   }
-  
+
   & h2,
   & h3 {
     & .deep-link {
       padding-left: 10px;
-      
+
       & .icon-chain-link {
         cursor: pointer;
         display: none;
