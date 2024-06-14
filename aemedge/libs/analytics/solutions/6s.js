@@ -4,7 +4,7 @@ const settings = {
     'sap.com'
   ]
 };
-function init6sense() {
+function init6sense(resolve) {
   try {
     var data = JSON.parse(localStorage.getItem('_6senseCompanyDetails')) || false;
     // force api call periodically to enforce changes on 6s end
@@ -36,12 +36,8 @@ function init6sense() {
           "_lastAPIRefresh": currentTime
         };
         localStorage.setItem('_6senseCompanyDetails', JSON.stringify(data));
-
-        // broadcast custom event for other things to listen for and consume
-        var event = document.createEvent("CustomEvent");
-        event.initCustomEvent("6sense-request-success", true, true, response);
-        document.dispatchEvent(event);
-      }
+        resolve();
+      };
       window._6si.push([epsilonName, enabled, callback, version]);
       window._6si.push(['setEpsilonKey', '9dba8466d7cb8d6d6155236c8f7c2f70425f2705']);
       (function() {
@@ -52,10 +48,7 @@ function init6sense() {
         s.parentNode.insertBefore(gd, s);
       })();
     } else {
-      // broadcast custom event for other things to listen for and consume
-      var event = document.createEvent("CustomEvent");
-      event.initCustomEvent("6sense-request-success", true, true, {});
-      document.dispatchEvent(event);
+      resolve();
     }
   } catch (e) {
     data = false
@@ -63,9 +56,15 @@ function init6sense() {
 }
 
 function load6sense() {
-  if (window.isConsentEnabled('omtrdc.net', 1)) {
-    init6sense();
-
+  if (window.isConsentEnabled('omtrdc.net', 1) && window.isConsentEnabled('6sense.com', 1)) {
+    // promise to inform that 6sense is ready
+    window.SAP = window.SAP || {};
+    window.SAP.vendors = window.SAP.vendors || {};
+    window.SAP.vendors._6sense = {
+      ready: new Promise(function(resolve) {
+        init6sense(resolve)
+      })
+    };
   }
 }
 
