@@ -14,6 +14,10 @@ header {
     text-wrap: nowrap;
     z-index: 99;
 
+    &, a {
+      color: var(--udexColorGrey9);
+    }
+
     &.nav-secondary--fixed {
       position: fixed;
       top: 0;
