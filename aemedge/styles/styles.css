@@ -317,7 +317,7 @@ main .button-container {
       display: inline-flex;
       align-items: center;
       padding: 0;
-      
+
 
       &:visited {
         color: var(--udexColorBlue10);
@@ -570,18 +570,19 @@ main img {
   }
 
   &.column-section {
-    padding-block: var(--udexSpacer56) var(--udexSpacer40);
-
-    & > :nth-child(even) {
-      padding-top: var(--udexSpacer40);
+    & > * {
+      margin-block: var(--udexSpacer48) 0;
     }
 
-    @media (width >=980px) {
+    @media (width >= 1280px) {
       & {
         display: grid;
         grid-auto-flow: row dense;
-        padding-block: var(--udexSpacer64) var(--udexSpacer48);
         column-gap: var(--udexGridGutters);
+
+        & > * {
+          margin-block: 0;
+        }
 
         &.column-section-1-1 {
           grid-template-columns: 1fr 1fr;
@@ -622,12 +623,6 @@ main img {
 
       & > :nth-child(even) {
         padding-top: unset;
-      }
-    }
-
-    @media (width >=1280px) {
-      & {
-        padding-block: var(--udexSpacer84) var(--udexSpacer56);
       }
     }
   }
