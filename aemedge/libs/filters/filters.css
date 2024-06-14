@@ -2,22 +2,25 @@
 @import url("/aemedge/libs/tag/tag.css");
 
 .filters {
+  margin-block-end: var(--udexSpacer32);
+
   & .filter-panel {
     display: flex;
     justify-content: flex-start;
-    gap: var(--udexSpacer40);
-    margin-bottom: var(--udexSpacer16);
+    gap: 52px;
+    margin-block-end: var(--udexSpacer32);
     position: relative;
-  }
-
-  & .results-panel {
-    padding-block: var(--udexSpacer16);
   }
 
   & .tags-panel {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--udexSpacer8);
     position: relative;
-    flex-wrap: wrap;
+    margin-block-start: var(--udexSpacer16);
+
+    &:empty {
+      display: none;
+    }
   }
 }

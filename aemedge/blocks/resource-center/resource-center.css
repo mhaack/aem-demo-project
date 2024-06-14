@@ -7,7 +7,6 @@
   container: resource-center / inline-size;
   display: flex;
   flex-direction: column;
-  gap: var(--udexGridGutters);
 
   & > .button-wrapper {
     align-self: center;
@@ -25,10 +24,14 @@
   & ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-    gap: var(--udexGridGutters);
+    gap: var(--udexSpacer32) var(--udexGridGutters);
     list-style: none;
     margin: 0;
     padding: 0;
+
+    @media (width >= 980px) {
+      row-gap: var(--udexSpacer40);
+    }
   }
 
   &.text-only {
