@@ -1,5 +1,6 @@
 import { a, li, ul } from '../../scripts/dom-builder.js';
 import { loadFragment } from '../../scripts/scripts.js';
+import { getMetadata } from '../../scripts/aem.js';
 
 function openTab(target) {
   const parent = target.parentNode;
@@ -77,7 +78,14 @@ export default async function decorate(block) {
 
   const namedSections = (await Promise.all(tabNames.map(async (tabName) => {
     const sanitizedTabName = tabName.toLowerCase().replace(/ /g, '-');
-    const tabUrl = `${document.location.pathname}${sanitizedTabName}`;
+
+    let tabRoot = document.location.pathname;
+    const targetVersionUrl = getMetadata('targetVersionUrl');
+    if (targetVersionUrl) {
+      tabRoot = targetVersionUrl;
+    }
+
+    const tabUrl = `${tabRoot}${sanitizedTabName}`;
     // eslint-disable-next-line no-await-in-loop
     return [await loadFragment(tabUrl), tabName];
   }))).reduce((acc, [tab, tabName]) => {

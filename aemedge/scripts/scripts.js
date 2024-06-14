@@ -29,6 +29,7 @@ const TEMPLATE_LIST = {
   'hub-l2': 'hub',
   'hub-l1': 'hub',
   'web-component': 'web-component',
+  'versioned-page': 'versioned-page',
 };
 
 /**
@@ -258,8 +259,12 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
  * @param {string} path The path to the fragment
  * @returns {HTMLElement} The root element of the fragment
  */
-export async function loadFragment(path) {
+export async function loadFragment(path, withTemplates = false) {
   if (path && path.startsWith('/')) {
+    if (path.endsWith('/')) {
+      // eslint-disable-next-line no-param-reassign
+      path = `${path}index`;
+    }
     const resp = await fetch(`${path}.plain.html`);
     if (resp.ok) {
       const main = document.createElement('main');
@@ -274,7 +279,7 @@ export async function loadFragment(path) {
       resetAttributeBase('img', 'src');
       resetAttributeBase('source', 'srcset');
 
-      await decorateMain(main, false);
+      await decorateMain(main, withTemplates);
       await loadBlocks(main);
       return main;
     }
