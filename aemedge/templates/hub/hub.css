@@ -109,8 +109,12 @@ main > .section:not(.fragment-container) {
     transition: none;
 
     @media (width >= 980px) {
-      grid-column: 1 / 4;
+      grid-column: 1 / 5;
       margin-inline: 0;
+    }
+
+    @media (width >= 1280px) {
+      grid-column: 1 / 4;
     }
   }
 
@@ -192,7 +196,7 @@ main > .section:not(.fragment-container) {
 
       @media (width >= 980px) {
         & {
-          grid-column: 4 / -1;
+          grid-column: 5 / -1;
         }
 
         .hero-container,
@@ -204,6 +208,12 @@ main > .section:not(.fragment-container) {
         .section.background-dark:not(.hero-container, .additional-reading),
         .section.background-light:not(.hero-container, .additional-reading) {
           padding-inline-start: var(--udexGridGutters);
+        }
+      }
+
+      @media (width >= 1280px) {
+        & {
+          grid-column: 4 / -1;
         }
       }
     }
