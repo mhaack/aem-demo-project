@@ -76,6 +76,7 @@ const LANDING_ZONE_MENU_GROUPS = [
 ];
 let JOULE_AI_URL_PARAM = null;
 const body = document.querySelector('body');
+let mainNavElements;
 
 const EXPLORE_MENU_URLS = [
   {
@@ -122,6 +123,7 @@ const EXPLORE_MENU_URLS = [
  * Remove empty strings from an array.
  * e.g., If the array is ['a', '', 'b'], the result will be ['a', 'b'].
  * (If a given `pathname` ends with a slash `/`, the last segment is an empty string)
+ *
  * @param array The array to remove empty strings from.
  * @returns {*} The array without empty strings.
  */
@@ -131,6 +133,7 @@ function removeEmptyStringsFromArray(array) {
 
 /**
  * Add the "Design System Main Navigation" (Side Navigation) to the block.
+ *
  * @param block The block to add the main navigation to.
  */
 function addDesignSystemMainNav(block) {
@@ -138,6 +141,19 @@ function addDesignSystemMainNav(block) {
   const mainNavWrapper = nav({ class: 'design-system-main-nav-wrapper' });
   block.append(mainNavWrapper);
   initDsMainNav(mainNavWrapper);
+}
+
+function resetDesignSystemMainNav() {
+  if (body.getAttribute('data-mobile') === 'true') {
+    mainNavElements.mainNavButton.setAttribute('aria-pressed', 'false');
+    mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
+    mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
+    mainNavElements.mainNavWrapper.style.display = 'none';
+  } else {
+    mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
+    mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
+    mainNavElements.mainNavWrapper.style.display = 'block';
+  }
 }
 
 /**
@@ -533,6 +549,7 @@ function generateExploreMenu(exploreZones) {
     title: 'Menu',
     type: 'button',
     onclick: (e) => {
+      resetDesignSystemMainNav();
       const menuBtn = e.currentTarget;
       const isPressed = menuBtn.getAttribute('aria-pressed') === 'true';
       const closeBtn = menuBtn.nextSibling;
@@ -792,7 +809,10 @@ function generateMasthead(block) {
     class: 'icon icon-menu-expand',
   }));
 
-  const mainNavOverlay = div({ class: 'main-nav-overlay', 'aria-hidden': 'true' });
+  const mainNavOverlay = div({
+    class: 'main-nav-overlay',
+    'aria-hidden': 'true',
+  });
 
   const mastheadBrand = div({
     class: 'masthead-area masthead-area-brand',
@@ -832,41 +852,31 @@ function generateMasthead(block) {
   block.append(mastheadNav);
 }
 
-function addMediaQueryHandler(mainNavElements) {
-  function resetMainNav() {
-    if (body.getAttribute('data-mobile') === 'true') {
-      mainNavElements.mainNavButton.setAttribute('aria-pressed', 'false');
-      mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
-      mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
-      mainNavElements.mainNavWrapper.style.display = 'none';
-    } else {
-      mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
-      mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
-      mainNavElements.mainNavWrapper.style.display = 'block';
-    }
-  }
-
+function addMediaQueryHandler() {
   function mediaQueryChangeHandler() {
+    let breakpoint = '';
+
     if (mediaQueryLists.XL.matches) {
-      log('XL', 'info');
-      resetMainNav();
+      breakpoint = 'XL';
     } else if (mediaQueryLists.L.matches) {
-      log('L', 'info');
-      resetMainNav();
+      breakpoint = 'L';
     } else if (mediaQueryLists.M.matches) {
-      log('M', 'info');
-      resetMainNav();
+      breakpoint = 'M';
     } else if (mediaQueryLists.S.matches) {
-      log('S', 'info');
-      resetMainNav();
+      breakpoint = 'S';
     } else if (mediaQueryLists.XS.matches) {
-      log('XS', 'info');
-      resetMainNav();
+      breakpoint = 'XS';
+    }
+
+    if (breakpoint) {
+      log(breakpoint, 'info');
+      resetDesignSystemMainNav();
     }
   }
 
   // Add event listeners to the media query lists
-  Object.values(mediaQueryLists).forEach((mql) => mql.addEventListener('change', mediaQueryChangeHandler));
+  Object.values(mediaQueryLists)
+    .forEach((mql) => mql.addEventListener('change', mediaQueryChangeHandler));
   // Call the change handler once
   mediaQueryChangeHandler();
 }
@@ -875,7 +885,7 @@ export default async function decorate(block) {
   await generateMasthead(block);
   addDesignSystemMainNav(block);
 
-  const mainNavElements = {
+  mainNavElements = {
     dsHeader: block.querySelector(':scope .design-system-header'),
     mainNavWrapper: block.querySelector(':scope .design-system-main-nav-wrapper'),
     mainNavOverlay: block.querySelector(':scope .main-nav-overlay'),
@@ -884,5 +894,5 @@ export default async function decorate(block) {
     mainNavButton: block.querySelector(':scope .masthead-area .main-nav-btn'),
   };
 
-  await addMediaQueryHandler(mainNavElements);
+  await addMediaQueryHandler();
 }

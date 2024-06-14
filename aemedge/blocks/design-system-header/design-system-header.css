@@ -32,11 +32,11 @@
   --explore-nav-width-l: 350px;
   --explore-nav-width-xl: 430px;
   --explore-nav-top: 37px;
-  --explore-nav-padding-inline: 52px;
-  --explore-nav-padding-top: 32px;
-  --explore-nav-padding-bottom: var(--landing-zone-list-padding-inline);
-  --explore-nav-padding-xs: var(--udexSpacer48);
+  --explore-nav-padding-xs: var(--udexSpacer24);
+  --explore-nav-padding-s: var(--udexSpacer48);
   --explore-nav-padding-m: var(--udexSpacer24);
+  --explore-nav-padding-l: 52px;
+  --explore-nav-padding-l-top: 32px;
   --explore-button-icon-size: 18px;
 
   align-content: center;
@@ -455,14 +455,13 @@
     box-shadow: var(--sapContent_Shadow2);
     font-size: var(--udexTypographyBodyXSFontSize);
     font-weight: var(--udexTypographyFontWeightRegular);
-    left: 0;
+    inset: var(--masthead-height) 0 0 0;
     line-height: var(--udexTypographyNavigationLineHeight);
     list-style: none;
     margin: 0;
+    overflow-y: auto;
     padding: var(--explore-nav-padding-xs);
     position: fixed;
-    right: 0;
-    top: var(--masthead-height);
     width: auto;
 
     &[aria-expanded="false"] {
@@ -471,7 +470,6 @@
 
     &[aria-expanded="true"] {
       display: block;
-      height: calc(100vh - var(--masthead-height));
     }
 
     & a {
@@ -789,6 +787,10 @@
     &[aria-expanded="true"] {
       right: 24px;
     }
+
+    & .explore-menu-nav {
+      padding: var(--explore-nav-padding-s);
+    }
   }
 }
 
@@ -813,16 +815,7 @@
     & .explore-menu-nav {
       left: unset;
       padding: var(--explore-nav-padding-m);
-      position: absolute;
-      right: calc(var(--udexGridMargins) * -1);
       width: var(--explore-nav-width);
-    }
-  }
-
-  [data-mobile="true"] {
-    .masthead-area-explore {
-      right: 50px;
-      position: relative;
     }
   }
 }
@@ -840,6 +833,12 @@
   }
 
   .masthead-area-explore {
+    position: relative;
+
+    &[aria-expanded="true"] {
+      right: 0;
+    }
+
     .explore-search {
       display: none;
     }
@@ -863,10 +862,15 @@
     }
 
     & .explore-menu-nav {
-      padding: var(--explore-nav-padding-top) var(--explore-nav-padding-inline) var(--explore-nav-padding-bottom);
+      left: unset;
+      padding: var(--explore-nav-padding-l-top) var(--explore-nav-padding-l) var(--explore-nav-padding-l);
+      position: absolute;
+      right: calc(var(--udexGridMargins) * -1);
+      width: var(--explore-nav-width);
 
       &[aria-expanded="true"] {
-        height: auto;
+        bottom: unset;
+        height: unset;
         right: -6px;
       }
     }
