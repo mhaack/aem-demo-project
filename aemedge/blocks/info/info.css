@@ -4,7 +4,7 @@
     --sapChangesBackground: #DAFDF5;
 
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: min-content 1fr;
     gap: 8px;
     padding: 8px 12px;
 
