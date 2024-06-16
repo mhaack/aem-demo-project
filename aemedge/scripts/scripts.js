@@ -30,6 +30,7 @@ const TEMPLATE_LIST = {
   'hub-l1': 'hub',
   'web-component': 'web-component',
   'versioned-page': 'versioned-page',
+  'design-system-overview': 'design-system-overview',
 };
 
 /**

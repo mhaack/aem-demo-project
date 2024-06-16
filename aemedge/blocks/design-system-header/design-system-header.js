@@ -858,14 +858,19 @@ function addMediaQueryHandler() {
 
     if (mediaQueryLists.XL.matches) {
       breakpoint = 'XL';
+      body.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.L.matches) {
       breakpoint = 'L';
+      body.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.M.matches) {
       breakpoint = 'M';
+      body.setAttribute('data-mobile', 'false');
     } else if (mediaQueryLists.S.matches) {
       breakpoint = 'S';
+      body.setAttribute('data-mobile', 'true');
     } else if (mediaQueryLists.XS.matches) {
       breakpoint = 'XS';
+      body.setAttribute('data-mobile', 'true');
     }
 
     if (breakpoint) {

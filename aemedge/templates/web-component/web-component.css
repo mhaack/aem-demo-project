@@ -1,8 +1,8 @@
-html:has(.web-component) {
+html:has(.design-system) {
   height: 100%;
 }
 
-.web-component {
+.design-system {
   --headerHeight: var(--nav-height);
 
   display: grid !important;
@@ -213,7 +213,7 @@ html:has(.web-component) {
 
 /* XS */
 @media (width < 640px) {
-  .web-component {
+  .design-system {
     & main {
       & a {
         text-decoration: none;
@@ -224,7 +224,7 @@ html:has(.web-component) {
 
 /* S */
 @media (width >= 640px) {
-  .web-component {
+  .design-system {
     & main {
       column-gap: var(--udexGridSGutters);
 
@@ -270,7 +270,7 @@ html:has(.web-component) {
 
 /* M */
 @media (width >= 980px) {
-  .web-component {
+  .design-system {
     & main {
       column-gap: var(--udexGridMGutters);
 
@@ -347,7 +347,7 @@ html:has(.web-component) {
 
 /* L */
 @media (width >= 1280px) {
-  .web-component {
+  .design-system {
     & main {
       & .section {
         > [class$="wrapper"]:not(.table-wrapper):has(> *:last-child:not(h1,h2,h3,h4,h5,h6))
@@ -378,7 +378,7 @@ html:has(.web-component) {
 
 /* XL */
 @media (width >= 1600px) {
-  .web-component {
+  .design-system {
     & main {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
@@ -408,7 +408,7 @@ html:has(.web-component) {
  * =ANATOMY
  */
 /* stylelint-disable no-duplicate-selectors */
-.web-component {
+.design-system {
   & main {
     & :is(#anatomy) {
       /* Picture */

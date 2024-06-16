@@ -60,7 +60,7 @@ main {
   }
 }
 
-.web-component {
+.design-system {
   main {
     & .section {
       &:first-child {
@@ -90,7 +90,7 @@ main {
 
 /* =M */
 @media (width >= 980px) {
-  .web-component {
+  .design-system {
     main {
       & .section {
         &:first-child {
@@ -115,7 +115,7 @@ main {
 
 /* =L */
 @media (width >= 1280px) {
-  .web-component {
+  .design-system {
     main {
       & .section {
         &:first-child {
