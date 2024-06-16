@@ -28,8 +28,12 @@
   & h2,
   & h3 {
     & .deep-link {
-      padding-left: 10px;
-
+      padding: 0 10px; 
+      margin-left: 6px;
+      outline-color:#0040B0;
+      outline-width: 1px;
+      border-radius: 8px;
+  
       & .icon-chain-link {
         cursor: pointer;
         display: none;
@@ -40,6 +44,11 @@
         mask: url('/aemedge/icons/chain-link.svg') center / 100% no-repeat;
         padding-left: inherit;
       }
+
+      &:hover .icon-chain-link,
+      &:focus .icon-chain-link {
+        display: inline-block;
+      }  
     }
   }
 
