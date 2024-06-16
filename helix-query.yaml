@@ -113,7 +113,7 @@ indices:
         value: attribute(el, "content")
       breadcrumbs:
         select: head > meta[name="breadcrumbs"]
-        values: attribute(el, "content")
+        value: attribute(el, "content")
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"])
