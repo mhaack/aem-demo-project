@@ -2,7 +2,7 @@ import { loadFragment } from '../../scripts/scripts.js';
 import ffetch from '../../scripts/ffetch.js';
 import { meta } from '../../scripts/dom-builder.js';
 
-const rootUrl = '/design-system-versioned/fiori-design-web/';
+const rootUrl = '/design-system/fiori-design-web/';
 
 function getParentUrl(pathParts) {
   const file = pathParts[pathParts.length - 1];

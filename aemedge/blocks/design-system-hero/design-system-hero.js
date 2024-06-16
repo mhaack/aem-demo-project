@@ -1,35 +1,47 @@
-import { getMetadata } from '../../scripts/aem.js';
+import { decorateIcons, getMetadata } from '../../scripts/aem.js';
 import {
+  a,
+  button,
   div,
   img,
+  li,
   picture,
   source,
+  span,
+  ul,
 } from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
+import ffetch from '../../scripts/ffetch.js';
 
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
   const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3')?.textContent ?? '';
   const imageName = block.querySelector('div:nth-child(1) > div > div > div:nth-child(2) > div').textContent;
-  const breadcrumb = div({
-    class: 'breadcrumb-container',
-  });
+
+  const breadcrumbItems = div({ class: 'items' });
   const metaBreadcrumbs = getMetadata('breadcrumbs');
   if (metaBreadcrumbs) {
     const breadcrumbText = `Home / ${metaBreadcrumbs}`;
     breadcrumbText.split('/').forEach((itemText) => {
-      const item = Object.assign(document.createElement('span'), { className: 'breadcrumb-item' });
+      const item = Object.assign(document.createElement('a'), { className: 'item' });
       if (itemText.trim() === 'Home') {
         item.innerHTML = itemText.trim();
+        item.setAttribute('href', '/topics/');
       } else {
         const separator = document.createElement('span');
         separator.innerHTML = ' / ';
-        breadcrumb.append(separator);
+        breadcrumbItems.append(separator);
         item.innerHTML = `${itemText.trim()}`;
+        item.setAttribute('href', '/fiori-design-web/ui-elements/ui-elements');
       }
-      breadcrumb.append(item);
+      breadcrumbItems.append(item);
     });
   }
+
+  const breadcrumb = div(
+    { class: 'breadcrumb' },
+    breadcrumbItems,
+  );
 
   const subHeading = document.createElement('p');
   subHeading.classList.add('hero-sub-heading');
@@ -45,6 +57,71 @@ export default async function decorate(block) {
       tagsContainer.append(tagItem);
     }
   });
+
+  const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
+
+  const currentVersion = getMetadata('version');
+
+  // dropdown button which handles the open and closing of the dropdown
+  const dropdownButton = button(
+    {
+      class: 'dropdown-btn',
+      onclick: (e) => {
+        const options = e.target.parentNode;
+        if (options) {
+          options.classList.toggle('open');
+        }
+      },
+    },
+    currentVersion,
+    dropdownArrowDown,
+  );
+  decorateIcons(dropdownButton);
+
+  const rootUrl = '/design-system/fiori-design-web/';
+  const rawPageVersions = await ffetch(`${rootUrl}query-index.json`)
+    .map((row) => row.version)
+    .all();
+  rawPageVersions.sort();
+  const pageVersions = rawPageVersions
+    .filter((item, index) => rawPageVersions.indexOf(item) === index && item !== currentVersion);
+
+  const currentPathname = window.location.pathname;
+
+  // options dropdown items container
+  const options = ul(
+    {
+      class: 'options',
+      onclick: (e) => {
+        const parent = e.currentTarget.parentNode;
+        if (parent) {
+          parent.previousSibling.textContent = e.target.innerHTML;
+          parent.previousSibling.append(dropdownArrowDown);
+          parent.parentNode.classList.remove('open');
+        }
+      },
+    },
+    ...pageVersions.reverse().map((version) => li(
+      { value: version },
+      a({ href: currentPathname.replace(currentVersion, version) }, version),
+    )),
+  );
+
+  const dropdownOptions = div(
+    { class: 'dropdown-options' },
+    options,
+  );
+
+  const versions = div(
+    { class: 'last-updated-version' },
+    div({ class: 'last-updated-date' }),
+    div(
+      { class: 'dropdown' },
+      dropdownButton,
+      dropdownOptions,
+    ),
+  );
+  breadcrumb.append(versions);
 
   const hero = div(
     { class: 'fiori-hero-banner' },

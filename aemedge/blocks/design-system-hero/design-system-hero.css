@@ -36,6 +36,8 @@
     }
 
     .tags-container {
+      display: none;
+
       .tag {
         font-size: var(--udexTypographyBodyXXSFontSize);
         margin-right: 4px;
@@ -43,34 +45,6 @@
         color: var(--sapShell_TextColor);
         padding: 4px 8px;
         border-radius: 6px;
-      }
-    }
-  }
-
-  div[slot="additionalContent"] {
-    grid-row: 2 / 3;
-
-    & > span {
-      font-size: var(--udexTypographyBodyXXSFontSize);
-    }
-
-    .breadcrumb-container {
-      span {
-        font-size: var(--udexTypographyBodyXXSFontSize);
-
-        &.breadcrumb-item {
-          color: var(--sapShell_Category_14_TextColor);
-
-          &:not(:last-child) {
-            color: var(--sapShell_Category_15_Background);
-          }
-          
-          &:hover {
-            cursor: pointer;
-            text-decoration: underline;
-            color: var(--sapShell_Navigation_Active_Background);
-          }
-        }
       }
     }
   }
@@ -87,6 +61,155 @@
       width: 100%;
     }
   }
+  
+  div[slot="additionalContent"] {
+    grid-row: 2 / 3;
+
+    & > span {
+      font-size: var(--udexTypographyBodyXXSFontSize);
+    }
+
+    .breadcrumb {
+      position: relative;
+
+      a, span {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+
+        &.item {
+          text-decoration: none;
+          padding: 10px 0;
+          margin: 0 4px;
+          color: var(--sapShell_Category_14_TextColor);
+
+          &:first-child {
+            margin-left: 0;
+          }
+
+          &:not(:last-child) {
+            color: var(--sapShell_Category_15_Background);
+          }
+          
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+            color: var(--sapShell_Navigation_Active_Background);
+          }
+
+          &:focus {
+            outline: 2px solid var(--sapLink_Visited_Color);
+            border-radius: 1px;
+            outline-offset: 4px;
+          }
+        }
+      }
+
+      .last-updated-version {
+        position: absolute;
+        right: 0;
+  
+        .dropdown {
+          position: relative;
+          min-width: 130px;
+
+          .dropdown-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            width: 100%;
+            padding: 0 8px;
+            border: 1px solid var(--udexColorBlue10);
+            border-radius: 8px;
+            background-color: white;
+            color: var(--udexColorBlue10);
+            cursor: pointer;
+            text-align: left;
+            font-size: var(--udexTypographyBodyXSFontSize);
+
+            .icon {
+              width: 12px;
+              height: 12px;
+              margin-left: 8px;
+
+              img {
+                transform: rotate(90deg);
+              }
+            }
+          }
+
+          .dropdown-options {
+            width: 100%;
+            min-width: 200px;
+            max-width: 640px;
+            background-color: white;
+            border: 1px solid var(--udexColorGrey6);
+            border-radius: 8px;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            display: none;
+
+            ul {
+              list-style-type: none;
+              padding: 0;
+
+              li {
+                color: var(--udexColorNeutralBlack);
+                padding: 8px;
+                cursor: pointer;
+                font-size: var(--udexTypographyBodySFontSize);
+
+                &:hover {
+                  background-color: var(--udexColorGrey1);
+                }
+
+                &:first-child {
+                  border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                }
+
+                &:last-child {
+                  border-bottom-left-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                }
+              }
+            }
+          }
+
+          &.open {
+            .dropdown-btn {
+              .icon {
+                img {
+                  transform: rotate(-90deg);
+                }
+              }
+            }
+
+            .dropdown-options {
+              display: block;
+              height: fit-content;
+              max-height: 280px;
+              overflow: scroll;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/* XS */
+@media (width < 640px) {
+  .fiori-hero-banner {
+    div[slot="additionalContent"] {
+      .breadcrumb {
+        .last-updated-version {
+          top: 0;
+        }
+      }
+    }
+  }
 }
 
 /* S */
@@ -97,6 +220,10 @@
     div[slot="content"],
     div[slot="additionalContent"] {
       padding: 0 var(--udexSpacer48);
+
+      .tags-container {
+        display: block;
+      }
     }
   }
 }
