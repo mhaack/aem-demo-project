@@ -88,11 +88,28 @@ async function decorate(doc) {
 
   // TODO add metadata for the hero + any needed
 
-  const targetVersion = meta({
-    name: 'targetVersionUrl',
-    content: sourceVersion.path,
+  const metaFields = {
+    version: virtualVersion,
+    targetVersionUrl: sourceVersion.path,
+    breadcrumbs: sourceVersion.breadcrumbs,
+  };
+  if (sourceVersion.uielementstechnology) {
+    metaFields.uielementstechnology = sourceVersion.uielementstechnology;
+  }
+  if (sourceVersion.designowner) {
+    metaFields.designowner = sourceVersion.designowner;
+  }
+  if (sourceVersion.elementtype) {
+    metaFields.elementtype = sourceVersion.elementtype;
+  }
+
+  Object.entries(metaFields).forEach(([name, content]) => {
+    const metaField = meta({
+      name,
+      content,
+    });
+    doc.head.append(metaField);
   });
-  doc.head.append(targetVersion);
 
   const main = doc.querySelector('main');
   const newMain = await loadFragment(sourceVersion.path, true);
@@ -103,6 +120,6 @@ async function decorate(doc) {
     }
   });
 
-  main.innerHTML = newMain.innerHTML;
+  main.replaceWith(newMain);
 }
 decorate(document);

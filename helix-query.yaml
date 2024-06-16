@@ -114,6 +114,15 @@ indices:
       breadcrumbs:
         select: head > meta[name="breadcrumbs"]
         value: attribute(el, "content")
+      designowner:
+        select: head > meta[name="designowner"]
+        value: attribute(el, "content")
+      uielementstechnology:
+        select: head > meta[name="uielementstechnology"]
+        value: attribute(el, "content")
+      elementtype:
+        select: head > meta[name="elementtype"]
+        value: attribute(el, "content")
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"])
