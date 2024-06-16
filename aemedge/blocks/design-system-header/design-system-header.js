@@ -18,7 +18,6 @@ import {
 import { mediaQueryLists } from '../../scripts/config-ds.js';
 import {
   camelToKebab,
-  log,
 } from '../../scripts/ds-scripts.js';
 
 const LANDING_ZONE_LABEL = 'Design System';
@@ -874,7 +873,6 @@ function addMediaQueryHandler() {
     }
 
     if (breakpoint) {
-      log(breakpoint, 'info');
       resetDesignSystemMainNav();
     }
   }

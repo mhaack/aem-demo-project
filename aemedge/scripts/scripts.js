@@ -21,7 +21,7 @@ import {
   isCFEnabled,
   isCLEnabled,
 } from '../libs/analytics/analytics-core.js';
-import { autoblockColumns, decorateDesignSystemSite } from './ds-scripts.js';
+import { decorateDesignSystemSite } from './ds-scripts.js';
 
 const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
 const TEMPLATE_LIST = {
@@ -246,12 +246,7 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
   if (isDesignSystemSite()) {
     decorateDesignSystemSite(main);
   }
-
   decorateBlocks(main);
-  if (isDesignSystemSite()) {
-    autoblockColumns(main);
-  }
-
   decorateFragments(main);
 }
 

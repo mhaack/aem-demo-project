@@ -91,24 +91,6 @@ function filterInternalExternalData(main) {
   }
 }
 
-export function autoblockColumns(main) {
-  main.innerHTML = main.innerHTML.replace(/&amp;&amp;&amp;([^]*?)&amp;&amp;&amp;/g, (match, columnText) => {
-    const columns = columnText.split('%%%');
-    return buildBlock('columns', [columns]).outerHTML;
-  });
-}
-
-/**
- * Logs the given data to the console.
- *
- * @param {any} data - The data to be logged.
- * @param {string} [type='log'] - The type of log (e.g., 'log', 'warn', 'error').
- */
-export function log(data, type = 'log') {
-  // eslint-disable-next-line no-console
-  console[type](data);
-}
-
 /**
  * Convert camelCase to kebab-case.
  * @param str The string to convert.
