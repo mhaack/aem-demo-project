@@ -59,20 +59,15 @@ export function decorateSpans(main) {
 function decorateLiveExamples(element) {
   element.querySelectorAll('a').forEach((link) => {
     const { href, textContent } = link;
-    // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
-    if (
-      href !== textContent
-      || !href.includes(
-        'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/',
-      )
-    ) {
-      return;
+    // deprecated prod live example, to remove on full import
+    const livePrefix = 'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/';
+    const qaPrefix = 'https://www-qa.sap.com/design-system/live-examples/';
+    if (href === textContent && (href.startsWith(livePrefix) || href.startsWith(qaPrefix))) {
+      const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
+
+      link.parentElement.replaceWith(embedBlock);
+      decorateBlock(embedBlock);
     }
-
-    const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
-
-    link.parentElement.replaceWith(embedBlock);
-    decorateBlock(embedBlock);
   });
 }
 
