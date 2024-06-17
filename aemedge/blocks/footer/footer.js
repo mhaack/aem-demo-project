@@ -1,6 +1,6 @@
 import { decorateIcons, getMetadata } from '../../scripts/aem.js';
 import { loadFragment } from '../../scripts/scripts.js';
-import { span } from '../../scripts/dom-builder.js';
+import { div, span } from '../../scripts/dom-builder.js';
 
 /**
  * loads and decorates the footer
@@ -26,6 +26,18 @@ export default async function decorate(block) {
   backToTop.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  document.body.append(div({ class: 'ta-consent', id: 'teconsent' }));
+  const cookiePrefsLink = footer.querySelector('a[href$="#cookiepreferences"]');
+  if (cookiePrefsLink) {
+    cookiePrefsLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.querySelector('div.ta-consent a');
+      if (target) {
+        target.click();
+      }
+    });
+  }
 
   footer.append(backToTop);
   decorateIcons(footer);

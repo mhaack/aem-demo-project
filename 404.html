@@ -1,120 +1,125 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Page not found</title>
-    <script type="text/javascript">
-      window.isErrorPage = true;
-      window.errorCode = "404";
-    </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="Page not found" />
-    <script
-      src="/aemedge/scripts/scripts.js"
-      type="module"
-      crossorigin="use-credentials"
-    ></script>
-    <script type="module">
-      import { sampleRUM } from "/aemedge/scripts/aem.js";
 
-      window.addEventListener("load", () => {
-       sampleRUM("404", {
-          source: document.referrer,
-          target: window.location.href,
-        });
+<head>
+  <title>Page not found</title>
+  <script type="text/javascript">
+    window.isErrorPage = true;
+    window.errorCode = "404";
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:title" content="Page not found" />
+  <script src="/aemedge/scripts/scripts.js" type="module" crossorigin="use-credentials"></script>
+  <script type="module">
+    import { sampleRUM } from "/aemedge/scripts/aem.js";
+
+    window.addEventListener("load", () => {
+      sampleRUM("404", {
+        source: document.referrer,
+        target: window.location.href,
       });
-    </script>
-    <link rel="stylesheet" href="/aemedge/styles/css_variables.css" />
-    <link rel="stylesheet" href="/aemedge/styles/styles.css" />
-    <style>
+    });
+  </script>
+  <link rel="stylesheet" href="/aemedge/styles/css_variables.css" />
+  <link rel="stylesheet" href="/aemedge/styles/styles.css" />
+  <style>
+    .error {
+      display: grid;
+      margin-inline: var(--udexGridMargins);
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      column-gap: var(--udexGridGutters);
+    }
 
-      .error {
-        display: flex;
-        justify-content: center;
-      }
-      
-      .error-page {
+    .error-page {
+      grid-column: span 12;
+      margin-block: var(--udexSpacer56);
+      text-align: center;
+
+      .default-content-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-block: var(--udexSpacer56);
-        text-align: center;
-        margin-inline: var(--udexGridMargins);
-       
-        .default-content-wrapper {
-           display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
       }
-      
+    }
+
+    .error-message {
+      margin-block: var(--udexSpacer24) var(--udexSpacer20);
+      font-size: var(--udexTypographyHeadingMediumSFontSize);
+      font-weight: var(--udexTypographyFontWeightMedium);
+    }
+
+    .error-content {
+      margin-block: 0 var(--udexSpacer32);
+      font-size: var(--udexTypographyBodySFontSize);
+    }
+
+    @media (width >=640px) {
       .error-message {
-        margin-block: var(-udexSpacer24) var(-udexSpacer20);
         font-size: var(--udexTypographyHeadingMediumSFontSize);
-        font-weight: var(--udexTypographyFontWeightMedium);
       }
+    }
+
+    @media (width >=980px) {
+      .error-page {
+        grid-column: 3 /11;
+        margin-block: var(--udexSpacer64);
+      }
+
+      .error-message {
+        margin-block: var(--udexSpacer32) var(--udexSpacer20);
+        font-size: var(--udexTypographyHeadingMediumMFontSize);
+      }
+
       .error-content {
-        margin-bottom: var(--udexSpacer32);
-        font-size: var(--udexTypographyBodySFontSize); 
+        margin-block-end: var(--udexSpacer32);
       }
 
-      @media (width >= 640px) {
-        .error-page {
-          margin-block: var(--udexSpacer64);
-        }
-        .error-message {
-          margin-block-start: var(--udexSpacer32);
-          font-size: var(--udexTypographyHeadingMediumSFontSize);
-        }
+      .alert-error {
+        height: 120px;
+        width: 120px;
       }
 
-      @media (width >= 980px) {
-         .error-page {
-          margin-block: var(--udexSpacer84);
-          width: 56%;
-        }
-        .error-message {
-          margin-block-start: var(--udexSpacer40);
-          font-size: var(--udexTypographyHeadingMediumMFontSize);
-        }
-        .error-content {
-          margin-bottom: var(--udexSpacer40);
-        }
-        .alert-error {
-          height: 120px;
-          width: 120px;
-        }
+    }
 
+    @media (width >=1280px) {
+      .error-page {
+        margin-block: var(--udexSpacer84);
       }
-       @media (width >=1280px) {
-          .error-message {
-          font-size: var(--udexTypographyHeadingMediumLFontSize);
-        }
-        .error-content {
-          font-size: var(--udexTypographyBodyMFontSize);
-        }
-        .alert-error {
-          height: 140px;
-          width: 140px;
-        }
-       }
 
-      @media (width >=1600px) {
-        .error-message {
-          font-size: var(--udexTypographyHeadingMediumXLFontSize);
-        }
+      .error-message {
+        margin-block: var(--udexSpacer40) var(--udexSpacer20);
+        font-size: var(--udexTypographyHeadingMediumLFontSize);
       }
-    </style>
-    <link rel="stylesheet" href="/aemedge/styles/lazy-styles.css" />
-  </head>
 
-  <body>
-    <header></header>
-    <main class="error">
-      <div class="section error-page">
-        <img class="alert-error"src="./aemedge/icons/error_alert.svg" alt="404"/> 
-        <h1 class="error-message">Sorry, this page can't be found</h2>
+      .error-content {
+        margin-block-end: var(--udexSpacer40);
+        font-size: var(--udexTypographyBodyMFontSize);
+      }
+
+      .alert-error {
+        height: 140px;
+        width: 140px;
+      }
+    }
+
+    @media (width >=1600px) {
+      .error-message {
+        font-size: var(--udexTypographyHeadingMediumXLFontSize);
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="/aemedge/styles/lazy-styles.css" />
+</head>
+
+<body>
+  <header></header>
+  <main class="error">
+    <div class="section error-page">
+      <img class="alert-error" src="/aemedge/icons/error_alert.svg" alt="404" />
+      <h1 class="error-message">Sorry, this page can't be found</h2>
         <p class="error-content">
-          This signals that the server could not locate the requested webpage, typically due to a broken link, incorrect url, a page that has been removed, or relocated without proper redirection. 
+          This signals that the server could not locate the requested webpage, typically due to a broken link, incorrect
+          url, a page that has been removed, or relocated without proper redirection.
         </p>
         <div class="error-buttons">
           <p class="button-container">
@@ -124,8 +129,9 @@
             <a href="/topics/content-type" class="button secondary">Find by content types</a>
           </p>
         </div>
-      </div>
-    </main>
-    <footer></footer>
-  </body>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
 </html>

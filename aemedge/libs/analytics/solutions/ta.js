@@ -1,9 +1,19 @@
+const prodHostnames = [
+  'www.sap.com',
+  'sap.com',
+];
+
 function createConsentBlackBar() {
   const div = document.createElement('div');
   div.id = 'consent_blackbar';
   div.style = 'position:fixed; bottom:0px; z-index:1000000; width:100%';
   div.dataset.sapUiPreserve = 'consent_blackbar';
   document.body.appendChild(div);
+}
+
+function getCountryCode() {
+  const match = document.cookie.match('country=([^;]+)');
+  return match && match[1] !== '(NULL)' ? match[1] : null;
 }
 
 function loadTrustArcScript() {
@@ -13,9 +23,10 @@ function loadTrustArcScript() {
     trustArcConsentDiv = trustArcDiv;
   }
 
-  // const host = window.location.hostname.toLocaleLowerCase();
+  const trustArcDomain = prodHostnames.includes(window.location.hostname) ? 'sap.com' : 'saptest.com';
+  const countryParam = getCountryCode() ? `country=${getCountryCode()}&` : '';
   const privacyPath = encodeURIComponent('https://www.sap.com/about/legal/privacy.html');
-  const trustArcScriptURL = `https://consent.trustarc.com/notice?domain=sap.com&c=${trustArcConsentDiv}&gtm=1&js=nj&noticeType=bb&text=true&pn=1-0&privacypolicylink=${privacyPath}`
+  const trustArcScriptURL = `https://consent.trustarc.com/notice?domain=${trustArcDomain}&c=${trustArcConsentDiv}&gtm=1&pcookie&js=nj&noticeType=bb&pn=1-0&${countryParam}privacypolicylink=${privacyPath}&text=true`
 
   const script = document.createElement('SCRIPT');
   script.async = true;

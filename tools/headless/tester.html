@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebComponent - franklin-fragment tester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <script src="/aemedge/scripts/headless.js" type="module"></script>
+    <style>
+        body {
+            background-color: #fff;
+        }
+        
+        main {
+            padding: 32px;
+        }
+        
+        input {
+            width: 100%;
+            padding: 4px 16px;
+            box-sizing: border-box;
+        }
+
+        #stage {
+            margin-top: 32px;
+        }
+    </style>
+  <body>
+    <main>
+        <input id="input">
+        <div id="stage">
+
+        </div>
+    </main>
+    <script>
+        function stageFragment() {
+            stage.innerHTML = `<aem-content url="${input.value}"></aem-content>`;
+        }
+
+        const input = document.getElementById('input');
+        //const sampleUrl = window.location.origin + '/fragments/news/newsletter-subscription';
+        const sampleUrl = window.location.origin + '/fragments/headless/ai';
+        input.value = sampleUrl;
+        const stage = document.getElementById('stage');
+        input.addEventListener('input', () => {
+            stageFragment();
+        });
+
+        stageFragment();
+    </script>
+  </body>
+</html>

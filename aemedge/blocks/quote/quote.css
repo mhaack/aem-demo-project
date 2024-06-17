@@ -1,12 +1,11 @@
+@import url("/aemedge/libs/avatar/avatar.css");
+
 .quote {
-    margin-top: var(--udexSpacer40);
-    margin-bottom: var(--udexSpacer40);
+    --quote-content-font-size: var(--udexTypographyBodyXLFontSize);
+
+    color: var(--udexColorGrey8);
     display: grid;
     grid-template: "avatar" min-content "qt" min-content "qs" min-content "link" min-content / 1fr;
-}
-
-.quote-wrapper:last-child .quote {
-    margin-bottom: 0;
 }
 
 .quote > div {
@@ -52,7 +51,7 @@
 }
 
 .quote .qt .content {
-    font-size: var(--udexTypographyBodyXLFontSize);
+    font-size: var(--quote-content-font-size);
     flex-flow: column;
 }
 
@@ -63,11 +62,10 @@
 .quote .qt::before,
 .quote .qt::after {
     align-self: flex-start;
-    flex: 0 0 30px;
-    height: 100%;
-    justify-content: center;
     font-size: var(--udexTypographyDisplayRegularLFontSize);
-    line-height: 84px;
+    height: calc(var(--udexTypographyBodyLineHeight) * var(--quote-content-font-size)); /* Cap height to line height of quote body */
+    justify-content: center;
+    line-height: var(--udexTypographyDisplayRegularLFontSize);
     position: relative;
     top: -8px;
 }
@@ -88,16 +86,14 @@
     margin-right: 46px;
 }
 
-.quote.small .qt .content {
-    font-size: var(--udexTypographyBodySFontSize);
+.quote.small {
+    --quote-content-font-size: var(--udexTypographyBodySFontSize);
 }
 
 .quote.small .qt::before,
 .quote.small .qt::after {
-    flex: 0 0 1.75rem;
     font-size: var(--udexTypographyDisplayRegularMFontSize);
-    line-height: 72px;
-    top: -8px;
+    line-height: var(--udexTypographyDisplayRegularMFontSize);
 }
 
 .quote.small .qt::before {
@@ -141,14 +137,18 @@
     }
 }
 
-.section.quote-container.background-light,
-.section.quote-container.background-dark {
-    .quote-wrapper .quote {
-        margin-bottom: var(--udexSpacer56);
-        margin-top: var(--udexSpacer56);
+.quote-wrapper {
+    margin-block: var(--udexSpacer32);
+
+    &:first-child {
+        margin-block-start: 0;
     }
 
-    .quote-wrapper:last-child .quote {
-        margin-bottom: 0;
+    &:last-child {
+        margin-block-end: 0;
+    }
+
+    @media (width >= 980px) {
+        margin-block: var(--udexSpacer40);
     }
 }

@@ -1,4 +1,4 @@
-import { createOptimizedPicture, decorateIcons, loadCSS } from '../../scripts/aem.js';
+import { createOptimizedPicture, decorateIcons } from '../../scripts/aem.js';
 import {
   div, a, h2, p, span,
 } from '../../scripts/dom-builder.js';
@@ -28,10 +28,7 @@ export default class Avatar {
     return this.image ? createOptimizedPicture(this.image, this.title, false, breakpoints) : null;
   }
 
-  render(size, excludeStyles, imageOnly) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/avatar/avatar.css`);
-    }
+  render(size, imageOnly) {
     if (imageOnly) {
       return div({ class: `avatar ${size}` }, this.image ? div(this.getImage()) : div());
     }
@@ -48,10 +45,7 @@ export default class Avatar {
     );
   }
 
-  renderDetails(size, excludeStyles, linkText) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/avatar/avatar.css`);
-    }
+  renderDetails(size, linkText) {
     const element = div(
       { class: 'avatar-wrapper' },
       this.image ? div({ class: `avatar ${size}` }, div(this.getImage())) : '',

@@ -1,91 +1,275 @@
 .design-system-hero-wrapper {
-    margin-inline: unset !important;
-    grid-column: 1 / 13 !important;
+  grid-column: 1 / 13 !important;
+  margin-inline: unset !important;
+  width: 100%;
 }
 
 .fiori-hero-banner {
-    align-items: center;
-    display: grid;
-    gap: var(--udexGridXSGutters);
-    grid-template-columns: repeat(var(--udexGridColumns), 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    height: 192px;
-    position: relative;
-    
-    picture[slot="backgroundPicture"] {
-        grid-column: 1 / 13;
-        height: 100%;
+  align-items: center;
+  display: grid;
+  column-gap: var(--udexGridXSGutters);
+  grid-template-columns: repeat(var(--udexGridColumns), 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 192px;
+  position: relative;
+
+  div[slot="content"],
+  div[slot="additionalContent"] {
+    color: white;
+    grid-column: span 12;
+    padding: 0 var(--udexSpacer24);
+    z-index: var(--udexHeroBannerContentZIndex, 2);
+  }
+
+  div[slot="content"] {
+    grid-row: 3 / 4;
+
+    & > h1 {
+      font-size: var(--udexTypographyHeadingRegularMFontSize);
+      margin-top: 16px;
+      margin-bottom: 40px;
+
+      .hero-sub-heading {
+        margin: 4px 0;
+        font-size: var(--udexTypographyBodyXSFontSize);
+      }
+    }
+
+    .tags-container {
+      display: none;
+
+      .tag {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+        margin-right: 4px;
+        background-color: white;
+        color: var(--sapShell_TextColor);
+        padding: 4px 8px;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  picture[slot="backgroundPicture"] {
+    grid-column: 1 / 13;
+    height: 100%;
+    position: absolute;
+    width: 100vw;
+
+    & > img {
+      height: 192px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  
+  div[slot="additionalContent"] {
+    grid-row: 2 / 3;
+
+    & > span {
+      font-size: var(--udexTypographyBodyXXSFontSize);
+    }
+
+    .breadcrumb {
+      position: relative;
+
+      a, span {
+        font-size: var(--udexTypographyBodyXXSFontSize);
+
+        &.item {
+          text-decoration: none;
+          padding: 10px 0;
+          margin: 0 4px;
+          color: var(--sapShell_Category_14_TextColor);
+
+          &:first-child {
+            margin-left: 0;
+          }
+
+          &:not(:last-child) {
+            color: var(--sapShell_Category_15_Background);
+          }
+          
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+            color: var(--sapShell_Navigation_Active_Background);
+          }
+
+          &:focus {
+            outline: 2px solid var(--sapLink_Visited_Color);
+            border-radius: 1px;
+            outline-offset: 4px;
+          }
+        }
+      }
+
+      .last-updated-version {
         position: absolute;
-        width: 100%;
-    }
+        right: 0;
+  
+        .dropdown {
+          position: relative;
+          min-width: 130px;
 
-    picture[slot="backgroundPicture"] > img {
-        height: 192px;
-        width: 100%;
-    }
+          .dropdown-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            width: 100%;
+            padding: 0 8px;
+            border: 1px solid var(--udexColorBlue10);
+            border-radius: 8px;
+            background-color: white;
+            color: var(--udexColorBlue10);
+            cursor: pointer;
+            text-align: left;
+            font-size: var(--udexTypographyBodyXSFontSize);
 
-    div[slot="content"] {
-        grid-row: 3 / 4;
-    }
+            .icon {
+              width: 12px;
+              height: 12px;
+              margin-left: 8px;
 
+              img {
+                transform: rotate(90deg);
+              }
+            }
+          }
+
+          .dropdown-options {
+            width: 100%;
+            min-width: 200px;
+            max-width: 640px;
+            background-color: white;
+            border: 1px solid var(--udexColorGrey6);
+            border-radius: 8px;
+            position: absolute;
+            top: 30px;
+            right: 0;
+            display: none;
+
+            ul {
+              list-style-type: none;
+              padding: 0;
+
+              li a:any-link {
+                text-decoration: none;
+                color: var(--udexColorNeutralBlack);
+                padding: 8px;
+                cursor: pointer;
+                font-size: var(--udexTypographyBodySFontSize);
+
+                &:hover {
+                  background-color: var(--udexColorGrey1);
+                }
+
+                &:first-child {
+                  border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                }
+
+                &:last-child {
+                  border-bottom-left-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                }
+              }
+            }
+          }
+
+          &.open {
+            .dropdown-btn {
+              .icon {
+                img {
+                  transform: rotate(-90deg);
+                }
+              }
+            }
+
+            .dropdown-options {
+              display: block;
+              height: fit-content;
+              max-height: 280px;
+              overflow: scroll;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/* XS */
+@media (width < 640px) {
+  .fiori-hero-banner {
     div[slot="additionalContent"] {
-        grid-row: 2 / 3;
+      .breadcrumb {
+        .last-updated-version {
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+/* S */
+@media (width >= 640px) {
+  .fiori-hero-banner {
+    column-gap: var(--udexGridSGutters);
+
+    div[slot="content"],
+    div[slot="additionalContent"] {
+      padding: 0 var(--udexSpacer48);
+
+      .tags-container {
+        display: block;
+      }
+    }
+  }
+}
+
+/* M */
+@media (width >= 980px) {
+  .fiori-hero-banner {
+    column-gap: var(--udexGridMGutters);
+
+    div[slot="content"],
+    div[slot="additionalContent"] {
+      grid-column: 2 / 13;
+      padding: 0 var(--udexSpacer64);
     }
 
     div[slot="content"] > h1 {
-        font-size: var(--udexTypographyHeadingRegularSFontSize);
-        margin-top: 15px;
+      font-size: var(--udexTypographyHeadingRegularMFontSize);
     }
-
-    div[slot="additionalContent"] > span {
-        font-size: var(--udexTypographyBodyXXSFontSize);
-    }
-
-    div[slot="content"], div[slot="additionalContent"] {
-        color: white;
-        grid-column: span 12;
-        padding: 0 var(--udexSpacer24);
-        z-index: var(--udexHeroBannerContentZIndex, 2);
-    }
+  }
 }
 
-@media (width >= 640px) {
-    .fiori-hero-banner { 
-        div[slot="content"], div[slot="additionalContent"] {
-            padding: 0 var(--udexSpacer48);
-        }
+/* L */
+@media (width >= 1280px) {
+  .fiori-hero-banner {
+    div[slot="content"],
+    div[slot="additionalContent"] {
+      padding: 0 var(--udexSpacer64);
     }
+
+    div[slot="content"] > h1 {
+      font-size: var(--udexTypographyHeadingRegularMFontSize);
+    }
+  }
 }
 
-@media (width >= 980px) {
-    .fiori-hero-banner {
-        div[slot="content"], div[slot="additionalContent"] {
-            grid-column: 2 / 13;
-            padding: 0 var(--udexSpacer64);
-        }
-
-        div[slot="content"] > h1 {
-            font-size: var(--udexTypographyHeadingRegularMFontSize);
-        }
+/* XL */
+@media (width >= 1600px) {
+  .fiori-hero-banner {
+    picture[slot="backgroundPicture"] {
+      left: calc(-1 * (100vw - 1600px)/2);
     }
-}
 
-@media(width >= 1280px) {
-    .fiori-hero-banner { 
-        div[slot="content"], div[slot="additionalContent"] {
-            padding: 0 var(--udexSpacer64);
-        }
-
-        div[slot="content"] > h1 {
-            font-size: var(--udexTypographyHeadingRegularXLFontSize);
-        }
+    div[slot="content"],
+    div[slot="additionalContent"] {
+      padding: 0 var(--udexSpacer72);
     }
-}
-
-@media(width >= 1600px) {
-    .fiori-hero-banner {
-        div[slot="content"], div[slot="additionalContent"] {
-            padding: 0 var(--udexSpacer72);
-        }
-    }
+  }
 }

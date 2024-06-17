@@ -1,3 +1,7 @@
+@import url("/aemedge/libs/card/card.css");
+@import url("/aemedge/libs/pages/pages.css");
+
+
 .list-external {
   display: grid;
   grid-template-columns: 1fr;
@@ -102,5 +106,21 @@
 
   & > .pages {
     grid-column: 4 / span 2;
+  }
+}
+
+.list-external-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
   }
 }

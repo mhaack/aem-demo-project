@@ -2,13 +2,13 @@
   background-image: url('data:text/plain;utf-8,{"Path":"Base.baseLib.sap_glow.css_variables","Extends":["sap_horizon"]}')
 }
 
-:root {
+:root, :host {
   --sapThemeMetaData-Base-baseLib: {
     "Path": "Base.baseLib.sap_glow.css_variables", "Extends":["sap_horizon"]
   }
 }
 
-:root {
+:root, :host {
   --sapShell_BackgroundGradient: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
   --sapShell_Category_16_TextShadow: 0 0 .063rem 0 hsla(210.667, 20.93%, -57.843%, .7);
   --sapShell_Category_16_TextColor: #D1EFFF;

@@ -1,5 +1,6 @@
 /* stylelint-disable selector-class-pattern */
 /* stylelint-disable no-descending-specificity */
+@import url("/aemedge/libs/button/button.css");
 
 header {
   --nav-active-marker-color: var(--udexColorBlue7);
@@ -13,7 +14,6 @@ header {
   --nav-links-font-weight: var(--udexTypographyFontWeightRegular);
   --nav-links-line-height: var(--udexTypographyNavigationLineHeight);
   --nav-tab-list-spacing: var(--udexSpacer24);
-  --nav-text-color: var(--udexColorGrey8);
   --nav-grid-width: min(var(--grid-width), 1600px);
   --nav-column-width: calc((var(--nav-grid-width) - (11 * var(--udexGridGutters))) / 12);
   --nav-dropdown-desktop-inline-spacing: 52px;
@@ -33,8 +33,13 @@ header {
     list-style: none;
   }
 
+  & .header {
+    &, a {
+      color: var(--udexColorNeutralBlack);
+    }
+  }
+
   & li :is(a, .text) {
-    color: var(--nav-text-color);
     cursor: pointer;
     display: flex;
     flex-basis: 100%;
@@ -75,12 +80,12 @@ header {
       background-color: currentcolor;
       box-sizing: border-box;
       content: "";
-      height: 1rem;
+      height: 14px;
       margin-inline-start: var(--udexSpacer4);
       mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
       transition: transform .3s ease;
       transform: rotate(0deg);
-      width: 1rem;
+      width: 14px;
     }
 
     & ul, & .nav__list-parent__dropdown {
@@ -104,7 +109,8 @@ header {
     & > .text {
       justify-content: center;
       flex-direction: row-reverse;
-      font-weight: var(--udexTypographyFontWeightBold);
+      font-size: var(--udexTypographyNavigationMediumMFontSize);
+      font-weight: var(--udexTypographyFontWeightMedium);
       width: 100%;
 
       &::after {
@@ -172,6 +178,7 @@ header {
         box-sizing: border-box;
         cursor: pointer;
         display: inline-flex;
+        filter: brightness(0) saturate(100%) invert(28%) sepia(8%) saturate(1798%) hue-rotate(170deg) brightness(95%) contrast(95%);
         margin: unset;
         padding: 7px;
         position: relative;
@@ -230,6 +237,7 @@ header {
       }
 
       & .site-label {
+        color: var(--udexColorGrey8);
         font-size: var(--udexTypographyNavigationBoldXLFontSize);
         font-weight: var(--udexTypographyFontWeightBold);
         line-height: var(--nav-links-line-height);
@@ -374,7 +382,7 @@ header {
         background: unset;
         color: unset;
         font-size: var(--udexTypographyNavigationMediumMFontSize);
-        font-weight: var(--udexTypographyFontWeightBold);
+        font-weight: var(--udexTypographyFontWeightMedium);
         padding: var(--nav-list-item-padding);
 
         &:hover {
@@ -400,8 +408,8 @@ header {
       }
 
       & .nav-actions .burger-menu {
-        & .icon {
-          filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%);
+        & .button {
+          filter: brightness(0) saturate(100%) invert(12%) sepia(75%) saturate(4556%) hue-rotate(213deg) brightness(106%) contrast(105%)
         }
 
         &::after {
@@ -527,7 +535,6 @@ header {
 
             & > :is(a, .text) {
               background: none;
-              color: unset;
               font-weight: var(--nav-links-font-weight);
               padding: var(--nav-tab-padding);
 
@@ -586,6 +593,7 @@ header {
           flex-direction: column;
           flex-grow: 0;
           flex-shrink: 0;
+          gap: var(--udexSpacer4) 0;
         }
 
         & li {
@@ -621,8 +629,14 @@ header {
           left: calc(-1 * var(--nav-dropdown-desktop-inline-spacing));
         }
 
+        & > .text {
+          color: var(--udexColorGrey9);
+        }
+
         & > .text::after {
           transform: rotate(90deg);
+          height: var(--udexSpacer16);
+          width: var(--udexSpacer16);
         }
 
         & .nav__list-parent {
@@ -634,7 +648,9 @@ header {
           }
 
           & .text {
-            font-weight: var(--udexTypographyFontWeightBold);
+            font-size: var(--udexTypographyNavigationMediumMFontSize);
+            font-weight: var(--udexTypographyFontWeightMedium);
+            padding-block-end: var(--udexSpacer12);
             pointer-events: none;
 
             &::after {

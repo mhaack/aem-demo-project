@@ -1,8 +1,8 @@
-html:has(.web-component) {
+html:has(.design-system) {
   height: 100%;
 }
 
-.web-component {
+.design-system {
   --headerHeight: var(--nav-height);
 
   display: grid !important;
@@ -12,8 +12,8 @@ html:has(.web-component) {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto !important;
   height: 100%;
+  position: relative;
 
-  /* Master Header */
   > header {
     background: var(--udexColorGrey1);
     position: fixed;
@@ -22,12 +22,10 @@ html:has(.web-component) {
     z-index: 20;
   }
 
-  /* Main Navigation, not part of the grid */
   > nav {
     z-index: 10;
   }
 
-  /* Main Content */
   main {
     column-gap: var(--udexGridXSGutters);
     display: grid;
@@ -38,6 +36,7 @@ html:has(.web-component) {
     margin-top: var(--headerHeight);
     padding: 0 var(--udexGridMargins);
     position: relative;
+    width: 100%;
 
     h2 {
       font-size: var(--udexTypographyHeadingMediumXSFontSize);
@@ -100,6 +99,18 @@ html:has(.web-component) {
       border-bottom: 1px solid var(--udexCoreDividerLight);
       grid-column: span var(--udexGridColumns);
 
+      /* Remove the margin bottom from the last child of all the wrappers */
+      > [class$="wrapper"] > *:last-child:not(h1,h2,h3,h4,h5,h6) {
+        margin-bottom: 0;
+      }
+
+      /* After every wrapper if there is a wrapper then margin top should be
+      applied to the next one excluding the table wrapper */
+      > [class$="wrapper"]:not(.table-wrapper):has(> *:last-child:not(h1,h2,h3,h4,h5,h6))
+      + [class$="wrapper"]:not(.table-wrapper) {
+        margin-top: var(--udexSpacer40);
+      }
+
       &:first-child {
         border: 0 none;
         display: grid;
@@ -122,12 +133,22 @@ html:has(.web-component) {
       }
 
       &:last-child {
-        border: none;
+        border: 0 none;
+      }
+
+      /* Remove the border from the section that has a TOC sibling */
+      &:has(+ .design-system-toc-container) {
+        border: 0 none;
+      }
+
+      /* Remove the border from the section that has a TOC sibling and section siblings */
+      &:has(+ .design-system-toc-container ~ .section) {
+        border: 0 none;
       }
 
       /* Remove the border from the second last section */
       &:nth-last-child(2):has(+ .design-system-toc-container) {
-        border: none;
+        border: 0 none;
         padding-bottom: var(--udexSpacer40);
       }
 
@@ -143,21 +164,24 @@ html:has(.web-component) {
     }
   }
 
-  /* Page Footer */
-  > footer {
+  & > footer {
     bottom: 0;
-    display: grid;
-    column-gap: var(--udexGridXSGutters);
     grid-area: footer;
-    grid-template-columns: repeat(var(--udexGridColumns), 1fr);
-    grid-template-rows: min-content;
-    padding: 0 var(--udexGridMargins);
     position: relative;
     width: 100%;
 
-    .design-system-footer {
+    & .design-system-footer {
+      column-gap: var(--udexGridXSGutters);
+      display: grid;
       grid-column: span var(--udexGridColumns);
-      padding-block: var(--udexSpacer16);
+      grid-template-columns: repeat(var(--udexGridColumns), 1fr);
+      grid-template-rows: min-content;
+      padding: var(--udexSpacer16) var(--udexGridMargins);
+
+      /* stylelint-disable-next-line */
+      & div {
+        grid-column: 1 / 13;
+      }
     }
   }
 
@@ -166,10 +190,6 @@ html:has(.web-component) {
       grid-gap: var(--udexSpacer16) var(--udexSpacer48);
       display: grid;
       align-items: start;
-
-      p {
-        margin: 0;
-      }
 
       .embed-wrapper > p > p:last-child {
         margin-top: var(--udexSpacer16);
@@ -193,9 +213,9 @@ html:has(.web-component) {
 
 /* XS */
 @media (width < 640px) {
-  .web-component {
-    main {
-      a {
+  .design-system {
+    & main {
+      & a {
         text-decoration: none;
       }
     }
@@ -204,27 +224,32 @@ html:has(.web-component) {
 
 /* S */
 @media (width >= 640px) {
-  .web-component {
-    main {
+  .design-system {
+    & main {
       column-gap: var(--udexGridSGutters);
 
-      h2 {
+      & h2 {
         font-size: var(--udexTypographyHeadingMediumSFontSize);
       }
 
-      h3 {
+      & h3 {
         font-size: var(--udexTypographyHeadingMediumXXSFontSize);
         margin-block: var(--udexSpacer32) var(--udexSpacer16);
       }
 
-      p:has(> picture) {
+      & p:has(> picture) {
         /* Caption */
         & + p {
           font-size: var(--udexTypographyBodyXSFontSize);
         }
       }
 
-      .section {
+      & .section {
+        > [class$="wrapper"]:not(.table-wrapper):has(> *:last-child:not(h1,h2,h3,h4,h5,h6))
+        + [class$="wrapper"]:not(.table-wrapper) {
+          margin-top: var(--udexSpacer48);
+        }
+
         &:not(:first-child) {
           padding-block: var(--udexSpacer48);
         }
@@ -234,37 +259,67 @@ html:has(.web-component) {
         }
       }
     }
+
+    & > footer {
+      .design-system-footer {
+        column-gap: var(--udexGridSGutters);
+      }
+    }
   }
 }
 
 /* M */
 @media (width >= 980px) {
-  .web-component {
-    main {
+  .design-system {
+    & main {
       column-gap: var(--udexGridMGutters);
 
-      h2 {
+      & h2 {
         font-size: var(--udexTypographyHeadingMediumMFontSize);
       }
 
-      h3 {
+      & h3 {
         margin-block: var(--udexSpacer48) var(--udexSpacer16);
       }
 
-      :is(h1, h2, h3) + p {
+      & :is(h1, h2, h3) + p {
         margin-block: 0 var(--udexSpacer16);
       }
 
-      .section {
+      & .section {
         &:first-child {
-          > div {
+          & > div {
             grid-column: 2 / 13;
             margin-inline: unset;
           }
         }
 
-        .columns.columns-2-cols > div {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
+        & .columns.columns-2-cols {
+          &> div {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+
+          &.columns-1-5 > div {
+            grid-template-columns: 1fr 5fr;
+          }
+        }
+
+        & .columns.columns-3-cols {
+          &.columns-1-2-3 > div {
+            grid-template-columns: 1fr 2fr 3fr;
+          }
+
+          &.columns-1-2-3 > div.when-to-use-wrapper {
+            display: grid;
+          }
+        }
+
+        /* stylelint-disable-next-line no-descending-specificity */
+        & .columns.columns-2-cols > div > div,
+        & .columns.columns-3-cols > div > div {
+          & :is(h2, h3, p):first-child {
+            margin-top: 0;
+          }
         }
 
         &:not(:first-child) {
@@ -277,12 +332,14 @@ html:has(.web-component) {
       }
     }
 
-    /* Page Footer */
-    > footer {
-      column-gap: var(--udexGridMGutters);
+    & > footer {
+      & .design-system-footer {
+        column-gap: var(--udexGridMGutters);
 
-      .design-system-footer {
-        grid-column: 2 / 13;
+        /* stylelint-disable-next-line */
+        & div {
+          grid-column: 2 / 13;
+        }
       }
     }
   }
@@ -290,33 +347,58 @@ html:has(.web-component) {
 
 /* L */
 @media (width >= 1280px) {
-  .web-component {
-    main {
-      .section {
+  .design-system {
+    & main {
+      & .section {
+        > [class$="wrapper"]:not(.table-wrapper):has(> *:last-child:not(h1,h2,h3,h4,h5,h6))
+        + [class$="wrapper"]:not(.table-wrapper) {
+          margin-top: var(--udexSpacer56);
+        }
+
         &:not(:first-child) {
           grid-column: 2 / 11;
           padding-block: var(--udexSpacer56);
         }
 
-        &.design-system-toc-container {
-          grid-column: 11 / 13; /* Move TOC always to end of the column */
-          grid-row: 2; /* Move TOC always to second row */
-          border: 0 none;
-          padding: 0;
-          position: sticky;
-          display: block;
-          right: var(--udexGridMargins);
-          top: 10%;
-          z-index: 1;
+        &:nth-last-child(2):has(+ .design-system-toc-container) {
+          padding-bottom: var(--udexSpacer84);
         }
 
-        &:nth-last-child(2):has(+ .design-system-toc-container) {
+        &:has(+ .design-system-toc-container ~ .section) {
           padding-bottom: var(--udexSpacer84);
         }
       }
 
-      :is(h1, h2, h3) + p {
+      & :is(h1, h2, h3) + p {
         margin-block: 0 var(--udexSpacer40);
+      }
+    }
+  }
+}
+
+/* XL */
+@media (width >= 1600px) {
+  .design-system {
+    & main {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      margin-inline: auto;
+      max-width: var(--udexGridXLMinWidth);
+      position: relative;
+
+      & .section {
+        /* &:first-child {} */
+
+        &:not(:first-child) {
+          position: relative;
+        }
+      }
+    }
+
+    & > footer {
+      & .design-system-footer {
+        margin: 0 auto;
+        max-width: var(--udexGridXLMinWidth);
       }
     }
   }
@@ -326,11 +408,11 @@ html:has(.web-component) {
  * =ANATOMY
  */
 /* stylelint-disable no-duplicate-selectors */
-.web-component {
-  main {
-    :is(#anatomy) {
+.design-system {
+  & main {
+    & :is(#anatomy) {
       /* Picture */
-      + p:has(> picture) {
+      & + p:has(> picture) {
         & img {
           border-radius: var(--udexRadiusM);
         }

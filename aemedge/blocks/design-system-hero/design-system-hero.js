@@ -1,83 +1,154 @@
-import { createOptimizedPicture, getMetadata } from '../../scripts/aem.js';
-import { div } from '../../scripts/dom-builder.js';
+import { decorateIcons, getMetadata } from '../../scripts/aem.js';
+import {
+  a,
+  button,
+  div,
+  img,
+  li,
+  picture,
+  source,
+  span,
+  ul,
+} from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
-
-const mediaQueryXL = window.matchMedia('(min-width: 1600px)');
-const mediaQueryL = window.matchMedia('(min-width: 1280px)');
-const mediaQueryM = window.matchMedia('(min-width: 980px)');
-const mediaQueryS = window.matchMedia('(min-width: 640px)');
-
-function decorateImageName(imageName) {
-  let decoratedImageName = '';
-  if (mediaQueryXL.matches) {
-    decoratedImageName = `xl-${imageName}`;
-  } else if (mediaQueryL.matches) {
-    decoratedImageName = `l-${imageName}`;
-  } else if (mediaQueryM.matches) {
-    decoratedImageName = `m-${imageName}`;
-  } else if (mediaQueryS.matches) {
-    decoratedImageName = `s-${imageName}`;
-  } else {
-    decoratedImageName = `xs-${imageName}`;
-  }
-
-  return `/design-system/images/hero/${decoratedImageName}.png`;
-}
-
-function decorateImage(hero, imageName) {
-  const decoratedImageName = decorateImageName(imageName);
-  const picture = createOptimizedPicture(decoratedImageName);
-  const oldPicture = hero.querySelector('picture');
-  if (picture) {
-    picture.setAttribute('slot', 'backgroundPicture');
-    const img = picture.querySelector('img');
-    img.classList.add('custom-background-image');
-    hero.append(picture);
-  }
-  if (oldPicture) {
-    oldPicture.remove();
-  }
-  return hero;
-}
+import ffetch from '../../scripts/ffetch.js';
 
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
+  const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3')?.textContent ?? '';
   const imageName = block.querySelector('div:nth-child(1) > div > div > div:nth-child(2) > div').textContent;
-  const breadcrumbText = getMetadata('breadcrumbs');
-  const breadcrumb = document.createElement('span');
-  breadcrumb.innerHTML = breadcrumbText;
 
-  const hero = div({
-    class: 'fiori-hero-banner',
-  });
-  const contentSlot = div(
-    {
-      slot: 'content',
-      class: ['hero-banner', 'media-content'],
-    },
-    heading,
+  const breadcrumbItems = div({ class: 'items' });
+  const metaBreadcrumbs = getMetadata('breadcrumbs');
+  if (metaBreadcrumbs) {
+    const breadcrumbText = `Home / ${metaBreadcrumbs}`;
+    breadcrumbText.split('/').forEach((itemText) => {
+      const item = Object.assign(document.createElement('a'), { className: 'item' });
+      if (itemText.trim() === 'Home') {
+        item.innerHTML = itemText.trim();
+        item.setAttribute('href', '/topics/');
+      } else {
+        const separator = document.createElement('span');
+        separator.innerHTML = ' / ';
+        breadcrumbItems.append(separator);
+        item.innerHTML = `${itemText.trim()}`;
+        item.setAttribute('href', '/fiori-design-web/ui-elements/ui-elements');
+      }
+      breadcrumbItems.append(item);
+    });
+  }
+
+  const breadcrumb = div(
+    { class: 'breadcrumb' },
+    breadcrumbItems,
   );
-  hero.append(contentSlot);
-  const breadcrumbSlot = div(
+
+  const subHeading = document.createElement('p');
+  subHeading.classList.add('hero-sub-heading');
+  subHeading.innerHTML = subHeadingText.substring(0, subHeadingText.indexOf('|') - 1);
+  heading.append(subHeading);
+
+  const tagsContainer = Object.assign(document.createElement('div'), { className: 'tags-container' });
+  const componentTags = [getMetadata('designowner'), getMetadata('uielementstechnology'), getMetadata('elementtype')];
+  componentTags.forEach((tagName) => {
+    if (tagName.trim().length > 0) {
+      const tagItem = Object.assign(document.createElement('span'), { className: 'tag' });
+      tagItem.innerHTML = tagName;
+      tagsContainer.append(tagItem);
+    }
+  });
+
+  const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
+
+  const currentVersion = getMetadata('version');
+
+  // dropdown button which handles the open and closing of the dropdown
+  const dropdownButton = button(
     {
-      slot: 'additionalContent',
-      class: ['hero-banner', 'media-additionalContent'],
+      class: 'dropdown-btn',
+      onclick: (e) => {
+        const options = e.target.parentNode;
+        if (options) {
+          options.classList.toggle('open');
+        }
+      },
     },
-    breadcrumb,
+    currentVersion,
+    dropdownArrowDown,
   );
-  hero.append(breadcrumbSlot);
-  decorateImage(hero, imageName);
-  mediaQueryXL.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
-  mediaQueryL.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
-  mediaQueryM.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
-  mediaQueryS.addEventListener('change', () => {
-    decorateImage(hero, imageName);
-  });
+  decorateIcons(dropdownButton);
+
+  const rootUrl = '/design-system/fiori-design-web/';
+  const rawPageVersions = await ffetch(`${rootUrl}query-index.json`)
+    .map((row) => row.version)
+    .all();
+  rawPageVersions.sort();
+  const pageVersions = rawPageVersions
+    .filter((item, index) => rawPageVersions.indexOf(item) === index && item !== currentVersion);
+
+  const currentPathname = window.location.pathname;
+
+  // options dropdown items container
+  const options = ul(
+    {
+      class: 'options',
+      onclick: (e) => {
+        const parent = e.currentTarget.parentNode;
+        if (parent) {
+          parent.previousSibling.textContent = e.target.innerHTML;
+          parent.previousSibling.append(dropdownArrowDown);
+          parent.parentNode.classList.remove('open');
+        }
+      },
+    },
+    ...pageVersions.reverse().map((version) => li(
+      { value: version },
+      a({ href: currentPathname.replace(currentVersion, version) }, version),
+    )),
+  );
+
+  const dropdownOptions = div(
+    { class: 'dropdown-options' },
+    options,
+  );
+
+  const versions = div(
+    { class: 'last-updated-version' },
+    div({ class: 'last-updated-date' }),
+    div(
+      { class: 'dropdown' },
+      dropdownButton,
+      dropdownOptions,
+    ),
+  );
+  breadcrumb.append(versions);
+
+  const hero = div(
+    { class: 'fiori-hero-banner' },
+    div(
+      {
+        slot: 'content',
+        class: ['hero-banner', 'media-content'],
+      },
+      heading,
+      tagsContainer,
+    ),
+    div(
+      {
+        slot: 'additionalContent',
+        class: ['hero-banner', 'media-additionalContent'],
+      },
+      breadcrumb,
+    ),
+    picture(
+      { slot: 'backgroundPicture' },
+      source({ media: '(min-width: 1600px)', srcset: `/design-system/images/hero/xl-${imageName}.svg` }),
+      source({ media: '(min-width: 1280px)', srcset: `/design-system/images/hero/l-${imageName}.svg` }),
+      source({ media: '(min-width: 980px)', srcset: `/design-system/images/hero/m-${imageName}.svg` }),
+      source({ media: '(min-width: 640px)', srcset: `/design-system/images/hero/s-${imageName}.svg` }),
+      img({ src: `/design-system/images/hero/xs-${imageName}.svg`, classList: 'custom-background-image' }),
+    ),
+  );
+
   block.replaceWith(hero);
 }

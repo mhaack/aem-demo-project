@@ -1,8 +1,10 @@
+@import url("/aemedge/libs/pictureCard/pictureCard.css");
+
 .featured-articles {
   & ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-    grid-gap: var(--udexGridGutters);
+    gap: var(--udexSpacer32) var(--udexGridGutters);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -17,6 +19,7 @@
 
     @media (width >= 980px) {
       & {
+        gap: var(--udexSpacer40) var(--udexGridGutters);
         grid-template-columns: repeat(3, 1fr);
       }
     }
@@ -30,3 +33,18 @@
   }
 }
 
+.featured-articles-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
+  }
+}

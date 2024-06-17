@@ -11,5 +11,6 @@
 @media (width >= 640px) {
   .error-buttons {
     flex-direction: row;
+    justify-content: center;
   }
 }

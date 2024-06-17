@@ -18,6 +18,10 @@ jobs:
       image: public.int.repositories.cloud.sap/ubuntu:20.04
       volumes:
         - /var/run/docker.sock:/var/run/docker.sock
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     steps:
       - name: Install sudo
         run: apt-get update && apt-get install -y sudo
@@ -58,7 +62,8 @@ jobs:
           node index.js
       
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: 'sitemap-*.xml'
-          commit_message: "Update sitemap files"    
+          commit_message: "Update sitemap files"
+          repository: aemedge
+          file_pattern: "sitemap*.xml"

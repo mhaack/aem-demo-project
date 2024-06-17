@@ -214,6 +214,21 @@ function convertStringToKebabCase(str) {
   return str.toLowerCase().replace(/\s+/g, '-');
 }
 
+/**
+ * Retrieves the content of metadata tags. Accommodates "twitter:" metadata names which are handled
+ * differently by the product source code.
+ * @param {string} name The metadata name (or property)
+ * @param {Document} doc Document object to query for metadata. Defaults to the window's document
+ * @returns {string} The metadata value(s)
+ */
+function getMetadataOverride(name, doc = document) {
+  const attr = name.includes(':') && !name.startsWith('twitter:') ? 'property' : 'name';
+  const meta = [...doc.head.querySelectorAll(`meta[${attr}="${name}"]`)]
+    .map((m) => m.content)
+    .join(', ');
+  return meta || '';
+}
+
 export {
   buildAuthorUrl,
   buildCardDisplayProfile,
@@ -233,4 +248,5 @@ export {
   getTagLink,
   lookupProfiles,
   toTitleCase,
+  getMetadataOverride,
 };

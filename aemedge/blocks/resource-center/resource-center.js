@@ -95,11 +95,10 @@ function getPathFilter(entry, author, matchedPathTags) {
   return true;
 }
 
-function getTagFilter(entry, params) {
-  const nonFilterParams = ['page', 'sort', 'order', 'limit', 'month-year'];
+function getTagFilter(entry, params, nonFilterParams, id) {
   let filterTags = [];
   params.forEach((value, key) => {
-    if (!nonFilterParams.includes(key)) {
+    if (!(nonFilterParams.includes(key) || key === `${id}-month-year`) && key.startsWith(id)) {
       filterTags.push(value);
     }
   });
@@ -107,19 +106,19 @@ function getTagFilter(entry, params) {
   return filterTags.every((item) => JSON.parse(entry.tags).includes(item));
 }
 
-function getDateFilter(entry, params) {
-  const dateRange = params.get('month-year');
+function getDateFilter(entry, params, id) {
+  const dateRange = params.get(`${id}-month-year`);
   if (!dateRange) return true;
   const publicationDate = new Date(entry.publicationDate * 1000);
   const dateString = `${publicationDate.getUTCFullYear()}/${(publicationDate.getUTCMonth() + 1).toString().padStart(2, '0')}`;
   return dateRange.find((date) => date === dateString);
 }
 
-function getUserFilter(params) {
-  return (entry) => getDateFilter(entry, params) && getTagFilter(entry, params);
+function getUserFilter(params, nonFilterParams, id) {
+  return (entry) => getDateFilter(entry, params, id) && getTagFilter(entry, params, nonFilterParams, id);
 }
 
-async function getArticles(tags, editorConfig, startPage = 1, batchSize = 6) {
+async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 1, batchSize = 6) {
   const params = getParameterMap();
   const path = window.location.pathname;
   let author;
@@ -132,7 +131,7 @@ async function getArticles(tags, editorConfig, startPage = 1, batchSize = 6) {
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
     .filter((entry) => getPathFilter(entry, author, matchedPathTags))
     .filter(getEditorFilter(editorConfig))
-    .filter(getUserFilter(params))
+    .filter(getUserFilter(params, nonFilterParams, id))
     .limit(editorConfig.limit ? +editorConfig.limit[0] : -1)
     .paginate(batchSize, startPage);
 }
@@ -166,10 +165,13 @@ function registerHandler(
   editorConfig,
   textOnly,
   carousel,
+  nonFilterParams,
+  id,
+  pageSize,
 ) {
   ['sap:itemSelect', 'sap:itemClose'].forEach((e) => {
-    window.addEventListener(e, async () => {
-      articleStream = await getArticles(tags, editorConfig);
+    block.addEventListener(e, async () => {
+      articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize);
       articleStream.next().then((cursor) => {
         block.querySelector('.card-items').remove();
         const cards = renderCards(
@@ -180,13 +182,13 @@ function registerHandler(
           textOnly,
           carousel,
         );
-        if (filters) filters.updateResults(cursor.value.total);
+        if (filters) filters.updateResults(block, cursor.value.total);
         block.append(cards);
         if (pages) pages.updatePages(cursor.value.pages, 1);
       });
     });
   });
-  window.addEventListener('sap:pageChange', (e) => {
+  block.addEventListener('sap:pageChange', (e) => {
     articleStream.next({ direction: e.detail.direction }).then((cursor) => {
       block.querySelector('.card-items')?.remove();
       const cards = renderCards(
@@ -235,7 +237,7 @@ function getMonthRange(startDate, endDate) {
   return months.reverse();
 }
 
-function getFilterConfig(block, tags) {
+function getFilterConfig(block, tags, id) {
   const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info', 'page-size'];
   const editorConfig = {};
   const userConfig = [];
@@ -247,7 +249,7 @@ function getFilterConfig(block, tags) {
     if (key === 'date-range') {
       const dates = value.split('to');
       userConfig.push({
-        id: 'date-range',
+        id: `${id}-date-range`,
         name: 'Month/Year',
         items: getMonthRange(dates[0].trim(), dates[1].trim()),
       });
@@ -272,7 +274,7 @@ function getFilterConfig(block, tags) {
       })
       .filter((item) => item !== null);
     userConfig.push({
-      id: key,
+      id: `${id}-${key}`,
       name: toTitleCase(key),
       items,
     });
@@ -280,11 +282,17 @@ function getFilterConfig(block, tags) {
   return { editorConfig, userConfig };
 }
 
+function getBlockId() {
+  window.sapResourceCenterCount = window.sapResourceCenterCount ? window.sapResourceCenterCount + 1 : 1;
+  return `rc-${window.sapResourceCenterCount}`;
+}
+
 export default async function decorateBlock(block) {
+  const id = getBlockId();
   const textOnly = block.classList.contains('text-only');
   const carousel = block.classList.contains('carousel');
   const tags = await fetchTagList();
-  const { editorConfig, userConfig } = getFilterConfig(block, tags);
+  const { editorConfig, userConfig } = getFilterConfig(block, tags, id);
   block.textContent = '';
   let filters;
   let pages;
@@ -292,8 +300,14 @@ export default async function decorateBlock(block) {
   const placeholders = await fetchPlaceholders();
   const authorIndex = await fetchAuthors();
   const urlParams = new URLSearchParams(window.location.search);
-  const page = +urlParams.get('page') || 1;
-  const articleStream = await getArticles(tags, editorConfig, page, pageSize);
+  const page = +urlParams.get(`${id}-page`) || 1;
+  const nonFilterParams = [
+    `${id}-page`,
+    `${id}-sort`,
+    `${id}-order`,
+    `${id}-limit`,
+  ];
+  const articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, page, pageSize);
   const cursor = await articleStream.next();
   const cardList = renderCards(
     cursor.value.results,
@@ -303,14 +317,19 @@ export default async function decorateBlock(block) {
     textOnly,
     carousel,
   );
-  const totalMoreThanPageSize = cursor.value?.total && cursor.value?.total > pageSize;
-  if (userConfig.length > 0 && !carousel && totalMoreThanPageSize) {
-    filters = new Filters(userConfig, placeholders);
+
+  if (userConfig.length > 0 && !carousel) {
+    filters = new Filters(
+      userConfig,
+      placeholders,
+      nonFilterParams,
+      id,
+    );
     block.append(filters.render());
-    filters.updateResults(cursor.value.total);
+    filters.updateResults(block, cursor.value.total);
   }
   block.append(cardList);
-  if (!carousel && cursor.value.pages > 1 && cursor.value.pages <= 2 && userConfig.length === 0 && totalMoreThanPageSize) {
+  if (!carousel && cursor.value.pages > 1 && cursor.value.pages <= 2 && userConfig.length === 0) {
     const btnLabel = placeholders.showMore || 'Show More';
     const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', 'large').render();
     viewBtn.addEventListener('click', () => {
@@ -326,15 +345,15 @@ export default async function decorateBlock(block) {
         Array.from(cards.children).forEach((card) => {
           cardList.append(card);
         });
-        if (!nextCursor.value.hasNext) {
+        if (nextCursor.value.page === nextCursor.value.pages) {
           viewBtn.remove();
         }
       });
     });
     block.append(viewBtn);
   }
-  if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0) && totalMoreThanPageSize) {
-    pages = new Pages(block, cursor.value.pages, page);
+  if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0)) {
+    pages = new Pages(block, cursor.value.pages, page, id);
     pages.render();
   }
   registerHandler(
@@ -348,5 +367,8 @@ export default async function decorateBlock(block) {
     editorConfig,
     textOnly,
     carousel,
+    nonFilterParams,
+    id,
+    pageSize,
   );
 }

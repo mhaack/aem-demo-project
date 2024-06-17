@@ -1,4 +1,4 @@
-import { getMetadata } from './aem.js';
+import { buildBlock, decorateBlock, getMetadata } from './aem.js';
 
 const encodeHTML = (str) => str.replace(/[\u00A0-\u9999<>&]/g, (i) => `&#${i.charCodeAt(0)};`);
 
@@ -49,11 +49,26 @@ function decorateTextNode(node) {
  * helper - walkes the DOM and replaces text nodes with spans if they have inline-attributes
  * @param {HTMLElement} main
  */
-function decorateSpans(main) {
+export function decorateSpans(main) {
   const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
   while (walker.nextNode()) {
     decorateTextNode(walker.currentNode);
   }
+}
+
+function decorateLiveExamples(element) {
+  element.querySelectorAll('a').forEach((link) => {
+    const { href, textContent } = link;
+    // deprecated prod live example, to remove on full import
+    const livePrefix = 'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/';
+    const qaPrefix = 'https://www-qa.sap.com/design-system/live-examples/';
+    if (href === textContent && (href.startsWith(livePrefix) || href.startsWith(qaPrefix))) {
+      const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
+
+      link.parentElement.replaceWith(embedBlock);
+      decorateBlock(embedBlock);
+    }
+  });
 }
 
 function filterInternalExternalData(main) {
@@ -76,7 +91,20 @@ function filterInternalExternalData(main) {
   }
 }
 
-export {
-  decorateSpans,
-  filterInternalExternalData,
-};
+/**
+ * Convert camelCase to kebab-case.
+ * @param str The string to convert.
+ * @returns {*} The converted string.
+ */
+export function camelToKebab(str) {
+  return str
+    .replace(/([a-z])([A-Z])/g, '$1-$2') // Handle lowercase followed by uppercase
+    .replace(/([a-zA-Z])([0-9])/g, '$1-$2') // Handle letters followed by numbers
+    .replace(/([0-9])([a-zA-Z])/g, '$1-$2') // Handle numbers followed by letters
+    .toLowerCase();
+}
+
+export function decorateDesignSystemSite(main) {
+  filterInternalExternalData(main);
+  decorateLiveExamples(main);
+}

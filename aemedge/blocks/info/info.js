@@ -15,7 +15,7 @@ const blockToColorIconMap = {
     displayText: 'Upcoming Changes',
   },
   information: {
-    icon: 'source-code',
+    icon: 'hint',
     displayText: 'Information',
   },
   guideline: {

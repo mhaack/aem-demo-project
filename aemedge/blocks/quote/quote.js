@@ -17,7 +17,7 @@ export default async function decorate(block) {
       const authorIndex = await fetchProfiles();
       const authorEntry = lookupProfiles(quoteAuthor.textContent, authorIndex)?.[0];
       if (authorEntry && authorEntry.image) {
-        const avatar = Avatar.fromAuthorEntry(authorEntry).render(isSmall ? 'medium' : 'big', false, true);
+        const avatar = Avatar.fromAuthorEntry(authorEntry).render(isSmall ? 'medium' : 'big', true);
         block.insertBefore(avatar, quoteText.parentNode);
       }
     }
@@ -30,6 +30,6 @@ export default async function decorate(block) {
     quoteLink.parentNode.remove();
   }
   if (!quoteLink && !quoteAuthor) {
-    quoteText.parentNode.classList.add('qt single-qt');
+    quoteText.parentNode.classList.add('qt', 'single-qt');
   }
 }

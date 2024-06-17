@@ -1,5 +1,9 @@
 .cards {
-  & h2 {
+  & ul {
+    margin: 0;
+  }
+
+  & h3 {
     font-size: var(--udexTypographyHeadingMediumXXXSFontSize);
     font-weight: var(--udexTypographyFontWeightMedium);
     margin-block-end: var(--udexSpacer8);
@@ -11,7 +15,6 @@
 
   & > ul {
     list-style: none;
-    margin: var(--udexSpacer40) 0 0;
     padding: 0;
     display: grid;
 
@@ -31,20 +34,6 @@
 
   & .cards-card {
     & div:nth-child(2) {
-      & > h3 {
-        font-size: var(--udexTypographyBodySFontSize);
-
-        @media (width >= 1280px) {
-          font-size: var(--udexTypographyHeadingMediumXXSFontSize);
-          font-weight: var(--udexTypographyFontWeightMedium);
-        }
-
-        & + p {
-          padding-block: 0 var(--udexSpacer20);
-          margin-block: 0;
-        }
-      }
-
       & .button-container {
         margin-block: 0;
       }
@@ -296,5 +285,21 @@
         font-size: var(--udexTypographyNavigationRegularMFontSize);
       }
     }
+  }
+}
+
+.cards-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
   }
 }

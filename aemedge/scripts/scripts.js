@@ -21,7 +21,7 @@ import {
   isCFEnabled,
   isCLEnabled,
 } from '../libs/analytics/analytics-core.js';
-import { filterInternalExternalData } from './ds-scripts.js';
+import { decorateDesignSystemSite } from './ds-scripts.js';
 
 const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
 const TEMPLATE_LIST = {
@@ -29,6 +29,8 @@ const TEMPLATE_LIST = {
   'hub-l2': 'hub',
   'hub-l1': 'hub',
   'web-component': 'web-component',
+  'versioned-page': 'versioned-page',
+  'design-system-overview': 'design-system-overview',
 };
 
 /**
@@ -225,29 +227,6 @@ function decorateFragmentLinks(main) {
  */
 let decorateFragments;
 
-function decorateLiveExamples(element) {
-  if (!isDesignSystemSite()) {
-    return;
-  }
-  element.querySelectorAll('a').forEach((link) => {
-    const { href, textContent } = link;
-    // if href starts with https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/
-    if (
-      href !== textContent
-      || !href.includes(
-        'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/',
-      )
-    ) {
-      return;
-    }
-
-    const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
-
-    link.parentElement.replaceWith(embedBlock);
-    decorateBlock(embedBlock);
-  });
-}
-
 /**
  * Decorates the main element.
  * @param {Element} main The main element
@@ -256,7 +235,6 @@ function decorateLiveExamples(element) {
 export async function decorateMain(main, shouldDecorateTemplates = true) {
   // hopefully forward compatible button decoration
   decorateFragmentLinks(main);
-  decorateLiveExamples(main);
   decorateButtons(main);
   decorateIcons(main);
   decorateImageLinks(main);
@@ -266,9 +244,8 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
   }
   decorateSections(main);
   if (isDesignSystemSite()) {
-    filterInternalExternalData(main);
+    decorateDesignSystemSite(main);
   }
-
   decorateBlocks(main);
   decorateFragments(main);
 }
@@ -278,8 +255,12 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
  * @param {string} path The path to the fragment
  * @returns {HTMLElement} The root element of the fragment
  */
-export async function loadFragment(path) {
+export async function loadFragment(path, withTemplates = false) {
   if (path && path.startsWith('/')) {
+    if (path.endsWith('/')) {
+      // eslint-disable-next-line no-param-reassign
+      path = `${path}index`;
+    }
     const resp = await fetch(`${path}.plain.html`);
     if (resp.ok) {
       const main = document.createElement('main');
@@ -294,7 +275,7 @@ export async function loadFragment(path) {
       resetAttributeBase('img', 'src');
       resetAttributeBase('source', 'srcset');
 
-      await decorateMain(main, false);
+      await decorateMain(main, withTemplates);
       await loadBlocks(main);
       return main;
     }
@@ -455,10 +436,11 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
-  loadHeader(doc.querySelector('header'));
-  loadSideNav(doc.querySelector('aside'));
-  loadFooter(doc.querySelector('footer'));
-
+  if (!window.hlx.suppressLoadPage) {
+    loadHeader(doc.querySelector('header'));
+    loadSideNav(doc.querySelector('aside'));
+    loadFooter(doc.querySelector('footer'));
+  }
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
 
@@ -539,4 +521,6 @@ async function loadPage() {
   loadDelayed();
 }
 
-loadPage();
+if (!window.hlx.suppressLoadPage) {
+  loadPage();
+}

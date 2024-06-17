@@ -1,13 +1,27 @@
+.product-list-wrapper {
+  margin-block: var(--udexSpacer32);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer40);
+  }
+}
+
 .product-list ul {
   --card-height: auto;
 
   list-style: none;
-  margin: 0;
-  margin-top: var(--udexSpacer40);
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(1fr);
-  grid-gap: var(--udexGridGutters);
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--udexSpacer32) var(--udexGridGutters);
 }
 
 @media (width >= 640px) {
@@ -22,6 +36,7 @@
 
 @media (width >= 980px) {
   .product-list ul {
+    gap: var(--udexSpacer40) var(--udexGridGutters);
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -88,13 +103,13 @@
   top: -2px;
   left: 0;
   height: 20px;
-  width: 6px;  
+  width: 6px;
   padding: 0;
 }
 
 .product-list ul>li h4 .icon-sapproduct img {
-  height: 20px; 
-  width: 6px;  
+  height: 20px;
+  width: 6px;
   padding: 0;
 }
 
@@ -119,7 +134,7 @@
 }
 
 .product-list ul>li p.button-container {
-  margin-top: auto;  
+  margin-top: auto;
 }
 
 .product-list ul>li p.button-container a {

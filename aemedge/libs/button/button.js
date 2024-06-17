@@ -1,5 +1,5 @@
 import { button, p, span } from '../../scripts/dom-builder.js';
-import { loadCSS, decorateIcons } from '../../scripts/aem.js';
+import { decorateIcons } from '../../scripts/aem.js';
 
 export default class Button {
   constructor(label, icon, level, size, href, iconOnly = false) {
@@ -15,10 +15,7 @@ export default class Button {
     return this.icon ? span({ class: `icon ${this.icon}` }) : '';
   }
 
-  render(isDisabled, excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/button/button.css`);
-    }
+  render(isDisabled) {
     const btn = button(
       {
         class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''} ${this.iconOnly ? '' : 'icon-only'}`,

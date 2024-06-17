@@ -7,8 +7,8 @@ const getPlayerConfig = (link) => {
   if (youtubeId) {
     return {
       width: '640',
-      height: '320',
-      source: `https://www.youtube-nocookie.com/embed/${youtubeId[1]}?rel=0`,
+      height: '360',
+      source: `https://www.youtube-nocookie.com/embed/${youtubeId[1]}?rel=0&autoplay=1`,
     };
   }
 
@@ -16,8 +16,8 @@ const getPlayerConfig = (link) => {
   if (vimeoId) {
     return {
       width: '640',
-      height: '320',
-      source: `https://player.vimeo.com/video/${vimeoId[1]}?dnt=1`,
+      height: '360',
+      source: `https://player.vimeo.com/video/${vimeoId[1]}?dnt=1&autoplay=1`,
     };
   }
 

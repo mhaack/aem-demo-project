@@ -1,6 +1,5 @@
 import { div, span, ul } from '../../scripts/dom-builder.js';
 import Button from '../button/button.js';
-import { loadCSS } from '../../scripts/aem.js';
 
 const DATA_INDEX_KEY = 'data-carousel-index';
 
@@ -82,14 +81,7 @@ export default class Carousel {
     return Math.min((maxVisibleIndex + 1), this.totalItems - 1);
   }
 
-  /**
-   * @param {boolean} excludeStyles
-   */
-  render(excludeStyles) {
-    if (!excludeStyles) {
-      loadCSS(`${window.hlx.codeBasePath}/libs/carousel/carousel.css`);
-    }
-
+  render() {
     if (this.totalItems > 0) {
       const visibleItemIndices = new Set([]);
 

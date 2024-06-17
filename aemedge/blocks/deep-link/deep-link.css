@@ -1,23 +1,71 @@
-.web-component {
-  .deep-link {
-    padding-left: 10px;
-    
-    & .icon-chain-link {
-      cursor: pointer;
-      display: none;
-      height: 20px;
-      width: 20px;
-    }
-    
-    & .icon-chain-link:hover {
-      background-color: #0045bf;
-      mask: url('/aemedge/icons/chain-link.svg') center / 20px no-repeat;
-      padding-left: 20px;
+.design-system {
+  & main {
+    & .section {
+      &.deep-link-container {
+        display: none;
+      }
     }
   }
 
-  h2:hover {
-    .deep-link .icon-chain-link {
+  & h2 {
+    & .deep-link {
+      & .icon-chain-link {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+
+  & h3 {
+    & .deep-link {
+      & .icon-chain-link{
+        height: 14px;
+        width: 14px;
+      }
+    }
+  }
+
+  & h4 {
+    & .deep-link {
+      & .icon-chain-link{
+        height: 14px;
+        width: 14px;
+      }
+    }
+  }
+  
+  & h2,
+  & h3,
+  & h4 {
+    & .deep-link {
+      padding: 0 10px; 
+      margin-left: 6px;
+      outline-color:#0040B0;
+      outline-width: 1px;
+      border-radius: 8px;
+  
+      & .icon-chain-link {
+        cursor: pointer;
+        display: none;
+      }
+
+      & .icon-chain-link:hover {
+        background-color: #0045bf;
+        mask: url('/aemedge/icons/chain-link.svg') center / 100% no-repeat;
+        padding-left: inherit;
+      }
+
+      &:hover .icon-chain-link,
+      &:focus .icon-chain-link {
+        display: inline-block;
+      }  
+    }
+  }
+
+  & h2:hover,
+  & h3:hover,
+  & h4:hover {
+    & .deep-link .icon-chain-link {
       display: inline-block;
     }
   }

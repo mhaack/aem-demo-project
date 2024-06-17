@@ -66,7 +66,7 @@ indices:
         value: attribute(el, "content")
       cardC2A:
         select: head > meta[name="card-c2a"]
-        value: attribute(el, "content")  
+        value: attribute(el, "content")
       cardUrl:
         select: head > meta[name="card-url"]
         value: attribute(el, "content")
@@ -96,6 +96,32 @@ indices:
         value: attribute(el, "content")
       robots:
         select: head > meta[name="robots"]
+        value: attribute(el, "content")
+      lastModified:
+        select: none
+        value: parseTimestamp(headers["last-modified"])
+  fiori-design-web:
+    include:
+      - /design-system/fiori-design-web/**
+    target: /design-system/fiori-design-web/query-index.json
+    properties:
+      version:
+        select: head > meta[name="version"]
+        value: attribute(el, "content")
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, "content")
+      breadcrumbs:
+        select: head > meta[name="breadcrumbs"]
+        value: attribute(el, "content")
+      designowner:
+        select: head > meta[name="designowner"]
+        value: attribute(el, "content")
+      uielementstechnology:
+        select: head > meta[name="uielementstechnology"]
+        value: attribute(el, "content")
+      elementtype:
+        select: head > meta[name="elementtype"]
         value: attribute(el, "content")
       lastModified:
         select: none

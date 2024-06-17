@@ -1,10 +1,8 @@
 .footnote {
   color: var(--udexColorGrey7);
   font-size: var(--udexTypographyBodyXSFontSize);
-  margin-top: 58px;
   padding-top: 10px;
   border-top: 1px solid var(--udexColorGrey3);
-  margin-bottom: var(--udexSpacer56);
 }
 
 .footnote>div>div:last-of-type {
@@ -17,4 +15,24 @@
 
 .footnote p:last-of-type {
   margin-bottom: 0;
+}
+
+.footnote-wrapper {
+  margin-block: var(--udexSpacer40);
+
+  &:first-child {
+    margin-block: 0;
+  }
+
+  &:last-child {
+    margin-block: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer48);
+  }
+
+  @media (width >= 1280px) {
+    margin-block: var(--udexSpacer56);
+  }
 }

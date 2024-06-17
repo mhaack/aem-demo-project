@@ -1,26 +1,26 @@
+@import url("/aemedge/libs/menu/menu.css");
+@import url("/aemedge/libs/tag/tag.css");
+
 .filters {
-  margin-block: var(--udexSpacer32);
+  margin-block-end: var(--udexSpacer32);
 
   & .filter-panel {
     display: flex;
     justify-content: flex-start;
-    gap: var(--udexSpacer40);
-    margin-bottom: var(--udexSpacer16);
+    gap: 52px;
+    margin-block-end: var(--udexSpacer32);
     position: relative;
-
-    /* & :last-child {
-      margin-left: auto;
-    } */
-  }
-
-  & .results-panel {
-    padding-block: var(--udexSpacer16);
   }
 
   & .tags-panel {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--udexSpacer8);
     position: relative;
-    flex-wrap: wrap;
+    margin-block-start: var(--udexSpacer16);
+
+    &:empty {
+      display: none;
+    }
   }
 }

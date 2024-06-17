@@ -55,18 +55,21 @@ function decorateListItem(nav, listItem, parents = []) {
     listItem.querySelectorAll('li').forEach((item) => {
       decorateListItem(nav, item, [listItem, ...parents]);
     });
-    const toggle = (event) => {
-      event.preventDefault();
-      toggleAllNavLists(nav, [listItem, ...parents]);
-      const expanded = listItem.getAttribute('aria-expanded') === 'true';
-      listItem.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-    };
-    clickableElement?.addEventListener('click', toggle);
-    clickableElement?.addEventListener('keydown', (event) => {
-      if (event.code === 'Enter' || event.code === 'Space') {
-        toggle(event);
-      }
-    });
+    // If list item parent is a link, don't toggle
+    // Will navigate to new page where the menu will be expanded
+    if (!listItem.querySelector(':scope > a')) {
+      const toggle = () => {
+        toggleAllNavLists(nav, [listItem, ...parents]);
+        const expanded = listItem.getAttribute('aria-expanded') === 'true';
+        listItem.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      };
+      clickableElement?.addEventListener('click', toggle);
+      clickableElement?.addEventListener('keydown', (event) => {
+        if (event.code === 'Enter' || event.code === 'Space') {
+          toggle(event);
+        }
+      });
+    }
   }
   return listItem;
 }

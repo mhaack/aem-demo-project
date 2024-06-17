@@ -1,3 +1,6 @@
+@import url("/aemedge/libs/avatar/avatar.css");
+@import url("/aemedge/libs/tag/tag.css");
+
 udex-hero-banner .hero-container {
   width: 100%;
 }
@@ -258,7 +261,7 @@ udex-hero-banner .hero-banner .media-blend__info-block .media-blend__authors::af
   content: '•';
 }
 
-udex-hero-banner .hero-banner .media-blend__info-block > :not(.media-blend__authors) {
+udex-hero-banner .hero-banner .media-blend__info-block udex-avatar {
   margin-right: 10px;
 }
 
@@ -287,6 +290,12 @@ udex-hero-banner .hero-banner a.media-blend__author {
   &:active {
     color: var(--udexColorGrey11);
   }
+}
+
+udex-hero-banner .hero-banner .media-blend__info-block .media-blend__date::after {
+  margin-right: var(--udexSpacer8);
+  margin-left: var(--udexSpacer8);
+  content: '•';
 }
 
 udex-hero-banner .hero-banner .media-blend__info-block span:last-of-type::after {
