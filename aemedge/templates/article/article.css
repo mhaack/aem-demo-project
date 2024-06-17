@@ -148,7 +148,7 @@ main {
     }
 
     &:has(h4:last-child) + * {
-      margin-block: var(--udexSpacer20) 0;
+      margin-block-start: var(--udexSpacer20);
     }
   }
 

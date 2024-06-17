@@ -101,3 +101,23 @@
     margin-block: var(--udexSpacer40);
   }
 }
+
+[data-location='sidebar'] .promo-wrapper {
+  margin-block: var(--udexSpacer40);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block-end: var(--udexSpacer56);
+  }
+
+  @media (width >= 1280px) {
+    margin-block-end: var(--udexSpacer64);
+  }
+}
