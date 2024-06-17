@@ -500,22 +500,6 @@ main img {
     }
   }
 
-  &.text-large {
-    font-size: var(--udexTypographyBodyMFontSize);
-
-    & :first-child {
-      margin-block-start: 0;
-    }
-
-    & :last-child {
-      margin-block-end: 0;
-    }
-
-    @media (width >= 980px) {
-      font-size: var(--udexTypographyBodyLFontSize);
-    }
-  }
-
   &.additional-reading {
     background-color: var(--udexColorGrey1);
     border-radius: var(--udexSpacer12);
