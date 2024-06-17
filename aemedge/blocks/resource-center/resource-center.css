@@ -10,6 +10,11 @@
 
   & > .button-wrapper {
     align-self: center;
+    margin-block-start: var(--udexSpacer24);
+
+    @media (width >= 980px) {
+      margin-block-start: var(--udexSpacer40);
+    }
 
     & img {
       rotate: 90deg;

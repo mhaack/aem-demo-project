@@ -98,7 +98,7 @@ function getPathFilter(entry, author, matchedPathTags) {
 function getTagFilter(entry, params, nonFilterParams, id) {
   let filterTags = [];
   params.forEach((value, key) => {
-    if (!nonFilterParams.includes(key) && key.startsWith(id)) {
+    if (!(nonFilterParams.includes(key) || `${id}-month-year`) && key.startsWith(id)) {
       filterTags.push(value);
     }
   });
@@ -167,10 +167,11 @@ function registerHandler(
   carousel,
   nonFilterParams,
   id,
+  pageSize,
 ) {
   ['sap:itemSelect', 'sap:itemClose'].forEach((e) => {
     block.addEventListener(e, async () => {
-      articleStream = await getArticles(tags, editorConfig, nonFilterParams, id);
+      articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize);
       articleStream.next().then((cursor) => {
         block.querySelector('.card-items').remove();
         const cards = renderCards(
@@ -317,8 +318,7 @@ export default async function decorateBlock(block) {
     carousel,
   );
 
-  const totalMoreThanPageSize = cursor.value?.total && cursor.value?.total > pageSize;
-  if (userConfig.length > 0 && !carousel && totalMoreThanPageSize) {
+  if (userConfig.length > 0 && !carousel) {
     filters = new Filters(
       userConfig,
       placeholders,
@@ -329,7 +329,7 @@ export default async function decorateBlock(block) {
     filters.updateResults(block, cursor.value.total);
   }
   block.append(cardList);
-  if (!carousel && cursor.value.pages > 1 && cursor.value.pages <= 2 && userConfig.length === 0 && totalMoreThanPageSize) {
+  if (!carousel && cursor.value.pages > 1 && cursor.value.pages <= 2 && userConfig.length === 0) {
     const btnLabel = placeholders.showMore || 'Show More';
     const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', 'large').render();
     viewBtn.addEventListener('click', () => {
@@ -345,14 +345,14 @@ export default async function decorateBlock(block) {
         Array.from(cards.children).forEach((card) => {
           cardList.append(card);
         });
-        if (!nextCursor.value.hasNext) {
+        if (nextCursor.value.page === nextCursor.value.pages) {
           viewBtn.remove();
         }
       });
     });
     block.append(viewBtn);
   }
-  if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0) && totalMoreThanPageSize) {
+  if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0)) {
     pages = new Pages(block, cursor.value.pages, page, id);
     pages.render();
   }
@@ -369,5 +369,6 @@ export default async function decorateBlock(block) {
     carousel,
     nonFilterParams,
     id,
+    pageSize,
   );
 }
