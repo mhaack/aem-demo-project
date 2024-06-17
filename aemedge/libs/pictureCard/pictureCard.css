@@ -35,11 +35,15 @@
     }
 
     & .author.subtitle {
-      font-size: var(--udexTypographyBodyXSFontSize);
+      font-size: var(--udexTypographyNavigationMediumMFontSize);
       font-weight: var(--udexTypographyFontWeightMedium);
       line-height: var(--udexTypographyDisplayLineHeight);
-      color: var(--text-color);
+      color: var(--udexColorNeutralBlack);
       margin-bottom: var(--udexSpacer4);
+    }
+
+    & .info {
+      font-size: var(--udexTypographyBodyXXSFontSize);
     }
 
     & .cardcontent {
