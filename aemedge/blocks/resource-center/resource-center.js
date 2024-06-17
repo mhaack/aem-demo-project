@@ -98,7 +98,7 @@ function getPathFilter(entry, author, matchedPathTags) {
 function getTagFilter(entry, params, nonFilterParams, id) {
   let filterTags = [];
   params.forEach((value, key) => {
-    if (!(nonFilterParams.includes(key) || `${id}-month-year`) && key.startsWith(id)) {
+    if (!(nonFilterParams.includes(key) || key === `${id}-month-year`) && key.startsWith(id)) {
       filterTags.push(value);
     }
   });
