@@ -22,12 +22,9 @@ export default async function decorate(block) {
       }
     }
   }
-  if (quoteLink && isNotArticle) {
+  if (quoteLink) {
     quoteLink.classList.add('col', 'content');
     quoteLink.parentNode.classList.add('quote-link');
-  } else if (quoteLink) {
-    // If article page, remove from DOM and ignore
-    quoteLink.parentNode.remove();
   }
   if (!quoteLink && !quoteAuthor) {
     quoteText.parentNode.classList.add('qt', 'single-qt');

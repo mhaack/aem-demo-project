@@ -57,6 +57,7 @@
 
 .quote .qs .content {
     font-size: var(--udexTypographyHeadingRegularXXSFontSize);
+    line-height: var(--udexTypographyHeadingLineHeight);
 }
 
 .quote .qt::before,
