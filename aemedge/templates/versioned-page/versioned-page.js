@@ -61,6 +61,14 @@ function findVersion(version, pageVersions) {
   return pageVersions[pageVersions.length - 1];
 }
 
+// TODO we might need to use a "specialised" version json for this
+async function getVersionList() {
+  const versionList = await ffetch(`${rootUrl}metadata.json`).filter((row) => row.version).map((row) => row.version).all();
+  versionList.sort(compareVersions);
+
+  return versionList;
+}
+
 async function decorate(doc) {
   doc.body.classList.add('design-system', 'web-component');
   doc.head.querySelector('meta[name="template"]').setAttribute('content', 'web-component');
@@ -86,10 +94,13 @@ async function decorate(doc) {
 
   document.title = sourceVersion.title;
 
-  // TODO add metadata for the hero + any needed
-
+  let metaVersion = virtualVersion;
+  if (metaVersion === 'latest') {
+    const versionList = await getVersionList();
+    metaVersion = versionList[versionList.length - 1];
+  }
   const metaFields = {
-    version: virtualVersion,
+    version: metaVersion,
     targetVersionUrl: sourceVersion.path,
     breadcrumbs: sourceVersion.breadcrumbs,
   };
