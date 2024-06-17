@@ -151,10 +151,14 @@ export default async function decorate(block) {
     newEyebrow = buildEyebrow(eyebrow.firstElementChild);
   } else if (eyebrowText && isArticle) {
     // If article, add link to parent topics page, and appropriate classes for styling
-    const eyeBrowHref = contentTypeTag['topic-path'] !== '0'
-      ? contentTypeTag['topic-path']
-      : contentTypeTag['news-path'];
-    newEyebrow = buildEyebrow(a({ href: eyeBrowHref }, eyebrowText));
+    const eyeBrowHref = (() => {
+      if (contentTypeTag['topic-path'] && contentTypeTag['topic-path'] !== '0') return contentTypeTag['topic-path'];
+      if (contentTypeTag['news-path'] && contentTypeTag['news-path'] !== '0') return contentTypeTag['news-path'];
+      return null;
+    })();
+    newEyebrow = eyeBrowHref
+      ? buildEyebrow(a({ href: eyeBrowHref }, eyebrowText))
+      : buildEyebrow(eyebrowText);
   } else if (eyebrowText) {
     // Else display simple span or nothing
     newEyebrow = buildEyebrow(eyebrowText);
