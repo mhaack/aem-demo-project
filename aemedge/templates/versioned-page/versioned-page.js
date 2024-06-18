@@ -53,7 +53,7 @@ async function decorate(doc) {
   const virtualVersion = getMetadata('version') ?? 'latest';
   const latestUrl = getLatestUrl(path, virtualVersion);
 
-  const pageVersions = await ffetch(`${fioriWebRootUrl}query-index.json`).filter((row) => getLatestUrl(row.path, row.version) === latestUrl).all();
+  const pageVersions = await ffetch(`${fioriWebRootUrl}query-index.json`).chunks(10000).filter((row) => getLatestUrl(row.path, row.version) === latestUrl).all();
 
   pageVersions.sort((a, b) => compareVersions(a.version, b.version));
 
