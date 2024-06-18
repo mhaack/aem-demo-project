@@ -109,7 +109,7 @@
   
         .dropdown {
           position: relative;
-          min-width: 130px;
+          min-width: 68px;
 
           .dropdown-btn {
             display: flex;
@@ -224,6 +224,10 @@
 
       .tags-container {
         display: block;
+      }
+      
+      .dropdown{
+        width: 109px;
       }
     }
   }
