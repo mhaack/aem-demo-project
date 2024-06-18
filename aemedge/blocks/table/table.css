@@ -23,6 +23,11 @@
   height: 42px;
 }
 
+.table table thead tr th > h3{
+  font-size: 16px;
+  margin: 0;
+}
+
 .table table th {
   font-size: var(--udexTypographyNavigationMediumXLFontSize);
   font-weight: var(--udexTypographyFontWeightMedium);
