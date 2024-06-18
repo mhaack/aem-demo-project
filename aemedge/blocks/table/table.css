@@ -17,8 +17,15 @@
 
 .table table tbody tr {
   height: 40px;
-}
 
+  &:hover{
+    background-color: #eff4f9;
+    border-top: 2px solid var(--udexColorBlue7);
+    border-bottom: 2px solid var(--udexColorBlue7);
+    }
+  }
+
+/* stylelint-disable no-descending-specificity */
 .table table thead tr {
   height: 42px;
 }
