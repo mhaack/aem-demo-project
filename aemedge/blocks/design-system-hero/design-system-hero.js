@@ -62,7 +62,9 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
   const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3')?.textContent ?? '';
-  const imageName = block.querySelector('div:nth-child(1) > div > div > div:nth-child(2) > div').textContent;
+
+  const category = getMetadata('category') || 'uielements';
+  const imageName = `${category}-inner`;
 
   const breadcrumbItems = div({ class: 'items' });
   const metaBreadcrumbs = getMetadata('breadcrumbs');
