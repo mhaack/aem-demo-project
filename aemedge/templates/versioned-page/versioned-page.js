@@ -1,8 +1,9 @@
 import { loadFragment } from '../../scripts/scripts.js';
 import ffetch from '../../scripts/ffetch.js';
 import { meta } from '../../scripts/dom-builder.js';
+import { compareVersions, fioriWebRootUrl, getVersionList } from '../../scripts/utils.js';
 
-const rootUrl = '/design-system/fiori-design-web/';
+const rootUrl = fioriWebRootUrl;
 
 function getParentUrl(pathParts) {
   const file = pathParts[pathParts.length - 1];
@@ -16,25 +17,6 @@ function correctUrlVersion(path, virtualVersion, sourceVersion) {
   }
 
   return path.replace(sourceVersion, virtualVersion);
-}
-
-function compareVersions(a, b) {
-  const aParts = a.split('-');
-  const bParts = b.split('-');
-
-  for (let i = 0; i < Math.min(aParts.length, bParts.length); i += 1) {
-    const aNum = parseInt(aParts[i], 10);
-    const bNum = parseInt(bParts[i], 10);
-
-    if (aNum < bNum) {
-      return -1;
-    }
-    if (aNum > bNum) {
-      return 1;
-    }
-  }
-
-  return aParts.length - bParts.length;
 }
 
 function findVersion(version, pageVersions) {
@@ -59,14 +41,6 @@ function findVersion(version, pageVersions) {
   }
 
   return pageVersions[pageVersions.length - 1];
-}
-
-// TODO we might need to use a "specialised" version json for this
-async function getVersionList() {
-  const versionList = await ffetch(`${rootUrl}metadata.json`).filter((row) => row.version).map((row) => row.version).all();
-  versionList.sort(compareVersions);
-
-  return versionList;
 }
 
 async function decorate(doc) {
@@ -94,16 +68,15 @@ async function decorate(doc) {
 
   document.title = sourceVersion.title;
 
-  let metaVersion = virtualVersion;
-  if (metaVersion === 'latest') {
-    const versionList = await getVersionList();
-    metaVersion = versionList[versionList.length - 1];
-  }
   const metaFields = {
-    version: metaVersion,
     targetVersionUrl: sourceVersion.path,
     breadcrumbs: sourceVersion.breadcrumbs,
   };
+  if (virtualVersion === 'latest') {
+    const versionList = await getVersionList();
+    metaFields.version = versionList[versionList.length - 1];
+  }
+
   if (sourceVersion.uielementstechnology) {
     metaFields.uielementstechnology = sourceVersion.uielementstechnology;
   }

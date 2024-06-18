@@ -11,7 +11,7 @@ import {
   ul,
 } from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
-import ffetch from '../../scripts/ffetch.js';
+import { getVersionList } from '../../scripts/utils.js';
 
 async function addVersioningDropdown(currentVersion, breadcrumb) {
   const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
@@ -31,14 +31,6 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
   );
   decorateIcons(dropdownButton);
 
-  const rootUrl = '/design-system/fiori-design-web/';
-  const rawPageVersions = await ffetch(`${rootUrl}query-index.json`)
-    .map((row) => row.version)
-    .all();
-  rawPageVersions.sort();
-  const pageVersions = rawPageVersions
-    .filter((item, index) => rawPageVersions.indexOf(item) === index && item !== currentVersion);
-
   const currentPathname = window.location.pathname;
 
   // options dropdown items container
@@ -54,7 +46,7 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
         }
       },
     },
-    ...pageVersions.reverse().map((version) => li(
+    ...(await getVersionList()).reverse().map((version) => li(
       { value: version },
       a({ href: currentPathname.replace(currentVersion, version) }, version),
     )),
