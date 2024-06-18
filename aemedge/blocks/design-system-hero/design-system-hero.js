@@ -35,17 +35,7 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
 
   // options dropdown items container
   const options = ul(
-    {
-      class: 'options',
-      onclick: (e) => {
-        const parent = e.currentTarget.parentNode;
-        if (parent) {
-          parent.previousSibling.textContent = e.target.innerHTML;
-          parent.previousSibling.append(dropdownArrowDown);
-          parent.parentNode.classList.remove('open');
-        }
-      },
-    },
+    { class: 'options' },
     ...(await getVersionList()).reverse().map((version) => li(
       { value: version },
       a({ href: currentPathname.replace(currentVersion, version) }, version),

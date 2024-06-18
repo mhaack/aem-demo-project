@@ -2,13 +2,14 @@ import { loadFragment } from '../../scripts/scripts.js';
 import ffetch from '../../scripts/ffetch.js';
 import { meta } from '../../scripts/dom-builder.js';
 import { compareVersions, fioriWebRootUrl, getVersionList } from '../../scripts/utils.js';
+import { getMetadata } from '../../scripts/aem.js';
 
-const rootUrl = fioriWebRootUrl;
+function getLatestUrl(path, virtualVersion) {
+  if (virtualVersion === 'latest') {
+    return path;
+  }
 
-function getParentUrl(pathParts) {
-  const file = pathParts[pathParts.length - 1];
-
-  return rootUrl + file;
+  return path.replace(`v${virtualVersion}/`, '');
 }
 
 function correctUrlVersion(path, virtualVersion, sourceVersion) {
@@ -48,19 +49,11 @@ async function decorate(doc) {
   doc.head.querySelector('meta[name="template"]').setAttribute('content', 'web-component');
 
   const path = doc.location.pathname;
-  const pathParts = path.split('/');
-  const parentUrl = getParentUrl(pathParts);
 
-  const rawVersion = (pathParts.length > 3) ? pathParts[3] : 'latest';
+  const virtualVersion = getMetadata('version') ?? 'latest';
+  const latestUrl = getLatestUrl(path, virtualVersion);
 
-  let virtualVersion = 'latest';
-  const regExpMatchArray = rawVersion.match(/^v(\d+-\d+)/);
-  if (regExpMatchArray) {
-    // eslint-disable-next-line prefer-destructuring
-    virtualVersion = regExpMatchArray[1];
-  }
-
-  const pageVersions = await ffetch(`${rootUrl}query-index.json`).filter((row) => getParentUrl(row.path.split('/')) === parentUrl).all();
+  const pageVersions = await ffetch(`${fioriWebRootUrl}query-index.json`).filter((row) => getLatestUrl(row.path, row.version) === latestUrl).all();
 
   pageVersions.sort((a, b) => compareVersions(a.version, b.version));
 
