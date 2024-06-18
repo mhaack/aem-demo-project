@@ -60,9 +60,9 @@ function decorateLiveExamples(element) {
   element.querySelectorAll('a').forEach((link) => {
     const { href, textContent } = link;
     // deprecated prod live example, to remove on full import
-    const livePrefix = 'https://experience.sap.com/wp-content/uploads/files/guidelines/Uploads/CoreControls/';
     const qaPrefix = 'https://www-qa.sap.com/design-system/live-examples/';
-    if (href === textContent && (href.startsWith(livePrefix) || href.startsWith(qaPrefix))) {
+    const prodPrefix = 'https://www.sap.com/design-system/live-examples/';
+    if (href === textContent && (href.startsWith(prodPrefix) || href.startsWith(qaPrefix))) {
       const embedBlock = buildBlock('live-example-embed', [[link.cloneNode()]]);
 
       link.parentElement.replaceWith(embedBlock);
