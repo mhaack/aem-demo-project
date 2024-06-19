@@ -11,7 +11,7 @@ import {
   ul,
 } from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
-import { getVersionList } from '../../scripts/utils.js';
+import { fioriWebRootUrl, getVersionList } from '../../scripts/utils.js';
 import { getLatestVersion } from '../../scripts/ds-scripts.js';
 
 async function addVersioningDropdown(currentVersion, breadcrumb) {
@@ -36,14 +36,17 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
   );
   decorateIcons(dropdownButton);
 
-  const currentPathname = window.location.pathname;
+  let editablePathname = window.location.pathname;
+  if (currentVersion === 'latest') {
+    editablePathname = editablePathname.replace(fioriWebRootUrl, `${fioriWebRootUrl}v${versionSelectorTarget}/`);
+  }
 
   // options dropdown items container
   const options = ul(
     { class: 'options' },
     ...(await getVersionList()).reverse().map((version) => li(
       { value: version },
-      a({ href: currentPathname.replace(versionSelectorTarget, version) }, version),
+      a({ href: editablePathname.replace(versionSelectorTarget, version) }, version),
     )),
   );
 
