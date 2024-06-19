@@ -1,4 +1,5 @@
 import { buildBlock, decorateBlock, getMetadata } from './aem.js';
+import { getVersionList } from './utils.js';
 
 const encodeHTML = (str) => str.replace(/[\u00A0-\u9999<>&]/g, (i) => `&#${i.charCodeAt(0)};`);
 
@@ -54,6 +55,11 @@ export function decorateSpans(main) {
   while (walker.nextNode()) {
     decorateTextNode(walker.currentNode);
   }
+}
+
+export async function getLatestVersion() {
+  const versionList = await getVersionList();
+  return versionList[versionList.length - 1];
 }
 
 function decorateLiveExamples(element) {

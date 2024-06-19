@@ -12,9 +12,14 @@ import {
 } from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
 import { getVersionList } from '../../scripts/utils.js';
+import { getLatestVersion } from '../../scripts/ds-scripts.js';
 
 async function addVersioningDropdown(currentVersion, breadcrumb) {
   const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
+  let versionSelectorTarget = currentVersion;
+  if (currentVersion === 'latest') {
+    versionSelectorTarget = await getLatestVersion();
+  }
   // dropdown button which handles the open and closing of the dropdown
   const dropdownButton = button(
     {
@@ -26,7 +31,7 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
         }
       },
     },
-    currentVersion,
+    versionSelectorTarget,
     dropdownArrowDown,
   );
   decorateIcons(dropdownButton);
@@ -38,7 +43,7 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
     { class: 'options' },
     ...(await getVersionList()).reverse().map((version) => li(
       { value: version },
-      a({ href: currentPathname.replace(currentVersion, version) }, version),
+      a({ href: currentPathname.replace(versionSelectorTarget, version) }, version),
     )),
   );
 
@@ -64,7 +69,8 @@ export default async function decorate(block) {
   const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3')?.textContent ?? '';
 
   const category = getMetadata('category') || 'uielements';
-  const imageName = `${category}-inner`;
+  const pagetype = getMetadata('pagetype') || 'inner';
+  const imageName = `${category}-${pagetype}`;
 
   const breadcrumbItems = div({ class: 'items' });
   const metaBreadcrumbs = getMetadata('breadcrumbs');

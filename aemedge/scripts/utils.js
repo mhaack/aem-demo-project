@@ -8,6 +8,16 @@ export const fioriWebRootUrl = '/design-system/fiori-design-web/';
 const authorTitleRegex = /[^,]+(?:,\s*Ph\.?D\.?)?/gi;
 
 export function compareVersions(a, b) {
+  if (a === 'latest') {
+    if (b === 'latest') {
+      return 0;
+    }
+    return 1;
+  }
+  if (b === 'latest') {
+    return -1;
+  }
+
   const aParts = a.split('-');
   const bParts = b.split('-');
 
@@ -27,7 +37,10 @@ export function compareVersions(a, b) {
 }
 
 export async function getVersionList() {
-  const versionList = await ffetch(`${fioriWebRootUrl}metadata.json`).filter((row) => row.version).map((row) => row.version).all();
+  const versionList = await ffetch(`${fioriWebRootUrl}metadata.json`)
+    .filter((row) => row.version && row.version !== 'latest')
+    .map((row) => row.version)
+    .all();
   versionList.sort(compareVersions);
 
   return versionList;
