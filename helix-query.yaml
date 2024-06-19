@@ -124,10 +124,10 @@ indices:
         select: head > meta[name="elementtype"]
         value: attribute(el, "content")
       uielementscategory:
-        select: head > meta[name="uiElementsCategory"]
+        select: head > meta[name="uielementscategory"]
         value: attribute(el, "content")
       elementstatus:
-        select: head > meta[name="elementtype"]
+        select: head > meta[name="uielementsstatus"]
         value: attribute(el, "content")
       lastModified:
         select: none
