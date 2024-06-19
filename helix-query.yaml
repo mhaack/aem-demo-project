@@ -123,9 +123,24 @@ indices:
       elementtype:
         select: head > meta[name="elementtype"]
         value: attribute(el, "content")
+      uielementscategory:
+        select: head > meta[name="uiElementsCategory"]
+        value: attribute(el, "content")
+      elementstatus:
+        select: head > meta[name="elementtype"]
+        value: attribute(el, "content")
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"])
+      intro-desc:
+        select: h2[id="intro"] + p
+        value: textContent(el)
+      intro-img:
+        select: h2[id="intro"] ~ p img:first-of-type
+        value: attribute(el, "src")
+      page-tabs:
+        select: .page-tabs > div > div
+        value: textContent(el)
 
   design-system:
     include:
