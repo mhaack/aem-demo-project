@@ -11,12 +11,69 @@ import {
   ul,
 } from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
-import ffetch from '../../scripts/ffetch.js';
+import { fioriWebRootUrl, getVersionList } from '../../scripts/utils.js';
+import { getLatestVersion } from '../../scripts/ds-scripts.js';
+
+async function addVersioningDropdown(currentVersion, breadcrumb) {
+  const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
+  let versionSelectorTarget = currentVersion;
+  if (currentVersion === 'latest') {
+    versionSelectorTarget = await getLatestVersion();
+  }
+  // dropdown button which handles the open and closing of the dropdown
+  const dropdownButton = button(
+    {
+      class: 'dropdown-btn',
+      onclick: (e) => {
+        const options = e.target.parentNode;
+        if (options) {
+          options.classList.toggle('open');
+        }
+      },
+    },
+    versionSelectorTarget,
+    dropdownArrowDown,
+  );
+  decorateIcons(dropdownButton);
+
+  let editablePathname = window.location.pathname;
+  if (currentVersion === 'latest') {
+    editablePathname = editablePathname.replace(fioriWebRootUrl, `${fioriWebRootUrl}v${versionSelectorTarget}/`);
+  }
+
+  // options dropdown items container
+  const options = ul(
+    { class: 'options' },
+    ...(await getVersionList()).reverse().map((version) => li(
+      { value: version },
+      a({ href: editablePathname.replace(versionSelectorTarget, version) }, version),
+    )),
+  );
+
+  const dropdownOptions = div(
+    { class: 'dropdown-options' },
+    options,
+  );
+
+  const versions = div(
+    { class: 'last-updated-version' },
+    div({ class: 'last-updated-date' }),
+    div(
+      { class: 'dropdown' },
+      dropdownButton,
+      dropdownOptions,
+    ),
+  );
+  breadcrumb.append(versions);
+}
 
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
   const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3')?.textContent ?? '';
-  const imageName = block.querySelector('div:nth-child(1) > div > div > div:nth-child(2) > div').textContent;
+
+  const category = getMetadata('category') || 'uielements';
+  const pagetype = getMetadata('pagetype') || 'inner';
+  const imageName = `${category}-${pagetype}`;
 
   const breadcrumbItems = div({ class: 'items' });
   const metaBreadcrumbs = getMetadata('breadcrumbs');
@@ -58,70 +115,10 @@ export default async function decorate(block) {
     }
   });
 
-  const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
-
   const currentVersion = getMetadata('version');
-
-  // dropdown button which handles the open and closing of the dropdown
-  const dropdownButton = button(
-    {
-      class: 'dropdown-btn',
-      onclick: (e) => {
-        const options = e.target.parentNode;
-        if (options) {
-          options.classList.toggle('open');
-        }
-      },
-    },
-    currentVersion,
-    dropdownArrowDown,
-  );
-  decorateIcons(dropdownButton);
-
-  const rootUrl = '/design-system/fiori-design-web/';
-  const rawPageVersions = await ffetch(`${rootUrl}query-index.json`)
-    .map((row) => row.version)
-    .all();
-  rawPageVersions.sort();
-  const pageVersions = rawPageVersions
-    .filter((item, index) => rawPageVersions.indexOf(item) === index && item !== currentVersion);
-
-  const currentPathname = window.location.pathname;
-
-  // options dropdown items container
-  const options = ul(
-    {
-      class: 'options',
-      onclick: (e) => {
-        const parent = e.currentTarget.parentNode;
-        if (parent) {
-          parent.previousSibling.textContent = e.target.innerHTML;
-          parent.previousSibling.append(dropdownArrowDown);
-          parent.parentNode.classList.remove('open');
-        }
-      },
-    },
-    ...pageVersions.reverse().map((version) => li(
-      { value: version },
-      a({ href: currentPathname.replace(currentVersion, version) }, version),
-    )),
-  );
-
-  const dropdownOptions = div(
-    { class: 'dropdown-options' },
-    options,
-  );
-
-  const versions = div(
-    { class: 'last-updated-version' },
-    div({ class: 'last-updated-date' }),
-    div(
-      { class: 'dropdown' },
-      dropdownButton,
-      dropdownOptions,
-    ),
-  );
-  breadcrumb.append(versions);
+  if (currentVersion) {
+    await addVersioningDropdown(currentVersion, breadcrumb);
+  }
 
   const hero = div(
     { class: 'fiori-hero-banner' },

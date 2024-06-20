@@ -1,87 +1,107 @@
 .promo {
   border-radius: var(--udexRadiusL);
   background-color: var(--udexColorGrey1);
-}
 
-.promo.blue {
-  background-color: var(--udexColorBlue1);
-}
-
-.promo>div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  padding: var(--udexSpacer32);
-  gap: var(--udexSpacer32);
-}
-
-.promo>div :nth-child(2) {
-  flex-grow: 2;
-}
-
-.promo>div h3 {
-  margin: 0;
-}
-
-.promo p {
-  font-size: var(--udexTypographyBodySFontSize);
-  text-align: left;
-
-  p.button-container + p {
-    margin-top: 0;
+  &.blue {
+    background-color: var(--udexColorBlue1);
   }
-}
 
-.promo.block {
-  p:not(.button-container) {
-    margin-bottom: 0;
-  }
-}
+  & > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: var(--udexSpacer24);
+    gap: var(--udexSpacer24);
 
-.promo>div>div:nth-child(3) {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  p:first-of-type {
-    margin-bottom: var(--udexSpacer24);
-  }
-}
-
-.promo img {
-  max-width: 120px;
-  max-height: 120px;
-  display: block;
-}
-
-.promo h4 {
-  font-size: var(--udexTypographyEyebrowLFontSize);
-  text-align: left;
-  text-transform: uppercase;
-  margin: 0 0 var(--udexSpacer8);
-  color: var(--udexColorBlue8);
-}
-
-.promo h2 {
-  font-size: var(--udexTypographyHeadingMediumXSFontSize);
-  font-weight: var(--udexTypographyFontWeightMedium);
-  text-align: left;
-  margin: 0 0 var(--udexSpacer8);
-}
-
-.section[data-location='sidebar'] .promo > div {
-  flex-wrap: wrap;
-}
-
-@media (width >=1280px) {
-  .promo {
-    & > div {
+    @media (width >= 980px) {
       flex-wrap: nowrap;
     }
 
-    & h2 {
+    & > div {
+      flex-grow: 1;
+    }
+
+    & > div:has(picture) {
+      flex-grow: 0;
+    }
+  }
+
+  & p {
+    font-size: var(--udexTypographyBodySFontSize);
+    line-height: var(--udexTypographyBodyLineHeight);
+    margin: 0;
+
+    &.button-container {
+      margin-block: var(--udexSpacer24) 0;
+    }
+
+    & + p {
+      margin-block-start: var(--udexSpacer8);
+    }
+  }
+
+  & :is(h2, h3) {
+    font-size: var(--udexTypographyHeadingMediumXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    line-height: var(--udexTypographyHeadingLineHeight);
+    margin: 0;
+    text-align: left;
+
+    @media (width >= 1280px) {
       font-size: var(--udexTypographyHeadingMediumSFontSize);
+    }
+
+    & + :is(p, h2, h3, h4) {
+      margin-block-start: var(--udexSpacer8);
+    }
+  }
+
+  & h4 {
+    color: var(--udexColorBlue8);
+    font-size: var(--udexTypographyEyebrowLFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    line-height: var(--udexTypographyEyebrowLineHeight);
+    margin: 0;
+    text-transform: uppercase;
+
+    & + :is(p, h2, h3, h4) {
+      margin-block-start: var(--udexSpacer8);
+    }
+  }
+
+  & img {
+    max-width: 120px;
+    max-height: 120px;
+    display: block;
+  }
+}
+
+@media (width >= 1280px) {
+  body.hub-l1 .promo > div,
+  body.article [data-location="document-footer"] .promo > div {
+    align-items: center;
+    gap: var(--udexSpacer32);
+    padding: var(--udexSpacer32);
+
+    & > div:has(.button-container) {
+      display: grid;
+      grid-template-columns: 1fr min-content;
+
+      /* We need to specify rows as "grid-row: 1 / -1" will not work for implicit grid rows */
+      grid-template-rows: repeat(99, min-content);
+
+      & :is(h2, h3, h4, p:not(.button-container)) {
+        grid-column: 1 / 2;
+      }
+
+      & .button-container {
+        align-self: center;
+        grid-column: 2 / -1;
+        grid-row: 1 / -1;
+        margin-block: 0;
+        margin-inline-start: var(--udexSpacer32);
+      }
     }
   }
 }
@@ -99,5 +119,29 @@
 
   @media (width >= 980px) {
     margin-block: var(--udexSpacer40);
+  }
+}
+
+[data-location='sidebar'] .promo-wrapper {
+  margin-block: var(--udexSpacer40);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block-end: var(--udexSpacer56);
+  }
+
+  @media (width >= 1280px) {
+    margin-block-end: var(--udexSpacer64);
+  }
+
+  & .promo > div {
+    flex-wrap: wrap;
   }
 }

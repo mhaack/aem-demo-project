@@ -1,5 +1,9 @@
 import {
-  a, li, nav, ol, p,
+  a,
+  li,
+  nav,
+  ol,
+  p,
 } from '../../scripts/dom-builder.js';
 
 /**
@@ -50,6 +54,13 @@ function getDataNames(sections) {
   return dataNames;
 }
 
+function getOffsetTop(element) {
+  const headerOffset = element.offsetTop;
+
+  const elementPosition = element.getBoundingClientRect().top;
+  return elementPosition + window.scrollY - headerOffset;
+}
+
 /**
  * Scroll to the content when a TOC link is clicked, but does not change the URL hash in the
  * address bar (to keep page tabs working).
@@ -68,7 +79,7 @@ function updateTocAndScrollToContent(e) {
   e.target.setAttribute('aria-current', 'true');
 
   window.scrollTo({
-    top: targetElement.offsetTop,
+    top: getOffsetTop(targetElement),
     behavior: 'smooth',
   });
 }

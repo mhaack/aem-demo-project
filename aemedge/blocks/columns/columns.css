@@ -14,7 +14,13 @@
     & > div {
       order: 1;
     }
+
+    & p:has(> picture) {
+      & + p {
+        font-size: var(--udexTypographyBodySFontSize);
+      }
   }
+}
 
   &.advantages-cards {
     & h2 {

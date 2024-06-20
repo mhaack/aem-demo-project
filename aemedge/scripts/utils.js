@@ -2,8 +2,49 @@ import { getMetadata, toCamelCase, toClassName } from './aem.js';
 import { div } from './dom-builder.js';
 import ffetch from './ffetch.js';
 
+export const fioriWebRootUrl = '/design-system/fiori-design-web/';
+
 // Match author names and Ph.D. titles
 const authorTitleRegex = /[^,]+(?:,\s*Ph\.?D\.?)?/gi;
+
+export function compareVersions(a, b) {
+  if (a === 'latest') {
+    if (b === 'latest') {
+      return 0;
+    }
+    return 1;
+  }
+  if (b === 'latest') {
+    return -1;
+  }
+
+  const aParts = a.split('-');
+  const bParts = b.split('-');
+
+  for (let i = 0; i < Math.min(aParts.length, bParts.length); i += 1) {
+    const aNum = parseInt(aParts[i], 10);
+    const bNum = parseInt(bParts[i], 10);
+
+    if (aNum < bNum) {
+      return -1;
+    }
+    if (aNum > bNum) {
+      return 1;
+    }
+  }
+
+  return aParts.length - bParts.length;
+}
+
+export async function getVersionList() {
+  const versionList = await ffetch(`${fioriWebRootUrl}metadata.json`)
+    .filter((row) => row.version && row.version !== 'latest')
+    .map((row) => row.version)
+    .all();
+  versionList.sort(compareVersions);
+
+  return versionList;
+}
 
 function formatDate(inputDate) {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };

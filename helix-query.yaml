@@ -123,6 +123,45 @@ indices:
       elementtype:
         select: head > meta[name="elementtype"]
         value: attribute(el, "content")
+      uielementscategory:
+        select: head > meta[name="uielementscategory"]
+        value: attribute(el, "content")
+      elementstatus:
+        select: head > meta[name="uielementsstatus"]
+        value: attribute(el, "content")
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"])
+      intro-desc:
+        select: h2[id="intro"] + p
+        value: textContent(el)
+      intro-img:
+        select: h2[id="intro"] ~ p img:first-of-type
+        value: attribute(el, "src")
+      page-tabs:
+        select: .page-tabs > div > div
+        value: textContent(el)
+
+  design-system:
+    include:
+      - /design-system/**
+    target: /design-system/query-index.json
+    properties:
+      version:
+        select: head > meta[name="version"]
+        value: attribute(el, "content")
+      lastModified:
+        select: none
+        value: parseTimestamp(headers["last-modified"])
+      title:
+        select: head > meta[property="og:title"]
+        value: attribute(el, "content")
+      intro-desc:
+        select: h2[id="intro"] + p
+        value: textContent(el)
+      intro-img:
+        select: h2[id="intro"] ~ p img:first-of-type
+        value: attribute(el, "src")
+      page-tabs:
+        select: .page-tabs > div > div
+        value: textContent(el)
