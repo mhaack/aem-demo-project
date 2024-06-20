@@ -1,8 +1,9 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
+import { createOptimizedPicture, getMetadata } from '../../scripts/aem.js';
 import {
   div,
   domEl,
 } from '../../scripts/dom-builder.js';
+import { addColClasses, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2 } from '../../scripts/utils.js';
 
 /**
  * Decorate Cards (colors) variant.
@@ -100,10 +101,14 @@ export default function decorate(block) {
   ul.querySelectorAll('img').forEach((img) => img.closest('picture')
     .replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   block.textContent = '';
-  block.classList.add(`elems${ul.children.length}`);
-  if (ul.children.length > 8) {
-    block.classList.add('elems9plus');
+
+  const template = getMetadata('template');
+  if (template === 'hub-l2') {
+    addColClasses(block, ul, LIST_LAYOUT_CONFIG_L2);
+  } else {
+    addColClasses(block, ul, LIST_LAYOUT_CONFIG);
   }
+
   block.append(ul);
 
   decorateColorsVariant(block);

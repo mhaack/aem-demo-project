@@ -256,6 +256,155 @@ function convertStringToKebabCase(str) {
 }
 
 /**
+ * @type {{[key: number]: {s: number, xs: number, l: number, m: number}}}
+ */
+const LIST_LAYOUT_CONFIG = {
+  1: {
+    xs: 1,
+    s: 1,
+    m: 1,
+    l: 1,
+  },
+  2: {
+    xs: 1,
+    s: 2,
+    m: 2,
+    l: 2,
+  },
+  3: {
+    xs: 1,
+    s: 2,
+    m: 3,
+    l: 3,
+  },
+  4: {
+    xs: 1,
+    s: 2,
+    m: 2,
+    l: 4,
+  },
+  5: {
+    xs: 1,
+    s: 2,
+    m: 3,
+    l: 3,
+  },
+  6: {
+    xs: 1,
+    s: 2,
+    m: 3,
+    l: 3,
+  },
+  7: {
+    xs: 1,
+    s: 2,
+    m: 3,
+    l: 4,
+  },
+  8: {
+    xs: 1,
+    s: 2,
+    m: 3,
+    l: 4,
+  },
+  9: {
+    xs: 1,
+    s: 2,
+    m: 3,
+    l: 3,
+  },
+  10: {
+    xs: 1,
+    s: 2,
+    m: 3,
+    l: 4,
+  },
+};
+
+/**
+ * @type {{[key: number]: {s: number, xs: number, l: number, m: number}}}
+ */
+const LIST_LAYOUT_CONFIG_L2 = {
+  1: {
+    xs: 1,
+    s: 1,
+    m: 1,
+    l: 1,
+  },
+  2: {
+    xs: 1,
+    s: 2,
+    m: 2,
+    l: 2,
+  },
+  3: {
+    xs: 1,
+    s: 2,
+    m: 2,
+    l: 3,
+  },
+  4: {
+    xs: 1,
+    s: 2,
+    m: 2,
+    l: 2,
+  },
+  5: {
+    xs: 1,
+    s: 2,
+    m: 2,
+    l: 3,
+  },
+  6: {
+    xs: 1,
+    s: 2,
+    m: 2,
+    l: 3,
+  },
+};
+
+/**
+ * Applies "col-" classes according to the number of child elements and provided breakpoint
+ * configuration. If the child number is not specified in the config then the config for max
+ * specified items is applied.
+ * @param {HTMLElement} toUpdate - element with class list to be updated
+ * @param {number} childCount - number of child elements
+ * @param {{[key: number]: {xs: number, s: number, m: number, l: number}}} breakpointsConfig -
+ * configuration that specifies the number of items in one row of the grid at each breakpoint
+ */
+function addColClassesForCount(toUpdate, childCount, breakpointsConfig) {
+  const toRemove = [...toUpdate.classList].filter((className) => className.startsWith('col-'));
+  toUpdate.classList.remove(...toRemove);
+
+  const configKeys = Object.keys(breakpointsConfig).map((key) => Number(key));
+  let count = childCount;
+  let countConfig = breakpointsConfig[count];
+  if (!countConfig) {
+    count = Math.max(...configKeys);
+    countConfig = breakpointsConfig[count] || {};
+  }
+  const countConfigKeys = Object.keys(breakpointsConfig[count]);
+
+  // eslint-disable-next-line no-restricted-syntax
+  for (const breakpoint of countConfigKeys) {
+    toUpdate.classList.add(`col-${breakpoint}-${countConfig[breakpoint]}`);
+  }
+}
+
+/**
+ * Applies "col-" classes according to the number of child elements and provided breakpoint
+ * configuration. If the child number is not specified in the config then the config for max
+ * specified items is applied.
+ * @param {HTMLElement} toUpdate - element with class list to be updated
+ * @param {HTMLElement} parentEl - element with children
+ * @param {{[key: number]: {xs: number, s: number, m: number, l: number}}} breakpointsConfig -
+ * configuration that specifies the number of items in one row of the grid at each breakpoint
+ */
+function addColClasses(toUpdate, parentEl, breakpointsConfig) {
+  addColClassesForCount(toUpdate, parentEl.children.length, breakpointsConfig);
+}
+
+/**
  * Retrieves the content of metadata tags. Accommodates "twitter:" metadata names which are handled
  * differently by the product source code.
  * @param {string} name The metadata name (or property)
@@ -290,4 +439,8 @@ export {
   lookupProfiles,
   toTitleCase,
   getMetadataOverride,
+  addColClassesForCount,
+  addColClasses,
+  LIST_LAYOUT_CONFIG,
+  LIST_LAYOUT_CONFIG_L2,
 };
