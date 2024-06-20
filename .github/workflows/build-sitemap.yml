@@ -20,8 +20,6 @@ jobs:
       volumes:
         - /var/run/docker.sock:/var/run/docker.sock
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
       contents: write
     steps:
       - name: Install sudo
