@@ -7,6 +7,7 @@ on:
   push:
     branches: 
       - main
+      - fix-sitemap-v4
 
 env:
   DEBIAN_FRONTEND: noninteractive
@@ -35,13 +36,10 @@ jobs:
           git config --global --add safe.directory `pwd`
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT_ACCESS_TOKEN }}
       - run: |
           echo "Checking out git repo"
-      - name: Configure git
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -67,3 +65,4 @@ jobs:
           commit_message: "Update sitemap files"
           repository: aemedge
           file_pattern: "sitemap*.xml"
+          push_options: --force

@@ -2,11 +2,11 @@ version: 1
 auto-generated: true
 sitemaps:
   articles:
-    origin: https://www-qa.sap.com
+    origin: https://www.sap.com
     source: /aemedge/articles-index.json?sheet=articles
     destination: /aemedge/sitemap-hub-articles.xml
     lastmod: YYYY-MM-DD
   authors:
-    origin: https://www-qa.sap.com
+    origin: https://www.sap.com
     source: /aemedge/authors-index.json
     destination: /aemedge/sitemap-hub-authors.xml
