@@ -227,6 +227,35 @@
     }
   }
 
+  & .landing-zone-beta {
+    width: 50px;
+    height: 26px;
+    background: white;
+    border: 0.0625rem solid var(--udexColorGrey7);
+    border-radius: var(--sapButton_BorderCornerRadius);
+    text-align: center;
+
+    &:hover {
+      background: var(--udexColorGrey2);
+    }
+
+    &:active, &:focus-visible {
+      background: white;
+      border-color: var(--udexColorBlue9);
+    }
+
+    & a {
+      color: var(--udexColorBlue9);
+      display: block;
+      font-size: var(--udexTypographyBodyXSFontSize);
+      font-weight: 600;
+      height: 100%;
+      width: auto;
+      text-decoration: none;
+      line-height: var(--udexTypographyBodyLineHeight);      
+    }
+  }
+
   & .landing-zone-part-links {
     position: relative;
   }
