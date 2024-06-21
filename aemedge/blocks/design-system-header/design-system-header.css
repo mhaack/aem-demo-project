@@ -926,6 +926,6 @@
     --masthead-padding-inline: var(--masthead-padding-inline-xl);
     --explore-nav-width: var(--explore-nav-width-xl);
 
-    grid-column: 2 / 13;
+    grid-column: 1 / -1; /* Adjusting value as Nav is not properly align */
   }
 }

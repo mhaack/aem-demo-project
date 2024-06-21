@@ -364,6 +364,11 @@ html:has(.design-system) {
           padding-block: var(--udexSpacer56);
         }
 
+        &.search-container:not(:first-child) {
+          grid-column: 1 / -1;
+          padding-block: var(--udexSpacer56);
+        }
+
         &:nth-last-child(2):has(+ .design-system-toc-container) {
           padding-bottom: var(--udexSpacer84);
         }
