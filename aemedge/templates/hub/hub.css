@@ -45,6 +45,21 @@ main > .section:not(.fragment-container) {
       }
     }
 
+    & > h3 {
+      font-size: var(--udexTypographyHeadingMediumXXXSFontSize);
+      line-height: var(--udexTypographyHeadingLineHeight);
+      font-weight: var(--udexTypographyFontWeightMedium);
+      margin-block: 0;
+
+      @media (width >= 980px) {
+        font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+      }
+    }
+
+    &:has(h3:last-child) + * {
+      margin-block-start: var(--udexSpacer16);
+    }
+
     & > p {
       font-size: var(--udexTypographyBodyMFontSize);
       line-height: var(--udexTypographyBodyLineHeight);
