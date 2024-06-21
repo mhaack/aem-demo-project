@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/industry/defense-security/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 07 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Innovative Cloud ERP at Department of Defense Agencies with SAP S/4HANA Cloud Private Edition]]></title>
+            <link>https://www.sap.com/news/2024/05/dod-agencies-sap-ns2-innovative-cloud-erp</link>
+            <guid>https://www.sap.com/news/2024/05/dod-agencies-sap-ns2-innovative-cloud-erp</guid>
+            <pubDate>Tue, 07 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP NS2 can now officially deploy SAP S/4HANA Cloud Private Edition within the DoD IL4 secure cloud environment. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17fe6b9f04141be0d0702008e758517683085fbcd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17fe6b9f04141be0d0702008e758517683085fbcd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17fe6b9f04141be0d0702008e758517683085fbcd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Innovative Cloud ERP at Department of Defense Agencies with SAP S/4HANA Cloud Private Edition" src="./media_17fe6b9f04141be0d0702008e758517683085fbcd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="innovative-cloud-erp-at-department-of-defense-agencies-with-sap-s4hana-cloud-private-edition">Innovative Cloud ERP at Department of Defense Agencies with SAP S/4HANA Cloud Private Edition</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Over the past several years, defense agencies in the United States have become increasingly cloud-centric. The cloud has proven its ability to streamline operations, empower real-time decision making, and support mission success.</div>
+    </div>
+  </div>
+  <p>As <a href="https://www.prnewswire.com/news-releases/sap-ns2-achieves-disa-provisional-authorization-pa-of-sap-s4hana-cloud-to-support-enterprise-cloud-operations-for-defense-agencies-302130501.html?tc=eml_cleartime">announced May 2,</a> SAP S/4HANA Cloud Private Edition has received a provisional authorization from the Defense Information and Systems Agency (DISA). This means SAP NS2, an independent subsidiary of SAP that facilitates the adoption of SAP cloud solutions for customers who require enhanced compliance, can officially deploy SAP S/4HANA Cloud Private Edition within the Department of Defense FedRAMP+Impact Level 4 (DoD IL4) secure cloud environment.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="cloud-erp-for-every-business-need-from-mission-critical-operations-to-business-model-innovation">Cloud ERP for every business need: from mission-critical operations to business model innovation</h3>
+        <p><em><a href="https://www.sap.com/products/erp.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>SAP S/4HANA Cloud Private Edition enables a cloud experience with the same functional scope and upgrade flexibility that SAP S/4HANA Cloud offers, but with added security and compliance that allows Department of Defense customers a quick adoption of cloud solutions.</p>
+  <p>With this new certification, defense customers can choose to adopt a secure cloud ERP solution that supports mission-critical operations in real time, from any location. Once limited to on-premise solutions, which exhausted budget and resources, defense agencies can now migrate operations to the cloud where data is stored on cloud servers and resources can be reallocated to support defense workforces and alternative needs.</p>
+  <p>“Obtaining our FedRAMP+DoD IL4 authorization was a tremendous step in supporting our defense and federal agency customers,” said Amy Spruill, senior vice president and general manager of Regulated Industries at SAP. “SAP S/4HANA Cloud will provide the commercial cloud capabilities our customers are looking for while improving their security perimeter and mitigating attacks on critical data.”</p>
+  <p>The FedRAMP+DoD IL4 secure cloud environment is dedicated to defense agencies and protected with continuous monitoring, vulnerability scanning, and intrusion detection to ensure Controlled Unclassified Information (CUI) is safeguarded. <a href="https://www.sapns2.com/security-and-trust/">SAP NS2 adheres</a> to National Institute of Standards and Technology (NIST) 800-53, FedRAMP®, International Traffic and Arms (ITAR), and FedRAMP+Impact Level 2 (DoD IL2).</p>
+  <div class="footnote">
+    <div>
+      <div>Harish Luthra is CEO of SAP NS2.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>industry/defense-security</category>
+            <category>news-tag/sap-ns2</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Modernizing Defense for the Digital Age]]></title>
+            <link>https://www.sap.com/news/2024/02/modernizing-defense-for-digital</link>
+            <guid>https://www.sap.com/news/2024/02/modernizing-defense-for-digital</guid>
+            <pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is ready to help unlock the transformative capabilities of cloud, AI, and digital technologies effectively for defense forces.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>industry/defense-security</category>
+            <category>industry/public-sector</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+    </channel>
+</rss>

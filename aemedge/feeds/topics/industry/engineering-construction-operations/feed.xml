@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/industry/engineering-construction-operations/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 16 Feb 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Emerging Technologies to Tackle Climate Change]]></title>
+            <link>https://www.sap.com/blogs/by-land-sea-and-air-emerging-technologies-to-tackle-climate-change</link>
+            <guid>https://www.sap.com/blogs/by-land-sea-and-air-emerging-technologies-to-tackle-climate-change</guid>
+            <pubDate>Tue, 16 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New technologies are helping fight climate change, cut carbon emissions, and mitigate damage to the planet.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-business-operations</category>
+            <category>industry/engineering-construction-operations</category>
+            <category>content-type/trends-predictions</category>
+            <category>stage/awareness</category>
+        </item>
+    </channel>
+</rss>

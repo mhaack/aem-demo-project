@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/art-at-sap/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 17 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[New SAP Exhibition Shines a Light on NFT Art]]></title>
+            <link>https://www.sap.com/news/2023/11/new-exhibition-nft-art-sap</link>
+            <guid>https://www.sap.com/news/2023/11/new-exhibition-nft-art-sap</guid>
+            <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has opened an NFT art exhibition at its international training center in Walldorf, Germany. Read to learn more about the art on display.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="New SAP Exhibition Shines a Light on NFT Art" src="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="new-sap-exhibition-shines-a-light-on-nft-art">New SAP Exhibition Shines a Light on NFT Art</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When the coronavirus pandemic hit, artists around the world faced a challenge. With museums, exhibitions, and art forums closed, they suddenly had nowhere to present their works to the public.</div>
+    </div>
+  </div>
+  <p>At least not in analog form.</p>
+  <p>“Many artists were left wondering how to sell and market their work,” says Alexandra Cozgarea, art curator at SAP. “That’s why we saw a great deal of hype around digital art at the time – and especially about artworks in the form of NFTs.”</p>
+  <p>SAP’s latest exhibition entitled “The Poetry of Blockchain” is the first it has staged exclusively for NFT art and features 47 works by 18 artists. But what exactly <em>are</em> NFTs?</p>
+  <p>NFT stands for non-fungible token. This is a unique, non-replaceable, and non-interchangeable digital object stored on a blockchain that acts as a certificate of authenticity and ownership of a physical or digital asset, such as a picture. It takes the form of a digital identifier composed of a unique string of characters.</p>
+  <h2 id="nfts-in-the-art-market">NFTs in the Art Market</h2>
+  <p>If you want to buy NFT artworks, you need cryptocurrency and a crypto wallet – installed on your smartphone or other device – to store them in. You’re then ready to visit one of the many open platforms on the Internet, known as “NFT marketplaces,” where people can browse NFTs or search for works by specific artists. One of these marketplaces is <a href="https://opensea.io/de-DE">OpenSea</a>.</p>
+  <p>“These platforms work a little like galleries,” says Cozgarea. “Artists wishing to offer their work for sale there upload their pieces to the underlying blockchain to create NFTs in a process known as ‘minting.’”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="the-metaverse-dreamland-or-dystopia">The Metaverse: Dreamland or Dystopia?</h3>
+        <p><em><a href="/2023/07/metaverse-art-exhibition">Read about a previous SAP art exhibit</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>These tokens can represent a single, unique asset or multiple copies of the same asset, in which case the image displayed on the platform will be identical but the digital identifier will be slightly different for each copy. This means an artist can mint an entire series of artworks and put them up for sale on an NFT marketplace.</p>
+  <p>“Many of the works on these marketplaces are created digitally and added straight to the blockchain as NFTs,” explains Cozgarea. “But it’s also possible to create NFTs from analog artworks such as oil paintings or sculptures. You would do this by photographing the artwork and uploading it as a JPG file.”</p>
+  <p>When you have selected an artwork you wish to buy, you place a bid for it on the platform or, if a fixed price is specified, make an offer. If the artist accepts your offer, the NFT is released and payment is made using the cryptocurrency deposited in your wallet. You then receive a link containing the address of the NFT and can transfer it to your wallet.</p>
+  <p>The acquired piece can be displayed at any time – as a JPG, video, or other file – by clicking a link or scanning a QR code. But the token itself stays in the buyer’s wallet.</p>
+  <p>“The artists exhibiting their NFTs at SAP in Walldorf copied their artworks onto a USB stick as files,” says Cozgarea. “The original artwork remains securely on the blockchain, so if the stick is lost or stolen, it makes no difference to ownership.”</p>
+  <div class="quote">
+    <div>
+      <div>Many of my works are the result of several years of research, during which I investigate and change gaps in history, the background of coding, and the opaque influence of databases on the development of algorithms and the resulting creation of images. At every stage, I ask, ‘Who are we and what shapes our identity? What makes a person? What traces do we leave behind in the places where we live?’</div>
+    </div>
+    <div>
+      <div>Johanna Reich, exhibiting artist</div>
+    </div>
+  </div>
+  <h2 id="sap-working-on-an-nft-management-solution">SAP Working on an NFT Management Solution</h2>
+  <p>NFTs are having an impact way beyond the art market. The business world has recognized their potential, too. At SAP, a team spread across three continents is working on an NFT management solution that focuses on customer engagement and loyalty programs.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="nfts-on-the-hunt-for-iconic-moments-from-saps-50-year-history">NFTs: On the Hunt for Iconic Moments from SAP’s 50-Year History</h3>
+        <p><em><a href="/2022/11/nft-drop-sap-teched">Read the feature</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To showcase the possibilities of the solution, visitors at the opening night of the SAP art exhibition were invited to access NFTs created by SAP. Sven Haiges, a software developer at SAP Labs Munich, explains the background: “We are working with MetaBrewSociety, based in Bavaria, Germany. It’s a startup that has financed itself partly by selling NFTs. By scanning a QR code on one of the beer cans we ordered with them, customers and visitors at SAP events can now claim one of our own NFTs, created with our NFT management solution.”</p>
+  <p>“At the moment, only about 5% to 10% of the population understands crypto and NFTs, and they tend, of course, to be younger people,” says Haiges. But he fully expects the level of interest and engagement to grow.</p>
+  <p>Cozgarea sees NFTs as a response to digitalization and what she describes as its promise of openness, exchange, and – to some extent – democratization. “NFTs present a concept of ownership for the digital age. People are looking for something exclusive,” she says.</p>
+  <p>There are 47 works of art by 18 different artists on display at the SAP training center in Walldorf – all on monitors. The organizers decided against streaming the works live from the blockchain because that would have been very energy intensive.</p>
+  <p>“This exhibition contains exclusively digitally produced works,” says Cozgarea. “But it also includes works that are based on traditional art forms and play with the possibilities of digitalization, such as augmented reality.”</p>
+  <p>Reinhard Schmid, one of the exhibiting artists, says: “I created my first cryptoart in 2018 and have featured in many publications and exhibitions since then. ‘The Poetry of Blockchain’ is a massive highlight for me. The fact that a global player like SAP is exhibiting NFTs is an important milestone for both me as an artist and for the entire Web3 community.”</p>
+  <p>The exhibition runs until February 23, 2024. <a href="https://my.matterport.com/show/?m=Ko1ZNhnRb5o">Check out a digital 360° tour of the exhibition</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Top image courtesy of SAP employee Juelma Guerreiro.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/art-at-sap</category>
+            <category>news-tag/blockchain</category>
+        </item>
+        <item>
+            <title><![CDATA[The Metaverse: Dreamland or Dystopia?]]></title>
+            <link>https://www.sap.com/news/2023/07/metaverse-art-exhibition</link>
+            <guid>https://www.sap.com/news/2023/07/metaverse-art-exhibition</guid>
+            <pubDate>Fri, 07 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP’s latest art exhibition – The Metaverse: Dreamland or Dystopia? – shines a spotlight on differing standpoints on the technology.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/art-at-sap</category>
+            <category>news-tag/metaverse</category>
+        </item>
+        <item>
+            <title><![CDATA[Look At Me: Women in Focus Art Exhibition]]></title>
+            <link>https://www.sap.com/news/2022/06/look-at-me-women-in-focus-art-exhibit</link>
+            <guid>https://www.sap.com/news/2022/06/look-at-me-women-in-focus-art-exhibit</guid>
+            <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP’s latest art exhibition, Women In Focus, offers an inspiring glimpse into the dynamic and unique work of 14 female artists. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/art-at-sap</category>
+        </item>
+    </channel>
+</rss>

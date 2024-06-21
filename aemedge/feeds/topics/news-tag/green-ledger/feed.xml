@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/green-ledger/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 14 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Power of the Consumer]]></title>
+            <link>https://www.sap.com/news/2024/05/the-power-of-the-consumer</link>
+            <guid>https://www.sap.com/news/2024/05/the-power-of-the-consumer</guid>
+            <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Power of the Consumer" src="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-power-of-the-consumer">The Power of the Consumer</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Over recent years, retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Consumers have driven this shift with their increased awareness of environmental issues, ethical concerns, and desire to support products which are eco-friendly, ethically sourced, and produced under fair labor conditions.</div>
+    </div>
+  </div>
+  <p>Companies that prioritize <a href="/topics/sustainability">sustainability</a> in their operations, such as using recycled materials, reducing carbon emissions, or supporting social causes, are gaining popularity among consumers. But those consumers demand proof of these values and product promises at the point of sale.</p>
+  <p>“The rise of sustainability isn’t just a movement; it is a shift in consumer consciousness,” said Dania Fayyaz, SAP North America sustainability program manager. “Today’s consumers are redefining their purchasing patterns, opting for products and brands that align with their values, and driving a demand for eco-conscious practices and ethical sourcing.” In her conversations with retailers that visited SAP’s booth at NRF 2024, the world’s largest retail fair, she saw a high interest in sustainability solutions.</p>
+  <h2 id="consumers--and-markets--demand-visibility">Consumers – and Markets – Demand Visibility</h2>
+  <p>When the EU Deforestation Regulation (EUDR) comes into effect for large enterprises later this year all products sold in the EU containing palm oil, cocoa, soy, rubber, cattle/leather, coffee, wood, and their derivatives will need proof that their harvest didn’t contribute to deforestation. Non-compliance will result in potential fines of up to 4% of companies’ EU annual turnover. To help businesses simplify this complex task, the SAP Green Token solution can track the geolocation of where raw materials are harvested and automate the creation of due diligence statements (DDS). The solution can also help improve visibility for consumers on where the raw material for their clothing was sourced and offer information on potential reuse and recycling.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="record-report-and-act-with-sap-sustainability-solutions">Record, report, and act with SAP Sustainability solutions</h3>
+        <p><em><a href="https://www.sap.com/products/sustainability.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Take the example of a cotton shirt made from 50% certified recycled materials. Cotton can be sourced from multiple farms or recycling services and taken to a cotton mill where it’s spun into thread and later fabric. It becomes impossible to distinguish the different cotton elements – conventional versus recycled cotton – once they are co-mingled and the manufacturer loses insight into the sustainability attributes of the raw materials. That’s why it’s important to have a sophisticated tracking solution in place. “SAP Green Token can enhance transparency for bulk-traded, co-mingled raw materials by digitally storing sustainability attributes on tokens that traverse the supply chain,” said Fayyaz.</p>
+  <p>In addition to making conscious decisions on raw materials and products, consumers can also consider circular economy models. “I’m really intrigued by the idea of revitalizing clothing items,” said Fayyaz. “Imagine being able to exchange a well-loved jacket you’ve had for years and receive credit in return. And the jacket might find a new owner who will genuinely appreciate it.” The SAP Recommerce solution enables that scenario, helping brands and retailers take back, manage, and resell secondhand inventory to help accelerate the shift from linear to circular business models. On an even larger scale, SAP Green Ledger is SAP’s vision to make transactional carbon accounting a reality. It can enable organizations to track carbon like they do cash, with every financial transaction having a corresponding carbon entry. “This is incredibly desirable because we will see taxes for carbon imposed in the future, and decision-makers will want insights into which processes are utilizing the most carbon,” Fayyaz said.</p>
+  <h2 id="the-future-of-retail--a-retailers-view">The Future of Retail – A Retailer’s View</h2>
+  <p>At a recent SAP event, Christoph Werner, CEO at German retailer dm-drogerie markt, shared his view on the future of retail and his insights on what customers want – and therefore what will shape the way retailers have to engage to drive business.</p>
+  <p>For Werner, individualization of the shopping experience and any transaction will play a major role. Therefore, retailers will have to focus on the individual shopper, not on clusters of shoppers like in the past. Hyper-personalizing the customer experience will improve loyalty; the value for the customer will not only be the price, but increasingly the overall service and experience. This will change the concept of promotions. Werner is convinced that retailers will benefit from giving added benefits and delighting the customer, rather than pushing products into the market based on reduced prices. “Bring home flowers every now and then, but keep it special,” Werner said.</p>
+  <p>To no surprise, AI will be the foundation for personalized shopping experiences. “AI has benefits and downsides and today it remains to be seen where it will take us,” Werner stated. Overall, retailers see AI as an opportunity, with the technology completing repeatable tasks, freeing up employees for more value-adding tasks, and empowering individuals to make a difference. As retail stores often face staffing challenges, this can empower people in sales and marketing teams instead of replacing them. From Werner’s perspective, an AI-empowered workplace will attract new employees.</p>
+  <p><a href="https://www.sap.com/assetdetail/2024/04/d2065341-b97e-0010-bca6-c68f7e60039b.html">Learn more about dm-drogerie markt and its path to excellence with SAP.</a></p>
+  <h2 id="a-glance-into-the-crystal-ball">A Glance into the Crystal Ball</h2>
+  <p>At the same time, low-price online platforms continue to attract consumers with their affordable and wide range of products. They offer competitive prices on trendy clothing and accessories using economies of scale and direct-to-consumer models. Despite concerns about their environmental and ethical practices, these platforms remain popular among price-conscious consumers. However, there is growing awareness of the environmental and social impacts of fast fashion and low-price models. As a result, consumers are becoming increasingly discerning in their purchasing decisions, prioritizing quality, longevity, and sustainability over cheap prices and fast fashion trends.</p>
+  <p>“Overall, the consumer landscape is evolving, with a growing emphasis on sustainability, conscious consumption, and ethical practices,” said Sven Denecken, chief marketing and solutions officer for SAP Industries &#x26; CX. “Companies that can adapt to these changing preferences and demonstrate a commitment to environmental and social responsibility are likely to thrive in the long term.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-us-to-get-all-the-updates-on-company-news-stories-and-coverage">Connect with us to get all the updates on company news, stories, and coverage</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow SAP News on LinkedIn</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-green-token</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[From CSRD Reporting to Sustainable Business Outcomes]]></title>
+            <link>https://www.sap.com/news/2024/03/from-csrd-reporting-to-sustainable-business-outcomes</link>
+            <guid>https://www.sap.com/news/2024/03/from-csrd-reporting-to-sustainable-business-outcomes</guid>
+            <pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[By leveraging SAP Sustainability solutions, organizations can move beyond compliance, like CSRD reporting, and operationalize sustainability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/compliance</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/green-ledger</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[How Can the Chemicals Industry Capitalize On Carbon Reduction Opportunities?]]></title>
+            <link>https://www.sap.com/news/2023/08/chemicals-industry-sustainability-carbon-reduction-opportunities</link>
+            <guid>https://www.sap.com/news/2023/08/chemicals-industry-sustainability-carbon-reduction-opportunities</guid>
+            <pubDate>Mon, 21 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Companies in the chemicals industry that look to sustainability and carbon reduction will be able to future-proof their business.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10349c35f3512c6fdd74903bfb6f42dba5cc51705.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10349c35f3512c6fdd74903bfb6f42dba5cc51705.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10349c35f3512c6fdd74903bfb6f42dba5cc51705.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Can the Chemicals Industry Capitalize On Carbon Reduction Opportunities?" src="./media_10349c35f3512c6fdd74903bfb6f42dba5cc51705.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-can-the-chemicals-industry-capitalize-on-carbon-reduction-opportunities">How Can the Chemicals Industry Capitalize On Carbon Reduction Opportunities?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The chemicals industry is a $4 trillion business employing upwards of 20 million people. While a consumer of high volumes of energy and resources, it is also at the forefront of developing energy efficiencies, low carbon and renewable raw materials and fuels, chemical energy storage, and materials from CO2 capture. It is also uniquely positioned to pioneer and promote circular economy models by innovating for the easier reuse and recycling of materials.</div>
+    </div>
+  </div>
+  <p>It is simultaneously the third highest contributor to carbon emissions in the industrial sector and the best placed industry to decarbonize products across a multitude of industries.</p>
+  <p>As a result of its position high upstream in the supply chain, the chemicals industry can often seem invisible. Its products sit in the value chain of key industries including agriculture, pharmaceuticals, and consumer goods, making up a significant proportion of their Scope 3 emissions. But change is coming that will make companies more accountable for these previously hidden emissions. New legislation such as the European Corporate Sustainability Reporting Directive (CSRD) will reveal the carbon footprint of the chemicals industry as companies with more than 250 employees will be required to report their GHG emissions, including those that lie in Scope 3.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="create-innovative-new-products-increase-agility-and-drive-greener-growth">Create innovative new products, increase agility, and drive greener growth</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/chemicals.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="a-vision-for-the-chemicals-industry">A Vision for the Chemicals Industry</h2>
+  <p>In order to meet new legal requirements and identify opportunities for emissions reduction, the chemicals industry needs to look beyond its current tools and collaborations to upgrade the quality of data — based on primary information rather than averages and estimates — and share access to it. Aligning data structures and using the same semantics will encourage competition among suppliers, galvanizing them to manufacture chemical products with ever lower carbon footprints, benefiting all downstream customers as well as the climate. To realize this vision, the solution will receive actual data from suppliers upstream, using a standardized methodology, allowing companies to calculate their own product carbon footprint so it can then be shared with downstream customers. For broad adoption, this carbon data exchange tool needs to be relatively simple while allowing for secure data exchange.</p>
+  <p>The automotive industry already has a blueprint that the chemicals industry can adopt. It tracks material flows digitally throughout the entire supply chain. Catena-X allows companies to share standardized emissions data from their supply chain with confidence based on technology that provides an auditable chain of custody. This offers car manufacturers the information they need to make strategic decisions to reduce the carbon footprint of their products, embrace circularity, and increase the adoption of circular business models such as battery recycling. Some of the chemical companies that supply the automotive industry are already involved, such as BASF.</p>
+  <p>“As an energy-intensive industry at the beginning of nearly all value chains, the chemical sector plays a key role in reducing global carbon footprint in manufacturing and beyond. Carbon footprint transparency at product level is a fundamental step to achieve this,” said Alessandro Pistillo, director of Digital Strategic Projects at BASF. “BASF is a founding member and very active contributor in global initiatives focused on Scope 3 transparency and product carbon footprint standardization such as Together for Sustainability in the chemical sector, as well as Catena-X and the Global Battery Alliance in the automotive and battery value chain respectively. At the same time, BASF is also a leading member of WBCSD-PACT, whose framework is geared toward ensuring cross-sectoral interoperability.”</p>
+  <h2 id="improved-accuracy">Improved Accuracy</h2>
+  <p>Historically, industry averages and secondary data have been used to estimate carbon footprints. The cornerstone of the vision for the chemicals industry involves a significant improvement in GHG emissions data, a step that will provide much greater emissions transparency for the industry itself and for its customers. SAP has been working with the World Business Council for Sustainable Development (WBCSD) since 2021 as an innovation partner and has been involved in the Partnership for Carbon Transparency (PACT) initiative, helping to develop the global standards, methodology, and technological infrastructure needed for product-level emission accounting and exchange.</p>
+  <h2 id="collaborative-data-exchange">Collaborative Data Exchange</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="record-report-and-act-on-your-sustainability-goals-with-sap">Record, report, and act on your sustainability goals with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/sustainability.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The desire and the frameworks for the chemicals industry to collaborate already exist. They date back to 1985, with the establishment of the Responsible Care program and the 2011 formation of industry body Together for Sustainability, a worldwide initiative to raise sustainability standards in the chemicals industry’s supply chain. Its members include some of the world’s largest chemical groups, represented by their chief procurement officers. Despite the industry’s ability and willingness to cooperate, and its current pilot IT system for sharing upstream product carbon footprint information, it is still on the cusp of data exchange.</p>
+  <p>“Footprint data is there,” said Michael Sambeth, global enterprise architect at SAP. “It can be calculated using out-of-the-box solutions from SAP; now it needs to flow across the supply chain.”</p>
+  <p><a href="/topics/catena-x">Catena-X</a> led to the launch of the SAP Sustainability Data Exchange application, which was designed specifically with security in mind, to exchange standardized carbon footprint data along the value chain. SAP Sustainability Data Exchange uses the carbon data standards established by WBCSD PACT. With a high proportion of Together for Sustainability members already using SAP ERP systems, they are well placed to be able to leverage SAP Sustainability Data Exchange to exchange this data with their suppliers and customers while adhering to global standards.</p>
+  <h2 id="moving-to-a-green-ledger-approach">Moving to a Green Ledger Approach</h2>
+  <p>The chemicals industry is a product of its established supply chains, high-volume activities, cost efficiencies, and scalability. It is highly organized and well versed in creating and following methodologies, but it needs to see the value in primary standardized data — and data sharing — for decarbonization.</p>
+  <p>A <a href="/topics/green-ledger">green ledger approach</a> will allow businesses to treat their emissions in the same way as their financials. Carbon accounting makes emission “bookings” part of every business transaction in the same way as financial information. This means that a level of detail and confidence is achieved, allowing companies to look at emissions from any angle — by product, organization, profit center, site, factory, equipment, etc. This granularity is the foundation for planning and steering, which cannot be done using averages or highly aggregated figures.</p>
+  <p>The decarbonization of a multitude of industries hinges on the ability of the chemicals industry to successfully standardize and exchange carbon footprint data. Only those chemical companies with sustainability at the core of their strategy and the right tools for high-quality emissions accounting will be able to future-proof their business to remain competitive in the face of the ever-evolving legislative changes created to combat the effects of global warming.</p>
+  <p>For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="https://www.sap.com/sustainability.html">www.sap.com/sustainability</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/catena-x</category>
+            <category>industry/chemicals</category>
+            <category>news-tag/green-ledger</category>
+            <category>product/sap-sustainability-data-exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Are Carbon Accounting Challenges Impeding Progress Toward Net Zero?]]></title>
+            <link>https://www.sap.com/news/2023/06/carbon-accounting-challenges-net-zero-progress</link>
+            <guid>https://www.sap.com/news/2023/06/carbon-accounting-challenges-net-zero-progress</guid>
+            <pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Improving emissions data quality to combat carbon accounting challenges is a clear priority to turn net-zero targets into actionable plans.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-accounting</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/net-zero</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[Decarbonization Through Emission Transparency: Introducing SAP Sustainability Data Exchange]]></title>
+            <link>https://www.sap.com/news/2023/05/introducing-sap-sustainability-data-exchange</link>
+            <guid>https://www.sap.com/news/2023/05/introducing-sap-sustainability-data-exchange</guid>
+            <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new SAP Sustainability Data Exchange solution is a testament to SAP's commitment to being a champion of a sustainable future.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>product/sap-sustainability-footprint-management</category>
+        </item>
+        <item>
+            <title><![CDATA[What Gets Measured, Gets Managed: Record, Report, and Act to Decarbonize Using SAP Sustainability Footprint Management]]></title>
+            <link>https://www.sap.com/news/2023/05/record-report-act-sap-sustainability-footprint-management</link>
+            <guid>https://www.sap.com/news/2023/05/record-report-act-sap-sustainability-footprint-management</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP enables the data visibility and insight needed to decarbonize across value chains with SAP Sustainability Footprint Management.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-accounting</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/decarbonization</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/greenhouse-gas-emissions</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[Defining the Future Through Innovation]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-defining-future-through-innovation</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-defining-future-through-innovation</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In a keynote at SAP Sapphire, Thomas Saueressig and Juergen Mueller highlighted the innovations the company is delivering to its customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Readies Customers to Conquer Any Mountain]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-customers-conquer-any-mountain</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-customers-conquer-any-mountain</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the SAP Sapphire Orlando keynote, Christian Klein and Julia White shared how SAP is ready to future-proof customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/erp</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Sapphire: Moving Toward a Green Ledger]]></title>
+            <link>https://www.sap.com/videos/moving-toward-a-green-ledger</link>
+            <guid>https://www.sap.com/videos/moving-toward-a-green-ledger</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP’s new green ledger initiative moves companies from carbon estimates to actual data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/sustainability</category>
+            <category>content-type/video</category>
+            <category>news-tag/green-ledger</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP’s Vision for Future-Proofed Business in the Age of AI Comes to Life: SAP Sapphire in 2023]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-future-proofed-business-age-of-ai</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-future-proofed-business-age-of-ai</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP Sapphire in 2023, SAP unveiled sweeping innovations that equip customers to tackle an uncertain future with confidence. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/green-ledger</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>product/sap-sustainability-footprint-management</category>
+        </item>
+    </channel>
+</rss>

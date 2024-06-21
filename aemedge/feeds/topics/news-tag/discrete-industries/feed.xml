@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/discrete-industries/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 07 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP E-Mobility: Enabling Sustainable Mobility]]></title>
+            <link>https://www.sap.com/news/2021/09/sap-e-mobility-solution-sustainable-electric-vehicles</link>
+            <guid>https://www.sap.com/news/2021/09/sap-e-mobility-solution-sustainable-electric-vehicles</guid>
+            <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the new cloud-based solution SAP E-Mobility and the new benefits coming your way for electric vehicles.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP E-Mobility: Enabling Sustainable Mobility" src="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-e-mobility-enabling-sustainable-mobility">SAP E-Mobility: Enabling Sustainable Mobility</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Sustainable mobility with SAP E-Mobility: there is now nothing in the way for buying electric vehicles in the future. The new cloud-based solution helps companies to operate electric vehicle charging infrastructures at scale to drive the transition to sustainable and convenient electric mobility.</div>
+    </div>
+  </div>
+  <p>Electric vehicles (EVs) are becoming increasingly popular. New EV registrations globally rose by 168% during the first half of 2021 compared to 2020. In total, 2.65 million EVs were purchased and have been hitting the streets. According to EV Volume analysts, electric vehicles are trending toward 6.4 million units by the end of 2021.</p>
+  <p>Charging stations are often a challenge to more rapid EV growth as public stations total 28,000 in the U.S. and 20,000 across Europe. This is reason enough to use the standardized cloud-based SAP E-Mobility solution, planned for availability September 24, 2021, to address not only public but also non-public and semi-public charging points.</p>
+  <p>As a first step, SAP is addressing company car fleets with charging points at the site or branch as well as at a driver’s home. Since the number of public charging stations is increasing more slowly than their demand, it is particularly relevant to increase the utilization of semi-public charging points and make the best possible use of them. It is also a relief when employees charge company vehicles at the private charging station at home. Complex billing processes, which can be easily and neatly covered, play a decisive role in all scenarios.</p>
+  <p>However, the solution offers much more; it is the basis for controlling and managing all business processes pertaining to the charging point. Complex processes that were previously prevalent along the value chain — from delivery point operators to companies to electric vehicle owners — are considerably simplified.</p>
+  <h2 id="greater-flexibility-for-fleet-managers-with-sap-e-mobility">Greater Flexibility for Fleet Managers with SAP E-Mobility</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-electrification-of-mobility-challenges-and-opportunities-for-travel-and-transportation-operators">The Electrification of Mobility: Challenges and Opportunities for Travel and Transportation Operators</h3>
+      </div>
+      <div><strong><a href="/2021/04/e-mobility-travel-transportation-operators">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Fleet managers also benefit. For example, the solution provides necessary charging data — charging total, location, date, duration, vehicle — to the connected accounting and finance software in order to perform cost center allocations or to initiate a corresponding reimbursement of private electricity costs of the vehicle owner. This happens in an automated manner via standard financial processes, such as travel expense reports.</p>
+  <p>On the facility manager’s side, SAP E-Mobility means more than just simplified billing. Via a dashboard, the status of all charging stations can be seen at any time, and defective stations can be swiftly repaired. This means facility managers always have an up-to-date overview of the available charging columns, which is also the case on the part of the charging column operators and thus enables comprehensive user and location management.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1f80bc364d79c7eac8fa594a8783a48660bb815f7.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1f80bc364d79c7eac8fa594a8783a48660bb815f7.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1f80bc364d79c7eac8fa594a8783a48660bb815f7.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="SAP E-Mobility screenshot" src="./media_1f80bc364d79c7eac8fa594a8783a48660bb815f7.png?width=750&#x26;format=png&#x26;optimize=medium" width="1428" height="954">
+    </picture>
+  </p>
+  <p>The results are overall faster workflows and higher charging point availability, supporting a better user experience as well as a positive total cost of ownership (TCO), which helps to further increase the acceptance of electric cars.</p>
+  <p>In addition, the solution simplifies the deployment of new charging infrastructure and is hardware independent. Operators can easily integrate new charging stations into the network as well as monitor and bill them via standard communication protocols. SAP uses the Open Charge Point Protocol 1.6 standard for this purpose. For charging point operators and businesses, the new solution thus offers maximum flexibility with very little effort.</p>
+  <h2 id="extensive-partner-ecosystem-enables-complete-solution">Extensive Partner Ecosystem Enables Complete Solution</h2>
+  <p>To be able to offer companies a comprehensive solution consisting of hardware, software, services, and support, SAP relies on a network of certified e-mobility partners.</p>
+  <p>SAP E-Mobility is an important part of this, offering all stakeholders — charging station operators as well as companies and drivers — significantly simpler processes than the market is currently offering. Due to such solutions, not only is the necessary infrastructure expanded more quickly and flexibly, but companies also receive standardized e-mobility processes that support them in achieving their CO2 targets, and at the same time promote the broader use of electric vehicles. One example: partners such as energy service providers implement application scenarios such as “charging from self-generated photovoltaic electricity” or “vehicle to grid” and thus support the production of sustainable energy while simultaneously using the vehicle as a storage location.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="deliver-innovative-solutions-on-the-road-to-new-mobility-while-running-a-profitable-automotive-business">Deliver innovative solutions on the road to new mobility, while running a profitable automotive business</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/automotive.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="learn-more-about-the-new-sap-e-mobility-solution"><a href="https://www.sap.com/industries/automotive.html">Learn more about the new SAP E-Mobility solution</a>.</h3>
+  <div class="footnote">
+    <div>
+      <div><em>Hagen Heubach is global vice president and head of the Automotive industry business unit at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/discrete-industries</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>product/sap-e-mobility</category>
+        </item>
+        <item>
+            <title><![CDATA[EVs Go Mainstream: Plug into the Sustainable Energy of E-Mobility]]></title>
+            <link>https://www.sap.com/news/2021/04/evs-sustainable-energy-e-mobility</link>
+            <guid>https://www.sap.com/news/2021/04/evs-sustainable-energy-e-mobility</guid>
+            <pubDate>Wed, 14 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Despite a push for electric vehicles (EVs), a profitable and sustainable e-mobility business model requires industry overhaul.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="EVs Go Mainstream: Plug into the Sustainable Energy of E-Mobility" src="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="evs-go-mainstream-plug-into-the-sustainable-energy-of-e-mobility">EVs Go Mainstream: Plug into the Sustainable Energy of E-Mobility</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The push for electric vehicles (EVs) may have shifted into overdrive, but it is going to take a serious overhaul of the entire transportation ecosystem to build a profitable and sustainable e-mobility business model.</div>
+    </div>
+  </div>
+  <p>Having sufficient charging stations is just the tip of the iceberg. The transportation network is facing a major reboot, forcing automobile original equipment manufacturer (OEMs), utilities, corporations, regulators, and retailers to collaborate for innovation as never before.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="augment-your-intelligent-enterprise-with-industry-cloud-solutions">Augment your intelligent enterprise with industry cloud solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/industry-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="networks-power-e-mobility-innovation">Networks Power E-Mobility Innovation</h2>
+  <p>Compared to gas-powered cars, EVs and the services around them are far more interconnected. This demands a new kind of collaboration across the e-mobility value chain from corporate fleets, regulators, and smart cities to service providers and consumers.</p>
+  <p>“The e-mobility network consists of multiple players from different industries and sectors with intertwined supply chains,” said Ulrich Scholl, vice president of E-Mobility at SAP. “To operate with flexibility and cost-efficiency they need to collaborate across stable, cloud-based <a href="https://www.sap.com/industries/industry-cloud.html">industry networks</a> that foster sustainable innovation around standardized processes, including invoicing and billing, as well as overall e-mobility management among partners.”</p>
+  <h2 id="evs-spark-new-business-models">EVs Spark New Business Models</h2>
+  <p>As sustainability mandates and promises grow, one central question is how to make EV battery recharging as easy and convenient as refilling a gas tank. Utilities are drawn to bi-directional charging that simultaneously recharges EVs while adding the battery’s stored energy back into the electrical power grid. This turns drivers into energy producers and cars into mobile power storage. Retailers are starting to monetize their solar panel energy, offering consumers free car charging while they shop, increasing customer loyalty. Meantime, corporate fleet managers are taking action by increasing EV and charging infrastructure investments that support company sustainability commitments.</p>
+  <p>For example, Hanno Klausmeier, managing director of SAP Labs France, received a <a href="https://www.automobile-entreprise.com/CONNECT-fleet-Awards-derniers,9679">Fleet Manager of the Year</a> award for leading the electrification of the company’s fleet of cars for hundreds of employees located across three sites.</p>
+  <p>Converting to EVs has been a seven-year journey at SAP, grounded in the company’s global commitment to sustainability, as well as the initial battery limitations of early EVs. After eliminating gas-fueled vehicles as a choice for employees several years ago, over 90% of the cars in the company’s fleet in SAP Labs France are now EVs. Convenient access to charging stations along with new fleet management operations were critical to the successful roll-out.</p>
+  <p>“We knew that employees would need more stations to charge their cars so we installed super-fast charging stations conveniently located across our facilities,” Klausmeier said. “We revamped fleet management to make sure we could supervise and optimize charging stations for uninterrupted operations. Connecting the e-mobility ecosystem on one transparent platform is the only way for organizations to keep pace with the rapidly-changing industry.”</p>
+  <p>Indeed, SAP Labs France developed new software to remotely manage the status of its charging stations, installing it on-site and at employee’s homes. Now available publicly, the solution helps corporate car fleet operations manage relationships with fleet management service companies, OEMs, and other suppliers that are involved with charging stations. Managers have real-time visibility into e-fleet charging station status and can quickly solve problems remotely for an easier experience.</p>
+  <h2 id="market-fragmentation-gives-way-to-network-convergence">Market Fragmentation Gives Way to Network Convergence</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-electrification-of-mobility-challenges-and-opportunities-for-travel-and-transportation-operators">The Electrification of Mobility: Challenges and Opportunities for Travel and Transportation Operators</h3>
+      </div>
+      <div><strong><a href="/2021/04/e-mobility-travel-transportation-operators">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Entirely new competitors are emerging with EVs, including “roaming” providers, which help consumers locate reliable charging stations and pay for the electricity as validated users. This is likely a temporary stop gap because it is unnecessarily complex and more costly for drivers.</p>
+  <p>“We need to shorten the e-mobility value chain for cost efficiencies to charge point operators and an improved experience for customers,” said Scholl. “There’s no need to have another layer between energy providers and customers. With an open mobility platform, the whole ecosystem has the ability to build relationships for service convenience and affordable innovation, especially incorporating the use of renewable energy that’s produced locally and stored in EVs.”</p>
+  <h2 id="transforming-the-transportation-sector">Transforming the Transportation Sector</h2>
+  <p>Just like the iPhone disrupted the cellphone industry, e-mobility redefines the purpose of a vehicle. Already some manufacturers tout EVs as self-powered RVs. Even bigger are the implications for large-scale innovations, such as vehicles that are able to provide uninterrupted power for tools at remote construction sites.</p>
+  <p>Similarly, transformations could be in store for energy retailers if OEMs bypass them to become energy providers themselves. On the corporate side, shared EVs could be part of an organization’s mobility budget for employees to spend as they see fit.</p>
+  <p>EVs’ star is rising as sustainability nears the top of many consumer, corporate, and government priority lists. Over 80% of automobile manufacturers have committed to <a href="https://www.gartner.com/en/marketing/research/auto-us-2020">electrifying</a> their lineup in the near future, and some plan to go all electric within the decade. Modernizing the transportation industry means rethinking mobility as concept to make sure EVs pay off on the sustainable promise.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me: @smgaler</em><br><em><a href="https://www.forbes.com/sites/sap/2021/03/16/evs-go-mainstream-how-to-plug-into-the-sustainable-energy-power-of-e-mobility/?sh=2fba8aab2c82">This story originally appeared on SAP BrandVoice on Forbes</a></em>.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/discrete-industries</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/industry-cloud</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/renewable-energy</category>
+            <category>news-tag/sap-labs-network</category>
+        </item>
+        <item>
+            <title><![CDATA[The Alliance for Secure and Cross-Company Data Exchange in the Automotive Industry Is Picking up Speed]]></title>
+            <link>https://www.sap.com/news/2021/03/catena-x-automotive-alliance-picks-up-speed</link>
+            <guid>https://www.sap.com/news/2021/03/catena-x-automotive-alliance-picks-up-speed</guid>
+            <pubDate>Tue, 02 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Automotive Alliance will operate under the name Catena-X Automotive Network as it helps ensure openness and neutrality.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f5b3863a99b077d04dca118f2028734b4b2d07ed.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f5b3863a99b077d04dca118f2028734b4b2d07ed.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f5b3863a99b077d04dca118f2028734b4b2d07ed.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Alliance for Secure and Cross-Company Data Exchange in the Automotive Industry Is Picking up Speed" src="./media_1f5b3863a99b077d04dca118f2028734b4b2d07ed.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-alliance-for-secure-and-cross-company-data-exchange-in-the-automotive-industry-is-picking-up-speed">The Alliance for Secure and Cross-Company Data Exchange in the Automotive Industry Is Picking up Speed</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong><em>BERLIN</em></strong> — As part of the event “<a href="https://www.automobilindustrie-digital.de/">Durch Kooperation an die Spitze. Die Automobilbranche gestaltet den digitalen Wandel</a>” (Through cooperation to the top. The automotive industry is shaping the digital transformation), hosted by the German Federal Ministry for Economic Affairs and Energy and the German Association of the Automotive Industry (VDA), the founders of the Automotive Alliance are sharing a progress report as well as further details on the initiative.</div>
+    </div>
+  </div>
+  <p>The founders of the partner network include BMW AG, Deutsche Telekom AG, Robert Bosch GmbH, <a href="http://sap.com/">SAP SE</a>, Siemens AG and ZF Friedrichshafen AG.</p>
+  <p>Additional companies have joined the initiative, including Mercedes-Benz AG, BASF SE, Henkel AG &#x26; Co. KGaA, Schaeffler AG, German Edge Cloud GmbH &#x26; Co. KG, ISTOS GmbH, SupplyOn AG, the German Aerospace Center (DLR), Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V and ARENA2036, as well as several small and midsize enterprises (SMEs).</p>
+  <p>The Automotive Alliance will operate under the name <strong>Catena-X Automotive Network</strong> (Catena-X). As an implementation-oriented network and to help ensure openness and neutrality, Catena-X plans to organize itself as a registered association in Germany. Catena-X sees itself as an extensible ecosystem in which automotive manufacturers and suppliers, dealer associations and equipment suppliers, including the providers of applications, platforms and infrastructure, can all participate equally. The purpose of the association is to create a uniform standard for information and data-sharing throughout the entire automotive value chain.</p>
+  <p>The companies involved want to increase the automotive industry’s competitiveness, improve efficiency through industry-specific cooperation and accelerate company processes through standardization and access to information and data. A special focus is also on SMEs, whose active participation is of central importance for the network’s success. That is why Catena-X has been conceived from the outset as an open network with solutions ready for SMEs, where these companies will be able to participate quickly and with little IT infrastructure investment.</p>
+  <p>Moreover, the European automotive industry’s existing structures, such as processes in the field of parts logistics, are to be integrated into the network and further optimized. Alongside the benefits of greater efficiency in the supply chain, the network participants expect more efficient quality and logistics processes, greater transparency in terms of sustainably reduced CO<sub>2</sub> emissions and simplified master data management. Continuously connected data chains in this way make it possible to create digital twins of automobiles, on the basis of which innovative business processes and service offerings can be developed.</p>
+  <p>With the International Data Spaces (IDS) standard for data sovereignty, which also lays the foundation for the European cloud data infrastructure GAIA-X, the companies involved have already agreed on essential infrastructure foundations for project implementation</p>
+  <p>In the first phase, the Catena-X pilot projects are focused on five areas of application that have been jointly defined. With the help of a networked data infrastructure, these application areas can significantly help to boost productivity and improve sustainability along future value chains. The five areas are quality management, logistics, maintenance, supply chain management and sustainability. Applications supporting production and development are planned for future phases.</p>
+  <p>The data network will create an important starting point for the industry to respond more efficiently to the challenges of digital transformation and to make better use of the opportunities offered by digitalization.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="deliver-innovative-solutions-on-the-road-to-new-mobility-while-running-a-profitable-automotive-business-with-sap">Deliver innovative solutions on the road to new mobility, while running a profitable automotive business with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/automotive.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="for-access-to-updates-about-catena-x-subscribe-to-notifications-from-linkedin-here">For access to updates about Catena-X, <a href="https://www.linkedin.com/company/catena-x-automotive-network">subscribe to notifications from LinkedIn here</a>.</h3>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>About SAP</strong></p>
+  <p>SAP’s strategy is to help every business run as an intelligent enterprise. As a market leader in enterprise application software, we help companies of all sizes and in all industries run at their best: 77% of the world’s transaction revenue touches an SAP system. Our machine learning, Internet of Things (IoT), and advanced analytics technologies help turn customers’ businesses into intelligent enterprises. SAP helps give people and organizations deep business insight and fosters collaboration that helps them stay ahead of their competition. We simplify technology for companies so they can consume our software the way they want – without disruption. Our end-to-end suite of applications and services enables business and public customers across 25 industries globally to operate profitably, adapt continuously, and make a difference. With a global network of customers, partners, employees, and thought leaders, SAP helps the world run better and improve people’s lives. For more information, visit <a href="http://www.sap.com/">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels. To view video stories on diverse topics, visit <a href="http://www.sap-tv.com">www.sap-tv.com</a>. From this site, you can embed videos into your own Web pages, share video via email links, and subscribe to RSS feeds from SAP TV.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong> SAP SE: Kathrin Eiermann, <a href="mailto:simone.kathrin.eiermann@sap.com">simone.kathrin.eiermann@sap.com</a>, +49 151 538 587 68<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a><br>ARENA2036 e. V.: Katrin Haug, <a href="mailto:katrin.haug@arena2036.de">katrin.haug@arena2036.de</a>, +49 151 58415588<br>BASF SE: Sarah Rummel; <a href="mailto:sarah.rummel@basf.com">sarah.rummel@basf.com</a>, +49 174 3307811<br>BMW AG: Martin Tholund, <a href="mailto:Martin.Tholund@bmwgroup.com">martin.tholund@bmwgroup.com</a>, +49 151 601 77126<br>Deutsche Telekom AG: Caroline Bergmann, <a href="mailto:caroline.bergmann@telekom.de">caroline.bergmann@telekom.de</a>, +49 171 481 5260<br>German Aerospace Center e.V. (DLR): Andreas Schütz, <a href="mailto:Andreas.Schuetz@dlr.de">andreas.schuetz@dlr.de</a>, +49 2203 601 2474<br>Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V: Roman Möhlmann, <a href="mailto:roman.moehlmann@zv.fraunhofer.de">roman.moehlmann@zv.fraunhofer.de</a>, +49 89 1205-1314<br>German Edge Cloud GmbH &#x26; Co. KG: Dr. Carola Hilbrand, <a href="mailto:Hilbrand.c@rittal.de">hilbrand.c@rittal.de</a>, 02772-5052527<br>Henkel AG &#x26; Co. KGaA: Sebastian Hinz, <a href="mailto:sebastian.hinz@henkel.com">sebastian.hinz@henkel.com</a>, +49 211 797 8594<br>ISTOS GmbH: Nadine Martin, <a href="mailto:nadine.martin@istos.com">nadine.martin@istos.com</a>, +4915140244561<br>Mercedes-Benz AG: Dora Constantinita, <a href="mailto:dora.constantinita@daimler.com">dora.constantinita@daimler.com</a>, +49 160 860 38 38<br>Robert Bosch GmbH: Annett Fischer, <a href="mailto:Annett.Fischer@de.bosch.com">annett.fischer@de.bosch.com</a>, +49 152 08651292<br>Schaeffler AG: Daniel Pokorny, <a href="mailto:daniel.pokorny@schaeffler.com">daniel.pokorny@schaeffler.com</a>, +49 9132 8288708<br>Siemens AG: Yashar Nasrollahi-Azad, <a href="mailto:yashar.azad@siemens.com">yashar.azad@siemens.com</a>, +49 173 1595901<br>SupplyOn AG: Cornelia Staib, <a href="mailto:cornelia.staib@supplyon.com">cornelia.staib@supplyon.com</a>, +49 171 7207035<br>ZF Friedrichshafen AG: Torsten Fiddelke, <a href="mailto:torsten.fiddelke@zf.com">torsten.fiddelke@zf.com</a>, +49 171 5623729</p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.<br>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you received this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/press-release</category>
+            <category>industry/automotive</category>
+            <category>news-tag/discrete-industries</category>
+        </item>
+        <item>
+            <title><![CDATA[Game, Set, Stat! SAP Announces Kamau Murray as Newest SAP Ambassador]]></title>
+            <link>https://www.sap.com/news/2021/02/kamau-murray-newest-sap-ambassador</link>
+            <guid>https://www.sap.com/news/2021/02/kamau-murray-newest-sap-ambassador</guid>
+            <pubDate>Tue, 02 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kamau Murray is SAP's newest tennis ambassador. Hear from him about his incredible journey to becoming a top coach in the WTA today.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_174b4b46a75a3a696caf877d55ae5d8080977f8b9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_174b4b46a75a3a696caf877d55ae5d8080977f8b9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_174b4b46a75a3a696caf877d55ae5d8080977f8b9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Game, Set, Stat! SAP Announces Kamau Murray as Newest SAP Ambassador" src="./media_174b4b46a75a3a696caf877d55ae5d8080977f8b9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="game-set-stat-sap-announces-kamau-murray-as-newest-sap-ambassador">Game, Set, Stat! SAP Announces Kamau Murray as Newest SAP Ambassador</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Ahead of next week’s Australian Open, SAP is thrilled to partner with Kamau Murray, the brand’s newest tennis ambassador. Murray has had an incredible journey to become one of the top coaches in the Women’s Tennis Association (WTA) today.</div>
+    </div>
+  </div>
+  <p>Growing up in Chicago, Murray was an active participant in Chicago Park District tennis programs, learning firsthand the value of introducing athletics at an early age to instill sportsmanship, strong work ethics, self-confidence, and peer interaction, along with other important life lessons. He excelled in this environment and was subsequently offered a full scholarship to play tennis at Florida A&#x26;M University.</p>
+  <p>In 2004, Murray returned to his early roots by offering tennis lessons to children. He knew that there was a continued need for a program within local communities.</p>
+  <p>Four years later, he became the founder of XS Tennis and Education Foundation. Today, XS Tennis continues to transform many lives by combining Murray’s passions for tennis and education. Murray’s initial five students have gone on to win national championships, IHSA state championships, and two Junior Olympic Gold medals, while 100% of the program’s graduating seniors have received college tennis scholarships to top universities.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_181b35060c534eb1cf90a38376a8f3592dfa08319.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_181b35060c534eb1cf90a38376a8f3592dfa08319.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_181b35060c534eb1cf90a38376a8f3592dfa08319.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Kamau Murray" src="./media_181b35060c534eb1cf90a38376a8f3592dfa08319.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2500" height="3200">
+    </picture>
+  </p>
+  <p><em>Image courtesy of the WTA</em></p>
+  <p>Murray’s community work and reputation for growing youth into top college tennis players later caught the attention of rising star Sloane Stephens, which created a new path for him to become a WTA coach. In 2017, Murray coached Stephens to an historic US Open title, where he become only the third African American coach to win a grand slam in its 95-year history.</p>
+  <p>To celebrate the start of this new partnership, SAP caught up with Kamau Murray to discuss his passion for tennis, his experiences coaching Sloane Stephens, and the importance of technology and analytics in today’s game.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-the-blank-canvas-episode-on-socially-conscious-sports">Watch the Blank Canvas episode on socially conscious sports</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/conversations/blank-canvas-sports-social-issues/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="q-you-started-playing-tennis-at-the-early-age-of-seven-in-the-inner-city-of-chicago-can-you-tell-us-what-motivated-you-to-pick-up-the-racket-and-play">Q: You started playing tennis at the early age of seven in the inner city of Chicago. Can you tell us what motivated you to pick up the racket and play?</h3>
+  <p><strong>A:</strong> In 1998, my parents took 20 youth to Africa for a cultural exchange program. When we returned to the United States, all the summer camps and programs were full and not accepting students. My godfather was an avid tennis player and told my mom that the camp at Jesse Owens Park was still accepting. My mom quickly drove by the park to inquire. She asked the coach what the cost was for the rest of the summer. When the coach told her it was only $12, I remember her quickly turning around and saying, “Boy get out of the car.”</p>
+  <p>Once I got a taste of the game that summer, I became hooked and continued playing five days a week during the school year. From that point on, tennis became a major part of my life and provided me with a unique identity.</p>
+  <h3 id="you-certainly-are-driven-on-and-off-the-court-in-2005-you-founded-the-xs-tennis-program-to-help-chicagos-underserved-youth-through-a-community-based-academic-sports-enrichment-program-what-is-your-biggest-accomplishment-thus-far-with-the-xs-program">You certainly are driven on and off the court. In 2005, you founded the XS Tennis program to help Chicago’s underserved youth through a community-based academic, sports enrichment program. What is your biggest accomplishment thus far with the XS program?</h3>
+  <p>By far our biggest accomplishment is the students who have gone on to earn tennis scholarships to college. I witnessed firsthand the impact a college education can have on children in urban communities. I also understand that once you get on campus it’s hard to stay there.</p>
+  <p>When a student earns a scholarship, they gain access to all the benefits that come with that, including free tutoring, a coach, and an athletic department that monitors graduation rates and GPAs. That support system is critical. To date, more than 55 students from XS have been able to play tennis at the collegiate level with access to a strong support system.</p>
+  <p>In addition to our students playing tennis in college, we have also touched the lives of more than 1,000 students for four years in a row. There are more youth playing tennis on the south side of Chicago than ever before. I strongly believe that for tennis to grow globally, the growth needs to come from the minority community specifically. It’s our greatest challenge, but it’s also our biggest opportunity.</p>
+  <h3 id="this-isnt-your-first-time-coaching-sloane-what-makes-your-partnership-so-special-on-and-off-the-court">This isn’t your first-time coaching Sloane. What makes your partnership so special on and off the court?</h3>
+  <p>I think the key to any successful partnership is trust on and off the court. My partnership with Sloane got off to a great start in 2016 when she won three tournaments in four months. Previously she had only won one title in her career.</p>
+  <p>I witnessed how tough she was and how well she handled the pressure in those finals. I also saw her ability to execute a plan, at times where a lot of players just revert to their lifelong tendencies. Those three quick titles allowed me to gain her trust a lot sooner than expected. Sloane knows that any advice or coaching I provide is well informed.</p>
+  <p>What has kept us together for so long is our ability to make the work and the travel fun. Tennis has the longest season of any sport, so if you don’t like the person, you will not be able to stand each other for 32 weeks of the year.</p>
+  <h3 id="what-is-your-overall-view-of-technology-innovation-in-sport-and-more-specifically-in-tennis-in-the-future-what-technology-would-help-you-even-more-as-a-coach">What is your overall view of technology innovation in sport and more specifically in tennis? In the future, what technology would help you even more as a coach?</h3>
+  <p>The use of “in-game” technology and immediate feedback allows tennis players to adjust quicker, creating closer matches, which ultimately makes our sport more fun to watch. On the women’s side, you now see a lot of coaches using tablets and stats on the sideline. If you couple that with the allowed on-court coaching visits, we are seeing a lot of younger players having success earlier because they are now able to access coaching that closes the gap between them and the veteran opponents on the other side of the net. That can be 100% attributed to the immediate value from technology and statistics. It has created a few unlikely champions. The other part of this is that the veteran players who have played a lot of matches on big stadium courts equipped with all the cameras and technology have more data points for the younger players to study.</p>
+  <p>From a training perspective, technology has taken a lot of the guesswork away. Historically, players would condition their bodies to get in good general shape without knowing exactly what that means. Now, the data can tell you how many miles are run during a match and how many feet are run during an average point so you can train your body to perform at that level in a more precise fashion.</p>
+  <p>In post-match coaching situations, technology makes these conversations easier for both parties. In the past, the player says: “I feel I did this,” and the coach says: “I feel like you did that” — oftentimes resulting in a back-and-forth dialogue that lasts well into the next day. Now, SAP data is available immediately and by the time the player gets done showering, the conversation and adjustments will be based on fact, and less on feelings.</p>
+  <h3 id="whats-next-on-the-horizon-for-you">What’s next on the horizon for you?</h3>
+  <p>In 2021, my primary goal is to help Sloane return to the top 20. Innovation doesn’t only come in the form of technology. Players also must innovate and develop new skills to change alongside a sport that changes every six months. From year to year, the rackets are becoming more powerful, the balls are getting heavier, strings are creating more spin. My goal this year is to continue to add little innovations to Sloane’s game.</p>
+  <p>Secondly, as an SAP ambassador, my goal is to continue to innovate with the WTA and SAP to increase usage of data insights available to all players and coaches.</p>
+  <p>I am thrilled to work more closely with the WTA to continue to make the game more accessible and more attractive, and to reach a broader audience. They say the tide rises all ships. The more we can grow the participation and popularity of the sport, the better it becomes for everyone.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Bonnie Rothenstein is vice president of Global Sponsorships at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/discrete-industries</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+            <category>news-tag/wta</category>
+        </item>
+        <item>
+            <title><![CDATA[Closing the Sale with a Contract on the Spot]]></title>
+            <link>https://www.sap.com/news/2021/01/syncpilot-helps-close-sale-live-contract</link>
+            <guid>https://www.sap.com/news/2021/01/syncpilot-helps-close-sale-live-contract</guid>
+            <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Available on SAP App Center, Live Contract from SYNCPILOT digitalizes complex sales processes and helps enable agents. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/discrete-industries</category>
+            <category>industry/public-sector</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-successfactors-work-zone/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 09 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Six Ways to Prepare Future-Ready People Managers with SAP SuccessFactors Solutions]]></title>
+            <link>https://www.sap.com/news/2023/11/six-ways-prepare-people-managers-sap-successfactors</link>
+            <guid>https://www.sap.com/news/2023/11/six-ways-prepare-people-managers-sap-successfactors</guid>
+            <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Create engaging experiences, boost productivity, and enhance results by empowering people managers with SAP SuccessFactors solutions.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_102238c9ba8fcf28bb39535e2bf9b2193b8900cdc.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_102238c9ba8fcf28bb39535e2bf9b2193b8900cdc.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_102238c9ba8fcf28bb39535e2bf9b2193b8900cdc.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Six Ways to Prepare Future-Ready People Managers with SAP SuccessFactors Solutions" src="./media_102238c9ba8fcf28bb39535e2bf9b2193b8900cdc.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="six-ways-to-prepare-future-ready-people-managers-with-sap-successfactors-solutions">Six Ways to Prepare Future-Ready People Managers with SAP SuccessFactors Solutions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>People managers have the potential to make or break the employee experience at an organization. They are responsible for understanding the demands of the business and motivating their team members to meet those requirements. However, the people manager role is evolving due to three crucial factors – hybrid and remote work, automation, and elevated employee expectations.</div>
+    </div>
+  </div>
+  <p>To help understand this evolution of the people manager role, the <a href="https://community.sap.com/topics/successfactors/growth-insights-research/growth-insights-team">Growth &#x26; Insights team</a> for SAP SuccessFactors hosted interviews with 31 HR leaders from SAP customer organizations and conducted a survey of 731 people managers and 716 individual contributors from around the globe. Based on the research findings, below are six ways organizations can improve current people managers’ performance and experience with SAP SuccessFactors solutions.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="read-the-full-research-report">Read the full research report</h3>
+        <p><em><a href="https://www.sap.com/cmp/dg/people-management/index.html">Check it out</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="utilize-co-leadership-models">Utilize Co-Leadership Models</h2>
+  <p>Organizations look to people managers to execute important initiatives and people practices, leading to an overload of responsibilities. Implementing co-leadership structures, even for a short period of time, can reduce a people manager’s role overload and provide individual contributors with a valuable experiential learning opportunity.</p>
+  <p>One way to provide an experiential opportunity is through <a href="https://www.sap.com/documents/2023/05/bc7c3ca3-727e-0010-bca6-c68f7e60039b.html">dynamic teams</a>, advanced capabilities available as part of SAP SuccessFactors solutions that can help create and manage cross-functional teams that exist beyond traditional hierarchies. <a href="https://www.sap.com/documents/2023/05/bc7c3ca3-727e-0010-bca6-c68f7e60039b.html">Statistics</a> reported that 66% of employees who had participated in a dynamic team felt a positive impact on their career, leading to higher engagement. Using dynamic teams can help organizations utilize co-leadership models for projects while also accessing individual contributor potential and incorporating those insights into future succession plans.</p>
+  <h2 id="update-people-manager-job-descriptions">Update People Manager Job Descriptions</h2>
+  <p>Many organizations have not updated their formal job descriptions for people managers to accurately reflect changes to their roles, leading to unclear performance expectations and ineffective systems for developing and selecting people managers. One way organizations can streamline this process is through <a href="/2023/10/new-sap-successfactors-ai-innovations-successconnect">generative artificial intelligence (AI) in the SAP SuccessFactors Recruiting solution</a>. Hiring managers and recruiters can fine-tune job descriptions with generative AI, which allows them to incorporate supplementary content, identify biased language, and help ensure alignment with business requirements. Instead of starting from scratch every time a new position is created or requirements are updated, recruiters and hiring managers can use AI to help draft job descriptions faster and stay in their normal flow of work. And more importantly, the final content is more meaningful, inclusive, and competitive – presenting a clear and accurate view of the role to attract a larger pool of qualified and interested candidates.</p>
+  <h2 id="rethink-career-architecture-and-pathways-to-advancement">Rethink Career Architecture and Pathways to Advancement</h2>
+  <p>Without other options for growing, gaining status, or increasing compensation, employees will seek people management roles even if they are not suitable for or interested in this type of role. Developing alternative pathways for advancement, such as specialist career paths, for high-performing individual contributors ensures that employees are entering people manager roles for the right reason – to manage people.</p>
+  <p>Sharing career architectures more broadly can also improve managers’ awareness of internal mobility opportunities, which they cited as a top challenge. Talent marketplaces, like the <a href="https://www.sap.com/products/hcm/opportunity-marketplace.html">SAP SuccessFactors Opportunity Marketplace</a> solution, can improve visibility into development and growth opportunities within the organization. It can provide AI-driven personalized recommendations for learning, mentors, internal roles, and dynamic teams. This allows employees to have experiential learning opportunities and can provide them alternate career paths.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="powerful-cloud-hr-software-empowers-individuals-to-reach-their-full-potential">Powerful cloud HR software empowers individuals to reach their full potential</h3>
+        <p><em><a href="https://www.sap.com/products/hcm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="implement-succession-planning-for-all">Implement Succession Planning for All</h2>
+  <p>Everyone agrees that people manager roles should become more exclusive, but that also means talent pools will become shallower. Implementing succession planning at all levels of the organization allows organizations to identify “hidden” people manager talent. When developing succession plans, consider that a people manager does not always need to be replaced with an existing people manager – and that a people manager’s next role does not always need to be in management. The <a href="https://www.sap.com/products/hcm/succession-development.html">SAP SuccessFactors Succession &#x26; Development</a> solution can make this process easier by helping employees expand their skills and advance their careers with visibility into continuous development dialogue, mentoring opportunities, and AI-powered career planning. It can also optimize succession planning, making it scalable to place the right people in the right roles and helping to secure the “hidden” people manager talent.</p>
+  <h2 id="create-a-community-for-people-managers">Create a Community for People Managers</h2>
+  <p>People managers consider staying engaged, feeling included, and managing their well-being to be top challenges. Creating a people manager community provides this crucial workforce segment with social support, which research has shown to be a positive driver of the people manger experience. This also offers the organization a clear channel to host two-way communication with people managers. One way to foster a community for people managers is to leverage the <a href="https://www.sap.com/products/hcm/workzone-hr.html">SAP SuccessFactors Work Zone</a> solution, which is a personalized digital workspace that helps support and encourage collaboration. People managers can create their own community and connect with each other, allowing for more engagement, sharing of best practices, and improvement in the overall employee experience.</p>
+  <h2 id="leverage-technology">Leverage Technology</h2>
+  <p><a href="/topics/human-resources">Cloud HR technology</a> can help support the strategies recommended here and solve many of managers’ most pressing challenges. With SAP SuccessFactors solutions, organizations can put their people at the center of everything and create AI-powered experiences that can support current people managers while using talent intelligence to help uncover and develop the managers of tomorrow.</p>
+  <p>As the expectations of people managers from both employees and organizations undergo constant evolution, the role of people manager will increasingly become more “people-centric” – focusing on support, fostering development, and nurturing a positive culture. It’s important that organizations use the right HR technology to deliver engaging employee experiences, increase productivity, and drive better business outcomes.</p>
+  <p>For additional insights on the evolution of the people manager role, read the full report, “<a href="https://www.sap.com/cmp/dg/people-management/index.html">Six Best Practices to Prepare People Managers for Today and Tomorrow</a>.”</p>
+  <div class="footnote">
+    <div>
+      <div>Christina Russo is global director of Solution Marketing at SAP SuccessFactors.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-recruiting</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in 2023 Gartner® Magic Quadrant™ for Cloud HCM Suites for 1,000+ Employee Enterprises]]></title>
+            <link>https://www.sap.com/news/2023/10/2023-gartner-mq-cloud-hcm-suites-1000-employee-enterprises</link>
+            <guid>https://www.sap.com/news/2023/10/2023-gartner-mq-cloud-hcm-suites-1000-employee-enterprises</guid>
+            <pubDate>Mon, 23 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a leader in the Cloud HCM Magic Quadrant for the eight consecutive year as it continues to help drive change within workforces.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-erp-hcm</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>news-tag/ux</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP SuccessFactors Second Half 2023 Release: AI-Driven Innovation to Ignite the Potential in Your Workforce]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-successfactors-second-half-2023-release</link>
+            <guid>https://www.sap.com/news/2023/10/sap-successfactors-second-half-2023-release</guid>
+            <pubDate>Mon, 23 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Our SAP SuccessFactors second half 2023 release is full of AI innovation. Read to learn how we are applying it in our solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>news-tag/sap-erp-hcm</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>news-tag/ux</category>
+        </item>
+        <item>
+            <title><![CDATA[Delivering a People-Centered User Experience with SAP SuccessFactors Solutions]]></title>
+            <link>https://www.sap.com/news/2023/09/delivering-people-centered-ux-with-sap-successfactors</link>
+            <guid>https://www.sap.com/news/2023/09/delivering-people-centered-ux-with-sap-successfactors</guid>
+            <pubDate>Wed, 27 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn about the focus of recent UX innovation and investment at SAP SuccessFactors and why a superior user experience enables efficient work.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>news-tag/ux</category>
+        </item>
+        <item>
+            <title><![CDATA[Versuni Gains Agility with HXM and Connected Cloud ERP as Strong Data Foundation]]></title>
+            <link>https://www.sap.com/news/2023/09/versuni-hxm-cloud-erp-strong-data-foundation</link>
+            <guid>https://www.sap.com/news/2023/09/versuni-hxm-cloud-erp-strong-data-foundation</guid>
+            <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Versuni achieved a successful HR transformation in 10 months, deploying SAP SuccessFactors solutions in a greenfield implementation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/erp</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP SuccessFactors First Half 2023 Release: Skill-Centric Innovation to Build Your Future-Ready Workforce]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-successfactors-first-half-2023-release</link>
+            <guid>https://www.sap.com/news/2023/05/sap-successfactors-first-half-2023-release</guid>
+            <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the SAP SuccessFactors first half 2023 release, we continue to deliver on our promise to help build future-ready workforces. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[How Organizations Are Using SAP SuccessFactors Solutions to Prepare for What’s Next]]></title>
+            <link>https://www.sap.com/news/2023/04/organizations-using-sap-successfactors-2023-hr-meta-trends</link>
+            <guid>https://www.sap.com/news/2023/04/organizations-using-sap-successfactors-2023-hr-meta-trends</guid>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Organizations are using SAP SuccessFactors solutions to get ahead – and stay ahead – of the curve. Read about our 2023 HR meta-trends.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/mental-health-well-being</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>news-tag/well-being-at-work</category>
+        </item>
+        <item>
+            <title><![CDATA[Vodafone Builds Its Future-Ready Workforce on Cloud HR Foundations]]></title>
+            <link>https://www.sap.com/news/2023/03/vodafone-builds-cloud-hr-foundations</link>
+            <guid>https://www.sap.com/news/2023/03/vodafone-builds-cloud-hr-foundations</guid>
+            <pubDate>Tue, 14 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vodafone Group Plc implements SAP SuccessFactors solutions as its cloud HR foundation for improved efficiency and employee engagement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/learning</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>sap-event/successconnect</category>
+            <category>news-tag/total-workforce-management</category>
+        </item>
+        <item>
+            <title><![CDATA[GC Biopharma: Flexible and Integrated HR Portal Improves User Experience]]></title>
+            <link>https://www.sap.com/news/2023/03/gc-biopharma-hr-portal-improves-user-experience</link>
+            <guid>https://www.sap.com/news/2023/03/gc-biopharma-hr-portal-improves-user-experience</guid>
+            <pubDate>Fri, 03 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pharmaceuticals company GC Biopharma transforms HR with SAP SuccessFactors Work Zone and SAP BTP. Read to learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP SuccessFactors Second Half 2022 Release: Building a Future-Ready Workforce Today]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-successfactors-second-half-2022-release</link>
+            <guid>https://www.sap.com/news/2022/11/sap-successfactors-second-half-2022-release</guid>
+            <pubDate>Tue, 01 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP SuccessFactors second half 2022 release introduces new innovations around creating an agile and future-ready workforce. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1074c8b37f11498501b456579a1cc6d70dabc96f4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1074c8b37f11498501b456579a1cc6d70dabc96f4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1074c8b37f11498501b456579a1cc6d70dabc96f4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP SuccessFactors Second Half 2022 Release: Building a Future-Ready Workforce Today" src="./media_1074c8b37f11498501b456579a1cc6d70dabc96f4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-successfactors-second-half-2022-release-building-a-future-ready-workforce-today">SAP SuccessFactors Second Half 2022 Release: Building a Future-Ready Workforce Today</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In today’s business landscape, organizations must equip themselves to respond to workforce opportunities or challenges <em>before</em> they arise. If recent trends have taught us anything, it’s that by the time a business reacts to a market shift, a new one is already occurring. Staying a step ahead of workforce demands is no longer a step ahead – it’s step one.</div>
+    </div>
+  </div>
+  <p>The SAP SuccessFactors second half 2022 release, which is available for preview today, introduces new innovations focused on empowering organizations to create an agile and future-ready workforce in a rapidly changing workplace as well as further investments for individualized experiences and agile and compliant HR.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="realizing-a-people-centered-future-of-work-through-the-intelligent-enterprise">Realizing a People-Centered Future of Work Through the Intelligent Enterprise</h3>
+      </div>
+      <div><strong><a href="/2021/06/people-centered-future-of-work-intelligent-enterprise-hxm">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="creating-a-future-ready-workforce">Creating a Future-Ready Workforce</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="change-the-world-of-work-for-good-with-the-next-generation-of-hcm-software-from-sap">Change the world of work for good with the next generation of HCM software from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/hcm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>In the face of increasingly complex and more urgent transformations, organizations must accelerate their talent development at scale. At the core of such adaptability is an understanding of the skills organizations need to build and grow. As part of our early adopter care program, select customers will have access to skills ontology, growth portfolio, and dynamic teams, which work together to deliver greater intelligence on the skills and capabilities that currently exist and are needed within an organization.</p>
+  <p><strong>The skills ontology</strong> is a major advancement for SAP SuccessFactors that’s connected to global skills databases to help ensure that organizations have a comprehensive and up-to-date view of the most important skills for their workforce. It delivers machine learning and artificial intelligence (AI) powered recommendations to employees about relevant and trending skills to prioritize for development.</p>
+  <p><strong>The growth portfolio</strong>, also part of the early adopter care program, is how employees can reveal their skills, capabilities, education, language proficiencies, and certifications. In the second half release, this data will connect employees to the most relevant assignments in <a href="https://www.sap.com/products/hcm/opportunity-marketplace.html">SAP SuccessFactors Opportunity Marketplace</a>. While the skills ontology gives organizations the ability to align talent development to the ambitions of the organization, the growth portfolio enables employees to align their own talent development to their ambitions.</p>
+  <p><strong>Dynamic teams</strong> is also part of the SAP SuccessFactors foundation and available to all customers. Within organizations today, there are countless teams that exist outside of traditional organizational structures – groups of people that work cross-functionally on a project for a certain amount of time. The dynamic teams functionality can provide organizations with visibility into these teams as well as tools to help manage and assemble teams. Team progress can be measured using objectives and key results (OKRs) and employees can find a dynamic team within SAP SuccessFactors Opportunity Marketplace to help learn new skills and continue to grow their career. This transparency within the organization levels the playing field and creates equal opportunity for employees.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_11660a4ded960363037d3e57f808136c91669c786.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_11660a4ded960363037d3e57f808136c91669c786.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_11660a4ded960363037d3e57f808136c91669c786.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_11660a4ded960363037d3e57f808136c91669c786.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="534">
+    </picture>
+  </p>
+  <p><em>Click to enlarge</em></p>
+  <p>With richer data and greater talent intelligence, organizations can help ensure that employees are connected to the most relevant talent development opportunities that are aligned to the ambitions of employees and the needs of the organization. Skills ontology, growth portfolio, and dynamic teams provide significant updates to the foundation of <a href="https://www.sap.com/products/hcm/hxm-suite.html">SAP SuccessFactors Human Experience Management (HXM) Suite</a> – built into what customers already have instead of requiring an entirely new solution.</p>
+  <p>Some more exciting features for our second half 2022 release are around individualized experiences and agile and compliant HR, including:</p>
+  <ul>
+    <li><strong>Chosen name and personal pronouns:</strong> As part of our commitment to diversity, equity, and inclusion, we are taking important steps to help every individual be seen and valued. People can now indicate their chosen name, personal pronouns, and gender directly within the people profile. This information is displayed consistently across SAP SuccessFactors solutions – from recruiting to learning, helping to foster a greater sense of belonging.</li>
+    <li><strong>End-to-end visual redesign:</strong> We are enhancing the overall look and feel of SAP SuccessFactors by implementing the Horizon visual theme for SAP Fiori. This new theme enhances consistency while delivering a more informed and streamlined product experience. Employees will find nearly every element of the solution updated with new colors, typography, iconography, layouts, and visual hierarchy focused on intent and success. We remain on track to have every employee-facing SAP SuccessFactors experience unified with the theme by the end of 2023.</li>
+    <li><strong>SAP SuccessFactors Work Zone guided onboarding experience:</strong> By bringing together SAP SuccessFactors solutions and third-party integrations, organizations can more efficiently handle an array of complex onboarding processes. This new feature helps ensure that employees receive individualized experiences, even before their first day. Covering key phases of the new hire journey, the guided onboarding experience for <a href="https://www.sap.com/products/hcm/workzone-hr.html">SAP SuccessFactors Work Zone</a> helps provide the tools and information employees need, both before and after hiring.</li>
+    <li><strong>Cross-system workflow capability:</strong> We are unveiling a new cross-system workflow capability for processes that involve multiple users from multiple systems, such as SAP SuccessFactors Employee Central and the payroll component of SAP ERP Human Capital Management. A guided activity framework for key processes enables our on-premise customers to more rapidly unlock the value of the cloud with SAP SuccessFactors Employee Central and the latest HXM innovations while maintaining and progressively moving on-premise processes to the cloud over time.</li>
+    <li><strong>Time management enhancements:</strong> We are continuing to <a href="/2022/09/sap-industry-leading-time-management-suite">enhance our capabilities in time management</a> with the much-anticipated ability to export leave events into calendar applications along with better support for public holidays and handling of grace rules. Time administrators can now copy time-related configuration objects, reducing the need for manual duplication during configuration. In addition, temporary work schedules and absence information on a per day basis will now be available for reporting in SAP SuccessFactors People Analytics.</li>
+  </ul>
+  <p>All these and many more exciting features will be available in our 2H 2022 release, in preview today and production on Friday, December 9. Please watch our <a href="https://dam.sap.com/mac/app/p/video/asset/preview/KvodB4Q?ltr=a&#x26;rc=10">second half 2022 release highlights video</a> for more information.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Amy Wilson is senior vice president of Products and Design for SAP SuccessFactors.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/dynamic-teams</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/sap-erp-hcm</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Four Culture Keys for Unlocking Lifelong Learning]]></title>
+            <link>https://www.sap.com/news/2022/10/four-culture-keys-lifelong-learning</link>
+            <guid>https://www.sap.com/news/2022/10/four-culture-keys-lifelong-learning</guid>
+            <pubDate>Fri, 21 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A thoughtful and data-driven learning and development strategy is essential to meet business priorities. Here are four culture keys to do so.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/learning-for-life</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[How Some Organizations Have Successfully Changed Their Learning and Talent Experience]]></title>
+            <link>https://www.sap.com/news/2022/10/organizations-successfully-changed-learning-culture</link>
+            <guid>https://www.sap.com/news/2022/10/organizations-successfully-changed-learning-culture</guid>
+            <pubDate>Wed, 19 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP customers have transformed their learning culture by leveraging SAP SuccessFactors Learning and SAP SuccessFactors Work Zone.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/learning-for-life</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Why Building a Lifelong Learning Culture Is Challenging and How to Be Successful]]></title>
+            <link>https://www.sap.com/news/2022/10/building-lifelong-learning-culture-challenges</link>
+            <guid>https://www.sap.com/news/2022/10/building-lifelong-learning-culture-challenges</guid>
+            <pubDate>Wed, 12 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Building a culture of lifelong learning is key to an organization’s long-term viability and can ensure that your workforce is future ready.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/learning-for-life</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP Has Built an Industry-Leading Time Management Suite One Day at a Time]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-industry-leading-time-management-suite</link>
+            <guid>https://www.sap.com/news/2022/09/sap-industry-leading-time-management-suite</guid>
+            <pubDate>Thu, 08 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP SuccessFactors has built an intuitive time management solution that uses localization, compliance, and local language. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>news-tag/sap-successfactors-hcm-suite</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP SuccessFactors Innovation Can Help You Tackle Your Toughest Challenges]]></title>
+            <link>https://www.sap.com/news/2022/08/sap-successfactors-innovation-tackle-2022-hr-trends</link>
+            <guid>https://www.sap.com/news/2022/08/sap-successfactors-innovation-tackle-2022-hr-trends</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take on 2022 HR trends like hybrid work, diversity and inclusion, well-being, and the race for talent with SAP Successfactors solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/intelligent-technologies</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/mental-health-well-being</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-performance-goals</category>
+            <category>product/sap-successfactors-recruiting</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[CPG Trends: Great Places to Work Attract Great Customers Too]]></title>
+            <link>https://www.sap.com/news/2022/06/cpg-trends-great-places-to-work-attract-great-customers-too</link>
+            <guid>https://www.sap.com/news/2022/06/cpg-trends-great-places-to-work-attract-great-customers-too</guid>
+            <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Regardless of where employees work at CPG companies, digital technology is central to creating a personalized employee experience. Learn why.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/qualtrics</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Learning Skyrockets as High-Growth Industries Invest in Top Talent]]></title>
+            <link>https://www.sap.com/news/2022/05/high-growth-industries-digital-learning-invest</link>
+            <guid>https://www.sap.com/news/2022/05/high-growth-industries-digital-learning-invest</guid>
+            <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In high-growth industries like aerospace and defense, leaders are building the workforce needed for growth with continuous digital learning.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/aerospace-defense</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[The Ideal Work Environment: What Is It and How to Deliver It]]></title>
+            <link>https://www.sap.com/news/2022/02/ideal-work-environment-what-is-it-how-to-deliver-it</link>
+            <guid>https://www.sap.com/news/2022/02/ideal-work-environment-what-is-it-how-to-deliver-it</guid>
+            <pubDate>Thu, 03 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Workers today expect more flexibility in their work environment. How can businesses provide the right tools, experiences, and capabilities?]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e5a7f7b4548009f6307ffbd3d0fa8ada45c8d093.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e5a7f7b4548009f6307ffbd3d0fa8ada45c8d093.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1e5a7f7b4548009f6307ffbd3d0fa8ada45c8d093.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Ideal Work Environment: What Is It and How to Deliver It" src="./media_1e5a7f7b4548009f6307ffbd3d0fa8ada45c8d093.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-ideal-work-environment-what-is-it-and-how-to-deliver-it">The Ideal Work Environment: What Is It and How to Deliver It</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The hiring market continues to heat up, anxious employees are making retention more challenging, and workers expect more flexibility in their work environments. How can businesses provide the right tools, experiences, and capabilities necessary to create a workplace in which employees can thrive?</div>
+    </div>
+  </div>
+  <p>In today’s changing world of work, employees expect better experiences – especially when it comes to their learning, development, and growth. However, employees struggle with multiple outdated or inadequate systems and tools that create a fragmented digital experience at work.</p>
+  <p>The pressure is undoubtedly on executives, organizational leaders, and their HR teams to fill those gaps to create a workplace culture that is motivating, empowering, and fulfilling. They are expected to provide personalized work experiences that include access to individualized learning and growth, guided and simplified technology interfaces, continuous process improvements, embedded listening, and increased productivity and efficiency.</p>
+  <p>Organizations that deliver on these promises exceptionally well are usually more effective in attracting, retaining, and developing the best talent. However, this is easier said than done because no single definition of an ideal workplace meets everyone’s expectations. To create a truly empowering, engaging, and enriching environment, decision-makers must consider the unique locations, job roles, personal responsibilities, and situations that each employee faces daily.</p>
+  <p>At SAP SuccessFactors, we understand the importance of fostering an environment where people are thriving, collaborating, and ready to succeed today and tomorrow – no matter where they work. And in virtually every case, that experience begins with technologies that cater to each employee’s whole self even as they evolve, making everyone consistently feel valued, heard, and recognized.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="provide-an-employee-centric-hr-user-experience-with-sap-successfactors-work-zone">Provide an employee-centric HR user experience with SAP SuccessFactors Work Zone</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/workzone-hr.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="personalized-integrated-experience">Personalized, Integrated Experience</h2>
+  <p>A good starting point is giving employees the freedom to reimagine their work experience with hyper-personalized, team-centric, and project-focused workspaces created through the <a href="https://www.sap.com/products/workzone-hr.html">SAP SuccessFactors Work Zone solution</a>. This integrated digital experience connects the entire SAP software landscape and third-party applications to help streamline work and intelligently surface relevant content, recommendations, insights, and actions.</p>
+  <p>By providing employees with a more simplified and unified digital experience tailored to their unique needs, SAP SuccessFactors Work Zone can enable companies to increase employee productivity and efficiency.</p>
+  <p>For example, <a href="https://www.sap.com/documents/2021/11/90572075-047e-0010-bca6-c68f7e60039b.html">AKT Solutions Limited</a> (AKT Global) resolved the presence of inefficient communication and collaboration across borders and time zones to improve productivity and lower employee stress. As a result, its employees work smarter and faster now that they have 24/7 access to everything they need to keep up with changes – no matter where they work, what device they use, or where they are based.</p>
+  <h2 id="culture-of-continuous-and-agile-learning">Culture of Continuous and Agile Learning</h2>
+  <p>Employees need on-demand access to individualized and engaging learning programs as part of their everyday experience. With learning established as a priority in the workspace, they are empowered to develop skills at their convenience and participate in opportunities to further develop their expertise and leadership abilities.</p>
+  <p><a href="https://www.sap.com/products/corporate-lms.html">SAP SuccessFactors Learning</a> helps to foster a continuous and agile culture with learning that is personalized and relevant for each employee while being embedded into daily activities. Through learning workspaces employees can get access to relevant learning applications, information, collaboration tools, and content from any source – all through a single entry point and embedded into the flow of work – to be able to benefit from a more simplified and contextual way of learning. Organizations can then help ensure their people feel empowered to own their career path and growth while helping them become more engaged and develop the skills that align with current and future business needs.</p>
+  <p><a href="https://www.sap.com/documents/2021/10/90d46430-007e-0010-bca6-c68f7e60039b.html">Rich Products Corporation</a> (Rich’s) is taking advantage of the solution to support a culture of continuous learning. The family-owned food company sought to elevate its training and development program with a modern, consumer-grade learning experience for its associates. By mapping and enabling access to learning content with individualized recommendations, Rich’s offers its associates a customized view of their development plans and objectives and connects them to integrated external content libraries and resources on demand.</p>
+  <h2 id="employees-retained-with-opportunities-they-want">Employees Retained with Opportunities They Want</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="turn-employees-into-ambassadors-with-employee-experience-management">Turn employees into ambassadors with employee experience management</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/human-resources-hcm/employee-experience-management.html?sort=title_asc&#x26;tab=all">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>According to joint research from <a href="https://www2.deloitte.com/us/en/insights/focus/technology-and-the-future-of-work/importance-of-investing-in-employees.html">Deloitte Consulting and the MIT Sloan Management Review</a>, making job opportunities visible and accessible in the workforce helps improve retention by aligning employee interests with strategic priorities. But first, most companies require a conscious shift that embraces each employee’s whole self – who they are today, who they are becoming, and the value they bring as individuals.</p>
+  <p>By adding the <a href="/2021/10/sap-successfactors-opportunity-marketplace-drives-internal-mobility-and-upskilling-to-help-organizations-future-proof-their-business">SAP SuccessFactors Opportunity Marketplace</a> solution to their workspace, employees can find short-term assignments, fellowships, learning recommendations, and mentors. The solution can empower everyone across the organization to pursue multiple opportunities for professional development, networking, and project participation.</p>
+  <h2 id="meaningful-work-shaped-by-real-time-feedback">Meaningful Work Shaped by Real-Time Feedback</h2>
+  <p>Measuring work experiences helps businesses remain agile and strive to give employees what they need to feel supported, productive, and engaged. With <a href="https://www.sap.com/products/human-resources-hcm/employee-experience-management.html?sort=title_asc&#x26;tab=all">Experience Management solutions from SAP and Qualtrics</a>, organizations can evaluate how employees are doing, listen to their feedback, and respond to their concerns quickly and effectively.</p>
+  <p>To enable a people-centric business transformation, luxury retailer <a href="https://www.sap.com/documents/2019/12/de86ec87-767d-0010-87a3-c30de2ffd8ff.html">Chalhoub Group</a> combines employee experience data with operational HR data. This approach allows the business to gain new insights, identify areas for improvement, and foster a culture where all employees are engaged and fully equipped to provide exceptional customer service. Chalhoub uses Experience Management solutions from SAP and Qualtrics to actively listen to its workforce and provide the right training, processes, and tools. The company is capturing feedback at every interaction touchpoint and discovering new ways to meet unique employee needs and continuously improve everyday work experiences.</p>
+  <p>As a result, the company is redesigning and optimizing key aspects of the employee journey. For example, its HR transformation priorities are supported by hard data on the issues that employees really care about, driving greater emphasis on employee well-being and recognition as top strategic goals.</p>
+  <h2 id="all-wrapped-with-a-human-experience">All Wrapped with a Human Experience</h2>
+  <p>HR organizations are constantly challenging their business executives and organizational managers. They know that seemingly adequate access to technology is no guarantee that an employee’s specific needs are met. Meanwhile, it is understood that remote and <a href="/2021/08/essential-but-under-supported-improving-deskless-worker-experience">deskless workers</a> face even more complexity in their experiences, such as limited bandwidth and privacy controls, as they juggle work with their personal circumstances.</p>
+  <p>With SAP SuccessFactors Work Zone, SAP SuccessFactors Learning, SAP SuccessFactors Opportunity Marketplace, and Experience Management solutions from SAP and Qualtrics, organizations can deliver engaging, individualized experiences that enable everyone to thrive.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Stephanie Craig is global director of Solution Marketing for SAP SuccessFactors.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/qualtrics</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Now Provides a Unified Low-Code/No-Code Offering]]></title>
+            <link>https://www.sap.com/news/2021/11/sap-now-provides-unified-low-code-no-code-offering</link>
+            <guid>https://www.sap.com/news/2021/11/sap-now-provides-unified-low-code-no-code-offering</guid>
+            <pubDate>Tue, 16 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP BTP allows customers to achieve business agility, specifically with the help of the new unified low-code/no-code offering. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Now Provides a Unified Low-Code/No-Code Offering" src="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-now-provides-a-unified-low-codeno-code-offering">SAP Now Provides a Unified Low-Code/No-Code Offering</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP Business Technology Platform (SAP BTP) allows our customers to achieve business agility, specifically with the help of our new unified low-code/no-code offering. With our low-code and no-code capabilities, we enable everyone to deliver innovation faster and confidently across all lines of business and industries.</div>
+    </div>
+  </div>
+  <p>SAP provides:</p>
+  <ul>
+    <li><strong>An integrated suite of end-to-end business applications</strong> to run your business across all industries and lines of business</li>
+    <li><strong>A comprehensive business-centric platform</strong>, with a unified programming model and unified design system, bringing IT and business together to modernize processes and enable rapid innovation – now</li>
+  </ul>
+  <p>The low-code/no-code offering services in SAP BTP empower IT and citizen developers alike to quickly build enterprise-ready apps, automations, workflows, and chatbots no matter their skill level or coding expertise. Our customers can build enterprise apps fast with SAP’s unified development experience and an ever-growing array of pre-built business content for any line of business, all natively integrated with your SAP applications.</p>
+  <p>Examples include <a href="https://store.irpa.cfapps.eu10.hana.ondemand.com/#/explore/order=last-updated%2Cdesc">more than 260 pre-built robotic processing automation (RPA) bots</a> to automate tasks in any line of business – be it finance, sourcing and procurement, manufacturing, sales, and services – and almost <a href="https://api.sap.com/content-type/Workflow/workflowmanagement/packages">40 live process content packages</a> for the SAP Workflow Management service.</p>
+  <p>Another example is SAP SuccessFactors Work Zone, which offers a prepackaged experience specifically to address the needs of HR organizations based on SAP Work Zone, with additional functionality such as workflow and mobile services. It has been <a href="/2021/09/hr-executive-top-product-sap-successfactors-work-zone">recognized recently as a Top HR Product</a> by <a href="https://hrexecutive.com/">Human Resource Executive</a> and the <a href="https://www.hrtechnologyconference.com/">HR Technology Conference</a>. Additionally, SAP Business Application Studio comes with pre-built components, wizards, and sample apps.</p>
+  <p>SAP unifies the developer experience with low-code and no-code enhancements on SAP BTP to help:</p>
+  <ul>
+    <li><strong>Maximize speed and agility</strong> and <strong>reduce total cost of ownership (TCO)</strong> through accelerated delivery</li>
+    <li><strong>Bridge the gap</strong> and <strong>increase adoption</strong> through co-development between business and IT</li>
+    <li><strong>Enhance return on investment (ROI)</strong> by leveraging existing investments through seamless integrations</li>
+    <li><strong>Accelerate time to value</strong> by implementing best practices with pre-built content packages</li>
+  </ul>
+  <p>Our low-code/no-code offering covers three areas:</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Diagram explaining the new low-code/no-code offering" src="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1696" height="762">
+    </picture>For <strong>process automation</strong>, we offer SAP Workflow Management and SAP Intelligent RPA, enabling citizen developers to easily build workflows and to automate tasks. On top of that, SAP Process Automation can bring no-code process automation to the next level. SAP Process Automation is currently available for co-innovation partners, with general availability planned for the first quarter of 2022.
+  </p>
+  <p>For <strong>low-code/no-code application composition</strong>, we launched SAP AppGyver and new functionalities in SAP Business Application Studio to enable the entire developer continuum to accelerate application development. SAP AppGyver allows citizen developers to build highly sophisticated standalone applications or extensions without writing a single line of code. With SAP Business Application Studio, we also deliver a simplified application development journey to the professional developer with a low-code perspective.</p>
+  <p>In the area of <strong>digital experience</strong>, we are offering SAP Work Zone, SAP Launchpad, and SAP Mobile Start to help drive employee productivity and make newly built apps available to everyone in the company.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP BTP: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="what-else-is-new-at-sap-teched">What Else Is New at SAP TechEd?</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-acquires-no-code-development-pioneer-appgyver">SAP Acquires No-Code Development Pioneer AppGyver</h3>
+      </div>
+      <div><strong><a href="/2021/02/sap-acquire-appgyver">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Let’s go into some specifics for each of the areas in our new unified low-code/no-code offering:</p>
+  <ul>
+    <li>SAP Business Application Studio has seen a dramatic improvement in development productivity through the low-code/no-code experience now available.</li>
+    <li>We’ve also fully integrated the acquisition in the no-code space. SAP AppGyver is now part of CPEA, available to all our customers as well as planned through the free tier model in the first quarter of 2022.</li>
+    <li>We’ve made significant improvements in our SAPUI5 technology performance, which can be of immediate benefit to SAP S/4HANA and any other SAP product built on top of the technology within SAP BTP.</li>
+    <li>Launching SAP Process Automation brings an elevated user experience for citizen automation in a no-code development environment. To make citizen developers fully productive, the new solution provides end-to-end automation capabilities leveraging advanced workflow management and embedded RPA functionality in a simple drag-and-drop user interface.</li>
+    <li>Last but not least, we’ve delivered artificial intelligence (AI) into our workflow engine, so that the AI system monitors the context with which you approve or not on a given workflow, building up the relevant models of your approval process flow. Your workflow becomes more and more intelligent over time, out of the box.</li>
+  </ul>
+  <p>I invite you to attend SAP TechEd sessions to learn more about our low-code/no-code offering and how SAP BTP is now accessible to anyone. You’ll find a selection of personally recommended sessions below. Let’s explore together how SAP BTP can help you rapidly integrate, automate, and extend business processes for security and performance at scale across your organization.</p>
+  <div class="promo">
+    <div>
+      <div><strong>Recommended Sessions</strong></div>
+    </div>
+  </div>
+  <p><em>Michael Weingartner is president of SAP Business Technology Platform Core at SAP.</em></p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sap-teched">Read more news and coverage from SAP TechEd</h3>
+      </div>
+      <div><strong><a href="/topics/sap-teched">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rpa</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-intelligent-rpa</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[AKT Global Keeps Remote Workforce Connected and Engaged]]></title>
+            <link>https://www.sap.com/news/2021/11/akt-global-keeps-remote-workforce-connected-engaged</link>
+            <guid>https://www.sap.com/news/2021/11/akt-global-keeps-remote-workforce-connected-engaged</guid>
+            <pubDate>Fri, 12 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP SuccessFactors Work Zone helps AKT Global bring its remote workforce together as one connected, engaged team. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/employee-engagement</category>
+            <category>news-tag/employee-experience</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Announcing the Winner of the First-Ever SAP SuccessFactors Work Zone Innovation Challenge for Partners]]></title>
+            <link>https://www.sap.com/news/2021/10/sap-successfactors-work-zone-innovation-challenge-winners</link>
+            <guid>https://www.sap.com/news/2021/10/sap-successfactors-work-zone-innovation-challenge-winners</guid>
+            <pubDate>Wed, 13 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the SAP SuccessFactors Work Zone Innovation Challenge, SAP is thrilled to announce 5 regional winners and an overall global winner!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP SuccessFactors Work Zone Named Top HR Product by HR Executive]]></title>
+            <link>https://www.sap.com/news/2021/09/hr-executive-top-product-sap-successfactors-work-zone</link>
+            <guid>https://www.sap.com/news/2021/09/hr-executive-top-product-sap-successfactors-work-zone</guid>
+            <pubDate>Tue, 14 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP SuccessFactors Work Zone has been recognized as a Top HR Product by HR Executive and the HR Technology Conference. Learn why.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10e3dc57c156e7d831e0e8c07c3c7e7ef0cf0d5d3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10e3dc57c156e7d831e0e8c07c3c7e7ef0cf0d5d3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10e3dc57c156e7d831e0e8c07c3c7e7ef0cf0d5d3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP SuccessFactors Work Zone Named Top HR Product by HR Executive" src="./media_10e3dc57c156e7d831e0e8c07c3c7e7ef0cf0d5d3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-successfactors-work-zone-named-top-hr-product-by-hr-executive">SAP SuccessFactors Work Zone Named Top HR Product by HR Executive</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.sap.com/products/workzone-hr.html">SAP SuccessFactors Work Zone</a> has been recognized as a <a href="https://hrexecutive.com/sap-work-zone-for-hr/">Top HR Product</a> by <a href="https://hrexecutive.com/">Human Resource Executive</a> and the <a href="https://www.hrtechnologyconference.com/">HR Technology Conference</a>. This prestigious <a href="https://hrexecutive.com/hr-tech-and-hre-announce-the-2021-top-hr-products/">industry award spotlights</a> the most innovative new solutions that are helping business leaders meet the ever-evolving HR needs of their organizations.</div>
+    </div>
+  </div>
+  <p>They also highlight the direction HR technology is headed. Submissions are judged based on innovation in the HR tech space, with particular attention to how these tools are breaking new ground, how much value they add to the HR function, how intuitive they are for users, and whether they deliver what they promise.</p>
+  <p><a href="/2020/10/sap-work-zone-hr-new-digital-workplace">Launched in late 2020</a>, the SAP SuccessFactors Work Zone solution is a digital workplace that combines various applications across the enterprise into a single personalized touchpoint. Built on the SAP Business Technology Platform, it connects different systems from SAP as well as third-party applications so employees can access everything they need at work — from company communications to learning opportunities to planning parental leave — and complete tasks without toggling between applications.</p>
+  <p>According to HR Executive, SAP SuccessFactors Work Zone “has high aspirations for boosting productivity, engagement and even speeding up decision-making by bringing the apps together and aligning them with the needs of the business.”</p>
+  <p>Organizations around the world and in more than 20 industries are choosing SAP SuccessFactors Work Zone to transform their employee experience and drive cultural transformation that supports broader business goals.</p>
+  <p><a href="https://www.grimme.com/de">GRIMME</a>, a leader in agricultural technology, <a href="/2021/06/grimme-success-workplace-experience-solution">selected SAP SuccessFactors Work Zone</a> to modernize its approach to HR and create a unified employee experience.</p>
+  <p>“SAP SuccessFactors Work Zone made the difference,” said Walter Wolf, head of Human Resources at GRIMME Landmaschinenfrabirk GmbH &#x26; Co. KG. “Of all the solutions we evaluated, SAP SuccessFactors Work Zone was the only one that could integrate both SAP SuccessFactors HXM Suite and third-party applications such as Microsoft SharePoint and Teams into a single digital workplace with a unified user experience. And as a bonus, it also gives our employees a collaboration platform and knowledge base.”</p>
+  <p>An important feature of SAP SuccessFactors Work Zone is the ability to provide a holistic employee experience for both knowledge and deskless workers. The latter make up a staggering 80% of the workforce and includes workers who do not have consistent access to an internal system, such as people who work in retail shops and manufacturing factories, drivers, sales reps, and many more.</p>
+  <p>Royal Mail Group, for example, built its personal development platform called “<a href="/2021/06/royal-mail-transforming-through-learning">The Fridge</a>” using SAP SuccessFactors Work Zone to help connect, educate, and upskill its 140,000 employees.</p>
+  <p>“We’re using SAP SuccessFactors Work Zone to change the entire employee experience of our HR tools and our HR platform,” said <a href="https://www.royalmail.com/">Royal Mail</a> IT Director Adam Walden. “We are making sure that we are giving our people and line managers the right tools, the right skills, and the right environment for them to support the business going through this transformation.”</p>
+  <p>In another example of fostering greater collaboration, <a href="https://www.sap.com/documents/2021/03/96d55a38-d37d-0010-87a3-c30de2ffd8ff.html">Landratsamt Rhein-Neckar-Kreis</a>, a county in Baden-Wurttemberg, Germany, is using SAP SuccessFactors Work Zone to coordinate support services for migrants and refugees. Its “Integration Portal” serves as a one-stop shop for volunteers and local authorities to connect and exchange information in a transparent, collaborative way. This is helping migrants and refugees access the essential services they need and integrate into their communities.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15fe6f64e06200fad460147f351d675ca8c805ce7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15fe6f64e06200fad460147f351d675ca8c805ce7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15fe6f64e06200fad460147f351d675ca8c805ce7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP SuccessFactors Work Zone Named Top HR Product by HR Executive" src="./media_15fe6f64e06200fad460147f351d675ca8c805ce7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=0KPCaJO6p_c">SAP SuccessFactors Work Zone Named Top HR Product by HR Executive</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="whats-next-for-sap-successfactors-work-zone">What’s Next for SAP SuccessFactors Work Zone?</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="put-employees-at-the-heart-of-everything-you-do-with-sap-successfactors-software">Put employees at the heart of everything you do with SAP SuccessFactors software</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/human-resources-hcm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Since launching SAP SuccessFactors Work Zone last year, we’ve continued to build new innovations and integrations that benefit our customers. We have delivered dozens of guided experiences, workspace templates, and integrations. These updates help simplify deployments with out-of-the-box templates and continue to improve the user experience.</p>
+  <p>At SuccessConnect on October 13, we will announce the winners of the SAP SuccessFactors innovation challenge! For this challenge, we invited our partners to submit new and innovative use cases for SAP SuccessFactors Work Zone to help improve the employee experience and change work for good.</p>
+  <div class="promo">
+    <div>
+      <div>To learn more, join our demo session at the HR Technology Conference, “<a href="https://s23.a2zinc.net/clients/lrp/hrtech2021/Public/SessionDetails.aspx?FromPage=Sessions.aspx&#x26;SessionID=9975&#x26;SessionDateID=253">Reimagine the Employee Experience with SuccessFactors Work Zone from SAP</a>,” and <a href="https://events.sap.com/successconnect/en/global-home">register for SuccessConnect</a>.</div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div><em>Maryann Abbajay is chief revenue officer for SAP SuccessFactors.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/future-of-work</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/customer-engagement/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 06 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Path to AI with Clean Core]]></title>
+            <link>https://www.sap.com/news/2024/05/the-path-to-ai-with-clean-core</link>
+            <guid>https://www.sap.com/news/2024/05/the-path-to-ai-with-clean-core</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Claudio Muruzabal shares about his Customer Advisory role and how SAP customers are winning with intelligent technology, like AI.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Path to AI with Clean Core" src="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-path-to-ai-with-clean-core">The Path to AI with Clean Core</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>From cloud to generative AI, the list of new and emerging technologies continues to grow in our era of digital intelligence. Yet it’s also the era of inflation, geopolitical tension, supply chain disruption, and countless other challenges. How are businesses supposed to make sense of all these technologies – let alone transform their businesses with them – while simply trying to survive during such a challenging time?</div>
+    </div>
+  </div>
+  <p>That’s where Claudio Muruzabal, chief business officer of SAP SE, steps in.</p>
+  <p>Muruzabal is responsible for supporting the Customer Advisory, Solution Area and Services Sales, and Customer Success Management &#x26; Engagement teams at SAP. For more than eight years, he has played an important role in understanding not only an increasingly complex technology landscape but also how businesses actually use the technology at their disposal. He supports teams that help bring SAP customers closer to their goals by leveraging SAP solutions. This begins with advising customers through honest conversations about how they can apply the intelligent capabilities now included in many SAP solutions, such as generative AI.</p>
+  <p>I sat down with Muruzabal to find out more about his role, how SAP customers are winning with intelligent technology, and the growing impact of customer success management at SAP.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Q: AI is all the rage today, so let’s start there. What are the biggest opportunities for businesses to use AI?</strong></div>
+    </div>
+  </div>
+  <p><strong>Muruzabal</strong>: Opportunity is everywhere for <a href="/topics/ai">AI</a>. And it’s bigger than just automating processes to increase efficiency, which is what was talked about for the longest time. At SAP, we’re seeing how AI can support relevant business processes to instill innovation and competitiveness. While many players in the industry are focused on developing AI engines and large language models, we are focused on accelerating business value through generative AI. I could talk all day about how AI is transforming data analytics and decision-support systems as well as supply chain optimization, predictive maintenance, and HR. Every day we are discovering new opportunities for customers to leapfrog their competition when they combine the power of generative AI with the context of their business data and processes.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>What are some examples of how SAP customers are using AI, and what value have they realized so far?</strong></div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-revolutionary-technology-real-world-results">SAP Business AI: Revolutionary technology, real-world results</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>There’s really so much to get excited about when it comes to how our customers are using the AI capabilities included with their SAP solutions. Across industries, workers everywhere are using natural language to instantly get the data insights they need using the SAP Analytics Cloud solution. I like how busy recruiters can tap into generative AI with SAP SuccessFactors solutions to create compelling job descriptions and interview questions in less time. Joule, our AI assistant and copilot, can support end users in getting the right answers on how to get the most of our cloud solutions. With Joule already embedded across the portfolio – generally available in SAP SuccessFactors HCM, SAP Start, and SAP S/4HANA Cloud – we are all excited about the opportunities for our customers.</p>
+  <p>All industries can get this unique value, including professional soccer clubs FC Bayern Munich and Hertha BSC that are using a scouting prototype powered by AI to find and develop the next generation of star athletes.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>AI can solve a lot of problems, but what about the underlying foundational technology stack companies have today? What conversations are you having with businesses about their technology investments?</strong></div>
+    </div>
+  </div>
+  <p>Early on in our conversations with customers, it’s important to understand how businesses can set up their core, foundational enterprise technology platform running in the cloud. This is critical to establish a journey of innovation including <a href="https://www.sap.com/products/artificial-intelligence.html">SAP Business AI</a>. Coming back to the foundation, many of our customers have built numerous modifications on top of their core ERP. In order to build a true cloud operating model – essential to embrace innovation including AI – it is critical to move to a clean core model. This means that any modification to the ERP functionality offered by SAP is built outside of the core, using extensibility solutions. This is not a technical topic only. Although clean core contributes to the cost-efficient operation of the platform, the true contribution is bringing flexibility and adaptability to the business, converting the cloud operating model into a unique “innovation as a service” platform.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>What makes SAP unique and stand out to customers with its value proposition?</strong></div>
+    </div>
+  </div>
+  <p>SAP has the unique value of being the global leader in best of suite solutions built with more than 50 years of industry knowledge and ERP technology leadership. On top of this, our leading “best of breed” solutions, such as in HCM, customer experience, intelligent spend and business network, and more, can provide the best functionality and the right integration into the core. Only SAP can offer this value proposition. When we combined this with the cloud operating model – widely adopted by our RISE with SAP customers – we provide exponential value for the innovation as a service proposition.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>How can customers get the most from their investments? What kind of support is there to help them transform and innovate?</strong></div>
+    </div>
+  </div>
+  <p>Customer success management is essential in the cloud. It is the end-to-end engagement with our customers, from advisory to sales execution to onboarding, adoption, and consumption. We provide the tools, assets, and content to help accelerate adoption and consumption so as to maximize the value from first use of the solution to full and future use. SAP Preferred Success services can accelerate the time to value even more. To support this motion, deep <a href="/2024/02/driving-customers-business-outcomes-telemetry">telemetry</a> being built into our cloud solutions allows customers and our customer success management leaders to better understand how the solutions are being used while identifying opportunities to expand usage.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Where do advisory services fit into the customer journey?</strong></div>
+    </div>
+  </div>
+  <p>Customer advisory services might be the most essential part of the journey with a customer. Successful projects start with the right business case definition, anchored in the best understanding of the industry and business of our customers. With that in mind, our Customer Advisory teams support building the right technical solutions that can support an enterprise architecture. This is the first step in moving in the right direction of building the cloud operating model.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Stay up-to-date</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/erp</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/customer-success</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Digital Hub Innovations Win Silver and Bronze at 2024 Stevie® Awards]]></title>
+            <link>https://www.sap.com/news/2024/04/sap-digital-hub-innovations-win-2024-stevie-awards</link>
+            <guid>https://www.sap.com/news/2024/04/sap-digital-hub-innovations-win-2024-stevie-awards</guid>
+            <pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Three SAP digital hub tools won 2024 Stevie Awards for Sales & Customer Service. Read to learn more about the recognition.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/customer-engagement</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Customer Engagement Lessons from Competitive Racing]]></title>
+            <link>https://www.sap.com/news/2024/04/digital-customer-engagement-competitive-racing</link>
+            <guid>https://www.sap.com/news/2024/04/digital-customer-engagement-competitive-racing</guid>
+            <pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP executes digital customer engagement via digital hubs. Read to find out how competitive racing teams, like Mercedes-AMG, can benefit.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/mercedes</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Driving Business Outcomes for ONEX Holding with Digital Customer Engagement]]></title>
+            <link>https://www.sap.com/news/2023/11/onex-holding-digital-customer-engagement</link>
+            <guid>https://www.sap.com/news/2023/11/onex-holding-digital-customer-engagement</guid>
+            <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The relationship between ONEX and SAP shows how virtual immersive engagements can enable and scale human interactions, not diminish them.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+        </item>
+        <item>
+            <title><![CDATA[How Gibson Makes Beautiful Music with High Tech and Strategy]]></title>
+            <link>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</link>
+            <guid>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</guid>
+            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology helps Gibson connect with customers easily and in the ways that they want. Learn more about the company's strategy and tech duet.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/sap-emarsys</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/media: industry/sports-entertainment</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Customer Experience Helps Marketing and Sales Teams Win Together]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-customer-experience-account-engagement-marketing-and-sales-teams-win</link>
+            <guid>https://www.sap.com/news/2022/11/sap-customer-experience-account-engagement-marketing-and-sales-teams-win</guid>
+            <pubDate>Fri, 04 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new account engagement option for SAP Customer Experience helps marketing and sales teams accelerate performance and grow revenue.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[External Workforce Is Key for Customer Satisfaction in Times of Disruption]]></title>
+            <link>https://www.sap.com/news/2021/11/external-workforce-key-for-customer-satisfaction-times-of-disruption</link>
+            <guid>https://www.sap.com/news/2021/11/external-workforce-key-for-customer-satisfaction-times-of-disruption</guid>
+            <pubDate>Tue, 23 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The external workforce has proved to be crucial to enabling businesses to take steps toward recovery during COVID-19. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/external-workforce-management</category>
+        </item>
+    </channel>
+</rss>

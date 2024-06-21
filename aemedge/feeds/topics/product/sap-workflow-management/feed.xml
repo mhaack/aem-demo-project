@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-workflow-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 10 May 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Create, Automate, and Scale with Low-Code/No-Code Innovations]]></title>
+            <link>https://www.sap.com/news/2022/05/low-code-no-code-innovations-create-automate-scale</link>
+            <guid>https://www.sap.com/news/2022/05/low-code-no-code-innovations-create-automate-scale</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[New low-code/no-code innovations and solutions from SAP empower users to create, automate, and scale. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Create, Automate, and Scale with Low-Code/No-Code Innovations" src="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="create-automate-and-scale-with-low-codeno-code-innovations">Create, Automate, and Scale with Low-Code/No-Code Innovations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Today’s rapidly changing market requirements put businesses under increased pressure to adapt and stay competitive. The rising demand for cloud solutions, a growing talent gap, and the expectation to do more with less while ensuring security and compliance continue to strain the capacity of development teams.</div>
+    </div>
+  </div>
+  <p>To address this challenge, SAP has been investing in <a href="https://www.sap.com/products/business-technology-platform/low-code.html">low-code/no-code solutions</a> that improve overall developer efficiency, enable more employees to automate tedious tasks, and create applications that simplify work in a compliant and secure fashion — all of this without needing to write a single line of code.</p>
+  <p>We are excited to announce several new capabilities in our low-code/no-code portfolio today at SAP Sapphire.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-announcements-in-the-sap-sapphire-news-guide">Read more announcements in the SAP Sapphire news guide</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/events/sapphire/news-guide.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="sap-appgyver-now-part-of-sap-service-cloud">SAP AppGyver Now Part of SAP Service Cloud</h2>
+  <p><a href="https://www.sap.com/products/appgyver.html">SAP AppGyver</a> is a no-code application development platform that enables developers of all skill levels to create enterprise-ready applications with drag-and-drop simplicity.</p>
+  <p>With the integration of SAP AppGyver in <a href="https://www.sap.com/products/service-cloud.html">SAP Service Cloud</a>, all SAP Service Cloud users can create custom applications to extend functionality without needing to write code. For example, SAP Service Cloud users can visually create apps for service agents that allow them to serve their customers better by connecting and acting on data from other systems such as SAP S/4HANA. This way, the service agent can log into SAP Service Cloud to find out what equipment the customer is using, see a list of compatible spare parts, and view inventory in SAP S/4HANA without leaving SAP Service Cloud. In addition, users can also use the SAP Fiori design system, which provides templates, tools, and guidelines to create beautiful mobile and web apps.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Screenshot: Custom service agent application" src="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="586">
+    </picture>
+  </p>
+  <p><em>Example of a custom service agent application created with SAP AppGyver and SAP Service Cloud integration. Click to enlarge.</em></p>
+  <h2 id="create-no-code-business-logic-using-visual-cloud-functions">Create No-Code Business Logic Using Visual Cloud Functions</h2>
+  <p>Turning an idea into an app used to require extensive development skills. SAP AppGyver already offers developers a no-code tool to build the front end of an app. In the next few months, we plan to add additional cloud-powered capabilities that will allow all SAP AppGyver users to visually create cloud-hosted data models and serverless application logic without any code.</p>
+  <p>With the entire backend process also visual, SAP AppGyver users will no longer need to leave the no-code environment to build fully functional and scalable enterprise-grade applications. For more information about the current and future capabilities of SAP AppGyver, see the <a href="https://roadmaps.sap.com/board?range=CURRENT-LAST&#x26;PRODUCT=73554900100800003801#Q2%202022">SAP Road Map Explorer</a>.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=750&#x26;format=png&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=750&#x26;format=png&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p><em>Visually build cloud-hosted data models and serverless business logic without leaving the no-code environment.</em></p>
+  <p><a href="https://www.youtube.com/watch?v=Yk6AC4XdvyA">Verge</a> is an example of a customer that used SAP AppGyver to accelerate application development and built multiple applications for the entire manufacturing process, all deeply integrated with its manufacturing systems.</p>
+  <p>“Speed of innovation is of great importance to us,” said Tuomo Lehtimäki, CEO of Verge Motorcycles. “With SAP AppGyver, we were able to develop and integrate a custom, highly flexible system to orchestrate our entire manufacturing process in just a few months — all without having to write a line of code. The apps provide real-time insights into our operations and help us make decisions faster.”</p>
+  <h2 id="simplify-collaboration-between-business-and-development-teams">Simplify Collaboration Between Business and Development Teams</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="discover-sap-solutions-for-low-code-application-development-and-automation">Discover SAP solutions for low-code application development and automation</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform/low-code.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Earlier this year, SAP announced the general availability of <a href="https://www.sap.com/germany/process-automation.html">SAP Process Automation</a>, which combines workflow management and robotic process automation into a single no-code drag-and-drop solution. It enables companies of all sizes to create workflows, automate repetitive or manual tasks, and simplify and improve business processes.</p>
+  <p>New SAP Process Automation capabilities make it even easier for business and development teams to collaborate while helping ensure security and governance. Professional developers can develop advanced processes and business logic and create reusable sub-flows that can be made available to business users. Business users can leverage these sub-flows and create sophisticated workflows and automation in a visual, no-code fashion in compliance with IT requirements. More information about recent and upcoming functionality can be found in <a href="https://help.sap.com/whats-new/190af73e1b314925bc5f3bf8751fc9ce?locale=en-US&#x26;version=Cloud">SAP Help Portal</a> and <a href="https://roadmaps.sap.com/board?PRODUCT=73554900100800003832&#x26;range=CURRENT-LAST#Q2%202022">SAP Road Map Explorer</a>.</p>
+  <p>SAP Process Automation is now also available in the free tier of SAP Business Technology Platform. <a href="https://blogs.sap.com/2022/03/29/sap-process-automation-free-tier-availability/">Learn more and try it out today</a>.</p>
+  <h2 id="new-learning-resources-to-get-started">New Learning Resources to Get Started</h2>
+  <p>To support the need for accelerated app development, we have introduced an <a href="https://learning.sap.com/certification/sap-certified-citizen-developer-associate-sap-build-low-code-no-code-applications-and-automations?url_id=text-sapnewscenter-prdteng-LCNC">associate certification for low-code/no-code development</a>. The certification is aimed at non-technical users with little to no experience writing code. It acknowledges skills built in the <a href="https://learning.sap.com/learning-journey/utilize-sap-build-for-low-code-no-code-applications-and-automations-for-citizen-developers?url_id=text-sapnewscenter-prdteng-LCNC">low-code/no-code SAP Learning Journey</a> to understand fundamental concepts and gain technical know-how for application development.</p>
+  <p>We are also introducing a free series of <a href="https://blogs.sap.com/2022/05/05/automate-to-win-get-hands-on-with-sap-process-automation/">hands-on low-code/no-code workshops</a>, which will be delivered by SAP partners in small learning environments to support one-on-one attention.</p>
+  <p>For more:</p>
+  <ul>
+    <li>Visit <a href="https://www.sap.com/products/business-technology-platform/low-code.html">sap.com/low-code</a></li>
+    <li>Join <a href="https://community.sap.com/topics/low-code-no-code">Low-Code/No-Code Development Tools on SAP Community</a></li>
+    <li>Explore the <a href="https://www.sap.com/products/appgyver.html">SAP AppGyver</a> and <a href="https://www.sap.com/products/process-automation.html">SAP Process Automation</a> areas of sap.com</li>
+    <li>Learn through <a href="https://learning.sap.com/learning-journey/low-code-no-code-applications-and-automations-for-citizen-developers">low-code/no-code learning journeys</a> and the <a href="https://webinars.sap.com/sap-automate-to-win-workshop/en/home">hands-on partner workshops</a></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div><em>Bharat Sandhu is senior vice president of Application Development, Automation, and AI at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sap-sapphire">Read more news and coverage from SAP Sapphire</h3>
+      </div>
+      <div><strong><a href="/topics/sap-sapphire">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/low-code-no-code</category>
+            <category>news-tag/sap-appgyver</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-service-cloud</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[AI at SAP: The Path to the Intelligent Enterprise]]></title>
+            <link>https://www.sap.com/news/2022/03/ai-at-sap-path-to-intelligent-enterprise</link>
+            <guid>https://www.sap.com/news/2022/03/ai-at-sap-path-to-intelligent-enterprise</guid>
+            <pubDate>Thu, 03 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read to learn more about how artificial intelligence (AI) plays a key role in empowering SAP customers to become intelligent enterprises.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/ai-ethics</category>
+            <category>product/sap-intelligent-rpa</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Process Automation: Accelerate Automation with a New No-Code Experience]]></title>
+            <link>https://www.sap.com/news/2022/02/sap-process-automation-no-code-experience</link>
+            <guid>https://www.sap.com/news/2022/02/sap-process-automation-no-code-experience</guid>
+            <pubDate>Mon, 14 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP Process Automation, workflow management and robotic process automation can be made easy through an easy-to-use, no-code experience.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15afbdc6a5354c0ef694340e78555b671e56a4488.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15afbdc6a5354c0ef694340e78555b671e56a4488.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15afbdc6a5354c0ef694340e78555b671e56a4488.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Process Automation: Accelerate Automation with a New No-Code Experience" src="./media_15afbdc6a5354c0ef694340e78555b671e56a4488.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-process-automation-accelerate-automation-with-a-new-no-code-experience">SAP Process Automation: Accelerate Automation with a New No-Code Experience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP Process Automation — a simpler way to enhance business efficiency and agility with confidence — is now generally available, providing a powerful new tool for businesses looking to create value faster.</div>
+    </div>
+  </div>
+  <p><a href="https://www.sap.com/about/events/teched-news-guide/low-code-no-code-pro-code.html#article2">Previewed last year at SAP TechEd</a>, SAP Process Automation combines the capabilities of SAP Workflow Management and SAP Intelligent Robotic Process Automation in an easy-to-use, no-code experience powered by artificial intelligence (AI).</p>
+  <p>The new solution enables organizations of all sizes to:</p>
+  <ul>
+    <li>Simplify automation with visual drag-and-drop tools and industry-specific content</li>
+    <li>Automate faster with business context in a unified AI-powered workflow management and robotic process automation solution</li>
+    <li>Manage processes and automations with confidence on a trusted, enterprise grade, multi-cloud platform</li>
+  </ul>
+  <p>Here’s a closer look at why process automation is in demand, how it helps modern businesses to create value, and how customers can take advantage of this cutting-edge technology.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-process-automation">Learn more about SAP Process Automation</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/process-automation.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="the-need-for-process-automation-continues-to-grow">The Need for Process Automation Continues to Grow</h2>
+  <p>“Gaining value by focusing on process automation continues to be a key driver for businesses that need to drive down their operating costs or speed up cycle times,” according to Maureen Fleming, program vice president, Intelligent Process Automation Market Research and Advisory Service at IDC. “Organizations are thinking about upskilling business users to become more proficient in using process automation tools for both their own and their team’s productivity efforts, enabled by a next generation of intelligent process automation solutions combining low-code task and workflow automation with AI decision support, intelligent document processing, and process mining.”</p>
+  <p>Customers like Stadtwerke Gelsenkirchen are already realizing benefits from SAP Process Automation. This offering allows employees to engage in business-critical activities that create value, rather than being trapped in routine tasks.</p>
+  <p>“SAP Process Automation will support many SAP customers in digitalizing their paper-based processes and optimizing transparency and cycle time,” said Stefan Schmidtke, SAP Application Manager at Stadtwerke Gelsenkirchen. “Integrating it with other SAP solutions offers the possibility for employees to get rid of repetitive tasks so that they can focus on higher value topics.”</p>
+  <h2 id="build-with-simplicity">Build with Simplicity</h2>
+  <p>SAP Process Automation simplifies process automation with visual drag-and-drop tools and pre-built industry-specific content. Business users can now build workflows as well as automate tasks and decisions with ease and, if needed, collaborate with development teams to meet all their automation needs.</p>
+  <p>To jump-start projects, users can select from a quickly growing library of more than 340 pre-built process flows, forms, business rules, dashboards, and bot automations across applications, lines of business, and industries. For example, SAP S/4HANA content is available for more than 100 automation scenarios in the finance, manufacturing, sales, services, sourcing and procurement, and supply chain lines of business. <a href="/topics/human-resources">SAP SuccessFactors</a> and SAP Ariba software development kits (SDKs) provide predefined activities to easily automate key tasks in these applications, augmented by SDKs for popular office productivity tools for desktop automation. All of this is readily available in a dedicated store accessible directly from SAP Process Automation.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_119f47a9f4db210167e1e9ea2fd1cdf2d9e38fc04.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_119f47a9f4db210167e1e9ea2fd1cdf2d9e38fc04.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_119f47a9f4db210167e1e9ea2fd1cdf2d9e38fc04.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="SAP Process Automation screenshot: Adding Automation" src="./media_119f47a9f4db210167e1e9ea2fd1cdf2d9e38fc04.png?width=750&#x26;format=png&#x26;optimize=medium" width="3360" height="2100">
+    </picture>
+  </p>
+  <p><em>Build using intuitive drag-and-drop capabilities.</em></p>
+  <h2 id="automate-faster">Automate Faster</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-sap-process-automation-topic-on-sap-community">Explore the SAP Process Automation topic on SAP Community</h3>
+      </div>
+      <div><strong><a href="https://community.sap.com/topics/process-automation">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>SAP Process Automation enables organizations to automate faster by giving users easy access to workflow management, task, and decision automation capabilities in a single tool. Built-in AI capabilities enable users to make their processes more intelligent by leveraging machine learning for decision assistance, <a href="https://blogs.sap.com/2021/10/07/document-information-extraction-activities-in-sap-irpa/">intelligent document processing</a>, and more.</p>
+  <p>The solution provides native integration with SAP applications and connectivity to non-SAP applications to enable automation of complex workflows spanning multiple applications and lines of business.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_164d97f395a18becc44a9f46204d8b58d349b5f3c.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_164d97f395a18becc44a9f46204d8b58d349b5f3c.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_164d97f395a18becc44a9f46204d8b58d349b5f3c.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="SAP Process Automation screenshot: store" src="./media_164d97f395a18becc44a9f46204d8b58d349b5f3c.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="2400">
+    </picture>
+  </p>
+  <p><em>Get started faster with predefined automation content.</em></p>
+  <h2 id="operate-confidently">Operate Confidently</h2>
+  <p>With SAP Process Automation, organizations can manage their processes and automations confidently on the cloud of choice while interoperating with their existing infrastructure. IT departments can empower business users to build process workflows, automations, and decision models while safeguarding operations with centralized governance, testing, and monitoring capabilities.</p>
+  <p>To help ensure compliance and automate processes in a scalable and reliable fashion, the service is designed to meet stringent enterprise-class SLAs, compliance, and privacy regulations.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_140dc6e33337bd0f7033272ab73aea74abe4ddd8f.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_140dc6e33337bd0f7033272ab73aea74abe4ddd8f.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_140dc6e33337bd0f7033272ab73aea74abe4ddd8f.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="SAP Process Automation screenshot: process visibility" src="./media_140dc6e33337bd0f7033272ab73aea74abe4ddd8f.png?width=750&#x26;format=png&#x26;optimize=medium" width="3072" height="1456">
+    </picture>
+  </p>
+  <p><em>Manage all processes and automations in one place.</em></p>
+  <h2 id="how-to-get-started-with-sap-process-automation">How to Get Started with SAP Process Automation</h2>
+  <p>SAP Process Automation will soon be available to try free of charge on the free tier model for SAP Business Technology Platform (SAP BTP). <a href="https://www.sap.com/products/process-automation/get-started.html">Sign up today</a> to be among the first to gain hands-on experience. To learn more, please read “<a href="https://blogs.sap.com/2021/11/17/achieving-hyperautomation-with-sap-process-automation/">Achieving Hyperautomation with SAP Process Automation</a>,” by Sebastian Schroetel, or watch the keynote of season two of our hyperautomation community series: <a href="https://youtu.be/9EA7vwpXhbM?list=PLuwTe-PeCFmmlmUXBfjxy6DH5dow-GaOO">Boost Development Agility and Unleash Innovation with Low-Code/No-Code</a>.</p>
+  <p>We recommend existing SAP Workflow Management or SAP Intelligent Robotic Process Automation customers move to SAP Process Automation and benefit from a no-code development experience, additional workflow management and task automation capabilities, as well as access to a growing number of new pre-built content.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Bhagat Nainani is senior vice president of Product Development at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>product/sap-intelligent-rpa</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Process Automation: Kicking Off a New Generation of Operating Models]]></title>
+            <link>https://www.sap.com/news/2022/01/digital-process-automation-kicking-off-a-new-generation-of-operating-models</link>
+            <guid>https://www.sap.com/news/2022/01/digital-process-automation-kicking-off-a-new-generation-of-operating-models</guid>
+            <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how SAP partners utilize digital process automation to help customers boost business agility and better respond to changing markets.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Digital Process Automation: Kicking Off a New Generation of Operating Models" src="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="digital-process-automation-kicking-off-a-new-generation-of-operating-models">Digital Process Automation: Kicking Off a New Generation of Operating Models</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>More and more, we’re living in a culture of digital innovation and experimentation – and digital process automation represents the latest domain of experimentation. For SAP partners, this is an opportunity to address every conceivable area of need – from job roles to customer experiences and business processes – with SAP Business Technology Platform.</div>
+    </div>
+  </div>
+  <p>The concept of process automation may not be new, but it’s now fueling a wide assortment of business scenarios that go beyond simple processes, tasks, and workflows. Companies are now digitalizing their operations – reaching into their vendor networks, business partners, and customers – to address organizational needs more holistically and strategically.</p>
+  <p>At SAP, many of our partners are using <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP) to help customers take advantage of this trend to build applications that drive revenue growth. By embedding modern automation capabilities in line-of-business systems, they can improve information usability and process efficiency with automation capabilities such as verification workflows, approval processes, content integration, or the retirement of outdated materials and inventory.</p>
+  <p>These examples are only a small glimpse into the automation use cases that SAP BTP can support. Through its operational layer, the platform provides a portfolio of low-code development tools and prebuilt content that can enable our partners and their customers to drive critical improvements with automation.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-business-processes-applications-data-and-experiences-with-sap-btp">Connect business processes, applications, data, and experiences with SAP BTP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="setting-the-foundation-for-performance-improvement">Setting the Foundation for Performance Improvement</h2>
+  <p>When first considering automation, most organizations often think about their processes. Why? To increase their operational efficiency, make better decisions, improve performance and customer satisfaction, and, better yet, allow employees to focus on more strategic work.</p>
+  <p>SAP BTP supports this entry into the automation world by providing <a href="https://www.sap.com/products/business-process-intelligence.html">business process intelligence</a>, empowering users with a low-code and no-code platform, workflow capabilities, robotic process automation (RPA), and machine learning. Our customers can transform their business safely and predictably with proven methodologies for project and process governance and a simulation engine that evaluates the impact of change.</p>
+  <p>With these capabilities, organizations can adopt a range of use cases. For example, <a href="https://www.sap.com/documents/2020/04/ce197ac4-927d-0010-87a3-c30de2ffd8ff.html">Uniper</a> has automated job requisitioning, streamlined processes for requesting and approving time off, and accelerated role authorization, registration, and authentication. In return, the energy market powerhouse realized 50% time savings on plant inspections and 10 times faster data entry for job requisitions.</p>
+  <p>Meanwhile, companies such as <a href="https://www.sap.com/bin/sapdxc/inm/attachment.8577/pitch-deck.pdf">Villeroy &#x26; Boch Group</a> have offloaded rule-based tasks, including the checking, classification, and processing of thousands of documents. This approach freed up employees to focus on nonroutine activities that help maximize business value and improve customer experiences.</p>
+  <h2 id="cultivating-a-portal-that-unifies-work-experiences">Cultivating a Portal That Unifies Work Experiences</h2>
+  <p>When using legacy workflows or out-of-date portals, maintaining a cohesive operation of multiple departments, suppliers, partners, and service providers can be difficult. But SAP BTP can help companies overcome that challenge by providing quick and intuitive mobile access to essential functions, documentation, and resources – everything a business needs to support organizational processes and strengthen information management company-wide.</p>
+  <p>The platform delivers an expanding set of services that enable customers and partners to maximize the value of existing SAP applications – combining access to external data and systems through integration. Our partners can then leverage their expertise and knowledge to extend those digital assets to develop capabilities that, for example, introduce automation into complex processes and workflows and connect internal and external stakeholders.</p>
+  <p>By pulling all these innovations together into a user-friendly portal, the entire business can collaborate and access information anytime and anywhere and use that intelligence to take decisive action on risks and opportunities. Administrative processes and workflows are further simplified with a streamlined user interface, while systems and data are kept secure with authentication.</p>
+  <p>By adopting this use case for SAP BTP, food exporter <a href="https://dam.sap.com/mac/u/a/kM72htV.htm">SunRice</a> teamed up with SAP partner Bourne Digital Pty. Ltd. to extend existing systems and enhance its growers’ portal.</p>
+  <h2 id="inspiring-lasting-connections-between-people-and-business">Inspiring Lasting Connections Between People and Business</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="harness-your-intellectual-property-and-take-it-to-market-as-an-sap-partner">Harness your intellectual property and take it to market as an SAP partner</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/partner/become/partneredge-build.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>On a journey to modernization, most companies choose to overhaul their aging legacy systems, cumbersome processes, and paper-based reporting to improve operational efficiency so they can adapt quickly to changing market conditions.</p>
+  <p>One approach that many customers follow is migrating to <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA Cloud</a> and implementing the <a href="https://www.sapstore.com/solutions/42339/SAP-Workflow-Management">SAP Workflow Management</a> service and the <a href="https://www.sap.com/products/cloud-analytics.html">SAP Analytics Cloud</a> solution, all of which are part of SAP BTP. With the help of a partner, customers can embed analytics capabilities into existing business applications and establish enterprise-wide governance to help optimize the management of general ledgers, revenue, and expenses. Then, they can quickly transform their enterprise resource planning (ERP) data to automate tasks such as financial and management reporting.</p>
+  <p>The benefits of system automation can quickly add up as individual process efficiencies are combined, resulting in reduced administration and reporting times, consolidation of financial results, and elimination of manual processes. Business planners can also leverage strategic dashboards generated by SAP Analytics Cloud to gain near-real-time insights into critical performance indicators. Additionally, with the inclusion of SAP S/4HANA Cloud, they can analyze scenarios, create forecasts, and predict future growth.</p>
+  <p>Emulating the above path, <a href="https://www.sap.com/documents/2020/09/3c1db458-ad7d-0010-87a3-c30de2ffd8ff.html">Taronga Conservation Society Australia</a> and its software partner Bluetree Pty. Ltd. automated financial and management reporting, streamlined data-driven decision-making, and delivered a superior user experience.</p>
+  <h2 id="improving-the-customer-experience-from-lead-to-order">Improving the Customer Experience from Lead to Order</h2>
+  <p>Automating lead-to-order processes is particularly interesting to companies that characterized their customer experiences with fast response times, little to no fulfillment errors, and inventory accuracy. Yet, even more compelling is the opportunity to enhance order visibility, efficiency, and integration from early marketing touchpoints to deal closure and beyond – accelerating customer loyalty and fueling profitable business growth.</p>
+  <p>SAP customers can adopt this use-case scenario with a <a href="https://api.sap.com/package/com.ibm.bpm.ep.lto.iworkflowforleadtoorder/overview">lead-to-order intelligent workflow API package</a> – developed and maintained by one of our partners, IBM. The package spans multiple solutions such as SAP S/4HANA Cloud and the <a href="https://www.sap.com/canada/products/crm/products.html#active_tab=item_1602592296240">SAP Customer Experience portfolio</a>, which spans sales automation and configure, price, and quote (CPQ) solutions.</p>
+  <p>Similar chatbot-enabled scenarios enable organizations to benefit from the automatic and rapid dissemination of relevant sales intelligence, price optimizations, and a real-time outlook into sales and pipeline performance. Furthermore, they can create lead and CPQ processes integrated with customer self-services, providing a collaborative customer experience beginning with the first interaction.</p>
+  <h2 id="taking-business-intelligence-to-the-next-level">Taking Business Intelligence to the Next Level</h2>
+  <p>The more companies digitally transform, the more agile, efficient, and innovative they expect to be. And of course, they see digital process automation as a critical milestone in their journey to becoming an intelligent enterprise.</p>
+  <p>But this form of digitalization is much more than automating basic processes and workflows. It also expands existing systems and data and adapts them to meet new regulatory requirements, innovative business functions, emerging customer expectations, and more.</p>
+  <p>By using SAP BTP as their unified and open platform for innovation, partners can help customers increase their business agility while adapting and responding to changing requirements and conditions. Furthermore, the addition of intelligent automation can boost customer satisfaction as new efficiencies are gained through the redirection of resources toward higher-value activities and the reinvention of workflows that enable a continuous stream of process improvements.</p>
+  <p>Most importantly, our partners and customers are supported by the business, industry, and technical knowledge of a global ecosystem. Together, with SAP BTP and our enablement services, they can optimize the use of our back-end technology and understand our application life cycle and road map – all with a focus on shaping their unique vision of an intelligent enterprise.</p>
+  <p>To learn more about how SAP partners are helping businesses succeed with a unified technology platform, <a href="/author/jagdishsahasrabudhe">explore my other articles</a>. If you’re interested in software partnership opportunities with SAP, check out <a href="https://www.sap.com/partner/become/partneredge-build.html">SAP PartnerEdge, Build</a>. If you’re already a partner, check out these exciting initiatives: <a href="https://events.sap.com/hack2build/en/home">Hack2Build</a> and <a href="https://www.sap.com/about/company/innovation/coil.html">SAP Co-Innovation Lab</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Jagdish Sahasrabudhe is CTO of Global Partner Organization at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Now Provides a Unified Low-Code/No-Code Offering]]></title>
+            <link>https://www.sap.com/news/2021/11/sap-now-provides-unified-low-code-no-code-offering</link>
+            <guid>https://www.sap.com/news/2021/11/sap-now-provides-unified-low-code-no-code-offering</guid>
+            <pubDate>Tue, 16 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP BTP allows customers to achieve business agility, specifically with the help of the new unified low-code/no-code offering. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Now Provides a Unified Low-Code/No-Code Offering" src="./media_13f25959e37ea308f738565d586dacbd74230cff3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-now-provides-a-unified-low-codeno-code-offering">SAP Now Provides a Unified Low-Code/No-Code Offering</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP Business Technology Platform (SAP BTP) allows our customers to achieve business agility, specifically with the help of our new unified low-code/no-code offering. With our low-code and no-code capabilities, we enable everyone to deliver innovation faster and confidently across all lines of business and industries.</div>
+    </div>
+  </div>
+  <p>SAP provides:</p>
+  <ul>
+    <li><strong>An integrated suite of end-to-end business applications</strong> to run your business across all industries and lines of business</li>
+    <li><strong>A comprehensive business-centric platform</strong>, with a unified programming model and unified design system, bringing IT and business together to modernize processes and enable rapid innovation – now</li>
+  </ul>
+  <p>The low-code/no-code offering services in SAP BTP empower IT and citizen developers alike to quickly build enterprise-ready apps, automations, workflows, and chatbots no matter their skill level or coding expertise. Our customers can build enterprise apps fast with SAP’s unified development experience and an ever-growing array of pre-built business content for any line of business, all natively integrated with your SAP applications.</p>
+  <p>Examples include <a href="https://store.irpa.cfapps.eu10.hana.ondemand.com/#/explore/order=last-updated%2Cdesc">more than 260 pre-built robotic processing automation (RPA) bots</a> to automate tasks in any line of business – be it finance, sourcing and procurement, manufacturing, sales, and services – and almost <a href="https://api.sap.com/content-type/Workflow/workflowmanagement/packages">40 live process content packages</a> for the SAP Workflow Management service.</p>
+  <p>Another example is SAP SuccessFactors Work Zone, which offers a prepackaged experience specifically to address the needs of HR organizations based on SAP Work Zone, with additional functionality such as workflow and mobile services. It has been <a href="/2021/09/hr-executive-top-product-sap-successfactors-work-zone">recognized recently as a Top HR Product</a> by <a href="https://hrexecutive.com/">Human Resource Executive</a> and the <a href="https://www.hrtechnologyconference.com/">HR Technology Conference</a>. Additionally, SAP Business Application Studio comes with pre-built components, wizards, and sample apps.</p>
+  <p>SAP unifies the developer experience with low-code and no-code enhancements on SAP BTP to help:</p>
+  <ul>
+    <li><strong>Maximize speed and agility</strong> and <strong>reduce total cost of ownership (TCO)</strong> through accelerated delivery</li>
+    <li><strong>Bridge the gap</strong> and <strong>increase adoption</strong> through co-development between business and IT</li>
+    <li><strong>Enhance return on investment (ROI)</strong> by leveraging existing investments through seamless integrations</li>
+    <li><strong>Accelerate time to value</strong> by implementing best practices with pre-built content packages</li>
+  </ul>
+  <p>Our low-code/no-code offering covers three areas:</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Diagram explaining the new low-code/no-code offering" src="./media_1ba9fc49787f0db173238260324e73caf06eb2b55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1696" height="762">
+    </picture>For <strong>process automation</strong>, we offer SAP Workflow Management and SAP Intelligent RPA, enabling citizen developers to easily build workflows and to automate tasks. On top of that, SAP Process Automation can bring no-code process automation to the next level. SAP Process Automation is currently available for co-innovation partners, with general availability planned for the first quarter of 2022.
+  </p>
+  <p>For <strong>low-code/no-code application composition</strong>, we launched SAP AppGyver and new functionalities in SAP Business Application Studio to enable the entire developer continuum to accelerate application development. SAP AppGyver allows citizen developers to build highly sophisticated standalone applications or extensions without writing a single line of code. With SAP Business Application Studio, we also deliver a simplified application development journey to the professional developer with a low-code perspective.</p>
+  <p>In the area of <strong>digital experience</strong>, we are offering SAP Work Zone, SAP Launchpad, and SAP Mobile Start to help drive employee productivity and make newly built apps available to everyone in the company.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP BTP: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="what-else-is-new-at-sap-teched">What Else Is New at SAP TechEd?</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-acquires-no-code-development-pioneer-appgyver">SAP Acquires No-Code Development Pioneer AppGyver</h3>
+      </div>
+      <div><strong><a href="/2021/02/sap-acquire-appgyver">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Let’s go into some specifics for each of the areas in our new unified low-code/no-code offering:</p>
+  <ul>
+    <li>SAP Business Application Studio has seen a dramatic improvement in development productivity through the low-code/no-code experience now available.</li>
+    <li>We’ve also fully integrated the acquisition in the no-code space. SAP AppGyver is now part of CPEA, available to all our customers as well as planned through the free tier model in the first quarter of 2022.</li>
+    <li>We’ve made significant improvements in our SAPUI5 technology performance, which can be of immediate benefit to SAP S/4HANA and any other SAP product built on top of the technology within SAP BTP.</li>
+    <li>Launching SAP Process Automation brings an elevated user experience for citizen automation in a no-code development environment. To make citizen developers fully productive, the new solution provides end-to-end automation capabilities leveraging advanced workflow management and embedded RPA functionality in a simple drag-and-drop user interface.</li>
+    <li>Last but not least, we’ve delivered artificial intelligence (AI) into our workflow engine, so that the AI system monitors the context with which you approve or not on a given workflow, building up the relevant models of your approval process flow. Your workflow becomes more and more intelligent over time, out of the box.</li>
+  </ul>
+  <p>I invite you to attend SAP TechEd sessions to learn more about our low-code/no-code offering and how SAP BTP is now accessible to anyone. You’ll find a selection of personally recommended sessions below. Let’s explore together how SAP BTP can help you rapidly integrate, automate, and extend business processes for security and performance at scale across your organization.</p>
+  <div class="promo">
+    <div>
+      <div><strong>Recommended Sessions</strong></div>
+    </div>
+  </div>
+  <p><em>Michael Weingartner is president of SAP Business Technology Platform Core at SAP.</em></p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sap-teched">Read more news and coverage from SAP TechEd</h3>
+      </div>
+      <div><strong><a href="/topics/sap-teched">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rpa</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-intelligent-rpa</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Low-Code/No-Code Development and Citizen Automation: The Future of Enterprise Resilience]]></title>
+            <link>https://www.sap.com/blogs/2021/03/low-code-no-code-development-citizen-automation-enterprise-resilience</link>
+            <guid>https://www.sap.com/blogs/2021/03/low-code-no-code-development-citizen-automation-enterprise-resilience</guid>
+            <pubDate>Mon, 22 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is well-positioned to provide the expertise and tooling needed advance citizen automation with low-code/no-code digital transformation.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e8cc772c57123d7bd84de6b58c34b1a0bdacf9d2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e8cc772c57123d7bd84de6b58c34b1a0bdacf9d2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1e8cc772c57123d7bd84de6b58c34b1a0bdacf9d2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Low-Code/No-Code Development and Citizen Automation: The Future of Enterprise Resilience" src="./media_1e8cc772c57123d7bd84de6b58c34b1a0bdacf9d2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="low-codeno-code-development-and-citizen-automation-the-future-of-enterprise-resilience">Low-Code/No-Code Development and Citizen Automation: The Future of Enterprise Resilience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-empowers-developers-with-low-codeno-code-tools">SAP Empowers Developers with Low-Code/No-Code Tools</h3>
+      </div>
+      <div><strong><a href="/2020/12/empower-developers-low-code-no-code-tools-sap-btp-enhancements">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>It’s been a long time since developers have hand-coded everything from scratch. I remember being an IT systems engineer at the Hasso Plattner Institute in 2007 — things were very different than they are today.</div>
+    </div>
+  </div>
+  <p>Since then, the <strong>demand for professional developer talent has continued to grow</strong> faster than the world can educate them. In part to deal with this challenge, technology developers have increasingly composed software by working with libraries and the like, rather than rewriting the same code over and over. Working this way saves time and gives more agility.</p>
+  <p>Today, the latest progression of this trend can be found in the low–code and no–code (LCNC) solutions for application development, extensibility services, experience management, and end-to-end process automation.</p>
+  <p><a href="/covid-19">COVID-19</a> is considered an accelerant for digital process automation — it is, of course — but the space was already rapidly developing. LCNC solutions that empower more employees to digitize and automate their work offer a pathway to greater enterprise resilience. The pandemic brings the benefits of such agility into stark contrast, further propelling adoption. Take robotic process automation (RPA) for example, where Gartner predicts “<a href="https://www.gartner.com/en/newsroom/press-releases/2020-09-21-gartner-says-worldwide-robotic-process-automation-software-revenue-to-reach-nearly-2-billion-in-2021">90% of large organizations globally will have adopted RPA in some form by 2022</a>.”*</p>
+  <p>The goal of these technologies is to allocate human resources more intelligently and to empower the end user — the professional developer as well as the citizen developer — to focus on more valuable work while taking control of digitizing and automating their processes. <strong>LCNC is faster, more efficient, and frees up professional developer time for more complex activities</strong>, like security and big migration/integration projects. Most importantly, LCNC and automation technology build systemic resiliency and responsiveness into the daily functioning of a large organization, while fostering compliance and governance, with defined workflows and clear responsibilities.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1778aa7cea65ebd0f205aee6fff75d5907897bf1d.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1778aa7cea65ebd0f205aee6fff75d5907897bf1d.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1778aa7cea65ebd0f205aee6fff75d5907897bf1d.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Graphic: SAP BTP value drivers and challenges" src="./media_1778aa7cea65ebd0f205aee6fff75d5907897bf1d.png?width=750&#x26;format=png&#x26;optimize=medium" width="4626" height="3732">
+    </picture>
+  </p>
+  <p><em>Click to enlarge</em></p>
+  <p>As large companies aim to become more future-proof, they see LCNC and automation platforms as an immediate opportunity on the horizon. Gartner indicates that “<a href="https://www.gartner.com/en/documents/3991199/magic-quadrant-for-enterprise-low-code-application-platf">by 2023, over 50% of medium to large enterprises will have adopted an LCAP as one of their strategic application platforms</a>.”</p>
+  <p>Low-code application development platforms (LCAPs) mainly provide tools and services to easily set up and configure processes and workflows, whereas automation platforms enable companies to easily automate recurring manual work. This begins with the conversion of paper-based processes into digitized workflows then leads to the seamless combination of digital workers with human-led processes.</p>
+  <p>With decades of process knowledge across industries and lines of business, SAP is well-positioned to provide the expertise and tooling needed by our customers to advance automation with LCNC digital transformation.</p>
+  <p>We are firmly established with <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP) and citizen automation products for Business Process Improvement such as <a href="https://community.sap.com/topics/workflow-management">SAP Workflow Management</a> and <a href="https://community.sap.com/topics/intelligent-rpa">SAP Intelligent RPA</a>. And we have further extended our competitiveness with the recent acquisitions of <a href="/2021/01/sap-to-acquire-signavio">Signavio</a> and <a href="/2021/02/sap-acquire-appgyver">AppGyver</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP BTP: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Signavio strengthens SAP’s ability to keep the promise to support customers in their digital transformations by offering a holistic approach and technology in the business process intelligence space. Signavio enhances existing capabilities and allows us to provide standardized process KPIs, broad benchmarking data, process mining, customer journey mapping, user behavior mining, and customer experience analysis. We can give users a complete view of every business process and recommend how to solve identified issues and drive change efficiently.</p>
+  <p>AppGyver is a pioneering no-code development platform with a strong developer community that complements both SAP’s own as well as our partners’ offerings for citizen developers. The cloud-based builder for creating web and mobile apps is extremely simple yet immensely powerful; users can visually craft logic flows of any complexity, access native device capabilities, and connect to SAP data and services (and any additional third-party APIs) via OData and other REST API integrations.</p>
+  <p>Further to that, SAP has already been partnering with Mendix to offer a low-code development platform, streamlining and simplifying development for professional developers. Mendix and AppGyver enhance SAP BTP with full flexibility and capabilities that allow business users to build web and mobile applications, from low–code to no–code.</p>
+  <p>With these additions to our strong portfolio, SAP BTP is in a unique position to help many customers implement digital transformation for end-to-end process automation. For example, <a href="https://www.sap.com/bin/sapdxc/inm/attachment.10549/pitch-deck.pdf">Murphy Oil Corporation</a> was able to achieve significant productivity gains and improved forecast planning through different initiatives leveraging SAP Business Technology Platform, in particular SAP Workflow Management and SAP Intelligent RPA. Standardization resulted in better decision-making, and the use of more granular trend analysis resulted in a 25% reduction of G&#x26;A expenses.</p>
+  <p>Looking to the future, the landscape is changing but the demand for professional developers remains high and growing. Companies continue to evolve on their <strong>mission for greater speed and agility</strong>, with a particular eye on their citizen developers as the next major agents for expanding digital capabilities. The breadth of the SAP technology portfolio, our process knowledge across all lines of business, and the high-value data running through SAP systems translate into solutions for our users and measurable outcomes for our customers.</p>
+  <p>As we create a unified, business-centric, and open platform with a marketplace for the Intelligent Enterprise, customers, partners, and cloud users can count on SAP for future-proofed <strong>resilience</strong>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Juergen Mueller is CTO and a member of the Executive Board of SAP SE.</em><br><em><a href="https://blogs.sap.com/2021/03/18/low-code-no-code-development-and-citizen-automation-are-the-future-of-enterprise-resilience/">This story previously appeared on SAP Community</a>.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/low-code-no-code</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-intelligent-rpa</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+    </channel>
+</rss>

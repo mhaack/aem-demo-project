@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/enterprise-performance-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 04 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP a Leader in New IDC MarketScape for Worldwide Enterprise Planning]]></title>
+            <link>https://www.sap.com/news/2023/01/idc-marketscape-worldwide-enterprise-planning-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2023/01/idc-marketscape-worldwide-enterprise-planning-sap-a-leader</guid>
+            <pubDate>Wed, 04 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a leader in the IDC MarketScape for Worldwide Enterprise Planning, Budgeting, and Forecasting Applications 2022 Vendor Assessment.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/enterprise-performance-management</category>
+            <category>news-tag/idc</category>
+            <category>product/sap-analytics-cloud</category>
+        </item>
+    </channel>
+</rss>

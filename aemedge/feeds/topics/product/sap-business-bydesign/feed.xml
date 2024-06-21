@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-business-bydesign/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 28 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[From Cornwall UK, Turning Farmyard Waste Into Pioneering Clean Energy]]></title>
+            <link>https://www.sap.com/news/2021/09/bennamann-turning-farmyard-waste-into-clean-energy</link>
+            <guid>https://www.sap.com/news/2021/09/bennamann-turning-farmyard-waste-into-clean-energy</guid>
+            <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Clean energy pioneer Bennamann is transforming farmyard waste and managed grassland into an alternate source of sustainable fuel. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/renewable-energy</category>
+            <category>product/sap-business-bydesign</category>
+        </item>
+        <item>
+            <title><![CDATA[SMEs: Small CO2 Footprint, Big Climate Impact]]></title>
+            <link>https://www.sap.com/news/2021/04/carbon-footprint-of-smes-impact</link>
+            <guid>https://www.sap.com/news/2021/04/carbon-footprint-of-smes-impact</guid>
+            <pubDate>Thu, 15 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pressure is on to manage the carbon footprint of SMEs, as large companies pass their carbon-neutral goals requirements on.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SMEs: Small CO2 Footprint, Big Climate Impact" src="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="smes-small-co2-footprint-big-climate-impact">SMEs: Small CO2 Footprint, Big Climate Impact</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>More than 90% of the world’s businesses are small and midsize enterprises (SMEs), and their combined CO<sub>2</sub> footprint, while not easily calculated, exceeds that of large enterprises.</div>
+    </div>
+  </div>
+  <p>The challenge this presents is huge, but so are the rewards. In Europe alone, <a href="https://www.oecd-ilibrary.org/environment/smes-key-drivers-of-green-and-inclusive-growth_8a51fc0c-en">SMEs contribute up to 70% of industrial pollution</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-how-sap-is-working-to-make-sustainability-profitable-and-profitability-sustainable">Explore how SAP is working to make sustainability profitable and profitability sustainable</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/company/purpose-and-sustainability.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="change-in-the-air">Change in the Air</h2>
+  <p>SMEs have <a href="https://www.oecd.org/greengrowth/GGSD_2018_SME%20Issue%20Paper_WEB.pdf">traditionally experienced less environmental scrutiny and regulation</a> compared with large corporations. But change is in the air. Pressure to act is <a href="https://hbr.org/2021/03/what-bidens-sustainability-agenda-means-for-business">is mounting on SMEs</a> as large companies pass their requirements on to suppliers.</p>
+  <p>BMW is a case in point. In July 2020, the German auto group <a href="https://www.press.bmwgroup.com/global/article/detail/T0312166EN/no-premium-without-responsibility-bmw-group-makes-sustainability-and-efficient-resource-management">announced CO<sub>2</sub> targets for its supply chain</a> of well over 10,000 suppliers, with the goal of reducing emissions per vehicle produced by at least one-third. The company uses carbon footprint as a criterion for awarding contracts for everything from materials and components to production equipment and tools. “Our aim is to ensure the most sustainable supply chain in the entire industry,” says Oliver Zipse, chairman of the Board of Management at BMW.</p>
+  <p>BMW’s German competitor Mercedes-Benz announced that more than 75% of its suppliers are committed to supplying CO₂-neutral parts to help it achieve its 2039 ambition of CO₂ neutrality.</p>
+  <p>Other examples of large enterprises that are working with their suppliers to reduce carbon footprint include <a href="https://www.tetrapak.com/sustainability/environmental-impact/suppliers">Tetra Pak</a> and <a href="https://www.basf.com/global/en/who-we-are/sustainability/we-produce-safely-and-efficiently/energy-and-climate-protection/corporate-carbon-footprint.html">BASF</a>. Nearly half of CEOs at large companies are targeting sustainability in their business operations, according to the <a href="https://www.unglobalcompact.org/library/5716">2019 UN Global Compact Progress Report</a>.</p>
+  <p>But it is not only the supply chain leaders that are adding climate action to their corporate policies. Increasingly investors, shareholders, consumers, and employees are looking to business to adopt ambitious climate-related targets. Countries, cities, states, and provinces are also adding to the pressure. Over <a href="https://carbonpricingdashboard.worldbank.org/">60 carbon-pricing initiatives have already been implemented</a> or are planned worldwide. National and international regulations may soon require <a href="https://www.environdec.com/about-us/the-international-epd-system-about-the-system">environmental impact information</a> to be provided on product labels and descriptions.</p>
+  <h2 id="open-questions-without-adequate-answers">Open Questions Without Adequate Answers</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="information-sheet-manage-your-green-line-with-sap-business-ecology-management">Information sheet: Manage your green line with SAP Business Ecology Management</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2020/11/421f493b-ba7d-0010-87a3-c30de2ffd8ff.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Matthias Weigold is familiar with the complex world in which SMEs currently find themselves. The director of the Institute for Production Management, Technology, and Machine Tools (PTW) at the Technical University Darmstadt is partnering with German manufacturers to test scenarios for energy efficiency and flexibility in manufacturing processes based on the availability of renewable energy sources.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot: Matthias Weigold" src="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="850" height="800">
+    </picture>
+  </p>
+  <p><em>Image courtesy of PTW</em></p>
+  <p>“Many SMEs hear their primary customers saying, ‘Do something about your carbon footprint and do it fast.’ They are faced with a mountain of open questions without adequate answers,” he explains. “SMEs also know that if they react too slowly and without the necessary level of detail, they could lose their most valuable customers.”</p>
+  <p>To satisfy the demands of their customers for low-carbon production, SMEs will increasingly need to adapt their manufacturing operations to the pricing fluctuations associated with the energy mix of fossil and renewable energy. The scenarios are no longer hypothetical, according to Weigold: “Exceptionally <a href="https://energypost.eu/negative-electricity-prices-lockdowns-demand-slump-exposes-inflexibility-of-german-power/">sunny and windy periods during 2020</a> led wholesale electricity prices to go negative in Germany.”</p>
+  <p>Complicating the situation are the myriad national policies and timelines worldwide, says Weigold, who provides an example. “Over 80% of the machine tools made in Germany are exported, with the lion’s share going to manufacturers in China. Now that <a href="https://climateactiontracker.org/climate-target-update-tracker/china/">China has proposed updated targets in December 2020</a>, German SMEs are unsure how they should react.”</p>
+  <p>At the <a href="https://eta-fabrik.de/">ETA model factory in Darmstadt</a> which makes it possible to test various production scenarios under real-world conditions, SAP and PTW are modeling enterprise resource planning (ERP) software to the manufacturing environment.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="ETA-Fabrik" src="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1500" height="1032">
+    </picture>
+  </p>
+  <p><em>Image courtesy of Andreas Körner</em></p>
+  <p>“By bringing two worlds together — the business software layer and the operational layer — we can influence the efficiency and flexibility of manufacturing processes,” Weigold says, adding that it is the first project of its type worldwide.</p>
+  <h2 id="turning-climate-action-into-a-competitive-advantage">Turning Climate Action into a Competitive Advantage</h2>
+  <p>SAP expects the cooperation with PTW to help it refine its new software package that enables CO<sub>2</sub> accounting for SMEs over the entire supply chain. The <a href="https://www.sap.com/documents/2020/11/421f493b-ba7d-0010-87a3-c30de2ffd8ff.html">SAP Business Ecology Management</a> solution makes it possible for companies to manage the CO<sub>2</sub> footprint for each product by combining their existing ERP system — for example, SAP Business One or SAP Business ByDesign — with an energy flow model for the process. SAP partners worldwide will be responsible for applying the solution to customers’ individual and industry needs.</p>
+  <p><a href="https://rdcu.be/cgzMZ">Studies show</a> that SMEs are prepared to manage their carbon emissions if they have the necessary support and tools. The recently launched <a href="https://smeclimatehub.org/">SME Climate Hub</a> is a brokerage for such resources. With a growing number of members, the hub could serve as a vital part of the implementation of ambitious corporate climate action.</p>
+  <p>Emissions are typically divided into three categories, or <a href="https://compareyourfootprint.com/difference-scope-1-2-3-emissions/">Scopes</a>. The main targets of SAP Business Ecology Management are the Scope 1 and Scope 2 emissions of SMEs, which directly impact the upstream Scope 3 emissions of their customers.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot: Jochen Mayerle" src="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="800" height="800">
+    </picture>
+  </p>
+  <p><em>Jochen Mayerle</em></p>
+  <p>“Supply chains make up the part of the carbon footprint, which are not under direct influence of a company, but have the highest reduction potential because they give organizations insight into the hot spots in their supply chain,” says Jochen Mayerle, business process architect, SAP.</p>
+  <p>Mayerle emphasizes that the new product is designed to be easy to use and its implementation does not require the hiring of an expert in sustainability. Niels Hermansen, founder of the Danish SAP partner BitPeople A/S, based in Denmark, agrees. “I like that SAP has taken the initiative in this area,” Hermansen says. “It understands that SMEs have the same requirements as big companies, but do not have the same resources.”</p>
+  <p>SAP Business Ecology Management is currently being testing by numerous customers and is planned for launch the third quarter of 2021.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Sandra Thiel, Agile expert, and Chris Horak, global vice president of Solution Marketing, contributed to this story.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/sme</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/climate-21</category>
+            <category>product/sap-business-bydesign</category>
+            <category>product/sap-business-one</category>
+        </item>
+    </channel>
+</rss>

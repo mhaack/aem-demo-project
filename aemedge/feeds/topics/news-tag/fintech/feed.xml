@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/fintech/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 12 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Vast Bank Is Redefining the Banking Industry with SAP]]></title>
+            <link>https://www.sap.com/news/2022/04/vast-bank-redefining-banking-industry</link>
+            <guid>https://www.sap.com/news/2022/04/vast-bank-redefining-banking-industry</guid>
+            <pubDate>Tue, 12 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vast Bank worked with SAP to create a seamless user experience alongside real-time data and analytics. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>industry/banking</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/fintech</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+    </channel>
+</rss>

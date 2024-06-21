@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/schedule-an-expert/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 27 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Putting the “Real” in Real-Time Support]]></title>
+            <link>https://www.sap.com/news/2023/06/putting-the-real-in-real-time-support</link>
+            <guid>https://www.sap.com/news/2023/06/putting-the-real-in-real-time-support</guid>
+            <pubDate>Tue, 27 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Real-Time Support approach aims to make the overall experience simpler and more personal and human. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/schedule-an-expert</category>
+        </item>
+        <item>
+            <title><![CDATA[Real-Time Support Channels Take Big Steps Forward in Customer Care]]></title>
+            <link>https://www.sap.com/news/2023/02/real-time-support-big-steps-forward-customer-care</link>
+            <guid>https://www.sap.com/news/2023/02/real-time-support-big-steps-forward-customer-care</guid>
+            <pubDate>Wed, 22 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With Real-Time Support, SAP is moving towards a bidirectional, predictive, and effortless support future. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/expert-chat</category>
+            <category>news-tag/product-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-for-me</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/schedule-a-manager</category>
+            <category>news-tag/schedule-an-expert</category>
+        </item>
+    </channel>
+</rss>

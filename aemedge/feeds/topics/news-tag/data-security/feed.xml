@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/data-security/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 28 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Fully Homomorphic Encryption: Data Insights Without Sharing Data]]></title>
+            <link>https://www.sap.com/news/2024/03/fully-homomorphic-encryption-insights-without-sharing-data</link>
+            <guid>https://www.sap.com/news/2024/03/fully-homomorphic-encryption-insights-without-sharing-data</guid>
+            <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Fully homomorphic encryption enables access to information while minimizing privacy risks and thwarting data breaches. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/data-privacy</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[Sharing Data Without Sharing It: Secure Computation with Bosch]]></title>
+            <link>https://www.sap.com/news/2023/12/sharing-data-without-sharing-it-secure-computation-bosch</link>
+            <guid>https://www.sap.com/news/2023/12/sharing-data-without-sharing-it-secure-computation-bosch</guid>
+            <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Bosch have joined forces to harness secure computation, helping enable privacy-preserving data analysis across businesses.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/sap-innovation-center-network</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud]]></title>
+            <link>https://www.sap.com/news/2023/03/zero-trust-data-protection-security-and-privacy-in-cloud</link>
+            <guid>https://www.sap.com/news/2023/03/zero-trust-data-protection-security-and-privacy-in-cloud</guid>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[To secure data and operations in a hybrid work environment, companies have been adopting a zero trust approach. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud" src="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="zero-trust-for-the-highest-level-of-data-protection-security-and-privacy-in-the-cloud">Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When Rihanna sang some of her greatest hits suspended on a platform that hovered 15 to 60 feet above the stadium at this year’s <a href="/2023/02/the-take-super-bowl-lvii-supply-demand">Super Bowl</a>, trust in technology was of utmost importance. On the same note, trust is crucial when it comes to an organization’s security on every platform it operates.</div>
+    </div>
+  </div>
+  <p>Data privacy, risk management, and cybersecurity remain key priorities for businesses in 2023 to ensure continuous high performance and to catapult to new heights. In a recent <a href="https://www.cio.com/article/306384/state-of-the-cio-2022-focus-turns-to-it-fundamentals.html">CIO Magazine survey</a>, 43% of survey respondents said that they plan to upgrade IT and data security to reduce corporate risks. That includes security and data protection measures to keep their data safe. This becomes even more important when moving to and operating in a cloud enterprise resource planning (ERP) environment to drive continuous innovation. In the same CIO survey, 12% of the respondents said that they are planning to accelerate the move to the cloud as a service.</p>
+  <h2 id="adopt-a-zero-trust-security-approach-for-the-cloud">Adopt a Zero Trust Security Approach for the Cloud</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-about-security-at-sap">Read more about security at SAP</h3>
+      </div>
+      <div><strong><a href="/topics/security">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>To secure data and operations in a hybrid work environment, companies have been adopting a zero trust approach. <a href="https://www.forrester.com/blogs/the-definition-of-modern-zero-trust/">Forrester</a> defines zero trust as an “information security model that denies access to applications and data by default. Threat prevention is achieved by only granting access to networks and workloads utilizing policy, informed by continuous, contextual, risk-based verification across users and their associated devices.”</p>
+  <p>According to 2022 global survey data published by <a href="https://www.statista.com/statistics/1228254/zero-trust-it-model-adoption/">Statista</a>, 39% of companies have already begun to roll out a zero trust solution and 41% of companies have plans to adopt a zero trust strategy and are in the early phases of doing so.</p>
+  <p>My principle in life is to trust people and systems until I am provided a reason not to. The zero trust principle is the exact opposite of this.</p>
+  <p>The zero trust approach has three key principles: all entities and users are untrusted by default until authorized, the least privilege access is enforced, and extensive security monitoring is in place. In short, no connections to corporate networks and systems should be trusted at sight. All users, devices, and systems need to be authenticated, reverified, and continuously monitored when accessing networks, systems, and data.</p>
+  <p>Adopting this approach to cloud transformation has become the leading industry standard to keep operations and data safe across the entire virtual and physical network infrastructure.</p>
+  <p>Here are some best practices for putting an enterprise security plan in place that utilizes zero trust concepts to run operations safely and securely in the cloud.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="organizations-around-the-world-trust-sap-with-their-data">Organizations around the world trust SAP with their data</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/trust-center.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="define-clear-security-roles-and-responsibilities">Define Clear Security Roles and Responsibilities</h3>
+  <p>First and foremost, ensuring security is always a shared responsibility between companies and their cloud transformation partners. It is a common goal and commitment that is independent of the type of cloud path companies take.</p>
+  <p>Like with any shared responsibility, the best way to approach it is by defining the roles and responsibilities up front. This process starts by asking these key questions: who is managing the cloud, how will everyone work together to secure the cloud, who is responsible for which part, and where are dependencies?</p>
+  <p>This will ensure that there is a clear strategy and plan to monitor and implement security policies and measures.</p>
+  <h3 id="keep-an-eye-on-users-devices-network-applications-and-monitoring">Keep an Eye on Users, Devices, Network, Applications, and Monitoring</h3>
+  <p>Based on our experience at SAP Enterprise Cloud Services, another best practice is to focus the zero trust security approach on five pillars: users, devices, networks, applications, and monitoring.</p>
+  <p>Eighty-seven percent of organizations consider the <strong>application</strong> layer as being the front door for data breaches. Most data breaches through cyberattacks happen because <strong>users</strong> fail to keep their credentials safe or fall prey to false identities. In addition, the number of remote users with their own <strong>devices</strong> has significantly increased in enterprise <strong>networks</strong> as well as the number of cloud-based assets that are not located within an enterprise-owned network boundary.</p>
+  <p>By regulating and <strong>monitoring</strong> user access to devices, networks, and applications, companies can protect all their resources, including assets, services, workflows, and network accounts. For example, identity management systems can manage privileged user authentication and access at a very granular level. This includes keeping administrative accounts separate from corporate accounts and applying encryption to several layers in the IT environment. Data classification makes it possible to associate the security levels with specific types of data, regardless of where that data resides – in the cloud, at endpoints, or in owned data centers.</p>
+  <h2 id="scaling-security-needs-faster-with-the-cloud">Scaling Security Needs Faster with the Cloud</h2>
+  <p>While managing the complexity of security needs for cloud transformations can be daunting, here is an added merit: companies can scale their security needs much faster in the cloud, according to <a href="https://www2.deloitte.com/ca/en/pages/insight/articles/how-to-accelerate-cloud-adoption-with-security-by-design.html">Deloitte</a> research. Benefits include better automation capabilities as well as higher storage and data capacity in the cloud. Companies can push infrastructure as code and fix a security problem in real time when operating in the cloud. Automation also helps in increasing the maturity of identity management and security management systems. <a href="https://www2.deloitte.com/ca/en/pages/insight/articles/how-to-accelerate-cloud-adoption-with-security-by-design.html">Deloitte</a> recommends embracing cybersecurity as a differentiator to promote greater stakeholder trust and better use of cloud-native solutions that take advantage of the cloud’s full potential.</p>
+  <p>In other words, you can shine like a diamond on your cloud platform of choice with a zero trust security approach for the cloud.</p>
+  <div class="quote">
+    <div>
+      <div>For more information, visit the <a href="https://www.sap.com/about/trust-center.html">SAP Trust Center</a> site and read this <a href="https://www-forbes-com.cdn.ampproject.org/c/s/www.forbes.com/sites/sap/2021/07/29/5-cybersecurity-tactics-to-protect-the-cloud/amp/">Forbes article by Roland Costea,</a> chief security officer for SAP Enterprise Cloud Services.</div>
+    </div>
+    <div>
+      <div>Peter Pluim is president of SAP Enterprise Cloud Services and SAP Sovereign Cloud Services.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>content-type/feature</category>
+            <category>topic/erp</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/data-privacy</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/enterprise-risk-management</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[Safeguarding Your Crown Jewel: UI Data Protection]]></title>
+            <link>https://www.sap.com/news/2022/02/ui-data-protection-masking-logging</link>
+            <guid>https://www.sap.com/news/2022/02/ui-data-protection-masking-logging</guid>
+            <pubDate>Thu, 10 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[UI data protection masking and UI data protection logging from SAP empower companies to have control over their sensitive data]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Safeguarding Your Crown Jewel: UI Data Protection" src="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="safeguarding-your-crown-jewel-ui-data-protection">Safeguarding Your Crown Jewel: UI Data Protection</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Data protection and privacy have always been important, but the desire to execute has become more crucial as sensitive data is digitized and shared online.</div>
+    </div>
+  </div>
+  <p>“Data is the new oil,” according to <a href="https://blog.s4rb.com/data-is-the-oil-of-the-21st-century">Clive Humby</a> in 2006. In 2017, <a href="https://weeve.medium.com/data-is-the-currency-of-the-digital-age-aa7ed6552060">Jim Barbaresso</a> said, “Data is the currency of the digital age.” The world has recognized the value of data in how people do business in the 21st century.</p>
+  <p>More than 400,000 companies are using SAP to run their business where often their most important data is processed.</p>
+  <p>Last year was one of <a href="/topics/data-privacy">privacy</a> compliance, where many organizations were fined enormous amounts due to lack of data privacy processes and governance. This led to data protection and privacy regulations being constantly updated to suit the ever-changing threat landscape and required controls. Therefore, it is expected that these updates be implemented in 2022 and beyond.</p>
+  <p>SAP has been working on innovative options to protect its customers’ “crown jewel” — not just from external threats but those closest to it, such as employees, business partners, and other users who have privileges to access sensitive information.</p>
+  <p><a href="https://www.forbes.com/sites/michelleevans1/2018/03/12/why-data-is-the-most-important-currency-used-in-commerce-today/?sh=2032473054eb">As the new currency</a>, data is worth a significant amount when stolen and sold on the black market or abused for money or any malicious intent. Industries and governments have therefore put in place regulatory and legal compliance requirements to help ensure that such sensitive information is not misused to cost companies their business or economies worldwide. The growing concerns and possible repercussions for neglecting to safeguard such data can lead to incidents where recovery is difficult.</p>
+  <p>A best practice for companies to proactively address data protection is to help employees avoid inadvertent data breaches. SAP addresses this with <strong>UI data protection masking</strong> and <strong>UI data protection logging</strong> packages developed by the Customer Innovation &#x26; Maintenance organization at SAP.</p>
+  <p>“With the increase in remote workers, companies are challenged with securing sensitive data while allowing employees to access information and execute business processes seamlessly,” said Thomas Ruhl, head of Product Management for Customer Innovation &#x26; Maintenance at SAP. “This is only one example of the growing data protection needs of our customers. That’s why we created the new UI data protection masking and UI data protection logging software, which enables them to safeguard their data using dynamic rules that can address complex business scenarios.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-data-security-overview">Learn more: Data security overview</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2015/06/0a0d918e-5b7c-0010-82c7-eda71af511fa.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="proven-sap-solutions-help-customers-with-data-protection">Proven SAP Solutions Help Customers with Data Protection</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-ui-data-protection-on-the-sap-community">Explore UI data protection on the SAP Community</h3>
+      </div>
+      <div><strong><a href="https://community.sap.com/topics/ui-data-protection">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>UI data protection masking and UI data protection logging empower businesses to have control over which data, if deemed sensitive, should remain visible for a user to fulfill his or her job. It keeps an audit trail of user access and analyses it, helping eliminate the need to micromanage.</p>
+  <p>UI data protection masking and UI data protection logging target insider threats — be they intentional or unintentional. Rules can be set to obfuscate or reveal specific data to users according to nominated authorization levels.</p>
+  <p>The process of masking happens on the server side but only at the user interface layer and does not impact the application or data base layers. Masking is commonly used in concealing data such as personally identifiable information (PII), HR, financials, intellectual property, customer information, trade secrets, and anything that can be subject to harmful intent or mistake, thereby putting the business at significant risk.</p>
+  <p>UI logging is the ability to gather audit logs, allowing tracking and tracing of the journey of the data, including users who accessed them. It is synonymous to leaving a fingerprint at every turn. This is ideal for audit and investigative processes.</p>
+  <p>UI masking and UI logging also help address regulatory compliance requirements such as General Data Protection Regulation (GDPR). It may be EU-centric, but the regulation affects anyone or any entity outside of the EU who accesses, processes, or stores data of EU natural persons. More and more geographies are enacting similar legislation, often based on a similar direction as GDPR, such as the California Consumer Privacy Act (CCPA). Taking steps to be compliant will incur the least effort and cost as opposed to being fined for a significant amount. <a href="https://gdpr.eu/gdpr-fines-so-far/">According to GDPR.eu</a>, GDPR fines totaled US$63 million in its first year.</p>
+  <p>A use case that is becoming increasingly popular is data access by employees from separate entities, such as demergers, sharing the same application instance. This is when attribute-based authorization is relevant and less cumbersome without the need to modify the application nor provide an additional instance.</p>
+  <p>Here are questions that can help identify whether UI data protection masking and UI data protection logging are relevant to your business:</p>
+  <ul>
+    <li>Does your organization use SAP?</li>
+    <li>Is sensitive information such as PII, trade secrets, IP, and business plans processed in SAP?</li>
+    <li>Is the sensitive information valuable enough to be protected?</li>
+    <li>Are there any data protection and privacy compliance requirements?</li>
+    <li>Is your organization’s business in the process of merging/demerging?</li>
+    <li>Do you find the static role-based authorization model insufficient?</li>
+    <li>Would a dynamic approach that offered better granularity be more appropriate?</li>
+    <li>Do you require a facility to investigate, spot data breaches, and ascertain who is responsible?</li>
+  </ul>
+  <p>If the answer is yes to point one and to any of the following questions thereafter, then SAP would suggest:</p>
+  <ul>
+    <li>Discovering what UI data protection masking and UI data protection logging for SAP can do from the <a href="https://community.sap.com/topics/ui-data-protection">UI Data Protection topic area on the SAP Community</a>.</li>
+    <li>Contacting your SAP account manager to arrange an initial discovery call with the product team or SAP experts.</li>
+    <li>Planning the next steps together with the SAP team, such as solution value for your business case, solution demo, and more.</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/security</category>
+        </item>
+    </channel>
+</rss>

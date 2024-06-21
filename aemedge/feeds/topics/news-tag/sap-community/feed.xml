@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-community/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 25 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Women Can Be the Key to Solving the Global Skills Gap in Tech]]></title>
+            <link>https://www.sap.com/news/2023/01/women-key-to-global-digital-skills-gap-in-tech</link>
+            <guid>https://www.sap.com/news/2023/01/women-key-to-global-digital-skills-gap-in-tech</guid>
+            <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The global lack of digitally skilled workers is increasing in the tech industry. Learn about SAP's initiative and how women are key.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/coursera</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/digital-skills-gap</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/sap-certification</category>
+            <category>news-tag/sap-community</category>
+        </item>
+        <item>
+            <title><![CDATA[Enabling a Cloud Mindset Across Barriers Can Revolutionize a Company]]></title>
+            <link>https://www.sap.com/news/2022/01/cloud-mindset-revolutionize-a-company</link>
+            <guid>https://www.sap.com/news/2022/01/cloud-mindset-revolutionize-a-company</guid>
+            <pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Jinan Chaoyixing Catering achieved remarkable results from engaging with Product Support at SAP to make the most of its SAP solutions.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15e2e1c3b07e20b17451f7e237be7ae70c83c6977.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15e2e1c3b07e20b17451f7e237be7ae70c83c6977.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15e2e1c3b07e20b17451f7e237be7ae70c83c6977.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Enabling a Cloud Mindset Across Barriers Can Revolutionize a Company" src="./media_15e2e1c3b07e20b17451f7e237be7ae70c83c6977.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="enabling-a-cloud-mindset-across-barriers-can-revolutionize-a-company">Enabling a Cloud Mindset Across Barriers Can Revolutionize a Company</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="choose-the-right-next-generation-support-tool-for-your-sap-solutions">Choose the right Next-Generation Support tool for your SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://support.sap.com/en/offerings-programs/strategy.html#section_277629229">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The Product Support team at SAP provides a wealth of innovative opportunities that allow customers to understand how to make the most of the SAP solutions they are implementing and using. This was on display during a recent engagement with a large and successful catering company in China, Jinan Chaoyixing Catering.</div>
+    </div>
+  </div>
+  <p>The company, which employs more than 8,000 employees in Jinan – the capital of Shandong province in eastern China – was eager to implement <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA Cloud</a> to grow into an intelligent catering company able to operate internationally and proudly represent Shandong food culture. However, after going live with SAP S/4HANA Cloud in 2020, and the subsequent exit of its implementation partner from the scene, the business users in China found it difficult to keep up with the quarterly upgrade cycle of the software and began facing issues in areas including finance, sales, and procurement.</p>
+  <p>After an on-site visit and extensive conversations between the company and SAP Services and Support, Development, and Customer Engagement &#x26; Experience, close to 30 issues were investigated across all lines of business. It was a huge undertaking. Eventually, a whopping 500 stores were able to benefit from the business process optimization. Here’s a closer look at how the customer was able to achieve such remarkable outcomes.</p>
+  <p>It all started with the Development and Support Succeed Together program, sponsored by <a href="https://www.sap.com/about/company/innovation/labs.html">SAP Labs China</a>, which connects product support and development to deliver customer success and maximize business potential. In this case, the SAP S/4HANA Cloud Product Support team and the SAP S/4HANA Development team in China worked together to get Jinan Chaoyixing Catering the experience and results it needed by arranging a customer site visit.</p>
+  <p>By bringing together different perspectives and areas of expertise, the team was able to make great strides during the visit and to arrange several follow-ups to resolve the issues identified on-site. For example, Jinan Chaoyixing Catering’s sales bill of material (BOM) data was stored in an external data system, which could lead to incorrect financial reports due to a missing payment method or other issues. There were many conversations about the difficulty of getting the required information into the financial reports.</p>
+  <p>Eventually, the team realized that the external BOM system was the root cause for many of the challenges discussed. The SAP team proposed a dedicated best practices knowledge kit to maintain the sales BOM in SAP S/4HANA Cloud, eliminating this difficulty. Jinan Chaoyixing Catering was excited about the prospect of this best practice and is now exploring how to implement this new best practice scope – one of five best practice scope items introduced for a better system solution adoption, including expanding their business processes to include cost analysis, stock transfer order returns, and sales returns. Both the operating centers and business users were able to benefit from the business process optimization and issue resolution.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-what-product-support-at-sap-has-to-offer">Learn more about what Product Support at SAP has to offer</h3>
+      </div>
+      <div><strong><a href="https://support.sap.com/en/my-support/product-support.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Through Next-Generation Support we learned a lot about SAP Services and Support offerings, like how to report an incident in an efficient way and how to leverage SAP Help Portal and SAP Community, the real-time channels and advanced tools,” said Donglin Lai, CIO of Jinan Chaoyixing Catering. “The support and development team also gave us a comprehensive introduction to SAP Sales Pipeline Analysis, which brings remarkable value to our operational analysis.”</p>
+  <p>In addition to the real business value the customer experienced, its understanding of and appreciation for SAP Services and Support was hugely enhanced. Now that they have been armed with a cloud mindset, the company’s business users are enabled to look for efficient solutions in the future, to imagine what’s possible with SAP S/4HANA Cloud, and to think of new areas of the business that could be positively impacted in the future.</p>
+  <p>The future is very much on this customer’s mind. Already, Jinan Chaoyixing Catering is exploring sales and cost analytics to build transparent and timely reporting dashboards and working on merging the financial reporting needs of 15 regional centers. Perhaps most exciting of all, a new, fully automated factory will go live in 2022 and a new supplying company will be established to move the company towards a shared food processing center and other services.</p>
+  <p>By engaging deeply with this client, <a href="/topics/support">SAP Services and Support</a> was able not only to solve its immediate issues and create systems for solving other issues in the future, but also to create a meaningful connection with business users to understand their needs, challenges, and ambitions. By adopting a cloud mindset, Jinan Chaoyixing Catering was able to leverage the full potential of SAP S/4HANA Cloud to be prepared to move seamlessly into a digital successful future.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Mohammed Ajouz is senior vice president and global head of Product Support at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/product-support</category>
+            <category>news-tag/sap-community</category>
+            <category>news-tag/sap-help-portal</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+    </channel>
+</rss>

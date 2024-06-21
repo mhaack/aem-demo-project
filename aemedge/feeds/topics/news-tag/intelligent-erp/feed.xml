@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/intelligent-erp/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 21 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Premium Engagements: Capturing the Full Potential of Intelligent ERP in a Private Cloud]]></title>
+            <link>https://www.sap.com/news/2021/09/premium-engagements-intelligent-erp-in-private-cloud</link>
+            <guid>https://www.sap.com/news/2021/09/premium-engagements-intelligent-erp-in-private-cloud</guid>
+            <pubDate>Tue, 21 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[To capture the full potential of intelligent ERP in private cloud, SAP customers can rely on premium engagements offerings from SAP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-erp</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Enterprise Support Value Maps: Fundamental Guidance to an Intelligent ERP Transformation]]></title>
+            <link>https://www.sap.com/news/2021/04/sap-enterprise-support-value-maps-guidance-intelligent-erp</link>
+            <guid>https://www.sap.com/news/2021/04/sap-enterprise-support-value-maps-guidance-intelligent-erp</guid>
+            <pubDate>Mon, 26 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Enterprise Support value maps empower customers to control their transformation, with SAP S/4HANA at the center. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cdc91b81daf0476924ff05f31c003e711465b721.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cdc91b81daf0476924ff05f31c003e711465b721.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cdc91b81daf0476924ff05f31c003e711465b721.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Enterprise Support Value Maps: Fundamental Guidance to an Intelligent ERP Transformation" src="./media_1cdc91b81daf0476924ff05f31c003e711465b721.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-enterprise-support-value-maps-fundamental-guidance-to-an-intelligent-erp-transformation">SAP Enterprise Support Value Maps: Fundamental Guidance to an Intelligent ERP Transformation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Every transformation journey can run faster and avoid uncertainty with a well-defined road map. With the latest expansion of the SAP Enterprise Support value maps, organizations can gain a clear view to fulfill their true potential with a best-fit enterprise resource planning (ERP) foundation and secure their future with new capabilities.</div>
+    </div>
+  </div>
+  <p>Far from a catchphrase, the <a href="https://www.sap.com/products/intelligent-enterprise.html">Intelligent Enterprise</a> concept helps organizations break through the paralysis of unanticipated change. This framework advocates for the use of an organized backbone of data knowledge, digital skills and services, and intelligent technologies to actively resolve business challenges, pivot operations, and respond intelligently to disruptive situations.</p>
+  <p>Many SAP customers rely on the <a href="https://support.sap.com/en/offerings-programs/enterprise-support/enterprise-support-academy/value-maps.html">SAP Enterprise Support value maps</a> to quickly restructure and ramp up new approaches to innovate products, services, and experiences that their customers and employees require. The value maps fuel these changes by providing the clarity to choose and set up a best-fit digital foundation with prescriptive guidance, interactive learning, social collaboration, and access to SAP experts and industry peers throughout the application lifecycle.</p>
+  <p>Whether enabling the Intelligent Enterprise or unlocking its power, the value maps help customers adopt and run SAP offerings, including SAP S/4HANA, SAP Analytics, SAP Customer Experience, and SAP SuccessFactors solutions. Additionally, the value maps provide guidance for topics such as application lifecycle management, security, data volume management, business process improvement, or digital innovation – which are all foundational elements.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-sap-enterprise-support-value-maps">Explore SAP Enterprise Support value maps</h3>
+      </div>
+      <div><strong><a href="http://support.sap.com/valuemaps">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="adapting-and-thriving-with-a-best-match-intelligent-erp">Adapting and Thriving with a Best-Match Intelligent ERP</h2>
+  <p>Moving from a legacy IT system to the modern ERP capabilities of <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA</a> is a critical part of securing the foundation to become an intelligent enterprise. The future-ready ERP comes with built-in intelligent technologies, such as artificial intelligence (AI), machine learning, advanced analytics, and a modern user experience.</p>
+  <p>More importantly, SAP S/4HANA can be deployed and used with flexibility and control. Our customers can choose one of three deployment options:</p>
+  <ul>
+    <li><strong>Private cloud:</strong> Benefit from a subscription-based, cloud implementation that safeguards pre-existing investments in legacy ERP customizations, configurations, and partner add-ons. <a href="https://www.sap.com/products/rise.html">Incremental transformation</a> into a pure software-as-a-service (SaaS) landscape is supported by software, support, technical managed services, and infrastructure made available through one point of contact with one set of service-level agreement terms.</li>
+    <li><strong>Public cloud:</strong> Reimagine business processes and take advantage of standardized best practices without converting legacy ERP processes and configurations. This complete, modern, and native SaaS ERP solution provides the fastest path to innovation and the lowest total cost of ownership.</li>
+    <li><strong>On premise:</strong> Gain complete control and ownership of your applications and data landscape to manage unique, customer-specific needs that cannot be addressed in the cloud. Organizations can leverage existing IT departments, infrastructure, budget, and infrastructure-as-a-service (IaaS) vendor agreements while remaining compliant with industry- and country-specific regulations.</li>
+  </ul>
+  <h2 id="moving-closer-to-becoming-an-intelligent-enterprise">Moving Closer to Becoming an Intelligent Enterprise</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="keep-your-systems-running-at-peak-performance-with-services-and-support-from-sap">Keep your systems running at peak performance with services and support from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/support.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>With the assistance of the SAP Enterprise Support value maps, our customers can determine the deployment option and transformation path that best fit their needs, so they can orchestrate their move with confidence. More importantly, they can adopt and run scenarios with guided enablement – ranging from lifecycle management and extensibility to data security and analytics – to help secure the changes needed to achieve the expected transformation.</p>
+  <p>The value maps empower our customers to control their transformation, with SAP S/4HANA at the center. We provide knowledge transfer, analysis and recommendations, and guidance, including:</p>
+  <ul>
+    <li><strong>Comparison of each edition:</strong> Determine which edition can support a transformation that benefits the organization the most.</li>
+    <li><strong>Content on transition options:</strong> Explore possible transition paths, such as new implementation, system conversion, or selective data transition.</li>
+    <li><strong>Readiness checks and planning:</strong> Get guidance on planning and preparation activities for moving to SAP S/4HANA, then define a straightforward process of structured and solution-specific practices to adopt and extend new and differentiating capabilities.</li>
+    <li><strong>Continuous quality check services:</strong> Provide an expert analysis of the customer landscape and deliver best practice improvement recommendations to help ensure a smooth go-live and rapid user adoption.</li>
+    <li><strong>Insight on extending value:</strong> Explore the benefits of SAP Fiori apps, embedded analytics, and other innovation possibilities to get the most benefit from the deployment of SAP S/4HANA.</li>
+  </ul>
+  <h2 id="accessing-the-core-essentials-for-a-self-paced-transformation-journey">Accessing the Core Essentials for a Self-Paced Transformation Journey</h2>
+  <p>The outcomes that our customers are achieving are proof of the power of choice, guided learning, and expertise during an ERP migration experience. Some businesses <a href="https://www.sap.com/documents/2021/01/045d12e7-c77d-0010-87a3-c30de2ffd8ff.html">integrate their innovations</a> through expert training and support services to uphold a vision of brand excellence and trusted consumer experiences. Other organizations <a href="https://www.sap.com/documents/2019/09/323544fa-637d-0010-87a3-c30de2ffd8ff.html">migrate their ERP software and replace legacy systems</a> to minimize risk and help ensure an efficient transition without disrupting operations. And many more companies <a href="https://www.sap.com/documents/2020/02/ac3e1cbc-877d-0010-87a3-c30de2ffd8ff.html">simplify and automate IT operations</a> and optimize their database to prepare for a smooth move to the cloud.</p>
+  <p>Remember, there isn’t one right way to becoming an intelligent enterprise. But the SAP Enterprise Support value maps for SAP S/4HANA, SAP S/4HANA Cloud, and SAP S/4HANA Cloud, private edition, could undoubtedly make your path clearer by helping you ensure your success in adopting and running an intelligent ERP.</p>
+  <div class="promo">
+    <div>
+      <div><strong>Don’t miss out:</strong> Sign up for <a href="http://support.sap.com/valuemaps">the SAP Enterprise Support value maps</a> by requesting access to <a href="https://support.sap.com/en/offerings-programs/enterprise-support/enterprise-support-academy/learn.html">SAP Learning Hub</a> or join the <a href="https://enrollment-ac82d52a4.dispatcher.hana.ondemand.com/index.html?itemID=LR_ValueMaps_EN">SAP Enterprise Support Value Maps Learning Room</a> if you already have access.</div>
+    </div>
+  </div>
+  <p>Stay in the conversation by following SAP Services and Support on<br><a href="https://www.youtube.com/user/sapsupportinfo">YouTube</a>, <a href="https://twitter.com/SAPDigitalSvcs">Twitter</a>, <a href="https://www.linkedin.com/groups/138840">LinkedIn</a>, and <a href="https://www.facebook.com/SAPDigitalBusinessServices">Facebook</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Ami Patel is global program lead for SAP Enterprise Support Value Maps at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="subscribe-to-the-innovation-and-transformation-newsletter">Subscribe to the Innovation and Transformation Newsletter</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/nl/sap-innovation-and-transformation-newsletter/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/intelligent-erp</category>
+            <category>news-tag/sap-enterprise-support</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Accelerate Efficient Digital Innovation with SAP S/4HANA Cloud]]></title>
+            <link>https://www.sap.com/news/2021/02/efficient-digital-innovation-sap-s4hana-cloud</link>
+            <guid>https://www.sap.com/news/2021/02/efficient-digital-innovation-sap-s4hana-cloud</guid>
+            <pubDate>Tue, 23 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The journey to efficient digital innovation is easier with SAP S/4HANA Cloud, the ERP software of choice for many customers. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Accelerate Efficient Digital Innovation with SAP S/4HANA Cloud" src="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="accelerate-efficient-digital-innovation-with-sap-s4hana-cloud">Accelerate Efficient Digital Innovation with SAP S/4HANA Cloud</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Becoming an adaptive, fast, and innovative business is not a marketing promise — it’s about surviving in a constantly accelerating world of unknowns. So, until time travel becomes a reality, intelligent cloud-based enterprise resource planning (ERP) software from SAP is the ticket to knowing what the future will bring to your business.</div>
+    </div>
+  </div>
+  <p>Most businesses depend on an agile environment to run their operations on a global scale. In most cases, a complex landscape of highly customized, configurable applications manages everything from forecast planning and material management to production. Meanwhile, cost control remains elusive because financial management capabilities are outside the scope of their legacy ERP system.</p>
+  <p>Sound familiar? You’re not alone. According to Guido Schlief, senior vice president and head of Services in Middle and Eastern Europe at SAP, our team of services and support experts regularly encounter organizations that rely on self-managed, on-premise solutions. “Whether or not they have an internal IT department or self-managed technology infrastructure, they all reach a point where the desire for usability improvements and digital innovation signals a shift to the cloud,” he observes.</p>
+  <p>SAP S/4HANA Cloud is increasingly the ERP software of choice for SAP customers looking to resolve such a dilemma. Regarded as a starting point for next-generation process optimization and digital innovation, organizations are reaping the benefits of an integrated system of accelerators, cloud data, and infrastructure services delivered through <a href="/topics/business-technology-platform">SAP Business Technology Platform</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-service-offerings-from-sap">Explore service offerings from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/support.html#services-support-offerings">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="implementing-core-business-requirements">Implementing Core Business Requirements</h2>
+  <p>During the initial phase of adopting SAP S/4HANA Cloud, most SAP customers want to implement every capability that enables them to build the technology assets they need at the moment. This goal is achieved by setting up production orders and routing rules through solution design and configuration, typically taking less than two months.</p>
+  <p>Once all stakeholders are satisfied with the workflows, processes, best practices, and automation that the intelligent cloud-based ERP supports, the rollout process begins – first with a pilot, then a sequential global go-live in three steps. Customers can have SAP S/4HANA Cloud up and running throughout their business within less than six months.</p>
+  <p>One of the most remarkable aspects of the implementation experience is the ability of SAP services and support experts to deliver critical customer expectations, specifically:</p>
+  <ul>
+    <li>Fast implementation executed with significant ease</li>
+    <li>Innovation that replaces individual, non-integrated tools such as spreadsheets, e-mails, and siloed collaboration applications</li>
+  </ul>
+  <p>By releasing customers from overly customized solutions rarely compatible with future digital innovation, SAP S/4HANA Cloud helps evolve existing business processes and enable the adoption of new ones by following SAP best practices. SAP experts also further support stabilization measures, including training users on SAP standards, gathering user feedback to improve user experiences, and establishing a communication platform for stakeholder buy-in.</p>
+  <h2 id="extending-the-full-value-of-sap-s4hana-cloud-company-wide">Extending the Full Value of SAP S/4HANA Cloud Company-Wide</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-to-know-sap-s4hana-cloud">Get to know SAP S/4HANA Cloud</h3>
+      </div>
+      <div><strong><a href="https://support.sap.com/en/alm/sap-focused-run/expert-portal/focused-run-advanced-integration-monitoring-cloud-services/sap-s4-hana-cloud-edition.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>After setting an agile digital foundation and establishing core business processes and innovation assets, organizations should consider extending the cloud ERP to close process gaps often prevalent in legacy integrations. This next adoption phase improves the user experience and global adoption of nonstandard functionalities and process automation.</p>
+  <p>Generally speaking, cloud technology – including SAP S/4HANA Cloud – may seem limited with respect to customization and enhancements. But with SAP Business Technology Platform, customers can integrate ERP with SAP and third-party solutions and develop their own intelligent applications. Furthermore, workflow management and intelligent robotic process automation could be added to their solution architecture.</p>
+  <p>By following this path to digital innovation with SAP S/4HANA Cloud, organizations can facilitate critical capabilities such as:</p>
+  <ul>
+    <li>Reporting and monitoring of the innovation build process</li>
+    <li>Cross-department work and simplify routing</li>
+    <li>On-premise purchase and asset management capabilities</li>
+  </ul>
+  <p>When extending SAP S/4HANA Cloud, there are many aspects to consider. While on-top solutions or functionalities require customer-managed maintenance, a wide range of integration options are available. Plus, a regular release cycle of upgrades and new capabilities takes advantage of the inherent nature of rapid implementation and innovation in the cloud.</p>
+  <h2 id="resources-to-run-an-enhanced-agile-business">Resources to Run an Enhanced, Agile Business</h2>
+  <p>Cloud is the solution for bringing businesses and IT to the next level in their digital innovation journey. SAP S/4HANA Cloud is our response to that opportunity.</p>
+  <p>With access to the right data models, platform, and services and support, SAP customers can enhance and integrate their IT ecosystem without disruption. But most importantly, they have the foundation they need to drive meaningful global change now and for years to come.</p>
+  <p>Accelerate your digital transformation journey with SAP S/4HANA Cloud, essential edition. Learn more about <a href="https://www.sap.com/services.html">SAP Services and Support on sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>Stay in the conversation by following the SAP Services and Support offerings on<br><a href="https://www.youtube.com/user/sapsupportinfo">YouTube</a>, <a href="https://twitter.com/SAPDigitalSvcs">Twitter</a>, <a href="https://www.linkedin.com/groups/138840">LinkedIn</a>, and <a href="https://www.facebook.com/SAPDigitalBusinessServices">Facebook</a>.</p>
+        <p><em>Matthias Uhrig is a principal business consultant for Business Transformation Services in the Consumer Product Goods and Retail Industries at SAP.</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-on-your-terms-discover-digital-sap-training-options">Learn on your terms: Discover digital SAP training options</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/eur/next-learning/en/home">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-erp</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Agile and Intelligent ERP Is a Myth No More with SAP Preferred Success]]></title>
+            <link>https://www.sap.com/news/2021/02/sap-preferred-success-sap-s4hana-cloud-agile-intelligent-erp</link>
+            <guid>https://www.sap.com/news/2021/02/sap-preferred-success-sap-s4hana-cloud-agile-intelligent-erp</guid>
+            <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP Preferred Success and SAP S/4HANA Cloud, customers can can map their transition to the cloud. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1381148cc7bc7bd04a2ac63a702d499a37236c656.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1381148cc7bc7bd04a2ac63a702d499a37236c656.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1381148cc7bc7bd04a2ac63a702d499a37236c656.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Agile and Intelligent ERP Is a Myth No More with SAP Preferred Success" src="./media_1381148cc7bc7bd04a2ac63a702d499a37236c656.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="agile-and-intelligent-erp-is-a-myth-no-more-with-sap-preferred-success">Agile and Intelligent ERP Is a Myth No More with SAP Preferred Success</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>An enterprise resource planning (ERP) system that possesses the agility and intelligence to move a business forward provides distinct characteristics, ranging from realizing emerging opportunities faster to mitigating risk in real time and predicting future needs accurately. For hundreds of SAP customers, such a profound shift is best achieved with insight-driven, prescriptive, and personalized guidance.</div>
+    </div>
+  </div>
+  <p>Thinking about the technical and business challenges that executives face every day, two conclusions come to mind. First and foremost, ERP systems are fundamental platforms for digital transformation. And secondly, modernizing the technology to meet the demands of today’s fast-paced, ever-evolving market dynamics is a time-consuming, complex, and sustaining commitment.</p>
+  <p>When companies are prepared to move their legacy processes to our intelligent ERP, <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA Cloud</a>, a wide variety of challenges inevitably arise. All organizations may not share the same goals. Shifting from a fully flexible model to one rooted in standardization may lead to confusion about the ability to adapt and modify the technology as needed. Complex discussions on integration, extensibility, data migration and management, regulatory compliance, and the cloud provider’s role may fall to the wayside among some business leaders.</p>
+  <p>The <a href="https://www.sap.com/services/support-plans/preferred-success-cloud.html">SAP Preferred Success</a> offering enables our customers to productively overcome these challenges with targeted recommendations for optimizing and maximizing the value of their investment in SAP S/4HANA Cloud. The offering helps customers fully adopt the cloud mindset necessary for deployment and rapidly plan ongoing adoption of capabilities that bring specific value to their line-of-business priorities and align with their overall business goals.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-about-services-from-sap">Read more about services from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/support.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="trusted-guide-to-agility-and-intelligence">Trusted Guide to Agility and Intelligence</h2>
+  <p>By aligning expectations for SAP S/4HANA Cloud with desired business outcomes early in the life cycle, our customers can map their transition to the cloud and understand the importance of standardization with some adaptation of existing processes.</p>
+  <p>But this standardization should also be liberating. This foundational concept simplifies support for operational processes and focuses the implementation on the capabilities and functions that truly differentiate our customers from their competitors. The initial phase of SAP Preferred Success allows our customers to fully understand how the modern ERP model fills existing gaps and continues to scale at the same pace that organizational change happens.</p>
+  <p>More importantly, our customers can further build out their digital strategy by considering new capabilities and tools available that they didn’t know existed. For example, live virtual events and expert-led sessions give insight into a range of intelligent technologies embedded in SAP S/4HANA Cloud, including robotic process automation (RPA), machine learning, predictive analytics, and artificial intelligence (AI). This targeted content uncovers the connection between what SAP S/4HANA Cloud provides and what can be achieved as their ultimate vision.</p>
+  <p>Although these experiences with SAP Preferred Success are early in the overall implementation of SAP S/4HANA Cloud, the information provided can be an eye-opener that impacts the entire digital transformation journey for years to come. Executives are better prepared to lead their workforce through every change along the path to go-live while knowing how to minimize costs and risk and focusing on value.</p>
+  <p>Unlike some offerings, SAP Preferred Success stays engaged with SAP customers throughout the life of their deployment of SAP S/4HANA Cloud. Dedicated customer success managers help steer organizations through quarterly updates, determining which new capabilities are needed to further their digital strategy and address unique business needs. They recommend the capabilities that customers should consider enhancing or adopting and assist in the creation and completion of a minimally disruptive plan to implement relevant innovations. Adoption planning sessions are offered to dive into these new ideas, weigh their viability, and choose the best options to deliver a better technology or process experience.</p>
+  <h2 id="continuous-support-for-scaled-digital-transformation">Continuous Support for Scaled Digital Transformation</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-to-know-sap-preferred-success">Get to know SAP Preferred Success</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/services/support-plans/preferred-success-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Many businesses are digitally transforming themselves with impressive speed. However, speed alone is not the key to a successful digital transformation. What’s needed is an agile and intelligent foundation that unlocks their true potential – whether navigating economic uncertainty, exploring new business models, ramping up toward a recovery, or paving the way to growth.</p>
+  <p>While change doesn’t come without risks, SAP Preferred Success helps prepare SAP customers to navigate them all – with the agility and intelligence of SAP S/4HANA Cloud.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>For more real-life insights on SAP Preferred Success, read the rest of the series, “<a href="/topics/sap-preferred-success-cloud-series">Heading to the Cloud with SAP Preferred Success</a>” and discover how your entire company can accelerate cloud adoption and business outcomes with insight-driven, prescriptive, and personalized guidance and support.</p>
+        <p><em>Chris Lewis is global director and product manager for SAP Preferred Success, SAP S/4HANA Cloud at SAP.</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="subscribe-to-the-innovation-and-transformation-newsletter">Subscribe to the Innovation and Transformation Newsletter</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/nl/sap-innovation-and-transformation-newsletter/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-erp</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>news-tag/sap-preferred-success-cloud-series</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+    </channel>
+</rss>

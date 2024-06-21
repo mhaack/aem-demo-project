@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/customer-success/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 06 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Path to AI with Clean Core]]></title>
+            <link>https://www.sap.com/news/2024/05/the-path-to-ai-with-clean-core</link>
+            <guid>https://www.sap.com/news/2024/05/the-path-to-ai-with-clean-core</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Claudio Muruzabal shares about his Customer Advisory role and how SAP customers are winning with intelligent technology, like AI.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Path to AI with Clean Core" src="./media_1df14be7df416024e279a8fbc6ac26cd297e9f468.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-path-to-ai-with-clean-core">The Path to AI with Clean Core</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>From cloud to generative AI, the list of new and emerging technologies continues to grow in our era of digital intelligence. Yet it’s also the era of inflation, geopolitical tension, supply chain disruption, and countless other challenges. How are businesses supposed to make sense of all these technologies – let alone transform their businesses with them – while simply trying to survive during such a challenging time?</div>
+    </div>
+  </div>
+  <p>That’s where Claudio Muruzabal, chief business officer of SAP SE, steps in.</p>
+  <p>Muruzabal is responsible for supporting the Customer Advisory, Solution Area and Services Sales, and Customer Success Management &#x26; Engagement teams at SAP. For more than eight years, he has played an important role in understanding not only an increasingly complex technology landscape but also how businesses actually use the technology at their disposal. He supports teams that help bring SAP customers closer to their goals by leveraging SAP solutions. This begins with advising customers through honest conversations about how they can apply the intelligent capabilities now included in many SAP solutions, such as generative AI.</p>
+  <p>I sat down with Muruzabal to find out more about his role, how SAP customers are winning with intelligent technology, and the growing impact of customer success management at SAP.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Q: AI is all the rage today, so let’s start there. What are the biggest opportunities for businesses to use AI?</strong></div>
+    </div>
+  </div>
+  <p><strong>Muruzabal</strong>: Opportunity is everywhere for <a href="/topics/ai">AI</a>. And it’s bigger than just automating processes to increase efficiency, which is what was talked about for the longest time. At SAP, we’re seeing how AI can support relevant business processes to instill innovation and competitiveness. While many players in the industry are focused on developing AI engines and large language models, we are focused on accelerating business value through generative AI. I could talk all day about how AI is transforming data analytics and decision-support systems as well as supply chain optimization, predictive maintenance, and HR. Every day we are discovering new opportunities for customers to leapfrog their competition when they combine the power of generative AI with the context of their business data and processes.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>What are some examples of how SAP customers are using AI, and what value have they realized so far?</strong></div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-revolutionary-technology-real-world-results">SAP Business AI: Revolutionary technology, real-world results</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>There’s really so much to get excited about when it comes to how our customers are using the AI capabilities included with their SAP solutions. Across industries, workers everywhere are using natural language to instantly get the data insights they need using the SAP Analytics Cloud solution. I like how busy recruiters can tap into generative AI with SAP SuccessFactors solutions to create compelling job descriptions and interview questions in less time. Joule, our AI assistant and copilot, can support end users in getting the right answers on how to get the most of our cloud solutions. With Joule already embedded across the portfolio – generally available in SAP SuccessFactors HCM, SAP Start, and SAP S/4HANA Cloud – we are all excited about the opportunities for our customers.</p>
+  <p>All industries can get this unique value, including professional soccer clubs FC Bayern Munich and Hertha BSC that are using a scouting prototype powered by AI to find and develop the next generation of star athletes.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>AI can solve a lot of problems, but what about the underlying foundational technology stack companies have today? What conversations are you having with businesses about their technology investments?</strong></div>
+    </div>
+  </div>
+  <p>Early on in our conversations with customers, it’s important to understand how businesses can set up their core, foundational enterprise technology platform running in the cloud. This is critical to establish a journey of innovation including <a href="https://www.sap.com/products/artificial-intelligence.html">SAP Business AI</a>. Coming back to the foundation, many of our customers have built numerous modifications on top of their core ERP. In order to build a true cloud operating model – essential to embrace innovation including AI – it is critical to move to a clean core model. This means that any modification to the ERP functionality offered by SAP is built outside of the core, using extensibility solutions. This is not a technical topic only. Although clean core contributes to the cost-efficient operation of the platform, the true contribution is bringing flexibility and adaptability to the business, converting the cloud operating model into a unique “innovation as a service” platform.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>What makes SAP unique and stand out to customers with its value proposition?</strong></div>
+    </div>
+  </div>
+  <p>SAP has the unique value of being the global leader in best of suite solutions built with more than 50 years of industry knowledge and ERP technology leadership. On top of this, our leading “best of breed” solutions, such as in HCM, customer experience, intelligent spend and business network, and more, can provide the best functionality and the right integration into the core. Only SAP can offer this value proposition. When we combined this with the cloud operating model – widely adopted by our RISE with SAP customers – we provide exponential value for the innovation as a service proposition.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>How can customers get the most from their investments? What kind of support is there to help them transform and innovate?</strong></div>
+    </div>
+  </div>
+  <p>Customer success management is essential in the cloud. It is the end-to-end engagement with our customers, from advisory to sales execution to onboarding, adoption, and consumption. We provide the tools, assets, and content to help accelerate adoption and consumption so as to maximize the value from first use of the solution to full and future use. SAP Preferred Success services can accelerate the time to value even more. To support this motion, deep <a href="/2024/02/driving-customers-business-outcomes-telemetry">telemetry</a> being built into our cloud solutions allows customers and our customer success management leaders to better understand how the solutions are being used while identifying opportunities to expand usage.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Where do advisory services fit into the customer journey?</strong></div>
+    </div>
+  </div>
+  <p>Customer advisory services might be the most essential part of the journey with a customer. Successful projects start with the right business case definition, anchored in the best understanding of the industry and business of our customers. With that in mind, our Customer Advisory teams support building the right technical solutions that can support an enterprise architecture. This is the first step in moving in the right direction of building the cloud operating model.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Stay up-to-date</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/erp</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/customer-success</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Cloud Transformation: Reliable Business Target Achievement with a Customer Success Partner]]></title>
+            <link>https://www.sap.com/news/2023/12/cloud-transformation-customer-success-partner</link>
+            <guid>https://www.sap.com/news/2023/12/cloud-transformation-customer-success-partner</guid>
+            <pubDate>Thu, 21 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has launched the Customer Success Partner team, focusing on customers’ business objectives for cloud transformation. Read more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b188d1411cd7e6cf4acf5418aaddab37a6ae3fae.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b188d1411cd7e6cf4acf5418aaddab37a6ae3fae.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b188d1411cd7e6cf4acf5418aaddab37a6ae3fae.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Cloud Transformation: Reliable Business Target Achievement with a Customer Success Partner" src="./media_1b188d1411cd7e6cf4acf5418aaddab37a6ae3fae.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="cloud-transformation-reliable-business-target-achievement-with-a-customer-success-partner">Cloud Transformation: Reliable Business Target Achievement with a Customer Success Partner</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>A company’s established culture is usually a greater obstacle on the way to the cloud than technical issues. That’s why SAP supports its cloud customers with customer success partners that help make sure business objectives are achieved on the journey to the cloud.</div>
+    </div>
+  </div>
+  <p>The ability to innovate is a <a href="https://pub.bertelsmann-stiftung.de/innovative-milieus/ergebnisse-zugespitzt">key part of business success</a>. Yet companies also have to be able to transform market innovations into value for their customers if they want to stay ahead of the competition. It is hard to imagine attaining this kind of performance today without cloud computing. <a href="https://cloud.ionos.de/reports/idc-cloud-deutschland-2023">Analysts hold the cloud</a> to be one of the most effective tools of the digital age on the way to becoming an agile, highly innovative, competitive company. SAP has systematically embraced this technology since 2020 and is currently realigning its own organization to become a cloud provider. In my experience, it has become evident that the cloud is the only way to add value quickly at a manageable level of cost and effort.</p>
+  <p>Cloud computing is disruptive, however, and demands enormous changes. SAP users, for example, also have to switch to the new architecture of the SAP portfolio, with <a href="https://www.sap.com/products/erp/s4hana.html">SAP S/4HANA</a> as the digital core, <a href="https://www.sap.com/products/technology-platform.html">SAP Business Technology Platform (SAP BTP)</a> as the new environment for innovation and customer enhancements, and the <a href="https://www.signavio.com/">SAP Signavio</a> portfolio as the foundation for more efficient business processes.</p>
+  <h2 id="overcome-mental-barriers-to-cloud-transformation-with-customer-success-partner">Overcome Mental Barriers to Cloud Transformation with Customer Success Partner</h2>
+  <p>“The paradigm shift in IT to cloud computing has changed everything, especially the way I provide and deploy software at companies today,” explains Alexander Michnov, head of Strategic Sales, RISE with SAP, at SAP. To better support customers in this dynamic situation, SAP established the post-sales unit Customer Success Partner team in early 2022. Our role at SAP is to understand the business objectives our customers are pursuing in a cloud transformation context and helping to ensure they actually achieve them, above and beyond the technological implementation.</p>
+  <p>According to SAP experts, the greatest obstacle to fully capturing the benefits of the cloud – such as faster time to market and simple use of resource-intensive high-tech – is an outdated process mindset. Therefore, a cloud transformation must focus on holistic changes to the corporate culture and business processes, not only on the technology.</p>
+  <h2 id="smooth-transition-from-contract-signing-to-implementation">Smooth Transition from Contract Signing to Implementation</h2>
+  <p>This change process is where the Customer Success Partner team comes in, assigning a customer success partner to every RISE with SAP customer as a complement to the SAP implementation partner. When an SAP customer starts a cloud migration project, they set off on a journey that can fundamentally change their organization – from their business processes to the way their employees collaborate with each other.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="tap-into-personalized-resources-and-on-demand-sap-experts-ready-to-help-you-realize-success">Tap into personalized resources and on-demand SAP experts ready to help you realize success</h3>
+        <p><em><a href="https://www.sap.com/support.html#services-support-offerings">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>First, the customer success partner works with the customer to determine the business objectives. This is followed by developing a road map that defines what needs to be done for the customer to achieve these objectives soundly. In the early phase of a transformation project, the customer success partner also helps ensure that the transition from contract signing to the actual implementation phase goes smoothly. This transition is the first critical element. The customer success partner helps make sure that all the aspects needed to add value early on – maintaining a clean core first and foremost, ensuring that training schedules have been developed, and confirming the customer has the right contact person if they change their mind on a specific process, for instance – are taken into account from day one.</p>
+  <h2 id="looking-back-and-looking-forward-in-the-post-go-live-phase">Looking Back and Looking Forward in the Post-Go-Live Phase</h2>
+  <p>The next critical phase begins when the technical implementation is complete. This is usually when tensions start to ease after the exciting go-live phase. But it is especially important at this stage to ensure users use the system in the intended manner, no communication gaps have arisen, and people do not lose focus. That’s also the perfect time to start the evaluation. Have the business objectives been achieved? Has the initial problem that triggered the implementation been solved? And, of course, this is a great time to discuss the next wave of innovation with the customer.</p>
+  <h2 id="key-factors-of-a-customer-success-partner">Key Factors of a Customer Success Partner</h2>
+  <p>Here are three key factors for a customer success partner’s work from the customer perspective:</p>
+  <ul>
+    <li>Early involvement of the customer success partner, ideally during the sales process, to help define the expected added value of the project</li>
+    <li>Organizational networking of the customer success partner in the organizations of the customer, the implementation partner, and SAP</li>
+    <li>The customer success partner’s ability to harmonize the customer’s road map with SAP’s strategy – for the customer, it’s extraordinarily valuable to have a counterpart with whom they can discuss SAP’s strategic direction and planned innovations in day-to-day business</li>
+  </ul>
+  <p>As such, the customer success partner represents an ideal complement to the SAP implementation partner. The latter still bears overall responsibility for the system changeover during the entire transition process. In contrast, the customer success partner helps make sure that everything necessary is done so the implementation corresponds to the value targets defined in the beginning. They help ensure that all the aspects strategically important to the customer and SAP – starting with a clean core – are taken into account throughout the course of the project.</p>
+  <h2 id="the-value-of-long-term-relationships">The Value of Long-Term Relationships</h2>
+  <p>“The customer success partner is the guardian of the clean core and customer lifetime value,” summarizes Michnov, bringing a further dimension of the new post-sales organization into play. In the new cloud world, innovations and enhancements take place continuously and become available to customers extremely quickly, thanks to short release cycles.</p>
+  <p>Cloud migration is like a journey from one milestone to the next. In this world, the commitment never really ends; it’s a world of long-term relationships. As such, my team’s mission is to support customers from day one and in perpetuity. The customer success partner enters a lifelong commitment with the customer. The customer success partner is there before the implementation, they are there after the implementation, and they are there even when no implementation is needed at all.</p>
+  <div class="footnote">
+    <div>
+      <div>Ara Aguzumtsyan is head of Customer Success Solution Areas, CSS MEE, at SAP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-success</category>
+            <category>news-tag/digital-transformation</category>
+        </item>
+        <item>
+            <title><![CDATA[Services and Support Position Organizations to Reap Maximum Value from Cloud Solutions]]></title>
+            <link>https://www.sap.com/news/2022/02/services-and-support-reap-maximum-value-from-cloud</link>
+            <guid>https://www.sap.com/news/2022/02/services-and-support-reap-maximum-value-from-cloud</guid>
+            <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP’s Claudio Muruzabal outlines how services and support offerings position organizations to gain maximum value from cloud solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-success</category>
+        </item>
+        <item>
+            <title><![CDATA[Establishment Labs To Help Breast Cancer Survivors Globally]]></title>
+            <link>https://www.sap.com/videos/establishment-labs-to-help-breast-cancer-survivors-globally</link>
+            <guid>https://www.sap.com/videos/establishment-labs-to-help-breast-cancer-survivors-globally</guid>
+            <pubDate>Wed, 05 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Establishment Labs gives women hope after surviving breast cancer with its implant technology. As the company expands globally, SAP S/4HANA helps provide the foundation for...]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Establishment Labs To Help Breast Cancer Survivors Globally" src="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <h1 id="establishment-labs-to-help-breast-cancer-survivors-globally">Establishment Labs To Help Breast Cancer Survivors Globally</h1>
+      </div>
+    </div>
+  </div>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Establishment Labs To Help Breast Cancer Survivors Globally" src="./media_17152d51c1e4fb974afc8c71a37e331890d201a2f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=q7ZZWvy_6Rw">Establishment Labs To Help Breast Cancer Survivors Globally</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Establishment Labs gives women hope after surviving breast cancer with its implant technology.</div>
+    </div>
+  </div>
+  <p>As the company expands globally, SAP S/4HANA helps provide the foundation for keeping its business on track.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/video</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/customer-success</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/digitization/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 21 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Digital Eco-Farming: How SAP Japan Helps Revitalize Rural Communities]]></title>
+            <link>https://www.sap.com/news/2024/02/minano-digital-eco-farm-sap-japan-revitalize-rural-communities</link>
+            <guid>https://www.sap.com/news/2024/02/minano-digital-eco-farm-sap-japan-revitalize-rural-communities</guid>
+            <pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Minano Digital Eco Farm, launched by PSI and SAP Co-Innovation Lab in Japan, is helping the town of Minano revitalize its community.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/digitization</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/internet-of-things</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-co-innovation-lab</category>
+        </item>
+        <item>
+            <title><![CDATA[Moving Procurement to the Cloud May Not Be as Complex as You Think]]></title>
+            <link>https://www.sap.com/news/2022/05/moving-procurement-to-cloud-not-complex</link>
+            <guid>https://www.sap.com/news/2022/05/moving-procurement-to-cloud-not-complex</guid>
+            <pubDate>Tue, 17 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read to learn how to minimize risk when moving your procurement to the cloud with the help of services and support offerings from SAP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cloud-success-services</category>
+            <category>news-tag/digitization</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+    </channel>
+</rss>

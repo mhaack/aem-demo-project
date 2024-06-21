@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-signavio/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 17 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Elevating the RISE with SAP Experience]]></title>
+            <link>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</link>
+            <guid>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</guid>
+            <pubDate>Mon, 17 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the elevated RISE with SAP experience that is improving services and delivery for customers end-to-end.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Elevating the RISE with SAP Experience" src="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="elevating-the-rise-with-sap-experience">Elevating the RISE with SAP Experience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>According to Albert Einstein, “Life is like a bicycle. To keep your balance, you must keep moving.” He had a point! The same is true of business.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Successful businesses keep moving and evolving, especially in times of rapid change and macroeconomic uncertainty. And given the current volatility, business transformation is no longer optional; it’s imperative.</p>
+  <p>Knowing this, we launched RISE with SAP in 2021 not as a technical IT migration approach, but as a comprehensive solution designed to drive broad business transformation. With 6,000 customers having selected RISE with SAP, we know we cannot stop moving either. And I was <a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">thrilled to share at SAP Sapphire this year</a> how we are taking the RISE with SAP experience to the next level and improving services and delivery for customers end-to-end.</p>
+  <p>Here are some key takeaways.</p>
+  <h2 id="evolving-how-we-engage-with-customers">Evolving How We Engage with Customers</h2>
+  <p>Navigating the transformation of today’s complex system landscapes and business processes is like orchestrating a symphony with countless instruments and moving parts. To succeed, we need to keep refining our engagement approach to better manage the intricacies of our customers’ complex architecture at an unprecedented level of detail.</p>
+  <p>To this end, we’re making a lot of changes in how we engage with customers, including strengthening the role of the enterprise architect (EA). The EA harmonizes all elements and guides the customer throughout their cloud journey.</p>
+  <h2 id="enhancing-methodologies">Enhancing Methodologies</h2>
+  <p>We know the biggest challenge for any cloud transformation is to make the system landscape more agile and enable innovation — quickly. We’ve been listening and have introduced solutions. For example, our <strong><a href="/2024/04/transform-confidence-rise-with-sap-methodology">RISE with SAP Methodology</a></strong> is a significant step forward in creating a consistent experience for all RISE with SAP customers, independent of their individual cloud journeys. Now, a dedicated enterprise architect guides customers through the RISE with SAP Methodology to enhance onboarding and provides transparency throughout the project with key milestone checks, q-gates, and checklists that ensure consistent quality and more predictable timelines throughout the implementation process.</p>
+  <p>This new offering is included in our <strong><a href="https://www.sap.com/products/erp/rise.html#migration">SAP RISE Migration and Modernization</a></strong> program, which is designed to give customers the confidence to migrate even the most complex ERP systems to the cloud. By enabling our customers to integrate and extend SAP S/4HANA with a clean core approach, we ensure our customers experience better maintainability and lower total cost of ownership.​ Because legacy ERP systems often carry technical debt and, let’s face it, code is also a liability not just an asset. The more code you have, the more you have to optimize, debug, and modernize. And this is something we all need to actively work against.</p>
+  <h2 id="introducing-partner-training-and-validation">Introducing Partner Training and Validation</h2>
+  <p>We are also making it easier for RISE with SAP customers to identify partners to help with complex SAP S/4HANA Cloud transformations. It is essential for our partner ecosystem to follow the RISE with SAP Methodology as well. For customers to onboard successfully, there needs to be a close alignment between SAP, the customer, and implementation partner. This is why we are training and validating partners to use the RISE with SAP Methodology and will collaborate closely with partners to provide consistency and quality.</p>
+  <p>We are also introducing the <strong>RISE with SAP Validated Partner</strong> recognition, which verifies a partner’s adherence to the RISE with SAP Methodology and our q-gates, giving businesses the confidence to know that they are fully leveraging the potential of cloud-based innovations from SAP. Almost 90% of all SAP implementations are overseen by partners, so training and validating them is a key part of our strategy to ensure consistency and quality for customers.</p>
+  <h2 id="building-a-seamless-end-to-end-tool-chain">Building a Seamless End-to-End Tool Chain</h2>
+  <p>As a former SAP CIO, I’ve felt the challenges (and pain) of large-scale transformation. I know the pressure CIOs are under to show tangible business outcomes quickly. It’s why true business transformation requires a holistic approach, not a simple technology lift and shift.</p>
+  <p>We deliver the most complete business transformation suite in the industry. With the range of capabilities on offer today — including SAP Signavio, SAP LeanIX, and SAP Cloud ALM solutions as well as SAP Business Technology Platform — we have an amazing set of tools to bring out the best in businesses. Now, we are bringing them more closely together as one end-to-end seamless tool chain to make it easier to manage the process, system, and data landscape holistically.</p>
+  <p>With our recently announced <a href="/2024/06/sap-enters-agreement-to-acquire-walkme">agreement to acquire <strong>WalkMe</strong></a>, we plan to further strengthen our ability to deliver successful business transformation across applications, processes, systems, and people. ​WalkMe will help us incorporate user-centric adoption, enablement, and productivity capabilities alongside our Business Transformation Management portfolio of SAP Signavio and SAP LeanIX solutions. And WalkMe’s AI capabilities will complement our process AI with user intelligence, improving the capabilities of our <a href="https://www.sap.com/products/artificial-intelligence/ai-assistant.html">generative AI copilot Joule</a> to help people get work done faster.​</p>
+  <h2 id="sap-business-ai-new-frontier-for-business-transformation">SAP Business AI: New Frontier for Business Transformation</h2>
+  <p>In 2024, SAP Sapphire has been an opportunity for us to showcase how we are introducing in a new era of optimized business operations, with all the IT complexity concealed behind intuitive, AI-powered user experiences.</p>
+  <p>We highlighted the progress we are making embedding Joule throughout our enterprise portfolio and the enormous potential we see for AI to support both customers and partners in their RISE with SAP journey. I was thrilled to announce that starting in Q4 of 2024, customers and partners can leverage generative AI-powered assistance for their RISE with SAP clean core success plan.</p>
+  <p>We are also bringing new consulting capabilities to Joule, aimed at simplifying SAP implementations for partners. The new consulting capability draws insights from SAP product documentation and the SAP community to provide consultants with vital information and is planned to be available in the second half of this year.</p>
+  <h2 id="business-transformation-more-than-an-it-project">Business Transformation: More Than an IT Project</h2>
+  <p>At SAP, we understand that true business transformation is more than an IT project. It requires a holistic approach and not a simple technological lift and shift. That’s why we are putting the people, methodologies, financial incentives, tools, partner practices, and SAP Business AI in place to ensure our customers not only have compelling reasons to move to the cloud, but also a compelling experience.</p>
+  <p><strong>Learn more:</strong></p>
+  <ul>
+    <li>Watch the replay of the <strong><a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">Customer Keynote at SAP Sapphire</a></strong></li>
+    <li>Read all the announcements in the <strong><a href="https://www.sap.com/events/sapphire/news-guide.html">SAP Sapphire News Guide</a></strong></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Thomas Saueressig is a member of the Executive Board of SAP SE leading Customer Services &#x26; Delivery.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Enters into Agreement to Acquire WalkMe, Driving Business Transformation by Enhancing the Customer Experience and Enriching SAP Business AI Offerings]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-enters-agreement-to-acquire-walkme</link>
+            <guid>https://www.sap.com/news/2024/06/sap-enters-agreement-to-acquire-walkme</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is entering into an agreement to acquire WalkMe, a leader in digital adoption platforms. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Enters into Agreement to Acquire WalkMe, Driving Business Transformation by Enhancing the Customer Experience and Enriching SAP Business AI Offerings" src="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-enters-into-agreement-to-acquire-walkme-driving-business-transformation-by-enhancing-the-customer-experience-and-enriching-sap-business-ai-offerings">SAP Enters into Agreement to Acquire WalkMe, Driving Business Transformation by Enhancing the Customer Experience and Enriching SAP Business AI Offerings</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) and WalkMe Ltd. (NASDAQ: WKME) announced today that the companies have entered into a definitive agreement under which SAP will acquire WalkMe, a leader in digital adoption platforms (DAPs).</p>
+      </div>
+    </div>
+  </div>
+  <p>WalkMe’s solutions help organizations navigate constant technology change by providing users with advanced guidance and automation features that enable them to execute workflows seamlessly across any number of applications. This results in higher adoption of the underlying application and as such drives value realization.</p>
+  <p>The Executive and Supervisory Boards of SAP SE and the board of directors of WalkMe have approved the transaction for US $14.00 per share in an all-cash transaction, representing an equity value of approximately US $1.5 billion. The offer price represents a 45% premium to WalkMe’s closing share price on June 4, 2024.</p>
+  <p>The envisioned combination complements SAP’s Business Transformation Management portfolio around SAP Signavio and SAP LeanIX solutions to help customers on their transformation journeys.</p>
+  <p>“Applications, processes, data and people are the four key elements of a successful business transformation,” said Christian Klein, CEO and member of the Executive Board of SAP SE. “By acquiring WalkMe, we are doubling down on the support we provide our end users, helping them to quickly adopt new solutions and features to get the maximum value out of their IT investments.”</p>
+  <h2 id="walkme-focus-on-analyzing-adoption-and-business-transformation">WalkMe: Focus on Analyzing Adoption and Business Transformation</h2>
+  <p>“We are thrilled to join forces with SAP. This acquisition marks a significant milestone in our journey, providing us with the resources and customer base necessary to enhance our product offerings and expand our market reach,” said Dan Adika, CEO of WalkMe. “By leveraging SAP’s extensive ecosystem, we are poised to unlock substantial growth opportunities and deliver even greater value to our customers. Together, we look forward to a future filled with innovation and exceptional service.”</p>
+  <p>WalkMe helps organizations boost enterprise productivity and lower risk by enabling consistent, effective and efficient use of software and the workflows it enables. Its DAP works on top of an organization’s application landscape, detects where people encounter friction and provides the tailored support and automation they need to complete the job to be done, right in the flow of work, across any application. Importantly, WalkMe will continue to fully support non-SAP applications.</p>
+  <p>Soon, WalkMe will launch the WalkMe<sup>X</sup> copilot, which will use WalkMe’s contextual awareness and AI to suggest the best next step for any workflow, anywhere. WalkMe<sup>X</sup> has the capability to always be on, serving as an overlay to any application, including copilots from different vendors that companies use in their landscapes. Integrating the strength of WalkMe’s adoption capabilities with SAP’s copilot Joule will boost AI assistant and productivity gains for all SAP customers. Additionally, integrating distinctive e-learning features in the SAP Enable Now solution with WalkMe will form the center of SAP’s people-centric transformation approach going forward.</p>
+  <p>The acquisition is subject to customary closing conditions, including the receipt of WalkMe shareholder approval and necessary regulatory clearances, and is expected to close in the third quarter of 2024. The impact of the transaction on SAP’s non-IFRS earnings per share for fiscal 2024 is expected to be immaterial.</p>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About WalkMe</strong></div>
+    </div>
+  </div>
+  <p>WalkMe (NASDAQ: WKME), headquartered in Tel Aviv, Israel, pioneered DAP innovations and solutions so companies can effectively navigate the constant change brought on by technology. With WalkMe, organizations drive enterprise productivity and reduce risk by ensuring consistent, responsible, and efficient adoption of software and the workflows it powers. Our AI-driven platform sits on top of an organization’s tech stack, identifies where people experience friction, and delivers the personalized guidance and automation needed to get the job done, right in the flow of work. Customers like IBM, Nestle, ThermoFisher Scientific, and the U.S. Dept. of Defense trust WalkMe to create the people-centric experiences required to boost the effectiveness of their workflows and maximize software ROI.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>As a global leader in enterprise applications and business AI, SAP (NYSE:SAP) stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. For more information, visit <a href="http://www.sap.com">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, financial community only:</strong><br>Anthony Coletta, +49 6227-7-60437, <a href="mailto:investor@sap.com">investor@sap.com</a>, CEST</p>
+  <p><strong>For more information, press only:</strong><br>Joellen Perry, +1 650-445-6780, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PT<br>Daniel Reinhardt, +49 6227-7-40201, <a href="mailto:daniel.reinhardt@sap.com">daniel.reinhardt@sap.com</a>, CEST<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><strong>For WalkMe Investor Relations:</strong><br>John Streppa, <a href="mailto:investors@walkme.com">investors@walkme.com</a></p>
+  <p><strong>Additional Important Information and Where to Find It</strong> In connection with the proposed transaction, WalkMe will prepare a proxy statement to be delivered to its shareholders and furnished to the Securities and Exchange Commission (the “SEC”). INVESTORS AND SECURITY HOLDERS ARE STRONGLY ADVISED TO READ THE PROXY STATEMENT WHEN IT BECOMES AVAILABLE AND OTHER RELEVANT DOCUMENTS FILED OR FURNISHED TO THE SEC IN CONNECTION WITH THE PROPOSED TRANSACTION OR INCORPORATED BY REFERENCE THEREIN, BECAUSE THE PROXY STATEMENT AND SUCH OTHER RELEVANT DOCUMENTS WILL CONTAIN IMPORTANT INFORMATION ABOUT THE PROPOSED TRANSACTION AND THE PARTIES TO THE PROPOSED TRANSACTION. This press release is not a substitute for the proxy statement or any other document that may be filed or furnished by WalkMe with the SEC.</p>
+  <p>The proxy statement and other related documents filed or furnished to the SEC regarding the proposed transaction may be obtained for free from the SEC’s website (<a href="http://www.sec.gov/">www.sec.gov</a>), WalkMe’s website at <a href="http://www.walkme.com">www.walkme.com</a> or by directing such request to WalkMe’s Investor Relations.</p>
+  <p><strong>Forward-Looking Statements</strong><br>This press release contains “forward-looking statements” within the meaning of the “safe harbor” provisions of the Private Securities Litigation Reform Act of 1995 and other applicable securities laws. All statements other than statements of historical fact, including statements regarding the proposed acquisition of WalkMe by SAP, the expected timing for completing the proposed transaction and the terms thereof, future financial and operating results, benefits and synergies of the transaction, future opportunities for the combined businesses and any other statements regarding events or developments that may occur in the future, may be “forward-looking statements” for purposes of federal and state securities laws. These forward-looking statements involve a number of risks and uncertainties that could significantly affect the financial or operating results of SAP, WalkMe or the combined company. Words such as “expects,” “anticipates,” “intends,” “plans,” “believes,” “estimates,” “predicts,” “seeks,” “targets,” “would,” “will,” “should,” “may” and variations of such words and similar expressions are intended to identify such forward-looking statements. Such statements are based on management’s expectations as of the date they are first made, are not guarantees of future performance and involve certain risks, uncertainties and assumptions that are difficult to predict. Neither SAP nor WalkMe can give any assurances that the expectations in such forward-looking statements will be attained and, therefore, actual outcomes and results may differ materially from what is expressed or forecasted in such forward-looking statements. For example, these forward-looking statements could be affected by factors including, without limitation, risks associated with the ability to consummate the proposed transaction, the satisfaction of the conditions to the consummation of the proposed transaction, including the receipt of certain regulatory approvals, and the timing of the closing of the proposed transaction; the occurrence of any event, change or other circumstance that could give rise to the termination of the proposed transaction; the potential that WalkMe shareholders may not approve the transaction; the ability to successfully integrate operations and employees; the ability to realize anticipated benefits and synergies of the proposed transaction as rapidly or to the extent anticipated by financial analysts or investors; the potential impact of the announcement of the proposed transaction on operating results, business generally and business relationships, including with employees, customers, suppliers and competitors; unanticipated restructuring costs may be incurred or undisclosed liabilities assumed; actual or threatened legal proceedings that have been or may be instituted against SAP or WalkMe in connection with the proposed transaction or otherwise; the ability and costs related to retaining key personnel and clients; risks related to diverting management’s attention from ongoing business operations; delays, challenges, costs, fees, expenses and charges related to the proposed transaction; actions by competitors; general adverse economic, political, social and security conditions in the regions and industries in which SAP and WalkMe operate, including relating to Israel’s ongoing war with Hamas and other terrorist organizations in the Middle East and general hostilities; exposure to inflation, currency rate and interest rate fluctuations and risks associated with doing business locally and internationally, as well as fluctuations in the market price of SAP and WalkMe’s traded securities; natural catastrophes, any pandemic, epidemic or outbreak of infectious disease, warfare, protests and riots, and terrorist attacks; and those additional risks and factors discussed in reports filed or furnished with the SEC by SAP and WalkMe, including SAP’s and WalkMe’s most recent Annual Reports on Form 20-F and in any subsequent reports on Form 6-K, each of which is on file with or furnished to the SEC and available at the SEC’s website at <a href="http://www.sec.gov/">www.sec.gov</a>. Reports filed or furnished with the SEC by SAP are also available on SAP’s website at <a href="http://www.sap.com/investors/en.html">www.sap.com/investors</a> and by WalkMe on WalkMe’s website at <a href="http://www.walkme.com">www.walkme.com</a>. Moreover, other risks and uncertainties of which SAP or WalkMe are not currently aware or may not currently consider material may also affect each of the companies’ forward-looking statements and may cause actual results and the timing of events to differ materially from those anticipated. The forward-looking statements made in this press release are made only as of the date hereof or as of the dates indicated in the forward-looking statements, even if they are subsequently made available by SAP or WalkMe on their respective websites or otherwise. Neither SAP nor WalkMe undertakes any obligation to update or supplement any forward-looking statements to reflect actual results, new information, future events, changes in its expectations or other circumstances that exist after the date as of which the forward-looking statements were made.</p>
+  <p>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE and affiliated entities in Germany and other countries. Please see <a href="https://www.sap.com/copyright">www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you receive this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/corporate</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/investor-relations</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Accenture Collaborate on Getting to Value Faster with SAP Business AI]]></title>
+            <link>https://www.sap.com/news/2024/06/accenture-sap-sapphire-business-ai</link>
+            <guid>https://www.sap.com/news/2024/06/accenture-sap-sapphire-business-ai</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Accenture are working together to help their customers make SAP Business AI and data their No. 1 competitive advantage.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accenture</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Again Leads the 2024 SPARK Matrix™ for Digital Twin of an Organization]]></title>
+            <link>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</link>
+            <guid>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio is a Leader in the 2024 SPARK Matrix for Digital Twin of an Organization (DTO) for the fourth consecutive year. Read more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Is a Leader in the 2024 Gartner® Magic Quadrant™ for Process Mining Platforms]]></title>
+            <link>https://www.sap.com/news/2024/05/sap-signavio-a-leader-2024-gartner-magic-quadrant-for-process-mining-platforms</link>
+            <guid>https://www.sap.com/news/2024/05/sap-signavio-a-leader-2024-gartner-magic-quadrant-for-process-mining-platforms</guid>
+            <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the 2024 Gartner Magic Quadrant for Process Mining, SAP Signavio has again been recognized as a Leader. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_138b3ef0b5b24b564b18da25ef3b2cde982bba0f8.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_138b3ef0b5b24b564b18da25ef3b2cde982bba0f8.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_138b3ef0b5b24b564b18da25ef3b2cde982bba0f8.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Signavio Is a Leader in the 2024 Gartner® Magic Quadrant™ for Process Mining Platforms" src="./media_138b3ef0b5b24b564b18da25ef3b2cde982bba0f8.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-signavio-is-a-leader-in-the-2024-gartner-magic-quadrant-for-process-mining-platforms">SAP Signavio Is a Leader in the 2024 Gartner® Magic Quadrant™ for Process Mining Platforms</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the 2024 Gartner Magic Quadrant for Process Mining, SAP Signavio has once again been recognized as a Leader in the market based on Completeness of Vision and Ability to Execute.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="complimentary-copy-2024-gartner-magic-quadrant-for-process-mining-platforms">Complimentary copy: 2024 Gartner® Magic Quadrant™ for Process Mining Platforms</h3>
+        <p><em><a href="https://www.signavio.com/downloads/analyst-reports/2024-gartner-magic-quadrant-process-mining/">Download yours here</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>This is the second year in a row that SAP Signavio has been positioned as a Leader in the report. We believe that this positioning implies that SAP Signavio is a key driver for SAP’s growth and long-term strategy.</p>
+  <p>According to the Gartner Magic Quadrant research methodology, “Leaders execute well against their current vision and are well positioned for tomorrow.”</p>
+  <p>Our solutions solve today’s real and diverse customer use cases — operational excellence, compliance, automation, transformation, etc.– and recognizes that we have a compelling vision for a future in which process automation and process AI open up new opportunities for our customers and partners.</p>
+  <p>SAP Signavio continues to focus on ensuring the long-term success of all of our customers and partners.</p>
+  <h2 id="revenue-nsw">Revenue NSW</h2>
+  <p>In the Australian state of New South Wales, the tax collected by Revenue NSW accounts for more than 35% of finances, helping fund essential services, from healthcare to education and policing.</p>
+  <p>With a vision to be the world’s most innovative and customer-centric revenue agency, Revenue NSW set out with a very specific objective: it wanted to analyze cases in which clients had overpaid land tax to identify why these overpayments occur and what experience clients received when obtaining refunds. This analysis would not only help reduce overpayment volumes and improve the client experience, but also enable the agency to work more efficiently for its diverse stakeholders.</p>
+  <p>“As part of our Aspire 2032 strategy, our vision is to be the world’s most innovative and customer-centric revenue collection agency,” shared Jocelyn Yem, director of Strategy and Innovation at Revenue NSW.”‘Embrace Innovation’ is one of our strategic focus areas, where we can respond to our customers’ needs by embedding a culture of continuous improvement. SAP Signavio Process Intelligence has helped us achieve our first stage in this journey.”</p>
+  <p>“SAP Signavio Process Intelligence has painted a clear picture of why clients pay too much land tax and how we can process refunds smoothly, along with a detailed road map to help us put these insights into action,” confirmed Sabrina Bazouni, director of Land Tax at Revenue NSW.</p>
+  <h2 id="fujitsu-limited">Fujitsu Limited</h2>
+  <p>Recognizing the wide-ranging effect of business process transformation solutions, Fujitsu Limited has embraced SAP Signavio solutions across its operations and portfolio.</p>
+  <p>At one of its manufacturing plants in Japan, Fujitsu used the SAP Signavio Process Intelligence solution to gather process execution data directly from the shop floor into the continuous improvement model the company had been using for many years. Integrating process data into the Kaizen discussions delivered never-before-seen insights, which helped the company further optimize its shop-floor processes and transform their Kaizen from traditional to digital, using process mining to generate data-driven insights.</p>
+  <p>This firsthand experience of the solutions has also allowed Fujitsu to enrich its customer offerings with new frameworks, insights, and tools that can help customers realign their organizations and make changes at speed.</p>
+  <p>Having seen the potential of SAP Signavio solutions, Fujitsu now plans to extend its use both internally and externally. One such planned initiative involves combining the concepts of the digital twin on an organization and the intelligent enterprise, using business process transformation solutions as the mechanism of change.</p>
+  <div class="text-large">
+    <div>
+      <div>Download a <a href="https://www.signavio.com/downloads/analyst-reports/2024-gartner-magic-quadrant-process-mining/">complimentary copy of the report here</a>.</div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>Dee Houchen is global head of Market Impact for SAP Signavio.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="optimize-and-transform-business-processes-fast-and-at-scale">Optimize and transform business processes fast and at scale</h3>
+        <p><em><a href="https://www.sap.com/products/business-process-transformation.html">Learn how</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Gartner, Magic Quadrant for Process Mining Platforms, Marc Kerremans, David Sugden, Nick Duffy, 29 April 2024</p>
+  <p>GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, and MAGIC QUADRANT is a registered trademark of Gartner, Inc. and/or its affiliates and are used herein with permission. All rights reserved. Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>news-tag/process-mining</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Process Observability: Your Business Is More Than a Sum of Its Parts]]></title>
+            <link>https://www.sap.com/news/2023/11/process-observability-business-more-than-its-parts</link>
+            <guid>https://www.sap.com/news/2023/11/process-observability-business-more-than-its-parts</guid>
+            <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Process observability provides a better understanding of the state and performance of how work is getting done within an organization.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Process Observability: Your Business Is More Than a Sum of Its Parts" src="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="process-observability-your-business-is-more-than-a-sum-of-its-parts">Process Observability: Your Business Is More Than a Sum of Its Parts</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The promise of digital transformation has been to leverage technology in ways that simplify and streamline our work lives. We love Amazon’s “click to buy” button, which sends nearly any product we can think of to our doorsteps in a matter of hours. In our work lives, we can now collaborate on documents in real time, take video conferencing for granted, look to AI bots to record our action items, and more.</div>
+    </div>
+  </div>
+  <p>Luckily, as consumers, we rarely have to look underneath the surface, onto the complexity required to make these systems function. Businesses aren’t that lucky. As business processes become more and more digitized, it is more important than ever to understand the impact of operational systems on business outcomes and to align business strategy with IT architecture.</p>
+  <p>It’s like watching your favorite professional sports team – everyone can be an armchair expert, but fielding a winning team week after week and year after year takes consistent and ongoing effort. Coaches and players need to work together, pulling in data from various sources and applying creative, exploratory analysis to discern the best strategy, mental and physical fitness, and tactics needed to win a particular match. Every business decision is like a new match and the schedule has become more crowded and the stakes higher.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="learn-more-about-process-observability-in-an-idc-report">Learn more about process observability in an IDC report</h3>
+        <p><em><a href="https://www.signavio.com/downloads/white-papers/business-process-observability/">Download it</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In the same way, businesses need to take a holistic team view that looks at the health of the overall business, identifies key processes and functions, and creates the opportunity for improvement and change. This team view requires understanding end-to-end business processes, the operational systems they touch, and how well they meet business goals as well as the needs of customers and employees. As businesses look to drive complicated business and technology transformation faster, at scale, and with more confidence, they are turning to the emerging practice of process observability.</p>
+  <h2 id="what-is-process-observability">What Is Process Observability?</h2>
+  <p>At its most basic level, ‘observability’ is the ability to measure the internal states of a system by examining its outputs. It also implies an ability to separate critical information from routine information. A ‘process’ is simply a description of how something gets done. So ‘process observability’ provides a better understanding of the state and performance of how work is getting done within an organization. A process is observable if stakeholders and systems understand how it operates – where the process outcomes are known – and actions can be derived to improve or change these outcomes.</p>
+  <p>Of course, anything that sounds that simple is usually extremely difficult to execute. Here, the challenge is ensuring that the right observations based on the right data are being collected and that the right people have the right tools to analyze that data in real or near-real time. Identifying patterns, trends, anomalies, and potential issues in this way requires strong alignment of business strategy and IT architecture, as well as the ability to directly connect business processes to the underlying IT landscape they rely on.</p>
+  <h2 id="where-to-start">Where to Start</h2>
+  <p>Supporting better business outcomes must always be the driving force behind ongoing process analysis, insights, and change. Increasing process observability is not about vanity metrics for executives but the alignment needed to make change easier. This depends on three key pillars – data, models, and benchmarks.</p>
+  <p>Obviously, a key part of observability is accessing the data that tells you what is happening at a granular level. Every business process produces data in the form of event logs, metrics, and traces. There’s also data from application monitoring and data on the cycle times or costs for processes. Experience data can be gathered from customers, employees, or other stakeholders. In other words, there’s no lack of data sources.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="business-process-is-at-the-center-of-digital-transformation">Business process is at the center of digital transformation</h3>
+        <p><em><a href="https://dam.sap.com/mac/app/p/video/asset/preview/jmE6B7V?ltr=a&#x26;rc=10">Watch a video</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The bad news is that a recent research study with IDC* found that simply having access to multiple sources of insight was not enough by itself. In fact, when organizations leverage multiple data sources but do not integrate them, they encounter significant challenges. The good news is that the organizations that perform best are significantly more likely to integrate different data sources to analyze processes than the organizations performing less well.</p>
+  <p>Just like the pre-game stratagems of your favorite team, business process models are more of an idealized version of reality that rarely survives unscathed at first contact with the reality of the opposing team or the reality of the business. Because of this, it is necessary to bridge the gap between the results of modeling and what is happening in real life. This requires feedback from human experts about underlying issues that cannot be captured by the data alone. Keep in mind that perfect observability is an unattainable goal. It is important to avoid analysis paralysis by understanding the interplay of process models and data, and make conscious, reasonable trade-offs between maximizing process observability and making efficient use of limited time and resources. Don’t let perfect be the enemy of good when you see a clear goal in front of you. You can take one right step at a time.</p>
+  <p>Benchmarking is a great way to take one such step towards increased overall observability of your processes. Comparing your outcomes to best-in-class performers in similar organizations provides useful insights on its own. In addition, it can help identify which processes can provide the most competitive differentiation for your business. Benchmarks are most useful when they show us more than just our destination – they need to provide content and guidance on the best way to arrive at that destination.</p>
+  <h2 id="at-the-end-of-the-day-its-about-people">At the End of the Day, It’s about People</h2>
+  <p>For decades, business leaders have been waiting for technology to fully deliver on the promise of seamless and delightful customer experience; ubiquitous, clean, and secure data; robust and complete applications; and a way to easily test and embed new technologies. In other words, they want to know how technology is supporting business outcomes. This is the promise and the challenge of process observability.</p>
+  <p>As in any team sport, communication – frequent, data-driven, curious – is vital for success. Historically, one of the toughest communication gaps has been linking business strategy with technology architecture, mapping business outcomes with underlying operational systems. Bridging this gap is critical to success. The good news is that we are hearing from our most innovative customers that their teams are finally starting to have the right conversations. Instead of IT reporting to the business about system performance and the like, the conversation is now centered on how processes are performing and what needs improving.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>*IDC White Paper, sponsored by SAP, Business Process Observability: A Collaborative Approach to Transformation Enablement, doc #EUR251308223, November 2023.</p>
+        <p>Dee Houchen is global lead for the Market Impact Team at SAP Signavio.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-every-week">Get the latest SAP News delivered to your inbox every week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP to Acquire LeanIX, Delivering Customers a Comprehensive Solution Suite for Continuous Business Transformation and a Foundation for AI-Enabled Process Optimization]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-to-acquire-leanix</link>
+            <guid>https://www.sap.com/news/2023/09/sap-to-acquire-leanix</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together SAP and LeanIX will offer a first-of-its-kind transformation suite to provide holistic support to customers. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/investor-relations</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/enterprise-architecture-management</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Further Expands Focus on Business Transformation with LeanIX Acquisition]]></title>
+            <link>https://www.sap.com/news/2023/09/leanix-acquisition-sap-expands-focus-business-transformation</link>
+            <guid>https://www.sap.com/news/2023/09/leanix-acquisition-sap-expands-focus-business-transformation</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the LeanIX acquisition, SAP will further enhance its ability to digitize and simplify business transformations. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/enterprise-architecture-management</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Twin of an Organization: Reflections on the State of Your Business Processes]]></title>
+            <link>https://www.sap.com/news/2023/06/digital-twin-of-an-organization-reflections-on-the-state-of-your-business-processes</link>
+            <guid>https://www.sap.com/news/2023/06/digital-twin-of-an-organization-reflections-on-the-state-of-your-business-processes</guid>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio has been named a Leader in the Digital Twin of an Organization (DTO) market by Quadrant Knowledge Solutions. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future-Proof Organization Is a Process-Centric Organization]]></title>
+            <link>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</link>
+            <guid>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP Signavio process integrations, automations, and methodologies establish SAP as a true visionary in the process transformation field.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+            <category>product/sap-signavio-process-manager</category>
+        </item>
+        <item>
+            <title><![CDATA[Innovating with SAP Business Technology Platform]]></title>
+            <link>https://www.sap.com/news/2023/05/innovating-with-sap-btp</link>
+            <guid>https://www.sap.com/news/2023/05/innovating-with-sap-btp</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP Sapphire, we introduced new SAP BTP capabilities in application development, automation, integration, data and analytics, and AI.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-transformation</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-datasphere</category>
+            <category>product/sap-integration-suite</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Readies Customers to Conquer Any Mountain]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-customers-conquer-any-mountain</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-customers-conquer-any-mountain</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the SAP Sapphire Orlando keynote, Christian Klein and Julia White shared how SAP is ready to future-proof customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/erp</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Is a Leader in the 2023 Gartner® Magic Quadrant™ for Process Mining Tools]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-signavio-leader-gartner-magic-quadrant-process-mining-tools</link>
+            <guid>https://www.sap.com/news/2023/03/sap-signavio-leader-gartner-magic-quadrant-process-mining-tools</guid>
+            <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the first Gartner Magic Quadrant for Process Mining, SAP Signavio has been recognized as a Leader in the market. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/process-mining</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Unleashing Automation for a Resilient Aerospace & Defense Sector]]></title>
+            <link>https://www.sap.com/news/2023/02/unleashing-automation-resilient-aerospace-defense-sector</link>
+            <guid>https://www.sap.com/news/2023/02/unleashing-automation-resilient-aerospace-defense-sector</guid>
+            <pubDate>Fri, 17 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The aerospace and defense industry needs ways to overcome labor shortage-driven production challenges. Automation solutions and SAP can help]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/aerospace-defense</category>
+            <category>news-tag/automation</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/rpa</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-warehouse-robotics</category>
+        </item>
+        <item>
+            <title><![CDATA[Serving Customers Better through Expanded Functionality and Enhanced Offerings in 2023]]></title>
+            <link>https://www.sap.com/news/2023/02/serving-customers-better-expanded-functionality-sap-support</link>
+            <guid>https://www.sap.com/news/2023/02/serving-customers-better-expanded-functionality-sap-support</guid>
+            <pubDate>Thu, 16 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With expanded functionality, enhanced transformation planning, and access to test automation solutions, 2023 will be big for SAP support.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/real-time-support</category>
+            <category>product/sap-cloud-alm</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Process Explorer: Helping Customers Become Faster, Better, Stronger]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-process-mining-helping-customers</link>
+            <guid>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-process-mining-helping-customers</guid>
+            <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the growing use of process mining and related tools, SAP Signavio Process Explorer can offer customers needed guidance. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/process-mining</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Process Explorer Brings to Life Decades of SAP Software Transformation Experiences]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-transformation-experiences</link>
+            <guid>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-transformation-experiences</guid>
+            <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio Process Explorer speeds up time to value of any business process change. Read the news about the solution availability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Business Process Transformation Introduces a New Cloud Mindset to Growth Strategies]]></title>
+            <link>https://www.sap.com/news/2023/01/business-process-transformation-twinings-ovaltine</link>
+            <guid>https://www.sap.com/news/2023/01/business-process-transformation-twinings-ovaltine</guid>
+            <pubDate>Tue, 10 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Twinings Ovaltine was able to continuously improve business processes with RISE with SAP and SAP Signavio solutions. Read to learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Build: What’s Under the Hood?]]></title>
+            <link>https://www.sap.com/blogs/2022/11/sap-build-capabilities-under-the-hood-sap-teched</link>
+            <guid>https://www.sap.com/blogs/2022/11/sap-build-capabilities-under-the-hood-sap-teched</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take a deeper look at SAP Build capabilities and how the low-code offering helps SAP customers deliver new, innovative solutions quickly.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[BPM: The DNA of Business and Crucial for Innovation]]></title>
+            <link>https://www.sap.com/news/2022/10/process-management-dna-business-crucial-innovation</link>
+            <guid>https://www.sap.com/news/2022/10/process-management-dna-business-crucial-innovation</guid>
+            <pubDate>Mon, 24 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A structured approach to process management provides a foundation for innovation. Learn more from the SAP Signavio BPM Forum.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-signavio-business-process-transformation-forum</category>
+        </item>
+        <item>
+            <title><![CDATA[A Process Mindset Can Change the World]]></title>
+            <link>https://www.sap.com/news/2022/10/process-mindset-change-the-world-sap-signavio</link>
+            <guid>https://www.sap.com/news/2022/10/process-mindset-change-the-world-sap-signavio</guid>
+            <pubDate>Thu, 06 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The value of a process mindset was covered at the recent SAP Signavio Business Process Transformation Forum in Orlando. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-signavio-business-process-transformation-forum</category>
+        </item>
+        <item>
+            <title><![CDATA[New Cognizant and SAP Agreement Focuses on Accelerating Customers’ Digital Transformation]]></title>
+            <link>https://www.sap.com/news/2022/09/cognizant-and-sap-accelerate-customer-digital-transformation</link>
+            <guid>https://www.sap.com/news/2022/09/cognizant-and-sap-accelerate-customer-digital-transformation</guid>
+            <pubDate>Wed, 21 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cognizant and SAP Signavio are working together to demystify business transformation with a process-centric approach. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Top Reasons to Attend the SAP Signavio Business Process Transformation Forum]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-signavio-business-process-transformation-forum-reasons-to-attend</link>
+            <guid>https://www.sap.com/news/2022/09/sap-signavio-business-process-transformation-forum-reasons-to-attend</guid>
+            <pubDate>Fri, 09 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Attend the SAP Signavio Business Process Transformation Forum and learn why a strategic approach is the foundation for true business agility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-signavio-business-process-transformation-forum</category>
+        </item>
+        <item>
+            <title><![CDATA[Innovation Helps the German National Bone Marrow Donor Registry Save Lives]]></title>
+            <link>https://www.sap.com/news/2022/08/german-national-bone-marrow-donor-registry-zkrd-innovation-save-lives</link>
+            <guid>https://www.sap.com/news/2022/08/german-national-bone-marrow-donor-registry-zkrd-innovation-save-lives</guid>
+            <pubDate>Tue, 09 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The German National Bone Marrow Donor Registry (ZKRD) uses SAP Signavio solutions to help patients receive lifesaving treatment on time.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP Builds Bridges Between Research and Development]]></title>
+            <link>https://www.sap.com/news/2022/07/sap-bridges-academia-and-business-research-and-development</link>
+            <guid>https://www.sap.com/news/2022/07/sap-bridges-academia-and-business-research-and-development</guid>
+            <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[When it comes to getting academia and business to work together on the problems of the future, SAP is breaking new ground]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-innovation-center-network</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio and LeanIX Bring Process Excellence and Enterprise Architecture Closer Together]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-signavio-leanix-process-excellence-enterprise-architecture</link>
+            <guid>https://www.sap.com/news/2022/06/sap-signavio-leanix-process-excellence-enterprise-architecture</guid>
+            <pubDate>Wed, 29 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio and LeanIX bring together process excellence and enterprise architecture management, connecting IT and business leaders.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-endorsed-apps</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Business Process Transformation as a Growth Driver]]></title>
+            <link>https://www.sap.com/news/2022/03/business-process-transformation-growth-driver</link>
+            <guid>https://www.sap.com/news/2022/03/business-process-transformation-growth-driver</guid>
+            <pubDate>Wed, 30 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To thrive in a future you can’t predict, business process transformation can be your growth driver. Learn more about SAP Signavio.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Leverages Experience Data to Expand the Value of Business Process Transformation]]></title>
+            <link>https://www.sap.com/news/2022/03/sap-signavio-experience-data-business-process-transformation</link>
+            <guid>https://www.sap.com/news/2022/03/sap-signavio-experience-data-business-process-transformation</guid>
+            <pubDate>Mon, 28 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio correlates experience data with underlying IT systems so businesses can optimize their end-to-end business processes.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-leanix/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 17 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Elevating the RISE with SAP Experience]]></title>
+            <link>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</link>
+            <guid>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</guid>
+            <pubDate>Mon, 17 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the elevated RISE with SAP experience that is improving services and delivery for customers end-to-end.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Elevating the RISE with SAP Experience" src="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="elevating-the-rise-with-sap-experience">Elevating the RISE with SAP Experience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>According to Albert Einstein, “Life is like a bicycle. To keep your balance, you must keep moving.” He had a point! The same is true of business.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Successful businesses keep moving and evolving, especially in times of rapid change and macroeconomic uncertainty. And given the current volatility, business transformation is no longer optional; it’s imperative.</p>
+  <p>Knowing this, we launched RISE with SAP in 2021 not as a technical IT migration approach, but as a comprehensive solution designed to drive broad business transformation. With 6,000 customers having selected RISE with SAP, we know we cannot stop moving either. And I was <a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">thrilled to share at SAP Sapphire this year</a> how we are taking the RISE with SAP experience to the next level and improving services and delivery for customers end-to-end.</p>
+  <p>Here are some key takeaways.</p>
+  <h2 id="evolving-how-we-engage-with-customers">Evolving How We Engage with Customers</h2>
+  <p>Navigating the transformation of today’s complex system landscapes and business processes is like orchestrating a symphony with countless instruments and moving parts. To succeed, we need to keep refining our engagement approach to better manage the intricacies of our customers’ complex architecture at an unprecedented level of detail.</p>
+  <p>To this end, we’re making a lot of changes in how we engage with customers, including strengthening the role of the enterprise architect (EA). The EA harmonizes all elements and guides the customer throughout their cloud journey.</p>
+  <h2 id="enhancing-methodologies">Enhancing Methodologies</h2>
+  <p>We know the biggest challenge for any cloud transformation is to make the system landscape more agile and enable innovation — quickly. We’ve been listening and have introduced solutions. For example, our <strong><a href="/2024/04/transform-confidence-rise-with-sap-methodology">RISE with SAP Methodology</a></strong> is a significant step forward in creating a consistent experience for all RISE with SAP customers, independent of their individual cloud journeys. Now, a dedicated enterprise architect guides customers through the RISE with SAP Methodology to enhance onboarding and provides transparency throughout the project with key milestone checks, q-gates, and checklists that ensure consistent quality and more predictable timelines throughout the implementation process.</p>
+  <p>This new offering is included in our <strong><a href="https://www.sap.com/products/erp/rise.html#migration">SAP RISE Migration and Modernization</a></strong> program, which is designed to give customers the confidence to migrate even the most complex ERP systems to the cloud. By enabling our customers to integrate and extend SAP S/4HANA with a clean core approach, we ensure our customers experience better maintainability and lower total cost of ownership.​ Because legacy ERP systems often carry technical debt and, let’s face it, code is also a liability not just an asset. The more code you have, the more you have to optimize, debug, and modernize. And this is something we all need to actively work against.</p>
+  <h2 id="introducing-partner-training-and-validation">Introducing Partner Training and Validation</h2>
+  <p>We are also making it easier for RISE with SAP customers to identify partners to help with complex SAP S/4HANA Cloud transformations. It is essential for our partner ecosystem to follow the RISE with SAP Methodology as well. For customers to onboard successfully, there needs to be a close alignment between SAP, the customer, and implementation partner. This is why we are training and validating partners to use the RISE with SAP Methodology and will collaborate closely with partners to provide consistency and quality.</p>
+  <p>We are also introducing the <strong>RISE with SAP Validated Partner</strong> recognition, which verifies a partner’s adherence to the RISE with SAP Methodology and our q-gates, giving businesses the confidence to know that they are fully leveraging the potential of cloud-based innovations from SAP. Almost 90% of all SAP implementations are overseen by partners, so training and validating them is a key part of our strategy to ensure consistency and quality for customers.</p>
+  <h2 id="building-a-seamless-end-to-end-tool-chain">Building a Seamless End-to-End Tool Chain</h2>
+  <p>As a former SAP CIO, I’ve felt the challenges (and pain) of large-scale transformation. I know the pressure CIOs are under to show tangible business outcomes quickly. It’s why true business transformation requires a holistic approach, not a simple technology lift and shift.</p>
+  <p>We deliver the most complete business transformation suite in the industry. With the range of capabilities on offer today — including SAP Signavio, SAP LeanIX, and SAP Cloud ALM solutions as well as SAP Business Technology Platform — we have an amazing set of tools to bring out the best in businesses. Now, we are bringing them more closely together as one end-to-end seamless tool chain to make it easier to manage the process, system, and data landscape holistically.</p>
+  <p>With our recently announced <a href="/2024/06/sap-enters-agreement-to-acquire-walkme">agreement to acquire <strong>WalkMe</strong></a>, we plan to further strengthen our ability to deliver successful business transformation across applications, processes, systems, and people. ​WalkMe will help us incorporate user-centric adoption, enablement, and productivity capabilities alongside our Business Transformation Management portfolio of SAP Signavio and SAP LeanIX solutions. And WalkMe’s AI capabilities will complement our process AI with user intelligence, improving the capabilities of our <a href="https://www.sap.com/products/artificial-intelligence/ai-assistant.html">generative AI copilot Joule</a> to help people get work done faster.​</p>
+  <h2 id="sap-business-ai-new-frontier-for-business-transformation">SAP Business AI: New Frontier for Business Transformation</h2>
+  <p>In 2024, SAP Sapphire has been an opportunity for us to showcase how we are introducing in a new era of optimized business operations, with all the IT complexity concealed behind intuitive, AI-powered user experiences.</p>
+  <p>We highlighted the progress we are making embedding Joule throughout our enterprise portfolio and the enormous potential we see for AI to support both customers and partners in their RISE with SAP journey. I was thrilled to announce that starting in Q4 of 2024, customers and partners can leverage generative AI-powered assistance for their RISE with SAP clean core success plan.</p>
+  <p>We are also bringing new consulting capabilities to Joule, aimed at simplifying SAP implementations for partners. The new consulting capability draws insights from SAP product documentation and the SAP community to provide consultants with vital information and is planned to be available in the second half of this year.</p>
+  <h2 id="business-transformation-more-than-an-it-project">Business Transformation: More Than an IT Project</h2>
+  <p>At SAP, we understand that true business transformation is more than an IT project. It requires a holistic approach and not a simple technological lift and shift. That’s why we are putting the people, methodologies, financial incentives, tools, partner practices, and SAP Business AI in place to ensure our customers not only have compelling reasons to move to the cloud, but also a compelling experience.</p>
+  <p><strong>Learn more:</strong></p>
+  <ul>
+    <li>Watch the replay of the <strong><a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">Customer Keynote at SAP Sapphire</a></strong></li>
+    <li>Read all the announcements in the <strong><a href="https://www.sap.com/events/sapphire/news-guide.html">SAP Sapphire News Guide</a></strong></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Thomas Saueressig is a member of the Executive Board of SAP SE leading Customer Services &#x26; Delivery.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Enters into Agreement to Acquire WalkMe, Driving Business Transformation by Enhancing the Customer Experience and Enriching SAP Business AI Offerings]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-enters-agreement-to-acquire-walkme</link>
+            <guid>https://www.sap.com/news/2024/06/sap-enters-agreement-to-acquire-walkme</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is entering into an agreement to acquire WalkMe, a leader in digital adoption platforms. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Enters into Agreement to Acquire WalkMe, Driving Business Transformation by Enhancing the Customer Experience and Enriching SAP Business AI Offerings" src="./media_17c02c58752a8aaaec6051673cfe2308da8b06446.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-enters-into-agreement-to-acquire-walkme-driving-business-transformation-by-enhancing-the-customer-experience-and-enriching-sap-business-ai-offerings">SAP Enters into Agreement to Acquire WalkMe, Driving Business Transformation by Enhancing the Customer Experience and Enriching SAP Business AI Offerings</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) and WalkMe Ltd. (NASDAQ: WKME) announced today that the companies have entered into a definitive agreement under which SAP will acquire WalkMe, a leader in digital adoption platforms (DAPs).</p>
+      </div>
+    </div>
+  </div>
+  <p>WalkMe’s solutions help organizations navigate constant technology change by providing users with advanced guidance and automation features that enable them to execute workflows seamlessly across any number of applications. This results in higher adoption of the underlying application and as such drives value realization.</p>
+  <p>The Executive and Supervisory Boards of SAP SE and the board of directors of WalkMe have approved the transaction for US $14.00 per share in an all-cash transaction, representing an equity value of approximately US $1.5 billion. The offer price represents a 45% premium to WalkMe’s closing share price on June 4, 2024.</p>
+  <p>The envisioned combination complements SAP’s Business Transformation Management portfolio around SAP Signavio and SAP LeanIX solutions to help customers on their transformation journeys.</p>
+  <p>“Applications, processes, data and people are the four key elements of a successful business transformation,” said Christian Klein, CEO and member of the Executive Board of SAP SE. “By acquiring WalkMe, we are doubling down on the support we provide our end users, helping them to quickly adopt new solutions and features to get the maximum value out of their IT investments.”</p>
+  <h2 id="walkme-focus-on-analyzing-adoption-and-business-transformation">WalkMe: Focus on Analyzing Adoption and Business Transformation</h2>
+  <p>“We are thrilled to join forces with SAP. This acquisition marks a significant milestone in our journey, providing us with the resources and customer base necessary to enhance our product offerings and expand our market reach,” said Dan Adika, CEO of WalkMe. “By leveraging SAP’s extensive ecosystem, we are poised to unlock substantial growth opportunities and deliver even greater value to our customers. Together, we look forward to a future filled with innovation and exceptional service.”</p>
+  <p>WalkMe helps organizations boost enterprise productivity and lower risk by enabling consistent, effective and efficient use of software and the workflows it enables. Its DAP works on top of an organization’s application landscape, detects where people encounter friction and provides the tailored support and automation they need to complete the job to be done, right in the flow of work, across any application. Importantly, WalkMe will continue to fully support non-SAP applications.</p>
+  <p>Soon, WalkMe will launch the WalkMe<sup>X</sup> copilot, which will use WalkMe’s contextual awareness and AI to suggest the best next step for any workflow, anywhere. WalkMe<sup>X</sup> has the capability to always be on, serving as an overlay to any application, including copilots from different vendors that companies use in their landscapes. Integrating the strength of WalkMe’s adoption capabilities with SAP’s copilot Joule will boost AI assistant and productivity gains for all SAP customers. Additionally, integrating distinctive e-learning features in the SAP Enable Now solution with WalkMe will form the center of SAP’s people-centric transformation approach going forward.</p>
+  <p>The acquisition is subject to customary closing conditions, including the receipt of WalkMe shareholder approval and necessary regulatory clearances, and is expected to close in the third quarter of 2024. The impact of the transaction on SAP’s non-IFRS earnings per share for fiscal 2024 is expected to be immaterial.</p>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About WalkMe</strong></div>
+    </div>
+  </div>
+  <p>WalkMe (NASDAQ: WKME), headquartered in Tel Aviv, Israel, pioneered DAP innovations and solutions so companies can effectively navigate the constant change brought on by technology. With WalkMe, organizations drive enterprise productivity and reduce risk by ensuring consistent, responsible, and efficient adoption of software and the workflows it powers. Our AI-driven platform sits on top of an organization’s tech stack, identifies where people experience friction, and delivers the personalized guidance and automation needed to get the job done, right in the flow of work. Customers like IBM, Nestle, ThermoFisher Scientific, and the U.S. Dept. of Defense trust WalkMe to create the people-centric experiences required to boost the effectiveness of their workflows and maximize software ROI.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>As a global leader in enterprise applications and business AI, SAP (NYSE:SAP) stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. For more information, visit <a href="http://www.sap.com">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, financial community only:</strong><br>Anthony Coletta, +49 6227-7-60437, <a href="mailto:investor@sap.com">investor@sap.com</a>, CEST</p>
+  <p><strong>For more information, press only:</strong><br>Joellen Perry, +1 650-445-6780, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PT<br>Daniel Reinhardt, +49 6227-7-40201, <a href="mailto:daniel.reinhardt@sap.com">daniel.reinhardt@sap.com</a>, CEST<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><strong>For WalkMe Investor Relations:</strong><br>John Streppa, <a href="mailto:investors@walkme.com">investors@walkme.com</a></p>
+  <p><strong>Additional Important Information and Where to Find It</strong> In connection with the proposed transaction, WalkMe will prepare a proxy statement to be delivered to its shareholders and furnished to the Securities and Exchange Commission (the “SEC”). INVESTORS AND SECURITY HOLDERS ARE STRONGLY ADVISED TO READ THE PROXY STATEMENT WHEN IT BECOMES AVAILABLE AND OTHER RELEVANT DOCUMENTS FILED OR FURNISHED TO THE SEC IN CONNECTION WITH THE PROPOSED TRANSACTION OR INCORPORATED BY REFERENCE THEREIN, BECAUSE THE PROXY STATEMENT AND SUCH OTHER RELEVANT DOCUMENTS WILL CONTAIN IMPORTANT INFORMATION ABOUT THE PROPOSED TRANSACTION AND THE PARTIES TO THE PROPOSED TRANSACTION. This press release is not a substitute for the proxy statement or any other document that may be filed or furnished by WalkMe with the SEC.</p>
+  <p>The proxy statement and other related documents filed or furnished to the SEC regarding the proposed transaction may be obtained for free from the SEC’s website (<a href="http://www.sec.gov/">www.sec.gov</a>), WalkMe’s website at <a href="http://www.walkme.com">www.walkme.com</a> or by directing such request to WalkMe’s Investor Relations.</p>
+  <p><strong>Forward-Looking Statements</strong><br>This press release contains “forward-looking statements” within the meaning of the “safe harbor” provisions of the Private Securities Litigation Reform Act of 1995 and other applicable securities laws. All statements other than statements of historical fact, including statements regarding the proposed acquisition of WalkMe by SAP, the expected timing for completing the proposed transaction and the terms thereof, future financial and operating results, benefits and synergies of the transaction, future opportunities for the combined businesses and any other statements regarding events or developments that may occur in the future, may be “forward-looking statements” for purposes of federal and state securities laws. These forward-looking statements involve a number of risks and uncertainties that could significantly affect the financial or operating results of SAP, WalkMe or the combined company. Words such as “expects,” “anticipates,” “intends,” “plans,” “believes,” “estimates,” “predicts,” “seeks,” “targets,” “would,” “will,” “should,” “may” and variations of such words and similar expressions are intended to identify such forward-looking statements. Such statements are based on management’s expectations as of the date they are first made, are not guarantees of future performance and involve certain risks, uncertainties and assumptions that are difficult to predict. Neither SAP nor WalkMe can give any assurances that the expectations in such forward-looking statements will be attained and, therefore, actual outcomes and results may differ materially from what is expressed or forecasted in such forward-looking statements. For example, these forward-looking statements could be affected by factors including, without limitation, risks associated with the ability to consummate the proposed transaction, the satisfaction of the conditions to the consummation of the proposed transaction, including the receipt of certain regulatory approvals, and the timing of the closing of the proposed transaction; the occurrence of any event, change or other circumstance that could give rise to the termination of the proposed transaction; the potential that WalkMe shareholders may not approve the transaction; the ability to successfully integrate operations and employees; the ability to realize anticipated benefits and synergies of the proposed transaction as rapidly or to the extent anticipated by financial analysts or investors; the potential impact of the announcement of the proposed transaction on operating results, business generally and business relationships, including with employees, customers, suppliers and competitors; unanticipated restructuring costs may be incurred or undisclosed liabilities assumed; actual or threatened legal proceedings that have been or may be instituted against SAP or WalkMe in connection with the proposed transaction or otherwise; the ability and costs related to retaining key personnel and clients; risks related to diverting management’s attention from ongoing business operations; delays, challenges, costs, fees, expenses and charges related to the proposed transaction; actions by competitors; general adverse economic, political, social and security conditions in the regions and industries in which SAP and WalkMe operate, including relating to Israel’s ongoing war with Hamas and other terrorist organizations in the Middle East and general hostilities; exposure to inflation, currency rate and interest rate fluctuations and risks associated with doing business locally and internationally, as well as fluctuations in the market price of SAP and WalkMe’s traded securities; natural catastrophes, any pandemic, epidemic or outbreak of infectious disease, warfare, protests and riots, and terrorist attacks; and those additional risks and factors discussed in reports filed or furnished with the SEC by SAP and WalkMe, including SAP’s and WalkMe’s most recent Annual Reports on Form 20-F and in any subsequent reports on Form 6-K, each of which is on file with or furnished to the SEC and available at the SEC’s website at <a href="http://www.sec.gov/">www.sec.gov</a>. Reports filed or furnished with the SEC by SAP are also available on SAP’s website at <a href="http://www.sap.com/investors/en.html">www.sap.com/investors</a> and by WalkMe on WalkMe’s website at <a href="http://www.walkme.com">www.walkme.com</a>. Moreover, other risks and uncertainties of which SAP or WalkMe are not currently aware or may not currently consider material may also affect each of the companies’ forward-looking statements and may cause actual results and the timing of events to differ materially from those anticipated. The forward-looking statements made in this press release are made only as of the date hereof or as of the dates indicated in the forward-looking statements, even if they are subsequently made available by SAP or WalkMe on their respective websites or otherwise. Neither SAP nor WalkMe undertakes any obligation to update or supplement any forward-looking statements to reflect actual results, new information, future events, changes in its expectations or other circumstances that exist after the date as of which the forward-looking statements were made.</p>
+  <p>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE and affiliated entities in Germany and other countries. Please see <a href="https://www.sap.com/copyright">www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you receive this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/corporate</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/investor-relations</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Accenture Collaborate on Getting to Value Faster with SAP Business AI]]></title>
+            <link>https://www.sap.com/news/2024/06/accenture-sap-sapphire-business-ai</link>
+            <guid>https://www.sap.com/news/2024/06/accenture-sap-sapphire-business-ai</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Accenture are working together to help their customers make SAP Business AI and data their No. 1 competitive advantage.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accenture</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Completes Acquisition of LeanIX]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-completes-acquisition-of-leanix</link>
+            <guid>https://www.sap.com/news/2023/11/sap-completes-acquisition-of-leanix</guid>
+            <pubDate>Wed, 08 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has completed the acquisition of LeanIX, a market leader for enterprise architecture management (EAM). Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/investor-relations</category>
+            <category>content-type/newsbyte</category>
+            <category>product/sap-leanix</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP to Acquire LeanIX, Delivering Customers a Comprehensive Solution Suite for Continuous Business Transformation and a Foundation for AI-Enabled Process Optimization]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-to-acquire-leanix</link>
+            <guid>https://www.sap.com/news/2023/09/sap-to-acquire-leanix</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together SAP and LeanIX will offer a first-of-its-kind transformation suite to provide holistic support to customers. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/investor-relations</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/enterprise-architecture-management</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Further Expands Focus on Business Transformation with LeanIX Acquisition]]></title>
+            <link>https://www.sap.com/news/2023/09/leanix-acquisition-sap-expands-focus-business-transformation</link>
+            <guid>https://www.sap.com/news/2023/09/leanix-acquisition-sap-expands-focus-business-transformation</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the LeanIX acquisition, SAP will further enhance its ability to digitize and simplify business transformations. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/enterprise-architecture-management</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+    </channel>
+</rss>

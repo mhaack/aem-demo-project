@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/e-commerce/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 06 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[More Than Just the Numbers: Insights from 2023 Cyber Week]]></title>
+            <link>https://www.sap.com/news/2023/12/cyber-week-2023-insights</link>
+            <guid>https://www.sap.com/news/2023/12/cyber-week-2023-insights</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Black Friday marks the beginning of the holiday shopping season. Learn about SAP customers' successes during Cyber Week 2023.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="More Than Just the Numbers: Insights from 2023 Cyber Week" src="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="more-than-just-the-numbers-insights-from-2023-cyber-week">More Than Just the Numbers: Insights from 2023 Cyber Week</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Black Friday marks the beginning of the holiday shopping season and there have been great stories of record-breaking volumes, many from SAP customers that experienced success during Cyber Week, the Monday before Black Friday to Cyber Monday.</div>
+    </div>
+  </div>
+  <p>Through Cyber Week, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> customers achieved over a 35% year-over-year (YoY) increase in the number of orders processed, an astounding amount of $110 million in peak gross merchandising value (GMV) per minute, and a 9.3% YoY increase in overall site traffic. Essential for driving site traffic and increasing conversions is customer engagement, and on Cyber Weekend, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Emarsys Customer Engagement</a> supported customers with a nine percent YoY increase of overall send volume across all channels. What’s more, SAP Commerce Cloud customers achieved a 5.04% higher conversion rate versus 2022, and retailers saw a 5.2% higher conversion rate during Cyber Week.</p>
+  <p>This success was possible due to the reliability, scalability, and intelligence of <a href="https://www.sap.com/products/crm.html">SAP Customer Experience solutions</a> for individually curated shopping journeys across the globe.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="unlock-business-agility-and-transform-customer-experiences-with-sap-commerce-cloud">Unlock business agility and transform customer experiences with SAP Commerce Cloud</h3>
+        <p><em><a href="https://www.sap.com/products/crm/commerce-cloud.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>But at SAP, it is not just about the numbers. Deriving insights from data is at the heart of SAP and the start to the holiday shopping season provided a treasure trove of learnings and understanding about how people are shopping and how retailers can <a href="/topics/crm-customer-experience">optimize their experiences</a>.</p>
+  <p>By serving some of the largest brands in the world through this holiday season, here is what we learned.</p>
+  <h2 id="insight-one-the-definition-of-holiday-season-is-expanding">Insight One: The Definition of “Holiday Season” Is Expanding</h2>
+  <p>Traditionally, Black Friday is considered as a starting point for the holiday shopping season. However, recent research has revealed the holiday shopping is starting sooner and extending over the course of several weeks.</p>
+  <p>According to <a href="https://go.criteo.com/">Criteo</a>, an SAP commerce media partner, the longest path to purchase during the holidays is <a href="https://c-grid.criteo.com/holiday-season-success-2023">about 45 days</a>. This includes Singles Day, originated in China, on November 11 and El Buen Fin, Mexico’s version of Cyber Weekend from November 17 to November 20.</p>
+  <p>In 2023, SAP Emarsys Customer Engagement saw a spike on Singles Day, nearly surpassing 1 billion customer engagements — for example, email, SMS, mobile push, and web push — two weeks ahead of Black Friday. This figure was then eclipsed not once but twice during El Buen Fin, which saw overall an approximate 30% YoY increase in messages delivered.</p>
+  <p>When looking at just email growth during this season, the growth of volume for the entire month of November was nearly twice what it was for Cyber Weekend. This not only underscores that holiday shopping is starting earlier, but how brands are scaling up sooner and avoiding sharp peaks, which is a win for deliverability too.</p>
+  <p>Newly emerging celebrations and extended shopping seasons also mean a higher and longer strain on e-commerce sites. However, SAP Commerce Cloud prepared the customers to combat this challenge during these peak sales times leading up to Cyber Week, and delivered 100% uptime. In fact, customers that ran holiday sales events during El Buen Fin achieved 112% growth in conversion rate, with 10% higher traffic volume compared to the regular daily average of 2023.</p>
+  <h2 id="insight-two-email-still-reigns-but-omnichannel-engagement-is-rapidly-growing">Insight Two: Email Still Reigns, But Omnichannel Engagement Is Rapidly Growing</h2>
+  <p>While overall 2023 holiday sales are expected to <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between three and four percent</a>, online sales are expected to double and <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between seven and nine percent</a>. More digitally advanced customer journeys and increasingly tech-savvy buyers present an exciting opportunity for businesses to engage with shoppers more often and on their preferred channels.</p>
+  <p>Aiming to capitalize on this opportunity and remain top of mind with shoppers, SAP Emarsys customers sent a record number of omnichannel messages, resulting in a nine percent YoY increase in customer engagements from 2022. Email remained the top promotional channel in terms of volume and saw a respectable 10% YoY increase.</p>
+  <p>In addition to email, brands are also now investing heavily in omnichannel engagement strategies to meet customers where they prefer to shop. Mobile messages like SMS (35% YoY increase) and in-app (15% YoY increase) were utilized effectively alongside email, as were Web channel engagements, like Web push, which saw a whopping 74% increase in usage in 2023.</p>
+  <h2 id="insight-three-personalization-proves-less-is-more">Insight Three: Personalization Proves Less is More</h2>
+  <p>It is important to acknowledge that success does not equate to the quantity of messages, but also the quality. Bucking the notion that more is simply better, marketers using SAP Emarsys increased utilization of data-driven segmentation by 20% compared to Cyber Weekend 2022, enabling more targeted offers and personalized messages. While conversion rates would naturally be expected to dip given the extra volume, this targeted and personalized approach contributed to minimal or no change compared to baseline conversion rates during a typical weekend.</p>
+  <p>Similarly, AI-powered product recommendations, delivered across channels, and <a href="https://www.sap.com/products/artificial-intelligence/marketing.html#ecommerce">intelligent shopping assistants from SAP Customer Experience solutions</a> also helped consumers find the right product or best deal among the seemingly limitless choices — with confidence and ease.</p>
+  <p>With consumers shopping for an extended period on more channels, brands have both an obligation to meet them where they are in their journey and an opportunity to earn their business and loyalty by investing in data-driven, omnichannel strategies that better match them with personalized offers on the items they wish to buy.</p>
+  <h2 id="insight-four-b2b-shoppers-share-the-holiday-fever-during-cyber-week">Insight Four: B2B Shoppers Share the Holiday Fever During Cyber Week</h2>
+  <p>Black Friday is usually seen as an influential opportunity to create a revenue boost for retailers. However, SAP has the privilege of working with many B2B commerce companies in addition to a large number of retailers.</p>
+  <p>According to our data, other industries outside of retail also experience the benefits of Black Friday and Cyber Monday pushes. While the retail industry had the highest volume of orders, consumer products and wholesale distribution came in close behind. Additionally, the chemicals industry saw a huge spike in AOV over the weekend and achieved a GMV increase of 51% YoY, while life sciences industry saw more than 120% YoY GMV growth.</p>
+  <p>These data points indicate that Cyber Week trends are no longer limited to retailers, as various industries now achieve bigger sales volume and revenue during this period. Moving forward, organizations across all industries must put their best foot forward during Cyber Weekend activities to support profitable growth.</p>
+  <h2 id="insight-five-black-friday-isnt-just-about-the-us-thanksgiving-holiday-anymore">Insight Five: Black Friday Isn’t Just About the U.S. Thanksgiving Holiday Anymore</h2>
+  <p>The data from SAP Commerce Cloud also reflects the globalization trend. While North America led the biggest GMV number on Black Friday, the Europe, Middle East, and Africa (EMEA) region is comparable. In fact, the highest number of orders, about 800,000, was placed in EMEA. Additionally, the Asia Pacific and Japan (APJ) region on Cyber Monday achieved over 130% growth in conversion rate compared to last year.</p>
+  <p>SAP Emarsys customers were also ready to leverage this trend and engage with customers around the world. On Cyber Monday, total send volumes saw significant YoY increases in multiple regions: by 20% in EMEA, over 27% in Middle and Eastern Europe (MEE), and over 15% in Asia.</p>
+  <p>The data also highlighted differences in how consumers shop and buy in different regions. Unsurprisingly email continued to be the most used channel across the board, though EMEA proved to be the only region, outside of the Americas, that saw high growth in email volume year-on-year with a 13% increase.</p>
+  <p>The MEE region saw a slight decrease in the use of email (-12% YoY) in favor of SMS, mobile push, and in-app messages. In APJ, where a mobile-first mindset is often the norm, usage of in-app (58% YoY growth) and mobile push (176% YoY growth) went up significantly compared to email growth (two percent YoY). Even in EMEA, SMS (53% YoY growth) and in-app (388% YoY growth) mobile messages outpaced email growth, underscoring the importance of an omnichannel strategy.</p>
+  <p>This data illustrates the global influence of Black Friday, what used to be considered an U.S.-specific sales event. For businesses across the globe, it is crucial to recognize this shift and consider customer behaviors, so they can adapt and evolve their commerce and channel engagement strategies to gain customer loyalty and boost profitability.</p>
+  <h2 id="next-step">Next Step</h2>
+  <p>As market trends evolve, organizations must proactively adopt strategies for profitable and sustainable growth. With the right blend of modern technologies, agile business processes, and customer centric strategies, businesses significantly benefit from extended shopping season, through personalized omnichannel engagements, increased conversions, and lifelong customer loyalty.</p>
+  <p>Moreover, with the right choice of cloud technologies, organizations can remain secure and compliant, while delivering reliable, scalable, and personalized experiences that are optimized for their industries.</p>
+  <p>To learn more about how SAP Customer Experience solutions can help, please <a href="https://www.sap.com/products/crm.html">visit us at sap.com/crm</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Balaji Balasubramanian is senior vice president and global head of Commerce and Industry Cloud at SAP.</div>
+    </div>
+  </div>
+  <p><em>*All data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. All financial figures are in USD. Data represents online and offline sales made by SAP global merchants.</em></p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[How Gibson Makes Beautiful Music with High Tech and Strategy]]></title>
+            <link>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</link>
+            <guid>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</guid>
+            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology helps Gibson connect with customers easily and in the ways that they want. Learn more about the company's strategy and tech duet.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/sap-emarsys</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/media: industry/sports-entertainment</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[How Tech Makes Shopping Quick and Easy for Bosch Customers]]></title>
+            <link>https://www.sap.com/news/2023/08/bosch-tech-makes-shopping-easy</link>
+            <guid>https://www.sap.com/news/2023/08/bosch-tech-makes-shopping-easy</guid>
+            <pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Whether in-store or online, Bosch digital assistants and SAP Marketing Cloud connect to improve Bosch’s customer experience. Find out how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Tech Makes Shopping Quick and Easy for Bosch Customers" src="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-tech-makes-shopping-quick-and-easy-for-bosch-customers">How Tech Makes Shopping Quick and Easy for Bosch Customers</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Benefits of <a href="/topics/ecommerce">e-commerce</a> include reaching new customers and better personalizing service. But what if your customers need – and have spent decades relying on – the in-store expertise of your associates? To find a very specific product? For use with another very specific product? To accomplish a very specific task?</div>
+    </div>
+  </div>
+  <p>“More and more of our users are coming online…[and] they still want to have the similar guidance and the systems they had in-store,” Ganna Lobachevska, the touchpoint owner of Product Finder and Product Guidance at <a href="https://www.boschtools.com/us/en/">Bosch Power Tools Accessories</a>, told SAP at NRF 2023 for a new video. “Our overall goal is to make it easier for our users to find the right accessory for their job.”</p>
+  <p>Of course, making something <em>easy to do</em> on the front end is seldom <em>easy to build</em> on the back end. And that was Bosch’s challenge when helping online shoppers narrow their search for the perfect jigsaw blade, drill bit, or abrasive wheel from a truly massive accessory portfolio.</p>
+  <p>“Any company with a wide range of products has to think how they can simplify the user journey…and how they can make it easier for the customers to find the right product,” Lobachevska said. “With the Bosch <a href="https://www.bosch-professional.com/gb/en/knowledge-innovation/accessories-product-finder/">Accessory Advisor</a>, we provide a solution that makes it easier and faster.”</p>
+  <p>Building that easier, faster solution meant finding a high-tech way to satisfy a peculiar demand by online shoppers.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How High Tech Helps Bosch Shoppers Find the Right Product" src="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/d6hDKHbogfg">How High Tech Helps Bosch Shoppers Find the Right Product</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="when-brick-and-mortar-set-the-bar-almost-too-high">When Brick-and-Mortar Set the Bar (Almost) Too High</h2>
+  <p>Selecting a specific power tool accessory for a specific job – and ensuring it’s compatible with your specific power tool – are big reasons that people historically shopped at brick-and-mortar stores, according to Lobachevska. It makes sense, right? You can consult with a knowledgeable human sales associate.</p>
+  <p>But Bosch’s e-commerce customers expect the same in-store-style expertise via a quick and painless online exchange, according to Lobachevska. And she doesn’t seem worried.</p>
+  <p>“The Accessory Advisor guides the user through a series of very simple questions,” Lobachevska said. “In the end, they have three perfect recommendations for the work they want to do.”</p>
+  <p>It’s pretty much an online conversation that yields the right product, according to Lobachevska. And Bosch found the right tech – and partners – to make these virtual dialogues happen.</p>
+  <h2 id="tech-to-the-rescue">Tech to the Rescue</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="deliver-customer-engagements-across-channels-and-at-scale-with-sap-marketing-cloud">Deliver customer engagements across channels and at scale with SAP Marketing Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/marketing.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“We realized that there is a need for a better user guidance,” Lobachevska said of Bosch’s decision to go with <a href="https://zoovu.com/customers/bosch-power-tools">Zoovu</a>, a Boston-based digital commerce search platform and partner solution in SAP’s industry cloud. “It offered us the best.”</p>
+  <p>Zoovu’s Semantic Studio translates technical jargon into e-commerce-friendly prose, which saves time for both Bosch data managers and shoppers. A few artificial intelligence (AI)-assisted questions later, and these accessory hunters have enjoyed a smooth, seamless customer experience.</p>
+  <p>“This means that our customers spend less time searching for a product,” Lobachevska said. “And when they purchase the product, it’s the right one and they are more satisfied.”</p>
+  <p>This increases efficiency, according to Lobachevska. It also cuts down on returns and poor online reviews.</p>
+  <h2 id="powering-forward">Powering Forward</h2>
+  <p>Whether in-store or online, Bosch digital assistants and SAP Marketing Cloud connect to improve Bosch’s data analytics, business insights, and customer experience, <a href="https://www.sap.com/documents/2023/04/2c39bc42-6d7e-0010-bca6-c68f7e60039b.html">according to an SAP assessment</a>. Those digital assistants have already helped enhance the customer experience for more than 1 million Bosch shoppers across more than 35 global markets, boosting engagement up to 65% as well as increasing customer loyalty and satisfaction.</p>
+  <p>And still more can be done by connecting all of that to the Accessory Advisor, according to Lobachevska.</p>
+  <p>“We would like to connect the Bosch Accessory Advisor with our CRM system, which is basically SAP Marketing Cloud,” Lobachevska said. “This will allow us to gain business insights, to build better personas, and to make the user experience even better because it’ll be more personalized.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-marketing-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How New Tech Helps Replacements Save Old Traditions]]></title>
+            <link>https://www.sap.com/news/2023/06/tech-helps-replacements-save-traditions</link>
+            <guid>https://www.sap.com/news/2023/06/tech-helps-replacements-save-traditions</guid>
+            <pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Replacements Ltd. uses data to help customers and collectors easily find vintage items and introduce its huge inventory to new audiences.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[Heritage Takes New Life in the Digital World: The Strategic Approach of Swarovski]]></title>
+            <link>https://www.sap.com/news/2023/04/swarovski-heritage-digital-world-strategic-approach</link>
+            <guid>https://www.sap.com/news/2023/04/swarovski-heritage-digital-world-strategic-approach</guid>
+            <pubDate>Fri, 28 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital is key to Swarovski's evolution, and the crystal business aims to deepen its 40-year partnership with SAP to move into the cloud.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>industry/retail</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps PUMA Send the Right Message]]></title>
+            <link>https://www.sap.com/news/2023/03/how-high-tech-helps-puma-send-the-right-message</link>
+            <guid>https://www.sap.com/news/2023/03/how-high-tech-helps-puma-send-the-right-message</guid>
+            <pubDate>Wed, 29 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Success is about reaching the right people at the right time. Read to learn how PUMA uses SAP tech to unlock new value from customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers New Approach to Composability, Helping Businesses Drive Profitability and Move Fast on Their Own Terms]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-delivers-new-approach-to-composability</link>
+            <guid>https://www.sap.com/news/2023/03/sap-delivers-new-approach-to-composability</guid>
+            <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is introducing a new composability offering in SAP Commerce Cloud. Read to learn about this unique, composable approach.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/commerce</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[smart Europe Offers Car Drivers a Hyper-Personalized Customer Journey]]></title>
+            <link>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</link>
+            <guid>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</guid>
+            <pubDate>Wed, 28 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[smart Europe is breaking new ground with its direct sales model. Read how its central e-commerce platform supports all customer interactions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[A Revolution in Product Discovery with Zoovu Apps on SAP Store]]></title>
+            <link>https://www.sap.com/news/2022/12/revolution-in-product-discovery-zoovu-sap-store</link>
+            <guid>https://www.sap.com/news/2022/12/revolution-in-product-discovery-zoovu-sap-store</guid>
+            <pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Zoovu humanizes product discovery, making products easier to find, evaluate, and buy by bringing context to your search. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-cpq</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>news-tag/sap-digital-commerce</category>
+            <category>product/sap-sales-cloud</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Commerce Cloud Black Friday and Cyber Monday Results Show Shoppers’ Willingness to Spend]]></title>
+            <link>https://www.sap.com/news/2022/12/sap-commerce-cloud-black-friday-cyber-monday-holiday-shopping-results</link>
+            <guid>https://www.sap.com/news/2022/12/sap-commerce-cloud-black-friday-cyber-monday-holiday-shopping-results</guid>
+            <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Commerce Cloud enabled brands to maximize traffic and conversions of holiday shopping during Black Friday and Cyber Monday this year.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Commerce Cloud Black Friday and Cyber Monday Results Show Shoppers’ Willingness to Spend" src="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-commerce-cloud-black-friday-and-cyber-monday-results-show-shoppers-willingness-to-spend">SAP Commerce Cloud Black Friday and Cyber Monday Results Show Shoppers’ Willingness to Spend</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>‘Tis the season to be shopping, and retailers around the world have been gearing up for what is still the most important time of the year for shoppers – the holidays. While Black Friday and Cyber Monday usually kick off the official holiday season, we’ve seen many retailers start as early as the beginning of November to capture more market share sooner and stay ahead of the curve.</div>
+    </div>
+  </div>
+  <p>But Cyber Week still reigns supreme for shoppers as the year’s most important shopping weekend. This year, <a href="/topics/sap-commerce-cloud">SAP Commerce Cloud</a> powered over <strong>US$8.3 billion in digital commerce gross merchandise value</strong> (GMV) for Cyber Week. Specifically, our retail customers saw a <strong>22.3% increase in average order value</strong> (AOV) year over year.</p>
+  <p>The National Retail Federation (NRF) is predicting <a href="https://nrf.com/media-center/press-releases/nrf-predicts-healthy-holiday-sales-consumers-navigate-economic">6% to 8% growth in sales</a> compared with the same period last year, which is significantly lower than the 13% growth the year prior. We believe some of that growth can be attributed to <a href="https://www.bls.gov/cpi/">inflation, which was at 7.7%</a> as of late October.</p>
+  <p>Inflation – coupled with a looming recession – has affected shopper spending habits, but not in the ways most people would expect. Many insiders and analysts predicted that shoppers would be buying less and paying more, but with <a href="https://www.cnbc.com/2022/11/13/retailers-biggest-holiday-wish-is-to-get-rid-of-all-that-excess-inventory.html">retailers sitting on lots of inventory</a> this season, deals and promotions have been plentiful. In addition, shoppers aren’t necessarily shopping less, but instead <a href="https://nrf.com/research-insights/holiday-data-and-trends/winter-holidays">spreading out their purchases by buying earlier</a>. To help with cash flow, many shoppers are dipping into savings, relying on credit cards, or taking advantage of buy-now-pay-later options at checkout to be sure that they can still make the holidays work for themselves and their loved ones.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="reinvent-simplify-and-strengthen-your-e-commerce-business-with-sap">Reinvent, simplify, and strengthen your e-commerce business with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="shoppers-are-looking-for-deals-and-promotions">Shoppers Are Looking for Deals and Promotions</h2>
+  <p>These spending trends are reflected in shoppers’ online behaviors as well, evidenced by movement in site traffic. For Black Friday, overall site traffic for SAP Commerce Cloud customers increased 23% versus last year. For these same customers on Cyber Monday, overall site traffic increased 53%.</p>
+  <p>In addition to site traffic, retail customers leveraging SAP Commerce Cloud saw Black Friday conversion rates of 3.4 times more versus last year, as well as Cyber Monday conversion rates 2.9 times more versus last year.</p>
+  <p>What’s more impressive are the site traffic metrics and conversion rates when we zoom in on our business-to-consumer (B2C) retail customers running sales events, which show that shoppers are actively looking for deals and will buy if the deals are attractive enough. Black Friday traffic for retailers running SAP Commerce Cloud that executed sales events was 33% higher year over year, versus a 16% increase for the total data set. Conversion rates during these events were even more impressive, with an explosive 209% higher year over year for those that ran them, compared to a 4% increase for the total data set. On Cyber Monday, traffic for retailers running sales events using SAP Commerce Cloud was 58% higher year over year, versus a 40% increase for the total data set. Conversion rates were similarly great, coming in at 382% higher year over year for those that ran sales events, compared to 5% less year over year for the whole data set.</p>
+  <h2 id="what-to-expect-and-key-recommendations-for-brands">What to Expect and Key Recommendations for Brands</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-how-sap-commerce-cloud-integrates-each-customers-digital-activities-to-deliver-a-personalized-shopping-experience">Learn how SAP Commerce Cloud integrates each customer's digital activities to deliver a personalized shopping experience</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/oth/commerce-retail/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>EMarketer’s Insider Intelligence <a href="https://www.insiderintelligence.com/content/cyber-monday-projected-biggest-online-shopping-day-ever">predicts the remainder of the season will grow at 7%</a>, and with the current <a href="https://data.oecd.org/leadind/consumer-confidence-index-cci.htm">consumer confidence index at 96.5</a>, it’s hard to say if spending will persist throughout the rest of the holiday shopping season into the new year.</p>
+  <p>Despite the current uncertainty, retailers can stay agile to cater to shoppers’ needs, meeting and exceeding their expectations while responding to dynamic market conditions. Having the right levers to pull at any time is key to successful holiday sales growth, so they should leverage their technology to monitor changing shopping behaviors and identify and convert on growth opportunities by quickly adding new touchpoints and experiences. Finally, they can ensure the last-mile journey for shoppers is frictionless by ensuring inventory levels will meet demand and fulfillment is not backlogged, ultimately avoiding the dreaded post-holiday returns that can eat into the growth they worked so hard for.</p>
+  <div class="quote">
+    <div>
+      <div>To learn more about SAP Commerce Cloud, <a href="https://www.sap.com/products/crm/commerce-cloud.html?source=social-Global-LINKEDIN_COMPANY-MarketingCampaign-CRM_and_Customer_Experience-SAPCX-BFCM_Card1-ComProduct-spr-8313917272-account_name&#x26;campaigncode=CRM-YA22-BSC-1440506&#x26;sprinklrid=8313917272">visit the solution page</a>.</div>
+    </div>
+    <div>
+      <div>All data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. All financial figures are in USD. Data represents online and offline sales made by SAP global merchants.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/e-commerce</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Forter Trust Platform: On the Right Side of Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</link>
+            <guid>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</guid>
+            <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To combat fraud, the Forter Trust Platform recognizes shoppers through their data profile and authenticates them quickly and automatically.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Forter Trust Platform: On the Right Side of Digital Commerce" src="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="forter-trust-platform-on-the-right-side-of-digital-commerce">Forter Trust Platform: On the Right Side of Digital Commerce</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>If your organization has a stake in preventing fraud across your digital commerce operations, I’ll venture to say that you want Michael Reitblat and his team at Forter on your side.</div>
+    </div>
+  </div>
+  <p>As co-founder of the preeminent fraud-detection platform on the market – now available on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a> – Reitblat told me that he has long experience in the “bad guy space,” building a successful career around staying ahead of bad actors. That means he’s the good guy for those making an honest living selling products and services online, and for buyers and shoppers making purchases digitally.</p>
+  <p>Known as “The Trust Platform” for digital commerce, Forter doesn’t focus on keeping people out, rather on creating a seamless customer experience for trusted shoppers. How is this done? Machine learning and automated decisioning. Built upon a data set of billions of online identities, the Forter platform provides accurate decisions on whether the end shopper is who they say they are instantly. This ability to provide real-time decisions also streamlines merchant operations, eliminating any dependence on manual transaction reviews. That’s the key to understanding the value of this great app.</p>
+  <p>The truth is that both online consumers and merchants are victimized by sophisticated, well-organized fraud networks, Reitblat explained, stealing and selling data in a chain of hard-to-detect transactions. To counteract that, merchants can inadvertently block shoppers who most need to purchase online because they fit the “wrong profile” – living in a country known for a high preponderance of fraudsters, for example. Someone might live a long distance from a physical retailer and be unable to buy essential items online, through no fault of their own. “We are here to give those buyers access, and that is a great source of pride,” he remarked. Further, if a consumer faces hurdles to online purchasing because of clumsy verification processes, they’ll just shop somewhere else. It is therefore crucial to eliminate false declines and reduce friction throughout the purchase journey.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-the-forter-trust-platform">Learn more about the Forter Trust Platform</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Trust%20Platform%20for%20Digital%20Commerce">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="foiling-scams-through-a-circle-of-trust">Foiling Scams through a Circle of Trust</h2>
+  <p>It’s somewhat ironic that the best way to thwart fraud is to operate in an environment of trust. In fact, trust among competitors is at the heart of Forter Fraud Protection. Criminals will target one type of company – a shoe manufacturer, for example – and, when detected, move on to exploit the next, giving them the advantage. “We reverse that asymmetry,” Reitblat said. “If you attack one of our customers, the others are immunized, thanks to an aggregated global network of data. They would never share their data with each other, but they are happy to do it through us.” Simply put, the Forter solution is built to recognize people through their data profile and authenticate them quickly and automatically.</p>
+  <p>I asked Reitblat about credit card protection. When a consumer reports a fraudulent charge, he replied, the onus is on the retailer, who is left with the expense and is subject to fines or suspension by the credit card issuers if there are too many instances. I was also curious about how Forter stays in front of the fraudsters. Let’s just say that Reitblat, who grew up in Israel and was once a member of the intelligence community there, has his people. “Detecting security breaches, theft, the dark economy – it’s the same world,” he said. “We have an active research team staying on top of these constantly evolving threats.”</p>
+  <h2 id="strength-in-numbers">Strength in Numbers</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-all-that-sap-store-has-to-offer">Explore all that SAP Store has to offer</h3>
+      </div>
+      <div><strong><a href="http://store.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Reitblat co-founded Forter after working with a cybersecurity company that went through an acquisition – a crushing blow for him. Fortunately, he had reunited with an old high school friend from Jerusalem who also recognized that online commerce was about to take off. “In 2013, we still had to convince investors of the need for an authentication capability, and that it had to be fully automated or otherwise would require too many people to be scalable.” That resistance changed quickly, and today Forter is larger than many of its major customers, processing more than US$250 billion in transaction value per year and employing 500 professionals around the world. The solution is deployed in more than 30 countries.</p>
+  <p>The <a href="http://news.sap.com/tags/covid-19">events of the past two years</a> have resulted in a burst of demand that Reitblat and his partner could not have foreseen. Besides the explosion in online shopping, purchasing behavior and customer demographics across industries changed. New retail features appeared, like curbside pickup, buy online/pick up in store (BOPIS), and contactless check-in and check-out in the hospitality industry. New online buyers included senior citizens, students, and those in advancing geographies who had never transacted online before. Additionally, with the sudden surge of orders to be delivered to alternate addresses – holiday gifts, for example, or people purchasing for family members – e-commerce systems had an extra challenge in verifying legitimacy. That process was less complex for Forter customers because its customers were already authenticated in the system.</p>
+  <p>Forter Fraud Protection is tightly integrated with SAP Commerce Cloud. Laura Jorgens, director of Partnerships for Forter, acknowledged SAP partner <a href="https://netconomy.net/">Netconomy</a> for its “incredible support” in building out the integration. “Working with SAP and Netconomy feels like one ecosystem pulling together,” she said. “Hats off to the SAP partnership organization.” With the inclusion of Forter’s solution on SAP Store, she added, “SAP has become one of Forter’s most important partners.”</p>
+  <p>Why not see for yourself how <a href="https://www.youtube.com/watch?v=Tp3RHdk5Yic">Forter Trust Platform</a> works? The solution was just <a href="https://store.sap.com/dcp/en/news-blogs/blogs/celebrating-the-20th-year-of-sap-pinnacle-awards-and-partner-innovations-on-sap-store">named</a> an SAP Pinnacle Award finalist in the New App of the Year on SAP Store category. It’s available for download on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a>. Or download the SAP and Forter <a href="https://l.forter.com/hubfs/forter-SAP-brochure.pdf">overview brochure</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Rajiv Nema is senior director of SAP Store Partner Solutions.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-digital-commerce</category>
+            <category>sap-award/sap-pinnacle-awards</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Augmented Reality Boosts Online Shopping Sales up to 200%]]></title>
+            <link>https://www.sap.com/news/2022/01/augmented-reality-boosts-online-shopping-sales-up-to-200</link>
+            <guid>https://www.sap.com/news/2022/01/augmented-reality-boosts-online-shopping-sales-up-to-200</guid>
+            <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Indian startup Adloid uses augmented reality (AR) to deliver immersive, personalized online shopping experiences. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Augmented Reality Boosts Online Shopping Sales up to 200%" src="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="augmented-reality-boosts-online-shopping-sales-up-to-200">Augmented Reality Boosts Online Shopping Sales up to 200%</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>For shoppers who’ve yearned for an immersive, personalized experience that’s open 24/7, mobile <a href="/topics/augmented-reality">augmented reality (AR)</a> technology is the real-time deal of the next era. Bangalore-based startup <a href="https://www.adloid.io/index.php">Adloid</a> is leading the charge with a platform that turns two-dimensional search and discovery into a full-fledged 3D experience, whether someone is in the market for automobiles or bikes, household furniture, consumer electronics, or personal lifestyle products.</div>
+    </div>
+  </div>
+  <p>“Our AR platform gives consumers and companies personalized virtual shopping and training experiences, expanding the horizon of what AR can do for any brand or company,” said Kanav Singla, founder and CEO of Adloid. “We’re making the benefits of this technology more accessible and contextual to create an immersive experience for customers or employees on an e-commerce Website or within applications, directly from someone’s mobile device.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Can Artificial Intelligence Take the Guesswork Out of the Customer Journey?</h3>
+      </div>
+      <div><strong><a href="/2021/12/can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="convenient-try-before-you-buy-shopping">Convenient ‘Try Before You Buy’ Shopping</h2>
+  <p>Unlike earlier AR tech that relied on clunky headsets with varied compatibility, Adloid’s AR platform runs on any smartphone, allowing customers to experience products at scale, in context. Once the online shopper logs in through their phone, the device’s camera scans their real-world surroundings and virtually mirrors the retailer’s or manufacturer’s product.</p>
+  <p>“People can see how a new sofa or chair would fit into their home or apartment with a click of their smartphone,” said Singla. “Consumers can virtually try on jewelry, makeup, and other products. Remote workers can see if that laptop, screen, and desk configuration will fit in their home office. It’s as if the actual products are in front of you.”</p>
+  <p>He added that manufacturers were interested in using the AR platform within training modules for industrial machinery service technicians, providing them with hands-on learning in a virtual setting.</p>
+  <h2 id="immersive-product-discovery-experience">Immersive Product Discovery Experience</h2>
+  <p>On the consumer side, AR technology is tailor-made for online shoppers who can’t get enough information about products they might purchase.</p>
+  <p>“For someone trying to decide between different car models, AR lets them virtually go inside the trunk to see how much space is in there,” said Singla. “They can open and close the sunroof or try out the controls on the entertainment console, experiencing various car options before going to the showroom.”</p>
+  <p>Automotive manufacturers are among the startup’s biggest customers, along with e-commerce platforms of all sizes, retailers with or without brick-and-mortar stores, and manufacturers located in the U.S., Germany, and India.</p>
+  <h2 id="augmented-reality-increases-sales">Augmented Reality Increases Sales</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-labs-india">Learn more about SAP Labs India</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/india/about/labs-india.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Some customers using Adloid have increased sales conversions from online channels up to 200%. One online retailer tripled the number of online customers who purchased consumer items after using the tool. AR also boosts customer engagement time viewing product images and videos from an average of 30 seconds to a whopping eight minutes.</p>
+  <p>“Instead of being limited by a finite number of pre-posted images or videos, AR allows people to interact longer with products in a more personalized way, creating a powerful sales channel that’s always on at the customer’s convenience,” said Singla. “People can better understand how a product would fit into their lives, in many cases motivating them to make a purchase decision during that single online session.”</p>
+  <h2 id="connected-data-for-intelligent-enterprise">Connected Data for Intelligent Enterprise</h2>
+  <p>Adloid securely anonymizes all customer data and doesn’t store any personal images or other information once someone ends their AR session. However, organizations can extract valuable insights from the tool’s analytics.</p>
+  <p>“A car might come in six colors, but which ones are customers viewing the most? Companies can see what options people are most interested in, then connect back to inventory management to make sure they can meet market demands,” said Singla.</p>
+  <p>Indeed, one of Adloid’s biggest strengths is working with the SAP Startup Studio for India, <a href="https://www.sap.com/india/about/labs-india.html">SAP Labs India’s</a> startup accelerator program. Singla said that his team gained validation for product iterations, along with access to SAP solutions, including <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, and the company’s enterprise customers.</p>
+  <p>“Working with a global leader like SAP gives our product immediate credibility because we learned what customers were looking for,” he said. “Adloid is integrated with <a href="https://www.qualtrics.com/">Qualtrics</a>, <a href="https://www.sap.com/products/crm/e-commerce-platforms.html">SAP Commerce Cloud</a>, and <a href="https://www.sap.com/products/s4hana-erp/pricing.html">SAP S/4HANA</a>, helping companies connect data to become intelligent enterprises.</p>
+  <h2 id="ar-bridges-gap-between-e-commerce-and-cx">AR Bridges Gap Between E-Commerce and CX</h2>
+  <p>Singla’s entrepreneurial spirit was initially sparked by his family, all of whom own businesses. He founded his first startup at age 21 during his undergraduate studies in engineering, then saw a major selling gap as e-commerce took off.</p>
+  <p>“Companies went online with their catalogs, but customers couldn’t more fully experience these products,” he said. “I launched Adloid to turn e-commerce into 3D commerce where customers can try out products virtually on their mobile device. We expect AR will provide immersive experiences in more consumer and B2B online sites including fashion, travel and tourism, and large industrial machinery.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler.</em><br><em><a href="https://www.forbes.com/sites/sap/2021/09/28/augmented-reality-boosts-online-shopping-sales-up-to-200/?sh=249fcb717b26">This blog also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/ar</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/qualtrics</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[The New Rules of Competition for Today’s Distributor]]></title>
+            <link>https://www.sap.com/news/2021/10/new-rules-of-competition-for-todays-distributors</link>
+            <guid>https://www.sap.com/news/2021/10/new-rules-of-competition-for-todays-distributors</guid>
+            <pubDate>Wed, 20 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[To stay relevant and competitive in any market condition, wholesale distributors need to rethink their business and operations strategies.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The New Rules of Competition for Today’s Distributor" src="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-new-rules-of-competition-for-todays-distributor">The New Rules of Competition for Today’s Distributor</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>It is common knowledge that every business experienced some form of unpredictable disruption over the last two years. Acting as the first responders in the logistics supply chain, this disruption threatened many wholesale distributors’ ability to provide essential goods to vital businesses, such as healthcare providers and grocery stores. To stay relevant and competitive amidst all market conditions, distribution leaders need to rethink their business and operations strategies.</div>
+    </div>
+  </div>
+  <p>During a recent online event, Distribution Strategy Group’s Founder and Senior Partner Ian Heller exposed five major sources of disruption for this vital industry:</p>
+  <ol>
+    <li><strong>Workforce</strong>: The youngest generations (Generation Y and Generation Z) now make up approximately 70% of the total workforce. These generations are the most technically affluent, which means they expect to be connected on any device, anytime, anywhere, with easy-to-use applications.</li>
+    <li><strong>E-Commerce</strong>: E-commerce is no longer just about having a slick website. Today, distributors must have a strong technology foundation to deliver an easy-to-use, personalized, B2C-like purchasing experience for customers.</li>
+    <li><strong>Cybersecurity</strong>: The <a href="/covid-19">COVID-19 pandemic</a> has underlined cybersecurity as a prevalent concern as new vulnerabilities arose due to employees working from home. Phishing and ransomware attacks have virtually exploded across every industry in the past few years.</li>
+    <li><strong>Cloud</strong>: To stay competitive, many distributors are moving their technology stack to the cloud to lower capital expenditures and enjoy a better margin advantage.</li>
+    <li><strong>Marketplaces</strong>: B2B buyers are turning to marketplaces for a one-stop shopping experience. Distributors that can successfully adopt a marketplace model will stand to deepen customer relationships and drive growth.</li>
+  </ol>
+  <p>Heller shared that as an industry, distributors are still working out solutions to these challenges as they continue to adjust to the ever-evolving market challenges. Digital transformation continues to be an enabler of business models, allowing distributors to go from reactive, reporting on things that are happening, to proactive, anticipating the future and mitigating risks.</p>
+  <p>Magnus Meier, vice president and global head of the Wholesale Distribution Business Unit at SAP, went on to share that high-tech distributors have started to market themselves as solution aggregators to underline how committed they are to long-term customer relationships, taking care of the product and customer life cycle. In addition, digital transformation continues to play a significant role during the pandemic, specifically in operations. “Distributors that have a modern ERP system have data on hand, which gives them a significant advantage over their competitors,” says Meier.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="expand-beyond-traditional-industry-boundaries-with-sap-solutions">Expand beyond traditional industry boundaries with SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/wholesale-distribution.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="using-services-as-a-differentiator">Using Services as a Differentiator</h2>
+  <p>For distributors to successfully implement everything from business strategy to operations to customer experience, they first need to determine what is most important to their business. Competitive differentiators come in all shapes and sizes for wholesale distributors, be it a great service like replenishment of bins near the production line, dedicated jobs like delivery of materials, on-site safety training, or even simply having the most responsive, proactive salespeople. Aligning business priorities with competitive differentiators allows distributors to position their business model as not just indispensable to customers, but profitable.</p>
+  <p>The big players, by and large, are not great at services. Services almost always represent the introduction of variable costs into a business model. Traditionally, distributors have rolled the costs of services into the gross margin of products, but they have not monetized them or charged the cost back to customers. “If distributors put a general manager in charge of services, one must treat it the way that a manufacturer treats new product development. Figure out how to monetize it with a P&#x26;L to build a business that’s much different and adds value for their customers,” says Heller.</p>
+  <p>The technology that enables distributors to have the right level of visibility into their business starts with an enterprise resource planning (ERP) system, which is critical to transformation. Having the right processing system enables order-to-cash (O2C) and procure-to-pay (P2P) business processes, which are critical to operations. For many distributors, more than 50% of orders come through as e-mailed PDF or Excel files, creating a manual process for customer sales representatives to then enter the orders into proprietary systems.</p>
+  <p>Counterintuitive to what distributors assume, the number of manual orders received is increasing, not decreasing. To enable efficiency and resiliency, distributors must find a way to automate manual and redundant tasks and redirect that energy towards value-added efforts. “Conexiom can help process those orders with the same customer service expectations that a buyer experiences when placing an e-commerce order, a marketplace order, or any other type of digital order,” says Erik Severinghaus, executive vice president of Business Development at Conexiom.</p>
+  <h2 id="preempting-issues-within-the-supply-chain">Preempting Issues within the Supply Chain</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-conexiom-on-sap-store">Explore Conexiom on SAP Store</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/product/display-0000059854_live_v1/Conexiom%20Digital%20Order%20Capture%20for%20SAP%20Solutions">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Whether it’s due to trade agreements, politics, or biological threats like pandemics, these is less predictability in the supply chain. A good example is what happened at the Suez Canal. The only way distributors can anticipate these issues is to have complete transparency and visibility across the supply chain, all the way through to the demand side. They need to leverage technology to gain the transparency to track which boxes are in which containers and on which ships. And if one of those ships goes astray, they need to be able to understand the implications and trigger follow-up processes to minimize disruption.</p>
+  <p>“Distributors are operating at greater scale than ever before and it is essential that distributors overcome silos, talk to sellers to overcome those challenges, understand how their customers will be affected, and take mitigating action,” says Meier.</p>
+  <h2 id="navigating-the-talent-shortage">Navigating the Talent Shortage</h2>
+  <p>Every business is grappling with the talent shortage today. To attract the right talent, distributors need to invest in modern technology to bolster employee experience in the workplace. Distributors need to leverage intelligent technologies to automate routine tasks so employees can focus on more complex customer requirements. They need to provide collaboration tools between different teams to drive ongoing business alignment, openness for change, business agility, and improved collaboration between sales, marketing, and demand-planning teams. The distribution industry as a whole must challenge the way it has traditionally handled work-from-home policies, salaries, long-term incentives, and other benefits to make employees want to stay in this lesser-known B2B industry. “Distributors need to offer a competitive workplace environment, not just against other distributors, but against other industries,” says Severinghaus.</p>
+  <p>Meier, Severinghaus, and Heller have a lot of commendable and proven advice on these topics. In this <a href="https://conexiom.com/resources/the-new-rules-of-competition-for-todays-distributor/">on-demand video</a>, these speakers discuss the challenges facing distributors today and provide tangible guidance on how to prepare and respond to market disruptions.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Sam Nohava is global industry marketing lead at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/e-commerce</category>
+            <category>industry/wholesale-distribution</category>
+        </item>
+        <item>
+            <title><![CDATA[Revlon Selects SAP Software to Drive E-Commerce Acceleration]]></title>
+            <link>https://www.sap.com/news/2021/08/revlon-selects-sap-software-drive-e-commerce-acceleration</link>
+            <guid>https://www.sap.com/news/2021/08/revlon-selects-sap-software-drive-e-commerce-acceleration</guid>
+            <pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The beauty giant Revlon Inc. will use the RISE with SAP offering to expedite the company’s strategic cloud migration. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Revlon Selects SAP Software to Drive E-Commerce Acceleration" src="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="revlon-selects-sap-software-to-drive-e-commerce-acceleration">Revlon Selects SAP Software to Drive E-Commerce Acceleration</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="rise-with-sap-simplify-the-transformation-of-your-business-for-the-digital-age">RISE with SAP: Simplify the transformation of your business for the digital age</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/rise.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="https://nam12.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.sap.com%2F&#x26;data=04%7C01%7CKelly.Bartley%40edelman.com%7C57174fc9bdb44885af8c08d95852e789%7Cb824bfb3918e43c2bb1cdcc1ba40a82b%7C0%7C0%7C637637935365217511%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&#x26;sdata=e3chzALkwFDkzWM6qRQ%2BeloT2gTuZph%2FX7JwtVMnE1o%3D&#x26;reserved=0">SAP SE</a> (NYSE: SAP) today announced that beauty giant Revlon Inc. will use the RISE with SAP offering to expedite the company’s strategic cloud migration.</p>
+      </div>
+    </div>
+  </div>
+  <p>Revlon, which last year saw e-commerce net sales soar approximately 40%, remains focused on enhancing its end-to-end digital capabilities to support continued acceleration in this channel. By tapping RISE with SAP on an AWS infrastructure, Revlon expects to bolster its <a href="https://www.sap.com/dmc/exp/2021-06-75752-hd-cx-retail/index.html">digital infrastructure in order to help its e-commerce operations</a> become more nimble and innovative. Revlon also plans to use the SAP Analytics Cloud solution to incorporate predictive analytics across its business processes.</p>
+  <p>“RISE with SAP provides Revlon with numerous opportunities to support our continued digital acceleration through modernizing our core back-office infrastructure and applications while reducing our total cost of ownership,” said Revlon Chief Information Officer Jose Urquijo. “Additionally, RISE with SAP will enable increased flexibility and agility in support of our Revlon Global Growth Accelerator program, which we announced with our Q1 2021 earnings.”</p>
+  <p>“Revlon is an iconic and trusted brand that has long been known for innovation in the beauty and personal care industry, always with a keen focus on the customer experience,” said SAP North America President DJ Paoni. “We are honored to be a part of Revlon’s incredible transformation journey and provide solutions to help the company continue to scale and grow share of market.”</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Justin Wolz, +1 (919) 306-7084, <a href="mailto:j.wolz@sap.com">j.wolz@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/customer-news</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-analytics-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Help Shape the Future of E-Commerce for Wholesale Distribution]]></title>
+            <link>https://www.sap.com/news/2021/06/future-e-commerce-wholesale-distribution</link>
+            <guid>https://www.sap.com/news/2021/06/future-e-commerce-wholesale-distribution</guid>
+            <pubDate>Thu, 17 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Mirakl are conducting a survey to learn how e-commerce and market trends are evolving for the wholesale distribution industry online]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1db3e3f9e6abd1aa7965fd5be6ef9b158c059b013.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1db3e3f9e6abd1aa7965fd5be6ef9b158c059b013.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1db3e3f9e6abd1aa7965fd5be6ef9b158c059b013.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Help Shape the Future of E-Commerce for Wholesale Distribution" src="./media_1db3e3f9e6abd1aa7965fd5be6ef9b158c059b013.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="help-shape-the-future-of-e-commerce-for-wholesale-distribution">Help Shape the Future of E-Commerce for Wholesale Distribution</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Over the last year, five major trends have impacted wholesale distributors and morphed customer expectations into a demand for consumer-grade experiences.</div>
+    </div>
+  </div>
+  <p>SAP is sponsoring a <a href="https://www.mdm.com/">Modern Distribution Management (MDM)</a> research project regarding the state of e-commerce and marketplaces to understand how these market trends are evolving for the distribution industry online.</p>
+  <p>This research will provide SAP and partner Mirakl the opportunity to gain further insights into wholesale distribution trends and expose opportunities for improvement from an industry perspective.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="take-the-modern-distribution-management-survey">Take the Modern Distribution Management survey</h3>
+      </div>
+      <div><strong><a href="https://www.surveymonkey.com/r/2G95ZZ2">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="market-trends-impacting-commerce-for-distributors">Market Trends Impacting Commerce for Distributors</h2>
+  <p>To understand the current state of commerce, we must analyze the market conditions that are having a ripple effect in the industry and creating challenges for wholesale distributors.</p>
+  <p>First, competition is driving distributors to find new revenue sources, such as value-added services. Some examples provided to customers include light manufacturing, kitting, product training, and product management.</p>
+  <p>Customers are looking to distributors to collaborate and provide complete solutions for specific business needs, such as providing materials for every phase of a stadium renovation. Meanwhile, customers are also looking for distributors to carry a wider range of products with more flexible delivery options.</p>
+  <p>To add value to the business and meet growing customer expectations, new talent is looking for roles where they can make a positive impact and leverage new technologies.</p>
+  <p>Lastly, the requirement for business resilience in the face of health, environmental, and trade challenges has moved from addressing tactical issues of continuity towards strategic decisions driving overall longevity.</p>
+  <h2 id="why-participate-in-the-state-of-e-commerce-research">Why Participate in the State of E-Commerce Research?</h2>
+  <p>The <a href="https://www.surveymonkey.com/r/2G95ZZ2">2021 State of E-Commerce</a> research initiative provides wholesale distributors the ability to share insights related to their company’s e-commerce and marketplace ambitions in a confidential way.</p>
+  <p>Within the survey, MDM asks distributors to report on each organization’s current commerce landscape, including key capabilities or customer needs that they are looking to support in the coming years.</p>
+  <p>Example questions include:</p>
+  <ul>
+    <li>What is your greatest concern or reservation about the value, effectiveness, or risks of e-commerce within your organization?</li>
+    <li>What initiatives are you undertaking to broaden and deepen your catalog?</li>
+    <li>Have you considered launching or operating an online marketplace, where third-party sellers provide the stock and fulfill orders?</li>
+  </ul>
+  <p>Any wholesale distributor employee who is located within the United States or Canada can participate in this survey. As a thank you for your participation, you will be entered to win a $250 gift card. This brief survey should take no longer than 10 minutes to complete.</p>
+  <p>To impact the future of wholesale distribution commerce, please take the <a href="https://www.surveymonkey.com/r/2G95ZZ2">State of E-Commerce survey</a> today!</p>
+  <div class="footnote">
+    <div>
+      <div><em>John McDonnell is industry advisor for Wholesale Distribution at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-how-to-deliver-a-rich-personalized-omnichannel-e-commerce-experience">Explore how to deliver a rich, personalized omnichannel e-commerce experience</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/feature</category>
+            <category>news-tag/e-commerce</category>
+            <category>industry/wholesale-distribution</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Upscale Commerce Offers Midmarket Brands No-Code, Maintenance-Free Path to Direct-to-Consumer Engagement]]></title>
+            <link>https://www.sap.com/news/2021/06/sapphire-now-sap-upscale-commerce-midmarket-brands</link>
+            <guid>https://www.sap.com/news/2021/06/sapphire-now-sap-upscale-commerce-midmarket-brands</guid>
+            <pubDate>Wed, 02 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[No-code, headless commerce platform SAP Upscale Commerce gets midmarket brands up and running fast. Read the news from SAPPHIRE NOW.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Upscale Commerce Offers Midmarket Brands No-Code, Maintenance-Free Path to Direct-to-Consumer Engagement" src="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-upscale-commerce-offers-midmarket-brands-no-code-maintenance-free-path-to-direct-to-consumer-engagement">SAP Upscale Commerce Offers Midmarket Brands No-Code, Maintenance-Free Path to Direct-to-Consumer Engagement</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When the <a href="/covid-19">pandemic</a> hit and physical retail outlets had to close or limit their operations, midmarket brands had to pivot quickly to sell directly to consumers (D2C) and learn how to interact with customers digitally – only to realize that a simple webstore was not enough to compete in the digital world.</div>
+    </div>
+  </div>
+  <p>This spiked a need for a new kind of commerce solution, one that equips midmarket companies with all the necessary tools to sell fast and easy, apply changes quickly, and offer intelligent merchandising capabilities that were previously only accessible to large enterprises.</p>
+  <p><a href="https://www.sap.com/products/upscale-commerce.html">SAP Upscale Commerce</a> enables this by offering an intelligent selling engine that delivers engaging storefronts while optimizing for sales and profit, with the ability to more rapidly create mobile-first shopping experiences to meet the changing expectations of their customers. Businesses can take full control of the customer journey, drive world-class omnichannel customer experiences, and create a competitive edge by choosing to start with easily configurable building blocks or create completely custom commerce experiences.</p>
+  <p>The solution enables brands to:</p>
+  <ul>
+    <li><strong>Sell anywhere — make the store the destination:</strong> SAP Upscale Commerce delivers rich mobile-first, cross-channel, in-store experience for shoppers and makes it easy for shoppers to intuitively shop by swiping, pinching, and tapping their devices.</li>
+    <li><strong>Sell intelligently — big or small, sell smart:</strong> With built-in artificial intelligence (AI), brands can create a unique storefront experience for each shopper at scale and deliver intelligent, relevant experiences that optimize business profits. Intelligent capabilities also help to convert one-time purchases into subscriptions.</li>
+    <li><strong>Speed and agility — start fast and go far:</strong> Brands can start small and scale as they grow using no code tools out of the box to create new and fresh shopping experiences in days and using low- and no-code tools to easily extend and build the perfect fit solution.</li>
+    <li><strong>Keep the promise — deliver on the brand promise:</strong> Brands can sell and ship from everywhere with an agile order orchestration and fulfill orders from the closest stores.</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sapphire-now">Read more news and coverage from SAPPHIRE NOW</h3>
+      </div>
+      <div><strong><a href="/topics/sapphire-now">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="transitioning-customer-engagement-from-in-store-to-online">Transitioning Customer Engagement from In Store to Online</h2>
+  <p>One organization that experienced these changes firsthand is Swedish fashion retailer <a href="https://www.joyshop.se/">JOY</a>. JOY, which for many years has delighted Swedish women with quality clothes, has re-emerged in a completely new form. JOY no longer has any physical stores and is instead focusing on e-commerce and personalized fashion advice. The founders see JOY as a startup building next-generation e-commerce based on AI and slow fashion – a more sustainable alternative with clothes lasting several seasons. JOY is also the first company in the world that has selected the combination of the cloud-based solutions SAP Upscale Commerce and the Emarsys platform for customer engagement functionality.</p>
+  <p>“We are definitely in a paradigm shift within e-commerce and digital channels. The retail industry has so far been able to make a living from using large product catalogs, but they do not provide the best customer experience. Instead, customers want inspiration, advice, and, in our case, also ready-made combinations of clothes that suit their own style – and lasting several seasons,” said Anna Ullman Sersé, CEO and co-founder of JOY. “SAP Upscale Commerce fit our needs perfectly. The solution is very flexible, allowing us to make changes quickly and to provide more content than just a traditional product catalog. This frees up more time for us to truly focus on engaging with the customers online, much like we did when we would meet in stores.”</p>
+  <h2 id="powering-social-selling-with-top-social-media-platforms">Powering Social Selling with Top Social Media Platforms</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-upscale-commerce-start-fast-and-grow-intelligently-with-an-ai-powered-selling-engine">SAP Upscale Commerce: Start fast and grow intelligently with an AI-powered selling engine</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/upscale-commerce.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Another option for brands pivoting to direct customer engagement is selling through social media channels, more commonly known as “social selling.” With careful and considered targeting of the right products at the right time, it is possible for midmarket brands to drive down the cost of customer acquisition as products find customers directly through algorithmic targeting. However, this means that having the right type of information about products and the right content in posts is critical – as is for that information to be up to date.</p>
+  <p>To deliver on this opportunity, SAP Upscale Commerce integrates into social media platforms, enabling organizations to easily start taking advantage of social commerce. The solution makes it easy to connect an online store to a Facebook business account, continuously sync the product catalog, create a Facebook Shop, and use that to drive new sales opportunities to consumers. The result is a consistent shopping experience on social media, with the front-end and back-end business processes fully integrated.</p>
+  <h2 id="hackathon-spurs-new-ideas-to-solve-customer-pain-points">Hackathon Spurs New Ideas to Solve Customer Pain Points</h2>
+  <p>To meet individual customer challenges, the SAP Customer Experience team in Canada recently hosted a hackathon, in which teams of product experts and solution integration partners battled to create brand new online shopping experiences based on specific, real-world client requirements for fashion, automotive, and retail – all within SAP Upscale Commerce.</p>
+  <p>Judging criteria was based on overall creativity, use of available product extensions, ease of shopping experience, time-to-market, and how well the solution drives customers toward long-term loyalty and advocacy for the brand. After a day and a half of competition, the event culminated in a final virtual pitch presentation, with <a href="https://www.ecenta.com/en/company/">ECENTA</a> taking home the award for Most Creative, and <a href="https://www.liveareacx.com/">LiveArea</a> awarded for Best Use of Technology.</p>
+  <p>“As a judge, I was truly impressed with the quality and quantity of results after only a day and a half of hacking, showcasing incredible innovation, creativity, and accomplishment by small teams in a small amount of time,” said Frédéric Bouthillier, CEO of <a href="http://www.grtouchette.com/en/home.html">Groupe Touchette</a>. “The teams’ rapid development of new, innovative experiences proves the time to value of SAP Upscale Commerce and headless commerce solutions.”</p>
+  <p>The events of the past year have changed the way people shop and the shift to online purchasing is here to stay. Now midmarket brands don’t have to settle with a simple direct-to-consumer webstore. With SAP Upscale Commerce, businesses have the ability to put the customer at the heart of everything they do, connecting front- and back-office data, simplifying and automating complex sales processes, and delivering insights in real time that enable seamless, personalized experiences that grow revenue.</p>
+  <p>The SAP Upscale Commerce solution, <a href="https://store.sap.com/en/?campaigncode=CRM-YD21-SOC-0STORPZ&#x26;source=ppc-SAPSTOREPS-GL-202121&#x26;gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-LIG56BYZkTP40_VO10vLETrMtaeoEorbGOdSnJC-bU5MS27bwkfggaAuygEALw_wcB">available on SAP Store</a>, is the next-generation intelligent selling engine that can help midmarket brands to achieve fast growth, create differentiated experiences, and leverage intelligence to optimize sales and profits.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Bob Stutz is president of SAP Customer Experience.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="register-to-join-sapphire-now-in-2021">Register to join SAPPHIRE NOW in 2021</h3>
+      </div>
+      <div><strong><a href="https://reg.sapevents.sap.com/flow/sap/sapphirenow2021/portal/page/home">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/commerce</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Innovative Tech Helps Carhartt Meet Customer Demand]]></title>
+            <link>https://www.sap.com/news/2021/03/carhartt-innovative-tech-customer-demand</link>
+            <guid>https://www.sap.com/news/2021/03/carhartt-innovative-tech-customer-demand</guid>
+            <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Behind the scenes at Carhartt, technology transformation with SAP became crucial to keep up with fast-paced growth. Hear their story.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_163ce6b3539a057f2c0d6cee58f4632e958447132.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_163ce6b3539a057f2c0d6cee58f4632e958447132.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_163ce6b3539a057f2c0d6cee58f4632e958447132.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Innovative Tech Helps Carhartt Meet Customer Demand" src="./media_163ce6b3539a057f2c0d6cee58f4632e958447132.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="innovative-tech-helps-carhartt-meet-customer-demand">Innovative Tech Helps Carhartt Meet Customer Demand</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>What do hard workers on the job site have in common with A-list celebrities? <a href="https://www.carhartt.com/">Carhartt</a>. From construction workers and farmers to firefighters and tradespeople, some of the hardest-working people on the planet rely on Carhartt. Now, perhaps surprisingly, rappers, movie stars, and models are also choosing Carhartt to make a fashion statement.</div>
+    </div>
+  </div>
+  <p>“When a celebrity wears our product, it certainly creates a buzz around the company,” said Carhartt CIO John Hill. “It raises brand awareness and exposes products that some consumers may not be aware of.”</p>
+  <p>Behind the scenes, technology transformation became crucial for Carhartt to keep up with fast-paced growth. So, after more than 130 years in business and continued growth in popularity, it became imperative for U.S.-based company to transform both its apparel offerings and its business foundation.</p>
+  <p>“It’s important to realize that Carhartt was as far away from a virtual company as you could be,” Hill said. “We quickly realized that not only did we need to transform our technology, but also the processes that the technology was enabling. We identified hundreds of pain points that existed across that value chain. And if we can get rid of those pain points with SAP technology, ultimately we were going to provide a better experience for our associates and our customers.”</p>
+  <p>After thoroughly researching different options, Carhartt realized tapping the power of SAP’s intelligent enterprise was the best solution. Yet this hugely innovative upgrade coincided with one of the biggest challenges of our time; believe it or not, Carhartt went live during the worst of the pandemic.</p>
+  <h2 id="closing-shop-was-never-an-option">Closing Shop Was Never an Option</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="video-for-carhartt-happy-customers-benefit-from-a-digitally-native-brand-experience">Video: For Carhartt, Happy Customers Benefit from a Digitally Native Brand Experience</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/covid-19/back-to-best.html?=campaigncode=CRM-YD21-SOC-CUSTREF&#x26;video=1ccc2b2a-d57d-0010-87a3-c30de2ffd8ff">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>It was a top priority for Carhartt to remain open and provide a frictionless shopping experience for customers, ensuring there was no downtime and no negative impacts on business. “At the end of the day, the brand needs to be able to react to the demands of those customers. Ultimately the customer doesn’t care what it takes to deliver,” said Hill.</p>
+  <p>With his office closed, Hill’s technology team prepared to go live while they worked from their homes.</p>
+  <p>“You can’t underestimate the challenge of doing a large scale of digital transformation, while you’re growing the business at the pace we are, and still serving customers,” said Hill.</p>
+  <p>Yet, he shares that bringing SAP technology online proved easy.</p>
+  <p>“Frankly, the harder thing in dealing with a pandemic has been there’s no blueprint of how to plan,” Hill shared. “We were taking down our revenue on a weekly basis, and then increasing it the next week. So it was a very difficult year from that perspective. The actual technology transformation felt like a more normal course of business during the year.”</p>
+  <h2 id="strained-supply-chains">Strained Supply Chains</h2>
+  <p>Businesses across the planet share Carhartt’s forecasting challenges.</p>
+  <p>“People know what they want and they want it when they want it,” said President of SAP North America DJ Paoni. “And they know how they want it. Every customer in every industry has acknowledged that <a href="/covid-19">COVID-19</a> has put the maturing of the global economy on fast-forward. So those companies that have a more sophisticated digital technology are certainly able to pivot faster and connect with their customers on a whole new level.”</p>
+  <p>Carhartt believes further investment in digital technologies is a winning strategy that will also provide a fantastic experience for customers.</p>
+  <p>“So far, we implemented SAP solutions to support our retail businesses,” said Hill. “This year, we will be implementing solutions to support our wholesale and our direct-to-consumer e-commerce business. I believe that the marketplace has continued to reward those customers that deliver not only a great product, but also a digitally native experience.”</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Promo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <h3 id="understand-tomorrows-trends-drive-personalized-shopping-and-run-a-sustainable-fashion-business">Understand tomorrow’s trends, drive personalized shopping and run a sustainable fashion business</h3>
+              </td>
+              <td><strong><a href="https://www.sap.com/industries/fashion-apparel.html">Learn more</a></strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 id="meet-carhartt-cio-john-hill-and-hear-the-advicehe-shares-with-his-peers-on-getting-real-with-sap">Meet Carhartt CIO John Hill and hear the advicehe shares with his peers on <a href="https://www.sap.com/covid-19/back-to-best.html?=campaigncode=CRM-YD21-SOC-CUSTREF&#x26;video=1ccc2b2a-d57d-0010-87a3-c30de2ffd8ff">Getting Real with SAP</a>.</h3>
+        <p><em><a href="https://www.forbes.com/sites/sap/2021/03/24/innovative-tech-helps-carhartt-meet-customer-demand/?sh=654825a85117">This story originally appeared on SAP BrandVoice on Forbes</a>.</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="make-your-organization-more-resilient-and-agile-in-todays-challenging-environment-get-back-to-best-with-sap">Make your organization more resilient and agile in today’s challenging environment: Get back to best with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/covid-19/back-to-best.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/back-to-best</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/fashion</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[How Generations Shop Online Will Define the Future of Retail]]></title>
+            <link>https://www.sap.com/news/2021/02/generations-online-buying-behavior</link>
+            <guid>https://www.sap.com/news/2021/02/generations-online-buying-behavior</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retailers that take time to understand how online buying behavior varies by generation are likely to be the ones that will come out ahead.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Generations Shop Online Will Define the Future of Retail" src="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-generations-shop-online-will-define-the-future-of-retail">How Generations Shop Online Will Define the Future of Retail</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>A year ago, <a href="https://www.newsweek.com/chinese-new-year-2020-animal-rat-zodiac-sign-meaning-explained-1483942#:~:text=Associated%20with%20the%20hour%20before,if%20a%20bit%20too%20direct.">Newsweek ran an article</a> about the Chinese New Year, explaining how each Chinese zodiac year pairs an animal with one of five rotating elements – water, wood, fire, metal, or earth – and how it will influence the year ahead.</div>
+    </div>
+  </div>
+  <p>2020 was the Year of the Metal Rat. While open to all manners of interpretation, such a year is considered to be one of renewal and a chance “to turn unfortunate events into fortunate ones.” That could certainly apply to the world of retail.</p>
+  <p>No other sector was disrupted as much in 2020 as supply and demand see-sawed with each new surge of the pandemic. Lockdowns and social distancing severely restricted in-store shopping and led to a sharp increase in online retail, forcing retailers to reexamine their digital readiness and supply chain efficiency. At the same time, consumers have become more vocal about their expectations than ever before, placing increasing importance on sustainability, convenience, and experiences.</p>
+  <p>As a result, the sector is undergoing a profound transformation. Now, the question for retailers is ‘How do we proceed?’</p>
+  <h2 id="the-influential-shopper">The Influential Shopper</h2>
+  <p>During a <a href="https://nrfchapterone.com/live-stream/19759625/Create-a-new-retail-world-through-experiences-your-customers-value-produced-by-SAP">Big Idea Session</a> sponsored by SAP at the National Retail Federation’s virtual <a href="https://nrfbigshow.nrf.com/">Big Retail Show 2021</a>, Melanie Noronha, a senior editor at the <a href="https://www.eiu.com/n/">Economist Intelligence Unit</a>, discussed ways retailers can prepare for an uncertain year ahead with Nuno Pedro from SAP’s Customer Experience team and Rob Wood, head of Online at <a href="https://www.thetoyshop.com/aboutus">The Entertainer</a>, a leading UK toy store.</p>
+  <p>Based on a September 2020 survey of over 4,000 consumers that captured spending levels and habits in the U.S., Germany, the UK, Italy, and Spain, Noronha’s team was able to uncover trends by generational cohort. In a study titled “<a href="https://www.sap.com/cmp/cx/economist-shopper/index.html?url_id=ctabutton-glo-fcec-blog">The Influential Shopper</a>,” the team reports that although overall monthly retail expenditure in the countries surveyed declined by 9% from January-March to June-August, online spending increased by 15% on average.</p>
+  <p>Because online buying behavior varies by generation, from Baby Boomers to Generation Z, Noronha’s advice to retailers is to develop a deep understanding of the generational differences within their customer base. Millennials, for example, dominate online spending. In the period of June to August, they reported online spending 2.5, 1.5, and 1.3 times as much as Baby Boomers, Generation X, and Generation Z, respectively. In the same period, Millennial respondents also reported that 53% of their total purchases were made online.</p>
+  <p>Understanding what Millennials and Generation Z are passionate about is critical; not only are they the most loyal customer base, but the future of business depends on them. “<a href="https://insights.sap.com/social-impact-in-business/">The Passionates</a>,” for example, is a rapidly growing consumer group that makes decisions based upon values and principles. They won’t buy from, work for, or trust a company unless it is taking action on the issues they care about.</p>
+  <p>After Millennials, Baby Boomers demonstrated the biggest shift online since the start of the pandemic, increasing their online spending as a share of their total spending from 25% to 37%, followed by Generation X, who increased their share of online spending from 39% to 47%. During the pandemic, online shopping for essential products, such as groceries and cleaning supplies, has become more deeply entrenched, with average monthly expenditure increasing by 78% and 49%, respectively, for the two categories.</p>
+  <p>But with average monthly spending declining overall by 9% and unemployment soaring in many parts of the world, the report also makes it clear that consumers of all ages are hunkering down for an extended period of uncertainty. Across the five countries surveyed, a quarter of survey respondents do not believe that the economy will recover once the pandemic is under control, and younger cohorts are significantly more pessimistic.</p>
+  <h2 id="the-opportunity">The Opportunity</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-blank-canvas-to-learn-more-about-how-the-passionates-are-changing-the-future-of-fashion">Watch Blank Canvas to learn more about how "The Passionates" are changing the future of fashion</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/conversations/blank-canvas-fashion-sustainability/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The shift to online shopping, especially among older generations, presents a unique opportunity for brands and retailers to engage new online customers in ways they never could before. According to Noronha’s team, understanding these trends is vital to crafting strategies for short-term resilience, medium-term recovery, and long-term growth.</p>
+  <p>As brands expand their digital presence in response to increased customer familiarity with online shopping, they will need to remain agile to respond effectively to evolving consumer habits, enhance the customer experience to stay competitive, and employ personalized engagement strategies – including digital marketing – to retain customers online.</p>
+  <p><a href="https://www.thetoyshop.com/aboutus">The Entertainer</a> was one company that was able to ride the ups and downs of the pandemic last year by remaining agile. The toy store’s vision is to fill every childhood with wonder; its mission is to be the best-loved toyshop, one child and one community at a time. The company runs its click and collect business on SAP Commerce Cloud, and its intention is to offer the same level of service anywhere, in store or online.</p>
+  <p>“2020 was a topsy-turvy year,” says Wood, who is responsible for determining online demand and keeping up with fulfillment. “We had seven times the uplift in the first two weeks of lockdown. Our forecasts were wrong all the time. The only way we managed to weather the storm was by remaining agile and flexible.”</p>
+  <p>Wood says the company decided not to put all its eggs in one basket and to introduce flexible pay options. Another step was to equip staff with iPads to check product availability from the shop floor during those times when children come into a store in person, eager to spend their pocket money. This type of service reflects the company’s goal of creating fond memories and delivering outstanding service, whether in a real or a virtual world. After all, today’s eight-year-olds will be tomorrow’s influential shoppers.</p>
+  <h2 id="the-experience">The Experience</h2>
+  <p>The pandemic has clearly helped online spending expand its share of individual wallets. More effective online selling could offer a shorter, smoother path to recovery for companies, but only for those that succeed in giving customers a seamless experience that keeps them coming back for more, regardless of their age. This builds on consumers’ preferences for shopping experiences that are convenient, so that they can shop from anywhere, save time, and find the best deals.</p>
+  <p>2021 is the Year of The Metal Ox, considered a favorable time for economic recovery or consolidation after a catastrophic event. It’s a year for long-term investments, a year when problems are solved with hard work, diligence, and discipline.</p>
+  <p>That makes this year the perfect time for retailers to garner deep insight into the effect of the pandemic on retail spending and shifts in consumers’ online shopping behaviors. Experts like Noronha conclude that those retailers that take time now to understand how online buying behavior varies by generation are likely to be the ones that will come out ahead.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Promo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <h3 id="deliver-rich-hyper-personalized-omnichannel-shopping-and-buying-experiences-with-sap-commerce-cloud">Deliver rich, hyper-personalized omnichannel shopping and buying experiences with SAP Commerce Cloud</h3>
+              </td>
+              <td><strong><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Learn more</a></strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 id="watch-the-replay-of-saps-big-idea-session-create-a-new-retail-world-through-experiences-your-customers-value"><a href="https://nrfchapterone.com/live-stream/19759625/Create-a-new-retail-world-through-experiences-your-customers-value-produced-by-SAP">Watch the replay of SAP’s Big Idea Session, “Create a New Retail World through Experiences Your Customers Value.”</a></h3>
+        <p><em>Follow me on Twitter:</em> <em><a href="https://twitter.com/magyarj">@magyarj</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-mobile-start/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 18 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Delivers Mobile, the Missing Piece in Digital Transformation]]></title>
+            <link>https://www.sap.com/news/2023/07/sap-delivers-mobile-digital-transformation</link>
+            <guid>https://www.sap.com/news/2023/07/sap-delivers-mobile-digital-transformation</guid>
+            <pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Coherent mobile concepts are crucial to successfully innovate, deliver, and win the race for talent. Learn about the SAP mobile experience.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/mobile</category>
+            <category>product/sap-mobile-start</category>
+        </item>
+        <item>
+            <title><![CDATA[Beauty and the Supply Chain: SAP Releases New Mobile Strategy]]></title>
+            <link>https://www.sap.com/news/2022/07/sap-releases-new-mobile-strategy</link>
+            <guid>https://www.sap.com/news/2022/07/sap-releases-new-mobile-strategy</guid>
+            <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's new mobile strategy centers on an effective native suite experience, addressing the challenges companies face right now.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/mobile</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-mobile-start</category>
+        </item>
+        <item>
+            <title><![CDATA[What's Behind SAP's New Mobile Experience]]></title>
+            <link>https://www.sap.com/news/2021/11/whats-behind-saps-new-mobile-experience</link>
+            <guid>https://www.sap.com/news/2021/11/whats-behind-saps-new-mobile-experience</guid>
+            <pubDate>Wed, 03 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP Mobile Start app is here to change how we work. Florian Heretsch, VP and head of Mobile Experience & Engineering at SAP, explains.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_165cf119ad423560866c87e0da1fa933bbc28369d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_165cf119ad423560866c87e0da1fa933bbc28369d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_165cf119ad423560866c87e0da1fa933bbc28369d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="What’s Behind SAP’s New Mobile Experience" src="./media_165cf119ad423560866c87e0da1fa933bbc28369d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="whats-behind-saps-new-mobile-experience">What’s Behind SAP’s New Mobile Experience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="hello-sap-mobile-start">Hello, SAP Mobile Start</h3>
+      </div>
+      <div><strong><a href="/2021/08/sap-mobile-start-launch">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The SAP Mobile Start app and a bold strategy are not just a breeze for business workers who juggle between home, office, and customer interaction – they are here to boost our changing work style.</div>
+    </div>
+  </div>
+  <p>The pulse is rising. A jogger receives a message on her smartwatch during her training lap: there’s a bottleneck at the brewery, consumer demand has increased, the production speed needs to go up. Kilometers away, a family man controls the needed logistics from the kitchen table, while somewhere else a warehouse worker scans barcodes of dozens of pallets with her cell phone.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_16fce9db21aec564009c02a440a452264cef73c23.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_16fce9db21aec564009c02a440a452264cef73c23.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_16fce9db21aec564009c02a440a452264cef73c23.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot of Florian Heretsch" src="./media_16fce9db21aec564009c02a440a452264cef73c23.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="223" height="300">
+    </picture>
+  </p>
+  <p><em>Florian Heretsch</em></p>
+  <p>The <a href="https://youtu.be/aQymPwrfIA4">video</a> SAP published alongside the new SAP Mobile Start app amplifies a new mobile experience. The shown elements, however, are not really new: wearables, notifications, apps. Rather, it’s about the <em>how</em>: editing, timing, and a bass-heavy beat all mesh together, perfectly timed.</p>
+  <p>The emotionally loaded pacing of the clip symbolizes how SAP wants to increase the “beats per minute” in mobile user experience. At the DJ booth, this is called pitching. And indeed, it’s a kind of market pitch, meant to evoke a sense that something new is coming for SAP’s customers.</p>
+  <p>Florian Heretsch, vice president and head of the new Mobile Experience &#x26; Engineering Unit at SAP, explains what SAP Mobile Start means for the initiative and who is setting the pace.</p>
+  <p><strong>Q: SAP Mobile Start has recently been released in the Apple App Store. An Android version will follow soon. Why should I install the app now?</strong></p>
+  <p><strong>Heretsch:</strong> Because it’s the new mobile entry point into the world of SAP, with a whole new user experience! With this app, you can get a simple, centralized overview of the SAP processes and applications that are relevant to you. The app integrates system features like search, widgets, and notifications so that you can have the latest business numbers from <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA</a> on your home screen at all times.</p>
+  <p>The key is the native experience. This is very different from a web app in a mobile browser! That’s what it’s all about: we want to make mobile working easier for SAP customers and their employees. We have kept the technical conditions as simple as possible, such as the back-end connection and the use of SAP Launchpad. An end user will ideally not even notice that.</p>
+  <p><strong>And who is already benefiting from the app today?</strong></p>
+  <p>The app helps manage projects, for example, or when you have to react quickly to delivery issues. Together with our customers and users around the world, we have created personas for a wide range of usage scenarios. We provide tailored content and individual configuration options. All of this with a simple user interface, supported by the amazing power and reliability of SAP’s industry experience that our customers trust. The next version of the app will include the “Task Center,” a shared inbox that will provide HR and purchasing workflows, among other things. The goal is to bundle all of SAP’s standard workflows into one app.</p>
+  <p><strong>Does SAP also use the app internally?</strong></p>
+  <p>Using our own software for over 102,000 employees and gaining experience from it is extremely important for us. After a Beta release, SAP Mobile Start will be the native entry point for role-based use of SAP apps internally at the beginning of 2022. This will also include SAP Fiori apps with the advantage of access to push notifications and full voice control.</p>
+  <p><strong>It sounds like there’s more to come. SAP has been offering mobile front ends for business processes and workflows for some time now. What’s new now?</strong></p>
+  <p>We are now putting way more emphasis on creating a holistic mobile experience, with the ultimate goal of every customer feeling at home immediately. With SAP Mobile Start, we are starting to harmonize all SAP apps in terms of design and function; we’re not just bundling more functions. There have to be additional easy-to-use apps for different needs, but an app suite design that’s deeply integrated with the latest features of iOS or Android devices. And all of this delivers an overall experience that makes users excited to work with our apps.</p>
+  <p><strong>Many younger people in the business world have had mobile apps since they can remember. How is SAP adapting to their expectations? What can we learn from the use of social media, for example?</strong></p>
+  <p>Actually, many of the younger people we’re talking about have long been working at – and with – SAP. At the same time, we are taking a close look at different user communities. We have studies showing that for Germany and comparable markets, people across all age groups and professions want their employers to provide them with the mobile tools they know from their private lives. In other words, many of us have long been communicating and cooperating at a higher level at home than possible in the workplace.</p>
+  <p><strong>And how does SAP intend to change that?</strong></p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="download-sap-mobile-start-now">Download SAP Mobile Start now</h3>
+      </div>
+      <div><strong><a href="https://apps.apple.com/de/app/sap-mobile-start/id1540195902?l=en#?platform=iphone">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>By putting a big exclamation mark behind the necessity of truly changing the possibilities of how work is being done in an intelligent enterprise. By taking a more differentiated look at mobile usage behavior versus desktop usage behavior. Mobile is about short actions without having to think much – but each of these interactions has to be to spot on! These are moments that matter, served by micro-experiences. Such magic moments and the way we interact with processes and tasks have the power to create an appealing user experience. I don’t want to have cumbersome input fields. I want swipes, animations, everything fluid, elegant!</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_10f26c9c0765f6136ae2734549907181b5f1b3055.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_10f26c9c0765f6136ae2734549907181b5f1b3055.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_10f26c9c0765f6136ae2734549907181b5f1b3055.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Screens showing SAP Mobile Start" src="./media_10f26c9c0765f6136ae2734549907181b5f1b3055.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="653">
+    </picture>
+  </p>
+  <p><strong>Micro-experiences and smart features speed up the experience. So, no complex CRM or ERP processes on mobile?</strong></p>
+  <p>I don’t think you need to bring all the roles and functions to mobile. I don’t see big analytics and charts there. The <a href="/covid-19">pandemic</a> has accelerated the change of our working behavior. Today, it’s about the freedom to decide where and when to do what. I don’t want to have to rely on a big screen as I switch back and forth between the office, childcare, or virtual meetings, but I want continuity for my business.</p>
+  <p><strong>And what role do features like augmented reality (AR), artificial intelligence (AI), or specific functions of smartwatches play in this?</strong></p>
+  <p>We not only have to be technologically up-to-date, we also want to actively drive this development. The minimum is to make effective use of current device functions, such as machine learning in mobile operating systems or voice control. But we are currently trying out a lot here and are looking very closely at the consumer market in order to bring corresponding experiences into the business environment as well.</p>
+  <p><strong>You’ve called this “the Intelligent Enterprise at your fingertips.”</strong></p>
+  <p>Yes, exactly. SAP Mobile Start is both an element and an accelerator of SAP’s intelligent enterprise strategy. In addition to steering a company, this strategy aims to make work smarter. The Intelligent Enterprise thrives on comprehensive, technical integration of the SAP landscape. Our mobile developers can help create this. In this way, our apps become showcases for the Intelligent Enterprise.</p>
+  <p><strong>By contrast, prominent SAP apps for expense management or HR, for example, still seem relatively detached from other apps in terms of look and feel.</strong></p>
+  <p>As said, one of the elements of our new mobile experience strategy is a stringent portfolio of apps and a harmonized look and feel.</p>
+  <p><strong>The team responsible for SAP’s new apps and mobile strategy was also involved in the <a href="/2020/06/corona-warn-app-deutsche-telekom-sap">Corona Warn App</a>, Germany’s app to help fight the spread of COVID-19. Can we also expect to open new business areas here?</strong></p>
+  <p>Part of the team developed the first versions. We learned a lot in the process, and not just because we built a consumer app. In travel and expense management we had something like this with TripIt, but the Corona Warn App has created a whole new user environment and perception. This experience will surely influence our business app development. There might be other consumer apps, but the focus will remain on our business offering.</p>
+  <p><strong>SAP Mobile Start is fresh in the App Store. An Android version is to follow. SAP is now also publishing its new experience strategy. What is “the next big thing”?</strong></p>
+  <p>One of the next steps will be to further develop and establish SAP Mobile Start, for example by integrating the task center for workflows coming from a wide range of systems. We are now also going into feedback rounds with the first SAP Mobile Start customers in order to expand the app. Additionally, there will be new native apps for various industries that will push our mobile experience vision further. We are going to show that we are serious about our new claim.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Stephan Kamps is product manager for SAP Mobile Experience Storytelling at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/mobile</category>
+            <category>product/sap-mobile-start</category>
+        </item>
+        <item>
+            <title><![CDATA[Hello, SAP Mobile Start]]></title>
+            <link>https://www.sap.com/news/2021/08/sap-mobile-start-launch</link>
+            <guid>https://www.sap.com/news/2021/08/sap-mobile-start-launch</guid>
+            <pubDate>Tue, 31 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Mobile Start, entry point to the Intelligent Enterprise, keeps you ahead of business situations with immediate access apps and info.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/mobile</category>
+            <category>product/sap-mobile-start</category>
+            <category>news-tag/ux</category>
+        </item>
+    </channel>
+</rss>

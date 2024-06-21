@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-customer-data-platform/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 25 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Debuts New CX Generative AI Capabilities to Enhance Customer Experiences and Boost Business Operations]]></title>
+            <link>https://www.sap.com/news/2023/10/new-cx-generative-ai-capabilities</link>
+            <guid>https://www.sap.com/news/2023/10/new-cx-generative-ai-capabilities</guid>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Customer Experience LIVE, SAP has announced new generative AI capabilities for the CX solution portfolio. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>sap-event/sap-customer-experience-live</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[What Is Customer Loyalty?]]></title>
+            <link>https://www.sap.com/news/2023/08/what-is-customer-loyalty</link>
+            <guid>https://www.sap.com/news/2023/08/what-is-customer-loyalty</guid>
+            <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Effectively measuring and learning from customer behavior with loyalty solutions is the key to taking customer loyalty to the next level.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="What Is Customer Loyalty?" src="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="what-is-customer-loyalty">What Is Customer Loyalty?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>What makes you stick with a brand – is it the quality of the product or service? Is it the support you receive when something goes wrong? Is it the availability in the market or the compatibility with other products? Is it the rewards you are offered for being a loyal customer?</div>
+    </div>
+  </div>
+  <p>When I’m in the market for new sport shoes, I stick to the brand that I know is the most comfortable for me. There’s nothing worse than buying a pair of sneakers and going jogging with them for the first time, only to realize in the first few minutes of your run that they don’t fit properly.</p>
+  <p>On the other hand, if I’m shopping for groceries, it’s how healthy the product is, then the selection, freshness, and price that matter the most. Time is also a factor – the quicker I can find exactly what I need, the better.</p>
+  <p>But what happens if another sport shoe manufacturer sets up a loyalty program, allowing me to collect points and offering discounts? Or, what if a new grocery store opens that allows me to save even more time by eliminating the checkout counter? Would that make me change my buying behavior?</p>
+  <p>What I’m talking about is loyalty in the context of <a href="/topics/crm-customer-experience">customer experience</a>. It’s different for every industry. How can you as a supplier or service provider ensure that you are offering the best experience possible to your customers?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="intelligent-cx-solutions-from-sap-help-connect-customer-data-and-improve-loyalty">Intelligent CX solutions from SAP help connect customer data and improve loyalty</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="loyalty-is-a-very-noisy-space">Loyalty Is a Very Noisy Space</h2>
+  <p>Recently, I spoke to Riad Hijal, head of Commerce Solution Management at SAP Customer Experience. “Loyalty is a very noisy space. I think for retailers, for example, to be successful and ultimately drive customer lifetime value through loyalty, they need to cut through that noise,” he said. “We as consumers are faced with dozens of rewards or loyalty accounts – most of them aren’t really driving any kind of real modification in behavior. We don’t buy more just because we have a loyalty account with someone and are collecting points; we are merely using it as a discount mechanism. That’s how to do loyalty wrong.”</p>
+  <p>Loyalty requires a reimagination of the loyalty experience and underlying process. To stand out from the crowd, companies need to be leveraging measurement. In addition, what are the themes that we need to focus on to rethink loyalty to truly drive long-term customer value? What does the measurement look like? According to Hijal, historically, efficient and tangible measurement has been lacking in loyalty programs due to the complexity of the topic.</p>
+  <h2 id="what-should-loyalty-solutions-really-be-offering">What Should Loyalty Solutions Really Be Offering?</h2>
+  <p>By leveraging data and analytics, a loyalty platform helps businesses understand why customers regard certain experiences as more memorable and important than others. This allows businesses to dig deeper into the different elements of behavior-driven customer loyalty.</p>
+  <p>And, the truth is, data is siloed within a multitude of systems within your organization. As a company, you need to be able to reconcile all of it, across both transactional and behavioral dimensions so that you can understand which customers are truly profitable and worth your focus. With SAP Customer Data Platform, for example, which is part of RISE with SAP, you can prioritize your customers with intelligent insights delivered by the platform. See more about SAP Customer Data Platform in <a href="https://www.sap.com/assetdetail/2023/04/8ad02f10-6e7e-0010-bca6-c68f7e60039b.html">this video</a>.</p>
+  <p>As such, there are key capabilities necessary for modern experiential loyalty platforms. These are rewards and incentive management, personalization, gamification, communication and engagement, feedback and surveys, data-driven insights, and integration and convenience.</p>
+  <h2 id="puma-and-mention-me-an-industry-cloud-solution">PUMA and Mention Me: An Industry Cloud Solution</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-how-rise-with-sap-can-help-you-prioritize-your-customers">Watch how RISE with SAP can help you prioritize your customers</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/assetdetail/2023/04/8ad02f10-6e7e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>As a leading sports brand, PUMA wanted to transform its fan base to a key growth-driver by not only attracting new customers, but also improving brand awareness and loyalty. Mention Me, an industry cloud partner solution, in combination with SAP Emarsys Customer Engagement, helped PUMA launch referral programs in six European countries.</p>
+  <p>PUMA has integrated Mention Me with SAP Emarsys Customer Engagement, its customer relationship management (CRM) platform. This helps equip PUMA to serve seamless customer journeys that drive more referrals, such as sending reward reminders and encouraging referrers to introduce more friends. PUMA is also able to feed first-party referral data into the CRM platform in real time – growing its database and giving a whole new level of insight. The combination of these solutions is giving the company remarkable growth, increasing its ROI through referral to six times its investment just nine months after launching the campaigns. <a href="https://www.sap.com/documents/2023/05/0227ee79-727e-0010-bca6-c68f7e60039b.html">Learn more about this transformation</a>.</p>
+  <h2 id="valora-revolutionizing-convenience-store-shopping">Valora: Revolutionizing Convenience Store Shopping</h2>
+  <p>Valora wanted to better meet customer needs by combining the convenience of a physical store with the simplicity of a digital business model. This was the beginning of its newest brand of cashier-free convenience store – avec box. To help realize the project, Valora chose SAP Customer Experience solutions, used the rich knowledge available with SAP Services and Support, and worked with Webtiser AG and Pagnos GmbH on a proof of concept. The goal was to start with a single store, using a minimal viable product collaboration approach, then scale the solution further.</p>
+  <p>Now, Valora is winning new customers by offering them an even more convenient and flexible shopping experience – without the hassle of waiting in line at the cash register. Plus, with customers registering with the avec app, Valora is able to get new insight into what customers want. Not only does make it possible to give personalized recommendations, but it is also now easier than ever for Valora to reward customer loyalty and keep people coming back for more. <a href="https://www.sap.com/documents/2021/04/9c274ed9-dc7d-0010-87a3-c30de2ffd8ff.html">Read the full story here</a>.</p>
+  <h2 id="measurement-is-key">Measurement Is Key</h2>
+  <p>Effectively measuring and then learning from customer behavior with loyalty solutions to improve reward experiences is the key to taking customer loyalty to the next level. “Since loyalty is such a mature space, measurement is key,” said Hijal. “Most loyalty programs are abundant and don’t achieve much, but focusing on measurement is what the next generation of loyalty programs is all about.”</p>
+  <p>Speaking of next generation, SAP Customer Experience solutions are also artificial intelligence (AI)- and machine learning-fueled. These types of insights can help you make each customer feel like they are your only customer. They can help you engage and understand consumers on their terms while respecting their privacy preferences during the customer journey, to retain and upsell using machine learning and smart automation.</p>
+  <p>So, the next time I’m in the market for sports shoes, maybe the AI-fueled loyalty program will be able to convince me to try something new…and stick with it.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Sven Denecken is senior vice president and chief marketing and solutions officer for SAP Industries and CX.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/industry-cloud</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[The Power of Personalization in an Increasingly Digital World]]></title>
+            <link>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</link>
+            <guid>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</guid>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Personalization, enabled by SAP solutions, can build relationships, increase customer lifetime value, and enhance customer engagement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/fashion</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>news-tag/sap-experience-center</category>
+            <category>product/sap-intelligent-returns-management</category>
+            <category>product/sap-s4hana-retail</category>
+        </item>
+        <item>
+            <title><![CDATA[How Retailers Use Sustainability and Modern Marketing to Drive Brand Loyalty]]></title>
+            <link>https://www.sap.com/news/2023/01/sustainable-fashion-modern-marketing-brand-loyalty</link>
+            <guid>https://www.sap.com/news/2023/01/sustainable-fashion-modern-marketing-brand-loyalty</guid>
+            <pubDate>Tue, 24 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As more retailers prioritize sustainable fashion, they need to ensure they deliver high-quality experiences to their eco-conscious consumers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>news-tag/sap-experience-center</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/sap-event/sap-sapphire/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 17 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Elevating the RISE with SAP Experience]]></title>
+            <link>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</link>
+            <guid>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</guid>
+            <pubDate>Mon, 17 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the elevated RISE with SAP experience that is improving services and delivery for customers end-to-end.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Elevating the RISE with SAP Experience" src="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="elevating-the-rise-with-sap-experience">Elevating the RISE with SAP Experience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>According to Albert Einstein, “Life is like a bicycle. To keep your balance, you must keep moving.” He had a point! The same is true of business.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Successful businesses keep moving and evolving, especially in times of rapid change and macroeconomic uncertainty. And given the current volatility, business transformation is no longer optional; it’s imperative.</p>
+  <p>Knowing this, we launched RISE with SAP in 2021 not as a technical IT migration approach, but as a comprehensive solution designed to drive broad business transformation. With 6,000 customers having selected RISE with SAP, we know we cannot stop moving either. And I was <a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">thrilled to share at SAP Sapphire this year</a> how we are taking the RISE with SAP experience to the next level and improving services and delivery for customers end-to-end.</p>
+  <p>Here are some key takeaways.</p>
+  <h2 id="evolving-how-we-engage-with-customers">Evolving How We Engage with Customers</h2>
+  <p>Navigating the transformation of today’s complex system landscapes and business processes is like orchestrating a symphony with countless instruments and moving parts. To succeed, we need to keep refining our engagement approach to better manage the intricacies of our customers’ complex architecture at an unprecedented level of detail.</p>
+  <p>To this end, we’re making a lot of changes in how we engage with customers, including strengthening the role of the enterprise architect (EA). The EA harmonizes all elements and guides the customer throughout their cloud journey.</p>
+  <h2 id="enhancing-methodologies">Enhancing Methodologies</h2>
+  <p>We know the biggest challenge for any cloud transformation is to make the system landscape more agile and enable innovation — quickly. We’ve been listening and have introduced solutions. For example, our <strong><a href="/2024/04/transform-confidence-rise-with-sap-methodology">RISE with SAP Methodology</a></strong> is a significant step forward in creating a consistent experience for all RISE with SAP customers, independent of their individual cloud journeys. Now, a dedicated enterprise architect guides customers through the RISE with SAP Methodology to enhance onboarding and provides transparency throughout the project with key milestone checks, q-gates, and checklists that ensure consistent quality and more predictable timelines throughout the implementation process.</p>
+  <p>This new offering is included in our <strong><a href="https://www.sap.com/products/erp/rise.html#migration">SAP RISE Migration and Modernization</a></strong> program, which is designed to give customers the confidence to migrate even the most complex ERP systems to the cloud. By enabling our customers to integrate and extend SAP S/4HANA with a clean core approach, we ensure our customers experience better maintainability and lower total cost of ownership.​ Because legacy ERP systems often carry technical debt and, let’s face it, code is also a liability not just an asset. The more code you have, the more you have to optimize, debug, and modernize. And this is something we all need to actively work against.</p>
+  <h2 id="introducing-partner-training-and-validation">Introducing Partner Training and Validation</h2>
+  <p>We are also making it easier for RISE with SAP customers to identify partners to help with complex SAP S/4HANA Cloud transformations. It is essential for our partner ecosystem to follow the RISE with SAP Methodology as well. For customers to onboard successfully, there needs to be a close alignment between SAP, the customer, and implementation partner. This is why we are training and validating partners to use the RISE with SAP Methodology and will collaborate closely with partners to provide consistency and quality.</p>
+  <p>We are also introducing the <strong>RISE with SAP Validated Partner</strong> recognition, which verifies a partner’s adherence to the RISE with SAP Methodology and our q-gates, giving businesses the confidence to know that they are fully leveraging the potential of cloud-based innovations from SAP. Almost 90% of all SAP implementations are overseen by partners, so training and validating them is a key part of our strategy to ensure consistency and quality for customers.</p>
+  <h2 id="building-a-seamless-end-to-end-tool-chain">Building a Seamless End-to-End Tool Chain</h2>
+  <p>As a former SAP CIO, I’ve felt the challenges (and pain) of large-scale transformation. I know the pressure CIOs are under to show tangible business outcomes quickly. It’s why true business transformation requires a holistic approach, not a simple technology lift and shift.</p>
+  <p>We deliver the most complete business transformation suite in the industry. With the range of capabilities on offer today — including SAP Signavio, SAP LeanIX, and SAP Cloud ALM solutions as well as SAP Business Technology Platform — we have an amazing set of tools to bring out the best in businesses. Now, we are bringing them more closely together as one end-to-end seamless tool chain to make it easier to manage the process, system, and data landscape holistically.</p>
+  <p>With our recently announced <a href="/2024/06/sap-enters-agreement-to-acquire-walkme">agreement to acquire <strong>WalkMe</strong></a>, we plan to further strengthen our ability to deliver successful business transformation across applications, processes, systems, and people. ​WalkMe will help us incorporate user-centric adoption, enablement, and productivity capabilities alongside our Business Transformation Management portfolio of SAP Signavio and SAP LeanIX solutions. And WalkMe’s AI capabilities will complement our process AI with user intelligence, improving the capabilities of our <a href="https://www.sap.com/products/artificial-intelligence/ai-assistant.html">generative AI copilot Joule</a> to help people get work done faster.​</p>
+  <h2 id="sap-business-ai-new-frontier-for-business-transformation">SAP Business AI: New Frontier for Business Transformation</h2>
+  <p>In 2024, SAP Sapphire has been an opportunity for us to showcase how we are introducing in a new era of optimized business operations, with all the IT complexity concealed behind intuitive, AI-powered user experiences.</p>
+  <p>We highlighted the progress we are making embedding Joule throughout our enterprise portfolio and the enormous potential we see for AI to support both customers and partners in their RISE with SAP journey. I was thrilled to announce that starting in Q4 of 2024, customers and partners can leverage generative AI-powered assistance for their RISE with SAP clean core success plan.</p>
+  <p>We are also bringing new consulting capabilities to Joule, aimed at simplifying SAP implementations for partners. The new consulting capability draws insights from SAP product documentation and the SAP community to provide consultants with vital information and is planned to be available in the second half of this year.</p>
+  <h2 id="business-transformation-more-than-an-it-project">Business Transformation: More Than an IT Project</h2>
+  <p>At SAP, we understand that true business transformation is more than an IT project. It requires a holistic approach and not a simple technological lift and shift. That’s why we are putting the people, methodologies, financial incentives, tools, partner practices, and SAP Business AI in place to ensure our customers not only have compelling reasons to move to the cloud, but also a compelling experience.</p>
+  <p><strong>Learn more:</strong></p>
+  <ul>
+    <li>Watch the replay of the <strong><a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">Customer Keynote at SAP Sapphire</a></strong></li>
+    <li>Read all the announcements in the <strong><a href="https://www.sap.com/events/sapphire/news-guide.html">SAP Sapphire News Guide</a></strong></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Thomas Saueressig is a member of the Executive Board of SAP SE leading Customer Services &#x26; Delivery.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[RHI Magnesita Refines Technology Landscape with RISE with SAP]]></title>
+            <link>https://www.sap.com/news/2024/06/rhi-magnesita-refines-technology-landscape-rise-with-sap</link>
+            <guid>https://www.sap.com/news/2024/06/rhi-magnesita-refines-technology-landscape-rise-with-sap</guid>
+            <pubDate>Thu, 13 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn why RHI Magnesita, global leader in refractories, has chosen RISE with SAP to rebuild and streamline its technology infrastructure.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1352659f91be85216647ebf5e52a4aeba522c1850.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1352659f91be85216647ebf5e52a4aeba522c1850.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1352659f91be85216647ebf5e52a4aeba522c1850.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="RHI Magnesita Refines Technology Landscape with RISE with SAP" src="./media_1352659f91be85216647ebf5e52a4aeba522c1850.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="rhi-magnesita-refines-technology-landscape-with-rise-with-sap">RHI Magnesita Refines Technology Landscape with RISE with SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>BARCELONA</em></strong></p>
+        <hr>
+        <p><a href="https://www.sap.com/index.html">SAP SE</a> (NYSE: SAP) announced that RHI Magnesita (LSE: RHIM), has chosen the RISE with SAP solution to rebuild and streamline its technology infrastructure for continued growth in the refractory industry.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>A global leader in refractories, RHI Magnesita provides essential parts of the infrastructure that we use and need in our everyday lives. Supplying high-grade refractory products, systems and solutions, RHI Magnesita has 47 main production sites across the world, and ships its products to more than 100 countries.</p>
+  <p>With its vision to sustainably manage heat to build a better world, RHI Magnesita needed a technology foundation that would allow end-to-end interaction across its customers, suppliers and business partners across all geographies, end markets and product lines. Choosing to implement a multi-tier landscape consisting of both SAP S/4HANA Cloud Private Edition and SAP S/4HANA Cloud Public Edition, RHI Magnesita is now equipped to redefine all its technology processes and landscape.</p>
+  <p>Ticiana Kobel, Executive VP Legal &#x26; Digital Transformation at RHI Magnesita, stated, “With the revamped digital landscape that we will shape together with SAP, RHI Magnesita will transform into a digitally fortified company, centered around our customers and driven by data. The transition to SAP S/4HANA Cloud marks a pivotal moment in RHI Magnesita’s journey toward unparalleled efficiency, agility, and innovation which will enable us to unlock real-time insights, streamline operations, and enhance decision-making across our global network.”</p>
+  <p>With SAP S/4HANA Cloud, RHI Magnesita will have one unified view of its operations and supply chain, reducing its infrastructure footprint, and poises itself for better integration of future acquisitions while delivering cost savings.</p>
+  <p>“RHI Magnesita is embarking on a true digital transformation that will see the streamlining of several landscapes that will allow it to leverage the cost savings, scalability and flexibility that comes with moving to the cloud,” said Alexander Klaeger, President of SAP MEE. “Already a leader in the industry, I’m excited to see RHI Magnesita use SAP S/4HANA Cloud to sustainably provide infrastructure the world needs.”</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><strong>Media Contacts:</strong><br>Elisabeth Wursche, +43 664 620 74 27, <a href="mailto:elisabeth.wursche@sap.com">elisabeth.wursche@sap.com</a>, CET<br>Lesa Plingen, +49 6227 76 9000, <a href="mailto:lesa.plingen@sap.com">lesa.plingen@sap.com</a>, CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2023 Annual Report on Form 20-F.<br>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Game On: Business Builders Prepares Future Business Leaders for a Data-Driven World]]></title>
+            <link>https://www.sap.com/news/2024/06/business-builders-sap-university-alliances</link>
+            <guid>https://www.sap.com/news/2024/06/business-builders-sap-university-alliances</guid>
+            <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Business Builders, built from a partnership between SAP University Alliances and HEC Montréal, is where education meets real-world needs.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>news-tag/sap-university-alliances</category>
+        </item>
+        <item>
+            <title><![CDATA[Bonprix Catwalks Onto Business Intelligence with SAP]]></title>
+            <link>https://www.sap.com/news/2024/06/bonprix-business-intelligence-sap</link>
+            <guid>https://www.sap.com/news/2024/06/bonprix-business-intelligence-sap</guid>
+            <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Leading international fashion company Bonprix has successfully completed implementation of SAP BW/4HANA and SAP Datasphere. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[New Supply Chain and External Workforce Innovations Reduce Organizational Inefficiencies]]></title>
+            <link>https://www.sap.com/news/2024/06/supply-chain-external-workforce-innovations</link>
+            <guid>https://www.sap.com/news/2024/06/supply-chain-external-workforce-innovations</guid>
+            <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP Sapphire, we introduced supply chain and external workforce innovations to help reduce inefficiency and improve decision-making.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/automation</category>
+            <category>news-tag/external-workforce-management</category>
+            <category>news-tag/joule</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-fieldglass</category>
+        </item>
+        <item>
+            <title><![CDATA[Roca Group Looks to the Future Through RISE with SAP]]></title>
+            <link>https://www.sap.com/news/2024/06/roca-group-looks-to-future-rise-with-sap</link>
+            <guid>https://www.sap.com/news/2024/06/roca-group-looks-to-future-rise-with-sap</guid>
+            <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how Roca is leveraging the last SAP technology and innovations, including RISE with SAP, to boost its digital transformation.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16c0e3912183718e90a860d4272af02f88676684b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16c0e3912183718e90a860d4272af02f88676684b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16c0e3912183718e90a860d4272af02f88676684b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Roca Group Looks to the Future Through RISE with SAP" src="./media_16c0e3912183718e90a860d4272af02f88676684b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="roca-group-looks-to-the-future-through-rise-with-sap">Roca Group Looks to the Future Through RISE with SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>BARCELONA</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced that Roca Group, one of the world’s leading bathroom fixtures and design companies has selected SAP S/4HANA and the RISE with SAP solution as it embarks on its next phase of digital transformation, focused on integrating and standardizing its IT systems.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>A family-owned business with over 100 years of heritage, a presence in 170 markets, and more than 21,500 employees and nearly 80 factories globally, Roca Group had embraced digitalization to remain competitive and relevant in the dynamic sanitary industry. Having made several acquisitions over the years, Roca Group saw RISE with SAP as the ideal solution to consolidate various IT systems into one IT landscape. Roca’s decision in choosing SAP S/4HANA Cloud was driven by the desire to increase efficiency and the ability to make informed, real-time, data-driven business decisions.</p>
+  <p>“Roca Group’s strategy is based on a long-term future vision supported by innovation, technology and sustainability,” said Albert Magrans, CEO of Roca Group. “Moving to SAP S/4HANA enables Roca to leverage the last technology and innovations of SAP software to boost our digital transformation. We are looking forward to faster execution speed, the enhancement of functionality with the Joule copilot, real-time analytics and further innovations from SAP and its ecosystem.”</p>
+  <p>“Roca Group and SAP have collaborated closely for a number of years, with Roca trusting SAP with multiple SAP implementations,” said Manos Raptopoulos, VP of SAP Europe, Middle East and Africa. “Roca’s IT strategy is fully aligned with its business transformation with SAP solutions as an integral part of this strategy. Our close partnership allows our teams to have real-time insight into their business transformation, allowing for seamless integration of SAP solutions as they embark on their SAP S/4HANA Cloud journey.”</p>
+  <p>In choosing SAP S/4HANA Cloud and various cloud solutions from SAP, such as SAP Customer Experience, SAP Ariba and SAP SuccessFactors solutions, Roca Group continues to be well-positioned to leverage SAP’s integrated suite of solutions that will enhance customer experience and potentially open up new business opportunities. In adopting a clean core approach, the group will have a single platform for its production centers and logistics platforms, tapping onto the SAP Integrated Business Planning for Supply Chain solution for demand and production planning, and the SAP Transportation Management application for transport management. With these solutions implemented, the operations already using them have seen a cubic capacity of their transports rise by 10%.</p>
+  <p>Additionally, Roca plans to use SAP SuccessFactors to improve learning programs, manage global payroll and enhance the employee self-service portal through SAP’s suite of solutions in addition to travel expense management with SAP Concur solutions.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><strong>Media Contacts:</strong><br>Belén Martinez, +34 914 567 220, <a href="mailto:belen.martinez@sap.com">belen.martinez@sap.com</a>, CET<br>Lesa Plingen, +49 6227 76 9000, <a href="mailto:lesa.plingen@sap.com">lesa.plingen@sap.com</a>, CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2023 Annual Report on Form 20-F.<br>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[Powering the AI Revolution with New Learning, Certifications, and Simplified Access to Talent]]></title>
+            <link>https://www.sap.com/news/2024/06/powering-ai-revolution-learning-certifications-talent</link>
+            <guid>https://www.sap.com/news/2024/06/powering-ai-revolution-learning-certifications-talent</guid>
+            <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bring out your best with new learning opportunities, role-based SAP Certifications, and simplified access to talent. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_158ee9e4c4293f1933f13d07a2fb3eddc96c821de.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_158ee9e4c4293f1933f13d07a2fb3eddc96c821de.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_158ee9e4c4293f1933f13d07a2fb3eddc96c821de.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Powering the AI Revolution with New Learning, Certifications, and Simplified Access to Talent" src="./media_158ee9e4c4293f1933f13d07a2fb3eddc96c821de.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="powering-the-ai-revolution-with-new-learning-certifications-and-simplified-access-to-talent">Powering the AI Revolution with New Learning, Certifications, and Simplified Access to Talent</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Artificial intelligence (AI) is currently forcing the technology industry to undergo <a href="">a paradigm shift</a>, further accelerating the upheaval in business and society. We see AI embedded in tools we have been using for years, and we see software finding its way into every aspect of competition today. Against this background, it comes as no surprise that <a href="https://www2.deloitte.com/us/en/pages/consulting/articles/state-of-ai-2022.html">94% of business leaders see AI as critical to success over the next five years</a>. However, many report the lack of resources and talent to drive competitiveness with these new tools.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="taking-business-to-the-next-level-in-the-era-of-ai">Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To make it easier to develop relevant skills and secure business success in such a volatile environment, <a href="/2022/11/sap-coursera-partnership-digital-skills-underrepresented-groups">we embarked on a journey to upskill millions of people worldwide</a> in search of opportunity. After launching a digital skills initiative for those underserved in tech, forging new partnerships, offering the first role-based certifications to help meet real-life business needs, and making future-focused learning resources available to all, we are now taking our efforts to an even higher level – with more free, self-paced learning and engagement opportunities, new solution demos to experience the latest innovations in SAP Business AI, cloud ERP, and SAP Business Technology Platform (SAP BTP), among others, a full portfolio of role-based certifications and a new certification model, as well as an extended digital skills initiative.</p>
+  <h2 id="more-than-250-free-online-courses-now-available-for-all">More Than 250 Free Online Courses Now Available for All</h2>
+  <p>From global talent shortages and changing job profiles to the digitalization of entire economies, many organizations see the gaps between skill supply and demand grow wider and wider while searching for ways to adapt to a business landscape where advancements like AI, machine learning, and a new era of Big Data come into play. In this ever-changing atmosphere, tens of thousands of organizations have <a href="https://www.sap.com/about/company.html">deployed SAP solutions</a> to support them on their path to bring out their best, leading to skyrocketing demand for SAP talent.</p>
+  <p>To help meet the increasing demand, we recently launched more than 50 new free, self-paced learning journeys – many of them touching on AI features embedded in our software – bringing the total number of digital courses on the <a href="https://learning.sap.com/?url_id=text-sapnewscenter-prdteng-Sapphire">SAP Learning site</a> to more than 250. By allowing everyone with an Internet connection to quickly learn a new skill for free, keep up with the latest innovations, and prepare for an in-demand SAP Certification, more professionals can advance in the competitive technology labor market, while customers can draw on a deeper bench of skills to accelerate digital transformation.</p>
+  <h2 id="launching-role-based-certifications-for-all-key-roles">Launching Role-Based Certifications for All Key Roles</h2>
+  <p>As organizations need to be more adaptive and dynamic, traditional university degrees become less important and skills-based hiring is on the rise when trying to fill positions. In fact, recent reports show that up to <a href="https://www.hiringlab.org/2024/02/27/educational-requirements-job-postings/">52% of job postings</a> in the U.S. in the beginning of the year did not state an educational requirement. Instead, role-based certifications and practical experience have become more determining factors for career paths and hiring.</p>
+  <p>Recognizing the advantages role-based certifications can offer both individuals and organizations, we have further enhanced our certification program to better align with real-life business needs, now offering role-based certification for all key roles, including consultants, analysts, and architects. These role-based certifications come with a clear career path for individuals. Together with a <a href="https://learning.sap.com/get-certified?url_id=text-sapnewscenter-prdteng-Sapphire">new model to get and stay certified</a> with continuous assessments, this is our way to help ensure skill sets are sharp, focused on core competencies, and more sustainable and valid for longer periods of time.</p>
+  <p>With these enhancements, we believe we have now taken an important next step to support professionals and organizations in the SAP ecosystem to bring out their best with ongoing and up-to-date knowledge of the latest skills, helping to maximize the ROI of SAP software, shorten deployment times, lower costs, speed innovation, and increase employee retention and satisfaction.</p>
+  <h2 id="simplified-access-to-pre-trained-sap-talent">Simplified Access to Pre-Trained SAP Talent</h2>
+  <p>However, we recognize that many people considered underrepresented in tech still do not have access to future-focused educational resources and with it, fulfilling careers. Launched in late 2022, <a href="https://learning.sap.com/digital-skills?url_id=text-sapnewscenter-prdteng-Sapphire">SAP’s digital skills initiative</a> was intended to equip 10,000 people from underrepresented and underserved groups for a career in the tech industry with free, self-paced learning resources and a free certification exam attempt to obtain an in-demand SAP Certification to show their expertise. Ever since its launch, the initiative has grown – and contributed to <a href="https://community.sap.com/t5/learner-stories/bg-p/learner-stories">amazing success stories</a>.</p>
+  <p>Hearing that SAP professionals like <a href="https://community.sap.com/t5/sap-learning-blog-posts/breaking-barriers-and-fighting-sexism-lin-s-journey-from-a-salesgirl-to-an/ba-p/13588835">Lin Fan, a Chinese immigrant to Germany</a>, could overcome gender bias because of our digital skills initiative, makes me proud. “[The digital skills initiative and SAP Certification] indeed opened new doors and helped me get noticed by recruiters,” Fan said. “I got several interviews from major SAP consulting firms shortly after handing in my application. In the interviews, I highlighted what I learned and expressed my confidence in accepting challenges for rolling out SAP S/4HANA. In the end, I got an offer and gladly started a junior role at a consulting firm that actively implements SAP S/4HANA projects.”</p>
+  <p>While Fan’s path is inspiring, she is not the only one who turned their life around with the help of SAP. Given the expectation-exceeding demand of now more than 14,500 candidates, we are overwhelmed by the positive uptake of the initiative. One of our recent graduates, <a href="https://community.sap.com/t5/learner-stories/breaking-down-barriers-hear-from-chelcie-scott-how-she-broke-into-tech-with/ba-p/13710541">Chelcie Scott, agreed to tell her story</a> on camera and shared how intimidating the tech industry appeared to the single mother at first. Thanks to her willpower and commitment, plus a little help from the digital skills initiative, she recently got certified and hired by an SAP partner. And as organizations are still struggling to find skilled employees, we have decided to extend SAP’s digital skills initiative, bringing candidates and organizations together. With simplified access to SAP-trained talent, we are helping customers and partners to recruit talent and expand their workforce faster while also allowing for greater diversity and innovation.</p>
+  <p>At SAP, we recognize the challenges and opportunities that lie ahead for customers, partners, and individual learners within and outside of the SAP ecosystem. With these enhancements, we have taken the next step to help organizations equip their existing workforce with the right tools and resources to future-proof their skill set while also paving career growth for those who do not have a seat at the table yet but can bring a fresh set of perspectives to it.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bf4a81f181aead9f58c4d25e211885b7fc5988cc.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bf4a81f181aead9f58c4d25e211885b7fc5988cc.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1bf4a81f181aead9f58c4d25e211885b7fc5988cc.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Break Down Barriers With the Help of SAP’s Digital Skills Initiative" src="./media_1bf4a81f181aead9f58c4d25e211885b7fc5988cc.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=pEsE7dicrc4&#x26;feature=youtu.be">Break Down Barriers With the Help of SAP’s Digital Skills Initiative</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>Andre Bechtold is SVP and head of Solution &#x26; Innovation Experience at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-in-2024-innovations-to-bring-out-the-best-in-your-business">SAP Sapphire in 2024: Innovations to bring out the best in your business</h3>
+        <p><em><a href="/topics/sap-sapphire">Get the latest news and coverage</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/digital-skills-gap</category>
+            <category>news-tag/learning</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Introduces a New Validation Recognition for Service Partners]]></title>
+            <link>https://www.sap.com/news/2024/06/new-rise-with-sap-validated-partner-recognition</link>
+            <guid>https://www.sap.com/news/2024/06/new-rise-with-sap-validated-partner-recognition</guid>
+            <pubDate>Mon, 10 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new RISE with SAP Validated Partner SAP recognition helps customers with complex SAP ERP landscapes starting their journey.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a157e78734853652179498700d8b366ba88f70cd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a157e78734853652179498700d8b366ba88f70cd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a157e78734853652179498700d8b366ba88f70cd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Introduces a New Validation Recognition for Service Partners" src="./media_1a157e78734853652179498700d8b366ba88f70cd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-introduces-a-new-validation-recognition-for-service-partners">SAP Introduces a New Validation Recognition for Service Partners</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Customers Can More Easily Identify Partners with Deep Expertise and Experience in Large and Complex RISE with SAP Implementations</div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The <a href="https://www.sap.com/products/erp/rise.html#migration">RISE with SAP Migration and Modernization program</a> helps bring renewed focus on the cloud transformation journey by enabling smooth, secure migration of on-premise SAP ERP Central Component (SAP ECC) and SAP S/4HANA customers to the cloud.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>One of the key pillars of the program is RISE with SAP Methodology. The methodology is designed to provide a consistent approach — from planning to go-live to ongoing operations and evolution — that can meet customers’ business transformation goals leveraging specific implementation stages and success KPIs.</p>
+  <p>To support customers’ RISE with SAP transformations, SAP is <a href="https://www.sap.com/events/sapphire/news-guide/erp.html#sap-validated-partner-designation">training and validating partners to use RISE with SAP Methodology</a> and collaborating closely with these partners on quality and consistency. By following the methodology, customers can drive predictable timelines for implementations and provide progress transparency with key milestone assessments.</p>
+  <p>SAP customers with complex SAP ERP landscapes starting their journey to RISE with SAP can now identify their ideal cloud transformation partner through the new <strong>RISE with SAP Validated Partner</strong> recognition.</p>
+  <p>These select partners meet elevated capability and experience criteria for the <a href="https://www.sap.com/products/erp/rise.html">RISE with SAP offering</a>, have proven experience in large enterprise engagements, and demonstrate their implementation approach is aligned with <a href="/2024/04/transform-confidence-rise-with-sap-methodology">RISE with SAP Methodology</a>. Using this methodology, the validated partners can ensure customers are cloud compliant and innovation ready, with an accelerated time to value.</p>
+  <p>Partners that have been validated as part of this program include Accenture, Capgemini, Deloitte, EY, IBM, Infosys, NTT DATA, and PwC.</p>
+  <p>In addition to adhering to the principles of RISE with SAP Methodology, these validated partners complement it in several ways, such as by leveraging specialized tools, templates, architecture patterns, and pre-configured solutions that speed up transformation of our enterprise customers. Additional eligible partners will be validated in the second half of 2024.</p>
+  <p>“Empowering our partners with RISE with SAP Methodology isn’t just about alignment; it’s about forging a standardized path to success,” said SAP Chief Partner Officer Karl Fahrbach. “By formalizing our engagement model, we reinforce a commitment to excellence, ensuring every project delivers with precision and consistency, driving unparalleled results for our most valued customers. Our partners can lead the way with our support, igniting a paradigm shift in how we approach innovation and collaboration.”</p>
+  <p>Companies also have the option to leverage <a href="https://partnerfinder.sap.com/partnerNavigator?designation=rise&#x26;q=&#x26;queryType=partner">SAP Partner Finder</a> and the <a href="https://www.sap.com/documents/2022/06/426a3ea2-3f7e-0010-bca6-c68f7e60039b.html">Competency Framework</a> to find the expertise they need, no matter their business challenges, company size, industry, or location. Partners that have attained the essential level have met the minimum training and delivery requirements for delivering RISE with SAP implementations. This gives customers confidence that the partner has the necessary level of maturity and has demonstrated customer success through effective project delivery.</p>
+  <p>RISE with SAP Validated partners are required to attain the expert level of multiple competencies, including RISE with SAP S/4HANA Cloud Private Edition, SAP Business Technology Platform, and SAP Business Process Transformation. These designated partners must also maintain bi-annual performance requirements and eligibility checks with a focus on clean core quality gates.</p>
+  <p>For additional information regarding the <a href="/2024/01/rise-with-sap-migration-and-modernization-cloud-first-business-strategy">RISE with SAP Migration and Modernization program</a> and the importance of partners, read “<a href="https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/partners-are-vital-to-your-company-s-success-when-transitioning-to-cloud/ba-p/13616168">Partners Are Vital to Your Company’s Success When Transitioning to Cloud ERP</a>.”</p>
+  <p>Eric van Rossum is chief marketing officer for Cloud ERP at SAP.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rise-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[Data-Driven Decision-Making with Connected Financial and Carbon Information]]></title>
+            <link>https://www.sap.com/news/2024/06/data-driven-connected-financial-carbon-information</link>
+            <guid>https://www.sap.com/news/2024/06/data-driven-connected-financial-carbon-information</guid>
+            <pubDate>Mon, 10 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Beyond environmental responsibility, merging carbon and financial data unlocks additional advantages. Learn about them.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/carbon-accounting</category>
+            <category>topic/erp</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP SuccessFactors Accelerates AI Capabilities in HR to Make Every Employee a Success Story]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-successfactors-accelerates-ai-capabilities</link>
+            <guid>https://www.sap.com/news/2024/06/sap-successfactors-accelerates-ai-capabilities</guid>
+            <pubDate>Mon, 10 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Announced at SAP Sapphire Orlando, SAP SuccessFactors streamlines HR operations with AI-enabled capabilities for a new way of working.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>news-tag/sap-successfactors-hcm-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[How Four SAP Customers Are Successfully Driving Transformation in Their Businesses]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-sapphire-sap-customers-drive-business-transformation</link>
+            <guid>https://www.sap.com/news/2024/06/sap-sapphire-sap-customers-drive-business-transformation</guid>
+            <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In their SAP Sapphire keynote, Scott Russell and Thomas Saueressig talked to four customers about using SAP to deliver high-value results.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Four SAP Customers Are Successfully Driving Transformation in Their Businesses" src="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-four-sap-customers-are-successfully-driving-transformation-in-their-businesses">How Four SAP Customers Are Successfully Driving Transformation in Their Businesses</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>This week at SAP Sapphire, four industry-leading companies joined SAP Executive Board Members Scott Russell and Thomas Saueressig on stage in Orlando to discuss how they are using SAP technology to deliver high-value results for their businesses.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="taking-business-to-the-next-level-in-the-era-of-ai">Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Russell told the crowd that customer stories and conversations is what SAP Sapphire is all about, saying that what makes the event special is having “a collective group that comes together, both here in the room and virtually, and being able to understand how SAP can bring out your best.”</p>
+  <p>Russell emphasized that the news from SAP Sapphire is a “demonstration of our commitment to continually innovate, to continually strive to bring more creative value to your business.”</p>
+  <p>He noted that a perfect example of this is the announcement that <a href="/2024/06/sap-enters-agreement-to-acquire-walkme">SAP has entered into an agreement to acquire WalkMe</a>, a leader in digital adoption platforms. Reflecting on the acquisition, Russell said “We are obsessed not only about great applications and great platforms to deliver value for your business, we also care passionately about the transformation journey to get there.”</p>
+  <p><a href="https://www.youtube.com/live/ZZ1yFoALzAs?si=mbPWUzgttHga-_PR">Embed from www.youtube.com</a></p>
+  <p>As Chief Revenue Officer, Russell noted that every day 300 million people log on to SAP cloud applications to run their businesses. “And obviously we can never take that for granted,” he said. “You have choice, you have options. We strive to be at our best to help you be at yours. The way we measure success is in your terms, because ultimately [as a] market leader in business AI, we hold ourselves to the highest standards. Why? Because that’s what you expect.”</p>
+  <p>A big part of the transformation journey many customers are taking is moving to the cloud with RISE with SAP. “We are super proud of our cloud journey and [that] we are helping you transform your business,” Russell said. “More than 6,000 customers have already moved to RISE with SAP. Of those 6,000 customers in the last 12 months, over 1,000 have already gone live.”</p>
+  <h2 id="puretech-scientific-speed-and-scalability-is-key">PureTech Scientific: Speed and Scalability is Key</h2>
+  <p>Russell was first joined on stage by Brian Hardee, CIO of <a href="https://www.puretechscientific.com/">PureTech Scientific LLC</a>, a global leader in the production of glycolic acid used in a variety of industries and applications. As a recent carve-out by a private equity owner from a much larger global manufacturer, PureTech had to quickly migrate its operations to its own systems. But without an IT team of its own this was initially a daunting challenge. The new company chose SAP S/4HANA Cloud Public Edition because of its many benefits.</p>
+  <p>“For us, it was an easy choice because first, we have no IT team,” Hardee said. “We have no internal training team, and we also had a very tight timeline with respect to the exit. So, we needed a solution that would enable us to move forward with speed, efficiency, and scalability. I could be confident that the infrastructure was being managed and secure. And that left us with an awesome choice for growth as well.”</p>
+  <p>Scalability and rapid implementation were key factors in the choice of GROW with SAP, Hardee noted: “It was a great fit and gave us a platform for scalability for future bolt-ons, acquisitions, and so forth. So that’s the main reason. And SAP has an awesome suite of tools that enable that rapid implementation. And there was no other way we were going to do it without an internal IT team and without the access to the training material and the testing and so on.”</p>
+  <p>And speaking of rapid implementation, PureTech went live on SAP in just 15 weeks, standardizing a business with an 85-year history on a common platform. Hardee gave some advice on how to make a project successful: “Use the tool set that SAP provides – SAP Activate methodology does work! And if you have the opportunity, sign up for the SAP Preferred Success program because it gives you a direct line to someone in SAP so that if you or your integrator doesn’t know the answer, SAP can point you to the right direction very quickly. So that helps with the speed of transformation.”</p>
+  <h2 id="tropicana-brands-group-all-about-agility-and-time">Tropicana Brands Group: All About Agility and Time</h2>
+  <p>Tropicana is a household name to many consumers, known chiefly for its juice and other beverage products. But while the brand is more than 75 years old, <a href="https://www.tropicanabrandsgroup.com/">Tropicana Brands Group</a> is just a bit over two years old, having been recently spun-off as a stand-alone group.</p>
+  <p>Jeff Lischett, CIO of the US$3 billion organization, joined Russell to talk about how his company relied on RISE with SAP to make its “Project Harvest” IT separation and transformation project successful.</p>
+  <p>Lischett noted that speed and agility was the key value proposition for the project. “We needed a platform that was able to accelerate, move with us, pivot with us, as we were going through this in a very accelerated timeline,” he said. “When you bring the technology and couple it with the unified business architecture powered by SAP, the choice for us was clearly RISE with SAP. Tropicana really needed a fit for purpose. Where we came from was going to be entirely different than where we were going, and this modern ERP, in terms of leaner, simpler, more streamlined ways of working, was really at the core of what we needed across the value chain.”</p>
+  <p>Tropicana Brands Group took its European business operations live on SAP just 11 months after it started the design work, followed by North America three months later. “That was pressure testing!” Lischett said. “In just over a year, we had a fully implemented, end-to-end digital core and technology foundation for Tropicana Brands. We have a technology and a platform now that is really going to – no pun intended – rise to meet the challenge of our growth ambition.”</p>
+  <p>“Ruthless prioritization” and change management were key to the project’s success, Lischett said. “I’m the biggest evangelist and advocate of change management,” he said. “You need it. You need it at the front, you need it during, you need it at the end. One thing that I would’ve probably done slightly differently is [to have] stayed with it longer at the end.”</p>
+  <p>Tropicana is already seeing the impact of the project and specifically its focus on a clean core. “The most impactful value we’ve seen [goes] back to that clean core,” Lischett said. “Just in the months that followed, the ability to … bring the development forward, to build on top of the core that we have with enhancements and optimizing at a speed ratio that you just haven’t seen.”</p>
+  <p>When asked about what role AI will play in his company, Lischett focused mainly on the human side of the technology. “Ironically, from the standpoint of being a technologist … AI in my mind, in terms of how I lead it, [needs to be] human-centered first and foremost, ensuring that we’ve got the right culture, responsible use, and effective use,” he said. “The gift of time is really the value creator that I see in AI and being able to work more efficiently and being able to take that time and translate it into what matters to you.”</p>
+  <h2 id="responsibly-enabling-critical-systems">Responsibly Enabling Critical Systems</h2>
+  <p>Russell handed over the stage to Saueressig, who recently launched the <a href="/2024/04/cloud-transformation-adoption-revolution-expectations-outcomes-meet">new Customer Services &#x26; Delivery Board area</a>. Saueressig noted that 25% of the world’s commerce already runs through more than 6,000 RISE with SAP customers worldwide, and that SAP supports the most critical business processes on the planet.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <picture>
+          <source type="image/webp" srcset="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+          <source type="image/webp" srcset="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+          <source type="image/jpeg" srcset="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+          <img loading="lazy" alt="" src="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="683">
+        </picture>
+      </div>
+    </div>
+  </div>
+  <p>With that comes “the responsibility and the accountability to provide you with the most reliable and secure infrastructure,” Saueressig said. “That’s the reason why we co-engineered together with our partners from AWS, Microsoft Azure, Google Cloud Platform, and many others, to ensure that you have the highest level of quality and availability.”</p>
+  <p>Echoing the theme of speed and adaptability, he noted that fast adoption of technology is critical. “Today, it’s not about the big fish that eats the small fish, it’s about the fast fish that eats the slow,” he cited. “At the end of the day, [our] ambition is to transform your system landscape to create a more flexible architecture, which enables fast adoption of innovations and ultimately, value realization. … And we take our responsibility seriously to really help you thrive in this ever-changing environment.”</p>
+  <h2 id="fresenius-se-from-complexity-to-standardization">Fresenius SE: From Complexity to Standardization</h2>
+  <p>Ingo Elfering, CIO of global healthcare conglomerate <a href="https://www.fresenius.com/">Fresenius</a>, knows something about speed: his team migrated 29 system landscapes containing more than 134 systems in less than 15 months. He joined Saueressig on stage to provide some insights into his company’s transformation project.</p>
+  <p>As a company that has grown through many acquisitions, Fresenius had a highly heterogenous IT landscape. “We never quite integrated them,” Elfering said. “So, a really complex landscape …, [with] all sorts of interfaces and other applications attached to it. That was our starting point.”</p>
+  <p>Fresenius’ management realized the company needed to change and become more efficient and effective to set itself up for ongoing success. It went all-in, doing four major transformations at the same time. As Elfering noted, “We not only did the RISE with SAP migration, we also did a complete cloud migration of our data centers worldwide; an outsourcing with a partner to become a more global team; and a global change of our network, including a whole bunch of security additions into our space.”</p>
+  <p>Since it works in the healthcare and pharmaceutical space, Fresenius has a lot of regulatory requirements that it must adhere to, making the project more challenging than it might be in other industries. “You do a lot more technical documentation, testing, and so forth. So, from that perspective, regulations like GxP, good manufacturing or critical infrastructure, they were new to SAP in that instance in RISE with SAP. And we did it together. And I find that quite remarkable.”</p>
+  <p>The <a href="/2023/06/fresenius-rise-with-sap-moves-sap-systems-cloud">new system has now been live</a> for just over a year and the company has seen many benefits. “We have a better speed on the underlying systems,” Elfering said. “We have a new infrastructure stack that works well. The main benefit for us will come as we [reinvent] the company. … We have some systems that doubled and tripled in size. So, it’s possible to leverage SAP quite quickly in these types of environments. From that perspective, I’m very happy with where we are. … We now have all the foundations in place to be able to execute our next phase of changes, our consolidation, our simplification, and in the cloud.”</p>
+  <p>Finally, Elfering believes that healthcare is an area where AI can make a significant difference. “Healthcare always has been data-rich and insights-poor. … And the only way to get there, in our opinion at least, is to be on a cloud-based infrastructure in the first place. Because otherwise you don’t have the same performance or capabilities.”</p>
+  <h2 id="clean-core-drives-agility">Clean Core Drives Agility</h2>
+  <p>The idea of a “clean core” and a unified, simplified system underlies all these customer transformation stories. And it’s even more important in the context of agility and adaptability when it comes to taking advantage of the latest innovations in AI.</p>
+  <p>“It’s super important for us to be clear that the clean core is not just for the sake of the clean core,” Saueressig said. “It’s a means to get to an innovation- and upgrade-ready system to be able to embrace these innovations. Because at the end of the day, legacy systems often have this technical depth that limits agility.”</p>
+  <p>Saueressig admitted that even SAP has struggled with this, noting that the company had millions of lines of custom code in its systems. An internal analysis of all SAP customers showed that more than 65% of their custom code was unused in the past 12 months. “Code is also a liability, not just an asset,” he said. “And this is something we need to actively work against.”</p>
+  <h2 id="hitachi-high-tech-corporation-clean-and-simple-benefits">Hitachi High-Tech Corporation: Clean and Simple Benefits</h2>
+  <p>Saueressig invited Takuya Sakai, general manager of the Digital Transformation Business Group at <a href="https://www.hitachi-hightech.com/">Hitachi High-Tech</a>, on the stage to talk more about the benefits of system simplification and clean core. In 2019, Hitachi High-Tech <a href="https://www.sap.com/asset/dynamic/2023/07/d237f8b9-7e7e-0010-bca6-c68f7e60039b.html">initiated a project</a> to simplify its business processes and digitize its management information. With its existing business processes fragmented across overseas sales offices, headquarters, and manufacturing sites, the organization needed to change to accelerate its business and set itself up for future growth. It chose SAP S/4HANA to help it build its new foundation for ongoing growth.</p>
+  <p>Hitachi was running SAP R/3 but had significantly customized it with 9,000 add-ons across four instances, resulting in a lot of custom code. This resulted in many errors every day and large operational costs every year, Sakai said. And with the cost of validating so many add-ons, the company only did a major version update once in 12 years.</p>
+  <p>To move to a more standardized and flexible system, Hitachi High-Tech adopted a two-tier architecture model. Taking advantage of development flexibility, the company deployed SAP S/4HANA Cloud Private Edition for its headquarters and group companies in Japan and SAP S/4HANA Cloud Public Edition for its overseas sales offices. The adoption of SAP S/4HANA Cloud allows Hitachi High-Tech to take advantage of the functionality offered by SAP Business Technology Platform (SAP BTP) for application development, data management, automation, integration, analytics, and AI.</p>
+  <p>With the new system, Hitachi High-Tech reduced its 9,000 add-ons to just 750, allowing it to easily upgrade its ERP core. “Upgrading our old ERP took about a year and a half from the planning stage,” Sakai said. “However, with clean core, we can now do an upgrade every year in about 40 days. An upgrade every year keeps the clean core fresh and means new features can be delivered to our business quickly, like AI or process automation.”</p>
+  <p>But achieving – and keeping – a clean core “requires patience,” Sakai said. Executives must understand the purpose of the transformation project and employees must overcome the pain that comes with a transformation project. “This is the most difficult thing,” he said. “The IT department must properly understand the new technology and suggest how to use it correctly. Then together we embark on the journey to the transformation.”</p>
+  <h2 id="supporting-business-transformation-and-accelerating-time-to-value">Supporting Business Transformation and Accelerating Time to Value</h2>
+  <p>Accelerating and improving time-to-value for customers is very important to SAP, according to Saueressig.</p>
+  <p>“We are now bringing together all of our assets … in a seamless, end-to-end tool chain,” he said. “We want to holistically support your business transformation according to the dimensions of applications, data, processes, and people, which means we bring together and fully integrate SAP LeanIX for the IT landscapes and architecture, SAP Signavio for process management, SAP Cloud Application Lifecycle Management for application management and operational aspects, SAP BTP for integrations, and SAP Build for extensions, but also our telemetry tools, which we can leverage in the cloud.”</p>
+  <p>Saueressig’s passion and ambition is to help customers drive innovation adoption. He noted that RISE with SAP is more than just a technical migration: it’s an offering for holistic business transformation as a service to accelerate value realization.</p>
+  <p>“Ultimately, we want to help you to bring the best out of our entire holistic portfolio,” he said. “We want to help you to transform, realize agility at scale, achieve more across the entire value chain, and fundamentally transform operations with sustainability at the core. And this is something where I feel that we have a huge opportunity together to make that a reality.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[End-to-End Innovation Is Key to Bringing Out Your Best]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-sapphire-innovation-key-to-bring-out-your-best</link>
+            <guid>https://www.sap.com/news/2024/06/sap-sapphire-innovation-key-to-bring-out-your-best</guid>
+            <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In their keynote, Juergen Mueller and Muhammad Alam demoed and discussed the latest innovations out of SAP Sapphire in 2024.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="End-to-End Innovation Is Key to Bringing Out Your Best" src="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="end-to-end-innovation-is-key-to-bringing-out-your-best">End-to-End Innovation Is Key to Bringing Out Your Best</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In their SAP Sapphire Orlando keynote, Executive Board Members Muhammad Alam, SAP Product Engineering, and Juergen Mueller, chief technology officer, shared how the latest SAP innovations will help businesses drive true, end-to-end digital transformation and address their toughest business challenges.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="taking-business-to-the-next-level-in-the-era-of-ai">Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In the keynote, which featured several real-world product demos by SAP employees, Alam and Mueller touted the value of SAP’s best-of-breed solutions with an outlook of what the next 50 years of innovation by SAP may look like.</p>
+  <p>Who better to inspire the keynote than Hasso Plattner, co-founder and recently retired chairman of the SAP Supervisory Board, who both Alam and Mueller invoked during the session. To spell out SAP’s legacy and vision for the future, Mueller quoted <a href="/2024/05/hasso-plattner-olaf-scholz-farewell-tributes">Plattner’s farewell message</a>: “Keep innovating, keep pushing boundaries, and keep making a difference in the lives of our customers and the world at large.”</p>
+  <h2 id="keep-innovating">Keep Innovating</h2>
+  <p>To kick off his first SAP Sapphire appearance as the head of SAP Product Engineering, Alam began by describing the importance of harnessing innovation to deliver an end-to-end picture across all business functions and unlock true value.</p>
+  <p>Simply put, businesses exist to build and deliver products and services to customers, he explained. But the materials, assets, people, and processes that come together to achieve this task is far from simple. “The reality is that each part of the business is deeply and intricately connected to all the others,” Alam said, meaning a pain point in one area impacts the rest. That’s why SAP’s modular cloud ERP approach is so successful: “We allow our customers to drive true digital transformation as opposed to running systems integration projects disguised as digital transformation,” he added.</p>
+  <p>Alam presented <a href="https://www.sap.com/products/erp/grow.html">GROW with SAP</a> as an example of this composability and extensibility, as it can work for and scale to many sizes and types of business. And now, SAP Sales Cloud and Concur Expense are natively integrated into GROW with SAP, making the offering even more comprehensive. Sinit Foto, product manager for UX, Cloud ERP at SAP, joined Alam on stage to show how GROW with SAP and SAP Business AI can help achieve integrated processes, demoing use cases such as communicating with customers about sales quotes, creating expense reports, and supporting financial analyses. In fact, Alam announced that SAP is implementing the demoed application internally to manage sales worldwide. And Mueller emphasized: “We are committed to helping you in this transformative AI moment by creating business outcomes that were unthinkable before. That’s why we’re embedding SAP Business AI deeply in our processes and analytics.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <picture>
+          <source type="image/webp" srcset="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+          <source type="image/webp" srcset="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+          <source type="image/jpeg" srcset="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+          <img loading="lazy" alt="" src="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="683">
+        </picture>
+      </div>
+    </div>
+  </div>
+  <h2 id="keep-pushing">Keep Pushing</h2>
+  <p>AI was woven throughout the entire keynote, with both Alam and Mueller discussing <a href="https://www.sap.com/products/artificial-intelligence.html">SAP’s strategy and product enhancements in this space</a>. AI must be high value, easy to adopt into the flow of work, and trustworthy for it to truly transform how we do business, Alam said. “Equally important is whether it’s done in a way where it keeps your data secure and private – and is executed in a responsible manner,” he added. “And that is really the core promise of SAP Business AI.”</p>
+  <p>There’s no doubt that AI is a powerful technology, which is why it’s essential that businesses view it as a “responsibility” not just an “opportunity,” Alam said. Megan Fife, executive solution advisor for SAP SuccessFactors, showed how SAP executes on its responsible, reliable, and relevant business AI by demoing how SAP’s AI copilot Joule in SAP SuccessFactors HCM can help fill skills gaps and collaborate across teams, among other meaningful tasks. Key to this endeavor is <a href="/2024/06/joule-microsoft-copilot-unified-work-experience">SAP’s expanded partnership with Microsoft announced earlier in the day</a>, which Scott Guthrie, executive vice president of Cloud and AI at Microsoft, discussed with Alam on stage.</p>
+  <p>Mueller echoed the importance of responsible AI, saying that the technology depends highly on data that is reliable and that allows customers to look at their business end-to-end. Here, SAP Datasphere and SAP Spend Control Tower – which was demoed by Orla Cullen, product marketing manager for Data and Analytics at SAP – can help simplify data management and view and manage spend and sustainability data holistically.</p>
+  <p>This transformation is supported by <a href="https://www.sap.com/products/technology-platform.html">SAP Business Technology Platform (SAP BTP)</a>, and Mueller demonstrated the newest generative AI features in SAP Analytics Cloud, SAP Integration Suite, and SAP Build solutions. He showed how Joule can help create and summarize financial reports for controlling teams; generate integration flows between SAP and non-SAP applications; and create custom skills and content based on specific business needs. Greater insights, faster reaction times, and increased productivity are the result. Soon, Mueller added, it will even be possible to enhance and extend Joule’s knowledge by creating custom skills using SAP Build and having the copilot interact with data housed in SAP and non-SAP systems, helping businesses run even more efficiently.</p>
+  <p>SAP BTP is the key to being “innovation-ready,” maintaining a clean core, and tailoring standard offerings to unique needs, Mueller explained. More than 24,000 companies running live on SAP BTP, including Blue Diamond Growers and Lufthansa Technik, can attest to this.</p>
+  <p>“SAP BTP’s extensibility and enterprise automation capabilities can help businesses turn process insights into actual improvements,” Mueller said. Cecilia Huergo, product manager for SAP BTP, showed this in her demo on how identifying improvement opportunities, realizing needed changes while maintaining a clean core, and gaining an up-to-date view of your IT landscape can be enabled with the combined power of SAP Signavio solutions, SAP LeanIX,, SAP BTP, and ABAP Cloud.</p>
+  <h2 id="keep-making-a-difference">Keep Making a Difference</h2>
+  <p>The innovations demoed and discussed in Alam and Mueller’s keynote, in addition to <a href="/2024/06/sap-sapphire-news-business-ai-enterprise-cloud-portfolio-cutting-edge-partnerships">the many others announced at SAP Sapphire in 2024</a>, are just the latest steps forward in SAP’s journey to bringing out the best in its customers. “The future is here, and it’s defined by those who innovate first,” Mueller said. “And we are here to give you the right tools at hand, such that you can be a leader not just today, but also tomorrow.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Why AI Means Being In The Cloud" src="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/EnxihshouTE">Why AI Means Being In The Cloud</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>Gillian Hixson is an integrated communications specialist at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP's New AI Innovations and Partnerships Deliver Real-World Results]]></title>
+            <link>https://www.sap.com/news/2024/06/ai-innovations-partnerships-sap-sapphire</link>
+            <guid>https://www.sap.com/news/2024/06/ai-innovations-partnerships-sap-sapphire</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the AI capabilities and ecosystem innovations presented at SAP Sapphire in 2024, all aimed at delivering real-world results.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/financial-management</category>
+            <category>topic/hcm</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/abap-cloud</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/ai-ethics</category>
+            <category>topic/ai</category>
+            <category>news-tag/aws</category>
+            <category>news-tag/bcg</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>topic/procurement</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Generative AI Innovations Take Center Stage at SAP Sapphire in 2024]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-sapphire-generative-ai-center-stage</link>
+            <guid>https://www.sap.com/news/2024/06/sap-sapphire-generative-ai-center-stage</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A series of generative AI innovations and partnerships announced at SAP Sapphire showcase how SAP is taking business to the next level.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_183c39d6e19efd7774c87954a8bbf7838320ef779.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_183c39d6e19efd7774c87954a8bbf7838320ef779.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_183c39d6e19efd7774c87954a8bbf7838320ef779.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Generative AI Innovations Take Center Stage at SAP Sapphire in 2024" src="./media_183c39d6e19efd7774c87954a8bbf7838320ef779.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="generative-ai-innovations-take-center-stage-at-sap-sapphire-in-2024">Generative AI Innovations Take Center Stage at SAP Sapphire in 2024</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP CEO Christian Klein kicked off SAP Sapphire this week with an upbeat keynote that highlighted the company’s latest business AI innovations, products, and partnerships, which he said will change how people work.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="taking-business-to-the-next-level-in-the-era-of-ai">Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“This year is a very special Sapphire,” Klein said. “We are entering a new phase of AI, with endless possibilities for us all.”</p>
+  <p>Klein and Chief Marketing and Solutions Officer Julia White used the keynote to outline how AI will deliver real business benefits for different corporate functions and “Bring Out Your Best,” this year’s event theme.</p>
+  <h2 id="delivering-on-an-ai-promise">Delivering on an AI Promise</h2>
+  <p>Klein emphasized how SAP has delivered on its promise to infuse generative AI throughout its business portfolio, has enabled customers to exploit the potential of business AI, and has positioned the Joule copilot as the new front end for SAP applications.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11a9e312c5b8efe848ea7622ac6bcc8c38c9e5913.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11a9e312c5b8efe848ea7622ac6bcc8c38c9e5913.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11a9e312c5b8efe848ea7622ac6bcc8c38c9e5913.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Sapphire Opening Keynote: Bring Out the Best in Your Business | 2024" src="./media_11a9e312c5b8efe848ea7622ac6bcc8c38c9e5913.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/gOVQhhm5yO0?si=wkpDopYq0gPK6kWn">SAP Sapphire Opening Keynote: Bring Out the Best in Your Business | 2024</a></p>
+      </div>
+    </div>
+  </div>
+  <p>Together, the two also announced the next evolution and new capabilities in both RISE with SAP and GROW with SAP. Since it was launched over three years ago, more than 6,000 customers have selected RISE with SAP. During his keynote, Klein announced that RISE with SAP will now include a dedicated enterprise architect to guide customers through the RISE with SAP Methodology as well as an integrated tool chain to help manage the process, system, and data landscape holistically across the RISE with SAP life cycle.</p>
+  <p>Meanwhile White, broadcasting live from the central showcase on the SAP Sapphire show floor, announced that cloud ERP offering GROW with SAP will now include SAP Sales Cloud and Concur Expense at no additional charge. Whether its managing your finances or managing your expenses, GROW with SAP has you covered, she said.</p>
+  <h2 id="ai-momentum">AI Momentum</h2>
+  <p>Building on SAP’s business AI momentum, Klein and White also announced a series of expanded partnerships to help companies make the most out of this decisive AI moment. The expanded partnerships include deals with Amazon Web Services (AWS) and Google Cloud. Klein also announced the integration of Microsoft 365 Copilot with Joule, delivering what he described as a “truly differentiated employee experience.”</p>
+  <p>Together onstage with customers and SAP Chief AI Officer Philipp Herzig, they showcased how SAP is infusing generative AI throughout the application portfolio and enabling customers to thrive in the AI era.</p>
+  <p>“The business AI innovations we’re announcing will not only change how people work with SAP solutions, but how people work overall,” said Klein ahead of his keynote address.</p>
+  <h2 id="new-joule-capabilities">New Joule Capabilities</h2>
+  <p>Klein announced Joule for consulting capabilities and Joule for ABAP developer capabilities, which will help SAP’s 6-million-strong consultant and developer community to accelerate projects by 30% and implement SAP solutions faster than ever before.</p>
+  <p>During his keynote he described business AI as being “an inflection point” and added, “Today’s AI announcements and partnerships build on our commitment to deliver revolutionary technology that drives real-world results, helping customers unleash the agility and ingenuity they need to succeed in today’s fast-moving business landscape.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16cdfc9fd1fdbbf5cdc9cd5193401b9dfcafd1805.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16cdfc9fd1fdbbf5cdc9cd5193401b9dfcafd1805.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16cdfc9fd1fdbbf5cdc9cd5193401b9dfcafd1805.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Why Joule Will Change the Way You Work" src="./media_16cdfc9fd1fdbbf5cdc9cd5193401b9dfcafd1805.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/a9j2Q6VVCfM?si=9cdzuqQ27TZ_J3uj">Why Joule Will Change the Way You Work</a></p>
+      </div>
+    </div>
+  </div>
+  <p>“SAP is the only tech company who can infuse AI capabilities right into your business processes and workflows,” he said, saluting the achievements of the 40,000 SAP employees in the Product Development organization.</p>
+  <h2 id="shout-out-to-sap-developers">Shout Out to SAP Developers</h2>
+  <p>“No other tech company can offer a more powerful platform to transform enterprises to rewrite how business is run.” SAP developers have transformed SAP’s portfolio “from an ERP system that enabled transactions in real time, to a system with modular applications and embedded AI so that you can run intelligent, connected, and sustainable enterprises.”</p>
+  <p>“We promised this to you, and we delivered,” Klein told audiences online and the 14,000 customers and partners attending SAP Sapphire in person this week in Orlando. “Now we are using the power of generative AI across our stack to once again revolutionize how businesses run and end users will work in the future.”</p>
+  <p>After announcing generative AI copilot Joule in September 2023, Klein confirmed that it will become the new front-end and UX for SAP applications and “will turn your words into action.” Joule is ready for prime time, he declared, “and going forward, it will be embedded out of the box for all our cloud customers.”</p>
+  <h2 id="joule-key-to-higher-productivity">Joule: Key to Higher Productivity</h2>
+  <p>He predicted that Joule will also become the biggest productivity engine for every SAP end user, and that by the end of the year, 80% of the most used tasks will be managed via Joule and the 300 million end users of SAP products will be 20% more productive.</p>
+  <p>While AI is a powerful technology facilitating huge opportunities for business and employees, the SAP CEO emphasized that it is also crucial to offer responsible AI. To that end, he announced that SAP is among the first tech companies to adhere to UNESCO’s AI principles.</p>
+  <p>Klein wrapped up the keynote by emphasizing that SAP does not view AI as an end in itself, but rather as a tool to help the world run better and improve people’s lives. “You have my commitment that we will continue to listen to your needs, we will continue to deliver great innovations and we will continue to deliver great outcomes for your company.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/corporate</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Putting Sustainability at the Heart of ERP]]></title>
+            <link>https://www.sap.com/news/2024/06/sustainability-erp-sap-business-ai-sap-sapphire</link>
+            <guid>https://www.sap.com/news/2024/06/sustainability-erp-sap-business-ai-sap-sapphire</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP’s ERP-centric, cloud-based, AI-enabled approach is redefining how companies manage sustainability. Learn how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19f549b1c60b71d253752564f5659b7cd5b69ae91.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19f549b1c60b71d253752564f5659b7cd5b69ae91.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19f549b1c60b71d253752564f5659b7cd5b69ae91.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Putting Sustainability at the Heart of ERP" src="./media_19f549b1c60b71d253752564f5659b7cd5b69ae91.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="putting-sustainability-at-the-heart-of-erp">Putting Sustainability at the Heart of ERP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Sustainability has evolved from a boardroom buzzword to a critical driver of business success and strategic differentiation. To thrive, companies are going to need to understand how to operate in a modern, low-carbon, circular economy. SAP solutions will support them by embedding sustainability into every aspect of their operations.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>At our customer flagship event, <a href="/topics/sap-sapphire">SAP Sapphire</a>, we’re discussing how we support customers with their biggest challenges, looking at future trends, and unveiling the latest product innovations.</p>
+  <p>This makes the event the perfect opportunity to highlight how we are redefining the way companies manage sustainability through our ERP-centric, cloud-based, AI-enabled approach.</p>
+  <h2 id="erp-centric">ERP-Centric</h2>
+  <p>For true business model transformation, sustainability needs to be at the core of how companies operate. At SAP, we integrate sustainability data into cloud ERP business processes, which helps companies connect financial and non-financial information and thus treat carbon like money. This makes all decisions financially <em>and</em> environmentally sound while enabling customers to record real impacts and report audit-ready environmental, social, and governance (ESG) metrics seamlessly.</p>
+  <h2 id="cloud-based">Cloud-Based</h2>
+  <p>Instant access to fast-evolving innovations is only possible through the cloud. Our modern cloud-based solutions ensure that businesses can quickly adopt new functionality and stay ahead in a rapidly changing environment.</p>
+  <h2 id="ai-enabled">AI-Enabled</h2>
+  <p>Business AI is revolutionizing the way we approach sustainability. At SAP, AI takes complex sustainability tasks reliant on sustainability data and ERP data and makes them automated and auditable. It enables companies to improve operational efficiency, foster greater transparency around supply chain emissions, design and plan more effectively, and automate time-consuming tasks. SAP Business AI is built on the data and processes that run the business world, including sustainability related information from both inside and outside the company’s walls, making our solutions smarter, faster, and more effective.</p>
+  <p>With SAP Business AI, we support our customers’ efforts to optimize for sustainable impact. This year at SAP Sapphire, we are thrilled to announce two new AI-driven sustainability use cases:</p>
+  <ul>
+    <li><strong>Emission Factor Mapping with AI:</strong> Available in SAP Sustainability Footprint Management, this feature enhances the accuracy and speed of carbon footprint calculations through automated, intelligent suggestions. By reducing the manual effort involved in mapping emission factors, businesses can achieve more precise measurements and make informed decisions faster.</li>
+    <li><strong>ESG Report Generation with AI:</strong> This capability allows for the automatic generation of ESG reports based on the data within SAP Sustainability Control Tower. This not only streamlines the reporting process but also helps ensure that the data is reliable and actionable, providing a clear picture of a company’s sustainability performance.</li>
+  </ul>
+  <p>Our comprehensive approach to carbon management is becoming a reality as we introduce new sustainability tracking, monitoring, and reporting features within the SAP cloud ERP portfolio as well as a new solution that will help customers manage sustainability commitments and comply with global regulations.</p>
+  <ul>
+    <li><strong>Advanced Carbon Calculator Engine:</strong> This powerful tool featured in SAP Sustainability Control Tower and SAP Sustainability Footprint Management integrates ERP data from SAP S/4HANA Cloud and other sources and embeds results back into business processes for informed decision-making. As such, it allows customers to meet Greenhouse Gas Protocol reporting standards, offering advanced, granular calculations of both product and corporate carbon footprints.</li>
+    <li><strong>SAP Green Ledger</strong> will be released at the end of 2024. The solution will help customers connect their emissions data and financial data, allowing customers to easily understand the correlation between emissions and finances, model sustainable business scenarios, and then act with decisions that are both financially and environmentally sound.</li>
+  </ul>
+  <p>At SAP, we believe that the future of business is inextricably linked to sustainability. This is why sustainability is a key pillar of our growth strategy. Businesses must recognize that sustainable practices are not just ethical choices, but strategic financial decisions that drive innovation, reduce costs, and mitigate risks.</p>
+  <p>Moreover, sustainable transformation opens up significant economic opportunities. By transforming their operations around sustainability, businesses can create a modern, low-carbon, circular economy that benefits both the environment and their bottom line, enhancing overall resilience.</p>
+  <p>This transformation aligns business success with global sustainability goals, paving the way for a more sustainable, valuable, and prosperous future.</p>
+  <div class="footnote">
+    <div>
+      <div>Sophia Mendelsohn is chief sustainability and commercial officer at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/erp</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-footprint-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Joule to Integrate with Microsoft Copilot for a Unified Work Experience]]></title>
+            <link>https://www.sap.com/news/2024/06/joule-microsoft-copilot-unified-work-experience</link>
+            <guid>https://www.sap.com/news/2024/06/joule-microsoft-copilot-unified-work-experience</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is bringing its generative AI copilot Joule together with Microsoft Copilot for Microsoft 365 for deep bi-directional integration.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>news-tag/microsoft</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Expands Business AI Portfolio with Meta Open-Source Models]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-business-ai-meta-open-source-models</link>
+            <guid>https://www.sap.com/news/2024/06/sap-business-ai-meta-open-source-models</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is integrating Meta Llama 2 and Meta Llama 3 models into generative AI hub to enable customers to create dashboards based on rich content.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP’s Partnership with Mistral AI, One of the Leading LLM Makers]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-mistral-ai-leading-llm-maker-partnership</link>
+            <guid>https://www.sap.com/news/2024/06/sap-mistral-ai-leading-llm-maker-partnership</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The collaboration between SAP and Mistral AI is a symbiotic combination of AI expertise and technology. Learn about the partnership.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Accenture Collaborate on Getting to Value Faster with SAP Business AI]]></title>
+            <link>https://www.sap.com/news/2024/06/accenture-sap-sapphire-business-ai</link>
+            <guid>https://www.sap.com/news/2024/06/accenture-sap-sapphire-business-ai</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Accenture are working together to help their customers make SAP Business AI and data their No. 1 competitive advantage.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accenture</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Infuses Business AI Throughout Its Enterprise Cloud Portfolio and Partners with Cutting-Edge AI Leaders to Bring Out Customers’ Best]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-sapphire-news-business-ai-enterprise-cloud-portfolio-cutting-edge-partnerships</link>
+            <guid>https://www.sap.com/news/2024/06/sap-sapphire-news-business-ai-enterprise-cloud-portfolio-cutting-edge-partnerships</guid>
+            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP Business AI innovations and collaborations with partners are igniting ingenuity. Read the news from SAP Sapphire Orlando in 2024.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18ff27978e1178b1dce994986e74f4cc1f6087f26.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18ff27978e1178b1dce994986e74f4cc1f6087f26.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18ff27978e1178b1dce994986e74f4cc1f6087f26.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Infuses Business AI Throughout Its Enterprise Cloud Portfolio and Partners with Cutting-Edge AI Leaders to Bring Out Customers’ Best" src="./media_18ff27978e1178b1dce994986e74f4cc1f6087f26.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-infuses-business-ai-throughout-its-enterprise-cloud-portfolio-and-partners-with-cutting-edge-ai-leaders-to-bring-out-customers-best">SAP Infuses Business AI Throughout Its Enterprise Cloud Portfolio and Partners with Cutting-Edge AI Leaders to Bring Out Customers’ Best</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP Business AI Innovations and Collaborations with Partners including Google Cloud, Meta, Microsoft, Mistral AI and NVIDIA Ignite Ingenuity</div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong><em>ORLANDO</em></strong> — At its annual SAP Sapphire conference, SAP unveiled generative AI innovations and partnerships that showcase how the company is taking business to the next level in the era of AI.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="taking-business-to-the-next-level-in-the-era-of-ai">Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>By infusing Business AI across an enterprise cloud portfolio that powers the world’s most mission-critical processes and partnering with companies pushing the edge of what’s possible with AI, SAP is igniting a new wave of insight and ingenuity in global business.</p>
+  <p>“The Business AI innovations we’re announcing at SAP Sapphire in 2024 will redefine the way businesses run,” says Christian Klein, CEO and member of the Executive Board of SAP SE. “Today’s AI announcements and partnerships build on our commitment to deliver revolutionary technology that drives real-world results, helping customers unleash the agility and ingenuity they need to succeed in today’s fast-moving business landscape.”</p>
+  <h2 id="ai-that-means-business">AI That Means Business</h2>
+  <p>As SAP embeds Business AI across its enterprise solutions, it puts rich insights at users’ fingertips, empowering them to deliver better outcomes and elevate the creative problem-solving humans do best. Examples include AI-generated reports in SAP SuccessFactors solutions that give people managers responsibly sourced insights for compensation-related discussions as well as forecasting capabilities in SAP Sales Cloud solutions that predict combinations of salespeople and products most likely to drive sales. Meanwhile, the SAP Business Technology Platform is adding large language models from Amazon Web Services, Meta and Mistral AI to its generative AI hub. This capability in the SAP AI Core infrastructure makes it easier to build generative AI use cases for SAP applications.</p>
+  <p>SAP’s generative AI copilot Joule, which quickly sorts and contextualizes data from multiple systems to advance automation and improve decision-making, is expanding throughout the company’s solution portfolio. Joule launched in <a href="/2023/09/joule-new-generative-ai-assistant">SAP SuccessFactors solutions last fall</a> and is now embedded into SAP S/4HANA Cloud solutions and others including SAP Build and SAP Integration Suite. Further expansion by year-end will include SAP Ariba and SAP Analytics Cloud solutions. At Sapphire, SAP also announced <a href="/">plans to further broaden Joule’s scope</a> by integrating it with Microsoft Copilot to surface even richer insights. This deep, bi-directional integration gives users a unified experience built right into the flow of work, enabling seamless access to information from interactions with business applications in SAP and Microsoft 365.</p>
+  <p>Reflecting Business AI’s increasing importance, SAP is redoubling its commitment to the principles of relevant, reliable, and responsible AI it pioneered. At Sapphire, SAP is adopting the 10 guiding principles of the UNESCO Recommendation on the Ethics of Artificial Intelligence, which aim to ensure that AI technologies are developed and used in ways that respect human rights, promote fairness and contribute to sustainable development.</p>
+  <h2 id="partnerships-that-scale-innovation">Partnerships That Scale Innovation</h2>
+  <p>SAP is partnering with best-in-class technology leaders to push the limits of what generative AI can do at an enterprise level. In addition to our expanded collaborations with <a href="/2024/05/aws-sap-generative-ai-new-innovation">AWS</a> and Microsoft, partnerships with Google Cloud, Meta, Mistral AI and NVIDIA ensure SAP can harness the power of AI-ready technology to innovate at speed and deliver richer real-world results.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Google Cloud</strong></div>
+    </div>
+  </div>
+  <p>SAP and Google Cloud are expanding their partnership, using Business AI to help enterprises better predict and mitigate supply-chain risks to minimize disruptions and maintain optimal inventory levels. The companies will integrate Joule and the SAP Integrated Business Planning for Supply Chain solution with Google Cloud’s Gemini models AI assistant and Google Cloud Cortex Framework’s data foundation.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Meta</strong></div>
+    </div>
+  </div>
+  <p>SAP will leverage Meta Llama 3 to generate scripts that render highly customized analytics applications in SAP Analytics Cloud. Meta’s next-generation AI model excels at language nuances and contextual understanding, making it an ideal candidate for translating enterprise business requirements into tangible outcomes.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Mistral AI</strong></div>
+    </div>
+  </div>
+  <p>SAP will also add <a href="/">new large language models from Mistral AI</a>, a global company headquartered in Paris specializing in generative AI, to the generative AI hub capability in SAP AI Core.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>NVIDIA</strong></div>
+    </div>
+  </div>
+  <p>SAP and NVIDIA Corporation advance a <a href="https://blogs.nvidia.com/blog/sap-sapphire-ai-omniverse/">cross-product partnership</a> to embed cutting-edge technologies into enterprise-ready business applications:</p>
+  <ul>
+    <li>As SAP trains Joule to serve as an AI assistant for the RISE with SAP solution implementations, NVIDIA’s state-of-the-art AI models sift through SAP consulting assets to provide relevant and precise answers to implementation-related questions;</li>
+    <li>As SAP embeds Joule in the ABAP Cloud model to generate ABAP code for SAP developers, NVIDIA’s accelerated infrastructure will run, scale, and manage SAP’s generative AI model for ABAP code generation;</li>
+    <li>As SAP infuses generative AI into the SAP Intelligent Product Recommendation solution, NVIDIA Omniverse Cloud APIs enable the simulation of complex manufacturing products and configurations as industrial digital twins.</li>
+  </ul>
+  <h2 id="cloud-technology-that-drives-agility-and-sustainability">Cloud Technology That Drives Agility and Sustainability</h2>
+  <p>Business success in the era of AI means being in the cloud. SAP is making the move easier than ever with initiatives that help customers find partners with the expertise needed for complex SAP S/4HANA Cloud transformations. Further cloud innovations at SAP Sapphire include features that help the world’s organizations measure, manage and execute their sustainability strategies. SAP Sustainability Control Tower and SAP Sustainability Footprint Management solutions now track carbon footprints at scale and help businesses meet regulatory standards.</p>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.sap.com/events/sapphire/news-guide.html">Learn more in the 2024 SAP Sapphire News Guide</a>.</div>
+    </div>
+  </div>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>As a global leader in enterprise applications and business AI, SAP (NYSE:SAP) stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. For more information, visit <a href="http://www.sap.com">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong><br>Joellen Perry, +1 (650) 445-6780, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a> PT<br>Marcus Winkler, +49 6227-767497, <a href="mailto:marcus.winkler@sap.com">marcus.winkler@sap.com</a> CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2023 Annual Report on Form 20-F.<br>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.<br>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you receive this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/abap-cloud</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-sales-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-footprint-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Reimagining the Always-On Marketplace Calls for Expanded Partnership]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-preferred-success-sap-commerce-cloud-always-on-marketplace</link>
+            <guid>https://www.sap.com/news/2023/05/sap-preferred-success-sap-commerce-cloud-always-on-marketplace</guid>
+            <pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The expanded edition of SAP Preferred Success for SAP Commerce Cloud allows customers to create an agile, composable commerce system.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-preferred-success</category>
+        </item>
+        <item>
+            <title><![CDATA[Decarbonization Through Emission Transparency: Introducing SAP Sustainability Data Exchange]]></title>
+            <link>https://www.sap.com/news/2023/05/introducing-sap-sustainability-data-exchange</link>
+            <guid>https://www.sap.com/news/2023/05/introducing-sap-sustainability-data-exchange</guid>
+            <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new SAP Sustainability Data Exchange solution is a testament to SAP's commitment to being a champion of a sustainable future.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>product/sap-sustainability-footprint-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP SuccessFactors Helps HR Solve Skills Gap with Generative AI]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-successfactors-helps-hr-solve-skills-gap-with-generative-ai</link>
+            <guid>https://www.sap.com/news/2023/05/sap-successfactors-helps-hr-solve-skills-gap-with-generative-ai</guid>
+            <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Sapphire showcased new SAP SuccessFactors innovations that use generative AI to help HR teams recruit, retain, and upskill. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/employee-engagement</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>news-tag/total-workforce-management</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future of Buying: Personalization, Predictive Recommendations, and Sustainability Awareness]]></title>
+            <link>https://www.sap.com/news/2023/05/buying-360-capability-personalization-predictive-sustainable-recommendations</link>
+            <guid>https://www.sap.com/news/2023/05/buying-360-capability-personalization-predictive-sustainable-recommendations</guid>
+            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The buying 360 capability adds new services that help make purchasing more predictive, personalized, and sustainable. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-ariba-buying</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Customers Trust SAP to Future-Proof Their Business]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-customers-trust-sap</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-customers-trust-sap</guid>
+            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[During Scott Russell’s SAP Sapphire keynote, five renowned brands showcased their SAP investments for business results.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[What Gets Measured, Gets Managed: Record, Report, and Act to Decarbonize Using SAP Sustainability Footprint Management]]></title>
+            <link>https://www.sap.com/news/2023/05/record-report-act-sap-sustainability-footprint-management</link>
+            <guid>https://www.sap.com/news/2023/05/record-report-act-sap-sustainability-footprint-management</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP enables the data visibility and insight needed to decarbonize across value chains with SAP Sustainability Footprint Management.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-accounting</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/decarbonization</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/greenhouse-gas-emissions</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[Bi-Directional Support for SAP S/4HANA Gives Targeted and Timely Information]]></title>
+            <link>https://www.sap.com/news/2023/05/bi-directional-support-gives-targeted-timely-information</link>
+            <guid>https://www.sap.com/news/2023/05/bi-directional-support-gives-targeted-timely-information</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With bi-directional support, SAP is expanding on its Real-Time Support approach to give tailored, proactive support content in real time.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/expert-chat</category>
+            <category>news-tag/real-time-support</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Business Network for Industry Helps Meet Unique Business Needs]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-business-network-for-industry-meet-unique-business-needs</link>
+            <guid>https://www.sap.com/news/2023/05/sap-business-network-for-industry-meet-unique-business-needs</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Every industry faces challenges that a one-size-fits-all approach can't address. That's where SAP Business Network for Industry can help.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Business Network for Industry Helps Meet Unique Business Needs" src="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-business-network-for-industry-helps-meet-unique-business-needs">SAP Business Network for Industry Helps Meet Unique Business Needs</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Companies have been forced to reevaluate the fundamentals of their supply chains over the past several years, often completely overhauling their processes to meet shifting demands. Some of the most significant challenges businesses are facing include skilled labor shortages, shipping and logistics issues, and evolving environmental, social, and governance (ESG) regulations.</div>
+    </div>
+  </div>
+  <p>The reactive, ad-hoc approach that companies have taken to tackle disruption has resulted in mismatched supply chain processes that offer little visibility and don’t keep up with the speed of change. Companies rely on convoluted, manual communication methods between suppliers and buyers. E-mails and calls get lost in the shuffle of vacations and holidays, making critical collaboration untraceable and delayed.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-the-sap-sapphire-news-guide-tackle-the-future-with-confidence">Read the SAP Sapphire News Guide: Tackle the Future with Confidence</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/events/sapphire/news-guide.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="sap-business-network-is-an-industry-ready-digital-network-of-suppliers-and-buyers">SAP Business Network Is an Industry-Ready Digital Network of Suppliers and Buyers</h2>
+  <p>Businesses need a collaborative, many-to-many platform to drive transparent, resilient, and sustainable supply chains. That’s where <a href="/topics/business-network">SAP Business Network</a> comes in: a multi-enterprise collaboration network, built for industry, that helps companies execute their vision and meet growth targets by connecting with trading partners seamlessly.</p>
+  <p>Only SAP Business Network provides collaboration across a broad range of processes, including indirect and direct procurement, supply chain, logistics, asset collaboration, finance, and talent.</p>
+  <p>But each industry faces unique challenges that can’t always be addressed with a one-size-fits-all approach. For this reason, we are introducing SAP Business Network for Industry with an initial focus on the <strong>consumer products</strong>, <strong>life sciences</strong>, <strong>high tech</strong>, and <strong>industrial manufacturing</strong> industries. This includes:</p>
+  <ul>
+    <li>A portfolio of SAP Business Network capabilities that address industry needs</li>
+    <li>A new SAP Business Network Industry Advisory Board to guide our product and road map strategy</li>
+    <li>New SAP Business Network for Supply Chain industry services accelerators for select industries to help customers fast-track their implementation and post go-live success</li>
+  </ul>
+  <p>With SAP’s more than 50 years of industry expertise and industry process excellence embedded in our technology, we know better than anyone how to help customers tackle their specific challenges.</p>
+  <h2 id="capabilities-designed-to-meet-industry-needs">Capabilities Designed to Meet Industry Needs</h2>
+  <p>As we work to help companies tackle challenges with supply chain transparency, resiliency, and sustainability, we’ve engaged directly with customers to improve existing functionalities and develop new capabilities for SAP Business Network.</p>
+  <p>We developed capabilities including contract manufacturing, planning and forecasting, quality collaboration, stock transfers, support for supplier-managed inventory, material traceability, and track and trace. Several of these capabilities were developed alongside customers to answer unique industry challenges in a variety of industries, including consumer products, high tech, industrial manufacturing, and life sciences. While these and other innovations were originally created to address a specific industry need, many of them can be applied cross-industry to help businesses increase visibility, mitigate risks, and operate more efficiently.</p>
+  <p>Working with our customers has helped evolve SAP Business Network into the well-rounded, comprehensive solution it is today. It has been amazing to see the innovations that have come out of these relationships with customers, and their stories and successes have truly inspired me. To build on what we’ve accomplished so far, we’re strengthening the way we collaborate with customers and helping accelerate implementation with new industry-specific use cases.</p>
+  <h2 id="continuing-the-tradition-of-customer-collaboration">Continuing the Tradition of Customer Collaboration</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="press-release-saps-vision-for-future-proofed-business-in-the-age-of-ai-comes-to-life">Press Release: SAP’s Vision for Future-Proofed Business in the Age of AI Comes to Life</h3>
+      </div>
+      <div><strong><a href="/2023/05/sap-sapphire-future-proofed-business-age-of-ai">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>To continue the tradition of working with our customers to enhance and extend our product capabilities, we’re introducing the SAP Business Network Industry Advisory Board. This select group of industry leaders will provide strategic direction for our product and road map, making sure we’re meeting the needs of our customers and helping their businesses grow. I’m eager to see the exciting new ideas and developments that will come out of this collaborative forum of industry experts.</p>
+  <h2 id="expedite-time-to-value-with-industry-services-accelerators-for-sap-business-network-for-supply-chain">Expedite Time to Value with Industry Services Accelerators for SAP Business Network for Supply Chain</h2>
+  <p>For customers beginning their journey with SAP Business Network for Supply Chain in particular, we’re introducing new industry services accelerators from our SAP Business Network Services team to help expedite time to value and achieve success.</p>
+  <p>These industry services accelerators support critical supply chain business processes in the consumer products, high tech, industrial manufacturing, and life sciences industries. With prepackaged industry use cases and capabilities, implementation best practices, and dedicated post go-live support, industry services accelerators are based on SAP’s knowledge and expertise with SAP Business Network for Supply Chain. Industry services accelerators can be delivered in collaboration with partners.</p>
+  <h2 id="stay-tuned-for-more">Stay Tuned for More</h2>
+  <p>Other additions to SAP Business Network include new supplier innovations that will help support supplier adoption, focusing on creating an easier integration process to reduce friction and help grow your business to achieve maximum value.</p>
+  <p>To learn more, visit <a href="https://www.sap.com/products/business-network.html?campaigncode=CRM-YI23-ISM-1982254&#x26;source=blog-glo-blog">SAP Business Network for Industry on sap.com</a>. Here, we’ll keep you up-to-date on all of the exciting innovations happening and share resources to help you tailor your SAP Business Network experience.</p>
+  <p>And, don’t miss learning more about SAP Business Network and how SAP can help solve the unique business challenges of your industry at <a href="https://www.sap.com/events/spend-connect-live.html">SAP Spend Connect Live in Vienna</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Val Blatt is global head for SAP Business Network Customer Success &#x26; Go-to-Market at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sap-sapphire">Read more news and coverage from SAP Sapphire</h3>
+      </div>
+      <div><strong><a href="/topics/sap-sapphire">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/high-tech</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-business-network-for-industry</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future-Proof Organization Is a Process-Centric Organization]]></title>
+            <link>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</link>
+            <guid>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP Signavio process integrations, automations, and methodologies establish SAP as a true visionary in the process transformation field.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+            <category>product/sap-signavio-process-manager</category>
+        </item>
+        <item>
+            <title><![CDATA[Powering Business Transformation with Unprecedented Career Growth for SAP Professionals]]></title>
+            <link>https://www.sap.com/news/2023/05/powering-unprecedented-career-growth-sap-professionals</link>
+            <guid>https://www.sap.com/news/2023/05/powering-unprecedented-career-growth-sap-professionals</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We all are facing a changing work environment. Read to learn how SAP Learning supports the career growth of SAP professionals.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/sap-certification</category>
+            <category>product/sap-learning-hub</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+    </channel>
+</rss>

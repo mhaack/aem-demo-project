@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-warehouse-insights/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 31 May 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Named a Leader in the 2023 Gartner® Magic Quadrant™ for Warehouse Management Systems]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-a-leader-2023-gartner-magic-quadrant-wms</link>
+            <guid>https://www.sap.com/news/2023/05/sap-a-leader-2023-gartner-magic-quadrant-wms</guid>
+            <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is again a Leader in the Gartner Magic Quadrant for WMS, based on ability to execute and for the completeness of vision. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-network-for-logistics</category>
+            <category>product/sap-extended-warehouse-management</category>
+            <category>product/sap-transportation-management</category>
+            <category>product/sap-warehouse-insights</category>
+            <category>product/sap-warehouse-robotics</category>
+        </item>
+    </channel>
+</rss>

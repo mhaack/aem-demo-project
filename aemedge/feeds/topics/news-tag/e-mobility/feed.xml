@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/e-mobility/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 15 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Goes the Distance with EV Fleet Digitalization]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</link>
+            <guid>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Longtime partners SAP and Mercedes-Benz are transforming the sustainable EV experience with digitalized corporate fleet management.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Goes the Distance with EV Fleet Digitalization" src="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-goes-the-distance-with-ev-fleet-digitalization">SAP Goes the Distance with EV Fleet Digitalization</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Electric vehicles (<a href="/topics/electric-vehicles">EVs</a>) are transforming the mobility experience in corporate fleet management. A great example is the partnership between <a href="https://www.mercedes-benz.com/en/">Mercedes-Benz</a> and SAP where the companies are both customers and vendors to each other. Mercedes-Benz is using SAP solutions to digitalize its omnichannel buying experience, and SAP is the first customer using its own technology to manage the company’s vehicle fleet in Germany.</div>
+    </div>
+  </div>
+  <p>As longtime partners, SAP and Mercedes-Benz have a history of shared knowledge for mutual competitive advantage. The fleet management program is grounded in the companies’ similar business philosophies and product road maps.</p>
+  <p>Mercedes-Benz has committed to move the company’s B2B business to 100% digital and plans to sell 25% of all new cars online by 2025. The company selected <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> to help support this mission. It will create a future-proof composable commerce portfolio designed to reliably power the company’s digital strategy, including a standardized offering across different markets. It will also simplify processes and reduce time-to-market.</p>
+  <h2 id="benefits-of-digitalized-fleet-management">Benefits of Digitalized Fleet Management</h2>
+  <p>From the SAP employee’s perspective, ordering a company EV couldn’t be simpler. Instead of time-consuming manual research and back and forth communication with the car dealer, employees can use <a href="https://www.sap.com/products/spend-management/solutions.html">the guided buying capability in SAP Ariba solutions</a> to order the EV they want directly from the Mercedes-Benz online catalog. They can choose the features they want, such as car make and model, color, and equipment packages, within SAP’s pre-set guidelines.</p>
+  <p>“The car configurator automates the EV selection process end-to-end, eliminating manual steps and saving time while providing the employee with a highly personalized experience,” said Steffen Krautwasser, head of SAP’s global car fleet. “Automating the approval process assures data consistency and eliminates the need for manual quality checks.”</p>
+  <p>There’s a tremendous convenience factor in captured EV data as well. In one pilot program for select EVs in SAP’s fleet, the digital twin will automatically track mileage. Drivers will no longer need to manually enter mileage every time they recharge, and SAP can use this data to better manage the fleet.</p>
+  <h2 id="connected-data-drives-sustainable-business">Connected Data Drives Sustainable Business</h2>
+  <p>Once ordered, EVs are tracked as assets in SAP’s financial system. After delivery, <a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">SAP Digital Vehicle Suite</a> creates a digital twin that can capture relevant, secure data across the EV’s lifetime. SAP’s fleet management team can track CO2 emissions based on green energy usage, mileage, and the number of vehicles on the road. Krautwasser envisioned reporting this data to support the company’s global sustainability commitments.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-digital-vehicle-suite-delivers-a-holistic-approach-to-vehicle-sales-and-data-management">SAP Digital Vehicle Suite delivers a holistic approach to vehicle, sales, and data management</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Performance data from the EV digital twin can help corporate fleet managers guide employees in choosing the best vehicle for their driving needs,” said Krautwasser. “Over time, drivers can better understand travel ranges between charges.”</p>
+  <p>Data is expected to help address so-called range anxiety, alerting EV drivers when their vehicle needs a charge and, most important, where to recharge. Mercedes-Benz is investing in charging infrastructure to create an ecosystem that would be integrated with public and private charge point providers in the U.S., China, and Europe.</p>
+  <p>The partnership also reflects a shared commitment to sustainability. Mercedes-Benz has committed to become carbon neutral by 2038, and transition to 100% electric vehicles by 2030 wherever possible. SAP is transitioning the company’s vehicle fleet for employees in Germany to all EVs by 2025 as part of its corporate commitment to be carbon neutral by 2030.</p>
+  <h2 id="omnichannel-is-fastest-path-to-customer-love">Omnichannel Is Fastest Path to Customer Love</h2>
+  <p>The digital experience is extremely important for customers who expect convenience and quality. Organizations in many industries have shifted to an omnichannel strategy that offers people their preferred experience, whether online or in-person, building brand loyalty and repeat business.</p>
+  <p>“We want to provide a seamless journey for employees as they research, select, purchase, and enjoy their vehicle,” said Krautwasser. “The most exciting part of our EV fleet management strategy is how we can use our knowledge to enhance the employee experience. Through data and digital services, we can get closer to our employees and act quickly based on their feedback, making improvements and introducing new offerings that keep us on top of trends and support SAP’s sustainability commitment.”</p>
+  <p>EVs represent a profound business model shift for the entire automotive supply chain as automakers sell direct to customers, provide digital services from vehicle data, and explore new revenue opportunities. It’s clear that Mercedes-Benz and SAP are going the distance for a sustainable and satisfying driving experience.</p>
+  <div class="footnote">
+    <div>
+      <div>Susan Galer is a communications director at SAP. Follow her @smgaler.<br>Top photo courtesy of SAP employee Jude Calvin Parong.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/mercedes</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Automakers Steer Toward Sustainable Supply Chains]]></title>
+            <link>https://www.sap.com/news/2022/08/automakers-steer-toward-sustainable-supply-chains</link>
+            <guid>https://www.sap.com/news/2022/08/automakers-steer-toward-sustainable-supply-chains</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Electric vehicles (EV) are disrupting the auto industry, giving companies like ElectraMeccanica a historic opportunity to reinvent mobility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[EVs Go Mainstream: Plug into the Sustainable Energy of E-Mobility]]></title>
+            <link>https://www.sap.com/news/2021/04/evs-sustainable-energy-e-mobility</link>
+            <guid>https://www.sap.com/news/2021/04/evs-sustainable-energy-e-mobility</guid>
+            <pubDate>Wed, 14 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Despite a push for electric vehicles (EVs), a profitable and sustainable e-mobility business model requires industry overhaul.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="EVs Go Mainstream: Plug into the Sustainable Energy of E-Mobility" src="./media_1ab0a1efd18faa7aa854e3a865ca5a76765e8fdf6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="evs-go-mainstream-plug-into-the-sustainable-energy-of-e-mobility">EVs Go Mainstream: Plug into the Sustainable Energy of E-Mobility</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The push for electric vehicles (EVs) may have shifted into overdrive, but it is going to take a serious overhaul of the entire transportation ecosystem to build a profitable and sustainable e-mobility business model.</div>
+    </div>
+  </div>
+  <p>Having sufficient charging stations is just the tip of the iceberg. The transportation network is facing a major reboot, forcing automobile original equipment manufacturer (OEMs), utilities, corporations, regulators, and retailers to collaborate for innovation as never before.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="augment-your-intelligent-enterprise-with-industry-cloud-solutions">Augment your intelligent enterprise with industry cloud solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/industry-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="networks-power-e-mobility-innovation">Networks Power E-Mobility Innovation</h2>
+  <p>Compared to gas-powered cars, EVs and the services around them are far more interconnected. This demands a new kind of collaboration across the e-mobility value chain from corporate fleets, regulators, and smart cities to service providers and consumers.</p>
+  <p>“The e-mobility network consists of multiple players from different industries and sectors with intertwined supply chains,” said Ulrich Scholl, vice president of E-Mobility at SAP. “To operate with flexibility and cost-efficiency they need to collaborate across stable, cloud-based <a href="https://www.sap.com/industries/industry-cloud.html">industry networks</a> that foster sustainable innovation around standardized processes, including invoicing and billing, as well as overall e-mobility management among partners.”</p>
+  <h2 id="evs-spark-new-business-models">EVs Spark New Business Models</h2>
+  <p>As sustainability mandates and promises grow, one central question is how to make EV battery recharging as easy and convenient as refilling a gas tank. Utilities are drawn to bi-directional charging that simultaneously recharges EVs while adding the battery’s stored energy back into the electrical power grid. This turns drivers into energy producers and cars into mobile power storage. Retailers are starting to monetize their solar panel energy, offering consumers free car charging while they shop, increasing customer loyalty. Meantime, corporate fleet managers are taking action by increasing EV and charging infrastructure investments that support company sustainability commitments.</p>
+  <p>For example, Hanno Klausmeier, managing director of SAP Labs France, received a <a href="https://www.automobile-entreprise.com/CONNECT-fleet-Awards-derniers,9679">Fleet Manager of the Year</a> award for leading the electrification of the company’s fleet of cars for hundreds of employees located across three sites.</p>
+  <p>Converting to EVs has been a seven-year journey at SAP, grounded in the company’s global commitment to sustainability, as well as the initial battery limitations of early EVs. After eliminating gas-fueled vehicles as a choice for employees several years ago, over 90% of the cars in the company’s fleet in SAP Labs France are now EVs. Convenient access to charging stations along with new fleet management operations were critical to the successful roll-out.</p>
+  <p>“We knew that employees would need more stations to charge their cars so we installed super-fast charging stations conveniently located across our facilities,” Klausmeier said. “We revamped fleet management to make sure we could supervise and optimize charging stations for uninterrupted operations. Connecting the e-mobility ecosystem on one transparent platform is the only way for organizations to keep pace with the rapidly-changing industry.”</p>
+  <p>Indeed, SAP Labs France developed new software to remotely manage the status of its charging stations, installing it on-site and at employee’s homes. Now available publicly, the solution helps corporate car fleet operations manage relationships with fleet management service companies, OEMs, and other suppliers that are involved with charging stations. Managers have real-time visibility into e-fleet charging station status and can quickly solve problems remotely for an easier experience.</p>
+  <h2 id="market-fragmentation-gives-way-to-network-convergence">Market Fragmentation Gives Way to Network Convergence</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-electrification-of-mobility-challenges-and-opportunities-for-travel-and-transportation-operators">The Electrification of Mobility: Challenges and Opportunities for Travel and Transportation Operators</h3>
+      </div>
+      <div><strong><a href="/2021/04/e-mobility-travel-transportation-operators">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Entirely new competitors are emerging with EVs, including “roaming” providers, which help consumers locate reliable charging stations and pay for the electricity as validated users. This is likely a temporary stop gap because it is unnecessarily complex and more costly for drivers.</p>
+  <p>“We need to shorten the e-mobility value chain for cost efficiencies to charge point operators and an improved experience for customers,” said Scholl. “There’s no need to have another layer between energy providers and customers. With an open mobility platform, the whole ecosystem has the ability to build relationships for service convenience and affordable innovation, especially incorporating the use of renewable energy that’s produced locally and stored in EVs.”</p>
+  <h2 id="transforming-the-transportation-sector">Transforming the Transportation Sector</h2>
+  <p>Just like the iPhone disrupted the cellphone industry, e-mobility redefines the purpose of a vehicle. Already some manufacturers tout EVs as self-powered RVs. Even bigger are the implications for large-scale innovations, such as vehicles that are able to provide uninterrupted power for tools at remote construction sites.</p>
+  <p>Similarly, transformations could be in store for energy retailers if OEMs bypass them to become energy providers themselves. On the corporate side, shared EVs could be part of an organization’s mobility budget for employees to spend as they see fit.</p>
+  <p>EVs’ star is rising as sustainability nears the top of many consumer, corporate, and government priority lists. Over 80% of automobile manufacturers have committed to <a href="https://www.gartner.com/en/marketing/research/auto-us-2020">electrifying</a> their lineup in the near future, and some plan to go all electric within the decade. Modernizing the transportation industry means rethinking mobility as concept to make sure EVs pay off on the sustainable promise.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me: @smgaler</em><br><em><a href="https://www.forbes.com/sites/sap/2021/03/16/evs-go-mainstream-how-to-plug-into-the-sustainable-energy-power-of-e-mobility/?sh=2fba8aab2c82">This story originally appeared on SAP BrandVoice on Forbes</a></em>.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/discrete-industries</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/industry-cloud</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/renewable-energy</category>
+            <category>news-tag/sap-labs-network</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-supply-chain-control-tower/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 04 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Chemicals Supplier BYK Harmonized Supply Chain Planning Processes]]></title>
+            <link>https://www.sap.com/news/2024/04/byk-harmonized-supply-chain-planning-processes</link>
+            <guid>https://www.sap.com/news/2024/04/byk-harmonized-supply-chain-planning-processes</guid>
+            <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[BYK, a global supplier of specialty chemicals, has implemented a new supply chain demand planning system using SAP solutions. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/chemicals</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-integrated-business-planning-for-supply-chain</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>product/sap-supply-chain-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Capgemini and SAP Accelerate Automotive Sustainability]]></title>
+            <link>https://www.sap.com/news/2022/08/capgemini-and-sap-accelerate-automotive-sustainability</link>
+            <guid>https://www.sap.com/news/2022/08/capgemini-and-sap-accelerate-automotive-sustainability</guid>
+            <pubDate>Mon, 22 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the automotive industry, sustainability must be at the foundation of every decision. Learn more about SAP and Capgemini's initiative.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/capgemini</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-supply-chain-control-tower</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Together Toward a Circular Economy]]></title>
+            <link>https://www.sap.com/blogs/2022/06/circular-economy-sap-customers-reduce-food-waste</link>
+            <guid>https://www.sap.com/blogs/2022/06/circular-economy-sap-customers-reduce-food-waste</guid>
+            <pubDate>Wed, 29 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Collective action to address food waste and global hunger must take many forms. Read how a number of SAP customers are leading the way.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>product/sap-integrated-business-planning-for-supply-chain</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-supply-chain-control-tower</category>
+        </item>
+    </channel>
+</rss>

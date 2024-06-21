@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/industry/consumer-goods-cpg/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 12 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How SAP’s Retail Partners Became Innovation Multipliers in 2023 and Created the Ultimate Consumer Experience]]></title>
+            <link>https://www.sap.com/news/2024/01/sap-retail-partners-became-innovation-multipliers-in-2023</link>
+            <guid>https://www.sap.com/news/2024/01/sap-retail-partners-became-innovation-multipliers-in-2023</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read to learn about the retail partners that served as innovation and growth multipliers for SAP customers in 2023.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/nrf</category>
+            <category>news-tag/partners</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Why Price Promotions Are Relevant During Times of Rising Costs and High Inflation]]></title>
+            <link>https://www.sap.com/news/2023/12/why-price-promotions-are-relevant</link>
+            <guid>https://www.sap.com/news/2023/12/why-price-promotions-are-relevant</guid>
+            <pubDate>Mon, 04 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Price promotions management helps grocery retailers and consumer product companies quickly adapt to rising costs and inflation. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a8dd9ea2036fe84d6e4484f051ebd1dd6f9b770c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a8dd9ea2036fe84d6e4484f051ebd1dd6f9b770c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a8dd9ea2036fe84d6e4484f051ebd1dd6f9b770c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Why Price Promotions Are Relevant During Times of Rising Costs and High Inflation" src="./media_1a8dd9ea2036fe84d6e4484f051ebd1dd6f9b770c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="why-price-promotions-are-relevant-during-times-of-rising-costs-and-high-inflation">Why Price Promotions Are Relevant During Times of Rising Costs and High Inflation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Consumer product companies and grocery retailers have leveraged the power of promotions for decades, attracting consumers and building enduring relationships with them. The approach encompasses various marketing strategies that retailers and consumer product companies employ to boost sales volume and overall turnover. A variety of tactics are leveraged, such as product and packaging modifications, advertising initiatives, alterations in product placement, and other point-of-sale (POS) campaigns.</div>
+    </div>
+  </div>
+  <p>But when costs and inflation increase, such promotions become particularly valuable, relieving consumers’ wallets while maintaining competitiveness and fostering lasting customer loyalty. The approach is then narrowed down to short-term price reductions – where regular shelf prices of selected items or entire shopping baskets are significantly marked down for a predefined campaign period complemented by extensive advertising.</p>
+  <h2 id="understand-the-true-purpose-and-impact">Understand the True Purpose and Impact</h2>
+  <p>Thanks to product designers and managers in the <a href="/topics/consumer-products">consumer products industry</a> and those responsible for grocery retail marketing, many different promotion types have emerged in recent years. Even though there is a high number of variants and different mixed forms, promotions can be broadly categorized into three main types:</p>
+  <ul>
+    <li><strong>Filling up (household) stock</strong> encourages higher-than-normal purchase quantities for each shopping trip by offering multipacks, product bundles, larger packaging sizes, and refills.</li>
+    <li><strong>First-time purchases</strong> compel consumers to try new or alternative products with trial sizes that feature smaller quantities than the standard product.</li>
+    <li><strong>Traditional price-off offers</strong> promote a standard size product at a discounted price for a specific period with the support of a marketing campaign. They can be combined with other promotion types, including product bundles and multipacks.</li>
+  </ul>
+  <h2 id="close-interactions-and-dependencies">Close Interactions and Dependencies</h2>
+  <p>If you look at the range of products advertised through promotions, it’s clear that branded products dominate leaflets, online offers, and flyers distributed by large grocery retail chains. In fact, the proportion of promotions with branded products often reaches 90% or more in many established markets.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="orchestrate-your-omnichannel-shopping-experience-with-sap">Orchestrate your omnichannel shopping experience with SAP</h3>
+        <p><em><a href="https://www.sap.com/products/crm/customer-activity-repository.html">Find out how</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Considering these factors, consumer goods companies and grocery retailers must cooperate up to a certain level. Grocery retailers benefit from established brands because they can help ensure a broad group of consumers will notice the advertising and perceive promotional items as attractive. Consumer products companies, in turn, need grocery retailers to place new products at the point of sale and secure a competitive position for their core brands.</p>
+  <p>Although both consumer goods companies and grocery retailers are interested in the success of jointly planned promotions, their actual objectives differ significantly. While retail companies are primarily running promotional campaigns to increase visit or purchase frequency and optimize cross-selling initiatives, consumer goods producers usually view expanding or securing market share as their primary goal.</p>
+  <h2 id="acknowledge-the-importance-of-technology">Acknowledge the Importance of Technology</h2>
+  <p>Given the critical nature of promotions, the right technology can help consumer products companies and grocery retailers realize mutually beneficial and optimized outcomes to increase their share of wallet, margin, and overall revenue. For example, technology can help streamline the promotion process, improve planning and execution, and measure campaign effectiveness.</p>
+  <p>Working with leading consumer products companies and grocery retailers worldwide, SAP developed and continues to update a portfolio of solutions that can address market requirements, business challenges, and ever-evolving needs and expectations.</p>
+  <h2 id="price-promotions-solutions-for-grocery-retail">Price Promotions Solutions for Grocery Retail</h2>
+  <p>Retailers using SAP solutions are well-equipped to be able to address complex challenges in the promotion management process. They can increase inventory turnover and reduce food waste by leveraging real-time, data-driven insights into the evolving market landscape, supporting the promotion process, and driving smooth, error-free interactions.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="increase-revenue-volume-and-profitability-with-end-to-end-processes-for-trade-management">Increase revenue, volume, and profitability with end-to-end processes for trade management</h3>
+        <p><em><a href="https://www.sap.com/products/crm/trade-management.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>With the SAP Promotion Management application, which is part of <a href="https://www.sap.com/products/crm/customer-activity-repository.html">SAP Customer Activity Repository</a>, retailers can plan, manage, and analyze their promotional events. The application helps streamline their promotion processes, access real-time data, and accurately evaluate results. In addition, it can gather data and integrate with the demand data foundation module of SAP Customer Activity Repository to help drive data integrity across multiple applications.</p>
+  <p>Retailers can use enhanced planning capabilities from SAP Customer Activity Repository to help optimize promotion effectiveness and profitability. They can create coupons, define promotional advertising vehicles, specify promotional offers by location and language, and manage promotions by type, tactic, and incentives. Furthermore, they can exchange data across various SAP applications and support what-if simulations to help identify scenarios predicted to yield the best financial performance.</p>
+  <p>Additional capabilities that further complement the promotion process in grocery retail include:</p>
+  <ul>
+    <li><strong>Omnichannel price and promotion service</strong> that can enable retailers to enhance the shopping experience with consistent pricing across all sales channels.</li>
+    <li><strong>Retail promotion analytics</strong> that can provide valuable data-driven insights to help guide future decision-making and promotion optimization strategies.</li>
+  </ul>
+  <h2 id="price-promotions-solutions-for-consumer-products-companies">Price Promotions Solutions for Consumer Products Companies</h2>
+  <p>For consumer products companies, SAP solutions help support promotion management and trade spend, which, in total, comprise the majority of business revenue. They can provide a tailored approach to promotion planning, execution, and control – enabling increased focus on revenue, volume, and profitability for themselves and their retail partners. Modern analytics capabilities are also included, such as statistical forecasting, optimization, post-evaluation, and innovative machine learning tools.</p>
+  <p>Take, for example, the <a href="https://www.sap.com/products/crm/trade-management.html">SAP Trade Management</a> solution. It can facilitate the design of promotional plans, fund management, and claims settlement while offering performance analysis to help gauge the effectiveness of trade promotions.</p>
+  <p>The solution can allow businesses to shift their focus from short-term measures of promotion effectiveness to longer-term, mutually defined targets, including category growth, sustainable volume growth, and margin growth. Additionally, it can empower sales leaders to sense and predict potential risks to revenue, volume, and profitability in real time, align their strategies with retailers’ broader business objectives, and make fact-based decisions for activities best aligned with targets.</p>
+  <h2 id="unlock-the-full-potential-of-every-promotion">Unlock the Full Potential of Every Promotion</h2>
+  <p>In today’s competitive landscape, the ability to decode and master promotions is a strategic imperative. With the right technology and solutions in place, consumer product companies and grocery retailers can unlock the full potential of their promotions, driving revenue, enhancing margins, and securing their place in the market.</p>
+  <div class="footnote">
+    <div>
+      <div>Dirk Dreisbach is chief business enterprise consultant for Business Transformation Services, Consumer Products and Retail Industries at SAP.<br>Dmitry Melnik is a vice president at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow us and stay in touch</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Coles Reimagines Volume Hiring with AI and Automation]]></title>
+            <link>https://www.sap.com/news/2023/12/coles-reimagines-volume-hiring-with-ai-and-automation</link>
+            <guid>https://www.sap.com/news/2023/12/coles-reimagines-volume-hiring-with-ai-and-automation</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Coles uses an AI-powered solution integrated with SAP SuccessFactors to help revolutionize its hiring process and gain speed and efficiency.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Coles Reimagines Volume Hiring with AI and Automation" src="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="coles-reimagines-volume-hiring-with-ai-and-automation">Coles Reimagines Volume Hiring with AI and Automation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.colesgroup.com.au/home/">Coles Group</a>, one of Australia’s most trusted and iconic brands, is steadfast in delivering on its purpose to help Australians eat and live better every day. Through its core business as a full-service supermarket retailer, Coles engages with millions of customers every week in its 860 supermarkets throughout Australia. The group’s other areas of business include its Click &#x26; Collect online platform, network of liquor stores, and financial services with nearly 1,000 additional retail outlets.</div>
+    </div>
+  </div>
+  <p>Guided by the organization’s clear <a href="https://colescareers.com.au/au/en/culture">vision, purpose, and strategy</a>, Coles’ team of 120,000 employees is dedicated to making a difference in the lives of customers and the local communities it serves.</p>
+  <p>In fiscal year 2020/21, Coles Group hired nearly 30,000 people to deliver on its business needs. Mike Virgo, head of Talent Acquisition for Coles Group, said this hiring volume was necessary to make sure the company was “positioned well to support our customers.”</p>
+  <p>The business environment, however, dramatically shifted as the public health crisis of the pandemic unfolded, resulting in repeated lockdowns and restrictions. As a neighborhood retailer dependent on in-person interaction to deliver most of its services, Coles found its workforce impacted by the pandemic. Faced with supply chain disruptions, panic buying behaviors by consumers, high employee absenteeism, and increased turnover, Coles urgently needed to step up its volume and pace of hiring to support its customers.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="create-ai-powered-experiences-that-drive-real-competitive-advantage-with-sap-successfactors">Create AI-powered experiences that drive real competitive advantage with SAP SuccessFactors</h3>
+        <p><em><a href="https://www.sap.com/products/hcm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Around 2020-2021, we started to experience one of the most significant shifts in the employment market we’d ever seen,” Virgo said in a <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1693098679863001ykJ6">session</a> at <a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews">SuccessConnect Virtual</a>. “It started to create huge challenges for organizations around the world – around how we attract, retain, and hire talent.”</p>
+  <h2 id="catalyst-for-change-and-a-new-way-of-working">Catalyst for Change and a New Way of Working</h2>
+  <p>To meet pressing business demands, Coles doubled its hiring volume from 30,000 to 60,000 people and increased recruitment advertising spend by a factor of three. Its talent acquisition team grew proportionally to manage the increased workload – but then labored under manual transactional activities that slowed processing times. As a result of the huge strain, variability in the candidate and hiring manager experience became noticeable.</p>
+  <p>Due to the volume of work, Coles looked for ways to evolve its system to create more speed, efficiency, and scalability. With a list of criteria, Coles began to review technology solutions on the market to find one that could support its vision for a new way of working. “We wanted to reimagine how we recruit for our stores,” Virgo said. “We needed automation and AI to remove a lot of the manual work in our systems. We wanted to create more consistency and uplift the experiences we were giving our candidates and our hiring managers. And ultimately, [the solution] needed to drive commercial benefit for us.”</p>
+  <p>As a key requirement, the new solution needed to integrate with <a href="https://www.sap.com/products/hcm/what-is-hxm-suite.html">SAP SuccessFactors Human Experience Management (HXM) Suite</a>. In 2020, as part of an organization-wide <a href="/australia/2021/09/08/how-coles-group-is-transforming-hr-during-the-global-pandemic">digital transformation</a> that introduced SAP S/4HANA and SAP Ariba solutions, Coles modernized its HR and payroll processing, replacing a patchwork of outdated systems with SAP SuccessFactors solutions. It became the first organization in the southern hemisphere to launch all modules of the SAP SuccessFactors portfolio in one go. With all HR processes unified on a single platform, Coles benefits from having a single source of truth for people data that is accurate and available in real time for the entire organization.</p>
+  <h2 id="two-way-integration-ensures-single-source-of-truth-in-data">Two-Way Integration Ensures Single Source of Truth in Data</h2>
+  <p>To help with the project, Coles chose <a href="https://www.phenom.com/">Phenom</a>, an SAP partner whose AI-powered Intelligent Talent Experience platform provides two-way integration with SAP SuccessFactors solutions. Virgo said the two-way integration “allows us to have a holistic view of the candidates that progress through the process, no matter whether the team is operating in Phenom or SAP SuccessFactors, and it allows SAP SuccessFactors to be our single source of truth.”</p>
+  <p>There are several key benefits of Phenom’s solution at Coles. One is candidate attraction and engagement, which is achieved primarily through the Coles career site and chatbot. Another is recruiter automation and interview management, which provides automation and process efficiencies from when a job requisition is created in SAP SuccessFactors solutions and replicated into Phenom until a hiring manager chooses a candidate for the job. Once a candidate is chosen, the two-way integration enables the HR team to access the data in SAP SuccessFactors solutions and complete all compliance aspects, such as working rights, contract generation, and onboarding.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="learn-how-phenom-can-compliment-sap-successfactors-recruiting">Learn how Phenom can compliment SAP SuccessFactors Recruiting</h3>
+        <p><em><a href="https://store.sap.com/dcp/en/product/display-2001007992_live_v1">Find out</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The Coles team gains additional efficiencies in its onboarding programs through the application of robotic process automation (RPA) powered by two bots that work in the background: <em>Ashbotty</em> processes the working rights and <em>Usain Bot</em> processes onboarding and manages pending recruits. “They take a lot of the transactional, manual work that we used to have team members doing. It can do that quickly, accurately, and it can do that 24/7 – which is particularly important for us as a seven-days-a-week business,” Virgo said.</p>
+  <h2 id="ai-powered-experiences-for-candidates-and-recruiters">AI-Powered Experiences for Candidates and Recruiters</h2>
+  <p>Coles reimagined the candidate experience to launch a modern, tech-enabled career site – which has been chosen as a two-time winner of Australia’s Best Careers Site. The site includes an AI-powered chatbot to guide candidates as they look for information, search relevant job postings, and submit their applications. It also includes Coles’ Expression of Interest, always-on advertising that drives the growth of its talent pool and advances its talent marketing by reducing the need to advertise every role. A Hosted Apply process, facilitated by integrations with Phenom, presents a consistent candidate experience and increases the conversion rate on applications.</p>
+  <p>Phenom AI Scheduling, a key part of Coles’ hiring experience, enables candidates to book themselves an available interview slot and automates the coordination of hiring team calendars. The new solution provides a fully mobile-enabled experience to meet the demands of candidates for an omni-channel, real-time experience where they can learn, read, and apply for jobs where and when they want.</p>
+  <p>Inundated by nearly 1 million applications each year to review, Coles also took steps to elevate the recruiter experience and increase the speed and accuracy of candidate screening and job matching. It implemented Phenom Fit Score, an AI-powered feature that assesses a candidate’s suitability for an open role, based on location and optimal travel distances, availability, and working rights; then, assigns a fit score and surfaces the most closely matched candidates to the recruiters. In addition, the new solution empowers in-store managers to collaborate with recruiters to review candidates and make quick hiring decisions with confidence.</p>
+  <h2 id="talent-pools-grow-with-improvements-to-hiring-speed-and-efficiency">Talent Pools Grow with Improvements to Hiring Speed and Efficiency</h2>
+  <p>With the new augmented solution, Coles is experiencing tangible benefits across multiple categories and key metrics for success: time-to-fill is down six days; time-to-hire is down two days, which is impressive considering candidates can book the in-store interview up to two weeks in advance; and advertising spend is down 50%.</p>
+  <p>Most notably for Coles as a people-centric organization is the development of its talent pool, now numbering 2 million potential candidates. It achieves an 85% application conversion rate on up to 1 million applications per year. Through its <a href="https://www.colesgroup.com.au/media-releases/?page=coles-group-ranked-1-for-recruitment-of-aussies-with-disabilities">commitment</a> to be a safe, inclusive, and diverse workplace, Coles has applied the new solution to provide greater accessibility for more diverse candidates, resulting in an increase of 24% more hiring for people who identify as having a disability.</p>
+  <p>Virgo said that the talent acquisition team will continue to evolve its solution and assess more opportunities for AI and automation to bring value to the recruitment process. Although these technologies are not cure-alls for every recruitment scenario, they can save recruiting teams precious time and resources to focus on more high-touch interactions further down the recruiting funnel. In sharing lessons learned, Virgo noted, “I think the important call out is the level of automation you can inject in your process will likely diminish as the seniority, complexity, and requirements of your roles increase because they are likely to be more high touch, perhaps need more interpretation or judgment calls from your recruiters to identify who the right talent is for your organization.”</p>
+  <p>Watch <a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews">SuccessConnect Virtual</a> on demand.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="follow-sap-news-on-linkedin-to-stay-up-to-date">Follow SAP News on LinkedIn to stay up-to-date</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/automation</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/recruiting</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>sap-event/successconnect</category>
+            <category>news-tag/talent-acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Transformation Helps Companies Keep Promises]]></title>
+            <link>https://www.sap.com/news/2023/11/digital-transformation-helps-keep-promises-blue-diamond</link>
+            <guid>https://www.sap.com/news/2023/11/digital-transformation-helps-keep-promises-blue-diamond</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Innovation Award winner Blue Diamond Growers transformed for brand success, enhanced customer relationships, and supply chain visibility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>news-tag/sap-business-network</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Versuni Gains Agility with HXM and Connected Cloud ERP as Strong Data Foundation]]></title>
+            <link>https://www.sap.com/news/2023/09/versuni-hxm-cloud-erp-strong-data-foundation</link>
+            <guid>https://www.sap.com/news/2023/09/versuni-hxm-cloud-erp-strong-data-foundation</guid>
+            <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Versuni achieved a successful HR transformation in 10 months, deploying SAP SuccessFactors solutions in a greenfield implementation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/erp</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[The Way Forward for Consumer Goods Packaging]]></title>
+            <link>https://www.sap.com/news/2023/06/way-forward-for-consumer-goods-packaging</link>
+            <guid>https://www.sap.com/news/2023/06/way-forward-for-consumer-goods-packaging</guid>
+            <pubDate>Fri, 16 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Business leaders at the Consumer Goods Forum Global Summit in Japan last week discussed a packaging report prepared by Accenture and SAP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>industry/consumer-goods-cpg</category>
+        </item>
+        <item>
+            <title><![CDATA[Tchibo and SAP Brew Up Web3 Innovation]]></title>
+            <link>https://www.sap.com/news/2023/05/tchibo-and-sap-brew-up-web3-innovation</link>
+            <guid>https://www.sap.com/news/2023/05/tchibo-and-sap-brew-up-web3-innovation</guid>
+            <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the NFT Launchpad, SAP and Tchibo show how Web3 can improve the customer experience through NFTs and digital twin technology.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/digital-twin</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Business Network for Industry Helps Meet Unique Business Needs]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-business-network-for-industry-meet-unique-business-needs</link>
+            <guid>https://www.sap.com/news/2023/05/sap-business-network-for-industry-meet-unique-business-needs</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Every industry faces challenges that a one-size-fits-all approach can't address. That's where SAP Business Network for Industry can help.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Business Network for Industry Helps Meet Unique Business Needs" src="./media_1859392f911d9814db661b8bac76fdce9ce2568e6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-business-network-for-industry-helps-meet-unique-business-needs">SAP Business Network for Industry Helps Meet Unique Business Needs</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Companies have been forced to reevaluate the fundamentals of their supply chains over the past several years, often completely overhauling their processes to meet shifting demands. Some of the most significant challenges businesses are facing include skilled labor shortages, shipping and logistics issues, and evolving environmental, social, and governance (ESG) regulations.</div>
+    </div>
+  </div>
+  <p>The reactive, ad-hoc approach that companies have taken to tackle disruption has resulted in mismatched supply chain processes that offer little visibility and don’t keep up with the speed of change. Companies rely on convoluted, manual communication methods between suppliers and buyers. E-mails and calls get lost in the shuffle of vacations and holidays, making critical collaboration untraceable and delayed.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-the-sap-sapphire-news-guide-tackle-the-future-with-confidence">Read the SAP Sapphire News Guide: Tackle the Future with Confidence</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/events/sapphire/news-guide.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="sap-business-network-is-an-industry-ready-digital-network-of-suppliers-and-buyers">SAP Business Network Is an Industry-Ready Digital Network of Suppliers and Buyers</h2>
+  <p>Businesses need a collaborative, many-to-many platform to drive transparent, resilient, and sustainable supply chains. That’s where <a href="/topics/business-network">SAP Business Network</a> comes in: a multi-enterprise collaboration network, built for industry, that helps companies execute their vision and meet growth targets by connecting with trading partners seamlessly.</p>
+  <p>Only SAP Business Network provides collaboration across a broad range of processes, including indirect and direct procurement, supply chain, logistics, asset collaboration, finance, and talent.</p>
+  <p>But each industry faces unique challenges that can’t always be addressed with a one-size-fits-all approach. For this reason, we are introducing SAP Business Network for Industry with an initial focus on the <strong>consumer products</strong>, <strong>life sciences</strong>, <strong>high tech</strong>, and <strong>industrial manufacturing</strong> industries. This includes:</p>
+  <ul>
+    <li>A portfolio of SAP Business Network capabilities that address industry needs</li>
+    <li>A new SAP Business Network Industry Advisory Board to guide our product and road map strategy</li>
+    <li>New SAP Business Network for Supply Chain industry services accelerators for select industries to help customers fast-track their implementation and post go-live success</li>
+  </ul>
+  <p>With SAP’s more than 50 years of industry expertise and industry process excellence embedded in our technology, we know better than anyone how to help customers tackle their specific challenges.</p>
+  <h2 id="capabilities-designed-to-meet-industry-needs">Capabilities Designed to Meet Industry Needs</h2>
+  <p>As we work to help companies tackle challenges with supply chain transparency, resiliency, and sustainability, we’ve engaged directly with customers to improve existing functionalities and develop new capabilities for SAP Business Network.</p>
+  <p>We developed capabilities including contract manufacturing, planning and forecasting, quality collaboration, stock transfers, support for supplier-managed inventory, material traceability, and track and trace. Several of these capabilities were developed alongside customers to answer unique industry challenges in a variety of industries, including consumer products, high tech, industrial manufacturing, and life sciences. While these and other innovations were originally created to address a specific industry need, many of them can be applied cross-industry to help businesses increase visibility, mitigate risks, and operate more efficiently.</p>
+  <p>Working with our customers has helped evolve SAP Business Network into the well-rounded, comprehensive solution it is today. It has been amazing to see the innovations that have come out of these relationships with customers, and their stories and successes have truly inspired me. To build on what we’ve accomplished so far, we’re strengthening the way we collaborate with customers and helping accelerate implementation with new industry-specific use cases.</p>
+  <h2 id="continuing-the-tradition-of-customer-collaboration">Continuing the Tradition of Customer Collaboration</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="press-release-saps-vision-for-future-proofed-business-in-the-age-of-ai-comes-to-life">Press Release: SAP’s Vision for Future-Proofed Business in the Age of AI Comes to Life</h3>
+      </div>
+      <div><strong><a href="/2023/05/sap-sapphire-future-proofed-business-age-of-ai">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>To continue the tradition of working with our customers to enhance and extend our product capabilities, we’re introducing the SAP Business Network Industry Advisory Board. This select group of industry leaders will provide strategic direction for our product and road map, making sure we’re meeting the needs of our customers and helping their businesses grow. I’m eager to see the exciting new ideas and developments that will come out of this collaborative forum of industry experts.</p>
+  <h2 id="expedite-time-to-value-with-industry-services-accelerators-for-sap-business-network-for-supply-chain">Expedite Time to Value with Industry Services Accelerators for SAP Business Network for Supply Chain</h2>
+  <p>For customers beginning their journey with SAP Business Network for Supply Chain in particular, we’re introducing new industry services accelerators from our SAP Business Network Services team to help expedite time to value and achieve success.</p>
+  <p>These industry services accelerators support critical supply chain business processes in the consumer products, high tech, industrial manufacturing, and life sciences industries. With prepackaged industry use cases and capabilities, implementation best practices, and dedicated post go-live support, industry services accelerators are based on SAP’s knowledge and expertise with SAP Business Network for Supply Chain. Industry services accelerators can be delivered in collaboration with partners.</p>
+  <h2 id="stay-tuned-for-more">Stay Tuned for More</h2>
+  <p>Other additions to SAP Business Network include new supplier innovations that will help support supplier adoption, focusing on creating an easier integration process to reduce friction and help grow your business to achieve maximum value.</p>
+  <p>To learn more, visit <a href="https://www.sap.com/products/business-network.html?campaigncode=CRM-YI23-ISM-1982254&#x26;source=blog-glo-blog">SAP Business Network for Industry on sap.com</a>. Here, we’ll keep you up-to-date on all of the exciting innovations happening and share resources to help you tailor your SAP Business Network experience.</p>
+  <p>And, don’t miss learning more about SAP Business Network and how SAP can help solve the unique business challenges of your industry at <a href="https://www.sap.com/events/spend-connect-live.html">SAP Spend Connect Live in Vienna</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Val Blatt is global head for SAP Business Network Customer Success &#x26; Go-to-Market at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sap-sapphire">Read more news and coverage from SAP Sapphire</h3>
+      </div>
+      <div><strong><a href="/topics/sap-sapphire">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/high-tech</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-business-network-for-industry</category>
+        </item>
+        <item>
+            <title><![CDATA[The Direct-to-Consumer Imperative for Today’s Consumer Product and Retail Brands]]></title>
+            <link>https://www.sap.com/news/2023/05/the-d2c-imperative-consumer-product-retail-brands</link>
+            <guid>https://www.sap.com/news/2023/05/the-d2c-imperative-consumer-product-retail-brands</guid>
+            <pubDate>Thu, 04 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[When faced with the D2C imperative, SAP is uniquely positioned to help consumer product and retail brands drive profitable results.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/industry-cloud</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Swedish Food Retailer Axfood Bring the Right Product Mix to Supermarkets]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-and-axfood-bring-right-product-mix-to-supermarkets</link>
+            <guid>https://www.sap.com/news/2023/03/sap-and-axfood-bring-right-product-mix-to-supermarkets</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP teamed up with Swedish food retailer Axfood to design an innovative assortment planning solution. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-assortment-planning</category>
+            <category>news-tag/sap-design</category>
+            <category>news-tag/sap-fiori</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP CX: Delivering Growth with Intelligent Industry-Tailored Solutions]]></title>
+            <link>https://www.sap.com/blogs/2023/03/sap-cx-intelligent-industry-tailored-solutions</link>
+            <guid>https://www.sap.com/blogs/2023/03/sap-cx-intelligent-industry-tailored-solutions</guid>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The aligned SAP CX portfolio takes an industry-first approach to accelerate value to customers with end-to-end, integrated business processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Customer Experience: Delivering Growth with Intelligent Industry-Tailored Solutions" src="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-customer-experience-delivering-growth-with-intelligent-industry-tailored-solutions">SAP Customer Experience: Delivering Growth with Intelligent Industry-Tailored Solutions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP’s unmatched industry expertise has been a cornerstone of our leadership for the past 50 years and will continue as the foundation for success. As we work with business leaders to manage their digital transformation and navigate their pathways to sustainable growth, they trust us to not just understand and deliver industry standards, but industry specifics.</div>
+    </div>
+  </div>
+  <p>Our customers have also been clear with us: they need greater agility in their business processes while also reducing the costs of integrating a patchwork of solutions from multiple vendors. From finance to supply chain to commerce, the user and customer experiences need to be seamless. This requires the underlying applications to service the user and customer journeys in real time.</p>
+  <p>SAP has the rare combination of unmatched industry depth as well as the breadth of business process solutions to meet this moment. While our ERP has always had deep industry capabilities, we have now aligned the <a href="https://www.sap.com/products/crm.html">SAP Customer Experience</a> (CX) portfolio to an industry-first approach to accelerate value to customers by enabling end-to-end, integrated business processes.</p>
+  <p>Some voices across the market are recasting SAP’s commitment to an industry-first strategy to suggest that SAP is no longer committed to key needs of our customers, starting with our CX portfolio. Let us be clear: SAP will continue to deliver customer experience (<a href="/topics/crm-customer-experience">CX/CRM</a>) solutions. Now we’ll focus on adding an industry lens, delivering industry-tailored CX solutions and bringing the front office together with the back office to provide the unmatched value customers expect from SAP solutions.</p>
+  <p>Together with our global ecosystem, we can solve the most relevant challenges of customers in all industries. In fact, today, 80% of industry solutions are ecosystem-led. With this approach, customers will get solutions that natively connect the cloud ERP through to the last mile of a customer’s experiences spanning e-commerce, sales, service, and marketing — all with the industry-specific best practices they rely on from SAP and our ecosystem.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-cx-and-crm-solutions-that-work-for-your-customers">Explore CX and CRM solutions that work for your customers</h3>
+        <p><strong><a href="https://www.sap.com/products/crm/solutions.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Here are just a few examples of where industry-first CX has bridged gaps often seen between business process-led ERP and experience delivery:</p>
+  <ul>
+    <li><strong>Retail:</strong> Maintaining optimal inventory levels in stores and distribution centers is crucial to ensure customers get the products they want. Predictive replenishment uses artificial intelligence (AI) to help retailers automate the restocking process, drawing on the deep retail expertise built into our customer experience product and our cloud ERP. Retailers benefit by reducing their environmental footprint while avoiding both overstock and out-of-stock situations and delivering personalized customer service if things go wrong.</li>
+    <li><strong>Consumer Products:</strong> By automating 80% of the trade claims process and enhancing cash flow by about a month, consumer product companies free up billions of dollars tied up in settlement processes as well as hours of time for key account managers. SAP uniquely sits at the intersection of accounts receivables (finance, ERP) and revenue growth management (sales, service, and marketing), which allows us to provide not only native integrations but also faster time to value and lower TCO in this space than any other vendor.</li>
+    <li><strong>Automotive:</strong> SAP improves production planning and forecasting based on real-time demand; we boost logistics optimization thanks to end-to-end integration from dealership sales and service to group production and logistics processes. Dealers can also optimize sales strategy and marketing spend as well as improving upsell, retention, and overall customer lifetime value thanks to data aggregated from the front and back office into SAP’s customer data platform. This enables dealers to strategically upsell subscription services or entertainment system software updates while updating customers on production progress, delivery, warranty, and service notifications.</li>
+  </ul>
+  <p>SAP CX customers including Pizza Hut, Carhartt, and smart Europe are among those already benefiting from our unique industry depth. We are excited about the additional value we can deliver to our customers with our industry-focused approach to delivering holistic, integrated business process solutions together with our ecosystem. Examples include the retail solutions <a href="https://events.sap.com/noam-nrf/en/videopage.aspx?v=oluBrjrC1Rn9L3WV043aZMFVlhreKw4xK%2FqQRqxWlTTCvgEhZalDo0E7G5%2FOzPee0p9owH7y6I%2FAATgMBsvHh%2B02mKjH8DsP">we showcased at NRF 2023</a>, from customer engagement to inventory fulfillment to sustainable manufacturing. We will demonstrate this same industry value for manufacturing at the Hannover Messe in April.</p>
+  <p>Stay tuned for more exciting updates in the coming months.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Thomas Saueressig is a member of the Executive Board of SAP SE, SAP Product Engineering.</em><br><em>Julia White is chief marketing and solutions officer and a member of the Executive Board of SAP SE.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-customer-data-from-demand-to-delivery-with-sap-software">Connect customer data from demand to delivery with SAP software</h3>
+        <p><strong><a href="https://www.sap.com/products/crm.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>industry/automotive</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[A Case for Carbon Accountability]]></title>
+            <link>https://www.sap.com/blogs/a-case-for-carbon-accountability</link>
+            <guid>https://www.sap.com/blogs/a-case-for-carbon-accountability</guid>
+            <pubDate>Mon, 27 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how a leader’s climate wake-up call led to the formation of a group helping companies demonstrate carbon neutrality]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/environmental-compliance</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Consumer Industries Witness Surge of Innovation, Thanks to SAP’s Industry Cloud Partners]]></title>
+            <link>https://www.sap.com/news/2023/02/consumer-industries-innovation-sap-industry-cloud-partners</link>
+            <guid>https://www.sap.com/news/2023/02/consumer-industries-innovation-sap-industry-cloud-partners</guid>
+            <pubDate>Wed, 22 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Industry cloud solutions from SAP and our partners are changing the way consumer industries customers do business.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/industry-cloud</category>
+            <category>news-tag/partners</category>
+            <category>industry/retail</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Plant-Based Food Company Upfield Maximizes Supply Chain Transparency]]></title>
+            <link>https://www.sap.com/news/2022/11/upfield-maximizes-supply-chain-transparency</link>
+            <guid>https://www.sap.com/news/2022/11/upfield-maximizes-supply-chain-transparency</guid>
+            <pubDate>Wed, 09 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Plant-based food company Upfield was on a mission to have end-to-end integrated planning in its supply chain. Read to find out how SAP helped.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-transportation-management</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: To Fight Inflation, Consumer Products Makers Turn to AI]]></title>
+            <link>https://www.sap.com/news/2022/11/the-take-fighting-inflation-ai-consumer-products-makers</link>
+            <guid>https://www.sap.com/news/2022/11/the-take-fighting-inflation-ai-consumer-products-makers</guid>
+            <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Consumer product producers are fighting inflation by turning to AI and automating more processes. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: To Fight Inflation, Consumer Products Makers Turn to AI" src="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-to-fight-inflation-consumer-products-makers-turn-to-ai">The Take: To Fight Inflation, Consumer Products Makers Turn to AI</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>All eyes Thursday will be on the release October’s U.S. consumer price index (CPI) figure, a benchmark reflecting the rate of inflation. Some food prices, such as orange juice, have already reached record levels and are expected to go even higher as the impact of Hurricane Ida on Florida’s citrus industry is reflected in prices.</p>
+  <p>But inflation has impacted prices across the board — from juice to jeans — prompting consumer products companies to find new ways to please the consumer while growing profits.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="rise-with-sap-for-consumer-products-expand-business-innovation">RISE with SAP for consumer products: Expand business innovation</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/rise/consumer-products.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>For more than two years, consumer products companies have been grappling with supply chain disruptions, labor shortages, sustainability rules, war-related food ingredient shortages and now the newest factor: inflation-induced consumer buying patterns.</p>
+  <p>“These various forces are causing massive amounts of complexity in the business,” said Edward Kenney, SAP senior vice president of Consumer Products, Industry Business Units. “Their costs are increasing at a rate they can’t pass along.”</p>
+  <p>In some cases, producers are shrinking the size of their products while holding prices. In others, they are looking to change their formulas, Kenney said.</p>
+  <p>As consumer products companies are limited in their ability to pass along full cost increases, inflation is fueling their chief anxiety: how to grow profitability.</p>
+  <p>“It used to be very consistent and very easily predicted,” Kenney said. “They attracted new customers in new geographic areas. That kind of expansion has really hit the end of the road. Now, you have to get more of a share of a wallet of a given customer who has gotten infinitely more selective and has infinitely more choices than they’ve ever had.”</p>
+  <p>Digitization is helping some producers deal with changes in all these factors and their impacts on each other, “because this macroeconomic problem impacts supply and demand and everything in between,” Kenney explained. “Those end-to-end processes that consumer companies rely on — things like formulation, production planning, scheduling, distribution and promotion — are elongated processes and are very hard to pivot and change. Complexity is significantly greater than it’s ever been before.”</p>
+  <p>As the complexity grows, consumer product producers are looking to automate more processes, especially when they need to pivot quickly to change a formula, a supplier or any other step in a process.</p>
+  <p>“If you don’t have some level of automation and intelligence to help guide the decision-making, you can end up not only making the wrong decisions,” Kenney said, “you can end up causing disruption through your value chain.”</p>
+  <p>In the past, companies used optimization decisioning tools to balance one or two variables, such as available capacity and operating margin to maximize revenue, Kenney explained. Today, simple optimizations won’t work; the inter-reliance on the growing list of changing variables that producers face is prompting some to use artificial intelligence (AI) to help guide them.</p>
+  <p>“You have to have the ability to balance off multiple variables and come up with the best trade off decision in the moment,” Kenney said. “And because so many variables are happening across many aspects of the business, no one person can do that. Artificial intelligence is a way that a lot of companies express this multivariable optimization.”</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong> Ilaina Jonas, Senior Director of Global <a href="/press-room">Public Relations</a>, SAP<br>+1 (646) 923-2834, <a href="mailto:ilaina.jonas@sap.com">ilaina.jonas@sap.com</a></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>topic/ai</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/inflation</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Realities About Nearshoring and Reshoring Strategies | SAP Insights]]></title>
+            <link>https://www.sap.com/resources/five-realities-about-nearshoring-and-reshoring-strategies</link>
+            <guid>https://www.sap.com/resources/five-realities-about-nearshoring-and-reshoring-strategies</guid>
+            <pubDate>Tue, 01 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Supply chain decisions about reshoring and nearshoring should factor in costs, available resources, and improved data-sharing with partners.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Principles of Resilient Supply Chains for CPG Manufacturing]]></title>
+            <link>https://www.sap.com/news/2022/10/three-principles-resilient-cpg-supply-chains</link>
+            <guid>https://www.sap.com/news/2022/10/three-principles-resilient-cpg-supply-chains</guid>
+            <pubDate>Wed, 05 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Supply chain resilience can lead directly to business resilience, especially for consumer packaged goods (CPG) manufacturers. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/manufacturing-2</category>
+        </item>
+        <item>
+            <title><![CDATA[It’s No Dream, Sustainable Jeans Are Perfect Fit for Modern Retail Consumers]]></title>
+            <link>https://www.sap.com/news/2022/08/sustainable-jeans-perfect-fit-modern-retail-consumers</link>
+            <guid>https://www.sap.com/news/2022/08/sustainable-jeans-perfect-fit-modern-retail-consumers</guid>
+            <pubDate>Wed, 24 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sustainable jeans are just one example of how organizations are exploring ways to profitably embed sustainability into consumer products.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[On the Path to Better Product Recalls | SAP Insights]]></title>
+            <link>https://www.sap.com/resources/on-the-path-to-better-product-recalls</link>
+            <guid>https://www.sap.com/resources/on-the-path-to-better-product-recalls</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Strong leadership, access to data, smart sourcing, and org support can turn the threat of recalls into a supply chain management asset.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[CPG Trends: Great Places to Work Attract Great Customers Too]]></title>
+            <link>https://www.sap.com/news/2022/06/cpg-trends-great-places-to-work-attract-great-customers-too</link>
+            <guid>https://www.sap.com/news/2022/06/cpg-trends-great-places-to-work-attract-great-customers-too</guid>
+            <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Regardless of where employees work at CPG companies, digital technology is central to creating a personalized employee experience. Learn why.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/qualtrics</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Transformation Is “Force Multiplier” for Sustainability]]></title>
+            <link>https://www.sap.com/blogs/digital-transformations-force-multiplier-sustainability</link>
+            <guid>https://www.sap.com/blogs/digital-transformations-force-multiplier-sustainability</guid>
+            <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Neither digital transformation nor sustainability can succeed without the other. Learn how to unite your digital and sustainability efforts.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/environmental-compliance</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/trends-predictions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Discover Cross-Industry Innovation in the Cloud and Become a Sustainable Intelligent Enterprise]]></title>
+            <link>https://www.sap.com/news/2022/03/cross-industry-innovation-in-cloud-sustainable-intelligent-enterprise</link>
+            <guid>https://www.sap.com/news/2022/03/cross-industry-innovation-in-cloud-sustainable-intelligent-enterprise</guid>
+            <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Create a new future for your industry. SAP MaxAttention can help you explore innovations from other industries for a strategic advantage.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Discover Cross-Industry Innovation in the Cloud and Become a Sustainable Intelligent Enterprise" src="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="discover-cross-industry-innovation-in-the-cloud-and-become-a-sustainable-intelligent-enterprise">Discover Cross-Industry Innovation in the Cloud and Become a Sustainable Intelligent Enterprise</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Lines between industries are blurring, and it isn’t enough for your business to be the best in its class. Automotive newcomers are uprooting long-standing industry leaders and embracing concepts from their friends in high tech. Manufacturers are taking notes from consumer products and debuting as-a-service offerings that increase revenue. Oil and gas companies are transforming into full-scale energy providers. The list goes on.</div>
+    </div>
+  </div>
+  <p>SAP solutions and services can help your business start thinking, acting, and innovating like a leader – a leader from another industry, that is. Through <a href="https://www.sap.com/services/premium-engagement/maxattention.html?sort=latest_desc">SAP MaxAttention</a>, you can lean on our expert knowledge and experience of your industry – and many more – as you explore new technologies on the way to a successful digital transformation. Take advantage of industry cloud solutions from SAP, including more than 200 industry-specific applications built by SAP and SAP partners.</p>
+  <p>With SAP’s industry cloud, you can optimize and transform at a much faster pace. SAP MaxAttention can show you how to use these solutions to build innovations – without overhauling entire systems or putting limitations on what you can do with your data. With our help, you can:</p>
+  <ul>
+    <li>Access innovation in modular, consumable packages</li>
+    <li>Plug innovations in quickly without disrupting existing technologies and processes</li>
+    <li>Reach across categories to get ideas, apps, and solutions from other industries</li>
+  </ul>
+  <p>SAP’s industry cloud can provide a foundation for innovation and transformation, connecting you to a community of in-depth SAP expertise, top thinkers, investors, and disruptors. Now, it’s your turn to create a new future with the cloud. When you trust <a href="/topics/sap-maxattention">SAP MaxAttention</a>, you’ll work with us to grow and evolve based on innovative technology trends and next practices – using SAP’s industry cloud – that cross industry lines.</p>
+  <h2 id="assess-the-industry--and-your-it-architecture">Assess the Industry – And Your IT Architecture</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="subscribe-to-the-quarterly-sap-maxattention-newsletter">Subscribe to the quarterly SAP MaxAttention newsletter</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/nl/insights-customer-newsletter.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Trends and best practices are changing all the time, and it can be hard for a busy business to keep up. You may know your competitors use technologies such as the cloud to provide better customer experiences, but you can’t possibly know how their technology infrastructures look and perform. Yet, this knowledge is a prerequisite to creating a successful and competitive technology strategy.</p>
+  <p>More specifically, we can help you uncover the potential that new technology holds for your business and what your IT architecture needs before it can take advantage of automation, artificial intelligence (AI), the Internet of Things (IoT), and other next-generation innovations. These innovations are key to realizing the transformation into a sustainable intelligent enterprise. For instance, leaders across industries are using automation to eliminate manual tasks and digital waste that contribute to their carbon footprint.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="access-the-services-methods-tools-and-expertise-that-you-need-to-succeed-with-sap-maxattention">Access the services, methods, tools, and expertise that you need to succeed with SAP MaxAttention</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/services/premium-engagement/maxattention.html?sort=latest_desc">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="what-about-retail">What about retail?</h3>
+  <p>As the shift from bricks to clicks increases, we can help a retailer understand the imperative for omnichannel customer experiences, such as the ability to offer personalized products and experiences that boost customer retention. Our services can reveal how retail businesses can break down silos that separate valuable customer data insights from the systems that need them.</p>
+  <h2 id="demonstrate-real-value-with-proof-of-concepts">Demonstrate Real Value with Proof of Concepts</h2>
+  <p>Engagements with SAP MaxAttention are designed to help create both quick wins and long-term value. We help develop proof-of-concept (PoC) projects that demonstrate the real benefits of SAP’s industry cloud and how it can transform and optimize your existing business processes and create opportunities for new business models, such as:</p>
+  <ul>
+    <li>Increased supply chain visibility across globally distributed production facilities</li>
+    <li>Transparency into the logistics network (such as fleet, trucks, containers, and so on)</li>
+    <li>Asset risk management and asset care strategies to improve plant reliability and safety</li>
+    <li>Omnichannel solutions to orchestrate multichannel salesforce</li>
+    <li>Personalized products for unique end-customer needs</li>
+    <li>More competitive products made possible by providing origination and provenance data</li>
+    <li>Better workforce planning thanks to better visibility into historical data and the ability to leverage forecasts</li>
+  </ul>
+  <p>Our experts can also help you measure success, setting success criteria for your PoC that you can present to the business and other stakeholders to prove the value of digital transformation.</p>
+  <h3 id="what-about-the-automotive-industry">What about the automotive industry?</h3>
+  <p>Carmakers, suppliers, and dealerships are under intense pressure to transform their businesses and prepare for the future of mobility. SAP solutions can help run traditional automotive businesses profitably and more sustainably while driving new growth with innovative new mobility business models.</p>
+  <h2 id="extend-industry-innovation">Extend Industry Innovation</h2>
+  <p>You can’t stop at achieving what the rest of your industry has already done. To create a competitive advantage, you need to take your innovations a step further. SAP MaxAttention can help bring your business up to speed with trends in your industry and others and then build upon those innovations using your unique business strengths as a strategic advantage.</p>
+  <p>During this step, SAP MaxAttention can help integrate the innovations created with our experts into your technology landscape and connect them with existing applications. For instance, you can connect your industry applications on SAP Business Technology Platform (SAP BTP) with your finance or logistics data in SAP S/4HANA or third-party solutions. SAP’s industry cloud can extend SAP S/4HANA, our line-of-business cloud solutions, and SAP Business Network with industry next practices.</p>
+  <h3 id="what-about-consumer-products">What about consumer products?</h3>
+  <p>Consumer products companies need to act with agility to meet the fast-changing needs of customers. SAP services can quickly demonstrate the value of AI by deploying a chatbot that helps handle simple customer service requests and empowers human agents to tackle higher-value tasks.</p>
+  <h2 id="realize-your-digital-transformation">Realize Your Digital Transformation</h2>
+  <p>After demonstrating the value of your PoC, we can help you build the rollout plan for the full-scale deployment of industry cloud solutions from SAP. SAP MaxAttention can help achieve a smooth activation of your new or enhanced solution for a go-live without business disruption.</p>
+  <h3 id="what-about-manufacturing">What about manufacturing?</h3>
+  <p>Working together, we can reveal how a manufacturer might use Industry 4.0 throughout its factories to gain real-time insight into asset performance. Industry 4.0 opens the door to a new level of predictive maintenance that helps manufacturers avoid disruption and stay as profitable as possible.</p>
+  <h2 id="exceed-expectations-with-sap-maxattention-and-saps-industry-cloud">Exceed Expectations with SAP MaxAttention and SAP’s Industry Cloud</h2>
+  <p>Whether you’re a business in wholesale distribution, automotive, professional services, high tech, consumer products, chemicals, retail, utilities, or any of the industries supported by SAP’s industry cloud, our services are designed for you. We’ve reinvented our services based on industry trends, next practices, and the needs of your business. You can expect our experts to focus holistically on your business – and not on a rigid set of steps or concepts that weren’t created with you in mind.</p>
+  <p>Start creating real results based on the outcomes your business needs. To learn more about SAP MaxAttention, <a href="https://www.sap.com/services/premium-engagement/maxattention.html?sort=latest_desc">visit us online</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Markus Steer is Premium Engagement Services lead for Cloud Success Services at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-cloud</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-maxattention</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Information Sharing Can Ease the Consumer Goods Supply Strain]]></title>
+            <link>https://www.sap.com/news/2022/03/information-sharing-ease-consumer-goods-supply-strain</link>
+            <guid>https://www.sap.com/news/2022/03/information-sharing-ease-consumer-goods-supply-strain</guid>
+            <pubDate>Tue, 15 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Standardized information sharing is a critical first step toward strengthening much-needed resiliency, efficiency, and control. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Information Sharing Can Ease the Consumer Goods Supply Strain" src="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="information-sharing-can-ease-the-consumer-goods-supply-strain">Information Sharing Can Ease the Consumer Goods Supply Strain</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Consumer products companies are dealing with an entirely new set of challenges that are driving up costs and increasing supply chain fragility – making them more susceptible to losing consumers. Could it be that quick-fix digitalization efforts during the <a href="/topics/covid-19">pandemic</a> are exacerbating these challenges?</div>
+    </div>
+  </div>
+  <p>Every business involved in the consumer products value chain – including raw material suppliers, ingredient producers, manufacturers, logistics providers, retailers, and wholesale distributors – has made great strides in digitalizing its internal operations. Yet, a lack of data exchange across the entire network could intensify delays and inefficiencies as resources or products move from one part of the supply chain to the other.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="how-can-enterprise-content-management-drive-differentiation-in-consumer-products-operations">How can enterprise content management drive differentiation in consumer products operations?</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2021/09/a01dc772-f87d-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="moving-supplies-with-better-transparency-and-insight">Moving Supplies with Better Transparency and Insight</h2>
+  <p>According to <a href="https://www.sap.com/documents/2021/09/a01dc772-f87d-0010-bca6-c68f7e60039b.html">IDC</a>, consumer products companies are beginning to get the message: 39% of surveyed industry players expect to increase spending on integrated enterprise content management (ECM) applications in 2021. Moreover, nearly half of them expect this digital investment to be a key contributor to operational performance (43%) and employee productivity (44%) – two factors that can significantly ease today’s consumer goods supply strain.</p>
+  <p>During the pandemic, most consumer products companies adopted point solutions while maintaining a preexisting infrastructure of isolated legacy systems and spreadsheets for critical functions. However, this setup – which, at the time, was a response to changing consumer behaviors and employee needs – is missing the connectedness, intelligence, and transparency necessary to align operational capacity with surging demand.</p>
+  <p>Many businesses now realize that standardized information sharing is a critical first step toward strengthening much-needed resiliency, efficiency, and control. It allows internal and external supply chain participants to exchange consumer expectations insight, communicate actionable next steps, and scale operations as one ecosystem.</p>
+  <p>With cloud-based SAP enterprise content management solutions by OpenText, the entire supply chain can connect all this information so stakeholders can access curated content anytime, anywhere, and across the business. Plus, the inclusion of embedded artificial intelligence (AI) and machine learning enables the technology to automatically capture, organize, and analyze massive amounts of data to support higher productivity.</p>
+  <p>Along with supply chain operations, SAP ECM solutions by OpenText can improve adjacent departments – such as accounts payable, accounts receivable, inventory, and trade promotion management – that directly impact overall customer satisfaction. These back-office functions can use real-time supply chain information, coupled with insights into emerging customer demand and financial constraints, to reduce the pressure of supply challenges. For example, they can shape product allocation to minimize waste and optimize existing production capacity by adjusting consumer segmentation, evolving product portfolios, and innovating business models – all while offering a consistent brand experience.</p>
+  <h2 id="satisfying-consumers-better-despite-shortages">Satisfying Consumers Better Despite Shortages</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="discover-sap-ecm-solutions-by-opentext-to-help-transform-your-business-into-an-intelligent-enterprise">Discover SAP ECM solutions by OpenText to help transform your business into an intelligent enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/oth/enterprise-content-management/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>While conditions on the supply side may not ease until ports add capacity and companies can keep up with growing demand, it’s never too soon to unify the business network with smooth information sharing and workflows. Otherwise, brands risk ignoring revenue growth opportunities while wrestling with supply chain disruptions.</p>
+  <p>SAP ECM solutions by OpenText can help relieve consumer products companies from making that trade-off. Now, their employees and stakeholders can make highly informed, data-driven decisions that help satisfy consumer demand – even as the stakes increase during peak buying seasons.</p>
+  <p>Find out how personalized communications and a complete understanding of your sellers and consumers can lead to unique and differentiating brand value. Read the info sheet, “<a href="https://www.sap.com/documents/2021/11/c2adb0fe-027e-0010-bca6-c68f7e60039b.html">Drive Differentiation with Intelligent Enterprise Content Management</a>.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/digitalization</category>
+            <category>news-tag/opentext</category>
+        </item>
+        <item>
+            <title><![CDATA[A Circular Path to Sustainability for Manufacturers]]></title>
+            <link>https://www.sap.com/resources/circular-path-to-sustainability-for-manufacturers</link>
+            <guid>https://www.sap.com/resources/circular-path-to-sustainability-for-manufacturers</guid>
+            <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Manufacturers are building business models that embrace circular economy principles. Learn more about how it's good for business and the planet.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/scm</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/what-is</category>
+            <category>content-type/business-case</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Consumer Products Trends 2022: Can Your Brand Deliver Instant Happiness and Comfort?]]></title>
+            <link>https://www.sap.com/news/2022/02/consumer-products-cpg-trends-2022</link>
+            <guid>https://www.sap.com/news/2022/02/consumer-products-cpg-trends-2022</guid>
+            <pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Leading CPG brands package up superior customer experiences using tech innovation and sustainable business strategies to transform industries.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d70b1fb78d02205a4c7b6a0a2b435d4d5e086f4f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d70b1fb78d02205a4c7b6a0a2b435d4d5e086f4f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d70b1fb78d02205a4c7b6a0a2b435d4d5e086f4f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Consumer Products Trends 2022: Can Your Brand Deliver Instant Happiness and Comfort?" src="./media_1d70b1fb78d02205a4c7b6a0a2b435d4d5e086f4f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="consumer-products-trends-2022-can-your-brand-deliver-instant-happiness-and-comfort">Consumer Products Trends 2022: Can Your Brand Deliver Instant Happiness and Comfort?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Underneath all the visionary aspirations for digital transformation, consumer packaged goods (<a href="/topics/cpg">CPG</a>) brands are grappling with a triumvirate challenge: how to balance bottom- and top-line business demands with sustainable practices that will take them into the future.</div>
+    </div>
+  </div>
+  <p>“CPG companies are moving systems to the cloud to gain business agility by connecting data to actions company-wide,” said Stuart Wilkinson, industry director of CPG and Life Sciences at SAP. “They want best practices to standardize business processes because that’s how they’ll achieve operational excellence, increasing efficiencies that lower costs. With centralized data visibility, they can measure, monitor, and reduce the environmental impact of their product supply chain from sourcing through distribution and after.”</p>
+  <p>Here’s a quick roundup of some of the latest industry analyst predictions for the consumer products industry.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="with-sap-solutions-deliver-personalization-with-a-purpose">With SAP solutions, deliver personalization with a purpose</h3>
+      </div>
+      <div><strong><a href="http://www.sap.com/industries/consumer-goods-cpg.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="intelligent-data-sharing-and-protection">Intelligent Data Sharing and Protection</h2>
+  <p>Personalization may be the watchword for CPG companies aiming to delight their customers, but it’s fraught with land mines. For example, <a href="https://www.idc.com/getdoc.jsp?containerId=US48297321">IDC</a> analysts predicted 35% of brands will openly incentivize consumers to share personal data in exchange for cash rewards, services, and exclusive experiences by 2024. Yet <a href="https://www.gartner.com/en/articles/you-ll-be-breaking-up-with-bad-customers-and-9-other-predictions-for-2022-and-beyond">Gartner</a> analysts predicted that 40% of consumers in the same time frame will trick behavior tracking metrics to intentionally devalue the personal data collected about them, making it difficult to monetize. It’s not surprising that <a href="https://www.idc.com/getdoc.jsp?containerId=US48300021">IDC</a> analysts expected companies to extend their data privacy initiatives to surpass compliance requirements, with 60% of enterprises establishing KPIs regarding the ethical use of data by 2023.</p>
+  <p>These challenges are important for consumer brands companies regardless of where they are on the value chain. <a href="https://cache.webcasts.com/content/citr003/1494846/content/fc92275950c5a6a53c52ee6105409576a5a0a524/pdf/secured/IDC_Future_of_Digital_Innovation_Futurescape_2022_Draft2.pdf">IDC</a> researchers forecast that as early as next year, traditional distribution models will crumble as 20% of businesses in some sectors use technology to go direct to customers, seeking to improve customer satisfaction and product development.</p>
+  <p>“Consumer brand awareness and selling is nontraditional territory for CPG companies,” said Wilkinson. “Organizations are scrambling to attract employees with B2C skills in the middle of a worker shortage, making cultural shifts along with new technologies to capture these new opportunities.”</p>
+  <p>In fact, <a href="https://www.gartner.com/en/webinars/4007946/the-future-of-cloud-prepare-for-2025">Gartner</a> analysts position cloud as the key driver for business innovation across all industries. As cloud-based platforms become the norm, industry networks will be instrumental for every sector. <a href="https://www.idc.com/getdoc.jsp?containerId=US47219421">IDC</a> predicted that by 2024, 40% of manufacturers will share data in their ecosystems (partners, customers, suppliers), improving OEE (operational equipment efficiency) of their factory operations, on average, by 10%.</p>
+  <h2 id="go-digital-with-cx-no-more-excuses">Go Digital with CX: No More Excuses</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="ai-trends-2022-spare-us-the-hype-we-want-business-results">AI Trends 2022: Spare Us the Hype, We Want Business Results</h3>
+      </div>
+      <div><strong><a href="/2022/01/ai-trends-2022-spare-us-the-hype-we-want-business-results">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>According to some analysts, customers will reward brands that relieve their stress. <a href="https://www.forrester.com/blogs/predictions-2022-consumer-behavior/">Forrester</a> researchers predicted that, “In 2022, consumers will turn to uplifting, pleasing products and experiences that offer reprieve from the fatigue of ongoing uncertainty.” If these analysts are correct, this could be a boon for “physical goods that spark joy – from comfort food to at-home spa kits,” as well as “experiential consumption, like prioritizing time for personal care or IRL face time with friends and family.”</p>
+  <p>Customers definitely have little patience for anything less than stellar experiences. <a href="https://www.forrester.com/predictions/">Forrester</a> found that about six in 10 U.S. and UK consumers believed companies “should have figured out how to handle <a href="/topics/covid-19">pandemic-related disruption</a> by now.” These <a href="https://www.forrester.com/predictions/">analysts</a> saw brands investing in “the commerce building blocks of their experience architectures; order management, payments, and inventory control will make every touch a shoppable moment; investments in immersive experiences will turn browsing into virtual inhabiting; and subscription billing will make loyalty a business model pivot.”</p>
+  <p>Gaining insights from connected data makes the biggest business difference. By 2024, <a href="https://www.idc.com/getdoc.jsp?containerId=US48297321">IDC</a> forecasted 30% of Fortune 2000 companies will deploy next-best action across their omni-channel environment, driving demand for customer data platforms, omni-channel management, and customer service solutions.</p>
+  <h2 id="sustainable-business-is-a-priority">Sustainable Business Is a Priority</h2>
+  <p>It’s impossible to separate the intertwined strands of customer experience, tech innovation, and sustainable business, especially when it comes to supply chains.</p>
+  <p><a href="https://www.idc.com/getdoc.jsp?containerId=US48298220">IDC</a> analysts predicted that by 2023, 50% of all supply chain forecasts will be automated through artificial intelligence (AI), improving accuracy by five percentage points. <a href="https://www.gartner.com/en/articles/gartner-predicts-the-future-of-supply-chain-technology">Gartner</a> analysts said 50% of global product-centric enterprises will have invested in real-time transportation visibility platforms by 2023. By the following year, IDC researchers saw 70% of manufacturers in global supply chains improving long-term supply chain profitability with investments in software tools to support sustainability and circular economy business models.</p>
+  <p>To improve delivery speed, agility, and visibility for B2B and B2C customers, <a href="https://www.idc.com/getdoc.jsp?containerId=US48298220">IDC</a> analysts said 35% of manufacturers will invest in order management software by 2024, resulting in a 25% improvement in OTIF (on-time, in-full) fulfillment. By 2025, <a href="https://www.idc.com/getdoc.jsp?containerId=US48298220">IDC</a> researchers predicted that 40% of G2000 organizations will invest in supply chain systems to increase information and inventory velocity to improve last-mile delivery efficiency and boost customer experience.</p>
+  <p>What’s striking about these predictions is that they’re expected to radically change the CPG sector in just a couple of years. The future has never been more transformational.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler.</em><br><em><a href="https://www.forbes.com/sites/sap/2022/01/11/consumer-products-trends-2022-can-your-brand-deliver-instant-happiness-and-comfort/?sh=2e30f5f5421b">This also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/forrester</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/idc</category>
+        </item>
+        <item>
+            <title><![CDATA[Industry Cloud: Advancing Business Transformation for a Changing World]]></title>
+            <link>https://www.sap.com/news/2022/01/industry-cloud-solutions-business-transformation</link>
+            <guid>https://www.sap.com/news/2022/01/industry-cloud-solutions-business-transformation</guid>
+            <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP makes industry cloud solutions available for organizations to optimize, extend, and transform their core business processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Industry Cloud: Advancing Business Transformation for a Changing World" src="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="industry-cloud-advancing-business-transformation-for-a-changing-world">Industry Cloud: Advancing Business Transformation for a Changing World</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Justifiably proud of their digital accomplishments, most companies still suffer from a false sense of digital capabilities. Their increasing attention on evolving customer experiences, product and service innovations, production efficiencies, and competitive advantages leaves little room for driving much needed change in core operations, such as facility management or payroll processing.</div>
+    </div>
+  </div>
+  <p>But the world is changing, and keeping one foot on the gas pedal for higher visibility projects while pumping the brakes with the other foot for back-office changes is not enough to keep up. Businesses must rapidly move both aspects of their digital strategies in unison to drive significant progress so that competitors are challenged to keep pace.</p>
+  <p>With <a href="https://www.sap.com/industries/industry-cloud.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">industry cloud solutions</a>, organizations can achieve this balance.</p>
+  <h2 id="modernizing-industries-to-meet-unique-expectations">Modernizing Industries to Meet Unique Expectations</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="shop-industry-cloud-solutions-on-sap-store">Shop industry cloud solutions on SAP Store</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/industry-cloud">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>SAP makes industry cloud solutions easier to discover, subscribe to, and use, offering customers access to unified user experiences, familiar design paradigms, and plug-and-play integrations to reinvent themselves and their markets simultaneously. Organizations from every industry can then deploy specialized solutions to optimize, extend, and transform their core business processes by digitalizing and automating operations across their business.</p>
+  <p>For example, <strong>utilities</strong> companies are shifting operations to provide more <a href="https://www.sap.com/assetdetail/2021/06/2abac107-e87d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">sustainable and renewable energy</a> in response to growing demand for decarbonization and decentralization. Industry cloud solutions can be used to combine Big Data-enabled energy data management for millions of end devices on a cloud-based, open platform with smart, industry-specific analytics and integration to support energy-related core processes.</p>
+  <p>Meanwhile, <strong>logistics service providers</strong> can collect various types of information from their vehicle fleets with a <a href="https://www.sap.com/assetdetail/2021/06/e0f83fc4-f47d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">digital vehicle hub</a> enabled by an asset network. By consolidating multiple data sources into a single network-based cloud platform, they can rapidly ramp up new business models, monetize vehicle information across customer channels, and enable collaboration and innovation with third-party participants.</p>
+  <p><strong>Consumer products companies</strong> also have access to an intelligent virtual assistant that streamlines the <a href="https://www.sap.com/assetdetail/2021/09/e2ec4787-f77d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">trade claims management</a> process and eliminates the need for manual matching and auditing. The solution leverages embedded machine learning to automate steps, reduce errors, and help avoid disputes. Organizations can then aggregate and enrich market activity in real time, accelerate balance sheet reconciliation with greater accuracy, lower the cost per claim, and enhance workflow productivity — all while establishing stronger customer relationships.</p>
+  <p>With an industry cloud solution, <strong>retailers</strong> can improve their <a href="https://www.sap.com/assetdetail/2021/10/1cb575ce-fd7d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">intelligent returns management</a> processes through embedded machine learning models and an analytics engine that accelerate and ease profitable decision-making. The solution turns the challenges of product returns into opportunities that improve customer retention and brand connection with a fluid returns experience for consumers, while increasing productivity and lowering processing costs across sales channels.</p>
+  <p>Retailers can also benefit from an <a href="https://www.sap.com/assetdetail/2021/11/4e536978-087e-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">order management foundation</a> developed to centralize the monitoring, analysis, and management of their omnichannel order processes. By optimizing nodes in their network — such as distribution centers, stores, dark stores, and third-party drop shipping — they can reduce costs, improve agility, and increase brand satisfaction by meeting their customer promises as expected.</p>
+  <p>Industry cloud solutions can even enable emerging industries, such as <strong>automotive original equipment manufacturers (</strong> OEMs) installing and operating residential and commercial charging stations for electric vehicles. An <a href="https://www.sap.com/assetdetail/2021/11/509d5249-077e-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">e-mobility</a> solution integrates end-to-end billing processes with one platform to lower energy costs and avoid expensive grid-connection expenditure through connections to energy service providers. And for their customers, the cost of improving their carbon footprint and impact on the planet becomes more affordable.</p>
+  <h2 id="competing-as-an-ecosystem-forged-by-innovation">Competing as an Ecosystem Forged by Innovation</h2>
+  <p>Business transformation begins with an idea – whether fixing a problem or discovering and creating new value. But eventually, companies translate ideas differently to address their industry’s unique market dynamics, customer demands, public expectations, and regulatory pressures.</p>
+  <p>For SAP customers, the answer to turning their ideas into meaningful technologies, products, services, business models, or people experiences is an industry cloud solution designed to meet their unique reality. Doing so offers the scale, access, and support they need to adapt to emerging dynamics continuously and rapidly, without sacrificing process efficiency or disrupting their other innovation efforts.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="augment-your-intelligent-enterprise-with-industry-cloud-solutions">Augment your intelligent enterprise with industry cloud solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/industry-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="visit-the-sap-store-site-to-explore-and-access-the-latest-industry-cloud-solutions-from-sap">Visit the <a href="https://store.sap.com/dcp/en/product/display-0000008655_live_v1?source=social-global-news-blog-IEumbrella-2021-industrycloud">SAP Store</a> site to explore and access the latest industry cloud solutions from SAP.</h3>
+  <div class="footnote">
+    <div>
+      <div><em>Joe Pacor is senior director of Industries Marketing at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/industry-cloud</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[B2B Marketplaces as a Growth Vehicle]]></title>
+            <link>https://www.sap.com/news/2021/12/b2b-marketplaces-as-a-growth-vehicle</link>
+            <guid>https://www.sap.com/news/2021/12/b2b-marketplaces-as-a-growth-vehicle</guid>
+            <pubDate>Wed, 29 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read to learn why leading wholesale distributors are deploying a marketplace strategy to fuel business and revenue growth.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1130a0fbd304c6ad034f2388dce516ba8aa95005a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1130a0fbd304c6ad034f2388dce516ba8aa95005a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1130a0fbd304c6ad034f2388dce516ba8aa95005a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="B2B Marketplaces as a Growth Vehicle" src="./media_1130a0fbd304c6ad034f2388dce516ba8aa95005a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="b2b-marketplaces-as-a-growth-vehicle">B2B Marketplaces as a Growth Vehicle</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>“<a href="https://diginomica.com/loreal-ceo-e-commerce-isnt-the-cherry-on-the-cake-its-the-new-cake">E-commerce isn’t the cherry on the cake; it’s the new cake</a>!” said Jean-Paul Ago, CEO of L’Oreal, and it couldn’t be more true. Marketplaces are becoming more commonplace and many forward-thinking B2B enterprises have either already created one for their customers or successfully joined a marketplace to gain new customers.</div>
+    </div>
+  </div>
+  <p>Experts agree – Gartner projects that <a href="https://www.digitalcommerce360.com/2019/01/27/2019-b2b-e-commerce-trends-putting-convenience-before-innovation/">75%</a> of B2B procurement spending will happen via online marketplaces by 2023. In addition, Forrester’s Jay McBain predicted earlier this year that upward of <a href="https://www.forrester.com/blogs/are-distributors-the-future-of-distribution/">17%</a> of the US$3.5 trillion that businesses and governments spend on technology may go through marketplaces. So, what does this mean for traditional wholesale distribution models and how can you plan for the future? It starts with an understanding of which marketplace model is right for your business.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-the-ebook-becoming-a-digital-distributor-a-playbook-and-maturity-model">Read the ebook "Becoming a Digital Distributor: A Playbook and Maturity Model"</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2021/10/6c905878-047e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="what-is-a-b2b-marketplace">What Is a B2B Marketplace?</h2>
+  <p>A <a href="https://www.the-future-of-commerce.com/2021/02/22/b2b-marketplaces/">marketplace</a> is a type of e-commerce platform that brings together buyers and sellers and enables them to conduct business in one place. Within a <a href="https://www.the-future-of-commerce.com/2021/02/22/b2b-marketplaces/">marketplace business model</a>, a wholesale distributor invites preferred vendors to offer their products and services for sale directly online as part of their expanded inventory. “A marketplace business model allows distributors to expand their product portfolio with minimal risk and create a great buyer experience, improve customer loyalty, and gain a larger share of their wallet,” says <a href="https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?&#x26;eventid=3314177&#x26;sessionid=1&#x26;username=&#x26;partnerref=&#x26;format=fhvideo1&#x26;mobile=&#x26;flashsupportedmobiledevice=&#x26;helpcenter=&#x26;key=EB04A2268940E1CA7326BAC8FC04B644&#x26;source=GATEWAY-2983783%7CLP&#x26;rId=2983783&#x26;rKey=E21A34A5D5CB769B975B42022BEB5012&#x26;oriontokens=eventId-3314177%7CuserId-486985890%7CgatewayId-2983783%7CexperienceId-%7CcontentType-webcast%7ChideDownloadPDF-false&#x26;newConsole=true&#x26;nxChe=true&#x26;newTabCon=true&#x26;consoleEarEventConsole=false&#x26;text_language_id=en&#x26;playerwidth=748&#x26;playerheight=526&#x26;eventuserid=486985890&#x26;contenttype=A&#x26;mediametricsessionid=420352960&#x26;mediametricid=4645477&#x26;usercd=486985890&#x26;mode=launch">Angela Troccoli</a>, senior director, Product Marketing, Global B2B, Mirakl.</p>
+  <h2 id="new-and-old-market-entrants">New and Old Market Entrants</h2>
+  <p>Traditional B2C marketplaces like Amazon Business, Alibaba, and eBay are the new disruptors increasing the competitive landscape for the wholesale distribution industry. These born-in-the-cloud marketplaces bring superior digital capabilities and can scale exponentially. “They [Amazon Business, Alibaba, and eBay] are the clear and present danger to wholesale distributors’ business since they can easily differentiate themselves from the traditional ‘buy and hold’ status quo,” says <a href="https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?&#x26;eventid=3314177&#x26;sessionid=1&#x26;username=&#x26;partnerref=&#x26;format=fhvideo1&#x26;mobile=&#x26;flashsupportedmobiledevice=&#x26;helpcenter=&#x26;key=EB04A2268940E1CA7326BAC8FC04B644&#x26;source=GATEWAY-2983783%7CLP&#x26;rId=2983783&#x26;rKey=E21A34A5D5CB769B975B42022BEB5012&#x26;oriontokens=eventId-3314177%7CuserId-486985890%7CgatewayId-2983783%7CexperienceId-%7CcontentType-webcast%7ChideDownloadPDF-false&#x26;newConsole=true&#x26;nxChe=true&#x26;newTabCon=true&#x26;consoleEarEventConsole=false&#x26;text_language_id=en&#x26;playerwidth=748&#x26;playerheight=526&#x26;eventuserid=486985890&#x26;contenttype=A&#x26;mediametricsessionid=420352960&#x26;mediametricid=4645477&#x26;usercd=486985890&#x26;mode=launch">Magnus Meier</a>, vice president and global head of the Wholesale Distribution Business Unit at SAP.</p>
+  <h2 id="marketplaces-as-a-growth-vehicle">Marketplaces as a Growth Vehicle</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-the-report-technology-road-maps-for-digital-growth">Read the report: Technology Road Maps for Digital Growth</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2021/12/8c794d1a-0a7e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Distributors need to avoid the mindset that e-commerce is simply enabling online ordering and instead turn this industry disruption into a springboard for growth. Today’s B2B buyers continue to demand consumer-like experiences that minimize purchasing complexities. They want search results that show products that meet their specific needs the moment they need them. In addition, B2B buyers want the ability to efficiently search and navigate a catalog with transparent pricing to support purchasing decisions.</p>
+  <p>The marketplace model can be a key driver of growth for a distributor’s business. In addition to providing a new option for B2B customers that prefer to buy online, marketplace platforms can serve as a new revenue stream. Distributors can sell products and services that differ from what’s available in a typical single-threaded commerce channel while driving revenue with new customers and marketing to new target audiences. But the real value is that a marketplace provides distributors the ability to differentiate from the competition. Per Gartner, by 2023, organizations that have operated enterprise marketplaces for more than one year will see a <a href="https://info.mirakl.com/gartner-11-imperatives-building-enterprise-marketplaces">10% or greater</a> increase in net digital revenue.</p>
+  <p>However, creating a marketplace requires a level of expertise in e-commerce digital marketing, as well as the ability to manage a strong, reliable ecosystem of sellers, technology partners, and buyers. If you don’t have the in-house expertise, marketplace platforms can help. “<a href="https://www.sap.com/products/commerce-marketplace-management.html">SAP Commerce Marketplace Management by Mirakl</a> offers a state-of-the-art, plug-and-play marketplace platform for any distributor looking to create their own,” says Krupa Singampalli, SAP product strategy leader.</p>
+  <h2 id="examples-of-successful-marketplace-business-models">Examples of Successful Marketplace Business Models</h2>
+  <p><a href="https://www.sap.com/documents/2021/12/8c794d1a-0a7e-0010-bca6-c68f7e60039b.html">Parts Town</a>, a billion-dollar distributor of original equipment manufacturer (OEM) parts for commercial kitchens, knows that minutes of downtime in the kitchen because of broken or missing parts in cooking equipment can take a significant toll on restaurant businesses. As such, Parts Town is constantly seeking out new and innovative ways to expedite the delivery of parts and service to commercial kitchens. “We’re a distribution company, but we’re really more of a digital technology company that has distribution,” says Parts Town’s Senior Vice President of Growth and Innovation, <a href="https://www.sap.com/registration/protected/default-overlay.html?gated_asset_path=//www.sap.com/documents/2021/12/8c794d1a-0a7e-0010-bca6-c68f7e60039b.rc.html&#x26;pdf-asset=8c794d1a-0a7e-0010-bca6-c68f7e60039b&#x26;page=9">Emanuela Delgado</a>. Technologies like <a href="https://www.sap.com/products/commerce-cloud">SAP Commerce Cloud</a> and <a href="https://www.sap.com/products/commerce-marketplace-management.html">SAP Commerce Marketplace Management by Mirakl</a> have enabled the distributor to provide more than 100 customized microsites for many of its large customers and fuel the evolution required to meet a revenue target of $3 billion in the next few years.</p>
+  <p>Another example of a marketplace business model is <a href="https://www.mirakl.com/toyota-material-handling-selects-mirakl/">Toyota Material Handling, USA Inc. (TMH)</a>, the number-one selling brand of forklifts in North America. Before adopting a marketplace model, there was no way to purchase Toyota Material Handling OEM parts online. Recognizing that business buyers’ habits were changing and more were buying online, TMH implemented <a href="https://www.sap.com/products/commerce-marketplace-management.html">SAP Commerce Marketplace Management by Mirakl</a> to help develop an online marketplace that would allow the company to meet the growing demand for service parts online. Now, with the MyToyota Store, Toyota Material Handling is offering the only online source for real Toyota Genuine Forklift parts, offering customers quick access to more than 600,000 parts. “Using an online store, the company has seen parts sales increase by <a href="https://blog.mirakl.com/mytoyota-store-toyota-material-handling">220%</a> year-over-year,” says Nicolas Posada, senior customer success consultant, Mirakl.</p>
+  <p>Want to find out how to create or join a B2B marketplace? Meier, Troccoli, Posada, and Singampalli have a lot of advice for distributors. <a href="https://event.on24.com/wcc/r/3128978/70A37A5267B0587EFFFFFB8D457DBE34">Watch the webcast now</a> to learn the key challenges facing distributors today along with practical guidance to help you create your own marketplace.</p>
+  <div class="footnote">
+    <div>
+      <div><em>John McDonnell is industry value advisor for Wholesale Distribution.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP.iO Foundries North America Teams with Accenture to Launch Two New Sustainability Cohorts]]></title>
+            <link>https://www.sap.com/news/2021/11/sap-io-foundries-north-america-accenture-sustainability-cohorts</link>
+            <guid>https://www.sap.com/news/2021/11/sap-io-foundries-north-america-accenture-sustainability-cohorts</guid>
+            <pubDate>Mon, 22 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Two new sustainability cohorts at SAP.iO Foundries North America will focus on consumer and retail, as well as energy and natural resources.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18a9e57b35a1e76871086aab84bc36f553d94aa72.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18a9e57b35a1e76871086aab84bc36f553d94aa72.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18a9e57b35a1e76871086aab84bc36f553d94aa72.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP.iO Foundries North America Teams with Accenture to Launch Two New Sustainability Cohorts" src="./media_18a9e57b35a1e76871086aab84bc36f553d94aa72.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sapio-foundries-north-america-teams-with-accenture-to-launch-two-new-sustainability-cohorts">SAP.iO Foundries North America Teams with Accenture to Launch Two New Sustainability Cohorts</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) and Accenture welcome two new cohorts to SAP.iO Foundries North America, SAP’s external startup accelerator program. Thirteen startups were selected for the cohorts among hundreds of applicants by a jury of SAP and Accenture experts, partners and customers.</p>
+      </div>
+    </div>
+  </div>
+  <p>The startups in the cohorts are building innovative solutions to drive sustainability for consumer and retail companies across the value chain in areas including reusable packaging and responsible and ethical supply chain. The startups will also focus on helping companies in the energy and natural resources industries manage sustainability goals including compliance, regulation, tracking and carbon trading.</p>
+  <p>Over the next 16 weeks, the startups will work alongside curated sustainability and technology experts from Accenture and SAP, with access to SAP technology and application programming interfaces (APIs) and opportunities to collaborate with SAP and Accenture customers around the world. The startups will integrate with SAP solutions such as <a href="https://www.sap.com/products/product-footprint-management.html">SAP Product Footprint Management</a> and <a href="https://www.sap.com/products/responsible-design-and-production.html">SAP Responsible Design and Production</a> and leverage Accenture’s <a href="https://www.accenture.com/us-en/services/sustainability-index?c=acn_glb_responsiblebusimediarelations_11730836&#x26;n=mrl_0121">Sustainability Services</a> and broad industry knowledge, building upon the companies’ long-standing partnership and shared commitment to <a href="https://newsroom.accenture.com/news/accenture-and-sap-extend-partnership-to-help-companies-accelerate-sustainability-transformation-drive-new-sources-of-value-and-lead-in-the-circular-economy.htm">using technology to help the world build a more sustainable future</a>. The following startups are participating in the SAP.iO Foundries North America sustainability cohorts:</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="build-sustainability-directly-into-your-core-business-processes-with-sap">Build sustainability directly into your core business processes with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/sustainability.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="consumer-and-retail">Consumer and Retail</h2>
+  <ul>
+    <li><a href="https://algramo.com/en">Algramo</a> offers a circular platform that encourages consumers to buy in a more convenient, affordable way with zero waste and connects people, brands and retailers to change consumption habits.</li>
+    <li><a href="https://ecocart.io/business/">EcoCart</a> calculates the carbon emissions of business activities, then programmatically offsets those emissions by funding impactful certified carbon offset projects like planting trees or building windfarms.</li>
+    <li><a href="http://www.everledger.io/">Everledger</a> leverages blockchain and Internet of Things technology to offer transparency into supply chains for clarity on quality, origin, sustainability footprint and compliance standards.</li>
+    <li><a href="http://evrythng.com/">EVRYTHNG</a> helps customers run their business differently with real-time data intelligence from each of their products end to end, from factory to consumer and beyond.</li>
+    <li><a href="http://www.inspectorio.com/">Inspectorio</a> provides a dynamic and risk-assessment-based quality compliance program for digitalization, automation, transparency and traceability.</li>
+    <li><a href="https://www.thelimeloop.com/">LimeLoop</a> is a platform for sustainable shipping including reusable packaging, real-time tracking and predictive analytics.</li>
+    <li><a href="https://specright.com/">Specright</a> delivers a purpose-built platform for specification management that changes how brands, suppliers, manufacturers and retailers manage data and collaborate to bring products to market.</li>
+  </ul>
+  <h2 id="energy-and-natural-resources">Energy and Natural Resources</h2>
+  <ul>
+    <li><a href="http://www.bidgely.com/">Bidgely</a> accelerates a clean energy future by enabling utilities and consumers to make data-driven energy decisions.</li>
+    <li><a href="https://camus.energy/">Camus Energy</a> empowers utilities and energy providers with systemwide visibility, forecasting and advanced controls to balance local renewable supply with flexible demand for a distributed, zero-carbon future.</li>
+    <li><a href="http://www.empower.eco/">Empower</a> incentivizes transparent and traceable collection, sourcing and recycling of plastic waste globally.</li>
+    <li><a href="https://www.oilx.co/">OilX</a> is the world’s first digital oil analyst. It leverages satellite technology and AI to create a digital twin of the oil supply chain, from well to wheel.</li>
+    <li><a href="https://carbonara.energy/">Singularity Energy</a> is a data and analytics company that helps customers reduce their carbon emissions.</li>
+    <li><a href="http://www.supplhi.com/">SupplHi</a> covers the vendor management activities from vendor scouting to vendor qualification, vendor performance evaluation and assessment of vendor financials, compliance and sustainability.</li>
+  </ul>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Stacy Ries, +1 (484) 619-0411, <a href="mailto:stacy.ries@sap.com">stacy.ries@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/oil-gas-energy</category>
+            <category>news-tag/renewable-energy</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-io</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[Nordic Electronics Leader Spearheads Retail’s Next Generation]]></title>
+            <link>https://www.sap.com/news/2021/10/nordic-electronics-leader-spearheads-retails-next-generation</link>
+            <guid>https://www.sap.com/news/2021/10/nordic-electronics-leader-spearheads-retails-next-generation</guid>
+            <pubDate>Thu, 28 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Elkjøp Nordic’s new integrated architecture delivers a seamless customer journey with increased mobility and unified channels. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Nordic Electronics Leader Spearheads Retail’s Next Generation" src="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="nordic-electronics-leader-spearheads-retails-next-generation">Nordic Electronics Leader Spearheads Retail’s Next Generation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Since its founding in 1962, Elkjøp had been known for the continuous improvement of its business processes. As the last decade ended though, the company faced a quandary – maintaining its reputation while being saddled with 12 different legacy software systems.</div>
+    </div>
+  </div>
+  <p>In order to support its vision for a next-generation retail experience, Elkjøp decided to replace all 12 systems with a new integrated architecture. The dramatic, cloud-based overhaul resulted in a next-gen retail platform that has both improved workflow and delivered 100% uptime.</p>
+  <p>The strategy has yielded an array of other benefits for Elkjøp, including:</p>
+  <ul>
+    <li>100% in-store mobility for employees</li>
+    <li>500 legacy interfaces evaluated and either replaced, updated, and/or re-connected</li>
+    <li>4,500 employees trained on new systems using an e-learning platform</li>
+  </ul>
+  <p>But these achievements only came about because Elkjøp was willing to take a critical look at what employees and customers needed and honestly assess the changes that had to be made.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-elkjøps-sap-innovation-award-proposal">Read Elkjøp's SAP Innovation Award proposal</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2281">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="whats-in-a-name">What’s in a Name?</h2>
+  <p>In Norwegian, the brand “Elkjøp” literally means “el buy” – with the “el” being a shortened version of elektrisk (electric) or elektronisk (electronic).</p>
+  <p>It’s no surprise, really, since the Oslo-based company is the largest consumer electronics retailer in the Nordic region.</p>
+  <p>A subsidiary of Dixons Carphone, a multinational consumer electrical and mobile retailer and services company, Elkjøp sells a variety of goods, including mobile phones, computers, and kitchen and other domestic appliances to both consumers and businesses.</p>
+  <p>With a brisk online trade, as well as more than 400 stores, the company employs over 11,000 workers while operating under a number of names in its home country, as well as Sweden, Denmark, and Finland.</p>
+  <h2 id="stepping-into-the-future">Stepping into the Future</h2>
+  <p>The decision to create the next-generation retail platform did not come easily – Elkjøp had little choice but to take this dramatic step. Systems serving critical processes did not support the latest innovations, and the legacy retail systems could not provide mobility to the sales staff.</p>
+  <p>In order to deliver certain services or close a sale, a store representative might be forced to leave a customer, seek out a desktop computer, then return. Other times, employees had to log in and out of multiple systems to complete a sale. In addition, legacy systems were incapable of adapting to new business models, like wireless subscriptions.</p>
+  <p>Change was critical, yet daunting. Upgrades to systems capabilities meant adjusting all 12 different interconnected legacy systems, touching 500 different interfaces.</p>
+  <p>As Elkjøp re-evaluated its strategy, it turned to a solution that had been serving the company well for several years.</p>
+  <h2 id="cloud-first-advancement">Cloud-First Advancement</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="give-shoppers-and-consumers-the-products-and-personalized-shopping-experiences-they-want">Give shoppers and consumers the products and personalized shopping experiences they want</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/retail.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Elkjøp first deployed SAP ERP Central Component in 2015. The application is a core component in managing transactional and financial processes. Modules communicate with each other, working to create a fully integrated solution specific to customers in a variety of industries.</p>
+  <p>Because of this successful experience, the company opted to base its next-gen retail platform on SAP ECC and other SAP solutions. A number of requirements were met with micro-services based architecture – software applications designed as suites of independently deployable services.</p>
+  <p>Custom add-ons came from ASAPIO/Kafka, enabling information to flow between SAP and non-SAP applications, on premise and in the cloud, in real time.</p>
+  <p>The monitoring challenges of Elkjøp’s high volume retail business were supported with an approach centered on SAP Fiori – a set of applications for business functions, like work approvals, and apps specializing in finance, calculation, and various self-service tasks.</p>
+  <p>Failover architecture was created to protect computer systems from mishaps, allowing standby equipment to automatically take over if something went wrong.</p>
+  <h2 id="unified-execution">Unified Execution</h2>
+  <p>The next-gen retail platform went live in Denmark on May 8th, 2020 and was quickly deployed in 110 of the 460 stores. Changes were immediately evident. Using one unified customer master record, the new architecture <strong>delivered a seamless customer journey</strong> across in-store and online channels, with employees better prepared to anticipate clients’ wants and needs.</p>
+  <p>Today, employees say the next-gen retail platform has enabled them to be more productive, while customers report quicker service times both online and in person.</p>
+  <p>For “delivering the retail experience of the future,” Elkjøp Nordic earned the distinction as a finalist in the <strong>2021 SAP Innovation Awards</strong>, meeting the key requirements of improving customer experiences, solving complex challenges, and serving the greater good. Learn more in Elkjøp’s SAP Innovation Awards <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2281">proposal</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Keith Greenberg is an SAP Global Marketing contributor.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/retail</category>
+            <category>product/sap-erp</category>
+            <category>news-tag/sap-fiori</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[How Digital Twins Are Driving the Future of Business]]></title>
+            <link>https://www.sap.com/resources/how-digital-twins-are-driving-the-future-of-business</link>
+            <guid>https://www.sap.com/resources/how-digital-twins-are-driving-the-future-of-business</guid>
+            <pubDate>Mon, 18 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital twin success stories: Examples show how digital twins provide clear views of business processes, including customer experience.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/crm-customer-experience</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/what-is</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+    </channel>
+</rss>

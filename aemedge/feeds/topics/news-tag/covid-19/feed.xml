@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/covid-19/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 30 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Three Steps to Prioritize Digital Skills for Sustainable Growth]]></title>
+            <link>https://www.sap.com/news/2022/11/three-steps-prioritize-digital-skills</link>
+            <guid>https://www.sap.com/news/2022/11/three-steps-prioritize-digital-skills</guid>
+            <pubDate>Wed, 30 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Businesses must have enough people with the right skills, at the right time, to help them accelerate their digital transformation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/people-sustainability</category>
+        </item>
+        <item>
+            <title><![CDATA[Wellstar Health Improves the Employee Experience through Innovative LMS Governance]]></title>
+            <link>https://www.sap.com/news/2022/11/wellstar-health-employee-experience-lms-governance</link>
+            <guid>https://www.sap.com/news/2022/11/wellstar-health-employee-experience-lms-governance</guid>
+            <pubDate>Wed, 23 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Improved governance helped Wellstar Health make the most out of its SAP SuccessFactors Learning solution. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_133c1cc6858830182923838b672bf97c1f0d1448f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_133c1cc6858830182923838b672bf97c1f0d1448f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_133c1cc6858830182923838b672bf97c1f0d1448f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Wellstar Health Improves the Employee Experience through Innovative LMS Governance" src="./media_133c1cc6858830182923838b672bf97c1f0d1448f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="wellstar-health-improves-the-employee-experience-through-innovative-lms-governance">Wellstar Health Improves the Employee Experience through Innovative LMS Governance</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="building-a-lifelong-learning-culture-is-more-important-than-ever">Building a Lifelong Learning Culture Is More Important Than Ever</h3>
+      </div>
+      <div><strong><a href="/2022/10/building-a-lifelong-learning-culture">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Imagine that you’ve just been hired into a new job, but due to training you can’t really start your actual duties for a week and a half. Now add to this the fact that you’re a healthcare worker whose expertise is very much in need. This was the scenario at Wellstar Health System prior to the start of its learning management system (LMS) governance initiative.</div>
+    </div>
+  </div>
+  <p>As a customer of multiple <a href="https://www.sap.com/products/hcm/hxm-suite.html">SAP SuccessFactors solutions</a>, Wellstar is familiar with the power of SAP and knew it could be getting more out of its SAP SuccessFactors Learning solution. Danielle Mecum, manager of Learning Technology at Wellstar, believed that improved governance of the system was part of the road to getting there. “When governance is lacking, the employee experience suffers,” Mecum explained.</p>
+  <p>With a nursing background, she knew firsthand the need to get new hires trained properly and quickly, and that reducing the time from hire to actual work was key. She added, “In addition to our non-clinical employees, our medical employees were taking longer to get to the patient floors to start providing care because of how the required onboarding training was organized and set up. There were inaccurate training assignments, courses not marked as required, and, in some cases, no required-by dates.”</p>
+  <p>In addition, users said that their learning assignments were too cluttered and disorganized, Mecum explained. And there were instances where new employees would get to a patient floor and realize that they were not able to enter a patient’s chart, for example, because a course hadn’t been assigned to them in the correct sequence.</p>
+  <p>The need to get employees onboarded faster could have been enough to justify the governance project, but to add to the complex nature of the project – and completely out of Wellstar’s control – the organization faced the impending deprecation of Flash content and the impacts of the <a href="/topics/covid-19">COVID-19</a> pandemic. To help tackle this challenge, Wellstar decided to work with its customer engagement executive to start a solution adoption engagement. This type of engagement is intended to provide recommendations to a customer to help them create an action plan to optimize their use of their system – in this case <a href="https://www.sap.com/products/hcm/corporate-lms.html">SAP SuccessFactors Learning</a>. A recommendation came out of this engagement that confirmed the needed for the governance initiative.</p>
+  <p>Mecum’s nursing background helped her understand the urgency of the situation. She and her team looked at the issues already discussed and began to build a governance model. For example, they instituted a content life cycle management process that incorporated a formal method for requesting the creation of new items, curricula, and assignment profiles. In addition, they implemented an ongoing review procedure that included automated notifications to course owners to review material that had reached expiration. Additionally, Wellstar leveraged and configured custom fields within SAP SuccessFactors Learning to track key data and report on it from within the system to ensure compliance with the new governance process.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="foster-continuous-learning-and-reduce-compliance-risk-with-sap-successfactors-learning">Foster continuous learning and reduce compliance risk with SAP SuccessFactors Learning</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/hcm/corporate-lms.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Other governance steps included reviewing and consolidating LMS admin roles to ensure the right administrators had the right permissions to perform administrative tasks as appropriate in the system – without giving them freedom to add to the problem at large. A formal process for vetting new LMS administrators was created to ensure they weren’t simply giving just anyone these permissions. “We knew we needed to define what goes into the system, so we could control what comes out. This helps when we need to get rid of old, outdated courses,” Mecum explained.</p>
+  <p>These changes, among others, were implemented as part of the governance initiative. The result is that Wellstar is now reaping greater benefits from <a href="/topics/sap-successfactors-learning">SAP SuccessFactors Learning</a> and, most importantly, employees now have an improved experience with the system. Frustration levels are down and new hires are able to start their actual jobs much sooner than before – in three days rather than a week and a half!</p>
+  <div class="quote">
+    <div>
+      <div><a href="https://www.sap.com/products/hcm/corporate-lms.html">Learn how an LMS can help your organization.</a></div>
+    </div>
+    <div>
+      <div>Mark Tarallo is a solution marketing fellow for SAP SuccessFactors.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/learning-management-system</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-learning</category>
+        </item>
+        <item>
+            <title><![CDATA[The Digital Innovations Behind the Booming Life Sciences Industry]]></title>
+            <link>https://www.sap.com/news/2022/11/digital-innovations-life-sciences-industry</link>
+            <guid>https://www.sap.com/news/2022/11/digital-innovations-life-sciences-industry</guid>
+            <pubDate>Tue, 01 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The pandemic has irrevocably disrupted the life sciences industry, revealing a new vision for innovation from cloud-based collaboration.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/forrester</category>
+            <category>news-tag/gartner</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/idc</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-cloud</category>
+            <category>news-tag/innovation</category>
+            <category>industry/life-sciences</category>
+        </item>
+        <item>
+            <title><![CDATA[Investing in an Innovative New Platform Can Provide Fallback for Any Scenario]]></title>
+            <link>https://www.sap.com/news/2022/10/investing-in-an-innovative-new-platform-can-provide-fallback-for-any-scenario</link>
+            <guid>https://www.sap.com/news/2022/10/investing-in-an-innovative-new-platform-can-provide-fallback-for-any-scenario</guid>
+            <pubDate>Wed, 26 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Freudenberg Home and Cleaning Solutions, a 2022 SAP Innovation Award winner, digitalized processes and improved forecasting with SAP BTP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/innovation</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Industry Innovation: Turning Supply Chains into Hot Spots for Meaningful Change]]></title>
+            <link>https://www.sap.com/news/2022/10/industry-innovation-supply-chains-meaningful-change</link>
+            <guid>https://www.sap.com/news/2022/10/industry-innovation-supply-chains-meaningful-change</guid>
+            <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Customer Solution Support & Innovation organization at SAP works with various organizations to support and encourage industry innovation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/banking</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/innovation</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/research-development</category>
+            <category>news-tag/sap-advanced-track-and-trace-for-pharmaceuticals</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-information-collaboration-hub-for-life-sciences</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Living and Working with Long COVID]]></title>
+            <link>https://www.sap.com/news/2022/10/living-working-with-long-covid</link>
+            <guid>https://www.sap.com/news/2022/10/living-working-with-long-covid</guid>
+            <pubDate>Fri, 07 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Dr. Torsten Paul offers advice on working with long COVID and an affected employee opens up about her struggles. Read more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Principles of Resilient Supply Chains for CPG Manufacturing]]></title>
+            <link>https://www.sap.com/news/2022/10/three-principles-resilient-cpg-supply-chains</link>
+            <guid>https://www.sap.com/news/2022/10/three-principles-resilient-cpg-supply-chains</guid>
+            <pubDate>Wed, 05 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Supply chain resilience can lead directly to business resilience, especially for consumer packaged goods (CPG) manufacturers. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/manufacturing-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Clarifying the True Meaning of Innovation Drives Meaningful Business Value]]></title>
+            <link>https://www.sap.com/news/2022/09/true-meaning-of-innovation</link>
+            <guid>https://www.sap.com/news/2022/09/true-meaning-of-innovation</guid>
+            <pubDate>Tue, 27 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[It takes creativity and domain expertise to bring innovation to life and evolve it for delivering more meaningful value. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/cybersecurity</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[The Surprising Truth about Workers Who Can Be Productive Anywhere]]></title>
+            <link>https://www.sap.com/news/2022/08/surprising-truth-workers-productive-anywhere</link>
+            <guid>https://www.sap.com/news/2022/08/surprising-truth-workers-productive-anywhere</guid>
+            <pubDate>Tue, 09 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A study by Accenture identified valuable resources that enable employees in a hybrid workforce to be productive anywhere. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/well-being-at-work</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Networks Help to Inoculate Businesses against Catching a Cold]]></title>
+            <link>https://www.sap.com/news/2022/08/digital-networks-help-inoculate-businesses</link>
+            <guid>https://www.sap.com/news/2022/08/digital-networks-help-inoculate-businesses</guid>
+            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP’s Andreas Heckmann explores how digital business networks strengthen supply chains and trading relationships. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Psychologists Say Your Flex Work Desires Are Perfectly Normal. But Does Your Boss Agree?]]></title>
+            <link>https://www.sap.com/news/2022/07/psychologists-say-flex-work-perfectly-normal-does-boss-agree</link>
+            <guid>https://www.sap.com/news/2022/07/psychologists-say-flex-work-perfectly-normal-does-boss-agree</guid>
+            <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Psychologists agree the optimal work model for the average global employee is hybrid. But it's not necessarily the best model for every one.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/qualtrics</category>
+        </item>
+        <item>
+            <title><![CDATA[What’s Next in High-Growth Digital Innovations]]></title>
+            <link>https://www.sap.com/news/2022/07/whats-next-in-high-growth-digital-innovations</link>
+            <guid>https://www.sap.com/news/2022/07/whats-next-in-high-growth-digital-innovations</guid>
+            <pubDate>Wed, 13 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Five tech experts share what technology advancements are reshaping the future of intelligent, sustainable, networked business in the cloud.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-footprint</category>
+            <category>news-tag/covid-19</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Oil Refiners and Gasoline Prices]]></title>
+            <link>https://www.sap.com/news/2022/06/the-take-oil-refiners-and-gasoline-prices</link>
+            <guid>https://www.sap.com/news/2022/06/the-take-oil-refiners-and-gasoline-prices</guid>
+            <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Oil refiners have to balance meeting the consumer demand for fuel and other byproducts with lowering their ESG output. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>news-tag/covid-19</category>
+            <category>industry/oil-gas-energy</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in IDC MarketScapes for Cloud-Enabled Manufacturing and Operational ERP Applications]]></title>
+            <link>https://www.sap.com/news/2022/05/sap-named-leader-idc-marketscapes-cloud-manufacturing-operational-erp</link>
+            <guid>https://www.sap.com/news/2022/05/sap-named-leader-idc-marketscapes-cloud-manufacturing-operational-erp</guid>
+            <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[IDC has positioned SAP as a Leader within the 2022 IDC MarketScape for worldwide SaaS and cloud-enabled operational ERP applications.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/idc</category>
+            <category>news-tag/idc-marketscape</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Shanghai Lockdown]]></title>
+            <link>https://www.sap.com/news/2022/05/the-take-shanghai-lockdown-supply-chains</link>
+            <guid>https://www.sap.com/news/2022/05/the-take-shanghai-lockdown-supply-chains</guid>
+            <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[As the Shanghai lockdown places further strain on supply chains, get SAP’s take on how the disruptions have put a premium on risk assessment.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Learning Skyrockets as High-Growth Industries Invest in Top Talent]]></title>
+            <link>https://www.sap.com/news/2022/05/high-growth-industries-digital-learning-invest</link>
+            <guid>https://www.sap.com/news/2022/05/high-growth-industries-digital-learning-invest</guid>
+            <pubDate>Thu, 19 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In high-growth industries like aerospace and defense, leaders are building the workforce needed for growth with continuous digital learning.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/aerospace-defense</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Banking On a People-Centric Digital Transformation for Continued Success]]></title>
+            <link>https://www.sap.com/news/2022/05/banco-atlantida-people-centric-digital-transformation</link>
+            <guid>https://www.sap.com/news/2022/05/banco-atlantida-people-centric-digital-transformation</guid>
+            <pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[During COVID-19, Banco Atlántida digitally transformed so customers could continue to complete their financial activities uninterrupted.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>industry/banking</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[Pandemic Anniversary Shows How Businesses Adapted]]></title>
+            <link>https://www.sap.com/videos/pandemic-anniversary-shows-how-businesses-adapted</link>
+            <guid>https://www.sap.com/videos/pandemic-anniversary-shows-how-businesses-adapted</guid>
+            <pubDate>Mon, 18 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[It has been more than two years since the World Health Organization officially declared COVID-19 a pandemic. Facing lockdowns that deprived them of customers and...]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Pandemic Anniversary Shows How Businesses Adapted" src="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <h1 id="pandemic-anniversary-shows-how-businesses-adapted">Pandemic Anniversary Shows How Businesses Adapted</h1>
+      </div>
+    </div>
+  </div>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Pandemic Anniversary Shows How Businesses Adapted" src="./media_12ffff026eb3191c2ddfd105093eec50427d2af21.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=vnLheNN4cT4&#x26;t=4s">Pandemic Anniversary Shows How Businesses Adapted</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>It has been more than two years since the World Health Organization officially declared <a href="/topics/covid-19">COVID-19</a> a pandemic.</div>
+    </div>
+  </div>
+  <p>Facing lockdowns that deprived them of customers and normal business operations, <a href="https://www.concur.com/newsroom/article/pandemic-year-two-and-how-companies-have-adapted">companies around the world had to quickly pivot</a> to a new way of doing things.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/video</category>
+            <category>news-tag/covid-19</category>
+        </item>
+        <item>
+            <title><![CDATA[Morocco’s Ministry of Health Saved Thousands of Lives Overnight]]></title>
+            <link>https://www.sap.com/news/2022/04/morocco-ministry-of-health-saved-thousands-overnight</link>
+            <guid>https://www.sap.com/news/2022/04/morocco-ministry-of-health-saved-thousands-overnight</guid>
+            <pubDate>Wed, 13 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To protect its citizens, Morocco’s Ministry of Health developed a COVID-19 Real-Time Monitoring system with SAP Analytics Cloud. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-story</category>
+            <category>topic/data-analytics</category>
+            <category>industry/healthcare</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Two Years into the Pandemic, Are Consumers Seeing a Future of Empty Shelves?]]></title>
+            <link>https://www.sap.com/news/2022/04/consumers-seeing-future-post-pandemic</link>
+            <guid>https://www.sap.com/news/2022/04/consumers-seeing-future-post-pandemic</guid>
+            <pubDate>Mon, 11 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To ease fears of consumers around empty shelves, business networks can help build more resiliency and agility into supply chains. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Goes Academia]]></title>
+            <link>https://www.sap.com/news/2022/04/sap-apphaus-goes-academia</link>
+            <guid>https://www.sap.com/news/2022/04/sap-apphaus-goes-academia</guid>
+            <pubDate>Thu, 07 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP AppHaus held guest lectures at six German universities to foster mutual learning and share its core innovation values. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>industry/higher-education-research</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Information Sharing Can Ease the Consumer Goods Supply Strain]]></title>
+            <link>https://www.sap.com/news/2022/03/information-sharing-ease-consumer-goods-supply-strain</link>
+            <guid>https://www.sap.com/news/2022/03/information-sharing-ease-consumer-goods-supply-strain</guid>
+            <pubDate>Tue, 15 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Standardized information sharing is a critical first step toward strengthening much-needed resiliency, efficiency, and control. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Information Sharing Can Ease the Consumer Goods Supply Strain" src="./media_16acfad5b667087aba74dcf54df81132861712462.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="information-sharing-can-ease-the-consumer-goods-supply-strain">Information Sharing Can Ease the Consumer Goods Supply Strain</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Consumer products companies are dealing with an entirely new set of challenges that are driving up costs and increasing supply chain fragility – making them more susceptible to losing consumers. Could it be that quick-fix digitalization efforts during the <a href="/topics/covid-19">pandemic</a> are exacerbating these challenges?</div>
+    </div>
+  </div>
+  <p>Every business involved in the consumer products value chain – including raw material suppliers, ingredient producers, manufacturers, logistics providers, retailers, and wholesale distributors – has made great strides in digitalizing its internal operations. Yet, a lack of data exchange across the entire network could intensify delays and inefficiencies as resources or products move from one part of the supply chain to the other.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="how-can-enterprise-content-management-drive-differentiation-in-consumer-products-operations">How can enterprise content management drive differentiation in consumer products operations?</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2021/09/a01dc772-f87d-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="moving-supplies-with-better-transparency-and-insight">Moving Supplies with Better Transparency and Insight</h2>
+  <p>According to <a href="https://www.sap.com/documents/2021/09/a01dc772-f87d-0010-bca6-c68f7e60039b.html">IDC</a>, consumer products companies are beginning to get the message: 39% of surveyed industry players expect to increase spending on integrated enterprise content management (ECM) applications in 2021. Moreover, nearly half of them expect this digital investment to be a key contributor to operational performance (43%) and employee productivity (44%) – two factors that can significantly ease today’s consumer goods supply strain.</p>
+  <p>During the pandemic, most consumer products companies adopted point solutions while maintaining a preexisting infrastructure of isolated legacy systems and spreadsheets for critical functions. However, this setup – which, at the time, was a response to changing consumer behaviors and employee needs – is missing the connectedness, intelligence, and transparency necessary to align operational capacity with surging demand.</p>
+  <p>Many businesses now realize that standardized information sharing is a critical first step toward strengthening much-needed resiliency, efficiency, and control. It allows internal and external supply chain participants to exchange consumer expectations insight, communicate actionable next steps, and scale operations as one ecosystem.</p>
+  <p>With cloud-based SAP enterprise content management solutions by OpenText, the entire supply chain can connect all this information so stakeholders can access curated content anytime, anywhere, and across the business. Plus, the inclusion of embedded artificial intelligence (AI) and machine learning enables the technology to automatically capture, organize, and analyze massive amounts of data to support higher productivity.</p>
+  <p>Along with supply chain operations, SAP ECM solutions by OpenText can improve adjacent departments – such as accounts payable, accounts receivable, inventory, and trade promotion management – that directly impact overall customer satisfaction. These back-office functions can use real-time supply chain information, coupled with insights into emerging customer demand and financial constraints, to reduce the pressure of supply challenges. For example, they can shape product allocation to minimize waste and optimize existing production capacity by adjusting consumer segmentation, evolving product portfolios, and innovating business models – all while offering a consistent brand experience.</p>
+  <h2 id="satisfying-consumers-better-despite-shortages">Satisfying Consumers Better Despite Shortages</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="discover-sap-ecm-solutions-by-opentext-to-help-transform-your-business-into-an-intelligent-enterprise">Discover SAP ECM solutions by OpenText to help transform your business into an intelligent enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/oth/enterprise-content-management/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>While conditions on the supply side may not ease until ports add capacity and companies can keep up with growing demand, it’s never too soon to unify the business network with smooth information sharing and workflows. Otherwise, brands risk ignoring revenue growth opportunities while wrestling with supply chain disruptions.</p>
+  <p>SAP ECM solutions by OpenText can help relieve consumer products companies from making that trade-off. Now, their employees and stakeholders can make highly informed, data-driven decisions that help satisfy consumer demand – even as the stakes increase during peak buying seasons.</p>
+  <p>Find out how personalized communications and a complete understanding of your sellers and consumers can lead to unique and differentiating brand value. Read the info sheet, “<a href="https://www.sap.com/documents/2021/11/c2adb0fe-027e-0010-bca6-c68f7e60039b.html">Drive Differentiation with Intelligent Enterprise Content Management</a>.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/digitalization</category>
+            <category>news-tag/opentext</category>
+        </item>
+        <item>
+            <title><![CDATA[The Right Partnership Matters in Digital Transformation]]></title>
+            <link>https://www.sap.com/news/2022/03/partnership-matters-in-digital-transformation</link>
+            <guid>https://www.sap.com/news/2022/03/partnership-matters-in-digital-transformation</guid>
+            <pubDate>Wed, 02 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Customers can find success in their digital transformations with the help of SAP Services and Support. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1504cd0bacd86ec9a94b8189ea3c96f7f53081c15.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1504cd0bacd86ec9a94b8189ea3c96f7f53081c15.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1504cd0bacd86ec9a94b8189ea3c96f7f53081c15.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Right Partnership Matters in Digital Transformation" src="./media_1504cd0bacd86ec9a94b8189ea3c96f7f53081c15.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-right-partnership-matters-in-digital-transformation">The Right Partnership Matters in Digital Transformation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Any business can drive technology-enabled change quickly. But with the right partner, it can take its digital transformation even further – steering its strategy toward the right direction, achieving lasting impacts, and exploring a new world of competitive advantages.</div>
+    </div>
+  </div>
+  <p>Most companies are ready to accelerate their digital transformation strategies after experiencing a long list of shocks brought on by a lingering <a href="/topics/covid-19">pandemic</a>. From supply chain volatility and dramatic shifts in customer expectations to <a href="/2022/02/workforce-trends-2022">new workplace dynamics</a>, there’s no shortage of inspiration when it comes to enhancing profitability, improving efficiency, and innovating more products and services.</p>
+  <p>But excitement and motivation are not enough to transform competitively nowadays. As the global economy increasingly becomes based on or influenced by digitalization, businesses will inevitably need to pivot how they future proof their operations and customer relationships with digital technology.</p>
+  <p>For many organizations across Europe, the first step toward tackling their objectives is leveraging the fresh perspective of a trusted partner – the services organization at SAP.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="build-your-success-as-an-intelligent-enterprise">Build your success as an intelligent enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/services.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="kite-growing-profitable-yields-with-insight">KITE: Growing Profitable Yields with Insight</h2>
+  <p>Whether developing the latest crop protection products or designing new precision agriculture technologies, <a href="https://www.sap.com/assetdetail/2021/07/a2a8247e-ee7d-0010-bca6-c68f7e60039b.html">KITE Agricultural Service and Trade Corp.</a> understands the value of partnership. The company has joined forces with farmers all over Hungary to redirect the future of food production toward greater sustainability and effectiveness.</p>
+  <p>After realizing that the region’s farmers needed to digitalize and automate processes that required manual and paper-intensive reporting and data analysis, KITE decided that it needed a technology and innovation partner of its own. Choosing SAP Services and Support empowered the company to innovate a precision-farming IT solution, beginning with a six-month design thinking phase guided by the database know-how of SAP experts.</p>
+  <p>Using SAP Services and Support, KITE built a platform that automatically collects, analyzes, and shares data and insights in real time and from any source, such as multiple satellite feeds, field consultants, soil samples, and machine units. Farmers can now visually see on a dashboard how the quality of their fields is changing and determine the optimal balance between seeds planted and fertilizer used to help ensure better yields and maximum profits.</p>
+  <p>KITE CEO Levente Szabo states, “From now on, with the help of SAP Services and Support, we have data and analysis to help make our customers’ farming systems more sustainable and profitable.”</p>
+  <h2 id="swiss-life-ensuring-continuity-despite-disruption">Swiss Life: Ensuring Continuity Despite Disruption</h2>
+  <p>As Switzerland’s largest life insurance company, <a href="https://www.sap.com/assetdetail/2021/10/ea1afcfa-fd7d-0010-bca6-c68f7e60039b.html">Swiss Life</a> – consisting of its tied agents and Swiss Life Select sales organization – is always striving to unlock better ways to engage with its customers and sales advisors. However, midway through a project with SAP Services and Support, the COVID-19 pandemic emerged and threatened a long pause on its customer experience initiative and ability to sell and fulfill customer needs effectively.</p>
+  <p>By making its experts available remotely, SAP Services and Support helped Swiss Life push through the disruption and move forward with its plan to deliver modern, end-to-end processes that reflected the needs of changing customer behaviors. The two companies worked to deploy multi-cloud solutions, such as SAP Marketing Cloud and <a href="https://www.sap.com/products/sales-cloud.html">SAP Sales Cloud</a>, to boost customer experience.</p>
+  <p>“Despite the pandemic, we felt that everyone in the program, including SAP Services and Support, was striving hard to deliver this project on time, in budget, and within scope,” states Marc von Wartburg, head of End-to-End Customer Processes at Swiss Life. “And we succeeded.”</p>
+  <p>As a result, Swiss Life’s sales advisors continue to receive leads, create appointments, get to know new prospects, and give customers the service they expect.</p>
+  <h2 id="takeda-improving-lives-with-faster-supply-chains">Takeda: Improving Lives with Faster Supply Chains</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="see-how-customers-are-realizing-business-value-with-sap-services-and-support">See how customers are realizing business value with SAP Services and Support</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/services/resources.html?sort=latest_desc&#x26;tag=asset-type:customer-testimonial&#x26;tag=language:english">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>After discovering a breakthrough stem cell therapy that can improve the lives of people with complications from Crohn’s disease, <a href="https://www.sap.com/assetdetail/2021/09/82de4c96-f77d-0010-bca6-c68f7e60039b.html">Takeda Pharmaceuticals International</a> needed a partner that could quickly unlock its supply chain’s ability to deliver stem cells on demand within a strict schedule of only 72 hours. The R&#x26;D-driven global biopharmaceutical company initially looked at a set of potential partners. Still, SAP was the only one that could meet Takeda’s challenging timeline of five months, from kickoff to go-live.</p>
+  <p>Takeda and SAP Services and Support built a fully customized, cloud-based control tower platform that follows the entire supply chain process, from order placement to production and final delivery to the hospital. The platform also considers seasonal trends when generating flight plans, allowing the 150 hospitals with patients that rely on this therapy to be notified of delivery delays and schedule surgeries more efficiently.</p>
+  <p>“With SAP, we have an enterprise-wide program running where we develop innovative solutions on a cloud platform and leverage modern technologies such as artificial intelligence (AI), machine learning, and blockchain solutions,” adds Nathalie Van Damme, lead of EDGE of ERP Product Management at Takeda.</p>
+  <h2 id="uniper-evolving-energy-with-fast-paced-change">Uniper: Evolving Energy with Fast-Paced Change</h2>
+  <p>For <a href="https://www.sap.com/assetdetail/2021/03/aafcdb6f-da7d-0010-87a3-c30de2ffd8ff.html">Uniper</a>, working with SAP is based on time-tested friendship. “We work very closely together,” shares Guido Hoever, vice president of Commercial Solutions IT for Uniper. “Uniper and SAP colleagues feel like one team. This is special, and we are proud of that.”</p>
+  <p>As an energy company striving to empower energy evolution, Uniper relies on SAP services to constantly transform and improve its business processes and the ways its people work. The SAP ActiveAttention program is one of those services, engaging a close relationship that helps accelerate innovation delivery. Such efforts include implementing solutions and services within <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, such as the SAP Analytics Cloud solution and SAP Conversational AI.</p>
+  <p>The efforts of Uniper and SAP have led to efficiencies that enable faster reaction times, less paperwork, and shorter end-to-end processing time. For example, Uniper’s plant maintenance area uses a work clearance management system that permits workers to respond to requests immediately by switching on their mobile devices and getting the approval to start an inspection. Plus, the financial services team has reduced the time spent processing 200 to 300 invoice inquiries daily by 50% and acquired a system that generates a payment status report in seconds.</p>
+  <p>Hoever concludes, “For the future, I would like to see that we still develop innovations in a short period of time, with a high frequency, and through a strong collaboration between us and SAP.”</p>
+  <h2 id="building-trust-with-expertise-and-innovation">Building Trust with Expertise and Innovation</h2>
+  <p>I do agree with Hoever: I also look forward to watching our SAP Services and Support experts work with our customers in the future.</p>
+  <p>Every day, SAP Services and Support experts prioritize digital transformation plans, define road maps, re-platform software landscapes, and share best practices – all with a focus that puts our customers’ vision first. And it is our hope that our efforts help ensure an enterprise-wide transformation journey that is always strategic, life-changing, and meaningful.</p>
+  <div class="quote">
+    <div>
+      <div>To tap into expertise, services, and support that can help your business intelligently create value faster with greater visibility, focus, and agility, visit <a href="https://www.sap.com/services.html">sap.com/services</a>.</div>
+    </div>
+    <div>
+      <div>Guido Schlief is senior vice president and general manager of Customer Success in Middle and Eastern Europe at SAP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainability Is More than a Buzzword]]></title>
+            <link>https://www.sap.com/news/2022/02/sustainability-is-more-than-a-buzzword</link>
+            <guid>https://www.sap.com/news/2022/02/sustainability-is-more-than-a-buzzword</guid>
+            <pubDate>Mon, 21 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP partners are developing solutions that address social, economic, and environmental sustainability to create better futures. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Understanding Chip Market Dynamics]]></title>
+            <link>https://www.sap.com/news/2022/02/the-take-chip-shortage-understanding-market-dynamics</link>
+            <guid>https://www.sap.com/news/2022/02/the-take-chip-shortage-understanding-market-dynamics</guid>
+            <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A worldwide chip shortage has impacted a wide range of manufacturers, including the automotive industry. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: Understanding Chip Market Dynamics" src="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-understanding-chip-market-dynamics">The Take: Understanding Chip Market Dynamics</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>Global semiconductor industry sales reached a record $555.9 billion, up 26.2% year on year, the U.S.-based Semiconductor Industry Association (SIA) said this week.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="drive-profitable-and-sustainable-new-growth-with-automotive-industry-solutions-from-sap">Drive profitable and sustainable new growth with automotive industry solutions from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/automotive.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>The record sales came as global chip makers ramped up production to meet demand amid a worldwide chip shortage that has impacted a wide range of manufacturers — including car makers in the U.S., forcing them to cut production, eliminate showroom discounts and raise prices.</p>
+  <p>New cars prices rose by 12.2% in the year to the end of January, while used car and truck prices jumped by 40.5% according to U.S. Department of Labor <a href="https://www.bls.gov/news.release/cpi.htm">statistics</a>.</p>
+  <p>“At the beginning of the COVID-19 outbreak, as the demand for cars plummeted, the automotive industry cut its forecast by about 13%,” notes Richard Howells, an SAP supply chain expert.</p>
+  <p>At the same time, he notes, there was a huge surge in demand for consumer electronics as working from home became the norm. This resulted in increased demand for additional bandwidth, improved audio equipment, new video lighting and high-resolution cameras.</p>
+  <p>The stay-at-home mandates and office closures also increased demand for home appliances such as televisions, washing machines and dishwashers. “This caused a surge in demand for semiconductors, and high-tech OEMs quickly seized the opportunity and increased their forecast to take advantage of the additional capacity,” Howells says.</p>
+  <p>“So when car sales rebounded in late 2020 and the automotive industry started placing new orders, they couldn’t get enough chips to meet the demand. It’s simple economics. If demand is higher than supply, it usually results in increased prices.”</p>
+  <div class="promo">
+    <div>
+      <div>For further insight, see SAP’s new whitepaper:<br><a href="https://www.sap.com/documents/2021/12/56fd98a9-0e7e-0010-bca6-c68f7e60039b.html">Maintaining Business ContinuityDuring Periods of Semiconductor Shortages</a></div>
+    </div>
+  </div>
+  <p>Adding to the uncertainty, there is no general consensus on when the chip shortage will ease, although most expect supply pressures to ease in the second half of 2022.</p>
+  <p>This week Herbert Diess, Volkswagen’s chief executive, said he expects a continued hit from a shortage of semiconductors this year, but believes the company should be able to ramp up production in the second half.</p>
+  <p>AMD’s chief executive, Lisa Su, said she believes the semiconductor industry is making progress in adding capacity. “I do believe that the first half of this year will continue to be quite tight. But the second half of this year, I think things will get a little bit better,” she told Yahoo Finance Live.</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong><br>Joellen Perry, Head of <a href="/press-room">Global Public Relations</a>, SAP<br>+1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PT</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>industry/automotive</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Clearing Bridge Blockade Eases Supply Chain Woes]]></title>
+            <link>https://www.sap.com/news/2022/02/the-take-ambassador-bridge-blockade-supply-chain</link>
+            <guid>https://www.sap.com/news/2022/02/the-take-ambassador-bridge-blockade-supply-chain</guid>
+            <pubDate>Mon, 14 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[When a major trade link like the Ambassador Bridge is blocked, it can have a ripple effect across the entire supply chain. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: Clearing Bridge Blockade Eases Supply Chain Woes" src="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-clearing-bridge-blockade-eases-supply-chain-woes">The Take: Clearing Bridge Blockade Eases Supply Chain Woes</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>North America’s busiest trade link — the Ambassador Bridge between Canada and the U.S. — reopened on Sunday evening, after Canadian police ended a six-day blockade by protesters objecting to <a href="/topics/covid-19">COVID-19</a> mandates and restrictions.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-customer-centric-products-to-market-faster-and-at-less-cost-with-global-supply-chain-management-software-from-sap">Get customer-centric products to market faster and at less cost with global supply chain management software from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/supply-chain-management.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>Canadian police cleared the bridge, which had been blocked by truckers and other protesters, after obtaining a court order on Friday. Normally the bridge carries goods worth about $360 million every day between the two countries — roughly a quarter of all Canadian/U.S. daily trade.</p>
+  <p>Detroit-based auto makers ,including General Motors, Ford and Toyota, have been particularly hard hit and have announced production cutbacks because many of the components they rely on traverse the bridge.</p>
+  <p>The bridge blockade has had an impact on a wide range of industries and added to inflationary pressures in both nations while once again highlighting the fragility of some supply chains.</p>
+  <p>“When a major bridge like the Ambassador Bridge is blocked, it can have a ripple effect across the entire supply chain,” says Richard Howells, an SAP expert on <a href="https://www.sap.com/products/supply-chain-management.html">supply chains</a>. “Companies must have the resiliency to minimize and mitigate risks by designing supply chains to withstand disruptions and respond to business opportunities.”</p>
+  <p>He adds: “In this case, you need the visibility to identify which shipments and resulting orders are effected, and the agility to sense, predict and respond by re-planning distribution routes, or even identify different modes of transport.”</p>
+  <p>Among the factors Howells identifies as crucial for enterprises he says companies must have visibility into:</p>
+  <ul>
+    <li>Which materials and goods are at risk?</li>
+    <li>What are my alternate sources of supply for key resources?</li>
+    <li>Where is my inventory?</li>
+    <li>Which shipments are affected?</li>
+    <li>What are the knock-on effects to production scheduled, customer orders and ongoing campaigns?</li>
+  </ul>
+  <p>In addition he says, they need agility to redirect shipments in transit, identify and switch to alternate suppliers, identify alternate logistics modes and routes, collaborate with trading partners to secure alternate materials, products and logistics capacity, and adjust manufacturing to respond to unavailable materials.</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong> Joellen Perry, Head of <a href="/press-room">Global Public Relations</a>, SAP<br>+1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PST</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/perspective</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Omicron, U.S. Jobs and Resignations]]></title>
+            <link>https://www.sap.com/news/2022/02/the-take-us-jobs-omicron-and-resignations</link>
+            <guid>https://www.sap.com/news/2022/02/the-take-us-jobs-omicron-and-resignations</guid>
+            <pubDate>Fri, 04 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The turmoil in the U.S. labor market continues, with omicron causing disruption to the market in January. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18b35a95ed970c0ac16aef1f05b6ca4f8777201c6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18b35a95ed970c0ac16aef1f05b6ca4f8777201c6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18b35a95ed970c0ac16aef1f05b6ca4f8777201c6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: Omicron, U.S. Jobs and Resignations" src="./media_18b35a95ed970c0ac16aef1f05b6ca4f8777201c6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-omicron-us-jobs-and-resignations">The Take: Omicron, U.S. Jobs and Resignations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>The turmoil in the U.S. labor market continues. The Labor Department reported today that the U.S. economy added 467,000 jobs in January and sharply increased the estimate for payroll growth by nearly 1.2 million in November and December.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="put-employees-at-the-heart-of-everything-you-do-with-sap-successfactors-software">Put employees at the heart of everything you do with SAP SuccessFactors software</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/human-resources-hcm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>The latest figures signal that the economy is growing solidly in the face of the omicron wave of <a href="/topics/covid-19">COVID-19</a> and staffing shortages. Job growth in January<br>would have been even stronger if not for the surge in omicron cases, which closed businesses again and prevented an estimated nearly 2 million workers from looking for a job.</p>
+  <p>At the same time however, the number of employees quitting their jobs remains near record levels. An estimated 4.3 million American workers left their jobs in December — down only slightly from November’s all-time high.</p>
+  <p>Meanwhile, employers reported some 10.9 million job openings in a survey from the Bureau of Labor Statistics, well above pre-pandemic averages. While some workers were no doubt job-hopping — cashing in on labor shortages in certain sectors such as tech and trucking, which have pushed up wages and salaries — the continued high number of people leaving their jobs suggest other factors are also in play.</p>
+  <p>“We will continue to see a lot of movement in the labor market as part of this ‘Great Reshuffle.’ People are feeling burned out and, in many cases, not valued by their current employer,” says Jill Popelka, <a href="https://www.sap.com/products/human-resources-hcm.html">SAP SuccessFactors</a> President.</p>
+  <p>Employees, particularly parents, many of whom had to juggle multiple responsibilities as omicron case numbers surged at the end of 2021, are looking for new opportunities to expand their skills and to find a work environment that is more aligned to their personal purpose and values, Popelka says.</p>
+  <p>So how can companies compete? “They need to think differently about the experience they’re providing for employees and in most cases they need a new approach,” she says.</p>
+  <p>“Compensation matters. But what we’re hearing from employees is that growth and learning is even more critical. Organizations need to provide opportunities for employees to learn new skills, try out different projects and find a way to align their job with their unique talents and interests. When companies can figure out how to provide this type of individualized experience, that’s when they’ll be successful retaining and recruiting talent.”</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong> Joellen Perry, Head of <a href="/press-room">Global Public Relations</a>, SAP<br>+1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PST</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[One Supply Chain Disruption That Didn't Happen: The Case for Business Networks]]></title>
+            <link>https://www.sap.com/news/2022/02/supply-chain-disruption-case-for-business-networks</link>
+            <guid>https://www.sap.com/news/2022/02/supply-chain-disruption-case-for-business-networks</guid>
+            <pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In supply chain disruption, business networks help to mitigate risk to the global flow of goods and materials and drive business continuity.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_156f97749f9355e306e2136561cbd2af754f58f5b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_156f97749f9355e306e2136561cbd2af754f58f5b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_156f97749f9355e306e2136561cbd2af754f58f5b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="One Supply Chain Disruption That Didn’t Happen: The Case for Business Networks" src="./media_156f97749f9355e306e2136561cbd2af754f58f5b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="one-supply-chain-disruption-that-didnt-happen-the-case-for-business-networks">One Supply Chain Disruption That Didn’t Happen: The Case for Business Networks</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>If supply chain pros have learned anything recently, it’s that the system we have in place for the global flow of goods and materials is vulnerable to disruption.</div>
+    </div>
+  </div>
+  <p>The causes are many: devastating storms and floods, trade wars, political upheavals, cybersecurity attacks, and much more. But the grandfather of them all has been the disruption caused by the <a href="/covid-19">COVID-19</a> pandemic.</p>
+  <p>I speak with a lot of companies about their supply chain challenges. Because of these disruptions, the word on the lips of everyone today is “<a href="https://www.forbes.com/sites/sap/2020/03/31/business-as-unusual-resiliency-in-times-of-supply-chain-disruption/?sh=1be93ece568b">resilience</a>.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="what-can-sap-business-network-do-for-your-business">What can SAP Business Network do for your business?</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-network.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="but-how-do-you-build-supply-chain-resilience">But How Do You Build Supply Chain Resilience?</h2>
+  <p>To answer this question, I like to tell the story of one company that managed the shutdowns early in the pandemic much better than most – and they did it thanks to business networks.</p>
+  <p>This company is a large American power generator – one that orders a steady supply of engines that go into its generators. It just so happens that the supplier for these engines was in Wuhan, China, ground zero for the pandemic. After the shutdowns began in Wuhan, the company tried for days to call the factory to find out the fate of its latest order.</p>
+  <p>But no one at the plant would answer the phone. The reason was obvious: almost everyone in Wuhan was on lockdown. Operating without information, the company scrambled to find a new source of supply.</p>
+  <p>But before it did, an advance shipping notification came in over its business network: “Expect your order to arrive within six to seven days by air freight.” Crisis averted – thanks to the business network.</p>
+  <h2 id="what-is-a-business-network">What Is a Business Network?</h2>
+  <p>A business network is a system, ideally cloud-based, that brings together buyers and suppliers for real-time collaboration and visibility. But here’s the critical point about business networks: for them to work, you need to be up and running before the disruption happens.</p>
+  <p>Fortunately, the company in this story was up and running. So, despite a severe communication breakdown resulting from an unprecedented global health crisis, it was at least able to receive a signal that the order was on the way.</p>
+  <p>This signal helped the company avoid a cascade of quite dire business outcomes. Even if the company was able to find another supplier, the delays would have thrown schedules off, and the company would have had to retrofit the new engines to meet regulatory standards. That would have taken a lot of time, money, and energy.</p>
+  <h2 id="the-nervous-system-of-the-global-economy">The Nervous System of the Global Economy</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-an-sap-business-network-for-supply-chain-overview-video">Watch an SAP Business Network for Supply Chain overview video</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/assetdetail/2021/11/3c0eb574-037e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Networks are resilient. If part of a network goes down, other parts step in to fill the void. Compare this to the old world of supplier interaction, which called for one-to-one data feeds typically managed through the tedious machinations of electronic data interchange (EDI). The vulnerabilities associated with this approach (particularly isolation) are obvious.</p>
+  <p>The network approach dramatically opens up the possibilities for connection. Instead of you <strong>against</strong> the world, it’s you <strong>in</strong> the world – connecting to and collaborating with an ever-wider range of suppliers <strong>throughout</strong> the world.</p>
+  <p>This is why companies are moving aggressively to <a href="https://www.sdcexec.com/software-technology/emerging-technologies/article/21354478/sap-integrated-business-networks-increasingly-a-counterweight-to-disruption">join business networks</a> to manage their supply chains. In the face of disruptions, the <a href="https://blogs.one.int.sap/sapnews_en/2021/03/only-resiliency-will-refloat-global-supply-chains/">resilience of business networks</a> can help organizations get through the rough patches.</p>
+  <h2 id="its-about-using-data-to-your-advantage">It’s About Using Data to Your Advantage</h2>
+  <p>The lifeblood of any business network is the sharing of data. Based on this data, you can analyze almost anything in your supply chain to <a href="https://www.forbes.com/sites/sap/2020/05/14/four-steps-to-future-proof-supply-chains-against-disruptions/?sh=7eb2676467b8">find new ways to solve problems</a> and run your business more efficiently.</p>
+  <p>Take, for instance, the <a href="https://www.forbes.com/sites/sap/2021/10/07/container-ship-crisis-underscores-critical-supply-chain-challenges/?sh=324838e25416">container ship</a> that found itself grounded for six days in the Suez Canal back in March 2021. One company I speak with regularly had perishable goods on board with a short shelf life. Because of track and trace capabilities – enabled, in part, due to data feeds through its business network – it was able to monitor the status of its goods and then run simulations about the most feasible courses of action. That’s putting data to work.</p>
+  <h2 id="the-importance-of-moving-now">The Importance of Moving Now</h2>
+  <p>Business networks are demonstrating their value. But again, it’s worth repeating: the advantages can only be realized if you’re already on the network to begin with. It’s important to get set up now. Because if you wait for the disruption to happen – and it will – you can expect to be disrupted.</p>
+  <p><a href="https://www.sap.com/products/business-network.html">Visit us online</a> for a deeper dive into business networks.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Greg Mekjian is global VP and general manager for SAP Business Network.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[How One Tech Company Enhances Port Operations]]></title>
+            <link>https://www.sap.com/news/2022/01/how-tech-mahindra-enhances-port-operations</link>
+            <guid>https://www.sap.com/news/2022/01/how-tech-mahindra-enhances-port-operations</guid>
+            <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tech Mahindra used SAP BTP to develop its Port Logistics solution, a unified platform for secure, faster clearance processes in ports.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How One Tech Company Enhances Port Operations" src="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-one-tech-company-enhances-port-operations">How One Tech Company Enhances Port Operations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="/covid-19">COVID-19</a>: a topic that we have all become intimately familiar with over the last two years. And although scientists have made great strides in developing effective vaccines since the beginning of the pandemic, they certainly cannot account for the ways in which COVID-19 has impacted nearly every sector of the economy.</div>
+    </div>
+  </div>
+  <p>In particular, COVID-19 continues to have far-reaching consequences on global supply chains. This perhaps would come as no surprise in early 2020, when many were scrambling in grocery stores for toilet paper, cleaning products, and other necessities in preparation for quarantine lockdowns.</p>
+  <p>However, more than a year has passed since this frantic phase and global supply chains are still trying to recover from the whiplash. In turn, major ports across the U.S. – from Los Angeles and Long Beach in California to Savannah, Georgia – are facing unprecedented backlogs. Whether it be buying gifts or purchasing a new car, the shipping crisis is sure to impact many of us.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-tech-mahindras-sap-innovation-awards-pitch-deck">Read Tech Mahindra's SAP Innovation Awards pitch deck</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2387">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="port-logistics-operations">Port Logistics Operations</h2>
+  <p>Focusing on the <strong>ports and maritime industry</strong>, the most significantly affected sectors have been chemical tankers, cruise ships, and passenger ships. The ship traffic from Europe to China and the U.S. has declined compared to the same periods in 2019.</p>
+  <p>To cope with the disruption, changes are expected to happen in operational, financial, and economic areas – as well as sanitary protocols and processes and adjustments to working practices and organizational aspects.</p>
+  <p>So where do businesses like Tech Mahindra come in?</p>
+  <p>Based in Pune, India, <strong>Tech Mahindra</strong> is a multinational technology company with over 125,000 employees. Working with SAP Co-Innovation Lab, Tech Mahindra developed a cloud-based solution for handling port logistics operations. Its Port Logistics solution, built on <a href="https://www.sap.com/products/integration-suite.html">SAP Integration Suite</a>, provides a unified and collaborative platform for secure and faster clearance processes in ports.</p>
+  <h2 id="sailing-past-the-paperwork">Sailing Past the Paperwork</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-the-platform-for-the-intelligent-enterprise">SAP BTP: The platform for the Intelligent Enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Leveraging the Port Logistics solution reduces the amount of paperwork and in less time. This translates into more funds, and who doesn’t want to save a little extra money? The solution enhances port operations using automation that:</p>
+  <ul>
+    <li>Provides a single window for the port authorities receiving the products to have secure communication and exchange information with the ship personnel for handling the cargo and logistics clearance</li>
+    <li>Tracks transactions and approvals</li>
+    <li>Analyzes deviation reports for transparency</li>
+  </ul>
+  <p>The solution offers real-time analysis for quick decisions, smooth information flow, and automated document verification. The new process saves time in checking in and cross-verifying for each clearance process requirement. This means no more manual paperwork, customers receive their goods faster, and revenue is realized sooner.</p>
+  <p>In real-world application, the process <strong>reduces the cost</strong> of data transfer and documentation management by 90% and <strong>increases revenue</strong> by 20%.</p>
+  <h2 id="looking-to-the-future">Looking to the Future</h2>
+  <p>Automation is more than convenience – it’s necessary. It saves time and money in unexpected ways, such as facilitating supply chains for food. As we learn to stay afloat amidst a global pandemic, improving operational efficiency for ports remains a priority. Tech Mahindra has been planning for the next generation of smart ports to prepare for the expected upsurge in shipping volume.</p>
+  <p>To learn more about Tech Mahindra and its Port Logistics solution, check out its SAP Innovation Awards 2021 <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2387">pitch deck</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Rajshree Chauhan and Casey Tobias are SAP Global Marketing contributors.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-integration-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: U.S. Immigration Policy and Labor Shortages]]></title>
+            <link>https://www.sap.com/news/2022/01/the-take-immigration-policy-labor-shortages</link>
+            <guid>https://www.sap.com/news/2022/01/the-take-immigration-policy-labor-shortages</guid>
+            <pubDate>Tue, 25 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Current labor shortages predate the arrival of COVID-19, with the U.S. immigration system not keeping up with the times. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17b613dfab5f240f921300aa56d5dc2cdb8fb8c78.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17b613dfab5f240f921300aa56d5dc2cdb8fb8c78.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17b613dfab5f240f921300aa56d5dc2cdb8fb8c78.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: U.S. Immigration Policy and Labor Shortages" src="./media_17b613dfab5f240f921300aa56d5dc2cdb8fb8c78.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-us-immigration-policy-and-labor-shortages">The Take: U.S. Immigration Policy and Labor Shortages</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>U.S. business leaders, including the U.S. Chamber of Commerce, are sounding the alarm over labor shortages and arguing that immigration rules need to be eased to allow more immigrants into the country.</p>
+  <p>In a recent survey conducted by The Conference Board, U.S. CEOs said labor shortages are the number-one threat to their businesses this year.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sign-up-for-the-weekly-sap-news-center-newsletter">Sign up for the weekly SAP News Center newsletter</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="background">Background</h2>
+  <p>From truck drivers to nurses and teachers, the headlines are full of stories about the impact of the pandemic and labor shortages on the supply chain and – indirectly – on prices. Since the start of the pandemic, millions of immigrants, older workers and mothers have left or otherwise been excluded from the labor force.</p>
+  <p>Based on census data analyzed by the University of California, Davis, there are about 2 million fewer working-age immigrants in the U.S. because of immigration restrictions related to <a href="/topics/covid-19">COVID-19</a> — of which about half are higher-educated adults.</p>
+  <p>At the same time, some older workers facing workplace closures, pandemic-related restrictions, and concerns about health have decided to retire early. The Federal Reserve Bank of St. Louis calculates that there were a higher-than-expected 3.3 million more retirees in October 2021 than in January 2020.</p>
+  <p>Meanwhile, about 1.5 million fewer mothers of school-age children are actively working compared with pre-pandemic times, according to the U.S. Census Bureau, reflecting the fact that mothers have borne the brunt of the impact from school disruptions and closures due to to reduced childcare options.</p>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>In many sectors, including technology, labor shortages predate the arrival of COVID-19 and partly reflect an immigration slowdown that began during the Trump administration.</p>
+  <p>Peter Selfridge, <a href="https://www.sap.com/index.html">SAP</a> senior vice president and head of Global Public Policy and Government Affairs, argues that the current labor shortage in the tech sector — like supply chain problems — reflects a combination of problems, including those that predate the pandemic.</p>
+  <p>“It’s our immigration system that needs an overhaul,” Selfridge says. “The system is not keeping up with the times.”</p>
+  <p>Overall, he says, a combination of tighter restrictions on immigration, fewer work visas, and limits on the ability of foreign-born students to remain in the U.S. after they graduate has resulted in a significant shrinkage of the available workforce. “On top of that we had COVID, which has sidelined many workers, reduced graduation rates and the like.”</p>
+  <p>To help fix the problem, SAP supports U.S. immigration reforms to ensure U.S. operations have access to the best and the brightest global talent. In addition, SAP supports investing in the next generation of innovators to prepare workers for the digital economy by providing STEM education and skills training in artificial intelligence (AI), machine learning, and data science.</p>
+  <p>“We support raising the temporary cap for H-1B visas from its current limit of 65,000 per year, making employment-based green cards more readily available, and eliminating the arbitrary per-country caps on employment-based green cards,” Selfridge confirms.</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong> Joellen Perry, Head of <a href="/press-room">Global Public Relations</a>, SAP<br>+1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PST</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-about-what-life-looks-like-at-sap">Learn about what life looks like at SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/careers/who-we-are/life.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/the-take</category>
+        </item>
+    </channel>
+</rss>

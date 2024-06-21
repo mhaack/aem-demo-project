@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/digital-commerce/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 06 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[More Than Just the Numbers: Insights from 2023 Cyber Week]]></title>
+            <link>https://www.sap.com/news/2023/12/cyber-week-2023-insights</link>
+            <guid>https://www.sap.com/news/2023/12/cyber-week-2023-insights</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Black Friday marks the beginning of the holiday shopping season. Learn about SAP customers' successes during Cyber Week 2023.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="More Than Just the Numbers: Insights from 2023 Cyber Week" src="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="more-than-just-the-numbers-insights-from-2023-cyber-week">More Than Just the Numbers: Insights from 2023 Cyber Week</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Black Friday marks the beginning of the holiday shopping season and there have been great stories of record-breaking volumes, many from SAP customers that experienced success during Cyber Week, the Monday before Black Friday to Cyber Monday.</div>
+    </div>
+  </div>
+  <p>Through Cyber Week, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> customers achieved over a 35% year-over-year (YoY) increase in the number of orders processed, an astounding amount of $110 million in peak gross merchandising value (GMV) per minute, and a 9.3% YoY increase in overall site traffic. Essential for driving site traffic and increasing conversions is customer engagement, and on Cyber Weekend, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Emarsys Customer Engagement</a> supported customers with a nine percent YoY increase of overall send volume across all channels. What’s more, SAP Commerce Cloud customers achieved a 5.04% higher conversion rate versus 2022, and retailers saw a 5.2% higher conversion rate during Cyber Week.</p>
+  <p>This success was possible due to the reliability, scalability, and intelligence of <a href="https://www.sap.com/products/crm.html">SAP Customer Experience solutions</a> for individually curated shopping journeys across the globe.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="unlock-business-agility-and-transform-customer-experiences-with-sap-commerce-cloud">Unlock business agility and transform customer experiences with SAP Commerce Cloud</h3>
+        <p><em><a href="https://www.sap.com/products/crm/commerce-cloud.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>But at SAP, it is not just about the numbers. Deriving insights from data is at the heart of SAP and the start to the holiday shopping season provided a treasure trove of learnings and understanding about how people are shopping and how retailers can <a href="/topics/crm-customer-experience">optimize their experiences</a>.</p>
+  <p>By serving some of the largest brands in the world through this holiday season, here is what we learned.</p>
+  <h2 id="insight-one-the-definition-of-holiday-season-is-expanding">Insight One: The Definition of “Holiday Season” Is Expanding</h2>
+  <p>Traditionally, Black Friday is considered as a starting point for the holiday shopping season. However, recent research has revealed the holiday shopping is starting sooner and extending over the course of several weeks.</p>
+  <p>According to <a href="https://go.criteo.com/">Criteo</a>, an SAP commerce media partner, the longest path to purchase during the holidays is <a href="https://c-grid.criteo.com/holiday-season-success-2023">about 45 days</a>. This includes Singles Day, originated in China, on November 11 and El Buen Fin, Mexico’s version of Cyber Weekend from November 17 to November 20.</p>
+  <p>In 2023, SAP Emarsys Customer Engagement saw a spike on Singles Day, nearly surpassing 1 billion customer engagements — for example, email, SMS, mobile push, and web push — two weeks ahead of Black Friday. This figure was then eclipsed not once but twice during El Buen Fin, which saw overall an approximate 30% YoY increase in messages delivered.</p>
+  <p>When looking at just email growth during this season, the growth of volume for the entire month of November was nearly twice what it was for Cyber Weekend. This not only underscores that holiday shopping is starting earlier, but how brands are scaling up sooner and avoiding sharp peaks, which is a win for deliverability too.</p>
+  <p>Newly emerging celebrations and extended shopping seasons also mean a higher and longer strain on e-commerce sites. However, SAP Commerce Cloud prepared the customers to combat this challenge during these peak sales times leading up to Cyber Week, and delivered 100% uptime. In fact, customers that ran holiday sales events during El Buen Fin achieved 112% growth in conversion rate, with 10% higher traffic volume compared to the regular daily average of 2023.</p>
+  <h2 id="insight-two-email-still-reigns-but-omnichannel-engagement-is-rapidly-growing">Insight Two: Email Still Reigns, But Omnichannel Engagement Is Rapidly Growing</h2>
+  <p>While overall 2023 holiday sales are expected to <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between three and four percent</a>, online sales are expected to double and <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between seven and nine percent</a>. More digitally advanced customer journeys and increasingly tech-savvy buyers present an exciting opportunity for businesses to engage with shoppers more often and on their preferred channels.</p>
+  <p>Aiming to capitalize on this opportunity and remain top of mind with shoppers, SAP Emarsys customers sent a record number of omnichannel messages, resulting in a nine percent YoY increase in customer engagements from 2022. Email remained the top promotional channel in terms of volume and saw a respectable 10% YoY increase.</p>
+  <p>In addition to email, brands are also now investing heavily in omnichannel engagement strategies to meet customers where they prefer to shop. Mobile messages like SMS (35% YoY increase) and in-app (15% YoY increase) were utilized effectively alongside email, as were Web channel engagements, like Web push, which saw a whopping 74% increase in usage in 2023.</p>
+  <h2 id="insight-three-personalization-proves-less-is-more">Insight Three: Personalization Proves Less is More</h2>
+  <p>It is important to acknowledge that success does not equate to the quantity of messages, but also the quality. Bucking the notion that more is simply better, marketers using SAP Emarsys increased utilization of data-driven segmentation by 20% compared to Cyber Weekend 2022, enabling more targeted offers and personalized messages. While conversion rates would naturally be expected to dip given the extra volume, this targeted and personalized approach contributed to minimal or no change compared to baseline conversion rates during a typical weekend.</p>
+  <p>Similarly, AI-powered product recommendations, delivered across channels, and <a href="https://www.sap.com/products/artificial-intelligence/marketing.html#ecommerce">intelligent shopping assistants from SAP Customer Experience solutions</a> also helped consumers find the right product or best deal among the seemingly limitless choices — with confidence and ease.</p>
+  <p>With consumers shopping for an extended period on more channels, brands have both an obligation to meet them where they are in their journey and an opportunity to earn their business and loyalty by investing in data-driven, omnichannel strategies that better match them with personalized offers on the items they wish to buy.</p>
+  <h2 id="insight-four-b2b-shoppers-share-the-holiday-fever-during-cyber-week">Insight Four: B2B Shoppers Share the Holiday Fever During Cyber Week</h2>
+  <p>Black Friday is usually seen as an influential opportunity to create a revenue boost for retailers. However, SAP has the privilege of working with many B2B commerce companies in addition to a large number of retailers.</p>
+  <p>According to our data, other industries outside of retail also experience the benefits of Black Friday and Cyber Monday pushes. While the retail industry had the highest volume of orders, consumer products and wholesale distribution came in close behind. Additionally, the chemicals industry saw a huge spike in AOV over the weekend and achieved a GMV increase of 51% YoY, while life sciences industry saw more than 120% YoY GMV growth.</p>
+  <p>These data points indicate that Cyber Week trends are no longer limited to retailers, as various industries now achieve bigger sales volume and revenue during this period. Moving forward, organizations across all industries must put their best foot forward during Cyber Weekend activities to support profitable growth.</p>
+  <h2 id="insight-five-black-friday-isnt-just-about-the-us-thanksgiving-holiday-anymore">Insight Five: Black Friday Isn’t Just About the U.S. Thanksgiving Holiday Anymore</h2>
+  <p>The data from SAP Commerce Cloud also reflects the globalization trend. While North America led the biggest GMV number on Black Friday, the Europe, Middle East, and Africa (EMEA) region is comparable. In fact, the highest number of orders, about 800,000, was placed in EMEA. Additionally, the Asia Pacific and Japan (APJ) region on Cyber Monday achieved over 130% growth in conversion rate compared to last year.</p>
+  <p>SAP Emarsys customers were also ready to leverage this trend and engage with customers around the world. On Cyber Monday, total send volumes saw significant YoY increases in multiple regions: by 20% in EMEA, over 27% in Middle and Eastern Europe (MEE), and over 15% in Asia.</p>
+  <p>The data also highlighted differences in how consumers shop and buy in different regions. Unsurprisingly email continued to be the most used channel across the board, though EMEA proved to be the only region, outside of the Americas, that saw high growth in email volume year-on-year with a 13% increase.</p>
+  <p>The MEE region saw a slight decrease in the use of email (-12% YoY) in favor of SMS, mobile push, and in-app messages. In APJ, where a mobile-first mindset is often the norm, usage of in-app (58% YoY growth) and mobile push (176% YoY growth) went up significantly compared to email growth (two percent YoY). Even in EMEA, SMS (53% YoY growth) and in-app (388% YoY growth) mobile messages outpaced email growth, underscoring the importance of an omnichannel strategy.</p>
+  <p>This data illustrates the global influence of Black Friday, what used to be considered an U.S.-specific sales event. For businesses across the globe, it is crucial to recognize this shift and consider customer behaviors, so they can adapt and evolve their commerce and channel engagement strategies to gain customer loyalty and boost profitability.</p>
+  <h2 id="next-step">Next Step</h2>
+  <p>As market trends evolve, organizations must proactively adopt strategies for profitable and sustainable growth. With the right blend of modern technologies, agile business processes, and customer centric strategies, businesses significantly benefit from extended shopping season, through personalized omnichannel engagements, increased conversions, and lifelong customer loyalty.</p>
+  <p>Moreover, with the right choice of cloud technologies, organizations can remain secure and compliant, while delivering reliable, scalable, and personalized experiences that are optimized for their industries.</p>
+  <p>To learn more about how SAP Customer Experience solutions can help, please <a href="https://www.sap.com/products/crm.html">visit us at sap.com/crm</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Balaji Balasubramanian is senior vice president and global head of Commerce and Industry Cloud at SAP.</div>
+    </div>
+  </div>
+  <p><em>*All data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. All financial figures are in USD. Data represents online and offline sales made by SAP global merchants.</em></p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers New Approach to Composability, Helping Businesses Drive Profitability and Move Fast on Their Own Terms]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-delivers-new-approach-to-composability</link>
+            <guid>https://www.sap.com/news/2023/03/sap-delivers-new-approach-to-composability</guid>
+            <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is introducing a new composability offering in SAP Commerce Cloud. Read to learn about this unique, composable approach.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/commerce</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[A Revolution in Product Discovery with Zoovu Apps on SAP Store]]></title>
+            <link>https://www.sap.com/news/2022/12/revolution-in-product-discovery-zoovu-sap-store</link>
+            <guid>https://www.sap.com/news/2022/12/revolution-in-product-discovery-zoovu-sap-store</guid>
+            <pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Zoovu humanizes product discovery, making products easier to find, evaluate, and buy by bringing context to your search. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-cpq</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>news-tag/sap-digital-commerce</category>
+            <category>product/sap-sales-cloud</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[New Survey Finds Digital Marketplaces Are the Future of Commerce]]></title>
+            <link>https://www.sap.com/news/2022/12/digital-marketplaces-future-commerce-new-survey</link>
+            <guid>https://www.sap.com/news/2022/12/digital-marketplaces-future-commerce-new-survey</guid>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[New survey results show that digital marketplaces are here to stay and resources like SAP Store and SAP.com are key.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Coveo Search and Recommendation Quickly Finds Relevance on SAP Store]]></title>
+            <link>https://www.sap.com/news/2022/08/coveo-search-and-recommendation-sap-store</link>
+            <guid>https://www.sap.com/news/2022/08/coveo-search-and-recommendation-sap-store</guid>
+            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Coveo helps online buyers easily and quickly find what they’re looking for—and what they might be looking for. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Forter Trust Platform: On the Right Side of Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</link>
+            <guid>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</guid>
+            <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To combat fraud, the Forter Trust Platform recognizes shoppers through their data profile and authenticates them quickly and automatically.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Forter Trust Platform: On the Right Side of Digital Commerce" src="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="forter-trust-platform-on-the-right-side-of-digital-commerce">Forter Trust Platform: On the Right Side of Digital Commerce</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>If your organization has a stake in preventing fraud across your digital commerce operations, I’ll venture to say that you want Michael Reitblat and his team at Forter on your side.</div>
+    </div>
+  </div>
+  <p>As co-founder of the preeminent fraud-detection platform on the market – now available on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a> – Reitblat told me that he has long experience in the “bad guy space,” building a successful career around staying ahead of bad actors. That means he’s the good guy for those making an honest living selling products and services online, and for buyers and shoppers making purchases digitally.</p>
+  <p>Known as “The Trust Platform” for digital commerce, Forter doesn’t focus on keeping people out, rather on creating a seamless customer experience for trusted shoppers. How is this done? Machine learning and automated decisioning. Built upon a data set of billions of online identities, the Forter platform provides accurate decisions on whether the end shopper is who they say they are instantly. This ability to provide real-time decisions also streamlines merchant operations, eliminating any dependence on manual transaction reviews. That’s the key to understanding the value of this great app.</p>
+  <p>The truth is that both online consumers and merchants are victimized by sophisticated, well-organized fraud networks, Reitblat explained, stealing and selling data in a chain of hard-to-detect transactions. To counteract that, merchants can inadvertently block shoppers who most need to purchase online because they fit the “wrong profile” – living in a country known for a high preponderance of fraudsters, for example. Someone might live a long distance from a physical retailer and be unable to buy essential items online, through no fault of their own. “We are here to give those buyers access, and that is a great source of pride,” he remarked. Further, if a consumer faces hurdles to online purchasing because of clumsy verification processes, they’ll just shop somewhere else. It is therefore crucial to eliminate false declines and reduce friction throughout the purchase journey.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-the-forter-trust-platform">Learn more about the Forter Trust Platform</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Trust%20Platform%20for%20Digital%20Commerce">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="foiling-scams-through-a-circle-of-trust">Foiling Scams through a Circle of Trust</h2>
+  <p>It’s somewhat ironic that the best way to thwart fraud is to operate in an environment of trust. In fact, trust among competitors is at the heart of Forter Fraud Protection. Criminals will target one type of company – a shoe manufacturer, for example – and, when detected, move on to exploit the next, giving them the advantage. “We reverse that asymmetry,” Reitblat said. “If you attack one of our customers, the others are immunized, thanks to an aggregated global network of data. They would never share their data with each other, but they are happy to do it through us.” Simply put, the Forter solution is built to recognize people through their data profile and authenticate them quickly and automatically.</p>
+  <p>I asked Reitblat about credit card protection. When a consumer reports a fraudulent charge, he replied, the onus is on the retailer, who is left with the expense and is subject to fines or suspension by the credit card issuers if there are too many instances. I was also curious about how Forter stays in front of the fraudsters. Let’s just say that Reitblat, who grew up in Israel and was once a member of the intelligence community there, has his people. “Detecting security breaches, theft, the dark economy – it’s the same world,” he said. “We have an active research team staying on top of these constantly evolving threats.”</p>
+  <h2 id="strength-in-numbers">Strength in Numbers</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-all-that-sap-store-has-to-offer">Explore all that SAP Store has to offer</h3>
+      </div>
+      <div><strong><a href="http://store.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Reitblat co-founded Forter after working with a cybersecurity company that went through an acquisition – a crushing blow for him. Fortunately, he had reunited with an old high school friend from Jerusalem who also recognized that online commerce was about to take off. “In 2013, we still had to convince investors of the need for an authentication capability, and that it had to be fully automated or otherwise would require too many people to be scalable.” That resistance changed quickly, and today Forter is larger than many of its major customers, processing more than US$250 billion in transaction value per year and employing 500 professionals around the world. The solution is deployed in more than 30 countries.</p>
+  <p>The <a href="http://news.sap.com/tags/covid-19">events of the past two years</a> have resulted in a burst of demand that Reitblat and his partner could not have foreseen. Besides the explosion in online shopping, purchasing behavior and customer demographics across industries changed. New retail features appeared, like curbside pickup, buy online/pick up in store (BOPIS), and contactless check-in and check-out in the hospitality industry. New online buyers included senior citizens, students, and those in advancing geographies who had never transacted online before. Additionally, with the sudden surge of orders to be delivered to alternate addresses – holiday gifts, for example, or people purchasing for family members – e-commerce systems had an extra challenge in verifying legitimacy. That process was less complex for Forter customers because its customers were already authenticated in the system.</p>
+  <p>Forter Fraud Protection is tightly integrated with SAP Commerce Cloud. Laura Jorgens, director of Partnerships for Forter, acknowledged SAP partner <a href="https://netconomy.net/">Netconomy</a> for its “incredible support” in building out the integration. “Working with SAP and Netconomy feels like one ecosystem pulling together,” she said. “Hats off to the SAP partnership organization.” With the inclusion of Forter’s solution on SAP Store, she added, “SAP has become one of Forter’s most important partners.”</p>
+  <p>Why not see for yourself how <a href="https://www.youtube.com/watch?v=Tp3RHdk5Yic">Forter Trust Platform</a> works? The solution was just <a href="https://store.sap.com/dcp/en/news-blogs/blogs/celebrating-the-20th-year-of-sap-pinnacle-awards-and-partner-innovations-on-sap-store">named</a> an SAP Pinnacle Award finalist in the New App of the Year on SAP Store category. It’s available for download on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a>. Or download the SAP and Forter <a href="https://l.forter.com/hubfs/forter-SAP-brochure.pdf">overview brochure</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Rajiv Nema is senior director of SAP Store Partner Solutions.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-digital-commerce</category>
+            <category>sap-award/sap-pinnacle-awards</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Think Globally, Transact Locally with Digital River App on SAP Store]]></title>
+            <link>https://www.sap.com/news/2021/10/digital-river-app-on-sap-store</link>
+            <guid>https://www.sap.com/news/2021/10/digital-river-app-on-sap-store</guid>
+            <pubDate>Tue, 12 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Available on SAP Store, the Digital River app enables companies to offload the entire back end of their e-commerce transactions. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_119525d1bd9dafea2899d5ec9018dbacc2e6af266.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_119525d1bd9dafea2899d5ec9018dbacc2e6af266.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_119525d1bd9dafea2899d5ec9018dbacc2e6af266.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Think Globally, Transact Locally with Digital River App on SAP Store" src="./media_119525d1bd9dafea2899d5ec9018dbacc2e6af266.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="think-globally-transact-locally-with-digital-river-app-on-sap-store">Think Globally, Transact Locally with Digital River App on SAP Store</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>What does the future hold for e-commerce, and for our experiences as consumers? I asked that question of Michael French of Digital River, an SAP partner and expert in managing e-commerce transactions on behalf of some of the world’s largest enterprises via its <a href="https://www.store.sap.com/apps/59371?source=blog-DigitalRiver">Payments, Fraud, Tax &#x26; Compliance Management app</a>.</div>
+    </div>
+  </div>
+  <p>“Companies have learned that customer experience matters, and that requires flexibility and choice, microservices, and the ability to make changes to their platforms quickly and easily on their own,” French told me. “There will be more transactions conducted via social channels, and via multiple devices. There will be more use of the Internet of Things to give consumers the convenience to have an appliance or a device or a car automatically order when it needs a new component — to do the work for you. And because of that, there will be a push and pull among the opposing forces of convenience, data privacy, and security.”</p>
+  <p>Clearly, businesses need to be ready for these future advances, which are already in our midst. I think one of the best ways to prepare is with Digital River’s <a href="https://www.store.sap.com/apps/59371?source=blog-DigitalRiver">Payments, Fraud, Tax &#x26; Compliance Management app</a>, available on <a href="https://store.sap.com/en/">SAP Store</a>. It enables companies to offload the entire back end of their e-commerce transactions and, as the name implies, leave payments, fraud, tax, and compliance to Digital River. With Digital River acting as the merchant of record, your organization does not need to worry about maintaining a complex e-commerce infrastructure.</p>
+  <p>If your infrastructure is typical of many he sees, French observed, “It’s like a Frankenstein monster that’s sewed together, but doesn’t walk around too well.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="shop-digital-river-on-sap-store">Shop Digital River on SAP Store</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/product/display-0000059371_live_v1/Payments,%20Fraud,%20Tax%20&#x26;%20Compliance%20Management">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="simplifying-e-commerce">Simplifying E-Commerce</h2>
+  <p>The Digital River app calculates local taxes, enables local payments and payment methods, and displays the appropriate currency and terms of sale through integration with the SAP Commerce Cloud solution. In nearly every country in the world where you do — or plan to do — business, the Digital River app stays current on the ever-changing regulations. If you face a tax audit, Digital River will defend you from liability.</p>
+  <p>What about inventory and delivering product? Digital River has relationships with local distributors to support retail e-commerce. Digital River manages data-privacy compliance with regulations like GDPR, with controls embedded, automated, and continuously updated in the software. For individual data privacy, the brand sets up permissions for the buyer based on preferences.</p>
+  <h2 id="supporting-global-expansion">Supporting Global Expansion</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-commerce-cloud-create-market-defining-e-commerce-experiences">SAP Commerce Cloud: Create market-defining e-commerce experiences</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/commerce-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Handing off these responsibilities enables your team to concentrate on what you do best: offering superior customer experiences and staying ahead of the technology that will define the future. Equally important, you can position your company for geographic expansion. According to French, Digital River customers can begin conducting transactions in a new country in less than eight weeks — a process that normally takes months, even years. Meanwhile, you have reassurance from a company with offices worldwide that manages some US$3 billion transactions every year.</p>
+  <p>How did Digital River become such a trusted resource, with both compliance architecture and technical capabilities on such a large scale? The company was an e-commerce pioneer way back in 1994, French explained, supporting software companies in moving their licensing and distribution from CD-ROMs and floppy disks to Internet downloads. Remember that?</p>
+  <p>By about 2015, however, company management made a major decision, shifting to focus fully on back-office functions as it does today. “Rather than continue to offer the full technology stack, we invested in what we ourselves do best,” he said. “That refocused strategy eventually led to our partnership with SAP.”</p>
+  <h2 id="investing-in-the-partnership">Investing in the Partnership</h2>
+  <p>With 11 years at Digital River as vice president of Global Partnerships, French has deep insight into the relationship with SAP and how it evolved. “We began by considering what we needed to be successful in this space. Who had the market share and solution capability in consumer goods? Whose technology stack could we easily plug into without forcing something unnatural?”</p>
+  <p>Becoming part of the SAP ecosystem would prove to be a crucial move. “We invested in the partnership and put a team in place dedicated to expanding market opportunities with SAP, including SAP Store.”</p>
+  <p>It’s gone well. “We expected SAP to be a bear to work with,” he added, “but we were pleasantly surprised by the willingness to engage with us, from field sales and marketing to the PR side. We found that SAP looks not at company size, but at sales volume and value, with a team of people who work together to solve a problem.”</p>
+  <p>Any thoughts to share with other partners? “Don’t come in with a commodity project,” he advised. “Focus on how to collaborate and create value for customers.”</p>
+  <p>I would add that telling a compelling story about how customers can realize value is essential. Toward that end, Digital River offers a terrific demo on <a href="https://www.store.sap.com/apps/59371?source=blog-DigitalRiver">SAP Store.</a> Why not watch it now?</p>
+  <div class="footnote">
+    <div>
+      <div><em>Bill Rojas is director of Director Business Development and Partner Alliances at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in 2021 Gartner Magic Quadrant for Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2021/09/gartner-magic-quadrant-for-digital-commerce-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2021/09/gartner-magic-quadrant-for-digital-commerce-sap-a-leader</guid>
+            <pubDate>Thu, 09 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has been named a Leader in the Gartner Magic Quadrant for Digital Commerce for the seventh time. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Named a Leader in 2021 Gartner Magic Quadrant for Digital Commerce" src="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-named-a-leader-in-2021-gartner-magic-quadrant-for-digital-commerce">SAP Named a Leader in 2021 Gartner Magic Quadrant for Digital Commerce</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="digital-commerce-deliver-a-rich-personalized-omnichannel-e-commerce-experience-and-gain-agility-to-meet-ever-changing-customer-needs">Digital Commerce: Deliver a rich, personalized omnichannel e-commerce experience and gain agility to meet ever-changing customer needs</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced it has been named a Leader in the 2021 Gartner® Magic Quadrant™ for Digital Commerce* for the seventh time. In its latest 2021 report, Gartner assessed solutions from 17 vendors including <a href="https://www.sap.com/products/crm/e-commerce-platforms.html">commerce solutions from SAP</a>.</p>
+      </div>
+    </div>
+  </div>
+  <p>Brands globally, including appliance manufacturer De’Longhi, nutritional products distributor Kyani and retailer Abrakadabra, have recently selected SAP solutions to help deliver a rich, personalized omnichannel e-commerce experience that is reliable and scales to meet the demands of their customers.</p>
+  <p>“We believe this latest positioning as a Leader by Gartner is why brands across industries and geographies are turning to SAP to broaden their commerce reach without compromising flexibility,” said Nuno Pedro, global head, Commerce Solutions, SAP. “Digital commerce solutions from SAP enable success across different industries, marketplaces and business models by providing customers enjoyable, individually relevant, in-the-moment experiences.”</p>
+  <p><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Digital commerce solutions from SAP</a>, which include <a href="https://www.sap.com/products/commerce-cloud.html">SAP Commerce Cloud</a> and <a href="https://www.sap.com/products/crm/e-commerce-platforms.html#upscale-commerce">SAP Upscale Commerce</a>, help brands convert more customers by turning engagements into personal, shoppable moments. Additional companies that recently chose digital commerce solutions from SAP in the first half of 2021 include the following:</p>
+  <ul>
+    <li><strong>Hangcha Group</strong> is one of the largest forklift manufacturers in China and among the top 10 in the world. Hangcha Group chose SAP Commerce Cloud to simplify its front-end sales order intake process and integrate with its back-end digital core system, supporting the group’s business transformation and boosting sales revenue.</li>
+    <li><strong><a href="/2021/06/sapphire-now-sap-upscale-commerce-midmarket-brands">JOY</a></strong>, a Swedish fashion retailer, no longer has any physical stores and is instead focusing on e-commerce and personalized fashion advice. Its founders see JOY as a startup building next-generation e-commerce based on AI and slow fashion — a more sustainable alternative with clothes lasting several seasons. JOY is also the first company in the world that has selected the combination of the cloud-based solution SAP Upscale Commerce and the SAP Emarsys Customer Engagement platform.</li>
+    <li><strong>Perfumes y Esencias Fraiche</strong>, a Mexican company specializing in fragrances and essences that serves more than 20 million people through different sales channels, chose SAP Commerce Cloud and SAP Marketing Cloud. With these solutions, the company can strengthen its online presence to meet new consumer needs, using a solid digital strategy that enables personalized fragrance sales for its customers and through thousands of distributors.</li>
+    <li><strong><a href="/2021/05/leading-european-organizations-deichmann-chemie-sap-cx">WAGO Kontakttechnik GmbH &#x26; Co</a></strong>. KG is a leading German manufacturer of electrical connections and components, and a specialist in spring clamps for automation. It recently implemented SAP Commerce Cloud solutions as part of its cloud transformation. With SAP Commerce Cloud integrated with SAP Marketing Cloud and the SAP ERP application, it plans to provide a great e-commerce experience for its business-to-business (B2B) customers.</li>
+    <li><strong><a href="/2021/05/leading-european-organizations-deichmann-chemie-sap-cx">Wacker Chemie</a></strong> is a leading German player in highly developed specialty products for several industrial sectors. It recently implemented SAP Commerce Cloud as its new B2B e-commerce system to increase sales and improve customer satisfaction.</li>
+  </ul>
+  <p>Digital commerce solutions from SAP are part of the <a href="https://www.sap.com/products/crm.html">SAP Customer Experience</a> portfolio, which goes beyond traditional CRM solutions by bringing together customer data, experiential and operational data, and machine learning.</p>
+  <p>To learn more, download a <a href="https://www.sap.com/cmp/cx/gartner-magic-quadrant-e-commerce/index.html?campaigncode=CRM-HY21-CIP-AGTMQDC&#x26;source=onlinedisplay-glo--commerce-led-experiences">complimentary copy of the report</a>, including Gartner’s in-depth analysis of the digital commerce landscape.</p>
+  <p>SAP was also recognized for the third consecutive year as a Leader in the <a href="/2021/08/sap-leader-2021-gartner-magic-quadrant-sales-force-automation">2021 Gartner Magic Quadrant for Sales Force Automation</a>.** Additionally, Emarsys, now part of SAP, was recently named a Leader for the third time in the <a href="/2021/07/emarsys-personalization-engines-magic-quadrant">2021 Gartner Magic Quadrant for Personalization Engines</a>.***</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Samantha Finnegan, +1 (415) 377-0475, <a href="mailto:samantha.finnegan@sap.com">samantha.finnegan@sap.com</a>, ET<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>*Gartner, “Magic Quadrant for Digital Commerce,” Jason Daigler, Yanna Dharmasthira, Sandy Shen, Penny Gillespie, Mike Lowndes, Aditya Vasudevan, August 31, 2021.<br>**Gartner, “Magic Quadrant for Sales Force Automation,” Adnan Zijadic, Ilona Hansen, Melissa Hilbert, Steve Rietberg, August 4, 2021.<br>***Gartner, “Magic Quadrant for Personalization Engines,” Jason McNellis, Claire Tassin, Jennifer Polk, July 19, 2021.<br><em>Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</em><br><em>Gartner and Magic Quadrant are registered trademarks of Gartner, Inc. and/or its affiliates in the U.S. and internationally and is used herein with permission. All rights reserved.</em></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Revlon Selects SAP Software to Drive E-Commerce Acceleration]]></title>
+            <link>https://www.sap.com/news/2021/08/revlon-selects-sap-software-drive-e-commerce-acceleration</link>
+            <guid>https://www.sap.com/news/2021/08/revlon-selects-sap-software-drive-e-commerce-acceleration</guid>
+            <pubDate>Mon, 09 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The beauty giant Revlon Inc. will use the RISE with SAP offering to expedite the company’s strategic cloud migration. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Revlon Selects SAP Software to Drive E-Commerce Acceleration" src="./media_1b8eae78621e985b4c5925ad760571d446ee50798.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="revlon-selects-sap-software-to-drive-e-commerce-acceleration">Revlon Selects SAP Software to Drive E-Commerce Acceleration</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="rise-with-sap-simplify-the-transformation-of-your-business-for-the-digital-age">RISE with SAP: Simplify the transformation of your business for the digital age</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/rise.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="https://nam12.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.sap.com%2F&#x26;data=04%7C01%7CKelly.Bartley%40edelman.com%7C57174fc9bdb44885af8c08d95852e789%7Cb824bfb3918e43c2bb1cdcc1ba40a82b%7C0%7C0%7C637637935365217511%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&#x26;sdata=e3chzALkwFDkzWM6qRQ%2BeloT2gTuZph%2FX7JwtVMnE1o%3D&#x26;reserved=0">SAP SE</a> (NYSE: SAP) today announced that beauty giant Revlon Inc. will use the RISE with SAP offering to expedite the company’s strategic cloud migration.</p>
+      </div>
+    </div>
+  </div>
+  <p>Revlon, which last year saw e-commerce net sales soar approximately 40%, remains focused on enhancing its end-to-end digital capabilities to support continued acceleration in this channel. By tapping RISE with SAP on an AWS infrastructure, Revlon expects to bolster its <a href="https://www.sap.com/dmc/exp/2021-06-75752-hd-cx-retail/index.html">digital infrastructure in order to help its e-commerce operations</a> become more nimble and innovative. Revlon also plans to use the SAP Analytics Cloud solution to incorporate predictive analytics across its business processes.</p>
+  <p>“RISE with SAP provides Revlon with numerous opportunities to support our continued digital acceleration through modernizing our core back-office infrastructure and applications while reducing our total cost of ownership,” said Revlon Chief Information Officer Jose Urquijo. “Additionally, RISE with SAP will enable increased flexibility and agility in support of our Revlon Global Growth Accelerator program, which we announced with our Q1 2021 earnings.”</p>
+  <p>“Revlon is an iconic and trusted brand that has long been known for innovation in the beauty and personal care industry, always with a keen focus on the customer experience,” said SAP North America President DJ Paoni. “We are honored to be a part of Revlon’s incredible transformation journey and provide solutions to help the company continue to scale and grow share of market.”</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Justin Wolz, +1 (919) 306-7084, <a href="mailto:j.wolz@sap.com">j.wolz@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/customer-news</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-analytics-cloud</category>
+        </item>
+    </channel>
+</rss>

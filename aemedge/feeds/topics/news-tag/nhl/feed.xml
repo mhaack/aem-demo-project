@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/nhl/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 30 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The NHL Continues Evolving with Fast-Paced Innovation and Skillful Teamwork]]></title>
+            <link>https://www.sap.com/news/2023/10/nhl-continues-evolving-sap-preferred-success</link>
+            <guid>https://www.sap.com/news/2023/10/nhl-continues-evolving-sap-preferred-success</guid>
+            <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[By working with SAP Preferred Success, the NHL has a smooth rollout and adoption experience across its club coaching staff. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/nhl</category>
+            <category>news-tag/sap-analytics</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[The NHL Uses Technology to Pave the Way for Greener Sports]]></title>
+            <link>https://www.sap.com/news/2023/07/nhl-sustainability-technology-greener-sports</link>
+            <guid>https://www.sap.com/news/2023/07/nhl-sustainability-technology-greener-sports</guid>
+            <pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The NHL is a sustainability pioneer in the sports industry. Learn how SAP technology helps to understand and manage its carbon footprint.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/nhl</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP & NHL: Bringing Sustainability to Sports]]></title>
+            <link>https://www.sap.com/videos/sap-nhl-bringing-sustainability-to-sports</link>
+            <guid>https://www.sap.com/videos/sap-nhl-bringing-sustainability-to-sports</guid>
+            <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology can help scale sports organizations’ efforts in this space.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/video</category>
+            <category>news-tag/nhl</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and the NHL Develop NHL Venue Metrics, a New Sustainability Platform to Help Reduce the League’s Ecological Impact]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-nhl-develop-nhl-venue-metrics</link>
+            <guid>https://www.sap.com/news/2022/10/sap-nhl-develop-nhl-venue-metrics</guid>
+            <pubDate>Wed, 26 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and the NHL have created a new platform called NHL Venue Metrics, powered by SAP. Learn more about the sustainability platform.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nhl</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+        <item>
+            <title><![CDATA[Innovative Insights Available for NHL Coaches Through SAP-NHL Coaching Insights App for iPad]]></title>
+            <link>https://www.sap.com/news/2021/04/sap-nhl-coaching-insights-innovative-coaches</link>
+            <guid>https://www.sap.com/news/2021/04/sap-nhl-coaching-insights-innovative-coaches</guid>
+            <pubDate>Thu, 29 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New and significant enhancements to the SAP-NHL Coaching Insights app further simplify UX and expand on critical metrics desired by coaches.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nhl</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+    </channel>
+</rss>

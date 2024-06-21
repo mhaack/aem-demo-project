@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/application-lifecycle-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 13 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Reflecting On a Year of Transformation]]></title>
+            <link>https://www.sap.com/news/2022/12/reflecting-on-support-experience-transformation</link>
+            <guid>https://www.sap.com/news/2022/12/reflecting-on-support-experience-transformation</guid>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Andreas Heckmann reflects on the support experience transformation of the past year, and how it will continue in 2023.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/application-lifecycle-management</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/real-time-support</category>
+            <category>product/sap-cloud-alm</category>
+            <category>product/sap-information-collaboration-hub-for-life-sciences</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Ways Automated Application Testing Adds Value to Your Business]]></title>
+            <link>https://www.sap.com/news/2022/01/automated-application-testing-value</link>
+            <guid>https://www.sap.com/news/2022/01/automated-application-testing-value</guid>
+            <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Automating application testing can drive faster releases and dramatically lower the cost of moving to intelligent technology. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_123215a77c3416cd8a7197078f3bb8bac897e7a3a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_123215a77c3416cd8a7197078f3bb8bac897e7a3a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_123215a77c3416cd8a7197078f3bb8bac897e7a3a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Five Ways Automated Application Testing Adds Value to Your Business" src="./media_123215a77c3416cd8a7197078f3bb8bac897e7a3a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="five-ways-automated-application-testing-adds-value-to-your-business">Five Ways Automated Application Testing Adds Value to Your Business</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Even though manual application testing is the norm in most IT environments, it can add unnecessary risks, delays, and complexities to long-term digital transformation plans. Once automated, this task can drive faster application releases and dramatically lower the cost of moving to intelligent technology.</div>
+    </div>
+  </div>
+  <p>Application testing is one of those tasks that IT organizations know they cannot do without but wish it consumed less of their time, budget, and resources. With limited visibility into test conditions, upcoming software release cycles, and overly broad scopes, teams constantly react to bug-laden user experiences, delays to user productivity, poor integration, and excessive hypercare to address production errors.</p>
+  <p>Some organizations, however, are rising above these challenges by automating application testing. According to the commissioned Forrester Consulting study, “<a href="https://www.sap.com/documents/2021/12/b22fb2ba-0a7e-0010-bca6-c68f7e60039b.html">The Total Economic Impact™ of SAP Application Testing Solutions by Tricentis</a>,” automation accelerates application delivery as much as four times — with fewer errors, less risk, and higher time to value.</p>
+  <p>Forrester also noted that scaling automation across the application life cycle with technology, such as <a href="https://www.sap.com/products/enterprise-continuous-testing.html">SAP application testing solutions by Tricentis</a>, can yield a <strong>334% return on investment (ROI)</strong> and organizational benefits totaling upward of US$7.8 million over three years. And more importantly, the intelligent nature of automated testing produces a wide variety of benefits that can energize a future of meaningful digital transformation.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="enable-digital-transformation-and-intelligent-operations-by-reducing-business-risk-associated-with-application-changes">Enable digital transformation and intelligent operations by reducing business risk associated with application changes</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/enterprise-continuous-testing.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="benefit-1-84-reduction-in-test-scoping">Benefit 1) 84% Reduction in Test Scoping</h2>
+  <p>By leveraging change impact analytics, organizations can determine the conditions that should be tested to reduce errors and those that do not carry that risk. As a result, the number of conditions that need to be tested for a single application can be reduced by 84%, compared to manual testing methods.</p>
+  <p>An ERP principal test manager who participated in the Forrester study remarked how an automated testing solution enabled the identification of programs impacted by any given change. Instead of running all conditions to mitigate all risks, the organization only works on approximately 20% of the initial scope.</p>
+  <h2 id="benefit-2-78-fewer-production-errors">Benefit 2) 78% Fewer Production Errors</h2>
+  <p>With a narrower testing scope, organizations can also decrease errors and bugs in an application moved to production — from an average of 1.5 to 0.3 per project. And for users, their application experience can become one that enhances their productivity as quickly as their first interaction.</p>
+  <p>By reducing the risk of incidents that made it into the application during development and in production, IT teams can positively impact employees’ everyday work experiences. Workplace frustration declines, workloads are lower, and the need for hypercare is minimized.</p>
+  <h2 id="benefit-3-25-lower-testing-costs">Benefit 3) 25% Lower Testing Costs</h2>
+  <p>Even if 70% of their testing processes are automated, moving closer toward full automation can prompt a 25% savings in testing-time costs. For some teams, that is an equivalent of 10,000 person-hours that can be reallocated to more strategic projects. And the impact is even more significant within six months, when a team moves from a 100% manual testing model to an enterprise continuous testing solution that enables 50% automation.</p>
+  <p>Additionally, the use of embedded machine learning in application testing solutions can establish self-healing test cases, lowering test costs even further.</p>
+  <h2 id="benefit-4-67-faster-time-to-application-release">Benefit 4) 67% Faster Time-to-Application Release</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="download-the-study-here">Download the study here</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/registration/protected/default-overlay.html?gated_asset_path=%2F%2Fwww.sap.com%2Fdocuments%2F2021%2F12%2Fb22fb2ba-0a7e-0010-bca6-c68f7e60039b.rc.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The added effect of automation that is difficult to miss is the opportunity to accelerate the time needed to test all relevant conditions, improving release rates by 300%. In the past, IT organizations may have gone live with new applications every six months with manual processes. Now, they can release new features, applications, and mobile apps in a matter of two months or four more times annually.</p>
+  <p>This advantage opens the door to an improved transition to intelligent solutions and platforms, such as <a href="/topics/sap-s4hana-cloud">SAP S/4HANA Cloud</a>. Organizations can migrate faster and at a lower cost with automated testing than manual methods.</p>
+  <h2 id="benefit-5-12-to-25-times-more-performance-testing">Benefit 5) 12 to 25 Times More Performance Testing</h2>
+  <p>Just think of the possibilities when performance testing goes from 20 person days to one hour. When automation reduces the time required by 99%, IT teams can conduct performance testing once or twice a week — instead of quarterly — to help ensure updates and added features function as designed.</p>
+  <p>In one of Forrester’s interviews with study participants, an IT services test manager noted how the gains achieved through automation go beyond just faster application delivery. Since users only need to verify that they have the capabilities necessary to get work done, his team can now confidently skip manual regression testing.</p>
+  <h2 id="automated-testing-drives-better-business-outcomes">Automated Testing Drives Better Business Outcomes</h2>
+  <p>These outcomes of automated application testing put application developers and the rest of the IT organization in an enviable position in their company’s digital transformation journey. They are not only delivering applications that improve process efficiency and business productivity, but are also empowering the entire workforce to adapt and respond to changes in highly engaging, purpose-driven, and strategic ways.</p>
+  <div class="promo">
+    <div>
+      <div>Explore the calculated cost savings and business benefits of SAP application testing solutions by Tricentis, which support application testing automation. Read the Forrester Consulting study, “<a href="https://www.sap.com/documents/2021/12/b22fb2ba-0a7e-0010-bca6-c68f7e60039b.html">The Total Economic Impact of SAP Application Testing Solutions by Tricentis</a>,” commissioned by SAP and Tricentis.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/application-lifecycle-management</category>
+            <category>news-tag/forrester</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+    </channel>
+</rss>

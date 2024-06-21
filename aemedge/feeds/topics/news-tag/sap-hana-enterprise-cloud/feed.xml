@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-hana-enterprise-cloud/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 20 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Outgrowing Your IT Infrastructure: Choosing the Appropriate Next Steps]]></title>
+            <link>https://www.sap.com/news/2022/01/servimed-lenovo-rise-with-sap-s4hana-customer-data-center-option</link>
+            <guid>https://www.sap.com/news/2022/01/servimed-lenovo-rise-with-sap-s4hana-customer-data-center-option</guid>
+            <pubDate>Thu, 20 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The customer data center option of RISE with SAP S/4HANA Cloud, private edition, brings the cloud to the data center]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1329e7bbea16a5b41dd862b006bfc2e64b2f6c283.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1329e7bbea16a5b41dd862b006bfc2e64b2f6c283.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1329e7bbea16a5b41dd862b006bfc2e64b2f6c283.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Outgrowing Your IT Infrastructure: Choosing the Appropriate Next Steps" src="./media_1329e7bbea16a5b41dd862b006bfc2e64b2f6c283.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="outgrowing-your-it-infrastructure-choosing-the-appropriate-next-steps">Outgrowing Your IT Infrastructure: Choosing the Appropriate Next Steps</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Cloud-based solutions offer a myriad of benefits for SAP customers. These include freeing up resources for innovation rather than administration, paying only for what is needed, and always having access to the latest cloud features.</div>
+    </div>
+  </div>
+  <p>But for some organizations, data privacy regulations or business concerns make moving to the cloud more complicated.</p>
+  <p>Systems — that customers rely on — and infrastructure are already interconnected. In this situation, the prospect of migrating to the cloud is comparable to changing the engine on a plane while in-flight: a challenging task that requires the utmost care and experience.</p>
+  <p>Additionally, there are several external forces standing in the way of moving to cloud. Cloud service latency means there is a potential for delay from the time a request is made to a cloud provider and the time in which they provide a response with actionable advice. Some workloads demand that data be stored locally, and some regions and industries need to ensure data residency.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="discover-the-value-of-rise-with-sap">Discover the value of RISE with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/rise.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="bringing-the-cloud-to-you">Bringing the Cloud to You</h2>
+  <p>This is why SAP and Lenovo worked together on RISE with SAP S/4HANA Cloud, private edition, customer data center option, to bring the cloud to the data center. The option effectively counters the complexities associated with cloud service migration and provides customers with a system that supports flexibility as well as the ability to adapt to changing needs.</p>
+  <p>The customer data center option gives companies the benefits of a cloud environment, including:</p>
+  <ul>
+    <li>A subscription-based, burstable consumption model that allows customers to pay for what they need and easily scale when required</li>
+    <li>The ability to meet security and privacy regulations</li>
+    <li>Less disruption to operations with computing and concierge managed services, delivered by SAP and Lenovo, to free up IT resources to focus on strategic projects</li>
+  </ul>
+  <p>Running on Lenovo TruScale supports:</p>
+  <ul>
+    <li>Maximized availability to keep operations running with continuous monitoring and proactive management of the infrastructure</li>
+    <li>Life cycle coverage with complete managed services from planning and installation to deployment and monitoring to removal</li>
+    <li>A team that is focused on customer success</li>
+  </ul>
+  <h2 id="servimed-chose-sap-on-lenovo-truscale">Servimed Chose SAP on Lenovo TruScale</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-s4hana-cloud-discover-a-complete-intelligent-erp-system">SAP S/4HANA Cloud: Discover a complete, intelligent ERP system</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/s4hana-erp.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Servimed is one of the largest distributors of pharmaceutical and consumer products in Brazil. With more 28,000 deliveries per month, the company sought to build on its link between the manufacturing and retail sectors. In order to do this, Servimed recognized that it needed to ensure its IT infrastructure kept up with its growth while streamlining shipping and sales processes to boost efficiency.</p>
+  <p>Obstacles included previous IT infrastructure that failed to keep up with its growth, as well as legacy IT solutions that required specialized support and contributed to increased company IT costs, subsequently limiting the company’s agility</p>
+  <p>Servimed explored alternatives and landed on SAP applications deployed on Lenovo TruScale Infrastructure Services. While the general market trend is to move one’s data center apps to a public shared cloud environment, Servimed chose to stay in its data center with a private cloud.</p>
+  <p>Customers like Servimed illustrate that moving to the cloud and demanding to run in your own data center are not incompatible — at least not with Lenovo and SAP.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p><a href="https://www.lenovo.com/us/en/resources/data-center-solutions/case-studies/Servimed/">Learn more about Servimed’s case study</a>.<br><a href="https://bit.ly/3q6qfs5">Hear how Lenovo supports RISE with SAP</a>.<br>Learn more about RISE with SAP at <a href="http://sap.com/rise">sap.com/RISE</a>.</p>
+        <p><em>Joe Zarb is vice president of RISE with SAP, Private Cloud, at SAP.</em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-cloud-application-services</category>
+            <category>news-tag/sap-hana-enterprise-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Bring SAP S/4HANA Cloud to Your Data Center]]></title>
+            <link>https://www.sap.com/news/2021/11/bring-sap-s-4hana-cloud-to-your-data-center</link>
+            <guid>https://www.sap.com/news/2021/11/bring-sap-s-4hana-cloud-to-your-data-center</guid>
+            <pubDate>Tue, 16 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP S/4HANA Cloud, private edition, customer data center option is now part of RISE with SAP and includes support for Dell Technologies APEX.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Bring SAP S/4HANA Cloud to Your Data Center" src="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="bring-sap-s4hana-cloud-to-your-data-center">Bring SAP S/4HANA Cloud to Your Data Center</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="rise-with-sap-simplify-the-transformation-of-your-business-for-the-digital-age">RISE with SAP: Simplify the transformation of your business for the digital age</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/rise.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Today, SAP is announcing the expansion of the customer data center option for RISE with SAP S/4HANA Cloud, private edition.</div>
+    </div>
+  </div>
+  <p>This SAP ERP cloud offering provides license subscriptions to customers that want to gain cloud-like economies yet keep their SAP software landscape and data within their own data center, for geopolitical or data sovereignty concerns, for latency or application entanglement reasons, or for those customers who simply lack access to market-leading hyperscalers. <a href="https://www.sap.com/assetdetail/2021/10/444af00c-057e-0010-bca6-c68f7e60039b.html">SAP S/4HANA Cloud, private edition, customer data center option</a> is now part of the RISE with SAP offering and includes support for Dell Technologies APEX.</p>
+  <p>SAP S/4HANA enables customers to reinvent business and drive new revenue and profits, as well as provides access to amazing technologies that can:</p>
+  <ul>
+    <li>Bring real-time decisions closer to the edge for increased agility</li>
+    <li>Enable transformation of data into meaningful business insight</li>
+    <li>Increase automation of business processes though artificial intelligence (AI)</li>
+    <li>Develop deeper understanding of experiences across employees, products, and customers</li>
+  </ul>
+  <p>This and more is possible, all while working to reduce your data footprint and lower your overall total cost of ownership.</p>
+  <p>RISE with SAP is a simplified and turnkey SAP ERP, private cloud edition deployment model that can reduce risk of implementation and outages, freeing up precious resources so customers can focus on truly vitalizing, cutting-edge technologies and business processes provided by SAP S/4HANA. You don’t have to go on your transformation journey alone.</p>
+  <p>Customers told us that they need cloud-like experiences with SAP S/4HANA deployment flexibility and solutions that work in their own data center. Their reasons included the need to meet stringent compliance, security, or data sovereignty guidelines and limited access to hyperscalers. Some have geopolitical concerns. RISE with SAP S/4HANA Cloud, private edition, customer data center option delivers as-a-service, private cloud managed services, software, and infrastructure for leading business applications with simplicity and incredible uptime commitment to our customers.</p>
+  <p>Dell Technologies APEX for SAP S/4HANA is scalable and secure, providing customers that want to run in their own data centers data sovereignty and the peace of mind in knowing where their data is located throughout its life cycle.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-the-sap-s4hana-cloud-private-edition-overview-video">Watch the SAP S/4HANA Cloud, private edition overview video</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/assetdetail/2021/10/6e5c667b-2a7e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>With the availability of Dell Technologies APEX as the underlying infrastructure for the customer data center option – for data center and colocation deployments <em>–</em> our customers now have access to leading SAP solutions in a cloud operating model across more geographies.</p>
+  <p>“Our longtime partnership supports thousands of organizations around the world and is critical in their business and IT transformations. By marrying Dell and SAP technologies to create Dell Technologies APEX for SAP S/4HANA, we are providing an agile as-a-service infrastructure that paves the way for on-premise cloud solutions a customer can control without disrupting critical workloads in the data center,” says Travis Vigil, senior vice president, Portfolio and Product Management, Infrastructure Solutions Group at Dell</p>
+  <p>Together, SAP and Dell Technologies provide a radically simplified as-a-service and cloud experience under one contract, so you can react quickly to capture new opportunities and work to ensure that your technology stays aligned with business requirements. With SAP leading the engagement, Dell Technologies will supply, install, monitor, and manage the required infrastructure for the customer’s landscape in a secured environment. By expanding our solution to include Dell Technologies APEX offerings, in addition to Lenovo TruScale™ and HPE GreenLake, SAP broadens customer flexibility and choice.</p>
+  <p>These ecosystem powerhouses enable an open innovation approach that puts customers’ needs first as they start the journey to become an intelligent enterprise. With SAP and partners like these, how can you fail?</p>
+  <p>Free your operations team to do new and exciting initiatives, move from CAPEX to OPEX, increase your agility, resilience, and sustainability, and let us help you securely manage the rest. Talk to your account representative today.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Peter Pluim is president of SAP Enterprise Cloud Services at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-teched">Get the latest news and coverage from SAP TechEd</h3>
+      </div>
+      <div><strong><a href="/topics/sap-teched">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-teched</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-cloud-application-services</category>
+            <category>news-tag/sap-hana-enterprise-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Engineering the Future of the Application Lifecycle with a Cloud Mindset]]></title>
+            <link>https://www.sap.com/news/2021/01/future-of-application-lifecycle-and-cloud-mindset</link>
+            <guid>https://www.sap.com/news/2021/01/future-of-application-lifecycle-and-cloud-mindset</guid>
+            <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how SAP is helping engineer the future of the application lifecycle and evolving software development for true cloud transformation.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a43c85230c2064865f30b975f47a4048422b5def.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a43c85230c2064865f30b975f47a4048422b5def.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a43c85230c2064865f30b975f47a4048422b5def.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Engineering the Future of the Application Lifecycle with a Cloud Mindset" src="./media_1a43c85230c2064865f30b975f47a4048422b5def.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="engineering-the-future-of-the-application-lifecycle-with-a-cloud-mindset">Engineering the Future of the Application Lifecycle with a Cloud Mindset</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>With every new technology innovation, software functionality, and application enhancement, software developers have the power to shape the future. But to keep serving as transformative change agents, they too must evolve with a mindset that readily embraces the right tools and processes to continuously improve the cloud application lifecycle.</div>
+    </div>
+  </div>
+  <p>One of the most rewarding aspects of my job is watching people of various skills and experiences work together to positively change the world. <a href="https://learning.sap.com/build-your-career-as-a-developer-with-sap-skills">SAP software developers</a> bring a level of brilliance, ingenuity, and empathy when creating and delivering the innovations, pace of change, and outcomes that our customers desire.</p>
+  <p>There is no limit in sight to what our software development teams can produce. However, that fact does not mean that they should not evolve. Businesses now operate in an environment that is quickly shifting away from traditional on-premise software toward more modern cloud-based solutions. And as SAP customers adopt a cloud mindset from their digital transformations, developers should too.</p>
+  <p>This realization recently came to life with a breakthrough approach to development. When SAP customers began strategically migrating their on-premise infrastructures to the cloud, we knew the time was rapidly coming when a cloud-based application lifecycle management (ALM) solution would be needed. Delivering this offering – now called <a href="https://support.sap.com/en/alm/sap-cloud-alm.html">SAP Cloud ALM</a> – helped optimize customers’ relationships with its existing and new SAP solutions and its chosen cloud providers and support partners.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-about-sap-cloud-alm-for-cloud-centric-customers">Read more about SAP Cloud ALM for cloud-centric customers</h3>
+      </div>
+      <div><strong><a href="https://support.sap.com/en/alm/sap-cloud-alm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="evolving-software-development-for-true-cloud-transformation">Evolving Software Development for True Cloud Transformation</h2>
+  <p>Developing SAP Cloud ALM was vastly different from our typical on-premise projects.</p>
+  <p>Traditionally, we implement a solution over months and then make it available for download to customers. But even while our customers are using the solution in a productive environment, the technology is updated and re-released as a new version when a critical mass of improvements are made – potentially impacting tens of thousands of installations across our customers’ and partners’ data centers or cloud environments running on SAP HANA Enterprise Cloud.</p>
+  <p>With the cloud, SAP can now stop moving applications to various data centers and offer a holistic service that enables customers to realize the speed, agility, standardization, and consolidated intelligence that the cloud promises.</p>
+  <p>Our global team of developers had to shift its design and delivery paradigm as quickly as possible to be successful. This meant transforming themselves with the right tools and processes for delivering impactful, cloud-based innovations with a flexible mindset.</p>
+  <p>Based on the advice and best practices of development executives from innovation leaders such as Netflix and Facebook, we underwent four fundamental cultural shifts.</p>
+  <h2 id="transform-from-on-premise-to-cloud">Transform from On Premise to Cloud</h2>
+  <p>Standard delivery of on-premise software is focused on the general availability of new software, completely updated versions, and service packs. Whether these offerings are released annually or biannually, these deliverables feature a bundle of functionalities designed, coded, tested, and quality assured by a team of 200 people. This model may have been profitable, but bug fixes, broken integrations, and requested modifications are inevitable.</p>
+  <p>The cloud environment requires a much more purposeful and swift development process. Now, the goal is the daily delivery of new capabilities and updates. SAP runs smaller, more frequent iterations with a defined road map and a portfolio of relevant innovation practices, analytics tools, and process automation – from DevOps to testing and delivery.</p>
+  <h2 id="evolve-hierarchies-to-networks">Evolve Hierarchies to Networks</h2>
+  <p>In most software development teams, the organizational chart features more than 15 roles and various siloed teams focused on a specific offering, solution capability, or user experience element. Most projects require everyone in the group to be involved – each one with well-defined responsibilities and approval authority.</p>
+  <p>By flattening the hierarchical structure, we release developers from the pressure of answering to various people with different opinions and experiences. They are now empowered to do what they do best – engineering. In addition to creating software, developers are taking care of the end-to-end process, including testing, quality assurance, and production.</p>
+  <h2 id="accelerate-from-static-to-dynamic">Accelerate from Static to Dynamic</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-the-video-series-sap-cloud-alm-and-customer-support">Watch the video series: SAP Cloud ALM and customer support</h3>
+      </div>
+      <div><strong><a href="https://www.youtube.com/playlist?app=desktop&#x26;list=PLFrwZZeBUtfiJyWpJ2nmokXOFSue_Z7sQ">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>To help ensure the team stays on track and delivers valuable outcomes for customers consistently, we conduct spot checks throughout the development process. The inclusion of automation into the daily delivery model allows developers to collaboratively structure features by working on small pieces synchronously and integrating their deliverable continuously until all requirements are fulfilled. Ultimately, developers have clear ownership of the feature or version they produce, which is increasing the overall quality and speed of the development process.</p>
+  <p>Delivering small changes avoids big bang releases and, therefore, improves availability. For example, massive simplification of code lines is now possible due to this single-trunk approach. Going from 20 code lines to just one is a significant time-saver. Fixes can also be done in 60 minutes, including testing and rolling them out to all customers.</p>
+  <h2 id="from-yearly-planning-to-continuous-innovation">From Yearly Planning to Continuous Innovation</h2>
+  <p>Daily delivery of new software functionalities and upgrades removes the risk of difficult-to-resolve surprises that often happen with on-premise software. SAP customers’ users can submit a note immediately through the software, detailing where a feature may not work as well, a dashboard could be improved, or an interface could be more seamless. SAP’s development team receives this information in real time, assesses the request, and assigns the appropriate developer to resolve it.</p>
+  <p>This design-thinking mindset gives SAP space to listen to customers carefully, understand their needs thoroughly, and deliver on expectations quickly. This methodology prevents the investment of time, money, and resources on features or upgrades that are not used or relevant to customers. By optimizing the balance between nice-to-have capabilities with those that customers must have, SAP can optimize the value and agility of its cloud solutions.</p>
+  <p>By offering a minimally viable feature first, customers have a say in how the solution behaves and appears. Then, SAP iterates development in a steady cadence of small increments until customers’ requirements and desires are fully addressed. This approach gives them the freedom to try out new features or upgrade and provide feedback for further refinement and adaptation to the solution based on their needs.</p>
+  <h2 id="elevating-the-purpose-of-development">Elevating the Purpose of Development</h2>
+  <p>Let’s face it: software providers cannot afford to stick with traditional, on-premise development. Old approaches may be familiar and comfortable, but they do not work in an era where cloud-centric innovations and updates are expected to be delivered continuously, consistently, and quickly. No customer can afford surprises – such as release delays and quality issues – and wait for the next release, months later, to have them resolved.</p>
+  <p>So much has changed for SAP’s development team over the last year. The initial motivation may have been a native-cloud project, but everything from the way SAP looks at its projects to the company’s delivery approach has been forever improved. In fact, the term “developer” does not fully describe what SAP’s talented team members do. They are engineers creating a better future for every business and person.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Andreas Heckmann is the executive vice president and head of Customer Solution Support and Innovation, SAP Product Engineering for SAP SE.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-cloud-alm</category>
+            <category>news-tag/sap-hana-enterprise-cloud</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+    </channel>
+</rss>

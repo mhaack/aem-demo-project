@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-ariba-category-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 01 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Companies Are Using AI to Better Analyze and Manage Their Spend]]></title>
+            <link>https://www.sap.com/news/2024/05/how-companies-use-ai-spend-management</link>
+            <guid>https://www.sap.com/news/2024/05/how-companies-use-ai-spend-management</guid>
+            <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Artificial intelligence (AI) can digitalize spend management and procurement functions, making them more efficient and resilient. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/spend-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>topic/spend-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Is on the Cutting Edge of How to Best Manage Company Spend]]></title>
+            <link>https://www.sap.com/news/2024/04/sap-cutting-edge-company-spend-management</link>
+            <guid>https://www.sap.com/news/2024/04/sap-cutting-edge-company-spend-management</guid>
+            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has been on the cutting edge of how to best manage company spend. Read about some recent updates to SAP spend management solutions.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Is on the Cutting Edge of How to Best Manage Company Spend" src="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-is-on-the-cutting-edge-of-how-to-best-manage-company-spend">SAP Is on the Cutting Edge of How to Best Manage Company Spend</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>As a pioneer of spend management software, SAP has been on the cutting edge of how to best comprehensively manage company spend and supplier relationships.</div>
+    </div>
+  </div>
+  <p>Like at home, identifying every dollar you spend and getting the most out of it is more critical than ever for your business. And as we continue to roll out SAP Business AI technology, the teams behind SAP solutions are working on ways to help you reduce the time spent on mundane tasks so you can focus on executing your strategy, unlocking spend potential, and unleashing efficiency.</p>
+  <p>The first quarter of 2024 was among the most productive in my 18 years at SAP. We debuted new AI capabilities in various SAP spend management solutions. Check out some of these highlights:</p>
+  <ul>
+    <li><strong>SAP Ariba Category Management</strong>: We’ve incorporated <a href="https://community.sap.com/t5/spend-management-blogs-by-sap/generative-ai-powered-content-recommendations-in-sap-ariba-category/ba-p/13640447?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">generative AI-enabled features</a> that can assist category managers by generating recommendations in the solution’s category segmentation, market dynamics, and cost structure tools.</li>
+    <li><strong>Scoutbee Discovery</strong>: SAP partnered with Scoutbee, a leading AI-powered supplier intelligence and discovery platform, to launch <a href="https://store.sap.com/dcp/en/product/display-2001012892_live_v1/scoutbee-discovery?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">Scoutbee Discovery</a>. This SAP endorsed app can rapidly identify qualified suppliers that meet specific criteria and can help advance strategic business imperatives. <a href="https://www.linkedin.com/events/7176993552332140544/comments/">Watch the recording</a> of me participating in a recent LinkedIn Live with the Scoutbee team.</li>
+    <li><strong>Concur Request:</strong> Now, this service uses generative AI to help provide <a href="https://www.concur.com/blog/article/sap-concur-delivers-enriched-travel-and-expense-experiences-at-fusion-2024?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">intelligent cost estimates</a> for trip planning.</li>
+    <li><strong>ExpenseIt</strong>: Users can upload receipt images to the ExpenseIt solution, which taps AI to help <a href="https://www.concur.com/blog/article/sap-concur-delivers-enriched-travel-and-expense-experiences-at-fusion-2024?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">automatically create a new expense</a> with several key fields prepopulated. Plus, ExpenseIt can now itemize hotel folios using generative AI.</li>
+    <li><strong>Generative AI search</strong>: A new capability within Concur Support allows SAP Concur customers to type questions in natural language and get quick answers using generative AI, <a href="https://www.concur.com/blog/article/sap-concur-delivers-enriched-travel-and-expense-experiences-at-fusion-2024?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">without submitting a support ticket</a>.</li>
+  </ul>
+  <p>SAP’s market-leading spend and business network solutions are getting even smarter, working to unlock greater value for our customers. We have many resources devoted to spend management and that’s why we continue to deliver innovation in spend management.</p>
+  <p>And we are only getting started. By the end of 2024, <a href="https://www.sap.com/products/business-network.html?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">SAP Business Network</a> is planning the following enhancements:</p>
+  <ul>
+    <li><strong>Generative AI RFI/RFP responses in SAP Business Network Discovery</strong>: With generative AI-enabled responses for postings in SAP Business Network Discovery, suppliers will be able to respond to RFIs promptly and more accurately, helping to save time and reduce costs associated with manual labor and resource allocation.</li>
+    <li><strong>Catalog enrichment using ChatGPT recommendations</strong>: This feature can enable suppliers to generate and improve product descriptions and overall catalog quality based on prompts and keyword recommendations from ChatGPT.</li>
+    <li><strong>Intelligent error simplification using generative AI</strong>: This feature uses machine learning and a large language model to interpret and categorize invoice rejection reasons, allowing suppliers to reduce the number of failing invoices, improve rapid invoice submission and payment, and optimize cash flow.</li>
+  </ul>
+  <p>For more on how AI is transforming business networks, read <a href="/2024/04/business-networks-accelerate-ai-value">this recent article</a> from my colleague Joern Keller.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="eliminate-the-mundane-and-elevate-the-strategic-in-spend-management-with-generative-ai">Eliminate the mundane and elevate the strategic in spend management with generative AI</h3>
+        <p><em><a href="https://www.sap.com/products/spend-management/innovations.html#ai">Discover SAP solutions</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="but-what-are-our-customers-saying">But What Are Our Customers Saying?</h2>
+  <p>Each quarter, G2 highlights the top rated solutions in the industry, chosen by the source that matters most: customers. Spring 2024 is no different, and once again our suite of spend and business network solutions scored extremely well.</p>
+  <ul>
+    <li><a href="https://www.g2.com/products/sap-sap-fieldglass/reviews">SAP Fieldglass</a> is a G2 Spring Leader in Vendor Management.</li>
+    <li><a href="https://www.g2.com/products/sap-ariba/reviews">SAP Ariba</a> is a G2 Spring Leader in Procure to Pay, Purchasing, Strategic Sourcing, Supplier Relationship Management, and Contract Lifecycle Management.</li>
+    <li><a href="https://www.g2.com/products/sap-concur/reviews">SAP Concur</a> is a G2 Spring Leader in Expense, Travel &#x26; Expense, and Invoicing.</li>
+  </ul>
+  <p>What’s more, G2 recently announced its <a href="https://www.g2.com/best-software-companies">2024 Best Software Award winners</a>, with SAP Fieldglass and SAP Concur receiving high honors:</p>
+  <ul>
+    <li>SAP Fieldglass came in at No. 26 in G2’s Best Software Awards across all products and No. 12 in G2’s Best Software Awards for best midmarket products.</li>
+    <li>SAP Concur came in at No. 4 in G2’s Best Software Awards for the account and software product category.</li>
+  </ul>
+  <p>My colleagues are also getting their flowers. Etosha Thurman, chief marketing and solutions officer of Intelligent Spend and Business Network, and Steve Seide, global head of Adoption for Intelligent Spend and Business Network, were named Top Procurement Pros in the <a href="https://issuu.com/supplydemandchainfoodlogistics/docs/sdc0324_digital?fr=sNGVkZTcxMzY1NTY">Supply &#x26; Demand Chain Executive 2024 Pros to Know awards</a>. A big congratulations also goes out to Darcy MacClaren, CRO for SAP Digital Supply Chain, who received a Pros to Know Lifetime Achievement award.</p>
+  <h2 id="driving-success-for-our-customers">Driving Success for Our Customers</h2>
+  <p>Hearing me spotlight our direct and indirect procurement, external workforce, and travel and expense management solutions is one thing. Seeing them in action is something way more powerful. Here are a few recent customer success stories to take in:</p>
+  <ul>
+    <li><strong>American Eagle Outfitters</strong> (AEO), a leading global specialty retailer offering high-quality on-trend clothing, accessories, and personal care products through its portfolio of brands, needed to evaluate indirect purchasing processes and vendor relationships to maximize efficiency. See how <a href="https://www.sap.com/asset/dynamic/2023/10/2ed3b1af-917e-0010-bca6-c68f7e60039b.htm?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124l">SAP Business Network for Procurement and SAP Ariba solutions</a> helped simplify processes and deliver compliant purchasing protocols across the company.</li>
+    <li>Power provider to over 900,000 electric customers, <strong>Oklahoma Gas &#x26; Electric Company</strong> (OG&#x26;E) faced challenges with the complexity of third-party and cross-department management of contingent workers. After transitioning SAP Fieldglass solutions to internal management, OG&#x26;E <a href="/2024/02/oge-and-brightspeed-manage-employees-contingent-workers">gained the visibility</a> to make more informed financial decisions, like supplier negotiations.</li>
+    <li><a href="https://www.sap.com/idea-place/sap-innovation-awards/entries/2024-award.html#winners?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">2024 SAP Innovation Award winner</a> <strong>Vestas Wind Systems</strong>, the world’s largest manufacturer of wind turbines, launched a large-scale quality initiative powered by SAP Business Network to help mitigate product defects in a highly complex supply chain. Now, using SAP Business Network, suppliers complete predefined quality tests and document them before confirming or sending an order. This enables Vestas employees to be warned in advance of any quality issues further up the supply chain, so they can <a href="/2024/02/vestas-powering-quality-in-supply-chain">take corrective action</a>.</li>
+    <li>Most <strong>KUKA</strong> employees are based in Germany, where tax regulation is complex and submitting hotel and entertainment expenses is anything but simple. The KUKA team worked together to develop a simple process using SAP Concur solutions, connected to SAP ERP, that allows employees to create hotel and entertainment expenses <a href="https://www.concur.com/en-us/casestudy/kuka?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">seven times faster</a> with fewer errors and fewer rejected expense reports.</li>
+  </ul>
+  <h2 id="join-us-at-sap-sapphire">Join Us at SAP Sapphire!</h2>
+  <p>SAP Sapphire &#x26; ASUG Annual Conference is June 3-5 in Orlando, Florida, this year and I can’t wait to meet with customers, partners, and my fellow colleagues. This is the best event in the industry in my opinion and you don’t want to miss out. Join us by registering on the <a href="https://www.sap.com/events/sapphire.html?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">SAP Sapphire event website</a>, where you can also save your spot at the SAP Sapphire Virtual and SAP Sapphire Barcelona events. See you there!</p>
+  <div class="footnote">
+    <div>
+      <div>Jeff Collier is chief revenue officer for SAP Intelligent Spend and Business Network.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>news-tag/customer-story</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>topic/spend-management</category>
+        </item>
+        <item>
+            <title><![CDATA[How Guided Sourcing Makes Achieving Strategic Goals Easier]]></title>
+            <link>https://www.sap.com/news/2024/03/guided-sourcing-makes-achieving-strategic-goals-easier</link>
+            <guid>https://www.sap.com/news/2024/03/guided-sourcing-makes-achieving-strategic-goals-easier</guid>
+            <pubDate>Mon, 11 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The guided sourcing capability for SAP Ariba Sourcing offers a wide range of benefits that can optimize and streamline procurement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-ariba-sourcing</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Cares About Your Company’s Spend]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-cares-about-your-companys-spend</link>
+            <guid>https://www.sap.com/news/2024/02/sap-cares-about-your-companys-spend</guid>
+            <pubDate>Tue, 13 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP spend management and business network solutions continue evolving and improving with time – and 2024 will be no different.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/idc-marketscape</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP’s Source-to-Pay Solution Strategy Focuses on Customer Success]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-source-to-pay-strategy-focuses-customer-success</link>
+            <guid>https://www.sap.com/news/2024/02/sap-source-to-pay-strategy-focuses-customer-success</guid>
+            <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Within the source-to-pay landscape, SAP delivers integrated solutions to help manage all forms of spend. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>news-tag/icertis</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>product/sap-spend-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Unveils New Generative AI Innovations That Boost Productivity and Effectiveness in Spend Management]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-spend-connect-live-generative-ai-innovations-spend-management</link>
+            <guid>https://www.sap.com/news/2023/10/sap-spend-connect-live-generative-ai-innovations-spend-management</guid>
+            <pubDate>Mon, 09 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Spend Connect Live in Vienna, SAP has introduced new business AI and UX innovations for spend management and business network.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-ariba-buying</category>
+            <category>product/sap-ariba-contracts</category>
+            <category>product/sap-ariba-sourcing</category>
+            <category>news-tag/sap-concur</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>product/sap-spend-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Transforming Category Management to Help Businesses Stay Competitive and Resilient]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-category-management-stay-competitive-and-resilient</link>
+            <guid>https://www.sap.com/news/2023/05/sap-category-management-stay-competitive-and-resilient</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Category Management helps digitalize processes and expand a business' ability to develop, execute, and monitor category strategies.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>news-tag/digital-transformation</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>topic/spend-management</category>
+        </item>
+    </channel>
+</rss>

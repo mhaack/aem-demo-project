@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/tripit/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 25 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Five Apps to Download for Your Next Trip]]></title>
+            <link>https://www.sap.com/news/2022/11/five-travel-apps-download-next-trip</link>
+            <guid>https://www.sap.com/news/2022/11/five-travel-apps-download-next-trip</guid>
+            <pubDate>Fri, 25 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about five travel apps that should sit alongside TripIt on your phone for easier trips and travels.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Jingle Bells and Flight Alerts – Travel Smart This Holiday Season]]></title>
+            <link>https://www.sap.com/news/2022/11/the-take-smart-holiday-travel</link>
+            <guid>https://www.sap.com/news/2022/11/the-take-smart-holiday-travel</guid>
+            <pubDate>Thu, 17 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In one of the busiest holiday travel seasons in recent years, TripIt can help travelers navigate. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: Jingle Bells and Flight Alerts – Travel Smart This Holiday Season" src="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-jingle-bells-and-flight-alerts--travel-smart-this-holiday-season">The Take: Jingle Bells and Flight Alerts – Travel Smart This Holiday Season</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>This holiday travel season is expected to be among the <a href="https://www.wsj.com/articles/this-thanksgiving-is-expected-to-be-one-of-the-busiest-for-travel-in-decades-11668532148?mod=hp_listb_pos1">busiest</a> and <a href="https://www.nbcnews.com/business/consumer/airline-tickets-cheap-or-expensive-holiday-season-2022-rcna52261">most expensive</a> in years. Travel industry experts are sharing their tips for a better travel experience.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-travel-expense-and-invoice-management-for-total-visibility-and-control">Connect travel, expense, and invoice management for total visibility and control</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/spend-management/travel-and-expense-management.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>The trend of “making up for lost travel time,” a knock-on effect of the <a href="/topics/covid-19">pandemic</a>, continues into the holiday season. Despite inflation and high ticket prices, people are as determined as ever to travel this holiday season — and into 2023.</p>
+  <p>“Just about every TripIt user (99%) is planning a trip for the year ahead,” said Jen Moyse, vice president of product, <a href="https://www.tripit.com/">TripIt</a> from SAP Concur, a travel app that helps people organize and manage their travel plans. “Nearly one in three are planning a Christmas and New Year’s trip and one in four said they’ll travel for Thanksgiving. That’s more than what we heard last year. When we asked the same question <a href="https://www.tripit.com/web/blog/news-culture/american-travelers-practice-cautious-optimism-booking-trips">last fall</a>, only 27% of respondents said they’d travel for the winter holidays and just 19% for Thanksgiving.”</p>
+  <p>In fact, <a href="https://www.tripit.com/web/blog/news-culture/tripit-data-thanksgiving-2022">Thanksgiving travel reservations</a> stored in the TripIt app are up from 2021 for domestic flights (45%), international flights (117%), car rentals (35%), lodging (46%) and vacation rentals (26%).</p>
+  <h2 id="be-prepared">Be Prepared</h2>
+  <p>Summer travel was exceptionally turbulent, with flight delays and cancellations disrupting travel for 57% of TripIt users, according to a <a href="https://www.tripit.com/web/blog/news-culture/tripit-survey-shoulder-season-travel">recent survey</a>. While the travel industry has learned from the experience, 93% of the people who plan to travel over the holidays say they will adjust their behaviors to accommodate potential cancellations and delays.</p>
+  <p>“Some will arrive at the airport earlier than they have in the past (52%), while others will be more selective with the travel providers they use (45%) and nearly as many (44%) will plan ahead for a delay and come bearing snacks and reading material,” Moyse said. “Almost half of travelers are planning not to check a bag, which is a good way to ease the stress of the unknown and keep a few factors of their trip in their control.”</p>
+  <h2 id="be-early">Be Early</h2>
+  <p>This may be the most expensive holiday travel season in recent years, according to <a href="https://www.cnbc.com/2022/09/12/thanksgiving-christmas-travel-to-lift-airfare.html">industry experts</a>. TripIt survey findings reveal that approximately half of respondents say they are spending more money on travel due to inflation (52%), rising airfare (49%) and gas prices (29%).</p>
+  <p>Moyse said that the best way to prepare is to expect and budget for higher prices. She advised booking travel early to avoid sell-outs. She shared her tips: “Check your saved-up points and miles, set alerts for travel deals, use a tool like Fare Tracker in TripIt Pro to secure refunds or investigate programs your credit card provides. Consider looking at flights that might be less desirable for others, like red-eyes or flights on the holidays themselves.”</p>
+  <p>If you plan to travel in 2023, she advised, “It’s safe to assume travel prices will remain high for the foreseeable future, so if you want to make travel a priority, budget accordingly and evaluate the number or types of trips you’re planning to take.”</p>
+  <h2 id="be-flexible">Be Flexible</h2>
+  <p>Plan for the unexpected and you won’t be disappointed, so goes the saying that seems to perfectly describe holiday travel. Indeed, there is a higher probability of travel disruptions around Thanksgiving and the winter holidays in part due to labor shortages and inclement weather. “Build in buffer days for important events, and regularly monitor your flight should the time change or any other adjustments be made to the schedule,” Moyse said.</p>
+  <p>“To avoid holiday mishaps, travelers who have flexibility should avoid the busiest travel days,” she said. “<a href="https://www.tripit.com/web/blog/news-culture/tripit-data-thanksgiving-2022">This Thanksgiving</a>, the busiest travel days will be Wednesday, November 23, followed by Tuesday, November 22. Plan for crowds and long lines, especially at Hartsfield-Jackson Atlanta International Airport, Boston Logan International Airport, Denver International Airport, and Dallas Fort Worth International Airport.”</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong> Ilaina Jonas, Senior Director of <a href="/press-room">Global Public Relations</a>, SAP<br>+1 (646) 923-2834, <a href="mailto:ilaina.jonas@sap.com">ilaina.jonas@sap.com</a></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/the-take</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[Canceled or Delayed Flight? TripIt Can Help with Compensation]]></title>
+            <link>https://www.sap.com/news/2022/11/canceled-flight-compensation-tripit-airhelp</link>
+            <guid>https://www.sap.com/news/2022/11/canceled-flight-compensation-tripit-airhelp</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[When it comes to overbooked, delayed, or canceled flight compensation, TripIt and AirHelp offer users support for navigating options.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Ways to Make the Most of Traveling This Fall]]></title>
+            <link>https://www.sap.com/news/2022/10/five-ways-to-make-the-most-of-fall-travel</link>
+            <guid>https://www.sap.com/news/2022/10/five-ways-to-make-the-most-of-fall-travel</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[According to new TripIt data, 85% of Americans are planning fall travel. Get tips on maximizing your trips from SAP Concur experts.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Know Before You Go Can Make Bleisure Trips Fun – and Reimbursable]]></title>
+            <link>https://www.sap.com/news/2022/10/the-take-bleisure-fun-reimbursable</link>
+            <guid>https://www.sap.com/news/2022/10/the-take-bleisure-fun-reimbursable</guid>
+            <pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bleisure, or blending business travel with personal vacation or leisure, is taking off. Get SAP's take on the practice.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/the-take</category>
+            <category>news-tag/tripit</category>
+        </item>
+    </channel>
+</rss>

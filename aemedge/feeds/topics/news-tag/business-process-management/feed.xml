@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/business-process-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 15 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Signavio Again Leads the 2024 SPARK Matrix™ for Digital Twin of an Organization]]></title>
+            <link>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</link>
+            <guid>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio is a Leader in the 2024 SPARK Matrix for Digital Twin of an Organization (DTO) for the fourth consecutive year. Read more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[Process Observability: Your Business Is More Than a Sum of Its Parts]]></title>
+            <link>https://www.sap.com/news/2023/11/process-observability-business-more-than-its-parts</link>
+            <guid>https://www.sap.com/news/2023/11/process-observability-business-more-than-its-parts</guid>
+            <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Process observability provides a better understanding of the state and performance of how work is getting done within an organization.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Process Observability: Your Business Is More Than a Sum of Its Parts" src="./media_19b273d79858e2abb30e355ef1eb651a331198d4f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="process-observability-your-business-is-more-than-a-sum-of-its-parts">Process Observability: Your Business Is More Than a Sum of Its Parts</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The promise of digital transformation has been to leverage technology in ways that simplify and streamline our work lives. We love Amazon’s “click to buy” button, which sends nearly any product we can think of to our doorsteps in a matter of hours. In our work lives, we can now collaborate on documents in real time, take video conferencing for granted, look to AI bots to record our action items, and more.</div>
+    </div>
+  </div>
+  <p>Luckily, as consumers, we rarely have to look underneath the surface, onto the complexity required to make these systems function. Businesses aren’t that lucky. As business processes become more and more digitized, it is more important than ever to understand the impact of operational systems on business outcomes and to align business strategy with IT architecture.</p>
+  <p>It’s like watching your favorite professional sports team – everyone can be an armchair expert, but fielding a winning team week after week and year after year takes consistent and ongoing effort. Coaches and players need to work together, pulling in data from various sources and applying creative, exploratory analysis to discern the best strategy, mental and physical fitness, and tactics needed to win a particular match. Every business decision is like a new match and the schedule has become more crowded and the stakes higher.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="learn-more-about-process-observability-in-an-idc-report">Learn more about process observability in an IDC report</h3>
+        <p><em><a href="https://www.signavio.com/downloads/white-papers/business-process-observability/">Download it</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In the same way, businesses need to take a holistic team view that looks at the health of the overall business, identifies key processes and functions, and creates the opportunity for improvement and change. This team view requires understanding end-to-end business processes, the operational systems they touch, and how well they meet business goals as well as the needs of customers and employees. As businesses look to drive complicated business and technology transformation faster, at scale, and with more confidence, they are turning to the emerging practice of process observability.</p>
+  <h2 id="what-is-process-observability">What Is Process Observability?</h2>
+  <p>At its most basic level, ‘observability’ is the ability to measure the internal states of a system by examining its outputs. It also implies an ability to separate critical information from routine information. A ‘process’ is simply a description of how something gets done. So ‘process observability’ provides a better understanding of the state and performance of how work is getting done within an organization. A process is observable if stakeholders and systems understand how it operates – where the process outcomes are known – and actions can be derived to improve or change these outcomes.</p>
+  <p>Of course, anything that sounds that simple is usually extremely difficult to execute. Here, the challenge is ensuring that the right observations based on the right data are being collected and that the right people have the right tools to analyze that data in real or near-real time. Identifying patterns, trends, anomalies, and potential issues in this way requires strong alignment of business strategy and IT architecture, as well as the ability to directly connect business processes to the underlying IT landscape they rely on.</p>
+  <h2 id="where-to-start">Where to Start</h2>
+  <p>Supporting better business outcomes must always be the driving force behind ongoing process analysis, insights, and change. Increasing process observability is not about vanity metrics for executives but the alignment needed to make change easier. This depends on three key pillars – data, models, and benchmarks.</p>
+  <p>Obviously, a key part of observability is accessing the data that tells you what is happening at a granular level. Every business process produces data in the form of event logs, metrics, and traces. There’s also data from application monitoring and data on the cycle times or costs for processes. Experience data can be gathered from customers, employees, or other stakeholders. In other words, there’s no lack of data sources.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="business-process-is-at-the-center-of-digital-transformation">Business process is at the center of digital transformation</h3>
+        <p><em><a href="https://dam.sap.com/mac/app/p/video/asset/preview/jmE6B7V?ltr=a&#x26;rc=10">Watch a video</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The bad news is that a recent research study with IDC* found that simply having access to multiple sources of insight was not enough by itself. In fact, when organizations leverage multiple data sources but do not integrate them, they encounter significant challenges. The good news is that the organizations that perform best are significantly more likely to integrate different data sources to analyze processes than the organizations performing less well.</p>
+  <p>Just like the pre-game stratagems of your favorite team, business process models are more of an idealized version of reality that rarely survives unscathed at first contact with the reality of the opposing team or the reality of the business. Because of this, it is necessary to bridge the gap between the results of modeling and what is happening in real life. This requires feedback from human experts about underlying issues that cannot be captured by the data alone. Keep in mind that perfect observability is an unattainable goal. It is important to avoid analysis paralysis by understanding the interplay of process models and data, and make conscious, reasonable trade-offs between maximizing process observability and making efficient use of limited time and resources. Don’t let perfect be the enemy of good when you see a clear goal in front of you. You can take one right step at a time.</p>
+  <p>Benchmarking is a great way to take one such step towards increased overall observability of your processes. Comparing your outcomes to best-in-class performers in similar organizations provides useful insights on its own. In addition, it can help identify which processes can provide the most competitive differentiation for your business. Benchmarks are most useful when they show us more than just our destination – they need to provide content and guidance on the best way to arrive at that destination.</p>
+  <h2 id="at-the-end-of-the-day-its-about-people">At the End of the Day, It’s about People</h2>
+  <p>For decades, business leaders have been waiting for technology to fully deliver on the promise of seamless and delightful customer experience; ubiquitous, clean, and secure data; robust and complete applications; and a way to easily test and embed new technologies. In other words, they want to know how technology is supporting business outcomes. This is the promise and the challenge of process observability.</p>
+  <p>As in any team sport, communication – frequent, data-driven, curious – is vital for success. Historically, one of the toughest communication gaps has been linking business strategy with technology architecture, mapping business outcomes with underlying operational systems. Bridging this gap is critical to success. The good news is that we are hearing from our most innovative customers that their teams are finally starting to have the right conversations. Instead of IT reporting to the business about system performance and the like, the conversation is now centered on how processes are performing and what needs improving.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>*IDC White Paper, sponsored by SAP, Business Process Observability: A Collaborative Approach to Transformation Enablement, doc #EUR251308223, November 2023.</p>
+        <p>Dee Houchen is global lead for the Market Impact Team at SAP Signavio.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-every-week">Get the latest SAP News delivered to your inbox every week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future-Proof Organization Is a Process-Centric Organization]]></title>
+            <link>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</link>
+            <guid>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP Signavio process integrations, automations, and methodologies establish SAP as a true visionary in the process transformation field.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+            <category>product/sap-signavio-process-manager</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Process Explorer: Helping Customers Become Faster, Better, Stronger]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-process-mining-helping-customers</link>
+            <guid>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-process-mining-helping-customers</guid>
+            <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the growing use of process mining and related tools, SAP Signavio Process Explorer can offer customers needed guidance. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/process-mining</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Process Explorer Brings to Life Decades of SAP Software Transformation Experiences]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-transformation-experiences</link>
+            <guid>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-transformation-experiences</guid>
+            <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio Process Explorer speeds up time to value of any business process change. Read the news about the solution availability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Business Process Transformation Introduces a New Cloud Mindset to Growth Strategies]]></title>
+            <link>https://www.sap.com/news/2023/01/business-process-transformation-twinings-ovaltine</link>
+            <guid>https://www.sap.com/news/2023/01/business-process-transformation-twinings-ovaltine</guid>
+            <pubDate>Tue, 10 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Twinings Ovaltine was able to continuously improve business processes with RISE with SAP and SAP Signavio solutions. Read to learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[A Process Mindset Can Change the World]]></title>
+            <link>https://www.sap.com/news/2022/10/process-mindset-change-the-world-sap-signavio</link>
+            <guid>https://www.sap.com/news/2022/10/process-mindset-change-the-world-sap-signavio</guid>
+            <pubDate>Thu, 06 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The value of a process mindset was covered at the recent SAP Signavio Business Process Transformation Forum in Orlando. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-signavio-business-process-transformation-forum</category>
+        </item>
+        <item>
+            <title><![CDATA[New Cognizant and SAP Agreement Focuses on Accelerating Customers’ Digital Transformation]]></title>
+            <link>https://www.sap.com/news/2022/09/cognizant-and-sap-accelerate-customer-digital-transformation</link>
+            <guid>https://www.sap.com/news/2022/09/cognizant-and-sap-accelerate-customer-digital-transformation</guid>
+            <pubDate>Wed, 21 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cognizant and SAP Signavio are working together to demystify business transformation with a process-centric approach. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Announces New SAP Process Insights Solution for Quick and Easy Understanding of How Well Processes Perform]]></title>
+            <link>https://www.sap.com/news/2021/06/sapphire-now-new-sap-process-insights</link>
+            <guid>https://www.sap.com/news/2021/06/sapphire-now-new-sap-process-insights</guid>
+            <pubDate>Wed, 02 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Process Insights is the newest in the business process intelligence portfolio from SAP and Signavio. Read the news from SAPPHIRE NOW.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/deloitte</category>
+            <category>news-tag/ey</category>
+        </item>
+        <item>
+            <title><![CDATA[Demystifying Business Process Intelligence from SAP]]></title>
+            <link>https://www.sap.com/news/2021/05/liher-urbizu-interview-business-process-intelligence</link>
+            <guid>https://www.sap.com/news/2021/05/liher-urbizu-interview-business-process-intelligence</guid>
+            <pubDate>Thu, 06 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[In an interview, Liher Urbizu discusses SAP’s business process intelligence offering and how Signavio products complement the portfolio.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12752f2543f2f91f586df60fee327de8da52324d0.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12752f2543f2f91f586df60fee327de8da52324d0.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12752f2543f2f91f586df60fee327de8da52324d0.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Demystifying Business Process Intelligence from SAP" src="./media_12752f2543f2f91f586df60fee327de8da52324d0.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="demystifying-business-process-intelligence-from-sap">Demystifying Business Process Intelligence from SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="deliver-process-excellence-by-analyzing-improving-and-monitoring-your-processes">Deliver process excellence by analyzing, improving, and monitoring your processes</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-process-intelligence.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Liher Urbizu, head of Services for Asia Pacific Japan at SAP, sits down to demystify SAP’s business process intelligence offering and discuss how Signavio products complement the company’s holistic process transformation portfolio.</div>
+    </div>
+  </div>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_134379f058329f27b03b6ac193c0718a5a4115a91.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_134379f058329f27b03b6ac193c0718a5a4115a91.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_134379f058329f27b03b6ac193c0718a5a4115a91.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot: Liher Urbizu" src="./media_134379f058329f27b03b6ac193c0718a5a4115a91.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1200" height="1500">
+    </picture><strong>Q: Business Transformation as a Service is a prominent topic this year. Why is it important?</strong>
+  </p>
+  <p><strong>A:</strong> Business Transformation as a Service allows our customers to chart their course to the Intelligent Enterprise at their own speed and terms, regardless of their starting point.</p>
+  <p>Together with our ecosystem, we are providing everything that our customers need to holistically transform their business with a fast time-to-value in one bundle: from business process redesign, technical migration services, and cloud infrastructure to SAP Business Technology Platform and our market-leading intelligent enterprise resource planning (ERP), <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA Cloud</a>.</p>
+  <p>While everyone understands the importance of digital transformation and the opportunities it brings, the hardest part seems to be understanding how to holistically transform. Indeed, many companies believe that digital transformation will happen just by performing a technical migration to the cloud or by buying new technology. The need for changing how an enterprise runs with the help of new business models and more intelligent processes is often ignored.</p>
+  <p>Important questions to ask include: What can we do to better support our customers on this journey? How can we help them change the culture and mindset of their enterprises, redesign their business processes, and reduce internal complexity, ultimately enabling them to adopt new business models and stay ahead of their competition?</p>
+  <p>First, Infrastructure as a Service (IaaS) or Software as a Service (SaaS) alone will not cut it. To truly transform, companies need a holistic offering that will help simplify their digital transformation journey in three simple steps:</p>
+  <p><strong>1) Business Process Redesign:</strong> Making use of best practices and building on SAP’s unique data treasures, our business process intelligence solution allows customers to continuously analyze how processes perform, benchmark them against industry standards, and provide tailored recommendations on how to adopt new business models while automating and standardizing processes.</p>
+  <p><strong>2) Technical Migration:</strong> Technical services smooth the migration to a standard, modular, and flexible solution landscape with a consistent data layer, which is key to reacting quickly to new business demands. This includes essential services by SAP and partners to get rid of modifications and custom code and to support them in harmonizing and governing their data layer so they can run and steer their company based on one source of truth.</p>
+  <p><strong>3) Build Your Intelligent Enterprise:</strong> Cloud infrastructure forms the basis of an intelligent enterprise. Customers can gain a reduced total cost of ownership (TCO) by running their workloads on an SAP data center or via hyperscalers, with the best operations costs in the industry. No matter which infrastructure they chose or who their operations partner is, SAP will be their single point of contact.</p>
+  <p>Second, to change the culture and mindset of their enterprises, companies need to reteach their organizations, starting with leaders, who take an element of personal responsibility for driving the change and practicing what they preach. There is no better way than leading by example and demonstrating that shift in mindset, behavior, and processes.</p>
+  <p><strong>Business process management has been around for years and is a major part of continuous improvement programs. With Signavio on board, what opportunities does this bring for our customers?</strong></p>
+  <p>“Continuous improvement” and “business process management” are terms that companies are familiar with. However, business process management practitioners have mostly relied on manual methods for most of these activities. For example, getting information about how a process is executed is very challenging when done manually. It usually takes a long time and ends up being less than accurate.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-completes-acquisition-of-signavio">SAP Completes Acquisition of Signavio</h3>
+      </div>
+      <div><strong><a href="/2021/03/signavio-acquisition-complete">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/2021/03/signavio-acquisition-complete">With the addition of Signavio</a>, SAP can now provide a holistic suite of flexible process transformation solutions for customers to transform their end-to-end business processes. That includes business process design, benchmarking, gap analysis, improvement, and process change management. The suite will also allow customers to monitor the long-run success of these process changes.</p>
+  <p>What is new is that we are doing this digitally and helping our customers to become more data-driven through an end-to-end business process management solution in a single tool set.</p>
+  <p><strong>How can we help customers quickly adapt to the changing markets and business demands, become more agile and resilient — for example, accelerate their transformation with business process intelligence?</strong></p>
+  <p>At the highest level, business process intelligence addresses two types of business requirements:</p>
+  <ul>
+    <li><strong>Business transformation:</strong> If the customer is interested in a major change in their business, then business process intelligence from SAP can help them get from point A to point B. This would include projects like ERP replacement, ERP consolidation, establishing a foundation for digital transformation, or digital transformation like a wide-scale automation of manual tasks.</li>
+    <li><strong>Process excellence:</strong> If the customer is interested in improving efforts in a particular area of the business or addressing specific performance goals, this includes:
+      <ul>
+        <li>Operational excellence, in process areas like order to cash, procure to pay, etc.</li>
+        <li>Customer excellence, a cross-functional focus on processes that impact customer relationships, including both transactional and qualitative elements</li>
+      </ul>
+    </li>
+  </ul>
+  <p>I believe our only path to long-term success is to exceed our customers’ expectations. Business process intelligence will help manage the customer’s digital transformation with the goal of becoming an intelligent enterprise as a key element of their continuous improvement. The comprehensive, end-to-end business intelligence offering from SAP includes process excellence, intelligence, and automation offerings, so that SAP helps every customer continuously transform systems and business processes into a resilient, sustainable, best run intelligent enterprise.</p>
+  <p><strong>Are there any customer success stories that you can share?</strong></p>
+  <p>We have a number of customers in Asia, where SAP has helped to realize value and change processes as part of the bigger transformations. Business process intelligence from SAP is the first to bring all of these components into a single solution set, combining deep process analysis with the tools needed for re-engineering processes or creating entirely new and innovative processes.</p>
+  <p>Some of the examples where customers have shared their transformation journeys include Orica, AGL, OSR, and Mahindra and Mahindra, just to name a few. We have customers across all key industries. In the case of Signavio, we have more than 1,500 customers, including Puma, Siemens, COMCAST, DHL, and Volkswagen.</p>
+  <p><strong>Any closing remarks?</strong></p>
+  <p>While 2020 was a challenging year by all means, where there are challenges, there will also be opportunities for us, for our customers, and for our partners; opportunities to become more effective and efficient, opportunities to focus on what is truly important, and opportunities to innovate and discover new ways of doing things.</p>
+  <p>In 2021 and beyond, we will see more and more customers benefiting from our business process intelligence, a holistic suite of flexible process transformation solutions to transform their end-to-end business processes, helping our customers to become more “data-driven” through an end-to-end business process management solution in a single tool set.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Completes Acquisition of Signavio]]></title>
+            <link>https://www.sap.com/news/2021/03/signavio-acquisition-complete</link>
+            <guid>https://www.sap.com/news/2021/03/signavio-acquisition-complete</guid>
+            <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has completed the Signavio acquisition. Its products become part of SAP’s business process intelligence portfolio. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP to Acquire Business Process Intelligence Company Signavio]]></title>
+            <link>https://www.sap.com/news/2021/01/sap-to-acquire-signavio</link>
+            <guid>https://www.sap.com/news/2021/01/sap-to-acquire-signavio</guid>
+            <pubDate>Wed, 27 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP will acquire Signavio, a leader in the enterprise business process intelligence and process management space. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/rise-with-sap</category>
+        </item>
+    </channel>
+</rss>

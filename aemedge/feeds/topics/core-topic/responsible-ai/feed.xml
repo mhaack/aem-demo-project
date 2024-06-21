@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/core-topic/responsible-ai/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 22 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[What Is Responsible AI?]]></title>
+            <link>https://www.sap.com/resources/what-is-responsible-ai</link>
+            <guid>https://www.sap.com/resources/what-is-responsible-ai</guid>
+            <pubDate>Wed, 22 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover what responsible AI is and how its principles can be used to foster fairness and accountability – while preventing bias and inequality – in an era of rapidly evolving AI.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a60a0e08e86ab32c6b07a7dab7c7c02b109bb714.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a60a0e08e86ab32c6b07a7dab7c7c02b109bb714.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a60a0e08e86ab32c6b07a7dab7c7c02b109bb714.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Employee reviewing multiple screens of ID data" src="./media_1a60a0e08e86ab32c6b07a7dab7c7c02b109bb714.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2309" height="1299">
+          </picture>
+        </p>
+        <h1 id="what-is-responsible-ai">What is responsible AI?</h1>
+        <p>Responsible AI is the ethical development and use of artificial intelligence (AI), focusing on prioritizing fairness, transparency, and human control. Its goal is to prevent harm, avoid biases, and benefit society.</p>
+      </div>
+    </div>
+  </div>
+  <h2 id="responsible-ai-definition">Responsible AI definition</h2>
+  <p>Responsible AI is the practice of using <a href="https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html">AI</a> in a way that emphasizes human oversight and societal well-being. It's about ensuring that AI models, datasets, and applications are developed and deployed ethically and legally, without causing harm or perpetuating biases. It’s important because misusing AI, or using it carelessly, can cause harm to users, society, and businesses.</p>
+  <h2 id="what-is-responsible-ai-vs-trustworthy-ai-vs-ethical-ai">What is responsible AI vs. trustworthy AI vs. ethical AI?</h2>
+  <p>The terms responsible AI, trustworthy AI, and <a href="https://www.sap.com/products/artificial-intelligence/ai-ethics.html">ethical AI</a> are closely related but there are some key differences:</p>
+  <ul>
+    <li><strong>Responsible AI</strong> encompasses the overall ethical implications, governance, oversight, legal, and long-term repercussions of AI.</li>
+    <li><strong>Trustworthy AI</strong> refers specifically to the design of AI systems so that they’re reliable, fair, transparent, explainable, and secure.</li>
+    <li><strong>Ethical AI</strong> focuses on the moral principles of how AI is designed and used so that it doesn’t harm humanity or human dignity.</li>
+  </ul>
+  <p>We must always keep in mind that because AI is not human, it’s incapable of having the human traits of responsibility, trustworthiness, or ethics. Therefore, it’s important to attribute these terms to the people who create or use this technology, and not to the technology itself.</p>
+  <h2 id="how-responsible-ai-works">How responsible AI works</h2>
+  <p>There are human and technology aspects to making responsible AI work:</p>
+  <ul>
+    <li><strong>People</strong> must understand the benefits and risks of using AI – and commit to using it ethically. Individuals and people in organizations and governments all have a role to play.</li>
+    <li><strong>AI technology</strong> must be developed, deployed, and governed in ways that prioritize human rights and well-being.</li>
+  </ul>
+  <p>Establishing formalized <a href="https://www.sap.com/products/artificial-intelligence/ai-ethics.html?pdf-asset=940c6047-1c7d-0010-87a3-c30de2ffd8ff&#x26;page=2">responsible AI principles</a> is a good way to align everyone in an organization to a shared vision of responsible AI. But establishing principles is just a start: the organization must also implement effective AI governance, training, and technical processes to put the principles into action.</p>
+  <p>Responsible AI principles vary between organizations. For example, financial services companies might place a higher emphasis on fairness and non-discrimination, while social media companies might focus more on transparency or privacy. Here’s an example of principles summarized from the <a href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai">European Commission’s ethics guidelines</a> for creating trustworthy AI systems:</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14d561d886624870db3ddad320b8245984c7d8dc7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14d561d886624870db3ddad320b8245984c7d8dc7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_14d561d886624870db3ddad320b8245984c7d8dc7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="AI program learning from traffic data" src="./media_14d561d886624870db3ddad320b8245984c7d8dc7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2309" height="1299">
+    </picture>
+  </p>
+  <h2 id="example-of-responsible-ai-principles">Example of responsible AI principles</h2>
+  <p><strong>Human agency and oversight:</strong> AI should augment human decision-making, uphold human rights, and have mechanisms for human oversight.</p>
+  <p><strong>Technical robustness and safety:</strong> AI systems should be secure, resilient, safe, accurate, and reliable with a contingency plan to prevent unintentional harm.</p>
+  <p><strong>Privacy and data governance:</strong> Systems should fully respect privacy and regulate the quality, privacy, and legitimate access to data.</p>
+  <p><strong>Transparency:</strong> Systems must be traceable and transparent. They should be clearly marked as AI and their capabilities and limitations should be communicated effectively.</p>
+  <p><strong>Diversity, non-discrimination, and fairness:</strong> AI should avoid promoting bias, should support diversity, ensure equal accessibility, and involve stakeholders in the development process.</p>
+  <p><strong>Societal and environmental well-being:</strong> AI systems should benefit all human beings, including future generations. They must be sustainable and environmentally friendly, and their societal impact should be carefully considered.</p>
+  <p><strong>Accountability:</strong> Mechanisms should be put in place to ensure responsibility and accountability for AI systems and their outcomes. Auditability and accessibility should be ensured.</p>
+  <h2 id="responsible-ai-development-practices">Responsible AI development practices</h2>
+  <p>Developers and researchers who create or implement AI systems must follow <a href="https://news.sap.com/sea/2024/01/creating-the-next-generation-of-responsible-ai-developers/">trustworthy AI technical best practices</a> and continuously assess their systems’ adherence to their organizations responsible AI principles. Here are some common practices:</p>
+  <h4 id="assessing-model-training-data">Assessing model training data</h4>
+  <p>Having diverse datasets helps represent various cohorts, improving the robustness and inclusiveness of the AI system. Understanding the data that’s used to train models is necessary for uncovering or mitigating issues like AI bias.</p>
+  <h4 id="causal-analysis">Causal analysis</h4>
+  <p>Understanding how cause-and-effect relationships work in AI models can aid in ethical decision-making about how deploy them, or if they should even be deployed at all. This analysis makes predictive models more robust by revealing interactions among different variables.</p>
+  <h4 id="counterfactuals-analysis">Counterfactuals analysis</h4>
+  <p>This is the process of improving model fairness and decision-making by using "what-if" queries to reveal AI biases and logic problems. It works by asking the model how its decisions would change if the input, such as data about a person or situation, had been different.</p>
+  <h4 id="fairness-in-machine-learning">Fairness in machine learning</h4>
+  <p>Eliminating AI bias is critical to ensuring systems treat different groups or individuals equitably. This is done by identifying unbalanced representation or unfair treatment in <a href="https://www.sap.com/products/artificial-intelligence/what-is-machine-learning.html">machine learning</a> training data and algorithms, and typically has three phases:</p>
+  <ul>
+    <li><strong>Pre-processing of data</strong> to identify and remove biases.</li>
+    <li><strong>Applying fairness constraints</strong> during model testing.</li>
+    <li><strong>Post-processing adjustments</strong> to the model’s decision-making.</li>
+  </ul>
+  <h4 id="model-error-assessment">Model error assessment</h4>
+  <p>Evaluating and correcting errors in models’ predictions is critical for avoiding risky or embarrassing outcomes. Common methods for assessing errors include confusion matrix, precision, recall, F1 score, and ROC curve.</p>
+  <h4 id="model-interpretability">Model interpretability</h4>
+  <p>To promote trust and transparency with users and regulators, developers must be able to interpret and explain why their models make specific decisions and demonstrate certain behaviors. Some commonly used interpretability techniques:</p>
+  <ul>
+    <li><strong>Feature importance</strong> identifies and ranks the most influential variables or “features” used by the model to make predictions.</li>
+    <li><strong>Partial dependence</strong> plots are graphs that visualize the relationship between a selected variable and a specific outcome, with all other variables being constant.</li>
+  </ul>
+  <h2 id="why-is-responsible-ai-important">Why is responsible AI important?</h2>
+  <p>AI is having a profound impact on society, influencing how we work and interact. Responsible AI can be a catalyst for innovation by encouraging novel, human-first approaches to problem-solving and product development. However, irresponsible AI use poses significant risks, like exacerbating inequalities and generating harmful content.</p>
+  <h4 id="ethical-imperatives-for-businesses-and-governments">Ethical imperatives for businesses and governments</h4>
+  <p>All organizations and individuals must uphold high ethical standards in their AI usage. Beyond meeting legal requirements, businesses and governments must also prioritize data privacy, transparency, and fairness in their AI endeavors.</p>
+  <h4 id="societal-expectations-for-ethical-technology-use">Societal expectations for ethical technology use</h4>
+  <p>The demand for accountability and transparency from technology companies is growing as AI becomes more widely used. Society expects AI systems to be engineered to respect human rights, embrace diversity, and prioritize the public good.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1a05864709735c3924b8228e4ff7a1fd9de295dad.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1a05864709735c3924b8228e4ff7a1fd9de295dad.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1a05864709735c3924b8228e4ff7a1fd9de295dad.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Engineer working on robot" src="./media_1a05864709735c3924b8228e4ff7a1fd9de295dad.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2121" height="1414">
+    </picture>
+  </p>
+  <h2 id="responsible-ai-benefits">Responsible AI benefits</h2>
+  <p>As organizations accelerate their AI adoption, it’s natural that some may see responsible AI as a speed bump – or as something to implement later on. But establishing guiding principles before starting major AI projects is critical to helping prevent technology mistakes, harm to people, and reputational damage.</p>
+  <h4 id="competitive-advantage">Competitive advantage</h4>
+  <p>Organizations can position themselves as leaders in <a href="https://www.accenture.com/us-en/insights/artificial-intelligence/ai-compliance-competitive-advantage">ethical innovation</a> and attract customers who prioritize ethical values in their purchasing decisions. In addition to the efficiency and innovation benefits of AI, responsible use allows businesses to implement AI with less risk than competitors who don’t.</p>
+  <h4 id="cost-savings-and-efficiency">Cost savings and efficiency</h4>
+  <p>Proactively addressing AI biases and ensuring the accuracy of model data can help prevent harm to people, expensive mistakes, and improve efficiency. Also, transparent and explainable AI models are usually more accurate than those that aren’t.</p>
+  <h4 id="enhanced-brand-trust">Enhanced brand trust</h4>
+  <p>Openly communicating how AI systems are designed, deployed, and governed demonstrates a commitment to ethical values and customer well-being. This can elevate brand perception, customer loyalty, and help build trust with customers and partners.</p>
+  <h4 id="improved-decision-making">Improved decision-making</h4>
+  <p>By identifying and mitigating biases in data and algorithms, organizations can be more confident that AI-driven insights and recommendations are accurate, equitable, and aligned with ethical standards. This benefit applies across various business functions, including product development, customer service, and strategic planning.</p>
+  <h4 id="risk-mitigation">Risk mitigation</h4>
+  <p>Cases of AI bias, data breaches, or unethical deployment can damage an organization’s reputation and lead to costly lawsuits. Adhering to responsible AI principles can help avoid these risks.</p>
+  <h2 id="responsible-ai-challenges">Responsible AI challenges</h2>
+  <p>It’s important to understand that creating a set of responsible AI principles is just the first step to establishing the necessary mindset and operational approach for creating and deploying AI responsibly. Here are some the challenges of responsible AI:</p>
+  <h4 id="ai-bias-identification-and-mitigation">AI bias: Identification and mitigation</h4>
+  <p>AI systems can reflect or amplify existing biases present in their training data, potentially leading to unfair outcomes in applications like job hiring or loan approvals. To mitigate these biases, organizations must make sure their datasets are diverse, conduct regular audits, and employ bias mitigation algorithms.</p>
+  <h4 id="ai-governance-ensuring-ethical-compliance">AI governance: Ensuring ethical compliance</h4>
+  <p>Without a robust AI governance framework in place, organizations can face privacy, security, and control issues. Establishing clear policies, embracing transparency, and engaging stakeholders are essential for maintaining compliance and accountability in AI systems.</p>
+  <h4 id="regulatory-compliance-and-standardization">Regulatory compliance and standardization</h4>
+  <p>The rapid evolution of AI has surpassed many regulatory frameworks, creating a gap that could lead to ethical violations. Adaptive legal frameworks and international cooperation are necessary to help ensure AI systems are built to comply with updated regulations and standards.</p>
+  <h4 id="scalability-of-ethical-ai-practices">Scalability of ethical AI practices</h4>
+  <p>Scaling ethical AI practices is challenging, especially for organizations lacking resources or expertise. Training AI professionals in ethics and using technology to automate ethical checks can help scale responsible practices effectively.</p>
+  <h4 id="malicious-use-of-ai">Malicious use of AI</h4>
+  <p>Spreading misinformation, unauthorized surveillance, and discriminatory profiling are matters of serious concern. Addressing these risks requires stringent regulatory measures, strict ethical guidelines, and continuous human oversight.</p>
+  <h2 id="responsible-ai-use-cases">Responsible AI use cases</h2>
+  <h4 id="healthcare-enhancing-diagnostic-accuracy">Healthcare: Enhancing diagnostic accuracy</h4>
+  <p>AI can help clinicians to diagnose diseases more accurately from medical images. By ensuring model fairness and transparency, using AI can lead to more equitable health outcomes across diverse demographics.</p>
+  <h4 id="finance-fair-lending-decisions">Finance: Fair lending decisions</h4>
+  <p>By actively monitoring and adjusting credit scoring algorithms to eliminate AI biases, banks and lending institutions can provide more equitable access to financial products, reducing discrimination.</p>
+  <h4 id="retail-personalized-customer-experiences">Retail: Personalized customer experiences</h4>
+  <p><a href="https://www.sap.com/products/artificial-intelligence/what-is-generative-ai.html">Generative AI</a> allows retailers to create highly personalized content and product recommendations. By being transparent about how they’re using this technology, retailers can build deeper trust with consumers, leading to increased loyalty and sales.</p>
+  <h4 id="automotive-safer-vehicles">Automotive: Safer vehicles</h4>
+  <p>Through rigorous testing and adherence to ethical AI standards, manufacturers aim to reduce accidents and improve road safety.</p>
+  <h4 id="human-resources-bias-free-recruiting">Human resources: Bias-free recruiting</h4>
+  <p>By applying algorithms that are regularly audited for fairness, HR departments can make more unbiased hiring decisions, promoting diversity and inclusion within the workplace.</p>
+  <h2 id="types-of-responsible-ai">Types of responsible AI</h2>
+  <p>In addition to ethical AI and trustworthy AI, there are several other types of responsible AI:</p>
+  <p><strong>Explainable AI</strong> refers to AI systems designed to provide human-understandable explanations of their operations or decisions. This transparency helps build trust among users and stakeholders, ensuring that AI decisions can be audited and validated for fairness and accuracy.</p>
+  <p><strong>Sustainable AI</strong> focuses on developing AI technologies in an environmentally friendly way. This includes optimizing energy usage of systems, using greener infrastructure, and considering the lifecycle impacts of AI deployments to minimize carbon footprints and environmental impact.</p>
+  <p><strong>Regulatory-compliant AI</strong> aims to ensure that all AI operations and technology adhere to relevant laws and regulations. This type of responsible AI is crucial in highly regulated industries like finance and healthcare, where adhering to legal standards is as important as technical performance.</p>
+  <p><strong>Human-centered AI</strong> prioritizes human values and welfare, involving stakeholders in the development process and focusing on technologies that augment human beings without replacing them.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-responsible-ai">Learn more about responsible AI</h3>
+        <p>Deepen your understanding of responsible AI concepts, including transparency, human agency, and model bias with the SAP AI Ethics Handbook.</p>
+        <p><strong><a href="https://www.sap.com/products/artificial-intelligence/ai-ethics.html">Get the handbook</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="faq">FAQ</h2>
+  <div class="accordion">
+    <div>
+      <div data-valign="middle">What is AI governance?</div>
+      <div data-valign="middle">AI governance is the framework that guides how AI technologies are researched, developed, implemented, and monitored to ensure they comply with ethical norms, laws, and regulations.</div>
+    </div>
+    <div>
+      <div data-valign="middle">What is AI bias?</div>
+      <div data-valign="middle">AI bias refers to systematic and unfair discrepancies that arise in the data or algorithmic processes of AI systems, often leading to prejudiced outcomes against certain groups or individuals.</div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-responsible-ai-1">Learn more about responsible AI</h3>
+        <p>Deepen your understanding of responsible AI concepts, including transparency, human agency, and model bias with the SAP AI Ethics Handbook.</p>
+        <p><strong><a href="https://www.sap.com/products/artificial-intelligence/ai-ethics.html">Get the handbook</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <h2 id="share-this-article">Share this article</h2>
+  <div class="social-sharing"></div>
+  <h2 id="explore-related-content">Explore related content</h2>
+  <div class="tags"></div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>core-topic/responsible-ai</category>
+            <category>topic/ai</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[HR Trends 2024: The Year of AI]]></title>
+            <link>https://www.sap.com/blogs/hr-trends-2024-the-year-of-ai</link>
+            <guid>https://www.sap.com/blogs/hr-trends-2024-the-year-of-ai</guid>
+            <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[See new SAP research on the top HR trends of 2024, including artificial intelligence (AI), diversity and inclusion, and declining leadership trust]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10dcf99ea3e5221344e836a541e1f98e778684500.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10dcf99ea3e5221344e836a541e1f98e778684500.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_10dcf99ea3e5221344e836a541e1f98e778684500.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Grid of people images on a screen" src="./media_10dcf99ea3e5221344e836a541e1f98e778684500.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="hr-trends-2024-the-year-of-ai">HR Trends 2024: The Year of AI</h1>
+      </div>
+    </div>
+  </div>
+  <p>By Dr. Katherine Gibbard, PhD</p>
+  <p>To no one’s surprise, artificial intelligence will continue to dominate HR in 2024. But new SAP research indicates other HR trends that might be more surprising: that diversity, equity, inclusion, and belonging (DEI&#x26;B) efforts could stall out in some organizations, and that trust in leadership takes a nosedive. Compensation issues may come to a head, too. Organizations will need to deal with the realities associated with technological advancements, major demographic changes, and changing expectations related to the employee experience.</p>
+  <p>The <a href="https://community.sap.com/topics/successfactors/growth-insights-research/growth-insights-team">SAP SuccessFactors Growth and Insights Team</a> conducted extensive research to understand the top HR trends facing organizations today. For 2024, we analyzed 100 reputable business press resources to generate a list of 611 potential trends. Through content analysis and the use of AI tools, we consolidated these trends into nine broader <em>meta trends</em> captured in our <a href="https://www.sap.com/documents/2024/02/883d4dde-ad7e-0010-bca6-c68f7e60039b.html">annual HR trends report</a>.</p>
+  <p>Employee experience (EX) does not exist in our list as a meta trend, though, because it is important to consider EX more broadly. The biggest issues that organizations and HR teams will face in 2024 are tightly woven into the employee experience, so EX will be a top priority for organizations and HR teams as they plan to address these challenges.</p>
+  <p>Understanding these trends and the role that technology – including AI tools – can play in addressing them is essential for HR professionals and business leaders to make strategic decisions. These are the top trends that we’ve identified as most important for the coming year.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c457cdc4bca8f0a53b3f7abaeda3e0966f983436.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c457cdc4bca8f0a53b3f7abaeda3e0966f983436.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1c457cdc4bca8f0a53b3f7abaeda3e0966f983436.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="group of colleagues looking at AI data on transparent screen." src="./media_1c457cdc4bca8f0a53b3f7abaeda3e0966f983436.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <h2 id="ai-upends-the-world-of-work-as-we-know-it">1. AI upends the world of work as we know it.</h2>
+  <p>AI dominated the 2024 trends discourse: how it will transform the labor market, how it will drive productivity, and how it will need to be managed to prevent negative outcomes. <a href="/research/three-hr-strategies-for-managing-ai-disruption">Generative AI won’t lead to widespread job losses</a>, but people who use it will replace those who don’t. Employees will need to see AI as a tool to help them complete work, not a force to compete with, but that may be a tough sell for some.</p>
+  <p>So then the question arises, how do you prepare people managers to manage the performance of employees who use AI? How do managers incorporate AI into their team members’ performance and development goals? And how do managers determine what level of AI usage is appropriate? Guardrails and guidance are crucial.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="hr-and-the-next-evolution-of-ux">HR and the Next Evolution of UX</h3>
+        <p>Discover how AI is revolutionizing the user experience for HR.</p>
+        <p><strong><a href="https://news.sap.com/2023/09/hr-flow-of-work-ux-evolution/">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="skills-become-the-center-of-hr-practices">2. Skills become the center of HR practices.</h2>
+  <p>Organizations will be forced to consider <a href="/blogs/progress-report-addressing-hr-tasks-with-ai">what AI skills they need</a>, to identify who (internally or externally) possesses those skills, and to determine how they should best fill identified skill gaps, be it through reskilling/upskilling, redeployment, external sourcing, or leveraging contract workers. Ironically, <em>human</em> skills such as strategic thinking and complex problem solving will become increasingly important.</p>
+  <p>A focus on career development and continuous learning will help employees and their employers rise to the AI challenge. Employees’ expectations for personalized career paths have increased considerably, and <a href="/resources/when-microlearning-met-gamification">microlearning</a> will help them improve their skills and adapt to changing business needs. Reskilling and <a href="/resources/how-to-upskill">upskilling</a> initiatives, especially for urgent skills needs like AI, will lead to increased motivation in employees, so it must also see greater prioritization by organizations.</p>
+  <h2 id="workers-return-to-the-office">3. Workers return to the office.</h2>
+  <p>Organizations will continue to experiment with motivating employees to return to the office in ways that promote productivity, collaboration, and cost savings, but don’t alienate their top talent. With the recent increase in partial and full return-to-office (RTO) policies, 2024 trends data suggests that the pendulum has swung back to hybrid.</p>
+  <p>Data suggests that organizations will take one of two motivational approaches to returning to on-site workplaces in 2024 – incentivizing employees to visit the office with commute-worthy experiences or penalizing employees and/or their managers for not complying with RTO mandates. In this period of rethinking and redesigning hybrid and remote work models, trends indicate that organizations in 2024 will <a href="/resources/replacing-water-cooler-moments">reconsider their culture</a>: what it is, what they want it to be, and how to best sustain it.</p>
+  <h2 id="deib-momentum-stalls">4. DEI&#x26;B momentum stalls.</h2>
+  <p>Organizations that lack executive-level advocacy and dedicated DEI&#x26;B resources are likely to deprioritize or even defund their DEI&#x26;B efforts this year, in part due to some employees’ <a href="/resources/why-dei-backlash-exists">discontentment with these initiatives</a>, but also due to changing legal landscapes.</p>
+  <p>However, demographic, legal, and economic shifts make 2024 the year to lean in to DEI&#x26;B, not shy away from it. An aging workforce and limits on immigration are contributing to a global talent and skills shortage, which forces organizations to rethink how they find talent, and to recognize where bias and exclusion exist in their recruiting and selection practices. Another reason DEI&#x26;B will be crucial in 2024 is that the workforce spans more generations than ever before, and the increase in generational diversity requires effective DEI&#x26;B management to ensure employee and business success.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_12223eb2e3187e234e28acd0c09c2a6ec462da6b2.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_12223eb2e3187e234e28acd0c09c2a6ec462da6b2.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_12223eb2e3187e234e28acd0c09c2a6ec462da6b2.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="group of coworkers meditating at the office" src="./media_12223eb2e3187e234e28acd0c09c2a6ec462da6b2.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="mental-health-reaches-a-breaking-point">5. Mental health reaches a breaking point.</h2>
+  <p>As rates of employee stress and burnout increase to all-time highs, this year’s trends make it clear that mental health will need to be a specific and dedicated focus of organizations’ well-being efforts in 2024. Being on the receiving end of countless organizational restructurings, leadership transitions, and technology changes over the past several years have left many employees in a state of total change fatigue.</p>
+  <p>Meanwhile, another crucial focus of employers’ well-being efforts will be financial well-being. The link between financial wellness and mental health isn’t difficult to draw; finances are continually reported by employees as a top contributor to their stress.</p>
+  <h2 id="trust-in-leadership-plummets-to-new-lows">6. Trust in leadership plummets to new lows.</h2>
+  <p>The change-induced stress, burnout, and disconnection that workers are experiencing will require organizations to focus on building a trusting, communicative relationship between employees and their leadership, but the current work climate of instability, prompted by a broader business environment of layoffs, the advent of workplace AI, macroeconomic uncertainty, global conflict, and the likelihood of upcoming political upheaval, has created a strong sense of job insecurity for many workers. This puts leaders in a tough position.</p>
+  <p>The current dearth of leadership trust may leave employees feeling less valued and less connected to the larger mission of their organization than in previous years. If employees’ search for meaning is not fulfilled, they may consider looking at other job opportunities where those needs can be met.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="five-steps-to-reduce-emotional-labor">Five steps to reduce emotional labor</h3>
+        <p>Is your technology helping solve employee burnout issues, or causing it?</p>
+        <p><strong><a href="/resources/how-to-fix-emotional-labor">Get solutions here</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="hr-transforms-its-own-skills-and-agility">7. HR transforms its own skills and agility.</h2>
+  <p>HR will undergo its own skills transformation in a few key areas. AI is at the top of the list, of course, but public relations skills are a new necessity in 2024. In a world where RTO mandates and layoffs have become major news headlines, and live reactions to being fired have even gone viral on social media, HR must anticipate this level of exposure and be prepared to address it both internally and externally.</p>
+  <p>Intelligent technologies have long been a part of HR’s toolbox, but with the <a href="/resources/how-hr-can-direct-use-of-ai">explosion of generative AI capabilities</a> and access in 2023, there are a wealth of opportunities for HR professionals at all levels to improve the quality and efficiency of their work in 2024.</p>
+  <h2 id="pay-gets-put-in-the-spotlight">8. Pay gets put in the spotlight.</h2>
+  <p>Several factors have converged over the past year to make pay top of mind for both employees and employers, including continued economic uncertainty, organizational restructuring and layoffs, increased costs of living, and elevated inflation and interest rates. The 2024 trends point to several other employee-driven forces elevating the compensation topic, including changing work arrangements and growing expectations for fair pay.</p>
+  <p>On the one hand, employees expect organizations to provide compensation and benefits to address their logistic concerns (for example, to deal with transportation costs associated with returning to the office). On the other, experts have considered wage growth in recent years to be unsustainable. The prediction is for a notable decline in total compensation this year as some organizations attempt to rebalance their compensation costs. What shows no signs of slowing down, though, are calls for pay equity and pay transparency.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_19cda3669c0d4474945867b196cfec535bcda3c14.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_19cda3669c0d4474945867b196cfec535bcda3c14.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_19cda3669c0d4474945867b196cfec535bcda3c14.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Young black woman stands clapping with colleagues in a meeting." src="./media_19cda3669c0d4474945867b196cfec535bcda3c14.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1680" height="1120">
+    </picture>
+  </p>
+  <h2 id="sustainability-becomes-a-strategy">9. Sustainability becomes a strategy.</h2>
+  <p>Sustainability will move beyond compliance and be treated as an important element of employer brand and internal strategy execution. HR will be expected to weave eco-friendly practices into HR policies, to provide employees with training to understand the organization’s sustainability goals, and to implement new technologies or practices that will replace less efficient alternatives.</p>
+  <p>Organizations will need to tread carefully as they emphasize environmental sustainability as a key strategic priority while simultaneously enforcing RTO mandates that could be perceived as having negative environmental effects. Addressing the topic openly and transparently will serve organizations well.</p>
+  <h2 id="more-about-the-top-2024-hr-trends">More about the top 2024 HR trends</h2>
+  <p>For a more in-depth reading of this year’s HR trends, read the <em>complete report,</em> <a href="https://www.sap.com/documents/2024/02/883d4dde-ad7e-0010-bca6-c68f7e60039b.html">2024 HR Trends: The Year of AI</a> (free registration required). In addition to a complete analysis of each trend and our perspective, we pose questions for HR and business professionals to consider, and we provide resources to help deal with the important issues now. For an overview of the research, watch the <a href="https://www.sap.com/assetdetail/2024/03/ba6018b8-ae7e-0010-bca6-c68f7e60039b.html">2024 HR Trends video</a> from Dr. Katherine Gibbard, Research Scientist, or check out the <a href="https://www.sap.com/documents/2024/03/eccb5dad-ae7e-0010-bca6-c68f7e60039b.html">infographic</a>.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How Synthetic Data Can Avoid Company Risk with AI]]></title>
+            <link>https://www.sap.com/blogs/how-synthetic-data-can-avoid-company-risk-with-ai</link>
+            <guid>https://www.sap.com/blogs/how-synthetic-data-can-avoid-company-risk-with-ai</guid>
+            <pubDate>Fri, 15 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how companies can avoid data privacy and copyright issues with synthetic data generation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Prepping the Business for an AI World]]></title>
+            <link>https://www.sap.com/resources/prepping-the-business-for-an-ai-world</link>
+            <guid>https://www.sap.com/resources/prepping-the-business-for-an-ai-world</guid>
+            <pubDate>Tue, 12 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how AI is changing business, and what it takes to realize its full potential.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_176d65207aa8d830870be460910ae57fb38db1892.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_176d65207aa8d830870be460910ae57fb38db1892.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_176d65207aa8d830870be460910ae57fb38db1892.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="A robot with human face structure." src="./media_176d65207aa8d830870be460910ae57fb38db1892.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="prepping-the-business-for-an-ai-world">Prepping the Business for an AI World</h1>
+        <p>In this collection of SAP Insights articles, we reveal how AI is changing business, and what it takes to realize its full potential.</p>
+      </div>
+    </div>
+  </div>
+  <p>By SAP Insights</p>
+  <p>Everyone, it seems, is implementing artificial intelligence, whether it’s developing a proof of concept or pilot, or moving to full-on adoption. Along the way, leaders are learning valuable lessons about using AI throughout the organization, such as:</p>
+  <ul>
+    <li>Innately human capabilities like collaboration and empathy have never been more important – and important to teach.</li>
+    <li>It’s never sufficient to just “turn on” AI and let it work. Governance is crucial for rooting out harmful bias and other negative effects.</li>
+    <li>AI will touch many areas of the business, from HR to the C-suite.</li>
+    <li>Successful AI implementers approach AI as a business project, not a technology one.</li>
+  </ul>
+  <p>You can learn more about how to reap AI’s benefits while avoiding its pitfalls in the SAP Insights articles below.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_13200c7a5384cba5e7c225a26b5740eb8dcf715c1.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_13200c7a5384cba5e7c225a26b5740eb8dcf715c1.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_13200c7a5384cba5e7c225a26b5740eb8dcf715c1.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Woman engineer seated in front of a computer station, working on a robot head next to her." src="./media_13200c7a5384cba5e7c225a26b5740eb8dcf715c1.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="relationshipgoals-for-ai-and-humans">#RelationshipGoals for AI and humans</h2>
+  <p><strong>Calling all humans.</strong> AI – and especially generative AI – is taking on more activities formerly in the human domain, like creating new content. But there are still lots of things it can’t do, like imagine new business models or recognize abstract concepts such as humor or irony.</p>
+  <p>As AI takes hold, creativity and critical thinking skills will become increasingly valuable because these are things only a human can bring to the table. Uniquely human traits like emotional intelligence, cross-cultural awareness, curiosity, critical thinking, and persistence can and should be taught and cultivated, as opposed to expecting these qualities to develop on their own, as if by magic.</p>
+  <p>Reevaluate what makes humans human in “<em><a href="https://www.sap.com/insights/viewpoints/the-human-factor-in-an-ai-future.html">The Human Factor in an AI Future</a></em>”.</p>
+  <p><strong>Emotion commotion.</strong> Meanwhile, a phenomenon called “affective computing” uses machine learning to teach computers how to understand and project human emotions based on input from gestures, facial expressions, text, and tone of voice. This is important for businesses that want to use AI to engage people, as humans are known to respond to emotionally resonant experiences.</p>
+  <p>Sensitivity to ethical considerations is key. For instance, the privacy implications of detecting employee frustration with a process or task are very different from the concerns raised when monitoring consumer mood changes in a retail setting.</p>
+  <p><em>Read about computerized emotional awareness and how to use this superpower in “<a href="/blogs/empathy-affective-computing-ai">E mpathy: The Killer App for AI</a>”.</em></p>
+  <h2 id="ai-behave-yourself">AI, behave yourself!</h2>
+  <p><strong>Warning: bias ahead.</strong> Most business leaders know by now that AI tools can unwittingly introduce bias into processes. And when they do, suffering ensues, both for people harmed by bad decisions and for companies whose reputations crater when these decisions become known.</p>
+  <p>Why is it so difficult to know when AI is biased? Data scientist and author Cathy O’Neil says it comes down to the harmful and widespread misconception that algorithms are neutral. Business leaders need to create processes to consider and mitigate against potential bias.</p>
+  <p><em>Read our Q&#x26;A with O’Neil to discover where bias lurks in “<a href="/blogs/thinkers-unmasking-unconscious-bias-in-ai">Unmasking Unconscious Bias in AI</a>.”</em></p>
+  <p><strong>Here’s the rub: It’s hard to tell what AI is doing.</strong> Many companies just set up AI systems and let them run without understanding why a particular decision was made. This is problematic, particularly in regions like the EU, which require businesses to be able to explain the decisions their systems make (such as denying a consumer’s loan application). Business and technology leaders alike need to start treating AI as a new source of risk that needs to be managed.</p>
+  <p><em>If you’re not already worried, read “<a href="/resources/ai-buyer-beware-ai-liability">AI Buyer Beware: Know How Your AI Works</a>."</em></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_139f785aa01b8865d2e2343008788c3e52a1fc031.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_139f785aa01b8865d2e2343008788c3e52a1fc031.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_139f785aa01b8865d2e2343008788c3e52a1fc031.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="A woman with glasses with data from monitors reflected in her glasses" src="./media_139f785aa01b8865d2e2343008788c3e52a1fc031.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <p><strong>And AI won’t exactly curb its own behavior.</strong> By neglecting AI risks, you can expose your organization and people to many types of harm – harm that can spiral out of control very quickly. In this Q&#x26;A, ethicist and former philosophy professor Reid Blackman gives pointers for what businesses should think about as they define the ethical boundaries for their AI systems and create the processes and quantitative metrics to support and enforce those boundaries.</p>
+  <p><em>Read why Blackman says ethical AI is not a technology problem in “<a href="/blogs/giving-ai-a-moral-compass">Giving AI a Moral Compass.”</a></em></p>
+  <p><strong>The risk is real.</strong> When it comes to who would be held accountable both for safeguarding the use of AI and for dealing with its potential negative consequences, most fingers point in one direction: the businesses who choose to use it. But don’t be tempted to drop this on your chief information officer’s or chief risk manager’s desk and call it a day.</p>
+  <p>Ensuring AI behaves responsibly is a team effort, involving everyone from technology and data executives to legal and business execs, and everyday users of the AI system. The goal is to create a multilayered governance system for AI use that fills all the gaps.</p>
+  <p><em>Get started on creating a responsible AI framework with five action items in “<a href="/blogs/no-more-excuses-for-irresponsible-use-of-ai">No More Excuses for Irresponsible Use of AI</a>."</em></p>
+  <h2 id="from-hr-to-the-supply-chain-ai-is-everywhere">From HR to the supply chain, AI is everywhere</h2>
+  <p><strong>AI’s effect on jobs? It’s complicated.</strong> HR professionals are the front-line warriors for managing AI-driven changes to the workforce. But there’s a big gray area between job apocalypse and full-employment nirvana. As such, people managers will need to accommodate many different potential outcomes, from increased automation displacing workers to the need for more human-centric roles created in the wake of AI.</p>
+  <p><em>Learn more about possible AI workforce scenarios and how HR should respond in <a href="/research/three-hr-strategies-for-managing-ai-disruption">Three HR Strategies for Managing AI Job Disruption</a>.</em></p>
+  <p><strong>HR as AI whisperer.</strong> HR leaders need to play a bigger role in how AI tools like ChatGPT are used in the workplace. Let’s start with training. Employees need help understanding how to use generative AI productively, accurately, equitably, and ethically, along with guarding against the potential for the technology to do damage.</p>
+  <p>Additionally, HR could play a huge role in helping to redesign jobs and workflows to take advantage of AI efficiency gains, thereby enhancing the employee experience and furthering AI adoption. HR professionals need to be more assertive about convincing their organizations that HR expertise is key to making AI work.</p>
+  <p><em>Learn about HR’s strategic role with generative AI in “<a href="/resources/how-hr-can-direct-use-of-ai">How HR Can Direct Use of AI and ChatGPT</a>.”</em></p>
+  <p><strong>Supply and demand shocks, be gone.</strong> Long-lasting disruptions to global supply chains (we’re looking at you, COVID-19 pandemic) have forever put an end to traditional demand forecasting, with its reliance on historical data. With the increased frequency, scope, and scale of catastrophes – from global climate change and cyberterrorism to rolling pandemics – businesses are now turning to AI-based predictive modeling.</p>
+  <p>This method incorporates real-time demand signals (such as point-of-sale data, weather forecasts, social media feeds, competitive intelligence, and macroeconomic indicators) and AI-driven analytics to anticipate and respond to unexpected shifts in demand. If you want a durable supply chain, this is the way to go.</p>
+  <p><em>See how companies are moving from forecast to foresight in “<a href="/resources/new-era-of-demand-planning">The New Era of Demand Planning</a>.”</em></p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="what-is-supply-chain-planning">What is Supply Chain Planning?</h3>
+        <p>Learn about demand forecasting for the modern supply chain.</p>
+        <p><strong><a href="https://www.sap.com/products/scm/integrated-business-planning/what-is-supply-chain-planning/demand-forecasting.html">Read more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p><strong>AI with a corner-office view.</strong> AI is even coming to the hallowed halls of the C-suite. At this level, AI will become a tool for inquiry rather than action, helping CXOs prove or dispel hunches and gut instincts with extensive data and analysis. No more relying solely on personal experience or counsel from trusted advisors.</p>
+  <p><em>Read how AI and machine learning (ML) will profoundly change how companies are led in “<a href="/blogs/the-c-suite-gets-an-ai-upgrade">The C-Suite Gets an AI Upgrade</a>.”</em></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1cdad9aafb436a68adcd2279e4215bbec6943a751.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1cdad9aafb436a68adcd2279e4215bbec6943a751.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1cdad9aafb436a68adcd2279e4215bbec6943a751.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="White person in a field of tall grass using a digital tablet with a virtual overlay of data." src="./media_1cdad9aafb436a68adcd2279e4215bbec6943a751.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="ai-in-the-wild">AI in the wild</h2>
+  <p><strong>Business use of AI is growing fast.</strong> Companies are ditching the endless cycle of proofs of concept and are now moving to actual implementation. AI is being used for everything from speeding up drug development and designing toy cars to pollinating crops and increasing efficiency in large-scale manufacturing.</p>
+  <p>However, there are still as many ways to get it wrong as get it right. Much can be learned from those who’ve rolled up their sleeves and moved forward with AI.</p>
+  <p><em>For inspiration and insight into your own AI use cases, read “<a href="https://www.sap.com/insights/viewpoints/eight-examples-of-artificial-intelligence-in-action.html">8 Examples of Artificial Intelligence in Action</a>.”</em></p>
+  <p><strong>We can do hard things.</strong> It’s all too easy to get your head turned by the glittery object that is ChatGPT. But former Columbia University professor and best-selling author Eric Siegel says the real breakthroughs are tied not to generative AI but to machine learning. All too often, however, businesses get ML wrong because successful ML projects are notoriously difficult.</p>
+  <p>Siegel says the key is viewing each ML project as a business project, and not becoming enchanted by the technology itself. His book provides a six-part framework for implementing ML to drive operational gains.</p>
+  <p><em>Read our Q&#x26;A with Siegel to get your AI projects grounded in reality in “<a href="https://www.sap.com/insights/viewpoints/a-playbook-for-machine-learning-projects-that-work.html">A Playbook for Machine Learning Projects That Work</a>.”</em></p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[No More Excuses for Irresponsible Use of AI]]></title>
+            <link>https://www.sap.com/blogs/no-more-excuses-for-irresponsible-use-of-ai</link>
+            <guid>https://www.sap.com/blogs/no-more-excuses-for-irresponsible-use-of-ai</guid>
+            <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how forward-thinking companies are showing the way to create a responsible AI framework]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bff5e2f948387e38673d75344d59bbd2b5ad396c.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bff5e2f948387e38673d75344d59bbd2b5ad396c.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1bff5e2f948387e38673d75344d59bbd2b5ad396c.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="woman studying 2 screens of ai driven dashboards" src="./media_1bff5e2f948387e38673d75344d59bbd2b5ad396c.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="no-more-excuses-for-irresponsible-use-of-ai">No More Excuses for Irresponsible Use of AI</h1>
+        <p>When it comes to creating a responsible AI framework, the struggle is real. But forward-thinking companies are showing the way.</p>
+      </div>
+    </div>
+  </div>
+  <p>By Mathias Cellarius and Cindy Waxer.</p>
+  <p>Artificial intelligence has always had equal shares of enthusiasts and detractors. But as AI establishes its place as an important business technology – especially with the rise of generative AI – both fans and naysayers are amping up the volume on questions about its ethical and responsible use.</p>
+  <p>“With the increasing use of AI in high-stakes domains, we have witnessed a growing number of incidents and issues negatively impacting consumers,” says Hoda Heidari, the K&#x26;L Gates career development assistant professor in ethics and computational technologies at Carnegie Mellon University.</p>
+  <p>Chief among these algorithmic landmines are the risk of perpetuating dangerous societal biases, dissemination of misinformation, and displacement of human beings from the workforce. <a href="https://www.nature.com/articles/s41599-023-02079-x">A recent study</a> published in <em>Nature,</em> for instance, found the combination of limited raw data sets and biased algorithmic designers can result in discriminatory hiring practices based on gender, race, color, and personality traits.</p>
+  <p>Generative AI, in particular, poses the risk of spreading misinformation through error-prone large language models. Case in point: While representing a client in a lawsuit, attorney Steven Schwartz <a href="https://www.cnn.com/2023/05/27/business/chat-gpt-avianca-mata-lawyers/index.html">used ChatGPT to supplement his legal research</a>. However, at least six of his submitted cases were found to be nonexistent. <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.575368/gov.uscourts.nysd.575368.32.1_1.pdf">In an affidavit</a>, Schwartz said that he “was unaware of the possibility that its content could be false.”</p>
+  <p>Meanwhile, A-list actors from Jane Fonda to Susan Sarandon <a href="https://www.castingnetworks.com/news/what-you-need-to-know-about-the-new-sag-aftra-agreement-artificial-intelligence/?utm_campaign=daily_roundup&#x26;utm_source=braze&#x26;utm_medium=email&#x26;utm_content=story_1">took to the picket lines</a> in July 2023 to call attention to key issues, including the degree to which Hollywood’s movie studios should be allowed to use the likeness of living actors in perpetuity, essentially using AI to replace actors entirely. In the end, the SAG-AFTRA national board voted to approve a new contract that includes guardrails against AI.</p>
+  <p>High-profile events such as these have sparked “a newfound interest in responsible and ethical use of AI,” according to Heidari. In fact, as innovative use cases for AI multiply, on average, only one in two people believe the benefits of AI outweigh the risks, and three out of five people (61%) are wary about trusting AI systems, according to KPMG’s 2023 Trust in Artificial Intelligence <a href="https://assets.kpmg.com/content/dam/kpmg/au/pdf/2023/trust-in-ai-global-insights-2023.pdf">global study</a>.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1218ff1884ab5de1ab93c35907b396a5a3d3d04ac.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1218ff1884ab5de1ab93c35907b396a5a3d3d04ac.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1218ff1884ab5de1ab93c35907b396a5a3d3d04ac.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Close-up of clicking on computer screen" src="./media_1218ff1884ab5de1ab93c35907b396a5a3d3d04ac.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="ai-accountability-lies-with-ai-implementors">AI accountability lies with AI implementors</h2>
+  <p>When it comes to who would be held accountable for both safeguarding the use of AI and dealing with its potential negative consequences, most fingers point in one direction: the businesses who choose to use it. In addition to existing or planned regulatory actions by the European Union, China, and the United States that subject AI to greater oversight, consumers also say it’s businesses themselves that need to mitigate AI risk. In <a href="https://www.accenture.com/us-en/services/applied-intelligence/ai-ethics-governance#:~:text=In%20fact%2C%20Accenture%27s%202022%20Tech,The%20pressure%20is%20on.">research conducted by Accenture</a>, 77% of global consumers think organizations should be held accountable for AI misuse.</p>
+  <p>According to Ramayya Krishnan, a dean and professor of management science and information systems at Heinz College and a professor in the department of engineering and public policy at Carnegie Mellon University, “Responsible AI is about being transparent, being ethical in terms of what data will be used, and how it will be used and for what purpose.” Yet, he says, there are big challenges that require organizations to adopt tools in order to “move from policy to practice” when it comes to achieving responsible AI.</p>
+  <p>And it shows. <a href="https://web-assets.bcg.com/37/87/33f2ee9d4e2281e792472f4ec1bf/to-be-a-responsible-ai-leader-focus-on-being-responsible.pdf">A study by Boston Consulting Group and MIT Sloan Management Review</a> finds that, although 84% of executives say that responsible AI (RAI) should be a top management priority, just 16% of companies have fully mature RAI programs. One explanation for this gap between aspiration and action, says Heidari, is the “layer of opacity” that can surround AI – a highly specialized technology that consumes vast volumes of data and utilizes complex statistical modeling techniques, such as deep learning, to produce capabilities including natural language processes and computer vision.</p>
+  <p>“When even experts don’t fully understand the capabilities and limitations of the technology they’ve created or are using, it can be very challenging to foresee all that could go wrong when it is deployed in the real world,” she says.</p>
+  <p>Despite these challenges, top organizations are moving forward with creating responsible AI governance structures and policies to help them make more informed decisions about how and where to use AI while minimizing its inherent risks – and thus avoiding reputational damage, employee backlash, or legal liabilities.</p>
+  <p>A close look at these frameworks reveals five action items for any business striving to institute responsible AI: casting a wide net for stakeholder input, instituting strong leadership of the framework, creating and abiding by consistent metrics, ensuring transparency, and knowing where humans need to be kept in the loop.</p>
+  <p>"When even experts don’t fully understand the capabilities and limitations of the technology they’ve created or are using, it can be very challenging to foresee all that could go wrong when it is deployed in the real world."</p>
+  <p><em>- Hoda Heidari, Carnegie Mellon University</em></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1a670053ffcc2050c2bcf78c36704ee314c487633.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1a670053ffcc2050c2bcf78c36704ee314c487633.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1a670053ffcc2050c2bcf78c36704ee314c487633.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Business people having meeting in board room" src="./media_1a670053ffcc2050c2bcf78c36704ee314c487633.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="gather-a-wide-range-of-input-including-diverging-views">#1: Gather a wide range of input, including diverging views</h2>
+  <p>Although managing technology typically falls under the purview of IT, when it comes to responsible AI, “everybody in the organization has some responsibility,” Heidari says. “It takes, without a doubt, a multi-layer, multi-stakeholder approach to create and use AI responsibly.”</p>
+  <p>For this reason, organizations would be wise to take a page from Carnegie Mellon University’s (CMU) <a href="https://www.cmu.edu/block-center/responsible-ai/cmu_blockcenter_rai-memo_final.pdf">responsible AI framework</a>. Created for the U.S. government, many of the framework’s recommendations apply to corporations, including the need for meaningful involvement from a wider set of stakeholders in the design, evaluation, and deployment of AI systems. By bringing these people together, organizations can account for new risks, ensure benefits are realized for key stakeholders, and devise an accountability framework.</p>
+  <p>According to CMU’s policy brief on responsible AI, a key benefit of involving stakeholders with different domain expertise is that doing so can bridge the divide between those who design and deploy AI models and those who use them. By bringing AI makers together with AI users, businesses can build trust and ensure their AI systems satisfy real-world needs and risks. Multiple stakeholders should also weigh in on the objectives of the AI system, and monitor its development and behavior to ensure it continues to align with the goals of the business.</p>
+  <p>A crucial way to invite a wide array of input is to create clear processes for employees and/or consumers to express their concerns if they feel there is an issue with an AI model, such as bias, without fear of repudiation. For example, through its AI4People initiative – aimed at creating “a good AI society” – think tank Atomium-European Institute for Science, Media, and Democracy recommends establishing “a redress process or mechanism to remedy or compensate for a wrong or grievance caused by AI.” This channel should be widely accessible and equip consumers, employees, or any stakeholder to report any damage done by an AI system, and determine accountability for grievances.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1e3ad738323e29ca2256c835a1c36616cbff43c23.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1e3ad738323e29ca2256c835a1c36616cbff43c23.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1e3ad738323e29ca2256c835a1c36616cbff43c23.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Woman standing in front of group discussing next steps." src="./media_1e3ad738323e29ca2256c835a1c36616cbff43c23.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="create-a-multi-layered-governance-mechanism-supported-by-strong-leadership">#2: Create a multi-layered governance mechanism, supported by strong leadership</h2>
+  <p>Responsible AI should not be a stand-alone operation in an organization. “If there is a specific function within an organization, like an AI ethicist or ethics team, it’s often sitting in a vacuum from the rest of the organization,” says Merve Hickok, founder of AIethicist.org and a trainer and consultant on responsible development, use, and governance of AI. The problem with this organizational structure, she says, is, “the attitude becomes, ‘We already have an AI ethics team so it’s not our problem; they’re responsible for finding issues.’ There ends up being a lot of finger-pointing.”</p>
+  <p>Instead, Hickok says responsible AI “needs to start with senior management – you need responsibility and accountability. You need effective oversight and governance mechanisms.”</p>
+</div>
+<div>
+  <h2 id="perspectives-on-artificial-intelligence">Perspectives on Artificial Intelligence</h2>
+  <p>Stay ahead of Artificial Intelligence in an increasingly automated world and discover how it can affect the future of business. <a href="https://www.sap.com/insights/ai.html">Find out more</a> from SAP Insights.</p>
+  <div class="section-metadata">
+    <div>
+      <div>Style</div>
+      <div>Additional Reading</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>To that end, SAP has instituted a three-layered approach for governing AI ethics within the company. The AI Ethics Steering Committee consists of senior leaders from different areas of the company. They are responsible for enforcing the company’s guiding principles and assessing high-risk use cases. Then, the AI Ethics Advisory Panel involves external experts who provide input on the guiding principles and regularly advise on their operationalization. Lastly, the Trustworthy AI Workstream is a group of interested employees who want to engage with trustworthy AI and build expertise. They create the means to implement the necessary processes for ensuring compliance of SAP’s AI development.</p>
+  <p>The leadership team, meanwhile, should consist of people from a variety of functions, such as a chief AI officer, chief data officer, chief privacy officer, chief diversity and inclusion officer, or chief information officer. “You need to have capacity and expertise within the organization that spans technology and also understands and appreciates the business processes that are being reimagined or enabled with AI,” says Carnegie Mellon’s Krishnan.</p>
+  <p>By involving multiple people from the C-suite, businesses can ensure they’ve covered the many areas of risk. For example, <a href="https://www.pwc.com/us/en/tech-effect/ai-analytics/managing-generative-ai-risks.html">as PwC points out</a>, a chief information security officer can protect an AI solution’s model, data, and content from threat actors. A chief privacy officer or a chief diversity and inclusion officer, on the other hand, can help an organization balance the rights and interests of potentially affected human beings.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1fe5723c7cb511e79201941f4108481c2fd64135d.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1fe5723c7cb511e79201941f4108481c2fd64135d.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1fe5723c7cb511e79201941f4108481c2fd64135d.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Businessman Checking Data" src="./media_1fe5723c7cb511e79201941f4108481c2fd64135d.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="establish-clear-and-consistent-metrics">#3: Establish clear and consistent metrics</h2>
+  <p>The best way to assess the trustworthiness of AI products and services is to establish objective metrics that enable ongoing monitoring and measurement. As the AI4People initiative points out, such metrics would allow stakeholders to compare AI offerings in the marketplace, forming the foundation for a “trust comparison index” for AI.</p>
+  <p>These metrics could include accuracy and reliability measurements of the AI model’s output, fairness metrics for determining impartiality and a lack of bias, and transparency and explainability metrics for justifying an AI model’s recommendations or decision-making.</p>
+  <p>But the reality is, not all risks are equal for all companies. “Risk metrics or methodologies used by the organization developing the AI system may not align with the risk metrics or methodologies used by the organization deploying or operating the system,” reads a report entitled, “Artificial Intelligence Risk Management Framework,” published by the U.S. Department of Commerce’s National Institute of Standards and Technology.</p>
+  <p>Rather than simply adopting a standard set of metrics that may not apply to the organization’s AI mandate, CMU’s proposed framework for responsible AI suggests a multi-pronged approach. Businesses should set clear expectations of performance of the AI system, develop “metrics for reliability and utility,” and ensure “continuous monitoring of standards based on the assessed risk of the application space or use case.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="ai-ethics-and-society">AI Ethics and Society</h3>
+        <p>SAP’s Guiding Principles for Artificial Intelligence (AI)</p>
+        <p><strong><a href="https://www.sap.com/products/artificial-intelligence/ai-ethics.html">Read more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="make-ai-transparent-and-explainable">#4: Make AI transparent and explainable</h2>
+  <p>To trust AI, stakeholders need to understand how an AI model arrives at a particular decision and be able to determine whether that decision is accurate or not. At least <a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2221605">that’s the finding of researchers</a> from Austria’s Johannes Kepler University in Linz, which had study participants play a virtual mushroom hunting game while walking through a highly immersive artificial indoor forest.</p>
+  <p>Subjects were asked to pick edible mushrooms and leave the poisonous mushrooms behind. An AI app analyzed photos of the mushrooms and recommended classifications. One group saw the AI’s decisions only, while a second group also received visual explanations of the AI’s recommendation.</p>
+  <p>The results: participants who received visual explanations outperformed those who didn’t receive explanatory evidence. In other words, visual explanations of how the AI determined which mushrooms were delicious – and which were lethal – significantly improved participants’ trust levels.</p>
+  <p>But not all AI models are designed for mushroom picking, and oftentimes outputs can’t be fully explained. For the public to trust AI, Krishnan says transparency must exist “at each layer of the AI pipeline.” This means vetting the data fed to a model, as well as the accuracy and reliability of a model’s data output so there are “assurances that due diligence was exercised in the deployment of an AI application.”</p>
+  <p>For the public to trust AI, Krishnan says transparency must exist “at each layer of the AI pipeline.” This means vetting the data fed to a model, as well as the accuracy and reliability of a model’s data output so there are “assurances that due diligence was exercised in the deployment of an AI application.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1071cbdcce8f416635d346d3e6b31b95bfc2906e2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1071cbdcce8f416635d346d3e6b31b95bfc2906e2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1071cbdcce8f416635d346d3e6b31b95bfc2906e2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="woman engineer looking at various information in screen of futuristic interface." src="./media_1071cbdcce8f416635d346d3e6b31b95bfc2906e2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1680" height="1120">
+    </picture>
+  </p>
+  <h2 id="recognize-the-role-humans-play-in-responsible-ai">#5: Recognize the role humans play in responsible AI</h2>
+  <p>Policies, governance structures, frameworks – these can all help organizations make more informed decisions about how to use AI responsibly and ethically. However, warns Krishnan, “When we talk about a responsible AI system, it’s not just about the AI. It’s about AI plus humans, plus the processes that come together to create the system.”</p>
+  <p>After all, he adds, humans are not powerless to the AI models they design and deploy. For instance, if a hiring manager suspects that an AI-fueled human resources management system is inherently biased, he could “override the AI” and “refuse to accept its recommendation.”</p>
+  <p>Humans also play a key role in ensuring the ongoing use of transparent and explainable algorithms, unbiased data, and compliance with ethical guidelines. Without this human oversight, a responsible AI framework is nothing more than a guideline.</p>
+  <h2 id="real-world-impact-of-responsible-ai">Real-world impact of responsible AI</h2>
+  <p>By establishing programs and policies for responsible use of AI, organizations can minimize risks, such as a damaged reputation, angry customers, frustrated employees, and government fines. But there’s also a flipside: Responsible AI can also drive business growth by building trust with stakeholders, enhancing brand reputation, improving accurate and speedy decision-making, and fostering a culture of innovation. After all, with business investment in AI growing at a rapid clip, responsible AI is no longer an aspirational goal but rather a corporate must-do.</p>
+  <p>“If you’re an organization who is interested in improving the quality of your products, ensuring the sustainability of your organization, the loyalty of your customers, your market share, and leadership within the industry, then responsible AI is a key issue,” AIethicist.org’s Hickok says. “It can have a direct impact on your bottom line, on how you’re treating your customers, and how they perceive your company.”</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Progress Report: Addressing HR Tasks with AI]]></title>
+            <link>https://www.sap.com/blogs/progress-report-addressing-hr-tasks-with-ai</link>
+            <guid>https://www.sap.com/blogs/progress-report-addressing-hr-tasks-with-ai</guid>
+            <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how HR is using artificial intelligence and machine learning to streamline processes, enhance decision-making, prevent bias, and train employees.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How AI-Powered Cybersecurity Combats Growing AI Threats]]></title>
+            <link>https://www.sap.com/blogs/ext-how-ai-powered-cybersecurity-combats-ai-threats</link>
+            <guid>https://www.sap.com/blogs/ext-how-ai-powered-cybersecurity-combats-ai-threats</guid>
+            <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[October is Cybersecurity Month: SAP and Splunk unite against AI threats. Stay informed, invest in threat detection, and train your team in strong cybersecurity.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10b3da3d839d62035729bdc44b9f17dc79bcf4213.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10b3da3d839d62035729bdc44b9f17dc79bcf4213.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_10b3da3d839d62035729bdc44b9f17dc79bcf4213.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Man working on laptop in server room" src="./media_10b3da3d839d62035729bdc44b9f17dc79bcf4213.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="how-ai-powered-cybersecurity-combats-growing-ai-threats">How AI-Powered Cybersecurity Combats Growing AI Threats</h1>
+      </div>
+    </div>
+  </div>
+  <h2 id="by-gabriele-fiata-head-of-cybersecurity-market-strategy-sap">By Gabriele Fiata, Head of Cybersecurity Market Strategy SAP</h2>
+  <p>The threats related to AI are expanding as systems gain autonomy and sophistication at an alarming rate. From January to February 2023 alone, <a href="https://darktrace.com/blog/tackling-the-soft-underbelly-of-cyber-security-email-compromise">Darktrace researchers</a> observed a 135% increase in “novel social engineering attacks,” corresponding to “the widespread adoption of ChatGPT.”</p>
+  <p>Malicious actors can now use AI to launch targeted cyberattacks and exploit vulnerabilities at speeds, scales, and levels of precision previously unattainable by human hackers AI can also be used to craft highly convincing phishing e-mails, create malware that adapts to security measures, and even automate the extraction of valuable data from compromised systems. Traditional cybersecurity measures – such as signature-based antivirus software, firewalls, and rule-based intrusion detection systems – struggle to keep pace with these types of AI-driven attacks, highlighting the need for more adaptive and advanced cybersecurity strategies.</p>
+  <p>It’s the perfect time to discuss how leaders can fortify their strategies to mitigate these risks.</p>
+  <h2 id="the-best-defense-against-ai-is--ai">The best defense against AI is … AI</h2>
+  <p>Ironically, AI itself can be a potent tool in defending against AI threats. Machine learning algorithms can analyze vast data sets to identify anomalies and detect potential security breaches in real time. AI-driven threat detection systems can recognize patterns of behavior that human analysts might miss. This proactive approach to cybersecurity can significantly reduce response times and limit the damage caused by AI-driven attacks.</p>
+  <p>To tackle evolving AI threats, SAP is working together with Splunk – creator of prominent technology for data analysis and security – to address the unique challenges posed by AI in the realm of cybersecurity. The following are key initiatives behind their collaboration.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_10e47f193bfd72a5b0ecf5263b25b88f2a3275942.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_10e47f193bfd72a5b0ecf5263b25b88f2a3275942.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_10e47f193bfd72a5b0ecf5263b25b88f2a3275942.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="A lock sitting on top of a circuitboard." src="./media_10e47f193bfd72a5b0ecf5263b25b88f2a3275942.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="keys-to-the-cybersecurity-strategy-refresh">Keys to the cybersecurity strategy refresh</h2>
+  <ul>
+    <li><strong>AI-specific threat detection:</strong> AI-powered threat detection systems are being designed to detect AI-driven attacks. These systems identify anomalies such as an unexpected surge in data requests outside of business hours or a sudden influx of simultaneous user login attempts. These specific indicators serve as early alerts, signaling potential cyber threats or unauthorized access and helping organizations fortify their security posture.</li>
+    <li><strong>Real-time monitoring:</strong> In the age of AI, real-time monitoring is crucial. SAP and Splunk's collaborative efforts focus on providing businesses with tools to continuously monitor their AI systems. This allows for immediate responses to security threats as they arise, reducing the potential for damage.</li>
+    <li><strong>Strong security community:</strong> Engaging with industry experts and cybersecurity professionals facilitates better information exchange, best practices, and threat intelligence sharing. Technical workshops and thought leadership conferences can also foster collective defense strategies. Events like these help security professionals and businesses stay resilient in the face of evolving AI-related security risks, encouraging a proactive and collaborative response within the community.</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="curious-about-cybersecurity">Curious about cybersecurity?</h3>
+        <p>Join Elena Kvochko for the latest in cybersecurity trends and building trust.</p>
+        <p><strong><a href="https://podcast.opensap.info/the-trust-corner/">Listen now</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="what-leaders-can-do-to-tackle-ai-threats">What leaders can do to tackle AI threats</h2>
+  <p><strong>Stay informed:</strong> Keep up to date with the latest developments in AI security threats and solutions. Attend industry webinars, such as the <a href="https://webinars.sap.com/sap-user-groups-k4u/en/security">SAP User Groups on Security</a>, and conferences such as SAPinsider and.conf24, to gain insights from experts.</p>
+  <p><strong>Regular security audits:</strong> Conduct regular security audits of your AI infrastructure to identify vulnerabilities and weaknesses. Collaborate with AI security experts to ensure comprehensive protection.</p>
+  <p><strong>Invest in AI-specific security:</strong> Recognize that AI demands specialized security measures. Explore products, such as those provided by SAP and Splunk, that are capable of early detection. These products can identify abnormal user and system behaviors and safeguard your business data against AI-driven attacks.</p>
+  <p><strong>Train your team:</strong> Invest in AI security training for your cybersecurity professionals, and equip them with the knowledge and skills needed to defend against AI-specific threats. Key focus areas include:</p>
+  <ul>
+    <li>Ensuring security is an integral part of the AI development process, from inception to deployment</li>
+    <li>Simulating potential AI attacks to identify vulnerabilities and reinforce defensive measures</li>
+    <li>Conducting drills to enhance the team's ability to respond effectively to AI-specific incidents, establishing strong processes for detection, response, and recovery strategies</li>
+  </ul>
+  <h2 id="stronger-ai-security-hinges-on-collaboration">Stronger AI security hinges on collaboration</h2>
+  <p>The collaboration between industry leaders like SAP and Splunk is indicative of the growing recognition of the need for collective action in the face of AI threats. By pooling resources, knowledge, and expertise, organizations can develop more effective AI-specific security products. This collaborative approach is essential for staying ahead of cyber adversaries who continually update their tactics.</p>
+  <p>As AI continues to shape our world, companies must have strong cybersecurity strategies to ensure that AI is used safely.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="tackle-ai-threats">Tackle AI Threats</h3>
+        <p>Proactively identify attacks and reduce the risk of downtime.</p>
+        <p><strong><a href="https://store.sap.com/dcp/en/product/display-2001015322_live_v1/splunk%C2%AE-security-for-sap%C2%AE-solutions">Reduce cyber risks</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[The HR Leader’s Survival Guide to an AI-Infused Future]]></title>
+            <link>https://www.sap.com/research/hr-leaders-survival-guide-to-an-ai-infused-future</link>
+            <guid>https://www.sap.com/research/hr-leaders-survival-guide-to-an-ai-infused-future</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn what three things HR leaders can do to advocate for human employees as AI disrupts jobs in the future workplace.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Four Scenarios for the Future of Workplace AI]]></title>
+            <link>https://www.sap.com/topics/l3-proxy-cards/future-of-workplace-ai</link>
+            <guid>https://www.sap.com/topics/l3-proxy-cards/future-of-workplace-ai</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[There are four ways AI will affect jobs; here’s what HR pros will do to lead employees through all of them.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How HR Can Direct Use of AI and ChatGPT]]></title>
+            <link>https://www.sap.com/resources/how-hr-can-direct-use-of-ai</link>
+            <guid>https://www.sap.com/resources/how-hr-can-direct-use-of-ai</guid>
+            <pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn why as adoption of AI spreads, HR has an opportunity to shape how it is used to benefit the business and its employees.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/what-is</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Three HR Strategies for Managing AI Job Disruption]]></title>
+            <link>https://www.sap.com/research/three-hr-strategies-for-managing-ai-disruption</link>
+            <guid>https://www.sap.com/research/three-hr-strategies-for-managing-ai-disruption</guid>
+            <pubDate>Thu, 13 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[AI is entering the workplace at different speeds and degrees. Find out how HR leaders can understand the changes and give employees a fair voice.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Giving AI a Moral Compass]]></title>
+            <link>https://www.sap.com/blogs/giving-ai-a-moral-compass</link>
+            <guid>https://www.sap.com/blogs/giving-ai-a-moral-compass</guid>
+            <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To make artificial intelligence behave ethically, humans have to take the lead in giving it a moral compass.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c9adf4d98456b6d358744ab13ac65bba3345b0c9.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c9adf4d98456b6d358744ab13ac65bba3345b0c9.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1c9adf4d98456b6d358744ab13ac65bba3345b0c9.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Abstract image of human figures composed of data points." src="./media_1c9adf4d98456b6d358744ab13ac65bba3345b0c9.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="giving-ai-a-moral-compass">Giving AI a Moral Compass</h1>
+        <p>To make artificial intelligence behave ethically, humans have to take the lead.</p>
+      </div>
+    </div>
+  </div>
+  <p>By Fawn Fitter | 7 min read</p>
+  <p><a href="https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html">Artificial intelligence</a> and machine learning technologies allow organizations to analyze and act on vast amounts of information quickly, but they also automate risk at the same speed and scale. A company that uses AI without carefully considering <a href="/resources/how-ai-can-end-bias">bias</a>, privacy, and related issues can wrong large numbers of people. And when consumers, employees, and investors learn about these lapses, they don’t care that the resulting harm was unintentional.</p>
+  <p>In his book, <em>Ethical Machines: Your Concise Guide to Totally Unbiased, Transparent, and Respectful AI</em>, ethicist and former philosophy professor Reid Blackman offers a practical, step-by-step plan to developing, procuring, and deploying AI in a way that avoids, or at least mitigates, its ethical risks.</p>
+  <p>Blackman is the CEO and founder of digital ethical risk consultancy Virtue. We asked him to discuss what business leaders should be thinking about as they define the ethical boundaries for their AI systems and create the processes and quantitative metrics to support and enforce those boundaries.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1679213d7234a35e3fce8ce666e7975a06d94c7f4.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1679213d7234a35e3fce8ce666e7975a06d94c7f4.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1679213d7234a35e3fce8ce666e7975a06d94c7f4.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Manager engineer check and control automation robot arms machine in intelligent factory industrial on real time monitoring system software." src="./media_1679213d7234a35e3fce8ce666e7975a06d94c7f4.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1648">
+    </picture>
+  </p>
+  <h2 id="q-what-has-happened-to-persuade-business-leaders-that-they-need-to-provide-an-ethical-compass-for-their-ai-systems">Q: What has happened to persuade business leaders that they need to provide an ethical compass for their AI systems?</h2>
+  <p><strong>Blackman:</strong> It’s becoming clear that AI exposes companies to serious risks – ethical and reputational risks trumpeted on the news and social media, as well as regulatory and legal risks. These are all bottom-line concerns.</p>
+  <p>For example, in 2019, regulators investigated Optum, a health services company, for an AI that was allegedly recommending that doctors and nurses pay more attention to White patients than to sicker Black ones. Relatedly, in September 2022, California’s Attorney General asked hospitals in that state to provide an inventory of all their algorithm-based risk ratings of diseases and diagnoses.</p>
+  <p>Business leaders, who realize the risks of harming great swaths of people are being proactive about risks in their own organizations, even if they aren’t sure what those are. They don’t want to wrong people at scale! When you engage in unethical behavior through your use of AI, it never harms just one person. That, combined with regulations likely coming soon from the EU and Canada, is really moving leaders to take the issues seriously.</p>
+  <h2 id="q-ai-makes-it-possible-to-analyze-huge-amounts-of-data-quickly-and-automate-decisions-based-on-the-results--but-that-means-it-potentially-creates-ethical-issues-quickly-and-automatically-too-you-argue-this-makes-it-a-c-level-issue-who-in-senior-leadership-should-own-a-companys-ethical-ai-program-and-why">Q: AI makes it possible to analyze huge amounts of data quickly and automate decisions based on the results – but that means it potentially creates ethical issues quickly and automatically, too. You argue this makes it a C-level issue. Who in senior leadership should own a company’s ethical AI program, and why?</h2>
+  <p><strong>Blackman:</strong> The CEO and members of the board are responsible for the brand, so they should advocate for the program. But the chief data officer or chief analytics officer should own it because they’re responsible for overseeing the production and development of machine learning algorithms, and the relevant roles responsible for it, like data scientists.</p>
+  <p>That said, the question of ethical AI isn’t a technology problem. There are quantitative techniques to help identify and mitigate risks, but they aren’t sufficient to solve a problem that’s actually about overall governance and who makes qualitative judgments about what. For example, AI that helps HR monitor employee e-mail can “read” every outbound message, evaluate the language for qualities like respectfulness and aggression, and flag e-mails that it scores as inappropriate. But it’s still HR’s responsibility to read the flagged e-mails in order to understand the context and decide whether it justifies taking action against an individual.</p>
+  <p>The AI ethical risk program needs to include people in risk management, compliance, and cybersecurity, too, as well as someone from the general counsel’s office, and – in my strong opinion – an ethicist. That’s because an effective AI ethical risk program isn’t siloed; it’s woven through existing governance, policies, procedures, and so on.</p>
+  <div class="quote">
+    <div>
+      <div>Data scientists can’t math their way out of these problems. Every organization needs a cross functional team to push things forward.</div>
+    </div>
+  </div>
+  <h2 id="q-you-note-that-because-laws-and-regulations-havent-caught-up-to-ai-developments-companies-can-find-themselves-having-to-choose-between-using-ai-thats-legally-compliant-but-ethically-sketchy-or-ethically-sound-but-legally-risky-what-are-some-examples-of-this">Q: You note that because laws and regulations haven’t caught up to AI developments, companies can find themselves having to choose between using AI that’s legally compliant but ethically sketchy, or ethically sound but legally risky. What are some examples of this?</h2>
+  <p><strong>Blackman:</strong> There are lots of uses of AI that are legal but unethical. For instance, manipulative recommendation engines that suggest problematic content, like disinformation about election results.</p>
+  <p>As for something being ethical but not legal, say you’re a bank. You’re subject to anti-discrimination laws that prohibit you from taking protected categories like race, ethnicity, or gender into your decisions about who gets a mortgage. As you try to build an AI to automate those decisions, you have to look at your model to see who gets mortgages across various populations and determine whether that distribution is fair. You realize that if you want to adjust your model for scoring applicants to approve mortgages more fairly, you have to take those protected categories into account, which the law says you can’t do.</p>
+  <p>That may indicate that anti-discrimination law is outdated, but until it’s updated, it’s still the law, and your business has to comply with it. If you try to make your AI more fair, you increase your risk of being investigated, but if you don’t try to make it more fair, you increase your risk of inadvertently discriminating, and being investigated for different reasons. Companies need to establish a framework for thinking through these challenges.</p>
+  <h2 id="q-given-that-laws-vary-across-countries-how-can-business-leaders-ensure-that-they-are-making-the-most-ethical-decisions-about-ai-while-staying-in-compliance-especially-when-they-operate-globally">Q: Given that laws vary across countries, how can business leaders ensure that they are making the most ethical decisions about AI while staying in compliance, especially when they operate globally?</h2>
+  <p><strong>Blackman:</strong> It’s a balancing act with no easy answers; but also, it’s often less an AI issue than a straightforward business ethics issue. A company that needs goods manufactured has to decide whether it is willing to work with a supplier that’s allowed to run sweatshops, even if the AI points to that supplier as meeting all the production criteria.</p>
+  <p>You can’t expect data scientists to wrestle with complex ethical decisions while they wrangle complex data. They don’t have training, experience, or knowledge about ethical impact. Instead, you need to involve other people – like your general counsel, a risk manager, or a civil rights expert – to train the people who are developing and using your AI to smell the ethical smoke and know who to alert about it.</p>
+  <p>One company I know of established an “office of responsible AI” where teams developing and implementing AI can ask for help with ethically complex or questionable problems. Another company has one person who serves as an “ethical champion” and can elevate questions to a committee as needed.</p>
+  <h2 id="q-if-a-company-is-just-beginning-to-address-the-ethical-boundaries-for-its-use-of-ai-where-should-it-start">Q: If a company is just beginning to address the ethical boundaries for its use of AI, where should it start?</h2>
+  <p><strong>Blackman:</strong> Data scientists can’t math their way out of these problems. Every organization needs a cross functional team to push things forward. And since you can’t address a problem when you don’t understand it, it’s good to start the ball rolling with a seminar or workshop that gives everyone on it a deep and shared understanding of the ethical risks of AI.</p>
+  <p>From there, I recommend two steps. First, develop an AI ethics statement that actually does something. A lot of the time, companies produce such high-level statements that they can’t possibly guide anything – saying “we’re in favor of fairness” doesn’t explain what “fairness” looks like. So you need a statement articulating what your company’s values are and what would constitute a violation of those values.</p>
+  <p>Second, once those standards are clear, it’s time to do a feasibility analysis. What does your organization look like now in relation to those standards? What existing governance structures, policies, and people can be leveraged to create an effective AI ethical risk program that meets your standards? What obstacles does your organization face in attempting to harmonize existing policies and practices with new ones to push your AI ethical risk efforts forward?</p>
+  <p>The answers to these questions and more are imperative if you’re going to efficiently and effectively create an AI ethical risk program that protects your brand and the people it affects.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/sustainability</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Can AI Fix the Racial Wealth Gap?]]></title>
+            <link>https://www.sap.com/blogs/can-ai-fix-the-racial-wealth-gap</link>
+            <guid>https://www.sap.com/blogs/can-ai-fix-the-racial-wealth-gap</guid>
+            <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[In working towards closing the racial wealth gap, companies can use AI to help weed out racism and discrimination in their corporate culture.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c3404ca0e88ccdf91954756d6347b006715ebbfc.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c3404ca0e88ccdf91954756d6347b006715ebbfc.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1c3404ca0e88ccdf91954756d6347b006715ebbfc.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Line of students standing, holding books and other school supplies" src="./media_1c3404ca0e88ccdf91954756d6347b006715ebbfc.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="can-ai-fix-the-racial-wealth-gap">Can AI Fix the Racial Wealth Gap?</h1>
+        <p>Learn how companies can mitigate the risks of artificial intelligence-driven bias and even improve corporate diversity.</p>
+      </div>
+    </div>
+  </div>
+  <p>By Robin Meyerhoff</p>
+  <p>Artificial intelligence (AI) is often touted as an equalizing technology that removes bias from decisions – but it has not always lived up to its promise. Examples of AI gone awry are easy to find. Google made headlines in 2015 when its image-recognition technology returned photos of Black men if users searched for images of gorillas. And Amazon had to <a href="https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G">cancel a project</a> to build an AI-driven recruiting engine after it was apparent the tool preferred men over women.</p>
+  <p>The problem is that AI is only as good as the data it learns from, and <a href="/resources/how-ai-can-end-bias">algorithmic bias</a> can be inadvertently introduced at any point in the development process. Historical data sets used to train the tool may be biased to begin with. And outcome validation by testers during the development process can skew the way the AI learns.</p>
+  <p>But rather than rejecting the use of AI, a community of academics and tech companies are using it to improve corporate diversity by proactively removing cues that may work against traditionally marginalized people. Their goal is to create systems that truly level the playing field, from recruitment through hiring and on to promotion, providing underrepresented groups access to higher-paying jobs commensurate with their skills and education.</p>
+  <h2 id="the-racial-wealth-gap">The racial wealth gap</h2>
+  <p>Researchers say lack of access to those higher-paying jobs has long-term implications to the underlying U.S. economy. A 2020 Brookings Institution <a href="https://www.brookings.edu/blog/up-front/2020/02/27/examining-the-black-white-wealth-gap/">study</a> found that the net worth of a typical white family is nearly 10 times greater than that of a Black family. And a 2019 McKinsey <a href="https://www.mckinsey.com/industries/public-and-social-sector/our-insights/the-economic-impact-of-closing-the-racial-wealth-gap">study</a> found that wealth gap “contributes to intergenerational economic precariousness.” When properly implemented, using AI to reduce workplace racial inequality can improve unequal access to wealth along racial lines.</p>
+  <p>More than two-thirds of middle-class Black children, the McKinsey study predicted, are likely to fall out of the middle class as adults. Their loss could cost the U.S. economy as much as US$1.5 trillion in reduced consumption and investment – as much as 6% of the U.S. GDP – by 2028.</p>
+  <p>Black people still face considerable challenges in corporate America. A <a href="https://coqual.org/wp-content/uploads/2020/09/CoqualBeingBlackinCorporateAmerica090720-1.pdf">study by Coqual</a>, a think tank and consulting group dedicated to workplace equality, found that Black professionals are generally more ambitious in their careers than their white counterparts, yet make up only 8% of all professionals and 3.2% of executives or senior-level managers.</p>
+  <h2 id="barriers-to-professional-jobs">Barriers to professional jobs</h2>
+  <p>The barriers to getting into well-paid, professional jobs are significant. Judith Williams, chief diversity and inclusion officer at SAP, says education isn’t the issue. Black students in the United States complete high school at a nearly <a href="https://www.census.gov/library/stories/2020/06/black-high-school-attainment-nearly-on-par-with-national-average.html">equal rate</a> to that of White students – and college graduation is increasing, albeit more slowly. “You need to look at diversity in the talent pipeline – who gets funding and who goes into the [technology] field,” Williams says.</p>
+  <p>Peter Bergman, professor of economics and education at Columbia University, believes that solving educational parity helps, but doesn’t remove, all the barriers to financial advancement. “You could take a Black student who lives next door to a white family. Both parents are high earners making the same amount of money, the children live in the same place and attend the same schools – but there will be a great disparity in their outcomes,” Bergman says.</p>
+  <p>Social networks, which Bergman points out are not meritocracies, play a critical role in people’s ability to get and keep well-paying jobs or receive promotions. Similarly, algorithms may encode existing bias in new-hire screening processes.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1473d4daa14c4e8a3f425a26116981fa13ba64849.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1473d4daa14c4e8a3f425a26116981fa13ba64849.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1473d4daa14c4e8a3f425a26116981fa13ba64849.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Satisfied multiracial businessmen shaking hands after signing document" src="./media_1473d4daa14c4e8a3f425a26116981fa13ba64849.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="is-ai-bias-free">Is AI bias-free?</h2>
+  <p>“A lot of companies using algorithms as part of their screening processes make claims about fairness and lack of bias that aren’t supported by the evidence,” he says. “For example, they’ll say it’s bias-free because gender or race isn’t included. But that doesn’t mean it lacks bias. You could have two people of equal talent from different groups and the hiring manager will likely interview someone from one group over another.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="how-ai-can-end-bias">How AI Can End Bias</h3>
+        <p>If it's taught to play fair, AI can be a powerful tool for reducing human bias.</p>
+        <p><strong><a href="/resources/how-ai-can-end-bias">Read the story</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Bergman says this happens because of how variables are correlated. “If race isn’t indicated as a quality to consider, the algorithm latches onto other available variables like the university you attended, job experience, and location.” Those factors often correlate to race and impact who gets a job interview and who doesn’t.</p>
+  <p>To move beyond this effect, companies must consider different data. If a company that hasn’t traditionally hired people of color relies on historical hiring data, that data will likely only exacerbate the problem.</p>
+  <p>Bergman recommends training algorithms to explore different candidates, similar to how Netflix suggests shows for us to watch. It doesn’t just rely on viewing history – it also offers completely different shows to see if a viewer is open to other types of content.</p>
+  <p>“There are a lot of parts to hiring beyond the algorithm. So it’s not just about changing it,” Bergman says. “You have to explicitly incorporate exploration into the algorithm and apply that to the hiring framework.”</p>
+  <p>Bergman believes that approach must also be applied to digital HR systems that track data regarding the entire employee lifecycle, from application and interview through hiring and retention. He says, “That’s what we’re hoping to do – develop an evidence-based approach to creating a <a href="/resources/diversity-in-the-workplace">diverse workplace culture</a>.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1b677a372403266576b7930430c52f49e32271ae9.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1b677a372403266576b7930430c52f49e32271ae9.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1b677a372403266576b7930430c52f49e32271ae9.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Diverse group of students crowded around laptop, learning from teacher" src="./media_1b677a372403266576b7930430c52f49e32271ae9.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="how-to-override-ai-bias">How to override AI bias</h2>
+  <p><a href="https://appen.com/">Appen</a> and <a href="https://writer.com/">Writer</a> are two companies that train algorithms to help organizations weed out racism and discrimination in corporate culture.</p>
+  <p>Sydney-based Appen provides training data for AI that helps many of the world’s biggest technology companies, including Amazon and Microsoft, develop machine learning, speech recognition, and computer vision algorithms.</p>
+  <p>Appen CEO Mark Brayan says the company aims to eliminate two sources of bias. The first is historical data that tends to exclude certain populations. For example, insurance claim payout models may be based on 100 years’ worth of policies sold to white men – which Appen rectifies by providing a more diverse data set.</p>
+  <p>The second is bias introduced by the humans that interact with the data. “Humans need to transcribe and annotate data, which brings in their perspective and cultural context,” Brayan says. “People score data’s relevance, which can drift if diverse viewpoints are not represented.” To correct this, Appen uses crowdsourcing to ensure data workers come from a variety of backgrounds, tapping into a network of more than one million contractors globally.</p>
+  <p>“People are subject to different conditions, and relevance can be impacted by time, culture, etc.,” Appen says. “Our crowd helps customers map to users’ diversity and demography – and provides unbiased data.”</p>
+  <p>Writer, a San Francisco-based startup with customers including Twitter, Discovery Channel, and Intuit, builds AI tools that align language with diversity and inclusion efforts. “People have the best of intentions but don’t always know the correct way to speak about or to diverse groups. We help them do what they intend to do,” says May Habib, co-founder and CEO of Writer.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="qa-how-to-give-ai-a-moral-compass">Q&#x26;A: How to Give AI a Moral Compass</h3>
+        <p>To make artificial intelligence behave ethically, humans have to take the lead.</p>
+        <p><strong><a href="/blogs/giving-ai-a-moral-compass">Read the story</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Writer’s tools work by training algorithms on language guidelines created by marginalized groups. “We build on the work done by underrepresented communities. People have spent their careers developing inclusive language and we help it go mainstream,” Habib says. “Alternative suggestions are key and that’s where AI comes in. Writer sits in people’s browsers to make sure that people are being sensitive and creating environments of belonging.”</p>
+  <p>For example, technology companies have come under fire for not creating inclusive cultures. Product developers use terms like “whitelist” and “blacklist,” “master” and “slave,” and “dummy.” Habib says, “We help product teams say what they mean – we suggest replacing ‘dummy value’ with ‘placeholder value,’ or ‘blacklist’ with ‘deny list.’”</p>
+  <p>While AI can foster more inclusive hiring and employment practices, to truly address the wealth gap companies need to profoundly shift corporate culture. AI can help, but the rest relies on organizational leaders’ will and appetite to enact long-term, sustainable changes.</p>
+  <h2 id="gaps-still-persist">Gaps still persist</h2>
+  <p>But even tech companies, like those in Silicon Valley, have a long way to go. A <a href="https://www.hrdive.com/news/nyu-female-job-candidates-more-likely-than-men-to-receive-offers-from-sili/589383/">study</a> by researchers at New York University’s Stern School of Business found that Black, Hispanic, and Asian applicants are 8% to 13% less likely to receive a callback than white applicants for positions in tech companies. These gaps persist throughout the interview and offer processes.</p>
+  <p>Bergman explains: “If people really cared about these issues, they’d build systems that create data about the workplace and rigorously evaluate it. They’d put their money where their mouth is and use that evidence to understand the culture better.”</p>
+  <p>He adds that culture is multi-dimensional and complex. For example, multinational corporations need to address the different ways that Blackness is understood globally as a social construct. He recommends that organizations approach it in multiple ways and understand the different ways it can be measured.</p>
+  <p>Embracing the approaches recommended by Bergman and others gives companies a path to turn well-meaning support for racial diversity into significant change that can create equal opportunities in professional fields – and do their part towards closing the wealth gap.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/trends-predictions</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[AI for HR]]></title>
+            <link>https://www.sap.com/resources/ai-for-hr</link>
+            <guid>https://www.sap.com/resources/ai-for-hr</guid>
+            <pubDate>Fri, 04 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[AI solutions for HR are transforming the modern workforce. Learn more about how AI in HR is being used to meet, and solve, the challenges of a changing workplace.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/business-case</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[AI Buyer Beware: You Are Accountable for How Your AI Works]]></title>
+            <link>https://www.sap.com/resources/ai-buyer-beware-ai-liability</link>
+            <guid>https://www.sap.com/resources/ai-buyer-beware-ai-liability</guid>
+            <pubDate>Tue, 13 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[AI isn't just a new type of software but an entirely new type of corporate risk. Learn more about AI liability and how to mitigate your risk.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a1eb10dc919f8d6ddb573d91d5090083ff2c1f9c.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a1eb10dc919f8d6ddb573d91d5090083ff2c1f9c.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1a1eb10dc919f8d6ddb573d91d5090083ff2c1f9c.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Finger touching screen" src="./media_1a1eb10dc919f8d6ddb573d91d5090083ff2c1f9c.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="ai-buyer-beware-know-how-your-ai-works">AI Buyer Beware: Know How Your AI Works</h1>
+        <p>Businesses are on the hook if their AI systems harm someone. Here’s how to be prepared.</p>
+      </div>
+    </div>
+  </div>
+  <p>By David Jonker and Lauren Gibbons Paul</p>
+  <p><em>You’re the CEO of a community bank. While seeking ways to cut costs during the fallout from the pandemic, you’re intrigued when one of your executives shows you a plan to cut call-center costs by 30%. The idea is to replace many of your customer service agents by offering support through an advanced chatbot driven by natural language processing (NLP), a branch of artificial intelligence (AI). By learning the patterns of informal human speech over time, the hip-sounding bots help customers get what they need more quickly than a human agent would while maintaining that all-important sense of connection.</em></p>
+  <p><em>It’s a classic win-win, until the day your chatbot becomes the target of Internet trolls who “teach” it a barrage of racist and misogynistic phrases. No one knows exactly how it happened, but within just a few hours, your friendly chatbot has transformed into a bigoted bully, spewing insults at your customers. The ensuing maelstrom is an immediate black eye for your reputation, not to mention the talk of customer lawsuits. If you had only known before you bought the software, you might have asked more questions.</em></p>
+  <p>Think this couldn’t happen to you? Think again. <a href="https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist">Microsoft fell victim</a> to a scenario very much like this in 2016. You can bet the technology giant has fine-tuned its AI algorithms since then, but it’s worth noting that a company that was supposed to understand how to deploy AI suffered a damaging, unexpected outcome. The lesson for lesser mortals? When it comes to AI, proceed with caution to avoid being derailed by intentional abuse, <a href="/blogs/thinkers-unmasking-unconscious-bias-in-ai">accidental bias</a>, or other problems.</p>
+  <p>Complex machine learning algorithms are rapidly taking over much of the heavy lifting in our society – helping to diagnose cancers more accurately than humans, plowing through piles of college applications to pinpoint worthy candidates, speeding through mortgage loan paperwork. The possibilities are endless.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="prepping-the-business-for-an-ai-world">Prepping the Business for an AI World</h3>
+        <p>More on what it takes to realize the full potential of AI for your enterprise.</p>
+        <p><strong><a href="/resources/prepping-the-business-for-an-ai-world">Explore our coverage</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>The benefits are legion – speed, lower cost, and the ability to unearth more sophisticated insights than humans can muster. No one knows the scope of the potential because no one (or very few people) really understands how these complex AI systems do what they do.</p>
+  <p>Yet AI’s lure is powerful. Many companies just set up AI systems and let them run. The numbers tell the story. Businesses of every size, in every industry worldwide, are and will be purchasing AI systems – everything from <a href="/blogs/how-todays-robotic-processes-will-spark-tomorrows-digital-assistants">robotic process automation</a> software to NLP to machine learning algorithms. IDC projects global AI spending will grow dramatically, <a href="https://www.idc.com/getdoc.jsp?containerId=prUS50454123">surpassing $300 billion in 2026</a>. During the worst of the COVID-19 lockdowns, <a href="https://www.forbes.com/sites/louiscolumbus/2020/07/05/why-ai-continues-to-deliver-results-in-a-pandemic/#1f72f0f247e1">large enterprises continued to push forward</a> with their AI projects, according to a Capgemini survey, with 53% moving AI pilot projects into production. Many in the boardroom see AI as an emerging way out of today’s business constraints.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_12196cadbfd8a79c9acf17f8557b200d54ae6280e.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_12196cadbfd8a79c9acf17f8557b200d54ae6280e.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_12196cadbfd8a79c9acf17f8557b200d54ae6280e.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Two businesspeople looking at data on large screen" src="./media_12196cadbfd8a79c9acf17f8557b200d54ae6280e.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <p>Not so fast there.</p>
+  <p>AI is not only a new type of software but also an entirely new type of corporate risk. It is not like traditional software, where developers and IT managers understand the code and functionality. With AI, the underlying structural code is documented and understood. But with systems like the bank chatbot and machine learning systems that “learn” over time <em>how</em> that code completes its business mission, it’s completely unknown and virtually beyond human comprehension. We haven’t seen many high-profile cases yet, but make no mistake: the looming legal liability surrounding biased data or a faulty decision made by an automated system poses a risk to businesses. To <em>your</em> business.</p>
+  <p>Much of the problem is because there’s a lack of transparency in the way AI systems operate. When businesses use AI systems, they are blind to everything but the inputs and outputs. So, for example, attempting to train a machine learning system to recognize a certain type of vehicle would be foiled by the simple human error of giving it only pictures of vehicles in the snow to learn from. The human knows snow in the picture is irrelevant to the type of vehicle; the machine learning system does not. This situation – flawed data inputs – can immediately lead to cascading bad outcomes, including increased financial, legal, reputational, and even cybersecurity risk. Another major problem: usually, there’s no clear picture of how the machine did what it did. Ultimately, people have zero visibility to how and why an AI system behaves and makes decisions – the so-called “black box” problem. <em>This represents a fundamental threat to users of AI systems.</em></p>
+  <p>There are many implications. For example, as <a href="https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G">Amazon learned all too painfully</a> (more on that below), AI systems that filter job candidate resumes could potentially introduce gender or racial <a href="https://www.sap.com/insights/viewpoints/how-ai-can-end-bias.html">bias</a> into your employee-management process. Who’s responsible in that case? The business that uses the software, or the company that developed it? Do you know whether or not the software you buy will introduce bias? Who makes the call?</p>
+  <h2 id="the-black-box-problem-unexplainable-ai">The black box problem: Unexplainable AI</h2>
+  <p>The lack of transparency within AI grows by the day. AI systems were already complex and beyond most humans’ comprehension when they first came on the market more than a decade ago, but their opacity and complexity keep intensifying. In just one year, Open AI’s natural language generation AI, GPT-3, has become over 1,000% more complex. Explainability – the ability to describe how AI systems do what they do – becomes a distant thought.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_13b3e6e868fd2490e31f179612d6f10bee7a5e523.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_13b3e6e868fd2490e31f179612d6f10bee7a5e523.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_13b3e6e868fd2490e31f179612d6f10bee7a5e523.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Lightbulb" src="./media_13b3e6e868fd2490e31f179612d6f10bee7a5e523.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <p>For the good of society <em>and</em> business, organizations need to become transparent in how they train models, and implementations must gravitate toward explainable methods. Clearly, we need a sea change in priority toward producing AIs that can be inspected and explained. To build trust requires showing users the rules algorithms follow so people can determine if they are fair and equitable.</p>
+  <p>One possible approach is using a second AI system to deconstruct how the first system arrived at a result, says Dr. Iria Giuffrida, professor of the practice of law and deputy director at the Center for Legal and Court Technology, William &#x26; Mary Law School. One system goes from A to B, the other from B to A.</p>
+  <p>Good intentions fall by the wayside quickly when algorithms get to work.</p>
+  <p>“Imagine an AI system that receives inputs, does its processing, and creates an output,” says Giuffrida. “Then there’s another AI system that is given the same data but the other way around, starting with the output. The task of the second system is to work out how the first got from A to B.” Of course, there are many possible avenues from one point to another. An explainer system can only point to a few likely paths. And nothing makes the second system particularly trustworthy – not at this point, anyway. So, at best, explainer AI systems could show possible pathways of decision-making, something that can be particularly important in the context of regulatory compliance (more on that below).</p>
+  <p>Unless you are aware of the conceivable pitfalls and thoughtfully curate a system’s learning process, there is enormous potential for problems. Let’s revisit that Amazon recruiting tool from 2017.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_127e09496adad3116a35759086a05f0e3f691390b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_127e09496adad3116a35759086a05f0e3f691390b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_127e09496adad3116a35759086a05f0e3f691390b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Young man holding up cube" src="./media_127e09496adad3116a35759086a05f0e3f691390b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="240" height="160">
+    </picture>
+  </p>
+  <p>Good intentions fall by the wayside quickly when algorithms get to work.</p>
+  <p>“Nobody set out to say, ‘I just want a white, middle-aged male,’” says Giuffrida, but those were the job candidates the system ultimately delivered. “The machine learning function itself was not malfunctioning – it did what it was designed to do. The bias was in how the data scientists defined ‘successful candidate’ by reference to existing employees, without giving a second thought about gender and race.” There’s a cautionary tale here, as with the Microsoft anecdote above: if a massive company like Amazon, with all the resources in the world at its disposal, can so easily run afoul of its intentions, how can others expect to do better?</p>
+  <p>In the past, standards for software have provided a way for businesses to evaluate whether it performs as advertised. But a commonly defined and usable standard for explainable AI is far off, and it is yet unclear where it will come from or whether it will even be workable. In the meantime, businesses will want to use AI systems. They have to take risks, after all, or everyone has to go home. To get a better understanding of the risks, we need to understand the current legal landscape to see where liability lurks.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1456259a4811e6326f78ccd1a9bd2abc453fcc298.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1456259a4811e6326f78ccd1a9bd2abc453fcc298.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1456259a4811e6326f78ccd1a9bd2abc453fcc298.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Group of colleagues working together around a table" src="./media_1456259a4811e6326f78ccd1a9bd2abc453fcc298.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="239" height="160">
+    </picture>
+  </p>
+  <h2 id="legal-doctrines-and-laws-that-govern-the-emerging-situation">Legal doctrines and laws that govern the emerging situation</h2>
+  <p>Business and technology executives wondering where potential legal risk lies should look to two possibilities: tort law (which provides liability for harm caused by faulty products and negligent behavior) and contract law (which, for instance, governs the software user’s right to make a claim against the software vendor). There are few AI-related cases to provide guidance at the moment, so it’s important to understand the doctrines that could apply. Let’s look first at tort law.</p>
+  <p>The industrial age ushered in the concept of product liability, which gradually gained acceptance as legal doctrine. Over time, according to Fox Rothschild LLP partner Chris Michael Temple, the concept of “strict liability” developed, which protected consumers from defective and dangerous products. Temple advises industrial companies that are increasingly using robotics and AI-assisted machinery to aid in manufacturing processes.</p>
+  <p>AI is not just a new type of software, but a completely new type of corporate risk.</p>
+  <p>“Traditionally when a product left the manufacturer’s hands, the manufacturer was representing that the product was safe for its intended use,” says Temple. So, the manufacturer of a cutting machine with a faulty safety mechanism, for example, would be liable to people who were harmed by that defect – open and shut. Strict liability has provided the basis of hundreds of cases and product recalls ever since.</p>
+  <p>But products that leverage machine learning and other forms of AI are different in that they transform and evolve into something other than what they were when they left the originator’s facility, says Temple. An autonomous car, for example, might be completely fit for safe transportation as it drives itself off the lot. If an onboard machine learning system evolves so the vehicle is no longer safe, much liability could follow, but not under a traditional theory of products liability. It likely won’t be enough for the car maker to say the autonomous car was safe when purchased. What’s needed is new case law or a legal doctrine to establish liability under a tort theory. This is not unlikely, says Temple, as the law changes quickly. But law typically evolves in response to the application of emerging technologies like AI, rather than before something goes wrong.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="how-do-you-combat-ai-bias">How do you combat AI bias?</h3>
+        <p>Humans must teach AI to play fair and constantly question the results.</p>
+        <p><strong><a href="https://www.sap.com/insights/viewpoints/how-ai-can-end-bias/">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>If tort law does not furnish a ready answer today, what about contract law? Spoiler alert: there won’t be much opportunity for an auto manufacturer to sue the software company that developed the AI system used in the car. Here’s why.</p>
+  <p>Contract law offers broad restrictions on liability for software vendors. Software has never been considered a “product” for the purposes of product liability. In fact, software providers currently demand broad limitations on liability for the use of their software. And these restrictions generally hold up in court.</p>
+  <p>Absent a pressing public policy concern, the courts rarely deviate from settled case law; therefore, “those basic principles around limitation on liability provisions in contracts are going to stand,” says Jeff Andrews, chair of the Bracewell law firm’s technology transactions practice, who negotiates contracts for corporate software buyers across industries. If a self-driving car makes a decision that causes an accident, the company that developed the code is currently immune from liability in a suit brought by the manufacturer. The standard to recover against the AI developer will be gross negligence – very difficult to prove. As with torts, there is no telling if or how contract law will evolve to accommodate AI and other emerging technologies. In the meantime, absent applicable case law, it is safest to assume the AI software user is most likely to be held responsible for damage that ensues from its use. <em>This means you.</em></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1aa50e163912262545d37cdae5550a70d652f8e2c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1aa50e163912262545d37cdae5550a70d652f8e2c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1aa50e163912262545d37cdae5550a70d652f8e2c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Woman in glasses using tablet" src="./media_1aa50e163912262545d37cdae5550a70d652f8e2c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="240" height="160">
+    </picture>
+  </p>
+  <h2 id="gdpr-a-potential-framework-for-understanding-ai-liability">GDPR: A potential framework for understanding AI liability</h2>
+  <p>While there have not yet been many lawsuits to provide clues as to how AI liability will likely shake out, the General Data Protection Regulation (GDPR), which currently governs data privacy issues in the European Union, spells out at least a portion of the legal responsibilities of those using software systems to make automated decisions about individuals, such as whether to grant a mortgage or accept a college applicant: to wit, the duty that companies have to ensure that automated decision-making tools do not discriminate against individuals. The GDPR also provides the right of appeal to someone adversely affected by an automated decision, and many legal experts say this implies a “right to explanation” for the reasons behind the decision.</p>
+  <p>This is a potential bombshell for any company using AI systems within the E.U. Not only do these organizations need to <em>protect against</em> automated decisions that have harmful consequences, they also need to provide anyone so affected an appeal of that decision. While many of today’s automated decisions are implemented using standard statistical techniques, opaque AI systems are rapidly entering this area. As they do, meeting this requirement is going to be a major challenge for their users.</p>
+  <p>If an organization uses opaque AI systems to make a decision, which is an increasing practice, the organization using that decision must ensure there is no bias in the data – a very tall if not impossible order given the current “black box” state of AI. Then, there has to be due process around the automated decision. All of this is problematic at best.</p>
+  <p>There’s a great deal of excitement about the vast opportunity AI affords. In the face of all the excitement, it’s sobering to have to stop and assess risk. But without doing that, you could leave your organization vulnerable to existential threats. So, here’s some practical advice on how to approach AI risk.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_13ad4919a0876a353bbde43847bcc545bd97de923.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_13ad4919a0876a353bbde43847bcc545bd97de923.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_13ad4919a0876a353bbde43847bcc545bd97de923.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Two people working on something on a laptop" src="./media_13ad4919a0876a353bbde43847bcc545bd97de923.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="240" height="160">
+    </picture>
+  </p>
+  <h2 id="addressing-ai-risk--six-places-to-begin">Addressing AI risk – six places to begin:</h2>
+  <h2 id="be-as-clear-as-possible-about-what-you-will-use-the-ai-system-for-before-you-buy-it">1. Be as clear as possible about what you will use the AI system for –<em>before</em> you buy it.</h2>
+  <p>Liability flows from all AI use, so you want to make very sure you understand exactly what those uses are. “The process means a lot of back and forth between the business and the technology team. And key executives might have different views, so they have to speak with each other,” says Giuffrida. This crucial first step helps you avoid a situation where you buy a bot to automate one aspect of a process but find the business starts using it for everything but the kitchen sink. You can’t vet that bot only once – you have to do it every time you use it for a different application.</p>
+  <h2 id="work-with-your-legal-advisors-before-you-make-the-investment-to-mitigate-ai-risk-as-much-as-possible">2. Work with your legal advisors <em>before</em> you make the investment to mitigate AI risk as much as possible.</h2>
+  <p>Understand your organization’s risk appetite and make a thorough assessment of whether it wants to take on the scope of liability associated with the AI technology you will use.</p>
+  <p>If a financial services organization is interested in using AI technology to identify and stop fraud, for example, it will need to take precautions to ensure both compliance with applicable regulations and lack of bias in the data set on which the system was trained. Seek advice from legal counsel with a track record in this area, advises Giuffrida. Be sure to proceed at your own pace of comprehension. “If you don’t understand something, you’ve got to say, ‘I’m sorry. I know I sound stupid, but I don’t understand what you’re talking about when you say this.’”</p>
+  <h2 id="understand-the-lifecycle-of-the-ai-system">3. Understand the lifecycle of the AI system.</h2>
+  <p>There’s a date of installation when the AI system gets up and running. But how long will it operate? Is this something that’s going to be used for six months? Or is the intended lifecycle of this technology and process indefinite? The lifecycle is important because it helps you understand the window within, which you need for monitoring the performance of the technology, says Temple.</p>
+  <h2 id="ask-pointed-questions-of-the-technology-vendor">4. Ask pointed questions of the technology vendor.</h2>
+  <p>Understand both what you are using the system for (that is, what you would like it to do) and how it is accomplishing that. If you simply buy a black box, you will end up with a big legal bill. You need to ask questions about how the vendor created the system and how it’s maintained. Any company that does business in the E.U. must ask specifically how the AI system meets the GDPR provisions to protect against harmful profiling and bad automated decisions. This conversation is like what happened during the early days of cybersecurity when technology buyers were unsure what questions to ask information security vendors. Don’t be satisfied with an easy answer. There’s too much at stake.</p>
+  <h2 id="dont-ever-buy-an-ai-system-without-a-total-understanding-of-its-cybersecurity-provisions">5. Don’t ever buy an AI system without a total understanding of its cybersecurity provisions.</h2>
+  <p>You could be picking up an unknown ball of risks to data privacy, for general cybersecurity and even national security.</p>
+  <h2 id="keep-a-human-in-the-loop">6. Keep a human in the loop.</h2>
+  <p>Though it may appear to go against the very point of using AI, maintaining human intervention in automated decision processes can be a hedge against bad results from machines. “Having an individual in the loop to double-check what the algorithm is spitting out is definitely risk mitigation,” says Andrews. So, in a hiring setting, it would theoretically be possible to check if the system identified the most qualified candidate or if that person got screened out. If the candidate were not selected, the employer could alter its data or attributes to narrow down what is contributing to the bias. How practical this advice is, however, and whether it will be workable over time, remains to be seen. As with all things AI, you will likely have to adapt your approach over time.</p>
+  <p>It can be a dizzying exercise to try to imagine the scope of potential harm (ranging from reputational mishaps all the way up to human injury or death) from business use of AI systems. And it is sobering to understand that our courts have not yet spelled out clear lines of responsibility. Yet businesses are already using AI systems – more are doing it every day. So, the best posture at this point is to join with your business and legal counterparts to understand and mitigate the known risks as much as possible.</p>
+  <p>“The hope is that the law will evolve in a way that encourages the development, the investment in, and the creation of these technologies. But there’s a lot of work to be done by a lot of people to develop the outcome of what those laws could be,” says Temple. Exciting times indeed.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/crm-customer-experience</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/what-is</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Thinkers: Unmasking Unconscious Bias in AI]]></title>
+            <link>https://www.sap.com/blogs/thinkers-unmasking-unconscious-bias-in-ai</link>
+            <guid>https://www.sap.com/blogs/thinkers-unmasking-unconscious-bias-in-ai</guid>
+            <pubDate>Thu, 23 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Don’t trust algorithms just because they’re math, warns data scientist Cathy O’Neil. Even well-intentioned companies must continually assess to avoid bias.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1420c363907773fd01d0b2270bdca63ecbedd6c8c.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1420c363907773fd01d0b2270bdca63ecbedd6c8c.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1420c363907773fd01d0b2270bdca63ecbedd6c8c.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Close-up photo of binary code." src="./media_1420c363907773fd01d0b2270bdca63ecbedd6c8c.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="unmasking-unconscious-bias-in-ai">Unmasking Unconscious Bias in AI</h1>
+        <p>Don’t trust data to be neutral, warns data scientist Cathy O’Neil. Businesses need processes that counter algorithmic bias.</p>
+      </div>
+    </div>
+  </div>
+  <p>By Fawn Fitter</p>
+  <p>In the wake of the 2008 banking crisis, Cathy O’Neil, a former Barnard College math professor turned hedge fund data scientist, realized that the algorithms she once believed would solve complex problems with pure logic were instead creating them at great speed and scale. Today, O’Neil runs the popular <em><a href="https://mathbabe.org/">Mathbabe</a></em> blog, has 39,000 <a href="https://twitter.com/mathbabedotorg">followers</a> on Twitter, and heads up an algorithmic auditing <a href="https://orcaarisk.com/">firm</a> to illuminate the dark side of Big Data: mathematical models that operate without transparency, without regulation, and – worst of all – without recourse if they’re wrong. She’s also the founder of the Lede Program for Data Journalism at Columbia University, and her bestselling book, <em>Weapons of Math Destruction</em> (Crown, 2016), was long-listed for the 2016 National Book Award. We asked O’Neil about creating accountability for mathematical models that businesses use to make critical decisions.</p>
+  <h2 id="q-if-an-algorithm-applies-rules-equally-across-the-board-how-can-the-results-be-biased">Q: If an algorithm applies rules equally across the board, how can the results be biased?</h2>
+  <p><strong>Cathy O’Neil:</strong> Algorithms aren’t inherently fair or trustworthy just because they’re mathematical. “Garbage in, garbage out” still holds.</p>
+  <p>There are many examples. On Wall Street, the mortgage-backed security algorithms failed because they were simply a lie. A program designed to assess teacher performance based only on test results fails because it’s just bad statistics; moreover, there’s much more to learning than testing. A tailored advertising startup I worked for created a system that served ads for things users wanted, but for-profit colleges used that same infrastructure to identify and prey on low-income single mothers who could ill afford useless degrees. Models in the justice system that recommend sentences and predict recidivism tend to be based on terribly biased policing data, particularly arrest records, so their predictions are often racially skewed.</p>
+  <h2 id="q-does-bias-have-to-be-introduced-deliberately-for-an-algorithm-to-make-skewed-predictions">Q: Does bias have to be introduced deliberately for an algorithm to make skewed predictions?</h2>
+  <p><strong>O’Neil:</strong> No! Imagine that a company with a history of discriminating against women wants to get more women into the management pipeline and chooses to use a machine learning algorithm to select potential hires more objectively. They train that algorithm with historical data about successful hires from the last 20 years, and they define successful hires as people they retained for five years and promoted at least twice.</p>
+  <p>They have great intentions. They aren’t trying to be biased; they’re trying to mitigate bias. But if they’re training the algorithm with past data from a time when they treated their female hires in ways that made it impossible for them to meet that specific definition of success, the algorithm will learn to filter women out of the current application pool, which is exactly what they didn’t want.</p>
+  <p>I’m not criticizing the concept of Big Data. I’m simply cautioning everyone to beware of oversized claims about and blind trust in mathematical models.</p>
+  <h2 id="q-what-safety-nets-can-business-leaders-set-up-to-counter-bias-that-might-be-harmful-to-their-business">Q: What safety nets can business leaders set up to counter bias that might be harmful to their business?</h2>
+  <p><strong>O’Neil:</strong> They need to ask questions about, and support processes for, evaluating the algorithms they plan to deploy. As a start, they should demand evidence that an algorithm works as they want it to, and if that evidence isn’t available, they shouldn’t deploy it. Otherwise they’re just automating their problems.</p>
+  <p>Once an algorithm is in place, organizations need to test whether their data models look fair in real life. For example, the company I mentioned earlier that wants to hire more women into its management pipeline could look at the proportion of women applying for a job before and after deploying the algorithm. If applications drop from 50% women to 25% women, that simple measurement is a sign that something might be wrong and requires further checking.</p>
+  <p>Very few organizations build in processes to assess and improve their algorithms. One that does is Amazon: every single step of its checkout experience is optimized, and if it suggests a product that I and people like me don’t like, the algorithm notices and stops showing it. It’s a productive feedback loop because Amazon pays attention to whether customers are actually taking the algorithm’s suggestions.</p>
+  <h2 id="q-you-repeatedly-warn-about-the-dangers-of-using-machine-learning-to-codify-past-mistakes-essentially-if-you-do-what-youve-always-done-youll-get-what-youve-always-gotten-what-is-the-greatest-risk-companies-take-when-trusting-their-decision-making-to-data-models">Q: You repeatedly warn about the dangers of using machine learning to codify past mistakes, essentially, “If you do what you’ve always done, you’ll get what you’ve always gotten.” What is the greatest risk companies take when trusting their decision-making to data models?</h2>
+  <p><strong>O’Neil:</strong> The greatest risk is trusting the data model itself not to expose you to risk, particularly legally actionable risk. Any time you’re considering using an algorithm under regulated conditions, like hiring, promotion, or surveillance, you absolutely must audit it for legality. This seems completely obvious; if it’s illegal to discriminate against people based on certain criteria, for example, you shouldn’t use an algorithm that does so! And yet companies often use discriminatory algorithms because it doesn’t occur to them to ask about it, or they don’t know the right questions to ask, or the vendor or developer hasn’t provided enough visibility into the algorithm for the question to be easily answered.</p>
+  <h2 id="q-what-are-the-ramifications-for-businesses-if-they-persist-in-believing-that-data-is-neutral">Q: What are the ramifications for businesses if they persist in believing that data is neutral?</h2>
+  <p><strong>O’Neil:</strong> As more evidence comes out that poorly designed algorithms cause problems, I think that people who use them are going to be held accountable for bad outcomes. The era of plausible deniability for the results of using <a href="https://www.sap.com/products/technology-platform/what-is-big-data.html">Big Data</a> – that ability to say they were generated without your knowledge – is coming to an end. Right now, algorithm-based decision-making is a few miles ahead of lawyers and regulations, but I don’t think that’s going to last. Regulators are already taking steps toward auditing algorithms for illegal properties.</p>
+  <p>Whenever you use an automated system, it generates a history of its use. If you use an algorithm that’s illegally biased, the evidence will be there in the form of an audit trail. This is a permanent record, and we need to think about our responsibility to ensure that it’s working well.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[The Human Factor in an AI Future]]></title>
+            <link>https://www.sap.com/resources/the-human-factor-in-an-ai-future</link>
+            <guid>https://www.sap.com/resources/the-human-factor-in-an-ai-future</guid>
+            <pubDate>Tue, 21 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Artificial intelligence (AI) is getting better at performing complex tasks. How can we compete? By recognizing and nurturing skills that are uniquely human.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e9a0241203aed0aecae5c03a5aff8ff85d77abd9.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e9a0241203aed0aecae5c03a5aff8ff85d77abd9.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1e9a0241203aed0aecae5c03a5aff8ff85d77abd9.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Abstract data network connection" src="./media_1e9a0241203aed0aecae5c03a5aff8ff85d77abd9.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="the-human-factor-in-an-ai-future">The Human Factor in an AI Future</h1>
+        <p>To stay ahead of artificial intelligence in an increasingly automated world, we need to cultivate our most human abilities.</p>
+      </div>
+    </div>
+  </div>
+  <h2 id="by-dan-wellers">By Dan Wellers</h2>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15aba62647d513ba1d993d2af10a5f8c56f45b8d4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15aba62647d513ba1d993d2af10a5f8c56f45b8d4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15aba62647d513ba1d993d2af10a5f8c56f45b8d4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_15aba62647d513ba1d993d2af10a5f8c56f45b8d4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="319" height="179">
+          </picture>
+        </p>
+        <p><a href="https://d.dam.sap.com/m/SZ9utfh/hls.m3u8">SAP Digital Futures: The Human Factor in an AI Future</a></p>
+      </div>
+    </div>
+  </div>
+  <p>Artificial intelligence (AI) grows more sophisticated and better able to perform human tasks with each passing year. That requires us to wrestle with the ongoing implications, not just for business, but for humanity as a whole.</p>
+  <p>From the first <a href="https://humanorigins.si.edu/evidence/behavior/stone-tools">hammerstone</a> to factory automation, technology that reduces or even eliminates physical and mental effort is as old as the human race itself. However, that doesn’t make each step forward any less uncomfortable for the people whose work is directly affected – and the rise of AI is qualitatively different from past developments.</p>
+  <p>Until now, we developed technology to handle specific, routine tasks. A human needed to break down complex processes into their component tasks, determine how to automate each of those tasks, and finally create and refine the automation process. <a href="https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html">AI</a> is different. Because AI can evaluate, select, act, and learn from its actions, it can be independent and self-sustaining. Its ability to decide what to do without our direct input or control makes us not just uncomfortable, but vulnerable. An economic system in which not even the machines need us will force us to rethink our most basic definitions of what it means for a human to be valuable and valued, and to adjust our society accordingly.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="want-a-quick-overview">Want a quick overview?</h3>
+        <p>Get the brief on why we need human skills in an increasingly automated world.</p>
+        <p><strong><a href="https://www.sap.com/documents/2022/10/dcccb8ff-477e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="where-does-ai-leave-humanity">Where does AI leave humanity?</h2>
+  <p>Any job that involves routine problem-solving within existing structures, processes, and knowledge is ripe for handing over to an AI. Indeed, jobs like customer service, travel planning, stock trading, real estate, and even clothing design are already increasingly automated. <a href="https://www2.deloitte.com/us/en/insights/focus/cognitive-technologies/ai-adoption-in-the-workforce.html">Analysts</a> and academics are focusing intently on how AI will impact tomorrow’s labor market, and many researchers are projecting that unlike earlier waves of automation that predominantly affected lower-education, lower-wage workers, AI will also impact well-educated and well-paid “knowledge workers.”</p>
+  <p>Although we’re still a long way from computers that can pass flawlessly as people, it was wrong to assume that it would take computers decades or even centuries to catch up to the nimble human mind. The exponential explosion of deep learning is letting AI chat with us in an almost-human <a href="https://futurism.com/the-byte/google-chatbot-near-human-conversation">way</a>, diagnose illness better than a <a href="https://www.healthcareitnews.com/news/asia-pacific/ai-helps-radiologists-improve-accuracy-breast-cancer-detection-lesser-recalls">doctor</a>, and maybe even <a href="https://spectrum.ieee.org/automaton/artificial-intelligence/embedded-ai/ai-deception-when-your-ai-learns-to-lie">lie</a> to us before too long.</p>
+  <p>The concept of the technological singularity – the point at which machines attain superhuman intelligence and permanently outpace the human mind – is based on the idea that human thinking can’t evolve fast enough to keep up with technology. However, the limits of human performance have yet to be found. It’s possible that people are only at risk of lagging behind machines because nothing has forced us to test ourselves at scale.</p>
+  <p>Other than a tiny minority of individuals, most of humanity has had little choice but to spend its time meeting survival-level needs. Most people don’t have the time or energy for higher-level activities like scientific discovery, art, music, or philosophy. But as the human race faces the challenge of potential obsolescence, we need to think of those activities not as luxuries, but as necessities. Even as technology nibbles away at the repetitive tasks that most humans have traditionally done to earn a living, we have an unprecedented and urgent opportunity to determine the unique value humanity offers, and to cultivate the uniquely human skills that deliver that value.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_15f67160427a80e47b119687d9f9ac212df9ad4d4.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_15f67160427a80e47b119687d9f9ac212df9ad4d4.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_15f67160427a80e47b119687d9f9ac212df9ad4d4.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Three people look at a futuristic data visualization." src="./media_15f67160427a80e47b119687d9f9ac212df9ad4d4.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="honing-the-human-advantage">Honing the human advantage</h2>
+  <p>As a species, humans are driven to push past boundaries, to try new things, to build something worthwhile, and to make a difference. We have strong instincts to explore and enjoy novelty and risk – but according to psychologist Mihaly Csikszentmihalyi, these instincts crumble if we don’t cultivate them.</p>
+  <p>AI is brilliant at automating routine knowledge work and generating new insights from existing data. What it can’t do is deduce the existence, or even the possibility, of information it isn’t already aware of. It can’t imagine radical new business models. Or ask previously unconceptualized questions. Or envision unimagined opportunities and achievements.</p>
+  <p>It doesn’t even have common sense! As theoretical physicist Michio Kaku says, a robot doesn’t know that water is wet or that strings can pull but not push (unless you tell it). Nor can robots engage in what Kaku calls “intellectual capitalism” – activities that involve creativity, imagination, leadership, analysis, humor, and original thought.</p>
+  <p>At the moment, though, we have only begun to prioritize these so-called “soft skills” in our education systems. We still largely expect people to hone their emotional intelligence, cross-cultural awareness, curiosity, critical thinking, and persistence organically, as if these skills simply emerge on their own given enough time. But there’s nothing soft about these skills. They are necessary, they can be taught, and they’re the critical difference between human intelligence and the artificial kind.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1f0640407d251fd34f1888841f2bc7196cfea6f38.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1f0640407d251fd34f1888841f2bc7196cfea6f38.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1f0640407d251fd34f1888841f2bc7196cfea6f38.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Man working at a desk" src="./media_1f0640407d251fd34f1888841f2bc7196cfea6f38.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="lessons-in-being-human">Lessons in being human</h2>
+  <p>For humans to have value in an increasingly AI-operated future, we need to cultivate our most human abilities within society – and to do so not just as soon as possible, but also starting at as young an age as possible.</p>
+  <p>Peter Diamandis, founder of the XPRIZE global competition for innovation, advocates revamping the elementary school curriculum to nurture skills we haven’t considered critical: that passion, curiosity, imagination, and persistence other thinkers have identified, as well as ethics. It’s not necessarily a new idea to teach children that they should take risks and make mistakes because failure is how we learn, and that understanding another point of view is more important than being right; Waldorf and Montessori schools have been encouraging similar approaches for decades. But in a world full of problems too big and complex for individuals to solve on their own – climate change, world hunger, pandemics, rising authoritarianism – we all need to be able to respond creatively, collaborate more than we compete, unlearn our assumptions, and remain open to what we don’t know. And the imperative to help people acquire these skills is more relevant and urgent than ever.</p>
+  <p>The Mastery Transcript Consortium is <a href="https://mastery.org/">approaching</a> the problem from the opposite direction by working backwards from their desired outcome of ensuring every high school student graduates with creative, critical, and analytical abilities. The organization is pushing to redesign the secondary school transcript to better reflect whether and how high school students are acquiring the necessary combination of skills by measuring student achievement in a more nuanced way than through letter grades and test scores. This approach inherently requires schools to reverse-engineer their curricula to emphasize those abilities.</p>
+  <p>In the age of AI, everyone will need creativity and critical thinking skills because those are the things only a human can bring to the table. If we decide that we don’t care whether most people can thrive or even survive without those skills, we’ll be writing off a significant percentage of the population as disposable – and thereby doom ourselves to political and social instability as people become desperate to escape economic and humanitarian disaster.</p>
+  <p>On the other hand, if we rethink our assumptions about education and the economy based on the idea that everyone has unique human abilities worth nurturing, we can retain options for everyone to earn a living and maybe even find innovations in places and people where we never looked for them before. While we let artificial intelligence get better at being what it is, we can get better at being human. That’s how we’ll keep coming up with groundbreaking new ideas like jazz music, graphic novels, self-driving cars, blockchain, <a href="/blogs/how-4d-printing-will-shift-the-shape-of-manufacturing">4D printing</a> – and whatever comes after AI itself.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/business-case</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How AI Can End Bias]]></title>
+            <link>https://www.sap.com/resources/how-ai-can-end-bias</link>
+            <guid>https://www.sap.com/resources/how-ai-can-end-bias</guid>
+            <pubDate>Thu, 09 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Artificial intelligence (AI) can help avoid harmful human bias, but only if we learn how to prevent AI bias as well.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/ai</category>
+            <category>topic/hcm</category>
+            <category>core-topic/responsible-ai</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+    </channel>
+</rss>

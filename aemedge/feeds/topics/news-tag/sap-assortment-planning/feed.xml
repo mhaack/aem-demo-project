@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-assortment-planning/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 13 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP and Swedish Food Retailer Axfood Bring the Right Product Mix to Supermarkets]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-and-axfood-bring-right-product-mix-to-supermarkets</link>
+            <guid>https://www.sap.com/news/2023/03/sap-and-axfood-bring-right-product-mix-to-supermarkets</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP teamed up with Swedish food retailer Axfood to design an innovative assortment planning solution. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-assortment-planning</category>
+            <category>news-tag/sap-design</category>
+            <category>news-tag/sap-fiori</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable Retail Business Solutions from SAP]]></title>
+            <link>https://www.sap.com/news/2022/01/nrf-2022-sustainable-retail-business-solutions-from-sap</link>
+            <guid>https://www.sap.com/news/2022/01/nrf-2022-sustainable-retail-business-solutions-from-sap</guid>
+            <pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[During NRF 2022, read how SAP solutions are helping retailers digitally transform and make their businesses sustainable.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Sustainable Retail Business Solutions from SAP" src="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sustainable-retail-business-solutions-from-sap">Sustainable Retail Business Solutions from SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-at-nrf-2022">Learn more about SAP at NRF 2022</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/noam/nrf/en/home">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong><em>WALLDORF</em></strong> — The <a href="https://cdn.nrf.com/sites/default/files/2020-06/RS-118304%20NRF%20Retail%20Impact%20Report%20.pdf">retail industry’s</a> $3.9 trillion contribution to the U.S. annual GDP makes it the nation’s leading industry for private sector employment and uniquely positioned to address climate change.</div>
+    </div>
+  </div>
+  <p>As recently as the 2021 United Nations Climate Change Conference (COP26) meetings, the <a href="https://nrf.com/blog/retailers-set-science-based-targets-address-climate-change">National Retail Federation (NRF)</a> stated, “Retailers will continue inventing and implementing pragmatic climate change solutions because the needs identified at COP26 demand nothing less.”</p>
+  <p>To help retailers digitally transform to make their businesses sustainable, SAP is featuring a number of offerings, including these:</p>
+  <ul>
+    <li>The new <a href="/2021/07/sap-intelligent-returns-management-consumers-retailers-environment">SAP Intelligent Returns Management solution</a> was built to optimize the returns process for the retail industry. The solution uses routing and dispositioning decisions driven by artificial intelligence (AI) to guide products from customers’ hands to the final dispositioning steps, ultimately maximizing customer experience and company margins while also mitigating waste.</li>
+    <li>The recently updated <a href="https://www.sap.com/assetdetail/2021/09/a6120d2d-f87d-0010-bca6-c68f7e60039b.html">SAP Assortment Planning application</a> now offers advanced category management capabilities. It uses customer data science, assortment strategies, business rules and AI to plan space-aware, localized assortments with a user experience designed for the needs of today’s category manager. Customer-centric, relevant assortments increase customer loyalty, boost profitability and support a more sustainable supply chain.</li>
+    <li>The SAP.iO Foundries program is a network of startup companies with integrations to SAP solutions, including:
+      <ul>
+        <li><strong><a href="https://algramo.com/en">Algramo</a>,</strong> offering a circular platform that encourages consumers to buy in a more convenient, affordable way with zero waste and connects people, brands and retailers in an engaging way to change consumption habits</li>
+        <li><strong><a href="https://ecocart.io/business/">EcoCart</a>,</strong> helping thousands of e-commerce brands offer carbon-neutral products</li>
+        <li><strong><a href="https://everledger.io/">Everledger</a>,</strong> leveraging blockchain and the Internet of Things to offer transparency into supply chains for clarity on quality, origin, sustainability footprint and compliance standards</li>
+        <li><strong><a href="https://evrythng.com/">EVRYTHNG</a>,</strong> helping customers run their businesses differently with real-time data intelligence from each of their products end to end, from factory to consumer and beyond</li>
+        <li><strong><a href="https://inspectorio.com/">Inspectorio</a>,</strong> with a dynamic and risk-assessment-based quality compliance program that provides digitalization, automation, transparency and traceability</li>
+        <li><strong><a href="https://thelimeloop.com/">LimeLoop</a>,</strong> offering a platform for sustainable shipping including reusable packaging, real-time tracking and predictive analytics</li>
+        <li><strong><a href="https://specright.com/">Specright</a>,</strong> providing a purpose-built platform for specification management that fundamentally changes how brands, suppliers, manufacturers and retailers manage data and collaborate to bring products to market</li>
+      </ul>
+    </li>
+  </ul>
+  <p>In addition to these offerings, retailers can utilize SAP’s entire portfolio of <a href="https://www.sap.com/about/company/purpose-and-sustainability.html">sustainable business solutions</a>. Learn more in the blog “<a href="/">SAP Cloud for Sustainable Enterprises: Taking Action Together</a>.”</p>
+  <p>SAP’s solutions enable retailers to integrate sustainable business practices smoothly, which is critical to a fast-paced industry such as retail. According to Leslie Hand, IDC Group Vice President, IDC Retail Insights, <a href="https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fidc_emea%2F&#x26;data=04%7C01%7Cstacy.comes%40sap.com%7C32f20fbd808e403ebab108d9c18832a2%7C42f7676cf455423c82f6dc2d99791af7%7C0%7C0%7C637753612987837002%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&#x26;sdata=Avs0Ujbs1kRZqn0deU53aOOosGrbGrMddrMgbScdhSc%3D&#x26;reserved=0">IDC’s latest research</a> indicates that retail organizations report that, relative to political, social and economic risks, changing environmental targets and regulations will have the greatest impact on their digital transformation and tech investment plans in the next two years. Further, 80% (Asia Pacific) 59% (United States) and 64% (EMEA) of retail organizations agree that their digital technology strategy is an important enabler of their organization’s broader sustainability efforts.*</p>
+  <p>For more information about SAP at NRF 2022, Retail’s Big Show, visit <a href="https://events.sap.com/noam/nrf/en/home">sap.com/nrf</a> and follow <a href="https://twitter.com/SAP_Retail">@SAP_Retail</a> on Twitter.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Stacy Ries, SAP Media Relations, +1 (484) 619-0411, <a href="mailto:stacy.ries@sap.com">stacy.ries@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><em>*Source: IDC Retail Core Processes and Applications, May 2021.</em><br>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2022 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/sustainability</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/idc</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-assortment-planning</category>
+            <category>product/sap-cloud-for-sustainable-enterprises</category>
+            <category>product/sap-intelligent-returns-management</category>
+            <category>news-tag/sap-io</category>
+        </item>
+    </channel>
+</rss>

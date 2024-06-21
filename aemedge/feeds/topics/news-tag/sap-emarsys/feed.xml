@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-emarsys/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 29 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Gibson Makes Beautiful Music with High Tech and Strategy]]></title>
+            <link>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</link>
+            <guid>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</guid>
+            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology helps Gibson connect with customers easily and in the ways that they want. Learn more about the company's strategy and tech duet.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/sap-emarsys</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/media: industry/sports-entertainment</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[How Gibson Keeps Its “Massive Span” of Fans Happy]]></title>
+            <link>https://www.sap.com/videos/how-gibson-keeps-its-massive-span-of-fans-happy</link>
+            <guid>https://www.sap.com/videos/how-gibson-keeps-its-massive-span-of-fans-happy</guid>
+            <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Gibson Brands uses SAP Emarsys technology to better understand what its customers – or “fans” – want and where each person is along in a unique journey.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/video</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-emarsys</category>
+        </item>
+        <item>
+            <title><![CDATA[Data Transparency Supercharges AI-Fueled Customer Experiences]]></title>
+            <link>https://www.sap.com/news/2023/08/data-transparency-ai-customer-experience</link>
+            <guid>https://www.sap.com/news/2023/08/data-transparency-ai-customer-experience</guid>
+            <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Customers want personalized CX, but often do not understand how sharing data and AI supercharge their retail experiences. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/sap-emarsys</category>
+            <category>core-topic/generative-ai</category>
+            <category>industry/retail</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/stanford-hai/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 02 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-teched-2023-generative-ai-developers</link>
+            <guid>https://www.sap.com/news/2023/11/sap-teched-2023-generative-ai-developers</guid>
+            <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP TechEd, SAP has unveiled new innovations in generative AI, vector database capabilities, and new learning opportunities.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023" src="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-turns-every-developer-into-a-generative-ai-developer-at-sap-teched-in-2023">SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>BANGALORE</em></strong></p>
+        <hr>
+        <p>At the SAP TechEd event in 2023, <a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) announced a comprehensive series of generative AI capabilities and advancements aimed at empowering developers of all skill levels to supercharge their businesses in the age of AI.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <h2 id="sap-unveils-innovations-in-generative-ai-application-development-and-vector-database-capabilities-as-well-as-new-learning-opportunities-for-developers-in-the-era-of-ai">SAP Unveils Innovations in Generative AI Application Development and Vector Database Capabilities as Well as New Learning Opportunities for Developers in the Era of AI</h2>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="enterprise-innovation-in-the-age-of-ai">Enterprise Innovation in the Age of AI</h3>
+        <p><em><a href="https://www.sap.com/events/teched/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Today’s dynamic technology and business landscape means every developer needs to be an AI developer,” said Juergen Mueller, Chief Technology Officer and member of the Executive Board of SAP SE. “The innovations we’re launching at SAP TechEd, from AI-infused pro-code tools to a one-stop shop to create generative AI extensions and applications on SAP Business Technology Platform, support the developers at the heart of the AI revolution and provide them with resources they need to transform the way businesses run.”</p>
+  <p>As organizations aim to derive business value from generative AI, effective collaboration between professional and citizen developers is essential. SAP is launching the SAP Build Code solutions, which streamline cooperation with business experts who use the low-code <a href="/2022/11/sap-teched-sap-build-business-expertise-coursera-partnership">SAP Build</a> solutions launched at SAP TechEd in 2022. Uniquely built for SAP applications and the SAP ecosystem, SAP Build Code solutions offer AI-powered productivity tools for developers and are optimized for Java and JavaScript development. SAP Build Code also draws on the power of SAP’s new generative AI copilot Joule – the copilot that truly understands business – to further boost productivity, embedding code generation capabilities for data model, application logic and test script creation.</p>
+  <p>Good data is the foundation of good AI, and SAP HANA Cloud continues to pioneer innovation in the data space by adding new vector database features to its multimodel offerings at no additional cost. Vector data stores manage unstructured data – such as text, images or audio – to provide long-term memory and better context to AI models. This makes it easy to find and retrieve similar objects quickly. For example, users can search for suppliers based on the language in their contracts to examine payment history and trace individual orders. These powerful new vector database features enhance interactions between large language models and an organization’s mission-critical data. The innovation helps put SAP developers at the forefront of delivering radically new levels of data insight within a secure, private framework that uses industry-specific customer data to reduce hallucinations.</p>
+  <p>AI Foundation on SAP BTP, a new one-stop shop for developers to create AI- and generative AI-powered extensions and applications on SAP BTP, will further help increase developers’ impact and efficiency. AI Foundation includes everything developers need to start creating business-ready AI tools on SAP BTP – from ready-to-use AI services and access to the top large language models to vector database capabilities and AI runtime and lifecycle management.</p>
+  <p>The rapid pace of technological innovation has driven up global demand for skilled developers – and SAP is increasing its learning opportunities in tandem. As part of a commitment to upskill two million professionals by 2025 and complement free AI learning content already available, SAP today launched <a href="https://learning.sap.com/certification/sap-certified-associate-back-end-developer-abap-cloud?url_id=text-sapnewscenter-prdteng-LSC-TechEd">new role-based certification</a> and free learning resources for back-end developers using the ABAP Cloud development model. The two new learning resources covering ABAP development tools on SAP BTP and SAP S/4HANA are available on the <a href="https://learning.sap.com/?url_id=text-sapnewscenter-prdteng-LSC-TechEd">SAP Learning site</a>. They are designed for agile and cloud-compliant business transformation, providing developers with skills to build cloud-ready extensions that are aligned with SAP’s clean core strategy. SAP <a href="/">has also joined</a> the Stanford HAI (Institute for Human-Centered AI) <a href="https://hai.stanford.edu/corporate-affiliate-program">Corporate Affiliate Program</a>. Researchers and engineers at SAP will work with the Stanford academic community, including research faculty and students, on the intersection of generative AI and business.</p>
+  <p>For details on all the announcements made at SAP TechEd in 2023, please <a href="https://www.sap.com/about/events/teched/news-guide.html">visit our news guide here</a>.</p>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-teched-in-2023-join-us-live-in-bangalore-or-attend-virtually">SAP TechEd in 2023: Join us live in Bangalore or attend virtually</h3>
+        <p><em><a href="https://www.sap.com/events/teched/bangalore.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>SAP’s strategy is to help every business run as an intelligent, sustainable enterprise. As a market leader in enterprise application software, we help companies of all sizes and in all industries run at their best: SAP customers generate 87% of total global commerce. Our machine learning, Internet of Things (IoT), and advanced analytics technologies help turn customers’ businesses into intelligent enterprises. SAP helps give people and organizations deep business insight and fosters collaboration that helps them stay ahead of their competition. We simplify technology for companies so they can consume our software the way they want – without disruption. Our end-to-end suite of applications and services enables business and public customers across 26 industries globally to operate profitably, adapt continuously, and make a difference. With a global network of customers, partners, employees, and thought leaders, SAP helps the world run better and improve people’s lives. For more information, visit <a href="http://www.sap.com">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong><br>Joellen Perry, +1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PT<br>Stacy Ries, +1 (484) 619-0411, <a href="mailto:stacy.ries@sap.com">stacy.ries@sap.com</a>, ET<br>Marcus Winkler, +49 6227-767497, <a href="mailto:marcus.winkler@sap.com">marcus.winkler@sap.com</a>, CEST<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.<br>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you received this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/abap-cloud</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/learning</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-code</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/stanford-hai</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Joins Stanford University Human-Centered Artificial Intelligence Corporate Affiliate Program]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-joins-stanford-hai-corporate-affiliate-program</link>
+            <guid>https://www.sap.com/news/2023/11/sap-joins-stanford-hai-corporate-affiliate-program</guid>
+            <pubDate>Wed, 01 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has joined the Stanford HAI Corporate Affiliate Program, supporting its commitment to building best-in-class, ethical, trustworthy AI.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/stanford-hai</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-co-innovation-lab/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 21 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Digital Eco-Farming: How SAP Japan Helps Revitalize Rural Communities]]></title>
+            <link>https://www.sap.com/news/2024/02/minano-digital-eco-farm-sap-japan-revitalize-rural-communities</link>
+            <guid>https://www.sap.com/news/2024/02/minano-digital-eco-farm-sap-japan-revitalize-rural-communities</guid>
+            <pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Minano Digital Eco Farm, launched by PSI and SAP Co-Innovation Lab in Japan, is helping the town of Minano revitalize its community.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/digitization</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/internet-of-things</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-co-innovation-lab</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP's Industry Cloud Drives Innovation in Utilities Through Cloud-Based Apps and Partner Collaborations]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-industry-cloud-drives-innovation-in-utilities</link>
+            <guid>https://www.sap.com/news/2023/10/sap-industry-cloud-drives-innovation-in-utilities</guid>
+            <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's industry cloud is driving innovation in the utilities sector through cloud-based apps and partner collaborations. Read to learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/industry-cloud</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-co-innovation-lab</category>
+            <category>news-tag/sap-store</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[A Curious and Creative Innovation Journey]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-pioneers-tshepo-mahloko-innovation-journey</link>
+            <guid>https://www.sap.com/news/2022/06/sap-pioneers-tshepo-mahloko-innovation-journey</guid>
+            <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[For Tshepo Mahloko, curiousity and creativity led him to a leadership role in innovation at SAP. Read his SAP Pioneers story.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-co-innovation-lab</category>
+            <category>news-tag/sap-pioneers</category>
+        </item>
+    </channel>
+</rss>

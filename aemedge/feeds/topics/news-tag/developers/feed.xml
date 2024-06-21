@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/developers/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 07 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Bringing Generative AI to Business: How a Platform Enables Systems of Intelligence]]></title>
+            <link>https://www.sap.com/blogs/2023/11/generative-ai-business-platform-systems-of-intelligence</link>
+            <guid>https://www.sap.com/blogs/2023/11/generative-ai-business-platform-systems-of-intelligence</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[After SAP TechEd Bangalore, CTO Juergen Mueller shares his experience with the company's leap forward in AI evolution toward generative AI.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Bringing Generative AI to Business: How a Platform Enables Systems of Intelligence" src="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="bringing-generative-ai-to-business-how-a-platform-enables-systems-of-intelligence">Bringing Generative AI to Business: How a Platform Enables Systems of Intelligence</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>What a week at <a href="https://www.sap.com/events/teched/bangalore.html">SAP TechEd</a>! No matter if you joined the two-day live experience in Bangalore, India, or virtually, you could not get around the topic of generative AI.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="enterprise-innovation-in-the-age-of-ai">Enterprise Innovation in the Age of AI</h3>
+        <p><em><a href="https://www.sap.com/events/teched/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>SAP has been working on AI for more than eight years now. Regardless, the past year was special as it has shown a huge leap forward in AI evolution toward generative AI. Today, more than 24,000 of our SAP customers are using SAP Business AI solutions in over 130 use cases. And we are aiming to provide even more businesses the opportunity to benefit from our unique data, industry, and process know-how as we work to become THE leading business AI company.</p>
+  <p>At the heart of that vision is SAP Business Technology Platform (SAP BTP), THE platform of choice and key enabler for infusing SAP and partner applications with business AI.</p>
+  <p>My keynote guest speaker Michael Nilles, chief digital and information officer (CDIO) of Henkel, said it well: “Generative AI disrupts economy and society like the internet, but at lightspeed. Look at the last 10 months only — I have never discovered an exponential technology like that. SAP BTP is our choice at Henkel for three years already; it’s our innovation platform. Together with SAP, we innovate at large scale, now also in the generative AI space.”</p>
+  <p>To this end, we have been driving significant progress in the past months, from <a href="/2023/07/power-of-business-ai-sap-btp">SAP Business AI capabilities</a> across our portfolio to the launch of our generative <a href="/2023/09/joule-new-generative-ai-assistant">AI co-pilot Joule</a>. The <a href="https://www.sap.com/events/teched/news-guide.html">announcements made at SAP TechEd</a> are another testament to the innovation SAP provides.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <picture>
+          <source type="image/webp" srcset="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+          <source type="image/webp" srcset="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+          <source type="image/jpeg" srcset="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+          <img loading="lazy" alt="" src="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="626" height="357">
+        </picture><br><a href="https://www.linkedin.com/posts/juergmueller_sapteched-sapbtp-activity-7127690708659916801-eVu_/">https://www.linkedin.com/posts/juergmueller_sapteched-sapbtp-activity-7127690708659916801-eVu_/</a>
+      </div>
+    </div>
+  </div>
+  <h2 id="build-in-not-bolt-on">Build In, Not Bolt On</h2>
+  <p>We believe that business AI capabilities need to be directly embedded into applications and extensions. Designed with security, governance, and trust in mind, the <a href="https://www.sap.com/products/artificial-intelligence/business-technology-platform.html">AI Foundation on SAP BTP</a> is our new one-stop shop for developers to do exactly that. It provides ready-to-use AI services, AI runtimes, lifecycle management, as well as tooling for generative AI capabilities and business-data connectivity.</p>
+  <p>As part of the AI Foundation, our generative AI hub provides instant access to the most powerful large language models (LLM), such as Azure OpenAI Service and Falcon-40b. On the other side, it offers grounding capabilities based on enterprise data to ensure context, for example, by leveraging our new SAP HANA Cloud vector engine that combines LLMs with relevant organizational data.</p>
+  <h2 id="all-developers-will-be-ai-developers">All Developers Will Be AI Developers</h2>
+  <p>Today’s dynamic technology and business landscape means every developer needs to become an AI developer. For coders using Java and Javascript, our new solution <a href="https://www.sap.com/products/technology-platform/developer-tools.html">SAP Build Code</a> increases developer productivity by offering a simplified experience with a unified lobby as an entry point, and generative AI capabilities. SAP Build Code also takes care of identity management, audit logging, secure access, and more.</p>
+  <p>Does this sound too good to be true? Check out <a href="https://www.youtube.com/watch?app=desktop&#x26;v=6BsvzygS5Hg">my keynote</a> to see for yourself how SAP Build Code helped to create a full-blown application in just five minutes on stage!</p>
+  <h2 id="raise-the-ecosystem">R“AI”se the Ecosystem</h2>
+  <p>More and more businesses are seeking to benefit from AI. No single company can unlock generative AI’s potential alone. A vibrant ecosystem of partners is required in order to meet growing customer expectations.</p>
+  <p>SAP is partnering with many key players that offer solutions connected to SAP BTP. Today, partners support 90% of SAP-based implementations and offer 2,000 solutions on our store — more than 400 of these include AI capabilities. Moreover, our partner solutions also enable developers to create AI-based apps on SAP BTP. One example is our partnership with DataRobot, announced earlier this year. We now brought its AI models to SAP AI Core as well as its predictive and generative AI capabilities to SAP Build.</p>
+  <p>Apart from the partner context, we also invest in AI research. The recently announced <a href="/2023/11/sap-joins-stanford-hai-corporate-affiliate-program">membership at the Stanford Institute for Human-Centered AI</a> is an important step to reinforce our commitment to build ethical and trustworthy AI.</p>
+  <h2 id="going-forward-looking-beyond">Going Forward, Looking Beyond</h2>
+  <p>The future holds a lot. On our way to become THE leading business AI company we will continue to integrate AI into businesses’ everyday processes.</p>
+  <p>For 2024 and beyond, we are exploring multiple use cases, such as AI-supported business simulations, AI-generated business correspondence replies and follow-up actions, composable business processes, or automated generation of code. We will also support fine-tuned LLMs to make them more suitable for business AI.</p>
+  <p>This SAP TechEd has only been a first milestone — there’s a lot more to come! Don’t miss out on your journey to SAP BTP, THE choice for anything technology-related in an SAP context.</p>
+  <div class="footnote">
+    <div>
+      <div>Juergen Mueller is CTO and a member of the Executive Board of SAP SE.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-teched-virtual-live-and-on-demand-experiences">SAP TechEd Virtual: Live and on-demand experiences</h3>
+        <p><em><a href="https://www.sap.com/events/teched/virtual.html">Watch replays</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/developers</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Supercharging Developer Productivity with SAP Build Code]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-teched-2023-sap-build-code-supercharge-developer-productivity</link>
+            <guid>https://www.sap.com/news/2023/11/sap-teched-2023-sap-build-code-supercharge-developer-productivity</guid>
+            <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP TechEd Bangalore, SAP has announced SAP Build Code, a true game-changer for all SAP developers. Learn more about the new offering.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/application-development</category>
+            <category>news-tag/developers</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+        </item>
+    </channel>
+</rss>

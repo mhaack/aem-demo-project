@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/data-integration/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 15 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools]]></title>
+            <link>https://www.sap.com/news/2023/12/sap-a-leader-gartner-magic-quadrant-data-integration-tools</link>
+            <guid>https://www.sap.com/news/2023/12/sap-a-leader-gartner-magic-quadrant-data-integration-tools</guid>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the 16th consecutive time, Gartner has recognized SAP as a Leader in its Magic Quadrant for Data Integration Tools.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools" src="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-recognized-as-a-leader-in-2023-gartner-magic-quadrant-for-data-integration-tools">SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>We are proud to announce that Gartner has recognized SAP as a Leader in its 2023 <a href="https://www.gartner.com/reprints/?id=1-2FTDYPZU&#x26;ct=231204&#x26;st=sb">Magic Quadrant for Data Integration Tools</a> for the 16th consecutive time.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="get-an-engaging-hands-on-experience-with-sap-datasphere">Get an engaging, hands-on experience with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">Start now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To achieve true digital transformation, organizations must have seamless access to their mission-critical business data no matter where it resides. Yet with data landscapes distributed among different applications and systems both in the cloud and on premises, organizations spend countless resources extracting, rebuilding, and integrating their data.</p>
+  <p>By leveraging the right data integration tools and strategies, organizations can easily discover, connect, integrate, govern, and orchestrate their data assets. Data integration offerings from SAP deliver trusted, relevant, and timely information to enable customers to simplify their data landscape and unleash the power of business data. Our primary solutions include <a href="https://www.sap.com/products/technology-platform/datasphere.html">SAP Datasphere</a>, <a href="https://www.sap.com/products/cloud-platform/capabilities/integration.html">SAP Data Intelligence</a> Cloud, <a href="https://www.sap.com/products/data-services.html">SAP Data Services</a>, and <a href="https://www.sap.com/products/cloud-platform/capabilities/integration.html">SAP Integration Suite</a>. These offerings are part of <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP).</p>
+  <p>Gartner evaluated 21 vendors and named SAP a Leader based on our “ability to execute” and “completeness of vision.” We believe this recognition serves as acknowledgment of SAP’s continued commitment to providing our customers with world-class data integration tools.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="926" height="1024">
+          </picture>
+        </p>
+        <p><em>This graphic was published by Gartner, Inc. as part of a larger research document and should be evaluated in the context of the entire document. The Gartner document is available upon request from SAP here.</em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="unleash-the-power-of-business-data">Unleash the Power of Business Data</h2>
+  <p>Data integration is necessary for customers to gain intelligent, relevant, and contextual insights for better decision-making. However, without the right data management approach and technology, companies can face an uphill battle in integrating, processing, curating, governing, and augmenting their data.</p>
+  <p>SAP takes a business data fabric approach, which goes beyond a traditional data fabric. A business data fabric is a data management architecture that delivers an integrated, semantically rich data layer over underlying data landscapes to provide users with scalable access to their data without duplication.</p>
+  <p>It eliminates the need to recreate the business context that was lost from extracting and replicating data. This gives users the ability to accelerate their decision-making with trust and confidence, knowing they always have the complete picture of their data regardless of where it is stored or how it was designed.</p>
+  <p>SAP Datasphere — and its open data ecosystem — is the foundation for a business data fabric. It equips any organization to deliver meaningful data to every data consumer — with business context and logic intact. SAP Datasphere helps customers:</p>
+  <ul>
+    <li><strong>Access authoritative data:</strong> Accelerate time-to-value by automatically reusing the semantical definitions and associations from SAP applications</li>
+    <li><strong>Enrich all data projects:</strong> Harmonize heterogeneous data into a business semantic model of diverse data landscape</li>
+    <li><strong>Simplify the data landscape:</strong> Access all data across hybrid and cloud environments no matter where it resides</li>
+  </ul>
+  <p>With a unified experience for data integration, data cataloging, semantic modeling, data warehousing, data federation, and data virtualization, SAP Datasphere enables data professionals to easily distribute authoritative business data — with business context and logic preserved — across the data landscape.</p>
+  <p>Since the launch of SAP Datasphere, we have seen tremendous growth of customers innovating with this technology. For example, Messer CIO David Johnston describes his experience with the solution this way:“The business data fabric architecture enables us to bring SAP and non-SAP data together in the seamless and self-service way we’ve been envisioning. SAP Datasphere provided us with a solution to build a harmonized layer, or business data fabric, across SAP and non-SAP, cloud or on-premise data sources, making the best use of our existing investments in SAP, Microsoft Azure, Salesforce, and Oracle.”</p>
+  <h2 id="next-steps">Next Steps</h2>
+  <p>For over 16 years, data integration tools from SAP have enabled our customers to turn disjoined data assets into actionable business insights at scale. Take the next step and begin your business data fabric journey today:</p>
+  <ul>
+    <li>Visit the <a href="https://www.sap.com/products/technology-platform/datasphere.html">SAP Datasphere page</a></li>
+    <li>Try the free <a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">SAP Datasphere guided experience</a></li>
+    <li>Read the <a href="https://www.gartner.com/reprints/?id=1-2FTDYPZU&#x26;ct=231204&#x26;st=sb">2023 Gartner Magic Quadrant for Data Integration Tools report</a></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Kaiser Larsen is vice president of Data and Analytics at SAP.</div>
+    </div>
+  </div>
+  <p>Gartner, Magic Quadrant for Data Integration Tools, Ehtisham Zaidi, Robert Thanaraj, Sharat Menon, Thornton Craig, Roxane Edjlali, Michele Launi, 4 December 2023<br>Gartner does not endorse any vendor, product or service depicted in its research publications and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s Research &#x26; Advisory organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.<br>GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, Magic Quadrant is a registered trademark of Gartner, Inc. and/or its affiliates and is used herein with permission. All rights reserved.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/data-integration</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as a Leader in 2022 Gartner® Magic Quadrant™ for Data Integration Tools]]></title>
+            <link>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-data-integration-tools-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-data-integration-tools-sap-a-leader</guid>
+            <pubDate>Tue, 23 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a Leader in the 2022 Magic Quadrant for Data Integration Tools for the 15th consecutive year. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/data-integration</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-data-intelligence-cloud</category>
+        </item>
+    </channel>
+</rss>

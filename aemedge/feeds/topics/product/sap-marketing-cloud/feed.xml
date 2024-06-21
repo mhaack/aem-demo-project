@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-marketing-cloud/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 24 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How PILLER Increased Customer Service with SAP Customer Experience Solutions]]></title>
+            <link>https://www.sap.com/news/2023/08/piller-increased-customer-service-sap-cx</link>
+            <guid>https://www.sap.com/news/2023/08/piller-increased-customer-service-sap-cx</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the help of SAP, PILLER was able to share information and optimize business processes across sales, service, and marketing.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How PILLER Increased Customer Service with SAP Customer Experience Solutions" src="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-piller-increased-customer-service-with-sap-customer-experience-solutions">How PILLER Increased Customer Service with SAP Customer Experience Solutions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.piller.de/">PILLER Blowers &#x26; Compressors</a> produces high-performance blowers and compressors and customized solutions to meet specific requirements of various industries. Its global network of wholly owned subsidiaries and joint ventures enables it to serve an international customer base.</div>
+    </div>
+  </div>
+  <p>To increase customer service quality, the company wanted to share information and optimize business processes across its sales, service, and marketing activities.</p>
+  <h2 id="moving-from-manual-processes-to-integrated-activities">Moving from Manual Processes to Integrated Activities</h2>
+  <p>At PILLER, different departments were using their own IT solutions.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-customer-experience-solutions-help-connect-customer-data-improve-loyalty-and-grow-your-business">SAP Customer Experience solutions help connect customer data, improve loyalty, and grow your business</h3>
+        <p><em><a href="https://www.sap.com/products/crm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The service department had manual processes, such as Microsoft Excel spreadsheets, to dispatch service technicians. The technicians were logging into a central server to retrieve data and recording customer support by e-mails and conversations. The sales department had a basic access environment due to custom-made products with individual serial numbers. There was no master data; tailored sales quotes were done on paper, posing challenges for data updating and quality. The marketing department was conducting its business, like capturing trade-fair leads or planning and executing campaigns, by hand and with spreadsheets. All these manual activities were time intensive and prone to human error.</p>
+  <p>To enable the marketing, sales, and service teams to perform to the best of their abilities, PILLER wanted solutions that allowed it to share important information. It wished to harmonize all customer-related processes, from initial contact and order management to delivery of spare parts and follow-up.</p>
+  <p>“For new products or customers, it’s important that real-time master data in our core software is mirrored in our sales, service, and marketing systems. We can do this by integrating SAP Customer Experience solutions and SAP Field Service Management with SAP S/4HANA,” said Frank Münzner, in-house SAP consultant for Lead to Cash at PILLER Blowers &#x26; Compressors GmbH.</p>
+  <h2 id="adopting-cloud-solutions-to-achieve-innovative-customer-service">Adopting Cloud Solutions to Achieve Innovative Customer Service</h2>
+  <p>PILLER employed the <a href="https://www.sap.com/products/crm/sales-cloud.html">SAP Sales Cloud</a> solution to help address the needs of its sales team and integrate functionalities, such as managing quotes and orders, in one place. The solution offers a search capability and a modern, intuitive user interface.</p>
+  <p>The company is using the <a href="https://www.sap.com/products/scm/field-service-management.html">SAP Field Service Management mobile app</a> to help create service tickets, which are the single point of customer contact, with product serial numbers and metadata. Integrating this mobile app with the <a href="https://www.sap.com/products/crm/service-cloud.html">SAP Service Cloud</a> solution can enable technicians to receive service ticket information on an Apple iPad, so they can have everything they need to carry out their work. This can also translate to good customer support.</p>
+  <p>By deploying the <a href="https://www.sap.com/products/crm/marketing.html">SAP Marketing Cloud</a> solution and integrating it with SAP Sales Cloud, PILLER now proactively shares data, such as service tickets, lead opportunities, and customer contacts, between the sales and marketing teams. This lets the company contact a customer with a warranty option or service cost reduction, for example.</p>
+  <p>PILLER has now integrated the three SAP Customer Experience solutions for sales, service, and marketing and <a href="https://www.sap.com/products/scm/field-service-management.html">SAP Field Service Management</a> with <a href="https://www.sap.com/products/erp/s4hana.html">SAP S/4HANA</a>, the company’s enterprise resource planning (ERP) software.</p>
+  <p>PILLER partnered with <a href="https://www.fis-gmbh.de/en/">FIS Global</a> to gain advice about new functionalities and implementation support, while <a href="https://www.ibsolution.com/en/">IBsolution</a> provided guidance around leveraging the potential in terms of business transformation and digitization.</p>
+  <h2 id="gaining-comprehensive-customer-visibility-with-integrated-solutions">Gaining Comprehensive Customer Visibility with Integrated Solutions</h2>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="resolve-customer-issues-faster-with-proactive-ai-enabled-field-service-management-software-from-sap">Resolve customer issues faster with proactive, AI-enabled field service management software from SAP</h3>
+        <p><em><a href="https://www.sap.com/products/scm/field-service-management.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The major advantage in connecting the SAP Customer Experience portfolio, SAP Field Service Management, and SAP S/4HANA is that real-time data can be available across all these solutions. While master data, such as for a new product, customer, or material, is entered and kept in SAP S/4HANA as the core software, it’s automatically pushed into the other integrated solutions.</p>
+  <p>This is helping PILLER deliver highly efficient and innovative customer service and business models. The company gains a comprehensive view of worldwide customers in real time while interacting with them at each stage of their journey in a targeted manner.</p>
+  <p>There are now customer-related processes across departments, sites, and systems as well as consistent communication throughout the company, thanks to standardized forms and templates. The business is achieving agile sales with faster response times and better allocation of target groups. It’s also making decisions for customer management based on facts and analyses.</p>
+  <p>Other benefits the company achieved were:</p>
+  <ul>
+    <li>360-degree view of customers worldwide in real time</li>
+    <li>90% less paper with digital processes</li>
+    <li>30% reduction in effort by using digital processes</li>
+  </ul>
+  <p>“We’ve always combined tradition with innovation when manufacturing our blowers. With SAP Customer Experience solutions, our customer management operations are superior to those of our competitors. We’re able to keep a close eye on processes and respond quickly and accordingly,” said Thomas Henzler, CIO at PILLER Blowers &#x26; Compressors GmbH.</p>
+  <h2 id="rolling-out-customer-centric-solutions">Rolling Out Customer-Centric Solutions</h2>
+  <p>Combining <a href="https://www.sap.com/products/crm.html">SAP Customer Experience solutions</a> and the SAP Field Service Management mobile app with SAP S/4HANA is helping deliver real-time data for integrated processes.</p>
+  <p>The integration of the SAP Field Service Management mobile app with SAP Service Cloud is being piloted with three service technicians and garnering positive feedback so far.</p>
+  <p>Watch an <a href="https://www.sap.com/products/crm/sales-cloud.html?video=189daad3-437e-0010-bca6-c68f7e60039b">overview video</a> of SAP Sales Cloud to help build lasting customer relationships and <a href="https://www.sap.com/products/crm/service-cloud.html?pdf-asset=983be5bb-b27d-0010-87a3-c30de2ffd8ff&#x26;page=1">learn more about SAP Service Cloud</a> to maximize customer lifetime value with connected service. Read about the benefits companies achieved with <a href="https://www.sap.com/about/customer-stories/topcon.html">SAP Customer Experience solutions</a>. View a <a href="https://www.sap.com/sea/products/scm/field-service-management/features.html?video=66ec8033-617e-0010-bca6-c68f7e60039b">solution demo</a> and <a href="https://www.sap.com/products/scm/field-service-management/features.html?video=f83398c5-247e-0010-bca6-c68f7e60039b">overview video</a> to learn how to maximize productivity and asset uptime with SAP Field Service Management. <a href="https://www.sap.com/products/scm/field-service-management.html?video=14f5efa9-427e-0010-bca6-c68f7e60039b">Learn what benefits other enterprises achieved</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Karin Fent is senior director of Global Customer Success Digital Supply Chain at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign Up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/field-service-management</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-marketing-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How Tech Makes Shopping Quick and Easy for Bosch Customers]]></title>
+            <link>https://www.sap.com/news/2023/08/bosch-tech-makes-shopping-easy</link>
+            <guid>https://www.sap.com/news/2023/08/bosch-tech-makes-shopping-easy</guid>
+            <pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Whether in-store or online, Bosch digital assistants and SAP Marketing Cloud connect to improve Bosch’s customer experience. Find out how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Tech Makes Shopping Quick and Easy for Bosch Customers" src="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-tech-makes-shopping-quick-and-easy-for-bosch-customers">How Tech Makes Shopping Quick and Easy for Bosch Customers</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Benefits of <a href="/topics/ecommerce">e-commerce</a> include reaching new customers and better personalizing service. But what if your customers need – and have spent decades relying on – the in-store expertise of your associates? To find a very specific product? For use with another very specific product? To accomplish a very specific task?</div>
+    </div>
+  </div>
+  <p>“More and more of our users are coming online…[and] they still want to have the similar guidance and the systems they had in-store,” Ganna Lobachevska, the touchpoint owner of Product Finder and Product Guidance at <a href="https://www.boschtools.com/us/en/">Bosch Power Tools Accessories</a>, told SAP at NRF 2023 for a new video. “Our overall goal is to make it easier for our users to find the right accessory for their job.”</p>
+  <p>Of course, making something <em>easy to do</em> on the front end is seldom <em>easy to build</em> on the back end. And that was Bosch’s challenge when helping online shoppers narrow their search for the perfect jigsaw blade, drill bit, or abrasive wheel from a truly massive accessory portfolio.</p>
+  <p>“Any company with a wide range of products has to think how they can simplify the user journey…and how they can make it easier for the customers to find the right product,” Lobachevska said. “With the Bosch <a href="https://www.bosch-professional.com/gb/en/knowledge-innovation/accessories-product-finder/">Accessory Advisor</a>, we provide a solution that makes it easier and faster.”</p>
+  <p>Building that easier, faster solution meant finding a high-tech way to satisfy a peculiar demand by online shoppers.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How High Tech Helps Bosch Shoppers Find the Right Product" src="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/d6hDKHbogfg">How High Tech Helps Bosch Shoppers Find the Right Product</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="when-brick-and-mortar-set-the-bar-almost-too-high">When Brick-and-Mortar Set the Bar (Almost) Too High</h2>
+  <p>Selecting a specific power tool accessory for a specific job – and ensuring it’s compatible with your specific power tool – are big reasons that people historically shopped at brick-and-mortar stores, according to Lobachevska. It makes sense, right? You can consult with a knowledgeable human sales associate.</p>
+  <p>But Bosch’s e-commerce customers expect the same in-store-style expertise via a quick and painless online exchange, according to Lobachevska. And she doesn’t seem worried.</p>
+  <p>“The Accessory Advisor guides the user through a series of very simple questions,” Lobachevska said. “In the end, they have three perfect recommendations for the work they want to do.”</p>
+  <p>It’s pretty much an online conversation that yields the right product, according to Lobachevska. And Bosch found the right tech – and partners – to make these virtual dialogues happen.</p>
+  <h2 id="tech-to-the-rescue">Tech to the Rescue</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="deliver-customer-engagements-across-channels-and-at-scale-with-sap-marketing-cloud">Deliver customer engagements across channels and at scale with SAP Marketing Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/marketing.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“We realized that there is a need for a better user guidance,” Lobachevska said of Bosch’s decision to go with <a href="https://zoovu.com/customers/bosch-power-tools">Zoovu</a>, a Boston-based digital commerce search platform and partner solution in SAP’s industry cloud. “It offered us the best.”</p>
+  <p>Zoovu’s Semantic Studio translates technical jargon into e-commerce-friendly prose, which saves time for both Bosch data managers and shoppers. A few artificial intelligence (AI)-assisted questions later, and these accessory hunters have enjoyed a smooth, seamless customer experience.</p>
+  <p>“This means that our customers spend less time searching for a product,” Lobachevska said. “And when they purchase the product, it’s the right one and they are more satisfied.”</p>
+  <p>This increases efficiency, according to Lobachevska. It also cuts down on returns and poor online reviews.</p>
+  <h2 id="powering-forward">Powering Forward</h2>
+  <p>Whether in-store or online, Bosch digital assistants and SAP Marketing Cloud connect to improve Bosch’s data analytics, business insights, and customer experience, <a href="https://www.sap.com/documents/2023/04/2c39bc42-6d7e-0010-bca6-c68f7e60039b.html">according to an SAP assessment</a>. Those digital assistants have already helped enhance the customer experience for more than 1 million Bosch shoppers across more than 35 global markets, boosting engagement up to 65% as well as increasing customer loyalty and satisfaction.</p>
+  <p>And still more can be done by connecting all of that to the Accessory Advisor, according to Lobachevska.</p>
+  <p>“We would like to connect the Bosch Accessory Advisor with our CRM system, which is basically SAP Marketing Cloud,” Lobachevska said. “This will allow us to gain business insights, to build better personas, and to make the user experience even better because it’ll be more personalized.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-marketing-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps Bosch Shoppers Find the Right Product]]></title>
+            <link>https://www.sap.com/videos/how-high-tech-helps-bosch-shoppers-find-the-right-product</link>
+            <guid>https://www.sap.com/videos/how-high-tech-helps-bosch-shoppers-find-the-right-product</guid>
+            <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Find out how cutting-edge tech makes Bosch’s Accessory Advisor so easy: a few simple questions — like an online conversation — get you exactly what...]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/video</category>
+            <category>product/sap-marketing-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Harrods’ High-Tech Backend Helps Deliver Unparalleled Experience]]></title>
+            <link>https://www.sap.com/news/2023/04/harrods-high-tech-backend-deliver-unparalleled-experience</link>
+            <guid>https://www.sap.com/news/2023/04/harrods-high-tech-backend-deliver-unparalleled-experience</guid>
+            <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Luxury retailer Harrods invested in an analytics initiative to help better understand how its customers interact with the brand.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-customer-data-cloud</category>
+            <category>product/sap-marketing-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+    </channel>
+</rss>

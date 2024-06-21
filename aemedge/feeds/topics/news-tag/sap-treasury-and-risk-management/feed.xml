@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-treasury-and-risk-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 05 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Are You Working Harder Than Your Working Capital?]]></title>
+            <link>https://www.sap.com/news/2023/10/working-capital-cash-flow-cloud-erp</link>
+            <guid>https://www.sap.com/news/2023/10/working-capital-cash-flow-cloud-erp</guid>
+            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Managing cash flow is vital to keep plans on track, steer through challenges, and keep a lid on risk. Cloud ERP can help. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-treasury-and-risk-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Why SAP Is a Leader in the IDC MarketScape for Enterprise Treasury and Risk Management Applications]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-leader-idc-marketscape-treasury-risk-management</link>
+            <guid>https://www.sap.com/news/2023/09/sap-leader-idc-marketscape-treasury-risk-management</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has been recognized in the 2023 IDC MarketScape: Worldwide SaaS and Cloud-Enabled Enterprise Treasury and Risk Management Applications.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/idc</category>
+            <category>news-tag/idc-marketscape</category>
+            <category>news-tag/sap-treasury-and-risk-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Ways Technology Helps Alleviate Inflation Challenges]]></title>
+            <link>https://www.sap.com/news/2022/08/inflation-challenges-technology-alleviates</link>
+            <guid>https://www.sap.com/news/2022/08/inflation-challenges-technology-alleviates</guid>
+            <pubDate>Thu, 25 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With inflation challenges, understanding and managing the financial risks in the supply chain play a significant role in survival.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/inflation</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-digital-supply-chain</category>
+            <category>news-tag/sap-treasury-and-risk-management</category>
+        </item>
+    </channel>
+</rss>

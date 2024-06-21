@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-emarsys-customer-engagement/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 11 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Announces New AI-Driven Retail Capabilities to Enhance Customer Experience – From Planning to Personalization]]></title>
+            <link>https://www.sap.com/news/2024/01/new-ai-driven-retail-capabilities-enhance-customer-experience</link>
+            <guid>https://www.sap.com/news/2024/01/new-ai-driven-retail-capabilities-enhance-customer-experience</guid>
+            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[New AI retail capabilities will help retailers optimize business processes and drive profitability and customer loyalty. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-predictive-demand-planning</category>
+            <category>product/sap-predictive-replenishment</category>
+        </item>
+        <item>
+            <title><![CDATA[More Than Just the Numbers: Insights from 2023 Cyber Week]]></title>
+            <link>https://www.sap.com/news/2023/12/cyber-week-2023-insights</link>
+            <guid>https://www.sap.com/news/2023/12/cyber-week-2023-insights</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Black Friday marks the beginning of the holiday shopping season. Learn about SAP customers' successes during Cyber Week 2023.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="More Than Just the Numbers: Insights from 2023 Cyber Week" src="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="more-than-just-the-numbers-insights-from-2023-cyber-week">More Than Just the Numbers: Insights from 2023 Cyber Week</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Black Friday marks the beginning of the holiday shopping season and there have been great stories of record-breaking volumes, many from SAP customers that experienced success during Cyber Week, the Monday before Black Friday to Cyber Monday.</div>
+    </div>
+  </div>
+  <p>Through Cyber Week, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> customers achieved over a 35% year-over-year (YoY) increase in the number of orders processed, an astounding amount of $110 million in peak gross merchandising value (GMV) per minute, and a 9.3% YoY increase in overall site traffic. Essential for driving site traffic and increasing conversions is customer engagement, and on Cyber Weekend, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Emarsys Customer Engagement</a> supported customers with a nine percent YoY increase of overall send volume across all channels. What’s more, SAP Commerce Cloud customers achieved a 5.04% higher conversion rate versus 2022, and retailers saw a 5.2% higher conversion rate during Cyber Week.</p>
+  <p>This success was possible due to the reliability, scalability, and intelligence of <a href="https://www.sap.com/products/crm.html">SAP Customer Experience solutions</a> for individually curated shopping journeys across the globe.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="unlock-business-agility-and-transform-customer-experiences-with-sap-commerce-cloud">Unlock business agility and transform customer experiences with SAP Commerce Cloud</h3>
+        <p><em><a href="https://www.sap.com/products/crm/commerce-cloud.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>But at SAP, it is not just about the numbers. Deriving insights from data is at the heart of SAP and the start to the holiday shopping season provided a treasure trove of learnings and understanding about how people are shopping and how retailers can <a href="/topics/crm-customer-experience">optimize their experiences</a>.</p>
+  <p>By serving some of the largest brands in the world through this holiday season, here is what we learned.</p>
+  <h2 id="insight-one-the-definition-of-holiday-season-is-expanding">Insight One: The Definition of “Holiday Season” Is Expanding</h2>
+  <p>Traditionally, Black Friday is considered as a starting point for the holiday shopping season. However, recent research has revealed the holiday shopping is starting sooner and extending over the course of several weeks.</p>
+  <p>According to <a href="https://go.criteo.com/">Criteo</a>, an SAP commerce media partner, the longest path to purchase during the holidays is <a href="https://c-grid.criteo.com/holiday-season-success-2023">about 45 days</a>. This includes Singles Day, originated in China, on November 11 and El Buen Fin, Mexico’s version of Cyber Weekend from November 17 to November 20.</p>
+  <p>In 2023, SAP Emarsys Customer Engagement saw a spike on Singles Day, nearly surpassing 1 billion customer engagements — for example, email, SMS, mobile push, and web push — two weeks ahead of Black Friday. This figure was then eclipsed not once but twice during El Buen Fin, which saw overall an approximate 30% YoY increase in messages delivered.</p>
+  <p>When looking at just email growth during this season, the growth of volume for the entire month of November was nearly twice what it was for Cyber Weekend. This not only underscores that holiday shopping is starting earlier, but how brands are scaling up sooner and avoiding sharp peaks, which is a win for deliverability too.</p>
+  <p>Newly emerging celebrations and extended shopping seasons also mean a higher and longer strain on e-commerce sites. However, SAP Commerce Cloud prepared the customers to combat this challenge during these peak sales times leading up to Cyber Week, and delivered 100% uptime. In fact, customers that ran holiday sales events during El Buen Fin achieved 112% growth in conversion rate, with 10% higher traffic volume compared to the regular daily average of 2023.</p>
+  <h2 id="insight-two-email-still-reigns-but-omnichannel-engagement-is-rapidly-growing">Insight Two: Email Still Reigns, But Omnichannel Engagement Is Rapidly Growing</h2>
+  <p>While overall 2023 holiday sales are expected to <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between three and four percent</a>, online sales are expected to double and <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between seven and nine percent</a>. More digitally advanced customer journeys and increasingly tech-savvy buyers present an exciting opportunity for businesses to engage with shoppers more often and on their preferred channels.</p>
+  <p>Aiming to capitalize on this opportunity and remain top of mind with shoppers, SAP Emarsys customers sent a record number of omnichannel messages, resulting in a nine percent YoY increase in customer engagements from 2022. Email remained the top promotional channel in terms of volume and saw a respectable 10% YoY increase.</p>
+  <p>In addition to email, brands are also now investing heavily in omnichannel engagement strategies to meet customers where they prefer to shop. Mobile messages like SMS (35% YoY increase) and in-app (15% YoY increase) were utilized effectively alongside email, as were Web channel engagements, like Web push, which saw a whopping 74% increase in usage in 2023.</p>
+  <h2 id="insight-three-personalization-proves-less-is-more">Insight Three: Personalization Proves Less is More</h2>
+  <p>It is important to acknowledge that success does not equate to the quantity of messages, but also the quality. Bucking the notion that more is simply better, marketers using SAP Emarsys increased utilization of data-driven segmentation by 20% compared to Cyber Weekend 2022, enabling more targeted offers and personalized messages. While conversion rates would naturally be expected to dip given the extra volume, this targeted and personalized approach contributed to minimal or no change compared to baseline conversion rates during a typical weekend.</p>
+  <p>Similarly, AI-powered product recommendations, delivered across channels, and <a href="https://www.sap.com/products/artificial-intelligence/marketing.html#ecommerce">intelligent shopping assistants from SAP Customer Experience solutions</a> also helped consumers find the right product or best deal among the seemingly limitless choices — with confidence and ease.</p>
+  <p>With consumers shopping for an extended period on more channels, brands have both an obligation to meet them where they are in their journey and an opportunity to earn their business and loyalty by investing in data-driven, omnichannel strategies that better match them with personalized offers on the items they wish to buy.</p>
+  <h2 id="insight-four-b2b-shoppers-share-the-holiday-fever-during-cyber-week">Insight Four: B2B Shoppers Share the Holiday Fever During Cyber Week</h2>
+  <p>Black Friday is usually seen as an influential opportunity to create a revenue boost for retailers. However, SAP has the privilege of working with many B2B commerce companies in addition to a large number of retailers.</p>
+  <p>According to our data, other industries outside of retail also experience the benefits of Black Friday and Cyber Monday pushes. While the retail industry had the highest volume of orders, consumer products and wholesale distribution came in close behind. Additionally, the chemicals industry saw a huge spike in AOV over the weekend and achieved a GMV increase of 51% YoY, while life sciences industry saw more than 120% YoY GMV growth.</p>
+  <p>These data points indicate that Cyber Week trends are no longer limited to retailers, as various industries now achieve bigger sales volume and revenue during this period. Moving forward, organizations across all industries must put their best foot forward during Cyber Weekend activities to support profitable growth.</p>
+  <h2 id="insight-five-black-friday-isnt-just-about-the-us-thanksgiving-holiday-anymore">Insight Five: Black Friday Isn’t Just About the U.S. Thanksgiving Holiday Anymore</h2>
+  <p>The data from SAP Commerce Cloud also reflects the globalization trend. While North America led the biggest GMV number on Black Friday, the Europe, Middle East, and Africa (EMEA) region is comparable. In fact, the highest number of orders, about 800,000, was placed in EMEA. Additionally, the Asia Pacific and Japan (APJ) region on Cyber Monday achieved over 130% growth in conversion rate compared to last year.</p>
+  <p>SAP Emarsys customers were also ready to leverage this trend and engage with customers around the world. On Cyber Monday, total send volumes saw significant YoY increases in multiple regions: by 20% in EMEA, over 27% in Middle and Eastern Europe (MEE), and over 15% in Asia.</p>
+  <p>The data also highlighted differences in how consumers shop and buy in different regions. Unsurprisingly email continued to be the most used channel across the board, though EMEA proved to be the only region, outside of the Americas, that saw high growth in email volume year-on-year with a 13% increase.</p>
+  <p>The MEE region saw a slight decrease in the use of email (-12% YoY) in favor of SMS, mobile push, and in-app messages. In APJ, where a mobile-first mindset is often the norm, usage of in-app (58% YoY growth) and mobile push (176% YoY growth) went up significantly compared to email growth (two percent YoY). Even in EMEA, SMS (53% YoY growth) and in-app (388% YoY growth) mobile messages outpaced email growth, underscoring the importance of an omnichannel strategy.</p>
+  <p>This data illustrates the global influence of Black Friday, what used to be considered an U.S.-specific sales event. For businesses across the globe, it is crucial to recognize this shift and consider customer behaviors, so they can adapt and evolve their commerce and channel engagement strategies to gain customer loyalty and boost profitability.</p>
+  <h2 id="next-step">Next Step</h2>
+  <p>As market trends evolve, organizations must proactively adopt strategies for profitable and sustainable growth. With the right blend of modern technologies, agile business processes, and customer centric strategies, businesses significantly benefit from extended shopping season, through personalized omnichannel engagements, increased conversions, and lifelong customer loyalty.</p>
+  <p>Moreover, with the right choice of cloud technologies, organizations can remain secure and compliant, while delivering reliable, scalable, and personalized experiences that are optimized for their industries.</p>
+  <p>To learn more about how SAP Customer Experience solutions can help, please <a href="https://www.sap.com/products/crm.html">visit us at sap.com/crm</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Balaji Balasubramanian is senior vice president and global head of Commerce and Industry Cloud at SAP.</div>
+    </div>
+  </div>
+  <p><em>*All data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. All financial figures are in USD. Data represents online and offline sales made by SAP global merchants.</em></p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Debuts New CX Generative AI Capabilities to Enhance Customer Experiences and Boost Business Operations]]></title>
+            <link>https://www.sap.com/news/2023/10/new-cx-generative-ai-capabilities</link>
+            <guid>https://www.sap.com/news/2023/10/new-cx-generative-ai-capabilities</guid>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Customer Experience LIVE, SAP has announced new generative AI capabilities for the CX solution portfolio. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>sap-event/sap-customer-experience-live</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[What Is Customer Loyalty?]]></title>
+            <link>https://www.sap.com/news/2023/08/what-is-customer-loyalty</link>
+            <guid>https://www.sap.com/news/2023/08/what-is-customer-loyalty</guid>
+            <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Effectively measuring and learning from customer behavior with loyalty solutions is the key to taking customer loyalty to the next level.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="What Is Customer Loyalty?" src="./media_1095042ae655d1c2458fed3b507068ee0b10d7433.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="what-is-customer-loyalty">What Is Customer Loyalty?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>What makes you stick with a brand – is it the quality of the product or service? Is it the support you receive when something goes wrong? Is it the availability in the market or the compatibility with other products? Is it the rewards you are offered for being a loyal customer?</div>
+    </div>
+  </div>
+  <p>When I’m in the market for new sport shoes, I stick to the brand that I know is the most comfortable for me. There’s nothing worse than buying a pair of sneakers and going jogging with them for the first time, only to realize in the first few minutes of your run that they don’t fit properly.</p>
+  <p>On the other hand, if I’m shopping for groceries, it’s how healthy the product is, then the selection, freshness, and price that matter the most. Time is also a factor – the quicker I can find exactly what I need, the better.</p>
+  <p>But what happens if another sport shoe manufacturer sets up a loyalty program, allowing me to collect points and offering discounts? Or, what if a new grocery store opens that allows me to save even more time by eliminating the checkout counter? Would that make me change my buying behavior?</p>
+  <p>What I’m talking about is loyalty in the context of <a href="/topics/crm-customer-experience">customer experience</a>. It’s different for every industry. How can you as a supplier or service provider ensure that you are offering the best experience possible to your customers?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="intelligent-cx-solutions-from-sap-help-connect-customer-data-and-improve-loyalty">Intelligent CX solutions from SAP help connect customer data and improve loyalty</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="loyalty-is-a-very-noisy-space">Loyalty Is a Very Noisy Space</h2>
+  <p>Recently, I spoke to Riad Hijal, head of Commerce Solution Management at SAP Customer Experience. “Loyalty is a very noisy space. I think for retailers, for example, to be successful and ultimately drive customer lifetime value through loyalty, they need to cut through that noise,” he said. “We as consumers are faced with dozens of rewards or loyalty accounts – most of them aren’t really driving any kind of real modification in behavior. We don’t buy more just because we have a loyalty account with someone and are collecting points; we are merely using it as a discount mechanism. That’s how to do loyalty wrong.”</p>
+  <p>Loyalty requires a reimagination of the loyalty experience and underlying process. To stand out from the crowd, companies need to be leveraging measurement. In addition, what are the themes that we need to focus on to rethink loyalty to truly drive long-term customer value? What does the measurement look like? According to Hijal, historically, efficient and tangible measurement has been lacking in loyalty programs due to the complexity of the topic.</p>
+  <h2 id="what-should-loyalty-solutions-really-be-offering">What Should Loyalty Solutions Really Be Offering?</h2>
+  <p>By leveraging data and analytics, a loyalty platform helps businesses understand why customers regard certain experiences as more memorable and important than others. This allows businesses to dig deeper into the different elements of behavior-driven customer loyalty.</p>
+  <p>And, the truth is, data is siloed within a multitude of systems within your organization. As a company, you need to be able to reconcile all of it, across both transactional and behavioral dimensions so that you can understand which customers are truly profitable and worth your focus. With SAP Customer Data Platform, for example, which is part of RISE with SAP, you can prioritize your customers with intelligent insights delivered by the platform. See more about SAP Customer Data Platform in <a href="https://www.sap.com/assetdetail/2023/04/8ad02f10-6e7e-0010-bca6-c68f7e60039b.html">this video</a>.</p>
+  <p>As such, there are key capabilities necessary for modern experiential loyalty platforms. These are rewards and incentive management, personalization, gamification, communication and engagement, feedback and surveys, data-driven insights, and integration and convenience.</p>
+  <h2 id="puma-and-mention-me-an-industry-cloud-solution">PUMA and Mention Me: An Industry Cloud Solution</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-how-rise-with-sap-can-help-you-prioritize-your-customers">Watch how RISE with SAP can help you prioritize your customers</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/assetdetail/2023/04/8ad02f10-6e7e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>As a leading sports brand, PUMA wanted to transform its fan base to a key growth-driver by not only attracting new customers, but also improving brand awareness and loyalty. Mention Me, an industry cloud partner solution, in combination with SAP Emarsys Customer Engagement, helped PUMA launch referral programs in six European countries.</p>
+  <p>PUMA has integrated Mention Me with SAP Emarsys Customer Engagement, its customer relationship management (CRM) platform. This helps equip PUMA to serve seamless customer journeys that drive more referrals, such as sending reward reminders and encouraging referrers to introduce more friends. PUMA is also able to feed first-party referral data into the CRM platform in real time – growing its database and giving a whole new level of insight. The combination of these solutions is giving the company remarkable growth, increasing its ROI through referral to six times its investment just nine months after launching the campaigns. <a href="https://www.sap.com/documents/2023/05/0227ee79-727e-0010-bca6-c68f7e60039b.html">Learn more about this transformation</a>.</p>
+  <h2 id="valora-revolutionizing-convenience-store-shopping">Valora: Revolutionizing Convenience Store Shopping</h2>
+  <p>Valora wanted to better meet customer needs by combining the convenience of a physical store with the simplicity of a digital business model. This was the beginning of its newest brand of cashier-free convenience store – avec box. To help realize the project, Valora chose SAP Customer Experience solutions, used the rich knowledge available with SAP Services and Support, and worked with Webtiser AG and Pagnos GmbH on a proof of concept. The goal was to start with a single store, using a minimal viable product collaboration approach, then scale the solution further.</p>
+  <p>Now, Valora is winning new customers by offering them an even more convenient and flexible shopping experience – without the hassle of waiting in line at the cash register. Plus, with customers registering with the avec app, Valora is able to get new insight into what customers want. Not only does make it possible to give personalized recommendations, but it is also now easier than ever for Valora to reward customer loyalty and keep people coming back for more. <a href="https://www.sap.com/documents/2021/04/9c274ed9-dc7d-0010-87a3-c30de2ffd8ff.html">Read the full story here</a>.</p>
+  <h2 id="measurement-is-key">Measurement Is Key</h2>
+  <p>Effectively measuring and then learning from customer behavior with loyalty solutions to improve reward experiences is the key to taking customer loyalty to the next level. “Since loyalty is such a mature space, measurement is key,” said Hijal. “Most loyalty programs are abundant and don’t achieve much, but focusing on measurement is what the next generation of loyalty programs is all about.”</p>
+  <p>Speaking of next generation, SAP Customer Experience solutions are also artificial intelligence (AI)- and machine learning-fueled. These types of insights can help you make each customer feel like they are your only customer. They can help you engage and understand consumers on their terms while respecting their privacy preferences during the customer journey, to retain and upsell using machine learning and smart automation.</p>
+  <p>So, the next time I’m in the market for sports shoes, maybe the AI-fueled loyalty program will be able to convince me to try something new…and stick with it.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Sven Denecken is senior vice president and chief marketing and solutions officer for SAP Industries and CX.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/industry-cloud</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[How Replacements’ High-Tech Makes Your Vintage Search Easy]]></title>
+            <link>https://www.sap.com/videos/how-replacements-high-tech-makes-your-vintage-search-easy</link>
+            <guid>https://www.sap.com/videos/how-replacements-high-tech-makes-your-vintage-search-easy</guid>
+            <pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[When a vintage look isn’t enough, Replacements offers the actual vintage pieces. The Greensboro, North Carolina-based retailer has preserved and archived about 11 million pieces...]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/video</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/retail</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers the Future of Intelligent Customer Experience for Utilities]]></title>
+            <link>https://www.sap.com/news/2023/04/future-intelligent-cx-for-utilities</link>
+            <guid>https://www.sap.com/news/2023/04/future-intelligent-cx-for-utilities</guid>
+            <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[An industry-first approach to CX for utilities allows for involving end customers in the energy transition journey. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps PUMA Send the Right Message]]></title>
+            <link>https://www.sap.com/news/2023/03/how-high-tech-helps-puma-send-the-right-message</link>
+            <guid>https://www.sap.com/news/2023/03/how-high-tech-helps-puma-send-the-right-message</guid>
+            <pubDate>Wed, 29 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Success is about reaching the right people at the right time. Read to learn how PUMA uses SAP tech to unlock new value from customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[How PUMA Boots Customer Loyalty with the Right Message]]></title>
+            <link>https://www.sap.com/videos/how-high-tech-boosts-customer-loyalty-with-the-right-message</link>
+            <guid>https://www.sap.com/videos/how-high-tech-boosts-customer-loyalty-with-the-right-message</guid>
+            <pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Success is all about the reaching the right people at the right time – even if they’re not buying from you.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/video</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/retail</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[The Power of Personalization in an Increasingly Digital World]]></title>
+            <link>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</link>
+            <guid>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</guid>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Personalization, enabled by SAP solutions, can build relationships, increase customer lifetime value, and enhance customer engagement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/fashion</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>news-tag/sap-experience-center</category>
+            <category>product/sap-intelligent-returns-management</category>
+            <category>product/sap-s4hana-retail</category>
+        </item>
+        <item>
+            <title><![CDATA[How Retailers Use Sustainability and Modern Marketing to Drive Brand Loyalty]]></title>
+            <link>https://www.sap.com/news/2023/01/sustainable-fashion-modern-marketing-brand-loyalty</link>
+            <guid>https://www.sap.com/news/2023/01/sustainable-fashion-modern-marketing-brand-loyalty</guid>
+            <pubDate>Tue, 24 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As more retailers prioritize sustainable fashion, they need to ensure they deliver high-quality experiences to their eco-conscious consumers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>news-tag/sap-experience-center</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Customer Experience Helps Marketing and Sales Teams Win Together]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-customer-experience-account-engagement-marketing-and-sales-teams-win</link>
+            <guid>https://www.sap.com/news/2022/11/sap-customer-experience-account-engagement-marketing-and-sales-teams-win</guid>
+            <pubDate>Fri, 04 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new account engagement option for SAP Customer Experience helps marketing and sales teams accelerate performance and grow revenue.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Emarsys, an SAP Company, Named a Leader for the Third Time in 2021 Gartner Magic Quadrant for Personalization Engines]]></title>
+            <link>https://www.sap.com/news/2021/07/emarsys-personalization-engines-magic-quadrant</link>
+            <guid>https://www.sap.com/news/2021/07/emarsys-personalization-engines-magic-quadrant</guid>
+            <pubDate>Thu, 22 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Emarsys Customer Engagement has been positioned by Gartner as a Leader in the 2021 Magic Quadrant for Personalization Engines.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18e465f63bd7f4977230e66948d09c3212361d483.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18e465f63bd7f4977230e66948d09c3212361d483.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18e465f63bd7f4977230e66948d09c3212361d483.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Emarsys, an SAP Company, Named a Leader for the Third Time in 2021 Gartner Magic Quadrant for Personalization Engines" src="./media_18e465f63bd7f4977230e66948d09c3212361d483.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="emarsys-an-sap-company-named-a-leader-for-the-third-time-in-2021-gartner-magic-quadrant-for-personalization-engines">Emarsys, an SAP Company, Named a Leader for the Third Time in 2021 Gartner Magic Quadrant for Personalization Engines</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="download-a-copy-of-the-report">Download a copy of the report</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/cx/personalization-engine-gartner/index.html?campaigncode=CRM-HY21-MIP-AGTMQPE&#x26;source=onlinedisplay-glo--real-time-engagement">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong><em>WALLDORF</em></strong> — Emarsys, an <a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) company, today announced that it has been positioned by Gartner as a Leader in the 2021 “Magic Quadrant for Personalization Engines”* for the SAP Emarsys Customer Engagement platform.</div>
+    </div>
+  </div>
+  <p>“It is vital that brands learn from the data-driven, digital-first approach they took in 2020 and incorporate these learnings into all elements of their omnichannel marketing,” said Sara Richter, Emarsys CMO. “With 91% of consumers saying they are more likely to buy from brands that provide relevant offers and recommendations, personalization is an essential part of this approach. We believe that this report, and our Leader placement within it, validates our vision for personalized, customer-centric commerce and that we offer the right technologies to help brands connect the dots and produce a true 1:1 customer experience.”</p>
+  <p>According to Gartner, “Personalization remains a priority for digital marketing leaders. Relevant and timely messaging is key to educating customers, minimizing friction and building confidence in brand interactions. The report recognizes SAP for its industry-specific templates to ease user adoption as well as measurement and reporting and service and support.”</p>
+  <p>“We believe our position as a Leader in this report validates the overall features of the SAP Customer Experience portfolio,” said Sameer Patel, chief marketing and solutions officer for SAP Customer Experience. “With the integration of Emarsys, SAP Customer Experience powers a foundation of omnichannel personalized engagement, meeting customers where and when they choose to engage, on their preferred channels and on their terms.”</p>
+  <p>Acquired by SAP in 2020, Emarsys empowers digital marketing leaders and business owners with an omnichannel customer engagement platform built to accelerate business outcomes. By rapidly aligning desired business results with proven omnichannel customer engagement strategies, the platform enables brands to accelerate time to value, deliver superior one-on-one experiences and produce measurable results fast. The customer engagement platform is part of the larger SAP Customer Experience portfolio, which also includes the SAP Marketing Cloud, SAP Commerce Cloud, SAP Sales Cloud, SAP Service Cloud and SAP Customer Data Cloud solutions.</p>
+  <p>To learn more, download a <a href="https://www.sap.com/cmp/cx/personalization-engine-gartner/index.html?campaigncode=CRM-HY21-MIP-AGTMQPE&#x26;source=onlinedisplay-glo--real-time-engagement">complimentary copy</a> of the report, including Gartner’s in-depth analysis of the personalization engines landscape.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contacts:</strong> Susan Miller, SAP, +1 (610) 661-9225, <a href="mailto:susan.miller@sap.com">susan.miller@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a><br>Ben Musgrove, Wildfire, +44208408800, <a href="mailto:emarsys@wildfirepr.com">emarsys@wildfirepr.com</a>, UTC</p>
+  <p><em>*Gartner, “Magic Quadrant for Personalization Engines,” <a href="https://www.gartner.com/analyst/88875">Jason McNellis</a>, <a href="https://www.gartner.com/analyst/67591">Claire Tassin</a>, <a href="https://www.gartner.com/analyst/46806">Jennifer Polk</a>, July 19, 2021.</em><br><em>Gartner does not endorse any vendor, product or service depicted in our research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</em></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/gartner</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+    </channel>
+</rss>

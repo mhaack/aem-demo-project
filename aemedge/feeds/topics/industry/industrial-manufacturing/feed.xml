@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/industry/industrial-manufacturing/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 26 May 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[ERP for manufacturing: Now more than ever]]></title>
+            <link>https://www.sap.com/resources/erp-for-manufacturing</link>
+            <guid>https://www.sap.com/resources/erp-for-manufacturing</guid>
+            <pubDate>Thu, 26 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how cloud-based ERP for manufacturing can integrate cloud manufacturing processes with supply chain and the rest of your manufacturing operations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>topic/ai</category>
+            <category>industry/industrial-manufacturing</category>
+            <category>content-type/what-is</category>
+            <category>content-type/use-case</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[What is Smart Manufacturing?]]></title>
+            <link>https://www.sap.com/resources/smart-manufacturing-in-the-cloud</link>
+            <guid>https://www.sap.com/resources/smart-manufacturing-in-the-cloud</guid>
+            <pubDate>Wed, 13 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Smart manufacturing is the use of advanced technologies, such as AI and the IIoT, to increase the efficiency of traditional manufacturing processes.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>industry/industrial-manufacturing</category>
+            <category>content-type/what-is</category>
+            <category>stage/acquisition</category>
+        </item>
+    </channel>
+</rss>

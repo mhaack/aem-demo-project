@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/mercedes/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 08 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Customer Engagement Lessons from Competitive Racing]]></title>
+            <link>https://www.sap.com/news/2024/04/digital-customer-engagement-competitive-racing</link>
+            <guid>https://www.sap.com/news/2024/04/digital-customer-engagement-competitive-racing</guid>
+            <pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP executes digital customer engagement via digital hubs. Read to find out how competitive racing teams, like Mercedes-AMG, can benefit.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/mercedes</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Goes the Distance with EV Fleet Digitalization]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</link>
+            <guid>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Longtime partners SAP and Mercedes-Benz are transforming the sustainable EV experience with digitalized corporate fleet management.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Goes the Distance with EV Fleet Digitalization" src="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-goes-the-distance-with-ev-fleet-digitalization">SAP Goes the Distance with EV Fleet Digitalization</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Electric vehicles (<a href="/topics/electric-vehicles">EVs</a>) are transforming the mobility experience in corporate fleet management. A great example is the partnership between <a href="https://www.mercedes-benz.com/en/">Mercedes-Benz</a> and SAP where the companies are both customers and vendors to each other. Mercedes-Benz is using SAP solutions to digitalize its omnichannel buying experience, and SAP is the first customer using its own technology to manage the company’s vehicle fleet in Germany.</div>
+    </div>
+  </div>
+  <p>As longtime partners, SAP and Mercedes-Benz have a history of shared knowledge for mutual competitive advantage. The fleet management program is grounded in the companies’ similar business philosophies and product road maps.</p>
+  <p>Mercedes-Benz has committed to move the company’s B2B business to 100% digital and plans to sell 25% of all new cars online by 2025. The company selected <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> to help support this mission. It will create a future-proof composable commerce portfolio designed to reliably power the company’s digital strategy, including a standardized offering across different markets. It will also simplify processes and reduce time-to-market.</p>
+  <h2 id="benefits-of-digitalized-fleet-management">Benefits of Digitalized Fleet Management</h2>
+  <p>From the SAP employee’s perspective, ordering a company EV couldn’t be simpler. Instead of time-consuming manual research and back and forth communication with the car dealer, employees can use <a href="https://www.sap.com/products/spend-management/solutions.html">the guided buying capability in SAP Ariba solutions</a> to order the EV they want directly from the Mercedes-Benz online catalog. They can choose the features they want, such as car make and model, color, and equipment packages, within SAP’s pre-set guidelines.</p>
+  <p>“The car configurator automates the EV selection process end-to-end, eliminating manual steps and saving time while providing the employee with a highly personalized experience,” said Steffen Krautwasser, head of SAP’s global car fleet. “Automating the approval process assures data consistency and eliminates the need for manual quality checks.”</p>
+  <p>There’s a tremendous convenience factor in captured EV data as well. In one pilot program for select EVs in SAP’s fleet, the digital twin will automatically track mileage. Drivers will no longer need to manually enter mileage every time they recharge, and SAP can use this data to better manage the fleet.</p>
+  <h2 id="connected-data-drives-sustainable-business">Connected Data Drives Sustainable Business</h2>
+  <p>Once ordered, EVs are tracked as assets in SAP’s financial system. After delivery, <a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">SAP Digital Vehicle Suite</a> creates a digital twin that can capture relevant, secure data across the EV’s lifetime. SAP’s fleet management team can track CO2 emissions based on green energy usage, mileage, and the number of vehicles on the road. Krautwasser envisioned reporting this data to support the company’s global sustainability commitments.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-digital-vehicle-suite-delivers-a-holistic-approach-to-vehicle-sales-and-data-management">SAP Digital Vehicle Suite delivers a holistic approach to vehicle, sales, and data management</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Performance data from the EV digital twin can help corporate fleet managers guide employees in choosing the best vehicle for their driving needs,” said Krautwasser. “Over time, drivers can better understand travel ranges between charges.”</p>
+  <p>Data is expected to help address so-called range anxiety, alerting EV drivers when their vehicle needs a charge and, most important, where to recharge. Mercedes-Benz is investing in charging infrastructure to create an ecosystem that would be integrated with public and private charge point providers in the U.S., China, and Europe.</p>
+  <p>The partnership also reflects a shared commitment to sustainability. Mercedes-Benz has committed to become carbon neutral by 2038, and transition to 100% electric vehicles by 2030 wherever possible. SAP is transitioning the company’s vehicle fleet for employees in Germany to all EVs by 2025 as part of its corporate commitment to be carbon neutral by 2030.</p>
+  <h2 id="omnichannel-is-fastest-path-to-customer-love">Omnichannel Is Fastest Path to Customer Love</h2>
+  <p>The digital experience is extremely important for customers who expect convenience and quality. Organizations in many industries have shifted to an omnichannel strategy that offers people their preferred experience, whether online or in-person, building brand loyalty and repeat business.</p>
+  <p>“We want to provide a seamless journey for employees as they research, select, purchase, and enjoy their vehicle,” said Krautwasser. “The most exciting part of our EV fleet management strategy is how we can use our knowledge to enhance the employee experience. Through data and digital services, we can get closer to our employees and act quickly based on their feedback, making improvements and introducing new offerings that keep us on top of trends and support SAP’s sustainability commitment.”</p>
+  <p>EVs represent a profound business model shift for the entire automotive supply chain as automakers sell direct to customers, provide digital services from vehicle data, and explore new revenue opportunities. It’s clear that Mercedes-Benz and SAP are going the distance for a sustainable and satisfying driving experience.</p>
+  <div class="footnote">
+    <div>
+      <div>Susan Galer is a communications director at SAP. Follow her @smgaler.<br>Top photo courtesy of SAP employee Jude Calvin Parong.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/mercedes</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and the Mercedes-AMG PETRONAS F1 Team Join Forces to Drive Efficiency On and Off the Racetrack]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-mercedes-amg-petronas-f1-team-join-forces-drive-efficiency</link>
+            <guid>https://www.sap.com/news/2023/11/sap-mercedes-amg-petronas-f1-team-join-forces-drive-efficiency</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is proud to partner with the Mercedes-AMG PETRONAS F1 Team to make sure its operations are as fine-tuned as its cars. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>industry/automotive</category>
+            <category>news-tag/mercedes</category>
+            <category>product/sap-build</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-s4hana-finance</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+    </channel>
+</rss>

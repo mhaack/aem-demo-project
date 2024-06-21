@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/women-at-sap/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 22 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Women Shape AI at SAP]]></title>
+            <link>https://www.sap.com/news/2024/03/how-women-shape-ai-at-sap</link>
+            <guid>https://www.sap.com/news/2024/03/how-women-shape-ai-at-sap</guid>
+            <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Women working in AI at SAP describe their roles, responsibilities, and how to build a successful career in the space. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Women Shape AI at SAP" src="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-women-shape-ai-at-sap">How Women Shape AI at SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Although women comprise about 35% of the workforce at SAP, when it comes to shaping AI it seems they are punching above their weight.</div>
+    </div>
+  </div>
+  <p>Here, five SAP employees share about their roles, motivations, and tips for anyone wanting to step into AI. The women – Khawla Mallat, Camila Lombana Diaz, Xin Chen, Nadine Hoffmann, and Puntis Palazzolo – span four countries and three areas: Data Science Engineering, Product Management, and AI Ethics.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-revolutionary-technology-real-world-results">SAP Business AI: Revolutionary technology, real-world results</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Dr. Khawla Mallat, Security and Quantum Exploration Team, SAP France</strong></p>
+        <p>“Be ready to be challenged all times,” says Mallat, if you want to build a career in AI.</p>
+        <p>Unlike most data scientists at SAP, Mallat does not work directly on the product but is firmly anchored in researching and addressing “some of the technical challenges related to AI, namely fairness, explainability, privacy, and security.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="291" height="300">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Khawla Mallat</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Prior to joining SAP two years ago, Mallat was confronted with the unintended prejudices of face analysis systems. Certain demographic groups, explains Mallat, used to be inadvertently omitted or underrepresented in the underlying data sets, leading to shortcomings in the face analysis capabilities. Such cases highlight the broader issue of bias in other AI applications. In areas like HR, she continues, removing personal details in data sets might seem to solve the bias issues, but AI can still infer these details. This leads to potentially biased outcomes and the lack of explainability in AI models makes identification of such biases difficult. Letting data sets like this take root and grow into powerful data models not subject to scrutiny will only magnify the inherent bias or discrimination.</p>
+        <p>Today Mallat’s passion for addressing such unfairness aligns well with her role of identifying the inherent risks of AI, educating teams about them, and defining technological solutions to mitigate them.</p>
+        <p>“We need to adopt an interdisplinary approach to AI, with experts from ethics, legal compliance, and domain experts, for example, and abstract ourselves from the role of data scientists to succeed,” says Mallat.</p>
+        <p>“I love working in AI,” she continues. “Everything is progressing at an incredible pace so if you want to work in AI, you have to have a certain thirst for knowledge. And, regardless of your role, you must take AI ethics – regulations and regulatory frameworks – seriously because these have huge implications not only for SAP but for individuals and societies in general.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>AI Ethics</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Camila Lombana Diaz, Responsible AI, Germany</strong></p>
+        <p>“AI is a mirror of our capacities as humans. And the biggest responsibility for those working in AI is, what do we want to see in that mirror?” explains Lombana Diaz, AI ethics research expert in the AI Ethics/Responsible AI team located in the SAP Business AI growth area.</p>
+        <p>Lombana Diaz’s responsibilities include maturing and applying the SAP AI Global Ethics policy, creating and delivering enablement content, defining AI personas and processes, and giving guidance to make responsible AI an operational reality for development, as exemplified in SAP’s AI ethics handbook.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Camila Lombana Diaz</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>When she joined SAP eight years ago, initially as a UX designer and then a strategic designer, machine learning and AI were core topics. But it became increasingly clear to her that “understanding the human implications of AI for a responsible and ethical AI demands a human-centric perspective.”</p>
+        <p>Even though SAP is committed to the ethical development of AI – developers must now complete AI ethics assessment tasks and a steering committee scrutinizes all high-risk use cases – Lombana Diaz emphasizes the need to remain focused on the inherent risks and unintentional harms that AI may present. Part of her role is an ongoing assessment of the technology, identifying risks and limitations and communicating them to different teams.</p>
+        <p>As AI continues to evolve at speed, so do the roles. Lombana Diaz is passionate about seeing AI beyond the confines of a technology-centric perspective. “AI is now an omnipresent technology shaping our daily lives; hence, we need individuals working in the field who challenge AI technology to be community centric. AI ethics is a space for experimental, open, curious, collaborative, and human-centered individuals,” and, she concludes, “the time to step into AI and build a career is <em>now</em> because, unlike the technology, the business of AI, the legal and ethical aspects, are still being shaped.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Dr. Xin Chen, SAP HANA Machine Learning, China</strong></p>
+        <p>“I have always enjoyed working at SAP since joining nine years ago. I like the work environment and the colleagues here and I really want to encourage others to join us here in AI,” says Chen, data science researcher on the SAP HANA Machine Learning team.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Dr. Xin Chen</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>The team works on a toolbox providing different kinds of machine learning algorithms for regression, classification, clustering, and so on for the SAP HANA predictive analysis library.</p>
+        <p>Part of Chen’s role is investigating research papers on the latest machine learning algorithms and, together with the team, deciding which algorithms would be beneficial to customers. Once the machine learning algorithms are implemented, Chen and the team evaluate feedback from customers and deliver enhancements.</p>
+        <p>Recently Chen and her team researched machine learning algorithms investigating notions of fairness. “Fairness is a very hot topic just now,” she says. “In mathematics, there are different notions of fairness, but it is still a complex and evolving topic.”</p>
+        <p>And Chen’s advice to would-be AI developers? “Critical thinking will become even more important to understand what solutions to offer, to make judgements on your own innovations, and to know if the generated output is right or wrong,” she says, reflecting on how this skill will become ever more important for future AI developers.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Product Management</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Nadine Hoffmann, SAP Business AI, Germany</strong></p>
+        <p>“I translate and I want to fascinate,” says Hoffmann, global AI product manager in the SAP Business AI growth area.</p>
+        <p>Even after more than 20 years at SAP, disruptive ideas and mindset shifts still energize Hoffmann. To be an expert in new technologies, and to be energized and enthused by the constant volume and speed of them, is critical to being successful in the AI product management teams of today because product management is the glue between partners, customers, the field, and development.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Nadine Hoffmann</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>“On the one hand,” says Hoffmann, “SAP has data scientists, software engineers, and researchers taking our software to the next level. And on the other, there are experts defining the legal and ethical guardrails.” Product management must be fluent in both “technical software speak” and “customer speak” to understand desires, pain points, and business processes.</p>
+        <p>Pivoting between these and aligning customer speak with technical software speak is akin to being a translator, Hoffmann says. Our software will only meet the requirements of customers if there is a common understanding between the teams responsible for the technological development, the legal teams responsible for ethical and legal compliance, and the customer.</p>
+        <p>Regardless of the latest innovation, Hoffmann says success in product management is “not only about convincing teams and partners about the ease and positiveness of a technology, but also infusing them with a fascination about it so that they become passionate advocates and are intrinsically motivated to find out more by themselves.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Puntis Palazzolo, AI Strategist &#x26; Ethics Lead, SAP SuccessFactors, U.S.</strong></p>
+        <p>“The ethical challenges presented by AI have transcended the scope of individual enterprises, extending beyond entities like SAP. It is crucial that we collaborate with others to collectively address AI’s emerging concerns,” says Palazzolo, who leads the SAP SuccessFactors Data Science team.</p>
+        <p>The team acts as a consulting service on AI use cases for product teams in SAP SuccessFactors, analyzing the problem, developing code and algorithms, and building proof-of-concepts. Successful AI use cases are then integrated into SAP SuccessFactors solutions.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="240" height="300">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Puntis Palazzolo</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Much of the data in SAP SuccessFactors solutions is sensitive customer data. With the dramatic increase in generative AI use cases, safeguarding customer data must take precedence, Palazzolo says. “Generative AI is a powerful technology that introduces new challenges, such as hallucinations and automated decision-making. In high-risk sectors like HR, we need to explain how we reach certain decisions, especially when we are impacting people’s lives.”</p>
+        <p>Palazzolo joined SAP 11 years ago and has been based in Palo Alto, California, since 2013, where she represents SAP on <a href="https://mlcommons.org/">MLCommons</a> – a collaboration of academia and companies, such as Google and NVIDIA, dedicated to developing safe practices and industry-standard benchmarks to improve AI models.</p>
+        <p>Her advice to current and would-be AI practitioners? Follow your passion, be ethical, and make your voice heard while we still have time.</p>
+        <p>“Legislators alone cannot write AI regulations for us because they do not have a full understanding of its complexities,” she says. “We cannot solve all the problems by ourselves, but we must make our voices heard to shape the future of AI.”</p>
+        <p>Alexa MacDonald is an SAP News editor.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="follow-sap-news-on-linkedin-to-stay-in-touch">Follow SAP News on LinkedIn to stay in touch</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Connect with us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/women-at-sap</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[CRN Recognizes 22 SAP Leaders]]></title>
+            <link>https://www.sap.com/news/2023/05/crn-recognizes-22-sap-leaders</link>
+            <guid>https://www.sap.com/news/2023/05/crn-recognizes-22-sap-leaders</guid>
+            <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Congratulations to the 22 SAP leaders who have been named to CRN’s prestigious 2023 Women of the Channel Awards! Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_137029bfd3bec1ef480758601fa66e99d70d8dd25.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_137029bfd3bec1ef480758601fa66e99d70d8dd25.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_137029bfd3bec1ef480758601fa66e99d70d8dd25.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="CRN Recognizes 22 SAP Leaders" src="./media_137029bfd3bec1ef480758601fa66e99d70d8dd25.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="crn-recognizes-22-sap-leaders">CRN Recognizes 22 SAP Leaders</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-the-power-of-partnership-with-sap">Learn more about the power of partnership with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/partner.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Cathy Daum, senior vice president of Go-to-Market and Scale Partnerships in the SAP Partner Organization, has been named one of the annual Power 100 honorees by the CRN editorial team based on her contributions, expertise, and dedication to supporting IT channel success.</div>
+    </div>
+  </div>
+  <p>In addition, SAP is honored to share that 22 SAP leaders have been named to CRN’s prestigious 2023 Women of the Channel Awards. Each executive on this list was selected by the editors at CRN for her contributions to channel advocacy, growth, thought leadership, and dedication.</p>
+  <p>The Power 100 Award recognizes a select group of incredible women who have gone above and beyond, inspiring their peers through their leadership and unwavering commitment to the success of their partners, customers, and the entire IT channel.</p>
+  <p>We congratulate the following 22 leaders from SAP for their visionary leadership and commitment to the channel partner community:</p>
+  <ul>
+    <li><strong>Khouloud Aiouche</strong>, Regional Head, Ecosystem Delivery Success, SAP EMEA South</li>
+    <li><strong>Carolina Bastos</strong>, Senior Vice President, Partner Innovation and Transformation</li>
+    <li><strong>Anja Bernardy-Raab</strong>, Global Vice President, Channel Management &#x26; Excellence</li>
+    <li><strong>Anna Busch</strong>, Senior Director, Partner Business Management</li>
+    <li><strong>Eszter Csapo</strong>, COO Business Partner, Partner Ecosystem Success</li>
+    <li><strong>Cathy Daum</strong>, Senior Vice President, Go-To-Market &#x26; Scale Partners</li>
+    <li><strong>Susanne Diehm</strong>, Chief Partner Officer, Partner Ecosystem Success, SAP MEE</li>
+    <li><strong>Ana Paula Ebeling</strong>, Regional Head for Latin America, Partner Experience Delivery</li>
+    <li><strong>Beth Glasstetter</strong>, Vice President, Global PartnerEdge Program Design</li>
+    <li><strong>Nanette Lazina</strong>, Vice President, Midmarket Channels</li>
+    <li><strong>Angela Lee</strong>, North America Channel Development Leader</li>
+    <li><strong>Anna Masters</strong>, Vice President, Global Platinum Resell Lead and Distribution</li>
+    <li><strong>Niamh McCormack</strong>, Chief Business Officer</li>
+    <li><strong>Mira Meghdessian</strong>, Executive Communications Lead, Office of the Chief Partner Officer</li>
+    <li><strong>Kati Milionis</strong>, COO, Partner Ecosystem Success, SAP MEE</li>
+    <li><strong>Emer Neville</strong>, COO &#x26; Transformation Officer, SAP Partner Ecosystem Success</li>
+    <li><strong>Sarah O’Leary</strong>, Director, Partner XM Practice, Partner Ecosystem Success</li>
+    <li><strong>Elena Maria Ordonez del Campo</strong>, Senior Vice President, Global Strategic Partnerships Officer</li>
+    <li><strong>Helen Selvanathan</strong>, Senior Director, Partner Go-to-Market, Software Partner Solutions, SAP APJ</li>
+    <li><strong>Thi Than Thuong Tran</strong>, Head of Ecosystem Advocacy and Amplification</li>
+    <li><strong>Tine Vandenbreeden</strong>, Head of Partner Solution Adoption LOB, Incubation &#x26; Content</li>
+    <li><strong>Priya Wenzel</strong>, Vice President, Global Head Channel Management, Digital Supply Chain</li>
+  </ul>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_17751dae343c2d29a7609d188fb57ab37fb1afcfe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_17751dae343c2d29a7609d188fb57ab37fb1afcfe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_17751dae343c2d29a7609d188fb57ab37fb1afcfe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_17751dae343c2d29a7609d188fb57ab37fb1afcfe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="1024">
+    </picture>
+  </p>
+  <p>The 2023 Women of the Channel list will be featured in the June issue of CRN Magazine, with online coverage starting May 8 at <a href="http://www.CRN.com/WOTC">www.CRN.com/WOTC</a>.</p>
+  <p>Follow us on Twitter at <a href="https://twitter.com/SAPPartnerEdge">@SAPPartnerEdge</a> or on <a href="https://www.facebook.com/SAPPartnerEdge">Facebook</a> and <a href="https://www.linkedin.com/showcase/sap-partneredge/">LinkedIn</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Angelika Merz is part of Partner Communications at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/crn</category>
+            <category>news-tag/women-at-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[Women Empowering Women: Catalyzing Globally-Minded Leaders for Long-Term Impact]]></title>
+            <link>https://www.sap.com/news/2022/05/women-empowering-women-leaders-long-term-impact</link>
+            <guid>https://www.sap.com/news/2022/05/women-empowering-women-leaders-long-term-impact</guid>
+            <pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Gina McNamara shares her SAP Social Sabbatical experience in Kenya and how it spurred her passion and effort around women empowerment.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-womens-network</category>
+            <category>news-tag/purpose</category>
+            <category>news-tag/sap-csr</category>
+            <category>news-tag/sap-social-sabbatical</category>
+            <category>news-tag/sap4good</category>
+            <category>news-tag/women-at-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[Business Women's Network at SAP: Empowerment through Connection]]></title>
+            <link>https://www.sap.com/news/2022/04/business-womens-network-empowerment-connection</link>
+            <guid>https://www.sap.com/news/2022/04/business-womens-network-empowerment-connection</guid>
+            <pubDate>Mon, 18 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The mission of the Business Women’s Network (BWN) at SAP is to help women advance their careers and the company’s business.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-womens-network</category>
+            <category>news-tag/life-at-sap</category>
+            <category>news-tag/women-at-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[A More Equal World: Fostering Female Leaders in Data Science]]></title>
+            <link>https://www.sap.com/news/2021/03/wids-sap-female-leaders-data-science</link>
+            <guid>https://www.sap.com/news/2021/03/wids-sap-female-leaders-data-science</guid>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[For International Women's Day, join the WiDS Worldwide Conference and learn about WiDS @ SAP events happening throughout 2021.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>non-sap-event/international-womens-day</category>
+            <category>news-tag/sap-university-alliances</category>
+            <category>news-tag/women-at-sap</category>
+        </item>
+    </channel>
+</rss>

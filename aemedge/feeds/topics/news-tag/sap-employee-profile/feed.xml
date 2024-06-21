@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-employee-profile/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 22 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Women Shape AI at SAP]]></title>
+            <link>https://www.sap.com/news/2024/03/how-women-shape-ai-at-sap</link>
+            <guid>https://www.sap.com/news/2024/03/how-women-shape-ai-at-sap</guid>
+            <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Women working in AI at SAP describe their roles, responsibilities, and how to build a successful career in the space. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Women Shape AI at SAP" src="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-women-shape-ai-at-sap">How Women Shape AI at SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Although women comprise about 35% of the workforce at SAP, when it comes to shaping AI it seems they are punching above their weight.</div>
+    </div>
+  </div>
+  <p>Here, five SAP employees share about their roles, motivations, and tips for anyone wanting to step into AI. The women – Khawla Mallat, Camila Lombana Diaz, Xin Chen, Nadine Hoffmann, and Puntis Palazzolo – span four countries and three areas: Data Science Engineering, Product Management, and AI Ethics.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-revolutionary-technology-real-world-results">SAP Business AI: Revolutionary technology, real-world results</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Dr. Khawla Mallat, Security and Quantum Exploration Team, SAP France</strong></p>
+        <p>“Be ready to be challenged all times,” says Mallat, if you want to build a career in AI.</p>
+        <p>Unlike most data scientists at SAP, Mallat does not work directly on the product but is firmly anchored in researching and addressing “some of the technical challenges related to AI, namely fairness, explainability, privacy, and security.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="291" height="300">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Khawla Mallat</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Prior to joining SAP two years ago, Mallat was confronted with the unintended prejudices of face analysis systems. Certain demographic groups, explains Mallat, used to be inadvertently omitted or underrepresented in the underlying data sets, leading to shortcomings in the face analysis capabilities. Such cases highlight the broader issue of bias in other AI applications. In areas like HR, she continues, removing personal details in data sets might seem to solve the bias issues, but AI can still infer these details. This leads to potentially biased outcomes and the lack of explainability in AI models makes identification of such biases difficult. Letting data sets like this take root and grow into powerful data models not subject to scrutiny will only magnify the inherent bias or discrimination.</p>
+        <p>Today Mallat’s passion for addressing such unfairness aligns well with her role of identifying the inherent risks of AI, educating teams about them, and defining technological solutions to mitigate them.</p>
+        <p>“We need to adopt an interdisplinary approach to AI, with experts from ethics, legal compliance, and domain experts, for example, and abstract ourselves from the role of data scientists to succeed,” says Mallat.</p>
+        <p>“I love working in AI,” she continues. “Everything is progressing at an incredible pace so if you want to work in AI, you have to have a certain thirst for knowledge. And, regardless of your role, you must take AI ethics – regulations and regulatory frameworks – seriously because these have huge implications not only for SAP but for individuals and societies in general.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>AI Ethics</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Camila Lombana Diaz, Responsible AI, Germany</strong></p>
+        <p>“AI is a mirror of our capacities as humans. And the biggest responsibility for those working in AI is, what do we want to see in that mirror?” explains Lombana Diaz, AI ethics research expert in the AI Ethics/Responsible AI team located in the SAP Business AI growth area.</p>
+        <p>Lombana Diaz’s responsibilities include maturing and applying the SAP AI Global Ethics policy, creating and delivering enablement content, defining AI personas and processes, and giving guidance to make responsible AI an operational reality for development, as exemplified in SAP’s AI ethics handbook.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Camila Lombana Diaz</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>When she joined SAP eight years ago, initially as a UX designer and then a strategic designer, machine learning and AI were core topics. But it became increasingly clear to her that “understanding the human implications of AI for a responsible and ethical AI demands a human-centric perspective.”</p>
+        <p>Even though SAP is committed to the ethical development of AI – developers must now complete AI ethics assessment tasks and a steering committee scrutinizes all high-risk use cases – Lombana Diaz emphasizes the need to remain focused on the inherent risks and unintentional harms that AI may present. Part of her role is an ongoing assessment of the technology, identifying risks and limitations and communicating them to different teams.</p>
+        <p>As AI continues to evolve at speed, so do the roles. Lombana Diaz is passionate about seeing AI beyond the confines of a technology-centric perspective. “AI is now an omnipresent technology shaping our daily lives; hence, we need individuals working in the field who challenge AI technology to be community centric. AI ethics is a space for experimental, open, curious, collaborative, and human-centered individuals,” and, she concludes, “the time to step into AI and build a career is <em>now</em> because, unlike the technology, the business of AI, the legal and ethical aspects, are still being shaped.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Dr. Xin Chen, SAP HANA Machine Learning, China</strong></p>
+        <p>“I have always enjoyed working at SAP since joining nine years ago. I like the work environment and the colleagues here and I really want to encourage others to join us here in AI,” says Chen, data science researcher on the SAP HANA Machine Learning team.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Dr. Xin Chen</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>The team works on a toolbox providing different kinds of machine learning algorithms for regression, classification, clustering, and so on for the SAP HANA predictive analysis library.</p>
+        <p>Part of Chen’s role is investigating research papers on the latest machine learning algorithms and, together with the team, deciding which algorithms would be beneficial to customers. Once the machine learning algorithms are implemented, Chen and the team evaluate feedback from customers and deliver enhancements.</p>
+        <p>Recently Chen and her team researched machine learning algorithms investigating notions of fairness. “Fairness is a very hot topic just now,” she says. “In mathematics, there are different notions of fairness, but it is still a complex and evolving topic.”</p>
+        <p>And Chen’s advice to would-be AI developers? “Critical thinking will become even more important to understand what solutions to offer, to make judgements on your own innovations, and to know if the generated output is right or wrong,” she says, reflecting on how this skill will become ever more important for future AI developers.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Product Management</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Nadine Hoffmann, SAP Business AI, Germany</strong></p>
+        <p>“I translate and I want to fascinate,” says Hoffmann, global AI product manager in the SAP Business AI growth area.</p>
+        <p>Even after more than 20 years at SAP, disruptive ideas and mindset shifts still energize Hoffmann. To be an expert in new technologies, and to be energized and enthused by the constant volume and speed of them, is critical to being successful in the AI product management teams of today because product management is the glue between partners, customers, the field, and development.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Nadine Hoffmann</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>“On the one hand,” says Hoffmann, “SAP has data scientists, software engineers, and researchers taking our software to the next level. And on the other, there are experts defining the legal and ethical guardrails.” Product management must be fluent in both “technical software speak” and “customer speak” to understand desires, pain points, and business processes.</p>
+        <p>Pivoting between these and aligning customer speak with technical software speak is akin to being a translator, Hoffmann says. Our software will only meet the requirements of customers if there is a common understanding between the teams responsible for the technological development, the legal teams responsible for ethical and legal compliance, and the customer.</p>
+        <p>Regardless of the latest innovation, Hoffmann says success in product management is “not only about convincing teams and partners about the ease and positiveness of a technology, but also infusing them with a fascination about it so that they become passionate advocates and are intrinsically motivated to find out more by themselves.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Puntis Palazzolo, AI Strategist &#x26; Ethics Lead, SAP SuccessFactors, U.S.</strong></p>
+        <p>“The ethical challenges presented by AI have transcended the scope of individual enterprises, extending beyond entities like SAP. It is crucial that we collaborate with others to collectively address AI’s emerging concerns,” says Palazzolo, who leads the SAP SuccessFactors Data Science team.</p>
+        <p>The team acts as a consulting service on AI use cases for product teams in SAP SuccessFactors, analyzing the problem, developing code and algorithms, and building proof-of-concepts. Successful AI use cases are then integrated into SAP SuccessFactors solutions.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="240" height="300">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Puntis Palazzolo</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Much of the data in SAP SuccessFactors solutions is sensitive customer data. With the dramatic increase in generative AI use cases, safeguarding customer data must take precedence, Palazzolo says. “Generative AI is a powerful technology that introduces new challenges, such as hallucinations and automated decision-making. In high-risk sectors like HR, we need to explain how we reach certain decisions, especially when we are impacting people’s lives.”</p>
+        <p>Palazzolo joined SAP 11 years ago and has been based in Palo Alto, California, since 2013, where she represents SAP on <a href="https://mlcommons.org/">MLCommons</a> – a collaboration of academia and companies, such as Google and NVIDIA, dedicated to developing safe practices and industry-standard benchmarks to improve AI models.</p>
+        <p>Her advice to current and would-be AI practitioners? Follow your passion, be ethical, and make your voice heard while we still have time.</p>
+        <p>“Legislators alone cannot write AI regulations for us because they do not have a full understanding of its complexities,” she says. “We cannot solve all the problems by ourselves, but we must make our voices heard to shape the future of AI.”</p>
+        <p>Alexa MacDonald is an SAP News editor.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="follow-sap-news-on-linkedin-to-stay-in-touch">Follow SAP News on LinkedIn to stay in touch</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Connect with us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/women-at-sap</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Success Stories: Underway in the Amazon with the Hospital Boat]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-success-stories-underway-in-the-amazon-with-the-hospital-boat</link>
+            <guid>https://www.sap.com/news/2023/10/sap-success-stories-underway-in-the-amazon-with-the-hospital-boat</guid>
+            <pubDate>Fri, 27 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP SuccessFactors employee Ana Khouri helped deliver medical and dental services to isolated communities in the Amazon. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bc4eb9cb5d2c9b1ad1db6f2dadf797f0752a1d44.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bc4eb9cb5d2c9b1ad1db6f2dadf797f0752a1d44.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1bc4eb9cb5d2c9b1ad1db6f2dadf797f0752a1d44.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Success Stories: Underway in the Amazon with the Hospital Boat" src="./media_1bc4eb9cb5d2c9b1ad1db6f2dadf797f0752a1d44.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-success-stories-underway-in-the-amazon-with-the-hospital-boat">SAP Success Stories: Underway in the Amazon with the Hospital Boat</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the quiet darkness of the Amazon night, a broad boat deftly navigates a tributary of the Madeira River, making its way towards a tiny village of wooden houses and thatched shelters nestled on the shoreline. But the boat’s approach does not take the village by surprise. As it nears the riverbank, the cheers of children excitedly herald its arrival: “The doctors are here! The doctors are here!”</div>
+    </div>
+  </div>
+  <p>And so begins a new day of service for Ana Khouri, manager for Partner Delivery Management of <a href="/topics/human-resources">SAP SuccessFactors solutions</a>. Khouri was a member of the 2023 expedition of <a href="https://www.doutoresdasaguas.org.br/">Doutores das Águas</a> (Doctors of the Waters), a non-governmental organization (NGO) in Brazil that provides medical and dental care, alongside essential socioenvironmental education, to the isolated communities of the Amazon River Basin. “We had such a welcome,” Khouri says, reflecting on her experiences in the villages the expedition visited along the Acari and Canumã rivers from July 31 to August 12. “We arrived there at night. The boat had not yet docked and everything was dark, and then all these kids were already at the edge waiting for the boat. They were screaming and cheering. It made me kind of emotional.”</p>
+  <h2 id="healthcare-for-isolated-communities">Healthcare for Isolated Communities</h2>
+  <p>For these communities, the annual visit of Doutores das Águas, now in its twelfth year, is often the only occasion people are able to see a doctor. Their villages are so remote that they would otherwise need to travel many days by boat just to reach the nearest health center. Many have been looking forward to the NGO’s visit. Beforehand, families receive a password to access the services onboard the boat, which include health checks, vaccinations, vital medicines, dental care, and new dentures.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-success-stories-building-strong-communities-of-compassion-and-connection">SAP Success Stories: Building Strong Communities of Compassion and Connection</h3>
+        <p><em><a href="/2023/06/strong-compassionate-communities-marissa-baum">Read the feature</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Doutores das Águas sends one expedition per year into the Amazon, divided into two successive stages with each taking either a northern or southern route. Khouri’s expedition traveled south, navigating the Acari and Canumã rivers for 12 days to deliver services to six villages. The boat, 21 meters long and seven meters wide, has sleeping berths for 32 team members plus 12 crew members. It travels at an average speed of 15 kilometer per hour, powered by a 300 HP propulsion engine and has capacity to carry 13,000 liters of fuel, enough to last an entire month. Two generators are also onboard. Built specially for Doutores das Águas, it is equipped with modern medical equipment, including an ultrasound machine, four dental chairs and a dental lab, and a portable wash basin for lessons on teeth brushing. It carries enough stockpiles of vaccines and medicines to support communities for one year, until the boat’s next visit.</p>
+  <p>In 2023, the expedition provided services to 36 communities in 23 days to deliver 2,081 medical treatments or vaccines and perform 1,890 dental treatments and 62 micro-surgeries. And the onboard dental lab produced 265 dental prostheses or dentures, giving many people their smiles back.</p>
+  <h2 id="hidden-skill-set-reveals-passion-for-healthcare">Hidden Skill Set Reveals Passion for Healthcare</h2>
+  <p>In the Amazon, even winters are intense, as daily temperatures reach 37 degrees Celsius with high humidity and frequent rain. The shrill buzz of mosquitos is ever present. Creatures of the rainforest move about invisibly, eager for a free pantleg or untucked shirt to crawl into.</p>
+  <p>For Khouri, who joined SAP in 1999, life on the hospital boat is a long distance from her workspace at SAP Brazil in Rio de Janeiro, where she ensures that partners have the enablement tools and support that they need to deliver successfully to customers. Her energetic, affable interpersonal skills and tenacity for problem-solving – the same qualities that help her succeed in her work at SAP – enable her to thrive in dynamic environments.</p>
+  <p>But there is another side to Khouri that few colleagues know about. She has a background in nutrition with a master’s degree from Michigan State University. This hidden skill set, which is an integral part of Khouri’s whole self, qualified her to join the expedition as a socioenvironmental and nutritional health expert. “I always liked the healthcare field,” she says. “So, to be there and to be able to provide this benefit to these people and to be part of the team, that’s my motivation. We are giving the people healthcare.”</p>
+  <h2 id="learning-by-doing-for-health-and-hygiene">Learning by Doing for Health and Hygiene</h2>
+  <p>In the early morning, villagers gather to listen to the doctor, dentist, and the socioenvironmental and nutrition team, who discuss the importance of nutrition and hygiene for long-term health. Afterwards, the adults go to the line to be called in for treatment. “We stay with the kids and teenagers. We play games about food, nutrition, garbage disposal, and recycling,” Khouri says. This year, 750 children received instruction in socioenvironmental and nutritional activities.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="put-your-people-at-the-center-of-everything-with-sap-successfactors">Put your people at the center of everything with SAP SuccessFactors</h3>
+        <p><em><a href="https://www.sap.com/products/hcm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>One game is a competition to see which team can collect the most garbage in a big bag. “The kids are all running, and we run after them, in this intensive heat,” Khouri says. A prize is awarded for the most garbage collected. There are lots of batteries and plastic drink bottles. “This is one exercise we do to tell them they shouldn’t just throw things on the ground because it’s going to be washed away to the river.”</p>
+  <p>Twice a day, the children receive instruction on how to brush their teeth. They each receive a dental examination aboard the hospital boat. “We teach them with games and music how to brush their teeth,” Khouri says. “In the boat, we bring a huge sink with eight places so we can have eight kids at once and we give them a small toothbrush and toothpaste.”</p>
+  <p>Children who have no cavities at their annual dental checkup receive a badge. In communities where the boat has visited previously, the number of children with no cavities is increasing – evidence of the NGO’s impact on healthcare in the region. “We have lots of little kids, 5 years old or 6 to 7. They have the badge ‘Zero Cavities,’” Khouri says. “We also teach them how to wash their hands and to always wash their hands before they eat.”</p>
+  <p>“The kids somehow get attached to you,” Khouri says. “They don’t know you, but then at the end of the day, sometimes you sit quietly somewhere to have a break and they come and hug you. They stay with you. This is something that touched me.”</p>
+  <h2 id="tapping-natural-resources-to-satisfy-global-markets">Tapping Natural Resources to Satisfy Global Markets</h2>
+  <p>People in the communities along the river live simply from the land and the water. They sometimes sell the fruits, cashew nuts, and mandioca (basis of tapioca) that they cultivate. Many have begun to earn money by selling copaiba oil, used in traditional medicines. The oil is extracted using traditional, sustainable methods to tap tree resin. The oil is popular in high-end cosmetics and pharmaceuticals, including sunscreen, because of its anti-inflammatory properties. “Some of the communities extract the oil,” Khouri says. “Unfortunately, they sell it very cheap to the middleman, who sells it to cosmetics companies for a lot of money.”</p>
+  <p>The NGOs that work in the region, including Doutores das Águas, are encouraging the communities to create a cooperative so they can sell copaiba oil directly and receive more money, because the oil “is really cheap and it is very ‘in’ at the moment,” Khouri explains.</p>
+  <h2 id="one-boat-is-not-enough">One Boat Is Not Enough</h2>
+  <p>Khouri wants to participate in the next expedition of Doutores das Águas, scheduled for April 2024. Also, the communities change over time, as she notes, “Some of the communities disappear. They are so small that they migrate.” One community has become more developed since becoming connected to the region’s main road, making healthcare more accessible to community members.</p>
+  <p>“What I expect for the future of these communities is that they get more access to healthcare, improve hygiene, and take care of the river by adopting the garbage collection practice that we teach them,” says Khouri. “I would like people to know that this issue exists and that the need in the Amazon is huge. One boat is not enough.”</p>
+  <p>Watch <a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews">SuccessConnect Virtual</a> on demand.</p>
+  <div class="footnote">
+    <div>
+      <div>Top photo courtesy of Ana Khouri</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-us-on-linkedin">Connect with us on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow SAP News</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[Take Small Steps and Create Big Impact Through Volunteering]]></title>
+            <link>https://www.sap.com/news/2023/10/small-steps-big-impact-volunteering-maggie-ramaiah</link>
+            <guid>https://www.sap.com/news/2023/10/small-steps-big-impact-volunteering-maggie-ramaiah</guid>
+            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enabling others to make their mark creates lasting impact. SAP employee Maggie Ramaiah integrates CSR activities to build that mindset.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/leadership</category>
+            <category>news-tag/pro-bono-for-economic-equity</category>
+            <category>news-tag/purpose</category>
+            <category>news-tag/sap-csr</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/sap4good</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Success Stories: Building Strong Communities of Compassion and Connection]]></title>
+            <link>https://www.sap.com/news/2023/06/strong-compassionate-communities-marissa-baum</link>
+            <guid>https://www.sap.com/news/2023/06/strong-compassionate-communities-marissa-baum</guid>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP SuccessFactors employee Marissa Baum builds vibrant communities at SAP and beyond. Read to learn more about her story.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[From Kitchen Assistant to IT Student]]></title>
+            <link>https://www.sap.com/news/2023/04/from-kitchen-assistant-to-it-student</link>
+            <guid>https://www.sap.com/news/2023/04/from-kitchen-assistant-to-it-student</guid>
+            <pubDate>Fri, 28 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Malbina Ramil Kyzy‘s story is one of courage and hard work. Read how a meeting in an SAP cafeteria paved the way to the career of her dreams.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Success Stories: Empathy Bridges a Path to Safety]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-success-stories-gilly-smith-empathy-bridges-path-to-safety</link>
+            <guid>https://www.sap.com/news/2023/03/sap-success-stories-gilly-smith-empathy-bridges-path-to-safety</guid>
+            <pubDate>Mon, 06 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP employee Gilly Smith shares her story of compassion when she opened her home to a young family displaced by war in Ukraine.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>news-tag/ukraine</category>
+        </item>
+        <item>
+            <title><![CDATA[Saving Lives in the Turkish Earthquake Zone]]></title>
+            <link>https://www.sap.com/news/2023/03/saving-lives-in-the-turkish-earthquake-zone</link>
+            <guid>https://www.sap.com/news/2023/03/saving-lives-in-the-turkish-earthquake-zone</guid>
+            <pubDate>Fri, 03 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP employee Sebastian Hodapp and the volunteer search and rescue organization @fire rescued trapped victims after the earthquake in Türkiye.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-csr</category>
+            <category>news-tag/sap-employee-profile</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Success Stories: Teeing Up with Tracy Martin, Golfer and HXM Ace]]></title>
+            <link>https://www.sap.com/news/2022/11/success-culture-tracy-martin-golfer-hxm-ace</link>
+            <guid>https://www.sap.com/news/2022/11/success-culture-tracy-martin-golfer-hxm-ace</guid>
+            <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Whether on the golf course or delivering value to SAP SuccessFactors customers, Tracy Martin says success is a matter of focusing on outcomes.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[The Sky Is Not the Limit]]></title>
+            <link>https://www.sap.com/news/2022/10/uwe-wahlig-the-sky-is-not-the-limit</link>
+            <guid>https://www.sap.com/news/2022/10/uwe-wahlig-the-sky-is-not-the-limit</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP software engineer Uwe Wahlig has intuitively applied the principle of continuous improvement to himself and his planes. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-employee-profile</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-s4hana-retail/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 21 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Power of Personalization in an Increasingly Digital World]]></title>
+            <link>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</link>
+            <guid>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</guid>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Personalization, enabled by SAP solutions, can build relationships, increase customer lifetime value, and enhance customer engagement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/fashion</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>news-tag/sap-experience-center</category>
+            <category>product/sap-intelligent-returns-management</category>
+            <category>product/sap-s4hana-retail</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Trends Grocery Retailers Should Have on Their Radar]]></title>
+            <link>https://www.sap.com/news/2022/10/three-trends-for-grocery-retailers</link>
+            <guid>https://www.sap.com/news/2022/10/three-trends-for-grocery-retailers</guid>
+            <pubDate>Mon, 24 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A modern ERP system can help grocery retailers capture customer interest, stand out among competitors, and take advantage of e-tailing.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b2445779d7eda974acf257f88f730c2bb7433f43.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b2445779d7eda974acf257f88f730c2bb7433f43.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b2445779d7eda974acf257f88f730c2bb7433f43.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Three Trends Grocery Retailers Should Have on Their Radar" src="./media_1b2445779d7eda974acf257f88f730c2bb7433f43.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="three-trends-grocery-retailers-should-have-on-their-radar">Three Trends Grocery Retailers Should Have on Their Radar</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Following a whirlwind of dramatic changes in recent years, grocery retailers continue to evolve. Rising food costs, changing customer behaviors, and growing competition from traditional and nontraditional players – all these challenges bring substantial pressure to operations. But how can you help ensure customer expectations are met at the same time?</div>
+    </div>
+  </div>
+  <p>The answer comes down to having the right <a href="/topics/erp-finance">enterprise resource planning (ERP)</a> system. Large volumes of data must be handled to proactively recognize shopping habits, make the right decisions about the size and selection of assortments, and streamline processes end to end. Or more succinctly, you need the tools to do everything it takes to satisfy customer needs consistently, strategically, and intelligently.</p>
+  <p>By modernizing the ERP foundation, you can gain an extraordinary advantage when taking on three industry trends that can be critical to long-term resilience against expanding competitors and the ability to wow every customer.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transform-shopping-experiences-on-every-channel-with-sap-solutions">Transform shopping experiences on every channel with SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/retail.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="capture-customer-interest-with-the-right-assortment">Capture Customer Interest with the Right Assortment</h2>
+  <p>Grocery retailers constantly ask themselves how to attract customers, keep them, and service them cost-effectively. The key is understanding the many questions that run through shoppers’ minds before, during, and after they visit the physical store or e-commerce site.</p>
+  <p>Most grocers try to capture some of this information through membership or loyalty card programs. But making sense of this information to guide customers along their journey through every aisle requires a modern ERP with embedded analytics, visualizations, and capabilities that connect the ERP system to business and point-of-sale applications. In return, you gain a 360-degree view of each customer while managing your subscription program, an increasing set of receivables, complex pricing, and product bundle offers.</p>
+  <h2 id="stand-out-with-unique-customer-value">Stand Out with Unique Customer Value</h2>
+  <p>With traditional and nontraditional competitors expanding into new regions and market areas, differentiation strategies naturally move up on the list of business priorities. But standing out among mom-and-pop stores, discount and exclusive retailers, large national chains, and digital retailers is becoming increasingly challenging without the visibility and foresight to plan production capacity, source materials, and manage logistics and inventory in real time.</p>
+  <p>The key to navigating the increasingly crowded market space is pulling together a comprehensive physical inventory movement overview to help detect slow-moving and unprofitable items and manage master data. With a modern ERP, you can integrate a wide selection of solutions into a single source of truth to help analyze sales performance and trends, optimize the assortment structure, and source the right products for each season. In addition, a universal journal can be created to set the foundation for simplified data structures and deeper insights into your SKU portfolio.</p>
+  <h2 id="seize-the-moment-with-omnichannel-strategies">Seize the Moment with Omnichannel Strategies</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="take-the-lead-in-your-industry-with-sap-s4hana">Take the lead in your industry with SAP S/4HANA</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/erp.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The concept of e-tailing has gained interest among grocery retailers. Although customers prefer to shop for food weekly in brick-and-mortar stores, the fact that more people are buying perishable goods online indicates where the industry is heading in the future.</p>
+  <p>A modern ERP can help grocers prepare for this trend by connecting to sources of information such as SKUs, prices, and availability by store and distribution center. The technology creates a framework to keep the e-commerce site and mobile app up-to-date to prevent stock-outs. In addition, management can define quality parameters for choosing fresh produce, help ensure SKU availability, and coordinate order fulfillment and delivery.</p>
+  <h2 id="ready-to-shape-the-future-of-your-grocery-retail-business">Ready to Shape the Future of Your Grocery Retail Business?</h2>
+  <p>For a more in-depth look at how you can apply these three trends with our modern ERP, the SAP S/4HANA Retail solution, read the three-part blog series, “<a href="https://blogs.sap.com/2022/06/27/sap-s-4hana-grocery-retail-blog/">SAP S/4HANA Retail Solutions for Grocery Retailers</a>.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Dirk Dreisbach is chief business enterprise consultant for BTS Consumer Products and Retail Industries at SAP Germany.</em><br><em>Dmitry Melnik is global vice president for SAP S/4HANA at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-s4hana-retail</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in “IDC MarketScape: Worldwide Retail Merchandise Operations Management Solutions 2020–2021 Vendor Assessment”]]></title>
+            <link>https://www.sap.com/news/2021/01/sap-a-leader-retail-merchandise-operations-management-idc-marketscape-worldwide</link>
+            <guid>https://www.sap.com/news/2021/01/sap-a-leader-retail-merchandise-operations-management-idc-marketscape-worldwide</guid>
+            <pubDate>Wed, 13 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a Leader in IDC MarketScape: Worldwide Retail Merchandise Operations Management Solutions 2020–2021 Vendor Assessment. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/idc</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-s4hana-retail</category>
+        </item>
+    </channel>
+</rss>

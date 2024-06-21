@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/cybersecurity/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 28 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Fully Homomorphic Encryption: Data Insights Without Sharing Data]]></title>
+            <link>https://www.sap.com/news/2024/03/fully-homomorphic-encryption-insights-without-sharing-data</link>
+            <guid>https://www.sap.com/news/2024/03/fully-homomorphic-encryption-insights-without-sharing-data</guid>
+            <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Fully homomorphic encryption enables access to information while minimizing privacy risks and thwarting data breaches. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/data-privacy</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[Cybersecurity a Top Priority at SAP, Early Talent Program Recognized by U.S. Government]]></title>
+            <link>https://www.sap.com/news/2023/09/cybersecurity-top-priority-sap-global-early-talent-program</link>
+            <guid>https://www.sap.com/news/2023/09/cybersecurity-top-priority-sap-global-early-talent-program</guid>
+            <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The two-year Global Security Early Talent program offers young professionals entry into the cybersecurity space at SAP. Learn more about it.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/talent-acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud]]></title>
+            <link>https://www.sap.com/news/2023/03/zero-trust-data-protection-security-and-privacy-in-cloud</link>
+            <guid>https://www.sap.com/news/2023/03/zero-trust-data-protection-security-and-privacy-in-cloud</guid>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[To secure data and operations in a hybrid work environment, companies have been adopting a zero trust approach. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud" src="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="zero-trust-for-the-highest-level-of-data-protection-security-and-privacy-in-the-cloud">Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When Rihanna sang some of her greatest hits suspended on a platform that hovered 15 to 60 feet above the stadium at this year’s <a href="/2023/02/the-take-super-bowl-lvii-supply-demand">Super Bowl</a>, trust in technology was of utmost importance. On the same note, trust is crucial when it comes to an organization’s security on every platform it operates.</div>
+    </div>
+  </div>
+  <p>Data privacy, risk management, and cybersecurity remain key priorities for businesses in 2023 to ensure continuous high performance and to catapult to new heights. In a recent <a href="https://www.cio.com/article/306384/state-of-the-cio-2022-focus-turns-to-it-fundamentals.html">CIO Magazine survey</a>, 43% of survey respondents said that they plan to upgrade IT and data security to reduce corporate risks. That includes security and data protection measures to keep their data safe. This becomes even more important when moving to and operating in a cloud enterprise resource planning (ERP) environment to drive continuous innovation. In the same CIO survey, 12% of the respondents said that they are planning to accelerate the move to the cloud as a service.</p>
+  <h2 id="adopt-a-zero-trust-security-approach-for-the-cloud">Adopt a Zero Trust Security Approach for the Cloud</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-about-security-at-sap">Read more about security at SAP</h3>
+      </div>
+      <div><strong><a href="/topics/security">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>To secure data and operations in a hybrid work environment, companies have been adopting a zero trust approach. <a href="https://www.forrester.com/blogs/the-definition-of-modern-zero-trust/">Forrester</a> defines zero trust as an “information security model that denies access to applications and data by default. Threat prevention is achieved by only granting access to networks and workloads utilizing policy, informed by continuous, contextual, risk-based verification across users and their associated devices.”</p>
+  <p>According to 2022 global survey data published by <a href="https://www.statista.com/statistics/1228254/zero-trust-it-model-adoption/">Statista</a>, 39% of companies have already begun to roll out a zero trust solution and 41% of companies have plans to adopt a zero trust strategy and are in the early phases of doing so.</p>
+  <p>My principle in life is to trust people and systems until I am provided a reason not to. The zero trust principle is the exact opposite of this.</p>
+  <p>The zero trust approach has three key principles: all entities and users are untrusted by default until authorized, the least privilege access is enforced, and extensive security monitoring is in place. In short, no connections to corporate networks and systems should be trusted at sight. All users, devices, and systems need to be authenticated, reverified, and continuously monitored when accessing networks, systems, and data.</p>
+  <p>Adopting this approach to cloud transformation has become the leading industry standard to keep operations and data safe across the entire virtual and physical network infrastructure.</p>
+  <p>Here are some best practices for putting an enterprise security plan in place that utilizes zero trust concepts to run operations safely and securely in the cloud.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="organizations-around-the-world-trust-sap-with-their-data">Organizations around the world trust SAP with their data</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/trust-center.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="define-clear-security-roles-and-responsibilities">Define Clear Security Roles and Responsibilities</h3>
+  <p>First and foremost, ensuring security is always a shared responsibility between companies and their cloud transformation partners. It is a common goal and commitment that is independent of the type of cloud path companies take.</p>
+  <p>Like with any shared responsibility, the best way to approach it is by defining the roles and responsibilities up front. This process starts by asking these key questions: who is managing the cloud, how will everyone work together to secure the cloud, who is responsible for which part, and where are dependencies?</p>
+  <p>This will ensure that there is a clear strategy and plan to monitor and implement security policies and measures.</p>
+  <h3 id="keep-an-eye-on-users-devices-network-applications-and-monitoring">Keep an Eye on Users, Devices, Network, Applications, and Monitoring</h3>
+  <p>Based on our experience at SAP Enterprise Cloud Services, another best practice is to focus the zero trust security approach on five pillars: users, devices, networks, applications, and monitoring.</p>
+  <p>Eighty-seven percent of organizations consider the <strong>application</strong> layer as being the front door for data breaches. Most data breaches through cyberattacks happen because <strong>users</strong> fail to keep their credentials safe or fall prey to false identities. In addition, the number of remote users with their own <strong>devices</strong> has significantly increased in enterprise <strong>networks</strong> as well as the number of cloud-based assets that are not located within an enterprise-owned network boundary.</p>
+  <p>By regulating and <strong>monitoring</strong> user access to devices, networks, and applications, companies can protect all their resources, including assets, services, workflows, and network accounts. For example, identity management systems can manage privileged user authentication and access at a very granular level. This includes keeping administrative accounts separate from corporate accounts and applying encryption to several layers in the IT environment. Data classification makes it possible to associate the security levels with specific types of data, regardless of where that data resides – in the cloud, at endpoints, or in owned data centers.</p>
+  <h2 id="scaling-security-needs-faster-with-the-cloud">Scaling Security Needs Faster with the Cloud</h2>
+  <p>While managing the complexity of security needs for cloud transformations can be daunting, here is an added merit: companies can scale their security needs much faster in the cloud, according to <a href="https://www2.deloitte.com/ca/en/pages/insight/articles/how-to-accelerate-cloud-adoption-with-security-by-design.html">Deloitte</a> research. Benefits include better automation capabilities as well as higher storage and data capacity in the cloud. Companies can push infrastructure as code and fix a security problem in real time when operating in the cloud. Automation also helps in increasing the maturity of identity management and security management systems. <a href="https://www2.deloitte.com/ca/en/pages/insight/articles/how-to-accelerate-cloud-adoption-with-security-by-design.html">Deloitte</a> recommends embracing cybersecurity as a differentiator to promote greater stakeholder trust and better use of cloud-native solutions that take advantage of the cloud’s full potential.</p>
+  <p>In other words, you can shine like a diamond on your cloud platform of choice with a zero trust security approach for the cloud.</p>
+  <div class="quote">
+    <div>
+      <div>For more information, visit the <a href="https://www.sap.com/about/trust-center.html">SAP Trust Center</a> site and read this <a href="https://www-forbes-com.cdn.ampproject.org/c/s/www.forbes.com/sites/sap/2021/07/29/5-cybersecurity-tactics-to-protect-the-cloud/amp/">Forbes article by Roland Costea,</a> chief security officer for SAP Enterprise Cloud Services.</div>
+    </div>
+    <div>
+      <div>Peter Pluim is president of SAP Enterprise Cloud Services and SAP Sovereign Cloud Services.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>content-type/feature</category>
+            <category>topic/erp</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/data-privacy</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/enterprise-risk-management</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[Clarifying the True Meaning of Innovation Drives Meaningful Business Value]]></title>
+            <link>https://www.sap.com/news/2022/09/true-meaning-of-innovation</link>
+            <guid>https://www.sap.com/news/2022/09/true-meaning-of-innovation</guid>
+            <pubDate>Tue, 27 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[It takes creativity and domain expertise to bring innovation to life and evolve it for delivering more meaningful value. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/cybersecurity</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Passwords Are Leaving, Cybercriminals Are Not]]></title>
+            <link>https://www.sap.com/news/2022/06/the-take-password-less-authentication-cybercriminals</link>
+            <guid>https://www.sap.com/news/2022/06/the-take-password-less-authentication-cybercriminals</guid>
+            <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Password-less authentication would make many business processes easier and more seamless, but it's not a silver bullet. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[Forter Trust Platform: On the Right Side of Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</link>
+            <guid>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</guid>
+            <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To combat fraud, the Forter Trust Platform recognizes shoppers through their data profile and authenticates them quickly and automatically.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Forter Trust Platform: On the Right Side of Digital Commerce" src="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="forter-trust-platform-on-the-right-side-of-digital-commerce">Forter Trust Platform: On the Right Side of Digital Commerce</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>If your organization has a stake in preventing fraud across your digital commerce operations, I’ll venture to say that you want Michael Reitblat and his team at Forter on your side.</div>
+    </div>
+  </div>
+  <p>As co-founder of the preeminent fraud-detection platform on the market – now available on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a> – Reitblat told me that he has long experience in the “bad guy space,” building a successful career around staying ahead of bad actors. That means he’s the good guy for those making an honest living selling products and services online, and for buyers and shoppers making purchases digitally.</p>
+  <p>Known as “The Trust Platform” for digital commerce, Forter doesn’t focus on keeping people out, rather on creating a seamless customer experience for trusted shoppers. How is this done? Machine learning and automated decisioning. Built upon a data set of billions of online identities, the Forter platform provides accurate decisions on whether the end shopper is who they say they are instantly. This ability to provide real-time decisions also streamlines merchant operations, eliminating any dependence on manual transaction reviews. That’s the key to understanding the value of this great app.</p>
+  <p>The truth is that both online consumers and merchants are victimized by sophisticated, well-organized fraud networks, Reitblat explained, stealing and selling data in a chain of hard-to-detect transactions. To counteract that, merchants can inadvertently block shoppers who most need to purchase online because they fit the “wrong profile” – living in a country known for a high preponderance of fraudsters, for example. Someone might live a long distance from a physical retailer and be unable to buy essential items online, through no fault of their own. “We are here to give those buyers access, and that is a great source of pride,” he remarked. Further, if a consumer faces hurdles to online purchasing because of clumsy verification processes, they’ll just shop somewhere else. It is therefore crucial to eliminate false declines and reduce friction throughout the purchase journey.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-the-forter-trust-platform">Learn more about the Forter Trust Platform</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Trust%20Platform%20for%20Digital%20Commerce">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="foiling-scams-through-a-circle-of-trust">Foiling Scams through a Circle of Trust</h2>
+  <p>It’s somewhat ironic that the best way to thwart fraud is to operate in an environment of trust. In fact, trust among competitors is at the heart of Forter Fraud Protection. Criminals will target one type of company – a shoe manufacturer, for example – and, when detected, move on to exploit the next, giving them the advantage. “We reverse that asymmetry,” Reitblat said. “If you attack one of our customers, the others are immunized, thanks to an aggregated global network of data. They would never share their data with each other, but they are happy to do it through us.” Simply put, the Forter solution is built to recognize people through their data profile and authenticate them quickly and automatically.</p>
+  <p>I asked Reitblat about credit card protection. When a consumer reports a fraudulent charge, he replied, the onus is on the retailer, who is left with the expense and is subject to fines or suspension by the credit card issuers if there are too many instances. I was also curious about how Forter stays in front of the fraudsters. Let’s just say that Reitblat, who grew up in Israel and was once a member of the intelligence community there, has his people. “Detecting security breaches, theft, the dark economy – it’s the same world,” he said. “We have an active research team staying on top of these constantly evolving threats.”</p>
+  <h2 id="strength-in-numbers">Strength in Numbers</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-all-that-sap-store-has-to-offer">Explore all that SAP Store has to offer</h3>
+      </div>
+      <div><strong><a href="http://store.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Reitblat co-founded Forter after working with a cybersecurity company that went through an acquisition – a crushing blow for him. Fortunately, he had reunited with an old high school friend from Jerusalem who also recognized that online commerce was about to take off. “In 2013, we still had to convince investors of the need for an authentication capability, and that it had to be fully automated or otherwise would require too many people to be scalable.” That resistance changed quickly, and today Forter is larger than many of its major customers, processing more than US$250 billion in transaction value per year and employing 500 professionals around the world. The solution is deployed in more than 30 countries.</p>
+  <p>The <a href="http://news.sap.com/tags/covid-19">events of the past two years</a> have resulted in a burst of demand that Reitblat and his partner could not have foreseen. Besides the explosion in online shopping, purchasing behavior and customer demographics across industries changed. New retail features appeared, like curbside pickup, buy online/pick up in store (BOPIS), and contactless check-in and check-out in the hospitality industry. New online buyers included senior citizens, students, and those in advancing geographies who had never transacted online before. Additionally, with the sudden surge of orders to be delivered to alternate addresses – holiday gifts, for example, or people purchasing for family members – e-commerce systems had an extra challenge in verifying legitimacy. That process was less complex for Forter customers because its customers were already authenticated in the system.</p>
+  <p>Forter Fraud Protection is tightly integrated with SAP Commerce Cloud. Laura Jorgens, director of Partnerships for Forter, acknowledged SAP partner <a href="https://netconomy.net/">Netconomy</a> for its “incredible support” in building out the integration. “Working with SAP and Netconomy feels like one ecosystem pulling together,” she said. “Hats off to the SAP partnership organization.” With the inclusion of Forter’s solution on SAP Store, she added, “SAP has become one of Forter’s most important partners.”</p>
+  <p>Why not see for yourself how <a href="https://www.youtube.com/watch?v=Tp3RHdk5Yic">Forter Trust Platform</a> works? The solution was just <a href="https://store.sap.com/dcp/en/news-blogs/blogs/celebrating-the-20th-year-of-sap-pinnacle-awards-and-partner-innovations-on-sap-store">named</a> an SAP Pinnacle Award finalist in the New App of the Year on SAP Store category. It’s available for download on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a>. Or download the SAP and Forter <a href="https://l.forter.com/hubfs/forter-SAP-brochure.pdf">overview brochure</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Rajiv Nema is senior director of SAP Store Partner Solutions.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-digital-commerce</category>
+            <category>sap-award/sap-pinnacle-awards</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Preventing Cybercrime with a Solid Security Culture]]></title>
+            <link>https://www.sap.com/news/2022/03/preventing-cybercrime-solid-security-culture</link>
+            <guid>https://www.sap.com/news/2022/03/preventing-cybercrime-solid-security-culture</guid>
+            <pubDate>Mon, 14 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Building a security culture with shared responsibility and accountability company-wide is the best defense against cybercrime. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ed0db808ab7bc42e8ffe4aeb17d137cd686d0b64.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ed0db808ab7bc42e8ffe4aeb17d137cd686d0b64.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ed0db808ab7bc42e8ffe4aeb17d137cd686d0b64.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Preventing Cybercrime with a Solid Security Culture" src="./media_1ed0db808ab7bc42e8ffe4aeb17d137cd686d0b64.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="preventing-cybercrime-with-a-solid-security-culture">Preventing Cybercrime with a Solid Security Culture</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Cybercrime is not inevitable. With a <a href="https://www.sap.com/about/trust-center/security.html?pdf-asset=c8573354-f87d-0010-bca6-c68f7e60039b&#x26;page=1">security culture</a>, meaning a rigorous, people-first risk management strategy, organizations can muster the vigilance to head off threats.</div>
+    </div>
+  </div>
+  <p>In the wake of <a href="https://www.scientificamerican.com/article/the-log4j-software-flaw-is-christmas-come-early-for-cybercriminals/">Log4j</a> vulnerabilities, massive breaches like <a href="https://www.forbes.com/sites/thomasbrewster/2021/02/03/severe-solarwinds-vulnerabilities-allow-hackers-to-take-over-servers-update-now/?sh=4966e1ae687c">SolarWinds</a>, and the <a href="https://www.cnn.com/2021/12/18/business/cream-cheese-cyberattack-schreiber-foods/index.html">cream cheese shortage</a> during the 2021 holiday season, organizations are changing up security strategies to mitigate <a href="https://cybersecurityventures.com/cybercrime-damages-6-trillion-by-2021/">cybercrime</a> damages that are predicted to total US$10.5 trillion annually by 2025.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-security-culture-toolkit">Explore the Security Culture Toolkit</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/trust-center/security.html?pdf-asset=c8573354-f87d-0010-bca6-c68f7e60039b&#x26;page=1">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="security-cultures-prioritize-new-business-practices">Security Cultures Prioritize New Business Practices</h2>
+  <p>As every company becomes technology-driven, risks are escalating, pushing security much closer to the top of business priorities. <a href="https://www.gartner.com/en/articles/the-top-8-cybersecurity-predictions-for-2021-2022">Gartner</a> researchers said that by 2025, 70% of CEOs will mandate a culture of organizational resilience to survive coinciding threats from cybercrime, severe weather events, civil unrest, and political instabilities. Meanwhile, security cultures will have changed numerous business practices. By next year, <a href="https://www.idc.com/getdoc.jsp?containerId=US47193621">IDC</a> analysts said that 80% of organizations faced with complex global regulations will increase security compliance automation investments by 25% to consistently meet policies and regulations. In the same time frame, IDC predicted 25% of G2000 public cloud customers will subscribe to integrated risk management and cyber-insurance policies through shared fate/risk programs to protect against sophisticated cyberattacks.</p>
+  <h2 id="make-security-a-company-wide-responsibility">Make Security a Company-Wide Responsibility</h2>
+  <p>Security and risk leaders who responded to a recent Gartner <a href="https://www.gartner.com/smarterwithgartner/develop-a-security-strategy-for-cyber-physical-systems/">survey</a> ranked the Internet of Things (IoT) and cyber-physical systems as their top concerns for the next three to five years. <a href="https://www.gartner.com/en/information-technology/trends/the-it-roadmap-for-cybersecurity">Gartner</a> analysts predicted that by 2023, 75% of organizations will restructure risk and security governance to address the widespread adoption of advanced technologies, an increase from less than 15% today.</p>
+  <p>In a world where just about every organization is in the computer industry, embedded secure practices across the organization are table stakes. For example, SAP follows the NIST (National Institute of Technology in North America) cybersecurity framework, a holistic security strategy based on repeatable processes. This approach harmonizes controlled security company-wide, including product development and operations.</p>
+  <p>“Security has always been our number one concern,” said Tim McKnight, executive vice president and chief security officer at SAP. “With the acceleration of digitalization, organizations have embarked on a massive cloud-based computing transformation that extends to security. We’ve undergone a multi-year security transformation backed by the commitment of our Executive Board and real-time input from customers.”</p>
+  <p>A security culture comes down to a shared vision that’s carried out by leaders who make security a priority and teams who participate in ongoing trainings that celebrate success and learn from failures. People in any sector can take a page out of the software applications industry playbook.</p>
+  <p>“We’ve set cybersecurity goals for all of our executives,” said McKnight. “We present these measures to the Board on a regular basis, reviewing progress against security initiatives. With open conversations around security, we reinforce priorities while driving accountability from each department. Whether you’re an executive, team lead, or individual contributor, you need to understand your role in driving a security culture with a security-first mentality. After all, the vast majority of security incidents are the result of human error.”</p>
+  <h2 id="dont-let-other-business-demands-supersede-security-resources">Don’t Let Other Business Demands Supersede Security Resources</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="secure-your-intelligent-enterprise-with-sap">Secure your intelligent enterprise with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/trust-center/security.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>While just-in-time supply chains boost business agility in a <a href="/topics/covid-19">post-pandemic</a> environment, having more partners also increases risk. <a href="https://www.forrester.com/predictions/">Forrester</a> researchers predicted that 60% of security incidents will involve third parties in 2022. Maybe that’s why <a href="https://www.idc.com/getdoc.jsp?containerId=US47193621">IDC</a> researchers said that by next year, 55% of organizations will allocate half of their security budgets to cross-technology ecosystems and platforms designed for rapid consumption and unified security capabilities to drive agile innovation.</p>
+  <p>Companies need to allocate sufficient resources to prioritize security across the entire product life cycle, from development through go-live and support. With intelligent capabilities from artificial intelligence (AI), machine learning, robotic process automation (RPA), and other technologies, products and services increasingly require advanced security measures.</p>
+  <p>“An effective culture makes security everyone’s responsibility,” said Wiebke Thelo, senior vice president and head of SAP Quality, Application Security, and Production. “For example, business information security officers at SAP report directly into business unit leaders. They work together, making sure that security is embedded into product design, development, and operation.”</p>
+  <h2 id="educate-employees-now-for-a-trusted-future">Educate Employees Now for a Trusted Future</h2>
+  <p><a href="https://www.idc.com/getdoc.jsp?containerId=US48154621&#x26;pageType=PRINTFRIENDLY">IDC</a> research showed that close to 25% of organizations report ransomware infections weekly. Human judgment is core to preventing these incidents. However, <a href="https://www.forrester.com/blogs/predictions-2022-continued-uncertainty-forces-attention-on-securing-relationships/">Forrester</a> analysts warned about the “security brain drain” as one in 10 experienced professionals have exited the industry during the past year. These analysts advised security executives to address burnout and team culture problems and use succession planning to build a pipeline of security leaders.</p>
+  <div class="quote">
+    <div>
+      <div><a href="/2022/02/sap-teams-with-hbcus-next-generation-cybersecurity">SAP Teams Up with HBCUs to Attract Talent to the Cybersecurity Curriculum</a></div>
+    </div>
+  </div>
+  <p><a href="/2022/02/sap-teams-with-hbcus-next-generation-cybersecurity/embed/#?secret=KrZWqWNpab#?secret=TP1q2sHDbR">“SAP Teams Up with HBCUs to Attract Talent to the Cybersecurity Curriculum” — SAP News Center</a></p>
+  <p>“A security culture requires significant learning and development, which is why we’ve professionalized security,” said McKnight. “The human element is critical – we position people first, process second, and technology third. We start with our people and make sure they have the skills they need.”</p>
+  <p>As remote working, just-in-time supply chains, and tech innovations continue, companies have to think and act faster than the criminals. There’s never a good time for a cyberattack. Just ask the people who suffered through the cream cheese shortage. Criminals don’t take holidays and a security culture is the best protection.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler</em><br><em><a href="https://www.forbes.com/sites/sap/2022/01/20/preventing-the-next-log4j-with-a-solid-security-culture/?sh=297049942c43">This also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/forrester</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/idc</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Teams Up with HBCUs to Attract Talent to the Cybersecurity Curriculum]]></title>
+            <link>https://www.sap.com/news/2022/02/sap-teams-with-hbcus-next-generation-cybersecurity</link>
+            <guid>https://www.sap.com/news/2022/02/sap-teams-with-hbcus-next-generation-cybersecurity</guid>
+            <pubDate>Tue, 22 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP will sponsor several HBCUs as part of a bigger effort to foster the next generation of cybersecurity professionals. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/cybersecurity</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Yale University’s Jackson Institute for Global Affairs Collaborate to Empower the Next Generation of Cybersecurity Professionals]]></title>
+            <link>https://www.sap.com/news/2022/01/sap-and-yale-university-collaborate-cybersecurity-professionals</link>
+            <guid>https://www.sap.com/news/2022/01/sap-and-yale-university-collaborate-cybersecurity-professionals</guid>
+            <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Yale University are collaborating to foster early cybersecurity talent and promote diversity in the field. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP and Yale University’s Jackson Institute for Global Affairs Collaborate to Empower the Next Generation of Cybersecurity Professionals" src="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-and-yale-universitys-jackson-institute-for-global-affairs-collaborate-to-empower-the-next-generation-of-cybersecurity-professionals">SAP and Yale University’s Jackson Institute for Global Affairs Collaborate to Empower the Next Generation of Cybersecurity Professionals</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-security-for-the-intelligent-enterprise-with-sap">Get security for the Intelligent Enterprise with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/trust-center/security.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="https://www.sap.com/index.html">SAP SE</a> (NYSE: SAP) today announced a new agreement with Yale University’s Jackson Institute for Global Affairs to foster early cybersecurity talent and promote diversity in the field.</p>
+      </div>
+    </div>
+  </div>
+  <p>The relationship will see SAP sponsor the <a href="https://cyber.forum.yale.edu/">Yale Cyber Leadership Forum</a>, a collaboration between Yale Law School’s Center for Global Legal Challenges, the Jackson Institute for Global Affairs and the Department of Computer Science, which aims to prepare next-generation technologists to address the most pressing issues in the cybersecurity sector.</p>
+  <p>SAP’s sponsorship will include scholarships, funding for diverse groups of students, educational materials, professional mentorship and access to jobs and internships for students aiming to pursue careers in cybersecurity, while also strengthening collaboration between the business and academic communities.</p>
+  <p>Additionally, SAP will live-stream the Yale Cyber Leadership Forum sessions to the public, for the first time making it possible to view and participate in its educational events and discussions.</p>
+  <p>“Greater workforce diversity is synonymous with innovation, creativity and a more secure enterprise landscape,” said Tim McKnight, EVP and Chief Security Officer of SAP. “By opening cybersecurity conversations and learning opportunities to a broader audience, we aim to foster a new generation of diverse talent.”</p>
+  <p>Yale University’s Ted Wittenstein, Executive Director of the Jackson Institute’s new <a href="https://jackson.yale.edu/iss/research-projects/schmidt-program/">Schmidt Program on Artificial Intelligence, Emerging Technologies and National Power</a>, which examines how artificial intelligence has the potential to alter the fundamental building blocks of world affairs, noted that this new relationship will enable expanded student and public participation as well as help strengthen cybersecurity collaboration among the business and academic communities.</p>
+  <p>SAP’s Chief Trust Officer, Elena Kvochko, pointed out that by offering SAP’s vast technology network to broadcast Forum sessions, the company will help reach a broad array of audiences, including opening the Yale platform to underserved populations and providing opportunities for individuals to participate, learn and prepare for careers in cybersecurity.</p>
+  <p>SAP brings security experts to the Forum’s extensive network of attorneys, technologists, entrepreneurs and policymakers, and will provide coaching and early career mentorship opportunities for students.</p>
+  <p>SAP is committed to promoting diverse talent and developing early talent in the cybersecurity sector.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Mary Lasher, +1 (650) 421-6048, <a href="mailto:mary.lasher@sap.com">mary.lasher@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2020 Annual Report on Form 20-F.<br>© 2022 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/cybersecurity</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches Real-Time Cloud-Based Enterprise Threat Detection Solution for SAP Applications as Managed Service]]></title>
+            <link>https://www.sap.com/news/2021/07/sap-enterprise-threat-detection-cloud-based-managed-service</link>
+            <guid>https://www.sap.com/news/2021/07/sap-enterprise-threat-detection-cloud-based-managed-service</guid>
+            <pubDate>Thu, 15 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Enterprise Threat Detection, combined with SAP managed security services on SAP BTP, detects cyber-attacks in real time. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/enterprise-risk-management</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[It’s Time to Take the Ransomware Threat to Business-Critical SAP Applications More Seriously]]></title>
+            <link>https://www.sap.com/news/2021/07/ransomware-threats-sap-onapsis</link>
+            <guid>https://www.sap.com/news/2021/07/ransomware-threats-sap-onapsis</guid>
+            <pubDate>Fri, 02 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[It’s time to think differently about ransomware. SAP and Onapsis help organizations drastically reduce their risk profiles. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="It’s Time to Take the Ransomware Threat to Business-Critical SAP Applications More Seriously" src="./media_1bc86c722fb661b29097ae29ac4d540ce7a71aba7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="its-time-to-take-the-ransomware-threat-to-business-critical-sap-applications-more-seriously">It’s Time to Take the Ransomware Threat to Business-Critical SAP Applications More Seriously</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-and-onapsis-proactively-notify-and-help-customers-protect-mission-critical-applications-from-active-cyber-threats">SAP and Onapsis Proactively Notify and Help Customers Protect Mission-Critical Applications from Active Cyber Threats</h3>
+      </div>
+      <div><strong><a href="/2021/04/sap-onapsis-application-cyber-threat">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Almost every day, we see yet another case of ransomware. While historically, companies of all sizes are targeted, recently it appears that all the news revolves around debilitating attacks on mission-critical or business-critical systems of large enterprises — from fuel and energy companies to food processing companies.</div>
+    </div>
+  </div>
+  <p>It’s not that these enterprises haven’t taken steps to protect these assets; it’s just that the “traditional” way of preparing for and responding to ransomware simply won’t work anymore.</p>
+  <p>So what’s needed to protect your organization’s business-critical applications from the looming threat of ransomware? That’s exactly what SAP and Onapsis seek to address here.</p>
+  <p>When most people think about ransomware, there are two immediate, “traditional” solutions that come to mind: backups and endpoint security. Both are critical components of a solid security program, without a doubt. However, their presence could lull organizations into a false sense of security, as there still remain gaps, especially related to business-critical systems that are connected in more ways than ever before.</p>
+  <p>The challenge is that many enterprises realize too late that, in preparation for a ransomware attack, you need to close all the doors and windows of your house — not just the front door of endpoint protection. When thinking about ransomware attack vectors, it’s imperative to consider all potential entry points into the business-critical environment and how to secure them. To continue this metaphor, this also includes evaluating your neighbors and how they get into your house too.</p>
+  <p>When you think about all of these vectors, you slowly realize that this challenge goes way beyond just endpoint security and backups. It requires a more holistic look at securing your business-critical applications, including — yes — things that we would classify as “good security hygiene.”</p>
+  <p>In a recent <a href="https://onapsis.com/active-cyberattacks-mission-critical-sap-applications">joint Onapsis and SAP threat intelligence report</a>, we demonstrated that threat actors clearly have the means, the motivation, and the expertise to identify and exploit unprotected mission-critical applications, and are, in fact, actively doing so.</p>
+  <p>As an example, a massive, publicly traded company was recently subjected to a ransomware attack on its enterprise resource planning (ERP) application data. Did they have backups? Yes: the backup was refreshed once a week. However, operations halted anyway. When this happens, even with backups in place, it could still take hours or even days to restore from a backup, and the negative impact on the business and the financial losses are high regardless. Did they have endpoint security? Yes; however, the attackers bypassed the endpoint detection and response (EDR) software by accessing the data through the application. EDR is great for identifying activities on compromised assets and allowing the containment and collection of artifacts, such as process trees, files created by malware, but the application level still poses a challenge. And these attackers used that application layer, which was not monitored by the tool itself, to compromise the business-critical assets.</p>
+  <p>Vulnerabilities such as 10KBLAZE, PayDay, and RECON allow threat actors to take full control of applications through the application layer itself. These threat actors go straight to the application, and, once in, go down to the operating system level there. When you consider CIO digital transformation initiatives or the rapid adjustment to remote work due to the <a href="/covid-19">COVID-19</a> pandemic, there is a significant magnification of risk. Onapsis has observed that new, unprotected SAP applications provisioned in IaaS environments were discovered by threat actors and attacked in less than three hours, with more than 400 successful exploitations observed as of the date of this publication.</p>
+  <p>Ultimately, what’s needed then is a new model to defend against ransomware, one that goes beyond the scope of just protecting endpoints, backing up files, and hoping for the best. <a href="https://www.gartner.com/document/3993171">Gartner</a> claims that organizations should “[i]mplement a risk-based vulnerability management process that includes threat intelligence. Ransomware often relies on unpatched systems to allow lateral movement. This should be a continuous process. The risk associated with vulnerabilities changes as these vulnerabilities are exploited by attackers.” We couldn’t agree more.</p>
+  <p>What’s needed is a renewed commitment to some key security fundamentals:</p>
+  <ol>
+    <li>Security Hardening of Business-Critical Applications</li>
+    <li>Timely Patch Management</li>
+    <li>Point-in-Time Vulnerability Assessments</li>
+    <li>Continuous Monitoring of Vulnerabilities and Threats to Your Business-Critical Applications</li>
+    <li>Securing Your Custom Code in Business-Critical Applications</li>
+    <li>A Commitment to Control and Governance</li>
+  </ol>
+  <p>SAP is committed to continuously innovating our software to keep your information safe — both on premise and in the cloud. We prioritize security so that you can stay focused on running your business and managing your customer relationships effectively using SAP solutions, safe in the knowledge that your data is secured. To protect clients from ransomware attacks, securing development infrastructure, such as the build and deploy chain, is of utmost importance to prevent the manipulation of shipment artifacts.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-career-paths-in-security-at-sap">Explore career paths in security at SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/careers/your-career/job-areas/development-technology/cyber-security.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>As part of our commitment to clients, SAP follows a secure software development and operations lifecycle to identify and mitigate all kinds of security weaknesses and vulnerabilities during the development of products and services. Through the use of risk identification techniques such as the SAP threat modeling method and secure development trainings, SAP enables development teams to eliminate potential entry points for ransomware and other kind of attacks. It also ensures that basic security principles, such as that of least privilege, are part of the DNA of SAP developers.</p>
+  <p>SAP continues to harden our systems with automated static code analysis, vulnerability scans, and validation from a dedicated, independent SAP internal security team. SAP’s software development lifecycle serves as an example to clients on how to support a DevSecOps model covering development and operations aspects for continuous and secure delivery of software.</p>
+  <p>When deploying and running SAP applications, it is imperative that organizations focus on hardening their system to minimize the overall attack surface — for example, ensuring the proper setting of system parameters and other aspects of system configuration, including the activation of security features and functionalities. It is important that the proper configuration settings are in place to protect an organization against possible security vulnerabilities.</p>
+  <p>SAP provides key features such as the SAP EarlyWatch Alert service, which monitors the essential administrative areas of SAP components to keep organizations up to date on performance and stability as well as the SAP Security Optimization service, which verifies and improves the security by identifying potential security issues related to your SAP solution and providing key recommendations.</p>
+  <p>As threat actors continue to devise new modes of attack and vulnerabilities to these attacks are identified, SAP continuously provides security updates for existing code to keep your systems secure. SAP delivers these security updates through support packages, and, on the second Tuesday of every month, as part of “Security Patch Day,” SAP publishes security notes with the latest security corrections and recommendations. As noted, implementing a security maintenance process to assess and implement recommended security updates is a proven best practice for mitigating risk.</p>
+  <p>Onapsis has focused on protecting business-critical applications since 2009. We target the application layer with our Onapsis platform and serve an essential part of our clients’ plans to protect their business-critical SAP applications from ransomware attacks.</p>
+  <ul>
+    <li>By providing automatic visibility into critical vulnerabilities, missing important patches and security updates, misconfigurations, and insecure interfaces, Onapsis identifies all the open doors. This is a crucial component in any ransomware prevention initiative. Once the entry points are identified, they can be closed, thereby reducing the attack surface that may lead to ransomware.</li>
+    <li>Through continuous monitoring and real-time alerts for threat indicators, Onapsis helps monitor real-time attempts to access critical systems through any remaining open doors. Win precious time to prevent threat actors from gaining further access.</li>
+    <li>With code analysis in real time, prior to moving into production, and in transport, Onapsis can help identify foreign code, such as malware, or new vulnerabilities before they get released to the public. Code vulnerabilities may appear to be a minor attack vector, until they’re not, such as in the case of the Solar Winds attack. In Onapsis’ experience, we generally see one critical vulnerability per 1,000 lines of code, but our clients generally have <strong>millions of lines</strong> of custom code. It’s important to close those thousands of open doors to prevent any access to business-critical systems.</li>
+  </ul>
+  <p>It’s time to think differently about ransomware. We’re in the middle of a perfect storm, with more unprotected SAP applications and remote workers than ever before, expert threat actors who have the expertise to attack these systems, hyperconnected business-critical systems across the cloud, and strained InfoSec teams that may have fallen behind in patching and vulnerability management. Ransomware is the final step of an attack that could utilize a myriad of attack vectors to directly access your business-critical applications.</p>
+  <p>Organizations should leverage the powerful native security capabilities of SAP, establish the right risk-based patch, code, and vulnerability management processes, and take advantage of the optimized tools and critical threat intelligence from Onapsis. If they do so, organizations can drastically reduce their risk profiles, stay a step ahead of ransomware groups, and ultimately keep their names out of the news.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p><em>Tim McKnight is CSO of SAP.</em><br><em>Richard Puckett is CISO of SAP.</em><br><em>Mariano Nunez is CEO of Onapsis.</em></p>
+        <p><em>Additional contributors this content include: Elena Kvochko, Imran Islam, Oliver Meli, Vic Chung, and Robert Lorch from SAP, as well as David D’Aprile, Maaya Alagappan, and Tess Cunard from Onapsis.</em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Columbia University School of International and Public Affairs Team Up to Attract Female Talent to Cybersecurity]]></title>
+            <link>https://www.sap.com/news/2021/06/sap-columbia-female-talent-in-cybersecurity</link>
+            <guid>https://www.sap.com/news/2021/06/sap-columbia-female-talent-in-cybersecurity</guid>
+            <pubDate>Wed, 30 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Columbia University School of International and Public Affairs are working to attract female talent in Cybersecurity. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Columbia University School of International and Public Affairs Join to Improve Diversity in Cybersecurity]]></title>
+            <link>https://www.sap.com/news/2021/06/diversity-in-cybersecurity-sap-columbia-university-sipa</link>
+            <guid>https://www.sap.com/news/2021/06/diversity-in-cybersecurity-sap-columbia-university-sipa</guid>
+            <pubDate>Wed, 30 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[As the demand for cybersecurity professionals increases, SAP and Columbia University SIPA are working to increase diversity in cybersecurity.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/security</category>
+        </item>
+    </channel>
+</rss>

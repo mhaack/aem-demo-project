@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-partneredge-build/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 11 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Partner Enablement through Coaching: Bringing Out the Best in Innovation]]></title>
+            <link>https://www.sap.com/news/2023/01/partner-enablement-through-coaching</link>
+            <guid>https://www.sap.com/news/2023/01/partner-enablement-through-coaching</guid>
+            <pubDate>Wed, 11 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With coaching services for SAP BTP, SAP partners can get the insight they need for a specific use case from SAP experts. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[The SAP Partner Enablement Journey: Why SAP Partners Invest in Getting Certified]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-partners-invest-in-certifications</link>
+            <guid>https://www.sap.com/news/2022/11/sap-partners-invest-in-certifications</guid>
+            <pubDate>Wed, 09 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Through SAP Certifications, SAP partners are better prepared to lead true business transformation with SAP Business Technology Platform.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_129d3bf60136cb2f67f5f6bed2adc45a4c2fdfeeb.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_129d3bf60136cb2f67f5f6bed2adc45a4c2fdfeeb.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_129d3bf60136cb2f67f5f6bed2adc45a4c2fdfeeb.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The SAP Partner Enablement Journey: Why SAP Partners Invest in Getting Certified" src="./media_129d3bf60136cb2f67f5f6bed2adc45a4c2fdfeeb.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-sap-partner-enablement-journey-why-sap-partners-invest-in-getting-certified">The SAP Partner Enablement Journey: Why SAP Partners Invest in Getting Certified</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Business leaders typically spend considerable time and effort before investing in the services of a software provider or partner to help ensure they acquire the service quality and performance they need. Certification quickly conveys that proof of competency since such technical accreditation is considered a direct stamp of approval.</div>
+    </div>
+  </div>
+  <p>Acquiring new customers is one thing; retaining them is another. In both cases, continuously attaining the latest certifications – from trending topics to specialized capabilities – reassures customers and inspires them to make that first contact and keep coming back. Compared to their noncertified counterparts, certified consultants speed implementation times by up to 15% and deliver projects with less rework and higher customer satisfaction, according to <a href="https://www.sap.com/documents/2021/08/c00f44c1-f27d-0010-bca6-c68f7e60039b.html">IDC</a>.</p>
+  <p>Another advantage of certification is the potential to attract, develop, and retain the strong talent pool that customers expect. <a href="https://home.pearsonvue.com/voc">Pearson VUE’s global survey</a> of more than 10,000 IT professionals indicated that the value of IT certification surpasses that of training alone. Benefits include a culture that promotes confidence in abilities, greater job satisfaction, increased respect among peers, more work autonomy and independence, promotion and advancement, and higher salary and wages.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP BTP: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="a-competency-framework-for-competitive-certification">A Competency Framework for Competitive Certification</h2>
+  <p>When working with SAP, partners have the added benefit of fast access to the learning content needed to prepare for and attain certification. They are also rewarded with a visual badge that can be included in their marketing materials and on their Web sites.</p>
+  <p>In addition, through the recently announced <a href="https://partneredge.sap.com/en/partnership/manage/competency.html">Competency Framework</a>, SAP partners can achieve competencies and specializations by certifying a required number of their consultants and developers, enabling them to reach essential, advanced, or expert competency tiers. These competencies and corresponding specializations are then visible on <a href="https://www.sap.com/partner/find.html">SAP Partner Finder</a> to help prospective customers make informed partner selections based on the desired solution expertise.</p>
+  <p>SAP provides a broad set of certifications so partners can build specific skill sets and offer highly specialized consulting and implementation services. More than <a href="https://training.sap.com/certification/validity">100 certifications</a> cover a wide range of expertise and skill levels across an expansive set of SAP solutions and services. In fact, <a href="https://groups.community.sap.com/t5/sap-business-technology-platform/sap-certifications-for-business-technology-platform-you-bet/ba-p/2032">eight dedicated certifications</a> are available for <a href="/topics/business-technology-platform">SAP Business Technology Platform (SAP BTP)</a>, including SAP Integration Suite, SAP Extension Suite, the SAP HANA Cloud database, the SAP Analytics Cloud solution, and low-code and no-code development applications and automations.</p>
+  <p>Partners can promote their certifications by using <a href="https://training.sap.com/content/certification-verification">SAP Certification digital badges</a>. This real-time verification demonstrates that the partner’s certification is valid and contains a description of the SAP-backed expertise.</p>
+  <p>Learning content for certification exams for SAP BTP is available free of charge on the <a href="https://learning.sap.com/">SAP Learning</a> site. And as SAP technologies, such as SAP BTP, continue to evolve and bring new capabilities, partners can keep skills current with <a href="https://learning.sap.com/ready-to-get-certified">certification training and exams</a> continuously updated for every cloud release from SAP.</p>
+  <p>SAP partners can also attend <a href="https://partneredge.sap.com/en/library/news/products/tech_platform/btp/certification_academies.html">partner certification academies</a> for SAP BTP. The academies are online, interactive trainings delivered by SAP experts who guide you through the content of selected learnings for SAP BTP and help prepare partners to pass the associated certification exams. After completing an academy and passing the related certification, partners are equipped with the skills, knowledge, and tools needed to efficiently implement future projects on SAP BTP.</p>
+  <h2 id="proven-proficiency-drives-true-transformation">Proven Proficiency Drives True Transformation</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="build-extend-integrate-and-market-solutions-as-an-sap-partner">Build, extend, integrate, and market solutions as an SAP partner</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/partner/become/partneredge-build.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Technology is advancing exponentially. This reality requires people of all experience levels to grow their knowledge and take stock of how these new skills might be applied to improve productivity and efficiency, resolve existing challenges, and produce transformative outcomes.</p>
+  <p>The more we share and grow our knowledge of technologies, tools, and platforms, the more significant the impact of innovation and the faster we can achieve our goals. But most importantly, our partners are well-positioned to drive future growth, better experiences, and more sustainable and profitable outcomes.</p>
+  <p>With <a href="https://learning.sap.com/certification">SAP Certification</a>, our partners have the power to innovate with SAP BTP, among other SAP technologies, in ways that lead to true business transformation with unparalleled skill, confidence, and trust.</p>
+  <p>If you have not done so already, please join us on the journey with SAP BTP, attend the partner certification academies, and get certified today! You can also engage with your peers through <a href="https://groups.community.sap.com/t5/sap-business-technology-platform/gh-p/SAP-BTP">the partner community for SAP BTP</a> (login required). We look forward to driving successful business outcomes together.</p>
+  <ul>
+    <li><a href="https://partneredge.sap.com/en/library/education/partnership/licenses/e_ep_td_payg.html">Access to SAP BTP, including free tier services</a> (available to SAP partners only)</li>
+    <li><a href="https://partneredge.sap.com/en/library/assets/products/tech_plat/dgl/33/96/SAP813396.html">Enablement path for SAP BTP</a> (available to SAP partners only)</li>
+    <li><a href="https://partneredge.sap.com/en/library/assets/products/tech_plat/dgl/36/25/SAP813625.html">Top 10 SAP BTP partner enablement resources</a> (available to SAP partners only)</li>
+    <li><a href="https://www.sap.com/partner/become/partneredge-build.html">Software partnership opportunities through SAP PartnerEdge – Build</a></li>
+    <li><a href="https://learning.sap.com/learning-journey">SAP Learning Journey guides, including certifications</a></li>
+    <li><a href="https://partneredge.sap.com/en/library/news/products/tech_platform/btp/certification_academies.html">Partner certification academies for SAP BTP</a> (available to SAP partners only)</li>
+    <li><a href="https://partneredge.sap.com/en/partnership/manage/competency.html">The Competency Framework</a></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div><em>Pavel Penaz is global head of Partner Solution Adoption Strategy and Execution for SAP Business Technology Platform at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-certification</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[The New Organizational Chart: Structuring the Workforce of Tomorrow]]></title>
+            <link>https://www.sap.com/news/2022/08/ingentis-workforce-of-tomorrow</link>
+            <guid>https://www.sap.com/news/2022/08/ingentis-workforce-of-tomorrow</guid>
+            <pubDate>Tue, 16 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP partner Ingentis used SAP BTP to build Ingentis org.manager, an add-on application to SAP SuccessFactors to stay on top of HR data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+            <category>product/sap-successfactors-employee-central</category>
+        </item>
+        <item>
+            <title><![CDATA[Bridge the Coder Talent Gap to Accelerate the Innovation of Personalized Experiences]]></title>
+            <link>https://www.sap.com/news/2022/07/bridge-coder-talent-gap-lcnc-accelerate-innovation</link>
+            <guid>https://www.sap.com/news/2022/07/bridge-coder-talent-gap-lcnc-accelerate-innovation</guid>
+            <pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP partners are tapping into a new community of innovators by joining the low-code/no-code (LCNC) movement. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/low-code-no-code</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-intelligent-rpa</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Turn Business Process Intelligence into the Next Frontier for Growth]]></title>
+            <link>https://www.sap.com/news/2022/05/business-process-intelligence-next-frontier-for-growth</link>
+            <guid>https://www.sap.com/news/2022/05/business-process-intelligence-next-frontier-for-growth</guid>
+            <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Business process intelligence (BPI) delivers more than process improvement. Read how SAP partners uncover the full potential with SAP BTP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Updates Pricing Structure of SAP Store to Make It Easier for Partners to Build and Commercialize Solutions for SAP Customers]]></title>
+            <link>https://www.sap.com/news/2022/05/sap-updates-pricing-structure-of-sap-store</link>
+            <guid>https://www.sap.com/news/2022/05/sap-updates-pricing-structure-of-sap-store</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Changes to the pricing structure on SAP Store will make it as easier for partners to make the most of cloud-based software.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Accelerating Innovation and Time to Market with SAP BTP]]></title>
+            <link>https://www.sap.com/news/2022/04/idc-study-on-sap-btp-partners-accelerate-innovation</link>
+            <guid>https://www.sap.com/news/2022/04/idc-study-on-sap-btp-partners-accelerate-innovation</guid>
+            <pubDate>Thu, 21 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In a January 2022 IDC study on SAP BTP, partners communicated seeing a steady rise in customer interest and adoption of the platform.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[Business Planning and Analytics: The Difference between Surviving and Thriving]]></title>
+            <link>https://www.sap.com/news/2022/03/business-planning-and-analytics-surviving-and-thriving</link>
+            <guid>https://www.sap.com/news/2022/03/business-planning-and-analytics-surviving-and-thriving</guid>
+            <pubDate>Thu, 31 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how SAP partners are helping customers unify finance, operations, and their corporate strategy using xP&A and SAP Analytics Cloud.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[Transforming Data to Value with a Content-Driven Framework]]></title>
+            <link>https://www.sap.com/news/2022/02/transform-data-to-value-content-driven-framework</link>
+            <guid>https://www.sap.com/news/2022/02/transform-data-to-value-content-driven-framework</guid>
+            <pubDate>Tue, 08 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new generation of innovative SAP partner content and services, based on SAP BTP, is helping organizations amplify the power of data.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a927162a0d1effc4e59029617547a329d32170e5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a927162a0d1effc4e59029617547a329d32170e5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a927162a0d1effc4e59029617547a329d32170e5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Transforming Data to Value with a Content-Driven Framework" src="./media_1a927162a0d1effc4e59029617547a329d32170e5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="transforming-data-to-value-with-a-content-driven-framework">Transforming Data to Value with a Content-Driven Framework</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>As businesses move closer to becoming data-driven, SAP partners are helping them capture, harvest, and amplify the power of data. The content built using SAP Business Technology Platform enables them to extend their applications, business processes, and workflows with automation, artificial intelligence (AI), analytics, and more.</div>
+    </div>
+  </div>
+  <p>As data volumes increase, the creation and ingestion of that data also need to accelerate, expanding the variety of information services, automation, and analytics tools available. This has triggered a promising trend in how organizations use and share data. A <a href="https://www.sap.com/documents/2020/08/9e295602-ad7d-0010-87a3-c30de2ffd8ff.html">Forrester Consulting</a> survey, commissioned on behalf of SAP, reported that two-thirds of decision-makers prioritized the integration of data and analytics platforms (65%), establishment and improvement of the use of automation technologies (67%), and engagement with external providers for data and analytics or insights services (64%).</p>
+  <p>It’s welcome news that companies are starting to generate much-needed value from their business processes – supporting their recovery and growth in the face of <a href="/topics/covid-19">a global crisis</a>. But most of them are still somewhere in the middle of this transformation. In fact, Forrester Consulting reported that 48% use a point-solution approach, compared to 18% that have established a pre-integrated platform.</p>
+  <p>SAP partners are helping our customers worldwide overcome this obstacle with <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP). Whether a customer is just starting to develop a data valuation framework or seeking guidance to further its digital transformation, SAP partners can accelerate the journey through innovative content and services based on years of domain, project, and consulting expertise.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-business-processes-applications-data-and-experiences-with-sap-btp">Connect business processes, applications, data, and experiences with SAP BTP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="driving-transformation-with-real-life-intelligence">Driving Transformation with Real-Life Intelligence</h2>
+  <p>Just like how data gains value when shared and put to good use, so do the real-world insights and services available from our partner ecosystem. And when using a unified platform of applications and services like SAP BTP, it’s clear the ecosystem of partner best practices, templates, methodologies, road maps, and adoption patterns are critical in helping our customers transform more effectively.</p>
+  <p>Leveraging this partner content directly allows our customers to resolve challenges faster, uncover new opportunities proactively, mitigate risk early, and construct the system architectures to meet current and future challenges. Organizations can incorporate SAP and third-party data sources with the platform’s applications and services to address critical transformation requirements, including data management, robotic process automation (RPA), APIs, chatbots, cloud migration, process intelligence, governance, and collaboration. To help customers realize these benefits more rapidly, SAP partners can speed innovation and adoption of their content by customizing and contextualizing it through engagement models such as hackathons, coaching, and go-to-market guidance.</p>
+  <h2 id="accessing-the-right-insights-anytime-anywhere">Accessing the Right Insights Anytime, Anywhere</h2>
+  <p>In today’s high-tech world, it is easy to get caught up in the complexities of data extraction, transformation and enrichment, and the expertise needed to model data, machine learning algorithms, and analytics. SAP BTP offers capabilities that can package integration flows, pipelines, graphs, data models, and industry templates alike in the form of business content – tremendously simplifying these complexities regardless of the myriad of cloud, on-premise, or hybrid landscapes.</p>
+  <p>For example, marketing organizations are known for receiving large volumes of data generated by various sources at an ever-accelerating pace. Like many lines of business, as they try to aggregate and consume this data, they face the risk of using distorted insights that can negatively influence decision-making and impact their ability to uncover new opportunities.</p>
+  <p>Our partners help customers overcome this common challenge by harmonizing and integrating all data with ready-made connectors, delivering clean, consistent, and available information through a single location. Once stored in <a href="https://www.sap.com/products/data-warehouse-cloud.html">SAP Data Warehouse Cloud</a> as part of SAP BTP, the data can then be analyzed and visualized quickly, accurately, and meaningfully in <a href="https://www.sap.com/products/cloud-analytics.html">SAP Analytics Cloud</a>.</p>
+  <p>This content-driven approach to <a href="https://store.sap.com/dcp/en/product/display-0000059165_live_v1/Marketing%20Data%20Integration%20for%20SAP%20Data%20Warehouse%20Cloud">marketing data integration</a> automatically extracts, transforms, and loads data from company and commerce Web sites, social media, ad platforms, affiliated networks, Web and TV audience tracking systems, offline files, and other sources. Its underlying technology scales enterprise-wide to fulfill future data processing and analytics needs and automates data operations in ways that save time and resources while focusing on delivering strategic outcomes. Best of all, marketers have the visibility they need to weigh their campaign investments by measuring their contribution to overall business success.</p>
+  <h2 id="infusing-trust-with-external-data-to-safeguard-operations">Infusing Trust with External Data to Safeguard Operations</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="harness-your-intellectual-property-and-take-it-to-market-as-an-sap-partner">Harness your intellectual property and take it to market as an SAP partner</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/canada/partner/become/partneredge-build.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The finance function is another area that can benefit from augmenting data management capabilities with SAP BTP content and services. In one use case, SAP partner content and services help the line of business meet regulatory obligations with trusted external information – protecting the customer’s operations from the inadvertent laundering of proceeds from financial crimes or association with corrupt business practices.</p>
+  <p>For example, when used within SAP Data Warehouse, the World-Check Risk Intelligence database connects <a href="https://discover.sap.com/business-accelerators/en-us/data-marketplace.html">financial and market data management</a> and analytics with the most stringent research guidelines. The database is supported by hundreds of specialist researchers and analysts across the globe who collate information from reliable and reputable sources, such as watch lists, government records, and media searches.</p>
+  <h2 id="building-a-data-informed-business-culture">Building a Data-Informed Business Culture</h2>
+  <p>One of the most significant advantages of data management and analytics-related content and services is time savings. As the right people get the information they need faster, it takes less time to make the right decisions to capitalize on emerging opportunities and mitigate potentially damaging risks.</p>
+  <p>Our partners can deliver on that promise with business content from <a href="https://www.sap.com/products/cloud-analytics/features.html">SAP Analytics Cloud</a>, which is available as part of SAP BTP. They have created packages to jump-start the implementation and use of the advanced analytics solution, leveraging their real-world experience with customers.</p>
+  <p>Their experience and the resulting solution implementations leverage front-office content such as visualizations, key performance indicators, analytics, and digital boardrooms, as well as hidden back-office process modelling and logic. These combined sets of tools are often embedded within line-of-business workflows, mapping directly to SAP solutions. And it’s the combination that delivers the time savings and business value customers need – aligning to meet the requirements of specific departments, industries, and, in some cases, both.</p>
+  <h2 id="sharing-and-thriving-with-a-collaborative-ecosystem">Sharing and Thriving with a Collaborative Ecosystem</h2>
+  <p>When considering the factors that account for business growth, the power of shared experiences, industry expertise, innovation, and lessons learned are some of the most important drivers. And that is why our partners’ collective content for SAP BTP is so impactful in our customers’ transformation journey to becoming data-driven and intelligent enterprises.</p>
+  <p>The pool of SAP BTP partner content, services, and intellect can offer a significant competitive advantage to customers that want to extend and amplify their applications, business processes, and workflows with the power of data and automation. It can create new possibilities to operate more effectively and efficiently through analytics, workflow triggers, artificial intelligence, and the development of new, data-driven intelligent applications. It can give organizations the peace of mind of knowing that even the most ambitious initiatives are achievable and the biggest hurdles are attainable.</p>
+  <p>To learn more about how SAP partners are helping businesses succeed with a unified technology platform, <a href="/author/jagdishsahasrabudhe">explore my other articles</a>. If you are an SAP customer, you may want to check out <a href="https://store.sap.com/dcp/en/product/display-0000059165_live_v1/Marketing%20Data%20Integration%20for%20SAP%20Data%20Warehouse%20Cloud">SAP Store</a> or <a href="https://discovery-center.cloud.sap/">SAP Discovery Center</a> for use cases that fit your business goals. If you’re interested in software partnership opportunities with SAP, check out <a href="https://www.sap.com/partner/become/partneredge-build.html">SAP PartnerEdge, Build</a>. And if you’re already a partner, check out these exciting initiatives: <a href="https://events.sap.com/hack2build/en/home">Hack2Build</a> and <a href="https://www.sap.com/about/company/innovation/coil.html">SAP Co-Innovation Lab</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Jagdish Sahasrabudhe is CTO of Global Partner Organization at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Process Automation: Kicking Off a New Generation of Operating Models]]></title>
+            <link>https://www.sap.com/news/2022/01/digital-process-automation-kicking-off-a-new-generation-of-operating-models</link>
+            <guid>https://www.sap.com/news/2022/01/digital-process-automation-kicking-off-a-new-generation-of-operating-models</guid>
+            <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how SAP partners utilize digital process automation to help customers boost business agility and better respond to changing markets.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Digital Process Automation: Kicking Off a New Generation of Operating Models" src="./media_1b382846fa5ed04adb96fe59e3d91f97ff1e22c71.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="digital-process-automation-kicking-off-a-new-generation-of-operating-models">Digital Process Automation: Kicking Off a New Generation of Operating Models</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>More and more, we’re living in a culture of digital innovation and experimentation – and digital process automation represents the latest domain of experimentation. For SAP partners, this is an opportunity to address every conceivable area of need – from job roles to customer experiences and business processes – with SAP Business Technology Platform.</div>
+    </div>
+  </div>
+  <p>The concept of process automation may not be new, but it’s now fueling a wide assortment of business scenarios that go beyond simple processes, tasks, and workflows. Companies are now digitalizing their operations – reaching into their vendor networks, business partners, and customers – to address organizational needs more holistically and strategically.</p>
+  <p>At SAP, many of our partners are using <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP) to help customers take advantage of this trend to build applications that drive revenue growth. By embedding modern automation capabilities in line-of-business systems, they can improve information usability and process efficiency with automation capabilities such as verification workflows, approval processes, content integration, or the retirement of outdated materials and inventory.</p>
+  <p>These examples are only a small glimpse into the automation use cases that SAP BTP can support. Through its operational layer, the platform provides a portfolio of low-code development tools and prebuilt content that can enable our partners and their customers to drive critical improvements with automation.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-business-processes-applications-data-and-experiences-with-sap-btp">Connect business processes, applications, data, and experiences with SAP BTP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="setting-the-foundation-for-performance-improvement">Setting the Foundation for Performance Improvement</h2>
+  <p>When first considering automation, most organizations often think about their processes. Why? To increase their operational efficiency, make better decisions, improve performance and customer satisfaction, and, better yet, allow employees to focus on more strategic work.</p>
+  <p>SAP BTP supports this entry into the automation world by providing <a href="https://www.sap.com/products/business-process-intelligence.html">business process intelligence</a>, empowering users with a low-code and no-code platform, workflow capabilities, robotic process automation (RPA), and machine learning. Our customers can transform their business safely and predictably with proven methodologies for project and process governance and a simulation engine that evaluates the impact of change.</p>
+  <p>With these capabilities, organizations can adopt a range of use cases. For example, <a href="https://www.sap.com/documents/2020/04/ce197ac4-927d-0010-87a3-c30de2ffd8ff.html">Uniper</a> has automated job requisitioning, streamlined processes for requesting and approving time off, and accelerated role authorization, registration, and authentication. In return, the energy market powerhouse realized 50% time savings on plant inspections and 10 times faster data entry for job requisitions.</p>
+  <p>Meanwhile, companies such as <a href="https://www.sap.com/bin/sapdxc/inm/attachment.8577/pitch-deck.pdf">Villeroy &#x26; Boch Group</a> have offloaded rule-based tasks, including the checking, classification, and processing of thousands of documents. This approach freed up employees to focus on nonroutine activities that help maximize business value and improve customer experiences.</p>
+  <h2 id="cultivating-a-portal-that-unifies-work-experiences">Cultivating a Portal That Unifies Work Experiences</h2>
+  <p>When using legacy workflows or out-of-date portals, maintaining a cohesive operation of multiple departments, suppliers, partners, and service providers can be difficult. But SAP BTP can help companies overcome that challenge by providing quick and intuitive mobile access to essential functions, documentation, and resources – everything a business needs to support organizational processes and strengthen information management company-wide.</p>
+  <p>The platform delivers an expanding set of services that enable customers and partners to maximize the value of existing SAP applications – combining access to external data and systems through integration. Our partners can then leverage their expertise and knowledge to extend those digital assets to develop capabilities that, for example, introduce automation into complex processes and workflows and connect internal and external stakeholders.</p>
+  <p>By pulling all these innovations together into a user-friendly portal, the entire business can collaborate and access information anytime and anywhere and use that intelligence to take decisive action on risks and opportunities. Administrative processes and workflows are further simplified with a streamlined user interface, while systems and data are kept secure with authentication.</p>
+  <p>By adopting this use case for SAP BTP, food exporter <a href="https://dam.sap.com/mac/u/a/kM72htV.htm">SunRice</a> teamed up with SAP partner Bourne Digital Pty. Ltd. to extend existing systems and enhance its growers’ portal.</p>
+  <h2 id="inspiring-lasting-connections-between-people-and-business">Inspiring Lasting Connections Between People and Business</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="harness-your-intellectual-property-and-take-it-to-market-as-an-sap-partner">Harness your intellectual property and take it to market as an SAP partner</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/partner/become/partneredge-build.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>On a journey to modernization, most companies choose to overhaul their aging legacy systems, cumbersome processes, and paper-based reporting to improve operational efficiency so they can adapt quickly to changing market conditions.</p>
+  <p>One approach that many customers follow is migrating to <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA Cloud</a> and implementing the <a href="https://www.sapstore.com/solutions/42339/SAP-Workflow-Management">SAP Workflow Management</a> service and the <a href="https://www.sap.com/products/cloud-analytics.html">SAP Analytics Cloud</a> solution, all of which are part of SAP BTP. With the help of a partner, customers can embed analytics capabilities into existing business applications and establish enterprise-wide governance to help optimize the management of general ledgers, revenue, and expenses. Then, they can quickly transform their enterprise resource planning (ERP) data to automate tasks such as financial and management reporting.</p>
+  <p>The benefits of system automation can quickly add up as individual process efficiencies are combined, resulting in reduced administration and reporting times, consolidation of financial results, and elimination of manual processes. Business planners can also leverage strategic dashboards generated by SAP Analytics Cloud to gain near-real-time insights into critical performance indicators. Additionally, with the inclusion of SAP S/4HANA Cloud, they can analyze scenarios, create forecasts, and predict future growth.</p>
+  <p>Emulating the above path, <a href="https://www.sap.com/documents/2020/09/3c1db458-ad7d-0010-87a3-c30de2ffd8ff.html">Taronga Conservation Society Australia</a> and its software partner Bluetree Pty. Ltd. automated financial and management reporting, streamlined data-driven decision-making, and delivered a superior user experience.</p>
+  <h2 id="improving-the-customer-experience-from-lead-to-order">Improving the Customer Experience from Lead to Order</h2>
+  <p>Automating lead-to-order processes is particularly interesting to companies that characterized their customer experiences with fast response times, little to no fulfillment errors, and inventory accuracy. Yet, even more compelling is the opportunity to enhance order visibility, efficiency, and integration from early marketing touchpoints to deal closure and beyond – accelerating customer loyalty and fueling profitable business growth.</p>
+  <p>SAP customers can adopt this use-case scenario with a <a href="https://api.sap.com/package/com.ibm.bpm.ep.lto.iworkflowforleadtoorder/overview">lead-to-order intelligent workflow API package</a> – developed and maintained by one of our partners, IBM. The package spans multiple solutions such as SAP S/4HANA Cloud and the <a href="https://www.sap.com/canada/products/crm/products.html#active_tab=item_1602592296240">SAP Customer Experience portfolio</a>, which spans sales automation and configure, price, and quote (CPQ) solutions.</p>
+  <p>Similar chatbot-enabled scenarios enable organizations to benefit from the automatic and rapid dissemination of relevant sales intelligence, price optimizations, and a real-time outlook into sales and pipeline performance. Furthermore, they can create lead and CPQ processes integrated with customer self-services, providing a collaborative customer experience beginning with the first interaction.</p>
+  <h2 id="taking-business-intelligence-to-the-next-level">Taking Business Intelligence to the Next Level</h2>
+  <p>The more companies digitally transform, the more agile, efficient, and innovative they expect to be. And of course, they see digital process automation as a critical milestone in their journey to becoming an intelligent enterprise.</p>
+  <p>But this form of digitalization is much more than automating basic processes and workflows. It also expands existing systems and data and adapts them to meet new regulatory requirements, innovative business functions, emerging customer expectations, and more.</p>
+  <p>By using SAP BTP as their unified and open platform for innovation, partners can help customers increase their business agility while adapting and responding to changing requirements and conditions. Furthermore, the addition of intelligent automation can boost customer satisfaction as new efficiencies are gained through the redirection of resources toward higher-value activities and the reinvention of workflows that enable a continuous stream of process improvements.</p>
+  <p>Most importantly, our partners and customers are supported by the business, industry, and technical knowledge of a global ecosystem. Together, with SAP BTP and our enablement services, they can optimize the use of our back-end technology and understand our application life cycle and road map – all with a focus on shaping their unique vision of an intelligent enterprise.</p>
+  <p>To learn more about how SAP partners are helping businesses succeed with a unified technology platform, <a href="/author/jagdishsahasrabudhe">explore my other articles</a>. If you’re interested in software partnership opportunities with SAP, check out <a href="https://www.sap.com/partner/become/partneredge-build.html">SAP PartnerEdge, Build</a>. If you’re already a partner, check out these exciting initiatives: <a href="https://events.sap.com/hack2build/en/home">Hack2Build</a> and <a href="https://www.sap.com/about/company/innovation/coil.html">SAP Co-Innovation Lab</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Jagdish Sahasrabudhe is CTO of Global Partner Organization at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Turning the Cloud Into a High-Powered Innovation Engine]]></title>
+            <link>https://www.sap.com/news/2021/11/turning-the-cloud-into-a-high-powered-innovation-engine</link>
+            <guid>https://www.sap.com/news/2021/11/turning-the-cloud-into-a-high-powered-innovation-engine</guid>
+            <pubDate>Tue, 30 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With a unified, business-centric technology platform, companies of all industries can turn the cloud into a high-powered innovation engine.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_168974d465266f6b6227e97c9b9606df18440f4ef.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_168974d465266f6b6227e97c9b9606df18440f4ef.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_168974d465266f6b6227e97c9b9606df18440f4ef.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Turning the Cloud Into a High-Powered Innovation Engine" src="./media_168974d465266f6b6227e97c9b9606df18440f4ef.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="turning-the-cloud-into-a-high-powered-innovation-engine">Turning the Cloud Into a High-Powered Innovation Engine</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>For most companies, cloud adoption represents an early milestone in their path to becoming an intelligent enterprise. Now, looking back on the last two years, we can see that it also laid the foundation for accelerated digital transformation, where years of process changes had to be squeezed into a matter of months. But instead of pure innovation, the driver behind all this change was surviving pandemic-induced disruption in market conditions, supply chains, employee work arrangements, and more.</div>
+    </div>
+  </div>
+  <p>According to <a href="https://www.gartner.com/en/newsroom/press-releases/2021-08-02-gartner-says-four-trends-are-shaping-the-future-of-public-cloud">Gartner</a>, public cloud spending is expected to continue to grow – consuming nearly half of all enterprise IT budgets by 2026, up from less than 17% this year. However, cloud investments will now focus more on strengthening operations, building differentiation, and improving sustainability with intelligent technologies such as machine learning, artificial intelligence (AI), and process automation.</p>
+  <p>Increased investments in the cloud will undoubtedly encompass a desire to innovate across the enterprise without being locked into a single cloud provider or set of cloud offerings. To keep options open, organizations may want to adopt a technology platform that provides open cloud services and enables them and their partners to innovate with greater control over their data, solutions, workflows, and user experiences.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP BTP: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="opening-up-new-possibilities-with-cloud-services">Opening Up New Possibilities with Cloud Services</h2>
+  <p>Savvy decision-makers who seek to differentiate and grow their organizations must find ways to accelerate the creation and modification of business models, experiences, processes, and applications. To make that happen, they need access to the latest database and data management, analytics, integration, and extension capabilities.</p>
+  <p>A unified technology platform – such as <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP) – works to answer that need by delivering accelerated business outcomes with integration, data and analytics, and extensibility within the context of business domains to empower business centricity. It can enable organizations to solve unique business process challenges and create more meaningful outcomes.</p>
+  <p><a href="/topics/business-technology-platform">SAP BTP</a> also offers prebuilt integrations and analytics with workflows for line-of-business and industry processes to help accelerate the realization of these benefits by reducing development and innovation cycles.</p>
+  <h2 id="transforming-digitally-through-connected-systems-and-prebuilt-content">Transforming Digitally Through Connected Systems and Prebuilt Content</h2>
+  <p>For many organizations, adopting an open business technology platform is the key to accelerating their digital transformation journey. This journey is only possible by connecting data-driven enterprise processes, extending core business solutions, and allowing a consistent experience across different processes and workflow customizations.</p>
+  <p>Take, for example, the lead-to-cash process. With a unified technology platform, businesses and their partners can design an application that creates sales contracts capable of referencing agreed pricing terms and recommending relevant promotions, incentives, and rebates. This connected, process-aware application enables sales teams to benefit from workflows that are joined across marketing, finance, supply chain, and operations.</p>
+  <p>Other key components of speeding the digital transformation journey are prebuilt integrations and packaged content. For example, prepackaged contracting capabilities, configurable proposal creation rules and templates, guided self-service sales contract wizards, and adaptable approval workflows can enable lead-to-cash business stakeholders to accelerate design, development, and implementation cycles.</p>
+  <h2 id="integrating-extending-and-keeping-the-core-clean">Integrating, Extending, and Keeping the Core Clean</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="build-extend-integrate-and-market-solutions-with-sap">Build, extend, integrate, and market solutions with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/partner/become/partneredge-build.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The first step in this cloud-based innovation process is leveraging integration services to bridge disconnected systems, making the lead-to-cash process flexible and agile. For example, SAP customers and partners use <a href="https://www.sap.com/products/integration-suite.html">SAP Integration Suite</a>, which offers a choice of more than 1,800 prebuilt integrations, 2,100 APIs, and 160 third-party connectors to smoothly integrate on-premise and cloud-based applications and processes.</p>
+  <p>By complementing these integration services with application extensions available through <a href="https://www.sap.com/products/extension-suite.html">SAP Extension Suite</a>, customers and partners can simplify application development and extend line-of-business solution capabilities. Additionally, they can quickly adapt and innovate across a heterogeneous mix of private cloud, public cloud, hyperscaler, and on-premise landscapes.</p>
+  <p>These extension services enable partners to transition away from classic extensions that directly customize primary business solutions, enabling them to keep the digital core clean through side-by-side innovations that decouple their intellectual property. As a result, customers can achieve a better long-term outcome with applications that benefit from consistent upgrades to core solutions. Plus, by combining integration and extension services with prebuilt business content and native APIs, organizations can build and connect applications and data with less technical complexity – accelerating the time to results.</p>
+  <h2 id="transforming-with-a-balance-of-control-and-flexibility">Transforming with a Balance of Control and Flexibility</h2>
+  <p>When laying the groundwork for more stable operations and more predictive growth, nothing beats having real-time, accurate data from connected systems to make decisions confidently. And with a truly unified, business-centric technology platform, companies of all sizes and industries can turn their cloud into a high-powered innovation engine, producing better outcomes and experiences for their employees and customers.</p>
+  <p>As a next step, explore <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> or, if you’re interested in software partnership opportunities with SAP, learn more at <a href="https://www.sap.com/partner/become/partneredge-build.html">SAP PartnerEdge – Build</a>. If you’re already a partner, check out these exciting initiatives: <a href="https://events.sap.com/hack2build/en/home">Hack2Build</a> and <a href="https://www.sap.com/about/company/innovation/coil.html">SAP Co-Innovation Lab</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Tom Le is global vice president of Partner Solution Advisory at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-integration-suite</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[Extending the Boundaries of Today's Technologies]]></title>
+            <link>https://www.sap.com/news/2021/09/extending-boundaries-today-technologies-hr-and-finance</link>
+            <guid>https://www.sap.com/news/2021/09/extending-boundaries-today-technologies-hr-and-finance</guid>
+            <pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Find out how customers and partners are using SAP BTP to build intelligent solutions that solve complex HR and finance challenges.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1833aa92c0e527a1546cc43db653314a6a5bde258.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1833aa92c0e527a1546cc43db653314a6a5bde258.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1833aa92c0e527a1546cc43db653314a6a5bde258.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Extending the Boundaries of Today’s Technologies" src="./media_1833aa92c0e527a1546cc43db653314a6a5bde258.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="extending-the-boundaries-of-todays-technologies">Extending the Boundaries of Today’s Technologies</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Companies that are building modern, data-driven applications to deliver the future of human experience management (HXM) and finance are well positioned to outpace the competition, even in the face of today’s unprecedented challenges.</div>
+    </div>
+  </div>
+  <p>Leveling up business efficiency and performance are two critical strategies for staying competitive in today’s increased market volatility and disruption. For most businesses, this means delivering modern, data-driven processes that go beyond merely adding custom functions or tweaking screens within existing business applications. In fact, for many organizations, delivering on this goal requires radically innovating solutions – adding new capabilities and workflows that address evolving needs and bring a new vision.</p>
+  <p>Meanwhile, SAP partners can benefit from this growing desire for future-proofing businesses, with intelligent and workflow-aware applications opening new revenue streams driven by cloud adoption. By counteracting declining income from on-premise implementation and operations, savvy partners can recover and grow profits with larger engagements and the conversion of the latest applications into packaged solutions, driving repeatable business across multiple customers.</p>
+  <p>At SAP, we see a growing number of companies realizing this potential, bringing to life incredibly inventive business cases. With a portfolio of application development services, such as <a href="https://www.sap.com/products/extension-suite.html">SAP Extension Suite</a> and <a href="https://www.sap.com/products/integration-suite.html">SAP Integration Suite</a>, which power <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP), customers and partners can access the tools to support new levels of innovation. They can leverage the platform and its services to integrate SAP and third-party processes, manage data, and deliver modern, intelligent, data-driven capabilities that enable them to digitally transform.</p>
+  <p>Let me share some of my personal favorites across various lines of business – such as HR, finance, commerce, and operations – where people are experiencing more streamlined, intelligent, and human-centered work.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-technology-platform-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP Business Technology Platform: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="customizing-cloud-based-hr-integration-for-tax-credit">Customizing Cloud-Based HR Integration for Tax Credit</h2>
+  <p>A great example of how our customers and partners extend HR capabilities in the cloud relates to the <a href="https://www.sap.com/products/recruiting-software.html">SAP SuccessFactors Recruiting</a> and <a href="https://www.sap.com/products/employee-central-hris.html">SAP SuccessFactors Employee Central</a> solutions, which are part of <a href="https://www.sap.com/programs/experience-wins.html">SAP SuccessFactors HXM Suite</a>. The suite provides powerful cloud-based solutions for core HR and payroll, talent management, employee experience management, and people analytics.</p>
+  <p>By directly integrating SAP SuccessFactors solutions with APIs and intelligent services, HR organizations can assess, validate, and process new hires while determining whether their business qualifies for a Work Opportunity Tax Credit (WOTC). WOTCs allow U.S. companies to receive federal tax credits every year they hire employees who systematically experience significant barriers against employment.</p>
+  <p>Although the recruiting and core HR solutions do not include the means to track and validate individual new hires, they contain the framework to build those capabilities. SAP partners can leverage integration workflows available in SAP BTP and use them to connect the two SAP SuccessFactors solutions to the digital job application. Our customers can then schedule assessments with frequent intervals, read applicants’ qualifications, and prompt candidates to complete a WOTC assessment, and the results from that evaluation are updated in the related SAP SuccessFactors solution.</p>
+  <p>This scenario exemplifies how partners can leverage SAP BTP to introduce capabilities – which may not be a standard function in the existing software – into current business processes. Many of our customers and partners have taken advantage of this opportunity to streamline related workflows, connect relevant business entities, and deliver an experience-first approach to HR.</p>
+  <h2 id="closing-the-gap-in-dispute-and-grievance-resolution">Closing the Gap in Dispute and Grievance Resolution</h2>
+  <p>An under-served area in most HR technologies is the employee dispute and grievance resolution process. For example, one of our partners helped a customer develop an application that settles and handles grievance cases with greater transparency.</p>
+  <p>By tightly coupling <a href="https://www.sap.com/products/human-resources-hcm.html">SAP SuccessFactors solutions</a> and SAP BTP, the partner solution emulates the core solution experience. When launched from an SAP SuccessFactors solution, the look and feel of the partner application is consistent for the user. The interface is developed with <a href="https://sapui5.hana.ondemand.com/">SAPUI5</a> and the <a href="https://www.sap.com/products/fiori.html">SAP Fiori</a> design system, while the integration is enabled by the SAP Platform Identity Provider service for SAP BTP and the Identity Authentication service.</p>
+  <p>Through this co-innovation effort, our customers can address various grievance types that represent unique workflows, approval processes, and business scenarios – operated smoothly with the <a href="https://discovery-center.cloud.sap/serviceCatalog/workflow-management">SAP Workflow Management</a> service. As a result, our customers can improve auditability and accelerate the entire resolution process. They can trace a grievance throughout its lifecycle from the complaint to resolution, standardize information gathering, and conduct an organizational-level review of complaints and their progress in real time.</p>
+  <h2 id="optimizing-the-use-of-talent-anytime-and-anywhere">Optimizing the Use of Talent, Anytime and Anywhere</h2>
+  <p>By extending the core HR capabilities of SAP SuccessFactors Employee Central, our partners also develop applications that help improve resource management and utilization. In return, our customers can assign the right talent to the right projects with a real-time schedule, built by reading a project-related business system, such as SAP S/4HANA.</p>
+  <p>In this case, SAP BTP smoothly integrates employee leave data, skill set information, and details on organizational needs. Plus, different approval processes are made available through SAP Workflow Management.</p>
+  <p>Extending core HR capabilities in this manner allows details, including assignment duration and employee proficiency, to be considered when assigning employees to projects and roles – helping to ensure every person can contribute to their fullest potential. Similar implementations of this use case can also help customers develop workflow applications related to security clearance, visa applications, and work permit processes, to name a few.</p>
+  <h2 id="maximizing-the-product-life-cycle-with-a-new-business-model">Maximizing the Product Life Cycle with a New Business Model</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="hxm-deliver-exceptional-employee-experiences-for-the-employee-life-cycle">HXM: Deliver exceptional employee experiences for the employee life cycle</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/programs/experience-wins.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Speaking of improved resource contribution and utilization, the fashion industry is discovering a better way to recapture US$460 billion in value lost to discarded clothing each year. In this use case, retailers embrace an online rental business model that adds new revenue streams, making the business more competitive, and reduces their carbon footprint, resulting in improved consumer trust and loyalty.</p>
+  <p>Under a similar product lifecycle use case, one of our customers integrated its back-office system with an e-commerce portal by using intelligent technologies such as robotic process automation (RPA). Using <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA Cloud</a> and SAP BTP, the retailer integrated and automated its rental order fulfillment and return processes.</p>
+  <h2 id="detecting-anomalies-in-business-operations-to-prevent-fraud">Detecting Anomalies in Business Operations to Prevent Fraud</h2>
+  <p>Historically, procure-to-pay processes are fraught with excess payments, operational risks, rising costs, incomplete audit verification, arduous recovery efforts, and noncompliant purchasing behaviors. But SAP BTP enables our partners and customers to overcome these challenges with tip-based alerting, rules-based detection, and pattern-based prediction.</p>
+  <p>Organizations focused on tackling these issues integrate their offerings with the <a href="https://www.sap.com/products/data-intelligence.html">SAP Data Intelligence</a> solution, SAP Fiori user experience, runtime application self-protection for SAP BTP, and SAP BTP, Cloud Foundry environment. They can then decipher data-driven patterns to identify new anomalies and fraud types and customize red-flag thresholds based on criticality and risk tolerance. Furthermore, finance decision-makers can learn from user feedback by using the intelligent data capture and processing solution to continuously improve fraud detection practices.</p>
+  <p>Outcomes from this procure-to-pay approach include 70% savings in compliance effort, 95% straight-through processing, 100% audit coverage, and more on-time payments.</p>
+  <h2 id="using-powerful-technology-today-evolving-for-tomorrow">Using Powerful Technology Today, Evolving for Tomorrow</h2>
+  <p>Most applications come with their own stack of tools, methodologies, and workbenches that enable companies to make fundamental changes to the user experience. But with SAP BTP, SAP partners and our customers can come together to build more intelligent, workflow-aware solutions that solve more complex customer process challenges.</p>
+  <p>By building intelligent solutions with the unified, business-centric, and open platform, our partners can access the technology foundation, tools, and development practices necessary to extend the boundaries of digitalization and cloud architecture. As a result, they can increase their average engagement sizes, convert their IP into repeatable, packaged software offerings, and generate new revenue streams under new business models. And more importantly, these technology and business experts can help customers of all industries and sizes become more agile, future-proof their processes, and realize their full potential as intelligent enterprises.</p>
+  <div class="promo">
+    <div>
+      <div>To learn more about how SAP partners are helping businesses succeed with a unified technology platform, <a href="/author/jagdishsahasrabudhe">explore Jagdish’s other articles</a>. Those interested in software partnership opportunities with SAP can check out <a href="https://www.sap.com/partner/become/partneredge-build.html">SAP PartnerEdge Build</a>, and existing partners can learn more about the initiatives <a href="https://events.sap.com/hack2build/en/home">Hack2Build</a>, <a href="https://saphanajourney.com/sap-analytics-cloud/sac-business-content/">SAP Analytics Cloud Business Content Wave</a>, and <a href="https://www.sap.com/about/company/innovation/coil.html">SAP Co-Innovation Lab</a>.</div>
+    </div>
+  </div>
+  <p><em>Jagdish Sahasrabudhe is CTO of the Global Partner Organization at SAP.</em></p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/hcm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-integration-suite</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+        <item>
+            <title><![CDATA[Cloud-Based Analytics: Enabling Data-Driven Decisions for Everyone]]></title>
+            <link>https://www.sap.com/news/2021/07/data-driven-decisions-cloud-based-analytics</link>
+            <guid>https://www.sap.com/news/2021/07/data-driven-decisions-cloud-based-analytics</guid>
+            <pubDate>Tue, 20 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Organizations today have too much at stake to not be making data-driven decisons. Learn how SAP Analytics Cloud empowers their employees.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Cloud-Based Analytics: Enabling Data-Driven Decisions for Everyone" src="./media_1ce9ab97a849e34f37f1e1fd43e11e90cba7948f4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="cloud-based-analytics-enabling-data-driven-decisions-for-everyone">Cloud-Based Analytics: Enabling Data-Driven Decisions for Everyone</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Analytics have been long-regarded as critical tools for uncovering growth opportunities, reducing bias in decision-making, anticipating complex market dynamics, and identifying early-stage risks. However, a significant percentage of the workforce continues to be underserved – until now.</div>
+    </div>
+  </div>
+  <p>Analytics solutions have advanced considerably over the past few years. Various options support strategic decision-making, including data visualizations, executive dashboards, predictive tools, and artificial intelligence (AI). However, most analytics still require the assistance of IT and data professionals. As a result, use of these valuable tools is often limited to executives, key decision makers, and select operational personnel.</p>
+  <p>According to a <a href="https://www.sap.com/documents/2020/03/e2f05237-8e7d-0010-87a3-c30de2ffd8ff.html">Forrester opportunity snapshot</a> sponsored by SAP, approximately 60% of highly desirable analytics tasks require support from IT or data professionals. This situation puts employee engagement and the delivery of targeted outcomes at risk, especially since a growing number of users demand reliable visibility into all processes and factors that influence their daily workflow.</p>
+  <p>Why is this such a concern today? Organizations have too much at stake not to be truly data-driven and intelligent. Given the challenges caused by rapid market shifts, economic fluctuations, social factors, technology advancements, and climate change, they must transition to analytics solutions designed and available for everyone, not just for executives making strategic decisions.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="drive-analytics-for-everyone-with-sap-analytics-cloud">Drive analytics for everyone with SAP Analytics Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/cloud-analytics.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="the-beginning-of-the-analytics-for-everyone-era">The Beginning of the “Analytics for Everyone” Era</h2>
+  <p>It’s not unusual for an employee to pull up a list of overdue accounts, an accounts receivable statement, and a sales performance view. But those capabilities are not analytics by today’s standards. Instead, they are aging glimpses into a past that will eventually become irrelevant.</p>
+  <p>Today, the realm of decision-making needs to extend beyond solely reporting static operational data – evolving to include real-time, intelligent analysis of next steps and future possibilities. In fact, surveyed organizations shared with Forrester that the top benefits of augmented analytics include detecting anomalies, automating data quality, using natural language to answer questions and explain results, and identifying, predicting, and forecasting trends.</p>
+  <p>With cloud-based, predictive analytics — such as the <a href="https://www.sap.com/products/cloud-analytics.html">SAP Analytics Cloud</a> solution, part of <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> — many companies are empowering people of all ranks and skill sets to make decisions that lead to consequential outcomes for their business and community.</p>
+  <p><a href="https://www.sap.com/documents/2019/07/bea49f12-597d-0010-87a3-c30de2ffd8ff.html">Bumble Bee Foods LLC</a>, for instance, has improved its brand equity with retail buyers and consumers through greater transparency and facilitated a market premium for fair-trade products. The company analyzes fish buying trends and data to identify historical performance and improve current-day catches in fishing villages together with nongovernmental organizations. This predictive approach is improving the livelihoods of local fishing communities.</p>
+  <h2 id="user-potential-soars-with-embedded-analytics">User Potential Soars with Embedded Analytics</h2>
+  <p>One of the most compelling capabilities of SAP Analytics Cloud is the ability to embed analytics tools directly into existing applications and drive improved business processes based on enterprise data. This design lets employees keep on top of every situation and make the right choices quickly as part of their daily workflow and interactions. And ultimately, the entire workforce moves together as one entity – knowing what the company needs and which underlying risks should be addressed, as well as when, where, and how outcomes can be realized.</p>
+  <p>This advanced approach to analytics can turn everyday decision-making into a potent force for business success, while reducing the risks that organizations face in these challenging times. Nowhere is this level of transformation more evident than in companies with business models, product portfolios, operations, and supply chains designed to satisfy customer and investor preferences for environmentally and socially responsible operations.</p>
+  <p><a href="/2021/07/allbirds-carbon-footprint">Allbirds Inc.</a> is a prime example of a sustainability-first business model. Holding themselves accountable to “create better things in a better way,” the shoemaker <a href="/2021/07/allbirds-carbon-footprint">labels every product with its carbon footprint</a> to inform consumers on the environmental impact of the supply chain. More impressive, this level of visibility is still happening as Allbirds experiences rapid growth, allowing it to track its inventory in real time and seek new opportunities to minimize waste.</p>
+  <p>Allbirds’ success as a sustainable operation points to the power of analytics embedded in SAP S/4HANA. Recognizing that employees and business leaders do not have the time to search for relevant data or manipulate it to get what they need, users can access SAP Analytics Cloud by logging in their core applications. In return, decision makers across the company can acquire relevant insights within traditional workflows and within the same interface, take action, and move on to the next task.</p>
+  <h2 id="quick-starting-point-for-critical-analytics-scenarios">Quick Starting Point for Critical Analytics Scenarios</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-technology-platform-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP Business Technology Platform: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Another aspect of SAP Analytics Cloud that most organizations enjoy is access to pre-configured, best-practice, industry, and functional <a href="https://saphanajourney.com/sap-analytics-cloud/sac-business-content/">business content</a>. Free access to a <a href="https://saphanajourney.com/business-content-center/">library</a> of end-to-end scenarios for specific industries and lines of business lets SAP customers quickly develop their analytics systems and tailor applications with packages and templatized content from SAP and our partners.</p>
+  <p>Pre-configured, best-practice offerings, content, and technical objects available through SAP Analytics Cloud help organizations jump-start their implementation and adoption of individual analytics scenarios. The open-innovation technology behind the cloud-based analytics solution and ready-to-use analytical applications and content from SAP partners can be leveraged immediately and tailored as needed.</p>
+  <h2 id="multiple-tools-for-intelligent-enterprise-planning-in-one-solution">Multiple Tools for Intelligent Enterprise Planning in One Solution</h2>
+  <p>SAP Analytics Cloud gives every employee real-time visibility into their business with data-driven insights. From operational reporting and predictive analytics to integrated planning and what-if analysis, the workforce can benefit from this high-performance, in-memory analytics solution under a single, engaging user experience.</p>
+  <p>The cloud-based analytics solution extends a live connection to on-premise applications, replacing the need for uploading data manually to the cloud. These hybrid analytics, combined with an ecosystem of existing local solutions and new cloud applications, enables employees to discover insights and pass them along to other decision makers in context and with minimal investment and risk.</p>
+  <p>Meanwhile, comprehensive data management and analytics capabilities help ensure <a href="https://www.sap.com/products/cloud-analytics/features/planning.html">enterprise planning</a> and analysis are underpinned by a consistent model of trusted information. Machine learning capabilities, for example, can be embedded in existing applications to enrich and accelerate decision-making within daily enterprise resource planning (ERP) functions. Additionally, <a href="https://blogs.sap.com/2020/11/05/sac-self-service-scenario-and-what-if-analysis%e2%80%8b/">what-if analysis</a> advances decision-making to consider potential benefits and side effects before action is taken and more people are involved in the process.</p>
+  <p>At SAP, our partners are playing a key role in solving customer challenges by delivering unique line-of-business and industry solutions. They are constantly developing and innovating using SAP Business Technology Platform and the SAP Analytics Cloud solution.</p>
+  <p>For example, one such partner, Bourne Digital, helped Taronga Conservation Society Australia design and implement a new cloud solution using SAP S/4HANA Cloud and SAP Analytics Cloud. The application gave Taronga a unified digital experience for employees and streamlined business processes across its conservation research, animal welfare, and environmental education services. With greater transparency, flexibility, and scalability, the organization can now take full advantage of its data to improve operations and expand its impact.</p>
+  <h2 id="designing-a-cloud-environment-with-the-customer-in-mind">Designing a Cloud Environment with the Customer in Mind</h2>
+  <p>At SAP, we take great pride in enabling this new era of “analytics for everyone” and helping people of all roles and skill sets drive impactful outcomes for their business, their community, and the entire world. This mindset is what led to the development and continuous evolution of SAP Analytics Cloud.</p>
+  <p>From the boardroom and office desk to a customer meeting, users can trust their business logic and formerly hidden insights can become well-advised actions that enhance corporate outcomes. More importantly, every person can be a part of the data-to-value chain – evaluating enterprise data, asking the right questions, getting real-time answers, and moving forward to help the business succeed and even improve humankind.</p>
+  <p>Find out how your organization can track carbon targets and <a href="https://www.sap.com/products/sustainability.html#sac">meet sustainability goals</a> with <a href="https://www.sap.com/products/sustainability.html#sac">SAP Analytics Cloud</a>.</p>
+  <div class="promo">
+    <div>
+      <div>To learn more about how SAP partners are helping businesses succeed with a unified technology platform, read the previous articles in this series: <a href="/2021/02/unified-technology-platform-partners-enable-customer-success">part one</a>, <a href="/2021/03/part-two-unified-technology-platform-partners-enable-customer-success">part two</a>, and <a href="/2021/06/data-warehousing-cloud-customer-success">part three</a>. If you’re interested in software partnership opportunities with SAP, check out <a href="https://www.sap.com/partner/become/partneredge-build.html">SAP PartnerEdge, Build</a>. If you’re already a partner, check out these exciting initiatives: <a href="https://events.sap.com/hack2build/en/home">Hack2Build</a>, <a href="https://saphanajourney.com/sap-analytics-cloud/sac-business-content/">SAP Analytics Cloud business content wave</a>, and <a href="mailto:buildyourcontentDL">SAP Co-Innovation Lab</a>.</div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div><em>Jagdish Sahasrabudhe is CTO of the Global Partner Organization at SAP</em>.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-about-becoming-an-sap-partner">Learn about becoming an SAP partner</h3>
+      </div>
+      <div><strong><a href="https://sap.com/BuildBetter">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+        </item>
+    </channel>
+</rss>

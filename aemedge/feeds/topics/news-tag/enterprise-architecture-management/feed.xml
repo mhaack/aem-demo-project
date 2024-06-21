@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/enterprise-architecture-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 07 Sep 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP to Acquire LeanIX, Delivering Customers a Comprehensive Solution Suite for Continuous Business Transformation and a Foundation for AI-Enabled Process Optimization]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-to-acquire-leanix</link>
+            <guid>https://www.sap.com/news/2023/09/sap-to-acquire-leanix</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together SAP and LeanIX will offer a first-of-its-kind transformation suite to provide holistic support to customers. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/investor-relations</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/enterprise-architecture-management</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Further Expands Focus on Business Transformation with LeanIX Acquisition]]></title>
+            <link>https://www.sap.com/news/2023/09/leanix-acquisition-sap-expands-focus-business-transformation</link>
+            <guid>https://www.sap.com/news/2023/09/leanix-acquisition-sap-expands-focus-business-transformation</guid>
+            <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the LeanIX acquisition, SAP will further enhance its ability to digitize and simplify business transformations. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/enterprise-architecture-management</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+    </channel>
+</rss>

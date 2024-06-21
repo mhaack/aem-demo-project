@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-build/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 17 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How SAP BTP Becomes the Trusted Platform for Business AI]]></title>
+            <link>https://www.sap.com/news/2024/05/sap-btp-strategy-paper-trusted-platform-business-ai</link>
+            <guid>https://www.sap.com/news/2024/05/sap-btp-strategy-paper-trusted-platform-business-ai</guid>
+            <pubDate>Fri, 17 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP BTP will further evolve to become the trusted business AI platform for SAP-centric landscapes. Learn more in the SAP BTP strategy paper.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-integration-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP BTP Wins Multiple TrustRadius 2024 Top Rated Awards]]></title>
+            <link>https://www.sap.com/news/2024/05/sap-btp-wins-trustradius-2024-top-rated-awards</link>
+            <guid>https://www.sap.com/news/2024/05/sap-btp-wins-trustradius-2024-top-rated-awards</guid>
+            <pubDate>Thu, 09 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP BTP has received TrustRadius 2024 Top Rated awards, including SAP Build, SAP Integration Suite, and SAP Master Data Governance.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14e8d52807c7569f208a7c3238193ad8862cdb0a4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14e8d52807c7569f208a7c3238193ad8862cdb0a4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14e8d52807c7569f208a7c3238193ad8862cdb0a4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP BTP Wins Multiple TrustRadius 2024 Top Rated Awards" src="./media_14e8d52807c7569f208a7c3238193ad8862cdb0a4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-btp-wins-multiple-trustradius-2024-top-rated-awards">SAP BTP Wins Multiple TrustRadius 2024 Top Rated Awards</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP’s commitment to customers is steadfast in making SAP Business Technology Platform (SAP BTP) the best platform to extend and personalize SAP applications, integrate and connect landscapes, maximize the value of data, and drive business innovation through artificial intelligence (AI).</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="discover-which-version-of-sap-btp-meets-your-needs">Discover which version of SAP BTP meets your needs</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/pricing.html">Try it today</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To that end, I am thrilled to announce that <a href="https://www.trustradius.com/">TrustRadius</a>, a leading independent peer research and review platform, has once again recognized SAP BTP, along with multiple solutions that run on our platform, as winners of the 2024 Top Rated awards.</p>
+  <p>As a reflection of direct customer feedback, the TrustRadius Top Rated awards offer an authentic measure of a product’s quality and customer satisfaction and highlight those products that have demonstrated excellence in fulfilling clients’ needs and expectations.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <picture>
+          <source type="image/webp" srcset="./media_1bff4785e82312c107ed744772e802bfd657c73b9.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+          <source type="image/webp" srcset="./media_1bff4785e82312c107ed744772e802bfd657c73b9.png?width=750&#x26;format=webply&#x26;optimize=medium">
+          <source type="image/png" srcset="./media_1bff4785e82312c107ed744772e802bfd657c73b9.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+          <img loading="lazy" alt="" src="./media_1bff4785e82312c107ed744772e802bfd657c73b9.png?width=750&#x26;format=png&#x26;optimize=medium" width="530" height="610">
+        </picture>
+      </div>
+    </div>
+  </div>
+  <h2 id="best-of-awards">Best of Awards</h2>
+  <p>SAP customers’ willingness to share their hands-on experience and opinions of SAP BTP is testament to our platform’s services, robustness, and ongoing innovation.</p>
+  <p>We are honored that the following solutions have been recognized with Top Rated awards:</p>
+  <ul>
+    <li><a href="https://www.sap.com/products/technology-platform.html">SAP Business Technology Platform</a> on <a href="https://www.trustradius.com/products/sap-business-technology-platform/reviews">TrustRadius</a>: Platform-as-a-Service (PaaS) and Application Infrastructure</li>
+    <li><a href="https://www.sap.com/products/technology-platform/application-development.html">SAP Build</a> on <a href="https://www.trustradius.com/products/sap-build/reviews">TrustRadius</a>: Low-Code Development and Robotic Process Automation (RPA)</li>
+    <li><a href="https://www.sap.com/products/technology-platform/integration-suite.html">SAP Integration Suite</a> on <a href="https://www.trustradius.com/products/sap-integration-suite/reviews">TrustRadius</a>: Integration Platform-as-a-Service (iPaaS), and API Management</li>
+    <li><a href="https://www.sap.com/products/technology-platform/master-data-governance.html">SAP Master Data Governance</a> on <a href="https://www.trustradius.com/products/sap-master-data-governance/reviews">TrustRadius</a>: Master Data Management (MDM) and Data Governance</li>
+  </ul>
+  <p>“SAP Business Technology Platform’s comprehensive suite of solutions has been recognized with a TrustRadius Top Rated award,” said Allyson Havener, senior vice president of Marketing and Community at TrustRadius. “SAP is committed to delivering innovative technologies that empower businesses to drive digital transformation, and achieve their goals. We congratulate SAP on this achievement, showcasing their continued leadership and excellence in providing cutting-edge enterprise solutions.”</p>
+  <h2 id="our-focus-on-customer-success">Our Focus on Customer Success</h2>
+  <p>At SAP, customer success and satisfaction are the ultimate measures of our own success. We strive to deliver industry-leading solutions, functionality, and user experience that exceeds customer expectations and unlocks business potential. This is especially important as customers accelerate their digital innovation across business operations while maintaining the agility to adapt to fluctuating market demands. SAP BTP provides this for our customers.</p>
+  <div class="quote">
+    <div>
+      <div>SAP Business Technology Platform is the right tool to manage sites, applications, users, and everything you can imagine in the cloud and non-cloud world, from my point of view BTP is very well focused and has everything that a tool has to have.</div>
+    </div>
+    <div>
+      <div><em><a href="https://www.trustradius.com/reviews/sap-business-technology-platform-2023-11-08-14-00-23">Read the full review by Warner Bros. Discovery on TrustRadius</a></em></div>
+    </div>
+  </div>
+  <p>To read what other customers said about SAP BTP, please take a look at <a href="https://www.trustradius.com/products/sap-business-technology-platform/reviews">our TrustRadius review page</a>. We welcome you to <a href="https://www.sap.com/products/technology-platform/pricing.html">try out SAP BTP for yourself too</a>.</p>
+  <p>On behalf of the entire SAP BTP team, we sincerely thank TrustRadius for acknowledging SAP BTP in its 2024 Top Rated awards and our dedicated SAP BTP customers for their unwavering support.</p>
+  <div class="footnote">
+    <div>
+      <div>JG Chirapurath is chief marketing and solutions officer for SAP Business Technology Platform.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-integration-suite</category>
+            <category>product/sap-master-data-governance</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as a Major Player in the IDC MarketScape Experience-Centric Intelligent Digital Workspaces]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-recognized-idc-marketscape-experience-centric-intelligent-digital-workspaces</link>
+            <guid>https://www.sap.com/news/2024/02/sap-recognized-idc-marketscape-experience-centric-intelligent-digital-workspaces</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In a new MarketScape, IDC has recognized SAP Build Work Zone as a modern, robust solution for digital workplaces. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bc71d974e0081b3064b32f0acac989c4add119a3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bc71d974e0081b3064b32f0acac989c4add119a3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1bc71d974e0081b3064b32f0acac989c4add119a3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Recognized as a Major Player in the IDC MarketScape Experience-Centric Intelligent Digital Workspaces" src="./media_1bc71d974e0081b3064b32f0acac989c4add119a3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-recognized-as-a-major-player-in-the-idc-marketscape-experience-centric-intelligent-digital-workspaces">SAP Recognized as a Major Player in the IDC MarketScape Experience-Centric Intelligent Digital Workspaces</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Today’s digital workplace is constantly evolving, but the way we work is still siloed and complicated. Employees often waste time switching between applications, searching for information, finding data, and seeking recommendations and insights to get work done. They desire an intelligent work experience to boost engagement and productivity.</div>
+    </div>
+  </div>
+  <p><a href="https://www.sap.com/products/technology-platform/workzone.html">SAP Build Work Zone</a> provides a unified, intelligent work experience for the modern workforce.</p>
+  <h2 id="idc-marketscape-experience-centric-intelligent-digital-workspaces-recognition">2024 IDC MarketScape: Experience-Centric Intelligent Digital Workspaces Recognition</h2>
+  <p>SAP has been recognized as a Major Player in the IDC MarketScape: Worldwide Experience-Centric Intelligent Digital Workspaces 2024 Vendor Assessment (doc # US49741923, January 2024), based on IDC analysts and customer feedback. We believe this recognition acknowledges SAP’s ongoing dedication in delivering a modern, robust digital workplace solution to optimize user engagement and productivity, and to drive overall business agility.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="read-an-excerpt-of-the-idc-marketscape-report-now">Read an excerpt of the IDC MarketScape report now</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/workzone.html?pdf-asset=c4053575-a87e-0010-bca6-c68f7e60039b&#x26;page=1">Get the complementary copy</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>IDC defines an intelligent digital workspace as a well-organized system of tools working together to enhance end users’ overall productivity and experiences. This system integrates intentional design, engineering, and artificial intelligence (AI) to provide a customized and seamless view of tools for user tasks. It ensures secure access to resources from any location or device and enables IT and security professionals with complete oversight.</p>
+  <p>As stated within this IDC MarketScape report, “Client organizations we interviewed noted that SAP Build Work Zone reinforced the importance of collaboration and knowledge management.”</p>
+  <p>Here are the additional highlights on strengths of SAP Build Work Zone noted in the report:</p>
+  <ul>
+    <li><strong>A unified digital workspace</strong>: SAP Build Work Zone supports building blocks of content, user interface (UI) integration cards, and home page widgets to embed and display SAP or third-party business data in one workspace. Guided experiences sit on top of workflows to guide the user journey.</li>
+    <li><strong>Streamlined user tasks</strong>: SAP Task Center is used within SAP Build Work Zone to act as a unified inbox to provide one place for all approvals and to dos. Global announcements can be tracked for reads and to check length of time spent on content items with native SAP analytics, or with third-party tools such as Google Analytics or Qualtrics. Customers have noted that SAP Build Work Zone provided a friendly UI and access to all functionality on the mobile app.</li>
+    <li><strong>Seamless connection to a comprehensive product suite</strong>: SAP Build Work Zone is used to connect the SAP suite of capabilities — including SAP S/4 HANA, SAP Success Factors, and SAP Integrated Business Planning solutions — to handle workflow and collaboration of tasks across multiple IT and business users. SAP Build Work Zone offers pre-built workspace templates with public, private, or external access and an impersonation feature to preview workspaces in-context of specific audience segments.</li>
+  </ul>
+  <div class="text-large">
+    <div>
+      <div><strong>Evolving the Digital Workplace with SAP Build Work Zone</strong></div>
+    </div>
+  </div>
+  <h3 id="unify-experiences-enterprise-wide">Unify Experiences Enterprise-Wide</h3>
+  <p>Business users gain centralized access to SAP and non-SAP business applications, processes, and information, including custom-built apps and extensions, from desktop to mobile using SAP Build Work Zone. The solution offers a personalized, role-based user experience, for example, allowing business users to quickly search for applications or information they need, promptly manage tasks and notifications through the integrated inbox, and stay updated on content, apps, workflows, and processes that are seamlessly integrated across the business landscape without constantly switching around applications or leaving their desktops.</p>
+  <h3 id="build-workspaces-simpler-and-faster-with-low-code">Build Workspaces Simpler and Faster with Low-Code</h3>
+  <p>Business users are empowered to build and customize business sites visually. They can build branded sites, pages, and workspaces for different purposes and complexity. Our pre-built line-of-business content — including home pages, workspaces, integrations, and guided experiences — dramatically accelerates their time-to-value. For example, HR users can create pages for benefits announcements and design workspaces for learning academies. With the flexibility to design a tailored digital experience, business users can organize their work intuitively by bringing together their favorite business applications and unstructured content side-by-side, within a unified environment.</p>
+  <p>UI integration cards is a powerful widget to visualize data from back-end systems, allowing business users to quickly gain business insights into, for example, purchasing trends, account receivable overview, or compliance checklist. In addition, guided experiences streamline complex, difficult processes that span multiple systems, transforming them into simple, fast, and error-free experiences. This empowers business users to self-service their way through cross-application processes such as onboarding, returning to work, or submitting parental leave requests with ease and confidence.</p>
+  <p>SAP Build Work Zone is part of <a href="https://www.sap.com/products/technology-platform/low-code.html">SAP Build, a portfolio of low-code solutions</a> that enables the people closest to the business problems to create and augment enterprise applications, automation processes, and design workspaces and business sites visually.</p>
+  <h3 id="optimize-team-effectiveness-within-and-beyond-the-enterprise">Optimize Team Effectiveness Within and Beyond the Enterprise</h3>
+  <p>SAP Build Work Zone is also designed to amplify team effectiveness across internal employees, external customers, partners, and suppliers. Business users can visually create workspaces to facilitate better team engagement through knowledge sharing, streamlined business processes execution, content management, and implementing best practices. They can also leverage surveys, polls, and interactive Q&#x26;A sessions to gather valuable feedback, improving communication and work synergy.</p>
+  <p>Many SAP Build Work Zone customers have created purpose-built business sites to actively engage with their external customers, partners, and suppliers. For example, a supplier business site is created for suppliers to self-service various business operations, including supplier onboarding, accessing policies, managing account payables and invoicing processes, and obtaining product knowledge along with Q&#x26;As. By empowering suppliers to address their requirements and needs, not only enhances their engagement and efficiency but also saves internal teams’ time for more impactful, high-value activities.</p>
+  <h3 id="unlock-the-future-of-digital-workplaces">Unlock the Future of Digital Workplaces</h3>
+  <p>Like many customers and partners, <a href="https://www.sap.com/assetdetail/2023/07/b457bfbe-837e-0010-bca6-c68f7e60039b.html">Heartland Dental and Avvale</a> chose SAP Build Work Zone and SAP Business Technology Platform (SAP BTP) to improve more than 5,000 business assistant’s user experience and productivity across more than 1,700 dental practices within the national dental network. Since its initial rollout in 2023, it has been reported that 33 hours per day have been saved across the initial 200 supported offices.</p>
+  <p>Looking ahead, SAP remains dedicated to delivering the best-in-class innovations to our customers to enable their business success, such as injecting business AI capabilities by enabling SAP Joule as the digital assistant for intelligent interactions within SAP Build Work Zone.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Learn More</strong></div>
+    </div>
+  </div>
+  <ul>
+    <li>Read a complimentary excerpt copy of the <a href="https://www.sap.com/products/technology-platform/workzone.html?pdf-asset=c4053575-a87e-0010-bca6-c68f7e60039b&#x26;page=1">IDC MarketScape Experience-Centric Intelligent Digital Workspaces report</a></li>
+    <li>Join the <a href="https://community.sap.com/topics/work-zone">SAP Build Work Zone community</a></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Sid Misra is vice president for Product Marketing and Solution Management at SAP.</div>
+    </div>
+  </div>
+  <p><strong>About IDC MarketScape Experience-Centric Intelligent Digital Workspaces</strong><br>This IDC research explores the intelligent digital workspace environment, offering further insights on the pace of adoption, the potential success of technology, and the level of market excitement. This aims to empower IT and business decision-makers to evaluate investments based on their own judgments.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/idc-marketscape</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and the Mercedes-AMG PETRONAS F1 Team Join Forces to Drive Efficiency On and Off the Racetrack]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-mercedes-amg-petronas-f1-team-join-forces-drive-efficiency</link>
+            <guid>https://www.sap.com/news/2023/11/sap-mercedes-amg-petronas-f1-team-join-forces-drive-efficiency</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is proud to partner with the Mercedes-AMG PETRONAS F1 Team to make sure its operations are as fine-tuned as its cars. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>industry/automotive</category>
+            <category>news-tag/mercedes</category>
+            <category>product/sap-build</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-s4hana-finance</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[CTO Juergen Mueller at SAP TechEd: SAP at the Forefront of Generative AI Development]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-teched-cto-juergen-mueller-generative-ai-development</link>
+            <guid>https://www.sap.com/news/2023/11/sap-teched-cto-juergen-mueller-generative-ai-development</guid>
+            <pubDate>Fri, 03 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[On stage at SAP TechEd, CTO Juergen Mueller shared the company’s bold vision to be the leading business AI company by 2025.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/application-development</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-code</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-teched-2023-generative-ai-developers</link>
+            <guid>https://www.sap.com/news/2023/11/sap-teched-2023-generative-ai-developers</guid>
+            <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP TechEd, SAP has unveiled new innovations in generative AI, vector database capabilities, and new learning opportunities.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023" src="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-turns-every-developer-into-a-generative-ai-developer-at-sap-teched-in-2023">SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>BANGALORE</em></strong></p>
+        <hr>
+        <p>At the SAP TechEd event in 2023, <a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) announced a comprehensive series of generative AI capabilities and advancements aimed at empowering developers of all skill levels to supercharge their businesses in the age of AI.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <h2 id="sap-unveils-innovations-in-generative-ai-application-development-and-vector-database-capabilities-as-well-as-new-learning-opportunities-for-developers-in-the-era-of-ai">SAP Unveils Innovations in Generative AI Application Development and Vector Database Capabilities as Well as New Learning Opportunities for Developers in the Era of AI</h2>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="enterprise-innovation-in-the-age-of-ai">Enterprise Innovation in the Age of AI</h3>
+        <p><em><a href="https://www.sap.com/events/teched/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Today’s dynamic technology and business landscape means every developer needs to be an AI developer,” said Juergen Mueller, Chief Technology Officer and member of the Executive Board of SAP SE. “The innovations we’re launching at SAP TechEd, from AI-infused pro-code tools to a one-stop shop to create generative AI extensions and applications on SAP Business Technology Platform, support the developers at the heart of the AI revolution and provide them with resources they need to transform the way businesses run.”</p>
+  <p>As organizations aim to derive business value from generative AI, effective collaboration between professional and citizen developers is essential. SAP is launching the SAP Build Code solutions, which streamline cooperation with business experts who use the low-code <a href="/2022/11/sap-teched-sap-build-business-expertise-coursera-partnership">SAP Build</a> solutions launched at SAP TechEd in 2022. Uniquely built for SAP applications and the SAP ecosystem, SAP Build Code solutions offer AI-powered productivity tools for developers and are optimized for Java and JavaScript development. SAP Build Code also draws on the power of SAP’s new generative AI copilot Joule – the copilot that truly understands business – to further boost productivity, embedding code generation capabilities for data model, application logic and test script creation.</p>
+  <p>Good data is the foundation of good AI, and SAP HANA Cloud continues to pioneer innovation in the data space by adding new vector database features to its multimodel offerings at no additional cost. Vector data stores manage unstructured data – such as text, images or audio – to provide long-term memory and better context to AI models. This makes it easy to find and retrieve similar objects quickly. For example, users can search for suppliers based on the language in their contracts to examine payment history and trace individual orders. These powerful new vector database features enhance interactions between large language models and an organization’s mission-critical data. The innovation helps put SAP developers at the forefront of delivering radically new levels of data insight within a secure, private framework that uses industry-specific customer data to reduce hallucinations.</p>
+  <p>AI Foundation on SAP BTP, a new one-stop shop for developers to create AI- and generative AI-powered extensions and applications on SAP BTP, will further help increase developers’ impact and efficiency. AI Foundation includes everything developers need to start creating business-ready AI tools on SAP BTP – from ready-to-use AI services and access to the top large language models to vector database capabilities and AI runtime and lifecycle management.</p>
+  <p>The rapid pace of technological innovation has driven up global demand for skilled developers – and SAP is increasing its learning opportunities in tandem. As part of a commitment to upskill two million professionals by 2025 and complement free AI learning content already available, SAP today launched <a href="https://learning.sap.com/certification/sap-certified-associate-back-end-developer-abap-cloud?url_id=text-sapnewscenter-prdteng-LSC-TechEd">new role-based certification</a> and free learning resources for back-end developers using the ABAP Cloud development model. The two new learning resources covering ABAP development tools on SAP BTP and SAP S/4HANA are available on the <a href="https://learning.sap.com/?url_id=text-sapnewscenter-prdteng-LSC-TechEd">SAP Learning site</a>. They are designed for agile and cloud-compliant business transformation, providing developers with skills to build cloud-ready extensions that are aligned with SAP’s clean core strategy. SAP <a href="/">has also joined</a> the Stanford HAI (Institute for Human-Centered AI) <a href="https://hai.stanford.edu/corporate-affiliate-program">Corporate Affiliate Program</a>. Researchers and engineers at SAP will work with the Stanford academic community, including research faculty and students, on the intersection of generative AI and business.</p>
+  <p>For details on all the announcements made at SAP TechEd in 2023, please <a href="https://www.sap.com/about/events/teched/news-guide.html">visit our news guide here</a>.</p>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-teched-in-2023-join-us-live-in-bangalore-or-attend-virtually">SAP TechEd in 2023: Join us live in Bangalore or attend virtually</h3>
+        <p><em><a href="https://www.sap.com/events/teched/bangalore.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>SAP’s strategy is to help every business run as an intelligent, sustainable enterprise. As a market leader in enterprise application software, we help companies of all sizes and in all industries run at their best: SAP customers generate 87% of total global commerce. Our machine learning, Internet of Things (IoT), and advanced analytics technologies help turn customers’ businesses into intelligent enterprises. SAP helps give people and organizations deep business insight and fosters collaboration that helps them stay ahead of their competition. We simplify technology for companies so they can consume our software the way they want – without disruption. Our end-to-end suite of applications and services enables business and public customers across 26 industries globally to operate profitably, adapt continuously, and make a difference. With a global network of customers, partners, employees, and thought leaders, SAP helps the world run better and improve people’s lives. For more information, visit <a href="http://www.sap.com">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong><br>Joellen Perry, +1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PT<br>Stacy Ries, +1 (484) 619-0411, <a href="mailto:stacy.ries@sap.com">stacy.ries@sap.com</a>, ET<br>Marcus Winkler, +49 6227-767497, <a href="mailto:marcus.winkler@sap.com">marcus.winkler@sap.com</a>, CEST<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.<br>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you received this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/abap-cloud</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/learning</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-code</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/stanford-hai</category>
+        </item>
+        <item>
+            <title><![CDATA[Learning to Stay Ahead of the Curve: Why Teams Should Value Low-Code/No-Code Training]]></title>
+            <link>https://www.sap.com/news/2023/07/value-low-code-no-code-training</link>
+            <guid>https://www.sap.com/news/2023/07/value-low-code-no-code-training</guid>
+            <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Providing access to learning and development opportunities like low-code/no-code training opens new workforce opportunities. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/low-code-no-code</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[Innovating with SAP Business Technology Platform]]></title>
+            <link>https://www.sap.com/news/2023/05/innovating-with-sap-btp</link>
+            <guid>https://www.sap.com/news/2023/05/innovating-with-sap-btp</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP Sapphire, we introduced new SAP BTP capabilities in application development, automation, integration, data and analytics, and AI.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-transformation</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-datasphere</category>
+            <category>product/sap-integration-suite</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Next-Level Innovation: Three Ways Low-Code No-Code Tech Future Proofs HR and Operations]]></title>
+            <link>https://www.sap.com/news/2023/05/future-proof-hr-operations-low-code-no-code-tech</link>
+            <guid>https://www.sap.com/news/2023/05/future-proof-hr-operations-low-code-no-code-tech</guid>
+            <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Through low-code no-code technology like SAP Build, companies can future proof HR and operations. SAP's Sabine Bendiek explains.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/corporate</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/low-code-no-code</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[Brazilian Food Company Pif Paf Alimentos Goes Live with SAP Build Apps in Only Three Weeks]]></title>
+            <link>https://www.sap.com/news/2023/04/pif-paf-alimentos-goes-live-sap-build-apps</link>
+            <guid>https://www.sap.com/news/2023/04/pif-paf-alimentos-goes-live-sap-build-apps</guid>
+            <pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pif Paf Alimentos built an app for maintenance technicians with SAP Build Apps to fulfill tasks remotely and without Internet connection.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Build Now Part of GROW with SAP and RISE with SAP]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-build-part-of-grow-with-sap-and-rise-with-sap</link>
+            <guid>https://www.sap.com/news/2023/03/sap-build-part-of-grow-with-sap-and-rise-with-sap</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're pleased to announce the SAP Build portfolio is now included in the RISE with SAP and GROW with SAP offerings. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-process-automation</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[New Automation Starter Pack for SAP S/4HANA Cloud, Public Edition]]></title>
+            <link>https://www.sap.com/news/2023/01/new-automation-starter-pack-sap-s4hana-cloud-public-edition</link>
+            <guid>https://www.sap.com/news/2023/01/new-automation-starter-pack-sap-s4hana-cloud-public-edition</guid>
+            <pubDate>Thu, 05 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With a new automation starter pack, SAP S/4HANA Cloud customers can benefit from SAP Build Process Automation. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-process-automation</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Power to the People: SAP Unleashes Today's Business Experts and Tomorrow's Tech Talent]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-build-at-sap-teched-power-to-the-people</link>
+            <guid>https://www.sap.com/news/2022/11/sap-build-at-sap-teched-power-to-the-people</guid>
+            <pubDate>Wed, 16 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get the scoop on SAP Build at SAP TechEd, including what the low-code offering will give to the millions of people who use SAP every day.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/coursera</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Build: What’s Under the Hood?]]></title>
+            <link>https://www.sap.com/blogs/2022/11/sap-build-capabilities-under-the-hood-sap-teched</link>
+            <guid>https://www.sap.com/blogs/2022/11/sap-build-capabilities-under-the-hood-sap-teched</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take a deeper look at SAP Build capabilities and how the low-code offering helps SAP customers deliver new, innovative solutions quickly.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Unleashing Business Expertise with SAP Build]]></title>
+            <link>https://www.sap.com/news/2022/11/business-expertise-sap-build-sap-teched</link>
+            <guid>https://www.sap.com/news/2022/11/business-expertise-sap-build-sap-teched</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Organizations must tap into employees' business expertise to excel in the next era of rapid business transformation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches SAP Build to Unleash Business Expertise, Partners with Coursera to Empower a New Generation of Developers]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-teched-sap-build-business-expertise-coursera-partnership</link>
+            <guid>https://www.sap.com/news/2022/11/sap-teched-sap-build-business-expertise-coursera-partnership</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP TechEd, SAP launched new low-code offering SAP Build, along with a partnership with Coursera. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/coursera</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Build Launched at SAP TechEd in 2022]]></title>
+            <link>https://www.sap.com/videos/sap-build-launched-at-sap-teched-in-2022</link>
+            <guid>https://www.sap.com/videos/sap-build-launched-at-sap-teched-in-2022</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP launched SAP Build, a powerful new offering to drive the next wave of business transformation by unleashing the expertise of those who know best...]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-teched</category>
+            <category>content-type/video</category>
+            <category>product/sap-build</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/oxford-economics/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 12 Apr 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[HANNOVER MESSE 2023: SAP Generates New Data-Driven Insights for Resilient Manufacturing]]></title>
+            <link>https://www.sap.com/news/2023/04/sap-hannover-messe-2023-data-driven-insights-resilient-manufacturing</link>
+            <guid>https://www.sap.com/news/2023/04/sap-hannover-messe-2023-data-driven-insights-resilient-manufacturing</guid>
+            <pubDate>Wed, 12 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At HANNOVER MESSE 2023, SAP will showcase its unique position to accelerate the journey to resilient manufacturing. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/manufacturing-x</category>
+            <category>news-tag/oxford-economics</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>product/sap-responsible-design-and-production</category>
+        </item>
+    </channel>
+</rss>

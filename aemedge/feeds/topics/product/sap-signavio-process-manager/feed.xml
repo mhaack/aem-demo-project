@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-signavio-process-manager/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 19 May 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Future-Proof Organization Is a Process-Centric Organization]]></title>
+            <link>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</link>
+            <guid>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP Signavio process integrations, automations, and methodologies establish SAP as a true visionary in the process transformation field.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+            <category>product/sap-signavio-process-manager</category>
+        </item>
+        <item>
+            <title><![CDATA[AI Built for Business]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-business-ai</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-business-ai</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Turning AI technology advancement into business impact remains a challenge for many companies, SAP's unique approach to AI can help.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/financial-management</category>
+            <category>topic/hcm</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/microsoft</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-digital-assistant</category>
+            <category>product/sap-extended-warehouse-management</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-signavio-process-manager</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-transportation-management</category>
+        </item>
+    </channel>
+</rss>

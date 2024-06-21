@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-universal-id/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 27 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Register for Your SAP Universal ID by October 12 to Continue Logging Into SAP.com]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-universal-id-register-october-12</link>
+            <guid>https://www.sap.com/news/2022/09/sap-universal-id-register-october-12</guid>
+            <pubDate>Tue, 27 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Signing up for SAP Universal ID will ensure you can continue to take advantage of all SAP has to offer. Learn more here.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-universal-id</category>
+        </item>
+        <item>
+            <title><![CDATA[Looking Back and Ahead with Identity and User Management Transformation at SAP]]></title>
+            <link>https://www.sap.com/news/2022/06/identity-user-management-transformation-at-sap</link>
+            <guid>https://www.sap.com/news/2022/06/identity-user-management-transformation-at-sap</guid>
+            <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn about the Identity and User Management team’s achievements regarding the SAP Universal ID login experience and more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-universal-id</category>
+            <category>news-tag/ux</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Customer Log-On Goes Password-Less with SAP.iO Startup Hanko]]></title>
+            <link>https://www.sap.com/news/2021/05/sap-io-startup-hanko-password-less-log-on</link>
+            <guid>https://www.sap.com/news/2021/05/sap-io-startup-hanko-password-less-log-on</guid>
+            <pubDate>Mon, 24 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together, SAP and Hanko tested password-less authentication with Touch ID and Windows Hello for SAP Universal ID. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Customer Log-On Goes Password-Less with SAP.iO Startup Hanko" src="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-customer-log-on-goes-password-less-with-sapio-startup-hanko">SAP Customer Log-On Goes Password-Less with SAP.iO Startup Hanko</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>One of <a href="/2021/03/sap-universal-id-simplified-login-experience">SAP’s latest products</a> is SAP Universal ID, a unified account that allows customers to access all SAP services in one place with a seamless user experience across all SAP products and services.</div>
+    </div>
+  </div>
+  <p>The company refers to it as the “Apple ID for everyone in the SAP world.” With this, SAP customers can link their SAP accounts under one ID, represented by an e-mail address, and use it to log on to SAP services with a single password.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-customers-create-your-universal-id-today">SAP customers: Create your universal ID today</h3>
+      </div>
+      <div><strong><a href="https://discover.sap.com/universalid/en-us/about.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="security-is-key">Security Is Key</h2>
+  <p>Even though using only one set of log-on credentials offers great advantages for SAP customers, it also means that if this password is compromised, the attacker may gain access to multiple SAP services and accounts at once. That’s why SAP Universal ID developers were searching for a more secure solution that prevents fraud but doesn’t impact usability.</p>
+  <p>Authenticating with <a href="https://insights.sap.com/biometrics-sensing-healthy-society/">biometrics</a> has been proven to be the most secure way to protect user accounts and devices without impacting user experience and conversion rates. But until now, biometric authentication could exclusively be used in native apps on mobile devices. This recently changed with a brand-new Web standard called “WebAuthn” that makes it possible to use biometrics on Websites.</p>
+  <p>But developing a biometrics-based authentication process, combining it with a secure cryptographic challenge-response two-factor authentication protocol, and integrating it into an existing tech stack takes a lot of time, knowledge, and developer resources.</p>
+  <h2 id="biometrics-and-cryptography-by-hanko">Biometrics and Cryptography by Hanko</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-sapio">Explore SAP.iO</h3>
+      </div>
+      <div><strong><a href="https://sap.io/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>That’s why SAP decided to realize this project together with Hanko. The young <a href="https://www.hanko.io/">authentication-as-a-service provider</a> was invited to participate in a three-month startup accelerator program at SAP.iO Foundry Berlin in 2019. In a joint proof of concept, the SAP team tested password-less authentication with Touch ID and Windows Hello for SAP Universal ID.</p>
+  <p>With their managed cloud application programming interface (API), Hanko enabled SAP developers to access a fully-fledged and certified WebAuthn infrastructure right from the beginning of the project. Hanko accompanied the SAP team, providing demo code and ready-to-use client and server software development kits. To create an optimal user experience (UX), Hanko also supported the UX team in the development and implementation of the new user flows for the password-less authentication methods.</p>
+  <h2 id="the-outcome">The Outcome</h2>
+  <p>The result of the proof of concept is a fully functioning SAP Universal ID test environment supporting password-less two-factor authentication with WebAuthn authenticators, such as Windows Hello, Apple Touch ID and Face ID, as well as FIDO Security Keys. Since Hanko supplied the main code components, SAP was able to integrate the password-less technologies into SAP Universal ID with a small team in just one-third of the estimated</p>
+  <p>time. The test environment will be leveraged for further user testing until the feature is released to SAP customers.</p>
+  <p>Thilo Brandt, IT senior manager for SAP Universal ID, confirms that internal tests have produced a consistently positive response, from developer and QA level up to top management. “The development effort for introducing password-less authentication was significantly reduced through the use of Hanko. The team helped us to successfully navigate implementing password-less authentication into our application stack and user interfaces.”</p>
+  <p>Michael Braun, IT chief product owner of Identity and User Management at SAP, is happy with the outcome of the project as well: “With the help of Hanko, we were able to prove the feasibility of our vision for a password-less log-on for SAP Universal ID in terms of technical implementation as well as usability on all major operating systems such as Windows, macOS, iOS, and Android.”</p>
+  <p>Felix Magedanz, founder and CEO of Hanko, is pleased to see that Hanko’s authentication-as-a-service solution is so well received at SAP and that the deployability of Hanko’s API has been successfully proven. “Our project with SAP demonstrates the power and the benefits of our password-less API. Seeing our solution being used by one of the largest software companies in the world makes us proud and strongly validates our approach. Through the close cooperation and feedback from SAP developers, we were able to improve our solution to make it even more convenient for future customers.”</p>
+  <p><strong>About SAP.iO</strong></p>
+  <p><a href="/topics/sap-io">SAP.iO</a> is SAP’s strategic business unit to incubate, accelerate, and scale startup innovation and explore new business models for SAP. Since 2017, SAP.iO has helped over 300 external startups and internal ventures both start and scale their businesses while enabling thousands of SAP customers to access innovation.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>news-tag/sap-universal-id</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Universal ID Simplifies the Login Experience]]></title>
+            <link>https://www.sap.com/news/2021/03/sap-universal-id-simplified-login-experience</link>
+            <guid>https://www.sap.com/news/2021/03/sap-universal-id-simplified-login-experience</guid>
+            <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is introducing SAP Universal ID in response to login complexity struggles that customers experience across multiple accounts and passwords]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14b52a1d82eb452ba040c426d2397619ae279fd95.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14b52a1d82eb452ba040c426d2397619ae279fd95.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14b52a1d82eb452ba040c426d2397619ae279fd95.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Universal ID Simplifies the Login Experience" src="./media_14b52a1d82eb452ba040c426d2397619ae279fd95.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-universal-id-simplifies-the-login-experience">SAP Universal ID Simplifies the Login Experience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP understands the login complexity that customers and partners experience while managing multiple SAP accounts and passwords. Therefore, SAP has launched <strong>SAP Universal ID</strong>, a key component of a Board-sponsored program kicked off in 2018.</div>
+    </div>
+  </div>
+  <p>Centralizing identity and user management, SAP Universal ID allows users to logon to SAP systems using <strong>one</strong> account, linking all existing SAP legacy accounts (S-/P-users).</p>
+  <p>To date, SAP Universal ID supports access to more than 180 of SAP’s most popular customer and partner applications and platforms, such as <a href="https://me.sap.com/">SAP for Me</a>. In the future, additional SAP Universal ID features will complement most SAP login processes.</p>
+  <p>The launch of SAP Universal ID is SAP’s commitment to significantly simplify user login experiences and by adopting SAP Universal ID, the user can:</p>
+  <ul>
+    <li><strong>Take control:</strong> Own their personal SAP identity</li>
+    <li><strong>Manage one account:</strong> In one universal account link all their existing accounts</li>
+    <li><strong>Use it wherever they go:</strong> No matter where they work, their ID goes with them</li>
+  </ul>
+  <p>Additionally, SAP Universal ID:</p>
+  <ul>
+    <li>Is a personal and lifelong authentication for SAP portals now and in the future. Users enter <em>one</em> password and, once logged in, can choose from any of their linked accounts.</li>
+    <li>Will allow SAP to deliver a compliant, sophisticated, and engaging user experience, including personalized offerings and automated communications, and to advocate for users more effectively. It will also help improve security overall due to the elimination of shared user accounts.</li>
+  </ul>
+  <h2 id="how-to-create-an-sap-universal-idthree-steps-two-minutes-done">How to Create an SAP Universal ID:Three Steps. Two Minutes. Done.</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="create-your-sap-universal-id-now">Create your SAP Universal ID now</h3>
+      </div>
+      <div><strong><a href="https://account.sap.com/core/create/landing">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1838266369d8eb3c8e44d3488444ede29bfcf032f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1838266369d8eb3c8e44d3488444ede29bfcf032f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1838266369d8eb3c8e44d3488444ede29bfcf032f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Graphic: Steps to create SAP Universal ID" src="./media_1838266369d8eb3c8e44d3488444ede29bfcf032f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1784" height="490">
+    </picture> Once the <a href="https://account.sap.com/core/create/landing">ID has been created</a>, <a href="https://account.sap.com/">SAP Universal ID Account Manager</a>, allows the user to view, update, and manage personal information, account security settings, including S-/ P-user associations to companies.
+  </p>
+  <p>SAP Universal ID works on Firefox, Chrome, Safari, and Edge, as well as the latest versions of iOS and Android for smartphones and tablets. It does not work on Internet Explorer.</p>
+  <p>Watch this video to find out how easy it is to get your own unique login:</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_112ec387c66ed7aae0c2f8bd2d9ae9990722de82f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_112ec387c66ed7aae0c2f8bd2d9ae9990722de82f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_112ec387c66ed7aae0c2f8bd2d9ae9990722de82f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Universal ID – watch this video to find out how easy it is to get your own unique login" src="./media_112ec387c66ed7aae0c2f8bd2d9ae9990722de82f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/LKHfEcJ9094">SAP Universal ID – watch this video to find out how easy it is to get your own unique login</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div><em>Kevin DeVilbiss is head of Identity and User Management at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-universal-id</category>
+            <category>news-tag/ux</category>
+        </item>
+    </channel>
+</rss>

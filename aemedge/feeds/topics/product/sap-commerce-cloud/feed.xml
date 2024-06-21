@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-commerce-cloud/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 13 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Commerce Cloud solutions]]></title>
+            <link>https://www.sap.com/topics/l3-proxy-cards/products-sap-commerce</link>
+            <guid>https://www.sap.com/topics/l3-proxy-cards/products-sap-commerce</guid>
+            <pubDate>Mon, 13 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP Commerce Cloud portfolio offers trusted e-commerce solutions that can help you innovate at scale and use enterprise-wide data to boost profits and customer satisfaction.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <h1 id="sap-commerce-cloud-solutions">SAP Commerce Cloud solutions</h1>
+</div>
+]]></content:encoded>
+            <category>industry/retail</category>
+            <category>content-type/business-case</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Announces New Commerce Cloud Payment Solution, Drawing on Vast Partner Ecosystem to Help Retailers Gain an Edge]]></title>
+            <link>https://www.sap.com/news/2024/03/sap-announces-new-commerce-cloud-payment-solution</link>
+            <guid>https://www.sap.com/news/2024/03/sap-announces-new-commerce-cloud-payment-solution</guid>
+            <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new SAP Commerce Cloud, open payment framework, helps retailers stay ahead of changing customer expectations. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Goes the Distance with EV Fleet Digitalization]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</link>
+            <guid>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Longtime partners SAP and Mercedes-Benz are transforming the sustainable EV experience with digitalized corporate fleet management.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Goes the Distance with EV Fleet Digitalization" src="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-goes-the-distance-with-ev-fleet-digitalization">SAP Goes the Distance with EV Fleet Digitalization</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Electric vehicles (<a href="/topics/electric-vehicles">EVs</a>) are transforming the mobility experience in corporate fleet management. A great example is the partnership between <a href="https://www.mercedes-benz.com/en/">Mercedes-Benz</a> and SAP where the companies are both customers and vendors to each other. Mercedes-Benz is using SAP solutions to digitalize its omnichannel buying experience, and SAP is the first customer using its own technology to manage the company’s vehicle fleet in Germany.</div>
+    </div>
+  </div>
+  <p>As longtime partners, SAP and Mercedes-Benz have a history of shared knowledge for mutual competitive advantage. The fleet management program is grounded in the companies’ similar business philosophies and product road maps.</p>
+  <p>Mercedes-Benz has committed to move the company’s B2B business to 100% digital and plans to sell 25% of all new cars online by 2025. The company selected <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> to help support this mission. It will create a future-proof composable commerce portfolio designed to reliably power the company’s digital strategy, including a standardized offering across different markets. It will also simplify processes and reduce time-to-market.</p>
+  <h2 id="benefits-of-digitalized-fleet-management">Benefits of Digitalized Fleet Management</h2>
+  <p>From the SAP employee’s perspective, ordering a company EV couldn’t be simpler. Instead of time-consuming manual research and back and forth communication with the car dealer, employees can use <a href="https://www.sap.com/products/spend-management/solutions.html">the guided buying capability in SAP Ariba solutions</a> to order the EV they want directly from the Mercedes-Benz online catalog. They can choose the features they want, such as car make and model, color, and equipment packages, within SAP’s pre-set guidelines.</p>
+  <p>“The car configurator automates the EV selection process end-to-end, eliminating manual steps and saving time while providing the employee with a highly personalized experience,” said Steffen Krautwasser, head of SAP’s global car fleet. “Automating the approval process assures data consistency and eliminates the need for manual quality checks.”</p>
+  <p>There’s a tremendous convenience factor in captured EV data as well. In one pilot program for select EVs in SAP’s fleet, the digital twin will automatically track mileage. Drivers will no longer need to manually enter mileage every time they recharge, and SAP can use this data to better manage the fleet.</p>
+  <h2 id="connected-data-drives-sustainable-business">Connected Data Drives Sustainable Business</h2>
+  <p>Once ordered, EVs are tracked as assets in SAP’s financial system. After delivery, <a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">SAP Digital Vehicle Suite</a> creates a digital twin that can capture relevant, secure data across the EV’s lifetime. SAP’s fleet management team can track CO2 emissions based on green energy usage, mileage, and the number of vehicles on the road. Krautwasser envisioned reporting this data to support the company’s global sustainability commitments.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-digital-vehicle-suite-delivers-a-holistic-approach-to-vehicle-sales-and-data-management">SAP Digital Vehicle Suite delivers a holistic approach to vehicle, sales, and data management</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Performance data from the EV digital twin can help corporate fleet managers guide employees in choosing the best vehicle for their driving needs,” said Krautwasser. “Over time, drivers can better understand travel ranges between charges.”</p>
+  <p>Data is expected to help address so-called range anxiety, alerting EV drivers when their vehicle needs a charge and, most important, where to recharge. Mercedes-Benz is investing in charging infrastructure to create an ecosystem that would be integrated with public and private charge point providers in the U.S., China, and Europe.</p>
+  <p>The partnership also reflects a shared commitment to sustainability. Mercedes-Benz has committed to become carbon neutral by 2038, and transition to 100% electric vehicles by 2030 wherever possible. SAP is transitioning the company’s vehicle fleet for employees in Germany to all EVs by 2025 as part of its corporate commitment to be carbon neutral by 2030.</p>
+  <h2 id="omnichannel-is-fastest-path-to-customer-love">Omnichannel Is Fastest Path to Customer Love</h2>
+  <p>The digital experience is extremely important for customers who expect convenience and quality. Organizations in many industries have shifted to an omnichannel strategy that offers people their preferred experience, whether online or in-person, building brand loyalty and repeat business.</p>
+  <p>“We want to provide a seamless journey for employees as they research, select, purchase, and enjoy their vehicle,” said Krautwasser. “The most exciting part of our EV fleet management strategy is how we can use our knowledge to enhance the employee experience. Through data and digital services, we can get closer to our employees and act quickly based on their feedback, making improvements and introducing new offerings that keep us on top of trends and support SAP’s sustainability commitment.”</p>
+  <p>EVs represent a profound business model shift for the entire automotive supply chain as automakers sell direct to customers, provide digital services from vehicle data, and explore new revenue opportunities. It’s clear that Mercedes-Benz and SAP are going the distance for a sustainable and satisfying driving experience.</p>
+  <div class="footnote">
+    <div>
+      <div>Susan Galer is a communications director at SAP. Follow her @smgaler.<br>Top photo courtesy of SAP employee Jude Calvin Parong.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/mercedes</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP’s Retail Partners Became Innovation Multipliers in 2023 and Created the Ultimate Consumer Experience]]></title>
+            <link>https://www.sap.com/news/2024/01/sap-retail-partners-became-innovation-multipliers-in-2023</link>
+            <guid>https://www.sap.com/news/2024/01/sap-retail-partners-became-innovation-multipliers-in-2023</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read to learn about the retail partners that served as innovation and growth multipliers for SAP customers in 2023.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/nrf</category>
+            <category>news-tag/partners</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Top Retailers Using Tech to Build Lifelong Customer Relationships]]></title>
+            <link>https://www.sap.com/news/2024/01/retail-sap-customers-using-tech-to-build-lifelong-relationships</link>
+            <guid>https://www.sap.com/news/2024/01/retail-sap-customers-using-tech-to-build-lifelong-relationships</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP customers in retail leverage tech to drive meaningful customer experiences, adopt sustainability, and position for success. Read more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-analytics</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[More Than Just the Numbers: Insights from 2023 Cyber Week]]></title>
+            <link>https://www.sap.com/news/2023/12/cyber-week-2023-insights</link>
+            <guid>https://www.sap.com/news/2023/12/cyber-week-2023-insights</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Black Friday marks the beginning of the holiday shopping season. Learn about SAP customers' successes during Cyber Week 2023.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="More Than Just the Numbers: Insights from 2023 Cyber Week" src="./media_1a6045a889e543a1e87aa3bb1f359ec62eca3fa7e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="more-than-just-the-numbers-insights-from-2023-cyber-week">More Than Just the Numbers: Insights from 2023 Cyber Week</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Black Friday marks the beginning of the holiday shopping season and there have been great stories of record-breaking volumes, many from SAP customers that experienced success during Cyber Week, the Monday before Black Friday to Cyber Monday.</div>
+    </div>
+  </div>
+  <p>Through Cyber Week, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> customers achieved over a 35% year-over-year (YoY) increase in the number of orders processed, an astounding amount of $110 million in peak gross merchandising value (GMV) per minute, and a 9.3% YoY increase in overall site traffic. Essential for driving site traffic and increasing conversions is customer engagement, and on Cyber Weekend, <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Emarsys Customer Engagement</a> supported customers with a nine percent YoY increase of overall send volume across all channels. What’s more, SAP Commerce Cloud customers achieved a 5.04% higher conversion rate versus 2022, and retailers saw a 5.2% higher conversion rate during Cyber Week.</p>
+  <p>This success was possible due to the reliability, scalability, and intelligence of <a href="https://www.sap.com/products/crm.html">SAP Customer Experience solutions</a> for individually curated shopping journeys across the globe.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="unlock-business-agility-and-transform-customer-experiences-with-sap-commerce-cloud">Unlock business agility and transform customer experiences with SAP Commerce Cloud</h3>
+        <p><em><a href="https://www.sap.com/products/crm/commerce-cloud.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>But at SAP, it is not just about the numbers. Deriving insights from data is at the heart of SAP and the start to the holiday shopping season provided a treasure trove of learnings and understanding about how people are shopping and how retailers can <a href="/topics/crm-customer-experience">optimize their experiences</a>.</p>
+  <p>By serving some of the largest brands in the world through this holiday season, here is what we learned.</p>
+  <h2 id="insight-one-the-definition-of-holiday-season-is-expanding">Insight One: The Definition of “Holiday Season” Is Expanding</h2>
+  <p>Traditionally, Black Friday is considered as a starting point for the holiday shopping season. However, recent research has revealed the holiday shopping is starting sooner and extending over the course of several weeks.</p>
+  <p>According to <a href="https://go.criteo.com/">Criteo</a>, an SAP commerce media partner, the longest path to purchase during the holidays is <a href="https://c-grid.criteo.com/holiday-season-success-2023">about 45 days</a>. This includes Singles Day, originated in China, on November 11 and El Buen Fin, Mexico’s version of Cyber Weekend from November 17 to November 20.</p>
+  <p>In 2023, SAP Emarsys Customer Engagement saw a spike on Singles Day, nearly surpassing 1 billion customer engagements — for example, email, SMS, mobile push, and web push — two weeks ahead of Black Friday. This figure was then eclipsed not once but twice during El Buen Fin, which saw overall an approximate 30% YoY increase in messages delivered.</p>
+  <p>When looking at just email growth during this season, the growth of volume for the entire month of November was nearly twice what it was for Cyber Weekend. This not only underscores that holiday shopping is starting earlier, but how brands are scaling up sooner and avoiding sharp peaks, which is a win for deliverability too.</p>
+  <p>Newly emerging celebrations and extended shopping seasons also mean a higher and longer strain on e-commerce sites. However, SAP Commerce Cloud prepared the customers to combat this challenge during these peak sales times leading up to Cyber Week, and delivered 100% uptime. In fact, customers that ran holiday sales events during El Buen Fin achieved 112% growth in conversion rate, with 10% higher traffic volume compared to the regular daily average of 2023.</p>
+  <h2 id="insight-two-email-still-reigns-but-omnichannel-engagement-is-rapidly-growing">Insight Two: Email Still Reigns, But Omnichannel Engagement Is Rapidly Growing</h2>
+  <p>While overall 2023 holiday sales are expected to <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between three and four percent</a>, online sales are expected to double and <a href="https://nrf.com/media-center/press-releases/2023-holiday-reach-record-spending-levels">increase between seven and nine percent</a>. More digitally advanced customer journeys and increasingly tech-savvy buyers present an exciting opportunity for businesses to engage with shoppers more often and on their preferred channels.</p>
+  <p>Aiming to capitalize on this opportunity and remain top of mind with shoppers, SAP Emarsys customers sent a record number of omnichannel messages, resulting in a nine percent YoY increase in customer engagements from 2022. Email remained the top promotional channel in terms of volume and saw a respectable 10% YoY increase.</p>
+  <p>In addition to email, brands are also now investing heavily in omnichannel engagement strategies to meet customers where they prefer to shop. Mobile messages like SMS (35% YoY increase) and in-app (15% YoY increase) were utilized effectively alongside email, as were Web channel engagements, like Web push, which saw a whopping 74% increase in usage in 2023.</p>
+  <h2 id="insight-three-personalization-proves-less-is-more">Insight Three: Personalization Proves Less is More</h2>
+  <p>It is important to acknowledge that success does not equate to the quantity of messages, but also the quality. Bucking the notion that more is simply better, marketers using SAP Emarsys increased utilization of data-driven segmentation by 20% compared to Cyber Weekend 2022, enabling more targeted offers and personalized messages. While conversion rates would naturally be expected to dip given the extra volume, this targeted and personalized approach contributed to minimal or no change compared to baseline conversion rates during a typical weekend.</p>
+  <p>Similarly, AI-powered product recommendations, delivered across channels, and <a href="https://www.sap.com/products/artificial-intelligence/marketing.html#ecommerce">intelligent shopping assistants from SAP Customer Experience solutions</a> also helped consumers find the right product or best deal among the seemingly limitless choices — with confidence and ease.</p>
+  <p>With consumers shopping for an extended period on more channels, brands have both an obligation to meet them where they are in their journey and an opportunity to earn their business and loyalty by investing in data-driven, omnichannel strategies that better match them with personalized offers on the items they wish to buy.</p>
+  <h2 id="insight-four-b2b-shoppers-share-the-holiday-fever-during-cyber-week">Insight Four: B2B Shoppers Share the Holiday Fever During Cyber Week</h2>
+  <p>Black Friday is usually seen as an influential opportunity to create a revenue boost for retailers. However, SAP has the privilege of working with many B2B commerce companies in addition to a large number of retailers.</p>
+  <p>According to our data, other industries outside of retail also experience the benefits of Black Friday and Cyber Monday pushes. While the retail industry had the highest volume of orders, consumer products and wholesale distribution came in close behind. Additionally, the chemicals industry saw a huge spike in AOV over the weekend and achieved a GMV increase of 51% YoY, while life sciences industry saw more than 120% YoY GMV growth.</p>
+  <p>These data points indicate that Cyber Week trends are no longer limited to retailers, as various industries now achieve bigger sales volume and revenue during this period. Moving forward, organizations across all industries must put their best foot forward during Cyber Weekend activities to support profitable growth.</p>
+  <h2 id="insight-five-black-friday-isnt-just-about-the-us-thanksgiving-holiday-anymore">Insight Five: Black Friday Isn’t Just About the U.S. Thanksgiving Holiday Anymore</h2>
+  <p>The data from SAP Commerce Cloud also reflects the globalization trend. While North America led the biggest GMV number on Black Friday, the Europe, Middle East, and Africa (EMEA) region is comparable. In fact, the highest number of orders, about 800,000, was placed in EMEA. Additionally, the Asia Pacific and Japan (APJ) region on Cyber Monday achieved over 130% growth in conversion rate compared to last year.</p>
+  <p>SAP Emarsys customers were also ready to leverage this trend and engage with customers around the world. On Cyber Monday, total send volumes saw significant YoY increases in multiple regions: by 20% in EMEA, over 27% in Middle and Eastern Europe (MEE), and over 15% in Asia.</p>
+  <p>The data also highlighted differences in how consumers shop and buy in different regions. Unsurprisingly email continued to be the most used channel across the board, though EMEA proved to be the only region, outside of the Americas, that saw high growth in email volume year-on-year with a 13% increase.</p>
+  <p>The MEE region saw a slight decrease in the use of email (-12% YoY) in favor of SMS, mobile push, and in-app messages. In APJ, where a mobile-first mindset is often the norm, usage of in-app (58% YoY growth) and mobile push (176% YoY growth) went up significantly compared to email growth (two percent YoY). Even in EMEA, SMS (53% YoY growth) and in-app (388% YoY growth) mobile messages outpaced email growth, underscoring the importance of an omnichannel strategy.</p>
+  <p>This data illustrates the global influence of Black Friday, what used to be considered an U.S.-specific sales event. For businesses across the globe, it is crucial to recognize this shift and consider customer behaviors, so they can adapt and evolve their commerce and channel engagement strategies to gain customer loyalty and boost profitability.</p>
+  <h2 id="next-step">Next Step</h2>
+  <p>As market trends evolve, organizations must proactively adopt strategies for profitable and sustainable growth. With the right blend of modern technologies, agile business processes, and customer centric strategies, businesses significantly benefit from extended shopping season, through personalized omnichannel engagements, increased conversions, and lifelong customer loyalty.</p>
+  <p>Moreover, with the right choice of cloud technologies, organizations can remain secure and compliant, while delivering reliable, scalable, and personalized experiences that are optimized for their industries.</p>
+  <p>To learn more about how SAP Customer Experience solutions can help, please <a href="https://www.sap.com/products/crm.html">visit us at sap.com/crm</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Balaji Balasubramanian is senior vice president and global head of Commerce and Industry Cloud at SAP.</div>
+    </div>
+  </div>
+  <p><em>*All data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. All financial figures are in USD. Data represents online and offline sales made by SAP global merchants.</em></p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[Online Metals Disrupts the Manufacturing Industry and Expands Business with SAP Commerce Cloud]]></title>
+            <link>https://www.sap.com/news/2023/10/online-metals-manufacturing-industry-sap-commerce-cloud</link>
+            <guid>https://www.sap.com/news/2023/10/online-metals-manufacturing-industry-sap-commerce-cloud</guid>
+            <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Online Metals is disrupting the manufacturing industry and expanding its business with SAP Commerce Cloud. Learn how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_121051d714fe237b93b9bb91b6feef8b4424ee2ee.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_121051d714fe237b93b9bb91b6feef8b4424ee2ee.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_121051d714fe237b93b9bb91b6feef8b4424ee2ee.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Online Metals Disrupts the Manufacturing Industry and Expands Business with SAP Commerce Cloud" src="./media_121051d714fe237b93b9bb91b6feef8b4424ee2ee.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="online-metals-disrupts-the-manufacturing-industry-and-expands-business-with-sap-commerce-cloud">Online Metals Disrupts the Manufacturing Industry and Expands Business with SAP Commerce Cloud</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Founded in 1998 as a Seattle-based garage startup, Online Metals has since become the <a href="https://www.onlinemetals.com/en">world’s leading e-commerce metal and plastics supplier</a>.</div>
+    </div>
+  </div>
+  <p>With over 60,000 products that can be shipped directly to any location, this once garage-based business is now a successful enterprise with seven distribution and pickup locations and over 100 employees across the United States. Online Metals offers raw materials like alloy steel, brass, copper, nickel, titanium, and zinc cut-to-size or in small and medium quantities and various shapes. Customers span the creative genius of private individuals like artists and engineers to multinational corporations and government agencies.</p>
+  <p>Online Metals is a company that is truly obsessed with customer experience. Its north star is the notion that “the last thing you do is the first thing the customer sees. So, let’s do it right!”</p>
+  <h2 id="powering-industry-disruption">Powering Industry Disruption</h2>
+  <p>Online Metals has already established itself as a digital powerhouse. It is now making even bigger waves by trailblazing the way it goes to market and engages with its customers. Fueled by its desire to continuously improve, Online Metals invested in SAP Commerce Cloud with marketplace solution provider Mirakl in order to deliver its most recent innovation: the first-of-its-kind metals and plastics catalog marketplace. The online catalog marketplace has opened the door for new sales channels and raw material manufacturers to sell their products directly via the Online Metals e-commerce platform.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-commerce-cloud-grow-your-business-through-enterprise-grade-e-commerce">SAP Commerce Cloud: Grow your business through enterprise-grade e-commerce</h3>
+        <p><em><a href="https://www.sap.com/products/crm/commerce-cloud.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>From an industry perspective, the SAP-powered digital platform has empowered Online Metals to expand into disruptive new models within the metals industry. More specifically, it has enabled the team to sell products that have been traditionally non-transparent with pricing and also difficult to order in small quantities. As a result, the team can now support a growing number of micro-manufacturers throughout the U.S. that rely on a just-in-time, small-quantity metal supplier.</p>
+  <p>“The SAP-licensed version of Mirakl we used allows us to quickly onboard new sellers who want to reach the millions of metal buyers Online Metals reaches. We take care to only bring on the best sellers who provide the products our metal buyers want,” said Gregory Raece, president of Online Metals. “In fact, so great was the demand to sell on Online Metals that Mirakl even awarded us a ‘Fast Start’ award at their Mirakl B2B Summit in Chicago this April.”</p>
+  <p>The addition of the metal catalog marketplace has enabled the Online Metals team to better serve its customers. Sellers like <a href="https://tciprecision.com/">TCI Precision Metals</a> have already seen the benefits of using the new sales channels.</p>
+  <p>“The Mirakl team is beyond excited to be at the heart of this first-of-its-kind marketplace pioneering the digital transformation in metals and plastics supplies,” said Marc Teulières, general manager B2B, Mirakl. “By pairing the Mirakl suite of solutions with a remarkable vision for digital transformation, Online Metals has created a win-win-win: buyers can find the precise products they need, suppliers are uncovering new sales opportunities, and the business is on a path to streamlined growth.”</p>
+  <h2 id="driving-continuous-innovation">Driving Continuous Innovation</h2>
+  <p>Every expanding business encounters obstacles in its growth journey. But with SAP technology, Online Metals has been able to support its unique business models, developing an excellent technical footprint that empowers its customers, enables flexibility and innovation, and showcases what truly matters: its distinctive and quality customer service and products.</p>
+  <p>Hear more customer stories at the <a href="https://www.sap.com/events/customer-experience-live.html">SAP Customer Experience LIVE virtual experience</a>.</p>
+  <p>For more information on how SAP Commerce Cloud can transform the way your business engages with its customers, visit the <a href="https://www.sap.com/products/crm/e-commerce-platforms.html">E-Commerce area of sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Geert Leeman is chief revenue officer for SAP Customer Experience.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="join-cx-leaders-from-around-the-world-at-sap-customer-experience-live">Join CX leaders from around the world at SAP Customer Experience LIVE</h3>
+        <p><em><a href="https://www.sap.com/events/customer-experience-live.html">Register now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/mining: industry/mill-products</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>sap-event/sap-customer-experience-live</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in 2023 Gartner® Magic Quadrant™ for Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2023/08/sap-named-a-leader-in-2023-gartner-magic-quadrant-for-digital-commerce</link>
+            <guid>https://www.sap.com/news/2023/08/sap-named-a-leader-in-2023-gartner-magic-quadrant-for-digital-commerce</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is the ninth time in a row SAP has been rated a leader by Gartner in the Magic Quadrant for Digital Commerce. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Reimagining the Always-On Marketplace Calls for Expanded Partnership]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-preferred-success-sap-commerce-cloud-always-on-marketplace</link>
+            <guid>https://www.sap.com/news/2023/05/sap-preferred-success-sap-commerce-cloud-always-on-marketplace</guid>
+            <pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The expanded edition of SAP Preferred Success for SAP Commerce Cloud allows customers to create an agile, composable commerce system.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-preferred-success</category>
+        </item>
+        <item>
+            <title><![CDATA[Heritage Takes New Life in the Digital World: The Strategic Approach of Swarovski]]></title>
+            <link>https://www.sap.com/news/2023/04/swarovski-heritage-digital-world-strategic-approach</link>
+            <guid>https://www.sap.com/news/2023/04/swarovski-heritage-digital-world-strategic-approach</guid>
+            <pubDate>Fri, 28 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital is key to Swarovski's evolution, and the crystal business aims to deepen its 40-year partnership with SAP to move into the cloud.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>industry/retail</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers the Future of Intelligent Customer Experience for Utilities]]></title>
+            <link>https://www.sap.com/news/2023/04/future-intelligent-cx-for-utilities</link>
+            <guid>https://www.sap.com/news/2023/04/future-intelligent-cx-for-utilities</guid>
+            <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[An industry-first approach to CX for utilities allows for involving end customers in the energy transition journey. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers New Approach to Composability, Helping Businesses Drive Profitability and Move Fast on Their Own Terms]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-delivers-new-approach-to-composability</link>
+            <guid>https://www.sap.com/news/2023/03/sap-delivers-new-approach-to-composability</guid>
+            <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is introducing a new composability offering in SAP Commerce Cloud. Read to learn about this unique, composable approach.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/commerce</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Swarovski and SAP Ignite Luxury in the Cloud]]></title>
+            <link>https://www.sap.com/news/2023/03/swarovski-ignite-luxury-cloud</link>
+            <guid>https://www.sap.com/news/2023/03/swarovski-ignite-luxury-cloud</guid>
+            <pubDate>Thu, 09 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Swarovski has chosen RISE with SAP and SAP Commerce Cloud to help save costs and improve efficiency. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[The Power of Personalization in an Increasingly Digital World]]></title>
+            <link>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</link>
+            <guid>https://www.sap.com/news/2023/02/power-of-personalization-in-increasingly-digital-world</guid>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Personalization, enabled by SAP solutions, can build relationships, increase customer lifetime value, and enhance customer engagement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/fashion</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>news-tag/sap-experience-center</category>
+            <category>product/sap-intelligent-returns-management</category>
+            <category>product/sap-s4hana-retail</category>
+        </item>
+        <item>
+            <title><![CDATA[At DAIMANI, Proven Cloud Tech Makes Life Easier]]></title>
+            <link>https://www.sap.com/news/2023/02/daimani-proven-cloud-tech-makes-life-easier</link>
+            <guid>https://www.sap.com/news/2023/02/daimani-proven-cloud-tech-makes-life-easier</guid>
+            <pubDate>Wed, 15 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cloud technology helps ensure that DAIMANI’s customers enjoy their events without ever thinking about all that’s running in the background.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/media: industry/sports-entertainment</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Commerce Cloud Powers Record $31.9 Billion in 2022 Holiday Digital Commerce Sales]]></title>
+            <link>https://www.sap.com/news/2023/01/sap-commerce-cloud-2022-holiday-retail-season</link>
+            <guid>https://www.sap.com/news/2023/01/sap-commerce-cloud-2022-holiday-retail-season</guid>
+            <pubDate>Fri, 06 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2022 holiday retail season is a wrap, with SAP Commerce Cloud powering US$31.9 billion in digital commerce gross merchandise value.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Commerce Cloud Powers Record $31.9 Billion in 2022 Holiday Digital Commerce Sales" src="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-commerce-cloud-powers-record-319-billion-in-2022-holiday-digital-commerce-sales">SAP Commerce Cloud Powers Record $31.9 Billion in 2022 Holiday Digital Commerce Sales</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="future-proof-your-customer-experience-strategy-with-sap-commerce-cloud">Future-proof your customer experience strategy with SAP Commerce Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/commerce-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The hotly anticipated 2022 holiday season is a wrap! The most wonderful time of year turned out to be flat for retailers, with one twinkly exception: online sales.</div>
+    </div>
+  </div>
+  <p>This year, <a href="/topics/sap-commerce-cloud">SAP Commerce Cloud</a> powered US$31.9 billion in digital commerce gross merchandise value (GMV) for the entire holiday season, covering more than 70 countries around the world. Specifically, our retail customers saw a year-over-year increase of 80% in GMV, with a 29% increase in average order value (AOV).</p>
+  <p>According to <a href="https://investor.mastercard.com/investor-news/investor-news-details/2022/Mastercard-SpendingPulse-U.S.-Retail-Sales-Grew-7.6-This-Holiday-Season/default.aspx">MasterCard’s SpendingPulse, U.S. retail sales increased 7.6% year over year this holiday season</a>. The metrics from MasterCard are not adjusted for inflation and with <a href="https://www.bls.gov/opub/ted/2022/consumer-price-index-up-7-1-percent-over-the-year-ended-november-2022.htm">inflation at 7.1% at the end of November</a>, most of that growth can be attributed to it. Online sales increased 10.6% year over year, making up 21.6% of total retail sales.</p>
+  <p>There is no doubt that inflation has changed the way consumers shop. Many have adjusted to spend less on discretionary items and spend more on experiences. Therefore, it was critical for retailers to offer valuable deals this season with consumers likely hunting for the best promotions. Retail customers of SAP Commerce Cloud saw a healthy growth in GMV and AOV in addition to a 138% increase in conversion rates. All this indicates better targeted traffic by retailers.</p>
+  <p>“Despite the challenging macro-economic environment, SAP Commerce Cloud retail customers were able achieve record-breaking holiday results,” said Riad Hijal, global head of Marketing and Solution for SAP Commerce Cloud. “Our embedded intelligence and broad capability set enabled them to identify and target the right customers with relevant promotions and offers without over-sacrificing margin. This led to higher conversion rates, AOV, and ultimately profitability.”</p>
+  <p>According to the <a href="https://www.eiu.com/n/campaigns/consumer-in-2023/#:~:text=Inflation%20will%20weaken%20retailers&#x27;%20profits,slowing%20growth%20in%20real%20terms.">Economist Intelligence consumer goods and retail outlook</a> for the 2023, we can expect inflation to continue to dominate the discussion as it squeezes retailers, their profits, and the job market. Consumers will continue to look for deals and price reductions, likely fueling larger market shares for discount stores. They also predict that online sales will slow down even as its share of total retail sales will continue to steadily grow.</p>
+  <p>To learn more, <a href="https://www.sap.com/products/crm/commerce-cloud.html?source=social-Global-LINKEDIN_COMPANY-MarketingCampaign-CRM_and_Customer_Experience-SAPCX-BFCM_Card1-ComProduct-spr-8313917272-account_name&#x26;campaigncode=CRM-YA22-BSC-1440506&#x26;sprinklrid=8313917272">visit the SAP Commerce Cloud solution area of sap.com</a> and join us at NRF: Retail’s Big Show. Learn more about <a href="https://events.sap.com/noam/nrf/en/home">SAP at NRF at events.sap.com</a>.</p>
+  <p><a href="https://youtu.be/FIVuB3qKWWg">https://youtu.be/FIVuB3qKWWg</a></p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p><em>Winnie Tran is director of Product Marketing for SAP Commerce Cloud.</em></p>
+        <p>All SAP data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. Financial figures have been converted into USD. Data represents sales made by SAP Commerce Cloud global merchants.</p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[smart Europe Offers Car Drivers a Hyper-Personalized Customer Journey]]></title>
+            <link>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</link>
+            <guid>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</guid>
+            <pubDate>Wed, 28 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[smart Europe is breaking new ground with its direct sales model. Read how its central e-commerce platform supports all customer interactions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[This Bathroom and Wellness Business Is Growing Strong Thanks to Top Tech and Design]]></title>
+            <link>https://www.sap.com/news/2022/12/eczacibasi-growing-strong-top-tech-and-design</link>
+            <guid>https://www.sap.com/news/2022/12/eczacibasi-growing-strong-top-tech-and-design</guid>
+            <pubDate>Fri, 23 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eczacibaşi, a Turkish building materials company and industry leader, is digitalizing to drive efficiency and reduce waste. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/innovation</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[A Revolution in Product Discovery with Zoovu Apps on SAP Store]]></title>
+            <link>https://www.sap.com/news/2022/12/revolution-in-product-discovery-zoovu-sap-store</link>
+            <guid>https://www.sap.com/news/2022/12/revolution-in-product-discovery-zoovu-sap-store</guid>
+            <pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Zoovu humanizes product discovery, making products easier to find, evaluate, and buy by bringing context to your search. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-cpq</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>news-tag/sap-digital-commerce</category>
+            <category>product/sap-sales-cloud</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Commerce Cloud Black Friday and Cyber Monday Results Show Shoppers’ Willingness to Spend]]></title>
+            <link>https://www.sap.com/news/2022/12/sap-commerce-cloud-black-friday-cyber-monday-holiday-shopping-results</link>
+            <guid>https://www.sap.com/news/2022/12/sap-commerce-cloud-black-friday-cyber-monday-holiday-shopping-results</guid>
+            <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Commerce Cloud enabled brands to maximize traffic and conversions of holiday shopping during Black Friday and Cyber Monday this year.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Commerce Cloud Black Friday and Cyber Monday Results Show Shoppers’ Willingness to Spend" src="./media_1af5de22ea9202f9d958b920f3c3d1359aa1f6ee5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-commerce-cloud-black-friday-and-cyber-monday-results-show-shoppers-willingness-to-spend">SAP Commerce Cloud Black Friday and Cyber Monday Results Show Shoppers’ Willingness to Spend</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>‘Tis the season to be shopping, and retailers around the world have been gearing up for what is still the most important time of the year for shoppers – the holidays. While Black Friday and Cyber Monday usually kick off the official holiday season, we’ve seen many retailers start as early as the beginning of November to capture more market share sooner and stay ahead of the curve.</div>
+    </div>
+  </div>
+  <p>But Cyber Week still reigns supreme for shoppers as the year’s most important shopping weekend. This year, <a href="/topics/sap-commerce-cloud">SAP Commerce Cloud</a> powered over <strong>US$8.3 billion in digital commerce gross merchandise value</strong> (GMV) for Cyber Week. Specifically, our retail customers saw a <strong>22.3% increase in average order value</strong> (AOV) year over year.</p>
+  <p>The National Retail Federation (NRF) is predicting <a href="https://nrf.com/media-center/press-releases/nrf-predicts-healthy-holiday-sales-consumers-navigate-economic">6% to 8% growth in sales</a> compared with the same period last year, which is significantly lower than the 13% growth the year prior. We believe some of that growth can be attributed to <a href="https://www.bls.gov/cpi/">inflation, which was at 7.7%</a> as of late October.</p>
+  <p>Inflation – coupled with a looming recession – has affected shopper spending habits, but not in the ways most people would expect. Many insiders and analysts predicted that shoppers would be buying less and paying more, but with <a href="https://www.cnbc.com/2022/11/13/retailers-biggest-holiday-wish-is-to-get-rid-of-all-that-excess-inventory.html">retailers sitting on lots of inventory</a> this season, deals and promotions have been plentiful. In addition, shoppers aren’t necessarily shopping less, but instead <a href="https://nrf.com/research-insights/holiday-data-and-trends/winter-holidays">spreading out their purchases by buying earlier</a>. To help with cash flow, many shoppers are dipping into savings, relying on credit cards, or taking advantage of buy-now-pay-later options at checkout to be sure that they can still make the holidays work for themselves and their loved ones.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="reinvent-simplify-and-strengthen-your-e-commerce-business-with-sap">Reinvent, simplify, and strengthen your e-commerce business with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="shoppers-are-looking-for-deals-and-promotions">Shoppers Are Looking for Deals and Promotions</h2>
+  <p>These spending trends are reflected in shoppers’ online behaviors as well, evidenced by movement in site traffic. For Black Friday, overall site traffic for SAP Commerce Cloud customers increased 23% versus last year. For these same customers on Cyber Monday, overall site traffic increased 53%.</p>
+  <p>In addition to site traffic, retail customers leveraging SAP Commerce Cloud saw Black Friday conversion rates of 3.4 times more versus last year, as well as Cyber Monday conversion rates 2.9 times more versus last year.</p>
+  <p>What’s more impressive are the site traffic metrics and conversion rates when we zoom in on our business-to-consumer (B2C) retail customers running sales events, which show that shoppers are actively looking for deals and will buy if the deals are attractive enough. Black Friday traffic for retailers running SAP Commerce Cloud that executed sales events was 33% higher year over year, versus a 16% increase for the total data set. Conversion rates during these events were even more impressive, with an explosive 209% higher year over year for those that ran them, compared to a 4% increase for the total data set. On Cyber Monday, traffic for retailers running sales events using SAP Commerce Cloud was 58% higher year over year, versus a 40% increase for the total data set. Conversion rates were similarly great, coming in at 382% higher year over year for those that ran sales events, compared to 5% less year over year for the whole data set.</p>
+  <h2 id="what-to-expect-and-key-recommendations-for-brands">What to Expect and Key Recommendations for Brands</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-how-sap-commerce-cloud-integrates-each-customers-digital-activities-to-deliver-a-personalized-shopping-experience">Learn how SAP Commerce Cloud integrates each customer's digital activities to deliver a personalized shopping experience</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/oth/commerce-retail/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>EMarketer’s Insider Intelligence <a href="https://www.insiderintelligence.com/content/cyber-monday-projected-biggest-online-shopping-day-ever">predicts the remainder of the season will grow at 7%</a>, and with the current <a href="https://data.oecd.org/leadind/consumer-confidence-index-cci.htm">consumer confidence index at 96.5</a>, it’s hard to say if spending will persist throughout the rest of the holiday shopping season into the new year.</p>
+  <p>Despite the current uncertainty, retailers can stay agile to cater to shoppers’ needs, meeting and exceeding their expectations while responding to dynamic market conditions. Having the right levers to pull at any time is key to successful holiday sales growth, so they should leverage their technology to monitor changing shopping behaviors and identify and convert on growth opportunities by quickly adding new touchpoints and experiences. Finally, they can ensure the last-mile journey for shoppers is frictionless by ensuring inventory levels will meet demand and fulfillment is not backlogged, ultimately avoiding the dreaded post-holiday returns that can eat into the growth they worked so hard for.</p>
+  <div class="quote">
+    <div>
+      <div>To learn more about SAP Commerce Cloud, <a href="https://www.sap.com/products/crm/commerce-cloud.html?source=social-Global-LINKEDIN_COMPANY-MarketingCampaign-CRM_and_Customer_Experience-SAPCX-BFCM_Card1-ComProduct-spr-8313917272-account_name&#x26;campaigncode=CRM-YA22-BSC-1440506&#x26;sprinklrid=8313917272">visit the solution page</a>.</div>
+    </div>
+    <div>
+      <div>All data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. All financial figures are in USD. Data represents online and offline sales made by SAP global merchants.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/e-commerce</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in 2022 Gartner® Magic Quadrant™ for Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-digital-commerce-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-digital-commerce-sap-a-leader</guid>
+            <pubDate>Wed, 17 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP been named a leader in the 2022 Gartner Magic Quadrant for Digital Commerce for the eighth time. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Automakers Steer Toward Sustainable Supply Chains]]></title>
+            <link>https://www.sap.com/news/2022/08/automakers-steer-toward-sustainable-supply-chains</link>
+            <guid>https://www.sap.com/news/2022/08/automakers-steer-toward-sustainable-supply-chains</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Electric vehicles (EV) are disrupting the auto industry, giving companies like ElectraMeccanica a historic opportunity to reinvent mobility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Bridge the Coder Talent Gap to Accelerate the Innovation of Personalized Experiences]]></title>
+            <link>https://www.sap.com/news/2022/07/bridge-coder-talent-gap-lcnc-accelerate-innovation</link>
+            <guid>https://www.sap.com/news/2022/07/bridge-coder-talent-gap-lcnc-accelerate-innovation</guid>
+            <pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP partners are tapping into a new community of innovators by joining the low-code/no-code (LCNC) movement. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/low-code-no-code</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-intelligent-rpa</category>
+            <category>news-tag/sap-partneredge</category>
+            <category>news-tag/sap-partneredge-build</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Ducati Accelerates Innovation and Customer Experience with SAP]]></title>
+            <link>https://www.sap.com/news/2022/05/ducati-accelerates-innovation-customer-experience</link>
+            <guid>https://www.sap.com/news/2022/05/ducati-accelerates-innovation-customer-experience</guid>
+            <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Italian motorcycle manufacturer Ducati Motor Holding S.p.A. has chosen RISE with SAP to enable an important business transformation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-integrated-business-planning-for-supply-chain</category>
+        </item>
+        <item>
+            <title><![CDATA[Forter Trust Platform: On the Right Side of Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</link>
+            <guid>https://www.sap.com/news/2022/04/forter-trust-platform-digital-commerce</guid>
+            <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To combat fraud, the Forter Trust Platform recognizes shoppers through their data profile and authenticates them quickly and automatically.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Forter Trust Platform: On the Right Side of Digital Commerce" src="./media_1452c9c8db651a795c453d665f6511e78d518a805.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="forter-trust-platform-on-the-right-side-of-digital-commerce">Forter Trust Platform: On the Right Side of Digital Commerce</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>If your organization has a stake in preventing fraud across your digital commerce operations, I’ll venture to say that you want Michael Reitblat and his team at Forter on your side.</div>
+    </div>
+  </div>
+  <p>As co-founder of the preeminent fraud-detection platform on the market – now available on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a> – Reitblat told me that he has long experience in the “bad guy space,” building a successful career around staying ahead of bad actors. That means he’s the good guy for those making an honest living selling products and services online, and for buyers and shoppers making purchases digitally.</p>
+  <p>Known as “The Trust Platform” for digital commerce, Forter doesn’t focus on keeping people out, rather on creating a seamless customer experience for trusted shoppers. How is this done? Machine learning and automated decisioning. Built upon a data set of billions of online identities, the Forter platform provides accurate decisions on whether the end shopper is who they say they are instantly. This ability to provide real-time decisions also streamlines merchant operations, eliminating any dependence on manual transaction reviews. That’s the key to understanding the value of this great app.</p>
+  <p>The truth is that both online consumers and merchants are victimized by sophisticated, well-organized fraud networks, Reitblat explained, stealing and selling data in a chain of hard-to-detect transactions. To counteract that, merchants can inadvertently block shoppers who most need to purchase online because they fit the “wrong profile” – living in a country known for a high preponderance of fraudsters, for example. Someone might live a long distance from a physical retailer and be unable to buy essential items online, through no fault of their own. “We are here to give those buyers access, and that is a great source of pride,” he remarked. Further, if a consumer faces hurdles to online purchasing because of clumsy verification processes, they’ll just shop somewhere else. It is therefore crucial to eliminate false declines and reduce friction throughout the purchase journey.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-the-forter-trust-platform">Learn more about the Forter Trust Platform</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Trust%20Platform%20for%20Digital%20Commerce">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="foiling-scams-through-a-circle-of-trust">Foiling Scams through a Circle of Trust</h2>
+  <p>It’s somewhat ironic that the best way to thwart fraud is to operate in an environment of trust. In fact, trust among competitors is at the heart of Forter Fraud Protection. Criminals will target one type of company – a shoe manufacturer, for example – and, when detected, move on to exploit the next, giving them the advantage. “We reverse that asymmetry,” Reitblat said. “If you attack one of our customers, the others are immunized, thanks to an aggregated global network of data. They would never share their data with each other, but they are happy to do it through us.” Simply put, the Forter solution is built to recognize people through their data profile and authenticate them quickly and automatically.</p>
+  <p>I asked Reitblat about credit card protection. When a consumer reports a fraudulent charge, he replied, the onus is on the retailer, who is left with the expense and is subject to fines or suspension by the credit card issuers if there are too many instances. I was also curious about how Forter stays in front of the fraudsters. Let’s just say that Reitblat, who grew up in Israel and was once a member of the intelligence community there, has his people. “Detecting security breaches, theft, the dark economy – it’s the same world,” he said. “We have an active research team staying on top of these constantly evolving threats.”</p>
+  <h2 id="strength-in-numbers">Strength in Numbers</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-all-that-sap-store-has-to-offer">Explore all that SAP Store has to offer</h3>
+      </div>
+      <div><strong><a href="http://store.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Reitblat co-founded Forter after working with a cybersecurity company that went through an acquisition – a crushing blow for him. Fortunately, he had reunited with an old high school friend from Jerusalem who also recognized that online commerce was about to take off. “In 2013, we still had to convince investors of the need for an authentication capability, and that it had to be fully automated or otherwise would require too many people to be scalable.” That resistance changed quickly, and today Forter is larger than many of its major customers, processing more than US$250 billion in transaction value per year and employing 500 professionals around the world. The solution is deployed in more than 30 countries.</p>
+  <p>The <a href="http://news.sap.com/tags/covid-19">events of the past two years</a> have resulted in a burst of demand that Reitblat and his partner could not have foreseen. Besides the explosion in online shopping, purchasing behavior and customer demographics across industries changed. New retail features appeared, like curbside pickup, buy online/pick up in store (BOPIS), and contactless check-in and check-out in the hospitality industry. New online buyers included senior citizens, students, and those in advancing geographies who had never transacted online before. Additionally, with the sudden surge of orders to be delivered to alternate addresses – holiday gifts, for example, or people purchasing for family members – e-commerce systems had an extra challenge in verifying legitimacy. That process was less complex for Forter customers because its customers were already authenticated in the system.</p>
+  <p>Forter Fraud Protection is tightly integrated with SAP Commerce Cloud. Laura Jorgens, director of Partnerships for Forter, acknowledged SAP partner <a href="https://netconomy.net/">Netconomy</a> for its “incredible support” in building out the integration. “Working with SAP and Netconomy feels like one ecosystem pulling together,” she said. “Hats off to the SAP partnership organization.” With the inclusion of Forter’s solution on SAP Store, she added, “SAP has become one of Forter’s most important partners.”</p>
+  <p>Why not see for yourself how <a href="https://www.youtube.com/watch?v=Tp3RHdk5Yic">Forter Trust Platform</a> works? The solution was just <a href="https://store.sap.com/dcp/en/news-blogs/blogs/celebrating-the-20th-year-of-sap-pinnacle-awards-and-partner-innovations-on-sap-store">named</a> an SAP Pinnacle Award finalist in the New App of the Year on SAP Store category. It’s available for download on <a href="https://store.sap.com/dcp/en/product/display-0000042467_live_v1/Forter%20Fraud%20Protection">SAP Store</a>. Or download the SAP and Forter <a href="https://l.forter.com/hubfs/forter-SAP-brochure.pdf">overview brochure</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Rajiv Nema is senior director of SAP Store Partner Solutions.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/e-commerce</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-digital-commerce</category>
+            <category>sap-award/sap-pinnacle-awards</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Augmented Reality Boosts Online Shopping Sales up to 200%]]></title>
+            <link>https://www.sap.com/news/2022/01/augmented-reality-boosts-online-shopping-sales-up-to-200</link>
+            <guid>https://www.sap.com/news/2022/01/augmented-reality-boosts-online-shopping-sales-up-to-200</guid>
+            <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Indian startup Adloid uses augmented reality (AR) to deliver immersive, personalized online shopping experiences. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Augmented Reality Boosts Online Shopping Sales up to 200%" src="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="augmented-reality-boosts-online-shopping-sales-up-to-200">Augmented Reality Boosts Online Shopping Sales up to 200%</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>For shoppers who’ve yearned for an immersive, personalized experience that’s open 24/7, mobile <a href="/topics/augmented-reality">augmented reality (AR)</a> technology is the real-time deal of the next era. Bangalore-based startup <a href="https://www.adloid.io/index.php">Adloid</a> is leading the charge with a platform that turns two-dimensional search and discovery into a full-fledged 3D experience, whether someone is in the market for automobiles or bikes, household furniture, consumer electronics, or personal lifestyle products.</div>
+    </div>
+  </div>
+  <p>“Our AR platform gives consumers and companies personalized virtual shopping and training experiences, expanding the horizon of what AR can do for any brand or company,” said Kanav Singla, founder and CEO of Adloid. “We’re making the benefits of this technology more accessible and contextual to create an immersive experience for customers or employees on an e-commerce Website or within applications, directly from someone’s mobile device.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Can Artificial Intelligence Take the Guesswork Out of the Customer Journey?</h3>
+      </div>
+      <div><strong><a href="/2021/12/can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="convenient-try-before-you-buy-shopping">Convenient ‘Try Before You Buy’ Shopping</h2>
+  <p>Unlike earlier AR tech that relied on clunky headsets with varied compatibility, Adloid’s AR platform runs on any smartphone, allowing customers to experience products at scale, in context. Once the online shopper logs in through their phone, the device’s camera scans their real-world surroundings and virtually mirrors the retailer’s or manufacturer’s product.</p>
+  <p>“People can see how a new sofa or chair would fit into their home or apartment with a click of their smartphone,” said Singla. “Consumers can virtually try on jewelry, makeup, and other products. Remote workers can see if that laptop, screen, and desk configuration will fit in their home office. It’s as if the actual products are in front of you.”</p>
+  <p>He added that manufacturers were interested in using the AR platform within training modules for industrial machinery service technicians, providing them with hands-on learning in a virtual setting.</p>
+  <h2 id="immersive-product-discovery-experience">Immersive Product Discovery Experience</h2>
+  <p>On the consumer side, AR technology is tailor-made for online shoppers who can’t get enough information about products they might purchase.</p>
+  <p>“For someone trying to decide between different car models, AR lets them virtually go inside the trunk to see how much space is in there,” said Singla. “They can open and close the sunroof or try out the controls on the entertainment console, experiencing various car options before going to the showroom.”</p>
+  <p>Automotive manufacturers are among the startup’s biggest customers, along with e-commerce platforms of all sizes, retailers with or without brick-and-mortar stores, and manufacturers located in the U.S., Germany, and India.</p>
+  <h2 id="augmented-reality-increases-sales">Augmented Reality Increases Sales</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-labs-india">Learn more about SAP Labs India</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/india/about/labs-india.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Some customers using Adloid have increased sales conversions from online channels up to 200%. One online retailer tripled the number of online customers who purchased consumer items after using the tool. AR also boosts customer engagement time viewing product images and videos from an average of 30 seconds to a whopping eight minutes.</p>
+  <p>“Instead of being limited by a finite number of pre-posted images or videos, AR allows people to interact longer with products in a more personalized way, creating a powerful sales channel that’s always on at the customer’s convenience,” said Singla. “People can better understand how a product would fit into their lives, in many cases motivating them to make a purchase decision during that single online session.”</p>
+  <h2 id="connected-data-for-intelligent-enterprise">Connected Data for Intelligent Enterprise</h2>
+  <p>Adloid securely anonymizes all customer data and doesn’t store any personal images or other information once someone ends their AR session. However, organizations can extract valuable insights from the tool’s analytics.</p>
+  <p>“A car might come in six colors, but which ones are customers viewing the most? Companies can see what options people are most interested in, then connect back to inventory management to make sure they can meet market demands,” said Singla.</p>
+  <p>Indeed, one of Adloid’s biggest strengths is working with the SAP Startup Studio for India, <a href="https://www.sap.com/india/about/labs-india.html">SAP Labs India’s</a> startup accelerator program. Singla said that his team gained validation for product iterations, along with access to SAP solutions, including <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, and the company’s enterprise customers.</p>
+  <p>“Working with a global leader like SAP gives our product immediate credibility because we learned what customers were looking for,” he said. “Adloid is integrated with <a href="https://www.qualtrics.com/">Qualtrics</a>, <a href="https://www.sap.com/products/crm/e-commerce-platforms.html">SAP Commerce Cloud</a>, and <a href="https://www.sap.com/products/s4hana-erp/pricing.html">SAP S/4HANA</a>, helping companies connect data to become intelligent enterprises.</p>
+  <h2 id="ar-bridges-gap-between-e-commerce-and-cx">AR Bridges Gap Between E-Commerce and CX</h2>
+  <p>Singla’s entrepreneurial spirit was initially sparked by his family, all of whom own businesses. He founded his first startup at age 21 during his undergraduate studies in engineering, then saw a major selling gap as e-commerce took off.</p>
+  <p>“Companies went online with their catalogs, but customers couldn’t more fully experience these products,” he said. “I launched Adloid to turn e-commerce into 3D commerce where customers can try out products virtually on their mobile device. We expect AR will provide immersive experiences in more consumer and B2B online sites including fashion, travel and tourism, and large industrial machinery.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler.</em><br><em><a href="https://www.forbes.com/sites/sap/2021/09/28/augmented-reality-boosts-online-shopping-sales-up-to-200/?sh=249fcb717b26">This blog also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/ar</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/qualtrics</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in 2021 Gartner Magic Quadrant for Digital Commerce]]></title>
+            <link>https://www.sap.com/news/2021/09/gartner-magic-quadrant-for-digital-commerce-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2021/09/gartner-magic-quadrant-for-digital-commerce-sap-a-leader</guid>
+            <pubDate>Thu, 09 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has been named a Leader in the Gartner Magic Quadrant for Digital Commerce for the seventh time. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Named a Leader in 2021 Gartner Magic Quadrant for Digital Commerce" src="./media_1a4c969871301bddfedbdb094fe5b6142c0715599.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-named-a-leader-in-2021-gartner-magic-quadrant-for-digital-commerce">SAP Named a Leader in 2021 Gartner Magic Quadrant for Digital Commerce</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="digital-commerce-deliver-a-rich-personalized-omnichannel-e-commerce-experience-and-gain-agility-to-meet-ever-changing-customer-needs">Digital Commerce: Deliver a rich, personalized omnichannel e-commerce experience and gain agility to meet ever-changing customer needs</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced it has been named a Leader in the 2021 Gartner® Magic Quadrant™ for Digital Commerce* for the seventh time. In its latest 2021 report, Gartner assessed solutions from 17 vendors including <a href="https://www.sap.com/products/crm/e-commerce-platforms.html">commerce solutions from SAP</a>.</p>
+      </div>
+    </div>
+  </div>
+  <p>Brands globally, including appliance manufacturer De’Longhi, nutritional products distributor Kyani and retailer Abrakadabra, have recently selected SAP solutions to help deliver a rich, personalized omnichannel e-commerce experience that is reliable and scales to meet the demands of their customers.</p>
+  <p>“We believe this latest positioning as a Leader by Gartner is why brands across industries and geographies are turning to SAP to broaden their commerce reach without compromising flexibility,” said Nuno Pedro, global head, Commerce Solutions, SAP. “Digital commerce solutions from SAP enable success across different industries, marketplaces and business models by providing customers enjoyable, individually relevant, in-the-moment experiences.”</p>
+  <p><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Digital commerce solutions from SAP</a>, which include <a href="https://www.sap.com/products/commerce-cloud.html">SAP Commerce Cloud</a> and <a href="https://www.sap.com/products/crm/e-commerce-platforms.html#upscale-commerce">SAP Upscale Commerce</a>, help brands convert more customers by turning engagements into personal, shoppable moments. Additional companies that recently chose digital commerce solutions from SAP in the first half of 2021 include the following:</p>
+  <ul>
+    <li><strong>Hangcha Group</strong> is one of the largest forklift manufacturers in China and among the top 10 in the world. Hangcha Group chose SAP Commerce Cloud to simplify its front-end sales order intake process and integrate with its back-end digital core system, supporting the group’s business transformation and boosting sales revenue.</li>
+    <li><strong><a href="/2021/06/sapphire-now-sap-upscale-commerce-midmarket-brands">JOY</a></strong>, a Swedish fashion retailer, no longer has any physical stores and is instead focusing on e-commerce and personalized fashion advice. Its founders see JOY as a startup building next-generation e-commerce based on AI and slow fashion — a more sustainable alternative with clothes lasting several seasons. JOY is also the first company in the world that has selected the combination of the cloud-based solution SAP Upscale Commerce and the SAP Emarsys Customer Engagement platform.</li>
+    <li><strong>Perfumes y Esencias Fraiche</strong>, a Mexican company specializing in fragrances and essences that serves more than 20 million people through different sales channels, chose SAP Commerce Cloud and SAP Marketing Cloud. With these solutions, the company can strengthen its online presence to meet new consumer needs, using a solid digital strategy that enables personalized fragrance sales for its customers and through thousands of distributors.</li>
+    <li><strong><a href="/2021/05/leading-european-organizations-deichmann-chemie-sap-cx">WAGO Kontakttechnik GmbH &#x26; Co</a></strong>. KG is a leading German manufacturer of electrical connections and components, and a specialist in spring clamps for automation. It recently implemented SAP Commerce Cloud solutions as part of its cloud transformation. With SAP Commerce Cloud integrated with SAP Marketing Cloud and the SAP ERP application, it plans to provide a great e-commerce experience for its business-to-business (B2B) customers.</li>
+    <li><strong><a href="/2021/05/leading-european-organizations-deichmann-chemie-sap-cx">Wacker Chemie</a></strong> is a leading German player in highly developed specialty products for several industrial sectors. It recently implemented SAP Commerce Cloud as its new B2B e-commerce system to increase sales and improve customer satisfaction.</li>
+  </ul>
+  <p>Digital commerce solutions from SAP are part of the <a href="https://www.sap.com/products/crm.html">SAP Customer Experience</a> portfolio, which goes beyond traditional CRM solutions by bringing together customer data, experiential and operational data, and machine learning.</p>
+  <p>To learn more, download a <a href="https://www.sap.com/cmp/cx/gartner-magic-quadrant-e-commerce/index.html?campaigncode=CRM-HY21-CIP-AGTMQDC&#x26;source=onlinedisplay-glo--commerce-led-experiences">complimentary copy of the report</a>, including Gartner’s in-depth analysis of the digital commerce landscape.</p>
+  <p>SAP was also recognized for the third consecutive year as a Leader in the <a href="/2021/08/sap-leader-2021-gartner-magic-quadrant-sales-force-automation">2021 Gartner Magic Quadrant for Sales Force Automation</a>.** Additionally, Emarsys, now part of SAP, was recently named a Leader for the third time in the <a href="/2021/07/emarsys-personalization-engines-magic-quadrant">2021 Gartner Magic Quadrant for Personalization Engines</a>.***</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Samantha Finnegan, +1 (415) 377-0475, <a href="mailto:samantha.finnegan@sap.com">samantha.finnegan@sap.com</a>, ET<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>*Gartner, “Magic Quadrant for Digital Commerce,” Jason Daigler, Yanna Dharmasthira, Sandy Shen, Penny Gillespie, Mike Lowndes, Aditya Vasudevan, August 31, 2021.<br>**Gartner, “Magic Quadrant for Sales Force Automation,” Adnan Zijadic, Ilona Hansen, Melissa Hilbert, Steve Rietberg, August 4, 2021.<br>***Gartner, “Magic Quadrant for Personalization Engines,” Jason McNellis, Claire Tassin, Jennifer Polk, July 19, 2021.<br><em>Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</em><br><em>Gartner and Magic Quadrant are registered trademarks of Gartner, Inc. and/or its affiliates in the U.S. and internationally and is used herein with permission. All rights reserved.</em></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/digital-commerce</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[Building a Resilient E-Commerce Business with Arrow Electronics]]></title>
+            <link>https://www.sap.com/news/2021/04/arrow-electronics-resilient-e-commerce</link>
+            <guid>https://www.sap.com/news/2021/04/arrow-electronics-resilient-e-commerce</guid>
+            <pubDate>Fri, 30 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[For Arrow Electronics, industry trends impact commerce strategy. Learn what it's doing to support evolving business and customer needs.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/commerce</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>industry/wholesale-distribution</category>
+        </item>
+        <item>
+            <title><![CDATA[Bloomreach: E-Commerce with a Personalized Touch]]></title>
+            <link>https://www.sap.com/news/2021/03/bloomreach-personalized-e-commerce</link>
+            <guid>https://www.sap.com/news/2021/03/bloomreach-personalized-e-commerce</guid>
+            <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bloomreach for SAP Commerce Cloud, available on SAP Store, enables B2B and retail companies to blend content and commerce for buyers.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_138e40770a2de2498ddbb8cb25deb0499647c8fbd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_138e40770a2de2498ddbb8cb25deb0499647c8fbd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_138e40770a2de2498ddbb8cb25deb0499647c8fbd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Bloomreach: E-Commerce with a Personalized Touch" src="./media_138e40770a2de2498ddbb8cb25deb0499647c8fbd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="bloomreach-e-commerce-with-a-personalized-touch">Bloomreach: E-Commerce with a Personalized Touch</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Since <a href="/covid-19">COVID-19</a>, have you been shopping online more or less over the past 12 months? If you answered “more,” you are like most consumers, who have been avoiding physical stores in this age of social distancing. And have you noticed that your browsing experience is becoming more personalized? If so, you could very well have <a href="https://www.store.sap.com/apps/20685?source=blog-BLOOMREACH">Bloomreach Experience (brX) for SAP Commerce Cloud</a> to thank for that.</div>
+    </div>
+  </div>
+  <p>The app, now available on <a href="https://store.sap.com/en/">SAP Store</a>, enables both business-to-business (B2B) and retail companies to blend content and commerce across the entire buyer’s journey and to provide one-to-one personalization for every visitor and customer. The app enables content such as blogs, landing pages, and product detail pages to be combined, matching products to user intent.</p>
+  <p>“It looks easy, but it’s actually quite difficult to do,” said Brian Walker, chief strategy officer at Bloomreach. “The secret is in data and AI.” Bloomreach has all the right ingredients, he noted: As a strong complement to SAP Commerce Cloud, brX brings in a data platform purpose-built to leverage artificial intelligence.</p>
+  <p>Walker should know. He joined Bloomreach about 18 months ago after a long career with leading companies including American Express, Forrester, Accenture, and SAP before deciding to get back to a growth-stage company. “I’m interested in the long-term thesis of what’s required in taking advantage of rich customer and product data to deliver an exceptional customer experience.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="shop-brx-on-sap-store-now">Shop brX on SAP Store now</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/en/product/display-0000020685_live_v1?source=blog-BLOOMREACH">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="supporting-the-swift-pivot-to-digital-first-touchless-business-models">Supporting the Swift Pivot to Digital-First, Touchless Business Models</h2>
+  <p>His timing was right. In 2020, the role of e-commerce rose radically and companies had to make a fast pivot from an <a href="https://www.sap.com/dmc/exp/2021-06-75752-hd-cx-retail/index.html">omnichannel to a digital-first strategy</a>. Many retailers and food purveyors swiftly began to offer curbside pickup and incorporate QR codes, “surprising themselves at how quickly they made the shift,” Walker added.</p>
+  <p>That includes many types of merchants you might not expect. For example, do-it-yourself home improvement has skyrocketed, and people are picking up building supplies curbside and getting construction material delivered to their doorsteps. It’s safer and maybe even more convenient than before, Walker commented.</p>
+  <p>None of this will slow down anytime soon, he predicted, even as people who enjoy the retail experience get back to in-store shopping. That’s because people tend to do their product discovery online first – and another reason why personalization is so important. Today’s consumers, especially the younger set, are <a href="https://insights.sap.com/blank-canvas/">becoming more discriminating in their purchase choices</a>. They’re increasingly seeking out brands that demonstrate environmental and social responsibility, supporting small and minority-owned businesses, and buying items for reuse to cut down on waste.</p>
+  <h2 id="providing-personal-service-even-as-business-surged">Providing Personal Service Even as Business Surged</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-blank-canvas-to-learn-more-about-how-passionate-consumers-are-changing-the-future-of-business">Watch Blank Canvas to learn more about how passionate consumers are changing the future of business</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/blank-canvas/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>I asked Walker if the vision of Bloomreach changed as a result of customers’ suddenly reengineered business models. “Our capabilities have evolved significantly over the years, expanding to cover a broader set of channels, data sets, and assets to optimize the brand experience,” he replied. “We’ve done that to support our current customers who are expanding how they work with us, as well as the many new companies signing on.”</p>
+  <p>He added that Bloomreach was fortunate to have built a solid, mature customer base – a whopping 25% of enterprise business in the U.S. and U.K. among them. The company was well prepared for the surge in business and committed early on to providing top-notch service to all of them, even as new customers jumped on board. That was possible, Walker explained, thanks to a multi-tenant cloud platform engineered for high performance and a global team fully capable of providing advisory services as customers required.</p>
+  <h2 id="integrating-with-sap-commerce-cloud-as-a-natural-fit">Integrating with SAP Commerce Cloud as a Natural Fit</h2>
+  <p>Meanwhile, I can report that SAP Commerce Cloud also experienced enormous growth in 2020. SAP Commerce Cloud and Bloomreach are a natural fit. Walker noted that SAP Store is an important part of the story since SAP has invested in making it easy for customers to do business. It’s also easy for SAP sales reps to recommend brX, he added, and most of the opportunities come through those referrals.</p>
+  <p>In fact, because <a href="/2020/07/sap-will-plant-one-tree-for-every-sap-store-and-sap-app-center-purchase">SAP has committed to planting a tree for every sale on SAP Store</a>, I predict that there will soon be whole groves planted in U.S. National Forests thanks to brX.</p>
+  <p>Why not <a href="https://www.store.sap.com/apps/20685?source=blog-BLOOMREACH">check it out now on SAP Store</a>?</p>
+  <div class="footnote">
+    <div>
+      <div><em>Bill Rojas is senior director of Business Development and Partner Alliances for SAP Digital Commerce.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Global Retailers Virgin Megastore, Sundiro Honda Select SAP Commerce Cloud to Deliver Exceptional Shopping Experiences]]></title>
+            <link>https://www.sap.com/news/2021/02/retailers-virgin-megastore-sundiro-honda-sap-commerce-cloud</link>
+            <guid>https://www.sap.com/news/2021/02/retailers-virgin-megastore-sundiro-honda-sap-commerce-cloud</guid>
+            <pubDate>Mon, 15 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Virgin Megastore, Sundiro Honda and GPP have selected SAP Commerce Cloud for world-class e-commerce experiences to customers. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/customer-news</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+    </channel>
+</rss>

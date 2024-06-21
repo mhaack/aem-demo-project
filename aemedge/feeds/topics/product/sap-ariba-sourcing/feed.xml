@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-ariba-sourcing/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 11 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Guided Sourcing Makes Achieving Strategic Goals Easier]]></title>
+            <link>https://www.sap.com/news/2024/03/guided-sourcing-makes-achieving-strategic-goals-easier</link>
+            <guid>https://www.sap.com/news/2024/03/guided-sourcing-makes-achieving-strategic-goals-easier</guid>
+            <pubDate>Mon, 11 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The guided sourcing capability for SAP Ariba Sourcing offers a wide range of benefits that can optimize and streamline procurement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-ariba-sourcing</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Unveils New Generative AI Innovations That Boost Productivity and Effectiveness in Spend Management]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-spend-connect-live-generative-ai-innovations-spend-management</link>
+            <guid>https://www.sap.com/news/2023/10/sap-spend-connect-live-generative-ai-innovations-spend-management</guid>
+            <pubDate>Mon, 09 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Spend Connect Live in Vienna, SAP has introduced new business AI and UX innovations for spend management and business network.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-ariba-buying</category>
+            <category>product/sap-ariba-contracts</category>
+            <category>product/sap-ariba-sourcing</category>
+            <category>news-tag/sap-concur</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>product/sap-spend-control-tower</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/digital-supply-chain/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 30 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Preh Eases Product Costing for Hundreds of Projects with SAP]]></title>
+            <link>https://www.sap.com/news/2024/04/how-preh-eases-product-costing</link>
+            <guid>https://www.sap.com/news/2024/04/how-preh-eases-product-costing</guid>
+            <pubDate>Tue, 30 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Preh uses SAP Product Lifecycle Costing to help increase cost transparency, improve design, and achieve time savings. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-supply-chain</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Unveils AI-Driven Supply-Chain Innovations to Transform Manufacturing]]></title>
+            <link>https://www.sap.com/news/2024/04/sap-hannover-messe-ai-supply-chain-innovations-transform-manufacturing</link>
+            <guid>https://www.sap.com/news/2024/04/sap-hannover-messe-ai-supply-chain-innovations-transform-manufacturing</guid>
+            <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[New AI supply chain advancements from SAP will unleash a transformative wave of productivity, efficiency and precision in manufacturing.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_139d76aac37abd129378ce3f34ce615947934235d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_139d76aac37abd129378ce3f34ce615947934235d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_139d76aac37abd129378ce3f34ce615947934235d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Unveils AI-Driven Supply-Chain Innovations to Transform Manufacturing" src="./media_139d76aac37abd129378ce3f34ce615947934235d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-unveils-ai-driven-supply-chain-innovations-to-transform-manufacturing">SAP Unveils AI-Driven Supply-Chain Innovations to Transform Manufacturing</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>HANNOVER</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced AI advancements in its supply chain solutions that will unleash a transformative wave of productivity, efficiency and precision in manufacturing. AI-driven insights from real-time data will help companies use their own data to make better decisions across supply chains, streamline product development and improve manufacturing efficiency.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-at-hannover-messe-bring-out-new-manufacturing-excellence">SAP at Hannover Messe: Bring out new manufacturing excellence</h3>
+        <p><em><a href="https://events.sap.com/hannovermesse/en/home">Learn how</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Businesses today are confronted with challenges ranging from supply chain disruptions and labor shortages to geopolitical uncertainties,” said Muhammad Alam, member of the Executive Board of SAP SE, SAP Product Engineering. “SAP recognizes the imperative for agility and intelligence, driving innovation with AI-powered solutions to streamline supply chain and manufacturing processes. Companies can enhance operational efficiency and improve supply chain resiliency while delighting customers with superior service, paving the way for sustained growth and market competitiveness.”</p>
+  <p>Accurate and relevant real-time information helps mitigate the impact that supply-chain disruptions have on suppliers, manufacturers and distributors worldwide. SMA Solar Technology AG and other customers have already witnessed the benefits of SAP’s solutions, including an approximately 15% increase in supply chain workforce productivity, a 10% decrease in overall supply chain planning costs and a 10% reduction in inventory carrying costs and stock turnover rate.</p>
+  <p>“SMA Solar modernizes its manufacturing execution systems to support sustainable, risk-resilient manufacturing operations with the power of AI-enabled visual inspection in the SAP Digital Manufacturing solution,” said Heiko Kehm, SMA Solar head of IT Order to Cash.</p>
+  <p>Sixty-three percent of supply chain executives and 52% of operations executives have an AI strategy linked to business objectives, according to “<a href="https://www.sap.com/documents/2024/04/2214aa25-b77e-0010-bca6-c68f7e60039b.html">The Importance of AI in Supply Chain and Operations</a>,” a global 2024 IDC InfoBrief sponsored by SAP*. Fifty-one percent of the 2,000 survey respondents are embedding AI into supply chain planning business processes and key applications for real-time decision-making. Another 58% are using AI to increase operational efficiency and employee productivity.</p>
+  <p><a href="https://community.sap.com/t5/supply-chain-management-blogs-by-sap/ai-powered-supply-chain-solutions-better-decisions-better-outcomes/ba-p/13675845">Key improvements</a> to SAP’s supply chain solutions to support customers’ AI-centric strategy include:</p>
+  <ul>
+    <li><strong>Optimizing decisions across the supply chain with AI-driven insights:</strong> Companies can now leverage higher volumes of machine data and integrate AI-driven visual inspection by computer into their production processes, enabling a remarkable increase in quality through automation.</li>
+    <li><strong>Streamlining product development:</strong> Product developers can now use SAP’s AI copilot Joule to gather and enhance new product ideas quickly and effectively using natural language queries. Joule also helps tag product designs with business data, so they visually contextualize business-critical information.</li>
+    <li><strong>Detecting equipment anomalies</strong>: Using AI, asset operators can proactively address potential breakdowns based on sensor data collected from smart devices and edge gateways. This new capacity utilizes the cutting-edge Cumulocity IoT platform from Software AG, which is planned to be embedded in the SAP Asset Performance Management application in Q3.</li>
+    <li><strong>Improving field response:</strong> Customers can optimize driving routes and allocate job assignments efficiently with integrated real-time traffic data and machine-learning-trained models, which enable the right field service technicians to reach their destinations on time.</li>
+  </ul>
+  <p>Find more details about the innovations SAP will show at Hannover Messe <a href="https://events.sap.com/hannovermesse/en/home">here</a>.</p>
+  <p>Visit the <a href="http://twitter.com/sapnews/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p>*IDC InfoBrief, sponsored by SAP, The Importance of AI in Supply Chain and Operations, document #US52042224, April 2024.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>As a global leader in enterprise applications and business AI, SAP (NYSE: SAP) stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. For more information, visit <a href="http://www.sap.com/">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong><br>Dana Roesiger, +49 6227 7 63900, <a href="mailto:dana.roesiger@sap.com">dana.roesiger@sap.com</a>, CET<br>Julie Schneider, +1 (650) 687-2788, <a href="mailto:julie.schneider@sap.com">julie.schneider@sap.com</a>, PT<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2023 Annual Report on Form 20-F.<br>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you received this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/manufacturing-2</category>
+        </item>
+        <item>
+            <title><![CDATA[RISE with SAP: Add-On Packages Help Businesses Transform Finance and Supply Chain]]></title>
+            <link>https://www.sap.com/news/2024/04/rise-with-sap-finance-and-supply-chain-add-on-packages</link>
+            <guid>https://www.sap.com/news/2024/04/rise-with-sap-finance-and-supply-chain-add-on-packages</guid>
+            <pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the RISE with SAP add-on packages for finance and supply chain, customers can reap significant value from their cloud ERP investment.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[A Clear Path to Digital Supply Chain Excellence with SAP Preferred Success]]></title>
+            <link>https://www.sap.com/news/2024/02/digital-supply-chain-excellence-with-sap-preferred-success</link>
+            <guid>https://www.sap.com/news/2024/02/digital-supply-chain-excellence-with-sap-preferred-success</guid>
+            <pubDate>Mon, 12 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Preferred Success can be a guiding light for businesses keen on transforming to digital supply chain operations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/digitalization</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Putzmeister Digitalized Global Field Service Management Processes to Increase Efficiency and Customer Satisfaction]]></title>
+            <link>https://www.sap.com/news/2023/12/putzmeister-digitalized-global-field-service-management</link>
+            <guid>https://www.sap.com/news/2023/12/putzmeister-digitalized-global-field-service-management</guid>
+            <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Putzmeister implemented SAP Field Service Management to help harmonize field service management processes locally and globally. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/field-service-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Powers Siemens Energy in SAP Digital Manufacturing Implementation Milestone]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-powers-siemens-energy-in-sap-digital-manufacturing-implementation-milestone</link>
+            <guid>https://www.sap.com/news/2023/10/sap-powers-siemens-energy-in-sap-digital-manufacturing-implementation-milestone</guid>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Siemens Energy has started to launch SAP Digital Manufacturing at five lighthouse plants in Germany, the UK and Mexico. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Powers Siemens Energy in SAP Digital Manufacturing Implementation Milestone" src="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-powers-siemens-energy-in-sap-digital-manufacturing-implementation-milestone">SAP Powers Siemens Energy in SAP Digital Manufacturing Implementation Milestone</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>MUNICH</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced that Siemens Energy, a global leader in energy technology, has started to launch the SAP Digital Manufacturing solution at five lighthouse plants located in Germany, the United Kingdom and Mexico.</p>
+      </div>
+    </div>
+  </div>
+  <p>Together with implementation partner, Syntax Systems GmbH &#x26; Co. KG, this marks a milestone for Siemens Energy as it paves the way for further rollouts of SAP Digital Manufacturing throughout the company’s global network of plants over the coming years.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-digital-manufacturing-sustainable-risk-resilient-manufacturing-is-here">SAP Digital Manufacturing: Sustainable, risk-resilient manufacturing is here</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-manufacturing-cloud.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Siemens Energy turned to SAP for a single, unified manufacturing execution system landscape that would increase productivity and support standardization across its production plants globally. With Syntax as the implementation partner introducing and moving selected plants to SAP Digital Manufacturing, Siemens Energy will be able to oversee the entire shop floor with fit-for-purpose production dashboards, which provide shop floor operators with guidance and assistance, increasing productivity.</p>
+  <p>“The implementation of SAP Digital Manufacturing at our lighthouse plants marks an important milestone in our digital transformation journey,” said Kian Mossanen, Chief Information Officer, Siemens Energy. “This collaboration equips us with the tools needed to further enhance our production capabilities and foster a data-driven culture, allowing us to even better support our customers.”</p>
+  <p>SAP Digital Manufacturing will empower the Siemens Energy sites to make fast and critical production decisions based on real-time manufacturing information. With a harmonized solution, the plants will be able to optimize production processes, while low-code plug-ins support shop floor operators during assembly activities.</p>
+  <p>“The rollout of our solutions across the production network of Siemens Energy is aimed at supporting the company on its mission of making energy more reliable, affordable and sustainable,” said Sven Mulder, Managing Director, SAP Germany. “Clean energy is one of the most important assets of our time and this can only be achieved collaboratively using real-time data and analytics.”</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong><br>Lesa Plingen, +49 622 776 9000, <a href="mailto:lesa.plingen@sap.com">lesa.plingen@sap.com</a>, CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>product/sap-digital-manufacturing</category>
+        </item>
+        <item>
+            <title><![CDATA[HANNOVER MESSE: Making Manufacturing More Resilient]]></title>
+            <link>https://www.sap.com/news/2023/04/hannover-messe-making-manufacturing-more-resilient</link>
+            <guid>https://www.sap.com/news/2023/04/hannover-messe-making-manufacturing-more-resilient</guid>
+            <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the 2023 Hannover Messe trade show, SAP showed visitors how it enables resilient, sustainable production and supply chain operations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/manufacturing-x</category>
+            <category>product/sap-digital-manufacturing</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Kearney Collaborate to Help Next-Gen Businesses Adapt to Disruptive Headwinds]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-and-kearney-next-gen-businesses</link>
+            <guid>https://www.sap.com/news/2023/03/sap-and-kearney-next-gen-businesses</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together, SAP and Kearney are making it possible to cut down on disruption-related risks while maintaining detailed end-to-end visibility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Lenovo Banks on SAP Digital Supply Chain Solutions]]></title>
+            <link>https://www.sap.com/news/2023/03/lenovo-banks-on-sap-digital-supply-chain-solutions</link>
+            <guid>https://www.sap.com/news/2023/03/lenovo-banks-on-sap-digital-supply-chain-solutions</guid>
+            <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Working with supply chain management solutions from SAP, Lenovo is taking its manufacturing processes to the next level. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-billing-and-revenue-innovation-management</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Enriched by Real-Time Data, Digital Twins Thrive in Resilient Supply Chains]]></title>
+            <link>https://www.sap.com/news/2023/01/the-take-resilient-supply-chains-digital-twins</link>
+            <guid>https://www.sap.com/news/2023/01/the-take-resilient-supply-chains-digital-twins</guid>
+            <pubDate>Fri, 27 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital twins may be the key to more dynamic, agile supply chains. Get SAP's take on the value that they can deliver to operations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Solutions Live in Action at Industry 4.0 Pop-Up Factory]]></title>
+            <link>https://www.sap.com/news/2022/11/industry-4-0-pop-up-factory</link>
+            <guid>https://www.sap.com/news/2022/11/industry-4-0-pop-up-factory</guid>
+            <pubDate>Thu, 24 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP launched the Industry 4.0 Pop-Up Factory, where customers and partners can experience SAP solutions, technologies, and innovations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/sap-experience-center</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as Leader in IDC MarketScape for Worldwide Holistic Supply Chain Planning 2022]]></title>
+            <link>https://www.sap.com/news/2022/11/idc-marketscape-worldwide-holistic-supply-chain-planning-sap-leader</link>
+            <guid>https://www.sap.com/news/2022/11/idc-marketscape-worldwide-holistic-supply-chain-planning-sap-leader</guid>
+            <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a Leader in strategy and capabilities in the IDC MarketScape: Worldwide Holistic Supply Chain Planning 2022 Vendor Assessment.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fa5ae196539d080edf29895e6ce0f91da35a0c2e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fa5ae196539d080edf29895e6ce0f91da35a0c2e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fa5ae196539d080edf29895e6ce0f91da35a0c2e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Recognized as Leader in IDC MarketScape for Worldwide Holistic Supply Chain Planning 2022" src="./media_1fa5ae196539d080edf29895e6ce0f91da35a0c2e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-recognized-as-leader-in-idc-marketscape-for-worldwide-holistic-supply-chain-planning-2022">SAP Recognized as Leader in IDC MarketScape for Worldwide Holistic Supply Chain Planning 2022</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-customer-centric-products-to-market-faster-and-at-less-cost-with-global-supply-chain-management-software-from-sap">Get customer-centric products to market faster and at less cost with global supply chain management software from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/scm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>IDC Manufacturing Insights has recognized SAP as a Leader in strategy and capabilities in the IDC MarketScape: Worldwide Holistic Supply Chain Planning 2022 Vendor Assessment.*</div>
+    </div>
+  </div>
+  <p>According to Simon Ellis, program vice president, IDC Manufacturing Insights, “Growing complexity in the supply chain, particularly increasingly diverse outsourcing, has made supply planning much more challenging. Combined with larger forecast error and a lack of complete insight into supply opportunities and constraints, the need for a competent supply planning application is central to the success of the broader supply chain.”</p>
+  <p>At SAP, we see planning as a process. The market of vendors in this space is evolving, fueled by new technology and planning approaches that put customer experience at the center. We continue to set the pace with the market-leading <a href="https://www.sap.com/products/scm/integrated-business-planning.html">SAP Integrated Business Planning for Supply Chain</a> solution as well as cloud-native innovations that have been adopted by more than 1,200 customers worldwide.</p>
+  <p>SAP Integrated Business Planning for Supply Chain is a key element of the <a href="/topics/supply-chain-management">SAP Digital Supply Chain</a> portfolio, which helps companies:</p>
+  <ul>
+    <li>Create continuously learning, resilient, and responsive supply chains</li>
+    <li>Synchronize strategic and operational supply chain decisions in a single solution</li>
+    <li>Ingest real-time data from external and internal sources to provide more intelligent visibility across the supply chain</li>
+    <li>Connect trading partners digitally with the internal plan via SAP Business Network</li>
+    <li>Enable planners to make business decisions rooted in real-time facts</li>
+    <li>Infuse decision processes with intelligent technologies like machine learning and artificial intelligence (AI)</li>
+    <li>Execute supply chain planning decisions with confidence from a modern and simplified user experience</li>
+  </ul>
+  <p>Ellis also states, “SAP has extensive experience in almost all industries, with notable engagements in consumer products, retail, high tech, automotive/heavy equipment, pharma/life sciences, and wholesale distribution. Supply chains looking for a comprehensive supply chain planning offering that provides a seamless, user-friendly planning platform with embedded analytics that is tightly integrated to manufacturing, operational planning, and supply chain execution should consider SAP.”</p>
+  <p>We are excited for companies to consider SAP as a partner in the work to build risk-resistant and resilient supply chains.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p><em>David Vallejo is global head of Supply Chain Solution Management at SAP.</em></p>
+        <p>*Doc #US49578717, September 2022</p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/idc</category>
+        </item>
+        <item>
+            <title><![CDATA[A Sea Change in Norway Helps Satisfy the World’s Appetite for Salmon]]></title>
+            <link>https://www.sap.com/news/2022/07/nordlaks-helps-satisfy-worlds-appetite-for-salmon</link>
+            <guid>https://www.sap.com/news/2022/07/nordlaks-helps-satisfy-worlds-appetite-for-salmon</guid>
+            <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To ensure the safety and environmental sustainability of the ocean farm, Nordlaks is pioneering advanced digital twin technology. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>product/sap-enterprise-product-development</category>
+        </item>
+        <item>
+            <title><![CDATA[What Businesses Can Learn from Ecosystems That Thrive in the Darkest Corners on Earth]]></title>
+            <link>https://www.sap.com/news/2022/06/what-businesses-can-learn-from-ecosystems-darkest-corners-on-earth</link>
+            <guid>https://www.sap.com/news/2022/06/what-businesses-can-learn-from-ecosystems-darkest-corners-on-earth</guid>
+            <pubDate>Mon, 13 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Businesses are looking to the cloud for solutions to enhance visibility, but they’re equally wise to gaze seaward for insights on resilience.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/internet-of-things</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[De’Longhi Places the Customer at the Heart of Its Digital Supply Chain]]></title>
+            <link>https://www.sap.com/news/2022/04/delonghi-digital-supply-chain</link>
+            <guid>https://www.sap.com/news/2022/04/delonghi-digital-supply-chain</guid>
+            <pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[De’Longhi furthers its "Customer Fulfillment Excellence” project by adopting the SAP Integrated Business Planning for Supply Chain solution.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Wholesale Distribution Trends to Watch in 2022]]></title>
+            <link>https://www.sap.com/news/2021/12/three-wholesale-distribution-trends-to-watch-in-2022</link>
+            <guid>https://www.sap.com/news/2021/12/three-wholesale-distribution-trends-to-watch-in-2022</guid>
+            <pubDate>Fri, 31 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Industry experts from SAP have identified and written about trends affecting wholesale distribution in today’s changing world. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15d1908211af5344246c80feb3870b66599057506.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15d1908211af5344246c80feb3870b66599057506.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15d1908211af5344246c80feb3870b66599057506.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Three Wholesale Distribution Trends to Watch in 2022" src="./media_15d1908211af5344246c80feb3870b66599057506.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="three-wholesale-distribution-trends-to-watch-in-2022">Three Wholesale Distribution Trends to Watch in 2022</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>A well-known proverb says, “To know the road ahead, ask those coming back.” Throughout the past year, industry experts from SAP have identified and written about trends affecting wholesale distributors in today’s changing world.</div>
+    </div>
+  </div>
+  <p>These trends are shaping the future of the industry and prompting companies to take a serious look at the way they will do business in years to come. Here are a few to watch in 2022.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-the-whitepaper-the-intelligent-enterprise-for-the-wholesale-distribution-industry">Read the whitepaper: The Intelligent Enterprise for the Wholesale Distribution Industry</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2016/03/8e7998d0-627c-0010-82c7-eda71af511fa.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="e-commerce--an-online-lifeline">E-Commerce – an Online Lifeline</h2>
+  <p>The events of the past two years have revealed a critical trend: distributors must have a modern, online customer experience to compete and survive against global marketplaces like Amazon. Many companies have an online presence, but customers want more products and more personalized services – and they want them now. We’re at a tipping point for the industry, and distributors need to evolve, as described in <a href="https://www.inddist.com/e-commerce/article/21283028/the-future-of-wholesale-distribution-b2b-marketplaces">“The Future of Wholesale Distribution: B2B Marketplaces.”</a></p>
+  <p>How do companies get started? While a goal may be to stay relevant against competitors, distributors should capitalize on the unique value they add, especially for longtime customers. One idea getting some traction is establishing a marketplace to offer a more extensive list of products. The article <a href="https://www.digitalcommerce360.com/2021/08/13/finding-your-place-in-the-new-b2b-marketplace-battle-zone/">“Finding Your Place in the New B2B Marketplace Battle Zone”</a> discusses six vantage points to help analyze readiness for a B2B marketplace.</p>
+  <p>But there are other initiatives that can help distributors stay in the e-commerce game. Customers are looking for personalized buying experiences, similar to their consumer purchasing. If companies can leverage data around inventory, incentives, and processes, they can support these types of engagements. Read more in “<a href="https://www.forbes.com/sites/sap/2021/08/25/how-successful-distributors-are-beating-amazon-at-their-own-game/?sh=197faff53a09">How Successful Distributors Are Beating Amazon at Their Own Game.”</a></p>
+  <h2 id="everyones-talking-supply-chain">Everyone’s Talking Supply Chain</h2>
+  <p>Recently, an older, retired relative was telling me about the supply chain crisis. She never worked in the industry, and I’m pretty certain that until this year she never used the term “supply chain.” Global challenges in this area are making news everywhere, but are most painfully clear to the wholesale distribution industry that has always been the conduit for goods and services.</p>
+  <p>And while disruptions in the supply chain are nothing new, a new approach is needed – like using intelligent data to plan for disruptions. Learn how companies can be more prepared in this article, <a href="https://www.inddist.com/operations/article/21330998/planning-for-disruption-in-wholesale-distribution">“Planning for Disruption in Wholesale Distribution.”</a></p>
+  <p>The <a href="/covid-19">pandemic</a> has also shown that distributors need more supply chain flexibility as well as more visibility. <a href="https://blogs.sap.com/2021/08/20/supply-chain-collaboration-in-wholesale-distribution/">“Supply Chain Collaboration in Wholesale Distribution”</a> is a way to help mitigate risk and respond to unforeseen challenges. Giving suppliers greater transparency can help transform the supply chain from disconnected to collaborative.</p>
+  <p>Collaboration is just one part of the overall transformation of a distributor’s logistics processes. To compete in the global market, companies need to innovate to meet demands, but also do a better job of planning, procuring, storing, and delivering goods. <a href="https://www.inddist.com/supply-chain/article/21415453/transforming-the-distribution-supply-chain-with-a-connected-network">“Transforming the Digital Supply Chain”</a> discusses the challenges and offers some solutions for improvement.</p>
+  <h2 id="sustainability-for-the-future">Sustainability for the Future</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="differentiate-your-wholesale-distribution-business-with-sap">Differentiate your wholesale distribution business with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/wholesale-distribution.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>In the past, we didn’t hear too much about sustainability from wholesale distributors. For these companies with traditionally small margins, the cost of “going green” seemed out of reach. But recently, the topic is gaining some traction as the definition of sustainability is being rewritten in this industry.</p>
+  <p>For example, a healthcare distributor might have sustainability goals around the reduction of hazardous waste or product integrity. A food distributor might focus on green logistics, zero emissions, and lowering their carbon footprint. Some companies are already moving in this direction. Read their stories in this article, <a href="https://www.the-future-of-commerce.com/2021/10/12/sustainable-distribution/">“Sustainable Distribution: Profitability with Purpose.”</a></p>
+  <p>One company that is serious about sustainability is wholesale distributor BayWa, which has been recognized as one of 50 sustainability and climate leaders worldwide. BayWa is helping farmers grow profits while pioneering new, more sustainable farming models with renewable energy projects and technologies. Learn more about its innovative efforts in <a href="https://www.forbes.com/sites/sap/2021/06/03/on-world-environment-dayhow-baywa-is-working-with-farmers-to-increase-yield-and-protect-biodiversity/?sh=564a2f48108c">“How BayWa Is Working with Farmers to Increase Yield and Protect Biodiversity.”</a></p>
+  <h2 id="the-future-is-now">The Future Is Now</h2>
+  <p>There are certainly threads that run through all these trends – planning, innovation, flexibility, visibility. While these ideas have always been around, they have never been more important for distributors than now. The industry – and the world – will continue to change, and wholesale distributors must plan for the road ahead.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Lynn Lupo is solution manager for Wholesale Distribution at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>industry/wholesale-distribution</category>
+        </item>
+        <item>
+            <title><![CDATA[ANZ Leaders That Invested Early in Digital Supply Chains Had Tremendous Results]]></title>
+            <link>https://www.sap.com/news/2021/09/anz-digital-supply-chains-tremendous-results</link>
+            <guid>https://www.sap.com/news/2021/09/anz-digital-supply-chains-tremendous-results</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[How supply chain leaders digitally transform to connect business and operational data for resilience and sustainability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/sap-anz</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Ranked No. 1 in Gartner Market Share Analysis Report and Recognized as a Leader in Transportation and Warehouse Management Systems]]></title>
+            <link>https://www.sap.com/news/2021/08/sap-a-leader-supply-chain-management-transportation-warehouse-management</link>
+            <guid>https://www.sap.com/news/2021/08/sap-a-leader-supply-chain-management-transportation-warehouse-management</guid>
+            <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is ranked the No. 1 supply chain management software vendor by market share in revenue worldwide by Gartner. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1de94c869ef89399d5940ea21e2e295e14b890cee.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1de94c869ef89399d5940ea21e2e295e14b890cee.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1de94c869ef89399d5940ea21e2e295e14b890cee.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Ranked No. 1 in Gartner Market Share Analysis Report and Recognized as a Leader in Transportation and Warehouse Management Systems" src="./media_1de94c869ef89399d5940ea21e2e295e14b890cee.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-ranked-no-1-in-gartner-market-share-analysis-report-and-recognized-as-a-leader-in-transportation-and-warehouse-management-systems">SAP Ranked No. 1 in Gartner Market Share Analysis Report and Recognized as a Leader in Transportation and Warehouse Management Systems</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-customer-centric-products-to-market-faster-and-at-less-cost-with-global-supply-chain-management-software-from-sap">Get customer-centric products to market faster and at less cost with global supply chain management software from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/supply-chain-management.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced that it is ranked the No. 1 supply chain management software vendor by market share in revenue worldwide in the Gartner® “<a href="https://www.gartner.com/document/4003648?ref=solrAll&#x26;refval=295315829">Market Share Analysis: Supply Chain Management Software, Worldwide, 2020</a>” report.</p>
+      </div>
+    </div>
+  </div>
+  <p>Vendors were analyzed across procurement, supply chain execution and supply chain planning and, for the second year in a row, SAP ranked No. 1 across all three categories.</p>
+  <p>In addition, SAP was also recognized as a Leader in both the “<a href="https://www.gartner.com/document/4003090?ref=solrAll&#x26;refval=299962045">2021 Gartner Magic Quadrant™ for Warehouse Management Systems</a>” report and the “<a href="https://www.gartner.com/document/4000019">2021 Gartner Magic Quadrant for Transportation Management Systems</a>” report. These recognitions illustrate SAP’s continued influence on the future of resilient digital supply chains.</p>
+  <p>“In our opinion, this trio of recognitions from Gartner reflects our commitment to improving outcomes for our customers,” said Franz Hero, head of SAP Digital Supply Chain Development. “We’ve worked to ensure they are empowered to rapidly respond to changing market conditions, and that invested commitment is being recognized.”</p>
+  <p>The SAP Extended Warehouse Management application helps customers manage high-volume warehouse operations and integrate complex supply chain logistics within their warehouse and distribution processes to deliver visibility and control.</p>
+  <p>The SAP Transportation Management application supports customers across all major industries, with a focus on consumer products, agriculture, mining, construction, chemical and retail. The application helps customers dramatically reduce transportation complexity by integrating fleet and logistics management throughout their network.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Angela Feher, +1 (347) 882-1689, <a href="mailto:angela.feher@sap.com">angela.feher@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><em>Gartner, “Market Share Analysis: Supply Chain Management Software, Worldwide, 2020,” Balaji Abbabatulla, Satyam ., Neha Gupta, Amarendra , Christian Titze, Micky Keck, 15 July 2021.</em><br><em>Gartner, “Magic Quadrant for Warehouse Management Systems,” Simon Tunstall, Dwight Klappich, 30 June 2021.</em><br><em>Gartner, “Magic Quadrant for Transportation Management Systems,” Bart De Muynck, Brock Johns, Oscar Sanchez Duran, Carly West, 30 March 2021.</em><br><em>Gartner does not endorse any vendor, product or service depicted in its research publications and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s Research &#x26; Advisory organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose. GARTNER and Magic Quadrant are registered trademarks and service marks of Gartner, Inc. and/or its affiliates in the U.S. and internationally and are used herein with permission. All rights reserved.</em></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/gartner</category>
+            <category>product/sap-extended-warehouse-management</category>
+            <category>product/sap-transportation-management</category>
+            <category>news-tag/warehouse-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Wholesale Distribution: Operating with a Purpose Along the Value Chain]]></title>
+            <link>https://www.sap.com/news/2021/08/wholesale-distribution-value-chain-purpose</link>
+            <guid>https://www.sap.com/news/2021/08/wholesale-distribution-value-chain-purpose</guid>
+            <pubDate>Tue, 03 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[In a session on operating with a purpose in the value chain, SAP and AmerisourceBergen discussed the vital role of healthcare distributors.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_180c94b9d4110b32aa61155d3fa696189e925f94f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_180c94b9d4110b32aa61155d3fa696189e925f94f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_180c94b9d4110b32aa61155d3fa696189e925f94f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Wholesale Distribution: Operating with a Purpose Along the Value Chain" src="./media_180c94b9d4110b32aa61155d3fa696189e925f94f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="wholesale-distribution-operating-with-a-purpose-along-the-value-chain">Wholesale Distribution: Operating with a Purpose Along the Value Chain</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>While every industry has been affected in some form in recent months, wholesale distribution has been at the center of the global supply chain revolution. Extraordinary measures have been implemented across a variety of industries to handle the unique challenges presented by the <a href="/covid-19">pandemic</a>.</div>
+    </div>
+  </div>
+  <p>Those in supply chain and logistics have made significant adjustments to help ensure that every segment — including healthcare — has continued to move forward as efficiently and effectively as possible.</p>
+  <p>AmerisourceBergen, a wholesale distributor of pharmaceutical products to nearly 100% of hospitals in the U.S., recently joined Cloud Wars Host and Creator Bob Evans and Magnus Meier, global head and vice president of Wholesale Distribution at SAP, for a <a href="https://www.linkedin.com/video/live/urn:li:ugcPost:6798252598970327040/">LinkedIn Live interview</a> to discuss these fundamental changes.</p>
+  <p>During the session, Jeff Denton, vice president of Global Secure Supply Chain at AmerisourceBergen, discussed the vital role healthcare distributors play to get life-saving drugs to those who need them most and how the company has managed to ethically balance supplier and customer needs.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="meet-international-and-regional-directives-for-drug-serialization-with-sap-advanced-track-and-trace-for-pharmaceuticals">Meet international and regional directives for drug serialization with SAP Advanced Track and Trace for Pharmaceuticals</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/track-trace-pharmaceuticals.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="new-normal-customer-centric-patient-focused-business">New Normal: Customer-Centric, Patient-Focused Business</h2>
+  <p>Wholesale distributors across all sub-segments have managed to keep the supply chain moving forward despite numerous hurdles on a global scale. However, distributors of today can no longer simply focus on moving products through the supply chain. The entire industry has shifted to take on new responsibilities that address the latest regulatory requirements and heightened customer expectations.</p>
+  <p>To address these growing concerns, wholesale distributors — especially those in the healthcare distribution segment — are now focused on “doing business with a purpose,” as Meier perfectly described it. By operating with a purpose, this helps ensure the supply chain is safe and secure. It also protects the integrity of the products and provides peace of mind to hospitals, pharmacies, and patients.</p>
+  <p>In the <a href="https://www.linkedin.com/video/live/urn:li:ugcPost:6798252598970327040/">interview</a>, Denton describes how creating healthier futures starts with protecting the health of people and our planet. As a purpose-driven industry leader with a global footprint, AmerisourceBergen has an obligation to champion global sustainability and corporate responsibility. This includes processing more than $2.5 billion in saleable product returns annually, allowing products that would otherwise have been removed and destroyed to be reintroduced into the supply chain. This is good for AmerisourceBergen along with its customers, patients, and manufacturers across the entire supply chain.</p>
+  <h2 id="to-thrive-distributors-require-collaboration-and-innovation">To Thrive, Distributors Require Collaboration and Innovation</h2>
+  <p>To address the new concerns and increased responsibility of the distribution industry, AmerisourceBergen approached SAP to co-innovate and create a cross-industry solution centered around meeting the latest regulatory requirements. The result was a new and innovative solution that allows products to be tracked and traced across the entire supply chain: <a href="https://www.sap.com/products/track-trace-pharmaceuticals.html">SAP Advanced Track and Trace for Pharmaceuticals.</a></p>
+  <p>The collaboration also allowed AmerisourceBergen and other industry leaders to streamline communication across the entire supply chain, from suppliers through to the pharmacies and hospitals. This supports business continuity through not only an individual enterprise but the entire business network. With this technology, the AmerisourceBergen team can “<a href="/2021/04/amerisourcebergen-best-in-class-industry-innovation">seamlessly match digital data to physical data</a>,” which aids in counterfeit prevention and sustainability efforts.</p>
+  <h2 id="data-and-purpose-will-drive-the-industry-forward">Data and Purpose Will Drive the Industry Forward</h2>
+  <p>AmerisourceBergen is focused on what the future holds, shifting focus beyond simply reacting to regulatory requirements to understanding the use cases for all of the new data obtained through track and trace technology.</p>
+  <p>Without the consortium brought about by AmerisourceBergen and SAP, these industry-specific outcomes and supply chain alignment may not have been possible. Moving forward, collaboration and innovation will be key aspects of the industry and areas in which distributors can add immense value to the supply chain.</p>
+  <p>New advancements, technology, and cross-industry collaborations must continue to drive solutions that keep up with the latest regulatory requirements and consumer needs.</p>
+  <div class="promo">
+    <div>
+      <div>If you missed the LinkedIn Live interview, “Wholesale Distribution: Operating with a Purpose Along the Value Chain” <a href="https://www.linkedin.com/video/live/urn:li:ugcPost:6798252598970327040/">watch the replay here</a>.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/sap-advanced-track-and-trace-for-pharmaceuticals</category>
+            <category>industry/wholesale-distribution</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Joins Open Manufacturing Platform to Assist Customers with Digital Transformation]]></title>
+            <link>https://www.sap.com/news/2021/07/sap-joins-open-manufacturing-platform</link>
+            <guid>https://www.sap.com/news/2021/07/sap-joins-open-manufacturing-platform</guid>
+            <pubDate>Thu, 22 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[In joining the OMP, SAP seeks to help drive innovation along the digital supply chain using open standards and open source.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/internet-of-things</category>
+        </item>
+    </channel>
+</rss>

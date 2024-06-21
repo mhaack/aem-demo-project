@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-translation-hub/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 30 May 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Creating a Local Language Experience for Global Software Users]]></title>
+            <link>https://www.sap.com/news/2023/05/local-language-experience-sap-enable-now-users</link>
+            <guid>https://www.sap.com/news/2023/05/local-language-experience-sap-enable-now-users</guid>
+            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Enable Now, cloud edition now includes access to Document Translation for SAP Translation Hub. Learn more about the integration.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-enable-now</category>
+            <category>product/sap-translation-hub</category>
+        </item>
+    </channel>
+</rss>

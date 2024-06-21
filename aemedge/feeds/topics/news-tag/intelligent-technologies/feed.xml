@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/intelligent-technologies/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 03 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How SAP SuccessFactors Innovation Can Help You Tackle Your Toughest Challenges]]></title>
+            <link>https://www.sap.com/news/2022/08/sap-successfactors-innovation-tackle-2022-hr-trends</link>
+            <guid>https://www.sap.com/news/2022/08/sap-successfactors-innovation-tackle-2022-hr-trends</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take on 2022 HR trends like hybrid work, diversity and inclusion, well-being, and the race for talent with SAP Successfactors solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/intelligent-technologies</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/mental-health-well-being</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-performance-goals</category>
+            <category>product/sap-successfactors-recruiting</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Indian Startup Innovates Supply Chains for Dynamic IoT-Based Intelligence]]></title>
+            <link>https://www.sap.com/news/2021/07/tagbox-innovates-supply-chains-iot</link>
+            <guid>https://www.sap.com/news/2021/07/tagbox-innovates-supply-chains-iot</guid>
+            <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Indian startup Tagbox utilizes Internet of Things (IoT) technology to support greater supply chain reliability and resiliency. Learn more!]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Indian Startup Innovates Supply Chains for Dynamic IoT-Based Intelligence" src="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="indian-startup-innovates-supply-chains-for-dynamic-iot-based-intelligence">Indian Startup Innovates Supply Chains for Dynamic IoT-Based Intelligence</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In a world struggling to recover from <a href="/covid-19">COVID-19</a>, <a href="https://www.sap.com/products/intelligent-technologies.html">intelligent technologies</a> like the Internet of Things (IoT), machine learning, and artificial intelligence (AI) are transforming supply chain logistics and quality assurance for groundbreaking innovations. Indian-based startup <a href="https://www.tagbox.co/">Tagbox</a> has developed a cloud solution that dynamically tracks shipments on the move.</div>
+    </div>
+  </div>
+  <p>IoT-based sensors capture the temperature and other critical parameters of products in real time, using machine learning and AI algorithms to automatically send alerts about risk anomalies so people can take corrective action and head off damages.</p>
+  <p>“Our vision is to make supply chains more holistically intelligent for greater reliability and resiliency,” said Adarsh Kumar, co-founder and CEO of Tagbox. “Organizations have full visibility into shipment risks like shocks, temperature changes, tampering, or pilferage at any point along the supply chain. Our technology shares that data to the cloud, sends shipment risk alerts to relevant stakeholders, and logs data into the ERP system. People can immediately see when something’s gone wrong and take fast action.”</p>
+  <p>Most Tagbox customers are located in India, but the startup is gaining traction with organizations in other parts of Asia-Pacific, including Singapore.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="ignite-innovation-in-your-business-with-intelligent-technology">Ignite innovation in your business with intelligent technology</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/intelligent-technologies.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="automated-triggers-for-quality-control">Automated Triggers for Quality Control</h2>
+  <p>Traditional supply chain quality management was typically one dimensional and tracked shipment risk post-delivery. In contrast, Tagbox’s technology monitors products at every step of the journey with small battery-powered sensors attached to product packaging by individual SKU, box, or pallet. Hosted on <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, the tool uses SAP Internet of Things (SAP IoT) and is integrated with <a href="https://www.sap.com/india/products/s4hana-erp.html">SAP ERP</a>. Data sharing includes product or order information with designated employees in order management, transportation and logistics, quality parameters, warehouse and inventory metrics, and first to last mile delivery.</p>
+  <p>For example, after downloading a mobile app, a delivery person driving a refrigerated truck transporting medication would be alerted to temperature changes in the vehicle and receive recommended actions to prevent spoilage.</p>
+  <p>“People can immediately intervene when they’re notified of a temperature change or other risk, while managers can spot systemic issues and address those,” said Kumar. “Reports reveal patterns, such as where temperature excursions happen regularly. The company may decide to improve product packaging or select different transportation routes.”</p>
+  <p>One pharmaceutical customer saved thousands of dollars by reducing post-delivery assessment times by up to 72 hours. Having collected real-time data throughout the shipping process, the company eliminated time-consuming reports after delivery.</p>
+  <h2 id="business-growth-from-sap-partnership">Business Growth from SAP Partnership</h2>
+  <p>Kumar credited his company’s recent growth partly to his team’s experience at SAP Startup Studio, an accelerator program at <a href="https://www.sap.com/india/about/labs-india.html">SAP Labs India</a> for early- and growth-stage tech startups.</p>
+  <p>“Our IoT sensors collect and send data to supply chain, SAP IoT, and other SAP ERP systems that provide the business context for product shipments and locations, making this an ideal partnership,” he said. “We’ve accelerated our time-to-market because SAP experts have provided us with industry-specific opportunity guidance and introductions to a wide range of SAP customers.”</p>
+  <h2 id="data-fuels-insights-to-action">Data Fuels Insights to Action</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="with-stylumia-real-time-data-intelligence-powers-competitive-retail-advantage">With Stylumia, Real-Time Data Intelligence Powers Competitive Retail Advantage</h3>
+      </div>
+      <div><strong><a href="/2021/04/stylumia-data-intelligence-retail-advantage">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>While pharmaceutical companies are obvious candidates for fully traceable quality control of vaccine and other medicine cold chains, numerous industries can also benefit from real-time insights. These include food and beverage companies and consumer electronics. One e-commerce grocery company using Tagbox improved its cold chain temperature compliance while reducing missing inventory rates by 20%.</p>
+  <p>“They have end-to-end traceability of real-time temperatures for products like meats and dairy products from warehouse to consumer,” said Kumar. “They can track what percentage of orders were delivered at the right temperatures, cascading to employee performance metrics and training, as well as infrastructure and other supply chain decisions.”</p>
+  <p>Appliance, home electronic, and glass manufacturers have also found benefits from Tagbox when it comes to product damage prevention during transport.</p>
+  <p>“Any combination of factors can damage fragile goods on the road, whether it’s bad driving and accidents or because products weren’t packaged or loaded properly,” said Kumar. “With our sensors, companies can see precisely what kind of shock happened and when it occurred. Our algorithms translate the data into meaningful metrics such as if the product was in freefall, turned upside down, tilted, or unsecured. In the moment, they can repack the item, adjust the temperature, and keep going without damage.”</p>
+  <h2 id="turning-data-into-business-value">Turning Data into Business Value</h2>
+  <p>Kumar, Saumitra Singh, and Sameer Singh co-founded Tagbox, drawing from 25 years of collective experience in IoT, data analytics, AI, and integrated circuit and chip design.</p>
+  <p>“We realized that despite all the talk about IoT as a data generator, there wasn’t enough focus on using that data for concrete business decisions,” he said. “We wanted to tackle supply chain inefficiencies and product quality control for high-value, fragile goods traveling across cold chains. There are so many diversification opportunities in B2B operations using IoT and machine learning.”</p>
+  <p>Kumar said future international expansion plans for Tagbox included the United States, providing dynamic intelligence for supply chains worldwide, long after the pandemic recedes.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me: @smgaler</em>.<br><em><a href="https://www.forbes.com/sites/sap/2021/06/08/indian-startup-innovates-supply-chains-for-dynamic-iot-based-intelligence/?sh=53116be4bcb6">This story originally appeared on SAP BrandVoice on Forbes</a>.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-technologies</category>
+            <category>news-tag/internet-of-things</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-erp</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Servitization: The Shift from Products to Services that’s Redefining Competitive Differentiation]]></title>
+            <link>https://www.sap.com/news/2021/06/servitization-redefining-competitive-differentiation</link>
+            <guid>https://www.sap.com/news/2021/06/servitization-redefining-competitive-differentiation</guid>
+            <pubDate>Tue, 29 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Servitization, or integrating services into the overall business model, can reveal new business potential and new sources of revenue.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15b44b0dd65c5841b6afea455abca0008bcc10677.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15b44b0dd65c5841b6afea455abca0008bcc10677.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15b44b0dd65c5841b6afea455abca0008bcc10677.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Servitization: The Shift from Products to Services that’s Redefining Competitive Differentiation" src="./media_15b44b0dd65c5841b6afea455abca0008bcc10677.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="servitization-the-shift-from-products-to-services-thats-redefining-competitive-differentiation">Servitization: The Shift from Products to Services that’s Redefining Competitive Differentiation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The quest for improvement and innovation to build productivity, drive greater value, and seek opportunities in new markets is perpetual for every successful business. As a result, executives and organizational leaders alike continuously evaluate their business models, offerings, and operational processes to gain any advantage they can find, especially when their products become increasingly commoditized.</div>
+    </div>
+  </div>
+  <p>Based on current research, servitization appears to be an effective antidote against the ease of product switching. McKinsey &#x26; Company <a href="https://www.mckinsey.com/business-functions/operations/our-insights/aftermarket-services-the-near-term-growth-opportunity-in-targeting-the-right-customers">reports</a> that while margins on new product sales are typically 10%, aftermarket service margins average 25%.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="keep-your-systems-running-at-peak-performance-with-sap-services-and-support">Keep your systems running at peak performance with SAP Services and Support</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/support.html#services-support-offerings">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="what-is-servitization">What Is Servitization?</h2>
+  <p>Servitization is a strategy that product-oriented companies use to enhance and differentiate their competitiveness by integrating services into their overall business model. This shift can be seen on a continuum in which producing and selling products is coupled with a focus on adding services to the offering and ultimately integrating them. Very quickly, customer value moves from owning and using the product to capturing value with the product while services are perceived as a cost factor.</p>
+  <p>While this concept is not new, widespread <a href="https://www.mdpi.com/2076-3417/10/8/2957/htm">adoption of intelligent technology</a> – such as <a href="https://insights.sap.com/what-is-iot-internet-of-things/">the Internet of Things (IoT)</a>, <a href="https://insights.sap.com/what-is-machine-learning/">machine learning</a>, and <a href="https://insights.sap.com/what-is-predictive-analytics/">predictive analytics</a> – is fueling this approach to break into new markets and fulfill underserved customer needs. More recent product-service <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bse.414">servitization models</a> may include bundled support services, consumption or pay-for-use, and outcome-based services.</p>
+  <p>An earlier form of servitization emerged in 1962 when <a href="https://www.rolls-royce.com/media/press-releases-archive/yr-2012/121030-the-hour.aspx">Rolls-Royce</a> pioneered its famous “Power by the Hour” engine maintenance service concept. This model allowed airlines to pay for the time spent maintaining and replacing their aircraft engine. As technology advanced, sensors were incorporated for engine-condition monitoring and predictive maintenance services.</p>
+  <p>A few decades later, tire manufacturer Michelin redefined the service-oriented model to help trucking companies reduce fuel consumption. Payment for the service is based on achieving predefined fuel consumption targets, tracked through telematics and IoT, and assessed in real time with data analytics.</p>
+  <p>Many more companies have followed Rolls-Royce’s and Michelin’s example, including <a href="https://www.sap.com/dmc/exp/2019-11-sap-leonardo-customer-success/book/index.html?chapter=20">Kaeser Kompressoren</a>, <a href="https://www.forbes.com/sites/sap/2020/01/10/learn-how-to-obtain-a-superior-b2b-customer-experience-with-these-valuable-insights/?sh=3f981bdd7777">Grundfos</a>, and <a href="https://www.sap.com/assetdetail/2020/09/50b8398d-b27d-0010-87a3-c30de2ffd8ff.html">Tetra Pak</a>. It is noted that in all cases, IT – specifically IoT and <a href="https://insights.sap.com/what-is-industry-4-0/">Industry 4.0</a> – <a href="https://www.researchgate.net/publication/311206173_The_servitization_of_industry_EU_law_implications_and_challenges">plays a significant role</a> in enabling product-service servitization.</p>
+  <p>Over time, this approach has become a critical component of manufacturers’ growth strategies. In fact, a <a href="https://www.paconsulting.com/globalassets/downloads/servitization-report.pdf">survey</a> of 60 European industrial manufacturing firms reported that servitization increases average growth margin from services delivered ranging between 15% and 35%. Another <a href="https://www.porsche-consulting.com/fileadmin/docs/04_Medien/Publikationen/745199_Beyond_the_product/Beyond_the_Product_C_2021_Porsche_Consulting-v3.pdf">survey</a> found that the 10% total returns to shareholders (TRS) achieved by servitization champions significantly exceeded the -1% median TRS of their peers. And in the spirit of these findings, Professor Klaus Schwab, founder and executive chairman of the World Economic Forum, <a href="https://www.researchgate.net/publication/327583386_THE_SERVITIZATION_IN_INDUSTRY_40_FACING_CHALLENGES_AND_TENDENCIES">identified</a> servitization as one of the megatrends that will shape the future of business and society.</p>
+  <h2 id="how-to-turn-servitization-into-a-revenue-generator">How to Turn Servitization Into a Revenue Generator</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="gain-greater-insight-into-the-internet-of-things">Gain greater insight into the Internet of Things</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/what-is-iot-internet-of-things/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Regardless of the advantages servitization offers, many businesses still question how to best recognize and adopt appropriate service options that deliver the best value to the customer. Some of the challenges encountered include culture change, competency adoption, process, system creation, and commercialization.</p>
+  <p>In many ways, a transformation journey toward servitization includes four fundamental maturity stages:</p>
+  <ul>
+    <li><strong>Splintered:</strong> The organization struggles under a myriad of silos that lead to disjointed, manual processes. Legacy, fragmented enterprise resource planning (ERP) environments provide little or no visibility on operational performance. The business model is on pure product, with challenges to profitability.</li>
+    <li><strong>Side car:</strong> The organization has standardized the two chunks of the value chain – back and front desk – but keeps them separated. Since efficiency is critical at this stage, few add-on services are delivered, field services are based on basic mobile capabilities, and IoT stacks are only proofs of concept.</li>
+    <li><strong>Joined up:</strong> Front- and back-office flows are integrated bidirectionally and leverage advanced technologies, such as IoT, to feed core systems with real-time data. In some cases, edge capabilities bring coordinated autonomy to local sites, a suite of digital services are made fully available, and business model enhancements including pay-as-you-use and outcome-based contracts are actively explored.</li>
+    <li><strong>Borderless:</strong> Processes start and end outside the organization and operations, while technology enables different elements of the value chain to connect. Co-creation, data-sharing, and collaboration with customers, suppliers, partners from other sectors, and even competitors are part of the business model.</li>
+  </ul>
+  <p>After demonstrating the importance of servitization during existing economic conditions and business performance, appropriate servitization concepts steadily replace the status quo, closing the gap between strategic intent and realized goals.</p>
+  <p>A critical part of progressing servitization maturity is transforming the business culture to encourage leaders and employees to <a href="https://www.emerald.com/insight/content/doi/10.1108/09564230310474138/full/html">shift their perception</a> of services from add-ons or giveaways to a valued part of the business model.</p>
+  <p>According to Guido Schlief, senior vice president and head of Services in Middle and Eastern Europe at SAP, “Our observation is that customers increasingly expect business outcomes from their suppliers – outcome-based services are a clear industry trend.”</p>
+  <p>Successfully embracing this shift can have a significant effect on the <a href="https://www.researchgate.net/publication/225473204_Exploring_the_financial_consequences_of_the_servitization_of_manufacturing">profitability</a> of a servitized business. Deep insights into customer needs are required to design value-added services that are valuable from the market perspective, not from the supplier side. For example, although monitoring of equipment condition has limited value to the customer, equipment availability directly impacts the customer experience.</p>
+  <p>Product companies must also consider a servitization model that shifts upfront transactional sales and payments to long-term contracts with perpetual payments, enabling customer-centric relationship building. <a href="https://www.emerald.com/insight/content/doi/10.1108/09564230310474138/full/html">Successful delivery of this approach</a> demands an effective services organization, resembling a professional services firm containing the right processes, tools, and personnel who possess specialized skills. Although service personnel typically <a href="https://www.researchgate.net/publication/225473204_Exploring_the_financial_consequences_of_the_servitization_of_manufacturing">cost</a> more than manufacturing personnel, the investment can help <a href="https://www.mdpi.com/2076-3417/10/8/2957/htm">overcome critical hurdles</a>, such as lack of knowledge in systematic transformation and the ability to make required changes, in gaining the full benefit of servitization.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1adca1e54ae4bfb993a639078ad89fa90438c6d33.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1adca1e54ae4bfb993a639078ad89fa90438c6d33.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1adca1e54ae4bfb993a639078ad89fa90438c6d33.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1adca1e54ae4bfb993a639078ad89fa90438c6d33.png?width=750&#x26;format=png&#x26;optimize=medium" width="300" height="168">
+    </picture>
+  </p>
+  <p><em>Figure 1: Servitization performance balanced scorecard. Click to enlarge.</em></p>
+  <p>Over time, the transformation into a servitization model can be assessed to help ensure it satisfies the core needs of the business: financial, internal, customers, innovation, and learning. For example, pure financial measures – such as service revenue growth or services market share – can be <a href="https://www.researchgate.net/publication/322834491_Measuring_servitization_progress_and_outcome_the_case_of_&#x27;advanced_services&#x27;">evaluated</a> alongside a proposed a balanced scorecard to provide a comprehensive view on servitization performance (See Figure 1).</p>
+  <h2 id="get-ready-servitization-is-here-to-stay">Get Ready: Servitization Is Here to Stay</h2>
+  <p>As customers gain less interest in the shiny new functionalities of new products and pay more attention to the outcomes they achieve, all signs point to the growing importance of services as a competitive differentiator.</p>
+  <p>But remember, servitization is more than a pure vertical integration of the business model and goes far beyond add-on or giveaway services. In essence, it is a strategic transformation that spans across most business silos, requiring alignment between the business and IT and between the front and back office of the supplier.</p>
+  <p>And if approached appropriately, the new business model can open new sources of revenue and bring a fundamental shift from a reactive break-fix mentality to proactive outcome-based services.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Frits Verhoef is head of Business Transformation Services CXO Advisory, Middle and Eastern Europe, at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/intelligent-technologies</category>
+            <category>news-tag/internet-of-things</category>
+            <category>news-tag/service-industries</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-service-cloud/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 26 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Expanded Partnership Turns Transactions into Lasting Connections]]></title>
+            <link>https://www.sap.com/news/2024/03/expanded-sap-preferred-success-sales-services-lasting-connections</link>
+            <guid>https://www.sap.com/news/2024/03/expanded-sap-preferred-success-sales-services-lasting-connections</guid>
+            <pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Preferred Success for SAP Sales Cloud and SAP Service Cloud, expanded edition, helps businesses create personalized customer experiences.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Debuts New CX Generative AI Capabilities to Enhance Customer Experiences and Boost Business Operations]]></title>
+            <link>https://www.sap.com/news/2023/10/new-cx-generative-ai-capabilities</link>
+            <guid>https://www.sap.com/news/2023/10/new-cx-generative-ai-capabilities</guid>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Customer Experience LIVE, SAP has announced new generative AI capabilities for the CX solution portfolio. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>sap-event/sap-customer-experience-live</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How PILLER Increased Customer Service with SAP Customer Experience Solutions]]></title>
+            <link>https://www.sap.com/news/2023/08/piller-increased-customer-service-sap-cx</link>
+            <guid>https://www.sap.com/news/2023/08/piller-increased-customer-service-sap-cx</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the help of SAP, PILLER was able to share information and optimize business processes across sales, service, and marketing.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How PILLER Increased Customer Service with SAP Customer Experience Solutions" src="./media_183ba6c7acd6d09f1a49eb03d61c336ed1830707f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-piller-increased-customer-service-with-sap-customer-experience-solutions">How PILLER Increased Customer Service with SAP Customer Experience Solutions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.piller.de/">PILLER Blowers &#x26; Compressors</a> produces high-performance blowers and compressors and customized solutions to meet specific requirements of various industries. Its global network of wholly owned subsidiaries and joint ventures enables it to serve an international customer base.</div>
+    </div>
+  </div>
+  <p>To increase customer service quality, the company wanted to share information and optimize business processes across its sales, service, and marketing activities.</p>
+  <h2 id="moving-from-manual-processes-to-integrated-activities">Moving from Manual Processes to Integrated Activities</h2>
+  <p>At PILLER, different departments were using their own IT solutions.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-customer-experience-solutions-help-connect-customer-data-improve-loyalty-and-grow-your-business">SAP Customer Experience solutions help connect customer data, improve loyalty, and grow your business</h3>
+        <p><em><a href="https://www.sap.com/products/crm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The service department had manual processes, such as Microsoft Excel spreadsheets, to dispatch service technicians. The technicians were logging into a central server to retrieve data and recording customer support by e-mails and conversations. The sales department had a basic access environment due to custom-made products with individual serial numbers. There was no master data; tailored sales quotes were done on paper, posing challenges for data updating and quality. The marketing department was conducting its business, like capturing trade-fair leads or planning and executing campaigns, by hand and with spreadsheets. All these manual activities were time intensive and prone to human error.</p>
+  <p>To enable the marketing, sales, and service teams to perform to the best of their abilities, PILLER wanted solutions that allowed it to share important information. It wished to harmonize all customer-related processes, from initial contact and order management to delivery of spare parts and follow-up.</p>
+  <p>“For new products or customers, it’s important that real-time master data in our core software is mirrored in our sales, service, and marketing systems. We can do this by integrating SAP Customer Experience solutions and SAP Field Service Management with SAP S/4HANA,” said Frank Münzner, in-house SAP consultant for Lead to Cash at PILLER Blowers &#x26; Compressors GmbH.</p>
+  <h2 id="adopting-cloud-solutions-to-achieve-innovative-customer-service">Adopting Cloud Solutions to Achieve Innovative Customer Service</h2>
+  <p>PILLER employed the <a href="https://www.sap.com/products/crm/sales-cloud.html">SAP Sales Cloud</a> solution to help address the needs of its sales team and integrate functionalities, such as managing quotes and orders, in one place. The solution offers a search capability and a modern, intuitive user interface.</p>
+  <p>The company is using the <a href="https://www.sap.com/products/scm/field-service-management.html">SAP Field Service Management mobile app</a> to help create service tickets, which are the single point of customer contact, with product serial numbers and metadata. Integrating this mobile app with the <a href="https://www.sap.com/products/crm/service-cloud.html">SAP Service Cloud</a> solution can enable technicians to receive service ticket information on an Apple iPad, so they can have everything they need to carry out their work. This can also translate to good customer support.</p>
+  <p>By deploying the <a href="https://www.sap.com/products/crm/marketing.html">SAP Marketing Cloud</a> solution and integrating it with SAP Sales Cloud, PILLER now proactively shares data, such as service tickets, lead opportunities, and customer contacts, between the sales and marketing teams. This lets the company contact a customer with a warranty option or service cost reduction, for example.</p>
+  <p>PILLER has now integrated the three SAP Customer Experience solutions for sales, service, and marketing and <a href="https://www.sap.com/products/scm/field-service-management.html">SAP Field Service Management</a> with <a href="https://www.sap.com/products/erp/s4hana.html">SAP S/4HANA</a>, the company’s enterprise resource planning (ERP) software.</p>
+  <p>PILLER partnered with <a href="https://www.fis-gmbh.de/en/">FIS Global</a> to gain advice about new functionalities and implementation support, while <a href="https://www.ibsolution.com/en/">IBsolution</a> provided guidance around leveraging the potential in terms of business transformation and digitization.</p>
+  <h2 id="gaining-comprehensive-customer-visibility-with-integrated-solutions">Gaining Comprehensive Customer Visibility with Integrated Solutions</h2>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="resolve-customer-issues-faster-with-proactive-ai-enabled-field-service-management-software-from-sap">Resolve customer issues faster with proactive, AI-enabled field service management software from SAP</h3>
+        <p><em><a href="https://www.sap.com/products/scm/field-service-management.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The major advantage in connecting the SAP Customer Experience portfolio, SAP Field Service Management, and SAP S/4HANA is that real-time data can be available across all these solutions. While master data, such as for a new product, customer, or material, is entered and kept in SAP S/4HANA as the core software, it’s automatically pushed into the other integrated solutions.</p>
+  <p>This is helping PILLER deliver highly efficient and innovative customer service and business models. The company gains a comprehensive view of worldwide customers in real time while interacting with them at each stage of their journey in a targeted manner.</p>
+  <p>There are now customer-related processes across departments, sites, and systems as well as consistent communication throughout the company, thanks to standardized forms and templates. The business is achieving agile sales with faster response times and better allocation of target groups. It’s also making decisions for customer management based on facts and analyses.</p>
+  <p>Other benefits the company achieved were:</p>
+  <ul>
+    <li>360-degree view of customers worldwide in real time</li>
+    <li>90% less paper with digital processes</li>
+    <li>30% reduction in effort by using digital processes</li>
+  </ul>
+  <p>“We’ve always combined tradition with innovation when manufacturing our blowers. With SAP Customer Experience solutions, our customer management operations are superior to those of our competitors. We’re able to keep a close eye on processes and respond quickly and accordingly,” said Thomas Henzler, CIO at PILLER Blowers &#x26; Compressors GmbH.</p>
+  <h2 id="rolling-out-customer-centric-solutions">Rolling Out Customer-Centric Solutions</h2>
+  <p>Combining <a href="https://www.sap.com/products/crm.html">SAP Customer Experience solutions</a> and the SAP Field Service Management mobile app with SAP S/4HANA is helping deliver real-time data for integrated processes.</p>
+  <p>The integration of the SAP Field Service Management mobile app with SAP Service Cloud is being piloted with three service technicians and garnering positive feedback so far.</p>
+  <p>Watch an <a href="https://www.sap.com/products/crm/sales-cloud.html?video=189daad3-437e-0010-bca6-c68f7e60039b">overview video</a> of SAP Sales Cloud to help build lasting customer relationships and <a href="https://www.sap.com/products/crm/service-cloud.html?pdf-asset=983be5bb-b27d-0010-87a3-c30de2ffd8ff&#x26;page=1">learn more about SAP Service Cloud</a> to maximize customer lifetime value with connected service. Read about the benefits companies achieved with <a href="https://www.sap.com/about/customer-stories/topcon.html">SAP Customer Experience solutions</a>. View a <a href="https://www.sap.com/sea/products/scm/field-service-management/features.html?video=66ec8033-617e-0010-bca6-c68f7e60039b">solution demo</a> and <a href="https://www.sap.com/products/scm/field-service-management/features.html?video=f83398c5-247e-0010-bca6-c68f7e60039b">overview video</a> to learn how to maximize productivity and asset uptime with SAP Field Service Management. <a href="https://www.sap.com/products/scm/field-service-management.html?video=14f5efa9-427e-0010-bca6-c68f7e60039b">Learn what benefits other enterprises achieved</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Karin Fent is senior director of Global Customer Success Digital Supply Chain at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign Up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/field-service-management</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-marketing-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Harrods’ High-Tech Backend Helps Deliver Unparalleled Experience]]></title>
+            <link>https://www.sap.com/news/2023/04/harrods-high-tech-backend-deliver-unparalleled-experience</link>
+            <guid>https://www.sap.com/news/2023/04/harrods-high-tech-backend-deliver-unparalleled-experience</guid>
+            <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Luxury retailer Harrods invested in an analytics initiative to help better understand how its customers interact with the brand.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-customer-data-cloud</category>
+            <category>product/sap-marketing-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers the Future of Intelligent Customer Experience for Utilities]]></title>
+            <link>https://www.sap.com/news/2023/04/future-intelligent-cx-for-utilities</link>
+            <guid>https://www.sap.com/news/2023/04/future-intelligent-cx-for-utilities</guid>
+            <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[An industry-first approach to CX for utilities allows for involving end customers in the energy transition journey. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[The Digital Strategy Behind Moen’s Customer Experience Magic]]></title>
+            <link>https://www.sap.com/news/2022/09/moen-customer-experience-digital-strategy</link>
+            <guid>https://www.sap.com/news/2022/09/moen-customer-experience-digital-strategy</guid>
+            <pubDate>Wed, 07 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Moen, North America's leading faucet maker, is digitalizing on a cloud-based platform to get closer to customers and innovate business models.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/sap-customer-experience</category>
+            <category>product/sap-sales-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers Innovation to Address Customers' Most Pressing Needs]]></title>
+            <link>https://www.sap.com/news/2022/05/sap-sapphire-orlando-innovation-to-address-pressing-customer-needs</link>
+            <guid>https://www.sap.com/news/2022/05/sap-sapphire-orlando-innovation-to-address-pressing-customer-needs</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Sapphire Orlando, SAP announced new innovations that deliver business value for customers in four critical areas. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-appgyver</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-cloud-for-sustainable-enterprises</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Create, Automate, and Scale with Low-Code/No-Code Innovations]]></title>
+            <link>https://www.sap.com/news/2022/05/low-code-no-code-innovations-create-automate-scale</link>
+            <guid>https://www.sap.com/news/2022/05/low-code-no-code-innovations-create-automate-scale</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[New low-code/no-code innovations and solutions from SAP empower users to create, automate, and scale. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Create, Automate, and Scale with Low-Code/No-Code Innovations" src="./media_16fb6f04b9bb45d6513ee9381869f4cfdcf156d80.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="create-automate-and-scale-with-low-codeno-code-innovations">Create, Automate, and Scale with Low-Code/No-Code Innovations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Today’s rapidly changing market requirements put businesses under increased pressure to adapt and stay competitive. The rising demand for cloud solutions, a growing talent gap, and the expectation to do more with less while ensuring security and compliance continue to strain the capacity of development teams.</div>
+    </div>
+  </div>
+  <p>To address this challenge, SAP has been investing in <a href="https://www.sap.com/products/business-technology-platform/low-code.html">low-code/no-code solutions</a> that improve overall developer efficiency, enable more employees to automate tedious tasks, and create applications that simplify work in a compliant and secure fashion — all of this without needing to write a single line of code.</p>
+  <p>We are excited to announce several new capabilities in our low-code/no-code portfolio today at SAP Sapphire.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-announcements-in-the-sap-sapphire-news-guide">Read more announcements in the SAP Sapphire news guide</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/events/sapphire/news-guide.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="sap-appgyver-now-part-of-sap-service-cloud">SAP AppGyver Now Part of SAP Service Cloud</h2>
+  <p><a href="https://www.sap.com/products/appgyver.html">SAP AppGyver</a> is a no-code application development platform that enables developers of all skill levels to create enterprise-ready applications with drag-and-drop simplicity.</p>
+  <p>With the integration of SAP AppGyver in <a href="https://www.sap.com/products/service-cloud.html">SAP Service Cloud</a>, all SAP Service Cloud users can create custom applications to extend functionality without needing to write code. For example, SAP Service Cloud users can visually create apps for service agents that allow them to serve their customers better by connecting and acting on data from other systems such as SAP S/4HANA. This way, the service agent can log into SAP Service Cloud to find out what equipment the customer is using, see a list of compatible spare parts, and view inventory in SAP S/4HANA without leaving SAP Service Cloud. In addition, users can also use the SAP Fiori design system, which provides templates, tools, and guidelines to create beautiful mobile and web apps.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Screenshot: Custom service agent application" src="./media_1040ee5276389fd7e2490e8b0d22fed4ae17f0425.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="586">
+    </picture>
+  </p>
+  <p><em>Example of a custom service agent application created with SAP AppGyver and SAP Service Cloud integration. Click to enlarge.</em></p>
+  <h2 id="create-no-code-business-logic-using-visual-cloud-functions">Create No-Code Business Logic Using Visual Cloud Functions</h2>
+  <p>Turning an idea into an app used to require extensive development skills. SAP AppGyver already offers developers a no-code tool to build the front end of an app. In the next few months, we plan to add additional cloud-powered capabilities that will allow all SAP AppGyver users to visually create cloud-hosted data models and serverless application logic without any code.</p>
+  <p>With the entire backend process also visual, SAP AppGyver users will no longer need to leave the no-code environment to build fully functional and scalable enterprise-grade applications. For more information about the current and future capabilities of SAP AppGyver, see the <a href="https://roadmaps.sap.com/board?range=CURRENT-LAST&#x26;PRODUCT=73554900100800003801#Q2%202022">SAP Road Map Explorer</a>.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1b6d74978f518666357081089e04e69ba8790c256.png?width=750&#x26;format=png&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_17825febb612579f386ffadab939bcef4922c711a.png?width=750&#x26;format=png&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p><em>Visually build cloud-hosted data models and serverless business logic without leaving the no-code environment.</em></p>
+  <p><a href="https://www.youtube.com/watch?v=Yk6AC4XdvyA">Verge</a> is an example of a customer that used SAP AppGyver to accelerate application development and built multiple applications for the entire manufacturing process, all deeply integrated with its manufacturing systems.</p>
+  <p>“Speed of innovation is of great importance to us,” said Tuomo Lehtimäki, CEO of Verge Motorcycles. “With SAP AppGyver, we were able to develop and integrate a custom, highly flexible system to orchestrate our entire manufacturing process in just a few months — all without having to write a line of code. The apps provide real-time insights into our operations and help us make decisions faster.”</p>
+  <h2 id="simplify-collaboration-between-business-and-development-teams">Simplify Collaboration Between Business and Development Teams</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="discover-sap-solutions-for-low-code-application-development-and-automation">Discover SAP solutions for low-code application development and automation</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform/low-code.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Earlier this year, SAP announced the general availability of <a href="https://www.sap.com/germany/process-automation.html">SAP Process Automation</a>, which combines workflow management and robotic process automation into a single no-code drag-and-drop solution. It enables companies of all sizes to create workflows, automate repetitive or manual tasks, and simplify and improve business processes.</p>
+  <p>New SAP Process Automation capabilities make it even easier for business and development teams to collaborate while helping ensure security and governance. Professional developers can develop advanced processes and business logic and create reusable sub-flows that can be made available to business users. Business users can leverage these sub-flows and create sophisticated workflows and automation in a visual, no-code fashion in compliance with IT requirements. More information about recent and upcoming functionality can be found in <a href="https://help.sap.com/whats-new/190af73e1b314925bc5f3bf8751fc9ce?locale=en-US&#x26;version=Cloud">SAP Help Portal</a> and <a href="https://roadmaps.sap.com/board?PRODUCT=73554900100800003832&#x26;range=CURRENT-LAST#Q2%202022">SAP Road Map Explorer</a>.</p>
+  <p>SAP Process Automation is now also available in the free tier of SAP Business Technology Platform. <a href="https://blogs.sap.com/2022/03/29/sap-process-automation-free-tier-availability/">Learn more and try it out today</a>.</p>
+  <h2 id="new-learning-resources-to-get-started">New Learning Resources to Get Started</h2>
+  <p>To support the need for accelerated app development, we have introduced an <a href="https://learning.sap.com/certification/sap-certified-citizen-developer-associate-sap-build-low-code-no-code-applications-and-automations?url_id=text-sapnewscenter-prdteng-LCNC">associate certification for low-code/no-code development</a>. The certification is aimed at non-technical users with little to no experience writing code. It acknowledges skills built in the <a href="https://learning.sap.com/learning-journey/utilize-sap-build-for-low-code-no-code-applications-and-automations-for-citizen-developers?url_id=text-sapnewscenter-prdteng-LCNC">low-code/no-code SAP Learning Journey</a> to understand fundamental concepts and gain technical know-how for application development.</p>
+  <p>We are also introducing a free series of <a href="https://blogs.sap.com/2022/05/05/automate-to-win-get-hands-on-with-sap-process-automation/">hands-on low-code/no-code workshops</a>, which will be delivered by SAP partners in small learning environments to support one-on-one attention.</p>
+  <p>For more:</p>
+  <ul>
+    <li>Visit <a href="https://www.sap.com/products/business-technology-platform/low-code.html">sap.com/low-code</a></li>
+    <li>Join <a href="https://community.sap.com/topics/low-code-no-code">Low-Code/No-Code Development Tools on SAP Community</a></li>
+    <li>Explore the <a href="https://www.sap.com/products/appgyver.html">SAP AppGyver</a> and <a href="https://www.sap.com/products/process-automation.html">SAP Process Automation</a> areas of sap.com</li>
+    <li>Learn through <a href="https://learning.sap.com/learning-journey/low-code-no-code-applications-and-automations-for-citizen-developers">low-code/no-code learning journeys</a> and the <a href="https://webinars.sap.com/sap-automate-to-win-workshop/en/home">hands-on partner workshops</a></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div><em>Bharat Sandhu is senior vice president of Application Development, Automation, and AI at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sap-sapphire">Read more news and coverage from SAP Sapphire</h3>
+      </div>
+      <div><strong><a href="/topics/sap-sapphire">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/low-code-no-code</category>
+            <category>news-tag/sap-appgyver</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-service-cloud</category>
+            <category>product/sap-workflow-management</category>
+        </item>
+        <item>
+            <title><![CDATA[The New, Intelligent SAP Service Cloud Powers the Future of Customer Service]]></title>
+            <link>https://www.sap.com/news/2022/05/new-intelligent-sap-service-cloud</link>
+            <guid>https://www.sap.com/news/2022/05/new-intelligent-sap-service-cloud</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new intelligent SAP Service Cloud re-imagines how service is executed and revolutionizes customer service. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/qualtrics</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+    </channel>
+</rss>

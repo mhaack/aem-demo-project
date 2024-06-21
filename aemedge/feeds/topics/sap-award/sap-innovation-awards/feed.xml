@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/sap-award/sap-innovation-awards/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 10 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Driving Progress in Sustainability, Adoption, and AI: The 2024 SAP Innovation Award Winners]]></title>
+            <link>https://www.sap.com/blogs/2024/04/2024-sap-innovation-award-winners</link>
+            <guid>https://www.sap.com/blogs/2024/04/2024-sap-innovation-award-winners</guid>
+            <pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2024 SAP Innovation Award winners have utilized SAP solutions and AI to achieve remarkable results. Learn more about the winners.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/corporate</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/customer-story</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/innovation</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[The Wait Is Over: Here Are the 2024 SAP Innovation Award Finalists]]></title>
+            <link>https://www.sap.com/news/2024/03/2024-sap-innovation-award-finalists</link>
+            <guid>https://www.sap.com/news/2024/03/2024-sap-innovation-award-finalists</guid>
+            <pubDate>Tue, 12 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2024 SAP Innovation Award finalists have utilized cloud solutions from SAP and AI to achieve remarkable results. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[HomeMade: Self-Service Home Care Because There Is No Place Like Home]]></title>
+            <link>https://www.sap.com/news/2024/03/homemade-self-service-home-care-sap-btp</link>
+            <guid>https://www.sap.com/news/2024/03/homemade-self-service-home-care-sap-btp</guid>
+            <pubDate>Fri, 08 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[HomeMade, an Australian startup working to empower its customers in the home care sector, used SAP BTP to help scale, grow, and innovate.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="HomeMade: Self-Service Home Care Because There Is No Place Like Home" src="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="homemade-self-service-home-care-because-there-is-no-place-like-home">HomeMade: Self-Service Home Care Because There Is No Place Like Home</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>People over age 65 made up 16% of the Australian population in 2020, and they’re on track to represent more than 22% by 2026. This growing cohort is increasingly forgoing traditional facility care models to remain at home. The Australian government offers financial support to qualifying citizens, who can use those funds to support in-home care.</div>
+    </div>
+  </div>
+  <p>These government funds are typically managed by a traditional provider who establishes a plan within the customer’s budget and assigns caregivers. They offer limited to no choice regarding providers and little transparency on how the funds are being spent. This inefficient and costly approach reduces available funds for actual care with limited and often unfamiliar providers.</p>
+  <p>Enter HomeMade, a startup looking to disrupt the home care sector with a transformative solution that would empower customers to not only stay in their own homes but also to oversee their spending and self-select their providers. With an initial staff of only six, HomeMade set out to create a <a href="/topics/business-technology-platform">technology platform</a> that would deliver efficiency, flexibility, transparency, and ease of use for customers and a scalable model that would grow and evolve with the company.</p>
+  <h2 id="a-rock-solid-technology-foundation-for-a-digitally-native-startup">A Rock-Solid Technology Foundation for a Digitally Native Startup</h2>
+  <p>Technology is at the heart of HomeMade’s business model, so choosing the right technology partner and the right digital platform was essential. “We wanted a solution that would give us that ability to scale rapidly and with confidence knowing that the rails weren’t going to fall off, because to be digitally enabled is what makes us different,” <a href="https://www.linkedin.com/in/laura-westhorpe/?originalSubdomain=au">Laura Westhorpe</a>, HomeMade general manager, said.</p>
+  <p>HomeMade found the perfect partner in Bourne Digital, part of Accenture, which steered the startup to <a href="http://sap.com/btp">SAP Business Technology Platform</a> (SAP BTP). In choosing the platform, HomeMade benefits from a locally hosted, high-performance cloud architecture that can scale across its network. As a React Native open-source Cloud Foundry runtime service, the HomeMade application is intuitive, user-friendly, and easy for the company to maintain and support long term. Add SAP Integration Suite and SAP HANA data storage into the mix and HomeMade emerged with a secure, integrated, and scalable technology foundation to offer efficient care and support to Australia’s at-home care population.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="bring-out-your-best-with-data-and-ai-from-sap-btp">Bring out your best with data and AI from SAP BTP</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="young-company-makes-an-outsize-impact">Young Company Makes an Outsize Impact</h2>
+  <p>In just two years, HomeMade has grown its business to 2,500 customers and reduced new user onboarding time from 14 days to 48 hours. The company has empowered qualifying citizens to manage their budgets and choose their care while saving 14 million Australian dollars and counting.</p>
+  <p>Customers and families rave about the solution’s functionality and ease of use. HomeMade’s team members, who have grown to over 100, can happily focus on the customer instead of the endless paperwork they might find in traditional care management. Service providers appreciate timely payment, and another critical stakeholder – the Australian government – conducted a regulatory compliance audit and found that HomeMade scored 100% across 42 requirements for the Age Care Quality Safety Standards.</p>
+  <p>And this is only the beginning for a new company already making an appreciable impact. “As the needs of HomeMade grow and evolve, the platform will grow and evolve with HomeMade,” <a href="https://www.linkedin.com/in/selimahmed/?originalSubdomain=au">Selim Ahmed</a>, managing director of Bourne Digital, part of Accenture, explained. For example, Ahmed continued, “We leverage AI business services to read documents…and we’re feeling really confident that those AI services will continue to play a part in the future evolution of HomeMade as the company moves more and more towards automation and self-service.”</p>
+  <h2 id="adding-value-through-innovation">Adding Value Through Innovation</h2>
+  <p>An SAP Innovation Award winner in 2023, HomeMade continues to grow and think creatively about how its foundational SAP BTP-based technology can enable it to continue to innovate and add value for customers. “There are endless opportunities,” Westhorpe said, from increasing efficiency to leveraging data to identify falls or other incidents to using large language models to recognize clinical deterioration in users and launch preventative interventions.</p>
+  <p>For other startups looking to build technology solutions that will make a dramatic impact, Westhorpe offered to consider, “You want to build everything and you’ve got all these grand ideas, but what are the biggest things that will add value for customers?” Ahmed adds that resilience, a strong partnership, and hard work are critical: “Adapt, learn, grow together, and accept feedback…To build something innovative, you must be prepared to roll up your sleeves.”</p>
+  <h2 id="the-full-episode">The Full Episode</h2>
+  <p>Special thanks to <a href="https://apphaus.sap.com/">SAP AppHaus</a>, a hub for fostering human-centered innovation, for collaborating on this <a href="https://www.sap.com/programs/btp-better-together-customer-series.html">Better Together: Customer Conversations</a> on SAP Business Technology Platform episode. Learn more about how HomeMade built a better solution for qualifying citizens:</p>
+  <ul>
+    <li><strong>Thought leadership podcast:</strong> Thulium’s CEO <a href="https://www.linkedin.com/in/tamaramccleary/">Tamara McCleary</a> sat down with Westhorpe and Ahmed to discuss the change in caring for older adults, home-based care, and how technology can deliver on a promise dedicated to purpose.</li>
+    <li><strong>Practitioners’ video</strong>: Westhorpe, Ahmed, and I discussed the challenges and opportunities in creating a world-class digital solution for a small but rapidly scaling startup.</li>
+  </ul>
+  <p>Explore more success stories of customers leveraging SAP BTP to help optimize processes for the sake of people and purpose:</p>
+  <ul>
+    <li><strong><a href="https://www.sap.com/asset/dynamic/2023/04/ac38cbd6-6d7e-0010-bca6-c68f7e60039b.html">Colsubsidio</a></strong>: This nonprofit provider of wide-ranging social services chose SAP BTP and SAP HANA Cloud to enable extensive solution integrations, helping deliver better data connectivity and operational efficiency.</li>
+    <li><strong><a href="https://www.sap.com/assetdetail/2023/07/b457bfbe-837e-0010-bca6-c68f7e60039b.html">Heartland Dental</a></strong>: Administratively supporting over 1,700 dental practices, Heartland Dental leverages SAP BTP to help improve the business assistant’s user experience, increase productivity, and reduce turnover.</li>
+  </ul>
+  <p>For the full episode and the on-demand Better Together: Customer Conversations series, visit <a href="https://www.sap.com/programs/btp-better-together-customer-series.html">sap.com/btp</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Timo Elliott is vice president and a global innovation advocate for SAP BTP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Driving Economic Growth and Gender Equality Through the Power of Connection]]></title>
+            <link>https://www.sap.com/news/2023/12/weconnect-international-driving-economic-growth-gender-equality</link>
+            <guid>https://www.sap.com/news/2023/12/weconnect-international-driving-economic-growth-gender-equality</guid>
+            <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Innovation Award winner WEConnect International digitally transformed to drive change for gender parity and equitable opportunities.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Transformation Helps Companies Keep Promises]]></title>
+            <link>https://www.sap.com/news/2023/11/digital-transformation-helps-keep-promises-blue-diamond</link>
+            <guid>https://www.sap.com/news/2023/11/digital-transformation-helps-keep-promises-blue-diamond</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Innovation Award winner Blue Diamond Growers transformed for brand success, enhanced customer relationships, and supply chain visibility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>news-tag/sap-business-network</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Versuni Gains Agility with HXM and Connected Cloud ERP as Strong Data Foundation]]></title>
+            <link>https://www.sap.com/news/2023/09/versuni-hxm-cloud-erp-strong-data-foundation</link>
+            <guid>https://www.sap.com/news/2023/09/versuni-hxm-cloud-erp-strong-data-foundation</guid>
+            <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Versuni achieved a successful HR transformation in 10 months, deploying SAP SuccessFactors solutions in a greenfield implementation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/erp</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[The Power of Collaboration: SAP Celebrates Innovation Award Winners and Opens Submissions for 2024]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-innovation-award-winners-2024-submissions</link>
+            <guid>https://www.sap.com/news/2023/09/sap-innovation-award-winners-2024-submissions</guid>
+            <pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Companies leveraging SAP tech have achieved a decade of collaboration and operational excellence, celebrated with the SAP Innovation Awards.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1316a4793c0be932c172b8ef5c5c96203bce86784.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1316a4793c0be932c172b8ef5c5c96203bce86784.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1316a4793c0be932c172b8ef5c5c96203bce86784.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Power of Collaboration: SAP Celebrates Innovation Award Winners and Opens Submissions for 2024" src="./media_1316a4793c0be932c172b8ef5c5c96203bce86784.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-power-of-collaboration-sap-celebrates-innovation-award-winners-and-opens-submissions-for-2024">The Power of Collaboration: SAP Celebrates Innovation Award Winners and Opens Submissions for 2024</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In today’s rapidly evolving digital landscape, organizations are embracing a wide range of cloud-based tools, including analytics and artificial intelligence (AI), to drive innovation.</div>
+    </div>
+  </div>
+  <p>This was a key message conveyed during the 10th anniversary virtual celebration for the 2023 <a href="/topics/sap-innovation-awards">SAP Innovation Award</a> winners in June. The event highlighted how these technological advancements have revolutionized collaboration with customers and partners worldwide, leading to sustainable and impactful innovation. However, amidst this digital revolution, it is important to recognize that the human touch remains irreplaceable.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="submit-your-ideas-for-the-2024-sap-innovation-awards">Submit your ideas for the 2024 SAP Innovation Awards</h3>
+        <p><em><a href="https://www.sap.com/idea-place/sap-innovation-awards.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>While digital interactions have become commonplace, relying solely on the cloud for customer satisfaction is a misconception. It is the dedicated workers armed with a multitude of software solutions who continue to be the driving force behind transformative change. From manufacturing to supply chain, finance to procurement, it is the ingenuity and expertise of individuals that propel industries and society forward. These real-life transformers are the catalysts for progress, harnessing the power of technology to shape a better future.</p>
+  <p>When the first SAP Innovation Awards were launched in 2014, the judges received 27 submissions. This year, the number exceeded 220 across 10 categories, including Sustainability Hero, Industry Leader, Partner Paragon, and Cutting-Edge Genius.</p>
+  <p>Check out this <a href="https://www.sap.com/documents/2023/05/c62e227b-717e-0010-bca6-c68f7e60039b.html">e-book</a>, which has everything you need to know about the 2023 SAP Innovation Award winners, finalists, honorable mentions, and more.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_144bfb0b2e0177493012f1c783a2d49b025e093af.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_144bfb0b2e0177493012f1c783a2d49b025e093af.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_144bfb0b2e0177493012f1c783a2d49b025e093af.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Innovation Awards: See the Winners and Submit Your Own Ideas" src="./media_144bfb0b2e0177493012f1c783a2d49b025e093af.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=LM1tISRzEPQ">SAP Innovation Awards: See the Winners and Submit Your Own Ideas</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="changing-the-world">Changing the World</h2>
+  <p>At the celebration, as the winners accepted the accolades for their achievements and addressed each other online, all agreed that, in this post-pandemic period, the goal of technological innovation must transcend simply improving one’s business.</p>
+  <p>By their actions, the 2023 SAP Innovation Award winners embody that philosophy.</p>
+  <p>For instance, after the war in Ukraine forced more than 8 million people to flee their homeland, professional services corporation <strong>EY (Ernst &#x26; Young)</strong> developed its Emergency Response Application (ERA). The free mobile solution was built using SAP Business Technology Platform (SAP BTP) and enables access to critical and time-sensitive information and directs refugees to resources in 53 cities. The humanitarian undertaking was accomplished in an astonishing six weeks.</p>
+  <p>In its mission to develop novel and multifunctional therapeutics for rare cancers and other serious diseases, global biotechnology company <strong>Zymeworks</strong> found that its previous manual system was inefficient and labor-intensive. To remedy that, the company created a single, integrated platform using SAP’s enterprise resource planning (ERP) solutions to support its product commercialization, growth, and expansion strategy – allowing the organization insight into real-time information to make important, data-driven decisions while continuing to save lives.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="congratulating-the-10th-anniversary-sap-innovation-award-winners">Congratulating the 10th Anniversary SAP Innovation Award Winners</h3>
+        <p><em><a href="/2023/04/congratulating-10th-anniversary-sap-innovation-award-winners">Read the feature</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In Australia, where the country’s growing aging population has increased the demand for in-home and community-delivered care, <strong>HomeMade</strong> designed a self-service portal leveraging SAP BTP, enabling the elderly to choose providers for services like cleaning and cooking and lead a fulfilling life while reducing administrative overhead.</p>
+  <p>And on the Japanese island of Kyushu, where natural disasters are all too frequent, <strong>Oita University</strong> developed an information platform called the Earth Disaster Intelligent System Operational Network (EDiSON), providing accurate and timely data to assist emergency response organizations. The solution uses robust data management, advanced analytics, AI, and machine learning capabilities offered by SAP HANA Cloud, the SAP Analytics Cloud solution, and SAP Business Technology Platform.</p>
+  <h2 id="a-sustainable-planet">A Sustainable Planet</h2>
+  <p>From the time the 2023 SAP Innovation Awards were announced, judges were “looking for tangible examples of sustainability that are delivering impact, using SAP technologies for good,” said Dorit Shackleton, senior vice president, head of Customer Advocacy and Global Events Marketing at SAP.</p>
+  <p>In addition to supplying people in Switzerland’s Basel region with electricity, heat, and drinking water, along with telecom and mobility solutions, <strong>Industrielle Werke Basel (IWB)</strong> produces and sells renewable and CO2-netural energy to achieve climate goals. Using machine learning algorithms, a new adaptable application leveraging SAP Business Technology Platform can predict solar power production with unprecedented accuracy, supporting IWB’s ongoing sustainability drive.</p>
+  <p>As host Timo Elliot pointed out, “If you can help with just a small percentage [of reducing the carbon footprint], you can make a big difference to the planet.”</p>
+  <p>In trying to reach its environmental, social, and governance (ESG) objectives, Indonesian mining, infrastructure, and oil and gas services company <strong>Petrosea</strong> was frustrated that its old, largely paper-based system complicated the process. By creating a unified platform and utilizing SAP Analytics Cloud, the company now has one source of truth to monitor carbon emissions, waste, and water usage to make informed choices and realize what it calls its 3D strategy – diversification, digitalization, and decarbonization.</p>
+  <p>As the 2023 SAP Innovation Award winners continue to bask in the glow of their success, planning for the 2024 festivities is underway. And even organizations that don’t plan to enter will be watching to find inspiration for new ways to improve.</p>
+  <p>Join us in celebrating innovation and transformation by sharing your success stories in the <strong>2024 SAP Innovation Awards</strong>! We invite you to submit your transformation stories.</p>
+  <p>Together, let’s shape the future of innovation. Participate in the 2024 SAP Innovation Awards and share your remarkable journey with us. Visit our <a href="https://www.sap.com/idea-place/sap-innovation-awards/how-to-enter.html">submissions page</a> to get started!</p>
+  <div class="footnote">
+    <div>
+      <div><em>Julia Ponzini is a customer marketing senior specialist at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow Us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/innovation</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Standard Chartered Gains Agility with Total Workforce Management]]></title>
+            <link>https://www.sap.com/news/2023/07/standard-chartered-total-workforce-solution</link>
+            <guid>https://www.sap.com/news/2023/07/standard-chartered-total-workforce-solution</guid>
+            <pubDate>Fri, 28 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Standard Chartered uses total workforce management with SAP SuccessFactors and SAP Fieldglass for one view of permanent and external workers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/banking</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/external-workforce-management</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>news-tag/total-workforce-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Congratulating the 10th Anniversary SAP Innovation Award Winners]]></title>
+            <link>https://www.sap.com/news/2023/04/congratulating-10th-anniversary-sap-innovation-award-winners</link>
+            <guid>https://www.sap.com/news/2023/04/congratulating-10th-anniversary-sap-innovation-award-winners</guid>
+            <pubDate>Wed, 12 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With immense pleasure and pride, here are the 30 winners of the 10th anniversary SAP Innovation Awards for 2023!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/innovation</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[The 2023 SAP Innovation Award Finalists Have Been Selected]]></title>
+            <link>https://www.sap.com/news/2023/03/2023-sap-innovation-award-finalists-selected</link>
+            <guid>https://www.sap.com/news/2023/03/2023-sap-innovation-award-finalists-selected</guid>
+            <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With over 220 submissions, we are excited to announce the 2023 SAP Innovation Award finalists. Read to learn more about the 70 finalists.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/innovation</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Innovation Awards Celebrate Innovation amid Global Challenges]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-innovation-awards-celebrate-innovation-amid-global-challenges</link>
+            <guid>https://www.sap.com/news/2023/02/sap-innovation-awards-celebrate-innovation-amid-global-challenges</guid>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are excited for the 10th anniversary SAP Innovation Awards, honoring pioneers for their innovative use of SAP solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/innovation</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Investing in an Innovative New Platform Can Provide Fallback for Any Scenario]]></title>
+            <link>https://www.sap.com/news/2022/10/investing-in-an-innovative-new-platform-can-provide-fallback-for-any-scenario</link>
+            <guid>https://www.sap.com/news/2022/10/investing-in-an-innovative-new-platform-can-provide-fallback-for-any-scenario</guid>
+            <pubDate>Wed, 26 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Freudenberg Home and Cleaning Solutions, a 2022 SAP Innovation Award winner, digitalized processes and improved forecasting with SAP BTP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/innovation</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Buying and Selling Renewable Energy Enables Communities across Europe to Become More Independent and Sustainable]]></title>
+            <link>https://www.sap.com/news/2022/09/exnaton-buying-and-selling-renewable-energy</link>
+            <guid>https://www.sap.com/news/2022/09/exnaton-buying-and-selling-renewable-energy</guid>
+            <pubDate>Fri, 30 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Thanks to an innovative solution developed by Exnaton, you can take your surplus solar energy to the market. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19c8daa63aba95e847020c46340b735287f3308a9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19c8daa63aba95e847020c46340b735287f3308a9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19c8daa63aba95e847020c46340b735287f3308a9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Buying and Selling Renewable Energy Enables Communities across Europe to Become More Independent and Sustainable" src="./media_19c8daa63aba95e847020c46340b735287f3308a9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="buying-and-selling-renewable-energy-enables-communities-across-europe-to-become-more-independent-and-sustainable">Buying and Selling Renewable Energy Enables Communities across Europe to Become More Independent and Sustainable</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Going to market is an age-old activity when it comes to buying and selling goods – from cash crops to cattle, everything under the sun has been traded in some form or another. Now, you can even take your surplus solar energy to the market, thanks to an innovative solution developed by a team of young Swiss entrepreneurs.</div>
+    </div>
+  </div>
+  <p>“There is no life on earth without the sun, and it’s there for everyone,” said Anselma Wörner, COO and one of the three cofounders of Exnaton, a Swiss company that develops software for communities trading renewable energy in local neighborhoods.</p>
+  <p>Wörner was explaining how her company created a smart energy system at the recent <a href="https://tacinsights.eventsair.com/international-sap-conference-for-utilities-2022/conference-brochure">International Conference for Utilities, presented by SAP and TAC Events</a> in Munich, Germany. “We have a new generation of prosumers – people who consume and produce their own energy – who are using new connected technologies and renewable power like solar to exchange energy through the grid.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="become-a-sustainable-intelligent-enterprise-with-sap-solutions">Become a sustainable, intelligent enterprise with SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/sustainability.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="sun-powered">Sun Powered</h2>
+  <p>Humans have always depended on the sun for light, heat, and food, and its all-encompassing power has influenced cultures and religions around the world. Although advances in technology have decreased our dependence, the importance of solar energy in our efforts to reduce our carbon footprint is a reminder that we still depend on it for survival. That’s why the cofounders picked the name <a href="https://www.exnaton.com/about-us">Exnaton</a> for their enterprise. Looking for a word that connects “energy” and “exchange,” they hit upon the Egyptian pharaoh Akhenaten (pronounced Echnaton) who raised the status of the sun above that of all other gods and created an early monotheism that briefly became a state religion.</p>
+  <p>The goal of Exnaton is to help integrate prosumers into the grid. Currently, the legal framework is very complex, and there is no clear ROI for them. There are no feed-in tariffs or policy mechanisms designed to accelerate investment in renewable energy technologies by offering long-term contracts to renewable energy producers.</p>
+  <p>“At the moment, there is no value for the community, and we want to change that,” said Wörner, who is responsible for fundraising, data science, and recruiting at Exnaton. “What most people don’t realize is that renewable energy is not always produced when it’s needed most. So, when it is available, prosumers should be able to sell their energy directly.”</p>
+  <p>People who own solar panels could actually sell a lot of energy to other households, if only they had the means. Wörner and her team believe it should be as easy to sell to other consumers as it is to sell any other products on the market. “Prosumers are faced with fragmented solutions, complex regulations, and frustrating user experiences. What they need are simple solutions, trusted local providers, and proactive community and user groups,” she explained.</p>
+  <h2 id="community-centric">Community Centric</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="thrive-in-a-time-of-energy-transition-with-utilities-management-systems-that-support-a-sustainable-future">Thrive in a time of energy transition with utilities management systems that support a sustainable future</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/energy-utilities.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Enter Exnaton’s EnergyCommunity software add-on for <a href="https://www.sap.com/industries/energy-utilities.html">SAP for Utilities</a> solutions, which won an <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2022.html?idea_id=2903">SAP Innovation Award</a> in the Partner Paragon category together with Best Practice Consulting (BPC) and is now available on SAP Store. This user-centric extension enables utility companies to empower prosumers to buy and sell energy within their local communities and also track all relevant data.</p>
+  <p>Here’s how it works. Any prosumers in the community can sell their solar energy to any consumers in the grid. The EnergyCommunity tracks their energy data and informs them exactly where the energy is coming from and how much CO2 it is generating. The utility company can easily bill these energy exchanges with their regular SAP billing system thanks to the integration offered by Exnaton in working with the SAP system integrator BPC. At the same time, the utility company can sell additional hardware installations to members of the community, making it an attractive option for all parties.</p>
+  <p>“The EnergyCommunity makes it easy to exchange energy within the community. Participating in their local community creates a closer bond between people, and the platform provides a new customer channel for the utility company,” said the technology expert, who has a PhD in Information Systems. “At the end of the day, with Exnaton’s energy sharing software-as-a-service platform, energy suppliers can offer their customers more independence.”</p>
+  <p>Exnaton is responding to the challenge faced by prosumers who currently have no possibility to sell their extra energy directly on the market and the one faced by utilities companies as they realize they must offer new models as they transition to renewables with a decentralized approach. A number of utility companies are already running the solution in communities across Germany, Austria, Luxemburg, and Switzerland, and the goal is to expand to other European countries where there is a strong regulatory framework. More importantly, the solution enables energy companies to equip their customers for a <a href="/topics/sustainability">sustainable future</a>.</p>
+  <h2 id="future-focused">Future Focused</h2>
+  <p>Over 733 million people on the planet still don’t have access to affordable, sustainable energy, which is why providing energy is goal seven on the list of the <a href="https://sdgs.un.org/goals">UN Sustainable Development Goals</a>. For Exnaton, goal seven is its core business, but at the same time, it is equally committed to goal 11, developing sustainable cities and communities; goal 12, enabling responsible production and consumption; and goal 13, taking urgent action to combat climate change and its impact.</p>
+  <p>The good news, according to the recent <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_21_5554">State of the Energy Union</a> report, is that renewables overtook fossil fuels as the number one power source in the European Union for the first time in 2020. Renewables generate 38% of electricity, compared to 37% for fossil fuels. Also, at least two million people in the EU are already involved in more than 7,700 energy communities, and engagement is rising. Energy communities have also contributed up to 7% of nationally installed capacities of renewables, estimated at 6.3 GW.</p>
+  <p>For Wörner and the team at Exnaton, producing energy where it is consumed decreases the dependence of the region on imported resources. Energy from the sun is practically limitless, and it more than covers the entire demand of the planet. With advances in technology and solutions like the EnergyCommunity, households and small businesses benefit from electricity powered by the sun, making renewable energy accessible and cost effective. What could be more natural, sensible, or sustainable?</p>
+  <div class="footnote">
+    <div>
+      <div><em><a href="https://www.forbes.com/sites/sap/2022/08/31/buying-and-selling-their-own-renewable-energy-makes-prosumers--more-independent-and-sustainable/?sh=7aa6082d492f">This article was first published on forbes.com</a>.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/renewable-energy</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-store</category>
+            <category>news-tag/un-sdgs</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[Netze BW: A Digital Companion for Service Technicians]]></title>
+            <link>https://www.sap.com/news/2022/09/netze-bw-digital-companion-for-service-technicians</link>
+            <guid>https://www.sap.com/news/2022/09/netze-bw-digital-companion-for-service-technicians</guid>
+            <pubDate>Mon, 05 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Netze BW and SAP developed an Apple Watch app so service technicians stay connected and safe while in the field. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[In an Age of Digital Resilience, the 2023 SAP Innovation Awards Celebrate Elite Disruptors]]></title>
+            <link>https://www.sap.com/news/2022/08/2023-sap-innovation-awards-celebrate-elite-disruptors</link>
+            <guid>https://www.sap.com/news/2022/08/2023-sap-innovation-awards-celebrate-elite-disruptors</guid>
+            <pubDate>Mon, 15 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Submissions for the 2023 SAP Innovation Awards are now open. Read to learn more about the competition, now in its 10th year.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[How Sanlam Developed a Diverse, Engaged, and Future-Ready Workforce]]></title>
+            <link>https://www.sap.com/news/2022/05/sanlam-diverse-engaged-future-ready-workforce</link>
+            <guid>https://www.sap.com/news/2022/05/sanlam-diverse-engaged-future-ready-workforce</guid>
+            <pubDate>Thu, 05 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sanlam launched a HR shared services model using SAP solutions to embrace a total workforce management strategy. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/contingent-workforce-management</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>news-tag/total-workforce-management</category>
+            <category>news-tag/well-being-at-work</category>
+        </item>
+        <item>
+            <title><![CDATA[Here Are the Winners of the SAP Innovation Awards for 2022]]></title>
+            <link>https://www.sap.com/news/2022/04/2022-sap-innovation-award-winners</link>
+            <guid>https://www.sap.com/news/2022/04/2022-sap-innovation-award-winners</guid>
+            <pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2022 SAP Innovation Award winners are forward-thinking companies harnessing the power of technology to make the world run better.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Morocco’s Ministry of Health Saved Thousands of Lives Overnight]]></title>
+            <link>https://www.sap.com/news/2022/04/morocco-ministry-of-health-saved-thousands-overnight</link>
+            <guid>https://www.sap.com/news/2022/04/morocco-ministry-of-health-saved-thousands-overnight</guid>
+            <pubDate>Wed, 13 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To protect its citizens, Morocco’s Ministry of Health developed a COVID-19 Real-Time Monitoring system with SAP Analytics Cloud. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-story</category>
+            <category>topic/data-analytics</category>
+            <category>industry/healthcare</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Discovery Creates a Culture of People Empowerment]]></title>
+            <link>https://www.sap.com/news/2022/04/discovery-creates-culture-of-people-empowerment</link>
+            <guid>https://www.sap.com/news/2022/04/discovery-creates-culture-of-people-empowerment</guid>
+            <pubDate>Mon, 11 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discovery chose SAP SuccessFactors solutions to help bring its operations into the 21st century and develop an even more supportive culture.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[Aluminum Company Vedanta Pulled Off One of the Largest Business Transformations in the Metals Industry]]></title>
+            <link>https://www.sap.com/news/2022/03/vedanta-business-transformation-metals-industry</link>
+            <guid>https://www.sap.com/news/2022/03/vedanta-business-transformation-metals-industry</guid>
+            <pubDate>Fri, 18 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vedanta used solutions like SAP S/4HANA to become an intelligent enterprise, improving agility and gaining access to real-time analytics.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/mining: industry/mill-products</category>
+            <category>news-tag/sap-ariba</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[And the 2022 SAP Innovation Awards Finalists Are...]]></title>
+            <link>https://www.sap.com/news/2022/03/2022-sap-innovation-award-finalists</link>
+            <guid>https://www.sap.com/news/2022/03/2022-sap-innovation-award-finalists</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is honored to share the 2022 SAP Innovation Awards finalists and congratulates all the customers that shared incredible submissions.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ad19e608d517a0e320d975ca40d278bf7629f244.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ad19e608d517a0e320d975ca40d278bf7629f244.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ad19e608d517a0e320d975ca40d278bf7629f244.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="And the 2022 SAP Innovation Awards Finalists Are…" src="./media_1ad19e608d517a0e320d975ca40d278bf7629f244.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="and-the-2022-sap-innovation-awards-finalists-are">And the 2022 SAP Innovation Awards Finalists Are…</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Today, SAP is honored to share the finalists of the SAP Innovation Awards 2022.</div>
+    </div>
+  </div>
+  <p>As we recognize the outstanding contributions of customers, we underscore that SAP stands in solidarity with Ukraine. The company is working constantly to lend support and mitigate impact on those affected. To learn more, please read the <a href="/2022/03/standing-in-solidarity">statement from SAP CEO Christian Klein</a>.</p>
+  <div class="quote">
+    <div>
+      <div><a href="/2022/03/standing-in-solidarity">Standing in Solidarity</a></div>
+    </div>
+  </div>
+  <p><a href="/2022/03/standing-in-solidarity/embed/#?secret=oRJlnPmWrB#?secret=xg1AuGwWsU">“Standing in Solidarity” — SAP News Center</a></p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-this-years-finalists">Learn more about this year's finalists</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/entries.html#finalists">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="recognizing-and-addressing-needs">Recognizing and Addressing Needs</h2>
+  <p>Customers and partners that participate in the SAP Innovation Awards are recognized for their brilliant work in helping the world rise above key challenges with the help of SAP technology. These innovative solutions provide long-term benefits that impact our planet and, ultimately, all of us.</p>
+  <h2 id="what-does-it-take-to-be-an-sap-innovation-awards-finalist">What Does It Take to be an SAP Innovation Awards Finalist?</h2>
+  <p>How does a company become a finalist for the SAP Innovation Awards? The answer is simple: these are businesses that have made great strides in bouncing back and moving forward during a global pandemic, companies that have dedicated themselves to creating a more sustainable future.</p>
+  <p>For instance, especially in times of great uncertainty, businesses have focused on building more resilient supply chains, so corporations and their customers are not left wanting. At the end of the day, companies that are transforming into intelligent enterprises to make the most efficient use of limited resources are the ones whose forward-looking use of technology will leave the world a better place than they found it.</p>
+  <h2 id="selecting-the-best-of-the-best">Selecting the Best of the Best</h2>
+  <p>Of the hundreds of amazing entries we received across multiple vertical categories ranging from the airline industry to wholesalers, finalists were selected by our panel of expert judges. This was no easy feat — across the board, the submissions were incredible. And for that, I extend my admiration and kudos to our judges who had the difficult job of narrowing down the list of submissions into eight categories.</p>
+  <h2 id="the-final-sixty">The Final Sixty</h2>
+  <p>And now, our finalists for 2022:</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_156178c5e2ded50a515a1da78cf5fa61010c9af81.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_156178c5e2ded50a515a1da78cf5fa61010c9af81.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_156178c5e2ded50a515a1da78cf5fa61010c9af81.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Logos of the 2022 SAP Innovation Awards finalists" src="./media_156178c5e2ded50a515a1da78cf5fa61010c9af81.png?width=750&#x26;format=png&#x26;optimize=medium" width="825" height="459">
+    </picture>Congratulations to all our customers for incredible submissions. <a href="https://www.sap.com/idea-place/sap-innovation-awards/entries.html#finalists">Read their full stories here</a>.
+  </p>
+  <p><strong>Save the Date: April 14, 2022</strong></p>
+  <p>From the 60 finalists will come <strong>25 winners</strong> of the SAP Innovation Awards for 2022, to be announced on April 14.</p>
+  <p>To expand your knowledge of the SAP Innovation Awards, learn more about the finalists, or participate in next year’s awards, visit the <a href="https://www.sap.com/idea-place/sap-innovation-awards.html">SAP Innovation Awards website</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Juliana Roxa is global customer marketing director and head of the SAP Innovation Awards.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[IoT Saves Lives in Hazardous Work Environments]]></title>
+            <link>https://www.sap.com/news/2022/03/westernacher-iot-saves-lives-in-hazardous-work-environments</link>
+            <guid>https://www.sap.com/news/2022/03/westernacher-iot-saves-lives-in-hazardous-work-environments</guid>
+            <pubDate>Fri, 04 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Westernacher Consulting used SAP IoT as the foundation for its Connected Worker platform, which aims to reduce workplace accidents.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/oil-gas-energy</category>
+            <category>news-tag/partners</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-partneredge</category>
+        </item>
+        <item>
+            <title><![CDATA[How a Consulting Firm and a Manufacturer Found a Solution to Improve Sustainability Practices]]></title>
+            <link>https://www.sap.com/news/2022/02/pwc-and-manufacturer-solution-to-improve-sustainability</link>
+            <guid>https://www.sap.com/news/2022/02/pwc-and-manufacturer-solution-to-improve-sustainability</guid>
+            <pubDate>Fri, 25 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[PwC utilized SAP S/4HANA in the development of its Production Reprocessing Tool, which reduces and recycles manufacturing waste.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/pwc</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Superpower Summit: Tech Giants Join Forces in Manufacturing Industry Rescue]]></title>
+            <link>https://www.sap.com/news/2022/02/ibm-sap-join-forces-manufacturing-industry</link>
+            <guid>https://www.sap.com/news/2022/02/ibm-sap-join-forces-manufacturing-industry</guid>
+            <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[IBM utilized a variety of SAP products to create its Connected Plant solution, which makes manufacturing processes more efficient.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a2eb52edcb5cb4575ac4d41bcd0e183eaafc56fc.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a2eb52edcb5cb4575ac4d41bcd0e183eaafc56fc.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a2eb52edcb5cb4575ac4d41bcd0e183eaafc56fc.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Superpower Summit: Tech Giants Join Forces in Manufacturing Industry Rescue" src="./media_1a2eb52edcb5cb4575ac4d41bcd0e183eaafc56fc.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="superpower-summit-tech-giants-join-forces-in-manufacturing-industry-rescue">Superpower Summit: Tech Giants Join Forces in Manufacturing Industry Rescue</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Even before <a href="/topics/covid-19">COVID-19</a> and the supply chain crisis hit, two global tech pioneers were surveying the state of manufacturing, aware that there were problems that had to be addressed quickly.</div>
+    </div>
+  </div>
+  <p>Manufacturing operations were woefully lacking in real-time visibility. During manufacturing execution, process data could not be automatically captured. Tracking worker safety remained an elusive goal. The absence of an end-to-end perspective meant that it was difficult to understand process effectiveness and make quick, crucial decisions, compromising future planning.</p>
+  <p>Under these circumstances, continuously and effectively running a manufacturing operation was a challenge – as was providing added value to customers. And during COVID-19, the absence of available shop floor operators only made the situation worse.</p>
+  <p>Desperately needed was a smart and intuitive solution to execute, monitor, and analyze the end-to-end manufacturing process, starting with planning and extending all the way to inventory. Updates on labor planning and worker safety would have to be provided in real time.</p>
+  <p>This would particularly benefit servitized industries, in which outcome is now directly related to the revenue situation.</p>
+  <p>Additionally, the solution would need to be intelligent enough to evaluate data, consider a variety of business scenarios, and propose the best future actions.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-ibms-sap-innovation-awards-pitch-deck">Explore IBM's SAP Innovation Awards pitch deck</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2414">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="a-leading-edge-alliance">A Leading-Edge Alliance</h2>
+  <p>Since 1911, technology and innovation trailblazer IBM had been creating responsive, resilient, next-generation solutions to the challenges of the day. One hundred years and a decade later, that movement still continues.</p>
+  <p>Now, the company merged forces with the market leader in enterprise application software: SAP.</p>
+  <p>The two established their first Global Alliance Partnership in 1989. But their relationship dated back to the founding of SAP in 1972 – by five former IBM employees.</p>
+  <p>In recent years, as customer needs shifted to the cloud, SAP and IBM had been working together to accelerate the digital revolution, using such technologies as machine learning, artificial intelligence (AI), digital twin – virtual representations of physical objects or processes – and Internet of Things (IoT) sensors.</p>
+  <p>With global lockdowns and associated disruptions impacting the world in the summer of 2020, the two corporations announced the next stage of their alliance, branding it the Evolution Partnership initiative.</p>
+  <p>The manufacturing effort topped their list.</p>
+  <h2 id="informed-real-time-decisions">Informed, Real-Time Decisions</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="digital-manufacturing-solutions-are-the-future-of-productivity">Digital manufacturing solutions are the future of productivity</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/supply-chain-management/manufacturing.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Indeed, the Connected Plant solution created by the two companies would enable real-time manufacturing execution planning and tracking and provide automated reporting of machine and process data.</p>
+  <p>The innovation could be used to ensure that the proper equipment was being provided and certify both quality inspection and cognitive worker guidance. When defects were detected, a repair order would be automatically generated.</p>
+  <p>From this point forward, guesswork was no longer required to make informed business decisions. Instead, conclusions were based on managers’ instant accessibility to end-to-end analytics and up-to-date key performance indicators (KPIs).</p>
+  <h2 id="seamless-and-integrated">Seamless and Integrated</h2>
+  <p>With the seamlessly integrated manufacturing tool, new possibilities abounded. The Connected Plant solution allowed managers to:</p>
+  <ul>
+    <li>View manufacturing and production orders for every shift</li>
+    <li>Ensure that all needed components were available</li>
+    <li>Execute tasks with a few simple words via chatbot</li>
+    <li>Detect deficiencies during quality inspections</li>
+    <li>Confirm assembly and sub-assembly completion</li>
+  </ul>
+  <p>Today, with the world struggling to compensate for supply chain gaps, the Connected Plant platform is being utilized to provide supplies and drive continuous planning across resource networks.</p>
+  <p>And both SAP and IBM are prepared to revise the solution as business models evolve and processes are reconfigured in areas like energy, natural resource consumption, and emissions management.</p>
+  <p>“To compete in a highly disruptive and rapidly evolving world, companies require the ability to rewire their organizations to create efficient, automated business processes – applying advanced technologies to transform static, siloed processes into agile, intelligent workflows,” said Mark Foster, IBM Services senior vice president.</p>
+  <p>As the Connected Plant solution continued to expand the number of tasks it could perform, IBM was honored as a finalist in the 2021 SAP Innovation Awards, a yearly ceremony commemorating organizations using SAP products to transform business and society.</p>
+  <p>To learn more about IBM’s smart and intuitive solution, be sure to check out its SAP Innovation Awards <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2414">pitch deck</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Keith E. Greenberg is an SAP global marketing contributor.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/ibm</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Courage, Creativity, Hope: This Year's SAP Innovation Awards]]></title>
+            <link>https://www.sap.com/news/2022/02/courage-creativity-hope-2022-sap-innovation-award-entries</link>
+            <guid>https://www.sap.com/news/2022/02/courage-creativity-hope-2022-sap-innovation-award-entries</guid>
+            <pubDate>Tue, 15 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the 2022 SAP Innovation Award entries and how SAP celebrates the successes of forward-thinking companies.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1847e4b104fd30424a0bd273d5386de9aa5b3e8f5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1847e4b104fd30424a0bd273d5386de9aa5b3e8f5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1847e4b104fd30424a0bd273d5386de9aa5b3e8f5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Courage, Creativity, Hope: This Year’s SAP Innovation Awards" src="./media_1847e4b104fd30424a0bd273d5386de9aa5b3e8f5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="courage-creativity-hope-this-years-sap-innovation-awards">Courage, Creativity, Hope: This Year’s SAP Innovation Awards</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the spirit of Valentine’s Day, I want to show some love and recognize some very important people who helped the world run better and improved people’s lives in 2021: our customers, our partners, and their awesome teams.</div>
+    </div>
+  </div>
+  <p>With everything we are all dealing with, it is crucial we stop sometimes and take a moment to celebrate success. One special way we’ll be doing that is with the SAP Innovation Awards in 2022.</p>
+  <p>To help us with that, we have some great news to share: Claudio Muruzabal, president of SAP’s new Cloud Success Services organization, is joining Scott Russell, Stephanie Nashawaty, and me as an executive sponsor for the SAP Innovation Award program this year!</p>
+  <p>Nobody knows yet who the winners will be, and that’s part of the fun. The innovation stories our customers are sharing with us this year are truly outstanding. We are seeing people all over the world make great strides in the way they’re bouncing back from the <a href="http://news.sap.com/tags/covid-19/">pandemic</a>, in the way they are creating a more sustainable future, in how they’re building better supply chains, and in how they’re transforming their enterprises using RISE with SAP.</p>
+  <p>Here are just a few fantastic examples:</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-the-sap-innovation-awards">Learn more about the SAP Innovation Awards</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="building-resilience">Building Resilience</h2>
+  <p>As COVID-19 kept evolving in 2021, it continued to disrupt the global airline industry. Air Canada was already on a journey to unify its procurement function with an integrated suite of SAP Ariba solutions. Its employees were able to switch overnight to working from home on a shared system in the cloud. The airline eliminated manual processes, streamlined operations, and enhanced efficiency from source to pay, while controlling spending and finding new ways to save costs. Ariba Network also helped Air Canada safeguard supply chain continuity and reduce their risk during the pandemic.</p>
+  <h2 id="smart-sustainable-agriculture">Smart, Sustainable Agriculture</h2>
+  <p>PepsiCo knows that a steady, sustainable supply of crops is central to its business, and the company sources crops from millions of acres across 60 countries. The old way of collecting field data manually just was not cutting it. Using SAP Business Technology Platform, PepsiCo developed a technology-enabled approach to farming with an SAP Fiori App connected to an SAP S/4HANA back-end system and SAP Analytics Cloud that observes, measures, and analyzes the needs of individual fields and crops. This increased potato yields by seven percent and resulted in a 15% overall water saving. And PepsiCo can sustainably source 100% of its key ingredients.</p>
+  <h2 id="the-definition-of-big">The Definition of Big</h2>
+  <p>“Big” could apply to SAP customer Carrefour. This French global food retailing group has 321,000 employees and 12,225 stores in more than 30 countries. And yet the company stays as close as possible to its customers by continuously adapting retail formats and channels to suit their needs. Powerful enterprise resource planning (ERP) is important to the group, and Carrefour Brazil’s needed updating. The company decided to move its old on-premise system to SAP S/4HANA in the cloud. Using RISE with SAP, it implemented in just three and a half months to meet a Black Friday deadline, and is boosting sales and engaging shoppers with personalized offers by building a recommendation engine, cutting running costs by 30%, and even reducing energy consumption by 45% by moving from on-premise data centers to the cloud.</p>
+  <h2 id="the-announcement-is-coming">The Announcement is Coming</h2>
+  <p>The entry submission period closed on January 31, and now the SAP Innovation Award team is working to select the finalists that will be revealed on March 16. A panel of 29 distinguished judges will then have just four weeks to determine the winners — the big announcement is on April 14. It will be a tough job for everyone as we have dozens of great entries! In honour of all participants, SAP will donate up to US$20,000 to the charity <a href="https://theirworld.org/">Theirworld</a>.</p>
+  <h2 id="want-to-know-more">Want to Know More?</h2>
+  <p>Maybe you’ve worked with one of this year’s entrants; maybe you know of a customer who would be a perfect fit for next year’s SAP Innovation Awards; maybe you’d like to see more of these inspiring stories — if you want to dig deeper, check out the SAP Innovation Awards <a href="https://www.sap.com/idea-place/sap-innovation-awards.html">website</a>. And stay tuned for the announcement of the winners on April 14. It’s a feel-good moment every year, and we all need more of those.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Dorit Shackleton is global head of Customer Advocacy and Adoption Marketing at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[How One Tech Company Enhances Port Operations]]></title>
+            <link>https://www.sap.com/news/2022/01/how-tech-mahindra-enhances-port-operations</link>
+            <guid>https://www.sap.com/news/2022/01/how-tech-mahindra-enhances-port-operations</guid>
+            <pubDate>Mon, 31 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tech Mahindra used SAP BTP to develop its Port Logistics solution, a unified platform for secure, faster clearance processes in ports.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How One Tech Company Enhances Port Operations" src="./media_182d398af4a2bb68db62043dac2a2a6276377336a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-one-tech-company-enhances-port-operations">How One Tech Company Enhances Port Operations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="/covid-19">COVID-19</a>: a topic that we have all become intimately familiar with over the last two years. And although scientists have made great strides in developing effective vaccines since the beginning of the pandemic, they certainly cannot account for the ways in which COVID-19 has impacted nearly every sector of the economy.</div>
+    </div>
+  </div>
+  <p>In particular, COVID-19 continues to have far-reaching consequences on global supply chains. This perhaps would come as no surprise in early 2020, when many were scrambling in grocery stores for toilet paper, cleaning products, and other necessities in preparation for quarantine lockdowns.</p>
+  <p>However, more than a year has passed since this frantic phase and global supply chains are still trying to recover from the whiplash. In turn, major ports across the U.S. – from Los Angeles and Long Beach in California to Savannah, Georgia – are facing unprecedented backlogs. Whether it be buying gifts or purchasing a new car, the shipping crisis is sure to impact many of us.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-tech-mahindras-sap-innovation-awards-pitch-deck">Read Tech Mahindra's SAP Innovation Awards pitch deck</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2387">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="port-logistics-operations">Port Logistics Operations</h2>
+  <p>Focusing on the <strong>ports and maritime industry</strong>, the most significantly affected sectors have been chemical tankers, cruise ships, and passenger ships. The ship traffic from Europe to China and the U.S. has declined compared to the same periods in 2019.</p>
+  <p>To cope with the disruption, changes are expected to happen in operational, financial, and economic areas – as well as sanitary protocols and processes and adjustments to working practices and organizational aspects.</p>
+  <p>So where do businesses like Tech Mahindra come in?</p>
+  <p>Based in Pune, India, <strong>Tech Mahindra</strong> is a multinational technology company with over 125,000 employees. Working with SAP Co-Innovation Lab, Tech Mahindra developed a cloud-based solution for handling port logistics operations. Its Port Logistics solution, built on <a href="https://www.sap.com/products/integration-suite.html">SAP Integration Suite</a>, provides a unified and collaborative platform for secure and faster clearance processes in ports.</p>
+  <h2 id="sailing-past-the-paperwork">Sailing Past the Paperwork</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-the-platform-for-the-intelligent-enterprise">SAP BTP: The platform for the Intelligent Enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Leveraging the Port Logistics solution reduces the amount of paperwork and in less time. This translates into more funds, and who doesn’t want to save a little extra money? The solution enhances port operations using automation that:</p>
+  <ul>
+    <li>Provides a single window for the port authorities receiving the products to have secure communication and exchange information with the ship personnel for handling the cargo and logistics clearance</li>
+    <li>Tracks transactions and approvals</li>
+    <li>Analyzes deviation reports for transparency</li>
+  </ul>
+  <p>The solution offers real-time analysis for quick decisions, smooth information flow, and automated document verification. The new process saves time in checking in and cross-verifying for each clearance process requirement. This means no more manual paperwork, customers receive their goods faster, and revenue is realized sooner.</p>
+  <p>In real-world application, the process <strong>reduces the cost</strong> of data transfer and documentation management by 90% and <strong>increases revenue</strong> by 20%.</p>
+  <h2 id="looking-to-the-future">Looking to the Future</h2>
+  <p>Automation is more than convenience – it’s necessary. It saves time and money in unexpected ways, such as facilitating supply chains for food. As we learn to stay afloat amidst a global pandemic, improving operational efficiency for ports remains a priority. Tech Mahindra has been planning for the next generation of smart ports to prepare for the expected upsurge in shipping volume.</p>
+  <p>To learn more about Tech Mahindra and its Port Logistics solution, check out its SAP Innovation Awards 2021 <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2387">pitch deck</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Rajshree Chauhan and Casey Tobias are SAP Global Marketing contributors.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-integration-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[Payroll Company Prioritizes the Patient Journey over Paperwork]]></title>
+            <link>https://www.sap.com/news/2022/01/payroll-company-epi-use-prioritizes-patient-journey-over-paperwork</link>
+            <guid>https://www.sap.com/news/2022/01/payroll-company-epi-use-prioritizes-patient-journey-over-paperwork</guid>
+            <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[EPI-USE utilized SAP Extension Suite to build LogBox, an app aiming to ease stress at the doctor’s office by facilitating patient journeys.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_120aa07f344722d96c00cfab6c0f2dc89c59745c4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_120aa07f344722d96c00cfab6c0f2dc89c59745c4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_120aa07f344722d96c00cfab6c0f2dc89c59745c4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Payroll Company Prioritizes the Patient Journey over Paperwork" src="./media_120aa07f344722d96c00cfab6c0f2dc89c59745c4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="payroll-company-prioritizes-the-patient-journey-over-paperwork">Payroll Company Prioritizes the Patient Journey over Paperwork</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>A visit to the doctor’s office can be as taxing as the reason for the infirmity itself. Patients complain about long wait times not only to see the physician, but also for records and results.</div>
+    </div>
+  </div>
+  <p>Oftentimes, no matter how competent the administrative staff is and how many hours they work, there is also inaccurate information. And paper. Lots of paper.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-epi-uses-sap-innovation-awards-pitch-deck">Explore EPI-USE's SAP Innovation Awards pitch deck</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2306">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="fragmented-care-and-the-burden-of-extra-paperwork">Fragmented Care and the Burden of Extra Paperwork</h2>
+  <p>Head-scratching as it may be, the reality is that <strong>paperwork</strong> is still part of the norm in many modern medical offices – contributing to lengthy wait times and a lackluster patient experience. Many of us, if not all, have experienced this.</p>
+  <p>So, what’s the reason for all of this? It’s something called <strong>fragmentation of care</strong>, where the doctor’s office, medical facility, the lab tests, the lab equipment even, and each specialty is managed independently. There are associated administrative functions that are mismatched between each point, and, as such, each point adds an <strong>additional cost</strong>.</p>
+  <p>In the 34 countries where it operates, <strong>EPI-USE</strong> – one of the world’s largest and most experienced independent HR and payroll SAP specialists – saw that the dominant medical record companies were focused more on the billing and not so much on the patient.</p>
+  <h2 id="an-app-to-integrate-fragmented-care">An App to Integrate Fragmented Care</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-the-platform-for-the-intelligent-enterprise">SAP BTP: The platform for the Intelligent Enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>To combat these costs and improve patient experience, EPI-USE developed <strong>LogBox</strong> – an app that <strong>connects healthcare professionals to their patients</strong> and allows patients to securely share their information with their healthcare professionals electronically.</p>
+  <p>This <strong>patient-centric digital solution</strong>, built on <a href="https://www.sap.com/products/extension-suite.html">SAP Extension Suite</a>, facilitates the patient journey by making the check-in process easier. Patients enter their information once into the system where it is stored securely, allowing the patient to control where and to whom that information is shared among various different care-provider specialty offices.</p>
+  <p>Further enhancements of the system include seamless pre-admissions, a clinical case collaboration tool for multidisciplinary teams, a form editor tool to allow for customizable clinical databases, theater and waiting list modules, multidisciplinary team meetings, and discharge summaries.</p>
+  <p>Interoperability with other systems facilitates the exchange of data between various systems – from billing to radiology systems and hospital systems – reducing check-in time and more. All of this may be invisible to the patient, but it will certainly contribute to a more <strong>positive patient journey</strong>.</p>
+  <h2 id="making-a-difference-by-ending-the-paper-chase">Making a Difference by Ending the Paper Chase</h2>
+  <p>After deploying LogBox, EPI-USE saw the following improvements across the board:</p>
+  <ul>
+    <li>A more than 30% increase in self check-ins</li>
+    <li>Over 280,000 healthcare and patient user accounts created</li>
+    <li>A 66% reduction in referral wait times – down from 15 minutes to under five minutes</li>
+  </ul>
+  <p>“The <a href="/covid-19">COVID-19</a> pandemic forced us to change the way we deliver care to patients, and the LogBox team’s rapid response in adapting the technology to meet our evolving requirements has been remarkable,” said Dr. Sue Trager, CEO, Wits Donald Gordon Medical Center.</p>
+  <p>Now, it’s just a matter of time until paper-heavy doctor’s offices will also invest in digital services. It will help them reduce overhead costs and manage more patients, which, in turn, will help them increase their revenue and, just as importantly, generate stress-free patient experiences.</p>
+  <p>To learn more about EPI-USE’s solution, check out its SAP Innovation Awards <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2306">pitch deck</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Rajshree Chauhan and Michael Kure are SAP Global Marketing contributors.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/healthcare</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[It’s Time to Celebrate Innovation]]></title>
+            <link>https://www.sap.com/news/2021/12/sap-innovation-awards-2022-celebrate-innovation</link>
+            <guid>https://www.sap.com/news/2021/12/sap-innovation-awards-2022-celebrate-innovation</guid>
+            <pubDate>Thu, 16 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ahead of the January 31 deadline to submit an entry to the SAP Innovation Awards 2022, learn more about the recognition of innovation.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b11829cafa34db506760e69bf021acda08d7b6f9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b11829cafa34db506760e69bf021acda08d7b6f9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b11829cafa34db506760e69bf021acda08d7b6f9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="It’s Time to Celebrate Innovation" src="./media_1b11829cafa34db506760e69bf021acda08d7b6f9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="its-time-to-celebrate-innovation">It’s Time to Celebrate Innovation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>If 2020 was about adjusting to a new reality, 2021 was about accelerating and enhancing the new paths forged through disruption. I am thrilled by the pace of innovation in cross-industry domains like sustainability, supply chain, XaaS, and web3.</div>
+    </div>
+  </div>
+  <p>I’m also energized by the growing trend of organizations engaging with SAP beyond commercial conversations. There is a sincere enthusiasm to tackle industry re-imagination. Organizations are eager to take risks and achieve more.</p>
+  <p>SAP Innovation Awards unearth these pioneers and celebrate them.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="submissions-for-the-sap-innovation-awards-2022-are-now-open">Submissions for the SAP Innovation Awards 2022 are now open!</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="why-business-innovation-is-so-important">Why Business Innovation Is So Important</h2>
+  <p>Today, business is the source of tremendous innovation and the rewards are undeniable. Innovative companies are solving problems more efficiently, overcoming new challenges, reducing risk, and creating competitive advantage for themselves in the marketplace. Their ability to think outside the box holds the potential to revolutionize our lives.</p>
+  <p>Consider the electric vehicle (EV) market: just this quarter, Tesla cracked the $1 trillion market cap and Rivian went public in one of the biggest IPOs ever. The market is rewarding companies that showcase commitment to innovation and industry disruption.</p>
+  <h2 id="leading-by-example">Leading by Example</h2>
+  <p>As chief customer innovation officer, I’m fortunate to see innovation at work every day within my organization as well as across our customers and partners. What makes me most proud is when innovation lifts a whole industry and becomes the standard going forward.</p>
+  <p>For example, AmerisourceBergen, a leading pharmaceutical wholesale distributor and a major player in the U.S. drug supply chain, elevated its industry through long-term co-innovation efforts on SAP Advanced Track and Trace for Pharmaceuticals. This not only resulted in measurably significant business continuity in their supply chain, but it also paved the way for other companies like Moderna, the American biotechnology company pioneering the development and use of mRNA therapeutics and vaccines, to leverage SAP digital supply chain solutions for serialization and distribution of its COVID-19 vaccine.</p>
+  <h2 id="be-part-of-the-celebration">Be Part of the Celebration</h2>
+  <p>SAP celebrates the people who are finding ways to do things better. SAP Innovation Awards honor the achievements of forward-thinking organizations that harness the power of technology to change the world. In 2021 alone, we received more than 380 entries and we anticipate even greater engagement next year.</p>
+  <p>The SAP Innovation Awards serve as a fantastic way to publicize your accomplishments and be recognized globally as an innovation leader. In addition to receiving an exclusive trophy, winners can gain visibility through amplification opportunities, extend their network with other peers and SAP executives, and give back to their communities through charitable donations that SAP will make on behalf of all participants.</p>
+  <p>Now is the perfect time to let your voice be heard. The deadline for submitting your entry to the SAP Innovation Awards 2022 is January 31, 2022.</p>
+  <p>Check out the <a href="https://www.sap.com/idea-place/sap-innovation-awards.html">SAP Innovation Awards website</a> to find more information on how to enter.</p>
+  <p>We want to hear your story. We want to share your story.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Stephanie Nashawaty is chief customer innovation officer for SAP North America.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[The Innovation Challenge: How to Make the Extraordinary Happen]]></title>
+            <link>https://www.sap.com/news/2021/12/innovation-challenge-make-extraordinary-happen</link>
+            <guid>https://www.sap.com/news/2021/12/innovation-challenge-make-extraordinary-happen</guid>
+            <pubDate>Wed, 08 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Innovation is immensely powerful when driving transformative change. SAP Innovation Awards celebrate those that've taken this lesson to heart.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_178431ff0f2c3efa5a2c191ea2f1455f4a21ff21a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_178431ff0f2c3efa5a2c191ea2f1455f4a21ff21a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_178431ff0f2c3efa5a2c191ea2f1455f4a21ff21a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Innovation Challenge: How to Make the Extraordinary Happen" src="./media_178431ff0f2c3efa5a2c191ea2f1455f4a21ff21a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-innovation-challenge-how-to-make-the-extraordinary-happen">The Innovation Challenge: How to Make the Extraordinary Happen</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>One of the most important lessons of the last two years has been the power of innovation when driving genuinely transformative change. With SAP Innovation Awards, we celebrate individuals and organizations that have taken this lesson to heart with a mix of ingenuity, SAP technology, and the support of knowledgeable experts.</div>
+    </div>
+  </div>
+  <p>Innovations are always top of mind for companies – especially SAP customers. But you won’t find them musing future-minded technology trends such as quantum computing, neural interfaces, or nanotechnology. Instead, they are accomplishing extraordinary feats and delivering meaningful outcomes with existing technology and expertise.</p>
+  <p>Certainly, every business has a story of exceptional innovation to tell. And I am proud to share those of our customers – some of which were recognized by <a href="https://www.sap.com/idea-place/sap-innovation-awards.html">SAP Innovation Awards</a> in 2021 for making the world better with assistance from SAP Services and Support offerings.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-innovation-awards">Learn more about SAP Innovation Awards</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="enhancing-scale-and-performance-for-heavy-data-workloads">Enhancing Scale and Performance for Heavy Data Workloads</h2>
+  <p>When under pressure to meet regulatory requirements, deliver higher margins, and improve customer experiences, companies must improve how they manage increasing volumes of data. But all too often, the limitation of an on-premise landscape does not allow the flexibility, agility, speed, and cost-effectiveness to meet that challenge.</p>
+  <p>For one of the SAP Innovation Award winners, the answer was found in a proof of concept created through a joint effort between SAP and Google Cloud. <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2376">PayPal Holdings</a> (PayPal), which adopted Google Cloud as its core IT partner, chose a combination of Google Cloud and SAP S/4HANA for financial products subledger on a 96 TB scale-out configuration of SAP HANA. The innovation leveraged Google Cloud’s expertise in building scalable, distributed systems and SAP’s relentless focus on delivering mission-critical business process automation.</p>
+  <p>Bringing the best of SAP and Google Cloud engineering together, PayPal can benefit from groundbreaking capabilities with higher performance, lower costs, and more flexibility. The technology platform company now runs one of the world’s largest scale-out clusters of SAP HANA. And in return, it accelerated query runtime by 40 times through parallelization, reduced its memory footprint by 78% with dynamic data-tiering techniques, and experienced 24 weeks of continuous operations with zero downtime.</p>
+  <h2 id="achieving-health-goals-through-process-standardization">Achieving Health Goals Through Process Standardization</h2>
+  <p>During <a href="/covid-19">the COVID-19 pandemic</a>, businesses were concerned with maintaining operational continuity and keeping pace with demand while ensuring a safe and healthy environment for their workforce. However, as one of our award finalists discovered, a complex IT infrastructure involving multiple disparate enterprise resource planning (ERP) systems prevented the ability to run as quickly as possible.</p>
+  <p>The European division of <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2471">American Air Filter Company</a> addressed this issue by deploying cloud-based solutions to standardize processes and support localization requirements for different countries. With <a href="https://www.sap.com/services/support-plans/preferred-success-cloud.html">SAP Preferred Success</a>, <a href="https://www.sap.com/services/implementation/implementation-pkg.html">SAP Value Assurance</a>, and SAP development experts, the division consolidated 13 ERP systems into a single instance of SAP S/4HANA Cloud and gained the agility to achieve meaningful change.</p>
+  <p>American Air Filter Company harmonized processes and gained a single view of the truth, providing more transparent and streamlined operations across all business areas. Additionally, its simplified IT infrastructure costs less to maintain and enables the business to take advantage of intelligent technologies to innovate new offerings.</p>
+  <h2 id="setting-new-standards-with-embedded-analytics">Setting New Standards with Embedded Analytics</h2>
+  <p>Every organization reaches a point where homegrown, mainframe-based business information systems must be replaced to enhance decision-making and enable higher standards for data governance, quality, and security. But the first step is not necessarily ripping out the legacy technology and implementing a completely new architecture, which in most cases can become too operationally disruptive and costly.</p>
+  <p>For 2021 finalist <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2036">Pennsylvania State University</a> (Penn State), expert guidance from SAP Enterprise Support services was needed to help upskill its IT team and pave the way for cutting-edge embedded analytics. The university worked with <a href="https://support.sap.com/en/offerings-programs/enterprise-support/enterprise-support-advisory-council.html">SAP Enterprise Support Advisory Council</a> to build a strong foundation in analytics, including through remote, recorded individual and group webinars, to support its digital transformation journey.</p>
+  <p>Penn State relied on the <a href="https://support.sap.com/en/offerings-programs/enterprise-support/enterprise-support-academy/value-maps.html">SAP Enterprise Support value maps</a> for SAP Analytics solutions to help close any digital skills gaps. The organization engaged with experts, posting questions in value map forums and arranging collaborative sessions with peers. Plus, it used the <a href="https://cal.sap.com/">SAP Cloud Appliance Library</a> tool to help demonstrate and trial innovative data analytics and reporting tools, conduct scoping and sandboxing exercises, and create a proof of concept.</p>
+  <p>Relating training material to workflows and real project scenarios enabled Penn State’s employees to apply knowledge more readily and apply feedback as they adopted SAP S/4HANA embedded analytics. And with access to experts who truly understand its challenges, Penn State’s administration staff now has the necessary skills to adapt and run embedded analytics, which will influence how it runs the university.</p>
+  <h2 id="transforming-for-agility-speed-and-success">Transforming for Agility, Speed, and Success</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="discover-how-sap-can-help-enable-your-outcome-driven-business-imperatives">Discover how SAP can help enable your outcome-driven business imperatives</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/services/premium-engagement.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>During any significant organizational change such as a merger, acquisition, or spin-off, most companies find that their legacy landscape is too complex, lacking in technical depth, redundant, or costly to maintain. Another finalist, <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2145">Hewlett Packard Enterprise</a> (HPE), is no stranger to this challenge.</p>
+  <p>When HPE’s parent company, the Hewlett-Packard Company, spun off in 2015, the business needed to simplify applications and processes enterprise-wide to fulfill the world’s growing need for cloud services and intelligent technology. HPE implemented a wide variety of solutions and services to create a solid foundation for the business and enhance IT with powerful next-generation technologies. The <a href="https://www.sap.com/services/premium-engagement/maxattention.html?sort=latest_desc">SAP MaxAttention</a> program provided the guidance necessary to help validate, plan, execute, and test the design of its infrastructure.</p>
+  <p>As a result of its efforts with SAP, HPE reduced recommitments to orders after removing the legacy processes that had resulted in rescheduled jobs. The company improved on-time delivery by focusing on its partners and helping them improve their shipping performance. Today, 99.5% of HPE’s customer orders are delivered on time, up from 90% in the past.</p>
+  <h2 id="trailblazing-the-future-with-innovation">Trailblazing the Future with Innovation</h2>
+  <p>All these stories are exceptional examples of how SAP customers are shaping their innovation effort to trailblaze a future of ongoing productivity and growth. And I am proud that my experts, who support SAP Services and Support offerings, are playing a key role in our customers’ success.</p>
+  <p>Throughout the year, I hear our customers express their gratitude to my team of experts for helping them realize their potential as intelligent enterprises. Recently, I read a quote from SAP Innovation Award finalist <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2118">Delivery Hero</a> that I think best sums up the best of what we offer.</p>
+  <p>“Thanks to guidance from SAP Services and Support and the Intelligent Enterprise Institute, we better understand the dependency of customer experience on our delivery processes,” said Sebastian McClintock, global director of Customer Experience at Delivery Hero. “Leveraging SAP S/4HANA, Experience Management solutions from SAP and Qualtrics, and machine learning models, we now know how to improve data flows and best use our data to meet customers’ needs.”</p>
+  <h2 id="do-you-have-a-story-to-tell">Do You Have a Story to Tell?</h2>
+  <p>Such change is hard work, and extraordinary results deserve to be told. That’s why we host SAP Innovation Awards every year. It allows us to celebrate organizations that are improving business processes, providing faster and more effective customer service, making a difference for current and future employees, and more.</p>
+  <p>And we invite all of you – especially if you selected services and support from SAP as your partner or co-partner – to submit a nomination. The call for nominations to <a href="https://www.sap.com/idea-place/sap-innovation-awards.html">SAP Innovation Awards 2022</a> is open now, but only for a few more months. Share your story with us!</p>
+  <div class="footnote">
+    <div>
+      <div><em>Oliver Huschke is vice president and global head of Marketing and Communications for Services and Support at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-enterprise-support</category>
+            <category>news-tag/sap-hana</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-maxattention</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Nordic Electronics Leader Spearheads Retail’s Next Generation]]></title>
+            <link>https://www.sap.com/news/2021/10/nordic-electronics-leader-spearheads-retails-next-generation</link>
+            <guid>https://www.sap.com/news/2021/10/nordic-electronics-leader-spearheads-retails-next-generation</guid>
+            <pubDate>Thu, 28 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Elkjøp Nordic’s new integrated architecture delivers a seamless customer journey with increased mobility and unified channels. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Nordic Electronics Leader Spearheads Retail’s Next Generation" src="./media_1b3b9bdb6a22c4a5332b437dab7e4b4d3f060227b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="nordic-electronics-leader-spearheads-retails-next-generation">Nordic Electronics Leader Spearheads Retail’s Next Generation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Since its founding in 1962, Elkjøp had been known for the continuous improvement of its business processes. As the last decade ended though, the company faced a quandary – maintaining its reputation while being saddled with 12 different legacy software systems.</div>
+    </div>
+  </div>
+  <p>In order to support its vision for a next-generation retail experience, Elkjøp decided to replace all 12 systems with a new integrated architecture. The dramatic, cloud-based overhaul resulted in a next-gen retail platform that has both improved workflow and delivered 100% uptime.</p>
+  <p>The strategy has yielded an array of other benefits for Elkjøp, including:</p>
+  <ul>
+    <li>100% in-store mobility for employees</li>
+    <li>500 legacy interfaces evaluated and either replaced, updated, and/or re-connected</li>
+    <li>4,500 employees trained on new systems using an e-learning platform</li>
+  </ul>
+  <p>But these achievements only came about because Elkjøp was willing to take a critical look at what employees and customers needed and honestly assess the changes that had to be made.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-elkjøps-sap-innovation-award-proposal">Read Elkjøp's SAP Innovation Award proposal</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2281">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="whats-in-a-name">What’s in a Name?</h2>
+  <p>In Norwegian, the brand “Elkjøp” literally means “el buy” – with the “el” being a shortened version of elektrisk (electric) or elektronisk (electronic).</p>
+  <p>It’s no surprise, really, since the Oslo-based company is the largest consumer electronics retailer in the Nordic region.</p>
+  <p>A subsidiary of Dixons Carphone, a multinational consumer electrical and mobile retailer and services company, Elkjøp sells a variety of goods, including mobile phones, computers, and kitchen and other domestic appliances to both consumers and businesses.</p>
+  <p>With a brisk online trade, as well as more than 400 stores, the company employs over 11,000 workers while operating under a number of names in its home country, as well as Sweden, Denmark, and Finland.</p>
+  <h2 id="stepping-into-the-future">Stepping into the Future</h2>
+  <p>The decision to create the next-generation retail platform did not come easily – Elkjøp had little choice but to take this dramatic step. Systems serving critical processes did not support the latest innovations, and the legacy retail systems could not provide mobility to the sales staff.</p>
+  <p>In order to deliver certain services or close a sale, a store representative might be forced to leave a customer, seek out a desktop computer, then return. Other times, employees had to log in and out of multiple systems to complete a sale. In addition, legacy systems were incapable of adapting to new business models, like wireless subscriptions.</p>
+  <p>Change was critical, yet daunting. Upgrades to systems capabilities meant adjusting all 12 different interconnected legacy systems, touching 500 different interfaces.</p>
+  <p>As Elkjøp re-evaluated its strategy, it turned to a solution that had been serving the company well for several years.</p>
+  <h2 id="cloud-first-advancement">Cloud-First Advancement</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="give-shoppers-and-consumers-the-products-and-personalized-shopping-experiences-they-want">Give shoppers and consumers the products and personalized shopping experiences they want</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/retail.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Elkjøp first deployed SAP ERP Central Component in 2015. The application is a core component in managing transactional and financial processes. Modules communicate with each other, working to create a fully integrated solution specific to customers in a variety of industries.</p>
+  <p>Because of this successful experience, the company opted to base its next-gen retail platform on SAP ECC and other SAP solutions. A number of requirements were met with micro-services based architecture – software applications designed as suites of independently deployable services.</p>
+  <p>Custom add-ons came from ASAPIO/Kafka, enabling information to flow between SAP and non-SAP applications, on premise and in the cloud, in real time.</p>
+  <p>The monitoring challenges of Elkjøp’s high volume retail business were supported with an approach centered on SAP Fiori – a set of applications for business functions, like work approvals, and apps specializing in finance, calculation, and various self-service tasks.</p>
+  <p>Failover architecture was created to protect computer systems from mishaps, allowing standby equipment to automatically take over if something went wrong.</p>
+  <h2 id="unified-execution">Unified Execution</h2>
+  <p>The next-gen retail platform went live in Denmark on May 8th, 2020 and was quickly deployed in 110 of the 460 stores. Changes were immediately evident. Using one unified customer master record, the new architecture <strong>delivered a seamless customer journey</strong> across in-store and online channels, with employees better prepared to anticipate clients’ wants and needs.</p>
+  <p>Today, employees say the next-gen retail platform has enabled them to be more productive, while customers report quicker service times both online and in person.</p>
+  <p>For “delivering the retail experience of the future,” Elkjøp Nordic earned the distinction as a finalist in the <strong>2021 SAP Innovation Awards</strong>, meeting the key requirements of improving customer experiences, solving complex challenges, and serving the greater good. Learn more in Elkjøp’s SAP Innovation Awards <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2281">proposal</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Keith Greenberg is an SAP Global Marketing contributor.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/retail</category>
+            <category>product/sap-erp</category>
+            <category>news-tag/sap-fiori</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/non-sap-event/cop27/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 05 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Do You Know Which Data Is Good for ESG Investing?]]></title>
+            <link>https://www.sap.com/news/2022/12/which-data-is-good-for-esg-investing</link>
+            <guid>https://www.sap.com/news/2022/12/which-data-is-good-for-esg-investing</guid>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Data is the most significant challenge when it comes to environmental, social, and governance (ESG) investing. Find out how to mitigate this.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/climate-change</category>
+            <category>non-sap-event/cop27</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/esg</category>
+        </item>
+        <item>
+            <title><![CDATA[African Voices: Sustainable Business Can Drive Economic Prosperity in Southern Africa]]></title>
+            <link>https://www.sap.com/news/2022/11/african-voices-sustainability-in-southern-africa-economic-prosperity</link>
+            <guid>https://www.sap.com/news/2022/11/african-voices-sustainability-in-southern-africa-economic-prosperity</guid>
+            <pubDate>Wed, 30 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In Southern Africa, organizations don’t have to prioritize sustainability against organizational growth and profitability. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>non-sap-event/cop27</category>
+        </item>
+        <item>
+            <title><![CDATA[African Voices: Creating a Sustainable and Inclusive Future for West Africa]]></title>
+            <link>https://www.sap.com/news/2022/11/african-voices-inclusive-sustainable-future-for-west-africa</link>
+            <guid>https://www.sap.com/news/2022/11/african-voices-inclusive-sustainable-future-for-west-africa</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[COP27 has focused attention on how Africa is coping with climate change. SAP supports a more sustainable future for West Africa.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/climate-change</category>
+            <category>non-sap-event/cop27</category>
+            <category>product/sap-rural-sourcing-management</category>
+        </item>
+        <item>
+            <title><![CDATA[African Voices: Governments, Financial Institutions, and Businesses Must Collaborate to Achieve COP27 Climate Goals]]></title>
+            <link>https://www.sap.com/news/2022/11/african-voices-achieving-cop27-climate-goals</link>
+            <guid>https://www.sap.com/news/2022/11/african-voices-achieving-cop27-climate-goals</guid>
+            <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[During COP27, African voices are calling for collaboration from governments, financial institutions, and businesses to achieve climate goals.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>non-sap-event/cop27</category>
+        </item>
+        <item>
+            <title><![CDATA[A Maturing Approach to Embedding Sustainability in Business]]></title>
+            <link>https://www.sap.com/news/2022/10/embedding-sustainability-business-maturing-approach</link>
+            <guid>https://www.sap.com/news/2022/10/embedding-sustainability-business-maturing-approach</guid>
+            <pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Companies are maturing when it comes to embedding sustainability into their operations, new research conducted by SAP Insights reveals.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>non-sap-event/cop27</category>
+            <category>news-tag/sap-insights</category>
+        </item>
+    </channel>
+</rss>

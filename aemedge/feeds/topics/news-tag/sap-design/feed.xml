@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-design/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 13 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP and Swedish Food Retailer Axfood Bring the Right Product Mix to Supermarkets]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-and-axfood-bring-right-product-mix-to-supermarkets</link>
+            <guid>https://www.sap.com/news/2023/03/sap-and-axfood-bring-right-product-mix-to-supermarkets</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP teamed up with Swedish food retailer Axfood to design an innovative assortment planning solution. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-assortment-planning</category>
+            <category>news-tag/sap-design</category>
+            <category>news-tag/sap-fiori</category>
+        </item>
+        <item>
+            <title><![CDATA[Inclusive Teams, Better Products]]></title>
+            <link>https://www.sap.com/news/2023/02/inclusive-teams-better-products</link>
+            <guid>https://www.sap.com/news/2023/02/inclusive-teams-better-products</guid>
+            <pubDate>Thu, 02 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Promoting inclusive teams and collaboration in your product development process can improve the experience for everyone. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/sap-design</category>
+        </item>
+        <item>
+            <title><![CDATA[Designing the Future of Business for Human Outcomes]]></title>
+            <link>https://www.sap.com/news/2022/11/designing-human-outcomes-future-business</link>
+            <guid>https://www.sap.com/news/2022/11/designing-human-outcomes-future-business</guid>
+            <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Designing for human outcomes, SAP is forging the next 50 years of innovation and success for the world's top businesses. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-design</category>
+            <category>news-tag/ux</category>
+        </item>
+    </channel>
+</rss>

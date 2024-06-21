@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-endorsed-apps/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 17 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP and Icertis Deliver Enterprise-Wide Value with Contract Intelligence]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-and-icertis-contract-intelligence-enterprise-wide-value</link>
+            <guid>https://www.sap.com/news/2023/02/sap-and-icertis-contract-intelligence-enterprise-wide-value</guid>
+            <pubDate>Fri, 17 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Icertis are turning static contracts into structured data that connects to SAP solutions. Learn more about their partnership.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-cpq</category>
+            <category>news-tag/sap-endorsed-apps</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio and LeanIX Bring Process Excellence and Enterprise Architecture Closer Together]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-signavio-leanix-process-excellence-enterprise-architecture</link>
+            <guid>https://www.sap.com/news/2022/06/sap-signavio-leanix-process-excellence-enterprise-architecture</guid>
+            <pubDate>Wed, 29 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio and LeanIX bring together process excellence and enterprise architecture management, connecting IT and business leaders.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-endorsed-apps</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-store</category>
+        </item>
+    </channel>
+</rss>

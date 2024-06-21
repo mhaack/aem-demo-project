@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-hana-cloud/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 02 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Combine the Power of AI with Business Context Using SAP HANA Cloud Vector Engine]]></title>
+            <link>https://www.sap.com/blogs/2024/04/sap-hana-cloud-vector-engine-ai-with-business-context</link>
+            <guid>https://www.sap.com/blogs/2024/04/sap-hana-cloud-vector-engine-ai-with-business-context</guid>
+            <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest quarterly release introduces the SAP HANA Cloud vector engine, enhancing capabilities with AI technology to tackle complex issues.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Empowering the City of Antibes to Redefine Digital Contract Management]]></title>
+            <link>https://www.sap.com/news/2023/11/city-of-antibes-redefines-digital-contract-management</link>
+            <guid>https://www.sap.com/news/2023/11/city-of-antibes-redefines-digital-contract-management</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The City of Antibes and SAP Innovation Center Network are revamping digital contract management with a focus on public procurement processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Empowering the City of Antibes to Redefine Digital Contract Management" src="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="empowering-the-city-of-antibes-to-redefine-digital-contract-management">Empowering the City of Antibes to Redefine Digital Contract Management</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the era of digital transformation, multi-company processes governed by legal contracts are becoming increasingly common. With the untapped potential of decentralized processes, there is a growing prospect for digitizing and automating collaborative contract management, streamlining operations, and reducing risks and costs.</div>
+    </div>
+  </div>
+  <p>Recognizing this potential, the City of Antibes and <a href="https://www.sap.com/about/company/innovation/icn.html">SAP Innovation Center Network</a> have joined forces to redefine digital contract management with a focus on public procurement processes. Patrick Duverger, chief technology officer of the City of Antibes, describes its previous procurement operations as follows: “Although we achieved a high level of operational proficiency, our business processes lacked full traceability. This resulted in process opacity when it comes to recurring delays, delivery errors, or administrative sanctions. By gaining a deeper understanding of our processes, we can optimize them, reduce costs, and minimize business risks.”</p>
+  <h2 id="transparent-and-traceable-collaboration">Transparent and Traceable Collaboration</h2>
+  <p>The lack of visibility and traceability in these processes hindered automation, cross-organizational data and process mining, and intelligence. This directly affected how disputes were resolved and impacted organizational budgets.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="build-and-deploy-intelligent-data-applications-at-scale-with-sap-hana-cloud">Build and deploy intelligent data applications at scale with SAP HANA Cloud</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/hana.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To address this challenge, SAP Innovation Center Network developed a prototype based on the <a href="https://d.dam.sap.com/a/1vxdhV8/Cross-Company%20Workflow%20-%20One%20pager%289%29%20%20-%20%20Read-Only.pdf?rc=10">SAP Cross-Company Workflow Collaboration</a> service, combined with a blockchain-based shared ledger on SAP HANA Cloud. “This prototype aims to replace manual practices with automated, cross-company orchestrations. By using an SAP HANA Cloud shared ledger, organizations like the City of Antibes can benefit from a permissioned, publicly verifiable, and immutable audit trail of cross-organizational interactions,” says Benjamin Stoeckhert, innovation product manager at SAP Innovation Center Network, illustrating the potential of this innovation.</p>
+  <p>“Leveraging the full potential of an SAP HANA Cloud shared ledger allows us to connect digital platforms that unite businesses and government to track the compliance of services and product deliveries according to contractual terms and conditions,” explains Duverger. “We can leverage data from different parties, such as logistics companies and quality certification bodies, and move beyond the era of cumbersome paperwork and manual processes. For example, this pattern is applicable to procurement processes where multiple parties verify the compliance of suppliers and their deliveries.”</p>
+  <h2 id="complete-control-of-unencrypted-data">Complete Control of Unencrypted Data</h2>
+  <p>However, opening up collaborative processes directly conflicts with customer privacy concerns. This dilemma poses a significant challenge for next-generation contract management. How can businesses ensure transparency without compromising the privacy of private business information and processes? Duverger emphasizes the importance of protecting sensitive public procurement secrets: “Confidentiality, including negotiated prices and deal sizes, is paramount for us and our suppliers.”</p>
+  <p>In response to this pressing need, the SAP Security Research team, in collaboration with the SAP Innovation Center Network blockchain team, has extended SAP Cross-Company Workflow Collaboration with a hardware-based privacy-enhancing technology (PET) innovation. Dr. Laurent Gomez, who led this innovation with Antibes, explains: “Before committing a transaction to the shared ledger, organizations encrypt it along with its associated sensitive information, using their own managed cryptographic material. Encrypted data and processes are only processed within secure and trusted hardware modules, with the explicit consent of each stakeholder.”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="future-focused-solutions-can-solve-todays-challenges-and-shape-the-next-generation-of-enterprise-software">Future-focused solutions can solve today’s challenges and shape the next generation of enterprise software</h3>
+        <p><em><a href="https://www.sap.com/about/company/innovation/icn.html">Learn how</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>This innovation can unlock significant business value by helping to automate cross-company operations and protect the privacy of customer data while still allowing for analysis. The key contribution of this approach is that it gives customers complete control and ownership of their encrypted material. “SAP can never access unencrypted data; the only data that leaves our information system is encrypted by us,” says Duverger. “SAP Business Technology Platform (SAP BTP) allows us to hold our own encryption keys, which is different from competing solutions.”</p>
+  <h2 id="less-late-payment-penalty-costs">5% Less Late Payment Penalty Costs</h2>
+  <p>The co-innovation has revealed the bottlenecks that slow down the procurement process at the City of Antibes and lead to late payment penalties for suppliers and delivery delays. “By adopting this secure distributed ledger approach, we have improved these key performance indicators without changing the process itself. We can now reliably manage all our procurement transactions,” says Duverger. “A key achievement was that we reduced our delinquency rate by 5%, which significantly minimized the impact of late payment penalty costs on our global spend budget.”</p>
+  <p>The project was recently recognized at the highest national level with the Territoria Gold Award by the French Ministries of the Interior, Ecological Transition, and Territorial Cohesion.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="681">
+          </picture>
+        </p>
+        <p><em>© Niclas Fagot Studio9</em></p>
+      </div>
+    </div>
+  </div>
+  <p>To find out more about SAP Cross-Company Workflow, get in touch with us at <a href="mailto:icn@sap.com">icn@sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Corinna Schmidt is part of NVT Communication at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="stay-in-touch-and-connect-with-sap-news-on-linkedin">Stay in touch and connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP HANA Cloud Now Supports AWS Graviton]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-hana-cloud-now-supports-aws-graviton</link>
+            <guid>https://www.sap.com/news/2023/11/sap-hana-cloud-now-supports-aws-graviton</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP HANA Cloud now supports AWS Graviton. SAP is extending its cloud-native, in-memory database to AWS Graviton-powered Amazon EC2 instances.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP HANA Cloud Now Supports AWS Graviton" src="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-hana-cloud-now-supports-aws-graviton">SAP HANA Cloud Now Supports AWS Graviton</h1>
+      </div>
+    </div>
+  </div>
+  <p>SAP HANA Cloud on Arm-Based AWS Graviton processors delivers performance gains, cost savings and energy efficiency benefits to SAP</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <h2 id="walldorf--sap-se-nyse-sap-and-amazon-web-services-inc-aws-an-amazoncom-inc-company-nasdaq-amzn-today-announced-that-sap-hana-cloud-now-supports-aws-graviton-processors"><em>WALLDORF</em> — <a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) and Amazon Web Services Inc. (AWS), an Amazon.com Inc. company (NASDAQ: AMZN), today announced that SAP HANA Cloud now supports AWS Graviton processors.</h2>
+        <p>SAP is extending its cloud-native, in-memory database to AWS Graviton-powered Amazon Elastic Compute Cloud (Amazon EC2) instances to take advantage of AWS’s price, Performance and energy efficiency benefits.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="discover-the-power-of-partnership-with-sap">Discover the power of partnership with SAP</h3>
+        <p><em><a href="https://www.sap.com/partners.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Thousands of joint customers depend on solutions from AWS and SAP to run their mission-critical business processes. As customers build data-driven, intelligent applications that enable users to make more precise and faster decisions, their <a href="">compute</a> and memory demands grow. These customers require solutions that lower costs without compromising performance and energy efficiency. By choosing to run SAP HANA Cloud on AWS Graviton, SAP can optimize its <a href="">compute</a> costs and allow its customers to benefit from these efficiencies.</p>
+  <p>“AWS and SAP have a long history of delivering value in a way that is environmentally responsible,” said Juergen Mueller, Chief Technology Officer and member of the Executive Board of SAP SE. “This collaboration with AWS on the use of Graviton demonstrates our commitment to reduce the impact of our technologies on the environment while continuing to provide value in the solutions we bring to market.”</p>
+  <p>“One of the most visible ways we are innovating is improving the power efficiency of AWS chips,” said David Brown, vice president of Amazon EC2 at AWS. “Our Arm-based AWS Graviton3 processors deliver the best performance per watt of energy use in Amazon EC2, bringing a powerful combination of energy efficiency and price performance to SAP.”</p>
+  <p>Arm-based AWS Graviton processors leverage AWS’s extensive expertise in systems design and cloud infrastructure to deliver the best price performance over comparable x86-based instances for a variety of workloads running in Amazon EC2. By migrating SAP HANA Cloud to AWS Graviton-based Amazon EC2 instances, SAP has seen up to 30% better <a href="">compute</a> performance for analytical workloads and lowered its <a href="">compute</a> costs by 15%. And with Graviton3-based instances using up to 60% less energy for the same performance than comparable EC2 instances, SAP can reduce the compute carbon footprint of the workloads of SAP HANA Cloud by an estimated 45%. AWS Graviton3 also supports the latest DDR5 memory, which provides 50% higher memory bandwidth compared to DDR4, to improve the performance of memory-intensive applications.</p>
+  <p>As a signatory of Amazon’s The Climate Pledge, SAP is actively working alongside 427 organizations in 38 countries to help reduce carbon emissions and ultimately improve the environment. By choosing to run SAP HANA Cloud on AWS Graviton, SAP can further its efforts to reduce its carbon footprint and support efforts to address the climate crisis. SAP and AWS have a longstanding relationship spanning back to 2008, when SAP developed and tested the SAP NetWeaver technology platform – the underpinning of SAP S/4HANA and many other cloud solutions from SAP on AWS. Today, SAP customers continue to use AWS across SAP’s cloud enterprise portfolio through the RISE with SAP solution and SAP Business Technology Platform (SAP <a href="">BTP</a>). In addition, the SAP NS2 Secure Data Cloud service, which is designed for public sector and defense customers with uniquely stringent security and compliance requirements, uses AWS to deliver trusted and secure solutions. Amazon companies, including Twitch, Zappos.com and Zoox Inc., also rely on SAP software on AWS to support their national and global operations.</p>
+  <p>SAP plans to expand its use of AWS Graviton in the future to take advantage of the performance gains, cost savings and energy efficiencies.</p>
+  <p>To learn more about SAP HANA Cloud, visit <a href="http://www.sap.com/hana">www.sap.com/hana</a>. To learn more about AWS Graviton processors, visit <a href="https://aws.amazon.com/ec2/graviton/">aws.amazon.com/ec2/graviton</a>.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contacts:</strong><br>Scott Malinowski, +1 (617) 538-6297, <a href="mailto:scott.malinowski@sap.com">scott.malinowski@sap.com</a>, ET<br>Clara Villanueva, +1 (610) 235-7247, <a href="mailto:clara.villanueva@sap.com">clara.villanueva@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><em>Top image: AWS Graviton3 processor</em>. <em>Courtesy of AWS</em>.</p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/aws</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[CTO Juergen Mueller at SAP TechEd: SAP at the Forefront of Generative AI Development]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-teched-cto-juergen-mueller-generative-ai-development</link>
+            <guid>https://www.sap.com/news/2023/11/sap-teched-cto-juergen-mueller-generative-ai-development</guid>
+            <pubDate>Fri, 03 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[On stage at SAP TechEd, CTO Juergen Mueller shared the company’s bold vision to be the leading business AI company by 2025.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/application-development</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-code</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-teched-2023-generative-ai-developers</link>
+            <guid>https://www.sap.com/news/2023/11/sap-teched-2023-generative-ai-developers</guid>
+            <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP TechEd, SAP has unveiled new innovations in generative AI, vector database capabilities, and new learning opportunities.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023" src="./media_1372d56f0d8353651580c6665a37ae494d4534f9d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-turns-every-developer-into-a-generative-ai-developer-at-sap-teched-in-2023">SAP Turns Every Developer Into a Generative AI Developer at SAP TechEd in 2023</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>BANGALORE</em></strong></p>
+        <hr>
+        <p>At the SAP TechEd event in 2023, <a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) announced a comprehensive series of generative AI capabilities and advancements aimed at empowering developers of all skill levels to supercharge their businesses in the age of AI.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <h2 id="sap-unveils-innovations-in-generative-ai-application-development-and-vector-database-capabilities-as-well-as-new-learning-opportunities-for-developers-in-the-era-of-ai">SAP Unveils Innovations in Generative AI Application Development and Vector Database Capabilities as Well as New Learning Opportunities for Developers in the Era of AI</h2>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="enterprise-innovation-in-the-age-of-ai">Enterprise Innovation in the Age of AI</h3>
+        <p><em><a href="https://www.sap.com/events/teched/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Today’s dynamic technology and business landscape means every developer needs to be an AI developer,” said Juergen Mueller, Chief Technology Officer and member of the Executive Board of SAP SE. “The innovations we’re launching at SAP TechEd, from AI-infused pro-code tools to a one-stop shop to create generative AI extensions and applications on SAP Business Technology Platform, support the developers at the heart of the AI revolution and provide them with resources they need to transform the way businesses run.”</p>
+  <p>As organizations aim to derive business value from generative AI, effective collaboration between professional and citizen developers is essential. SAP is launching the SAP Build Code solutions, which streamline cooperation with business experts who use the low-code <a href="/2022/11/sap-teched-sap-build-business-expertise-coursera-partnership">SAP Build</a> solutions launched at SAP TechEd in 2022. Uniquely built for SAP applications and the SAP ecosystem, SAP Build Code solutions offer AI-powered productivity tools for developers and are optimized for Java and JavaScript development. SAP Build Code also draws on the power of SAP’s new generative AI copilot Joule – the copilot that truly understands business – to further boost productivity, embedding code generation capabilities for data model, application logic and test script creation.</p>
+  <p>Good data is the foundation of good AI, and SAP HANA Cloud continues to pioneer innovation in the data space by adding new vector database features to its multimodel offerings at no additional cost. Vector data stores manage unstructured data – such as text, images or audio – to provide long-term memory and better context to AI models. This makes it easy to find and retrieve similar objects quickly. For example, users can search for suppliers based on the language in their contracts to examine payment history and trace individual orders. These powerful new vector database features enhance interactions between large language models and an organization’s mission-critical data. The innovation helps put SAP developers at the forefront of delivering radically new levels of data insight within a secure, private framework that uses industry-specific customer data to reduce hallucinations.</p>
+  <p>AI Foundation on SAP BTP, a new one-stop shop for developers to create AI- and generative AI-powered extensions and applications on SAP BTP, will further help increase developers’ impact and efficiency. AI Foundation includes everything developers need to start creating business-ready AI tools on SAP BTP – from ready-to-use AI services and access to the top large language models to vector database capabilities and AI runtime and lifecycle management.</p>
+  <p>The rapid pace of technological innovation has driven up global demand for skilled developers – and SAP is increasing its learning opportunities in tandem. As part of a commitment to upskill two million professionals by 2025 and complement free AI learning content already available, SAP today launched <a href="https://learning.sap.com/certification/sap-certified-associate-back-end-developer-abap-cloud?url_id=text-sapnewscenter-prdteng-LSC-TechEd">new role-based certification</a> and free learning resources for back-end developers using the ABAP Cloud development model. The two new learning resources covering ABAP development tools on SAP BTP and SAP S/4HANA are available on the <a href="https://learning.sap.com/?url_id=text-sapnewscenter-prdteng-LSC-TechEd">SAP Learning site</a>. They are designed for agile and cloud-compliant business transformation, providing developers with skills to build cloud-ready extensions that are aligned with SAP’s clean core strategy. SAP <a href="/">has also joined</a> the Stanford HAI (Institute for Human-Centered AI) <a href="https://hai.stanford.edu/corporate-affiliate-program">Corporate Affiliate Program</a>. Researchers and engineers at SAP will work with the Stanford academic community, including research faculty and students, on the intersection of generative AI and business.</p>
+  <p>For details on all the announcements made at SAP TechEd in 2023, please <a href="https://www.sap.com/about/events/teched/news-guide.html">visit our news guide here</a>.</p>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-teched-in-2023-join-us-live-in-bangalore-or-attend-virtually">SAP TechEd in 2023: Join us live in Bangalore or attend virtually</h3>
+        <p><em><a href="https://www.sap.com/events/teched/bangalore.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>SAP’s strategy is to help every business run as an intelligent, sustainable enterprise. As a market leader in enterprise application software, we help companies of all sizes and in all industries run at their best: SAP customers generate 87% of total global commerce. Our machine learning, Internet of Things (IoT), and advanced analytics technologies help turn customers’ businesses into intelligent enterprises. SAP helps give people and organizations deep business insight and fosters collaboration that helps them stay ahead of their competition. We simplify technology for companies so they can consume our software the way they want – without disruption. Our end-to-end suite of applications and services enables business and public customers across 26 industries globally to operate profitably, adapt continuously, and make a difference. With a global network of customers, partners, employees, and thought leaders, SAP helps the world run better and improve people’s lives. For more information, visit <a href="http://www.sap.com">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong><br>Joellen Perry, +1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PT<br>Stacy Ries, +1 (484) 619-0411, <a href="mailto:stacy.ries@sap.com">stacy.ries@sap.com</a>, ET<br>Marcus Winkler, +49 6227-767497, <a href="mailto:marcus.winkler@sap.com">marcus.winkler@sap.com</a>, CEST<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.<br>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you received this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/abap-cloud</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/learning</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-code</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/stanford-hai</category>
+        </item>
+        <item>
+            <title><![CDATA[The NHL Continues Evolving with Fast-Paced Innovation and Skillful Teamwork]]></title>
+            <link>https://www.sap.com/news/2023/10/nhl-continues-evolving-sap-preferred-success</link>
+            <guid>https://www.sap.com/news/2023/10/nhl-continues-evolving-sap-preferred-success</guid>
+            <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[By working with SAP Preferred Success, the NHL has a smooth rollout and adoption experience across its club coaching staff. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/nhl</category>
+            <category>news-tag/sap-analytics</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[Esports: Team Liquid’s Masters of Data]]></title>
+            <link>https://www.sap.com/news/2023/10/esports-team-liquid-masters-of-data</link>
+            <guid>https://www.sap.com/news/2023/10/esports-team-liquid-masters-of-data</guid>
+            <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP solutions help Team Liquid succeed at the Dota 2 and League of Legends World Championships. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Esports: Team Liquid’s Masters of Data" src="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="esports-team-liquids-masters-of-data">Esports: Team Liquid’s Masters of Data</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>This October and November, gaming fans around the globe can enjoy two of the most prestigious and exciting <a href="/topics/esports">esports</a> tournaments: The League of Legends World Championship – also known as Worlds – in South Korea and The International, the annual Dota 2 World Championship in Seattle, Washington.</div>
+    </div>
+  </div>
+  <p>It’s a special thrill for Team Liquid fans, as both teams – the Dota 2 and the League of Legends squad – have qualified for the championships and will compete for the title. We tapped into our connection with Team Liquid and had the exclusive opportunity to talk to two team members, <strong>Haitham “Haitham” Algbory, head analyst of the League of Legends team</strong>, and <strong>Mathis “Jabbz” Friesel, assistant coach and analyst of the Dota team</strong>, about how they prepare the teams for the world championships and what role SAP technology plays for the teams to perform at their top level.</p>
+  <h2 id="about-sap-and-team-liquid">About SAP and Team Liquid</h2>
+  <p>With SAP being the official innovation partner of Team Liquid, the two companies developed a close partnership of co-innovation focused on Team Liquid’s Dota 2 and League of Legends teams. These two multiplayer online battle arena games are highly complex and data-intensive esports. Together with Team Liquid, SAP is co-developing software to help Team Liquid analyze its performance and apply more precision in areas like match preparation, team and player performance, scouting, and others. Read more <a href="https://www.sap.com/asset/dynamic/2023/07/c4e4d3c9-807e-0010-bca6-c68f7e60039b.html">here</a>.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="400" height="600">
+          </picture>
+        </p>
+        <p><em><a href="https://twitter.com/tbHaitham">Haitham “Haitham” Algbory</a>, head of Analytics &#x26; Data for Team Liquid’s League of Legends Team</em></p>
+      </div>
+    </div>
+  </div>
+  <p>A big part of what SAP brings to Team Liquid is <a href="https://www.sap.com/products/technology-platform/hana.html">SAP HANA Cloud</a>, which helps make data analysis for both League of Legends and Dota a lot easier. The database allows the analysts to focus less on gathering data and more on analyzing it. Both Jabbz and Haitham have been working in this field for a long time, and there are things that they can do now that they never could before, thanks to a tool specifically made for esports data analysis.</p>
+  <p>“I support both the general manager and the coaching staff with scouting new talent,” Haitham said. “The way I do that is by providing periodic solo queue and scrim reports and end-of-season scouting reports. When it comes to the Academy teams of the East Regions, at the same time, we just track the players that are in the scene in general and we see their improvement based off the metrics that we have set in our tools.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="200" height="280">
+          </picture>
+        </p>
+        <p><em><a href="https://twitter.com/jabbz1301">Mathis “Jabbz” Friesel</a>, coach and head analyst for Team Liquid’s Dota 2 Team</em></p>
+      </div>
+    </div>
+  </div>
+  <p>On the League of Legends side, SAP HANA Cloud is Haitham’s primary tool for scouting. But that’s not what Jabbz uses the data for. For Team Liquid Dota, the data is more match-focused.</p>
+  <p>“For us, SAP HANA Cloud has more of a different function,” Jabbz said. “We use it mostly for performance-related things. I think the big advantage we have with the database is that we can actually import any public game that we want. Let’s say things have changed in a recent patch; we can make sure that we’re always up-to-date with how the meta is evolving. We also get to have a replay of every tournament game, so we can pick up all the information we need from any game, especially during live events. This is incredibly helpful. By having this tool available, you can quickly see how teams are adapting, how teams are thinking. I save a lot of time getting that information, whereas before I would have to open up the replays in the game and manually scroll through everything.”</p>
+  <p>According to Haitham, being able to use real gameplay clips to corroborate the data – and vice versa – often helps build a stronger case for whatever argument he’s trying to make. Players are more inclined to believe the data once they have a reference point, which then allows them to gain a deeper understanding of the game.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="team-liquid-mining-rich-esports-data-to-help-players-managers-and-teams-compete-and-win">Team Liquid: Mining rich esports data to help players, managers, and teams compete and win</h3>
+        <p><em><a href="https://www.sap.com/asset/dynamic/2023/07/c4e4d3c9-807e-0010-bca6-c68f7e60039b.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“With SAP, we have a lot of good [visualization] tools,” Haitham said. “We have an entire map tool that will just visualize where the wards are and what the movement is looking like. In addition, we have SAP Analytics Cloud that gives us an opportunity to build charts and graphs for the players. I would use videos or clips that are important to show the opponent’s style, and then I support that with the maps or graphs from the SAP tools.”</p>
+  <p>For some, all these details might sound small, even insignificant. However, any coach or analyst will tell you that at the highest level of esports, the difference lies in the details. When pretty much every player is equal in skill, it’s those minor advantages that matter – which makes data analysis an important factor for success. After all, a close win is still a win. Both Haitham and Jabbz point to “the small margins” as the reasons why they love their roles as analysts.</p>
+  <p>“Personally, I work on my own goal to help others achieve theirs at the same time,” Haitham said. “Seeing how players are able to use science while playing video games, to beat opponents that they may not be able to without that kind of information…it just makes everything worthwhile.”</p>
+  <p>“I agree. I think it’s always very satisfying to give information to the guys that they wouldn’t pick up on,” Jabbz added. “I guess we’re very similar in that regard. I also enjoy helping the guys and that’s what gives me the joy in this job. I don’t necessarily have to see myself in the limelight or at the front of the stage, but I really just like seeing my friends succeed.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Team Liquid: Masters of Data" src="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/5BZYCILkR6o">Team Liquid: Masters of Data</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>Isabelle Schuhmacher is director of Global Sponsorships at SAP.<br>Christian Kreidt is storytelling lead for Global Sponsorships at SAP.</p>
+        <p>Photos courtesy of Team Liquid.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-right-to-your-inbox">Get the latest SAP news delivered right to your inbox</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/esports</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data and Analytics Solutions Earn Multiple 2023 Best Of Awards from TrustRadius]]></title>
+            <link>https://www.sap.com/news/2023/06/sap-data-and-analytics-solutions-trustradius-awards</link>
+            <guid>https://www.sap.com/news/2023/06/sap-data-and-analytics-solutions-trustradius-awards</guid>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP data and analytics solutions have won multiple Best Of awards from TrustRadius, recognizing our excellence in the industry. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[Global Manufacturer Jabil Transforms and Innovates with SAP S/4HANA Cloud]]></title>
+            <link>https://www.sap.com/news/2023/06/jabil-transforms-innovates-sap-s-4hana-cloud</link>
+            <guid>https://www.sap.com/news/2023/06/jabil-transforms-innovates-sap-s-4hana-cloud</guid>
+            <pubDate>Wed, 07 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP customer Jabil shares how organizations can prepare today for their SAP S/4HANA Cloud journey so they’ll be future-ready for tomorrow.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/mining: industry/mill-products</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Google Cloud Expand Partnership to Build the Future of Open Data and AI for Enterprises]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-google-cloud-expanded-partnership-open-data-ai-enterprises</link>
+            <guid>https://www.sap.com/news/2023/05/sap-google-cloud-expanded-partnership-open-data-ai-enterprises</guid>
+            <pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Google Cloud are introducing an open data offering designed to simplify data landscapes and unleash the power of business data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/google-cloud</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Sports and the Metaverse: A Revolutionary Convergence for Inclusion]]></title>
+            <link>https://www.sap.com/news/2023/04/sports-and-metaverse-revolutionary-convergence-inclusivity</link>
+            <guid>https://www.sap.com/news/2023/04/sports-and-metaverse-revolutionary-convergence-inclusivity</guid>
+            <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the metaverse taking shape, corporations can now use intelligent software to create virtual sporting worlds for inclusivity. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/esports</category>
+            <category>news-tag/metaverse</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-sports-one</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data and Analytics Solutions Win Multiple TrustRadius Winter 2023 "Best Of" Awards]]></title>
+            <link>https://www.sap.com/news/2023/02/winter-2023-trustradius-awards-sap-data-and-analytics-solutions</link>
+            <guid>https://www.sap.com/news/2023/02/winter-2023-trustradius-awards-sap-data-and-analytics-solutions</guid>
+            <pubDate>Mon, 06 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP data and analytics solutions have been recognized with multiple Winter 2023 TrustRadius Best Of awards. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-master-data-governance</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Again a Leader in Gartner® Magic Quadrant™ for Cloud Database Management Systems]]></title>
+            <link>https://www.sap.com/news/2022/12/sap-a-leader-in-gartner-magic-quadrant-for-cdbms</link>
+            <guid>https://www.sap.com/news/2022/12/sap-a-leader-in-gartner-magic-quadrant-for-cdbms</guid>
+            <pubDate>Tue, 20 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's position in the CDBMS Magic Quadrant supports its mission to help organizations transform their data strategy and give data purpose.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in Delivering Translytical Data Platforms in Forrester Wave Evaluation]]></title>
+            <link>https://www.sap.com/news/2022/12/translytical-data-platforms-forrester-wave-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2022/12/translytical-data-platforms-forrester-wave-sap-a-leader</guid>
+            <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a leader in The Forrester Wave: Translytical Data Platforms 2022 for the product vision and planned enhancements criteria.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/forrester</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[The Reviews Are In: SAP Earns TrustRadius “Best Software” Ranking for Multiple Solutions]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-earns-trustradius-best-software-list</link>
+            <guid>https://www.sap.com/news/2022/11/sap-earns-trustradius-best-software-list</guid>
+            <pubDate>Thu, 17 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The inaugural TrustRadius Best Software List includes five SAP solutions. Read to learn more about this exciting recognition.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and the NHL Develop NHL Venue Metrics, a New Sustainability Platform to Help Reduce the League’s Ecological Impact]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-nhl-develop-nhl-venue-metrics</link>
+            <guid>https://www.sap.com/news/2022/10/sap-nhl-develop-nhl-venue-metrics</guid>
+            <pubDate>Wed, 26 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and the NHL have created a new platform called NHL Venue Metrics, powered by SAP. Learn more about the sustainability platform.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nhl</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Brings Real-Time Analytics to One of the World’s Biggest Esports Tournaments]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-international-11-esports-tournament-real-time-analytics</link>
+            <guid>https://www.sap.com/news/2022/10/sap-international-11-esports-tournament-real-time-analytics</guid>
+            <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At The International 11 in Singapore, SAP BTP and SAP HANA Cloud are providing an enhanced viewing experience to broadcasts.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esports</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data and Analytics Solutions Earn Multiple 2022 Top Rated and Best of Awards from TrustRadius]]></title>
+            <link>https://www.sap.com/news/2022/08/sap-data-and-analytics-solutions-2022-trustradius-awards</link>
+            <guid>https://www.sap.com/news/2022/08/sap-data-and-analytics-solutions-2022-trustradius-awards</guid>
+            <pubDate>Thu, 11 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP data and analytics solutions have been recognized by TrustRadius with multiple wins in both the Top Rated and Best of Award categories.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-master-data-governance</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Again Named a Leader in 2021 Gartner® Magic Quadrant™ for Cloud Database Management Systems]]></title>
+            <link>https://www.sap.com/news/2021/12/sap-again-a-leader-gartner-magic-quadrant-for-cloud-database-management-systems</link>
+            <guid>https://www.sap.com/news/2021/12/sap-again-a-leader-gartner-magic-quadrant-for-cloud-database-management-systems</guid>
+            <pubDate>Thu, 16 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has once again been positioned as a Leader in the 2021 Gartner Inc. Magic Quadrant for Cloud Database Management Systems.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14e7ea355f2a41e4186af1b367d4bb3ed49371173.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14e7ea355f2a41e4186af1b367d4bb3ed49371173.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14e7ea355f2a41e4186af1b367d4bb3ed49371173.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Again Named a Leader in 2021 Gartner® Magic Quadrant™ for Cloud Database Management Systems" src="./media_14e7ea355f2a41e4186af1b367d4bb3ed49371173.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-again-named-a-leader-in-2021-gartner-magic-quadrant-for-cloud-database-management-systems">SAP Again Named a Leader in 2021 Gartner® Magic Quadrant™ for Cloud Database Management Systems</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-hana-high-performance-in-memory-database-that-provides-advanced-analytics-on-multimodel-data">SAP HANA: High-performance in-memory database that provides advanced analytics on multimodel data</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/hana/cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced it has once again been positioned as a Leader in the 2021 <a href="http://www.gartner.com/technology/home.jsp">Gartner Inc.</a> “<a href="https://www.sap.com/products/hana.html?campaigncode=CRM-PM21-AIP-SYNPR2AGMQ&#x26;rc=https%3A%2F%2Fdam.sap.com%2Fa%2FR8G15H5">Magic Quadrant™ for Cloud Database Management Systems</a>” report.*</p>
+      </div>
+    </div>
+  </div>
+  <p>Gartner evaluated 20 vendors and named SAP a Leader based on “completeness of vision and ability to execute.”</p>
+  <p>“SAP’s cloud-first mind-set paves a critical, future-proof path forward for our customers. SAP Business Technology Platform serves as the unified, business-centric, and open platform for our customers to become an intelligent enterprise — helping to integrate and extend applications, streamline workflows and processes, and unlock powerful insights across all data,” said JG Chirapurath, Chief Marketing and Solutions Officer, SAP BTP, SAP. “We believe this latest Gartner report demonstrates how we’ve successfully transitioned our leadership in the data management space to the cloud.”</p>
+  <p>Gartner reviewed several SAP products for this Magic Quadrant. The products, which address both operational and analytical DBMS use cases, include the <a href="https://www.sap.com/products/hana/cloud.html">SAP HANA Cloud</a> database, the <a href="https://www.sap.com/products/data-warehouse-cloud.html">SAP Data Warehouse Cloud</a> solution, <a href="https://www.sap.com/products/sybase-ase.html">SAP Adaptive Server Enterprise</a>, <a href="https://www.sap.com/products/sybase-iq-big-data-management.html">SAP IQ</a> software and the <a href="https://www.sap.com/products/sql-anywhere.html">SAP SQL Anywhere</a> suite.</p>
+  <p>SAP HANA is the database management foundation of SAP Business Technology Platform (SAP BTP) and is trusted by over 58,000 SAP customers to manage their most business-critical data. With the ability to process transactional and analytical workloads in real time — no matter where the data resides — SAP HANA is uniquely suited to support our customers’ intelligent enterprise journey.</p>
+  <p>Access a <a href="https://www.sap.com/products/hana.html?campaigncode=CRM-PM21-AIP-SYNPR2AGMQ&#x26;rc=https%3A%2F%2Fdam.sap.com%2Fa%2FR8G15H5">complimentary copy</a> of the 2021 Gartner® Magic Quadrant™ for Cloud Database Management Systems report.</p>
+  <p>For more information, visit the executive <a href="https://blogs.sap.com/?p=1450757&#x26;preview=true&#x26;preview_id=1450757">blog</a>.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Scott Malinowski, +1 (617) 538-6297, <a href="mailto:scott.malinowski@sap.com">scott.malinowski@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><em>*Gartner <strong>,</strong> Magic Quadrant for Cloud Database Management Systems, <a href="https://www.gartner.com/analyst/58568">Henry Cook</a>, <a href="https://www.gartner.com/analyst/38961">Merv Adrian</a>, <a href="https://www.gartner.com/analyst/50744">Rick Greenwald</a>, <a href="https://www.gartner.com/analyst/52420">Adam Ronthal</a>, <a href="https://www.gartner.com/analyst/96730">Philip Russom</a>, 14 December 2021.</em><br>Gartner and Magic Quadrant are registered trademarks of Gartner, Inc. and/or its affiliates in the United States and internationally and are used herein with permission. All rights reserved. Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Everyone Can Be a Developer: SAP Introduces Tools for Citizen and Professional Developers, Embedded AI, and a Free Learning Experience]]></title>
+            <link>https://www.sap.com/news/2021/11/sap-teched-news-citizen-professional-developer-tools-embedded-ai-free-learning-experience</link>
+            <guid>https://www.sap.com/news/2021/11/sap-teched-news-citizen-professional-developer-tools-embedded-ai-free-learning-experience</guid>
+            <pubDate>Tue, 16 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get the SAP TechEd news for 2021, which includes tools for citizen and professional developers, embedded AI, and a free learning experience.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/sap-appgyver</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-fiori</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-integration-suite</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and League of Legends European Championships (LEC) Bring Live Data to E-Sports Fans]]></title>
+            <link>https://www.sap.com/news/2021/08/league-of-legends-european-championships-live-data-e-sports-fans</link>
+            <guid>https://www.sap.com/news/2021/08/league-of-legends-european-championships-live-data-e-sports-fans</guid>
+            <pubDate>Fri, 13 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together, SAP and League of Legends European Championship will integrate statistics into live streams available to broadcasters and fans.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17530aac09964ec4239bdc9d178a5a7001b29d545.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17530aac09964ec4239bdc9d178a5a7001b29d545.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17530aac09964ec4239bdc9d178a5a7001b29d545.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP and League of Legends European Championships (LEC) Bring Live Data to E-Sports Fans" src="./media_17530aac09964ec4239bdc9d178a5a7001b29d545.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-and-league-of-legends-european-championships-lec-bring-live-data-to-e-sports-fans">SAP and League of Legends European Championships (LEC) Bring Live Data to E-Sports Fans</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="start-an-sap-hana-cloud-trial-today">Start an SAP HANA Cloud trial today</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/hana/cloud-trial.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today said that it is partnering with the League of Legends European Championship (LEC) to integrate statistics into live streams available to broadcasters and fans during the summer finals.</p>
+      </div>
+    </div>
+  </div>
+  <p>These never-before-available insights will enable broadcasters to provide in-depth analysis to enhance the fan experience.</p>
+  <p>Each live broadcast will provide innovative insights for fans and commentators, allowing them to make sense of the pros’ decisions throughout each phase of the match. By comparing structured historical game data stored in <a href="https://www.sap.com/products/hana/cloud.html">SAP HANA Cloud</a> against live data using real-time data processing, player actions are put in context for players and fans.</p>
+  <p>“There is no doubt SAP has carried over its vast knowledge and experience in enterprise application software into our world of e-sports,” LEC Senior Manager Zeynep Gencaga said. “SAP’s engineers have worked tirelessly with our team to help simplify the visualization of statistics to further nourish our LEC storylines, giving an extra edge to every little bit of data for our fans.”</p>
+  <p>Since 2018, SAP has been innovating to bring more industry expertise to the LEC Tournament.</p>
+  <p>Broadcasters and fans alike will see three analytical visualizations, providing analysis of games as they happen. With the enriched stats, broadcasters get valuable insights for better storytelling and engagement with their audience. Fans can expect to see stats around key game elements such as the use of items, time to complete an objective, and overall player performance records.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contacts:</strong> Reid Strohmeier, +1 (646) 280-9290, <a href="mailto:reid.strohmeier@sap.com">reid.strohmeier@sap.com</a>, ET<br>Lisa Buehn, +49 15167834297, <a href="mailto:lisa.buehn@sap.com">lisa.buehn@sap.com</a>, CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/newsbyte</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+        <item>
+            <title><![CDATA[Integrated Order Management Cockpit on SAP BTP at Border States]]></title>
+            <link>https://www.sap.com/news/2021/05/border-states-industries-integrated-order-management-cockpit-sap-btp</link>
+            <guid>https://www.sap.com/news/2021/05/border-states-industries-integrated-order-management-cockpit-sap-btp</guid>
+            <pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[At Border States, an integrated order management cockpit on SAP BTP provides visibility into sales and purchase orders in real time.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13760278b7b7182c07df081bbf1d8cc472b06fb53.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13760278b7b7182c07df081bbf1d8cc472b06fb53.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13760278b7b7182c07df081bbf1d8cc472b06fb53.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Integrated Order Management Cockpit on SAP BTP at Border States" src="./media_13760278b7b7182c07df081bbf1d8cc472b06fb53.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="integrated-order-management-cockpit-on-sap-btp-at-border-states">Integrated Order Management Cockpit on SAP BTP at Border States</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>As <a href="/covid-19">COVID-19</a> impacted supply chains, Border States Industries Inc., the seventh largest <a href="https://www.borderstates.com/">electrical distributor in the U.S.</a>, needed to optimize and streamline its purchase and sales order management to manage delayed and escalated orders specifically. It was critical to consolidate disjointed systems and tools, increase cross-team visibility, and reduce the duplication of work in order to provide its innovative supply chain products and services to the construction, industrial, and utility markets.</div>
+    </div>
+  </div>
+  <p>The integrated order management cockpit on SAP Business Technology Platform provides end-to-end and real-time visibility into sales and purchase orders and can enable colleagues from procurement, customer service, and application engineering to collaborate in order to handle material delays, escalations, and other issues. This way, the business can experience improved customer experience (like on-time delivery), an optimized and streamlined order management with clear line of sight for all stakeholders, a reduction of duplicate work, the facilitation of hand-offs and material escalations, and increased visibility and accountability.</p>
+  <p>Tony Serati, vice president of Procurement at Border States, said, “The solution will improve collaboration and speed of information within our company, resulting in an improved experience and service for our customers.”</p>
+  <p>Border States is 100% employee-owned and has more than 2,300 employee owners and 98 branch locations in 22 states. Employee ownership drives Border States’ commitment to deliver total satisfaction. Border States was founded in 1952, when two entrepreneurs wanted to serve the electric utility industry. After nearly 70 years in business, the company’s mission and values haven’t changed; Border States remains a trusted advisor and problem solver, providing value to tens of thousands of customers in the construction, industrial, and utility markets. The company does this by delivering quality products, material management solutions, and industry expertise.</p>
+  <p>The integrated order management cockpit provides a centralized space for all stakeholders to have visibility into order statuses, collaborate, and resolve escalations in a timely manner.</p>
+  <p>“I am very excited about the collaboration piece. It is an immediate way of communication and will make the life of a buyer much easier,” said Christa Lavey, purchasing supervisor at Border States.</p>
+  <p>The flag feature allows CSR teams to request specific actions from the procurement teams. They are also able to post comments on order status updates.</p>
+  <p>With an escalation toggle, the subject matter experts can help resolve escalated orders proactively. The stakeholders can provide material level updates, too.
+    <picture>
+      <source type="image/webp" srcset="./media_1e021ee5453216e1f5574b02dff2de811fa7568bc.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1e021ee5453216e1f5574b02dff2de811fa7568bc.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1e021ee5453216e1f5574b02dff2de811fa7568bc.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Screenshot: escalation toggle" src="./media_1e021ee5453216e1f5574b02dff2de811fa7568bc.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1440" height="806">
+    </picture>
+  </p>
+  <p>“This tool allows us to escalate and collaborate on orders to find alternatives and work with customers and suppliers to prevent impacts,” said Lex Silbernagel, vice president of Alliances at Border States. “It will enable us to better manage and communicate as challenges arise.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-technology-platform-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP Business Technology Platform: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="technological-foundation">Technological Foundation</h2>
+  <p>The integrated order management cockpit is built on SAP Business Technology Platform, leveraging SAP Integration Suite, SAP Extension Suite, SAP HANA Cloud, and the SAP Fiori design system. It provides colleagues from procurement, customer service, and application engineering with a central place to manage escalated purchase and sales orders. With this solution, teams can have real-time, cross-team visibility, rather than working in multiple disjointed systems and unsynchronized tools. This allows for improved communication and direct feedback between stakeholders, working to improve process efficiency and eliminate the duplication of work. In addition, new team members can be onboarded quickly and raise and manage issues as they occur.</p>
+  <p>The semantic data models on SAP HANA Cloud make the solution SAP ERP data agnostic, allowing for seamless integration with SAP ERP now and SAP S/4HANA in the future. SAP Integration Suite helps integrate the solution directly with data from backend solutions. SAP Fiori provides a simplified user experience, enabling users to manage escalations quicker and more effectively.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <h2 id="key-results">Key Results</h2>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Promo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <h3 id="explore-border-states-2021-sap-innovation-awards-pitch-deck">Explore Border States 2021 SAP Innovation Awards pitch deck</h3>
+              </td>
+              <td><strong><a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2453">Learn more</a></strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <ul>
+          <li>Approximately 16,000 hours saved annually for customer service representatives and buyer roles</li>
+          <li>About 2% productivity gained for CSR and buyer roles</li>
+          <li>About 1% improvement on material availability resulting in improved on-time delivery, improved customer experience and increased revenues</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-fiori</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-integration-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[Innovative Insights Available for NHL Coaches Through SAP-NHL Coaching Insights App for iPad]]></title>
+            <link>https://www.sap.com/news/2021/04/sap-nhl-coaching-insights-innovative-coaches</link>
+            <guid>https://www.sap.com/news/2021/04/sap-nhl-coaching-insights-innovative-coaches</guid>
+            <pubDate>Thu, 29 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New and significant enhancements to the SAP-NHL Coaching Insights app further simplify UX and expand on critical metrics desired by coaches.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nhl</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+        <item>
+            <title><![CDATA[New Services in SAP HANA Cloud Lower TCO for Customers in Data-Intensive, Highly Regulated Industries]]></title>
+            <link>https://www.sap.com/news/2021/04/sap-hana-cloud-database-new-services</link>
+            <guid>https://www.sap.com/news/2021/04/sap-hana-cloud-database-new-services</guid>
+            <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP HANA Cloud database service components allow customers to handle ever-growing amounts of transactional and analytical data.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14ea1709441a0204346755bb8bb90013f3ccfbf54.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14ea1709441a0204346755bb8bb90013f3ccfbf54.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14ea1709441a0204346755bb8bb90013f3ccfbf54.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="New Services in SAP HANA Cloud Lower TCO for Customers in Data-Intensive, Highly Regulated Industries" src="./media_14ea1709441a0204346755bb8bb90013f3ccfbf54.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="new-services-in-sap-hana-cloud-lower-tco-for-customers-in-data-intensive-highly-regulated-industries">New Services in SAP HANA Cloud Lower TCO for Customers in Data-Intensive, Highly Regulated Industries</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="start-an-sap-hana-cloud-trial-today">Start an SAP HANA Cloud trial today</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/hana/cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced new service components of the <a href="https://www.sap.com/products/hana/cloud.html">SAP HANA Cloud</a> database — adaptive server enterprise (ASE), ASE replication and data lake support for SAP IQ software workloads — that allow customers to handle ever-growing amounts of transactional and analytical data in data-intensive, highly regulated industries such as financial services and telecommunications.</p>
+      </div>
+    </div>
+  </div>
+  <p>The new services in SAP HANA Cloud are a core component of <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> aimed at providing users with a high-performance, cloud-native data management environment that supports increased scalability and flexibility, on-demand provisioning and consumption-based pricing.</p>
+  <p>The latest release of SAP HANA Cloud allows customers, including the many financial services companies using reliable and proven Sybase data management solutions, to elastically scale their systems in the cloud and better manage infrastructure costs related to processing power and storage. SAP HANA Cloud services are currently or will be available for deployment on Amazon AWS, Microsoft Azure, AliCloud and Google Cloud Services by year-end, providing customers with choice of cloud service providers.</p>
+  <p>“The new SAP HANA Cloud services are the perfect fit for on-premise customers looking to move to the cloud while maintaining the highest levels of security and uptime,” said Irfan Khan, president of SAP HANA Database &#x26; Analytics. “As our customers move or extend their landscapes into SAP HANA Cloud, they can expect faster provisioning, elastic and scalable cloud qualities, a fully managed database-as-a service, hardware infrastructure and consumption-based pricing. In total, this could translate to a significant reduction in operational and total cost of ownership. Companies will also be empowered to continuously innovate by leveraging capabilities in SAP HANA and SAP Business Technology Platform as they move from on-premise to SAP HANA Cloud.”</p>
+  <p><strong>SAP HANA Cloud, SAP Adaptive Server Enterprise</strong></p>
+  <p><a href="https://www.sap.com/products/sybase-ase.html">SAP Adaptive Server Enterprise</a> and its replication capabilities are proven to excel in processing high volumes of short, fast transactions for customers in industries where performance and security are paramount. In the <a href="https://saphanajourney.com/hana-cloud/resources/sap-hana-cloud-adaptive-server-enterprise-data-lake-financial-services">financial industry</a>, customers use it to support mission-critical global trading activities, for conducting risk analysis, and much more across the trade lifecycle. Meanwhile, telecommunication companies use it to process phone call data and client subscriptions. The SAP ASE component of SAP HANA Cloud is highly compatible with its on-premise releases, so customers can continue utilizing existing investment. Also, the new cloud service retains its ease of use with standard SQL-based applications for porting of applications from other databases to SAP HANA Cloud quickly and easily.</p>
+  <p><strong>SAP HANA Cloud, Data Lake</strong></p>
+  <p>The built-in data lake component of SAP HANA Cloud is used to store and analyze massive amounts of data at petabyte scale. It is built on proven data lake scale technology from <a href="https://www.sap.com/products/sybase-iq-big-data-management.html">SAP IQ</a>, allowing users to store and query huge quantities of data quickly and efficiently in the cloud. The high-performance analytics capabilities are where the data lake shines, as all the stored data stays readily accessible for analysis. SAP HANA Cloud is also being updated for full compatibility with existing on-premise SAP IQ databases, so that customers can continue to gain value from their existing and historical data.</p>
+  <p>“SAP HANA Cloud allows us to easily provision new instances on demand with just a click, giving us more transparency and control over TCO,” said Zeeshan Khan, CEO of Palladris. “We are building demanding applications leveraging the reliability and performance of SAP ASE, with the data management scaling of SAP IQ, and advanced analytics of SAP HANA in one simple offering, which removes complexity and cost of infrastructure management.”</p>
+  <p>SAP offers customers highly simplified and optimized migration path options to the cloud, including the <a href="https://www.sap.com/products/hana/technical/database-migration.html">SAP Database Migration Factory</a>. SAP HANA Cloud is also available to customers through the <a href="https://www.sap.com/products/hana/cloud-trial.html">SAP HANA Cloud trial</a><u>,</u> and they can participate in early adopter programs for the new services by reaching out to an SAP representative. Find, try and buy SAP and partner solutions on <a href="https://store.sap.com/">SAP Store</a>, including solutions running on SAP HANA Cloud and SAP Business Technology Platform.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Scott Malinowski, +1 (781) 852-3822, <a href="mailto:scott.malinowski@sap.com">scott.malinowski@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.comA">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+    </channel>
+</rss>

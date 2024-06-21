@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/the-path-forward-series/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 07 Sep 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Path Forward With Trailblazing Women]]></title>
+            <link>https://www.sap.com/videos/the-path-forward-with-trailblazing-women</link>
+            <guid>https://www.sap.com/videos/the-path-forward-with-trailblazing-women</guid>
+            <pubDate>Mon, 07 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Path Forward is a news series featuring trailblazing women in leadership and their inspiring insights and experiences. Read the articles featuring female leaders from...]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Path Forward With Trailblazing Women" src="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <h1 id="the-path-forward-with-trailblazing-women">The Path Forward With Trailblazing Women</h1>
+      </div>
+    </div>
+  </div>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Path Forward With Trailblazing Women" src="./media_12a922137eaee0ba5509361cae0a677ea19b94bff.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/JnSgpDaEk7Q">The Path Forward With Trailblazing Women</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The Path Forward is a news series featuring trailblazing women in leadership and their inspiring insights and experiences.</div>
+    </div>
+  </div>
+  <p><a href="/topics/the-path-forward-series">Read the articles featuring female leaders from companies across many industries</a>.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/video</category>
+            <category>news-tag/the-path-forward-series</category>
+        </item>
+    </channel>
+</rss>

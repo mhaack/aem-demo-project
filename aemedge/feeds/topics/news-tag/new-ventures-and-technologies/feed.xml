@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/new-ventures-and-technologies/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 19 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Disrupted ERP Systems Rise to Reckoning in the Cloud]]></title>
+            <link>https://www.sap.com/news/2022/10/composable-business-for-disrupted-erp-systems</link>
+            <guid>https://www.sap.com/news/2022/10/composable-business-for-disrupted-erp-systems</guid>
+            <pubDate>Wed, 19 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Composable business is the future for cloud ERP software, promising faster innovation for stronger resilience against market disruptions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>product/sap-erp</category>
+        </item>
+        <item>
+            <title><![CDATA[Why Augmentation Will Redefine Human Decision-Making]]></title>
+            <link>https://www.sap.com/news/2022/02/augmentation-redefine-human-decision-making</link>
+            <guid>https://www.sap.com/news/2022/02/augmentation-redefine-human-decision-making</guid>
+            <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The need and potential of augmentation are emerging. Learn how SAP will connect enterprise and human genius in the coming decade.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14b0430b8be8657fae16de22aa75397c782be65bd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14b0430b8be8657fae16de22aa75397c782be65bd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14b0430b8be8657fae16de22aa75397c782be65bd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Why Augmentation Will Redefine Human Decision-Making" src="./media_14b0430b8be8657fae16de22aa75397c782be65bd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="why-augmentation-will-redefine-human-decision-making">Why Augmentation Will Redefine Human Decision-Making</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the future, there will be a tsunami of information for humans to absorb. Quite frankly, this will be impossible to grasp — never mind make decisions with it. The question looms: how will humans consume the data the machines will generate?</div>
+    </div>
+  </div>
+  <p>While enthusiasm grows for machine intelligence, there must also be a greater focus on giving humans the necessary tools to understand and take complex decisions. In our view, insights that result in data-heavy dashboards will have limited value if users cannot understand or apply the vast amounts of newly uncovered data, especially unstructured data coming from social, demographic, cultural, or complex scientific outputs.</p>
+  <p><a href="https://www.idc.com/research/viewtoc.jsp?containerId=US46923720">IDC</a> suggests that 25% of the world’s 2,000 largest public companies will invest in new knowledge networks that include automated process as well as behavioral and interactional information capture and dissemination to improve enterprise learning by 2024, especially learning that is hyper-personalized and hyper-contextualized.</p>
+  <p>To improve learning, we must do more to understand what knowledge is truly relevant.</p>
+  <p>German philosopher Arthur Schopenhauer wrote, “Talent hits a target no one else can hit. Genius hits a target no one else can see.” This makes me focus on what future IT systems and decision makers actually “see.” Whatever they see must be in run-time composition, hyper-personal, and able to augment people to leverage intelligence in new ways.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="future-proofing-sap-through-product-incubation-and-technology-innovation">Future-proofing SAP through product incubation and technology innovation</h3>
+      </div>
+      <div><strong><a href="https://www.nvt.design/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="imagine-a-system-that-provides-the-right-data-at-the-right-time">Imagine a System That Provides the Right Data at the Right Time</h2>
+  <p>Augmentation is not necessarily new. We’re already augmented in our daily lives when we write a text and get recommendations for better wording or when we search Netflix for a movie we might like.</p>
+  <p>But it is a different story when it comes to finding new ways to augment how people perform and interact at work. Imagine a digital system that truly knows the user and their job to be done, including understanding their immediate needs. Such a future feature in any digital system would become a representation of the user and the way they work, including their preferences, profiles, and even personal ambitions, passions, and future goals.</p>
+  <p>We believe that software should innately help people — to let them be at the center of their specific job to be done. For this to come to life, such a system will first need to be safe, secure, and privately owned by each of the users. It must harvest, analyze, and serve the findings back to any API, app, and person to which the owner allows it to be served.</p>
+  <p>This vision of future enterprise software leads to my extreme excitement to bring human ingenuity together with machine intelligence. One way we are exploring this at SAP is through an integrated set of intelligent platform capabilities we call “<strong>Digital ME</strong>.” These capabilities give users exactly the data they need when they need it through contextualization and hyper-personalization. As a result, those systems can take care of mundane work or point users to opportunities for personal or professional development.</p>
+  <h2 id="access-control-made-easy">Access Control Made Easy</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="find-the-sap-solutions-you-need-to-run-your-business-better-faster-and-simpler">Find the SAP solutions you need to run your business better, faster, and simpler</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Such augmentation at enterprise scale might only be available in a decade, but some projects already make use of this concept today. One area is augmented access control. Compromised login credentials and access permissions are often a gateway into the corporate network, and therefore need to be carefully protected against threats such as ransomware, phishing, malware, and, more generally, criminal hackers.</p>
+  <p>Currently, managing access to enterprise data and assets is a highly manual task. Soon, with the growth of data and apps, a digital representation of the person to get access could streamline the end-to-end process of obtaining frictionless access by providing context and a history trail about the user and match their needs. Is the access needed permanently or only temporarily? How will the data be used? Is it necessary to first obtain approval from a supervisor before requesting access? The digital representation could help humans anticipate these access requirements and gather the necessary information to facilitate access, increasing productivity and enabling quicker business decisions.</p>
+  <p>The need and potential of augmentation are emerging almost everywhere. Let’s take the area of <a href="/topics/financial-services">finance</a>: the future CFO could make more impactful strategic capital allocation and budget planning by obtaining contextualized and hyper-personalized data to understand and take actions on a web of causalities like cross-organizational processes, digital asset integrations, and compliance restrictions. This is just one example of how SAP will connect enterprise and human genius in the coming decade and help redefine human decision-making through augmentation.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Martin Wezowski is chief futurist and head of Future Hub for SAP New Ventures &#x26; Technologies.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+        </item>
+        <item>
+            <title><![CDATA[A Vision of Innovation]]></title>
+            <link>https://www.sap.com/news/2021/12/a-vision-of-innovation</link>
+            <guid>https://www.sap.com/news/2021/12/a-vision-of-innovation</guid>
+            <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dr. Martin Heinig was appointed head of New Ventures & Technologies at SAP in February 2021. Read to learn more about him.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="A Vision of Innovation" src="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="a-vision-of-innovation">A Vision of Innovation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The start of Martin Heinig’s career was marked by a formative experience at a company that no longer exists today. As a young working student at radio manufacturer Blaupunkt, he observed firsthand how an established company, the inventor of the car radio, toppled from its perch as market leader due to technological disruption and ultimately went bankrupt.</div>
+    </div>
+  </div>
+  <p>“Only because they failed to recognize the signs of the times,” says Heinig. “It was sad to watch and terrible for the workforce. People asked themselves, ‘How could that happen to our company in particular?’ That bothered me for a long time. Could we have prevented this downfall? And if so, when and how should we have changed course?”</p>
+  <p>Today, a decade and a half later, Heinig heads the New Ventures and Technologies area at SAP. It explores this very question, which is more relevant than ever for many companies around the world: how can a successful company stay innovative and manage its own technologies and business models with an eye to the future?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="new-ventures-and-technologies-solutions-from-sap-graduate-to-core-portfolio">New Ventures and Technologies Solutions from SAP Graduate to Core Portfolio</h3>
+      </div>
+      <div><strong><a href="/2020/12/new-ventures-and-technologies-solutions-graduate-to-sap-portfolio">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="the-road-to-sap">The Road to SAP</h2>
+  <p>“I’d be exaggerating if I said that my experience at Blaupunkt predetermined the direction my career would take,” says Heinig. “But the company did have a certain influence on my family and my life.” Heinig’s parents met each other for the first time at Blaupunkt, after his mother moved to Germany from Turkey as a young woman. Heinig grew up in a village near Hildesheim in Germany, but he regularly spent his summers in Turkey.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot of Martin Heinig" src="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p><em>Photo courtesy of Kay Herschelmann</em></p>
+  <p>“My mother’s family is from Ankara, so I grew up bilingual, which I always saw as a great advantage,” says Heinig, who was the first in his family to earn a doctorate. “Education was important to my parents, but they never checked whether I did my homework. They didn’t have the time for that. It was simply understood: if you want to achieve something, you have to do the work.”</p>
+  <p>That meant a high level of personal responsibility from the start, but also the freedom to decide what he wanted to do with his life. “It all started with a Schneider PCP, followed by an Amiga 500, and later I decided to major in business informatics at the University of Göttingen because IT was what interested me the most and what promised to be the most fun.”</p>
+  <p>Heinig spent a semester abroad in Paris, so he speaks pretty good French in addition to German, Turkish, and English. After earning his master’s degree, he worked as a software developer for two years before starting a dissertation at TU Hamburg on the use of virtual and augmented reality (VR/AR) in manufacturing. Towards the end of this four-year doctoral phase, Martin accepted a position at the newly founded <a href="/2021/11/10-years-sap-innovation-center-potsdam">SAP Innovation Center Potsdam</a> and moved to Berlin.</p>
+  <p>He laughs at the memory: “Colleagues, fellow students, practically everyone I knew asked me if I was really sure that joining SAP would be a sensible step in my career.”</p>
+  <p>“But I was sure,” says Heinig. “There was a real pioneering spirit at SAP Innovation Center Potsdam. Everyone was full of ideas and creative drive.”</p>
+  <h2 id="from-sap-innovation-center-network-to-new-ventures-and-technologies">From SAP Innovation Center Network to New Ventures and Technologies</h2>
+  <p>This first of what has become nine innovation centers worldwide today was led at the time by Dr. Juergen Mueller, who is now a member of the Executive Board of SAP SE and chief technology officer. Over the next few years, the seed in Potsdam grew into SAP Innovation Center Network, which serves as a kind of trend radar and think tank for SAP and is now part of Heinig’s New Ventures and Technologies domain.</p>
+  <p>“Back then, we liked to use the metaphor of SAP as an oil tanker – and <a href="https://icn.sap.com/">SAP Innovation Center Network</a> was a speedboat,” says Martin. “We wanted to be agile and flexible, try out new technologies and ideas, but also be able to drop them effortlessly if it became apparent that they wouldn’t go anywhere.”</p>
+  <p>Martin says one of the most important lessons he learned from this time was that think tanks have to be well connected with product departments and maintain regular contact with the lines of business.</p>
+  <p>“That’s a cornerstone of our work in New Ventures and Technologies today, too,” he explains. “How can you establish early collaboration with the lines of business to enable them to incorporate new technologies, solutions, and products?”</p>
+  <p>Having served as director of SAP Labs Berlin since August 2018, Heinig was appointed head of New Ventures and Technologies in February 2021. His years of experience as COO under Juergen Mueller served him well here: “Seizing the reins, setting the agenda myself, that part was new for me. But I was already familiar with all the topics from my support role.”</p>
+  <p>In addition to SAP Innovation Center Network, a number of other SAP departments also belong to New Ventures and Technologies.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Diagram explaining how New Ventures and Technologies lead SAP&#x27;s innovation agenda" src="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="571">
+    </picture>
+  </p>
+  <p>“They all work on innovation and new technologies in some way,” says Heinig, “but each has a different focus and different partners within the SAP ecosystem. We’re not a line organization. There are many different functions in our organization, which I had to learn about in detail as the new head before I could assemble my leadership team and we could define a strategic framework together that everyone could identify with and find their place in.”</p>
+  <h2 id="a-vision-of-innovation-1">A Vision of Innovation</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-innovation-center-network">Learn more about SAP Innovation Center Network</h3>
+      </div>
+      <div><strong><a href="https://icn.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>In this forward-looking approach, all departments within New Ventures and Technologies were involved and asked for their perspectives. “This inclusive method proved to be very important to the success of the agenda,” says Heinig. “You can’t just politely ask the employees to be innovative. The ideas need to fit with SAP’s portfolio and strategy as smoothly as possible, as both continue to evolve in the future.”</p>
+  <p>Instead, the team focused on defining the right vision of innovation for SAP. “What might our future look like and where do we want to go?” were the most important questions, according to Heinig. “And then to think back from there: what steps will get us there, what issues do we need to resolve, and what needs to happen for us to be able to resolve them?”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Diagram showing the innovation vision and strategy" src="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="744">
+    </picture>
+  </p>
+  <p>Three core units are responsible for anticipating major changes, in harmony with the current SAP strategy and product portfolio.</p>
+  <p>Heinig explains: “First of all, we envision the next level of the ERP systems as a kind of platform that makes it possible to put business processes and individual functions together as needed. As such, this composability architecture is a key focus of our current work, with which we want to empower our customers to use subprocesses as individual modules.”</p>
+  <p>The second development involves the handling of data. “Instead of the current usual method of displaying and analyzing data in a dashboard that you defined yourself beforehand, it will be possible to involve the system in this selection in future,” Heinig says. The magic word here is ‘contextualization.’ “Systems will evolve to the point where they can recognize my current context as a user and supply me with information on their own accord, without me having to request it explicitly,” he adds.</p>
+  <p>In addition, the Finance and Accounting area and its standards and KPIs for steering business will change. “As we see it, sustainability aspects have to be given much greater weight in reporting,” says Heinig. “To achieve this, we need a separate accounting system and sustainability KPIs have to be integrated in the SAP core system.”</p>
+  <h2 id="a-culture-of-trust-and-transparency">A Culture of Trust and Transparency</h2>
+  <p>With nearly 300 full-time employees and a large number of students, New Ventures and Technologies consists of 10 branch offices worldwide. Martin’s goal for this teamwork is to establish a culture of personal responsibility. Instead of simply assigning topics, the responsible employees should be empowered to develop them on their own.</p>
+  <p>“The most important thing is a relationship of mutual trust,” he says. “I often talk about budget issues in team meetings and provide information about my own work. Other department heads in New Ventures and Technologies do likewise.” Knowledge transfer among the different teams is also important. “Everyone has to understand that we can only succeed if we all work together and collaborate closely with one another,” he adds.</p>
+  <p>This culture of transparency is deeply rooted in SAP Innovation Center Network, but it’s also a sign of the times, according to Heinig. “We’re living in the age of the platform economy, which simply demands this transparency and strong networking among us as prerequisites for collaborative work.”</p>
+  <p>And that’s a good thing. “Ultimately, the ideas of the employees will always be the decisive factor when it comes to keeping a company in shape for the future,” he emphasizes.</p>
+  <p>As he sees it, the role of management here is to create structures that give employees the space to exercise this creativity and develop these ideas. “It starts with me as a manager, giving my employees the impression that they are allowed to express their thoughts and submit their ideas for consideration,” Heinig says. “Encouraging this openness might be my most important responsibility as head of New Ventures and Technologies – and it’s also the thing makes me like this role so much.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Customer Log-On Goes Password-Less with SAP.iO Startup Hanko]]></title>
+            <link>https://www.sap.com/news/2021/05/sap-io-startup-hanko-password-less-log-on</link>
+            <guid>https://www.sap.com/news/2021/05/sap-io-startup-hanko-password-less-log-on</guid>
+            <pubDate>Mon, 24 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together, SAP and Hanko tested password-less authentication with Touch ID and Windows Hello for SAP Universal ID. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Customer Log-On Goes Password-Less with SAP.iO Startup Hanko" src="./media_14f5bae9b33306a644caf8270e13cb80ba9281444.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-customer-log-on-goes-password-less-with-sapio-startup-hanko">SAP Customer Log-On Goes Password-Less with SAP.iO Startup Hanko</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>One of <a href="/2021/03/sap-universal-id-simplified-login-experience">SAP’s latest products</a> is SAP Universal ID, a unified account that allows customers to access all SAP services in one place with a seamless user experience across all SAP products and services.</div>
+    </div>
+  </div>
+  <p>The company refers to it as the “Apple ID for everyone in the SAP world.” With this, SAP customers can link their SAP accounts under one ID, represented by an e-mail address, and use it to log on to SAP services with a single password.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-customers-create-your-universal-id-today">SAP customers: Create your universal ID today</h3>
+      </div>
+      <div><strong><a href="https://discover.sap.com/universalid/en-us/about.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="security-is-key">Security Is Key</h2>
+  <p>Even though using only one set of log-on credentials offers great advantages for SAP customers, it also means that if this password is compromised, the attacker may gain access to multiple SAP services and accounts at once. That’s why SAP Universal ID developers were searching for a more secure solution that prevents fraud but doesn’t impact usability.</p>
+  <p>Authenticating with <a href="https://insights.sap.com/biometrics-sensing-healthy-society/">biometrics</a> has been proven to be the most secure way to protect user accounts and devices without impacting user experience and conversion rates. But until now, biometric authentication could exclusively be used in native apps on mobile devices. This recently changed with a brand-new Web standard called “WebAuthn” that makes it possible to use biometrics on Websites.</p>
+  <p>But developing a biometrics-based authentication process, combining it with a secure cryptographic challenge-response two-factor authentication protocol, and integrating it into an existing tech stack takes a lot of time, knowledge, and developer resources.</p>
+  <h2 id="biometrics-and-cryptography-by-hanko">Biometrics and Cryptography by Hanko</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-sapio">Explore SAP.iO</h3>
+      </div>
+      <div><strong><a href="https://sap.io/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>That’s why SAP decided to realize this project together with Hanko. The young <a href="https://www.hanko.io/">authentication-as-a-service provider</a> was invited to participate in a three-month startup accelerator program at SAP.iO Foundry Berlin in 2019. In a joint proof of concept, the SAP team tested password-less authentication with Touch ID and Windows Hello for SAP Universal ID.</p>
+  <p>With their managed cloud application programming interface (API), Hanko enabled SAP developers to access a fully-fledged and certified WebAuthn infrastructure right from the beginning of the project. Hanko accompanied the SAP team, providing demo code and ready-to-use client and server software development kits. To create an optimal user experience (UX), Hanko also supported the UX team in the development and implementation of the new user flows for the password-less authentication methods.</p>
+  <h2 id="the-outcome">The Outcome</h2>
+  <p>The result of the proof of concept is a fully functioning SAP Universal ID test environment supporting password-less two-factor authentication with WebAuthn authenticators, such as Windows Hello, Apple Touch ID and Face ID, as well as FIDO Security Keys. Since Hanko supplied the main code components, SAP was able to integrate the password-less technologies into SAP Universal ID with a small team in just one-third of the estimated</p>
+  <p>time. The test environment will be leveraged for further user testing until the feature is released to SAP customers.</p>
+  <p>Thilo Brandt, IT senior manager for SAP Universal ID, confirms that internal tests have produced a consistently positive response, from developer and QA level up to top management. “The development effort for introducing password-less authentication was significantly reduced through the use of Hanko. The team helped us to successfully navigate implementing password-less authentication into our application stack and user interfaces.”</p>
+  <p>Michael Braun, IT chief product owner of Identity and User Management at SAP, is happy with the outcome of the project as well: “With the help of Hanko, we were able to prove the feasibility of our vision for a password-less log-on for SAP Universal ID in terms of technical implementation as well as usability on all major operating systems such as Windows, macOS, iOS, and Android.”</p>
+  <p>Felix Magedanz, founder and CEO of Hanko, is pleased to see that Hanko’s authentication-as-a-service solution is so well received at SAP and that the deployability of Hanko’s API has been successfully proven. “Our project with SAP demonstrates the power and the benefits of our password-less API. Seeing our solution being used by one of the largest software companies in the world makes us proud and strongly validates our approach. Through the close cooperation and feedback from SAP developers, we were able to improve our solution to make it even more convenient for future customers.”</p>
+  <p><strong>About SAP.iO</strong></p>
+  <p><a href="/topics/sap-io">SAP.iO</a> is SAP’s strategic business unit to incubate, accelerate, and scale startup innovation and explore new business models for SAP. Since 2017, SAP.iO has helped over 300 external startups and internal ventures both start and scale their businesses while enabling thousands of SAP customers to access innovation.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>news-tag/sap-universal-id</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[SavingsNow! and Recycletronics Join SAP.iO Venture Studio]]></title>
+            <link>https://www.sap.com/news/2021/01/savingsnow-recycletronics-join-sapio-venture-studio</link>
+            <guid>https://www.sap.com/news/2021/01/savingsnow-recycletronics-join-sapio-venture-studio</guid>
+            <pubDate>Thu, 28 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SavingsNow! and Recycletronics have joined the SAP.iO Venture Studio with goals of scaling and growing business for SAP and its customers.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11c986ab549e02ea79713daddb41c7fa99c90f0f8.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11c986ab549e02ea79713daddb41c7fa99c90f0f8.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11c986ab549e02ea79713daddb41c7fa99c90f0f8.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SavingsNow! and Recycletronics Join SAP.iO Venture Studio" src="./media_11c986ab549e02ea79713daddb41c7fa99c90f0f8.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="savingsnow-and-recycletronics-join-sapio-venture-studio">SavingsNow! and Recycletronics Join SAP.iO Venture Studio</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SavingsNow! and Recycletronics have joined the <a href="https://sap.io/studio/">SAP.iO Venture Studio</a> with goals of scaling and growing business for SAP and its customers. As part of the New Ventures and Technologies organization, the SAP.iO Venture Studio takes an employee-driven approach to innovation by bringing it in-house with an intrapreneurship program.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div><em>*As of July 2021, these offerings are now known as Source Agent by SAP and EverLoop by SAP.</em></div>
+    </div>
+  </div>
+  <p>The two new employee-created ventures have received €1-2 million in funding from SAP through the company’s grassroots Scouting &#x26; Acceleration program.</p>
+  <p>“Entrepreneurs at SAP are in a unique position to shape the future of enterprise software,” said Ram Jambunathan, head of SAP.iO Venture Studio. “SAP’s distinctive understanding of business processes enables ventures like Recycletronics and Savings Now! to leverage data and technology to explore, experiment, and transform how business is done.”</p>
+  <p>The intrapreneurship program operates as an accelerator that supports entrepreneurial employees by creating an environment that fosters a culture of exploration and innovation. Employees selected for the program can build out and validate their ideas through working with real end users and assigned mentors from across SAP expertise in the challenges faced by SAP and its customers. From these interactions, the teams can then accelerate their idea into a venture with proven market demand.</p>
+  <p>To better understand today’s business landscape and how their proposed solutions fit within it, teams run through two phases. During the <strong>validation</strong> phase, teams join an eight-week self-paced program with virtual lectures covering topics from testing assumptions to analyzing markets and building a first version of their product. During the <strong>acceleration</strong> phase, some get the opportunity to further develop and test their product and to win early-stage customers. They receive feedback from mentors from inside and outside of SAP, including a committee of senior leaders from across SAP, along with founders and investors.</p>
+  <p>In 2020 the intrapreneurship program entered its fifth year, and despite a <a href="/covid-19">global pandemic</a>, the two teams secured funding from SAP. Together, SavingsNow! and Recycletronicswill continue develop their solutions over the next 18 to 24 months in SAP.iO Venture Studio.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-how-sap-is-driven-by-innovation">Explore how SAP is driven by innovation</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/corporate/en/company/innovation.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="savingsnow">SavingsNow!</h2>
+  <p>One of the new ventures to join the SAP.iO Venture Studio is SavingsNow! The team behind the new solution aims to disrupt the sourcing-as-a-service business by bringing automation powered by artificial intelligence (AI) to categories that are often unaddressed in spend optimizations because of lack of time or expertise.</p>
+  <p>Co-founded by Travis Mattern and Will Caseber, the idea for SavingsNow! came out of talking with sourcing and procurement professionals about the challenges they encounter with delivering supplier contracts to their business stakeholders.</p>
+  <p>“We found a knowledge gap between the steps of identifying a sourcing opportunity and successfully running the sourcing event,” Caseber said. “Many sourcing teams leave significant value on the table because they do not have the time and spend category expertise to efficiently and effectively deliver the sourcing event strategy and execution plan for their full pipeline of opportunities.”</p>
+  <p>SavingsNow! plans to deliver sourcing services for categories where companies do not have the time or expertise. This service will leverage the SAP Ariba Sourcing solution together with intelligent automation using insights from SAP Business Network and other sources of market intelligence. The initial focus will be common indirect categories relevant for most buyer industries. The spend category portfolio will grow into the areas where customers need the most assistance.</p>
+  <p>“The beauty of this simple service is that it will be outcome-focused and available to companies regardless of whether they own any SAP software solutions,” Mattern said, adding the team plans to build in the solution can be utilized across the SAP procurement solution portfolio.</p>
+  <p>But perhaps the most exciting thing for these co-founders is the ability to work with SAP solutions and end users to help ensure that their solution meets their real-world needs – a staple feature of the New Ventures and Technology intrapreneurship program.</p>
+  <p>“The SAP.iO Venture Studio is the perfect environment to rapidly develop and scale this exciting new solution,” Mattern said.</p>
+  <h2 id="recycletronics">Recycletronics</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="discover-the-sapio-venture-studio">Discover the SAP.iO Venture Studio</h3>
+      </div>
+      <div><strong><a href="https://sap.io/studio/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Like the larger SAP, the SAP.iO program also looks for ideas and solutions that are not just going to make companies run better, but the world run better too. To achieve that, the accelerator program partnered with SAP’s social intrapreneurship program, SAP One Billion Lives, which aims to improve 1 billion lives through the cultivation and development of sustainable, shared-value impact ventures. Recycletronics was selected for funding from this partnership.</p>
+  <p>“The intrapreneurship program has let us develop our idea into a reality,” said Kiruthika S., Product Development lead of Recycletronics. “We’ve been able to meet with fellow innovators, mentors, motivators, and coaches that have acted as catalysts to bring Recycletronics to life.”</p>
+  <p>Founded by Kiruthika S., Ajit Chandran, Rima Yadav, and Amit Sharma, the solution aims to address e-waste in India. The Recycletronics team worked with the chief business officer of the Indian recycler company <a href="https://www.linkedin.com/company/cerebra-green-recycling/?originalSubdomain=in">Cerebra Green</a> to learn more about its processes on recycling, as well as to get a better understanding on the issue of e-waste and how to best tackle it with their solution.</p>
+  <p>Recycletronics was born from this original collaboration and study. The new venture strives to connect and collaborate on ways to reduce the total amount of e-waste produced through building a marketplace for Indian electronics manufacturer and e-waste recyclers.</p>
+  <p>“By creating a marketplace, Recycletronics isn’t just reducing e-waste,” Kiruthika said. “It will also increase the value derived from e-waste for companies and also aim at improving circular economy by bringing secondary raw materials back into the market.”</p>
+  <p>Not only is Recycletronics hoping to change the ways companies in India view and handle e-waste, it also aims to transform Indian society into a more sustainably driven one by pairing manufacturers with recyclers. This collaboration will help reduce waste generation through reducing the amount of e-waste produced, reusing and repairing existing electronics so no new waste is generated, and safely recycling e-waste.</p>
+  <p>The Recycletronics team is not just setting its sights on improving the health of the environment with the solution; they’re working to improve the health and safety of people too.</p>
+  <p>“There are severe health concerns when it comes to improper e-waste recycling,” said Chandran, general manager and Business Development lead of Recycletronics, adding that serious illnesses can arise from the hazardous materials of e-waste. “Recycletronics will help prevent these illnesses and help take e-waste to a better place.”</p>
+  <p><strong>About New Ventures and Technologies</strong></p>
+  <p>The New Ventures and Technologies organization aims to future-proof SAP and its customers into the Intelligent Enterprise through technology innovation and product incubation. The organization recently had <a href="/2020/12/new-ventures-and-technologies-solutions-graduate-to-sap-portfolio">three teams graduate into the larger SAP product portfolio</a>, where they will continue to scale and move closer to the core business.</p>
+  <p>“It’s our job to keep SAP’s eyes on the future,” Martin Heinig, head of New Ventures and Technologies, said. “These two new teams are solutions that are solving the problems of today and tomorrow.”</p>
+  <p>SavingsNow! and Recycletronics join other SAP.iO ventures <a href="https://www.brillianthire.io/">Brilliant Hire by SAP</a>, <a href="https://www.ownid.com/">OwnID by SAP</a>, <a href="https://www.green-token.io/">GreenToken by SAP</a>, and <a href="https://www.paidpronto.io/">Paid Pronto by SAP</a>.</p>
+  <p>To learn more about New Ventures and Technologies, <a href="https://www.sap.com/corporate/en/company/innovation.html">visit the Innovation at SAP area of sap.com</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[Developers and Researchers Drive Outside-In Innovation]]></title>
+            <link>https://www.sap.com/news/2021/01/sap-innovation-center-network-academic-partnership-program</link>
+            <guid>https://www.sap.com/news/2021/01/sap-innovation-center-network-academic-partnership-program</guid>
+            <pubDate>Mon, 04 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Through a new academic partnership program at SAP, academic research plays a crucial role in exploring technology trends.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Developers and Researchers Drive Outside-In Innovation" src="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="developers-and-researchers-drive-outside-in-innovation">Developers and Researchers Drive Outside-In Innovation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-about-the-sap-innovation-center-network-academic-partnership-program">Read more about the SAP Innovation Center Network academic partnership program</h3>
+      </div>
+      <div><strong><a href="https://icn.sap.com/academic-partnership-program">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Evolution in the tech world happens fast. To keep up with the industry’s pace, SAP works closely with academia to help ensure that the company never loses touch with the latest trends and innovations.</div>
+    </div>
+  </div>
+  <p>To facilitate this, <a href="https://icn.sap.com/">SAP Innovation Center Network</a>, which is part of the New Ventures and Technologies unit, has established the <a href="https://icn.sap.com/academic-partnership-program">academic partnership program</a>. In this initiative, theory and practice go hand in hand. Academic research plays a crucial role in exploring new technology trends, but without a link back to the business, it can sometimes remain purely theoretical.</p>
+  <p>By partnering with academic institutions like the MIT Computer Science and Artificial Intelligence Lab, the Hasso Plattner Institute, and the University of Southern California, SAP can bring knowledge about emerging technology trends into the company.</p>
+  <p>This targeted exploration of forward-looking technologies with external experts from the academic community is referred to as “outside-in innovation.” It enables the company to identify trends at an early stage and to evaluate whether it is worth investing in a particular trend or not.</p>
+  <p>The academic partnership program includes engagements with several top-ranked universities around the globe. “We take a proactive approach,” explains Matthias Uflacker, location lead at the SAP Innovation Center Network location in Munich. “Once we have identified a promising topic area, we address academic experts directly.”</p>
+  <p>Uflacker says that flexibility is particularly important when exploring new fields of technology: “We want to take small steps and learn along the way.”</p>
+  <p>The individual projects with the universities are designed to run for a relatively short time, starting with a six-month or one-year plan, but with the option of extending them whenever results are promising.</p>
+  <p>An important criterion is always the relevance for SAP’s own mid- to long-term strategic goals and product visions. The program is therefore designed to help ensure that collaboration projects are either linked to existing projects and teams or supervised by SAP engineers.</p>
+  <p>SAP Innovation Center Network has been working on establishing three main pillars within their academic partnership program: academic fellowships, research sponsorships and community outreach.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="600" height="214">
+    </picture>
+  </p>
+  <p><em>The three main pillars within the SAP Innovation Center Network academic partnership program.</em></p>
+  <p>The <strong>academic fellowship program</strong> started in 2020. Under it, SAP Innovation Center Network invites renowned university faculty to join SAP as visiting researchers. They then work on new ideas and promising exploration topics as members of an SAP team or multiple teams simultaneously. This enables them to bring their own research into an SAP context and validate it against real-world use cases. It also gives them a chance to influence SAP’s exploration and incubation of new technology and to earn reputation as a technology advisor.</p>
+  <p>Academic fellowships can be set up as full-time or part-time engagements – in the form of a sabbatical or freelance consulting work, for example. The program addresses different tiers of academic staff, ranging from post-doctoral researchers to junior and senior faculty.</p>
+  <p>Felix Naumann, professor for Information Systems at the Hasso Plattner Institute (HPI) in Potsdam, was one of the first scholars to dive into the SAP world as part of this program. He says he was able to garner a lot of knowledge and practical experience that he can bring back into his daily work at HPI.</p>
+  <p>Asked how the cooperation went, Naumann shares, “In academia, I try to generalize problems and find elegant solutions, while at SAP — very understandably — sometimes the thinking is much more practical, to solve the problem at hand and not think about it in a principled way. I think that both sides very much benefited from this difference.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="listen-to-a-podcast-with-felix-naumann-on-academics-in-the-tech-industry">Listen to a podcast with Felix Naumann on academics in the tech industry</h3>
+      </div>
+      <div><strong><a href="https://open.spotify.com/episode/3z4D4SZoCQe6b768t3jaLX?si=UM0d8eDER5CMaPKMVf39Cw">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Naumann says that he can now use his insights to provide more valuable feedback to his PhD students.</p>
+  <p>He believes that this alliance is essential for innovation and progress.</p>
+  <p>“To solve real-world problems we need the real-world input and that remains a large difficulty, because SAP – for very good reasons – cannot share much of its data,” he explains. “This problem will not go away, so this is exactly why we need a close collaboration between academia and SAP.”</p>
+  <p><strong>Research sponsorships</strong> through SAP Innovation Center Network support PhD-level and post-doctoral research projects in the area of computer science and related fields at relevant academic institutions. These can be either unrestricted donations or third-party budgets provided for contracted research services working on jointly defined projects.</p>
+  <p>A current example for a sponsored research project is the research on human-human dialogue understanding at the University of California, Irvine. From April 2020 to March 2021, researchers sponsored by SAP are working in collaboration with SAP employees at the <a href="https://icn.sap.com/location/newport-beach">SAP Innovation Center location in Newport Beach</a>.</p>
+  <p>The project seeks to develop machine learning and natural language processing (NLP) algorithms to automatically analyze transcripts of human conversations in order to detect questions in the conversations and to characterize the quality of responses.</p>
+  <p>“It is common in academic research in this area to work with somewhat idealized testbed datasets,” explains Padhraic Smyth, Chancellor’s Professor at the Departments of Computer Science and Statistics. “These are very useful for building initial prototypes and testing research ideas, but they often underestimate the challenges of real-world environments, such as the variety of ways that we as humans express ideas and concepts through natural language.”</p>
+  <p>That is why the feedback of SAP researchers was so beneficial.</p>
+  <p><strong>Community outreach</strong> is the third pillar of the academic partnership program, where SAP Innovation Center Network teams up with university students to tackle problems in technology.</p>
+  <p>This engagement happens through internships, campus events, student projects, and hackathons. The array of on-site and off-site events has so far included the support of the TEDx conference in Potsdam and other events such as the symposium on natural language processing in California.</p>
+  <p>One example of a successful community outreach cooperation is user behavior mining, which started out as a thesis project for a bachelor’s course at the Hasso Plattner Institute in 2019. The students worked together with the SAP teams based in Potsdam, Walldorf, and Newport Beach and delivered concepts and prototypes for tracking behavioral patterns when using SAP Fiori apps. The prototypes have been successfully evaluated with customers, and have now been <a href="https://youtu.be/xQijCv8ZpgE">productized by teams in the New Ventures and Technologies unit</a>.</p>
+  <p>Overall, the academic partnership program benefits both SAP and the research institutions: SAP can sound out which new business and technology trends should be addressed within the company while researchers can validate their studies in a real-world environment.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+    </channel>
+</rss>

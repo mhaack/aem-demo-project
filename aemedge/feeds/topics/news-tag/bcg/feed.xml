@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/bcg/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 05 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP's New AI Innovations and Partnerships Deliver Real-World Results]]></title>
+            <link>https://www.sap.com/news/2024/06/ai-innovations-partnerships-sap-sapphire</link>
+            <guid>https://www.sap.com/news/2024/06/ai-innovations-partnerships-sap-sapphire</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the AI capabilities and ecosystem innovations presented at SAP Sapphire in 2024, all aimed at delivering real-world results.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/financial-management</category>
+            <category>topic/hcm</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/abap-cloud</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/ai-ethics</category>
+            <category>topic/ai</category>
+            <category>news-tag/aws</category>
+            <category>news-tag/bcg</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>topic/procurement</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Hilti Group Measures Circularity with SAP Business Technology Platform]]></title>
+            <link>https://www.sap.com/news/2023/11/hilti-group-measures-circularity-sap-btp</link>
+            <guid>https://www.sap.com/news/2023/11/hilti-group-measures-circularity-sap-btp</guid>
+            <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hilti is leveraging SAP BTP for more contextual data and a closer to its vision of helping to create a circular economy. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/bcg</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Why Your Company Needs a Digital Financial Twin]]></title>
+            <link>https://www.sap.com/news/2022/10/digital-financial-twin-sap-bcg</link>
+            <guid>https://www.sap.com/news/2022/10/digital-financial-twin-sap-bcg</guid>
+            <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[BCG and SAP are exploring the digital financial twin concept, which will revolutionize informed decision making for businesses. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/feature</category>
+            <category>news-tag/bcg</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/financial-services</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[A Single Platform Amplifies the Value of a Diverse Workplace]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-btp-amplifies-value-of-diverse-workplace</link>
+            <guid>https://www.sap.com/news/2022/09/sap-btp-amplifies-value-of-diverse-workplace</guid>
+            <pubDate>Thu, 01 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and BCG turn corporate diversity programs into a competitive advantage with SAP SuccessFactors solutions and SAP BTP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/bcg</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>topic/hcm</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-compensation</category>
+            <category>product/sap-successfactors-performance-goals</category>
+        </item>
+        <item>
+            <title><![CDATA[BCG and SAP Join Forces to Transform Companies into Sustainable Enterprises]]></title>
+            <link>https://www.sap.com/news/2022/03/bcg-and-sap-transform-sustainable-enterprises</link>
+            <guid>https://www.sap.com/news/2022/03/bcg-and-sap-transform-sustainable-enterprises</guid>
+            <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together, BCG and SAP will help companies tackle the generational challenge of climate change. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/bcg</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Disrupting Business Models to Protect Our Most Valuable Asset: The Planet]]></title>
+            <link>https://www.sap.com/news/2022/03/sap-and-bcg-partnership-protect-planet</link>
+            <guid>https://www.sap.com/news/2022/03/sap-and-bcg-partnership-protect-planet</guid>
+            <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP and BCG partnership supports companies in the digital transformation to become intelligent sustainable enterprises.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/bcg</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+    </channel>
+</rss>

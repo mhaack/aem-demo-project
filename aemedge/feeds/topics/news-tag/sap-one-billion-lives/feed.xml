@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-one-billion-lives/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 25 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Grameen Nippon Empowers Women to End Poverty with Microloans]]></title>
+            <link>https://www.sap.com/news/2022/07/grameen-nippon-empowers-women-end-poverty-microloans</link>
+            <guid>https://www.sap.com/news/2022/07/grameen-nippon-empowers-women-end-poverty-microloans</guid>
+            <pubDate>Mon, 25 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A microfinancing program by Grameen Nippon that runs on SAP solutions supports entrepreneurship and helps women become independent.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-extreme-series</category>
+            <category>news-tag/sap-one-billion-lives</category>
+            <category>news-tag/un-sdgs</category>
+        </item>
+        <item>
+            <title><![CDATA[Beer with a Purpose: Quartiermeister Chooses SAP Business One]]></title>
+            <link>https://www.sap.com/news/2021/06/quartiermeister-chooses-sap-business-one</link>
+            <guid>https://www.sap.com/news/2021/06/quartiermeister-chooses-sap-business-one</guid>
+            <pubDate>Thu, 24 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Germany's first social beer brand, Quartiermeister, chose SAP Business One to help expand and run its operations. Read to learn more!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>product/sap-business-one</category>
+            <category>news-tag/sap-one-billion-lives</category>
+            <category>news-tag/social-enterprise</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP One Billion Lives Makes a Difference in a Year of Uncertainty]]></title>
+            <link>https://www.sap.com/news/2021/01/sap-one-billion-lives-in-2020</link>
+            <guid>https://www.sap.com/news/2021/01/sap-one-billion-lives-in-2020</guid>
+            <pubDate>Thu, 14 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Through SAP One Billion Lives in 2020, eight new social impact solutions were developed. Take a deeper dive into the offerings now.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/sap-one-billion-lives</category>
+        </item>
+    </channel>
+</rss>

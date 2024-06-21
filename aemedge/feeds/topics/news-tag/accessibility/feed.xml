@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/accessibility/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 21 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Disability Pride Month: Creating Accessible Content]]></title>
+            <link>https://www.sap.com/news/2023/07/creating-accessible-content</link>
+            <guid>https://www.sap.com/news/2023/07/creating-accessible-content</guid>
+            <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Making content accessible and creating a culture of inclusion and belonging is everyone’s responsibility and benefits everyone. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accessibility</category>
+            <category>news-tag/diversity-and-inclusion</category>
+        </item>
+        <item>
+            <title><![CDATA[Making the Coldplay Music Of The Spheres World Tour App Accessible for Blind and Visually Impaired People]]></title>
+            <link>https://www.sap.com/news/2023/03/accessibility-coldplay-app-music-of-the-spheres-world-tour</link>
+            <guid>https://www.sap.com/news/2023/03/accessibility-coldplay-app-music-of-the-spheres-world-tour</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A blind Coldplay fan has supported SAP in making the tour app accessible for blind and visually impaired people. Learn more about how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accessibility</category>
+            <category>news-tag/coldplay</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[Inclusive Meeting Cards Improve Accessibility]]></title>
+            <link>https://www.sap.com/news/2021/10/inclusive-meeting-cards-improve-accessibility</link>
+            <guid>https://www.sap.com/news/2021/10/inclusive-meeting-cards-improve-accessibility</guid>
+            <pubDate>Fri, 29 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Creating an inclusive work culture is actually quite an easy thing to do. Find out how with these free inclusive meeting cards.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accessibility</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/sap-fiori</category>
+        </item>
+    </channel>
+</rss>
