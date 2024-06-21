@@ -73,7 +73,7 @@ function buildResultHeader() {
   return resultHeaderTemplate;
 }
 function buildCardTemplate(cardObj) {
-  if (cardObj?.path.endsWith('/usage')) {
+  if (cardObj?.path.endsWith('/usage') || cardObj?.path.endsWith('/style')) {
     return;
   }
 
