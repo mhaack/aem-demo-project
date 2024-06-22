@@ -83,12 +83,20 @@ function filterInternalExternalData(main) {
     isExternal = false;
   }
   if (isExternal) {
+    if (getMetadata('visibility') === 'internal_only') {
+      window.location.href = '/404';
+    }
+
     document.body.classList.add('external');
     const internalOnlyRegex = /\[internal_only](.*?)\[\/internal_only]/gs;
     const externalOnlyRegex = /\[external_only]|\[\/external_only]/gs;
     main.innerHTML = main.innerHTML.replace(internalOnlyRegex, '').replace(externalOnlyRegex, '');
     main.querySelectorAll('[data-visibility="internal_only"]').forEach((elem) => elem.remove());
   } else {
+    if (getMetadata('visibility') === 'external_only') {
+      window.location.href = '/404';
+    }
+
     document.body.classList.add('internal');
     const internalOnlyRegex = /\[external_only](.*?)\[\/external_only]/gs;
     const externalOnlyRegex = /\[internal_only]|\[\/internal_only]/gs;
