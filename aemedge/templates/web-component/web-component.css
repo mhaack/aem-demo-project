@@ -327,6 +327,16 @@ html:has(.design-system) {
           }
         }
 
+        & .columns.columns-4-cols {
+          & > div {
+            display: grid;
+          }
+
+          &.columns-3-1-1-1 > div {
+            grid-template-columns: 3fr 1fr 1fr 1fr;
+          }
+        }
+
         /* stylelint-disable-next-line no-descending-specificity */
         & .columns.columns-2-cols > div > div,
         & .columns.columns-3-cols > div > div {
