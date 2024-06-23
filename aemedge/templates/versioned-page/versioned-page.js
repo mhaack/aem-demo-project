@@ -1,18 +1,11 @@
 import { loadFragment } from '../../scripts/scripts.js';
 import ffetch from '../../scripts/ffetch.js';
 import {
-  a as aElem,
-  div,
-  h1, h2,
-  meta,
-  p,
+  a as aElem, div, h1, h2, meta, p,
 } from '../../scripts/dom-builder.js';
 import { compareVersions, fioriWebRootUrl } from '../../scripts/utils.js';
 import {
-  buildBlock,
-  getMetadata,
-  loadCSS,
-  toClassName,
+  buildBlock, getMetadata, loadCSS, toClassName,
 } from '../../scripts/aem.js';
 
 function getLatestUrl(path, virtualVersion) {
@@ -105,6 +98,23 @@ function fallbackVersioning(doc, virtualVersion, candidateVersions) {
 
       return acc;
     }, {}));
+
+  if (pagesInfo.length === 0) {
+    return false;
+  }
+
+  // eslint-disable-next-line max-len
+  const [firstSectionPages, otherSectionPages] = pagesInfo.reduce(([firstSection, sections], pageInfo) => {
+    const splitBreadcrumbs = pageInfo.breadcrumbs.split(' / ');
+    if (splitBreadcrumbs.length === pathSections.length + 1) {
+      firstSection.push(pageInfo);
+    } else {
+      sections.push(pageInfo);
+    }
+
+    return [firstSection, sections];
+  }, [[], []]);
+
   const pageBreadcrumbsComponents = pagesInfo[0].breadcrumbs.split(' / ').slice(0, 2);
   const pageTitle = pageBreadcrumbsComponents[1];
 
@@ -120,7 +130,7 @@ function fallbackVersioning(doc, virtualVersion, candidateVersions) {
   loadCSS(`${window.hlx.codeBasePath}/templates/web-component/web-component.css`);
   loadCSS(`${window.hlx.codeBasePath}/styles/design-system/overview.css`);
 
-  const sections = Object.entries(pagesInfo.reduce((acc, pageInfo) => {
+  const sections = Object.entries(otherSectionPages.reduce((acc, pageInfo) => {
     const thirdBreadcrumb = pageInfo.breadcrumbs.split(' / ')[2];
     const accElem = acc[thirdBreadcrumb];
     if (accElem) {
@@ -141,20 +151,28 @@ function fallbackVersioning(doc, virtualVersion, candidateVersions) {
     ])),
   ));
 
-  main.replaceChildren(
-    div(
-      buildBlock('design-system-hero', [[h1(pageTitle)]]),
-      h2('Overview'),
-      buildBlock('tiles', [[div(
-        p('About SAP Design System'),
-        p('SAP Design System is a design system that provides guidelines and resources for designing consistent and delightful SAP products.'),
-        aElem({ href: '/discover/sap-design-system/getting-started/' }, 'Learn more'),
-      )]]),
-    ),
-    ...sections,
-  );
+  const heroBlock = buildBlock('design-system-hero', [[h1(pageTitle)]]);
+  const firstLevelPageCards = buildBlock('tiles', firstSectionPages.map((pageInfo) => [div(
+    p(pageInfo.title),
+    p(pageInfo['intro-desc']),
+    aElem({ href: pageInfo.path }, 'Learn more'),
+  )]));
+  if (sections.length > 0) {
+    main.replaceChildren(
+      div(
+        heroBlock,
+        h2('Overview'),
+        firstLevelPageCards,
+      ),
+      ...sections,
+    );
+  } else {
+    main.replaceChildren(
+      div(heroBlock),
+      div(firstLevelPageCards),
+    );
+  }
 
-  // TODO return false
   return true;
 }
 
