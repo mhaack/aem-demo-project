@@ -9,13 +9,13 @@ import {
 /**
  * Create a list of h2 elements for each section element.
  * @param dataNames The data-name attributes of the section elements
+ * @param main
  * @returns {*[]} The list of h2 elements for each section element (array with a key)
  */
-function createDsTocList(dataNames) {
+function createDsTocList(dataNames, main) {
   const tocLists = [];
-
   const processH2Elements = (selector) => {
-    const h2Elements = document.querySelectorAll(selector);
+    const h2Elements = main.querySelectorAll(selector);
     const h2Arr = Array.from(h2Elements).map((h2) => ({
       id: h2.getAttribute('id'),
       text: h2.textContent,
@@ -67,13 +67,13 @@ function getOffsetTop(element) {
  * Also set the aria-current attribute to the clicked link and remove it from the others.
  * @param e The event object
  */
-function updateTocAndScrollToContent(e) {
-  const targetElement = document.getElementById(e.target.hash.substring(1));
+function updateTocAndScrollToContent(e, main) {
+  const targetElement = main.getElementById(e.target.hash.substring(1));
 
   // Do not change the URL hash in the address bar
   e.preventDefault();
 
-  document.querySelectorAll('.ds-toc-link').forEach((link) => {
+  main.querySelectorAll('.ds-toc-link').forEach((link) => {
     link.removeAttribute('aria-current');
   });
   e.target.setAttribute('aria-current', 'true');
@@ -89,13 +89,13 @@ function updateTocAndScrollToContent(e) {
  * @param h2 The h2 element
  * @returns {Element} The list item element
  */
-function createListItem(h2) {
+function createListItem(h2, main) {
   const listItem = li();
   const listItemLink = a(
     {
       class: 'ds-toc-link',
       href: `#${h2.id}`,
-      onclick: (e) => { updateTocAndScrollToContent(e); },
+      onclick: (e) => { updateTocAndScrollToContent(e, main); },
     },
     h2.text,
   );
@@ -110,7 +110,7 @@ function createListItem(h2) {
  * @param h2s
  * @returns {Element}
  */
-function createToc(dataName, h2s) {
+function createToc(dataName, h2s, main) {
   const list = ol(
     {
       class: 'ds-toc-list',
@@ -119,7 +119,7 @@ function createToc(dataName, h2s) {
   );
 
   h2s.forEach((h2) => {
-    const listItem = createListItem(h2);
+    const listItem = createListItem(h2, main);
     list.appendChild(listItem);
   });
 
@@ -130,10 +130,10 @@ function createToc(dataName, h2s) {
  * Retrieves the current hash value from the URL.
  * @returns {string} The current hash value.
  */
-function getCurrentHash() {
-  const sections = document.querySelectorAll('.section[data-name]');
+function getCurrentHash(main) {
+  const sections = main.querySelectorAll('.section[data-name]');
   const dataNames = getDataNames(sections);
-  const tocLists = createDsTocList(dataNames);
+  const tocLists = createDsTocList(dataNames, main);
   const hashExists = dataNames.includes(window.location.hash.substring(1));
   let currentHash = '';
 
@@ -155,8 +155,8 @@ function getCurrentHash() {
   return currentHash;
 }
 
-function updateToc(lists) {
-  const currentHash = getCurrentHash();
+function updateToc(lists, main) {
+  const currentHash = getCurrentHash(main);
 
   lists.forEach((list) => {
     const listDataName = list.getAttribute('data-toc-list');
@@ -179,9 +179,9 @@ function updateToc(lists) {
  * data-toc-list attribute.
  * @param block The block element
  */
-function initTocList(block) {
+function initTocList(block, main) {
   const lists = block.querySelectorAll('.ds-toc-list');
-  updateToc(lists);
+  updateToc(lists, main);
 
   window.addEventListener('hashchange', () => {
     updateToc(lists);
@@ -189,6 +189,7 @@ function initTocList(block) {
 }
 
 export default async function decorate(block) {
+  console.log('decorating toc');
   const tocNav = nav({
     class: 'ds-toc-nav',
     role: 'navigation',
@@ -199,20 +200,21 @@ export default async function decorate(block) {
     class: 'ds-toc-heading',
   }, 'On this page'));
 
-  let sections = document.querySelectorAll('.section[data-name]');
+  const main = block.closest('main');
+  let sections = main.querySelectorAll('.section[data-name]');
   if (sections.length === 0) {
-    sections = document.querySelectorAll('h2');
+    sections = main.querySelectorAll('h2');
   }
   const dataNames = getDataNames(sections);
-  const tocLists = createDsTocList(dataNames);
+  const tocLists = createDsTocList(dataNames, main);
 
   tocLists.forEach((tocList) => {
     const [dataName, h2s] = Object.entries(tocList)[0];
-    const toc = createToc(dataName, h2s);
+    const toc = createToc(dataName, h2s, main);
     tocNav.appendChild(toc);
   });
 
   block.replaceChildren(tocNav);
 
-  initTocList(block);
+  initTocList(block, main);
 }

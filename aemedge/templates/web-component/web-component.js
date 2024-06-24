@@ -1,14 +1,7 @@
 import { div } from '../../scripts/dom-builder.js';
 import { buildBlock } from '../../scripts/aem.js';
 
-function initBlock(main, blockName) {
-  main.append(div(buildBlock(blockName, '')));
+export default function decorate(main) {
+  main.append(div(buildBlock('design-system-toc', '')));
+  main.append(div(buildBlock('deep-link', '')));
 }
-
-async function decorate(doc) {
-  const main = doc.querySelector('main');
-  initBlock(main, 'design-system-toc');
-  initBlock(main, 'deep-link');
-}
-
-decorate(document);

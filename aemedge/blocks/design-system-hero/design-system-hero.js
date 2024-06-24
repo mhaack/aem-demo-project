@@ -106,7 +106,7 @@ export default async function decorate(block) {
   heading.append(subHeading);
 
   const tagsContainer = Object.assign(document.createElement('div'), { className: 'tags-container' });
-  const componentTags = [getMetadata('designowner'), getMetadata('uielementstechnology'), getMetadata('elementtype')];
+  const componentTags = [getMetadata('uielementstechnology'), getMetadata('elementtype')];
   componentTags.forEach((tagName) => {
     if (tagName.trim().length > 0) {
       const tagItem = Object.assign(document.createElement('span'), { className: 'tag' });
