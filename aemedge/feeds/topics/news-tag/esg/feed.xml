@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/esg/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 05 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[From CSRD Reporting to Sustainable Business Outcomes]]></title>
+            <link>https://www.sap.com/news/2024/03/from-csrd-reporting-to-sustainable-business-outcomes</link>
+            <guid>https://www.sap.com/news/2024/03/from-csrd-reporting-to-sustainable-business-outcomes</guid>
+            <pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[By leveraging SAP Sustainability solutions, organizations can move beyond compliance, like CSRD reporting, and operationalize sustainability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/compliance</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/green-ledger</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[Accelerating Sustainability Innovation in the Cloud]]></title>
+            <link>https://www.sap.com/news/2023/10/accelerating-sustainability-innovation-in-the-cloud</link>
+            <guid>https://www.sap.com/news/2023/10/accelerating-sustainability-innovation-in-the-cloud</guid>
+            <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With our cloud-driven innovations, we help customers build the foundation for the evolution of their long-term sustainability strategies.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-footprint-management</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust]]></title>
+            <link>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</link>
+            <guid>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</guid>
+            <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[S.Oleum’s data-driven sustainability efforts will generate revenue and sequester carbon. Read how SAP helps lay the foundation for success.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust" src="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-high-tech-helps-soleum-deliver-esg-metrics-you-can-trust">How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>How can a three-year-old agroforestry company produce trustworthy, <a href="/topics/sustainability">sustainable</a> feedstock – raw materials for finished goods, energy, and more – while reducing the amount of carbon in the atmosphere?</div>
+    </div>
+  </div>
+  <p>“We do that by using the biodiversity of this region, the Cerrado in Brazil,” Francisco de Blanco, S.Oleum co-founder and CEO, told SAP at the company’s headquarters, an innovative farm just outside João Pinheiro.</p>
+  <p>Why the Brazilian outback? This tropical savanna is home to the macaúba, a highly adaptable oil-producing tree with a penchant for scrubbing harmful CO2 from the air. Macaúba fruit yields advanced vegetable oils (AVOs) and high-protein food – and it can be 15 times more productive than soybeans.</p>
+  <p>“We are restoring the landscape that was deforested…Macaúba was native here many, many years ago,” Felipe Morbi, S.Oleum co-founder and Agroforestry VP, said. “Now we are bringing back these trees, and also all the other species, to restore this biodiversity.”</p>
+  <p>S.Oleum seeks to accomplish this scientifically, using macaúba and other crops in an integrated crop-livestock-forest approach, according to Morbi. The goal is to create working farms that rejuvenate degraded, low-yielding soil – and that sequester into the soil more carbon than they generate.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots" src="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/czukYJD_15c">How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="science-based-approach-to-reforesting-the-cerrado">Science-Based Approach to Reforesting the Cerrado</h2>
+  <p>“We are looking for the balance of the system,” Morbi said in a new <a href="https://youtu.be/czukYJD_15c">SAP video</a>. “We will measure the amount of carbon in the soil, the moisture, the biodiversity in terms of the plants we have, and also native animals coming back to the area.”</p>
+  <p>Toward that end, S.Oleum is starting small, but aiming big. Most of the current crop grows on a 700-hectare, or more than 1,700-acre, pilot farm. But S.Oleum intends to plant more than 65 million additional macaúba trees by 2029, which would reforest 180,00 hectares – about 444,800 acres – in Brazil’s southeastern state of Minas Gerais.</p>
+  <p>Over time, macaúba trees also help improve the nutrient and moisture capacity of the soil, making it easier to grow other crops, according to de Blanco. And S.Oleum increases farm productivity by growing carefully chosen crops in between rows of macaúba trees, such as sunflowers, peanuts, and yucas.</p>
+  <p>“If you do it right, agriculture as a system is positive for the environment,” de Blanco said. “Plants that were deforested a few decades ago, they are currently in a poor state because they were depleted by poor management…We believe there are better ways, and that’s what we are pursuing here.”</p>
+  <p>An innovative case in point: macaúba trees increase a biome’s carbon sequestration levels. Removing this greenhouse gas helps more than the planet; S.Oleum also generates revenue by selling carbon credits and building trust via its data.</p>
+  <h2 id="any-little-bit-of-data">Any Little Bit of Data</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="earth-overshoot-day-2023-reversing-the-clock-for-a-sustainable-future">Earth Overshoot Day 2023: Reversing the Clock for a Sustainable Future</h3>
+      </div>
+      <div><strong><a href="/2023/08/earth-overshoot-day-2023-sustainable-future">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Any little thing, any generation of data that R&#x26;D is currently developing, is extremely important,” Mirelle Santos, S.Oleum Agroforestry R&#x26;D manager, said. “We want to deploy technologies as dictated by those urgent needs.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Macaúba thorns" src="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="300" height="225">
+    </picture>
+  </p>
+  <p><em>Photo by Derek Klobucher</em></p>
+  <p>This could include remote sensing via drones that run fruit-recognition software, according to Santos. This would help S.Oleum gather and compile data quickly, without human error – and without sending workers, who must dress in personal protective equipment (PPE) to defend against snakes, mosquitos, the brutal Cerrado sun (even in winter), and dangerous macaúba thorns, which grow even on seedlings.</p>
+  <p>S.Oleum’s intricate business model combines agriculture, forestry, biodiversity, and carbon offsetting – and that leads to a lot of complexity. SAP technology will be an important differentiator for this small enterprise, as well as a foundation for its future growth.</p>
+  <p>“We have a big project to run; so, a lot of people, a lot of machines, a lot of suppliers,” Morbi said. “And we need everything in the right moment, in the right way.”</p>
+  <h2 id="how-to-best-manage-esg-metrics">How to Best Manage ESG Metrics</h2>
+  <p>“SAP is different because it is recognized as one of the most reliable ERP systems on the market, not only based on the technology,” de Blanco said. “Also, because it has well-established and well-defined processes.”</p>
+  <p>Standardizing processes was “extremely important” for S.Oleum both internally and to inspire customer, stakeholder, and regulatory confidence, according to de Blanco. SAP will also enable S.Oleum to run its circular enterprise as well as record, report, and act on its sustainability data.</p>
+  <p>“We have a very integrated system, and a very circular way to produce things,” de Blanco said. “Finding out where waste is generated – and where it’s being used – is very important to ensure the carbon intensity and the circularity of our systems at our entire site…This is where SAP helps us.”</p>
+  <p>SAP S/4HANA, SAP Ariba solutions, SAP Concur solutions, and SAP SuccessFactors solutions will help standardize all of S.Oleum’s processes, which will improve transparency and compliance, according to S.Oleum IT Director Marcio Propp. To help better manage and understand its myriad environmental, social, and governance (ESG) metrics, the company has also begun implementation of <a href="https://www.sap.com/products/sustainability-control-tower.html">SAP Sustainability Control Tower</a> and <a href="https://www.sap.com/products/scm/sustainability-footprint-management.html">SAP Sustainability Footprint Management</a>.</p>
+  <p>“It is super important that we have a very robust core system in place because it will serve as the basis for all our other processes…and practically all niche applications focused on digital agriculture connect with this core with SAP,” Propp said. “SAP is an agribusiness market standard, and it makes perfect sense for S.Oleum to be part of this ecosystem.”</p>
+  <p>That’s a big deal because compliant, transparent ESG metrics are crucial to S.Oleum’s success, according to de Blanco.</p>
+  <h2 id="a-matter-of-trust">A Matter of Trust</h2>
+  <p>“Somewhere around one-third of our revenues come from carbon credits,” de Blanco said. “This is our, let’s say, core business…to convert sustainability into revenues and financial results.”</p>
+  <p>That will require trust. SAP core technologies, such as SAP S/4HANA Cloud and <a href="https://www.sap.com/sustainability.html">SAP Sustainability solutions</a>, will help S.Oleum keep that trust, thanks to a reliable foundation of sustainability data and robust, auditable ESG metrics for reporting.</p>
+  <p>“My advice for companies that are starting their sustainability endeavor: do it as quick as you can,” de Blanco said. “And do it attached to science.”</p>
+  <div class="quote">
+    <div>
+      <div>For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="https://www.sap.com/sustainability.html">www.sap.com/sustainability</a>.</div>
+    </div>
+    <div>
+      <div>Top photo credit S.Oleum</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains]]></title>
+            <link>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</link>
+            <guid>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</guid>
+            <pubDate>Thu, 27 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A pilot of SAP Green Token with a group of SAP customers validated the solution's ability to provide visibility into their supply chains.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains" src="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-traceability-and-transparency-can-foster-sustainability-in-chemical-and-plastics-supply-chains">How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many consumers and companies understand the need to recycle or recover the <a href="https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm#:~:text=22%2F02%2F2022%20%2D%20The,to%20a%20new%20OECD%20report">91% of global plastic waste that is mismanaged, ends up in landfills, oceans, and rivers, or is incinerated</a>. Likewise, new bio- and circular plastic components offer a path to making these vital materials more sustainable by saving fossil resources and greenhouse gas emissions.</div>
+    </div>
+  </div>
+  <p>Today, only <a href="https://www.unep.org/interactives/beat-plastic-pollution/?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU-swAQ57sjFHeL7YUFJGqwykYKF1f9T-GX8Xo09Blzmt84GFFkhQLkaAg10EALw_wcB">2% of single-use plastic products are produced from certified sustainable sources</a> such as bio- and circular components. Bio-components are feedstock that comes from organic, bio-based origins, such as used cooking oil. Circular components are feedstock that is recycled from waste plastic, such as post-consumer recycled waste.</p>
+  <p>A viable and efficient way to use such sustainable feedstock is integrating it into existing, large-scale production systems to avoid the additional cost, energy, and carbon emissions of segregated production facilities. But, when bio- and circular feedstock is blended with conventional fossil feedstock, how can consumers, regulators, and supply chains have confidence in bio- and circular-attributed plastic product claims? And how can these claims be leveraged to encourage informed choices when industries and consumers purchase products that are certified sustainable?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transform-business-and-value-chains-for-a-circular-economy-with-sap-solutions">Transform business and value chains for a circular economy with SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/sustainability/circular-economy.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="digital-tracking-for-total-traceability-and-transparency">Digital Tracking for Total Traceability and Transparency</h2>
+  <p>The <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token</a> solution is a mass balance management solution from SAP that leverages tokenization and blockchain for chain of custody to help create traceability and transparency. In September 2022, SAP Green Token became an official part of the SAP Sustainability portfolio.</p>
+  <p>In a successful pilot, a group of SAP customers – including SKGC, Korea; Elantas, Italy; Westlake Vinnolit, Germany; Berry Global, U.S.; and Unilever R&#x26;D, the Netherlands – reviewed the ability of SAP Green Token to enable traceability and transparency of bio- and circular waste inputs to bio- and circular-attributed products across the chemical and plastics supply chain.</p>
+  <p>SAP Green Token enables organizations to create tokens that serve as digital twins of the bio- and circular chemical feedstock material flows throughout the entire supply chain and capture the unique <a href="/topics/sustainability">sustainability</a> attributes linked to the bio- and circular feedstock origin. As a result, the solution allows organizations to verify their certified sustainable material usage in their processes. What’s more, the green credentials encapsulated in the tokens can be passed from one business partner to another via blockchain as the material moves along the supply chain, helping to ensure that important environmental, social, and governance (ESG) attributes are preserved. Also, an auditable record can be documented to prove the product is sustainable in accordance with recognized product standards, such as ISCC PLUS and REDcert2, and hence better for the environment.</p>
+  <p>“This successful trial of SAP Green Token represents another key milestone on our mission to establish the ‘green line’ alongside the top and bottom lines as key performance dimensions,” says Gunther Rothermel, head of Sustainability Engineering at SAP. “This solution offers our customers an easy way to have complete visibility into the origin and chain of custody of their bio- and circular-based feedstock and allows them to prove to their customers, international standard agencies, and their board that they have a concrete, auditable way of proving their circular performance against their sustainability KPIs.”</p>
+  <p>The blockchain technology helps prevent double counting of claims and create trust; it can make the production of sustainable plastic easier to verify and thus certifiable, which is particularly important in terms of customer demand, regulatory compliance, and the ability to charge a price premium.</p>
+  <h2 id="rapid-adoption-crucial-for-sustainable-plastics">Rapid Adoption Crucial for Sustainable Plastics</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-way-forward-for-consumer-goods-packaging">The Way Forward for Consumer Goods Packaging</h3>
+      </div>
+      <div><strong><a href="/2023/06/way-forward-for-consumer-goods-packaging">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Accelerating the circular economy requires driving demand for circular plastics,” said Diane Marret, sustainability director for Consumer Packaging North America at Berry Global. “Integrating mass balance-accounted materials into SAP Green Token’s centralized, global IT system helps reduce risk in our reporting accuracy, minimize manual efforts through automation, and build confidence and trust in our ability to manage circular materials.”</p>
+  <p>Read more about this pilot in the newly published <a href="https://www.sap.com/documents/2023/06/ca44c9c2-7c7e-0010-bca6-c68f7e60039b.html">SAP Green Token white paper</a>. For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="http://www.sap.com/sustainability">www.sap.com/sustainability</a> and the <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token page on sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Gloria Figaroa is a solution advisor for SAP Green Token.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[The Business Case for Tackling Inequality]]></title>
+            <link>https://www.sap.com/news/2023/07/business-case-tackling-inequality</link>
+            <guid>https://www.sap.com/news/2023/07/business-case-tackling-inequality</guid>
+            <pubDate>Mon, 03 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Inequality is a key lever in achieving climate resilience and adaptation. Read to learn how companies can be part of this critical effort.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-ehs-management</category>
+        </item>
+        <item>
+            <title><![CDATA[msg global: Future-Proofing Sustainability Ambitions with SAP Sustainability Control Tower]]></title>
+            <link>https://www.sap.com/news/2023/06/msg-global-sap-sustainability-control-tower</link>
+            <guid>https://www.sap.com/news/2023/06/msg-global-sap-sustainability-control-tower</guid>
+            <pubDate>Thu, 22 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[msg global implemented SAP Sustainability Control Tower to help enable the data transparency needed to achieve its sustainability goals.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-cloud-for-sustainable-enterprises</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Acknowledging SAP’s ESG Efforts]]></title>
+            <link>https://www.sap.com/news/2023/06/acknowledging-sap-esg-efforts</link>
+            <guid>https://www.sap.com/news/2023/06/acknowledging-sap-esg-efforts</guid>
+            <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As shown through its many positive ESG ratings and rankings, SAP is committed to becoming more sustainable and resilient. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/net-zero</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP Helps Businesses Streamline Their Emissions Declarations]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-ehs-management-streamline-emissions-declarations</link>
+            <guid>https://www.sap.com/news/2023/05/sap-ehs-management-streamline-emissions-declarations</guid>
+            <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP EHS Management helps support teams throughout the process of aggregating, preparing, and analyzing their environmental data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/greenhouse-gas-emissions</category>
+            <category>product/sap-ehs-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Ways One of Europe’s Largest Steel Producers Is Decarbonizing the Industry]]></title>
+            <link>https://www.sap.com/news/2023/05/salzgitter-decarbonizing-steel-industry</link>
+            <guid>https://www.sap.com/news/2023/05/salzgitter-decarbonizing-steel-industry</guid>
+            <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[German steel giant Salzgitter AG relaunched its brand to reflect its strategic vision to become the leader in circular economy solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/manufacturing-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP BTP Use Cases Kick-Start Transformation with Pre-Built Business Content]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-btp-use-cases-art-of-the-possible</link>
+            <guid>https://www.sap.com/news/2023/05/sap-btp-use-cases-art-of-the-possible</guid>
+            <pubDate>Wed, 03 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Actionable use cases show customers what can be done with SAP BTP to help solve specific situations in their enterprise. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[How Can Procurement Leaders Reimagine Business Processes for a Sustainable Future?]]></title>
+            <link>https://www.sap.com/news/2023/05/procurement-reimagine-business-processes-sustainable</link>
+            <guid>https://www.sap.com/news/2023/05/procurement-reimagine-business-processes-sustainable</guid>
+            <pubDate>Tue, 02 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new SAP consumer survey shares insights to inform sustainable procurement strategies. Read to learn about the survey's findings.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esg</category>
+            <category>topic/procurement</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainability Intelligence: The Vital Importance of a Business Technology Platform]]></title>
+            <link>https://www.sap.com/news/2023/02/sustainability-intelligence-business-technology-platform</link>
+            <guid>https://www.sap.com/news/2023/02/sustainability-intelligence-business-technology-platform</guid>
+            <pubDate>Thu, 09 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP partners are applying their attention, knowledge, and ingenuity to address key business sustainability challenges with SAP BTP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable Business Now: Showcasing How Sustainability Works]]></title>
+            <link>https://www.sap.com/news/2023/01/sustainable-business-now-showcasing-how-sustainability-works</link>
+            <guid>https://www.sap.com/news/2023/01/sustainable-business-now-showcasing-how-sustainability-works</guid>
+            <pubDate>Wed, 18 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sustainable Business Now digs into how leading companies are tackling specific sustainability challenges and opportunities. Learn more!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/esg</category>
+            <category>non-sap-event/wef-davos</category>
+        </item>
+        <item>
+            <title><![CDATA[How Do You Know Which Data Is Good for ESG Investing?]]></title>
+            <link>https://www.sap.com/news/2022/12/which-data-is-good-for-esg-investing</link>
+            <guid>https://www.sap.com/news/2022/12/which-data-is-good-for-esg-investing</guid>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Data is the most significant challenge when it comes to environmental, social, and governance (ESG) investing. Find out how to mitigate this.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/climate-change</category>
+            <category>non-sap-event/cop27</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/esg</category>
+        </item>
+        <item>
+            <title><![CDATA[PwC and SAP Launch New Innovation Strategy to Help Organizations Achieve Their ESG and Net-Zero Targets]]></title>
+            <link>https://www.sap.com/news/2022/12/pwc-sap-new-innovation-strategy-esg-net-zero</link>
+            <guid>https://www.sap.com/news/2022/12/pwc-sap-new-innovation-strategy-esg-net-zero</guid>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The PwC and SAP strategy is directed at creating trusted solutions to address key ESG business challenges. Read the news to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/pwc</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-cloud-for-sustainable-enterprises</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Steps to a Sustainable Business Transformation]]></title>
+            <link>https://www.sap.com/news/2022/11/three-steps-sustainable-business-transformation</link>
+            <guid>https://www.sap.com/news/2022/11/three-steps-sustainable-business-transformation</guid>
+            <pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[There are three key steps when it comes to taking on the challenge of sustainable business transformation: record, report, act. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/esg</category>
+        </item>
+        <item>
+            <title><![CDATA[How Organizations Measure the Real Impact of Social Enterprise Programs]]></title>
+            <link>https://www.sap.com/news/2022/11/measure-real-impact-of-social-enterprise-programs</link>
+            <guid>https://www.sap.com/news/2022/11/measure-real-impact-of-social-enterprise-programs</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Social enterprise programs that educate and train disadvantaged people to address challenges are a force for positive change. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/climate-change</category>
+            <category>news-tag/csr</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/entrepreneurship</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/pyxera-global</category>
+            <category>news-tag/sap-csr</category>
+            <category>news-tag/sap-social-sabbatical</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Sustainability Control Tower: Creating the Right Data Foundation for ESG Reporting and Steering]]></title>
+            <link>https://www.sap.com/news/2022/11/data-foundation-for-esg-reporting-steering-sap-sustainability-control-tower</link>
+            <guid>https://www.sap.com/news/2022/11/data-foundation-for-esg-reporting-steering-sap-sustainability-control-tower</guid>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new data foundation for ESG is needed to cope with several sustainability challenges. SAP Sustainability Control Tower can help.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Sustainability Control Tower Update Opens Powerful New Opportunities for Holistic ESG Management]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-sustainability-control-tower-update-holistic-esg</link>
+            <guid>https://www.sap.com/news/2022/11/sap-sustainability-control-tower-update-holistic-esg</guid>
+            <pubDate>Tue, 01 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how the new SAP Sustainability Control Tower update opens up powerful new opportunities for holistic ESG management.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a2b46088d526871fed1f66aaea95c3509adb647c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a2b46088d526871fed1f66aaea95c3509adb647c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a2b46088d526871fed1f66aaea95c3509adb647c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Sustainability Control Tower Update Opens Powerful New Opportunities for Holistic ESG Management" src="./media_1a2b46088d526871fed1f66aaea95c3509adb647c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-sustainability-control-tower-update-opens-powerful-new-opportunities-for-holistic-esg-management">SAP Sustainability Control Tower Update Opens Powerful New Opportunities for Holistic ESG Management</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Corporate environmental, social, and governance (ESG) management has become a catalyst for companies to minimize their carbon footprints, reduce waste, and create fair, safe, and just working environments for employees.</div>
+    </div>
+  </div>
+  <p>Many companies are responding to rapidly increasing regulation in this area and have set ambitious ESG targets. Sustainable business is no longer a question of if or why, but how.</p>
+  <h2 id="esg-management-relies-on-data-transparency">ESG Management Relies on Data Transparency</h2>
+  <p>Current ESG management relies heavily on data averages and estimates. Most companies have not fully integrated their ESG data recording and control into their core financial, procurement, supply chain management, and human resources (HR) systems. This financial and non-financial data is disconnected, stored in spreadsheets, not updated from real-time systems, and not easily shared within the company or with partners such as upstream suppliers or downstream logistics providers.</p>
+  <p>Considering that on average 90% of a business’s carbon footprint lies within its supply chain, the inability to track, manage, and gain insights from live data and embed it into core business processes can cripple even the best intentioned ESG efforts. Worse, it can mislead investors, create compliance issues, and misguide transformation efforts. Unifying ESG data provides significant gains in capabilities and competitive performance.</p>
+  <p>Companies cannot make sustainable business decisions using data they do not have or cannot use.</p>
+  <h2 id="esg-data-moves-from-averages-to-actuals">ESG Data Moves from Averages to Actuals</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="video-transform-into-a-sustainable-enterprise-with-sap-cloud-for-sustainable-enterprises">Video: Transform into a Sustainable Enterprise with SAP Cloud for Sustainable Enterprises</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/assetdetail/2022/10/2e55f8e5-477e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>That is why we developed <strong><a href="https://www.sap.com/products/sustainability-control-tower.html">SAP Sustainability Control Tower</a></strong>, which we introduced in January this year. In a market update available now, the solution offers what companies are looking for today to run more sustainably.</p>
+  <p>First, companies want to record ESG factors based on actual data, not averages. SAP Sustainability Control Tower easily imports cross-enterprise data from SAP systems like SAP S/4HANA, SAP Product Footprint Management, and SAP Environment, Health, and Safety. It also integrates with non-SAP systems using a range of APIs to create audit-ready data. Businesses can integrate and analyze granular ESG data using the established structures from their finance, HR, and operations teams using templated data models and calculations.</p>
+  <p>Second, companies want to report to existing and future standards. SAP Sustainability Control Tower effectively shares and organizes ESG data from across the company. With complete and integrated ESG data, companies can more accurately and readily report their performance to various reporting requirements and frameworks, such as GRI, WEF, TCFD, the EU Taxonomy, and upcoming U.S. SEC requirements. Through APIs, customers can further extend the functionality by bringing in their own metrics as well as industry and regulatory content, and use other applications.</p>
+  <p>And third, companies want to act by planning with actionable insights, forecasts, and concrete targets to achieve measurable impacts. With SAP Sustainability Control Tower, companies can set targets, gain actionable insights into core processes, forecast outcomes, analyze scenarios and trade-offs, report progress, and create role-specific actions to improve sustainability performance.</p>
+  <p>For example, our customer Grupo Energia de Bogota (GEB) aims to transform the way it manages and reports ESG performance.</p>
+  <p>“Grupo Energía Bogota S.A. (GEB), an energy platform group of companies in Latin America with over 125 years of operations in the transmission, generation, and distribution of electric energy as well as the transportation and distribution of natural gas across Colombia, Peru, Brazil, and Guatemala, has chosen SAP Sustainability Control Tower powered by RISE with SAP, SAP Business Technology Platform, and SAP Signavio solutions to manage our sustainability strategy as part of our enterprise transformation goals,” said Jose Fernando Galvis Panqueva, CIO, Grupo de Energia de Bogota. “With this powerful combination of cloud solutions, our company will manage its overall holistic reporting requirements, including ESG KPIs; reduce time and effort in manual data collection and reporting variation with different regulatory requirements and timelines; standardize processes for subsidiaries; and manage and integrate existing SAP and non-SAP data.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_199b7b3684b51d81ce5e507cf81421b9bf01af3d1.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_199b7b3684b51d81ce5e507cf81421b9bf01af3d1.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_199b7b3684b51d81ce5e507cf81421b9bf01af3d1.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Sustainability Control Tower – Holistic Steering and ESG Reporting" src="./media_199b7b3684b51d81ce5e507cf81421b9bf01af3d1.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=Nx5f8jQ2vDg">SAP Sustainability Control Tower – Holistic Steering and ESG Reporting</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="sustainable-business-means-working-together">Sustainable Business Means Working Together</h2>
+  <p>Built on <a href="https://www.sap.com/products/technology-platform.html">SAP Business Technology Platform (SAP BTP)</a>, SAP Sustainability Control Tower provides a flexible, extensible technology architecture that can help create complementary solutions or add custom content. Businesses operating in different regions or industries will have different needs, so this level of flexibility is essential. <a href="/2022/11/sustainability-partnerships-accelerate-business">SAP has the broadest range of global partners</a> to help companies develop specifications and implement customized sustainability solutions.</p>
+  <p>Sustainable business is a goal we will achieve only by working together. It is a collaboration and innovation process for all of us, including SAP. We’re implementing SAP Sustainability Control Tower in our own business to enhance our holistic business management, create insights on the total economic, social, and environmental impact our organization has across a range of measures, and accelerate programs such as our net-zero emissions by 2030 implementation.</p>
+  <p>Transforming a business to run sustainably is a long-term process, but one with urgency. We are seeing customers join us at different stages of their sustainable business transformations. They are pragmatic and recognize that the transition to sustainability is a “marathon with no finish line.” Some are looking to quickly regain compliance with rapidly changing regulations, while others want to optimize their ESG data management and performance. In nearly every case, these are multi-year digital transformations to become intelligent, sustainable enterprises.</p>
+  <p>Since most of the world’s Fortune 2,000 companies run SAP software and almost 90% of the worlds finance and goods flows touch SAP systems, much of the data needed for holistic corporate sustainability management lives in SAP systems for enterprise resource planning (ERP) systems and related applications. Harnessing this data is essential to creating and managing a “green line” with the same rigor as their top and bottom lines.</p>
+  <p>SAP Sustainability Control Tower is vital to creating this holistic capability. It offers a flexible open architecture, powerful integration and scalability, and support from a broad range of partners. The solution works in tandem with the sustainability solutions within <a href="https://www.sap.com/sustainability.html">SAP Cloud for Sustainable Enterprises</a>, which add additional functionalities including carbon emissions management, waste and materials management for circularity, and people sustainability.</p>
+  <div class="quote">
+    <div>
+      <div>For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="https://www.sap.com/sustainability.html">www.sap.com/sustainability</a>.</div>
+    </div>
+    <div>
+      <div>Sebastian Steinhaeuser is chief strategy officer at SAP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Cloud Strategy Focuses on Green Data Centers]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-cloud-strategy-focuses-on-green-data-centers</link>
+            <guid>https://www.sap.com/news/2022/06/sap-cloud-strategy-focuses-on-green-data-centers</guid>
+            <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Customers are increasingly focusing on both the cloud and sustainability, especially combining the two through green data centers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esg</category>
+        </item>
+        <item>
+            <title><![CDATA[Why the Reinvention of the Oil and Gas Industry Begins with Intelligent Enterprise Content Management]]></title>
+            <link>https://www.sap.com/news/2022/05/reinvention-of-oil-and-gas-enterprise-content-management</link>
+            <guid>https://www.sap.com/news/2022/05/reinvention-of-oil-and-gas-enterprise-content-management</guid>
+            <pubDate>Thu, 05 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[More than 65% of oil and gas companies are increasing their investment in enterprise software solutions and cloud migrations. Find out why.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digitalization</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/greenhouse-gas-emissions</category>
+            <category>industry/oil-gas-energy</category>
+            <category>news-tag/opentext</category>
+        </item>
+        <item>
+            <title><![CDATA[BCG and SAP Join Forces to Transform Companies into Sustainable Enterprises]]></title>
+            <link>https://www.sap.com/news/2022/03/bcg-and-sap-transform-sustainable-enterprises</link>
+            <guid>https://www.sap.com/news/2022/03/bcg-and-sap-transform-sustainable-enterprises</guid>
+            <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Together, BCG and SAP will help companies tackle the generational challenge of climate change. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/bcg</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[Disrupting Business Models to Protect Our Most Valuable Asset: The Planet]]></title>
+            <link>https://www.sap.com/news/2022/03/sap-and-bcg-partnership-protect-planet</link>
+            <guid>https://www.sap.com/news/2022/03/sap-and-bcg-partnership-protect-planet</guid>
+            <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP and BCG partnership supports companies in the digital transformation to become intelligent sustainable enterprises.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/bcg</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Corporate Climate Disclosures]]></title>
+            <link>https://www.sap.com/news/2022/01/the-take-corporate-climate-disclosures</link>
+            <guid>https://www.sap.com/news/2022/01/the-take-corporate-climate-disclosures</guid>
+            <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[As the rules around climate disclosures evolve, consolidation around ESG reporting standards is urgently needed. Get SAP’s take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15a8d984f3057fba51e82e2f1a29e4bd2d6e8dfa0.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15a8d984f3057fba51e82e2f1a29e4bd2d6e8dfa0.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15a8d984f3057fba51e82e2f1a29e4bd2d6e8dfa0.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: Corporate Climate Disclosures" src="./media_15a8d984f3057fba51e82e2f1a29e4bd2d6e8dfa0.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-corporate-climate-disclosures">The Take: Corporate Climate Disclosures</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>The U.S. Securities and Exchange Commission (SEC) is working on new rules that will govern what companies disclose about the impact and risks related to climate change and how global warming could affect a company’s future financial performance.</p>
+  <p>Investors are becoming increasingly sensitive to a company’s “green line” – the impact a company’s supply chain activities, operations, products and services have on the environment, particularly CO2 emissions.</p>
+  <p>More than 90% of companies already produce and publish <a href="/topics/sustainability">sustainability</a> reports, according to PwC. But the lack of agreed standards make it difficult for investors, consumers and potential employees to make direct comparisons.</p>
+  <p>In addition, voluntary disclosures are often delayed and are not fully integrated with financial metrics, making it hard to correlate the impact of climate-related initiatives on corporate operations and other variables such as capital expenditures.</p>
+  <p>U.S. regulators in particular are expected to address these issues by introducing mandatory reporting requirements, perhaps as soon as this year.</p>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>“We need more standardized environmental, social, and governance (ESG) reporting frameworks as businesses are increasingly required to disclose their impacts,” said Daniel Schmid, SAP’s Chief Sustainability Officer. “It’s clear that strong performance in these non-financial areas is a competitive advantage and supports long-term business value creation.”<br>For years, companies have reported their ESG or non-financial performance. This kind of reporting is increasingly mandatory for listed companies, while private and smaller companies are increasingly reporting voluntarily.</p>
+  <p>The challenge for all of them, however, is the broad range of reporting frameworks and standards. More than 100 ESG reporting guidelines are in use — often conflicting and redundant — making it virtually impossible for executives, investors and other stakeholders to determine credible progress or compare impacts across different companies and industries. Ninety percent of corporations <a href="https://www.weforum.org/whitepapers/toward-common-metrics-and-consistent-reporting-of-sustainable-value-creation">said that a set of universal ESG metrics</a> and disclosures would be useful for financial markets and the economy.</p>
+  <p>Consolidation around a universal, comparable set of reporting standards is urgently needed.</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong><br>Joellen Perry, Head of Global Public Relations, SAP<br>+1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PST</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[Our Planet Cannot Afford Fragmented Reporting – Can You?]]></title>
+            <link>https://www.sap.com/blogs/2021/12/planet-cannot-afford-fragmented-reporting-sap-sustainability-control-tower</link>
+            <guid>https://www.sap.com/blogs/2021/12/planet-cannot-afford-fragmented-reporting-sap-sustainability-control-tower</guid>
+            <pubDate>Tue, 14 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The days of fragmented reporting must end. Go further with ESG integration and data transparency using SAP Sustainability Control Tower.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fa4922faa7ff4ba0376ab0f75cc3ace85cd4e944.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fa4922faa7ff4ba0376ab0f75cc3ace85cd4e944.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fa4922faa7ff4ba0376ab0f75cc3ace85cd4e944.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Our Planet Cannot Afford Fragmented Reporting – Can You?" src="./media_1fa4922faa7ff4ba0376ab0f75cc3ace85cd4e944.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="our-planet-cannot-afford-fragmented-reporting--can-you">Our Planet Cannot Afford Fragmented Reporting – Can You?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There is consensus. The recent <a href="https://ukcop26.org/">United Nations Climate Change Conference of the Parties</a> (<a href="/topics/cop26">COP26</a>) made at least two things clear: we need to move faster toward our goal to reduce greenhouse gas emissions and a fair transition won’t come cheap. Therefore, no enterprise can afford to waste time or money when it comes to aligning their sustainability ambitions with their actions.</div>
+    </div>
+  </div>
+  <p>Stakeholders are coming to the same conclusions that we have long been convinced of. Even before announcing our Climate 21 initiative two years ago, <a href="/2021/12/sap-leads-sustainability-rankings">we have been seen as front-runners</a> in providing environmental transparency. We have long understood the importance of measuring sustainability progress holistically and connecting financial and pre-financial data. We’ve been doing that since 2012. That’s when we merged our sustainability and annual reports into an integrated report.</p>
+  <p>We know that the days of fragmented reporting must end. And now, many more businesses are seeing how fundamental the issues of transparency on environmental, social, and governance (ESG) impacts are. But many businesses still struggle with a multitude of reporting frameworks and lack of appropriate data. This is what stands in the way of consistent investor-focused disclosures. Our planet cannot afford this. Increasingly, consumers want to know the provenance of their products. They want to be assured that they are making choices based on data they can trust.</p>
+  <p>The sustainability issues we face today are different from all other previous threats and opportunities — in scope, scale, and ultimately in the consequences. Measuring, reporting, and achieving the sustainable business goals we set is imperative to a <a href="https://www.linkedin.com/pulse/building-solutions-future-has-already-arrived-thomas-saueressig/?trackingId=sxlQXAPxQ2CzqFo6obbMjQ%3D%3D">net-zero, nature-positive and socially-inclusive future</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-sustainability-control-tower-a-commanding-business-view">SAP Sustainability Control Tower: A Commanding Business View</h3>
+      </div>
+      <div><strong><a href="/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="businesses-want-to-make-sustainable-decisions-they-need-the-right-intelligence-to-do-it">Businesses Want to Make Sustainable Decisions; They Need the Right Intelligence to Do It</h2>
+  <p>The vast majority of business leaders I connect with want to lead their businesses sustainably. They care about planetary and societal impacts; in fact, their customers, investors, and employees demand it. At SAP, our aspiration goes far beyond enabling businesses to achieve efficiency. We work with customers to reinvent their business processes to achieve sustainable growth. That means enabling businesses to use data in agile ways, across all sustainability dimensions. We provide early alerts that allow companies to be responsive and we give customers the full picture they need to move proactively on their ESG issues.</p>
+  <p>Sustainability data is “pre-financial,” not “non-financial.” That means the search for sustainability levers must go beyond the financials to bring together all sustainability data dimensions, including emissions, material flows, and social impacts. We know this and it is why we have made this possible today. For example, with <a href="https://www.sap.com/products/product-footprint-management.html">SAP Product Footprint Management</a>, companies get visibility into their carbon footprint data throughout a product’s value chain, including for material sourcing and production. And that’s the insight businesses need to make proactive, sustainable supply chain decisions.</p>
+  <h2 id="scale-data-across-business-networks-to-mitigate-planetary-impacts">Scale Data Across Business Networks to Mitigate Planetary Impacts</h2>
+  <p>Individual businesses can only do so much. Emissions do not recognize company boundaries and therefore we must help companies reach beyond their own four walls. We know we must connect our customers into a network of intelligent, sustainable enterprises.</p>
+  <p>Intelligent cross-enterprise scenarios that enable data sharing across value chains will create impact at scale. Business networks enable companies to continuously re-evaluate and re-engage with each other, creating additional value for their customers and our planet.</p>
+  <h2 id="from-voluntary-to-mandatory-esg-standards-are-evolving">From Voluntary to Mandatory, ESG Standards Are Evolving</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="accelerating-a-new-era-of-sustainability-management">Accelerating a New Era of Sustainability Management</h3>
+      </div>
+      <div><strong><a href="/2021/12/sap-sustainability-control-tower-new-era-sustainability-management">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>ESG reporting is maturing; there is no doubt about that. Climate-related disclosures are evolving from voluntary to mandatory. Around 100 countries have explicitly expressed support for starting negotiations for a global agreement on plastics in 2022. The European Union is already developing a social taxonomy based on global social and human rights norms. SAP also recently released an <a href="https://www3.weforum.org/docs/WEF_Joint_Open_Letter_to%20EU_institutions_Future_of_Sustainability_Reporting.pdf">open letter</a> asking the European Union to act on ESG disclosure standards. We want to encourage a global baseline set of standards. We fully support corporate transparency that meets the needs of all stakeholders and improves connectivity between sustainability and financial reporting.</p>
+  <p>And, once again, we at SAP have stepped up to provide the solutions that companies need to execute on these evolving standards and connect their environmental, social, and financial values, holistically. Today, I’m proud to say that we just released <a href="https://www.sap.com/products/sustainability-control-tower.html">SAP Sustainability Control Tower</a>, a solution that enables customers to go further on their ESG integration and data transparency journey. Our solution enables non-financial — or, as I prefer to call them, “pre-financial” — disclosures focused on four aspects: people, planet, prosperity, and principles of governance. This includes measurements around greenhouse gas emissions, pay equality, and board diversity. It enables comparisons between companies, regardless of industry or region.</p>
+  <p>Our two previously released sustainability products, <a href="https://www.sap.com/products/product-footprint-management.html">SAP Product Footprint Management</a> and <a href="https://www.sap.com/products/responsible-design-and-production.html">SAP Responsible Design and Production</a>, feed precisely those new data dimensions, which businesses have so far been lacking, into SAP Sustainability Control Tower.</p>
+  <p>Our new solution has the World Economic Forum’s Stakeholder Capitalism Metrics as its foundation. These metrics are based on existing standards to make ESG disclosures more comparable and consistent. They were developed within the International Business Council, a community of over 120 global CEOs who seek to improve the ways companies measure and demonstrate their contributions toward creating a more sustainable relationship with our planet.</p>
+  <p>And of course, our partners are integral here. Deloitte, EY, and PwC are a few examples of the partners that bring immense knowledge, not only about the framework, but also about the ESG transformations of our customers. Strategic partners like BCG enable our customers to take a holistic perspective toward establishing ESG and climate compliance.</p>
+  <h2 id="time-is-of-the-essence">Time Is of the Essence</h2>
+  <p>Businesses that set out a 10-year agenda for dealing with their sustainability challenges are moving much too slowly. We all need to move quickly to enable the shift to new business models. Time is of the essence.</p>
+  <p>At SAP, we know how important it is that corporate sustainability efforts be measured, reported, steered, and communicated effectively. And I am personally very proud of the <a href="/2021/12/sap-sustainability-control-tower-new-era-sustainability-management">leadership we continue to demonstrate here</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Thomas Saueressig is a member of the Executive Board of SAP SE leading SAP Product Engineering.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/content-type/support-update/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 14 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Maintenance Notification: August 26, 2023]]></title>
+            <link>https://www.sap.com/news/2023/08/maintenance-notification-august-26-2023</link>
+            <guid>https://www.sap.com/news/2023/08/maintenance-notification-august-26-2023</guid>
+            <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: March 11, 2023]]></title>
+            <link>https://www.sap.com/news/2023/02/maintenance-notification-march-11-2023</link>
+            <guid>https://www.sap.com/news/2023/02/maintenance-notification-march-11-2023</guid>
+            <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_192a61e59abfcd7e5a2c0685b26abe37623a05739.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_192a61e59abfcd7e5a2c0685b26abe37623a05739.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_192a61e59abfcd7e5a2c0685b26abe37623a05739.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: March 11, 2023" src="./media_192a61e59abfcd7e5a2c0685b26abe37623a05739.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-march-11-2023">Maintenance Notification: March 11, 2023</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There will be a DC maintenance for Sapserv7 and Sapserv9 (Singapore) servers on Saturday, March 11, 2023, from 1:00-13:30 UTC.</div>
+    </div>
+  </div>
+  <p>During this outage the following services are unavailable:</p>
+  <ul>
+    <li>Problem analysis and / or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Customer messages via SAP Solution Manager</li>
+    <li>Connectivity to SAP’s Support Backbone</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: June 11, 2022]]></title>
+            <link>https://www.sap.com/news/2022/06/maintenance-notification-june-11-2022</link>
+            <guid>https://www.sap.com/news/2022/06/maintenance-notification-june-11-2022</guid>
+            <pubDate>Thu, 02 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: June 5, 2022]]></title>
+            <link>https://www.sap.com/news/2022/05/maintenance-notification-june-5-2022</link>
+            <guid>https://www.sap.com/news/2022/05/maintenance-notification-june-5-2022</guid>
+            <pubDate>Wed, 25 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: February 18, February 26, March 5, 2022]]></title>
+            <link>https://www.sap.com/news/2022/02/maintenance-notification-february-26-and-march-5-2022</link>
+            <guid>https://www.sap.com/news/2022/02/maintenance-notification-february-26-and-march-5-2022</guid>
+            <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_175fcc01102a7f2b2b2c0fcfa1c1c8c05694a4e39.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_175fcc01102a7f2b2b2c0fcfa1c1c8c05694a4e39.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_175fcc01102a7f2b2b2c0fcfa1c1c8c05694a4e39.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: February 18, February 26, March 5, 2022" src="./media_175fcc01102a7f2b2b2c0fcfa1c1c8c05694a4e39.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-february-18-february-26-march-5-2022">Maintenance Notification: February 18, February 26, March 5, 2022</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There will be an outage to sapserv5, sapserv7, sapserv9, and sapserv10 servers during these time frames:</div>
+    </div>
+  </div>
+  <ul>
+    <li>Saturday, February 18, 2022, from 2:30-10:30 UTC; sapserv7 and sapserv9 (Singapore) affected</li>
+    <li>Saturday, February 26, 2022, from 1:00-05:00 UTC; sapserv5 (Tokyo) affected</li>
+    <li>Saturday, March 5, 2022, from 00:00-10:00 UTC; sapserv10 (Shanghai) affected</li>
+  </ul>
+  <p>During these outages, the following services are unavailable:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Customer messages via SAP Solution Manager</li>
+    <li>Connectivity to SAP’s Support Backbone</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: February 12, 2022]]></title>
+            <link>https://www.sap.com/news/2022/01/maintenance-notification-february-12-2022</link>
+            <guid>https://www.sap.com/news/2022/01/maintenance-notification-february-12-2022</guid>
+            <pubDate>Thu, 27 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1380fb84d3f8d29b34071d71fb5af987cb308b000.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1380fb84d3f8d29b34071d71fb5af987cb308b000.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1380fb84d3f8d29b34071d71fb5af987cb308b000.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: February 12, 2022" src="./media_1380fb84d3f8d29b34071d71fb5af987cb308b000.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-february-12-2022">Maintenance Notification: February 12, 2022</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There will be momentary disruptions to Sapserv7/9 server landscape in Singapore DC on Saturday, February 12, 2022, from 15:00-20:00 UTC (00:00-05:00 JST; 23:00-04:00 China time; 16:00-21:00 CET).</div>
+    </div>
+  </div>
+  <p>During this outage, the following services are unavailable:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Customer messages via SAP Solution Manager</li>
+    <li>Connectivity to SAP’s Support Backbone</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: February 5, 2022]]></title>
+            <link>https://www.sap.com/news/2022/01/maintenance-notification-february-5-2022</link>
+            <guid>https://www.sap.com/news/2022/01/maintenance-notification-february-5-2022</guid>
+            <pubDate>Tue, 25 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d3379df3b981d1283bfee9a4ecd0d69c5618a7c8.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d3379df3b981d1283bfee9a4ecd0d69c5618a7c8.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d3379df3b981d1283bfee9a4ecd0d69c5618a7c8.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: February 5, 2022" src="./media_1d3379df3b981d1283bfee9a4ecd0d69c5618a7c8.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-february-5-2022">Maintenance Notification: February 5, 2022</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There will be downtime to Sapserv7/9 server landscape in Singapore DC on Saturday, February 5, 2022, from 02:00-10:00 UTC (11:00-19:00 JST; 10:00-18:00 China time; 3:00-11:00 CET)</div>
+    </div>
+  </div>
+  <p>During this outage, the following services are unavailable:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Customer messages via SAP Solution Manager</li>
+    <li>Connectivity to SAP’s Support Backbone</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: November 30, 2021]]></title>
+            <link>https://www.sap.com/news/2021/11/maintenance-notification-november-30-2021</link>
+            <guid>https://www.sap.com/news/2021/11/maintenance-notification-november-30-2021</guid>
+            <pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_107dc974c82fbc97a2ce5a034e0591edd267ee18c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_107dc974c82fbc97a2ce5a034e0591edd267ee18c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_107dc974c82fbc97a2ce5a034e0591edd267ee18c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: November 30, 2021" src="./media_107dc974c82fbc97a2ce5a034e0591edd267ee18c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-november-30-2021">Maintenance Notification: November 30, 2021</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There will be downtime to Sapserv5 (Japan) servers on Tuesday, November 30, 2021, from 18:00-19:00 JST (17:00-18:00 China Time; 10:00-11:00 CET).</div>
+    </div>
+  </div>
+  <p>During this outage the following services are unavailable:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Customer messages via SAP Solution Manager</li>
+    <li>Connectivity to SAP’s Support Backbone</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: November 20, 2021]]></title>
+            <link>https://www.sap.com/news/2021/11/maintenance-notification-november-20-2021</link>
+            <guid>https://www.sap.com/news/2021/11/maintenance-notification-november-20-2021</guid>
+            <pubDate>Fri, 19 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[0]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Helping Customers Navigating Through Difficult Times: No CPI Increase for Support Contracts in 2022]]></title>
+            <link>https://www.sap.com/news/2021/07/no-cpi-increase-support-contracts-2022</link>
+            <guid>https://www.sap.com/news/2021/07/no-cpi-increase-support-contracts-2022</guid>
+            <pubDate>Wed, 07 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With this newly granted price stability, SAP contributes to the strong partnership with our customers.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15101dcb70dde2e8d2123db59e6010cd668cbe884.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15101dcb70dde2e8d2123db59e6010cd668cbe884.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15101dcb70dde2e8d2123db59e6010cd668cbe884.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Helping Customers Navigating Through Difficult Times: No CPI Increase for Support Contracts in 2022" src="./media_15101dcb70dde2e8d2123db59e6010cd668cbe884.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="helping-customers-navigating-through-difficult-times-no-cpi-increase-for-support-contracts-in-2022">Helping Customers Navigating Through Difficult Times: No CPI Increase for Support Contracts in 2022</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP remains vigilant and focused on supporting our customers, partners, employees, and communities during the <a href="/covid-19">COVID-19</a> pandemic. SAP understands that the current situation might lead to additional unforeseen challenges on customers’ businesses and continues to be committed to help every organization and industry across the world in a fair and equal manner.</div>
+    </div>
+  </div>
+  <p>Therefore, the Executive Board of SAP SE has decided:</p>
+  <ul>
+    <li>For 2022, the company will again not apply the annual increase based on the local Consumer Price Index (CPI)* to SAP Standard Support contracts.</li>
+    <li>The company will also continue to not apply increases for SAP Enterprise Support.</li>
+  </ul>
+  <p>With this newly granted price stability, SAP contributes to the strong partnership with our customers.</p>
+  <p>Please note that this CPI waiver for 2022 is not a waiver of the contractually agreed possible adjustments of the maintenance fee for any potential future increases.</p>
+  <p><em>*CPI is used as a measure of inflation, in some markets, different systems are referred to (e.g. Labor Cost Index in Germany). These figures are published by governments or the authorized authority in each country</em></p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: July 5, 2021]]></title>
+            <link>https://www.sap.com/news/2021/06/maintenance-notification-july-5-2021</link>
+            <guid>https://www.sap.com/news/2021/06/maintenance-notification-july-5-2021</guid>
+            <pubDate>Wed, 30 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[During the interruptions the below service for Sapserv 1 (VPN connections) may be affected:]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1076a23b30619c08d4aff0c9f083f4900e2703962.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1076a23b30619c08d4aff0c9f083f4900e2703962.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1076a23b30619c08d4aff0c9f083f4900e2703962.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: July 5, 2021" src="./media_1076a23b30619c08d4aff0c9f083f4900e2703962.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-july-5-2021">Maintenance Notification: July 5, 2021</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Due to maintenance, there will be multiple interruptions for Sapserv 1 (VPN connections) on Monday, July 5, 2021 from 13:00-16:00 JST (12:00-15:00 China Time; 6:00-9:00 CET).</div>
+    </div>
+  </div>
+  <p>During the interruptions the below service for Sapserv 1 (VPN connections) may be affected:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Service connection reservation</li>
+    <li>Customer messages via SAP Solution Manager</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: May 29, 2021]]></title>
+            <link>https://www.sap.com/news/2021/05/maintenance-notification-may-29-2021</link>
+            <guid>https://www.sap.com/news/2021/05/maintenance-notification-may-29-2021</guid>
+            <pubDate>Fri, 21 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[During the interruptions, the below service for Sapserv 7/9 (VPN connections) may be affected:]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d8d822d1c016da45d30a602d896ffc9b0e229759.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d8d822d1c016da45d30a602d896ffc9b0e229759.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d8d822d1c016da45d30a602d896ffc9b0e229759.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: May 29, 2021" src="./media_1d8d822d1c016da45d30a602d896ffc9b0e229759.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-may-29-2021">Maintenance Notification: May 29, 2021</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Due to maintenance, there will be downtime for Sapserv7/9 (VPN connections) on Saturday, May 29, 2021, from 10:00-00:30 JST (9:00- 23:30 China Time; 2:00-16:30 CET).</div>
+    </div>
+  </div>
+  <p>During the interruptions, the below service for Sapserv 7/9 (VPN connections) may be affected:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Service connection reservation</li>
+    <li>Customer messages via SAP Solution Manager</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification May 9, 2021]]></title>
+            <link>https://www.sap.com/news/2021/05/maintenance-notification-may-9-2021</link>
+            <guid>https://www.sap.com/news/2021/05/maintenance-notification-may-9-2021</guid>
+            <pubDate>Thu, 06 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[During the interruption, the below service for Sapserv 7/9 (VPN connections) may be affected:]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_139beb02ed44aa2c43fb06dc576f1f28beda50514.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_139beb02ed44aa2c43fb06dc576f1f28beda50514.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_139beb02ed44aa2c43fb06dc576f1f28beda50514.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification May 9, 2021" src="./media_139beb02ed44aa2c43fb06dc576f1f28beda50514.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-may-9-2021">Maintenance Notification May 9, 2021</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There will be an outage to Sapserv7 and Sapserv9 (Singapore) servers due to Network Switches firmware upgrade in SNG3 (sindc01-Main DC) on Sunday, May 9, 2021, from 11:00-20:00 JST (10:00-19:00 China Time; 4:00-13:00 CET).</div>
+    </div>
+  </div>
+  <p>During the interruption, the below service for Sapserv 7/9 (VPN connections) may be affected:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Service connection reservation</li>
+    <li>Customer messages via SAP Solution Manager</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+            <category>news-tag/spotlight-news-archive</category>
+        </item>
+        <item>
+            <title><![CDATA[Maintenance Notification: February 27, 2021]]></title>
+            <link>https://www.sap.com/news/2021/02/maintenance-notification-february-27-2021</link>
+            <guid>https://www.sap.com/news/2021/02/maintenance-notification-february-27-2021</guid>
+            <pubDate>Tue, 23 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[During the interruptions, the below service for Sapserv 7/9 (VPN connections) may be affected:]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10674cbe10110bbef689f3307e36f9df5a1297bc4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10674cbe10110bbef689f3307e36f9df5a1297bc4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10674cbe10110bbef689f3307e36f9df5a1297bc4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Maintenance Notification: February 27, 2021" src="./media_10674cbe10110bbef689f3307e36f9df5a1297bc4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="maintenance-notification-february-27-2021">Maintenance Notification: February 27, 2021</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Due to maintenance, there will be downtime for Sapserv7/9 (VPN connections) on Saturday, February 27, 2021, from 11:00-17:30 JST (10:00-16:30 China Time; 3:00-9:30 CET)</div>
+    </div>
+  </div>
+  <p>During the interruptions, the below service for Sapserv 7/9 (VPN connections) may be affected:</p>
+  <ul>
+    <li>Problem analysis and/or service delivery on customer systems</li>
+    <li>Transfer Early Watch Alert data</li>
+    <li>Data exchange via SAP Note Assistant</li>
+    <li>Service connection reservation</li>
+    <li>Customer messages via SAP Solution Manager</li>
+  </ul>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/support-update</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/sap-support-portal-spotlight</category>
+            <category>news-tag/sap-support-portal-spotlight-news</category>
+        </item>
+    </channel>
+</rss>

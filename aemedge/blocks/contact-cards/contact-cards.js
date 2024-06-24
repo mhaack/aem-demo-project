@@ -1,8 +1,10 @@
 import ffetch from '../../scripts/ffetch.js';
-import { readBlockConfig } from '../../scripts/aem.js';
+import { getMetadata, readBlockConfig } from '../../scripts/aem.js';
 import { div } from '../../scripts/dom-builder.js';
 import Button from '../../libs/button/button.js';
-import { getConfig } from '../../scripts/utils.js';
+import {
+  getConfig, addColClasses, LIST_LAYOUT_CONFIG_L2, LIST_LAYOUT_CONFIG, addColClassesForCount,
+} from '../../scripts/utils.js';
 
 function getContactCard(entry) {
   const {
@@ -26,6 +28,8 @@ function getOrigin() {
 }
 
 export default async function decorate(block) {
+  const template = getMetadata('template');
+  const pageSize = 6;
   const siteName = getOrigin();
   const contactsEndpoint = getConfig('contacts');
   const config = readBlockConfig(block);
@@ -33,27 +37,39 @@ export default async function decorate(block) {
   const contactStream = await ffetch(`${siteName}/${contactsEndpoint}.json`, 'sapNewsContacts')
     .filter((entry) => entry.Region === config.region)
     .map((entry) => getContactCard(entry))
-    .paginate(6, 1);
+    .paginate(pageSize, 1);
   const contactList = div({ class: 'contact-cards-list' });
-  contactStream.next().then((cursor) => {
-    cursor.value.results.forEach((contact) => contactList.append(contact));
-    block.append(contactList);
-    if (cursor.value.hasNext) {
-      const viewBtn = new Button(
-        'Show More',
-        'icon-slim-arrow-right',
-        'secondary',
-        'large',
-      ).render();
-      viewBtn.addEventListener('click', () => {
-        contactStream.next().then((nextCursor) => {
-          nextCursor.value.results.forEach((contact) => contactList.append(contact));
-          if (!nextCursor.value.hasNext) {
-            viewBtn.remove();
-          }
-        });
+  const cursor = await contactStream.next();
+  cursor.value.results.forEach((contact) => contactList.append(contact));
+  block.append(contactList);
+
+  if (cursor.value.pages > 1) {
+    const viewBtn = new Button(
+      'Show More',
+      'icon-slim-arrow-right',
+      'secondary',
+      'large',
+    ).render();
+    viewBtn.addEventListener('click', () => {
+      contactStream.next().then((nextCursor) => {
+        nextCursor.value.results.forEach((contact) => contactList.append(contact));
+        if (nextCursor.value.page === nextCursor.value.pages) {
+          viewBtn.remove();
+        }
       });
-      block.append(div({ class: 'expand' }, viewBtn));
+    });
+    block.append(div({ class: 'expand' }, viewBtn));
+
+    if (template === 'hub-l2') {
+      addColClassesForCount(block, pageSize, LIST_LAYOUT_CONFIG_L2);
+    } else {
+      addColClassesForCount(block, pageSize, LIST_LAYOUT_CONFIG);
     }
-  });
+  } else if (cursor.value.pages === 1) {
+    if (template === 'hub-l2') {
+      addColClasses(block, contactList, LIST_LAYOUT_CONFIG_L2);
+    } else {
+      addColClasses(block, contactList, LIST_LAYOUT_CONFIG);
+    }
+  }
 }

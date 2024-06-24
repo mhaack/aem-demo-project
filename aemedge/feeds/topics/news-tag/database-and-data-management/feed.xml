@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/database-and-data-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 28 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Fully Homomorphic Encryption: Data Insights Without Sharing Data]]></title>
+            <link>https://www.sap.com/news/2024/03/fully-homomorphic-encryption-insights-without-sharing-data</link>
+            <guid>https://www.sap.com/news/2024/03/fully-homomorphic-encryption-insights-without-sharing-data</guid>
+            <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Fully homomorphic encryption enables access to information while minimizing privacy risks and thwarting data breaches. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/data-privacy</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem]]></title>
+            <link>https://www.sap.com/news/2024/01/modernize-sap-bw-with-sap-datasphere-open-data-ecosystem</link>
+            <guid>https://www.sap.com/news/2024/01/modernize-sap-bw-with-sap-datasphere-open-data-ecosystem</guid>
+            <pubDate>Mon, 29 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is now offering a limited-time, complimentary SAP BW system assessment to help you optimize your transition to SAP Datasphere.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem" src="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="modernize-sap-business-warehouse-with-sap-datasphere-and-its-open-data-ecosystem">Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many SAP Business Warehouse (SAP BW) customers are seeking to leverage cloud-based solutions but want to ensure that their previous investments are safeguarded. While the benefits of modernizing to the cloud are clear, customers need a flexible path that builds upon their existing technology and talent.</div>
+    </div>
+  </div>
+  <p>SAP Datasphere can offer that path. Its native connectivity to SAP BW means customers can reuse up to 80% of existing SAP BW content, retaining value while adding cloud speed, scale, and interoperability and avoiding costly and unnecessary rework.</p>
+  <p>Delivering meaningful data to every data professional requires a comprehensive cloud data service. With SAP Datasphere, organizations can:</p>
+  <ul>
+    <li>Access authoritative data, accelerating time-to-value by automatically reusing the semantical definitions and associations from SAP applications.</li>
+    <li>Enrich all data projects, harmonizing heterogeneous data into a business semantic model of their diverse data landscapes.</li>
+    <li>Simplify the data landscape, accessing all their data across hybrid and cloud environments no matter where it resides.</li>
+  </ul>
+  <p>SAP has also partnered with an open data ecosystem of leading technology vendors to provide tailored integration between SAP Datasphere and their solutions. The first set of industry-leading data and AI vendors includes Collibra, Confluent, Databricks, DataRobot, and Google Cloud. By closely integrating their data and AI platforms with SAP Datasphere, organizations can access their mission-critical business data across any cloud infrastructure.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transition-to-a-modern-business-data-fabric-at-your-pace-with-sap-datasphere">Transition to a modern business data fabric at your pace with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/migration.html#migration">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="flexible-paths-to-the-cloud">Flexible Paths to the Cloud</h2>
+  <p>Many SAP BW users have always-on projects that depend on SAP BW data and objects, which requires flexibility in modernizing to the cloud.</p>
+  <p>SAP offers flexible paths. Whether you’re moving directly or integrating SAP Datasphere as part of your data landscape to enhance your SAP BW deployment, there’s a strategy:</p>
+  <ul>
+    <li>Gradually transition functionality over time using <a href="https://community.sap.com/topics/datasphere/bw-bridge">SAP Datasphere, SAP BW bridge</a> to reuse and integrate SAP BW objects.</li>
+    <li>Leverage SAP BW data ingestion and staging to accelerate the move or, for SAP Business Suite customers without SAP BW, move directly to SAP Datasphere.</li>
+    <li>In some cases, migrate SAP BW systems to SAP Datasphere for a complete transition.</li>
+    <li>Modernize with a combination of SAP Datasphere and SAP HANA Cloud to benefit from the capabilities of both solutions. SAP Datasphere can provide the foundation for a business data fabric, while SAP HANA Cloud enables the development of intelligent data applications.</li>
+  </ul>
+  <p>The goal is to provide options to fit each customer’s unique environment and timeline. With the right approach, the move to SAP Datasphere can be straightforward while optimizing previous investments.</p>
+  <p>Our experienced SAP partners understand the importance of flexible paths. They work with our customers to outline customized modernization paths that can safeguard their technology and fit their goals.</p>
+  <div class="quote">
+    <div>
+      <div>We are excited to help SAP BW customers experience the power of SAP Datasphere. We’ve already seen multiple customers take this modernization approach and it’s the ideal modernization path to protect the customer’s existing SAP BW investments.</div>
+    </div>
+    <div>
+      <div>Deepu Sasidharan, Vice President, Analytics, Applexus</div>
+    </div>
+  </div>
+  <p>No matter which path a customer takes, they can always progress to SAP Datasphere. Technically, this can be achieved with the support of SAP Datasphere, SAP BW bridge and modernization tools. That’s why customers like <a href="https://www.sap.com/asset/dynamic/2022/7/cd349586-5fc8-4a25-8486-4204460ca03d.html">Nipro</a> chose SAP Datasphere.</p>
+  <div class="quote">
+    <div>
+      <div>SAP Datasphere, SAP BW bridge is a complete game changer. The cloud architecture allows us to simplify our landscape. We are also seeing significant improvements in our performance.</div>
+    </div>
+    <div>
+      <div>Iaroslav Korzh, SAP Technology Manager, Nipro Europe Group Companies</div>
+    </div>
+  </div>
+  <h2 id="new-professional-readiness-assessment">New Professional Readiness Assessment</h2>
+  <p>Whether you’re starting fresh or modernizing an existing system, having a solid plan is key for a successful move to the cloud.</p>
+  <p>SAP is now offering a limited-time, complimentary SAP BW system assessment to help you optimize your transition to SAP Datasphere. Through this assessment, you can gain insight into your SAP BW environment and learn which objects are active and frequently used and whether they can be migrated.</p>
+  <p>This assessment helps deliver a reliable basis for an actionable modernization plan. With the right information, you can modernize on your terms. Get started today by applying for your complimentary <a href="https://www.sap.com/registration/free-assessment-offer-for-bw-customers.html">assessment</a>.</p>
+  <h2 id="get-started">Get Started</h2>
+  <p>Visit our <a href="https://www.sap.com/products/technology-platform/datasphere/migration.html#migration">Web site</a> for the latest modernization tools, including our <a href="https://www.sap.com/documents/2023/10/96cfbee0-8f7e-0010-bca6-c68f7e60039b.html">getting started guide</a>, <a href="https://community.sap.com/t5/technology-blogs-by-sap/watch-the-sap-bw-modernization-webinar-series/ba-p/13699559">technical deep dive webinar series</a>, and <a href="https://www.sap.com/registration/free-assessment-offer-for-bw-customers.html">professional readiness assessment</a>.</p>
+  <p>SAP BW customers moving to SAP Datasphere may also qualify for exclusive incentives. Contact your SAP representative before this limited-time opportunity expires.</p>
+  <div class="footnote">
+    <div>
+      <div>Daniel Yu is senior vice president of Solution Management and Product Marketing for SAP Data and Analytics.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/sap-business-warehouse</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools]]></title>
+            <link>https://www.sap.com/news/2023/12/sap-a-leader-gartner-magic-quadrant-data-integration-tools</link>
+            <guid>https://www.sap.com/news/2023/12/sap-a-leader-gartner-magic-quadrant-data-integration-tools</guid>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the 16th consecutive time, Gartner has recognized SAP as a Leader in its Magic Quadrant for Data Integration Tools.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools" src="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-recognized-as-a-leader-in-2023-gartner-magic-quadrant-for-data-integration-tools">SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>We are proud to announce that Gartner has recognized SAP as a Leader in its 2023 <a href="https://www.gartner.com/reprints/?id=1-2FTDYPZU&#x26;ct=231204&#x26;st=sb">Magic Quadrant for Data Integration Tools</a> for the 16th consecutive time.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="get-an-engaging-hands-on-experience-with-sap-datasphere">Get an engaging, hands-on experience with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">Start now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To achieve true digital transformation, organizations must have seamless access to their mission-critical business data no matter where it resides. Yet with data landscapes distributed among different applications and systems both in the cloud and on premises, organizations spend countless resources extracting, rebuilding, and integrating their data.</p>
+  <p>By leveraging the right data integration tools and strategies, organizations can easily discover, connect, integrate, govern, and orchestrate their data assets. Data integration offerings from SAP deliver trusted, relevant, and timely information to enable customers to simplify their data landscape and unleash the power of business data. Our primary solutions include <a href="https://www.sap.com/products/technology-platform/datasphere.html">SAP Datasphere</a>, <a href="https://www.sap.com/products/cloud-platform/capabilities/integration.html">SAP Data Intelligence</a> Cloud, <a href="https://www.sap.com/products/data-services.html">SAP Data Services</a>, and <a href="https://www.sap.com/products/cloud-platform/capabilities/integration.html">SAP Integration Suite</a>. These offerings are part of <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP).</p>
+  <p>Gartner evaluated 21 vendors and named SAP a Leader based on our “ability to execute” and “completeness of vision.” We believe this recognition serves as acknowledgment of SAP’s continued commitment to providing our customers with world-class data integration tools.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="926" height="1024">
+          </picture>
+        </p>
+        <p><em>This graphic was published by Gartner, Inc. as part of a larger research document and should be evaluated in the context of the entire document. The Gartner document is available upon request from SAP here.</em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="unleash-the-power-of-business-data">Unleash the Power of Business Data</h2>
+  <p>Data integration is necessary for customers to gain intelligent, relevant, and contextual insights for better decision-making. However, without the right data management approach and technology, companies can face an uphill battle in integrating, processing, curating, governing, and augmenting their data.</p>
+  <p>SAP takes a business data fabric approach, which goes beyond a traditional data fabric. A business data fabric is a data management architecture that delivers an integrated, semantically rich data layer over underlying data landscapes to provide users with scalable access to their data without duplication.</p>
+  <p>It eliminates the need to recreate the business context that was lost from extracting and replicating data. This gives users the ability to accelerate their decision-making with trust and confidence, knowing they always have the complete picture of their data regardless of where it is stored or how it was designed.</p>
+  <p>SAP Datasphere — and its open data ecosystem — is the foundation for a business data fabric. It equips any organization to deliver meaningful data to every data consumer — with business context and logic intact. SAP Datasphere helps customers:</p>
+  <ul>
+    <li><strong>Access authoritative data:</strong> Accelerate time-to-value by automatically reusing the semantical definitions and associations from SAP applications</li>
+    <li><strong>Enrich all data projects:</strong> Harmonize heterogeneous data into a business semantic model of diverse data landscape</li>
+    <li><strong>Simplify the data landscape:</strong> Access all data across hybrid and cloud environments no matter where it resides</li>
+  </ul>
+  <p>With a unified experience for data integration, data cataloging, semantic modeling, data warehousing, data federation, and data virtualization, SAP Datasphere enables data professionals to easily distribute authoritative business data — with business context and logic preserved — across the data landscape.</p>
+  <p>Since the launch of SAP Datasphere, we have seen tremendous growth of customers innovating with this technology. For example, Messer CIO David Johnston describes his experience with the solution this way:“The business data fabric architecture enables us to bring SAP and non-SAP data together in the seamless and self-service way we’ve been envisioning. SAP Datasphere provided us with a solution to build a harmonized layer, or business data fabric, across SAP and non-SAP, cloud or on-premise data sources, making the best use of our existing investments in SAP, Microsoft Azure, Salesforce, and Oracle.”</p>
+  <h2 id="next-steps">Next Steps</h2>
+  <p>For over 16 years, data integration tools from SAP have enabled our customers to turn disjoined data assets into actionable business insights at scale. Take the next step and begin your business data fabric journey today:</p>
+  <ul>
+    <li>Visit the <a href="https://www.sap.com/products/technology-platform/datasphere.html">SAP Datasphere page</a></li>
+    <li>Try the free <a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">SAP Datasphere guided experience</a></li>
+    <li>Read the <a href="https://www.gartner.com/reprints/?id=1-2FTDYPZU&#x26;ct=231204&#x26;st=sb">2023 Gartner Magic Quadrant for Data Integration Tools report</a></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Kaiser Larsen is vice president of Data and Analytics at SAP.</div>
+    </div>
+  </div>
+  <p>Gartner, Magic Quadrant for Data Integration Tools, Ehtisham Zaidi, Robert Thanaraj, Sharat Menon, Thornton Craig, Roxane Edjlali, Michele Launi, 4 December 2023<br>Gartner does not endorse any vendor, product or service depicted in its research publications and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s Research &#x26; Advisory organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.<br>GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, Magic Quadrant is a registered trademark of Gartner, Inc. and/or its affiliates and is used herein with permission. All rights reserved.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/data-integration</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[The NHL Continues Evolving with Fast-Paced Innovation and Skillful Teamwork]]></title>
+            <link>https://www.sap.com/news/2023/10/nhl-continues-evolving-sap-preferred-success</link>
+            <guid>https://www.sap.com/news/2023/10/nhl-continues-evolving-sap-preferred-success</guid>
+            <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[By working with SAP Preferred Success, the NHL has a smooth rollout and adoption experience across its club coaching staff. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/nhl</category>
+            <category>news-tag/sap-analytics</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-preferred-success</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[Esports: Team Liquid’s Masters of Data]]></title>
+            <link>https://www.sap.com/news/2023/10/esports-team-liquid-masters-of-data</link>
+            <guid>https://www.sap.com/news/2023/10/esports-team-liquid-masters-of-data</guid>
+            <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP solutions help Team Liquid succeed at the Dota 2 and League of Legends World Championships. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Esports: Team Liquid’s Masters of Data" src="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="esports-team-liquids-masters-of-data">Esports: Team Liquid’s Masters of Data</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>This October and November, gaming fans around the globe can enjoy two of the most prestigious and exciting <a href="/topics/esports">esports</a> tournaments: The League of Legends World Championship – also known as Worlds – in South Korea and The International, the annual Dota 2 World Championship in Seattle, Washington.</div>
+    </div>
+  </div>
+  <p>It’s a special thrill for Team Liquid fans, as both teams – the Dota 2 and the League of Legends squad – have qualified for the championships and will compete for the title. We tapped into our connection with Team Liquid and had the exclusive opportunity to talk to two team members, <strong>Haitham “Haitham” Algbory, head analyst of the League of Legends team</strong>, and <strong>Mathis “Jabbz” Friesel, assistant coach and analyst of the Dota team</strong>, about how they prepare the teams for the world championships and what role SAP technology plays for the teams to perform at their top level.</p>
+  <h2 id="about-sap-and-team-liquid">About SAP and Team Liquid</h2>
+  <p>With SAP being the official innovation partner of Team Liquid, the two companies developed a close partnership of co-innovation focused on Team Liquid’s Dota 2 and League of Legends teams. These two multiplayer online battle arena games are highly complex and data-intensive esports. Together with Team Liquid, SAP is co-developing software to help Team Liquid analyze its performance and apply more precision in areas like match preparation, team and player performance, scouting, and others. Read more <a href="https://www.sap.com/asset/dynamic/2023/07/c4e4d3c9-807e-0010-bca6-c68f7e60039b.html">here</a>.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="400" height="600">
+          </picture>
+        </p>
+        <p><em><a href="https://twitter.com/tbHaitham">Haitham “Haitham” Algbory</a>, head of Analytics &#x26; Data for Team Liquid’s League of Legends Team</em></p>
+      </div>
+    </div>
+  </div>
+  <p>A big part of what SAP brings to Team Liquid is <a href="https://www.sap.com/products/technology-platform/hana.html">SAP HANA Cloud</a>, which helps make data analysis for both League of Legends and Dota a lot easier. The database allows the analysts to focus less on gathering data and more on analyzing it. Both Jabbz and Haitham have been working in this field for a long time, and there are things that they can do now that they never could before, thanks to a tool specifically made for esports data analysis.</p>
+  <p>“I support both the general manager and the coaching staff with scouting new talent,” Haitham said. “The way I do that is by providing periodic solo queue and scrim reports and end-of-season scouting reports. When it comes to the Academy teams of the East Regions, at the same time, we just track the players that are in the scene in general and we see their improvement based off the metrics that we have set in our tools.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="200" height="280">
+          </picture>
+        </p>
+        <p><em><a href="https://twitter.com/jabbz1301">Mathis “Jabbz” Friesel</a>, coach and head analyst for Team Liquid’s Dota 2 Team</em></p>
+      </div>
+    </div>
+  </div>
+  <p>On the League of Legends side, SAP HANA Cloud is Haitham’s primary tool for scouting. But that’s not what Jabbz uses the data for. For Team Liquid Dota, the data is more match-focused.</p>
+  <p>“For us, SAP HANA Cloud has more of a different function,” Jabbz said. “We use it mostly for performance-related things. I think the big advantage we have with the database is that we can actually import any public game that we want. Let’s say things have changed in a recent patch; we can make sure that we’re always up-to-date with how the meta is evolving. We also get to have a replay of every tournament game, so we can pick up all the information we need from any game, especially during live events. This is incredibly helpful. By having this tool available, you can quickly see how teams are adapting, how teams are thinking. I save a lot of time getting that information, whereas before I would have to open up the replays in the game and manually scroll through everything.”</p>
+  <p>According to Haitham, being able to use real gameplay clips to corroborate the data – and vice versa – often helps build a stronger case for whatever argument he’s trying to make. Players are more inclined to believe the data once they have a reference point, which then allows them to gain a deeper understanding of the game.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="team-liquid-mining-rich-esports-data-to-help-players-managers-and-teams-compete-and-win">Team Liquid: Mining rich esports data to help players, managers, and teams compete and win</h3>
+        <p><em><a href="https://www.sap.com/asset/dynamic/2023/07/c4e4d3c9-807e-0010-bca6-c68f7e60039b.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“With SAP, we have a lot of good [visualization] tools,” Haitham said. “We have an entire map tool that will just visualize where the wards are and what the movement is looking like. In addition, we have SAP Analytics Cloud that gives us an opportunity to build charts and graphs for the players. I would use videos or clips that are important to show the opponent’s style, and then I support that with the maps or graphs from the SAP tools.”</p>
+  <p>For some, all these details might sound small, even insignificant. However, any coach or analyst will tell you that at the highest level of esports, the difference lies in the details. When pretty much every player is equal in skill, it’s those minor advantages that matter – which makes data analysis an important factor for success. After all, a close win is still a win. Both Haitham and Jabbz point to “the small margins” as the reasons why they love their roles as analysts.</p>
+  <p>“Personally, I work on my own goal to help others achieve theirs at the same time,” Haitham said. “Seeing how players are able to use science while playing video games, to beat opponents that they may not be able to without that kind of information…it just makes everything worthwhile.”</p>
+  <p>“I agree. I think it’s always very satisfying to give information to the guys that they wouldn’t pick up on,” Jabbz added. “I guess we’re very similar in that regard. I also enjoy helping the guys and that’s what gives me the joy in this job. I don’t necessarily have to see myself in the limelight or at the front of the stage, but I really just like seeing my friends succeed.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Team Liquid: Masters of Data" src="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/5BZYCILkR6o">Team Liquid: Masters of Data</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>Isabelle Schuhmacher is director of Global Sponsorships at SAP.<br>Christian Kreidt is storytelling lead for Global Sponsorships at SAP.</p>
+        <p>Photos courtesy of Team Liquid.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-right-to-your-inbox">Get the latest SAP news delivered right to your inbox</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/esports</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[Data Takes Center Court at the Women’s Tennis Association]]></title>
+            <link>https://www.sap.com/blogs/2023/08/wta-and-sap-data-takes-center-court</link>
+            <guid>https://www.sap.com/blogs/2023/08/wta-and-sap-data-takes-center-court</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The WTA and SAP are joining forces to transform the way data is managed and applied in women’s tennis. Learn more about their partnership.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/wta</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data and Analytics Solutions Earn Multiple 2023 Best Of Awards from TrustRadius]]></title>
+            <link>https://www.sap.com/news/2023/06/sap-data-and-analytics-solutions-trustradius-awards</link>
+            <guid>https://www.sap.com/news/2023/06/sap-data-and-analytics-solutions-trustradius-awards</guid>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP data and analytics solutions have won multiple Best Of awards from TrustRadius, recognizing our excellence in the industry. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data and Analytics Solutions Win Multiple TrustRadius Winter 2023 "Best Of" Awards]]></title>
+            <link>https://www.sap.com/news/2023/02/winter-2023-trustradius-awards-sap-data-and-analytics-solutions</link>
+            <guid>https://www.sap.com/news/2023/02/winter-2023-trustradius-awards-sap-data-and-analytics-solutions</guid>
+            <pubDate>Mon, 06 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP data and analytics solutions have been recognized with multiple Winter 2023 TrustRadius Best Of awards. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-master-data-governance</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in Delivering Translytical Data Platforms in Forrester Wave Evaluation]]></title>
+            <link>https://www.sap.com/news/2022/12/translytical-data-platforms-forrester-wave-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2022/12/translytical-data-platforms-forrester-wave-sap-a-leader</guid>
+            <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a leader in The Forrester Wave: Translytical Data Platforms 2022 for the product vision and planned enhancements criteria.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/forrester</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How Do You Know Which Data Is Good for ESG Investing?]]></title>
+            <link>https://www.sap.com/news/2022/12/which-data-is-good-for-esg-investing</link>
+            <guid>https://www.sap.com/news/2022/12/which-data-is-good-for-esg-investing</guid>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Data is the most significant challenge when it comes to environmental, social, and governance (ESG) investing. Find out how to mitigate this.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/climate-change</category>
+            <category>non-sap-event/cop27</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/esg</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as a Leader in 2022 Gartner® Magic Quadrant™ for Data Quality Solutions]]></title>
+            <link>https://www.sap.com/news/2022/12/gartner-magic-quadrant-for-data-quality-solutions-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2022/12/gartner-magic-quadrant-for-data-quality-solutions-sap-a-leader</guid>
+            <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is once again a Leader in the Gartner Magic Quadrant for Data Quality Solutions, for the 16th consecutive year. Learn why.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17da0610c34e8f257d6b846afd52d20285c5e3f79.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17da0610c34e8f257d6b846afd52d20285c5e3f79.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17da0610c34e8f257d6b846afd52d20285c5e3f79.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Recognized as a Leader in 2022 Gartner® Magic Quadrant™ for Data Quality Solutions" src="./media_17da0610c34e8f257d6b846afd52d20285c5e3f79.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-recognized-as-a-leader-in-2022-gartner-magic-quadrant-for-data-quality-solutions">SAP Recognized as a Leader in 2022 Gartner® Magic Quadrant™ for Data Quality Solutions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="data-management-transform-your-business-by-making-information-ready-for-action">Data Management: Transform your business by making information ready for action</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/technology-platform/data-management.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>We are proud to announce that Gartner has recognized SAP as a Leader in its <a href="https://www.gartner.com/reprints/?id=1-2BKS6A63&#x26;ct=221102&#x26;st=sb">2022 Magic Quadrant for Data Quality Solutions</a> for the 16th consecutive year.</div>
+    </div>
+  </div>
+  <p>Digital transformation has changed the conversation about data; it is a shift from “data is not my problem” to “data is everyone’s opportunity.” Organizations are looking for ways to embrace the opportunity — specifically, by exploiting their data as a strategic enterprise asset.</p>
+  <p>By leveraging the right data quality solutions, organization can create the data excellence and discipline needed to drive better business outcomes, going beyond just fixing data to helping solve the data challenge. Data quality solutions from SAP provide data profiling and monitoring, metadata management, data cataloging, data cleansing and enrichment, and information policy management capabilities. They helps improve collaboration among data workers, business users, and IT while equipping them to understand, analyze, and quantify the impact of data — and data quality — on enterprise processes, analytics, and governance initiatives. Solutions include <a href="https://www.sap.com/products/technology-platform/data-intelligence.html">SAP Data Intelligence Cloud</a>, <a href="https://www.sap.com/products/technology-platform/data-profiling-steward.html">SAP Information Steward</a>, <a href="https://www.sap.com/products/technology-platform/data-services.html">SAP Data Services</a>, and <a href="https://www.sap.com/products/technology-platform/data-quality-management.html">SAP Data Quality Management, microservices for location data</a>.</p>
+  <p>Gartner evaluated 16 vendors and named SAP a Leader based on its “ability to execute” and “completeness of vision.” We believe this recognition serves as acknowledgment of our continued commitment to providing customers with world-class data quality solutions.</p>
+  <p>Data is the lifeline of business today. It is critical to not only manage data quality proactively to eliminate the risk to operations and analytics, but also look for opportunities to create organization-wide data excellence and discipline. The SAP portfolio of data management solutions improves the quality of data across the enterprise, delivering trusted, relevant, and timely information to drive better business outcomes and help customers on their path to becoming intelligent enterprises.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-started-with-sap-btp">Get started with SAP BTP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/technology-platform/trial.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Leading integrated business conglomerate <a href="https://www.sap.com/about/customer-stories/adani.html">Adani</a> set out to build a foundation for centralized data management across its business. The company is using SAP Data Services and SAP Information Steward software for regular data validation and enrichment in order to support a single source of truth based on high-quality data. This outcome gives employees the visibility and insights they need to make in-the-moment decisions confidently and supports better quality data with regular data validation, consistent data definition, and internal quality checks.</p>
+  <p>As part of <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, the <a href="https://www.sap.com/products/technology-platform/data-management.html">SAP portfolio of data management solutions</a> helps customers to optimize analytics, achieve new insights, and improve business outcomes. Users can proactively govern data across the organization to help ensure trustworthy information for smarter decision-making.</p>
+  <p>Data quality solutions from SAP help businesses discover, understand, and manage multifaceted data. Companies can profile, cleanse, enrich, and match customer, product, supplier, material, and other data — driving more accurate, trustworthy, and timely information.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Mike Keilen is global vice president for SAP BTP Integration and Data Management Marketing and Solutions.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as a Leader in 2022 Gartner® Magic Quadrant™ for Data Integration Tools]]></title>
+            <link>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-data-integration-tools-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-data-integration-tools-sap-a-leader</guid>
+            <pubDate>Tue, 23 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a Leader in the 2022 Magic Quadrant for Data Integration Tools for the 15th consecutive year. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/data-integration</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-data-intelligence-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data and Analytics Solutions Earn Multiple 2022 Top Rated and Best of Awards from TrustRadius]]></title>
+            <link>https://www.sap.com/news/2022/08/sap-data-and-analytics-solutions-2022-trustradius-awards</link>
+            <guid>https://www.sap.com/news/2022/08/sap-data-and-analytics-solutions-2022-trustradius-awards</guid>
+            <pubDate>Thu, 11 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP data and analytics solutions have been recognized by TrustRadius with multiple wins in both the Top Rated and Best of Award categories.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-master-data-governance</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[Employee Trust: The Key to a Successful Strategy for Diversity, Equity, Inclusion, and Belonging]]></title>
+            <link>https://www.sap.com/news/2022/08/employee-trust-key-to-deib-data-strategy</link>
+            <guid>https://www.sap.com/news/2022/08/employee-trust-key-to-deib-data-strategy</guid>
+            <pubDate>Thu, 04 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To promote diversity, equity, inclusion, and belonging (DEIB), organizations must build trust with employees to collect truthful data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-privacy</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/future-of-work</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader among Enterprise Data Fabric Solutions by Forrester Research, Inc.]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-leader-enterprise-data-fabric-solutions-forrester-research</link>
+            <guid>https://www.sap.com/news/2022/06/sap-leader-enterprise-data-fabric-solutions-forrester-research</guid>
+            <pubDate>Thu, 30 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Forrester Research, Inc., has recognized SAP in "The Forrester Wave: Enterprise Data Fabric, Q2 2022" report. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/forrester</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-data-intelligence-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Carbon Footprint Strategy: Measure, Share, Reduce]]></title>
+            <link>https://www.sap.com/news/2022/06/carbon-footprint-data-strategy</link>
+            <guid>https://www.sap.com/news/2022/06/carbon-footprint-data-strategy</guid>
+            <pubDate>Tue, 14 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Innovation Center Network is developing an interoperable carbon data network to allow customers to share their carbon emission data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/carbon-footprint</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Receives TrustRadius Awards in Multiple Data Management and Integration Categories]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-receives-trustradius-awards-data-management-and-integration</link>
+            <guid>https://www.sap.com/news/2022/06/sap-receives-trustradius-awards-data-management-and-integration</guid>
+            <pubDate>Tue, 07 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[TrustRadius has recognized SAP solutions for data management and integration with Top-Rated awards. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-integration-suite</category>
+            <category>product/sap-master-data-governance</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Build a Data-Driven Business]]></title>
+            <link>https://www.sap.com/news/2021/11/how-to-build-a-data-driven-business</link>
+            <guid>https://www.sap.com/news/2021/11/how-to-build-a-data-driven-business</guid>
+            <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Businesses can acquire the insight and capabilities they need to stay competitive by becoming a data-driven business. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_117beddf39984ac6cf818de5960d925f140691325.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_117beddf39984ac6cf818de5960d925f140691325.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_117beddf39984ac6cf818de5960d925f140691325.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How to Build a Data-Driven Business" src="./media_117beddf39984ac6cf818de5960d925f140691325.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-to-build-a-data-driven-business">How to Build a Data-Driven Business</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Data cannot fulfill its true purpose within the structure of a traditional enterprise. But when organizational strategies are defined down to the data-strategy level and supported by a data-centric structure, businesses can acquire the insight and capabilities they need to stay competitive.</div>
+    </div>
+  </div>
+  <p>Unfortunately, consequences can run deep when executives place insufficient importance on the value of data at strategic and operational levels. Organizations often become too stagnant to evolve with market dynamics and changing business needs to effectively challenge competitors and gain considerable market share.</p>
+  <p>I have experienced how the long-term success of a company begins with an executive-level commitment to become a data-driven business. By unifying every area of the enterprise with this foundational goal, organizations can collaboratively develop an outcome-driven data strategy that breaks down the enterprise strategy into measurable data key performance indicators (KPIs).</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="keep-your-systems-running-at-peak-performance-with-sap-services-and-support">Keep your systems running at peak performance with SAP Services and Support</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/support.html#services-support-offerings">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="setting-the-foundation-for-a-data-culture">Setting the Foundation for a Data Culture</h2>
+  <p>For many SAP customers, <a href="https://www.sap.com/services/advisory-development/business-transformation.html">SAP Advisory Services</a> is a critical part of their transformation into a truly data-driven business. The opportunity to foster innovation, nurture ideas, and build a resilient infrastructure with supporting processes enables organizations to understand the value of data and apply it to resolve business challenges with less risk and cost.</p>
+  <p>One of the first steps that our advisory experts undertake is to help our customers establish the essential cornerstone of a data-driven business. They outline a framework of critical positions – which we call a “house of roles” – needed to support the data transformation of each organization.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1ae1b28af3c62c4b212f0bca246b431a7c896bfc4.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1ae1b28af3c62c4b212f0bca246b431a7c896bfc4.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1ae1b28af3c62c4b212f0bca246b431a7c896bfc4.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure showing house of roles framework" src="./media_1ae1b28af3c62c4b212f0bca246b431a7c896bfc4.png?width=750&#x26;format=png&#x26;optimize=medium" width="607" height="284">
+    </picture>
+  </p>
+  <p><em>The ‘house of roles’ of a data-driven business</em></p>
+  <p>Each role in the framework has a unique set of responsibilities to help ensure control over the data landscape in terms of quality, consistency, relevance, processing performance, regulatory compliance, security, and authorized access:</p>
+  <ul>
+    <li>The <strong>data owner</strong> (usually a level-one manager) is accountable for a specific subset of data and defines management goals.</li>
+    <li>The <strong>head of master data management (MDM) or chief data officer</strong> oversees data objects within scope, defines objectives for data quality and specifications, and monitors respective service-level agreements and KPIs.</li>
+    <li>The <strong>data steward</strong> defines governance rules and validates maintenance requests for specific data objects to help ensure business intelligence remains high in quality and integrity.</li>
+    <li>The <strong>data architect</strong> designs master data processes and logistics for dependent systems and provides technical support, such as data-quality rules and analysis.</li>
+    <li>The <strong>data requester</strong> (any employee) requests new data or changes in existing data.</li>
+    <li>The <strong>data agent</strong> creates and maintains master data in consultation with a data requester.</li>
+  </ul>
+  <p>When setting up the framework, conflicts may occur within it. For example, the head of MDM may want data agents to be responsible for maintaining a specific set of data, while business organizations may disagree.</p>
+  <p>SAP Advisory Services helps defuse such controversies by leading workshops that allow our customers to transparently define roles with the involvement of all relevant stakeholders. This exercise includes the appointment of employees to each position and a data domain for which they will manage communications and governance requirements.</p>
+  <h2 id="cultivating-pivotal-change">Cultivating Pivotal Change</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-importance-of-being-earnest-with-your-data-models">The Importance of Being Earnest with Your Data Models</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/data-models-importance-of-being-earnest/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Data-driven businesses begin with a clear decision-making process that transforms the company into a culture that values data accountability and governance. Through the “house of rules” framework, SAP Advisory Services can bring customers one giant leap closer to realizing this vision.</p>
+  <p>What does this mean for SAP customers? A world of opportunity. In addition to having a complete foundation for correct, fact-based decision-making, they can open up new revenue streams through data monetization and uncover insights already existing in their business applications.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Jan Hoffmann is a business processes principal consultant at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/sap-advisory-services</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Ways to Make the Most of Your Data]]></title>
+            <link>https://www.sap.com/news/2021/08/five-ways-to-make-the-most-of-your-data</link>
+            <guid>https://www.sap.com/news/2021/08/five-ways-to-make-the-most-of-your-data</guid>
+            <pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Data is no longer a byproduct of business; it is at the heart of digital businesses. Read to learn how to derive value from your data.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b289ee5de80da992711d931f6888981d72b5f6dd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b289ee5de80da992711d931f6888981d72b5f6dd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b289ee5de80da992711d931f6888981d72b5f6dd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Five Ways to Make the Most of Your Data" src="./media_1b289ee5de80da992711d931f6888981d72b5f6dd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="five-ways-to-make-the-most-of-your-data">Five Ways to Make the Most of Your Data</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>It used to be that companies viewed data as a byproduct of their business. Companies knew it had value but didn’t know how to properly utilize it.</div>
+    </div>
+  </div>
+  <p>But as economies have digitized, business leaders now recognize that data is at the heart of digital businesses. It fuels differentiation, strategy, rapid innovation, and other important elements of running a successful business. Moreover, truly data-driven companies tend to generate 8% to 10% more profit and are 23 times more likely to acquire new customers – which fuels significantly higher market valuation – compared to their peers.</p>
+  <p>In the meantime, organizations struggle to unite and access real-time data. Companies generate a lot of data, and while they have good intentions to use that data, it’s stuck in siloes. That makes it hard to leverage data to optimize business processes across the organization. According to research firm, <a href="https://go.forrester.com/blogs/hadoop-is-datas-darling-for-a-reason/">Forrester</a>, “Between 60% and 73% of all data within an enterprise goes unused for analytics.”</p>
+  <p>Below are some suggestions for customers embarking on an enterprise data strategy that will help bring data of all kinds together, allowing companies to turn data into business value.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="register-for-the-sap-data-and-analytics-virtual-forum">Register for the SAP Data and Analytics Virtual Forum</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/sap-data--and-analytics-virtual-forum-accelerating-outcomes/en/home">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="leave-your-data-where-it-is">Leave Your Data Where It Is</h2>
+  <p>Too often companies try to centralize data via a large, top-down project where data from across the organization must be brought into a central repository. The problem with this approach: by the time you bring together data from across different parts of an organization into one place, it’s outdated.</p>
+  <p>People need to shift their mindset to connecting – rather than collecting – data. When you consider your data strategy, prioritize a digital business platform that can automatically pull data from wherever it resides – whether that’s your supply chain or finance teams’ applications or somewhere else. Doing that helps ensure your employees can work with real-time information from across the company.</p>
+  <h2 id="make-sure-you-can-handle-all-data-types">Make Sure You Can Handle All Data Types</h2>
+  <p>Organizations generate all kinds of data – structured, unstructured, relational, and geospatial, to name a few. Too often organizations approach each type of data differently and separately, which replicates the problem of unconnected data that doesn’t come together in one holistic picture.</p>
+  <p>Select a platform with data capabilities that can analyze and knit together these different types into a unified whole. Businesses need a modern platform that treats data as multimodal and multidimensional. By looking at the multiple facets of data, business leaders can make new correlations that help to make better decisions while accurately anticipating future opportunities and threats.</p>
+  <h2 id="harness-data-to-drive-automation">Harness Data to Drive Automation</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-technology-platform-the-platform-for-the-intelligent-enterprise">SAP Business Technology Platform: The platform for the Intelligent Enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The real power of data kicks in when you can use it to drive automation and machine-augmented decision-making. There’s no reason to maintain so many manual processes, like invoice reconciliation or handling basic customer complaints in call centers. If you can harness data appropriately, many types of tasks can be automated – freeing employees to do more strategic work.</p>
+  <p>Automation also augments employees’ on-the-spot decision-making capabilities. For example, a consumer packaged goods company could use data from cameras and machines to help a quality control manager determine whether to approve a certain batch of products. <a href="https://insights.sap.com/what-is-machine-learning/">Machine learning</a> can process varied pieces of information, such as the Internet of Things (IoT) data or bill-of-material changes, faster than a human, providing an extra level of support on the front lines.</p>
+  <p>To advance automation, you need a platform that allows you to embed machine learning and artificial intelligence (AI) into your business applications – and one that can handle varied data sources in real-time.</p>
+  <h2 id="democratize-data">Democratize Data</h2>
+  <p>While data used to be the preserve of elite analysts and data scientists, now it’s a priority to democratize data. Information needs to be easily accessed not just by executives but by people on the front lines so they can use it to make decisions. Enabling self-service access to data also reduces the time IT departments spend on manual work, like running reports.</p>
+  <p>Your platform must make it easy for everyone to access and analyze data, so be sure to evaluate the usability of your data management solutions. Ask questions such as: Is it user-friendly and intuitive? What kind of training is involved to empower people with self-service analytics tools?</p>
+  <h2 id="protect-your-data">Protect Your Data</h2>
+  <p>Related to access is the importance of security. One of the hallmarks of digital business is the ability to seamlessly connect across your organization but also externally to your customers, partners, and suppliers. But this is fraught with risk – especially in this day and age of ransomware.</p>
+  <p>Your data platform must take into account any areas of exposure or vulnerability and build in the right security, access controls, and governance to protect your data – and information shared across your network.</p>
+  <p>Finally, remember how you use your data will make the difference between success and failure in the next decade. It’s the foundation of digital transformation and will help launch new digital business models that go beyond automation – and truly redefine how companies operate and differentiate themselves. <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> provides a platform with database and data management, analytics, and intelligent technology – like embedded AI – solutions that customers around the world are already using.</p>
+  <p>So choose wisely. Because with the right platform, your company will be poised for success now and in the future.</p>
+  <p>To learn more about this topic, attend the “SAP Data and Analytics Forum: Accelerating Outcomes,” which will be held virtually from September 14 to October 7. <a href="https://events.sap.com/sap-data--and-analytics-virtual-forum-accelerating-outcomes/en/home">Find more information and register for the event</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Raghu Ramanathan is chief revenue officer for Platform and Technologies at SAP.</em><br><em><a href="https://www.forbes.com/sites/sap/2021/07/28/five-ways-to-make-the-most-of-your-data/?sh=4d86bd7ddb44">This article also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/automation</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/internet-of-things</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Receives Award by TrustRadius in Multiple Data Management Categories]]></title>
+            <link>https://www.sap.com/news/2021/08/sap-receives-trustradius-awards-for-data-management</link>
+            <guid>https://www.sap.com/news/2021/08/sap-receives-trustradius-awards-for-data-management</guid>
+            <pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has received TrustRadius awards for data management. Learn why SAP Master Data Governance and SAP Data Intelligence were recognized.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_161d736f1f8909faa946ca3de7493588f42e18e60.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_161d736f1f8909faa946ca3de7493588f42e18e60.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_161d736f1f8909faa946ca3de7493588f42e18e60.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Receives Award by TrustRadius in Multiple Data Management Categories" src="./media_161d736f1f8909faa946ca3de7493588f42e18e60.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-receives-award-by-trustradius-in-multiple-data-management-categories">SAP Receives Award by TrustRadius in Multiple Data Management Categories</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-complete-control-of-your-data-landscape-with-an-end-to-end-view-of-all-data-through-one-single-gateway">Get complete control of your data landscape with an end-to-end view of all data through one single gateway</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/database-data-management.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>At SAP, we are committed to enabling our customers to use data and analytics as a differentiator and competitive strength: focused on the strategic role of data in transformation and channeling data to create value.</div>
+    </div>
+  </div>
+  <p><a href="https://insights.sap.com/what-is-data-management/">Data management</a> solutions from SAP power SAP Business Technology Platform (SAP BTP), delivering solutions that drive a data strategy and maximize the value of data. Combined with data management, SAP BTP brings together database, analytics, integration, and extension capabilities with intelligent enterprise applications into one platform for both cloud and hybrid environments.</p>
+  <p>By making data management a priority, customers can take advantage of the volume and variety of data, successfully driving business processes and innovations. A data management approach helps your company drive success in the future.</p>
+  <p>We are honored that customers value our data passion and recently expressed their appreciation through <a href="https://www.trustradius.com/products/sap-data-intelligence/reviews">online reviews</a>, earning SAP the Top Rated award in both the <a href="https://www.trustradius.com/master-data-management-mdm#toprated">Master Data Management category</a> and the <a href="https://www.trustradius.com/data-fabric#toprated">Data Fabric category</a>.</p>
+  <p>“Buyers have many options when it comes to selecting a master data governance solution,” said Megan Headley, vice president of Research at TrustRadius. “SAP Master Data Governance earned a Top Rated award based entirely on feedback from its customers. Reviewers on TrustRadius highlight the product’s high performance, ease of data management, and flexibility of integrations.”</p>
+  <p>“SAP Data Intelligence has earned a Data Fabric Top Rated award based directly on feedback from its customers,” Headley continued. “Reviewers on TrustRadius value SAP Data Intelligence features for transforming data, as well as its ability to accept data from a wide variety of sources.”</p>
+  <p>This acknowledgement is a great honor for multiple reasons. Not only are the Trust Radius Top Rated awards the industry standard for unbiased recognition of the best technology products; more importantly, they are the direct result of our customer engagement. We view this recognition as a testament to our customer-focused data management approach, validating our solution strategy and vision for <a href="https://www.sap.com/products/master-data-governance.html">SAP Master Data Governance</a> and <a href="https://www.sap.com/products/data-intelligence.html">SAP Data Intelligence</a> to deliver next-generation data management capabilities for our customers.</p>
+  <p>TrustRadius helps drive collaboration with our customers and partners by continuously capturing and acting on customer input to drive relevant improvements. Listening to our data-passionate customers and focusing on active listening combined with effective feedback loops to drive solution improvements enables SAP to better serve customer challenges and continuously deliver innovative industry solutions.</p>
+  <div class="quote">
+    <div>
+      <div>Read the reviews on <a href="https://www.trustradius.com/">TrustRadius</a> for both <a href="https://www.trustradius.com/products/sap-master-data-governance/reviews/top-rated-badge">SAP Master Data Governance</a> and <a href="https://www.trustradius.com/products/sap-data-intelligence/reviews">SAP Data Intelligence</a>.</div>
+    </div>
+    <div>
+      <div>Andreas Wesselmann is senior vice president of SAP HANA and Analytics, Data Management at SAP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-master-data-governance</category>
+        </item>
+        <item>
+            <title><![CDATA[Data Warehousing: A Critical Path to Customer Success in the Cloud]]></title>
+            <link>https://www.sap.com/news/2021/06/data-warehousing-cloud-customer-success</link>
+            <guid>https://www.sap.com/news/2021/06/data-warehousing-cloud-customer-success</guid>
+            <pubDate>Mon, 21 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With a cloud-based data warehousing solution like SAP Data Warehouse Cloud, businesses can benefit from unified data in one secured place.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10c39a2350cb1d4b21404c50612a2f10cf7677a55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10c39a2350cb1d4b21404c50612a2f10cf7677a55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10c39a2350cb1d4b21404c50612a2f10cf7677a55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Data Warehousing: A Critical Path to Customer Success in the Cloud" src="./media_10c39a2350cb1d4b21404c50612a2f10cf7677a55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="data-warehousing-a-critical-path-to-customer-success-in-the-cloud">Data Warehousing: A Critical Path to Customer Success in the Cloud</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Increased attention to organizational agility, rapid decision-making, workplace flexibility, and the credibility of enterprise data are catalysts driving businesses to further accelerate their adoption of cloud-based enterprise application systems. But as they encounter massive logjams of fragmented data, the importance of data warehousing is re-emerging.</div>
+    </div>
+  </div>
+  <p>Moving to the cloud can be a cathartic experience for companies. Physical control of on-premise data centers, networks, and machines give way to a landscape of virtual systems and processes running in an environment that no one can touch or see. And while running operations in the cloud reduces costs and drives reliable business continuity, it can also bring unprecedented complexity when data is scattered and siloed.</p>
+  <p>The struggle to integrate data often cascades across the entire business, contradicting the cloud’s promises of flexibility, agility, and speed. Yet, SAP partners – from software and service providers to system integrators and value-added resellers – are helping their customers break through this gridlock with a new cloud-based approach to data warehousing.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="drive-confident-business-decisions-by-bringing-data-and-analytics-together-with-sap-data-warehouse-cloud">Drive confident business decisions by bringing data and analytics together with SAP Data Warehouse Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/canada/products/data-warehouse-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="rethinking-the-relationship-between-integrated-data-and-enterprise-applications">Rethinking the Relationship Between Integrated Data and Enterprise Applications</h2>
+  <p>While the seemingly endless potential of the cloud is empowering, most companies are overwhelmed by the challenge of redefining their data management processes for software-as-a-service (SaaS) applications, cloud databases, and the cloud infrastructure. All too often, micro-silos of data are growing at such an exponential scale that users cannot get the complete view and insights they need to drive the bottom line.</p>
+  <p>It’s no secret that 30% to 80% of our customers’ data reside on SAP solutions. But when a business’s intelligence is spread across a virtual landscape of on-premise applications, databases in the cloud and other sources such as spreadsheets, businesses cannot gain the speed, cost efficiency, operational flexibility, and innovation necessary to stay competitive.</p>
+  <p>So, how can companies centralize data from their enterprise application systems with micro-silos and scattered data locations across the cloud and get the right information to the right user?</p>
+  <p>A common misperception is the role of modern enterprise application systems when managing core data and delivering data intelligence. They’ve historically served as a system of record in which core business processes operate. But as <a href="https://insights.sap.com/digitization-vs-digitalization/">digitalization</a> expands its reach across the enterprise, an array of transaction systems appears, resulting in hundreds and thousands of islands where data now resides. And so, businesses require an end-to-end data management solution that maintains security and trust and delivers contextual logic giving one view of the enterprise, combining all its critical data sources, in the cloud.</p>
+  <h2 id="remodeling-data-warehousing-for-a-cloud-based-world">Remodeling Data Warehousing for a Cloud-Based World</h2>
+  <p>By rethinking the importance of data warehousing during a move to the cloud, businesses can discover new ways to enhance existing data with related content, models, and analytics <strong>–</strong> and manage that intelligence to address unique needs. The advantages of remodeling data warehousing are especially critical when data is constantly changing and business needs are increasingly unique.</p>
+  <p>The <a href="https://www.sap.com/products/data-warehouse-cloud.html">SAP Data Warehouse Cloud</a> solution, a component of <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP), automatically obtains and presents the latest and greatest data available – physically moving terabytes of information back and forth in the background. The solution is based on in-memory computing technology and comes with prebuilt models and templates to help simplify the user experience when setting up data analytics and share insights with greater ease. It establishes a virtual and federated approach to data management and enables users to load information into a data mart.</p>
+  <p>The business layer in SAP Data Warehouse Cloud enables organizations to centrally define business semantics to hide any complexity in the underlying experience from their users. The layer quickly consolidates SAP and third-party data sources on premise and in the cloud and establishes a single source of truth by defining and locating dimension definitions, measures, key performance indicators, and authorizations. Users can also quickly deliver stable and extensible semantic business models by creating complex queries based on SAP and third-party data sets without replication.</p>
+  <p>By modeling in the data warehouse, without the requirement of migrating data first, partners can quickly help customers start using their data in a federated manner. Furthermore, they can leverage the prepopulated building blocks to rapidly innovate custom cloud capabilities to help deliver the outcomes that customers expect and business value that keeps them loyal.</p>
+  <h2 id="evolving-data-experiences-continuously-with-ease-and-speed">Evolving Data Experiences Continuously with Ease and Speed</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-technology-platform-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP Business Technology Platform: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Suppose a utility business wants to standardize its analytics and gain new efficiencies with process automation and the use of a cloud-based data warehouse with a predefined model for metering analytics. By implementing SAP Data Warehouse Cloud, the utility gains a solution that can help find related information, pull it into the data warehouse, and make that model available immediately to, for example, build data visualizations.</p>
+  <p>Another remarkable aspect of this approach is that SAP partners are not starting from scratch to deliver these capabilities. In this case, smart meter data stored in SAP for Utilities solutions at 15- and 30-minute intervals can quickly grow and become challenging to store cost-effectively. However, housing meter data in a <a href="https://insights.sap.com/data-management-glossary/">data lake</a> within SAP Data Warehouse Cloud can help the utility handle data volume growth and keep costs down.</p>
+  <p>To comprehensively analyze and report smart meter data, the utility business can leverage SAP Data Warehouse Cloud and SAP Analytics Cloud. With all data centralized in SAP Data Warehouse, reporting can be extended to enable enterprise-wide detailed assessments.</p>
+  <p>Additionally, meter-to-cash scenarios can be set up quickly with the assistance of prebuilt <a href="http://blogs.sap.com/2020/08/14/sap-data-warehouse-cloud-content#whatdwc">SAP Data Warehouse Cloud content</a>. The content leverages service API extractors and core data services views, along with dashboards from SAP Analytics Cloud and predefined models – enabling a utility company to accelerate time to value.</p>
+  <p>SAP Data Warehouse Cloud also integrates with the current landscape to help create one central data layer. Connections are available for all sources, including SAP S/4HANA, the SAP BW/4HANA solution, and the SAP Business Warehouse application, as well as third-party sources and flat files. The solution can replicate and virtualize data from different sources, working to create one source of truth with complex data models that span multiple data sources.</p>
+  <h2 id="designing-a-cloud-environment-with-the-customer-in-mind">Designing a Cloud Environment with the Customer in Mind</h2>
+  <p>If there was ever a time for partners to play a key role in how people work, it’s now. From connecting various remote data sources to creating specialized analysis, they can empower organizations and their users to work better together by leveraging data across today’s complex virtual and physical workspaces.</p>
+  <p>Finding that critical path to customer success in the cloud has never been easier and faster. With a cloud-based data warehouse solution, such as SAP Data Warehouse Cloud, and technology platforms like SAP BTP, businesses can benefit from partners unifying data models and connections in one secured and governed place. And in return, they can make reliable decisions with confidence, producing the kind of outcomes that keep their brand moving forward for years to come.</p>
+  <p>Learn more about <a href="https://www.sap.com/canada/products/data-warehouse-cloud.html">SAP Data Warehouse Cloud</a> and <a href="https://www.sap.com/products/business-technology-platform.html">SAP BTP</a>, and if you’re a partner or interested in partnership opportunities with SAP, check out SAP PartnerEdge – Build at <a href="https://sap.com/BuildBetter">sap.com/BuildBetter.com</a>. Or, read <a href="/2021/02/unified-technology-platform-partners-enable-customer-success">part one</a> and <a href="/2021/03/part-two-unified-technology-platform-partners-enable-customer-success">part two</a> in the CTO series to learn more about how partners are enabling customer success with a unified technology platform.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Jagdish Sahasrabudhe is CTO of the Global Partner Organization at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[More Than Data: Why Master Data Management Is a Critical Part of Digital Readiness]]></title>
+            <link>https://www.sap.com/news/2021/06/more-than-data-why-master-data-management-is-a-critical-part-of-digital-readiness</link>
+            <guid>https://www.sap.com/news/2021/06/more-than-data-why-master-data-management-is-a-critical-part-of-digital-readiness</guid>
+            <pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Businesses gain a more profound and innovative edge by using MDM to open the door to more accurate, consistent, and predictive analytics.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e404247fbc4fba1e35a30b19b3cdae22b36d3149.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e404247fbc4fba1e35a30b19b3cdae22b36d3149.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1e404247fbc4fba1e35a30b19b3cdae22b36d3149.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="More Than Data: Why Master Data Management Is a Critical Part of Digital Readiness" src="./media_1e404247fbc4fba1e35a30b19b3cdae22b36d3149.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="more-than-data-why-master-data-management-is-a-critical-part-of-digital-readiness">More Than Data: Why Master Data Management Is a Critical Part of Digital Readiness</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Collecting, unifying, managing, integrating, and using data that is clean, consistent, and accessible have been the ultimate goals of master data management (MDM) for most organizations. However, these activities only mark the beginning of a much more revolutionary digital transformation story.</div>
+    </div>
+  </div>
+  <p>As B2B and B2C customers continue to shift more of their commerce transactions toward digital channels and engage in product-based digital services, the volume of master data is set to explode. <a href="https://www.idc.com/getdoc.jsp?containerId=prUS47560321">IDC</a> predicts that the “amount of digital data created over the next five years will be greater than twice the amount of data created since the advent of digital storage.”</p>
+  <p>This growing trend is not only an opportunity, but also a challenge to how master data is managed. While considered a preparatory step for transitioning to the latest technologies, such as <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA</a>, MDM can also lay the foundation for future application development and business innovation.</p>
+  <h2 id="harmonizing-data-to-drive-meaningful-transformation">Harmonizing Data to Drive Meaningful Transformation</h2>
+  <p>While the pressure to innovate groundbreaking, sustainable value for customers and the business increases, many SAP customers are solving unique challenges quickly with less cost and risk. The key to their success is <a href="https://www.sap.com/services/advisory-development/business-transformation.html">SAP Advisory Services</a>, enabling a methodical, forward-thinking MDM approach to fostering innovation, nurturing new ideas, and building strong solutions.</p>
+  <p>By enhancing the quality of master data with the assistance of SAP Advisory Services, our customers are overcoming significant challenges that many companies face in their MDM practices, including the following.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transform-your-company-into-an-intelligent-enterprise-with-sap-advisory-services">Transform your company into an intelligent enterprise with SAP Advisory Services</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/services/advisory-development/business-transformation.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="turning-a-lack-of-commitment-into-a-shared-vision">1. Turning a Lack of Commitment into a Shared Vision</h3>
+  <p>Executive sponsors do not always connect how the benefits of an IT strategy can advance the overall business strategy, especially quick wins in MDM projects. Unfortunately, this level of detachment among decision-makers undermines the efforts of any solution implementation.</p>
+  <p>Consider an organization that purchased a solution license without setting aside the budget to support activities such as creating a master data team, staffing new roles, and setting up governance procedures. By not addressing errors made along the way and reconsidering the need for better MDM support, stakeholders likely feel frustrated once the project goes live because business needs were not met as expected. Worse yet, gaining the executive confidence and commitment needed for future projects become increasingly tricky as stakeholders feel their input will not make a difference in the outcome.</p>
+  <p>SAP Advisory Services help alleviate the situation by framing and solving various business and IT challenges and relaying how improved MDM processes can help. The organization can start its journey toward solution implementation by cultivating the business’s collective genius in an unconventional and creative atmosphere. This is accomplished with pragmatic design thinking workshops, pilots, prototypes, road maps, digital working models, and organizational expertise and enablement.</p>
+  <h3 id="strengthening-communication-between-it-and-the-business">2. Strengthening Communication Between IT and the Business</h3>
+  <p>IT departments typically lead MDM projects. However, users may still refuse to participate in the early discussions because they cannot see how the effort can benefit their business function. Over time, this lack of awareness turns into a lack of desire to fulfill MDM responsibilities, leaving behind any chance of leveraging data as a way to expand the company’s capabilities and help fuel revenue growth.</p>
+  <p>To overcome this bidirectional misunderstanding, SAP Advisory Services help ensure that IT pays attention to the immediate needs of the business users and establishes MDM processes that are efficient and simple to maintain. Furthermore, the convenient delivery of training and timely knowledge allows closer collaboration between IT and the business and a better understanding of how the MDM project impacts the specific organization and overall business.</p>
+  <h3 id="establishing-governance-and-common-data-definitions">3. Establishing Governance and Common Data Definitions</h3>
+  <p>When MDM tools and best practices are not implemented globally, individual organizations often feel compelled to act locally on their terms – limiting the visibility and consistency to make decisions at the corporate level. Meanwhile, users working with the same data sets have little idea of how they are being processed in other departments or whether decisions are based on the same understanding of what the data means.</p>
+  <p>Companies that rely on SAP Advisory Services can employ universal governance of their master data processes at any point of their MDM project. Setting up a change management team and conducting an initial assessment early on improves organizational understanding of the level and magnitude of change needed to ensure MDM capabilities support the digital investment or transformation initiative. Plus, every user can access the proven knowledge, tools, and templates required to adapt and comply with data standards.</p>
+  <h3 id="speeding-business-optimization-and-innovation">4. Speeding Business Optimization and Innovation</h3>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="gain-more-insight-into-data-mangement">Gain more insight into data mangement</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/what-is-data-management/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Although complex in theory, MDM is emerging as a critical part of digital readiness as companies recognize its long-term value and involve the right people to establish the right best practices. Even a standard approach to MDM can drive innovation when the right data strategy is in place and IT objectives are aligned with business strategies.</p>
+  <p>However, with SAP Advisory Services, businesses can gain a more profound edge by using MDM to open the door to more accurate and consistent analytics tools. Data sets become more predictive and multidimensional by combining master data with <a href="https://insights.sap.com/what-is-machine-learning/">machine learning</a>, <a href="https://insights.sap.com/what-is-artificial-intelligence/">artificial intelligence (AI)</a>, graphical visualization, and other intelligent technologies. Different views on similar domains support the demands of various business groups on context-dependent insights.</p>
+  <h2 id="realizing-the-full-potential-of-mdm-advancements">Realizing the Full Potential of MDM Advancements</h2>
+  <p>From the viewpoint of the business, MDM is valuable when cost reduction and closer cross-departmental collaboration are achieved. IT organizations can deliver on those expectations by implementing solutions successfully on the first attempt, harmonizing the way technologies and people work, and avoiding any misunderstandings along the way.</p>
+  <p>SAP Advisory Services enable IT and non-IT organizations to maximize the potential of their digital transformation by creating a master data foundation that drives greater visibility, agility, and focus. The service portfolio establishes emerging technologies and draws on the latest innovations, industry experts, and ecosystem of innovators from SAP. And for the business, this means an opportunity to further optimize operations and initiate change – faster and with less risk.</p>
+  <p><em>Stay in the conversation by following the SAP Services and Support offerings on</em> <em><a href="https://www.youtube.com/user/sapsupportinfo">YouTube</a></em>, <em><a href="https://twitter.com/SAPDigitalSvcs">Twitter</a>,</em> <em><a href="https://www.linkedin.com/groups/138840">LinkedIn</a>, and</em> <em><a href="https://www.facebook.com/SAPDigitalBusinessServices">Facebook</a></em>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Gelena Artemenko is a business enterprise consultant for CPG &#x26; Retail Industries at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/master-data-management</category>
+            <category>news-tag/sap-advisory-services</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data and Analytics Virtual Forum: Get More Value from Your Data]]></title>
+            <link>https://www.sap.com/news/2021/04/sap-data-analytics-virtual-forum-value-data</link>
+            <guid>https://www.sap.com/news/2021/04/sap-data-analytics-virtual-forum-value-data</guid>
+            <pubDate>Tue, 27 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the 2021 SAP Data and Analytics Virtual Forum, learn how companies can power data-driven enterprises and give data purpose.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11983f60d9c3b304869deeb5612306dd77c07531c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11983f60d9c3b304869deeb5612306dd77c07531c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11983f60d9c3b304869deeb5612306dd77c07531c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Data and Analytics Virtual Forum: Get More Value from Your Data" src="./media_11983f60d9c3b304869deeb5612306dd77c07531c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-data-and-analytics-virtual-forum-get-more-value-from-your-data">SAP Data and Analytics Virtual Forum: Get More Value from Your Data</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Next month, join the <strong><a href="https://gateway.on24.com/wcc/eh/2795218/sap-data-and-analytics-virtual-forum?partnerref=NewsSAP">SAP Data and Analytics Virtual Forum</a></strong>, being held May 11, and hear how companies can power data-driven enterprises and give data purpose.</div>
+    </div>
+  </div>
+  <h2 id="from-data-to-value">From Data to Value</h2>
+  <p>Every business knows that data drives success. They’re accustomed to measuring key performance indicators (KPIs), reviewing quantitative trends, and using data to inform decision-making.</p>
+  <p>There’s no disputing the importance of facts and figures, but not everyone realizes the true potential of data. Businesses especially need to recognize not only what data they have, but how to create value with it.</p>
+  <p>We’ve learned that <em>having</em> data isn’t enough. Businesses need to assess what data is and what it means to them before they can use it. That means seeing data not as a by-product of business operations, but as a driver of value propositions.</p>
+  <h2 id="sap-data-and-analytics-virtual-forum">SAP Data and Analytics Virtual Forum</h2>
+  <p>We know that the challenges of today aren’t the same as the challenges of tomorrow. What’s important is being ready for any situation, being agile, and being able to provide your business with the necessary insights.</p>
+  <p>The <a href="https://gateway.on24.com/wcc/eh/2795218/sap-data-and-analytics-virtual-forum?partnerref=NewsSAP">SAP Data and Analytics Virtual Forum</a> is designed to help your organization understand the full value of your data. We will show you how to <a href="https://www.linkedin.com/feed/hashtag/givedatapurpose/">#GiveDataPurpose</a> with our unified data and analytics strategy. Discover how to manage data through its entire lifecycle. From initial storage to real-time analytics, you’ll be able to quickly harness the power of information.</p>
+  <h2 id="learn-from-data-and-analytics-leaders">Learn from Data and Analytics Leaders</h2>
+  <p>During the event, thought leaders, business professionals, and industry experts from data and analytics fields will discuss how to power data and analytics to help you drive stronger insights, intelligence, and impact for your organization.</p>
+  <p>Join Irfan Khan, president of Database and Analytics at SAP, and his guests to:</p>
+  <ul>
+    <li>Learn how SAP’s data and analytics portfolio helps you get a consolidated view across your data – regardless of where it sits – and make real-time decisions.</li>
+    <li>Hear about the experiences of SAP customers, including <a href="https://www.sap.com/documents/2020/10/7c440041-b77d-0010-87a3-c30de2ffd8ff.html">Porsche</a>, Max Planck Institute, and Quadpack.</li>
+    <li>Dive deep into selected data and analytics cloud solutions from SAP.</li>
+    <li>Explore how the new <a href="/topics/rise-with-sap">RISE with SAP</a> offering can accelerate your cloud journey.</li>
+  </ul>
+  <h2 id="learn-from-use-case-scenarios">Learn from Use Case Scenarios</h2>
+  <p>In addition, the event offers the option to explore specific use case scenarios in a choice of breakout sessions:</p>
+  <p><strong>Proactive SAP S/4HANA Decision-Making with Data and Analytics</strong> Finding and implementing a proactive financial strategy to meet today’s on-the-fly reporting demands isn’t easy, but it is possible with the right technology. Discover how complementing your SAP S/4HANA investment with SAP data and analytics cloud solutions can support your finance and planning goals. ​</p>
+  <p><strong>Building a Hybrid Data Strategy with SAP</strong><br>Data is scaling in size and becoming more complicated. At the same time, organizations depend on IT to unlock the full value of this data. As organizations look to chart their journey to the cloud, a hybrid data strategy offers the best of the both worlds – leveraging on-premise investments and gaining new cloud capabilities. Learn how you can maximize the impact of a hybrid data strategy. Geberit, a European leader in sanitary products, will share how it successfully streamlined its data landscape through cloud solutions from SAP. ​</p>
+  <p><strong>SAP HANA Cloud – Brand New Tools Making the Impossible Possible</strong> With the introduction of several new services in SAP HANA Cloud already in 2021, the capability to deliver on new, and sometimes previously impossible, use cases is now a reality. Hear all about the capabilities of the new cloud services for SAP Adaptive Server Enterprise, SAP IQ, SAP Replication Server, and more. You’ll hear directly from users of the new services and explore opportunities for your organization to gain more value from your data. ​</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="register-now-for-the-sap-data-and-analytics-virtual-forum">Register now for the SAP Data and Analytics Virtual Forum</h3>
+      </div>
+      <div><strong><a href="https://gateway.on24.com/wcc/eh/2795218/sap-data-and-analytics-virtual-forum?partnerref=NewsSAP">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="register-for-free-and-reserve-your-place-today-if-you-cannot-make-the-virtual-event-on-may-11-you-will-receive-the-replay-in-your-inbox"><a href="https://gateway.on24.com/wcc/eh/2795218/sap-data-and-analytics-virtual-forum?partnerref=NewsSAP">Register for free</a> and reserve your place today. If you cannot make the virtual event on May 11, you will receive the replay in your inbox.</h3>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+        </item>
+    </channel>
+</rss>

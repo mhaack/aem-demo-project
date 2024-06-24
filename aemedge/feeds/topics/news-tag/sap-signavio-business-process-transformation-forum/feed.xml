@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-signavio-business-process-transformation-forum/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 24 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[BPM: The DNA of Business and Crucial for Innovation]]></title>
+            <link>https://www.sap.com/news/2022/10/process-management-dna-business-crucial-innovation</link>
+            <guid>https://www.sap.com/news/2022/10/process-management-dna-business-crucial-innovation</guid>
+            <pubDate>Mon, 24 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A structured approach to process management provides a foundation for innovation. Learn more from the SAP Signavio BPM Forum.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-signavio-business-process-transformation-forum</category>
+        </item>
+        <item>
+            <title><![CDATA[A Process Mindset Can Change the World]]></title>
+            <link>https://www.sap.com/news/2022/10/process-mindset-change-the-world-sap-signavio</link>
+            <guid>https://www.sap.com/news/2022/10/process-mindset-change-the-world-sap-signavio</guid>
+            <pubDate>Thu, 06 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The value of a process mindset was covered at the recent SAP Signavio Business Process Transformation Forum in Orlando. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-signavio-business-process-transformation-forum</category>
+        </item>
+        <item>
+            <title><![CDATA[Top Reasons to Attend the SAP Signavio Business Process Transformation Forum]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-signavio-business-process-transformation-forum-reasons-to-attend</link>
+            <guid>https://www.sap.com/news/2022/09/sap-signavio-business-process-transformation-forum-reasons-to-attend</guid>
+            <pubDate>Fri, 09 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Attend the SAP Signavio Business Process Transformation Forum and learn why a strategic approach is the foundation for true business agility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/sap-signavio</category>
+            <category>news-tag/sap-signavio-business-process-transformation-forum</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/enterprise-integration/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 31 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Named a Leader in 2023 Gartner® Magic Quadrant™ for Integration Platform as a Service, Worldwide]]></title>
+            <link>https://www.sap.com/news/2023/01/2023-gartner-magic-quadrant-for-ipaas-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2023/01/2023-gartner-magic-quadrant-for-ipaas-sap-a-leader</guid>
+            <pubDate>Tue, 31 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Gartner has recognized SAP as a Leader in the 2023 Magic Quadrant for iPaaS, Worldwide for the third time in a row. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/enterprise-integration</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/integration</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-integration-suite</category>
+        </item>
+    </channel>
+</rss>

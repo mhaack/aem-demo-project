@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-apphaus/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 10 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Meeting Workout: A Game to Improve the Meeting Experience]]></title>
+            <link>https://www.sap.com/news/2024/05/meeting-workout-game-to-improve-meeting-experience</link>
+            <guid>https://www.sap.com/news/2024/05/meeting-workout-game-to-improve-meeting-experience</guid>
+            <pubDate>Fri, 10 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[To address the challenge of unproductive meetings, SAP's Future of Work team and SAP AppHaus created the Meeting Workout board game.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/employee-engagement</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/sap-apphaus</category>
+        </item>
+        <item>
+            <title><![CDATA[HomeMade: Self-Service Home Care Because There Is No Place Like Home]]></title>
+            <link>https://www.sap.com/news/2024/03/homemade-self-service-home-care-sap-btp</link>
+            <guid>https://www.sap.com/news/2024/03/homemade-self-service-home-care-sap-btp</guid>
+            <pubDate>Fri, 08 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[HomeMade, an Australian startup working to empower its customers in the home care sector, used SAP BTP to help scale, grow, and innovate.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="HomeMade: Self-Service Home Care Because There Is No Place Like Home" src="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="homemade-self-service-home-care-because-there-is-no-place-like-home">HomeMade: Self-Service Home Care Because There Is No Place Like Home</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>People over age 65 made up 16% of the Australian population in 2020, and they’re on track to represent more than 22% by 2026. This growing cohort is increasingly forgoing traditional facility care models to remain at home. The Australian government offers financial support to qualifying citizens, who can use those funds to support in-home care.</div>
+    </div>
+  </div>
+  <p>These government funds are typically managed by a traditional provider who establishes a plan within the customer’s budget and assigns caregivers. They offer limited to no choice regarding providers and little transparency on how the funds are being spent. This inefficient and costly approach reduces available funds for actual care with limited and often unfamiliar providers.</p>
+  <p>Enter HomeMade, a startup looking to disrupt the home care sector with a transformative solution that would empower customers to not only stay in their own homes but also to oversee their spending and self-select their providers. With an initial staff of only six, HomeMade set out to create a <a href="/topics/business-technology-platform">technology platform</a> that would deliver efficiency, flexibility, transparency, and ease of use for customers and a scalable model that would grow and evolve with the company.</p>
+  <h2 id="a-rock-solid-technology-foundation-for-a-digitally-native-startup">A Rock-Solid Technology Foundation for a Digitally Native Startup</h2>
+  <p>Technology is at the heart of HomeMade’s business model, so choosing the right technology partner and the right digital platform was essential. “We wanted a solution that would give us that ability to scale rapidly and with confidence knowing that the rails weren’t going to fall off, because to be digitally enabled is what makes us different,” <a href="https://www.linkedin.com/in/laura-westhorpe/?originalSubdomain=au">Laura Westhorpe</a>, HomeMade general manager, said.</p>
+  <p>HomeMade found the perfect partner in Bourne Digital, part of Accenture, which steered the startup to <a href="http://sap.com/btp">SAP Business Technology Platform</a> (SAP BTP). In choosing the platform, HomeMade benefits from a locally hosted, high-performance cloud architecture that can scale across its network. As a React Native open-source Cloud Foundry runtime service, the HomeMade application is intuitive, user-friendly, and easy for the company to maintain and support long term. Add SAP Integration Suite and SAP HANA data storage into the mix and HomeMade emerged with a secure, integrated, and scalable technology foundation to offer efficient care and support to Australia’s at-home care population.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="bring-out-your-best-with-data-and-ai-from-sap-btp">Bring out your best with data and AI from SAP BTP</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="young-company-makes-an-outsize-impact">Young Company Makes an Outsize Impact</h2>
+  <p>In just two years, HomeMade has grown its business to 2,500 customers and reduced new user onboarding time from 14 days to 48 hours. The company has empowered qualifying citizens to manage their budgets and choose their care while saving 14 million Australian dollars and counting.</p>
+  <p>Customers and families rave about the solution’s functionality and ease of use. HomeMade’s team members, who have grown to over 100, can happily focus on the customer instead of the endless paperwork they might find in traditional care management. Service providers appreciate timely payment, and another critical stakeholder – the Australian government – conducted a regulatory compliance audit and found that HomeMade scored 100% across 42 requirements for the Age Care Quality Safety Standards.</p>
+  <p>And this is only the beginning for a new company already making an appreciable impact. “As the needs of HomeMade grow and evolve, the platform will grow and evolve with HomeMade,” <a href="https://www.linkedin.com/in/selimahmed/?originalSubdomain=au">Selim Ahmed</a>, managing director of Bourne Digital, part of Accenture, explained. For example, Ahmed continued, “We leverage AI business services to read documents…and we’re feeling really confident that those AI services will continue to play a part in the future evolution of HomeMade as the company moves more and more towards automation and self-service.”</p>
+  <h2 id="adding-value-through-innovation">Adding Value Through Innovation</h2>
+  <p>An SAP Innovation Award winner in 2023, HomeMade continues to grow and think creatively about how its foundational SAP BTP-based technology can enable it to continue to innovate and add value for customers. “There are endless opportunities,” Westhorpe said, from increasing efficiency to leveraging data to identify falls or other incidents to using large language models to recognize clinical deterioration in users and launch preventative interventions.</p>
+  <p>For other startups looking to build technology solutions that will make a dramatic impact, Westhorpe offered to consider, “You want to build everything and you’ve got all these grand ideas, but what are the biggest things that will add value for customers?” Ahmed adds that resilience, a strong partnership, and hard work are critical: “Adapt, learn, grow together, and accept feedback…To build something innovative, you must be prepared to roll up your sleeves.”</p>
+  <h2 id="the-full-episode">The Full Episode</h2>
+  <p>Special thanks to <a href="https://apphaus.sap.com/">SAP AppHaus</a>, a hub for fostering human-centered innovation, for collaborating on this <a href="https://www.sap.com/programs/btp-better-together-customer-series.html">Better Together: Customer Conversations</a> on SAP Business Technology Platform episode. Learn more about how HomeMade built a better solution for qualifying citizens:</p>
+  <ul>
+    <li><strong>Thought leadership podcast:</strong> Thulium’s CEO <a href="https://www.linkedin.com/in/tamaramccleary/">Tamara McCleary</a> sat down with Westhorpe and Ahmed to discuss the change in caring for older adults, home-based care, and how technology can deliver on a promise dedicated to purpose.</li>
+    <li><strong>Practitioners’ video</strong>: Westhorpe, Ahmed, and I discussed the challenges and opportunities in creating a world-class digital solution for a small but rapidly scaling startup.</li>
+  </ul>
+  <p>Explore more success stories of customers leveraging SAP BTP to help optimize processes for the sake of people and purpose:</p>
+  <ul>
+    <li><strong><a href="https://www.sap.com/asset/dynamic/2023/04/ac38cbd6-6d7e-0010-bca6-c68f7e60039b.html">Colsubsidio</a></strong>: This nonprofit provider of wide-ranging social services chose SAP BTP and SAP HANA Cloud to enable extensive solution integrations, helping deliver better data connectivity and operational efficiency.</li>
+    <li><strong><a href="https://www.sap.com/assetdetail/2023/07/b457bfbe-837e-0010-bca6-c68f7e60039b.html">Heartland Dental</a></strong>: Administratively supporting over 1,700 dental practices, Heartland Dental leverages SAP BTP to help improve the business assistant’s user experience, increase productivity, and reduce turnover.</li>
+  </ul>
+  <p>For the full episode and the on-demand Better Together: Customer Conversations series, visit <a href="https://www.sap.com/programs/btp-better-together-customer-series.html">sap.com/btp</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Timo Elliott is vice president and a global innovation advocate for SAP BTP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Network to Onboard New Partners in North America]]></title>
+            <link>https://www.sap.com/news/2024/03/sap-apphaus-network-new-partners-in-north-america</link>
+            <guid>https://www.sap.com/news/2024/03/sap-apphaus-network-new-partners-in-north-america</guid>
+            <pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP AppHaus Network announced its plans to establish additional partner-driven locations in North America. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[10 Years of SAP AppHaus: Looking Back and Ahead]]></title>
+            <link>https://www.sap.com/news/2023/12/10-years-of-sap-apphaus</link>
+            <guid>https://www.sap.com/news/2023/12/10-years-of-sap-apphaus</guid>
+            <pubDate>Fri, 22 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[After celebrating 10 years, SAP AppHaus received a lot of feedback. Here’s a recap of its innovation with customers and partners.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Experience Drives Change: SAP AppHaus Celebrates 10 Years]]></title>
+            <link>https://www.sap.com/news/2023/11/experience-drives-change-sap-apphaus-celebrates-10-years</link>
+            <guid>https://www.sap.com/news/2023/11/experience-drives-change-sap-apphaus-celebrates-10-years</guid>
+            <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP AppHaus was founded 10 years ago for customer co-innovation projects. SAP's Andreas Hauser reflects on the last decade. Read now.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP BTP Use Cases: Going Deeper, Broader, and Faster]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-btp-use-cases-deeper-broader-faster</link>
+            <guid>https://www.sap.com/news/2023/10/sap-btp-use-cases-deeper-broader-faster</guid>
+            <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP BTP use cases offer various opportunities to help move to the cloud by consuming technology, such as generative AI, faster.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Unipol Digitizes Master Data Management with SAP Business Technology Platform]]></title>
+            <link>https://www.sap.com/news/2023/06/unipol-master-data-management-sap-btp</link>
+            <guid>https://www.sap.com/news/2023/06/unipol-master-data-management-sap-btp</guid>
+            <pubDate>Fri, 23 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Italian company Unipol worked with SAP to establish a consistent and harmonized master data management strategy across all areas.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/master-data-management</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP BTP Use Cases Kick-Start Transformation with Pre-Built Business Content]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-btp-use-cases-art-of-the-possible</link>
+            <guid>https://www.sap.com/news/2023/05/sap-btp-use-cases-art-of-the-possible</guid>
+            <pubDate>Wed, 03 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Actionable use cases show customers what can be done with SAP BTP to help solve specific situations in their enterprise. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Brazilian Food Company Pif Paf Alimentos Goes Live with SAP Build Apps in Only Three Weeks]]></title>
+            <link>https://www.sap.com/news/2023/04/pif-paf-alimentos-goes-live-sap-build-apps</link>
+            <guid>https://www.sap.com/news/2023/04/pif-paf-alimentos-goes-live-sap-build-apps</guid>
+            <pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pif Paf Alimentos built an app for maintenance technicians with SAP Build Apps to fulfill tasks remotely and without Internet connection.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[GC Biopharma: Flexible and Integrated HR Portal Improves User Experience]]></title>
+            <link>https://www.sap.com/news/2023/03/gc-biopharma-hr-portal-improves-user-experience</link>
+            <guid>https://www.sap.com/news/2023/03/gc-biopharma-hr-portal-improves-user-experience</guid>
+            <pubDate>Fri, 03 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pharmaceuticals company GC Biopharma transforms HR with SAP SuccessFactors Work Zone and SAP BTP. Read to learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-successfactors-work-zone</category>
+        </item>
+        <item>
+            <title><![CDATA[Pledge to Flex: Empowerment in the Future of Work]]></title>
+            <link>https://www.sap.com/news/2022/12/pledge-to-flex-empowerment-new-world-of-work</link>
+            <guid>https://www.sap.com/news/2022/12/pledge-to-flex-empowerment-new-world-of-work</guid>
+            <pubDate>Thu, 29 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Success in the new world of work requires a flexible and trust-based working environment. Learn what SAP is doing.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/mental-health-well-being</category>
+            <category>news-tag/pledge-to-flex</category>
+            <category>news-tag/sap-apphaus</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Network: 22 Locations and Counting in 2022]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-apphaus-network-22-locations-and-counting</link>
+            <guid>https://www.sap.com/news/2022/10/sap-apphaus-network-22-locations-and-counting</guid>
+            <pubDate>Fri, 07 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP AppHaus Network welcomes two new partners: Flexso in Belgium and AGILITA in Switzerland. Learn more about the innovation network.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Netze BW: A Digital Companion for Service Technicians]]></title>
+            <link>https://www.sap.com/news/2022/09/netze-bw-digital-companion-for-service-technicians</link>
+            <guid>https://www.sap.com/news/2022/09/netze-bw-digital-companion-for-service-technicians</guid>
+            <pubDate>Mon, 05 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Netze BW and SAP developed an Apple Watch app so service technicians stay connected and safe while in the field. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[Petrobras Launches Safety App to Prevent Incidents in the Workplace]]></title>
+            <link>https://www.sap.com/news/2022/08/petrobras-safety-app-prevent-workplace-incidents</link>
+            <guid>https://www.sap.com/news/2022/08/petrobras-safety-app-prevent-workplace-incidents</guid>
+            <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Petrobras build an app on SAP BTP to record incidents and counteract the risk that gas exploration entails. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/oil-gas-energy</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Network Holds 2022 Meetup]]></title>
+            <link>https://www.sap.com/news/2022/08/sap-apphaus-network-holds-2022-meetup</link>
+            <guid>https://www.sap.com/news/2022/08/sap-apphaus-network-holds-2022-meetup</guid>
+            <pubDate>Fri, 05 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the 2022 SAP AppHaus Network meetup, members shared new ideas and best practices and tested new innovation methods. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Goes Academia]]></title>
+            <link>https://www.sap.com/news/2022/04/sap-apphaus-goes-academia</link>
+            <guid>https://www.sap.com/news/2022/04/sap-apphaus-goes-academia</guid>
+            <pubDate>Thu, 07 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP AppHaus held guest lectures at six German universities to foster mutual learning and share its core innovation values. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>industry/higher-education-research</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+        </item>
+        <item>
+            <title><![CDATA[The Next WoW for Hybrid Teamwork and Collaboration]]></title>
+            <link>https://www.sap.com/news/2022/01/the-next-wow-for-hybrid-teamwork-and-collaboration</link>
+            <guid>https://www.sap.com/news/2022/01/the-next-wow-for-hybrid-teamwork-and-collaboration</guid>
+            <pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP AppHaus continues to innovate with customers by adapting to hybrid setups while shaping the next "WoW," way of working. Read more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_189d86016ff8b2dc31e06804628fcd3b892dbf7a8.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_189d86016ff8b2dc31e06804628fcd3b892dbf7a8.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_189d86016ff8b2dc31e06804628fcd3b892dbf7a8.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Next WoW for Hybrid Teamwork and Collaboration" src="./media_189d86016ff8b2dc31e06804628fcd3b892dbf7a8.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-next-wow-for-hybrid-teamwork-and-collaboration">The Next WoW for Hybrid Teamwork and Collaboration</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Innovation takes a diverse team of people with different expertise and skill sets working together in proximity to generate the “aha moment.” With the restrictions caused by the <a href="/covid-19">pandemic</a>, the SAP AppHaus team developed a way to best maintain collaboration remotely, on-site, and in a mixed or hybrid working model.</div>
+    </div>
+  </div>
+  <p>This journey of ups and downs from adapting to optimizing the setup has been published in “<a href="https://apphaus.sap.com/resource/next-wow">The Next WoW (Way of Working)”, a free and accessible whitepaper</a>. It describes how continuous co-innovation and collaboration with customers has been possible in changing work environments and how other companies and innovators across the globe can learn and benefit from the experience.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-the-platform-for-the-intelligent-enterprise">SAP BTP: The platform for the Intelligent Enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="the-next-wow-keeping-up-business-in-changing-environments">The Next WoW: Keeping Up Business in Changing Environments</h2>
+  <p>When the pandemic disrupted the way we collaborated at the beginning of 2020, it wasn’t an option for the SAP AppHaus team to stop innovating with customers and partners. Instead, they took the opportunity to grow and learn from the situation. <a href="https://apphaus.sap.com/approach">SAP’s human-centered approach to innovation</a>, which combines design thinking and architecture thinking, underlines the importance of collaboration among different stakeholders and end users. To enable efficient virtual meetings, SAP AppHaus launched the <a href="https://apphaus.sap.com/resource/innovation-toolkit-for-virtual-collaboration-bundle">Innovation Culture Toolkit for virtual collaboration</a> last year. But this was just the beginning.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1a5add4bf5973b728b564781241e535bc99244442.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1a5add4bf5973b728b564781241e535bc99244442.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1a5add4bf5973b728b564781241e535bc99244442.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1a5add4bf5973b728b564781241e535bc99244442.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="371">
+    </picture>
+  </p>
+  <p>The SAP AppHaus Network, with its 21 locations spread across the globe, stands for sustainable co-innovation with customers. With a user-centered approach and <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> as the solid foundation for custom-tailored innovation in the Intelligent Enterprise, the network brings innovation to life. Previously, the process of innovating has been reliant on physical meetings and workshops with all stakeholders attending, but things have changed during the pandemic. The requirements frequently switched from lockdown scenarios to office re-openings, back to social distancing regulations based on the current health situation – all of which needed spontaneous adaptation.</p>
+  <p><a href="https://vimeo.com/656182286">The Next Way of Working | Experience a full day of hybrid work across the global SAP AppHaus team</a> from <a href="https://vimeo.com/apphaus">SAP AppHaus</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  <p>In response, a new hybrid setup had to replace on-site meetings, as reflected in “<a href="https://apphaus.sap.com/resource/next-wow">The Next WoW</a>.” The ongoing collaboration adjustments allowed for numerous successful innovation projects with several companies. Among them are: <a href="https://apphaus.sap.com/work/project/iren-innovates-invoice-processing-with-sap-business-technology-platform">Iren</a> in Italy, <a href="https://apphaus.sap.com/work/project/border-states-inc-order-management-cockpit-on-sap-business-technology-platform">Border States Electric</a> in the U.S., <a href="https://apphaus.sap.com/work/project/improved-market-share-forecast-accuracy-using-intuitive-analytics-tool">Ottogi</a> in South Korea, <a href="https://apphaus.sap.com/work/project/sunrice-grower-and-admin-portal-with-sap-btp">SunRice</a> in Australia, <a href="https://apphaus.sap.com/work/project/fostering-innovation-sustainability-with-sap-business-technology-platform">Royal Greenland A/S</a> in Greenland, <a href="https://apphaus.sap.com/work/project/border-states-inc-order-management-cockpit-on-sap-business-technology-platform">and many more</a>. Some of these were conducted by SAP AppHaus and some by SAP AppHaus Network partners like <a href="https://apphaus.sap.com/location/melbourne">Bourne Digital</a> and <a href="https://apphaus.sap.com/location/aarhus">Trifork</a>.</p>
+  <p>No doubt, the successful completion of these projects was only possible because the new hybrid collaboration models were thoroughly planned. Applying these principles of collaboration enabled SAP AppHaus, its sister team SAP Platform Adoption and Advisory, and other SAP teams to seamlessly support key SAP initiatives such as SAP Discovery Center with its actionable use cases (58 use cases created so far), RISE with SAP, the Intelligent Enterprise, and SAP Business Technology Platform.</p>
+  <h2 id="sap-discovery-center--a-self-service-for-customers">SAP Discovery Center – a Self-Service for Customers</h2>
+  <p>Recently, SAP launched a new self-service for customers called <a href="https://discovery-center.cloud.sap/">SAP Discovery Center</a>. With this low-threshold portal, SAP can help customers quickly adopt SAP Business Technology Platform and turn data into real business value. Due to the disruption of many highly relevant business processes during the pandemic, there is an increased need for flexible solutions that can be integrated and scaled easily.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1cc56d01abfc68c04c536b14b973acf8f60126ef2.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1cc56d01abfc68c04c536b14b973acf8f60126ef2.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1cc56d01abfc68c04c536b14b973acf8f60126ef2.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Screenshot of SAP Discovery Center" src="./media_1cc56d01abfc68c04c536b14b973acf8f60126ef2.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="518">
+    </picture>
+  </p>
+  <p><em>Visit SAP Discovery Center and start your journey.</em></p>
+  <p>To jump-start the innovation journey, visitors can browse for “missions” that represent different innovative business scenarios. Missions include free-of-charge best practices and step-by-step guidance for implementing business use cases, with well-established support provided by the community and mission experts. With their long-term relationships to customers across the globe, the SAP AppHaus team feeds appropriate innovation scenarios and use cases into this new channel. The knowledge gained, such as technical realization, is turned into a mission and made available for all SAP customers. Examples of these <a href="https://discovery-center.cloud.sap/search/UCF*">actionable use cases</a> include the invoice management process of Iren (<a href="https://discovery-center.cloud.sap/missiondetail/3392/3431/">Mission: “Gaining transparency into supplier invoice and purchase order processing”</a>) or the chatbot functionality of <a href="https://apphaus.sap.com/work/project/sap-conversational-ai-helps-fight-pandemic-at-parkland-hospital">Parkland</a> (<a href="https://discovery-center.cloud.sap/missiondetail/3327/3369/">Mission: “Improve online patient experience using a COVID-19 chatbot”</a>).</p>
+  <p>Another step towards free accessible knowledge sharing and exchange is the <a href="https://www.sap.com/products/business-technology-platform/trial.html">free tier model for SAP BTP</a>, which allows a free-of-cost version for customers to try out before buying. <a href="https://discovery-center.cloud.sap/search/Free-tier">Many use cases are available</a> to try out and test.</p>
+  <h2 id="rise-with-sap-the-flexibility-needed-in-changing-circumstances">RISE with SAP: The Flexibility Needed in Changing Circumstances</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-the-next-wow-whitepaper">Read "The Next WoW" whitepaper</h3>
+      </div>
+      <div><strong><a href="https://apphaus.sap.com/resource/next-wow">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Another important SAP offering is <a href="https://www.sap.com/products/rise.html">RISE with SAP</a>, which offers holistic, on-your-terms, and on-your-timeline transformation support for customers’ journey to the Intelligent Enterprise. This concierge service can provide a tailored path for every customer without any high upfront investments. The offering can remove complexity through a simplified engagement and guided journey into the cloud.</p>
+  <p>By focusing on SAP Business Technology Platform projects, SAP AppHaus, together with the technical experts of the SAP Platform Adoption &#x26; Advisory team, accompany customers’ business transformations. Past projects have shown that this journey can be mastered in a hybrid or remote collaboration setup. The <a href="https://discovery-center.cloud.sap/missionssearch/risewithsap/">missions of several RISE with SAP projects</a> can also be found in SAP Discovery Center.</p>
+  <h2 id="learning-never-stops">Learning Never Stops</h2>
+  <p>The approach of continuous knowledge sharing also includes the exchange of experiences with other innovation teams, regionally and globally. The event series “SAP AppHaus Meets SAP Labs Munich,” which took place this year, featured SAP AppHaus colleagues reporting about best practices for storyboarding, leading innovation teams, SAP’s human-centered approach to innovation, and the Innovation Culture Toolkit. Check out <a href="https://video.sap.com/channel/SAP%2BAppHaus%2Bmeets%2BSAP%2BLabs%2BMunich/230426393">recordings</a> from this event.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1dc18a183a0cf9ba03445530da53921612b1f048d.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1dc18a183a0cf9ba03445530da53921612b1f048d.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1dc18a183a0cf9ba03445530da53921612b1f048d.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1dc18a183a0cf9ba03445530da53921612b1f048d.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="576">
+    </picture>
+  </p>
+  <p>Regarding the <a href="https://apphaus.sap.com/toolkit">Innovation Culture Toolkit</a>, the free collection of methods and best practices got a revamp this year and now it’s even easier to apply and benefit from its resources. With that, a few new assets have been published, like the <a href="https://apphaus.sap.com/toolkit/methods#architecture-thinking">The Lean Architecture Toolkit</a>. The newest kid on the block is the updated material for <a href="https://apphaus.sap.com/resource/spectrum">Spectrum</a> to support the setup of innovation teams within an organization. It is free, downloadable, and printable to make it possible to run Spectrum workshops on your own.</p>
+  <h2 id="straight-into-2022">Straight into 2022</h2>
+  <p>“The Next WoW” whitepaper summarizes the ultimate learning and outcome of all co-innovation efforts the global SAP AppHaus team has run during the last year. For several months and together with SAP AppHaus Network and other SAP colleagues, the AppHaus 2.0 team – a team focused on the evolution and development of changed working circumstances – jointly conducted interviews, experiments, and tested new work settings. “The Next WoW” whitepaper is the first public share-out representing the starting point for innovative work scenarios in the future. It is supposed to inspire and support other innovators, companies, and organizations on their way to the next way of working. “The Next WoW” helps sustain the creative work with customers and partners. In brief, it helps customers be successful.</p>
+  <p>By the looks of it, the SAP AppHaus Network teams are well prepared for a new year to come. They look forward to conducting many more interesting and, yes, challenging customer projects. The new work concept is a living one; it evolves and grows with many more co-innovation and collaboration experiences to come.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Svenja Mueller is communications associate at SAP AppHaus.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Intelligent Internal Recruitment Powered by SAP Business Technology Platform]]></title>
+            <link>https://www.sap.com/news/2021/12/intelligent-internal-recruitment-powered-by-sap-business-technology-platform</link>
+            <guid>https://www.sap.com/news/2021/12/intelligent-internal-recruitment-powered-by-sap-business-technology-platform</guid>
+            <pubDate>Wed, 22 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Doosan and SAP developed an internal job posting platform to hire employees from within the company through intelligent data screening.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c53d3fd0eba13a082df86a6b743cdf6d80b501a4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c53d3fd0eba13a082df86a6b743cdf6d80b501a4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c53d3fd0eba13a082df86a6b743cdf6d80b501a4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Intelligent Internal Recruitment Powered by SAP Business Technology Platform" src="./media_1c53d3fd0eba13a082df86a6b743cdf6d80b501a4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="intelligent-internal-recruitment-powered-by-sap-business-technology-platform">Intelligent Internal Recruitment Powered by SAP Business Technology Platform</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Doosan is a multinational conglomerate founded in 1896 with more than 30,000 employees spread across the globe today. The highly diversified manufacturing and service companies operate worldwide, offering services such as electronic components production or logistics equipment manufacturing.</div>
+    </div>
+  </div>
+  <p>Doosan’s business portfolio consists of diverse industries, including the heavy industry that mainly focuses on power plants generated by fuel, nuclear, or sustainable resources such as solar and wind, the construction equipment industry that is renowned for Bobcat compact tractors and Doosan forklifts, as well as the high-tech industry that includes robotics, electronic components, and network equipment manufacturing.</p>
+  <p>The goal of the human resources department of Doosan Holdings was to maximize work engagement level. Doosan improved individual employee satisfaction by providing opportunities for self-driven career development. The company provided HR applications for co-growth, both on the employee and corporate side, such as through matching talented employees with appropriate job opportunities across the company. This transparency allowed employees to be aware of vacant positions.</p>
+  <p>The newly designed internal job posting process spans from internal job search and application to screening and anonymized reporting. After a review is conducted through the anonymized blind report and the document screening is completed, the selected applicants can be interviewed.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-innovation-culture-toolkit">Explore the Innovation Culture Toolkit</h3>
+      </div>
+      <div><strong><a href="https://experience.sap.com/designservices/wp-content/uploads/sites/2/2020/06/InnovationCultureToolkit_forVirtualCollaboration.pdf">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="defining-the-scope-with-all-relevant-stakeholders">Defining the Scope with All Relevant Stakeholders</h2>
+  <p>After defining the broad scope of the use case, the so-called exploration phase of the joint project began, aiming to clarify the purpose of the project together with all relevant stakeholders. The project team conducted a virtual exploration workshop, using the collaboration tool <a href="https://www.mural.co/playmakers/sap-apphaus">MURAL</a> and the <a href="https://experience.sap.com/designservices/wp-content/uploads/sites/2/2020/06/InnovationCultureToolkit_forVirtualCollaboration.pdf">Innovation Culture Toolkit for virtual collaboration</a> by SAP AppHaus. Based on interviews with relevant stakeholders from Doosan, objectives, expectations, the scope, as well as roles and responsibilities, could be clarified.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1d306f135ab9697818039de1b965741ac43d7403d.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1d306f135ab9697818039de1b965741ac43d7403d.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1d306f135ab9697818039de1b965741ac43d7403d.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1d306f135ab9697818039de1b965741ac43d7403d.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="447">
+    </picture>
+  </p>
+  <p><em>Click to enlarge.</em></p>
+  <h2 id="prototyping-and-iteration-based-on-the-needs-of-end-users">Prototyping and Iteration Based on the Needs of End Users</h2>
+  <p>In the discovery phase, the project team conducted end-user interviews with HR managers from Doosan to identify their needs and pain points related to the internal recruitment process. After synthesizing the gained insights, the <a href="/topics/sap-apphaus">SAP AppHaus</a> team created a rapid user interface (UI) design prototype.</p>
+  <p>End-user insights and needs served as valuable assets in deciding which features were needed and what exactly had to be prioritized in the development of the solution. Low-fidelity prototypes could be iterated regularly so that a user-friendly, tailored solution would be developed.</p>
+  <p>“In working with Doosan, we developed a use case along SAP’s human-centered approach to innovation. We decided to implement an enhanced job candidate screening through specific job requisitions,” said Kay Schmitteckert, developer, SAP Strategic Customer Engagements. “I really enjoyed working together with SAP AppHaus and Doosan Digital Innovation.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_162ff9925ba12502deb5484a6795aacffc46bdac0.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_162ff9925ba12502deb5484a6795aacffc46bdac0.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_162ff9925ba12502deb5484a6795aacffc46bdac0.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_162ff9925ba12502deb5484a6795aacffc46bdac0.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="430">
+    </picture>
+  </p>
+  <p><em>Click to enlarge.</em></p>
+  <h2 id="the-enabler-of-the-use-case-sap-business-technology-platform">The Enabler of the Use Case: SAP Business Technology Platform</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-the-platform-for-the-intelligent-enterprise">SAP BTP: The platform for the Intelligent Enterprise</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The core of the use case is the candidate screening functionality for the internal hiring process, built with <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>. Its technological capabilities allowed Doosan to transform into an intelligent enterprise using customized functions on <a href="https://www.sap.com/products/extension-suite.html">SAP Extension Suite</a> as well as SAP SuccessFactors solutions.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_12d41132d29ce8ea0d2372a1687754b1e0ac7295f.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_12d41132d29ce8ea0d2372a1687754b1e0ac7295f.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_12d41132d29ce8ea0d2372a1687754b1e0ac7295f.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_12d41132d29ce8ea0d2372a1687754b1e0ac7295f.png?width=750&#x26;format=png&#x26;optimize=medium" width="1024" height="457">
+    </picture>
+  </p>
+  <p><em>Click to enlarge.</em></p>
+  <p>It automatically generates candidate scores based on the results of the past competency evaluation and provides appropriate recommendations, priorities, and anonymous reports.</p>
+  <p>The anonymized reports created enhance the applicants’ experience and avoid exposure during the internal recruitment process. Finally, HR managers can quickly assess the suitability of multiple candidates through the in-depth evaluation of candidate information provided.</p>
+  <h2 id="an-intelligent-and-cutting-edge-hiring-platform">An Intelligent and Cutting-Edge Hiring Platform</h2>
+  <p>Doosan’s internal job posting project is a prime use case for future HR management, unfolding its strengths in two dimensions:</p>
+  <ol>
+    <li>At the process level, the developed solution represents a cutting-edge increase in HR process efficiency leading to high time and cost savings.</li>
+    <li>At the cultural level, the platform contributes to a culture underlining the possibility of internal job transfers, which ultimately leads to more diversified employee skill sets, highly engaged employees, and lower fluctuation.</li>
+  </ol>
+  <p>“It was a great opportunity to experience the whole process from UX to design thinking, development, and collaboration. It was a delightful experience as an SAP Fiori developer due to the strong backup of UX designers that made such development possible,” said Minchoul Jung, project manager and SAP Fiori developer l, Doosan Digital Innovation. “We will develop the last components on this basis and create value when set in production.”</p>
+  <p>The integration and extension capabilities of SAP Business Technology Platform are the key foundation of the use case. The solution provides a suitable candidate list through data screening based on the existing data on SAP Success Factors solutions. The more data evaluated, the more intelligent and effective the HR process will finally become.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Esther Lee is a project lead and senior UX design specialist at SAP AppHaus Seoul.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/talent-acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Bluestonex: A "Massive Advocate" for SAP BTP]]></title>
+            <link>https://www.sap.com/news/2021/11/bluestonex-massive-advocate-for-sap-btp</link>
+            <guid>https://www.sap.com/news/2021/11/bluestonex-massive-advocate-for-sap-btp</guid>
+            <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bluestonex began using the application development and integration capabilities of SAP BTP in 2018 because of its speed and agility.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1734fd603b43bbe281df9fe532bf472bc6839924a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1734fd603b43bbe281df9fe532bf472bc6839924a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1734fd603b43bbe281df9fe532bf472bc6839924a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Bluestonex: A “Massive Advocate” for SAP BTP" src="./media_1734fd603b43bbe281df9fe532bf472bc6839924a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="bluestonex-a-massive-advocate-for-sap-btp">Bluestonex: A “Massive Advocate” for SAP BTP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-btp-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP BTP: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Innovation is built into the DNA at <a href="https://bluestonex.com/">Bluestonex</a> – it’s what makes it tick. As part of SAP AppHaus Network, it shifted its entire business processes to run on SAP Business Technology Platform (SAP BTP), making this boutique team the perfect advocate for converting its own customers to the tech platform.</div>
+    </div>
+  </div>
+  <p>Recognized for design, innovation, and user experience, Bluestonex began using the application development and integration capabilities of <a href="https://www.sap.com/products/business-technology-platform.html">SAP BTP</a> in 2018, then known as SAP Cloud Platform, because of its speed and agility.</p>
+  <p>“Being an innovation partner, we wanted to be able to move and deliver quickly for our customers,” explains Dan Barton, COO and co-founder. “SAP BTP allows us to do that. Plus, the low-cost, high-impact nature of the platform is always going to be an attractive proposition to customers. So, it was a clear route for us as a business and for our customers.”</p>
+  <p>Bluestonex sees itself as a true integration of a client’s team, holding their hands as they shift to SAP BTP. They work with customers of all shapes and sizes and from cross-industry sectors, everything from food and drinks to aerospace. However, Barton is clear that SAP BTP breaks down any misconceptions that SAP is purely for larger-sized businesses.</p>
+  <p>“It’s very, very well-suited to micro-businesses. It’s agile, it’s low-cost from an entry point of view, and it has a huge number of capabilities that can grow over time. SAP BTP has opened up new opportunities for us within the micro-business market because, typically, there isn’t another product out there to match it.”</p>
+  <p>Barton says customers can often become “over-awed” when faced with all the different tech products available to run and manage businesses. He and the team use SAP BTP to “transform that user experience.”</p>
+  <p>“It’s a really easy entry point: instead of people having to use multiple clicks and screen jumps, SAP BTP gets rid of that. It streamlines and strips away complexity to give a consistent user experience,” Barton explains. “And that transformation is key. When they realize what a nice platform it is, it opens the door to other experiences, such as chatbots and automation. It’s all there and plugs in really nicely. Lots of customers love the fact that they can start small and grow with the platform.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-apphaus-network">Learn more about SAP AppHaus Network</h3>
+      </div>
+      <div><strong><a href="https://apphaus.sap.com/network">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>It also helps Bluestonex to grow as a business, driving its specialism in innovation and, in turn, encouraging customers to think in new ways. “This is a massive shift, not only are they going from running different processes into one, smooth, easy-to-use platform, we’re seeing a big cultural shift in the way our customers think,” he adds.</p>
+  <p>Being part of SAP AppHaus Network means Bluestonex can access the latest, state-of-the-art design thinking methodologies, helping to move customers to new digital experiences.</p>
+  <p>From its converted chapel office space, Bluestonex regularly invites customers in to co-innovate.</p>
+  <p>“We invite our customers here and bring them out of their comfort zone,” says Barton. “And we have a usability lab where we get customer input on an idea as early in the development process as possible, so that key stakeholders know what they’re going to get and can be part of the iteration process. This helps to set expectations and build a better business case.”</p>
+  <p>To sum up SAP BTP in three words? “Strategic, innovative, and responsive,” he says. “It’s opened a different angle for us. We would always go and speak to our existing SAP customers, but this is different. Now we go to a competitor’s customer, we go to micro-businesses, because it’s flexible and cost effective. SAP BTP is a very strategic platform: there’s a sense that whatever a business does in the future, that platform is going to be there and continue to add value. It’s future-proof and I’m a massive advocate for it.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-btp-in-the-sap-ecosystem</category>
+            <category>news-tag/ux</category>
+        </item>
+        <item>
+            <title><![CDATA[Kakao Work Expands Into the B2B Domain with SAP BTP]]></title>
+            <link>https://www.sap.com/news/2021/09/kakao-work-b2b-domain-sap-btp</link>
+            <guid>https://www.sap.com/news/2021/09/kakao-work-b2b-domain-sap-btp</guid>
+            <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Available on SAP Store and built on SAP BTP, Kakao Work enables employees to communicate, share files, and integrate third-party services.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a24290accb45df62bab30a1d3e9e4558b491b399.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a24290accb45df62bab30a1d3e9e4558b491b399.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a24290accb45df62bab30a1d3e9e4558b491b399.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Kakao Work Expands Into the B2B Domain with SAP BTP" src="./media_1a24290accb45df62bab30a1d3e9e4558b491b399.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="kakao-work-expands-into-the-b2b-domain-with-sap-btp">Kakao Work Expands Into the B2B Domain with SAP BTP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>To allow users to conduct business scenarios at companies using SAP ERP, Kakao Enterprise aimed to expand the capabilities of Kakao Work, one of its business-to-business (B2B) solutions. Kakao Enterprise and SAP developed 68 cross-industry use cases; three use cases with SAP Business Technology Platform were identified and chosen for the first implementation round in the third quarter of 2021. The Kakao Work package went <a href="https://store.sap.com/dcp/en/product/display-0000059919_live_v1">live on SAP Store</a> in June 2021.</div>
+    </div>
+  </div>
+  <p>Kakao is the No. 1 business-to-consumer (B2C) mobile service company in Korea. In 2019, the company established subsidiary Kakao Enterprise to provide B2B artificial intelligence (AI) services. The new solution Kakao Work is a mobile messenger and app-based collaboration platform that enables employees to communicate, share files, and integrate third-party services.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_136cf91e124dd48782a2d831ba3cbd24fb3581c2e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_136cf91e124dd48782a2d831ba3cbd24fb3581c2e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_136cf91e124dd48782a2d831ba3cbd24fb3581c2e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Image via Kakao" src="./media_136cf91e124dd48782a2d831ba3cbd24fb3581c2e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2250" height="1474">
+    </picture>The company aimed to expand Kakao Work capabilities to allow users to conduct business scenarios at companies using SAP ERP. In close strategic collaboration with SAP, a project team discovered use cases, designed the user experience (UX), and developed the service.​ As a first milestone, Kakao Enterprise launched the Kakao Work packages on SAP Store in June.
+  </p>
+  <p>This new service for enterprise customers is built with SAP Business Technology Platform. Its capabilities can be expanded in the future to include more business scenarios, and across various industries.</p>
+  <p>“Collaborating with SAP AppHaus, Kakao Work was able to take one step closer to innovate users’ work experience as a comprehensive work platform,” shared Ju-Young Chung, executive director of Kakao Enterprise. “We were able to empathize with the real-world pain points of corporate customers with the help of the human-centered approach of the Sunrise Program and developed solutions to address it through Kakao Work.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="jump-start-for-innovation-saps-new-innovation-toolkit">Jump Start for Innovation: SAP’s New Innovation Toolkit</h3>
+      </div>
+      <div><strong><a href="/2021/08/new-innovation-toolkit-jump-start-innovation">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="building-with-sap-business-technology-platform">Building with SAP Business Technology Platform</h2>
+  <p>Kakao Work allows users to perform business scenarios using SAP ERP through the mobile messenger app. Users can conveniently search data and process transactions, such as checking sales order status, processing goods receipt, and work order status.</p>
+  <p>The improved business value in SAP’s elaborated scenario integrates other SAP solutions and provides productivity and accessibility to maximize utilization for business users. It operates regardless of any environmental constraints end users may have and delivers business processing faster.</p>
+  <p>SAP Business Technology Platform provides the capability to integrate Kakao Work with SAP Ariba, SAP Concur, SAP SuccessFactors, and other cloud solutions in addition to SAP ERP.</p>
+  <h2 id="from-68-scenarios-to-three-top-use-cases">From 68 Scenarios to Three Top Use Cases</h2>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_19391b0dd38313211fdda055cf6850fb12ef6ce6b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_19391b0dd38313211fdda055cf6850fb12ef6ce6b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_19391b0dd38313211fdda055cf6850fb12ef6ce6b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_19391b0dd38313211fdda055cf6850fb12ef6ce6b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2250" height="1151">
+    </picture>
+  </p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-saps-human-centered-approach-to-innovation">Learn more about SAP's human centered approach to innovation</h3>
+      </div>
+      <div><strong><a href="https://experience.sap.com/designservices/approach">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The SAP AppHaus team in South Korea interviewed business process experts and identified 68 scenarios as potential new work packages, followed by additional interviews, and prioritized by scoring them in terms of expected users, frequency of use, and work performance.</p>
+  <p>Along <a href="https://experience.sap.com/designservices/approach">SAP’s human-centered approach to innovation,</a> the team conducted an exploration workshop with Kakao Enterprise and a development partner. Based on feasibility and importance, three high-priority use cases were selected:</p>
+  <ol>
+    <li>Checking sales order status</li>
+    <li>Processing goods receipt</li>
+    <li>Checking work order status</li>
+  </ol>
+  <h2 id="business-messenger-solution-created-with-innovation-toolkit-from-sap-apphaus">Business Messenger Solution Created with Innovation Toolkit from SAP AppHaus</h2>
+  <p>Due to <a href="/covid-19">COVID-19</a>, the project team conducted interviews remotely along the proven <a href="https://experience.sap.com/designservices/toolkit">innovation toolkit</a> for virtual and on-site collaboration. The project members started designing with the clear goal that employees would be able to perform ERP-related tasks more easily through Kakao Work.</p>
+  <p>The project team shared a prototype with process experts for validation and further improvement. The result was then discussed in an online workshop with Kakao Enterprise, development partners, and SAP process experts. To finalize this first project, SAP AppHaus colleagues incorporated all feedback in the solution’s UX design. Based on this, Kakao Enterprise and the development partner developed the application.</p>
+  <p>The result can be seen on SAP Store: <a href="https://store.sap.com/dcp/en/product/display-0000059919_live_v1/">Kakao Work, mobile business messenger that supports efficient and productive communication</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Transforming UK Infrastructure Projects with SAP Business Technology Platform and SAP Analytics Cloud]]></title>
+            <link>https://www.sap.com/news/2021/09/transforming-uk-infrastructure-projects-sap-costain</link>
+            <guid>https://www.sap.com/news/2021/09/transforming-uk-infrastructure-projects-sap-costain</guid>
+            <pubDate>Mon, 13 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[UK construction company Costain solved the problem of tracking money spent on large government infrastructure projects with SAP solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Network: Growing Ecosystem Drives Inspiring Innovation]]></title>
+            <link>https://www.sap.com/news/2021/09/sap-apphaus-network-innovation-awards-growing-ecosystem</link>
+            <guid>https://www.sap.com/news/2021/09/sap-apphaus-network-innovation-awards-growing-ecosystem</guid>
+            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Even in a year of virtual collaboration only, the SAP AppHaus Network has created inspiring success stories with tangible business impact.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+        </item>
+        <item>
+            <title><![CDATA[AGL Employees Go Digital with New iOS App and SAP BTP]]></title>
+            <link>https://www.sap.com/news/2021/08/agl-ios-app-sap-btp</link>
+            <guid>https://www.sap.com/news/2021/08/agl-ios-app-sap-btp</guid>
+            <pubDate>Wed, 25 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new app for AGL employees is based on SAP BTP and offers a single digital experience to access the right tool at the right time.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f9cea16c408670ab68c426efa9336619a2f98ccc.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f9cea16c408670ab68c426efa9336619a2f98ccc.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f9cea16c408670ab68c426efa9336619a2f98ccc.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="AGL Employees Go Digital with New iOS App and SAP BTP" src="./media_1f9cea16c408670ab68c426efa9336619a2f98ccc.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="agl-employees-go-digital-with-new-ios-app-and-sap-btp">AGL Employees Go Digital with New iOS App and SAP BTP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>As a leading integrated essential service provider, AGL has a proud 184-year history of innovation along with a passionate belief in human and technological progress. The company delivers 3.95 million gas, electricity, and telecommunications services to residential, small, and large businesses, as well as wholesale customers across Australia.</div>
+    </div>
+  </div>
+  <p>AGL also operates Australia’s largest electricity generation portfolio, responsible for about 20% of the total electricity capacity of the country.</p>
+  <p>AGL recently partnered with SAP AppHaus Network member Bourne Digital to create the AGL One iOS app. Based on SAP Integration Suite and SAP Extension Suite, the app brings together AGL’s employee network in a single digital experience so they can access the right tool at the right time — every time, from anywhere. Powered by SAP Business Technology Platform (SAP BTP), the solution recently won a SAP Innovation Award in the Transformation Champion category.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-sap-apphaus-network">Explore the SAP AppHaus Network</h3>
+      </div>
+      <div><strong><a href="https://experience.sap.com/designservices/network">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="growing-company-needs-enhanced-digital-infrastructure">Growing Company Needs Enhanced Digital Infrastructure</h2>
+  <p>In June of 2019, AGL launched PT3 (People, Process and Performance Transformation), its initiative to unite all AGL sites across corporate and group operations into one technical platform. The initiative also aimed at delivering greater mobility and enabling AGL staff to work flexibly with mobile applications on their phones or tablets.</p>
+  <p>After first launch, however, user feedback showed the need to improve the solution and explore ways to better enable employees digitally.</p>
+  <p>AGL decided to examine employees’ user experience (UX) to help ensure a better adoption of the new platform. Clear focus of the new solution would be consolidation and ease of use. After a complete redesign of the mobile interface, AGL wanted to extend the strong relationship already in place with customers to the people who worked for the company.</p>
+  <h2 id="bringing-in-sap-apphaus-network-member-bourne-digital">Bringing in SAP AppHaus Network Member Bourne Digital</h2>
+  <p>AGL consulted with the same firm that helped design its customer experience, Bourne Digital. As an SAP AppHaus Network member, Bourne Digital is part of the worldwide community of like-minded SAP-partners that work with customers in a creative environment to make innovation real, following SAP’s human-centered approach to innovation.</p>
+  <p>As a first step toward the new solution for employees, AGL tasked an internal service design team with replicating the service design process for employees’ mobile app. With the help of its employee experience center, the joint AGL and Bourne Digital project team conducted lifecycle mapping and extensive interviews with staff to discover the following key issues with the existing mobile interface:</p>
+  <ul>
+    <li>Too many tools in the environment made it hard for the employees to identify the correct tool for each situation.</li>
+    <li>The usability of the previous solution was not simple and prevented proficiency.</li>
+    <li>The solution missed data consolidation of several sources.</li>
+    <li>Employee engagement was low due to dissatisfaction with the efficiency of the tools.</li>
+  </ul>
+  <h2 id="agl-one-ios-app-simplifies-employees-lives">AGL One: iOS App Simplifies Employees’ Lives</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="review-agls-sap-innovation-award-winning-pitch">Review AGL's SAP Innovation Award-winning pitch</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/bin/sapdxc/inm/attachment.11319/pitch-deck.pdf">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Employees wanted a straightforward, consolidated, easy-to-use mobile experience. AGL and Bourne Digital worked with Apple to create an iOS app called <strong>AGL One</strong>. The feedback collected in the interviews was used to create a completely redesigned mobile employee interface. Based on SAP Integration Suite and SAP Extension Suite, the app now brings together AGL’s employee network in a single digital experience.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14695ba332da86f0ed1e2ce2affdc732d865aa30c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14695ba332da86f0ed1e2ce2affdc732d865aa30c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_14695ba332da86f0ed1e2ce2affdc732d865aa30c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="AGL app explainer" src="./media_14695ba332da86f0ed1e2ce2affdc732d865aa30c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1050" height="513">
+    </picture>“AGL was focused on creating a highly engaging mobile experience for employees to improve productivity and engagement,” said Selim Ahmed, CEO of Bourne Digital. “Together, AGL, Apple, SAP, and Bourne Digital created an integrated and scalable solution that extended their investment in SAP S/4HANA with the agility of SAP Integration Suite and SAP Extension Suite. It has been a wonderful innovation story that puts employees at the center of the organization. The Bourne Digital SAP AppHaus facility supported employee experience design thinking sessions.”
+  </p>
+  <h2 id="one-stop-shop-for-all-actions">One-Stop Shop for All Actions</h2>
+  <p>The project team held a number of design thinking sessions at Bourne Digital’s AppHaus facility in Melbourne to re-imagine the employee experience.</p>
+  <p>Building on its existing investment in SAP S4/HANA with SAP BTP, the AGL One app combines a landscape of more than 300 IT applications into one single interface with only one main login to use. Even when employees want to switch back and forth between apps, they do not have to re-login and remember different passwords every time. Once signed in, the UX itself is accessible to the average employee, so they do not have to know specific tool names or apps to use them.</p>
+  <p>Built-in capabilities within AGL One prioritize tasks that are easy to do on the go, such as administrative tasks and approvals. This helps reduce cycle time on tasks that are often put off and need to be followed up on, making employees’ workdays more productive and efficient. Key features of the app include:</p>
+  <ul>
+    <li>Quick access to action all purchase order approvals in SAP S/4HANA</li>
+    <li>Assessments of workplace safety and reports available on the go, with the option to use a phone’s camera to add a photo and record safety observations or hazards in SAP S/4HANA</li>
+    <li>Personalization of the homepage for quick access to tools the employee uses most often</li>
+    <li>Desk booking with desk locator, particularly following COVID-19 restrictions</li>
+    <li>Holiday and leave request entry and management</li>
+    <li>New colleague appreciation tool called “Energise”</li>
+    <li>AGL news service with talking points, friends and family discounts, and easy access to AGL job boards to be active ambassadors outside the company</li>
+    <li>Live news feed along with integration to “The Source,” AGL’s news and intranet</li>
+    <li>Seamless third-party collaborations between SAP back end and Apple user interface</li>
+  </ul>
+  <p>By building an app expressly for its employees, AGL has successfully placed their user experience on the same priority level as its customers’. AGL One supports a positive, streamlined experience for employees, whether at the office or in the field. After rolling out the app, the company has seen a motivation and engagement boost at work among employees. The app was released in October 2020 and the number of downloads speaks for itself: 1,600 out of 3,700 employees have downloaded the app so far, an adoption rate of nearly 50%.</p>
+  <p>“When we first started this project, we looked at it the same way we’d look at anything we were doing for our customers,” explained Joy Marrocco, IT Transformation Manager at AGL. “We already had a great relationship there, why not apply that same approach to our employees? We wanted to drive digital adoption of employee tools, and this app is one of the ways that we are working to make access to these tools much quicker and easier for our people.”</p>
+  <h2 id="award-winning-solution-built-with-sap-btp">Award-Winning Solution Built with SAP BTP</h2>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_197d0f2d37f648a9fe6fcb28b20007fd5bc4ce8e6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_197d0f2d37f648a9fe6fcb28b20007fd5bc4ce8e6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_197d0f2d37f648a9fe6fcb28b20007fd5bc4ce8e6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Screenshots: AGL iOS app" src="./media_197d0f2d37f648a9fe6fcb28b20007fd5bc4ce8e6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1050" height="430">
+    </picture>
+  </p>
+  <p>The innovation power of this application and the entire project was also recognized by the jury of the 2021 SAP Innovation Awards, with the AGL One app for employees winning in the Transformation Champion category.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Svenja Mueller is the communications associate for SAP AppHaus.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>product/sap-integration-suite</category>
+        </item>
+        <item>
+            <title><![CDATA[Jump Start for Innovation: SAP’s New Innovation Toolkit]]></title>
+            <link>https://www.sap.com/news/2021/08/new-innovation-toolkit-jump-start-innovation</link>
+            <guid>https://www.sap.com/news/2021/08/new-innovation-toolkit-jump-start-innovation</guid>
+            <pubDate>Wed, 04 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's new innovation toolkit has easy-to-access help for hybrid work and making human-centered and sustainable innovation real.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_174018ee49f28fe484c2dd8bb36dec741fc212244.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_174018ee49f28fe484c2dd8bb36dec741fc212244.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_174018ee49f28fe484c2dd8bb36dec741fc212244.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Jump Start for Innovation: SAP’s New Innovation Toolkit" src="./media_174018ee49f28fe484c2dd8bb36dec741fc212244.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="jump-start-for-innovation-saps-new-innovation-toolkit">Jump Start for Innovation: SAP’s New Innovation Toolkit</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In June 2021, an updated version of the innovation toolkit along with step-by-step guidance was launched out of the SAP AppHaus. It offers easy-to-access methods, best practices, articles, and courses, which are catered to the needs of hybrid work for both in-person and virtual teams.</div>
+    </div>
+  </div>
+  <p>Customers, partners, and scholars alike can use them to scale human-centered and sustainable innovation in their organizations.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-innovation-toolkit">Explore the innovation toolkit</h3>
+      </div>
+      <div><strong><a href="https://experience.sap.com/designservices/toolkit%20">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="crises-are-opportunities-for-innovation">Crises Are Opportunities for Innovation</h2>
+  <p>Author and management consultant Peter Drucker once said, “The enterprise that does not innovate ages and declines. And in a period of rapid change such as at present, the decline will be fast.” He stated this about 20 years ago, not knowing that today this statement would be more valid than ever before.</p>
+  <p>In recent years, the effects of global challenges such as climate change, migration waves, racial inequities, and the <a href="/covid-19">pandemic</a> further sharpened the urgency to innovate. Organizations, societies, and companies alike had to react quickly to solve problems. In the economic sphere, it meant to improve or solve supply chain, distribution, and other logistics problems quickly, or to handle any consequences as well as possible.</p>
+  <p>Digitization and business intelligence became key factors to help ensure continued business success and the much-needed agility in the market. What’s more, fast progressing technology disrupts industries, creating challenges around health, resource efficiency, and security.</p>
+  <h2 id="sustainable-innovation-stands-on-five-enablers">Sustainable Innovation Stands on Five Enablers</h2>
+  <p>All these challenges are altering the world so drastically that many companies are under pressure to innovate and transform. This process of innovative change can only take place and be successful and sustainable if different factors are duly considered and covered.</p>
+  <p>SAP has identified an innovation framework of five key enablers to make innovation real:</p>
+  <ol>
+    <li><strong>People:</strong> People are at the core of every cultural transformation because they make change happen. Organizations can enable people to develop a right mix of skills, mindsets, and competencies for creativity and collaboration.</li>
+    <li><strong>Leadership:</strong> Employees and people in an organization cannot flourish if they are not supported by their management and leadership. Team leads need a human-centric mindset to empower their people and nurture practices for innovation.</li>
+    <li><strong>Place:</strong> As organizations practice innovation on a regular basis, their workspaces must be designed differently to support and sustain change. The workspace should encourage collaboration and allow for creative practices to flourish.</li>
+    <li><strong>Process</strong>: A structured human-centered approach with best practices that support every step of an innovation project is necessary.</li>
+    <li><strong>Technology:</strong> Tools and solutions only bring value when being used in the right context. Technology is the enabler of innovation, but it can only reach its full potential in combination with the other four innovation enablers.</li>
+  </ol>
+  <h2 id="guide-to-run-innovation-projects-from-beginning-to-end">Guide to Run Innovation Projects from Beginning to End</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-saps-human-centered-approach-to-innovation">Learn more about SAP’s human-centered approach to innovation</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/company/innovation/human-centered-approach.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Innovations start with a need or a challenge. But identifying challenges worth solving in an organization is not easy.</p>
+  <p>The <a href="https://experience.sap.com/designservices/network">SAP AppHaus Network</a> team applies SAP’s human-centered approach to innovation to help customers identify and prioritize their challenges and transform them into innovation opportunities. This approach combines design thinking methods with the knowledge and best practices of enterprise architecture to create innovative solutions that are also feasible and viable.</p>
+  <p>Based on the experience of more than 1,000 projects conducted with customers of all industries, the multidisciplinary SAP AppHaus team of designers, business experts, and enterprise architects has developed a set of techniques and hands-on activities, made available and bundled in the <a href="https://experience.sap.com/designservices/tools">innovation toolkit</a>. It offers unique methods and other resources for each innovation enabler, empowering organizations to apply this framework and jump-start their innovation journey.</p>
+  <p>In response to virtual and remote work routines, tools and templates are available both for physical and <a href="https://experience.sap.com/designservices/wp-content/uploads/sites/2/2020/06/InnovationCultureToolkit_forVirtualCollaboration.pdf">virtual workshops</a>. They are publicly accessible and can be downloaded for free.</p>
+  <p>As the SAP AppHause designers who drive the innovation toolkit project, Kursat Ozenc and Karen Detken explain: “The innovation toolkit is meant to be a living resource, continuously filled and complemented with methods recommended by partners and customers. By offering methods both for design and architecture thinking, we envisioned the toolkit to be the go-to place for facilitating innovation in the enterprise. “</p>
+  <p>Along <a href="https://www.sap.com/about/company/innovation/human-centered-approach.html">SAP’s human-centered approach to innovation</a>, organizations that want to innovate are guided along the following five main phases:</p>
+  <ul>
+    <li><strong>Explore opportunities:</strong> Identify the most valuable use cases for your business area with key business and IT leaders.</li>
+    <li><strong>Discover insights:</strong> Gain a deep understanding about the challenges through observation, interviews, and market and user research</li>
+    <li><strong>Design solutions:</strong> Identify the best solution ideas, make them tangible through prototypes, and identify the enterprise architecture components.</li>
+    <li><strong>Deliver solutions:</strong> Develop and deliver the technical solution and value for end users by leveraging SAP Business Technology Platform.</li>
+    <li><strong>Run and scale:</strong> Deploy and run the solution across the company, get feedback, and optimize further.</li>
+  </ul>
+  <p>Andreas Hauser, head of the global SAP AppHaus Network, explains, “By assembling our innovationt toolkit, we consolidate our experience from more than 20 years of best practices. We help the entire SAP ecosystem accelerate innovation projects and scale SAP’s human-centered approach to innovation.”</p>
+  <p>First statistics and successes show that the innovation toolkit meets the needs of innovators across the globe. It has received two German Innovation Awards, <a href="https://www.german-innovation-award.de/preistraeger/preis/gewinner/innovation-culture-toolkit-1/">gold in the category of Excellence in B2B Office Solutions</a> and a win in the <a href="https://www.german-innovation-award.de/preistraeger/preis/gewinner/innovation-culture-toolkit/">Design Thinking category</a>. For more information, <a href="https://blogs.sap.com/2020/01/02/four-at-once-sap-apphaus-wins-2020-german-innovation-awards/">read the full article here</a>. Since its beginning, the scenes-related assets have seen more than 10,000 downloads from users across the globe.</p>
+  <h2 id="innovation-is-contagious">Innovation Is Contagious</h2>
+  <p>An essential component of every successful innovation project is the underlying technology that allows for getting value out of data in order to help ensure the integration of business processes as well as the extensibility for rapid innovation — the way it is done with SAP Business Technology Platform.</p>
+  <p>It depends on different factors, needs to focus on the users, and should demonstrate the benefits it will bring. To nurture practices for creativity and innovation, team leads and managers need to develop a human-centric mindset, encourage, and empower their employees and co-workers.</p>
+  <p>SAP AppHaus Heidelberg Manager Dirk Ziegeler describes it as follows: “Innovation and creativity are interdependent. The global SAP AppHaus teams have gained a lot of experience in that field. Our colleagues work in very self-determined and responsible ways; at the same time, our team spirit is very strong. The innovation toolkit is just another expression of this spirit — to reach out to co-innovators, share best practices, templates, and helpful content, and to make them available to the public for free.”</p>
+  <p>It is this spirit that makes innovative ideas thrive and triggers the wish to continue the innovative path. As Albert Einstein once noted, “Creativity is contagious, pass it on.”</p>
+  <p>The SAP AppHaus Network team insists that the same is true for innovation. Let’s pass it on!</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Business Technology Platform Raises Equestrians to a New Level]]></title>
+            <link>https://www.sap.com/news/2021/05/sap-btp-riding-simulator-new-level-equestrians</link>
+            <guid>https://www.sap.com/news/2021/05/sap-btp-riding-simulator-new-level-equestrians</guid>
+            <pubDate>Thu, 13 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has developed a dashboard for a riding simulator at Walldorf Riding Club. With SAP BTP, equestrian data can be analyzed and depicted.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1227288b9460c12a53b5dcc67953e8e47b4df2c8a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1227288b9460c12a53b5dcc67953e8e47b4df2c8a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1227288b9460c12a53b5dcc67953e8e47b4df2c8a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Business Technology Platform Raises Equestrians to a New Level" src="./media_1227288b9460c12a53b5dcc67953e8e47b4df2c8a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-business-technology-platform-raises-equestrians-to-a-new-level">SAP Business Technology Platform Raises Equestrians to a New Level</h1>
+      </div>
+    </div>
+  </div>
+  <div class="quote">
+    <div>
+      <div>As an advocate of equestrian sport for almost 10 years, SAP took another step to combine technology and sports with SAP Business Technology Platform.</div>
+    </div>
+    <div>
+      <div></div>
+    </div>
+  </div>
+  <p>In 2019, the <a href="https://www.reit-und-rennverein-walldorf.de/">Walldorf Riding Club (RRV)</a>, working with SAP, introduced the <a href="https://www.reitsimulator-walldorf.de/#konzept">Racewood Simulator</a> to its students and teachers – a robot horse that reproduces horses’ movements in virtual training sessions. The so-called “Sir Waldo” is programmed to simulate several disciplines, such as dressage, jumping, and cross-country riding, and closely examine the saddle’s weight distribution. Furthermore, it guides riders in positioning their legs and reins. This technical innovation is located in the <a href="/2020/09/sap-equestrian-experience-center-riding-simulator">SAP Equestrian Experience Center</a> that borders the RRV riding area. That way, it is easily accessible for club members.</p>
+  <p>By providing a controlled environment, beginners and professional equestrians get the chance to practice and improve their skills in a simulated training and competition setting. In close cooperation with professional trainers and guest lecturers, the riding club offers this new experience in various forms to a broad target group. The club also provides specific courses such as fear management and mental training for traumatized riders.</p>
+  <p>This kind of simulation is a pioneer project in Germany. It shows the desire of the RRV to innovate, offer its members the best possible conditions, develop as a riding club, and continuously improve riders’ skills.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-equestrian-experience-center-innovative-technology-makes-sports-tangible">SAP Equestrian Experience Center: Innovative Technology Makes Sports Tangible</h3>
+      </div>
+      <div><strong><a href="/2020/09/sap-equestrian-experience-center-riding-simulator">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="improving-training-analysis-with-sap-technology">Improving Training Analysis with SAP Technology</h2>
+  <p>The initial simulator only allowed for a small data set per riding session, which was available in a printed version. This document didn’t provide all the information users needed to determine further training behaviors. Users exhibited a strong demand for detailed training information to analyze their progress and potential learning gaps to inform long-term training plans.</p>
+  <p>To fully exploit the technical possibilities of the riding simulator, the SAP Global Sponsorships team connected with <a href="https://experience.sap.com/designservices/">SAP AppHaus</a> and <a href="https://blackhorse-one.com/">Black Horse One GmbH</a> to design an extensive training app using <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>.</p>
+  <p><em>Technical Realization of the Solution</em></p>
+  <p>Within two remote workshops, the SAP team applied <a href="https://experience.sap.com/designservices/approach">design thinking methods</a> and gained knowledge about every critical aspect of the project, such as the technical framework of the Racewood Simulator, user needs, and first solution approaches. The project team identified the need to collect and summarize valuable data from the Racewood Simulator and transform it into understandable analysis visualization. To reach that goal, the team leveraged <a href="https://www.sap.com/products/extension-suite.html">SAP Extension Suite</a>. With this technology, they could build the Riding Simulator Analysis Portal, the base of the application.</p>
+  <p>The future Web-based solution will provide detailed training data in four main categories: seating analysis, dressage, jumping, and cross-country riding. These classifications contain several vital facts, such as program analysis (balance, reins, thighs), freeriding, and progress. Thereby, users can track their riding proficiency in detail, identify areas of improvement, and better their skills efficiently. In addition, notes and homework can be saved by students and teachers.</p>
+  <p>To save individual training results and protect them from third parties, authentication and a single sign-on are guaranteed by <a href="https://www.sapstore.com/solutions/40132/SAP-Cloud-Identity-Services">SAP Cloud Identity Services</a> and stored in SAP Cloud Application Programming Model, based on <a href="https://www.sap.com/germany/products/hana/cloud.html">SAP HANA Cloud</a>.</p>
+  <p>Aileen Trunk, a rider at RRV, said, “The new SAP training app gives both trainers and learners valuable insights and helps to optimize training across all disciplines – dressage, jumping and cross-country riding. I am now able to analyze my simulator sessions in detail with a wide range of possibilities. At any time, my trainer can prepare my units effectively and we can review and work on my short-term and long-term development together.”</p>
+  <p><em>User interface of the new riding simulator dashboard</em></p>
+  <h2 id="future-digitalization-of-equestrian-sports">Future Digitalization of Equestrian Sports</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-technology-platform-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP Business Technology Platform: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Currently, the seating analysis is already used in training and the other components are planned for development and will be introduced soon. Thanks to the new application built on SAP Business Technology Platform, training data can be accessed and analyzed from anywhere, can be used in upcoming training units, and will pave the way for lasting progress.</p>
+  <p>“The Racewood Equestrian Simulator is a great means to showcase the excitement of the sport to all interested audiences,” said Thomas Esser, innovation manager with SAP Global Sponsorships. “In particular, it is amazing to see how riders can now leverage the digital horse and take advantage of technologies like SAP HANA Cloud and SAP Business Technology Platform to bring their training to next level.”</p>
+  <p>Once again, SAP has laid the foundation for next-level equestrian sports, providing virtual solutions and 100% paperless work. No doubt, the team looks forward to identifying new projects with the Walldorf equestrians in the future.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <h2 id="key-results">Key Results</h2>
+        <ul>
+          <li>Detailed depiction of training analysis</li>
+          <li>Enhanced training outcome through efficient usage of data</li>
+          <li>Improved user interface to draw meaningful conclusions</li>
+          <li>100% paperless work</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+        <item>
+            <title><![CDATA[Iren Innovates Invoice Processing with SAP Business Technology Platform]]></title>
+            <link>https://www.sap.com/news/2021/02/iren-innovates-invoice-processing-sap-btp</link>
+            <guid>https://www.sap.com/news/2021/02/iren-innovates-invoice-processing-sap-btp</guid>
+            <pubDate>Mon, 15 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Iren leverages SAP Business Technology Platform for a supplier portal with a frictionless, chatbot-supported invoice processing experience.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-erp</category>
+            <category>news-tag/sap-hana</category>
+        </item>
+    </channel>
+</rss>

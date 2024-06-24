@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/esports/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 02 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Esports Powerhouse Team Liquid Wins Big with SAP Business AI]]></title>
+            <link>https://www.sap.com/news/2024/05/esports-powerhouse-team-liquid-wins-big-with-sap-business-ai</link>
+            <guid>https://www.sap.com/news/2024/05/esports-powerhouse-team-liquid-wins-big-with-sap-business-ai</guid>
+            <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With a generative AI model trained on SAP AI Core, Team Liquid is maximizing their chances at the League of Legends Championship Series.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/esports</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[Esports: Team Liquid’s Masters of Data]]></title>
+            <link>https://www.sap.com/news/2023/10/esports-team-liquid-masters-of-data</link>
+            <guid>https://www.sap.com/news/2023/10/esports-team-liquid-masters-of-data</guid>
+            <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP solutions help Team Liquid succeed at the Dota 2 and League of Legends World Championships. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Esports: Team Liquid’s Masters of Data" src="./media_15daec53a13fbbf487bab50b2abd4b35529f13efe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="esports-team-liquids-masters-of-data">Esports: Team Liquid’s Masters of Data</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>This October and November, gaming fans around the globe can enjoy two of the most prestigious and exciting <a href="/topics/esports">esports</a> tournaments: The League of Legends World Championship – also known as Worlds – in South Korea and The International, the annual Dota 2 World Championship in Seattle, Washington.</div>
+    </div>
+  </div>
+  <p>It’s a special thrill for Team Liquid fans, as both teams – the Dota 2 and the League of Legends squad – have qualified for the championships and will compete for the title. We tapped into our connection with Team Liquid and had the exclusive opportunity to talk to two team members, <strong>Haitham “Haitham” Algbory, head analyst of the League of Legends team</strong>, and <strong>Mathis “Jabbz” Friesel, assistant coach and analyst of the Dota team</strong>, about how they prepare the teams for the world championships and what role SAP technology plays for the teams to perform at their top level.</p>
+  <h2 id="about-sap-and-team-liquid">About SAP and Team Liquid</h2>
+  <p>With SAP being the official innovation partner of Team Liquid, the two companies developed a close partnership of co-innovation focused on Team Liquid’s Dota 2 and League of Legends teams. These two multiplayer online battle arena games are highly complex and data-intensive esports. Together with Team Liquid, SAP is co-developing software to help Team Liquid analyze its performance and apply more precision in areas like match preparation, team and player performance, scouting, and others. Read more <a href="https://www.sap.com/asset/dynamic/2023/07/c4e4d3c9-807e-0010-bca6-c68f7e60039b.html">here</a>.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_146ad53e5c6d85798326e3514162a214869983c15.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="400" height="600">
+          </picture>
+        </p>
+        <p><em><a href="https://twitter.com/tbHaitham">Haitham “Haitham” Algbory</a>, head of Analytics &#x26; Data for Team Liquid’s League of Legends Team</em></p>
+      </div>
+    </div>
+  </div>
+  <p>A big part of what SAP brings to Team Liquid is <a href="https://www.sap.com/products/technology-platform/hana.html">SAP HANA Cloud</a>, which helps make data analysis for both League of Legends and Dota a lot easier. The database allows the analysts to focus less on gathering data and more on analyzing it. Both Jabbz and Haitham have been working in this field for a long time, and there are things that they can do now that they never could before, thanks to a tool specifically made for esports data analysis.</p>
+  <p>“I support both the general manager and the coaching staff with scouting new talent,” Haitham said. “The way I do that is by providing periodic solo queue and scrim reports and end-of-season scouting reports. When it comes to the Academy teams of the East Regions, at the same time, we just track the players that are in the scene in general and we see their improvement based off the metrics that we have set in our tools.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1fc0e7e2f4de3f3ba1c19914ddcfb1f5a969cb35f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="200" height="280">
+          </picture>
+        </p>
+        <p><em><a href="https://twitter.com/jabbz1301">Mathis “Jabbz” Friesel</a>, coach and head analyst for Team Liquid’s Dota 2 Team</em></p>
+      </div>
+    </div>
+  </div>
+  <p>On the League of Legends side, SAP HANA Cloud is Haitham’s primary tool for scouting. But that’s not what Jabbz uses the data for. For Team Liquid Dota, the data is more match-focused.</p>
+  <p>“For us, SAP HANA Cloud has more of a different function,” Jabbz said. “We use it mostly for performance-related things. I think the big advantage we have with the database is that we can actually import any public game that we want. Let’s say things have changed in a recent patch; we can make sure that we’re always up-to-date with how the meta is evolving. We also get to have a replay of every tournament game, so we can pick up all the information we need from any game, especially during live events. This is incredibly helpful. By having this tool available, you can quickly see how teams are adapting, how teams are thinking. I save a lot of time getting that information, whereas before I would have to open up the replays in the game and manually scroll through everything.”</p>
+  <p>According to Haitham, being able to use real gameplay clips to corroborate the data – and vice versa – often helps build a stronger case for whatever argument he’s trying to make. Players are more inclined to believe the data once they have a reference point, which then allows them to gain a deeper understanding of the game.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="team-liquid-mining-rich-esports-data-to-help-players-managers-and-teams-compete-and-win">Team Liquid: Mining rich esports data to help players, managers, and teams compete and win</h3>
+        <p><em><a href="https://www.sap.com/asset/dynamic/2023/07/c4e4d3c9-807e-0010-bca6-c68f7e60039b.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“With SAP, we have a lot of good [visualization] tools,” Haitham said. “We have an entire map tool that will just visualize where the wards are and what the movement is looking like. In addition, we have SAP Analytics Cloud that gives us an opportunity to build charts and graphs for the players. I would use videos or clips that are important to show the opponent’s style, and then I support that with the maps or graphs from the SAP tools.”</p>
+  <p>For some, all these details might sound small, even insignificant. However, any coach or analyst will tell you that at the highest level of esports, the difference lies in the details. When pretty much every player is equal in skill, it’s those minor advantages that matter – which makes data analysis an important factor for success. After all, a close win is still a win. Both Haitham and Jabbz point to “the small margins” as the reasons why they love their roles as analysts.</p>
+  <p>“Personally, I work on my own goal to help others achieve theirs at the same time,” Haitham said. “Seeing how players are able to use science while playing video games, to beat opponents that they may not be able to without that kind of information…it just makes everything worthwhile.”</p>
+  <p>“I agree. I think it’s always very satisfying to give information to the guys that they wouldn’t pick up on,” Jabbz added. “I guess we’re very similar in that regard. I also enjoy helping the guys and that’s what gives me the joy in this job. I don’t necessarily have to see myself in the limelight or at the front of the stage, but I really just like seeing my friends succeed.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Team Liquid: Masters of Data" src="./media_18e500dd487b8be270a967b15b532213f90828dbe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/5BZYCILkR6o">Team Liquid: Masters of Data</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>Isabelle Schuhmacher is director of Global Sponsorships at SAP.<br>Christian Kreidt is storytelling lead for Global Sponsorships at SAP.</p>
+        <p>Photos courtesy of Team Liquid.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-right-to-your-inbox">Get the latest SAP news delivered right to your inbox</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/esports</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[Sports and the Metaverse: A Revolutionary Convergence for Inclusion]]></title>
+            <link>https://www.sap.com/news/2023/04/sports-and-metaverse-revolutionary-convergence-inclusivity</link>
+            <guid>https://www.sap.com/news/2023/04/sports-and-metaverse-revolutionary-convergence-inclusivity</guid>
+            <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the metaverse taking shape, corporations can now use intelligent software to create virtual sporting worlds for inclusivity. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/esports</category>
+            <category>news-tag/metaverse</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-sports-one</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Brings Real-Time Analytics to One of the World’s Biggest Esports Tournaments]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-international-11-esports-tournament-real-time-analytics</link>
+            <guid>https://www.sap.com/news/2022/10/sap-international-11-esports-tournament-real-time-analytics</guid>
+            <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At The International 11 in Singapore, SAP BTP and SAP HANA Cloud are providing an enhanced viewing experience to broadcasts.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/esports</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Hosts Its First-Ever Esports Tournament]]></title>
+            <link>https://www.sap.com/news/2022/07/sap-hosts-its-first-ever-esports-tournament</link>
+            <guid>https://www.sap.com/news/2022/07/sap-hosts-its-first-ever-esports-tournament</guid>
+            <pubDate>Tue, 26 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP recently hosted its first esports tournament in Berlin. Learn more about how SAP provides in-game, real-time analytics tools to players.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/esports</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+    </channel>
+</rss>

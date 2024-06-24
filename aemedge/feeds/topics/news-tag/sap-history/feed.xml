@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-history/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 17 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Olaf Scholz Leads Farewell Tributes to Hasso Plattner]]></title>
+            <link>https://www.sap.com/news/2024/05/hasso-plattner-olaf-scholz-farewell-tributes</link>
+            <guid>https://www.sap.com/news/2024/05/hasso-plattner-olaf-scholz-farewell-tributes</guid>
+            <pubDate>Fri, 17 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[German Chancellor Olaf Scholz led the farewell tributes to SAP co-founder and former Chairman of the Supervisory Board Hasso Plattner.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[The End of an Era: Hasso Plattner Steps Down]]></title>
+            <link>https://www.sap.com/news/2024/05/the-end-of-an-era-hasso-plattner-steps-down</link>
+            <guid>https://www.sap.com/news/2024/05/the-end-of-an-era-hasso-plattner-steps-down</guid>
+            <pubDate>Mon, 13 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hasso Plattner steps down from the SAP Supervisory Board on May 15, the last SAP co-founder to leave the company.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_185023c2d1a7a517fd9b3ea922005aa6bdc72da1f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_185023c2d1a7a517fd9b3ea922005aa6bdc72da1f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_185023c2d1a7a517fd9b3ea922005aa6bdc72da1f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The End of an Era: Hasso Plattner Steps Down" src="./media_185023c2d1a7a517fd9b3ea922005aa6bdc72da1f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-end-of-an-era-hasso-plattner-steps-down">The End of an Era: Hasso Plattner Steps Down</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP co-founder Dietmar Hopp once said about co-founder Hasso Plattner: “It’s hard to quantify his legacy. All I can say is that without him, SAP would never have been so successful.” At the 2024 Annual General Meeting of Shareholders on May 15, Plattner will step down from the SAP Supervisory Board after 21 years as its chairman.</div>
+    </div>
+  </div>
+  <p>One need only look at the key milestones in Plattner’s 52-year career at SAP to gain a vivid picture of his legacy. Together with Dietmar Hopp and his fellow co-founders, Plattner created the market for real-time business software, helped steer SAP through more than five decades of fast-moving IT history, and drove SAP’s global expansion – transforming it from a single-product company to the world’s No. 1 provider of enterprise applications.</p>
+  <p>Over the years, he worked tirelessly to open new horizons for the company and its employees, identifying technological trends and channeling his pioneering spirit into revolutionizing far more than just data management.</p>
+  <h2 id="1973-the-early-days">1972-1973: The Early Days</h2>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10d76b7bedbfa9b44f37a7f18de5326417b0bb92d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10d76b7bedbfa9b44f37a7f18de5326417b0bb92d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10d76b7bedbfa9b44f37a7f18de5326417b0bb92d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_10d76b7bedbfa9b44f37a7f18de5326417b0bb92d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="937" height="950">
+          </picture>
+        </p>
+        <p><em>Hasso Plattner (sitting) explains the real-time screen application to colleagues from IBM and ICI</em></p>
+      </div>
+    </div>
+  </div>
+  <p>Having created Germany’s first real-time software application with a user interface, Hasso Plattner and Dietmar Hopp founded a company they named Systemanalyse Programmentwicklung (“System Analysis Program Development”) on April 1, 1972, together with their IBM colleagues Claus Wellenreuther, Klaus Tschira, and Hans-Werner Hector.</p>
+  <p>In 1973, the entrepreneurs launched RF, their first financial accounting system. The “R” in the name stood for “real time.” Developed under Plattner’s leadership, RF laid the foundation for a series of software modules in a system that would later be known as SAP R/1.</p>
+  <p>“Before I worked on RF,” Plattner once said, “I knew nothing about financial accounting; afterwards, I could hold seminars about it for CFOs. And not because I’d read stacks of books or was very smart, but because I’d learned from customers how to build this kind of system. I worked side by side with our customers at their offices every day.”</p>
+  <h2 id="the-formative-years">1976: The Formative Years</h2>
+  <p>Systemanalyse Programmentwicklung was renamed “SAP.” Each of the founders and their employees – numbering about 30 at this point – was a developer, salesperson, and consultant all rolled into one.</p>
+  <p>Hasso Plattner and Dietmar Hopp were constantly competing to be the best at programming and selling their products. Plattner recalls that it made him really mad once when Hopp sold more than he did. Wherever their tasks and skills converged, they would engage in a private, “take-no-prisoners” contest to outdo each other.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1975b69486811901685732531d50d62d6c7fdad0f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1975b69486811901685732531d50d62d6c7fdad0f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1975b69486811901685732531d50d62d6c7fdad0f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1975b69486811901685732531d50d62d6c7fdad0f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="683">
+          </picture>
+        </p>
+        <p><em>Dietmar Hopp (left) and Hasso Plattner: ambitious and always encouraging each other to achieve top performance (in the anniversary year 2022)</em></p>
+      </div>
+    </div>
+  </div>
+  <p>Nevertheless, both men also knew how to harness their ambition and fondness for friendly competition to the benefit of their fledgling business.</p>
+  <h2 id="conversion-and-ipo">1988: Conversion and IPO</h2>
+  <p>SAP GmbH was converted to a stock corporation, SAP AG, and in October 1988 it listed on the stock exchanges in Frankfurt and Stuttgart, providing the company with the funding it needed to expand into even more markets.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_167fffe8a69b999710d7e69376bd52661f180a797.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_167fffe8a69b999710d7e69376bd52661f180a797.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_167fffe8a69b999710d7e69376bd52661f180a797.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_167fffe8a69b999710d7e69376bd52661f180a797.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="745">
+          </picture>
+        </p>
+        <p><em>The initial public stock offering (IPO) was the beginning of a steep stock rise</em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="sap-r3">1991: SAP R/3</h2>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19fecf579dec3857a050cd97a1fe28061e163a3d6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19fecf579dec3857a050cd97a1fe28061e163a3d6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19fecf579dec3857a050cd97a1fe28061e163a3d6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_19fecf579dec3857a050cd97a1fe28061e163a3d6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="690">
+          </picture>
+        </p>
+        <p><em>SAP R/3 made the company a global player. Plattner in 1991 at a Hewlett Packard (HP) event.</em></p>
+      </div>
+    </div>
+  </div>
+  <p>At SAP’s 25th anniversary celebrations in 1997, Plattner recounted an incident in late January 1991, which he described as “probably the most dramatic situation” in the company’s history: “A year before the final delivery date for R/3, we realized during testing that its performance on our mainframe was completely unsatisfactory and that the test conditions were unacceptable. Six weeks before we had planned to present R/3 at the CeBIT trade fair in Hanover, we had all but given up on the project.</p>
+  <p>We called an emergency meeting at which everyone remained standing, such was the urgency of the matter at hand. We decided to halt work on the mainframe systems and, in a last-ditch attempt, to switch to the new, more powerful Unix workstations, which we’d previously only used in development.</p>
+  <p>The presentation of R/3 on Unix was a huge hit. A year and a half later, we began shipping our new client-server software to customers. That was the start of R/3, a business application for network-based computers.”</p>
+  <h2 id="heading-stateside">1992: Heading Stateside</h2>
+  <p>In the early 1990s, when everyone else’s attention was focused on getting SAP R/3 to market quickly, sales of SAP R/2 in Germany were a cause of concern for Dietmar Hopp. As Plattner recalls: “Dietmar and I were standing in his office, and he said to me, ‘It’s not looking good. The only option I can see is for you to pack the system up and take it to America.’” They agreed to continue promoting the SAP R/2 mainframe software in Germany while going all-in on SAP R/3 in the U.S.</p>
+  <p>At the Sapphire customer conference held in Orlando in September 1992, Plattner announced that SAP would deliver the SAP R/3 system within six weeks to anyone who ordered it there and then. By October, computer manufacturer Convex had signed a contract for the new product, giving SAP its first SAP R/3 customer in the United States. And when, not long after that, oil giant Chevron – one of the country’s largest companies – also opted for R/3, SAP’s new software, originally built with the midmarket in mind, was well on track to becoming a global success story.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c3a355f706212ed652d74e2c55b05a54184af9e5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c3a355f706212ed652d74e2c55b05a54184af9e5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c3a355f706212ed652d74e2c55b05a54184af9e5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1c3a355f706212ed652d74e2c55b05a54184af9e5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="675">
+          </picture>
+        </p>
+        <p><em>The computer manufacturer Convex was the first SAP R/3 customer in the U.S.</em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="a-very-special-partnership">1993: A Very Special Partnership</h2>
+  <p>SAP entered into an alliance with the world’s largest software company: Microsoft. Bill Gates, who had flown into Munich to sign the contract in person, told the audience at the press conference announcing the partnership: “We are delighted that SAP, one of the leading providers of standard software, supports Microsoft’s client-server operating system. We believe that many businesses will see this move by SAP as a compelling reason to opt for Windows NT.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19013199f514f4625702a74f7a59abba1a235561d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19013199f514f4625702a74f7a59abba1a235561d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19013199f514f4625702a74f7a59abba1a235561d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_19013199f514f4625702a74f7a59abba1a235561d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="725">
+          </picture>
+        </p>
+        <p><em>The beginning of a long and fruitful partnership: Microsoft founder Bill Gates and Hasso Plattner</em></p>
+      </div>
+    </div>
+  </div>
+  <p>And when, in 2010, Plattner received the Transatlantic Partnership Award, Gates had this to say about his friend and colleague: “I’ve known Hasso for more than three decades. His knowledge, energy, and vision never cease to impress me.”</p>
+  <h2 id="sap-celebrates-its-25th-anniversary">1997: SAP Celebrates Its 25th Anniversary</h2>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f8825a0550d086c89bdd5146f9375a6a696e143e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f8825a0550d086c89bdd5146f9375a6a696e143e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f8825a0550d086c89bdd5146f9375a6a696e143e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1f8825a0550d086c89bdd5146f9375a6a696e143e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="737">
+          </picture>
+        </p>
+        <p><em>SAP turns 25 and celebrates with the Prime Minister of Baden-Württemberg, Erwin Teufel (left) and Federal Chancellor Helmut Kohl (right) in between Hopp, Tschira, and Plattner</em></p>
+      </div>
+    </div>
+  </div>
+  <p>Plattner was appointed co-CEO, alongside Dietmar Hopp. In his speech at SAP’s 25th anniversary celebrations, he spoke about what had helped the company prosper: “Product focus is one pillar of SAP’s success. When a product sells well, the employees share in that sense of achievement. That feeling is just as important to them as the pay they take home each month. Our employees identify with the product – that’s why they have always gone the extra mile. No matter how different our views at times were, we always managed to regroup and we never lost sight of the product. For the past 25 years, the founders and employees of SAP remained true to the original product vision and never veered off course.”</p>
+  <h2 id="sap-conquers-new-york">1998: SAP Conquers New York</h2>
+  <p>On August 3, 1998, the company debuted on the New York Stock Exchange (NYSE), the world’s largest exchange. CEO Hasso Plattner described SAP’s Wall Street listing as “a strategic necessity and logical milestone in the history of SAP.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b14f26dbcde1cfb4a3f4ac26bff81202b5d0ecc2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b14f26dbcde1cfb4a3f4ac26bff81202b5d0ecc2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b14f26dbcde1cfb4a3f4ac26bff81202b5d0ecc2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1b14f26dbcde1cfb4a3f4ac26bff81202b5d0ecc2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="683">
+          </picture>
+        </p>
+        <p><em>By having its shares listed on the New York Stock Exchange “Big Board,” SAP gained new prominence in its most important market</em></p>
+      </div>
+    </div>
+  </div>
+  <p>That same year, Plattner founded the Hasso Plattner Institute (HPI) for Software System Engineering in Potsdam, near Berlin. “The institute here in Potsdam is my contribution to training internationally competitive junior managers who help shape and advance the digital world,” he said.</p>
+  <p>Dietmar Hopp and Klaus Tschira transitioned from the Executive Board to the Supervisory Board, and Plattner became co-CEO alongside Henning Kagermann.</p>
+  <h2 id="the-mysapcom-revolution">1999: The mySAP.com Revolution</h2>
+  <p>In May, Plattner announced the mySAP.com strategy, which set the company and its product portfolio on an entirely new path. Using the latest Web technology, mySAP.com connected e-commerce solutions with the company’s existing ERP applications.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_125b1f1928a1388f8384b736978c6a213389e62e9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_125b1f1928a1388f8384b736978c6a213389e62e9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_125b1f1928a1388f8384b736978c6a213389e62e9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_125b1f1928a1388f8384b736978c6a213389e62e9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="669">
+          </picture>
+        </p>
+        <p><em>To be successful in the increasingly important Internet business, Plattner relied on the mySAP.com strategy</em></p>
+      </div>
+    </div>
+  </div>
+  <p>According to Plattner, success on the Internet was key to the company’s survival. At the Sapphire conference in Philadelphia in September 1999, a live demo of mySAP.com — with a prelude by Plattner playing Queen’s “I Want to Break Free” live on electric guitar — was enough to convince customers to adopt SAP’s Web strategy.</p>
+  <p>And, true to form, Plattner was already thinking about where the technology would go next, predicting that e-commerce and the hosting of applications on SAP servers would be “the future of software sales.”</p>
+  <h2 id="from-executive-board-to-supervisory-board">2003: From Executive Board to Supervisory Board</h2>
+  <p>Plattner stepped down from the Executive Board and was elected chairman of the Supervisory Board.</p>
+  <p>Speaking at the Annual General Meeting of Shareholders in May, he said: “This rising star of the 90s is now playing in the same league as IBM, Microsoft, and Oracle.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fbc111a4f8322bcafea8f5269955b9d4807255cb.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fbc111a4f8322bcafea8f5269955b9d4807255cb.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fbc111a4f8322bcafea8f5269955b9d4807255cb.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1fbc111a4f8322bcafea8f5269955b9d4807255cb.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="681">
+          </picture>
+        </p>
+        <p><em>With Plattner’s withdrawal from the Executive Board, Kagermann (left) becomes the sole CEO</em></p>
+      </div>
+    </div>
+  </div>
+  <p>Though no longer its CEO, Plattner continued to channel his passion and his eye for technological trends into driving SAP forward, but now in his new role as chief software advisor on the Supervisory Board. That same year, he helped found the Hasso Plattner Institute of Design (“d.school”) at Stanford University, providing funds to support its work on design thinking, a new approach to finding creative solutions to complex problems.</p>
+  <h2 id="the-in-memory-database">2006: The In-Memory Database</h2>
+  <p>It was in 2006 that Plattner and students at HPI began work on a revolutionary technology. The result was SAP HANA (<strong>H</strong> igh-Performance <strong>AN</strong> alytic <strong>A</strong> ppliance), an entirely new, column-oriented, in-memory database management system.</p>
+  <p>“It’s not so easy for a big company to break out and do something radically different,” said Plattner. “The university context gives you the freedom to do it.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1eabfa710ea44e5ed2f80b5f5cc8b2fe2887a2033.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1eabfa710ea44e5ed2f80b5f5cc8b2fe2887a2033.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1eabfa710ea44e5ed2f80b5f5cc8b2fe2887a2033.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1eabfa710ea44e5ed2f80b5f5cc8b2fe2887a2033.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="680">
+          </picture>
+        </p>
+        <p><em>Plattner loves to pass on his knowledge to young people</em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="2013-sap-hana-drives-growth">2011-2013: SAP HANA Drives Growth</h2>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1041d63cb46cf4ee98f676d9a1ce51d3e4799346d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1041d63cb46cf4ee98f676d9a1ce51d3e4799346d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1041d63cb46cf4ee98f676d9a1ce51d3e4799346d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1041d63cb46cf4ee98f676d9a1ce51d3e4799346d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="681">
+          </picture>
+        </p>
+        <p><em>Plattner talks about the importance of SAP HANA at the SAPPHIRE NOW conference in Orlando in 2012</em></p>
+      </div>
+    </div>
+  </div>
+  <p>Five years later, the first SAP HANA customers began implementing the new database, which generated the kind of demand not seen since the market launch of SAP R/3.</p>
+  <p>By the end of 2013, the entire SAP Business Suite had moved to SAP HANA. In the three years since its launch, SAP HANA had garnered nearly €1.2 billion in revenues, making it one of the fastest-growing products in the history of enterprise software.</p>
+  <p>In an interview with German daily <em>Handelsblatt</em> in 2020, Plattner said: “SAP HANA is so superior in practice that there is no alternative. And quite honestly, it saved SAP’s life, because it let us massively accelerate our ERP system without a lot of changes, while physically downsizing it at the same time. That meant a huge cost saving for our customers.”</p>
+  <h2 id="the-foundation">2015: The Foundation</h2>
+  <p>Plattner reinforced his commitment to promoting education and culture by setting up the Hasso Plattner Foundation.</p>
+  <p>Among the many causes the foundation has supported over the years are programs to promote healthcare and health education in South Africa. The German city of Potsdam also has much to thank Plattner for: The Hasso Plattner Institute is the largest investment in Potsdam and the one that bears his signature most strongly. The Barberini Museum that he rebuilt completes the inner cityscape of Potsdam and provides a home for his impressive Impressionist collection — the largest outside of France. With the Kunsthaus MINSK, he saved one of the few architectural icons of the GDR era and created a home for his GDR art collection.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17f549db93ae704dcec772e0a2339218fe1ce372d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17f549db93ae704dcec772e0a2339218fe1ce372d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17f549db93ae704dcec772e0a2339218fe1ce372d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_17f549db93ae704dcec772e0a2339218fe1ce372d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="576">
+          </picture>
+        </p>
+        <p><em>Celebrities at the opening of the Barberini Museum in Potsdam in 2017</em></p>
+      </div>
+    </div>
+  </div>
+  <p>On being asked why he chooses to get involved with causes and projects of this kind, Plattner explained: “I owe the resources and skills for life to my parents and, above all, to my studies at the public technical university in Karlsruhe. That’s why I want to give something back in the area of education, so that others can also benefit from it.”</p>
+  <h2 id="learn-from-our-customers">2022: Learn from Our Customers</h2>
+  <p>In an interview to mark SAP’s 50th anniversary, Plattner shared some advice: “I recommend a return to the approach we used in the early days of SAP – of sending SAP teams out to the customer. Instead of implementing our standard systems, they should find out how people actually use the tools they get from SAP and other vendors. That will give us our starting point. There are so many interesting companies out there. We can learn from them and with them. We have to step outside SAP and do something with the customers.”</p>
+  <p>And in a comment directed to SAP employees, he said: “Treat the customers well – once we have them, we have to keep them. That’s one of SAP’s strengths. And never think it’s done. You have to carry on. The job is never done!”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a34e8e4286e56c3ddf02ae86fe48f85adf8d6b14.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a34e8e4286e56c3ddf02ae86fe48f85adf8d6b14.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a34e8e4286e56c3ddf02ae86fe48f85adf8d6b14.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1a34e8e4286e56c3ddf02ae86fe48f85adf8d6b14.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="578">
+          </picture>
+        </p>
+        <p><em>“Treat the customers well” – Plattner’s wish to employees on SAP’s 50th birthday</em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="2024">2024</h2>
+  <p>Plattner will step down from the Supervisory Board on May 15, the last of the SAP co-founders to leave the company.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-more-of-saps-more-than-50-year-history-of-success-that-began-with-five-entrepreneurial-programmers">Explore more of SAP’s more than 50-year history of success that began with five entrepreneurial programmers</h3>
+        <p><em><a href="https://www.sap.com/about/company/history.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[Leading the Way in the Nordics with SAP R/3]]></title>
+            <link>https://www.sap.com/news/2024/01/sap-in-the-nordics-sap-r3-leading-the-way</link>
+            <guid>https://www.sap.com/news/2024/01/sap-in-the-nordics-sap-r3-leading-the-way</guid>
+            <pubDate>Fri, 05 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn about the history of SAP in the Nordics! Helle Dochedahl and former SAP Co-CEO Jim Hagemann Snabe look back on over 35 years.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[On the Hunt for Iconic Moments from SAP’s 50-Year History]]></title>
+            <link>https://www.sap.com/news/2022/11/nft-drop-sap-teched</link>
+            <guid>https://www.sap.com/news/2022/11/nft-drop-sap-teched</guid>
+            <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP TechEd 2022, participants can take part in a unique NFT drop, collecting 15 pieces of digital art based on SAP's 50-year history.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP's 50th Anniversary: Commemorative Book Out Now!]]></title>
+            <link>https://www.sap.com/news/2022/08/sap-coffee-table-book-50th-anniversary</link>
+            <guid>https://www.sap.com/news/2022/08/sap-coffee-table-book-50th-anniversary</guid>
+            <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[An SAP coffee table book offers stories and insight into how the company rose to prominence and why it looks to the future with confidence.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP in Latin America: Staying Power, Nerves of Steel]]></title>
+            <link>https://www.sap.com/news/2022/05/sap-in-latin-america-staying-power-nerves-of-steel</link>
+            <guid>https://www.sap.com/news/2022/05/sap-in-latin-america-staying-power-nerves-of-steel</guid>
+            <pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[For SAP in Latin America, doing business successfully requires pragmatism, staying power, and nerves of steel—true in the 1990s and today.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Flies High in the United Kingdom]]></title>
+            <link>https://www.sap.com/news/2022/04/sap-uk-ireland</link>
+            <guid>https://www.sap.com/news/2022/04/sap-uk-ireland</guid>
+            <pubDate>Fri, 29 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the history of SAP UK & Ireland, including how the companies continued to fly high in the United Kingdom despite challenges .]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1661a09b5e761dec925c186b712f26dfcd70ec162.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1661a09b5e761dec925c186b712f26dfcd70ec162.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1661a09b5e761dec925c186b712f26dfcd70ec162.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Flies High in the United Kingdom" src="./media_1661a09b5e761dec925c186b712f26dfcd70ec162.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-flies-high-in-the-united-kingdom">SAP Flies High in the United Kingdom</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the 1990s, SAP continued to fly high in the United Kingdom. The company faced many challenges — not least managing a burgeoning headcount. And although some employees took a career detour along the way, the majority navigated their way safely back to the SAP world again.</div>
+    </div>
+  </div>
+  <p>Yet another training course is abruptly interrupted. Why? On the nearby runway at Heathrow Airport, a Concorde is preparing for take-off. “From the windows of our training rooms, we had a clear view of Concorde taking off,” says Peter Hunt. “And it wasn’t just the tremendous noise that caused the training sessions to be paused for several minutes at a time; basically, we all just wanted to witness this magnificent event.” Hunt joined SAP as a consultant in 1995. Having previously worked at Siemens, he was initially unsure whether he had made the right decision moving from a large German company to a small German company. Now, following various jobs at other companies, he has returned to SAP for the third time and works in Strategic Partner Management.</p>
+  <p>But Hunt’s story is not unique: It was said that when people left, many of them got their trouser braces caught in the door and were pulled back to SAP again.</p>
+  <p>Peter Hunt is still proud today of SAP’s triumphant rise in the United Kingdom following the introduction of SAP R/3 and the part he played in that success.</p>
+  <p>And speaking of reaching new heights, SAP’s rapid growth meant that, in 1995, another move became inevitable. And so it was that in May of the same year, SAP UK relocated from Weybridge to Feltham, a large town in West London. “We used to joke that locations were chosen based on how difficult they were for German-speakers to pronounce,” recalls Russell Thomas, who at the time was based in Walldorf working on UK payroll.</p>
+  <p>At first, the subsidiary set up its offices in an impressive new building in New Square at Bedfont Lakes, close to Heathrow Airport, where IBM had already taken up residence. A few years later, the New Square building parking garage was used as a set in the James Bond movie “Tomorrow Never Dies.” Looking back, its location near the airport seems symbolic of SAP UK’s success story even now. “SAP’s decision not to follow in the footsteps of many other tech companies and set up its offices in the Thames Valley along the M4 corridor that runs from Reading to Swindon was a pragmatic one, taken to make the journey to the subsidiary easier for senior managers flying in from Germany,” says Michael Longden, who joined SAP from one of its customers in 1992.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-stories-about-saps-history">Read more stories about SAP's history</h3>
+      </div>
+      <div><strong><a href="/topics/sap-history">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="a-growing-need-for-training">A Growing Need for Training</h2>
+  <p>The Bedfont Lakes location offered other benefits too: Kyla Fox, who has been working as a management assistant at SAP for 28 years, remembers going for lunch at the IBM cafeteria, which served excellent food. “We simply swiped our cards and sauntered in past all the IBM employees lined up to pay for their food. SAP has always had a culture of providing free meals for employees.” And across the other side of the airport, at the Nobel Drive Training Centre on Bath Road, alongside the runway, SAP found sufficient space to meet its growing training needs. Alongside the center in Walldorf, it was one of the company’s largest training facilities at the time, with courses being held over four floors.</p>
+  <p>“Held in English, the courses attracted many participants from outside the UK too. As Head of Training, Jeremy White really had his hands full,” says Michael Longden.</p>
+  <p>“We were in the same boat as our customers,” recalls Peter Hunt. “A lot of the software, the help screens, and the documentation were still in German; and we were really also trying to convince ourselves when we asked our customers to trust us that there would be an English version soon.”</p>
+  <p>To meet the increased demand for consulting, SAP set up a consulting academy at the Training Center in 1995. The plan was for a further 500 R/3 specialists every year to join the ranks of the nearly 1,000 consultants already helping customers implement SAP’s new ERP system.</p>
+  <p>The demand for support too, was keeping pace. In 1993, the designated support hotline set up two years previously for SAP customers in the United Kingdom, for whom an SAP information database was also available, was expanded to create the Customer Support Group UK, headed up by Terrie Creswell until 1999. She had joined SAP in 1991, when R/2 was still the active product and when the way for R/3 was just about to be prepared. “I had started out in Training and spent a lot of time talking to our customers. So I knew that they were frustrated and wanted local support to meet the needs that centralized support in Walldorf couldn’t,” Terrie Creswell recalls. Ultimately, managing director Petra Frenzel tasked her with establishing a support group in London. “And so I was involved in setting up the global 24/7 customer service network. Working closely with colleagues around the world, we wrote the white paper that laid the groundwork for the future Customer Competence Centers.”</p>
+  <h2 id="close-ties-with-headquarters">Close Ties with Headquarters</h2>
+  <p>While SAP UK continued to expand at every level, construction of an imposing new office building began right next to the company’s headquarters in 1997. “Whenever we drove past the huge building site, we thought how great it would be if this were to become the new home of SAP UK,” recalls Peter Hunt.</p>
+  <p>The company was occupying more and more of the IBM building and it was clear that a larger headquarters was needed. Petra Frenzel and her leadership team were able to convince Executive Board member Henning Kagermann to acquire the new building. In the meantime, responsibility for SAP UK had been handed back from SAP International to SAP AG in Walldorf. “With Clockhouse Place, we had our own landmark building – visible both from the air and the road,” says Martin Metcalf, who was then part of the management team and would later become managing director of SAP UK.</p>
+  <p>Just as SAP UK’s management team were in frequent contact with the senior management in Germany, employees in the UK valued having a close relationship with SAP headquarters too. Sam Karbani, who joined SAP in 1996 and today works in Globalization Services, recalls her first trip to Walldorf, “Whenever anyone went to Germany for the first time, we’d tell them to ‘touch the ball.’” Touching the rotating basalt sphere in the foyer at SAP headquarters became a symbol for bonding with the parent company. “It was great to be able to work with the developers in Walldorf. I struggled a bit with the German cafeteria food, which back then was very meat-heavy, unlike in the UK, where there were already lots of vegetarians. But collaborating with our German colleagues was an experience I always relished.”</p>
+  <p>Fiona Walsh recalls how important it was, especially in Customer Support, to have a solid network in Walldorf: “That was the SAP spirit: learning and sharing your knowledge – and being generous with your time in that respect.” She joined SAP in 1992 and worked as an English-language assistant to SAP Executive Board Members Hans Schlegel and Klaus Tschira. “The EVZ, or WDF01 as it is now known, with its exclusive customer center on the sixth floor, had just been built, and hanging in the foyer was the ‘R/3 clock,’ which counted down the days remaining until the launch of SAP R/3.”</p>
+  <h2 id="expansion-to-ireland">Expansion to Ireland</h2>
+  <p>Following the official opening of the SAP Service and Support Centre (Ireland), Ltd. (SSC Dublin) in early 1997 to create additional support capacity for SAP’s international SAP R/3 customer base, the next logical step was to establish a dedicated sales office for Ireland. Until then, SAP’s Irish business had been conducted by a small team of salespeople and consultants based in London. Now, the new support unit was to report to Executive Board member Gerd Oswald and the sales unit to SAP UK. Among the new employees in Ireland was Irish-born Fiona Walsh, who came highly recommended by co-founder Klaus Tschira. Having worked in Germany for six years, she then transferred to the new sales office at Dublin’s East Point Business Park, where she took on the role of customer support manager. “In those days, our Irish customers preferred to deal with Irish companies,” says Fiona Walsh. “Over the next few years, SAP gained traction unbelievably quickly in the Irish market.”</p>
+  <p>Among those invited to the opening of the Dublin sales office were SAP UK employees, “We celebrated the opening at the Clarence Hotel, a four-star establishment that had been bought and newly refurbished by U2 singer Bono and U2 guitarist The Edge, and opened in 1996,” recalls Michael Longden, who rejoined SAP in 2008 following an almost 10-year break and today works as an SAP S/4HANA expert in Public Cloud Presales.</p>
+  <h2 id="a-change-in-command">A Change in Command</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-timeline-of-saps-history">Explore the timeline of SAP's history</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/company/history.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The success of SAP in the UK and Ireland could have been Petra Frenzel’s ticket to a more senior role. But ultimately, her priority was to reduce her professional commitments. As is so often the case, it was easier for her to do this by leaving the company. “Henning Kagermann placed a great deal of trust in me when he gave me the opportunity to take on the role of managing director of SAP UK,” she says. When Petra Frenzel returned to SAP eight years later, she did so because she believed that she could best show her gratitude by once again being a highly committed member of the company.</p>
+  <p>Kevin Gibson, who had joined SAP in 1991, took over from Petra Frenzel as managing director at the beginning of 1998. “Kevin was a great leader and it was exciting to be part of the Sales team at this time. There was a lot of work to do, but we were all so proud of our successes. There was a wonderful sense of teamwork,” recalls Katie Wall, who joined SAP in 1996 as an executive assistant.</p>
+  <p>Fourteen months later, Kevin Gibson was to leave SAP and join Ariba Technologies. SAP management in Walldorf appointed Erwin (Ernie) Gunst as his successor. “And so there was another change, from a UK-focused to a more internationally aligned leadership style,” recalls Andrew Lack, who has been with SAP since 1998 and now sells SAP solutions for the consumer products industry. “It must have been quite a balancing act, on the one hand trying to stay close to the UK marketplace and on the other hand bridging the cultural gap to Walldorf and the rest of the SAP world.” However, the focus of leadership changes was always on spreading experience across the globe “SAP sent brilliant people on international assignments to really make a difference around the world,” says Hakan Yuksel, who was CFO and COO of SAP UK &#x26; Ireland (UKI) when Erwin Gunst took over as managing director from Kevin Gibson in 1999.</p>
+  <p>Former Head of Training and Customer Service Director Jeremy White knows from experience that “SAP UK offered an entrepreneurial working environment for self-starters. But it wasn’t for everyone. For some, it gave them a feeling of autonomy, while others perhaps felt they were left to their own devices. You had all the necessary ingredients to advance your career – you just had to get started and make it happen. However, a logical consequence of this was also that people often moved on and furthered their careers elsewhere.” Generally, however, they stayed in the SAP fold. One such example is White himself, who left SAP in 1998, but still works in the SAP ecosystem today. Kevin Richardson, who joined SAP in 1994 and now works at SAP Australia puts it like this, “Sometimes ex-colleagues of ours ended up spending more time with us at the office when they worked for partners than when they worked for SAP.”</p>
+  <p>Meanwhile, there were 6,000 trained consultants in the UK and Ireland, of whom only five percent were SAP employees, while the remaining 95% worked at partner companies. In 2001, around 1.6 million people on the British Isles were part of the SAP ecosystem. Fiona Walsh is glad she still works within SAP’s partner network, “The footprint SAP offers in the UK and Ireland has been really beneficial and a lot of people have made really good careers out of it. And this wonderful culture of partnership has been crucial to SAP’s success.”</p>
+  <h2 id="no-growth-without-change">No Growth Without Change</h2>
+  <p>In 2000, SAP UK &#x26; Ireland achieved a growth rate of 40%, with business from the new “mySAP.com” solution accounting for half of that increase. Some 50% of the subsidiary’s revenues came from new customers, whose number rose to around 800. The millennium also saw Ernie Gunst replaced as managing director by Hans-Peter Klaey. “Hans-Peter came to meetings armed with his now legendary folder. He documented everything in that folder – down to the very last detail,” recalls Peter Robertshaw, who was marketing director at SAP UKI from 2000 until 2004. “That meant we had an accurate record of any objectives we discussed; it brought a new level of structure to our working practices.”</p>
+  <p>Under Klaey’s leadership, SAP UK became the principal sponsor of London’s Donmar Warehouse theater. As well as making a difference in the community, the company wanted to raise public awareness of the SAP brand in the United Kingdom. “The Donmar is a very avant-garde theater that attracts high-profile performers,” explains Melanie Waring, who joined SAP from Oracle in 2000 and has worked in various marketing and corporate marketing roles over the years.</p>
+  <p>In the early 2000s, many functions – marketing included – that had previously been the UK subsidiary’s own responsibility became part of group-wide structures. This shift was at odds with the tight-knit atmosphere that was characteristic of SAP UK in the early days and had fueled a strong sense of solidarity and friendship.</p>
+  <p>In September 2001, the world was turned upside down by the 9/11 terrorist attacks. “We’d all been at an offsite meeting in Windsor,” recalls Peter Robertshaw. “I remember seeing all the people in the pubs staring in shock at the TV.” Kevin Richardson was teaching at the Nobel Drive training centre and recalls how everyone stopped and gathered around the TV in the canteen. “Everyone will remember where they were on that day”, says Richardson. SAP provided financial support to those affected. Meanwhile, it urged its employees around the world to manage their costs carefully. Barely four years later, London itself became the victim of terrorist attacks.</p>
+  <h2 id="turbulence">Turbulence</h2>
+  <p>At SAP UK, cost-saving measures led to lay-offs. With the subsidiary realigning its overall strategy to focus more on sales figures, employees who had not previously worked in sales bore the brunt of that shift. One of them was John Bannister, who, in 1988, had become SAP UK’s tenth employee. “I was laid off overnight – after almost 14 years. That really pulled the rug from under my feet.” Nevertheless, and perhaps surprisingly, Bannister is still in touch with numerous SAP alumni, follows SAP’s progress with keen interest, and enjoys reminiscing about his years at SAP. But: “However vital a realignment – and whatever the local notice periods are – there should be a rethink of the way in which employees are laid off, especially given the strong attachment they feel to SAP. Looking back, the nature of my departure from SAP is something neither I nor the company can be proud of,” he says.</p>
+  <p>At the beginning of 2002, Martin Metcalf was appointed managing director. He had previously served as sales director, then chief operating officer, and had been on the management team for seven years. At that time, despite all the difficulties the IT market faced, SAP was recognized as one of the top 15 employers in Britain.</p>
+  <p>Among SAP’s main competitors on the UK market was Oracle. “Back then, Oracle was the dominant supplier, particularly in the public sector, and it was initially difficult for us to gain a foothold,” says Martin Metcalf. The deal SAP signed in 2002 with the Inland Revenue – now called HMRC and responsible for assessing and collecting UK taxation – opened the door to this sector and was a landmark event in Metcalf’s eyes, not least because it shone a light on the expertise and support coming from management in Walldorf. “CEO Henning Kagermann flew over from Germany for the final stage of negotiations. He undertook to do everything in his power to meet the customer’s requirements in full, even though we couldn’t do that 100% at the time the deal was signed. We had an incredibly visionary product and – although we did of course face some huge challenges initially – customers believed in us.”</p>
+  <p>Fiona Walsh attributes SAP’s success in large part to the high level of investment in the industries. “At presentations, our presales people were always able to impress with their extensive knowledge, and they talked about the real problems plaguing customers in their respective industries. That made their audiences feel like they were in safe hands.”</p>
+  <h2 id="learning-processes-and-management-styles">Learning Processes and Management Styles</h2>
+  <p>“Change is part of the natural evolution of a rapidly growing company,” says Martin Metcalf. SAP has been through all kinds of learning processes and different management styles and changes over the years, says Fiona Walsh. “But today’s whole movement into the cloud stems from the same ambition we had in the early days to help our customers be as successful as they can,” she adds.</p>
+  <p>For Martin Metcalf, who had been with the subsidiary in London since 1993 and accompanied its rapid growth for more than a decade, it was an honor being head of one of SAP’s leading subsidiaries and when he resigned from his post, which he held from 2002 to 2005, it was because he wanted to expand his leadership experience outside the SAP world. But he has long since returned to the SAP ecosystem and has fond memories of his career at SAP.</p>
+  <p>We heard similar stories from almost all of the 23 employees interviewed for this article. Many profess to having SAP “in their blood” or “in their DNA.” And while Concorde touched down at Heathrow Airport – just a stone’s throw from SAP UK’s offices – on its last ever landing on October 24, 2003, SAP continued to fly high, accompanied by an ever-expanding partner ecosystem in which many SAP alumni are still active.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_15994b41bb2f79e47ac1e3c988b19caf386a4905b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_15994b41bb2f79e47ac1e3c988b19caf386a4905b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_15994b41bb2f79e47ac1e3c988b19caf386a4905b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_15994b41bb2f79e47ac1e3c988b19caf386a4905b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_102689e0ac280c1b6968f7757ee52d0103ed08c41.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_102689e0ac280c1b6968f7757ee52d0103ed08c41.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_102689e0ac280c1b6968f7757ee52d0103ed08c41.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_102689e0ac280c1b6968f7757ee52d0103ed08c41.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_11ac2dce51c5834e87d10d035ee5cf32970399148.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_11ac2dce51c5834e87d10d035ee5cf32970399148.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_11ac2dce51c5834e87d10d035ee5cf32970399148.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_11ac2dce51c5834e87d10d035ee5cf32970399148.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14080eec6d066922ef43150130dc83b1d41f8ec45.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14080eec6d066922ef43150130dc83b1d41f8ec45.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_14080eec6d066922ef43150130dc83b1d41f8ec45.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_14080eec6d066922ef43150130dc83b1d41f8ec45.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_10b0567c5d1d543dcf1f3983977e640103e75340a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_10b0567c5d1d543dcf1f3983977e640103e75340a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_10b0567c5d1d543dcf1f3983977e640103e75340a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_10b0567c5d1d543dcf1f3983977e640103e75340a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP West Balkans: Reliability as the Key to Normality]]></title>
+            <link>https://www.sap.com/news/2022/04/sap-west-balkans-reliability-as-the-key-to-normality</link>
+            <guid>https://www.sap.com/news/2022/04/sap-west-balkans-reliability-as-the-key-to-normality</guid>
+            <pubDate>Fri, 22 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn the history of SAP West Balkans, where faced with many challenges the company turned an inauspicious start into success.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP in Southeast Asia: Total Freedom]]></title>
+            <link>https://www.sap.com/news/2022/04/sap-in-southeast-asia</link>
+            <guid>https://www.sap.com/news/2022/04/sap-in-southeast-asia</guid>
+            <pubDate>Fri, 15 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To establish business for SAP in Southeast Asia, management relied on the instincts and gave local sales teams a long leash. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP’s Journey to Dresden, East Germany’s Answer to Silicon Valley]]></title>
+            <link>https://www.sap.com/news/2022/04/sap-in-eastern-germany-dresden-silicon-valley</link>
+            <guid>https://www.sap.com/news/2022/04/sap-in-eastern-germany-dresden-silicon-valley</guid>
+            <pubDate>Fri, 08 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[After the fall of the Berlin Wall in 1989, Dresden became a key business location for SAP. Learn more about SAP in Eastern Germany.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Labs India: From Localization Team to Global Hub]]></title>
+            <link>https://www.sap.com/news/2022/04/sap-labs-india-localization-team-global-hub</link>
+            <guid>https://www.sap.com/news/2022/04/sap-labs-india-localization-team-global-hub</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take a look back at SAP Labs India and its exciting journey fueled by vision, entrepreneurial spirit, and a readiness to innovate.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-history</category>
+            <category>news-tag/sap-labs-network</category>
+        </item>
+    </channel>
+</rss>

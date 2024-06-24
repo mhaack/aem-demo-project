@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-signavio-process-explorer/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 15 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Signavio Again Leads the 2024 SPARK Matrix™ for Digital Twin of an Organization]]></title>
+            <link>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</link>
+            <guid>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio is a Leader in the 2024 SPARK Matrix for Digital Twin of an Organization (DTO) for the fourth consecutive year. Read more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Twin of an Organization: Reflections on the State of Your Business Processes]]></title>
+            <link>https://www.sap.com/news/2023/06/digital-twin-of-an-organization-reflections-on-the-state-of-your-business-processes</link>
+            <guid>https://www.sap.com/news/2023/06/digital-twin-of-an-organization-reflections-on-the-state-of-your-business-processes</guid>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio has been named a Leader in the Digital Twin of an Organization (DTO) market by Quadrant Knowledge Solutions. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future-Proof Organization Is a Process-Centric Organization]]></title>
+            <link>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</link>
+            <guid>https://www.sap.com/news/2023/05/future-proof-organization-is-process-centric</guid>
+            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP Signavio process integrations, automations, and methodologies establish SAP as a true visionary in the process transformation field.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+            <category>product/sap-signavio-process-manager</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Signavio Process Explorer: Helping Customers Become Faster, Better, Stronger]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-process-mining-helping-customers</link>
+            <guid>https://www.sap.com/news/2023/02/sap-signavio-process-explorer-process-mining-helping-customers</guid>
+            <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the growing use of process mining and related tools, SAP Signavio Process Explorer can offer customers needed guidance. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/process-mining</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+    </channel>
+</rss>

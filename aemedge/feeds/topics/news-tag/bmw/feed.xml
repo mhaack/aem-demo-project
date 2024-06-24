@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/bmw/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 22 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[What the Automotive Industry Can Learn from the Next Wave of Digital Transformations]]></title>
+            <link>https://www.sap.com/blogs/2024/02/next-wave-digital-transformation-automotive-industry</link>
+            <guid>https://www.sap.com/blogs/2024/02/next-wave-digital-transformation-automotive-industry</guid>
+            <pubDate>Thu, 22 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the automotive industry, disruption is a massive opportunity. Learn more about the next wave of digital transformation in the industry.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>industry/automotive</category>
+            <category>news-tag/bmw</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[BMW Group Revs Up iFACTORY Plants with SAP S/4HANA and Supply Chain Logistics]]></title>
+            <link>https://www.sap.com/news/2023/09/bmw-ifactory-sap-s-4hana-supply-chain-logistics</link>
+            <guid>https://www.sap.com/news/2023/09/bmw-ifactory-sap-s-4hana-supply-chain-logistics</guid>
+            <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The BMW iFACTORY in Oxford, UK, has successfully gone live with SAP S/4HANA, a milestone for BMW’s iFACTORY. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/automotive</category>
+            <category>news-tag/bmw</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+    </channel>
+</rss>

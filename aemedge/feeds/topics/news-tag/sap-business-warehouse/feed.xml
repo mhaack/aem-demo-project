@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-business-warehouse/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 29 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem]]></title>
+            <link>https://www.sap.com/news/2024/01/modernize-sap-bw-with-sap-datasphere-open-data-ecosystem</link>
+            <guid>https://www.sap.com/news/2024/01/modernize-sap-bw-with-sap-datasphere-open-data-ecosystem</guid>
+            <pubDate>Mon, 29 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is now offering a limited-time, complimentary SAP BW system assessment to help you optimize your transition to SAP Datasphere.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem" src="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="modernize-sap-business-warehouse-with-sap-datasphere-and-its-open-data-ecosystem">Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many SAP Business Warehouse (SAP BW) customers are seeking to leverage cloud-based solutions but want to ensure that their previous investments are safeguarded. While the benefits of modernizing to the cloud are clear, customers need a flexible path that builds upon their existing technology and talent.</div>
+    </div>
+  </div>
+  <p>SAP Datasphere can offer that path. Its native connectivity to SAP BW means customers can reuse up to 80% of existing SAP BW content, retaining value while adding cloud speed, scale, and interoperability and avoiding costly and unnecessary rework.</p>
+  <p>Delivering meaningful data to every data professional requires a comprehensive cloud data service. With SAP Datasphere, organizations can:</p>
+  <ul>
+    <li>Access authoritative data, accelerating time-to-value by automatically reusing the semantical definitions and associations from SAP applications.</li>
+    <li>Enrich all data projects, harmonizing heterogeneous data into a business semantic model of their diverse data landscapes.</li>
+    <li>Simplify the data landscape, accessing all their data across hybrid and cloud environments no matter where it resides.</li>
+  </ul>
+  <p>SAP has also partnered with an open data ecosystem of leading technology vendors to provide tailored integration between SAP Datasphere and their solutions. The first set of industry-leading data and AI vendors includes Collibra, Confluent, Databricks, DataRobot, and Google Cloud. By closely integrating their data and AI platforms with SAP Datasphere, organizations can access their mission-critical business data across any cloud infrastructure.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transition-to-a-modern-business-data-fabric-at-your-pace-with-sap-datasphere">Transition to a modern business data fabric at your pace with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/migration.html#migration">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="flexible-paths-to-the-cloud">Flexible Paths to the Cloud</h2>
+  <p>Many SAP BW users have always-on projects that depend on SAP BW data and objects, which requires flexibility in modernizing to the cloud.</p>
+  <p>SAP offers flexible paths. Whether you’re moving directly or integrating SAP Datasphere as part of your data landscape to enhance your SAP BW deployment, there’s a strategy:</p>
+  <ul>
+    <li>Gradually transition functionality over time using <a href="https://community.sap.com/topics/datasphere/bw-bridge">SAP Datasphere, SAP BW bridge</a> to reuse and integrate SAP BW objects.</li>
+    <li>Leverage SAP BW data ingestion and staging to accelerate the move or, for SAP Business Suite customers without SAP BW, move directly to SAP Datasphere.</li>
+    <li>In some cases, migrate SAP BW systems to SAP Datasphere for a complete transition.</li>
+    <li>Modernize with a combination of SAP Datasphere and SAP HANA Cloud to benefit from the capabilities of both solutions. SAP Datasphere can provide the foundation for a business data fabric, while SAP HANA Cloud enables the development of intelligent data applications.</li>
+  </ul>
+  <p>The goal is to provide options to fit each customer’s unique environment and timeline. With the right approach, the move to SAP Datasphere can be straightforward while optimizing previous investments.</p>
+  <p>Our experienced SAP partners understand the importance of flexible paths. They work with our customers to outline customized modernization paths that can safeguard their technology and fit their goals.</p>
+  <div class="quote">
+    <div>
+      <div>We are excited to help SAP BW customers experience the power of SAP Datasphere. We’ve already seen multiple customers take this modernization approach and it’s the ideal modernization path to protect the customer’s existing SAP BW investments.</div>
+    </div>
+    <div>
+      <div>Deepu Sasidharan, Vice President, Analytics, Applexus</div>
+    </div>
+  </div>
+  <p>No matter which path a customer takes, they can always progress to SAP Datasphere. Technically, this can be achieved with the support of SAP Datasphere, SAP BW bridge and modernization tools. That’s why customers like <a href="https://www.sap.com/asset/dynamic/2022/7/cd349586-5fc8-4a25-8486-4204460ca03d.html">Nipro</a> chose SAP Datasphere.</p>
+  <div class="quote">
+    <div>
+      <div>SAP Datasphere, SAP BW bridge is a complete game changer. The cloud architecture allows us to simplify our landscape. We are also seeing significant improvements in our performance.</div>
+    </div>
+    <div>
+      <div>Iaroslav Korzh, SAP Technology Manager, Nipro Europe Group Companies</div>
+    </div>
+  </div>
+  <h2 id="new-professional-readiness-assessment">New Professional Readiness Assessment</h2>
+  <p>Whether you’re starting fresh or modernizing an existing system, having a solid plan is key for a successful move to the cloud.</p>
+  <p>SAP is now offering a limited-time, complimentary SAP BW system assessment to help you optimize your transition to SAP Datasphere. Through this assessment, you can gain insight into your SAP BW environment and learn which objects are active and frequently used and whether they can be migrated.</p>
+  <p>This assessment helps deliver a reliable basis for an actionable modernization plan. With the right information, you can modernize on your terms. Get started today by applying for your complimentary <a href="https://www.sap.com/registration/free-assessment-offer-for-bw-customers.html">assessment</a>.</p>
+  <h2 id="get-started">Get Started</h2>
+  <p>Visit our <a href="https://www.sap.com/products/technology-platform/datasphere/migration.html#migration">Web site</a> for the latest modernization tools, including our <a href="https://www.sap.com/documents/2023/10/96cfbee0-8f7e-0010-bca6-c68f7e60039b.html">getting started guide</a>, <a href="https://community.sap.com/t5/technology-blogs-by-sap/watch-the-sap-bw-modernization-webinar-series/ba-p/13699559">technical deep dive webinar series</a>, and <a href="https://www.sap.com/registration/free-assessment-offer-for-bw-customers.html">professional readiness assessment</a>.</p>
+  <p>SAP BW customers moving to SAP Datasphere may also qualify for exclusive incentives. Contact your SAP representative before this limited-time opportunity expires.</p>
+  <div class="footnote">
+    <div>
+      <div>Daniel Yu is senior vice president of Solution Management and Product Marketing for SAP Data and Analytics.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/sap-business-warehouse</category>
+            <category>product/sap-datasphere</category>
+        </item>
+    </channel>
+</rss>

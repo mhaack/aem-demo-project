@@ -136,7 +136,7 @@ indices:
         select: h2[id="intro"] + p
         value: textContent(el)
       intro-img:
-        select: h2[id="intro"] ~ p img:first-of-type
+        select: img
         value: attribute(el, "src")
       page-tabs:
         select: .page-tabs > div > div
@@ -160,7 +160,7 @@ indices:
         select: h2[id="intro"] + p
         value: textContent(el)
       intro-img:
-        select: h2[id="intro"] ~ p img:first-of-type
+        select: img:first-of-type
         value: attribute(el, "src")
       page-tabs:
         select: .page-tabs > div > div

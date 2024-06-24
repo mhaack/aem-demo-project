@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-green-token/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 14 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Power of the Consumer]]></title>
+            <link>https://www.sap.com/news/2024/05/the-power-of-the-consumer</link>
+            <guid>https://www.sap.com/news/2024/05/the-power-of-the-consumer</guid>
+            <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Power of the Consumer" src="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-power-of-the-consumer">The Power of the Consumer</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Over recent years, retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Consumers have driven this shift with their increased awareness of environmental issues, ethical concerns, and desire to support products which are eco-friendly, ethically sourced, and produced under fair labor conditions.</div>
+    </div>
+  </div>
+  <p>Companies that prioritize <a href="/topics/sustainability">sustainability</a> in their operations, such as using recycled materials, reducing carbon emissions, or supporting social causes, are gaining popularity among consumers. But those consumers demand proof of these values and product promises at the point of sale.</p>
+  <p>“The rise of sustainability isn’t just a movement; it is a shift in consumer consciousness,” said Dania Fayyaz, SAP North America sustainability program manager. “Today’s consumers are redefining their purchasing patterns, opting for products and brands that align with their values, and driving a demand for eco-conscious practices and ethical sourcing.” In her conversations with retailers that visited SAP’s booth at NRF 2024, the world’s largest retail fair, she saw a high interest in sustainability solutions.</p>
+  <h2 id="consumers--and-markets--demand-visibility">Consumers – and Markets – Demand Visibility</h2>
+  <p>When the EU Deforestation Regulation (EUDR) comes into effect for large enterprises later this year all products sold in the EU containing palm oil, cocoa, soy, rubber, cattle/leather, coffee, wood, and their derivatives will need proof that their harvest didn’t contribute to deforestation. Non-compliance will result in potential fines of up to 4% of companies’ EU annual turnover. To help businesses simplify this complex task, the SAP Green Token solution can track the geolocation of where raw materials are harvested and automate the creation of due diligence statements (DDS). The solution can also help improve visibility for consumers on where the raw material for their clothing was sourced and offer information on potential reuse and recycling.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="record-report-and-act-with-sap-sustainability-solutions">Record, report, and act with SAP Sustainability solutions</h3>
+        <p><em><a href="https://www.sap.com/products/sustainability.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Take the example of a cotton shirt made from 50% certified recycled materials. Cotton can be sourced from multiple farms or recycling services and taken to a cotton mill where it’s spun into thread and later fabric. It becomes impossible to distinguish the different cotton elements – conventional versus recycled cotton – once they are co-mingled and the manufacturer loses insight into the sustainability attributes of the raw materials. That’s why it’s important to have a sophisticated tracking solution in place. “SAP Green Token can enhance transparency for bulk-traded, co-mingled raw materials by digitally storing sustainability attributes on tokens that traverse the supply chain,” said Fayyaz.</p>
+  <p>In addition to making conscious decisions on raw materials and products, consumers can also consider circular economy models. “I’m really intrigued by the idea of revitalizing clothing items,” said Fayyaz. “Imagine being able to exchange a well-loved jacket you’ve had for years and receive credit in return. And the jacket might find a new owner who will genuinely appreciate it.” The SAP Recommerce solution enables that scenario, helping brands and retailers take back, manage, and resell secondhand inventory to help accelerate the shift from linear to circular business models. On an even larger scale, SAP Green Ledger is SAP’s vision to make transactional carbon accounting a reality. It can enable organizations to track carbon like they do cash, with every financial transaction having a corresponding carbon entry. “This is incredibly desirable because we will see taxes for carbon imposed in the future, and decision-makers will want insights into which processes are utilizing the most carbon,” Fayyaz said.</p>
+  <h2 id="the-future-of-retail--a-retailers-view">The Future of Retail – A Retailer’s View</h2>
+  <p>At a recent SAP event, Christoph Werner, CEO at German retailer dm-drogerie markt, shared his view on the future of retail and his insights on what customers want – and therefore what will shape the way retailers have to engage to drive business.</p>
+  <p>For Werner, individualization of the shopping experience and any transaction will play a major role. Therefore, retailers will have to focus on the individual shopper, not on clusters of shoppers like in the past. Hyper-personalizing the customer experience will improve loyalty; the value for the customer will not only be the price, but increasingly the overall service and experience. This will change the concept of promotions. Werner is convinced that retailers will benefit from giving added benefits and delighting the customer, rather than pushing products into the market based on reduced prices. “Bring home flowers every now and then, but keep it special,” Werner said.</p>
+  <p>To no surprise, AI will be the foundation for personalized shopping experiences. “AI has benefits and downsides and today it remains to be seen where it will take us,” Werner stated. Overall, retailers see AI as an opportunity, with the technology completing repeatable tasks, freeing up employees for more value-adding tasks, and empowering individuals to make a difference. As retail stores often face staffing challenges, this can empower people in sales and marketing teams instead of replacing them. From Werner’s perspective, an AI-empowered workplace will attract new employees.</p>
+  <p><a href="https://www.sap.com/assetdetail/2024/04/d2065341-b97e-0010-bca6-c68f7e60039b.html">Learn more about dm-drogerie markt and its path to excellence with SAP.</a></p>
+  <h2 id="a-glance-into-the-crystal-ball">A Glance into the Crystal Ball</h2>
+  <p>At the same time, low-price online platforms continue to attract consumers with their affordable and wide range of products. They offer competitive prices on trendy clothing and accessories using economies of scale and direct-to-consumer models. Despite concerns about their environmental and ethical practices, these platforms remain popular among price-conscious consumers. However, there is growing awareness of the environmental and social impacts of fast fashion and low-price models. As a result, consumers are becoming increasingly discerning in their purchasing decisions, prioritizing quality, longevity, and sustainability over cheap prices and fast fashion trends.</p>
+  <p>“Overall, the consumer landscape is evolving, with a growing emphasis on sustainability, conscious consumption, and ethical practices,” said Sven Denecken, chief marketing and solutions officer for SAP Industries &#x26; CX. “Companies that can adapt to these changing preferences and demonstrate a commitment to environmental and social responsibility are likely to thrive in the long term.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-us-to-get-all-the-updates-on-company-news-stories-and-coverage">Connect with us to get all the updates on company news, stories, and coverage</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow SAP News on LinkedIn</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-green-token</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[UN Plastics Treaty: Good for Business and the Planet]]></title>
+            <link>https://www.sap.com/news/2024/05/un-plastics-treaty-good-for-business-and-planet</link>
+            <guid>https://www.sap.com/news/2024/05/un-plastics-treaty-good-for-business-and-planet</guid>
+            <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is part of the Business Coalition for a Global Plastics Treaty, which supports a legally binding UN treaty to end plastic pollution.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[We Can’t Achieve Net Zero Without the Circular Economy]]></title>
+            <link>https://www.sap.com/news/2024/03/we-cant-achieve-net-zero-without-the-circular-economy</link>
+            <guid>https://www.sap.com/news/2024/03/we-cant-achieve-net-zero-without-the-circular-economy</guid>
+            <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Net zero and the circular economy go hand in hand. Read to learn how businesses, like SAP, and non-corporate bodies can accelerate progress.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/net-zero</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[Insights from COP28: Harnessing the Power of Business for Climate Action]]></title>
+            <link>https://www.sap.com/news/2023/12/cop28-insights-power-of-business-climate-action</link>
+            <guid>https://www.sap.com/news/2023/12/cop28-insights-power-of-business-climate-action</guid>
+            <pubDate>Thu, 14 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reflecting on sustainability measures discussed at COP28, we are seeing a shift towards data sharing and a transition to sustainable energy.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/climate-action</category>
+            <category>non-sap-event/cop28</category>
+            <category>news-tag/net-zero</category>
+            <category>news-tag/renewable-energy</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-sustainability-data-exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains]]></title>
+            <link>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</link>
+            <guid>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</guid>
+            <pubDate>Thu, 27 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A pilot of SAP Green Token with a group of SAP customers validated the solution's ability to provide visibility into their supply chains.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains" src="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-traceability-and-transparency-can-foster-sustainability-in-chemical-and-plastics-supply-chains">How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many consumers and companies understand the need to recycle or recover the <a href="https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm#:~:text=22%2F02%2F2022%20%2D%20The,to%20a%20new%20OECD%20report">91% of global plastic waste that is mismanaged, ends up in landfills, oceans, and rivers, or is incinerated</a>. Likewise, new bio- and circular plastic components offer a path to making these vital materials more sustainable by saving fossil resources and greenhouse gas emissions.</div>
+    </div>
+  </div>
+  <p>Today, only <a href="https://www.unep.org/interactives/beat-plastic-pollution/?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU-swAQ57sjFHeL7YUFJGqwykYKF1f9T-GX8Xo09Blzmt84GFFkhQLkaAg10EALw_wcB">2% of single-use plastic products are produced from certified sustainable sources</a> such as bio- and circular components. Bio-components are feedstock that comes from organic, bio-based origins, such as used cooking oil. Circular components are feedstock that is recycled from waste plastic, such as post-consumer recycled waste.</p>
+  <p>A viable and efficient way to use such sustainable feedstock is integrating it into existing, large-scale production systems to avoid the additional cost, energy, and carbon emissions of segregated production facilities. But, when bio- and circular feedstock is blended with conventional fossil feedstock, how can consumers, regulators, and supply chains have confidence in bio- and circular-attributed plastic product claims? And how can these claims be leveraged to encourage informed choices when industries and consumers purchase products that are certified sustainable?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transform-business-and-value-chains-for-a-circular-economy-with-sap-solutions">Transform business and value chains for a circular economy with SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/sustainability/circular-economy.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="digital-tracking-for-total-traceability-and-transparency">Digital Tracking for Total Traceability and Transparency</h2>
+  <p>The <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token</a> solution is a mass balance management solution from SAP that leverages tokenization and blockchain for chain of custody to help create traceability and transparency. In September 2022, SAP Green Token became an official part of the SAP Sustainability portfolio.</p>
+  <p>In a successful pilot, a group of SAP customers – including SKGC, Korea; Elantas, Italy; Westlake Vinnolit, Germany; Berry Global, U.S.; and Unilever R&#x26;D, the Netherlands – reviewed the ability of SAP Green Token to enable traceability and transparency of bio- and circular waste inputs to bio- and circular-attributed products across the chemical and plastics supply chain.</p>
+  <p>SAP Green Token enables organizations to create tokens that serve as digital twins of the bio- and circular chemical feedstock material flows throughout the entire supply chain and capture the unique <a href="/topics/sustainability">sustainability</a> attributes linked to the bio- and circular feedstock origin. As a result, the solution allows organizations to verify their certified sustainable material usage in their processes. What’s more, the green credentials encapsulated in the tokens can be passed from one business partner to another via blockchain as the material moves along the supply chain, helping to ensure that important environmental, social, and governance (ESG) attributes are preserved. Also, an auditable record can be documented to prove the product is sustainable in accordance with recognized product standards, such as ISCC PLUS and REDcert2, and hence better for the environment.</p>
+  <p>“This successful trial of SAP Green Token represents another key milestone on our mission to establish the ‘green line’ alongside the top and bottom lines as key performance dimensions,” says Gunther Rothermel, head of Sustainability Engineering at SAP. “This solution offers our customers an easy way to have complete visibility into the origin and chain of custody of their bio- and circular-based feedstock and allows them to prove to their customers, international standard agencies, and their board that they have a concrete, auditable way of proving their circular performance against their sustainability KPIs.”</p>
+  <p>The blockchain technology helps prevent double counting of claims and create trust; it can make the production of sustainable plastic easier to verify and thus certifiable, which is particularly important in terms of customer demand, regulatory compliance, and the ability to charge a price premium.</p>
+  <h2 id="rapid-adoption-crucial-for-sustainable-plastics">Rapid Adoption Crucial for Sustainable Plastics</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-way-forward-for-consumer-goods-packaging">The Way Forward for Consumer Goods Packaging</h3>
+      </div>
+      <div><strong><a href="/2023/06/way-forward-for-consumer-goods-packaging">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Accelerating the circular economy requires driving demand for circular plastics,” said Diane Marret, sustainability director for Consumer Packaging North America at Berry Global. “Integrating mass balance-accounted materials into SAP Green Token’s centralized, global IT system helps reduce risk in our reporting accuracy, minimize manual efforts through automation, and build confidence and trust in our ability to manage circular materials.”</p>
+  <p>Read more about this pilot in the newly published <a href="https://www.sap.com/documents/2023/06/ca44c9c2-7c7e-0010-bca6-c68f7e60039b.html">SAP Green Token white paper</a>. For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="http://www.sap.com/sustainability">www.sap.com/sustainability</a> and the <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token page on sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Gloria Figaroa is a solution advisor for SAP Green Token.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[Are Carbon Accounting Challenges Impeding Progress Toward Net Zero?]]></title>
+            <link>https://www.sap.com/news/2023/06/carbon-accounting-challenges-net-zero-progress</link>
+            <guid>https://www.sap.com/news/2023/06/carbon-accounting-challenges-net-zero-progress</guid>
+            <pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Improving emissions data quality to combat carbon accounting challenges is a clear priority to turn net-zero targets into actionable plans.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-accounting</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/net-zero</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[Can Businesses Phase Out Virgin Plastic for Good?]]></title>
+            <link>https://www.sap.com/news/2023/04/can-businesses-phase-out-virgin-plastic-for-good</link>
+            <guid>https://www.sap.com/news/2023/04/can-businesses-phase-out-virgin-plastic-for-good</guid>
+            <pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In response to the UN Treaty on Plastic Pollution, SAP created a digital solution to enable customers to apply the framework. Learn more!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-responsible-design-and-production</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and GIZ Cooperate on Digital Solutions for Green Hydrogen Certificates]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-and-giz-digital-solutions-green-hydrogen-certificates</link>
+            <guid>https://www.sap.com/news/2023/03/sap-and-giz-digital-solutions-green-hydrogen-certificates</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[To support green hydrogen certification in Brazil and Germany, SAP and GIZ have formed a public-private partnership. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/decarbonization</category>
+            <category>news-tag/digitalization</category>
+            <category>news-tag/renewable-energy</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[How Digitalization Can Accelerate the Energy Transition to Green Hydrogen]]></title>
+            <link>https://www.sap.com/news/2023/01/energy-transition-to-green-hydrogen-digitalization</link>
+            <guid>https://www.sap.com/news/2023/01/energy-transition-to-green-hydrogen-digitalization</guid>
+            <pubDate>Tue, 17 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Green hydrogen is a critical technology in the transition to renewable energy and the move toward a global net zero economy.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>non-sap-event/wef-davos</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[Capgemini and SAP Accelerate Automotive Sustainability]]></title>
+            <link>https://www.sap.com/news/2022/08/capgemini-and-sap-accelerate-automotive-sustainability</link>
+            <guid>https://www.sap.com/news/2022/08/capgemini-and-sap-accelerate-automotive-sustainability</guid>
+            <pubDate>Mon, 22 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the automotive industry, sustainability must be at the foundation of every decision. Learn more about SAP and Capgemini's initiative.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/capgemini</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-supply-chain-control-tower</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Unilever Pilot Blockchain Technology to Support Deforestation-Free Palm Oil]]></title>
+            <link>https://www.sap.com/news/2022/03/sap-and-unilever-pilot-blockchain-deforestation-free-palm-oil</link>
+            <guid>https://www.sap.com/news/2022/03/sap-and-unilever-pilot-blockchain-deforestation-free-palm-oil</guid>
+            <pubDate>Mon, 21 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Unilever have announced a pilot to further increase traceability and transparency in Unilever’s global palm oil supply chain.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/blockchain</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[2021 Hasso Plattner Founders’ Award Finalists: Products and Technology]]></title>
+            <link>https://www.sap.com/news/2021/12/products-and-technology-finalists-hasso-plattner-founders-award-2021</link>
+            <guid>https://www.sap.com/news/2021/12/products-and-technology-finalists-hasso-plattner-founders-award-2021</guid>
+            <pubDate>Tue, 07 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get to know the three Products and Technology finalists for the 2021 Hasso Plattner Founders’ Award, SAP's highest employee recognition.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_129285b67f76b890ac19d839e260195f38133f292.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_129285b67f76b890ac19d839e260195f38133f292.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_129285b67f76b890ac19d839e260195f38133f292.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="2021 Hasso Plattner Founders’ Award Finalists: Products and Technology" src="./media_129285b67f76b890ac19d839e260195f38133f292.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="hasso-plattner-founders-award-finalists-products-and-technology">2021 Hasso Plattner Founders’ Award Finalists: Products and Technology</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Nine teams across three categories are vying for this year’s Hasso Plattner Founders’ Award. Each category reflects a different type of breakthrough thinking, considering the various ways in which innovation drives SAP’s success.</div>
+    </div>
+  </div>
+  <p>Here, meet the finalists in the <strong>Products and Technology</strong> category.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>The Hasso Plattner Founders’ Award is the highest<br>employee recognition at SAP, awarded annually by the CEO<br>to an individual or a team.</p>
+        <h2 id="finalist-greentoken-by-sap">Finalist: GreenToken by SAP</h2>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Promo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <h3 id="learn-about-what-life-looks-like-at-sap">Learn about what life looks like at SAP</h3>
+              </td>
+              <td><strong><a href="https://www.sap.com/about/careers/who-we-are/life.html">Learn more</a></strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Eighty percent of the world’s palm oil originates from Indonesia and Malaysia. While some of it is being sustainably sourced in sustainable fair-trade plantations and small holdings, much is also being harvested on recently deforested land. How can you tell one from the other?</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Embed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_105dd24f6a7a30ed482a11a642c59bcd55b199697.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_105dd24f6a7a30ed482a11a642c59bcd55b199697.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_105dd24f6a7a30ed482a11a642c59bcd55b199697.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="GreenToken" src="./media_105dd24f6a7a30ed482a11a642c59bcd55b199697.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+                  </picture>
+                </p>
+                <p><a href="https://youtu.be/Dz2VDEBDAx8">GreenToken</a></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p><em>Video produced by David Aguirre and Rana Hamzakadi</em></p>
+        <p>The GreenToken by SAP solution was designed to address this issue by providing a new level of transparency into complex raw material supply chains.</p>
+        <p>“In 2019 a group of SAP palm oil customers approached us with this very problem – they wanted a robust solution to maintain facts across the value chain from smallholder to end customer,” says GreenToken Co-Founder James Veale. “Traditional batch-based inventory systems with their simple rules don’t truly reflect the exact makeup of a raw material inventory, which may be a mix of sustainable and non-sustainable sources. At scale, we would be dealing with millions of batches.”</p>
+        <p>GreenToken instead uses a digital twin token to represent a fixed and usually small amount of the raw material. Records are kept on a blockchain ledger, and as the material moves along the supply chain GreenToken passes the equivalent number of tokens that represent the volume of material moved, from one supply chain actor’s wallet to another. This creates a tracing history — an immutable chain of custody that adds complete supply chain transparency and makes the data trustworthy.</p>
+        <p><strong>Transforming the World Economy</strong></p>
+        <p>GreenToken’s elegant yet powerful design has found applications in many industries. The tokens can carry information on any kind of raw materials to help answer a variety of questions: “Are these food crops sustainably sourced? Has this cobalt been mined free of child labor? Is this plastic recycled with a high percentage coming from molecular recycling of plastic waste?”</p>
+        <p>With over 77% of the world’s manufactured goods passing through an SAP system, GreenToken is receiving huge interest from SAP customers under increasing pressure from both legislation and their own customer base to prove that their raw material sourcing, processing, and supply chain practices are the best that they can be.</p>
+        <p>“GreenToken is SAP’s answer to that,” says Nitin Jain, GreenToken co-founder. “We have found a truly innovative use for tokens on a blockchain ledger that gives transparency to these formerly opaque raw material supply chains. GreenToken’s purpose is to help the world transform to a sustainable and circular economy — and our innovation has made it available in the cloud using simple, frictionless browser-based interfaces.”</p>
+        <p><strong>Finalist Fast Facts</strong></p>
+        <ul>
+          <li><strong>Submission Title</strong>: GreenToken by SAP</li>
+          <li><strong>Team:</strong> Nitin Jain in Canada and James Veale in Australia, co-founders, with a global team of 18, including full-time employees and fellows spread across Asia-Pacific Japan, Europe, and North America regions</li>
+          <li><strong>Number of employees:</strong> 20</li>
+          <li><strong>Achievement:</strong> Developed an elegant yet powerful method to add complete supply chain transparency to previously opaque raw material supply chains using digital twin tokens on a blockchain ledger. The solution works for any raw material supply chain. The team is currently deploying the system in the U.S. and Europe to prove that plastic has a high degree of circular recycled content.</li>
+          <li><strong>Impact:</strong> GreenToken allows SAP customers to not only measure and make claims on their current sustainable, ethical, and circular sourcing practices, but also use their procurement spending power to promote good supply chains over bad.</li>
+        </ul>
+        <h2 id="finalist-ecosilient">Finalist: Ecosilient</h2>
+        <p>While optimizing resources and capacities is not exactly a new business challenge, B2B circular sharing platform Ecosilient aims to commodify demand, supply, and services, connecting organizations in a community to generate value more efficiently and sustainably with special focus on existing resources and capacities.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Embed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_11211402536f520f8427a0ee83c63d86205e69ead.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_11211402536f520f8427a0ee83c63d86205e69ead.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_11211402536f520f8427a0ee83c63d86205e69ead.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="Ecosilient" src="./media_11211402536f520f8427a0ee83c63d86205e69ead.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+                  </picture>
+                </p>
+                <p><a href="https://youtu.be/CMowD2YOGDY">Ecosilient</a></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p><em>Video produced by David Aguirre and Rana Hamzakadi</em></p>
+        <p>Ecosilient helps businesses leverage resources such as obsolete assets, surplus inventory, waste, and other byproducts into a circular economy. It creates a community layer based on enterprise resource planning (ERP) to enable this growing demand for businesses, stakeholders, and investors to make more responsible decisions that drive meaningful impact on critical issues.</p>
+        <p>Ecosilient Founder Avital Ben-Natan says the team’s mission is to “decouple economic growth from natural extraction and corrosive business practices. It’s about creating a trust platform to discover and facilitate collaboration opportunities around shared values.”</p>
+        <p>The goal is no less than to address interlinked problems like the climate crisis, social inequities, or broken supply chains. Ecosilient serves as a framework for evolving SAP’s core technologies, data, and its global ecosystem into an engine for a sustainable economy.</p>
+        <p>Users will be able to work with SAP software as they are accustomed — sourcing materials, signing contracts, tracing their shipping, and managing their inventories. “But with Ecosilient,” Ben-Natan says, “there is this additional layer in our software that users can trust will guide them to make responsible choices — to do more and better with less.”</p>
+        <p><strong>Leading the Sustainable Economy</strong></p>
+        <p>Fostered within the SAP Intrapreneurs program, the idea of Ecosilient resonated with many people at SAP from the start and attracted like-minded employees willing to engage in their spare time. “Even though few of us have ever been in the same room, we’ve all become very close while building Ecosilient over the last one and a half years.”</p>
+        <p>Ben-Natan says names the impact of climate change as his team’s motivation. “As parents, we feel responsible for the future of our kids and our communities. We have to answer the challenges that we face as a species, but also as a planet and as an economy, and find an appropriate response.”</p>
+        <p>The team considers its solution as a natural evolution of what SAP stands for: to create order in chaos, to create opportunities and collaboration, to create a fair, responsible, and ultimately more efficient economy.</p>
+        <p>But Ecosilient is also a way for SAP to innovate its own infrastructure and the way it operates as a company, as Ben-Natan stresses: “It’s about creating a fundamental direction for SAP to lead in the sustainable economy.”</p>
+        <p><strong>Finalist Fast Facts</strong></p>
+        <ul>
+          <li><strong>Submission Title</strong>: Ecosilient, the B2B Circular Sharing Platform</li>
+          <li><strong>Team:</strong> Avital Ben Natan, Umesh Shekar</li>
+          <li><strong>Number of employees:</strong> More than 20, with engineers, designers, innovation specialists, and mentors that have contributed to the business model, design thinking, demo, MVP, and customer engagement, and with special thanks to New Ventures and Technologies, Services IMM, and SAP Experience Garage for platforming.</li>
+          <li><strong>Achievement:</strong> Leveraged market research and data analysis to identify target industries and organizations for freight pooling; implemented a WIP MVP and a demo for a sustainable shipping network; started customer engagement and GTM with companies like Unilever, Bechtle, Steelcase, Cargill, and others.</li>
+          <li><strong>Impact:</strong> Ecosilient helps companies increase resource efficiency while promoting a sustainable economy by engaging the ecosystem to create shared value.</li>
+        </ul>
+        <h2 id="finalist-sap-information-collaboration-hub-for-life-sciences">Finalist: SAP Information Collaboration Hub for Life Sciences</h2>
+        <p>In recent years, the world has seen the issue of drug counterfeiting increase dramatically. In Africa alone, over 120,000 people die each year because they are being treated with fake malaria medication. It is estimated that currently over 50% of the drugs in Africa are counterfeit.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Embed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1f7faef3f1072158912848af92b3b7caad8242c3c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1f7faef3f1072158912848af92b3b7caad8242c3c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1f7faef3f1072158912848af92b3b7caad8242c3c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="SAP Information Collaboration Hub for Life Sciences" src="./media_1f7faef3f1072158912848af92b3b7caad8242c3c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+                  </picture>
+                </p>
+                <p><a href="https://youtu.be/izPHfZP4CLE">SAP Information Collaboration Hub for Life Sciences</a></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p><em>Video produced by David Aguirre and Rana Hamzakadi</em></p>
+        <p>Enter SAP Information Collaboration Hub for Life Sciences: this industry network based on software-as-a-service (SaaS) helps SAP pharmaceutical customers share information on their pharmaceutical products with supply chain partners and government agencies to enable traceability and verification of individual product packs in these markets.</p>
+        <p>“It was really a joint effort with plenty of input from SAP customers that inspired the info hub,” says Oliver Nuernberg, chief product owner, SAP Life Sciences. “They pointed out the need for a global network that would minimize the effort by connecting once while sharing data with many participants.”</p>
+        <p>Running on SAP Business Technology Platform, the information hub leverages the platform’s integration services to exchange messages, SAP Blockchain Business Services to make data available for verification, and portal services. In 2021, new innovative capabilities enabling the automation of onboarding processes and self-onboarding of trading partners were delivered to enable customers to efficiently onboard hundreds of partners in parallel for new markets.</p>
+        <p>The largest eight pharmaceutical manufacturers, and 14 of the top 20, are already using SAP Information Collaboration Hub for Life Sciences, including most of the COVID-19 vaccines manufacturers.</p>
+        <p>Next, we plan to offer SAP Information Collaboration Hub for Life Sciences together with SAP Advanced Track and Trace for Pharmaceuticals to enable aid workers from organizations such as the Red Cross and Doctors Without Borders to verify, for example, COVID-19 vaccines that they receive on the spot to low- to middle-income countries.</p>
+        <p>Initially, the team was made up of just a handful of SAP employees working out of Germany and Ireland. Today, there are more than 50 team members from the Customer Innovation &#x26; Maintenance organization, mainly located in India, who develop and operate the solution as well as help onboard customers and their business partners.</p>
+        <p>Amba Bisht, senior developer for Engineering in Customer Innovation &#x26; Maintenance, says: “What’s so rewarding about working on this project is how it really brings the spirit of SAP — to make the world run better — to life, because by increasing security in the pharmaceutical supply chain and preventing counterfeit medication from reaching patients, SAP Information Collaboration Hub for Life Sciences may ultimately save lives.”</p>
+        <p><strong>Finalist Fast Facts</strong></p>
+        <ul>
+          <li><strong>Submission Title</strong>: SAP Information Collaboration Hub for Life Sciences, Saving Lives One Serial Number at a Time</li>
+          <li><strong>Team:</strong> Oliver Nuernberg, Martin Janssen, Dennis Keilbach, Vincent Varain, Sandeep Kumar Dikshit, Shashank Goyal, Amba Bisht, Anil Kumar Suresh, Geetha Ranjani G M, Athul Umesh</li>
+          <li><strong>Number of employees:</strong> More than 50</li>
+          <li><strong>Achievement</strong>: Global network with the eight largest pharmaceutical companies and 14 of the top 20, most COVID-19 vaccine manufactures, over 1,000 live trading partners. The hub currently hosts 2.2 billion product packs in the blockchain for verification in the U.S. market, manages tens of thousands of messages reported to government agencies, such as those in the EU, Russia, Brazil, and other markets, every day, all to prevent counterfeit products being introduced into the legitimate supply chain.</li>
+          <li><strong>Impact:</strong> Increase patient safety by authenticating pharmaceutical products, thus avoiding counterfeit drugs reaching patients; increase sustainability by reducing drug wastage.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>sap-award/hasso-plattner-founders-awards</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-information-collaboration-hub-for-life-sciences</category>
+        </item>
+        <item>
+            <title><![CDATA[Why Green Hydrogen Just Might Be the Silver Bullet Against Climate Change]]></title>
+            <link>https://www.sap.com/news/2021/12/green-hydrogen-might-be-silver-bullet-against-climate-change</link>
+            <guid>https://www.sap.com/news/2021/12/green-hydrogen-might-be-silver-bullet-against-climate-change</guid>
+            <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Expectations for green hydrogen to become the fuel of the future are high. Read to learn more about the energy source.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12e52ba8efa72574cf8018a601d2f5c6afab9e93a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12e52ba8efa72574cf8018a601d2f5c6afab9e93a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12e52ba8efa72574cf8018a601d2f5c6afab9e93a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Why Green Hydrogen Just Might Be the Silver Bullet Against Climate Change" src="./media_12e52ba8efa72574cf8018a601d2f5c6afab9e93a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="why-green-hydrogen-just-might-be-the-silver-bullet-against-climate-change">Why Green Hydrogen Just Might Be the Silver Bullet Against Climate Change</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Expectations for green hydrogen to become the fuel of the future are high.</div>
+    </div>
+  </div>
+  <p>By 2050, according to <a href="https://www.goldmansachs.com/insights/pages/gs-research/green-hydrogen/report.pdf">research by Goldman Sachs</a>, green hydrogen could supply up to 25% of the world’s energy needs and become a €13 trillion (US$15 trillion) market. But until we get there, current challenges of storing and transporting hydrogen need to be overcome first.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="enable-supplier-transparency-in-your-supply-chain-with-greentoken-by-sap">Enable supplier transparency in your supply chain with GreenToken by SAP</h3>
+      </div>
+      <div><strong><a href="https://www.green-token.io/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="not-all-hydrogen-is-created-equal">Not All Hydrogen Is Created Equal</h2>
+  <p>In the long run, only CO2-free hydrogen produced with the help of renewable energies is sustainable. However, it will be quite a while before there is enough green hydrogen to meet the growing demand. The reason: there is not enough green electricity. Of the many alternative production methods, the most popular today is blue or grey hydrogen produced from natural gas.</p>
+  <p>In the future, many industrial processes will use green or blue hydrogen or downstream products made from it, such as ammonia and methanol. Hydrogen can particularly help clean up emission-intensive industries like transportation, chemical iron, and steel production, which account for about 7% of global CO2 emissions each year. But the high number of potential users contrasts with the limited availability and high production costs of hydrogen.</p>
+  <h2 id="cross-company-alliances-to-accelerate-the-value-chain">Cross-Company Alliances to Accelerate the Value Chain</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-all-the-cloud-analytics-features-you-need-in-a-single-solution-with-sap-analytics-cloud">Get all the cloud analytics features you need in a single solution with SAP Analytics Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/cloud-analytics.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>In line with the <a href="https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en">European Green Deal</a> to reduce emissions at least 55% by 2030 and make Europe climate-neutral by 2050, governments have adopted similar sustainability goals and consider hydrogen a critical component to reach them. <a href="/2021/05/net-zero-emissions-transformation-journey">Companies are also taking action</a> to support green and digital transformations in the EU. For instance, the <a href="https://www.se.com/ww/en/about-us/newsroom/news/press-releases/european-ceo-alliance-emphasizes-cross-industry-collaboration-to-fight-climate-change-5f771e77ccf05b586c3f6508">European CEO Alliance</a> was founded by 12 executives from leading European companies to develop concrete recommendations for action and help companies undergo the green transition. This alliance is driven by the conviction that no company will solve the greatest challenges of our time alone. To succeed, companies need to collaborate across value chains, build partnerships, and work together with governments and academia.</p>
+  <p>One project that has emerged from these cross-company efforts is looking at how to accelerate the complete value chain of green hydrogen – from production, transport, storage, and sale, to the energy customer. Instead of operating in silos, these market segments need to be linked together.</p>
+  <h2 id="a-data-sharing-platform-as-the-single-source-of-truth">A Data-Sharing Platform as the Single Source of Truth</h2>
+  <p>The first prototype of a green hydrogen platform based on <a href="https://www.sap.com/products/cloud-analytics.html">SAP Analytics Cloud</a> looks promising. The platform combines data from all participants of the hydrogen value chain and, therefore, enables better data-driven business decisions. Instead of managing complicated spreadsheets, an energy provider can use the platform as their single source of truth to run simulations and calculate how much energy they can produce, how much they want to sell to the electrolyzer, and how much power they need for vehicles, households, and industries.</p>
+  <p>For such platforms to be successful, visibility across the value chain of green hydrogen is a prerequisite. Supply chain solution <a href="https://www.green-token.io/">GreenToken by SAP</a> helps companies to track hydrogen across the entire supply chain, from production to energy customer, via electrolyzers and carriers using blockchain technology. The solution is designed to provide auditable proof of what percentage of the hydrogen is green, blue, or grey. GreenToken can also be used to track <a href="https://www.epa.gov/climateleadership/scope-3-inventory-guidance#:~:text=3%20Emission%20Factors-,Description%20of%20Scope%203%20Emissions,impacts%20in%20its%20value%20chain.&#x26;text=Scope%203%20emission%20sources%20include,downstream%20of%20the%20organization%27s%20activities.">scope 3 CO2 emissions</a> that are caused when hydrogen is imported from far away. Companies can leverage the data to prove that their purchased hydrogen is truly green. They can also see how much CO2 has been created during the journey from production origin to customer site and, therefore, how much they would need to offset to make the hydrogen 100% green again.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Klaus Schimmer is chief innovation architect of Sustainability at SAP.</em><br><em>The article was initially published on the <a href="https://partners.wsj.com/sap/experience-management-in-action/why-green-hydrogen-just-might-be-the-silver-bullet-against-climate-change/">Wall Street Journal</a>.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/carbon-footprint</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/climate-change</category>
+            <category>product/sap-green-token</category>
+        </item>
+    </channel>
+</rss>

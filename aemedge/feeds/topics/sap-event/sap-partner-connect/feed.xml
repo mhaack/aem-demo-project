@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/sap-event/sap-partner-connect/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 15 May 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Starts Pilot with Accenture and IBM to Co-Validate SAP Expertise for Advanced Professionals]]></title>
+            <link>https://www.sap.com/news/2023/05/accenture-ibm-pilot-co-validate-sap-expertise</link>
+            <guid>https://www.sap.com/news/2023/05/accenture-ibm-pilot-co-validate-sap-expertise</guid>
+            <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new pilot to co-validate SAP expertise, with first partners Accenture and IBM, is paving the way for career growth and business success.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/ibm</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/sap-certification</category>
+            <category>sap-event/sap-partner-connect</category>
+        </item>
+    </channel>
+</rss>

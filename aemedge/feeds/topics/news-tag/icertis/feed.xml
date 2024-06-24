@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/icertis/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 17 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Solutions from SAP and Icertis Empower Enterprises with Contract Intelligence Innovation]]></title>
+            <link>https://www.sap.com/news/2024/04/sap-icertis-contract-intelligence-innovation</link>
+            <guid>https://www.sap.com/news/2024/04/sap-icertis-contract-intelligence-innovation</guid>
+            <pubDate>Wed, 17 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Icertis are working to improve contract intelligence for enterprises, reducing revenue leakage and increasing efficiency. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/icertis</category>
+            <category>news-tag/partners</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP’s Source-to-Pay Solution Strategy Focuses on Customer Success]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-source-to-pay-strategy-focuses-customer-success</link>
+            <guid>https://www.sap.com/news/2024/02/sap-source-to-pay-strategy-focuses-customer-success</guid>
+            <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Within the source-to-pay landscape, SAP delivers integrated solutions to help manage all forms of spend. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>news-tag/icertis</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>product/sap-spend-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Icertis Enable Critical Outcomes around Revenue, Savings, and Risk by Integrating Contract Data to SAP S/4HANA for Procurement]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-icertis</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-icertis</guid>
+            <pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Contracts play a critical role in core business processes. To best address this, SAP continues to co-innovate with Icertis at a rapid pace.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/icertis</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+    </channel>
+</rss>

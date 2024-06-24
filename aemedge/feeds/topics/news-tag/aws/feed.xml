@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/aws/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 05 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP's New AI Innovations and Partnerships Deliver Real-World Results]]></title>
+            <link>https://www.sap.com/news/2024/06/ai-innovations-partnerships-sap-sapphire</link>
+            <guid>https://www.sap.com/news/2024/06/ai-innovations-partnerships-sap-sapphire</guid>
+            <pubDate>Wed, 05 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore the AI capabilities and ecosystem innovations presented at SAP Sapphire in 2024, all aimed at delivering real-world results.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/financial-management</category>
+            <category>topic/hcm</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/abap-cloud</category>
+            <category>news-tag/accenture</category>
+            <category>news-tag/ai-ethics</category>
+            <category>topic/ai</category>
+            <category>news-tag/aws</category>
+            <category>news-tag/bcg</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>topic/procurement</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[AWS and SAP Unlock New Innovation with Generative AI]]></title>
+            <link>https://www.sap.com/news/2024/05/aws-sap-generative-ai-new-innovation</link>
+            <guid>https://www.sap.com/news/2024/05/aws-sap-generative-ai-new-innovation</guid>
+            <pubDate>Wed, 29 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and AWS are making it easier for customers to embed generative AI into their entire portfolio of business-critical applications.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_104d1ffe68c31e9f2e51bfd7af2878774eaaff54a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_104d1ffe68c31e9f2e51bfd7af2878774eaaff54a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_104d1ffe68c31e9f2e51bfd7af2878774eaaff54a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="AWS and SAP Unlock New Innovation with Generative AI" src="./media_104d1ffe68c31e9f2e51bfd7af2878774eaaff54a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="aws-and-sap-unlock-new-innovation-with-generative-ai">AWS and SAP Unlock New Innovation with Generative AI</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Generative AI hub in SAP AI Core integrates with foundation models in Amazon Bedrock to deliver generative AI-driven insights and streamline manual processes for enterprise customers</div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong><em>SEATTLE and WALLDORF</em></strong> — Amazon Web Services (AWS), an Amazon.com company (NASDAQ: AMZN), and <a href="https://www.sap.com/index.html">SAP SE</a> (NYSE: SAP) today announced an expanded, strategic collaboration to transform modern cloud enterprise resource planning (ERP) experiences and help enterprises drive new capabilities and efficiencies with generative artificial intelligence (AI).</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Together, AWS and SAP are striving to make it easier for customers to adopt the RISE with SAP solution on AWS, to improve the performance and efficiency of SAP workloads running in the cloud and to embed generative AI into an enterprise’s entire portfolio of business-critical applications.</p>
+        <p>“AWS was the first cloud provider certified to support the SAP portfolio and today, thousands of enterprise companies run SAP solutions on AWS to get the most out of their mission-critical applications,” said Matt Garman incoming CEO at AWS. “Now, AWS and SAP are making it faster and easier for companies to apply generative AI to their core business data to become more efficient, responsive and sustainable.”</p>
+        <p>“Partnerships like this collaboration with AWS are critical as we embed generative AI solutions across our ERP applications so that customers can drive innovation at an accelerated pace,” said Christian Klein, Chief Executive Officer of SAP SE. “In addition to delivering modern cloud ERP to our joint customers, we are excited to support Amazon on their own transformation journey as they adopt RISE with SAP for pioneering areas such as Project Kuiper, Amazon’s satellite initiative intended to increase global broadband access.”</p>
+        <h2 id="generative-ai-models-from-amazon-bedrock-available-on-the-generative-ai-hub-in-sap-ai-core">Generative AI Models from Amazon Bedrock Available on the Generative AI Hub in SAP AI Core</h2>
+        <p>The generative AI hub in SAP AI Core infrastructure provides customers with secure access to a broad range of large language models (LLMs) that can easily be integrated into SAP business applications. With the integration of generative AI models from Amazon Bedrock such as the Anthropic Claude 3 model family and Amazon Titan, SAP customers will be able to access high-performing LLMs and other foundation models (FMs) to build applications customized with their own data. Tens of thousands of customers use Amazon Bedrock to easily, quickly and securely build and scale generative AI applications using FMs from leading AI companies such as AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI and Amazon.</p>
+        <p>With this integration, SAP customers may accelerate the adoption of generative AI and modernize key business processes built on SAP solutions. These innovations can be used in embedded use cases within RISE with SAP and the intelligent scenario lifecycle management functionality as an integration component or side-by-side directly on SAP Business Technology Platform (SAP BTP). SAP and AWS plan to expand the use of Bedrock capabilities in the generative AI hub to further enable embedded AI functionality within SAP’s portfolio of cloud solutions and applications. This includes additional use cases across finance and product lifecycle management.</p>
+        <h2 id="sap-to-use-aws-chips-to-train-and-deploy-future-sap-business-ai-offerings">SAP to Use AWS Chips to Train and Deploy Future SAP Business AI Offerings</h2>
+        <p>SAP’s use of <a href="/2023/11/sap-hana-cloud-now-supports-aws-graviton">AWS Graviton3 chips to support SAP HANA Cloud</a> helps to deliver performance gains, cost savings and energy efficiency to SAP. By using Graviton3-based Amazon Elastic Compute Cloud (EC2) instances, SAP has realized up to 30% better compute for analytical workloads and an estimated 45% reduction in carbon footprint for SAP HANA Cloud. Now SAP and AWS are collaborating on the next generation of Graviton4 for SAP HANA Cloud and additional SAP applications to continue to improve performance and efficiency. Based on the success of running SAP HANA Cloud on AWS Graviton, SAP plans to use AWS Graviton to support SAP solutions and applications such as SAP BTP, SAP Datasphere, SAP Analytics Cloud and the SAP Cloud ALM solution.</p>
+        <p>SAP plans to use <a href="https://aws.amazon.com/machine-learning/inferentia/">AWS Trainium</a> and <a href="https://aws.amazon.com/machine-learning/inferentia/">AWS Inferentia</a> chips, purpose built for AI and machine learning (ML) workloads, for training and deploying future SAP Business AI offerings. Using Trainium and Inferentia2-based instances in a proof of concept, SAP engineers trained and fine-tuned generative AI LLMs in two days versus 23 days with comparable Amazon EC2 instances. By leveraging Trainium’s specialized architecture designed for efficient ML model training, SAP can accelerate the development process while maintaining high levels of accuracy and reliability.</p>
+        <h2 id="increased-performance-for-rise-with-sap-on-aws">Increased Performance for RISE with SAP on AWS</h2>
+        <p>Thousands of customers have selected RISE with SAP on AWS to run their largest, most complex, global SAP solution implementations. Now generally available, the next-generation Amazon EC2 High Memory U7i instances offer up to 32TiB of memory in a single instance and provide customers the memory and flexibility they need to support expanding SAP HANA database requirements. Amazon EC2 High Memory U7i instances are the first DDR5 memory-based 8-socket offering by a leading cloud provider to improve the performance of memory-intensive applications such as SAP S/4HANA Cloud as part of RISE with SAP.</p>
+        <h2 id="amazons-project-kuiper-selects-rise-with-sap">Amazon’s Project Kuiper Selects RISE with SAP</h2>
+        <p>Amazon companies, including Twitch, Zappos.com and Zoox Inc., already use SAP software on AWS to support their operations. And now Project Kuiper—Amazon’s satellite broadband network—is deploying RISE with SAP to support its complex supply chain and manufacturing operations and get the best performance and most value out of its mission-critical SAP software. Running SAP solutions on AWS allows Kuiper to take advantage of the latest SAP capabilities embedded in RISE with SAP to help drive impactful transformation, accelerating company decisions and enhancing overall performance and productivity.</p>
+        <p>Hundreds of millions of people lack adequate internet access and Project Kuiper’s goal is to help close the digital divide by delivering fast, affordable broadband to a wide variety of customers operating in places without reliable internet connections. Delivering on that vision requires Kuiper to build satellites at an unprecedented rate. RISE with SAP allows the Project Kuiper team to leverage the most reliable and scalable infrastructure to run a modern, cloud ERP as a managed service, so they can focus on innovation instead of IT management.</p>
+        <p>To learn more about the SAP and AWS partnership, tune in to the <a href="https://www.sap.com/events/sapphire.html">SAP Sapphire conference</a>, June 3-5, in Orlando.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="join-experts-speakers-and-peers-at-sap-sapphire-in-2024">Join experts, speakers and peers at SAP Sapphire in 2024</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="https://x.com/sapnews">@SAPNews</a>.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About Amazon Web Services</strong></div>
+    </div>
+  </div>
+  <p>Since 2006, Amazon Web Services has been the world’s most comprehensive and broadly adopted cloud. AWS has been continually expanding its services to support virtually any workload, and it now has more than 240 fully featured services for compute, storage, databases, networking, analytics, machine learning and artificial intelligence (AI), Internet of Things (IoT), mobile, security, hybrid, media, and application development, deployment, and management from 105 Availability Zones within 33 geographic regions, with announced plans for 18 more Availability Zones and six more AWS Regions in Malaysia, Mexico, New Zealand, the Kingdom of Saudi Arabia, Thailand, and the AWS European Sovereign Cloud. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—trust AWS to power their infrastructure, become more agile, and lower costs. To learn more about AWS, visit <a href="https://cts.businesswire.com/ct/CT?id=smartlink&#x26;url=https%3A%2F%2Faws.amazon.com%2F&#x26;esheet=53904515&#x26;newsitemid=20240304438993&#x26;lan=en-US&#x26;anchor=aws.amazon.com&#x26;index=12&#x26;md5=74b48ab611b237d4b1c4af457e844e2a">aws.amazon.com</a>.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About Amazon</strong></div>
+    </div>
+  </div>
+  <p>Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. Amazon strives to be Earth’s Most Customer-Centric Company, Earth’s Best Employer, and Earth’s Safest Place to Work. Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Career Choice, Fire tablets, Fire TV, Amazon Echo, Alexa, Just Walk Out technology, Amazon Studios, and The Climate Pledge are some of the things pioneered by Amazon. For more information, visit <a href="https://cts.businesswire.com/ct/CT?id=smartlink&#x26;url=https%3A%2F%2Fwww.aboutamazon.com%2F&#x26;esheet=53552459&#x26;newsitemid=20230913559977&#x26;lan=en-US&#x26;anchor=amazon.com%2Fabout&#x26;index=4&#x26;md5=a9213abaf1405cdcf6f92fbf73419565">amazon.com/about</a> and follow @AmazonNews.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>As a global leader in enterprise applications and business AI, SAP (NYSE: SAP) stands at the nexus of business and technology. For over 50 years, organizations have trusted SAP to bring out their best by uniting business-critical operations spanning finance, procurement, HR, supply chain, and customer experience. For more information, visit <a href="http://www.sap.com/">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong><br>Scott Malinowski, +1 (781) 852-3822, <a href="mailto:scott.malinowski@sap.com">scott.malinowski@sap.com</a>, ET<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a><br>Amazon.com, Inc. Media Hotline<br><a href="mailto:Amazon-pr@amazon.com">Amazon-pr@amazon.com</a><br><a href="https://cts.businesswire.com/ct/CT?id=smartlink&#x26;url=http%3A%2F%2Fwww.amazon.com%2Fpr&#x26;esheet=52838073&#x26;newsitemid=20220829005779&#x26;lan=en-US&#x26;anchor=www.amazon.com%2Fpr&#x26;index=11&#x26;md5=f7f322f746ba4e16da9b2e92d74e349a">www.amazon.com/pr</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2023 Annual Report on Form 20-F.<br>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.<br>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you receive this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-revolutionary-technology-real-world-results">SAP Business AI: Revolutionary technology, real-world results</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/aws</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[NEC Leverages RISE with SAP and AI to Build Business AI in Move to the Cloud]]></title>
+            <link>https://www.sap.com/news/2024/05/nec-move-to-cloud-rise-with-sap-business-ai</link>
+            <guid>https://www.sap.com/news/2024/05/nec-move-to-cloud-rise-with-sap-business-ai</guid>
+            <pubDate>Fri, 17 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[NEC is migrating to SAP S/4HANA Cloud and adopting a clean-core approach to create a sustainable society through digital transformation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/aws</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP HANA Cloud Now Supports AWS Graviton]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-hana-cloud-now-supports-aws-graviton</link>
+            <guid>https://www.sap.com/news/2023/11/sap-hana-cloud-now-supports-aws-graviton</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP HANA Cloud now supports AWS Graviton. SAP is extending its cloud-native, in-memory database to AWS Graviton-powered Amazon EC2 instances.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP HANA Cloud Now Supports AWS Graviton" src="./media_1e8bbd2020212c08977fceef7cffe9aade6269f70.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-hana-cloud-now-supports-aws-graviton">SAP HANA Cloud Now Supports AWS Graviton</h1>
+      </div>
+    </div>
+  </div>
+  <p>SAP HANA Cloud on Arm-Based AWS Graviton processors delivers performance gains, cost savings and energy efficiency benefits to SAP</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <h2 id="walldorf--sap-se-nyse-sap-and-amazon-web-services-inc-aws-an-amazoncom-inc-company-nasdaq-amzn-today-announced-that-sap-hana-cloud-now-supports-aws-graviton-processors"><em>WALLDORF</em> — <a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) and Amazon Web Services Inc. (AWS), an Amazon.com Inc. company (NASDAQ: AMZN), today announced that SAP HANA Cloud now supports AWS Graviton processors.</h2>
+        <p>SAP is extending its cloud-native, in-memory database to AWS Graviton-powered Amazon Elastic Compute Cloud (Amazon EC2) instances to take advantage of AWS’s price, Performance and energy efficiency benefits.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="discover-the-power-of-partnership-with-sap">Discover the power of partnership with SAP</h3>
+        <p><em><a href="https://www.sap.com/partners.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Thousands of joint customers depend on solutions from AWS and SAP to run their mission-critical business processes. As customers build data-driven, intelligent applications that enable users to make more precise and faster decisions, their <a href="">compute</a> and memory demands grow. These customers require solutions that lower costs without compromising performance and energy efficiency. By choosing to run SAP HANA Cloud on AWS Graviton, SAP can optimize its <a href="">compute</a> costs and allow its customers to benefit from these efficiencies.</p>
+  <p>“AWS and SAP have a long history of delivering value in a way that is environmentally responsible,” said Juergen Mueller, Chief Technology Officer and member of the Executive Board of SAP SE. “This collaboration with AWS on the use of Graviton demonstrates our commitment to reduce the impact of our technologies on the environment while continuing to provide value in the solutions we bring to market.”</p>
+  <p>“One of the most visible ways we are innovating is improving the power efficiency of AWS chips,” said David Brown, vice president of Amazon EC2 at AWS. “Our Arm-based AWS Graviton3 processors deliver the best performance per watt of energy use in Amazon EC2, bringing a powerful combination of energy efficiency and price performance to SAP.”</p>
+  <p>Arm-based AWS Graviton processors leverage AWS’s extensive expertise in systems design and cloud infrastructure to deliver the best price performance over comparable x86-based instances for a variety of workloads running in Amazon EC2. By migrating SAP HANA Cloud to AWS Graviton-based Amazon EC2 instances, SAP has seen up to 30% better <a href="">compute</a> performance for analytical workloads and lowered its <a href="">compute</a> costs by 15%. And with Graviton3-based instances using up to 60% less energy for the same performance than comparable EC2 instances, SAP can reduce the compute carbon footprint of the workloads of SAP HANA Cloud by an estimated 45%. AWS Graviton3 also supports the latest DDR5 memory, which provides 50% higher memory bandwidth compared to DDR4, to improve the performance of memory-intensive applications.</p>
+  <p>As a signatory of Amazon’s The Climate Pledge, SAP is actively working alongside 427 organizations in 38 countries to help reduce carbon emissions and ultimately improve the environment. By choosing to run SAP HANA Cloud on AWS Graviton, SAP can further its efforts to reduce its carbon footprint and support efforts to address the climate crisis. SAP and AWS have a longstanding relationship spanning back to 2008, when SAP developed and tested the SAP NetWeaver technology platform – the underpinning of SAP S/4HANA and many other cloud solutions from SAP on AWS. Today, SAP customers continue to use AWS across SAP’s cloud enterprise portfolio through the RISE with SAP solution and SAP Business Technology Platform (SAP <a href="">BTP</a>). In addition, the SAP NS2 Secure Data Cloud service, which is designed for public sector and defense customers with uniquely stringent security and compliance requirements, uses AWS to deliver trusted and secure solutions. Amazon companies, including Twitch, Zappos.com and Zoox Inc., also rely on SAP software on AWS to support their national and global operations.</p>
+  <p>SAP plans to expand its use of AWS Graviton in the future to take advantage of the performance gains, cost savings and energy efficiencies.</p>
+  <p>To learn more about SAP HANA Cloud, visit <a href="http://www.sap.com/hana">www.sap.com/hana</a>. To learn more about AWS Graviton processors, visit <a href="https://aws.amazon.com/ec2/graviton/">aws.amazon.com/ec2/graviton</a>.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contacts:</strong><br>Scott Malinowski, +1 (617) 538-6297, <a href="mailto:scott.malinowski@sap.com">scott.malinowski@sap.com</a>, ET<br>Clara Villanueva, +1 (610) 235-7247, <a href="mailto:clara.villanueva@sap.com">clara.villanueva@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><em>Top image: AWS Graviton3 processor</em>. <em>Courtesy of AWS</em>.</p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/aws</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and AWS Collaborate to Accelerate Demand and Digital Transformation for Customers]]></title>
+            <link>https://www.sap.com/news/2023/01/sap-and-aws-customer-demand-digital-transformation</link>
+            <guid>https://www.sap.com/news/2023/01/sap-and-aws-customer-demand-digital-transformation</guid>
+            <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and AWS are entering 2023 more ready than ever to help customers innovate faster and capitalize on the digital disruptions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/aws</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+    </channel>
+</rss>

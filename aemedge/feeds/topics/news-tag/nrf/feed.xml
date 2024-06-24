@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/nrf/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 14 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Power of the Consumer]]></title>
+            <link>https://www.sap.com/news/2024/05/the-power-of-the-consumer</link>
+            <guid>https://www.sap.com/news/2024/05/the-power-of-the-consumer</guid>
+            <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Power of the Consumer" src="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-power-of-the-consumer">The Power of the Consumer</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Over recent years, retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Consumers have driven this shift with their increased awareness of environmental issues, ethical concerns, and desire to support products which are eco-friendly, ethically sourced, and produced under fair labor conditions.</div>
+    </div>
+  </div>
+  <p>Companies that prioritize <a href="/topics/sustainability">sustainability</a> in their operations, such as using recycled materials, reducing carbon emissions, or supporting social causes, are gaining popularity among consumers. But those consumers demand proof of these values and product promises at the point of sale.</p>
+  <p>“The rise of sustainability isn’t just a movement; it is a shift in consumer consciousness,” said Dania Fayyaz, SAP North America sustainability program manager. “Today’s consumers are redefining their purchasing patterns, opting for products and brands that align with their values, and driving a demand for eco-conscious practices and ethical sourcing.” In her conversations with retailers that visited SAP’s booth at NRF 2024, the world’s largest retail fair, she saw a high interest in sustainability solutions.</p>
+  <h2 id="consumers--and-markets--demand-visibility">Consumers – and Markets – Demand Visibility</h2>
+  <p>When the EU Deforestation Regulation (EUDR) comes into effect for large enterprises later this year all products sold in the EU containing palm oil, cocoa, soy, rubber, cattle/leather, coffee, wood, and their derivatives will need proof that their harvest didn’t contribute to deforestation. Non-compliance will result in potential fines of up to 4% of companies’ EU annual turnover. To help businesses simplify this complex task, the SAP Green Token solution can track the geolocation of where raw materials are harvested and automate the creation of due diligence statements (DDS). The solution can also help improve visibility for consumers on where the raw material for their clothing was sourced and offer information on potential reuse and recycling.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="record-report-and-act-with-sap-sustainability-solutions">Record, report, and act with SAP Sustainability solutions</h3>
+        <p><em><a href="https://www.sap.com/products/sustainability.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Take the example of a cotton shirt made from 50% certified recycled materials. Cotton can be sourced from multiple farms or recycling services and taken to a cotton mill where it’s spun into thread and later fabric. It becomes impossible to distinguish the different cotton elements – conventional versus recycled cotton – once they are co-mingled and the manufacturer loses insight into the sustainability attributes of the raw materials. That’s why it’s important to have a sophisticated tracking solution in place. “SAP Green Token can enhance transparency for bulk-traded, co-mingled raw materials by digitally storing sustainability attributes on tokens that traverse the supply chain,” said Fayyaz.</p>
+  <p>In addition to making conscious decisions on raw materials and products, consumers can also consider circular economy models. “I’m really intrigued by the idea of revitalizing clothing items,” said Fayyaz. “Imagine being able to exchange a well-loved jacket you’ve had for years and receive credit in return. And the jacket might find a new owner who will genuinely appreciate it.” The SAP Recommerce solution enables that scenario, helping brands and retailers take back, manage, and resell secondhand inventory to help accelerate the shift from linear to circular business models. On an even larger scale, SAP Green Ledger is SAP’s vision to make transactional carbon accounting a reality. It can enable organizations to track carbon like they do cash, with every financial transaction having a corresponding carbon entry. “This is incredibly desirable because we will see taxes for carbon imposed in the future, and decision-makers will want insights into which processes are utilizing the most carbon,” Fayyaz said.</p>
+  <h2 id="the-future-of-retail--a-retailers-view">The Future of Retail – A Retailer’s View</h2>
+  <p>At a recent SAP event, Christoph Werner, CEO at German retailer dm-drogerie markt, shared his view on the future of retail and his insights on what customers want – and therefore what will shape the way retailers have to engage to drive business.</p>
+  <p>For Werner, individualization of the shopping experience and any transaction will play a major role. Therefore, retailers will have to focus on the individual shopper, not on clusters of shoppers like in the past. Hyper-personalizing the customer experience will improve loyalty; the value for the customer will not only be the price, but increasingly the overall service and experience. This will change the concept of promotions. Werner is convinced that retailers will benefit from giving added benefits and delighting the customer, rather than pushing products into the market based on reduced prices. “Bring home flowers every now and then, but keep it special,” Werner said.</p>
+  <p>To no surprise, AI will be the foundation for personalized shopping experiences. “AI has benefits and downsides and today it remains to be seen where it will take us,” Werner stated. Overall, retailers see AI as an opportunity, with the technology completing repeatable tasks, freeing up employees for more value-adding tasks, and empowering individuals to make a difference. As retail stores often face staffing challenges, this can empower people in sales and marketing teams instead of replacing them. From Werner’s perspective, an AI-empowered workplace will attract new employees.</p>
+  <p><a href="https://www.sap.com/assetdetail/2024/04/d2065341-b97e-0010-bca6-c68f7e60039b.html">Learn more about dm-drogerie markt and its path to excellence with SAP.</a></p>
+  <h2 id="a-glance-into-the-crystal-ball">A Glance into the Crystal Ball</h2>
+  <p>At the same time, low-price online platforms continue to attract consumers with their affordable and wide range of products. They offer competitive prices on trendy clothing and accessories using economies of scale and direct-to-consumer models. Despite concerns about their environmental and ethical practices, these platforms remain popular among price-conscious consumers. However, there is growing awareness of the environmental and social impacts of fast fashion and low-price models. As a result, consumers are becoming increasingly discerning in their purchasing decisions, prioritizing quality, longevity, and sustainability over cheap prices and fast fashion trends.</p>
+  <p>“Overall, the consumer landscape is evolving, with a growing emphasis on sustainability, conscious consumption, and ethical practices,” said Sven Denecken, chief marketing and solutions officer for SAP Industries &#x26; CX. “Companies that can adapt to these changing preferences and demonstrate a commitment to environmental and social responsibility are likely to thrive in the long term.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-us-to-get-all-the-updates-on-company-news-stories-and-coverage">Connect with us to get all the updates on company news, stories, and coverage</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow SAP News on LinkedIn</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-green-token</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[The Game-Changing Role of Incentive Compensation Automation in the Retail Industry]]></title>
+            <link>https://www.sap.com/news/2024/02/incentive-compensation-automation-in-retail</link>
+            <guid>https://www.sap.com/news/2024/02/incentive-compensation-automation-in-retail</guid>
+            <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP SuccessFactors Incentive Management, retailers can incorporate key performance indicators into their incentive structure.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10fff8c20499512be48a61b55b1b6ecdb00d8656a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10fff8c20499512be48a61b55b1b6ecdb00d8656a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10fff8c20499512be48a61b55b1b6ecdb00d8656a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Game-Changing Role of Incentive Compensation Automation in the Retail Industry" src="./media_10fff8c20499512be48a61b55b1b6ecdb00d8656a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-game-changing-role-of-incentive-compensation-automation-in-the-retail-industry">The Game-Changing Role of Incentive Compensation Automation in the Retail Industry</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the dynamic world of retail, staying ahead means adapting to evolving customer expectations and embracing innovative solutions. The era of omnichannel retailing has ushered in demand for seamless, personalized shopping experiences, compelling businesses to think outside the box to support seamless experiences and minimize friction by providing the right product at the right time in the right place. Moreover, recognizing the intricate dance between employee satisfaction and customer experience, businesses are weaving a narrative where a better employee experience becomes the cornerstone for elevating customer delight.</div>
+    </div>
+  </div>
+  <p>At the recent <a href="/topics/nrf">NRF event</a>, the world’s largest retail conference, the mantra of “adjust and adapt” echoed through the halls. AI and digital acceleration took the center stage, making innovation the heart of the conversation. Retailers also highlighted a crucial focus on a motivated workforce, emphasizing how an empowered workforce is critical to delivering exceptional customer experiences.</p>
+  <p>In a landscape challenged by high turnover rates, retailers showcased their commitment to navigating complexity through strategic investments in their most valuable asset – their people. One of the pivotal elements that drives employee motivation and engagement in the retail industry is incentive compensation, where associates are often paid on commission.</p>
+  <p>During NRF, Daniel Jasper from Neiman Marcus shared insights into how incentive compensation automation transformed the company’s commission payment process. With over 40 stores and a complex commission structure, Neiman Marcus faced challenges in managing incentive compensation. Its previous incentive management system was cumbersome and complex, which led to errors, delays, and frustration among sales associates. Implementing <a href="https://www.sap.com/products/hcm/sales-performance-management.html#products">the SAP SuccessFactors Incentive Management solution</a> helped streamline the process, providing real-time monitoring of commission calculations. This allowed Neiman Marcus to identify and resolve issues proactively, resulting in improved accuracy and timeliness of commission payments. “Rather than waiting to hear from associates that something is wrong, we can monitor the calculations in real-time and resolve issues in advance,” said Jasper. This shift has been a game-changer for Neiman Marcus, driving better sales and revenue growth.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="empower-sales-teams-with-the-tools-they-need-to-create-effective-sales-experiences">Empower sales teams with the tools they need to create effective sales experiences</h3>
+        <p><em><a href="https://www.sap.com/products/hcm/sales-performance-management.html">Find out how</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>SAP SuccessFactors Incentive Management is one of the sales performance management solutions in the SAP SuccessFactors portfolio, and it offers a sophisticated platform for tailoring incentive programs to suit the unique needs of retail associates. With powerful analytics, embedded intelligence, and built-in workflows, this solution can revolutionize compensation management. Its intelligent design can not only foster trust but also ignite motivation among store associates. Through a user-friendly mobile app, retail customers can enjoy a comprehensive and easily accessible view of both store and individual performance metrics, promoting transparency and a unified understanding of team dynamics and trends. Personalized recommendations, relevant insights, and interactive monitoring help enhance the user experience, while the mobile app helps ensure that store associates can access their incentives anytime, anywhere, from any device.</p>
+  <p>The solution’s agility helps facilitate a swift rollout of new and updated compensation plans, offering the flexibility to manage broadly or tailor plans to individual needs. With a steadfast commitment to accuracy and traceability, associates can trust the fairness of calculations, fostering a positive work environment. The effective dating functionalities help further empower organizations, allowing seamless management of associate promotions and transfers.</p>
+  <p>“Retail businesses more than ever need the ability to design and manage incentive plans that align with ever-changing organizational goals, with a focus on store-level personalization and granularity that allow for improved accuracy and timeliness of commission payments,” said Rahul Iyer, general manager of Sales Performance Management at SAP. “With SAP SuccessFactors Incentive Management, retailers can incorporate key performance indicators, such as sales per hour and units per sale, into their incentive structure. The mobile app can provide visibility and transparency into individual and store performance, effectively motivating and ensuring optimal performance from their associates.”</p>
+  <p>In essence, SAP SuccessFactors Incentive Management emerges as an indispensable tool, helping to empower retail customers to optimize workforce performance and drive sustained success. Displaying key performance indicators and incentives has proven to be a game changer, helping to drive focus on store and individual performance. The result? Associates are more attentive to customers, guiding them through purchasing decisions and enhancing overall satisfaction.</p>
+  <p>In the always-changing retail world, success comes down to three things: using better technology, having happy employees, and keeping customers in focus. The story of Neiman Marcus proves that automating incentives can be a game changer. It shows how a motivated and well-connected team can not just boost how things work but also bring in more sales and money.</p>
+  <p>To stay ahead in retail, you need to be ready for change and invest in both tech and your team. This is a clear lesson for retailers planning for the future. Learn more about how <a href="https://www.sap.com/documents/2023/03/509d257a-677e-0010-bca6-c68f7e60039b.html">sales performance management can simplify the retail industry</a>. To learn more about how sales performance management solutions can support your organization, visit the <a href="https://www.sap.com/products/hcm/sales-performance-management.html">sales performance management product page on sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Kevin Coxwell is vice president of GTM for Sales Performance Management at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/employee-engagement</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>news-tag/sales-performance-management</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP’s Retail Partners Became Innovation Multipliers in 2023 and Created the Ultimate Consumer Experience]]></title>
+            <link>https://www.sap.com/news/2024/01/sap-retail-partners-became-innovation-multipliers-in-2023</link>
+            <guid>https://www.sap.com/news/2024/01/sap-retail-partners-became-innovation-multipliers-in-2023</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read to learn about the retail partners that served as innovation and growth multipliers for SAP customers in 2023.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/nrf</category>
+            <category>news-tag/partners</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Celebrates Its Retail Industry Heroes at NRF 2024]]></title>
+            <link>https://www.sap.com/news/2024/01/sap-celebrates-retail-industry-heroes-at-nrf-2024</link>
+            <guid>https://www.sap.com/news/2024/01/sap-celebrates-retail-industry-heroes-at-nrf-2024</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP Industry Heroes program celebrates companies that leverage technology to transform their business in innovative ways. Read more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a3595d9d5757368b8780b1671a7ab8c8c046f201.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a3595d9d5757368b8780b1671a7ab8c8c046f201.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a3595d9d5757368b8780b1671a7ab8c8c046f201.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Celebrates Its Retail Industry Heroes at NRF 2024" src="./media_1a3595d9d5757368b8780b1671a7ab8c8c046f201.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-celebrates-its-retail-industry-heroes-at-nrf-2024">SAP Celebrates Its Retail Industry Heroes at NRF 2024</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the rapidly evolving landscape of retail, a new breed of heroes has emerged – visionaries that are revolutionizing the industry through their innovative application of technology.</div>
+    </div>
+  </div>
+  <p>These pioneers, armed with a potent blend of innovation and determination, are reshaping the shopping experience, driving operational efficiency, and connecting with consumers in unprecedented ways. From leveraging AI and machine learning to implementing augmented reality and blockchain, these retail trailblazers are at the forefront of change, seamlessly integrating cutting-edge technologies to redefine what it means to engage customers and deliver exceptional service.</p>
+  <p>We launched the SAP Industry Heroes program in 2023 to celebrate companies that leverage technology to transform their business in innovative ways. Let’s explore the stories of our <a href="/topics/nrf">NRF</a> retail heroes that harnessed the power of technology to transform the traditional retail paradigm into an innovative, customer-centric frontier.</p>
+  <p><strong>Birkenstock</strong> worked with SAP on its ongoing objectives to expand retail and wholesale presence while fostering customer growth in line with its renowned legacy of function, quality, and tradition.</p>
+  <p><strong>Brand Alley</strong> delved into the rising trend of utilizing advocacy data in marketing strategies, which led to the transformation of brand perspectives on VIP customers and the strategic utilization of advocacy data within paid search and social media campaigns.</p>
+  <p><strong>FC Bayern</strong>, equipped with over 8 million fan data records, crafted a detailed profile of its worldwide fan community, encompassing specific preferences and interests. SAP technology played a pivotal role in enabling FC Bayern, one of the most accomplished football clubs globally, to curate what it terms as the “golden fan record.”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="execute-faster-in-the-world-of-omnichannel-commerce-with-sap">Execute faster in the world of omnichannel commerce with SAP</h3>
+        <p><em><a href="https://www.sap.com/industries/retail.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><strong>Grupo Axo</strong> effectively transitioned to leveraging internal customer data due to the potential extinction of third-party data. Its journey offers insights into standing out from competitors, increasing revenue, fostering stronger customer relationships, and cultivating a more robust, data-driven culture through the utilization of internal customer data.</p>
+  <p><strong>Hornbach</strong> achieved real-time retail success, processed over 100,000 orders, and effectively addressed omnichannel challenges with SAP Order Management foundation. Working together with SAP, Hornbach built a composable enterprise.</p>
+  <p><strong>Neiman Marcus</strong> harnessed innovative methods and valuable insights to optimize its compensation management. These strategies are reshaping the retail landscape and revolutionizing team incentives within the industry.</p>
+  <p><strong>PetSmart</strong>, a prominent pet retailer, encountered obstacles in omnichannel order fulfillment, leading to challenges in financial reconciliation and inventory transparency. By adopting SAP Customer Activity Repository, PetSmart established a robust foundation for omnichannel retail. This implementation significantly enhanced the omnichannel process and elevated overall customer satisfaction levels.</p>
+  <p><strong>PVH</strong>, a global apparel company with a brand portfolio that includes Tommy Hilfiger, Calvin Klein, Warner’s, Olga, and True&#x26;Co, is working with SAP to build an IT platform foundation for innovation, modernization, digitalization, and scalability.</p>
+  <p><strong>Qurate Retail Group</strong>, known for its innovative strides in the retail sector, leveraged technology to elevate customer experiences, optimize operations, and propel growth together with SAP.</p>
+  <p><strong>RD</strong>, Brazil’s top drugstore chain boasting nearly 3,000 stores across the nation, achieved a transformative implementation of SAP technology, which led to streamlined processes and customer-centric advancements, marking a new era of operational excellence.</p>
+  <p><strong>Wella Company</strong>, a pioneering force in the beauty industry with 15 distinctive brands, utilizes technology to inspire both consumers and beauty professionals to embrace their authentic selves. Wella Company’s approach of leveraging actionable data to craft tailored solutions strengthens its lifelong relationships across B2C (business-to-consumer), B2B (business-to-business), and D2C (direct-to-consumer) realms.</p>
+  <p>SAP celebrates these retailers for their outstanding efforts, collaboration, and dedication in driving successful business outcomes with technology. Join us at NRF 2024 to celebrate these SAP Industry Heroes that will be sharing their stories and learnings at the SAP booth. <a href="https://sap.jifflenow.com/external-request/nrf2024/meeting-request?token=3be51cab20a42cfa8e0b">Schedule an in-person meeting or booth tour with us today</a>.</p>
+  <p><a href="/">Read more about our retail and CPG customer stories and wins from 2023.</a></p>
+  <div class="footnote">
+    <div>
+      <div>Matt Laukaitis is EVP and Global GM for SAP Consumer Industries.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-sap-news-and-coverage-from-nrf-2024">Read more SAP news and coverage from NRF 2024</h3>
+        <p><em><a href="/topics/nrf">Get the news</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[Top Retailers Using Tech to Build Lifelong Customer Relationships]]></title>
+            <link>https://www.sap.com/news/2024/01/retail-sap-customers-using-tech-to-build-lifelong-relationships</link>
+            <guid>https://www.sap.com/news/2024/01/retail-sap-customers-using-tech-to-build-lifelong-relationships</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP customers in retail leverage tech to drive meaningful customer experiences, adopt sustainability, and position for success. Read more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-analytics</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Announces New AI-Driven Retail Capabilities to Enhance Customer Experience – From Planning to Personalization]]></title>
+            <link>https://www.sap.com/news/2024/01/new-ai-driven-retail-capabilities-enhance-customer-experience</link>
+            <guid>https://www.sap.com/news/2024/01/new-ai-driven-retail-capabilities-enhance-customer-experience</guid>
+            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[New AI retail capabilities will help retailers optimize business processes and drive profitability and customer loyalty. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>product/sap-predictive-demand-planning</category>
+            <category>product/sap-predictive-replenishment</category>
+        </item>
+        <item>
+            <title><![CDATA[How Gibson Makes Beautiful Music with High Tech and Strategy]]></title>
+            <link>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</link>
+            <guid>https://www.sap.com/news/2023/08/gibson-makes-music-high-tech-strategy</guid>
+            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology helps Gibson connect with customers easily and in the ways that they want. Learn more about the company's strategy and tech duet.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-engagement</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/sap-emarsys</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/media: industry/sports-entertainment</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[How Tech Makes Shopping Quick and Easy for Bosch Customers]]></title>
+            <link>https://www.sap.com/news/2023/08/bosch-tech-makes-shopping-easy</link>
+            <guid>https://www.sap.com/news/2023/08/bosch-tech-makes-shopping-easy</guid>
+            <pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Whether in-store or online, Bosch digital assistants and SAP Marketing Cloud connect to improve Bosch’s customer experience. Find out how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Tech Makes Shopping Quick and Easy for Bosch Customers" src="./media_13ffa0beda0091536a416843690b9f278471170cd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-tech-makes-shopping-quick-and-easy-for-bosch-customers">How Tech Makes Shopping Quick and Easy for Bosch Customers</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Benefits of <a href="/topics/ecommerce">e-commerce</a> include reaching new customers and better personalizing service. But what if your customers need – and have spent decades relying on – the in-store expertise of your associates? To find a very specific product? For use with another very specific product? To accomplish a very specific task?</div>
+    </div>
+  </div>
+  <p>“More and more of our users are coming online…[and] they still want to have the similar guidance and the systems they had in-store,” Ganna Lobachevska, the touchpoint owner of Product Finder and Product Guidance at <a href="https://www.boschtools.com/us/en/">Bosch Power Tools Accessories</a>, told SAP at NRF 2023 for a new video. “Our overall goal is to make it easier for our users to find the right accessory for their job.”</p>
+  <p>Of course, making something <em>easy to do</em> on the front end is seldom <em>easy to build</em> on the back end. And that was Bosch’s challenge when helping online shoppers narrow their search for the perfect jigsaw blade, drill bit, or abrasive wheel from a truly massive accessory portfolio.</p>
+  <p>“Any company with a wide range of products has to think how they can simplify the user journey…and how they can make it easier for the customers to find the right product,” Lobachevska said. “With the Bosch <a href="https://www.bosch-professional.com/gb/en/knowledge-innovation/accessories-product-finder/">Accessory Advisor</a>, we provide a solution that makes it easier and faster.”</p>
+  <p>Building that easier, faster solution meant finding a high-tech way to satisfy a peculiar demand by online shoppers.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How High Tech Helps Bosch Shoppers Find the Right Product" src="./media_1dbf147ad03dc11ba749845b8c16dd72ecc9059a2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/d6hDKHbogfg">How High Tech Helps Bosch Shoppers Find the Right Product</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="when-brick-and-mortar-set-the-bar-almost-too-high">When Brick-and-Mortar Set the Bar (Almost) Too High</h2>
+  <p>Selecting a specific power tool accessory for a specific job – and ensuring it’s compatible with your specific power tool – are big reasons that people historically shopped at brick-and-mortar stores, according to Lobachevska. It makes sense, right? You can consult with a knowledgeable human sales associate.</p>
+  <p>But Bosch’s e-commerce customers expect the same in-store-style expertise via a quick and painless online exchange, according to Lobachevska. And she doesn’t seem worried.</p>
+  <p>“The Accessory Advisor guides the user through a series of very simple questions,” Lobachevska said. “In the end, they have three perfect recommendations for the work they want to do.”</p>
+  <p>It’s pretty much an online conversation that yields the right product, according to Lobachevska. And Bosch found the right tech – and partners – to make these virtual dialogues happen.</p>
+  <h2 id="tech-to-the-rescue">Tech to the Rescue</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="deliver-customer-engagements-across-channels-and-at-scale-with-sap-marketing-cloud">Deliver customer engagements across channels and at scale with SAP Marketing Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/marketing.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“We realized that there is a need for a better user guidance,” Lobachevska said of Bosch’s decision to go with <a href="https://zoovu.com/customers/bosch-power-tools">Zoovu</a>, a Boston-based digital commerce search platform and partner solution in SAP’s industry cloud. “It offered us the best.”</p>
+  <p>Zoovu’s Semantic Studio translates technical jargon into e-commerce-friendly prose, which saves time for both Bosch data managers and shoppers. A few artificial intelligence (AI)-assisted questions later, and these accessory hunters have enjoyed a smooth, seamless customer experience.</p>
+  <p>“This means that our customers spend less time searching for a product,” Lobachevska said. “And when they purchase the product, it’s the right one and they are more satisfied.”</p>
+  <p>This increases efficiency, according to Lobachevska. It also cuts down on returns and poor online reviews.</p>
+  <h2 id="powering-forward">Powering Forward</h2>
+  <p>Whether in-store or online, Bosch digital assistants and SAP Marketing Cloud connect to improve Bosch’s data analytics, business insights, and customer experience, <a href="https://www.sap.com/documents/2023/04/2c39bc42-6d7e-0010-bca6-c68f7e60039b.html">according to an SAP assessment</a>. Those digital assistants have already helped enhance the customer experience for more than 1 million Bosch shoppers across more than 35 global markets, boosting engagement up to 65% as well as increasing customer loyalty and satisfaction.</p>
+  <p>And still more can be done by connecting all of that to the Accessory Advisor, according to Lobachevska.</p>
+  <p>“We would like to connect the Bosch Accessory Advisor with our CRM system, which is basically SAP Marketing Cloud,” Lobachevska said. “This will allow us to gain business insights, to build better personas, and to make the user experience even better because it’ll be more personalized.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-marketing-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How New Tech Helps Replacements Save Old Traditions]]></title>
+            <link>https://www.sap.com/news/2023/06/tech-helps-replacements-save-traditions</link>
+            <guid>https://www.sap.com/news/2023/06/tech-helps-replacements-save-traditions</guid>
+            <pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Replacements Ltd. uses data to help customers and collectors easily find vintage items and introduce its huge inventory to new audiences.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[Harrods’ High-Tech Backend Helps Deliver Unparalleled Experience]]></title>
+            <link>https://www.sap.com/news/2023/04/harrods-high-tech-backend-deliver-unparalleled-experience</link>
+            <guid>https://www.sap.com/news/2023/04/harrods-high-tech-backend-deliver-unparalleled-experience</guid>
+            <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Luxury retailer Harrods invested in an analytics initiative to help better understand how its customers interact with the brand.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-customer-data-cloud</category>
+            <category>product/sap-marketing-cloud</category>
+            <category>product/sap-service-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps PUMA Send the Right Message]]></title>
+            <link>https://www.sap.com/news/2023/03/how-high-tech-helps-puma-send-the-right-message</link>
+            <guid>https://www.sap.com/news/2023/03/how-high-tech-helps-puma-send-the-right-message</guid>
+            <pubDate>Wed, 29 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Success is about reaching the right people at the right time. Read to learn how PUMA uses SAP tech to unlock new value from customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+        </item>
+        <item>
+            <title><![CDATA[How Retailers Use Sustainability and Modern Marketing to Drive Brand Loyalty]]></title>
+            <link>https://www.sap.com/news/2023/01/sustainable-fashion-modern-marketing-brand-loyalty</link>
+            <guid>https://www.sap.com/news/2023/01/sustainable-fashion-modern-marketing-brand-loyalty</guid>
+            <pubDate>Tue, 24 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As more retailers prioritize sustainable fashion, they need to ensure they deliver high-quality experiences to their eco-conscious consumers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-customer-data-platform</category>
+            <category>product/sap-emarsys-customer-engagement</category>
+            <category>news-tag/sap-experience-center</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Customer Checkout Ready to Hit the U.S. Market]]></title>
+            <link>https://www.sap.com/news/2023/01/sap-customer-checkout-hits-u-s-market</link>
+            <guid>https://www.sap.com/news/2023/01/sap-customer-checkout-hits-u-s-market</guid>
+            <pubDate>Tue, 17 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Customer Checkout is expanding its globalization strategy, moving into the U.S. market with camera manufacturer Leica Camera AG.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-erp</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: U.S. Retailers to Address Sustainability Issues at NRF Show]]></title>
+            <link>https://www.sap.com/news/2023/01/the-take-nrf-2023-retailers-address-sustainability-issues</link>
+            <guid>https://www.sap.com/news/2023/01/the-take-nrf-2023-retailers-address-sustainability-issues</guid>
+            <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At NRF 2023, climate change and sustainability will take center stage, with supply chains in the middle of the challenges. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/sustainability</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/climate-change</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Commerce Cloud Powers Record $31.9 Billion in 2022 Holiday Digital Commerce Sales]]></title>
+            <link>https://www.sap.com/news/2023/01/sap-commerce-cloud-2022-holiday-retail-season</link>
+            <guid>https://www.sap.com/news/2023/01/sap-commerce-cloud-2022-holiday-retail-season</guid>
+            <pubDate>Fri, 06 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2022 holiday retail season is a wrap, with SAP Commerce Cloud powering US$31.9 billion in digital commerce gross merchandise value.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Commerce Cloud Powers Record $31.9 Billion in 2022 Holiday Digital Commerce Sales" src="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-commerce-cloud-powers-record-319-billion-in-2022-holiday-digital-commerce-sales">SAP Commerce Cloud Powers Record $31.9 Billion in 2022 Holiday Digital Commerce Sales</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="future-proof-your-customer-experience-strategy-with-sap-commerce-cloud">Future-proof your customer experience strategy with SAP Commerce Cloud</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/crm/commerce-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The hotly anticipated 2022 holiday season is a wrap! The most wonderful time of year turned out to be flat for retailers, with one twinkly exception: online sales.</div>
+    </div>
+  </div>
+  <p>This year, <a href="/topics/sap-commerce-cloud">SAP Commerce Cloud</a> powered US$31.9 billion in digital commerce gross merchandise value (GMV) for the entire holiday season, covering more than 70 countries around the world. Specifically, our retail customers saw a year-over-year increase of 80% in GMV, with a 29% increase in average order value (AOV).</p>
+  <p>According to <a href="https://investor.mastercard.com/investor-news/investor-news-details/2022/Mastercard-SpendingPulse-U.S.-Retail-Sales-Grew-7.6-This-Holiday-Season/default.aspx">MasterCard’s SpendingPulse, U.S. retail sales increased 7.6% year over year this holiday season</a>. The metrics from MasterCard are not adjusted for inflation and with <a href="https://www.bls.gov/opub/ted/2022/consumer-price-index-up-7-1-percent-over-the-year-ended-november-2022.htm">inflation at 7.1% at the end of November</a>, most of that growth can be attributed to it. Online sales increased 10.6% year over year, making up 21.6% of total retail sales.</p>
+  <p>There is no doubt that inflation has changed the way consumers shop. Many have adjusted to spend less on discretionary items and spend more on experiences. Therefore, it was critical for retailers to offer valuable deals this season with consumers likely hunting for the best promotions. Retail customers of SAP Commerce Cloud saw a healthy growth in GMV and AOV in addition to a 138% increase in conversion rates. All this indicates better targeted traffic by retailers.</p>
+  <p>“Despite the challenging macro-economic environment, SAP Commerce Cloud retail customers were able achieve record-breaking holiday results,” said Riad Hijal, global head of Marketing and Solution for SAP Commerce Cloud. “Our embedded intelligence and broad capability set enabled them to identify and target the right customers with relevant promotions and offers without over-sacrificing margin. This led to higher conversion rates, AOV, and ultimately profitability.”</p>
+  <p>According to the <a href="https://www.eiu.com/n/campaigns/consumer-in-2023/#:~:text=Inflation%20will%20weaken%20retailers&#x27;%20profits,slowing%20growth%20in%20real%20terms.">Economist Intelligence consumer goods and retail outlook</a> for the 2023, we can expect inflation to continue to dominate the discussion as it squeezes retailers, their profits, and the job market. Consumers will continue to look for deals and price reductions, likely fueling larger market shares for discount stores. They also predict that online sales will slow down even as its share of total retail sales will continue to steadily grow.</p>
+  <p>To learn more, <a href="https://www.sap.com/products/crm/commerce-cloud.html?source=social-Global-LINKEDIN_COMPANY-MarketingCampaign-CRM_and_Customer_Experience-SAPCX-BFCM_Card1-ComProduct-spr-8313917272-account_name&#x26;campaigncode=CRM-YA22-BSC-1440506&#x26;sprinklrid=8313917272">visit the SAP Commerce Cloud solution area of sap.com</a> and join us at NRF: Retail’s Big Show. Learn more about <a href="https://events.sap.com/noam/nrf/en/home">SAP at NRF at events.sap.com</a>.</p>
+  <p><a href="https://youtu.be/FIVuB3qKWWg">https://youtu.be/FIVuB3qKWWg</a></p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p><em>Winnie Tran is director of Product Marketing for SAP Commerce Cloud.</em></p>
+        <p>All SAP data presented here is approximate and is based on various assumptions. All data is unaudited and is subject to adjustment. Financial figures have been converted into USD. Data represents sales made by SAP Commerce Cloud global merchants.</p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable Retail Business Solutions from SAP]]></title>
+            <link>https://www.sap.com/news/2022/01/nrf-2022-sustainable-retail-business-solutions-from-sap</link>
+            <guid>https://www.sap.com/news/2022/01/nrf-2022-sustainable-retail-business-solutions-from-sap</guid>
+            <pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[During NRF 2022, read how SAP solutions are helping retailers digitally transform and make their businesses sustainable.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Sustainable Retail Business Solutions from SAP" src="./media_1a903832003837e34c273cbd6c0ea4f5745d5d107.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sustainable-retail-business-solutions-from-sap">Sustainable Retail Business Solutions from SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-at-nrf-2022">Learn more about SAP at NRF 2022</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/noam/nrf/en/home">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong><em>WALLDORF</em></strong> — The <a href="https://cdn.nrf.com/sites/default/files/2020-06/RS-118304%20NRF%20Retail%20Impact%20Report%20.pdf">retail industry’s</a> $3.9 trillion contribution to the U.S. annual GDP makes it the nation’s leading industry for private sector employment and uniquely positioned to address climate change.</div>
+    </div>
+  </div>
+  <p>As recently as the 2021 United Nations Climate Change Conference (COP26) meetings, the <a href="https://nrf.com/blog/retailers-set-science-based-targets-address-climate-change">National Retail Federation (NRF)</a> stated, “Retailers will continue inventing and implementing pragmatic climate change solutions because the needs identified at COP26 demand nothing less.”</p>
+  <p>To help retailers digitally transform to make their businesses sustainable, SAP is featuring a number of offerings, including these:</p>
+  <ul>
+    <li>The new <a href="/2021/07/sap-intelligent-returns-management-consumers-retailers-environment">SAP Intelligent Returns Management solution</a> was built to optimize the returns process for the retail industry. The solution uses routing and dispositioning decisions driven by artificial intelligence (AI) to guide products from customers’ hands to the final dispositioning steps, ultimately maximizing customer experience and company margins while also mitigating waste.</li>
+    <li>The recently updated <a href="https://www.sap.com/assetdetail/2021/09/a6120d2d-f87d-0010-bca6-c68f7e60039b.html">SAP Assortment Planning application</a> now offers advanced category management capabilities. It uses customer data science, assortment strategies, business rules and AI to plan space-aware, localized assortments with a user experience designed for the needs of today’s category manager. Customer-centric, relevant assortments increase customer loyalty, boost profitability and support a more sustainable supply chain.</li>
+    <li>The SAP.iO Foundries program is a network of startup companies with integrations to SAP solutions, including:
+      <ul>
+        <li><strong><a href="https://algramo.com/en">Algramo</a>,</strong> offering a circular platform that encourages consumers to buy in a more convenient, affordable way with zero waste and connects people, brands and retailers in an engaging way to change consumption habits</li>
+        <li><strong><a href="https://ecocart.io/business/">EcoCart</a>,</strong> helping thousands of e-commerce brands offer carbon-neutral products</li>
+        <li><strong><a href="https://everledger.io/">Everledger</a>,</strong> leveraging blockchain and the Internet of Things to offer transparency into supply chains for clarity on quality, origin, sustainability footprint and compliance standards</li>
+        <li><strong><a href="https://evrythng.com/">EVRYTHNG</a>,</strong> helping customers run their businesses differently with real-time data intelligence from each of their products end to end, from factory to consumer and beyond</li>
+        <li><strong><a href="https://inspectorio.com/">Inspectorio</a>,</strong> with a dynamic and risk-assessment-based quality compliance program that provides digitalization, automation, transparency and traceability</li>
+        <li><strong><a href="https://thelimeloop.com/">LimeLoop</a>,</strong> offering a platform for sustainable shipping including reusable packaging, real-time tracking and predictive analytics</li>
+        <li><strong><a href="https://specright.com/">Specright</a>,</strong> providing a purpose-built platform for specification management that fundamentally changes how brands, suppliers, manufacturers and retailers manage data and collaborate to bring products to market</li>
+      </ul>
+    </li>
+  </ul>
+  <p>In addition to these offerings, retailers can utilize SAP’s entire portfolio of <a href="https://www.sap.com/about/company/purpose-and-sustainability.html">sustainable business solutions</a>. Learn more in the blog “<a href="/">SAP Cloud for Sustainable Enterprises: Taking Action Together</a>.”</p>
+  <p>SAP’s solutions enable retailers to integrate sustainable business practices smoothly, which is critical to a fast-paced industry such as retail. According to Leslie Hand, IDC Group Vice President, IDC Retail Insights, <a href="https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fidc_emea%2F&#x26;data=04%7C01%7Cstacy.comes%40sap.com%7C32f20fbd808e403ebab108d9c18832a2%7C42f7676cf455423c82f6dc2d99791af7%7C0%7C0%7C637753612987837002%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&#x26;sdata=Avs0Ujbs1kRZqn0deU53aOOosGrbGrMddrMgbScdhSc%3D&#x26;reserved=0">IDC’s latest research</a> indicates that retail organizations report that, relative to political, social and economic risks, changing environmental targets and regulations will have the greatest impact on their digital transformation and tech investment plans in the next two years. Further, 80% (Asia Pacific) 59% (United States) and 64% (EMEA) of retail organizations agree that their digital technology strategy is an important enabler of their organization’s broader sustainability efforts.*</p>
+  <p>For more information about SAP at NRF 2022, Retail’s Big Show, visit <a href="https://events.sap.com/noam/nrf/en/home">sap.com/nrf</a> and follow <a href="https://twitter.com/SAP_Retail">@SAP_Retail</a> on Twitter.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Stacy Ries, SAP Media Relations, +1 (484) 619-0411, <a href="mailto:stacy.ries@sap.com">stacy.ries@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p><em>*Source: IDC Retail Core Processes and Applications, May 2021.</em><br>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2022 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/sustainability</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/idc</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-assortment-planning</category>
+            <category>product/sap-cloud-for-sustainable-enterprises</category>
+            <category>product/sap-intelligent-returns-management</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[How Generations Shop Online Will Define the Future of Retail]]></title>
+            <link>https://www.sap.com/news/2021/02/generations-online-buying-behavior</link>
+            <guid>https://www.sap.com/news/2021/02/generations-online-buying-behavior</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retailers that take time to understand how online buying behavior varies by generation are likely to be the ones that will come out ahead.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Generations Shop Online Will Define the Future of Retail" src="./media_1cb8a4b4f868619fd10794bdb46b8d01a5234d9b9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-generations-shop-online-will-define-the-future-of-retail">How Generations Shop Online Will Define the Future of Retail</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>A year ago, <a href="https://www.newsweek.com/chinese-new-year-2020-animal-rat-zodiac-sign-meaning-explained-1483942#:~:text=Associated%20with%20the%20hour%20before,if%20a%20bit%20too%20direct.">Newsweek ran an article</a> about the Chinese New Year, explaining how each Chinese zodiac year pairs an animal with one of five rotating elements – water, wood, fire, metal, or earth – and how it will influence the year ahead.</div>
+    </div>
+  </div>
+  <p>2020 was the Year of the Metal Rat. While open to all manners of interpretation, such a year is considered to be one of renewal and a chance “to turn unfortunate events into fortunate ones.” That could certainly apply to the world of retail.</p>
+  <p>No other sector was disrupted as much in 2020 as supply and demand see-sawed with each new surge of the pandemic. Lockdowns and social distancing severely restricted in-store shopping and led to a sharp increase in online retail, forcing retailers to reexamine their digital readiness and supply chain efficiency. At the same time, consumers have become more vocal about their expectations than ever before, placing increasing importance on sustainability, convenience, and experiences.</p>
+  <p>As a result, the sector is undergoing a profound transformation. Now, the question for retailers is ‘How do we proceed?’</p>
+  <h2 id="the-influential-shopper">The Influential Shopper</h2>
+  <p>During a <a href="https://nrfchapterone.com/live-stream/19759625/Create-a-new-retail-world-through-experiences-your-customers-value-produced-by-SAP">Big Idea Session</a> sponsored by SAP at the National Retail Federation’s virtual <a href="https://nrfbigshow.nrf.com/">Big Retail Show 2021</a>, Melanie Noronha, a senior editor at the <a href="https://www.eiu.com/n/">Economist Intelligence Unit</a>, discussed ways retailers can prepare for an uncertain year ahead with Nuno Pedro from SAP’s Customer Experience team and Rob Wood, head of Online at <a href="https://www.thetoyshop.com/aboutus">The Entertainer</a>, a leading UK toy store.</p>
+  <p>Based on a September 2020 survey of over 4,000 consumers that captured spending levels and habits in the U.S., Germany, the UK, Italy, and Spain, Noronha’s team was able to uncover trends by generational cohort. In a study titled “<a href="https://www.sap.com/cmp/cx/economist-shopper/index.html?url_id=ctabutton-glo-fcec-blog">The Influential Shopper</a>,” the team reports that although overall monthly retail expenditure in the countries surveyed declined by 9% from January-March to June-August, online spending increased by 15% on average.</p>
+  <p>Because online buying behavior varies by generation, from Baby Boomers to Generation Z, Noronha’s advice to retailers is to develop a deep understanding of the generational differences within their customer base. Millennials, for example, dominate online spending. In the period of June to August, they reported online spending 2.5, 1.5, and 1.3 times as much as Baby Boomers, Generation X, and Generation Z, respectively. In the same period, Millennial respondents also reported that 53% of their total purchases were made online.</p>
+  <p>Understanding what Millennials and Generation Z are passionate about is critical; not only are they the most loyal customer base, but the future of business depends on them. “<a href="https://insights.sap.com/social-impact-in-business/">The Passionates</a>,” for example, is a rapidly growing consumer group that makes decisions based upon values and principles. They won’t buy from, work for, or trust a company unless it is taking action on the issues they care about.</p>
+  <p>After Millennials, Baby Boomers demonstrated the biggest shift online since the start of the pandemic, increasing their online spending as a share of their total spending from 25% to 37%, followed by Generation X, who increased their share of online spending from 39% to 47%. During the pandemic, online shopping for essential products, such as groceries and cleaning supplies, has become more deeply entrenched, with average monthly expenditure increasing by 78% and 49%, respectively, for the two categories.</p>
+  <p>But with average monthly spending declining overall by 9% and unemployment soaring in many parts of the world, the report also makes it clear that consumers of all ages are hunkering down for an extended period of uncertainty. Across the five countries surveyed, a quarter of survey respondents do not believe that the economy will recover once the pandemic is under control, and younger cohorts are significantly more pessimistic.</p>
+  <h2 id="the-opportunity">The Opportunity</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-blank-canvas-to-learn-more-about-how-the-passionates-are-changing-the-future-of-fashion">Watch Blank Canvas to learn more about how "The Passionates" are changing the future of fashion</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/conversations/blank-canvas-fashion-sustainability/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The shift to online shopping, especially among older generations, presents a unique opportunity for brands and retailers to engage new online customers in ways they never could before. According to Noronha’s team, understanding these trends is vital to crafting strategies for short-term resilience, medium-term recovery, and long-term growth.</p>
+  <p>As brands expand their digital presence in response to increased customer familiarity with online shopping, they will need to remain agile to respond effectively to evolving consumer habits, enhance the customer experience to stay competitive, and employ personalized engagement strategies – including digital marketing – to retain customers online.</p>
+  <p><a href="https://www.thetoyshop.com/aboutus">The Entertainer</a> was one company that was able to ride the ups and downs of the pandemic last year by remaining agile. The toy store’s vision is to fill every childhood with wonder; its mission is to be the best-loved toyshop, one child and one community at a time. The company runs its click and collect business on SAP Commerce Cloud, and its intention is to offer the same level of service anywhere, in store or online.</p>
+  <p>“2020 was a topsy-turvy year,” says Wood, who is responsible for determining online demand and keeping up with fulfillment. “We had seven times the uplift in the first two weeks of lockdown. Our forecasts were wrong all the time. The only way we managed to weather the storm was by remaining agile and flexible.”</p>
+  <p>Wood says the company decided not to put all its eggs in one basket and to introduce flexible pay options. Another step was to equip staff with iPads to check product availability from the shop floor during those times when children come into a store in person, eager to spend their pocket money. This type of service reflects the company’s goal of creating fond memories and delivering outstanding service, whether in a real or a virtual world. After all, today’s eight-year-olds will be tomorrow’s influential shoppers.</p>
+  <h2 id="the-experience">The Experience</h2>
+  <p>The pandemic has clearly helped online spending expand its share of individual wallets. More effective online selling could offer a shorter, smoother path to recovery for companies, but only for those that succeed in giving customers a seamless experience that keeps them coming back for more, regardless of their age. This builds on consumers’ preferences for shopping experiences that are convenient, so that they can shop from anywhere, save time, and find the best deals.</p>
+  <p>2021 is the Year of The Metal Ox, considered a favorable time for economic recovery or consolidation after a catastrophic event. It’s a year for long-term investments, a year when problems are solved with hard work, diligence, and discipline.</p>
+  <p>That makes this year the perfect time for retailers to garner deep insight into the effect of the pandemic on retail spending and shifts in consumers’ online shopping behaviors. Experts like Noronha conclude that those retailers that take time now to understand how online buying behavior varies by generation are likely to be the ones that will come out ahead.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Promo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <h3 id="deliver-rich-hyper-personalized-omnichannel-shopping-and-buying-experiences-with-sap-commerce-cloud">Deliver rich, hyper-personalized omnichannel shopping and buying experiences with SAP Commerce Cloud</h3>
+              </td>
+              <td><strong><a href="https://www.sap.com/products/crm/e-commerce-platforms.html">Learn more</a></strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 id="watch-the-replay-of-saps-big-idea-session-create-a-new-retail-world-through-experiences-your-customers-value"><a href="https://nrfchapterone.com/live-stream/19759625/Create-a-new-retail-world-through-experiences-your-customers-value-produced-by-SAP">Watch the replay of SAP’s Big Idea Session, “Create a New Retail World through Experiences Your Customers Value.”</a></h3>
+        <p><em>Follow me on Twitter:</em> <em><a href="https://twitter.com/magyarj">@magyarj</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/feature</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Steps to Circularity in Fashion Retail]]></title>
+            <link>https://www.sap.com/news/2021/01/three-steps-circularity-sustainable-fashion-retail</link>
+            <guid>https://www.sap.com/news/2021/01/three-steps-circularity-sustainable-fashion-retail</guid>
+            <pubDate>Fri, 15 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Disruptions in 2020 have moved us to a new era of sustainable fashion retail. Learn how companies are finding innovative ways to circularity.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/fashion</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Co-Innovates Replenishment Planning Solution with Retailers]]></title>
+            <link>https://www.sap.com/news/2021/01/sap-add-on-replenishment-planning-retailers</link>
+            <guid>https://www.sap.com/news/2021/01/sap-add-on-replenishment-planning-retailers</guid>
+            <pubDate>Wed, 13 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has launched an add-on for SAP Customer Activity Repository for the SAP Replenishment Planning application. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Co-Innovates Replenishment Planning Solution with Retailers" src="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-co-innovates-replenishment-planning-solution-with-retailers">SAP Co-Innovates Replenishment Planning Solution with Retailers</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="see-more-from-sap-at-nrf-2021">See more from SAP at NRF 2021</h3>
+      </div>
+      <div><strong><a href="https://discover.sap.com/futureofretail/en-us/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced the launch of the <a href="https://roadmaps.sap.com/board?INDUSTRY=RETAIL&#x26;range=CURRENT-LAST&#x26;BC=901B0ED1A0641EDAA2BFC2A146C820EF#Q1%202021">add-on for SAP Customer Activity Repository for the SAP Replenishment Planning application</a>.</p>
+      </div>
+    </div>
+  </div>
+  <p>The add-on, developed in collaboration with Swiss retailer <a href="https://www.coop.ch/de/">Coop</a>, utilizes intelligent replenishment strategies to reduce cost and waste and enhance customer experience. It is a highly automated solution that helps take the guesswork out of retail replenishment, with a focus on fresh products in stores.</p>
+  <p>“As part of a larger vision to improve business processes and, above all, ensure customer satisfaction, we partnered with SAP for retail replenishment and forecasting,” said Coop’s head of IT merchandise management processes, Thomas Vielhauer. “By integrating intelligent technologies into our promotion and replenishment processes, we’re able to stock accurate quantities. That means customers get the products they need and the fresh quality they expect.”</p>
+  <p>Food waste has become a global problem. Around <a href="https://www.un.org/en/observances/end-food-waste-day">14%</a> of food produced is lost between harvest and retail alone, with even more waste occurring at the consumption level. <a href="/covid-19">COVID-19</a> introduced new challenges for retailers such as Coop, which saw an abrupt change to planning requirements.</p>
+  <p>SAP and Coop developed the AI-based SAP Replenishment Planning to provide precise demand prediction and optimal order amounts. Its comprehensive capabilities, which support replenishment configuration, planning, simulation and alert management, enable retailers to eliminate over-stocks and stock-outs. Goods can now be replenished based on the changing demand history of each individual product and store, rather than on a rigid formula. Order amounts are optimized to provide the lowest expected costs under consideration of forecast distribution and product-specific replenishment requirements such as shelf life or shelf capacity.</p>
+  <p>The new add-on will be showcased at the <a href="https://nrfbigshow.nrf.com/">NRF 2021: Chapter One</a> taking place virtually and is featured in this <a href="https://sapvideoa35699dc5.hana.ondemand.com/?entry_id=1_5bak6pk8">short video</a>:</p>
+  <p>Join the conversation by following SAP on Twitter at <a href="https://twitter.com/SAP_Retail">@SAP_Retail</a> and visit <a href="http://www.sap.com/nrf">sap.com/nrf</a> to watch live presentations.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Stacy Ries, +1 (484) 619-0411, <a href="mailto:stacy.ries@sap.com">stacy.ries@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/nrf</category>
+        </item>
+        <item>
+            <title><![CDATA[Oxford Economics and SAP Survey Results Reveal the Importance of Responsive Retail]]></title>
+            <link>https://www.sap.com/news/2021/01/responsive-retail-importance-oxford-economics-sap-survey</link>
+            <guid>https://www.sap.com/news/2021/01/responsive-retail-importance-oxford-economics-sap-survey</guid>
+            <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retail-specific findings from a research study from SAP and Oxford Economics reveal the importance of responsive retail. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/newsbyte</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Study Unveils Expected Shopping Habits as Recovery Rolls Out]]></title>
+            <link>https://www.sap.com/news/2021/01/sap-study-shopping-habits-recovery-roll-out</link>
+            <guid>https://www.sap.com/news/2021/01/sap-study-shopping-habits-recovery-roll-out</guid>
+            <pubDate>Tue, 12 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New research by SAP and The Economist Intelligence Unit examines shopping habits of consumers before and since the start of the pandemic.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+    </channel>
+</rss>

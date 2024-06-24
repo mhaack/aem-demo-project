@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/inflation/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 01 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Take: Connecting the Dots Between Interest Rates, Inflation and the Real Economy]]></title>
+            <link>https://www.sap.com/news/2023/02/the-take-interest-rates-inflation-real-economy</link>
+            <guid>https://www.sap.com/news/2023/02/the-take-interest-rates-inflation-real-economy</guid>
+            <pubDate>Wed, 01 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Uncertainties remain for the U.S. and global economies. Get SAP's take on interest rates, inflation and the real economy.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>news-tag/inflation</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: To Fight Inflation, Consumer Products Makers Turn to AI]]></title>
+            <link>https://www.sap.com/news/2022/11/the-take-fighting-inflation-ai-consumer-products-makers</link>
+            <guid>https://www.sap.com/news/2022/11/the-take-fighting-inflation-ai-consumer-products-makers</guid>
+            <pubDate>Mon, 07 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Consumer product producers are fighting inflation by turning to AI and automating more processes. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: To Fight Inflation, Consumer Products Makers Turn to AI" src="./media_19d9e6cfca5a5c2d3608a3e8197461ba7d52ebc70.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-to-fight-inflation-consumer-products-makers-turn-to-ai">The Take: To Fight Inflation, Consumer Products Makers Turn to AI</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>All eyes Thursday will be on the release October’s U.S. consumer price index (CPI) figure, a benchmark reflecting the rate of inflation. Some food prices, such as orange juice, have already reached record levels and are expected to go even higher as the impact of Hurricane Ida on Florida’s citrus industry is reflected in prices.</p>
+  <p>But inflation has impacted prices across the board — from juice to jeans — prompting consumer products companies to find new ways to please the consumer while growing profits.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="rise-with-sap-for-consumer-products-expand-business-innovation">RISE with SAP for consumer products: Expand business innovation</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/rise/consumer-products.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>For more than two years, consumer products companies have been grappling with supply chain disruptions, labor shortages, sustainability rules, war-related food ingredient shortages and now the newest factor: inflation-induced consumer buying patterns.</p>
+  <p>“These various forces are causing massive amounts of complexity in the business,” said Edward Kenney, SAP senior vice president of Consumer Products, Industry Business Units. “Their costs are increasing at a rate they can’t pass along.”</p>
+  <p>In some cases, producers are shrinking the size of their products while holding prices. In others, they are looking to change their formulas, Kenney said.</p>
+  <p>As consumer products companies are limited in their ability to pass along full cost increases, inflation is fueling their chief anxiety: how to grow profitability.</p>
+  <p>“It used to be very consistent and very easily predicted,” Kenney said. “They attracted new customers in new geographic areas. That kind of expansion has really hit the end of the road. Now, you have to get more of a share of a wallet of a given customer who has gotten infinitely more selective and has infinitely more choices than they’ve ever had.”</p>
+  <p>Digitization is helping some producers deal with changes in all these factors and their impacts on each other, “because this macroeconomic problem impacts supply and demand and everything in between,” Kenney explained. “Those end-to-end processes that consumer companies rely on — things like formulation, production planning, scheduling, distribution and promotion — are elongated processes and are very hard to pivot and change. Complexity is significantly greater than it’s ever been before.”</p>
+  <p>As the complexity grows, consumer product producers are looking to automate more processes, especially when they need to pivot quickly to change a formula, a supplier or any other step in a process.</p>
+  <p>“If you don’t have some level of automation and intelligence to help guide the decision-making, you can end up not only making the wrong decisions,” Kenney said, “you can end up causing disruption through your value chain.”</p>
+  <p>In the past, companies used optimization decisioning tools to balance one or two variables, such as available capacity and operating margin to maximize revenue, Kenney explained. Today, simple optimizations won’t work; the inter-reliance on the growing list of changing variables that producers face is prompting some to use artificial intelligence (AI) to help guide them.</p>
+  <p>“You have to have the ability to balance off multiple variables and come up with the best trade off decision in the moment,” Kenney said. “And because so many variables are happening across many aspects of the business, no one person can do that. Artificial intelligence is a way that a lot of companies express this multivariable optimization.”</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong> Ilaina Jonas, Senior Director of Global <a href="/press-room">Public Relations</a>, SAP<br>+1 (646) 923-2834, <a href="mailto:ilaina.jonas@sap.com">ilaina.jonas@sap.com</a></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>topic/ai</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/inflation</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Fed Set to Hike Interest Rates Again]]></title>
+            <link>https://www.sap.com/news/2022/11/the-take-fed-interest-rate-hike-again</link>
+            <guid>https://www.sap.com/news/2022/11/the-take-fed-interest-rate-hike-again</guid>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With another interest rate hike, the Fed is continuing to increase rates to slow down the economy. Learn what it means for consumers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>news-tag/inflation</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: A Bumpy Road Ahead – Winners and Losers from the Strong Dollar]]></title>
+            <link>https://www.sap.com/news/2022/10/the-take-strong-dollar-winners-and-losers</link>
+            <guid>https://www.sap.com/news/2022/10/the-take-strong-dollar-winners-and-losers</guid>
+            <pubDate>Wed, 05 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The strong dollar, coupled with inflation, interest rates and supply chain issues, is making some investors nervous. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>news-tag/inflation</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Ways Technology Helps Alleviate Inflation Challenges]]></title>
+            <link>https://www.sap.com/news/2022/08/inflation-challenges-technology-alleviates</link>
+            <guid>https://www.sap.com/news/2022/08/inflation-challenges-technology-alleviates</guid>
+            <pubDate>Thu, 25 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With inflation challenges, understanding and managing the financial risks in the supply chain play a significant role in survival.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/inflation</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-digital-supply-chain</category>
+            <category>news-tag/sap-treasury-and-risk-management</category>
+        </item>
+    </channel>
+</rss>

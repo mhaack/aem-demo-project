@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/procure-to-pay/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 01 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[In 2023, SAP Will Continue to Lead the Market in Procurement Innovation]]></title>
+            <link>https://www.sap.com/news/2023/02/procurement-innovation-leading-market</link>
+            <guid>https://www.sap.com/news/2023/02/procurement-innovation-leading-market</guid>
+            <pubDate>Wed, 01 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In 2023, SAP intends to lead the market with procurement innovation. Learn how SAP plans to continue to deliver actionable insights.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/procure-to-pay</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>news-tag/supplier-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Named a Leader in 2022 Gartner® Magic Quadrant™ for Procure-to-Pay Suites]]></title>
+            <link>https://www.sap.com/news/2022/12/sap-a-leader-procure-to-pay-suites-gartner-magic-quadrant</link>
+            <guid>https://www.sap.com/news/2022/12/sap-a-leader-procure-to-pay-suites-gartner-magic-quadrant</guid>
+            <pubDate>Wed, 21 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the seventh consecutive time, SAP has been recognized as a Leader in the Gartner Magic Quadrant for Procure-to-Pay suites. Learn why.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>news-tag/procure-to-pay</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+        </item>
+    </channel>
+</rss>

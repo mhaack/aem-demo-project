@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/topic/business-transformation/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 27 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Great Data-Driven Auto Distribution Rally]]></title>
+            <link>https://www.sap.com/resources/the-great-data-driven-auto-distribution-rally</link>
+            <guid>https://www.sap.com/resources/the-great-data-driven-auto-distribution-rally</guid>
+            <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[To keep up with customers, automakers need to up their data game. Vehicles are changing, but the sales model is stuck in neutral.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1354ead36c3a8ed04a5ef33f01c05c22da44f4ae1.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1354ead36c3a8ed04a5ef33f01c05c22da44f4ae1.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1354ead36c3a8ed04a5ef33f01c05c22da44f4ae1.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Car Workers Inspecting Production Line" src="./media_1354ead36c3a8ed04a5ef33f01c05c22da44f4ae1.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="the-great-data-driven-auto-distribution-rally">The Great Data-Driven Auto Distribution Rally</h1>
+        <p>Vehicles are changing, but the sales model is stuck in neutral. To keep up with customers, automakers need to up their data game.</p>
+      </div>
+    </div>
+  </div>
+  <p>By Randy Garrison and Chuck Mazurek</p>
+  <p>A few of Ford Motor Company’s recent recruits are a good indication of where the legacy auto company is headed. The <a href="https://www.detroitnews.com/story/business/autos/ford/2022/02/10/ford-hires-away-tesla-engineering-director-work-advanced-evs/6739919001/">hirings</a> of former Apple and Tesla execs lay bare the company’s ambition to move away from internal combustion engines (ICEs) and to electric vehicles (EVs) – and even more so, to a technology- and software-focused company. Ford’s head, Jim Farley, says the <a href="https://www.latimes.com/environment/newsletter/2023-09-14/ford-ceo-jim-farley-talks-up-the-companys-ev-future-boiling-point">changes</a> he’s implementing – such as developing a new EV platform for release in 2025 – are “not an EV revolution” but instead are “a digital shift to a digital product.”</p>
+  <p>But already in 2024, the company has <a href="https://www.reuters.com/business/autos-transportation/ford-reduce-f-150-lightning-production-2024-01-19/">cut back production</a> of their flagship electric truck, the <a href="https://www.reuters.com/business/autos-transportation/ford-reduce-f-150-lightning-production-2024-01-19/">F-150 Lightning</a>, because of lower-than-predicted demand.</p>
+  <p>In their cohort of older original equipment manufacturers (OEMs), Ford is far from alone in struggling to remake its business.</p>
+  <p>The automotive industry can be divided into two eras: Before Tesla and During Tesla. That’s a reflection of how much has changed in auto-land in the past two decades. Consumer buying habits, vehicles technology, and mobility options – Uber, car sharing, e-bikes – have all changed, and Tesla stands as the leading example of how automaking and marketing are also changing. As a vertically integrated, direct-to-consumer (DTC), native electric company, Tesla is currently the <a href="https://money.usnews.com/investing/articles/the-10-most-valuable-auto-companies-in-the-world">most valuable</a> vehicle manufacturer in the world. Its valuation in 2023 rose to as much as three times that of Toyota – long in the top spot, but now in second place – despite Toyota selling roughly five times as many cars as Tesla in the first half of that year. Farley noted that Ford’s current distribution model costs an estimated $2,000 more per vehicle versus Tesla’s integrated approach, with most of that extra cost attributed to advertising and inventory.</p>
+  <p>For traditional automakers, as Ford’s experience shows, keeping up has been a challenge. The fragmentation of every step of the old-school process, including the relationship structure between OEMs and dealers, means siloed systems and data, which hamper automakers’ abilities to adapt and compete.</p>
+  <p>Thriving in this new era of electrical vehicles and other modes of transportation requires new ways of making, selling, and servicing cars. Accepting these changes first and foremost means getting a better handle on the data. With that data, they’ll be able to make informed business model choices, streamline production, understand who is buying their product and why, and how it’s being used. Oh, and of course, all of that will add up to making more money. Making these changes won’t be easy, but there are strategies to make it more efficient.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_135e58689f6e6c5e54d774c7463839586a88ae866.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_135e58689f6e6c5e54d774c7463839586a88ae866.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_135e58689f6e6c5e54d774c7463839586a88ae866.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="White, young salesman talking to a middle-aged white couple in a car showroom." src="./media_135e58689f6e6c5e54d774c7463839586a88ae866.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1493" height="1120">
+    </picture>
+  </p>
+  <h2 id="stuck-in-neutral">Stuck in neutral</h2>
+  <p>In the United States, the traditional dealership system hasn’t changed much over the years from what’s considered to be the <a href="https://www.cnn.com/2022/04/30/cars/why-we-buy-cars-this-way/index.html">first-ever dealership in Detroit in 1898</a> to the <a href="https://www.newsweek.com/why-cant-you-buy-car-way-buy-computer-453657">legal morass</a> that exists today. Florida, for example, recently banned DTC sales, but only for legacy automakers; non-dealership brands are allowed. Adherence to this model differs around the world. For example, many Asian countries, such as Malaysia, have long allowed direct sales; Japan sees a mixed model, with OEMs owning varying stakes in dealerships. But for the largest Western brands, changing the established, independent dealer-distribution model has been challenging.</p>
+  <p>In the late-2000s, Tesla rolled up with its completely owned DTC sales model, with fixed prices and Tesla-employed sales staff. It’s a streamlined, vertically integrated operation in which Tesla has access to all the data about all their vehicles and customers.</p>
+  <p>Other upstarts in the automotive space, such as electric truck pioneer Rivian and China’s fast-growing BYD, are also DTC. DTC auto companies don’t work with independent dealerships, so they don’t have that extra dealership margin on top of the cost. They have stores (Tesla), “hubs” and “spaces” (Rivian), and “studios” (Lucid) – all names for brand-owned places where vehicles are displayed. Plus, they have data.</p>
+  <p>“That ownership of the customer experience, it’s the ownership of the customer preferences, the demand profiles, patterns, the market insights,” says Neil Ganguli, senior managing director at U.S.-based FTI Consulting.</p>
+  <p>Not that Tesla is without its own challenges and, to be fair, it did start up in a vastly different auto environment in which it was almost the only game in town for a premium EV, points out Steve Young, managing director at UK-based automotive consultancy ICDP. Young says the comparison between old and new isn’t fair. Tesla had a cost advantage because it was spending less money – on advertising, for example, and as much as $35 less per employee hour in labor costs, <a href="https://www.businessinsider.com/ford-gm-stellantis-pay-raise-uaw-contract-tesla-labor-costs-2023-10">according to reports</a>. But for years, it also <a href="https://jalopnik.com/tesla-loses-a-lot-of-money-selling-cars-but-makes-it-a-1846768094">lost money</a> on each vehicle sold. Tesla’s competition has increased even as the company added capacity, Young notes, leading to price discounts, lower third- and fourth-quarter 2023 earnings, and a big market capitalization hit. Then there was that end-of-<a href="https://apnews.com/article/tesla-autopilot-recall-driver-monitoring-system-8060508627a34e6af889feca46eb3002">2023 recall</a> of almost all Teslas sold in the U.S. to address autopilot problems.</p>
+  <p>Nevertheless, Tesla owns the customer data and, in that vital regard, older companies are playing catch-up. OEMs don’t have the “muscle memory, this is not DNA that they have already,” Ganguli says, whereas the newer automakers have DTC built into their standard operating procedures and are strategizing completely differently. “Their systems, their processes, their governance are wired that way. There is no legacy and changing the mentality and needing new skills,” he says.</p>
+  <p>To illustrate the extreme silo-fication conventional OEMs must combat, consider the issue of sales incentives.</p>
+  <p>Anyone who’s shopping for wheels is aware of incentives for lease or purchase. Auto companies budget billions of dollars every year for those incentives, which are often stacked (i.e., offered one on top of the other). OEMs lacking full visibility across the sale process may end up selling the car at a loss and not even realize it. And they don’t understand the customer network because they don’t have access to the data about their customers. But the dealerships do.</p>
+  <p>OEMs making gas vehicles also have the pressure of <a href="https://electrek.co/2023/10/20/colorado-partially-adopts-californias-ev-rules-but-falls-short-of-2035-ban/">EV deadlines</a> in several states in the United States, in <a href="https://www.canada.ca/en/environment-climate-change/news/2022/12/let-it-roll-government-of-canada-moves-to-increase-the-supply-of-electric-vehicles-for-canadians.html">Canada</a>, and <a href="https://ec.europa.eu/commission/presscorner/detail/en/IP_22_6462">in the EU</a>, where most countries are mandating 100% EV new car sales by 2035. So they’re adopting aggressive changes to transform their businesses into leaner, meaner, greener machines that can compete with Tesla and its DTC kin.</p>
+  <ul>
+    <li><a href="https://thedriven.io/2023/05/24/volvo-to-end-uk-dealerships-as-it-transitions-to-tesla-style-sales-model/">Volvo</a> is going all in with a full DTC sales model like Tesla’s, starting in the UK, to be followed by Sweden, then other European countries.</li>
+    <li>Volkswagen’s parent company, VW Group, is aiming for major operational changes to <a href="https://www.cnn.com/2023/11/27/business/volkswagen-brand-no-longer-competitive/index.html">improve competitiveness</a>.</li>
+    <li>GM wants to be considered a <a href="https://insideevs.com/news/537914/gm-tech-company-tesla-value/">tech company</a> – a refrain heard from CEO Mary Barra <a href="https://www.detroitnews.com/story/business/autos/general-motors/2018/10/29/ceo-mary-barra-wants-people-think-gm-tech-company/1808690002/">as early as 2018</a> – by providing software platforms and more EV models.</li>
+    <li>Ford’s Jim Farley, speaking at a June 2022 strategy conference, also <a href="https://www.thedrive.com/news/ford-ceo-jim-farley-says-direct-sales-no-ads-will-sell-future-evs">said</a>, “We’ve got to go to non-negotiated price. We’ve got to go to 100% online … no inventory, it goes directly to the customer, 100% remote pickup and delivery.”</li>
+  </ul>
+  <p>Unfortunately, inefficient infrastructure and systems mean they’re driving uphill.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1ffa3770f80a6b9f5d5ff739c47bd56ba9c435149.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1ffa3770f80a6b9f5d5ff739c47bd56ba9c435149.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1ffa3770f80a6b9f5d5ff739c47bd56ba9c435149.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Robotic arms assembling a line of pickup trucks on a production line" src="./media_1ffa3770f80a6b9f5d5ff739c47bd56ba9c435149.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1669" height="1120">
+    </picture>
+  </p>
+  <h2 id="tech-in-park">Tech in park</h2>
+  <p>Underpinning these business model challenges is a high degree of technical debt. OEMs are relying on decades-old technology systems that are on their last legs – if they’re walking at all.</p>
+  <p>“The issue is that the legacy manufacturers have got legacy – it’s in the label,” as Steve Young puts it. Legacy covers a lot of ground in this case: products, production equipment, distribution agreements, and IT systems. “They’ve got existing networks, they’ve got combustion engine product lines still and they need to have them because that’s what’s funding their EV development, and still what consumers want to buy,” says Young.</p>
+  <p>And buying trends, changed by e-commerce and accelerated by the pandemic, have meant an increase in the number of car and truck buyers who are fine with doing the entire transaction online. Instead of wandering through a dealer lot to see what’s available, shoppers do their research online, test drive one or two of the best options, then go back online to configure and finalize the sale, notes Peter Wells, professor at Cardiff University’s <a href="https://www.cardiff.ac.uk/research/explore/research-units/centre-for-automotive-industry-research">Centre for Automotive Industry Research</a> (CAIR). “They know what they want; they don’t need to be ‘sold’ in that sense. And I think a lot of U.S. dealerships are still selling,” he says.</p>
+  <p>“It’s going to be more and more prevalent that, at least for software-defined vehicles (SDVs), sales are going to be more DTC-oriented," says Ganguli, noting that SDVs are basically computers with wheels, which supports a simpler buying process: the customer chooses a few options and that’s it, because a single car can be customized, and later upgraded, quite easily via software updates. It’s the proverbial win-win: simpler for the customers, much more efficient for the OEMs. <a href="https://www.wardsauto.com/industry-news/wards-intelligence-unveils-automakers-sdv-rankings-tesla-bev-oems-take-lead">According to Wards Auto</a>, the only established automakers that are making a showing in that regard are Mercedes-Benz, Volvo, and BMW. When OEM systems can’t meet customer expectations, or keep up the pace of software development, it leaves the door open for even more competition. Even Amazon is getting in on the act with a recent agreement to sell Hyundai cars through Amazon.com.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1932cc003e34bc28ee14e6c871a54923a072a552d.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1932cc003e34bc28ee14e6c871a54923a072a552d.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1932cc003e34bc28ee14e6c871a54923a072a552d.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="In a data center full of monitors, a businessman stands before a big screen with an interactive world map on it." src="./media_1932cc003e34bc28ee14e6c871a54923a072a552d.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="racing-to-resiliency">Racing to resiliency</h3>
+        <p>Learn how automotive suppliers can drive new growth amid disruption.</p>
+        <p><strong><a href="https://www.sap.com/products/erp/grow/industry/automotive.html">Read more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="driving-modernization">Driving modernization</h2>
+  <p>To keep up, automakers must speed up the modernization process, taking better advantage of the data they have while making changes to get their hands on more. They will need to take simultaneous steps in changing internal processes and IT systems, while exploring options for new distribution models. The following are key ideas and options in each of these areas.</p>
+  <h2 id="change-strategies">1. Change strategies</h2>
+  <ul>
+    <li><strong>Put change management first</strong></li>
+  </ul>
+  <p>Auto companies might think modernizing is an IT project, says Steve Young, but that’s the wrong approach: it’s really a gigantic change-management project. Large, outdated legacy systems can’t be changed at the flick of a switch, he says, and neither can the behaviors of thousands of employees across OEMs and dealerships. “To get that degree of data and process integration and the alignment of objectives, the alignment of goals, the lines of thinking, is a huge change-management program,” he says.</p>
+  <ul>
+    <li><strong>Prepare for privacy and the Right to Repair</strong></li>
+  </ul>
+  <p>“It’s Official: Cars Are the Worst Product Category We Have Ever Reviewed for Privacy,” is the title of a Mozilla Foundation 2023 vehicle <a href="https://foundation.mozilla.org/en/privacynotincluded/articles/its-official-cars-are-the-worst-product-category-we-have-ever-reviewed-for-privacy/">privacy report</a>. There’s a <a href="https://theconversation.com/the-battle-over-right-to-repair-is-a-fight-over-your-cars-data-213052">massive amount of data</a> being brokered back and forth between the vehicle and the OEM, and there are no fully developed <a href="https://jalopnik.com/massachusetts-is-trying-to-protect-data-privacy-in-cars-1850849741">privacy standards</a> applicable to this data yet. OEMs will need to make this issue a priority so changes to systems and dealer models don’t run into roadblocks later on.</p>
+  <p>Vehicle data is also part of the conversation <a href="https://www.wired.com/story/fight-right-repair-cars-turns-ugly/">around the Right to Repair Act</a>. Currently, repair data is completely separate from vehicle data, which includes personal info such as driver behavior, subscription choices, and connected cellphone data, along with more general data such as road and weather conditions. Dealers have their own systems to get data, and OEMs have theirs.</p>
+  <p>Additionally, vehicle data needs to be available to independent repairers so they can fix a vehicle. In the U.S., if a repairer isn’t sponsored by an OEM or OEM certified (which is expensive for the repair shop), they won’t have that data. In Europe, they have the right to that data, but that doesn’t mean they’re able to get it easily.</p>
+  <p>One solution is to create applications that keep personal data and vehicle performance data entirely separate. Then privacy considerations for the former won’t impede upon using the latter for maintenance.</p>
+  <h2 id="change-technology">2. Change technology</h2>
+  <ul>
+    <li><strong>The one-application-at-a-time approach</strong></li>
+  </ul>
+  <p>This method means building around the exterior of existing technology systems. Companies first identify specific problems, then those problems are separated and updated. That way, particular processes can be modernized without disturbing the integrity of the remaining legacy environment, which can shuffle along until all of it has been replaced or retired.</p>
+  <p>This cautious approach results in a long path of interoperability between old and new, but it’s the most cautious approach. On the other hand, it buffers – but doesn’t really reduce – legacy technology. The idea is that it will see itself out eventually.</p>
+  <p>Nobody’s doing wholesale revamp, says Ganguli, but they are milking their legacy technology. “[They’re] harvesting it until it’s not needed, and then building this new capability on the back of the new business,” he says.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_165e099889971565f99d9ddc159777d8e374b9df4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_165e099889971565f99d9ddc159777d8e374b9df4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_165e099889971565f99d9ddc159777d8e374b9df4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="A high-level view of a road running through a green field." src="./media_165e099889971565f99d9ddc159777d8e374b9df4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <ul>
+    <li><strong>The greenfield approach</strong></li>
+  </ul>
+  <p>Another option OEMs can choose is the greenfield approach, which is treating a new plant – for EV batteries or semiconductors, for example – like a startup, where they can build new systems and experiment with new operating models.</p>
+  <p>In this way, companies reduce their technical debt not by rewriting old systems, but by gradually making them less of the overall portfolio as new assets come online. Unlike the one-at-a-time approach, integration with older systems is minimized. It’s a gradual approach, but reduces the risk associated with turning off manufacturing lines and systems to do hard switchovers.</p>
+  <p>In a variation of this idea, some OEMs are increasingly partnering with specialist companies, not just for automotive parts but for software components and platforms. They won’t own the entire vehicle ecosystem, and farming some of that out is a quicker path to modernizing.</p>
+  <p>“They do need to keep a foot in both camps – the ICE world and the EV world – for at least some time to come,” says Young. “I think that the way to handle the ICE world as that declines within their total portfolio is probably more through joint ventures and alliances.”</p>
+  <h2 id="explore-dealership-and-distribution-models">3. Explore dealership and distribution models</h2>
+  <ul>
+    <li><strong>Dealers as service centers</strong></li>
+  </ul>
+  <p>Because of the steady increase in DTC sales, the data roles of the OEM and the dealership will likely be switched. The dealer will be the customer-facing contact, but the OEMs will have the data, which it will share (or not) with their dealer network, says Young.</p>
+  <p>Ganguli notes that disruption is inevitable and expects some dealerships will close up shop. There will be a bifurcation, he says; sales and advertising will happen at OEM-owned showrooms, and former dealerships will operate mostly as independent service centers.</p>
+  <p>The fee-based agency model – which means a single fixed price and a fixed dealer fee for every car – is gaining some popularity, particularly in Europe. But it also has a data problem, says Young. The OEMs don’t have the skills or relationship with customers to customize deals, he says, so they end up painting with a very broad brush in terms of promotions, incentives, and customer communications. “Everybody gets $5,000 off, but actually half of them would have bought with $1,000 off,” Ganguli offers as an example.</p>
+  <p>“Dealership salespeople today are practicing dynamic pricing on a deal-by-deal basis, pitching an offer at the highest [price] level they think the customer will accept.” Under the agency model, OEMs take on that responsibility, but will be challenged to do a better job than the dealers – without the benefit of being face to face, he says.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="racing-into-a-new-world">Racing into a new world</h3>
+        <p>Learn how to unlock brand value with mobility services</p>
+        <p><strong><a href="https://www.sap.com/documents/2023/03/962c14d3-687e-0010-bca6-c68f7e60039b.html">Read the whitepaper</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Dealerships-as-a-service</strong></li>
+  </ul>
+  <p>This isn’t necessarily a bad thing for dealers, however. Consider the EV: compared to the thousands of moving parts in an ICE vehicle, EVs have just a handful. A Tesla car, for example, has about 24 parts – total. While that means less work and money for <em>maintenance</em>, EV <em>repairs</em> could be more expansive and expensive. According to a joint SAP/Reuters report, <em><a href="https://www.sap.com/cmp/dg/na-dealer-of-the-future-reuters-events-report/index.html">The Dealer of the Future</a></em>, almost half a dealer’s revenue already comes from service and parts.</p>
+  <p>“This is a case where tighter alignment between OEM and dealer could benefit both. If OEMs can share connected-car data on performance with their dealers, dealers could offer predictive maintenance to their customers before a fault or breakdown occurs,” says the report.</p>
+  <p>And, ironically, this is also a case in which old meets new: GM dealers have been <a href="https://jalopnik.com/gm-dealers-have-been-quietly-repairing-teslas-for-over-1849803291">repairing Teslas</a>. If vehicle data is portable, as suggested by the Right to Repair discussion, then dealerships may become less obligated to a single automotive brand and may switch allegiances or add new brands in a fluid manner.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c86737418265e86ad3d450790da5ef3a3f16d6ea.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c86737418265e86ad3d450790da5ef3a3f16d6ea.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1c86737418265e86ad3d450790da5ef3a3f16d6ea.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Illustration of a car in a wind tunnel." src="./media_1c86737418265e86ad3d450790da5ef3a3f16d6ea.png?width=750&#x26;format=png&#x26;optimize=medium" width="3198" height="1648">
+    </picture>
+  </p>
+  <h2 id="driving-into-the-future">Driving into the future</h2>
+  <p>How the industry will shake out is very much still to be determined. As car brands plan for the future, sustainability is, of course, a prime consideration. Volkswagen, for example, is aiming for a complete circular strategy, says Peter Wells of CAIR. The company’s goal is to maintain ownership of their cars beyond the first lease term and through the vehicle’s entire lifecycle – from manufacturing through to sales, aftercare, and beyond. At the end of a vehicle’s usefulness, it gets deconstructed – also by Volkswagen.</p>
+  <p>“What the Volkswagen Group is currently trying to do is basically own the circle,” says Wells. “They’re trying to control the entire lifecycle of the vehicle. That’s a huge kind of data exercise there because they’ve got to track those vehicles.”</p>
+  <p><a href="/resources/digital-twins-at-work">Digital twins</a>, autonomous vehicles, networked roadway infrastructure, even <a href="https://en.wikipedia.org/wiki/Terrafugia">flying vehicles</a> – whatever current or future technologies you can envision, odds are someone is exploring it.</p>
+  <p>“The underpinning technologies are changing really fast,” Wells says. “That’s an extra layer of uncertainty on top of the global restructuring that’s going on. And so you have this perfect storm of electrification, digitalization, and global restructuring, and a huge uncertainty as to the future kind of role of the car in our lives.”</p>
+  <p>Better collection, use, and sharing of data is the way forward for all automotive companies. The old-school OEMs need to address their data deficiencies to be competitive in this new world. And they need to step on it.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/sustainability</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Perspectives on Digital Manufacturing | SAP Insights]]></title>
+            <link>https://www.sap.com/blogs/ext-perspective-on-digital-manufacturing</link>
+            <guid>https://www.sap.com/blogs/ext-perspective-on-digital-manufacturing</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Gain insights on how to create a resilient and agile manufacturing supply chain by leveraging advanced technology.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Production Logistics and the New OT]]></title>
+            <link>https://www.sap.com/resources/production-logistics-and-the-new-ot</link>
+            <guid>https://www.sap.com/resources/production-logistics-and-the-new-ot</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Orchestrate your production and supply chain to deliver next-level customer experiences by merging IT and OT functions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[What is a data fabric?]]></title>
+            <link>https://www.sap.com/resources/what-is-data-fabric</link>
+            <guid>https://www.sap.com/resources/what-is-data-fabric</guid>
+            <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how data fabric architecture can help you connect and manage all your data in real time, across different systems and applications.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/data-analytics</category>
+            <category>content-type/what-is</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[What is digital transformation?]]></title>
+            <link>https://www.sap.com/resources/what-is-digital-transformation</link>
+            <guid>https://www.sap.com/resources/what-is-digital-transformation</guid>
+            <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital transformation is more than a technology initiative. Learn more about how to prepare your business and your teams with solid business transformation planning and services.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c6e86e2a7d144ff4657e3478c4d6df0f55aa52f7.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c6e86e2a7d144ff4657e3478c4d6df0f55aa52f7.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1c6e86e2a7d144ff4657e3478c4d6df0f55aa52f7.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="City lights at night" src="./media_1c6e86e2a7d144ff4657e3478c4d6df0f55aa52f7.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1648">
+          </picture>
+        </p>
+        <h1 id="what-is-digital-transformation">What is digital transformation?</h1>
+        <p>Digital transformation happens when organizations embed digital technologies across all their operations. This helps businesses scale and compete by responding to changing markets and better serving their customers.</p>
+      </div>
+    </div>
+  </div>
+  <p>Digital transformation is a key component of an overall business transformation strategy, and while not the only factor, it’s critical to the success or failure of any transformation effort. The right technologies – coupled with people, processes, and operations – give organizations the ability to adapt quickly to disruption and/or opportunities; meet new and evolving customer needs; and drive future growth and innovation, often in unexpected ways.</p>
+  <p>In the first of the four Industrial Revolutions, steam power was the disruptive technology that changed the world. In the second it was the assembly line; in the third it was the computer. Today, we are in the fourth Industrial Revolution and it is digital. Intelligent digital technologies like <a href="https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html">artificial intelligence (AI)</a>, <a href="https://www.sap.com/products/artificial-intelligence/what-is-machine-learning.html">machine learning</a>, <a href="https://www.sap.com/products/artificial-intelligence/what-is-iot.html">Internet of Things</a> (IoT) networks, <a href="https://www.sap.com/products/technology-platform/cloud-analytics/what-is-analytics.html">advanced analytics</a>, and robotics, have the power to reinvent how we work and do business – and how companies engage with their customers and the world.</p>
+  <h2 id="digital-transformation-definition">Digital transformation definition</h2>
+  <p>Digital transformation involves integrating digital technologies and solutions into every area of a business. This is as much a cultural change as a technological one as it requires organizations to make fundamental shifts in the ways they operate and how they deliver customer experiences and benefits. Digital solutions also help to augment the workforce and can lead to <a href="https://www.sap.com/products/technology-platform/process-automation/what-is-process-automation.html">business process</a> and <a href="/resources/business-model-innovation-xaas">business model transformation</a>.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19a6caff42ede02777b312cf00e80feaca87d4968.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19a6caff42ede02777b312cf00e80feaca87d4968.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19a6caff42ede02777b312cf00e80feaca87d4968.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Screenshot of a video about digital transformation" src="./media_19a6caff42ede02777b312cf00e80feaca87d4968.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1280" height="720">
+          </picture>
+        </p>
+        <p><a href="https://d.dam.sap.com/m/1qxxfyZ/hls.m3u8">How are Digital Innovations Driving Business Transformation?</a></p>
+      </div>
+    </div>
+    <div>
+      <div>de-DE</div>
+      <div>German</div>
+      <div><a href="https://d.dam.sap.com/o/kqfxAvx/SAP848152-de%5C%5C_de-German?rc=19">https://d.dam.sap.com/o/kqfxAvx/SAP848152-de\\_de-German?rc=19</a></div>
+    </div>
+    <div>
+      <div>fr-FR</div>
+      <div>French (France)</div>
+      <div><a href="https://d.dam.sap.com/o/JXfWqqn/SAP848152-fr%5C%5C_fr-French?rc=19">https://d.dam.sap.com/o/JXfWqqn/SAP848152-fr\\_fr-French?rc=19</a></div>
+    </div>
+    <div>
+      <div>ja-JP</div>
+      <div>Japanese</div>
+      <div><a href="https://d.dam.sap.com/o/xBGpfEm/SAP848152-ja%5C%5C_jp-Japanese?rc=19">https://d.dam.sap.com/o/xBGpfEm/SAP848152-ja\\_jp-Japanese?rc=19</a></div>
+    </div>
+    <div>
+      <div>es-CO</div>
+      <div>Spanish - LATAM</div>
+      <div><a href="https://d.dam.sap.com/o/DV5zL4z/SAP848152-es%5C%5C_co-Spanish?rc=19">https://d.dam.sap.com/o/DV5zL4z/SAP848152-es\\_co-Spanish?rc=19</a></div>
+    </div>
+    <div>
+      <div>pt-BR</div>
+      <div>Portuguese - Brazil</div>
+      <div><a href="https://d.dam.sap.com/o/fVL1gip/SAP848152-pt%5C%5C_br-Portuguese?rc=19">https://d.dam.sap.com/o/fVL1gip/SAP848152-pt\\_br-Portuguese?rc=19</a></div>
+    </div>
+  </div>
+  <p><em>Explore how digital innovations are driving business transformation</em></p>
+</div>
+<div>
+  <p><strong>Digitization:</strong> Converting information and documents from analog to digital formats.</p>
+  <p><strong>Digitalization:</strong> Integrating digital technologies into existing business processes.</p>
+  <p><strong>Digital transformation:</strong> A fundamental rethinking of customer experience, business models, and operations. It’s about finding new ways to deliver value, generate revenue, and improve efficiency.</p>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">additional reading</div>
+    </div>
+  </div>
+</div>
+<div>
+  <h2 id="the-importance-of-digital-transformation-in-todays-business-climate">The importance of digital transformation in today’s business climate</h2>
+  <p>As we move into the 2020s, it has become increasingly apparent that if businesses are to grow and compete, they must take steps to become more resilient, competitive, and responsive. Companies must develop and transform their digital landscape – starting from <a href="/resources/how-to-make-sustainable-materials-use-matter">raw materials</a> and the earliest supply chain tiers, to meeting <a href="/resources/what-are-the-essentials-for-successful-digital-transformation-dx">rapidly changing customer demands</a> for more personalized service and fulfillment, and to modernizing and innovating traditional business models.</p>
+  <p>In its <a href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-new-digital-edge-rethinking-strategy-for-the-postpandemic-era">latest survey</a> of senior business executives, McKinsey found that since the pandemic, there is a palpable sense of urgency among business leaders to digitalize and modernize their processes and legacy systems. According to the survey, many respondents recognize that their companies’ business models have become obsolete. Only 11% believe their current business models will be economically viable through 2023, while another 64% say their companies need to build new digital businesses to help them get there.</p>
+  <p>For today’s businesses, it’s no longer a matter of <em>if</em> they need <a href="https://www.sap.com/products/erp/digitization-vs-digitalization.html">digitalization</a> to compete in the current business climate, but <em>how soon</em> they can get started on their <a href="/blogs/digital-transformations-force-multiplier-sustainability">digital transformation</a> journey.</p>
+  <h2 id="business-innovation-and-three-facets-of-digital-transformation">Business innovation and three facets of digital transformation</h2>
+  <p>Today’s businesses are in a time of rapidly increasing competition and customer demands. A major objective of digital transformation initiatives is to help support business leaders and teams in making their operations more streamlined and competitive. New technologies (discussed below) play a central role in driving transformation, but so do business process, business models, organizational culture, and receptiveness to transformation.</p>
+  <p>Any transformation plan should look at these three areas:</p>
+  <ol>
+    <li><strong>Business process transformation:</strong> This involves changing and adapting core – often long-standing – processes and workflows to meet changing business goals, competition, and customer demands often through <a href="https://www.sap.com/products/technology-platform/process-automation/what-is-process-automation.html">process automation</a>. Despite the terms often being used interchangeably, digital transformation is a subset of business transformation – it builds a connected, technological framework that underpins and supports process changes.<br><br>Evidence of business process transformation can be seen from end to end within business operations thanks to improvements in <a href="https://www.sap.com/products/technology-platform/workflow-management.html">workflow management</a>. For example, by implementing a digitalized, cloud-based supply chain management system, businesses can lower downtime, streamline production, and <a href="https://www.mckinsey.com/business-functions/operations/our-insights/digital-transformation-raising-supply-chain-performance-to-new-levels">increase profitability</a>.</li>
+    <li><strong>Business model transformation:</strong> Business process transformation focuses on workflows and task-related areas of the business whereas <a href="/resources/business-model-innovation-xaas">business model transformation</a> aims at the foundational building blocks of how value is delivered in a specific industry. In essence, companies are using digital transformation to change traditional business models.<br><br>In the auto industry, digital technologies give the ability to centralize and automate subscription-based business models and billing processes. Coupled with rapidly changing customer demands and a general cultural shift, traditional car buying is being transformed with subscription-based models.</li>
+    <li><strong>Organizational and cultural transformation:</strong> A successful digital transformation should align itself with the culture and values of the organization. An internal loss of faith in corporate culture can impact the productivity, initiative, and wellness of the workforce. Slow or pessimistic adoption of new digital technologies can cause missed targets and lead to a loss of competitiveness, revenue, and brand value.<br><br>Organizational transformation is best achieved through collaboration and open discussions from the top down – as to how this digital transformation will impact roles and workflows and why the leadership teams feel that it will be worth the risk and effort in the long run.</li>
+  </ol>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">Changing customer preferences, among them the waning interest in owning physical products, have been accelerating the shift to subscription-based offerings beyond software and digital service.</div>
+    </div>
+    <div>
+      <div data-valign="middle"><a href="https://www.bcg.com/en-ca/publications/2021/how-car-subscriptions-impact-auto-sales">Boston Consulting Group 2021</a></div>
+    </div>
+  </div>
+  <h2 id="digital-transformation-benefits">Digital transformation benefits</h2>
+  <p>Digital transformation integrates every level and function in a modern business. Intelligent technologies give organizations the essential tools they need to survive and thrive. Here are some potential impacts of transformation:</p>
+  <ul>
+    <li><strong>Delivers deep insights to inform real-time decision-making:</strong> For many businesses, assessing performance and ROI has often been a backward-looking process. By the time data is gathered, processed, and manually analyzed, the ship of opportunity has long since sailed. With a modern <a href="https://www.sap.com/products/erp.html">ERP system</a> and <a href="https://www.sap.com/products/technology-platform/cloud-analytics.html">advanced analytics</a>, businesses can see real-time data and customize powerful analysis algorithms to make the best decision in the moment.</li>
+    <li><strong>Improves efficiency and productivity:</strong> IoT network devices and machines continually transmit data, machine logs, and performance reports. Through the application of advanced analytics, this data can support predictive maintenance, lowered downtime, and deliver insights for more productive and efficient workflows.</li>
+    <li><strong>Enhances customer experiences:</strong> Your customers want their needs met on their terms. Personalization, omnichannel access, customized service plans, and real-time access to data can help you deliver to their ever-changing expectations while increasing leads and driving retention and loyalty.</li>
+    <li><strong>Helps drive business model innovation:</strong> There’s no question that changing consumer and market demands are seeing an increased focus on business model innovation as a means of value creation. But to change and modernize fundamental business models and customer experiences, companies require the ability to gather and analyze real-time data and develop automated and intelligent processes to manage new business, payment, and service models.</li>
+    <li><strong>Supports a robust and competitive corporate growth strategy:</strong> When businesses digitalize their operations and optimize their services with connected technologies, they find new ways to connect and collaborate and to streamline future business growth strategies, including:
+      <ul>
+        <li>Developing new products and services</li>
+        <li>Improving profitability and strengthening revenue channels</li>
+        <li>Attracting and retaining new leads and customers</li>
+      </ul>
+    </li>
+    <li><strong>Fosters agility and resistance to disruption:</strong> The COIVD-19 pandemic served to shine a light on a lot of vulnerabilities in modern business processes and models. But it was only one of many cultural, economic, political, and market changes that businesses have been increasingly facing in the past few years. Modern companies now look to digital transformation to equip them with the tools for rapid new product and service development, and predictive analytics to help better see disruptions coming, or anticipate market changes and opportunities. They want to be able to scale up and down with ease and have a full suite of cloud-connected solutions that can drive innovation – without having to jump from provider to provider.</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-essentials-for-successful-dx">The Essentials for Successful DX</h3>
+        <p>Digital technology can reinvigorate customer service. Here’s what to focus on.</p>
+        <p><strong><a href="/resources/what-are-the-essentials-for-successful-digital-transformation-dx">Read the article</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="technology-transformation-enables-business-transformation">Technology transformation enables business transformation</h2>
+  <p>Digital transformation is underpinned by some of these core and new technologies:</p>
+  <h3 id="modern-erp-and-database-technologies">Modern ERP and database technologies</h3>
+  <p>The <a href="https://www.sap.com/products/erp.html">best cloud ERP</a> solutions use in-memory database technology, making them highly scalable and adaptable. This is important because they are essentially the “brains” behind digital business transformation. ERP takes all the core processes needed to run a company (such as finance, HR, manufacturing, and supply chain) and integrates them into a single system. And when a modern ERP is powered by AI technologies, it has the power to not only manage and process <a href="https://www.sap.com/products/technology-platform/what-is-big-data.html">Big Data</a>, but to analyze and learn from it.</p>
+  <h3 id="advanced-analytics">Advanced analytics</h3>
+  <p>In order to deliver value, data needs to be harnessed and understood. Using AI and machine learning algorithms, <a href="https://www.sap.com/products/technology-platform/cloud-analytics/what-is-analytics.html">advanced analytics</a> provides insights and reports that are deep, accurate, and actionable. Businesses can also customize data analysis configurations on demand. This gives business leaders the power to act quickly and decisively – by seizing an opportunity or responding to risk.</p>
+  <h3 id="cloud-connectivity">Cloud connectivity</h3>
+  <p>Cloud-based infrastructure is an essential component to successful digital transformation and the establishment of IoT networks and connected business systems. On-demand, centralized access to all systems, assets, and data allows organizations to scale infrastructure as needed and rapidly change or automate workflows. This helps to support rapidly changing business priorities and operational models. And as <a href="https://www.forrester.com/report/Adoption+Profile+Public+Cloud+In+North+America+Q2+2018/-/E-RES141975">Forrester</a> tells us, as of 2021, almost 60% of enterprises in North America rely on cloud platforms, which is five times the percentage it was just five years ago.</p>
+  <h3 id="ai-and-machine-learning-solutions">AI and machine learning solutions</h3>
+  <p>Big Data grew up alongside <a href="https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html">AI</a> and <a href="https://www.sap.com/products/artificial-intelligence/what-is-machine-learning.html">machine learning</a>. In order to process and make sense of Big Data, it’s necessary to have the power of AI and machine learning. For AI and machine learning to deliver accurate and meaningful results, both must have large enough data sets to support robust learning and analysis. The partnership of Big Data, AI, and analytics is at the core of business and digital transformation – driving predictive planning and responsive automation.</p>
+  <h3 id="internet-of-things">Internet of Things</h3>
+  <p>Devices and machines in an <a href="https://www.sap.com/products/artificial-intelligence/what-is-iot.html">IoT</a> network can send and receive digital data. Machine logs and maintenance reports are analyzed to optimize performance and efficiency. AI-powered business systems continuously analyze this information for patterns, trends, and correlations. These insights help drive predictive maintenance and automated workflows, increasing efficiency and productivity over time as the machine learning applications “learn” from the IoT data.</p>
+  <h3 id="robotics-and-robotic-process-automation-rpa">Robotics and robotic process automation (RPA)</h3>
+  <p>Both robotics and <a href="https://www.sap.com/products/technology-platform/process-automation/features.html#robotic-process-automation">RPA</a> use automated processes to accomplish repetitive or pre-programmed tasks. Robotic devices are comprised of moving, mechanical parts set to execute specific, physical tasks. RPA processes are similarly programmed and automated – however, they exist as software processes rather than physical devices, and the tasks they perform are administrative in nature.</p>
+  <h2 id="digital-transformation-examples">Digital transformation examples</h2>
+  <p><strong>Supply chain, procurement, and manufacturing</strong></p>
+  <p>In a <a href="https://www.gartner.com/smarterwithgartner/gartner-top-8-supply-chain-technology-trends-for-2020/">report</a> from July 2020, Gartner points out that if businesses are to thrive and optimize their supply chains, “They must look to innovative technologies that have the potential to disrupt supply chain operating models and provide a competitive advantage.” Digital transformation in supply chains and manufacturing provides centralized visibility – from raw materials to end customers – and drives <a href="https://www.sap.com/products/scm/integrated-business-planning/what-is-a-resilient-supply-chain.html">resilience</a>.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fbf45c40ec892fdb53020651d958ca40b0bd868e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fbf45c40ec892fdb53020651d958ca40b0bd868e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fbf45c40ec892fdb53020651d958ca40b0bd868e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Learn how SAP S/4HANA helped South African pharmaceutical manufacturing and healthcare solutions company Kiara Health transition seamlessly to a new ownership and leadership team in just five months. With the solution in place, the company is enjoying greater efficiency and is future-proofed for Industry 4.0 innovation." src="./media_1fbf45c40ec892fdb53020651d958ca40b0bd868e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="319" height="179">
+          </picture>
+        </p>
+        <p><a href="https://d.dam.sap.com/m/Q2iXiX3/hls.m3u8">SAP S/4HANA was the right medicine for a painless ownership transition for pharma company Kiara Health.</a></p>
+      </div>
+    </div>
+    <div>
+      <div>ja-JP</div>
+      <div>Japanese</div>
+      <div><a href="https://d.dam.sap.com/o/T2seFm1/SAP836178-ja%5C%5C_jp-Japanese?rc=19">https://d.dam.sap.com/o/T2seFm1/SAP836178-ja\\_jp-Japanese?rc=19</a></div>
+    </div>
+    <div>
+      <div>fr-FR</div>
+      <div>French (France)</div>
+      <div><a href="https://d.dam.sap.com/o/Lw5oJ29/SAP836178-fr%5C%5C_fr-French?rc=19">https://d.dam.sap.com/o/Lw5oJ29/SAP836178-fr\\_fr-French?rc=19</a></div>
+    </div>
+    <div>
+      <div>es-CO</div>
+      <div>Spanish - LATAM</div>
+      <div><a href="https://d.dam.sap.com/o/NpsB3oT/SAP836178-es%5C%5C_co-Spanish?rc=19">https://d.dam.sap.com/o/NpsB3oT/SAP836178-es\\_co-Spanish?rc=19</a></div>
+    </div>
+    <div>
+      <div>de-DE</div>
+      <div>German</div>
+      <div><a href="https://d.dam.sap.com/o/hj2TZon/SAP836178-de%5C%5C_de-German?rc=19">https://d.dam.sap.com/o/hj2TZon/SAP836178-de\\_de-German?rc=19</a></div>
+    </div>
+    <div>
+      <div>pt-BR</div>
+      <div>Portuguese - Brazil</div>
+      <div><a href="https://d.dam.sap.com/o/cCHafYW/SAP836178-pt%5C%5C_br-Portuguese?rc=19">https://d.dam.sap.com/o/cCHafYW/SAP836178-pt\\_br-Portuguese?rc=19</a></div>
+    </div>
+  </div>
+  <p><em>Hear from pharmaceutical manufacturing and healthcare solutions company, Kiara Health, and how it has greater efficiency and has future proofed its business thanks to its ERP system.</em></p>
+  <p><strong>Service industries and HR</strong></p>
+  <p>In the past decade, digital technologies have been driving change in the workplace. VR, chatbots, and mobile devices are customizing the onboarding process, as well as improving employee service and support. Blockchain is securing the privacy and accuracy of information. Machine learning is helping to <a href="https://www.sap.com/insights/viewpoints/how-ai-can-end-bias.html">eliminate bias</a> and ensure that businesses are champions for diversity and inclusion.</p>
+  <p><strong>Healthcare and life sciences</strong></p>
+  <p>Digital technologies in healthcare have a complex workload. Research and diagnostic programs rely heavily on AI and machine learning. Surgical and medical devices require the speed and accuracy of powerful cloud and database technologies. Healthcare workers providing patient care and support are improving mobile and monitoring options so users can feel safe and confident with self-serve mobile technologies.</p>
+  <p><strong>Banking</strong></p>
+  <p>A 2020 JD Power <a href="https://www.jdpower.com/business/press-releases/2020-us-retail-banking-advice-satisfaction-study">report</a> states that “…it is safe to say we’ve reached the tipping point, where banks that get their digital formulas right are seeing strong gains in both adoption and satisfaction.” Digital transformation in the financial services sector delivers customized and hyper-personalized services, better mobile functionality, and free remote access to more complex services such as financial planning and credit management.</p>
+  <p><strong>Retail</strong></p>
+  <p>Digital transformation in retail can automate and optimize logistics networks – customizing and speeding up delivery. And as in every consumer sector, the growing demand for personalized services is also driving digital innovation. A recent Epsilon <a href="https://us.epsilon.com/pressroom/new-epsilon-research-indicates-80-of-consumers-are-more-likely-to-make-a-purchase-when-brands-offer-personalized-experiences">study</a> saw 80% of shoppers more likely to choose a retailer that offers personalized services – including 24×7 chatbots, personalized product suggestions, predictive recommendations, and fluid omnichannel mobility.</p>
+  <p><strong>Automotive</strong></p>
+  <p>The automotive industry was an early adopter of manufacturing robotics and digital automation. But as one of the world’s most competitive industries, many of its latest digital innovations relate to customer service and retention. Personalization and driver interface applications provide safety and enjoyment to the driver and give the business valuable data to help with more accurate product development, marketing, and customer experience provision.</p>
+  <h2 id="the-greatest-challenges-to-digital-transformation">The greatest challenges to digital transformation</h2>
+  <p>Studies from thought leaders like <a href="https://www.mckinsey.com/featured-insights/Mckinsey-live/webinars/the-secrets-to-transformation-success">McKinsey</a> and <a href="https://hbr.org/2013/04/change-management-needs-to-cha">Harvard Business Review</a> have shown us that up to 70% of business and digital transformation initiatives do not succeed. But if you dig a bit deeper, you learn that it’s not really the new technologies or the business innovations that are flawed. The weaknesses lay in poor planning, poor communication and change strategies, and the general failure of leaders and project managers to include and seek buy-in from all teams impacted by the change. In other words, of the three main areas of digital transformation mentioned above, “cultural transformation” is often the least talked-about but in reality may be the most crucial of all.</p>
+  <h2 id="preparing-for-digital-business-transformation">Preparing for digital business transformation</h2>
+  <p>In a challenging business climate, companies need to seize every competitive advantage – and increasingly, those advantages are digital. By 2018,<a href="https://cdn2.hubspot.net/hubfs/1624046/Digital%20Business%20Executive%20Summary_FINAL.pdf"> over 89% of executives</a> had adopted a digital-first business policy. And by 2021, that number has only grown. However, as we discussed earlier, many digital transformation projects get stalled by poor communication and planning.</p>
+  <p>Consider these four early steps as you progress on your digital transformation journey, and speak to your software vendor to help you get started with crafting a <a href="/resources/digital-transformation-strategy-road-map">transformation strategy and road map</a> and learning which solutions are best for your unique business needs.</p>
+  <ol>
+    <li><strong>Determine your starting point.</strong> Audit your existing systems and assets. Which machines are already digitalized? Which ones will require IoT gateways? Is your ERP modern and scalable, or is it still running on disk-based database memory? To give your project an early leg up, look first for processes within your business that are a high operational priority and have the least complicated path to transformation.</li>
+    <li><strong>Define your priorities.</strong> Don’t plan a marathon before you’ve even made it around the first block. The beauty of digital transformation is that it does not have to happen all at once. Like building blocks, smart technologies are designed to evolve, scale, and integrate.</li>
+    <li><strong>Build your roadmap.</strong> A significant benefit to smart technologies lies in their immense scalability and capacity for rapid adaptation and reconfiguration. A great transformation road map should allow for agility and growth but start with a road map that has a few strong and attainable goals. Build solid change management and migration strategies into your plan as well – digital transformation is as much a human journey as a technological one. These are important early steps. Look for support from specialized professionals who understand your unique needs and can help chart the best course for your business.</li>
+    <li><strong>Prepare your teams.</strong> Thoreau said, “Things do not change; we change.” Smart technologies can help reduce repetitive and tedious tasks, improve employee engagement, and support collaboration. But these benefits can only be realized when all your people are on board. Don’t spring the news on your teams. Learn from their input and ideas, openly address their concerns, and give them time to change.</li>
+  </ol>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="start-your-digital-transformation-today">Start your digital transformation today</h3>
+        <p>Chart your transformation road map with a modern ERP.</p>
+        <p><strong><a href="https://www.sap.com/products/erp.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="faqs-common-questions-about-digital-transformation">FAQs: Common questions about digital transformation</h2>
+  <div class="accordion">
+    <div>
+      <div>What are the biggest challenges to digital transformation?</div>
+      <div>Digital transformation is a business transformation and a company-wide change management project. When digital transformation projects fail or stall, it is seldom a technical problem – it is almost always a cultural one. In reports and articles from <a href="https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/why-digital-strategies-fail">McKinsey</a> and others, we learn that poor planning, misaligned goals, and unclear strategies are the cause of the bulk of transformation setbacks.</div>
+    </div>
+    <div>
+      <div>Who typically "owns" digital transformation in a business?</div>
+      <div>In their fifth annual <em><a href="https://www.prophet.com/download/the-state-of-digital-transformation/">State of Digital Transformation</a></em> report, the Altimiter research group finds that, typically, the bulk of ownership is shared between the CIO and the CEO. But as digital transformation is no longer seen as an exclusively technological initiative, businesses are starting to rely more upon internal business process specialists to ensure that digital technology integrations have the best benefit for all.</div>
+    </div>
+    <div>
+      <div>Which technologies should I start with?</div>
+      <div>Of course, this varies from business to business, but for most companies a modern, AI-powered <a href="https://www.sap.com/products/erp.html">cloud ERP</a> with an in-memory database is at the center of any digital enterprise. Within the <a href="https://www.sap.com/products/erp/what-is-erp.html">ERP</a> system are the brains that analyze, direct, and process all the data and information from across the business.</div>
+    </div>
+    <div>
+      <div>How can I measure ROI of a digital transformation project?</div>
+      <div>Start simple by choosing a few key metrics that are most important to your specific industry and organization (lead acquisition, manufacturing productivity, predictive planning). Figure out where you are today on those criteria, set realistic target goals, and measure again at fixed points in time.</div>
+    </div>
+    <div>
+      <div>How can I be sure my digital transformation roadmap is a good one?</div>
+      <div>Unlike software upgrades of the past, digital transformation is not an isolated IT project. Digital transformation affects all areas and functions in a business and requires technological and cultural adaptation and resilience. Before this kind of project, reach out to your software vendor to ensure you’re charting the best path for your unique situation.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="start-your-digital-transformation-today-1">Start your digital transformation today</h3>
+        <p>Chart your transformation road map with a modern ERP.</p>
+        <p><strong><a href="https://www.sap.com/products/erp.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h4 id="read-more-in-this-series">Read more in this series</h4>
+  <div class="collection">
+    <div>
+      <div>
+        <h6 id="explainer">Explainer</h6>
+        <p><a href="/resources/what-is-digital-transformation">What is digital transformation?</a></p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h6 id="best-practice-guide">Best Practice Guide</h6>
+        <p><a href="/resources/digital-transformation-strategy-road-map">Building a digital transformation strategy: A guide to creating your road map</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/erp</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/what-is</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[The Metaverse: A New Space for Business]]></title>
+            <link>https://www.sap.com/blogs/ext-the-metaverse-a-new-space-for-business</link>
+            <guid>https://www.sap.com/blogs/ext-the-metaverse-a-new-space-for-business</guid>
+            <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how the metaverse can play an important role in the digital transformation of businesses and unveil new business opportunities.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How Self-Sovereign Identity Improves Online Trust]]></title>
+            <link>https://www.sap.com/blogs/ext-how-ssi-improves-online-trust</link>
+            <guid>https://www.sap.com/blogs/ext-how-ssi-improves-online-trust</guid>
+            <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how SSI is working to redefine online trust and radically improve business efficiency.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How Industry 4.0 Factories Can Still Embrace the Past]]></title>
+            <link>https://www.sap.com/resources/how-industry-4-0-factories-can-still-embrace-the-past</link>
+            <guid>https://www.sap.com/resources/how-industry-4-0-factories-can-still-embrace-the-past</guid>
+            <pubDate>Fri, 27 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how retrofitting old equipment can help digitalize operations without breaking the bank.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How the Most Resilient Companies Are Different]]></title>
+            <link>https://www.sap.com/research/how-the-most-resilient-companies-are-different</link>
+            <guid>https://www.sap.com/research/how-the-most-resilient-companies-are-different</guid>
+            <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn what sets the most future-proof and resilient businesses apart from the rest through new survey findings.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_149636fa77948cd89eaf9dbefbafa5aaa7720c7e1.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_149636fa77948cd89eaf9dbefbafa5aaa7720c7e1.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_149636fa77948cd89eaf9dbefbafa5aaa7720c7e1.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="test" src="./media_149636fa77948cd89eaf9dbefbafa5aaa7720c7e1.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="how-the-most-resilient-companies-are-different">How the Most Resilient Companies Are Different</h1>
+      </div>
+    </div>
+  </div>
+  <p>We think of resilient companies as being good at responding to risks. But what about <em>taking</em> risks?</p>
+  <p>Turns out they’re pretty good at that, too.</p>
+  <p>The most resilient companies in a survey by SAP Insights are more likely to see intelligent technologies such as AI and blockchain – considered risky by pretty much everybody – supplying their biggest opportunities for growth.</p>
+  <p>These companies are also experimenting much more with process change – another risky proposition, considering that resistance to change is woven into our DNA.</p>
+  <p>Why do they do it? Because risks are less risky for these companies.</p>
+  <p>If you were a toddler about to jump into a pool for the first time and someone who had never dropped you awaited you there with arms outstretched, you would be a lot more likely to take that jump than you would with swim fins alone. Resilient companies are the same way. They have a foundation of strength and reliability that makes taking risks (including innovation) easier and (usually) more rewarding.</p>
+  <p>The top 25% of companies in the survey (let’s call them “the Resilients”) are better at responding to problems – such as market dips, labor shortages, and disrupted operations – that can occur at any time. They are also better prepared for what might happen in the future. Furthermore, they are more likely to have access to the data they need to be confident in their decisions. (See “Our resilience formula.”)</p>
+  <p>These strengths don’t just reduce risks and improve the prospects for innovation: the Resilients also tend to expect more revenue growth than other respondents.</p>
+</div>
+<div>
+  <h3 id="our-resilience-formula">Our resilience formula</h3>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1bb68ff4a85a8f5e18612591483cfda759a1eca15.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1bb68ff4a85a8f5e18612591483cfda759a1eca15.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1bb68ff4a85a8f5e18612591483cfda759a1eca15.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Our resilience formula" src="./media_1bb68ff4a85a8f5e18612591483cfda759a1eca15.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="726">
+    </picture>
+  </p>
+  <p>We told you that the Resilients are the top 25% most resilient companies from our survey. But if you really must see our work, here’s the formula:</p>
+  <p>We calculated a resiliency score for each respondent based on their answers to our questions about current resilience, future resilience, and data accessibility capabilities. For each question, we graded the responses on a scale of 0–5 (with 0 equal to “no capability”) and calculated an average.</p>
+  <p>We added the scores for current resilience and future resilience, then multiplied the sum by the data accessibility score to get an overall resiliency score. We chose to multiply the data accessibility score because when people have access to the right data it amplifies their decision-making ability.</p>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">additional reading</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_176b370bd1f6034c20216687612aa154ec321da2b.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_176b370bd1f6034c20216687612aa154ec321da2b.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_176b370bd1f6034c20216687612aa154ec321da2b.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="test" src="./media_176b370bd1f6034c20216687612aa154ec321da2b.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="the-resilients-have-a-foundation-of-strength--and-it-pays">The Resilients have a foundation of strength – and it pays</h2>
+  <p>First, let’s understand the three characteristics that give the Resilients their strength.</p>
+  <ul>
+    <li><strong>Resilience now.</strong> They are more than twice as likely as other respondents to say they are “very effective” in nine capabilities needed to respond to problems such as disruptions to operations that can occur at any time (see Figure 1a).</li>
+    <li><strong>Resilience later.</strong> The Resilients are nearly twice as likely to say they “strongly agree” that they’re ready to respond to challenges that could affect them in the future, such as staying current with technology and responding to changes in customer demand or preferences (see Figure 1b).</li>
+    <li><strong>A talent for data.</strong> Finally, the Resilients are twice as likely to “strongly agree” that they have access to the data needed to make decisions: for example, to find and analyze potential risks, plan for the future, and make operational improvements. Their talent for using data suggests they know resiliency isn’t just about knowing how to suffer and survive. It’s about knowing when disruptions will occur, and responding in ways that will make them less vulnerable next time (see Figure 1c).</li>
+  </ul>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1fb114bf5a720f1319332e3aeded5311651026100.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1fb114bf5a720f1319332e3aeded5311651026100.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1fb114bf5a720f1319332e3aeded5311651026100.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 1a. Better at responding to disruptions in the moment" src="./media_1fb114bf5a720f1319332e3aeded5311651026100.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1786">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_19266f2109d8e12a6b054fad14dd4fd15399532c3.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_19266f2109d8e12a6b054fad14dd4fd15399532c3.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_19266f2109d8e12a6b054fad14dd4fd15399532c3.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 1b. Better at preparing for the future" src="./media_19266f2109d8e12a6b054fad14dd4fd15399532c3.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="2237">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14d136d43749bbc3025dd4e9a2e51a11287c288a5.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14d136d43749bbc3025dd4e9a2e51a11287c288a5.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_14d136d43749bbc3025dd4e9a2e51a11287c288a5.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 1c. Better access to the data needed to protect themselves" src="./media_14d136d43749bbc3025dd4e9a2e51a11287c288a5.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1589">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1361180f6c400023d51185efce8e750f7918b105f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1361180f6c400023d51185efce8e750f7918b105f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1361180f6c400023d51185efce8e750f7918b105f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Worker in a steel mill" src="./media_1361180f6c400023d51185efce8e750f7918b105f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="746" height="560">
+    </picture>
+  </p>
+  <p><strong>Resilience pays.</strong> Now we can see how their strength pays off. The Resilients are more likely than the rest of the respondents to say their companies increased revenues in 2022. Though we can’t draw a causal connection, it’s probably no accident that being more resilient today and tomorrow, and having better access to data for decision-making, correlates with more success.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_174aed7f997dee68b51b743a11c8cff2e1779d884.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_174aed7f997dee68b51b743a11c8cff2e1779d884.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_174aed7f997dee68b51b743a11c8cff2e1779d884.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 2. The Resilients gain revenue at a faster rate" src="./media_174aed7f997dee68b51b743a11c8cff2e1779d884.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="941">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1cb6ef487d4194d955a270da36f8da5ee78fca550.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1cb6ef487d4194d955a270da36f8da5ee78fca550.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1cb6ef487d4194d955a270da36f8da5ee78fca550.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="test" src="./media_1cb6ef487d4194d955a270da36f8da5ee78fca550.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="resilience-makes-risk-taking-easier">Resilience makes risk-taking easier</h2>
+  <p>From their position of strength, the Resilients can afford to take more risks than the rest of the respondents. For example, their attitude toward technology and their pursuit of process change shows a greater potential for innovation.</p>
+  <p><strong>Resilients are better at leaving the past behind.</strong> Think coming up with new products and services is the hardest part of innovation? Perhaps even tougher is leaving successful products or business models behind in pursuit of new ones. Although all respondents named this as one of their top innovation barriers, the Resilients have an easier time saying goodbye than other respondents.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1df8a19ea61213d96db9cf3318d7b9a8f1915cefb.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1df8a19ea61213d96db9cf3318d7b9a8f1915cefb.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1df8a19ea61213d96db9cf3318d7b9a8f1915cefb.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 3. Hasta la vista, cash cow" src="./media_1df8a19ea61213d96db9cf3318d7b9a8f1915cefb.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="434">
+    </picture>
+  </p>
+  <p><strong>They connect technology with growth.</strong> The Resilients are placing their bets on intelligent technology that improves data analysis and decision-making. They’re more likely than other respondents to say that such technologies are a pathway to future growth.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_12f3769b8b1fc9b164d3e7402abbfe6953f2b8491.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_12f3769b8b1fc9b164d3e7402abbfe6953f2b8491.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_12f3769b8b1fc9b164d3e7402abbfe6953f2b8491.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 4. Taking risks with technology in pursuit of growth" src="./media_12f3769b8b1fc9b164d3e7402abbfe6953f2b8491.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="491">
+    </picture>
+  </p>
+  <p><strong>They’re more ambitious about process change.</strong> Process innovation can be every bit as important to growth as new products and services. And the Resilients tend to be doing more than everyone else. Most often, they said they were working on five improvements, while everyone else most often said they were working on three (See Figure 5a). As a result, they are also significantly more likely to be targeting a wide range of outcomes from process improvement: everything from increased automation to sourcing more ideas from customers and partners (See Figure 5b).</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_178132b61d33164b695705419d5763c9d51cccec8.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_178132b61d33164b695705419d5763c9d51cccec8.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_178132b61d33164b695705419d5763c9d51cccec8.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 5a. The Resilients are improving more processes …" src="./media_178132b61d33164b695705419d5763c9d51cccec8.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="398">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1371b568776667573f8429b2aab49d7d08e5f22b7.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1371b568776667573f8429b2aab49d7d08e5f22b7.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1371b568776667573f8429b2aab49d7d08e5f22b7.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Figure 5b. … and are more focused on six areas to improve" src="./media_1371b568776667573f8429b2aab49d7d08e5f22b7.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1300">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1ddb6b4f58537fe51e80afe413581bd211e85e339.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1ddb6b4f58537fe51e80afe413581bd211e85e339.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1ddb6b4f58537fe51e80afe413581bd211e85e339.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Test" src="./media_1ddb6b4f58537fe51e80afe413581bd211e85e339.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="how-to-join-the-resilients">How to join the Resilients</h2>
+  <p><strong>Perfection is not required.</strong> A big first step you can take to joining the Resilient club is to excel at one thing. Respondents who say their companies are highly skilled at any single capability in the categories of current resilience, future resilience, or data access tend to rate themselves better across all the other capabilities compared to those who say they aren’t excellent at any. One possible reason: scenario planning processes followed in one area can be adapted across functions with incremental adjustments.</p>
+  <p>The Resilients are far ahead of the rest of the respondents in their ability to deal with problems in the moment and anticipate those in the future. But they are far from perfect. The Resilients gave themselves the highest ratings on at least four out of nine current preparedness capabilities and six out of 11 future preparedness capabilities. Beyond that minimum, having more highly rated capabilities didn’t significantly improve respondents’ resiliency scores. The entry fee to the Resilient club may not be as high as you imagine.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1bc79a6ef8641f83f8ad6ff3c3344882aebebf37b.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1bc79a6ef8641f83f8ad6ff3c3344882aebebf37b.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1bc79a6ef8641f83f8ad6ff3c3344882aebebf37b.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Fig. 6 Proficient at Resilience" src="./media_1bc79a6ef8641f83f8ad6ff3c3344882aebebf37b.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1580">
+    </picture>
+  </p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1122560e129529ef7923edec5e1e4be666c3a4cf5.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1122560e129529ef7923edec5e1e4be666c3a4cf5.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1122560e129529ef7923edec5e1e4be666c3a4cf5.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="test" src="./media_1122560e129529ef7923edec5e1e4be666c3a4cf5.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <p><strong>But investing in data is essential.</strong> Remember that one of the characteristics of the Resilients is their high degree of access to data. You can win as many black belts in Six Sigma (or its derivatives) as you want. But all that expertise and effort will be muted at best and wasted at worst if you lack the data to know how your current processes are working. Without that insight, it’s more difficult to know which processes most need fixing to make your company more resilient.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="keys-to-a-resilient-supply-chain">Keys to a resilient supply chain</h3>
+        <p>Everything you need to know about supply chain resiliency and best practices.</p>
+        <p><strong><a href="https://www.sap.com/products/scm/integrated-business-planning/what-is-a-resilient-supply-chain.html">Read the guide</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <h4 id="read-more-in-this-series">Read more in this series</h4>
+  <div class="collection">
+    <div>
+      <div>
+        <h6 id="research">Research</h6>
+        <p><a href="/research/formula-for-business-resilience">The Formula for Business Resilience</a></p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h6 id="research-1">Research</h6>
+        <p><a href="/research/how-the-most-resilient-companies-are-different">How the Most Resilient Companies Are Different</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[The Formula for Business Resilience]]></title>
+            <link>https://www.sap.com/research/formula-for-business-resilience</link>
+            <guid>https://www.sap.com/research/formula-for-business-resilience</guid>
+            <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore survey findings about three key ways to respond to today’s business disruptions and plan for future challenges.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/original-research</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Supply chain digital transformation: Look to the cloud]]></title>
+            <link>https://www.sap.com/resources/supply-chain-digital-transformation-cloud</link>
+            <guid>https://www.sap.com/resources/supply-chain-digital-transformation-cloud</guid>
+            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For better supply chain visibility and innovation, the best businesses optimize their supply chain operations in the cloud. Find out how supply chain digital transformation can work for you.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How Biometrics Can Keep Society Healthy]]></title>
+            <link>https://www.sap.com/blogs/biometrics-can-keep-society-healthy</link>
+            <guid>https://www.sap.com/blogs/biometrics-can-keep-society-healthy</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Biometric sensors will be crucial tools for creating safe public spaces during public health crises. Read to learn more!]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19e7ebd0371e5a09f9b26bdee06dc5b1356bd3308.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19e7ebd0371e5a09f9b26bdee06dc5b1356bd3308.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_19e7ebd0371e5a09f9b26bdee06dc5b1356bd3308.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Person sitting under tree, bubble around her" src="./media_19e7ebd0371e5a09f9b26bdee06dc5b1356bd3308.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="how-biometrics-can-keep-society-healthy">How Biometrics Can Keep Society Healthy</h1>
+        <p>Biometric sensors will be crucial tools for creating safe public spaces as our experience with sustaining public health evolves.</p>
+      </div>
+    </div>
+  </div>
+  <p>Biometrics that ethically and transparently collect and use health data are one path to quelling infection spreads.</p>
+  <p>With the likelihood of more pandemics and rolling physical distancing measures, we need solutions that work in real time and across environments to monitor public health and provide crucial information to healthcare professionals, policy makers, and the public. Innovative uses of biometrics could help us control outbreaks with minimal disruptions to our lives.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c9d4e6a005ed8300b89befb27dedc32afae17463.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c9d4e6a005ed8300b89befb27dedc32afae17463.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1c9d4e6a005ed8300b89befb27dedc32afae17463.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Motion Blur of People Walking in the City" src="./media_1c9d4e6a005ed8300b89befb27dedc32afae17463.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <div class="text-large">
+    <div>
+      <div>Biometric sensors will be crucial tools for creating safe public spaces as our experience with sustaining public health evolves. But we must ensure privacy and trust for them to be truly beneficial.</div>
+    </div>
+  </div>
+  <h2 id="help-to-stay-healthy">Help to stay healthy</h2>
+  <p>Wearables and ambient biometric sensors that monitor large public spaces offer a minimally intrusive way to collect personal health data in real time. Some could also help with contact tracing, prompt users to seek medical attention faster, and encourage people to make sound decisions about social distancing. Researchers are developing:</p>
+  <ol>
+    <li>Rings that collect symptom data, which is then run through an algorithm that assesses the likelihood of infection</li>
+    <li>Adhesive patches that use health indicators like sweat, coughing, temperature, and heart rate, which are uploaded to the cloud and used to monitor infection transmission</li>
+    <li>Apps that match health indicators from a short recording of the user’s voice against a database of infected patients’ voices</li>
+    <li>Thermometers for mass temperature scanning in public spaces and for large gatherings</li>
+    <li>Adaptive and responsive spaces that can be quickly modified in health emergencies, like setting up temporary treatment centers</li>
+    <li>Smart flooring that creates safe pathways and smart elevators that manage rider numbers</li>
+  </ol>
+  <h2 id="privacy-and-trust-first">Privacy and trust first</h2>
+  <p>We could be entering a period of world-changing research and collaboration across health, design, and public policy. Biometrics can be key to creating new ways to safely interact with our environments and each other.</p>
+  <p>But biometrics will only be accepted if our personal data is truly private and we trust how it is used. It’s likely that the increased application of biometrics will prompt concerns about anonymization and personal data collection.</p>
+  <p>For biometrics to be effective, there need to be guidelines and regulations in place, including:</p>
+  <ol>
+    <li>All biometric applications must be based on scientifically sound research.</li>
+    <li>Permissions for personal data collection and use must be obtained from individuals.</li>
+    <li>There must be limits on and transparency into who has access to personal data, where it will be housed and for how long, and what it will be used for</li>
+  </ol>
+  <h2 id="safer-spaces">Safer spaces</h2>
+  <p>Architects and interior designers are exploring how design and technology can be used in concert to limit the spread of infections without sacrificing style or quality of life. Embedding biometrics could guide usage patterns, provide health alerts, monitor air quality and virus transmission, and ultimately inform safer building design.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="dive-into-the-full-story">Dive into the full story.</h3>
+        <p>Explore how biometric sensors will help create safer public spaces.</p>
+        <p><strong><a href="/blogs/biometrics-sensing-healthy-society">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="want-a-quick-overview">Want a quick overview?</h3>
+        <p>Learn how biometric sensors will support safer workplaces.</p>
+        <p><strong><a href="https://www.sap.com/documents/2022/09/365aa5fe-477e-0010-bca6-c68f7e60039b.html">Download the PDF</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/trends-predictions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Why Sustainability is a Force for Bottom-Up Process Change]]></title>
+            <link>https://www.sap.com/research/why-sustainability-is-a-force-for-bottom-up-process-change</link>
+            <guid>https://www.sap.com/research/why-sustainability-is-a-force-for-bottom-up-process-change</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Businesses are using sustainability to drive continual process improvement. SAP Insights' exclusive research shows how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[The Link Between Sustainability and Business Performance]]></title>
+            <link>https://www.sap.com/research/the-link-between-sustainability-and-business-performance</link>
+            <guid>https://www.sap.com/research/the-link-between-sustainability-and-business-performance</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Linking sustainability and business performance isn't just good for the planet – it’s good for business too. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b8fbc9948d9e43d8ca6680cd784e94e665028d12.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b8fbc9948d9e43d8ca6680cd784e94e665028d12.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1b8fbc9948d9e43d8ca6680cd784e94e665028d12.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Man framed by green rays" src="./media_1b8fbc9948d9e43d8ca6680cd784e94e665028d12.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="the-link-between-sustainability-and-business-performance">The link between sustainability and business performance</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Making environmental sustainability central to your strategy isn’t just good for the planet – it’s good for business too.</div>
+    </div>
+  </div>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_105d277161a63d16491d1402f9703d301c2520d6c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_105d277161a63d16491d1402f9703d301c2520d6c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_105d277161a63d16491d1402f9703d301c2520d6c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_105d277161a63d16491d1402f9703d301c2520d6c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="319" height="179">
+          </picture>
+        </p>
+        <p><a href="https://d.dam.sap.com/m/PBiQPJM/hls.m3u8">The Balance Sheet Blind Spot: How Sustainability Affects Competitiveness and Profits</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="featured-articles">
+    <div>
+      <div data-valign="middle">
+        <p><a href="/research/environmental-sustainability-affects-competitiveness">https://main--builder-prospect-prod--sapudex.hlx.page/research/environmental-sustainability-affects-competitiveness</a></p>
+        <p><a href="/research/sustainabilitys-role-in-business-performance">https://main--builder-prospect-prod--sapudex.hlx.page/research/sustainabilitys-role-in-business-performance</a></p>
+        <p><a href="/resources/how-to-make-sustainable-materials-use-matter">https://main--builder-prospect-prod--sapudex.hlx.page/resources/how-to-make-sustainable-materials-use-matter</a></p>
+        <p><a href="/resources/sustainability-data-isnt-perfect-but-its-benefits-will-be">https://main--builder-prospect-prod--sapudex.hlx.page/resources/sustainability-data-isnt-perfect-but-its-benefits-will-be</a></p>
+        <p><a href="/research/approaching-environmental-sustainability-a-view-from-midsize-companies">https://main--builder-prospect-prod--sapudex.hlx.page/research/approaching-environmental-sustainability-a-view-from-midsize-companies</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <h3 id="additional-reading">Additional reading</h3>
+  <p><a href="https://issuu.com/sapleadingwithpurpose/docs/leading_with_purpose_e5-2">Learn how companies are leading with purpose by making sustainability core to their strategy</a></p>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">additional reading</div>
+    </div>
+  </div>
+</div>
+<div></div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[The Passionates: How They Are Changing Your Strategy]]></title>
+            <link>https://www.sap.com/research/passionates-how-they-are-changing-your-strategy</link>
+            <guid>https://www.sap.com/research/passionates-how-they-are-changing-your-strategy</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how the Passionates, a group of people who are making community and environmental well-being central to the mission of business leaders, are changing your strategy.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[What is Contingency Planning?]]></title>
+            <link>https://www.sap.com/resources/contingency-planning</link>
+            <guid>https://www.sap.com/resources/contingency-planning</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Creating an emergency-response framework results in retaining a healthy, motivated, dedicated workforce during crises – and better business after.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/hcm</category>
+            <category>content-type/what-is</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Workforce Management & Organizational Charts: Past, Present, & Future]]></title>
+            <link>https://www.sap.com/resources/organizational-charts-digitalization-and-workforce-management-past-present-and-future</link>
+            <guid>https://www.sap.com/resources/organizational-charts-digitalization-and-workforce-management-past-present-and-future</guid>
+            <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore why the hierarchical organizational chart is no longer an effective way to guide workforce management decisions in a digitalized world.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Trust in an Age of Mistrust]]></title>
+            <link>https://www.sap.com/blogs/ext-trust-in-an-age-of-mistrust</link>
+            <guid>https://www.sap.com/blogs/ext-trust-in-an-age-of-mistrust</guid>
+            <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how businesses can build trust with customers, stakeholders, and the general public for stronger innovation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/sustainability</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Business Networks: The Only Path Forward Is Together]]></title>
+            <link>https://www.sap.com/blogs/ext-business-networks-the-only-path-forward</link>
+            <guid>https://www.sap.com/blogs/ext-business-networks-the-only-path-forward</guid>
+            <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Business networks aren’t a new concept, but they are evolving thanks to technological advances. Learn how your business can benefit.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/procurement</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Port of Entry: Lessons from a Smooth Operator]]></title>
+            <link>https://www.sap.com/blogs/ext-port-of-entry-smooth-operator</link>
+            <guid>https://www.sap.com/blogs/ext-port-of-entry-smooth-operator</guid>
+            <pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how YILPORT Holding is working to become one of the top 10 global port operators by 2030.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_185b9cc883afac73444e30d313c83637dafd4aa2b.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_185b9cc883afac73444e30d313c83637dafd4aa2b.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_185b9cc883afac73444e30d313c83637dafd4aa2b.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Huge container port area containing millions of goods." src="./media_185b9cc883afac73444e30d313c83637dafd4aa2b.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="port-of-entry-how-a-smooth-operator-moves-millions-of-goods-every-day">Port of Entry: How a Smooth Operator Moves Millions of Goods Every Day</h1>
+      </div>
+    </div>
+  </div>
+  <p>Images of huge container ships gliding in and out of ports have come to symbolize the modern supply chain. Managing these ports – the gateways of international trade – is a highly complex business. The most important part of the ocean shipping industry, seaports expedite the movement of millions of goods each day. They provide facilities for docking, loading, unloading, and storing cargo, and many are undergoing a massive transformation as the industry recovers from pandemic-related disruptions.</p>
+  <h2 id="all-inclusive-logistics-hubs">All-inclusive logistics hubs</h2>
+  <p>One company that excels at this intricate task is <a href="https://www.yilport.com/en/">YILPORT Holding</a>, which owns and operates 24 marine ports and terminals and 7 dry terminals around the globe. These terminals offer multipurpose services, supported by inland container terminals, depots, warehouses, and logistics centers.</p>
+  <p>The company was established in 1980s by Robert Yüksel Yildirim, Chairman and CEO of YILPORT Holding. Originally known as Mr. Chrome, Yildirim was the market maker of the chrome industry before becoming the Lord of the Ports. As a game-changing mechanical engineer, his vision for YILPORT Holding’s growth strategy in port operations has been followed closely by the industry.</p>
+  <p>“Our mission is to rank among the top 10 international operators by 2030 and be the game-changer in port and terminal operations. In a world where everything is so interdependent, our sector is a key player in world trade,” said Murat Akbudak, CFO for YILPORT Holding, at the recent SAP Seaports Innovation Summit held in Istanbul, Turkey. The company’s C-level team was on hand to highlight the advantages and benefits of doing business with YILPORT.</p>
+  <p>Erhan Çiloglu, CMO of YILPORT Holding, outlined the company’s <a href="https://yilport.com/en/services/detail/SERVICES/44/32/0">one-stop shop service model</a>. Available at all locations, it includes resources and facilities to handle container, bulk, and liquid cargo and provides damage-free stevedoring for automotive roll-on/roll-off services, logistics services such as freight forwarding, pilotage and tug services at all terminals, and much more.</p>
+  <p>“Our customers can take advantage of combined services to minimize costs and maximize the velocity of cargo flow,” said Çiloglu. “We are an end-to-end service provider, with simple supply chain solutions to facilitate operations for our customers. We are very excited about new terminal opportunities in our pipeline that will be implementing our business philosophy to streamline operations.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c5854691c4fc251848300526818221cb0de0a8a5.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c5854691c4fc251848300526818221cb0de0a8a5.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1c5854691c4fc251848300526818221cb0de0a8a5.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Aerial, front view of a massive cargo ship on the water." src="./media_1c5854691c4fc251848300526818221cb0de0a8a5.png?width=750&#x26;format=png&#x26;optimize=medium" width="1958" height="1648">
+    </picture>
+  </p>
+  <h2 id="high-end-integrated-technologies">High-end, integrated technologies</h2>
+  <p>YILPORT is the fastest-growing international terminal operator in the world, and its equipment can handle the world’s largest container vessels. It manages 17 million TEUs (Twenty-Foot Equivalent Units or 20-foot containers) in 12 different countries. In 2022, it broke its <a href="https://www.yildirimgroup.com/yilport-holding-breaks-all-time-container-handling-record-in-first-half-of-2022">all-time container handling record</a> by growing 9%, a feat which is projected to be repeated this year.</p>
+  <p>Operations of this magnitude function smoothly with the help of technology. The company’s linear processes have been built and improved with automation, easy communication tools based on EDI to exchange documents electronically, common platforms, and Web-based solutions and systems.</p>
+  <p>“Our operations are managed centrally and embrace automation and the data-centric nature of the new industrial revolution,” said Dericioglu, Business Systems Director of YILDIRIM Group. “Industry 4.0 principles are applied to all systems, remote monitoring through IoT, and our cloud infrastructure. Our assets are already digitalized for the smart ports in the future.”</p>
+  <p>To accelerate its journey to the intelligent enterprise and streamline its order-to-cash processes, YILPORT ran a pilot project at Gemport, one of its locations in Turkey, with the help of Acuiti Labs.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_19c0a342a167c07bf45a4f2bb92de23d62d2e8233.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_19c0a342a167c07bf45a4f2bb92de23d62d2e8233.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_19c0a342a167c07bf45a4f2bb92de23d62d2e8233.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Two workers looking at a tablet in front of shipping containers" src="./media_19c0a342a167c07bf45a4f2bb92de23d62d2e8233.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="long-lasting-results">Long-lasting results</h2>
+  <p>The pilot implementation had three goals. The first was to automate invoice generation and empower customers through a new, self-service portal. The second was to ensure data consistency across systems for accurate invoicing, reducing disputes and revenue leakage, and the final goal was to provide a holistic 360-degree view of the customer’s financial data.</p>
+  <p>At the close of the project, YILPORT boasted a fully operational end-to-end container line of business and a solution scalable enough to be rolled out to other ports in the region.</p>
+  <p>YILPORT is well on its way to achieve its vision to become one of the top 10 global port operators by 2030. But technology is just one part of the story. The company is investing in low-carbon and energy-efficient practices to meet regulatory compliance and standards and to reduce waste in the operational environment. It is developing new business models together with customers and partners to provide an even wider range of port service offerings, and it maintains a strong focus on safety and training to reduce work-related injuries.</p>
+  <p>Last but not least, YILPORT Holding takes a holistic approach to integrate sustainability within all aspects of its business. This approach is seen as essential to developing a robust business for the people, customers, environment and communities within the operating companies.</p>
+  <p>All these actions combined are what give this company its transformative power and pioneering character.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="ready-for-more">Ready for more?</h3>
+        <p>Read on for best practices for building resilient, sustainable supply chains.</p>
+        <p><strong><a href="https://www.sap.com/products/scm/resources.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/procurement</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[12 Security Issues to Address as Your Factories Evolve]]></title>
+            <link>https://www.sap.com/blogs/twelve-security-issues-for-evolving-factories</link>
+            <guid>https://www.sap.com/blogs/twelve-security-issues-for-evolving-factories</guid>
+            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how your company can keep up with changing cybersecurity demands for future factories.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/procurement</category>
+            <category>content-type/trends-predictions</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[How Startups Can Maximize Their Partnership with Corporates]]></title>
+            <link>https://www.sap.com/blogs/ext-how-startups-maximize-partnerships-with-corporates</link>
+            <guid>https://www.sap.com/blogs/ext-how-startups-maximize-partnerships-with-corporates</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Find out what corporates should look for in a partner and how startups can increase the chances of a successful collaboration.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/procurement</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Twins at Work: 8 Examples]]></title>
+            <link>https://www.sap.com/resources/digital-twins-at-work</link>
+            <guid>https://www.sap.com/resources/digital-twins-at-work</guid>
+            <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eight examples of organizations using digital twins to simulate factories, water systems, entire urban areas and more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/data-analytics</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>content-type/what-is</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Get the Early Adopter Edge]]></title>
+            <link>https://www.sap.com/resources/how-to-get-the-early-adopter-edge</link>
+            <guid>https://www.sap.com/resources/how-to-get-the-early-adopter-edge</guid>
+            <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Innovation entails risk. Effective early tech adopters aren’t reckless; they manage risk with proven processes and metrics.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>content-type/what-is</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Unleash Your Citizen Developers – With Guardrails]]></title>
+            <link>https://www.sap.com/resources/unleash-your-citizen-developers</link>
+            <guid>https://www.sap.com/resources/unleash-your-citizen-developers</guid>
+            <pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how no-code and low-code tools open the doors for innovation, as long as you balance flexibility with support, guidance, and controls.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>content-type/business-case</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Know Where to Spend Your Security Budget]]></title>
+            <link>https://www.sap.com/resources/how-to-spend-your-cybersecurity-budget</link>
+            <guid>https://www.sap.com/resources/how-to-spend-your-cybersecurity-budget</guid>
+            <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how cyber risk measurement and management is growing up, with data-informed methodologies and tools for better cybersecurity investment decisions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/procurement</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/business-case</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[How Manufacturing Adapts to Disruption]]></title>
+            <link>https://www.sap.com/resources/the-future-of-manufacturing-business-models</link>
+            <guid>https://www.sap.com/resources/the-future-of-manufacturing-business-models</guid>
+            <pubDate>Mon, 19 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how the future of manufacturing is adapting to become more flexible and green – without breaking the bank.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[What to Do About Supply Chain Crime]]></title>
+            <link>https://www.sap.com/resources/crime-in-the-supply-chain-and-what-to-do-about-it</link>
+            <guid>https://www.sap.com/resources/crime-in-the-supply-chain-and-what-to-do-about-it</guid>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[New ways to assess risk, better employee awareness, and strong supply chain visibility can help reduce the chance of having assets stolen in transit.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/business-transformation</category>
+            <category>content-type/business-case</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Powering Up Your Business Processes]]></title>
+            <link>https://www.sap.com/research/sustainability-a-business-process-power-up</link>
+            <guid>https://www.sap.com/research/sustainability-a-business-process-power-up</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Senior executives are linking sustainable business processes with revenue growth, improved efficiency, and lower risk. Read our findings]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1452f4e35e5e3f05d74e850e936410350499c00df.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1452f4e35e5e3f05d74e850e936410350499c00df.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1452f4e35e5e3f05d74e850e936410350499c00df.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Woman on escalator in the woods" src="./media_1452f4e35e5e3f05d74e850e936410350499c00df.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="powering-up-your-business-processes">Powering Up Your Business Processes</h1>
+      </div>
+    </div>
+  </div>
+  <p>When we asked more than 11,000 senior executives from around the world about their priorities for revenue growth, operational efficiency, and risk management, they said they see a direct link between innovation and increasing revenues.</p>
+  <p>They are exploiting that link by investing in new or more sustainable products and services along with improving customer experiences. Improving cost control and making operations more sustainable are their top strategies for bolstering operations. To battle risk, they are strengthening their supply chains, avoiding damage to their reputations, and protecting against cybersecurity attacks.</p>
+  <p>These findings show how companies can remain competitive: by transforming business processes to support innovation and flexibility. Learn more about our findings.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c8e8d0c9c3147b1bc776ce3b05f2db0fe99b0e0b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c8e8d0c9c3147b1bc776ce3b05f2db0fe99b0e0b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1c8e8d0c9c3147b1bc776ce3b05f2db0fe99b0e0b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Picture of a PDF version of the content on this webpage." src="./media_1c8e8d0c9c3147b1bc776ce3b05f2db0fe99b0e0b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2744" height="1544">
+    </picture>
+  </p>
+  <p>Senior Executive Priorities</p>
+  <p>Our survey shows that senior executives are transforming their businesses to be more sustainable, cost-effective, and flexible.</p>
+  <p>Read the findings below, or download the PDF version of this report.</p>
+  <p><a href="https://www.sap.com/documents/2022/06/227db719-2f7e-0010-bca6-c68f7e60039b.html">Read the PDF</a></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1f4119f8e59a64a8630045d01616e586945d8efa2.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1f4119f8e59a64a8630045d01616e586945d8efa2.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1f4119f8e59a64a8630045d01616e586945d8efa2.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Graph" src="./media_1f4119f8e59a64a8630045d01616e586945d8efa2.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Revenue Growth Drivers</p>
+  <p>Sustainability is a top revenue driver, and it lies at the core of some respondents’ growth strategies.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14a266e9afbbaa4e0297eb49ec55e6dcbb5374fce.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14a266e9afbbaa4e0297eb49ec55e6dcbb5374fce.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_14a266e9afbbaa4e0297eb49ec55e6dcbb5374fce.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Graph" src="./media_14a266e9afbbaa4e0297eb49ec55e6dcbb5374fce.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Efficiency Drivers</p>
+  <p>Operating sustainably is important to gaining greater efficiency.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="graph" src="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Future Global Risks</p>
+  <p>Leaders see future business risks stemming from a wide range of economic and social concerns, including climate change.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1d407ca3eca2cea955f7e649dc39e06f4b0a9605b.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1d407ca3eca2cea955f7e649dc39e06f4b0a9605b.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1d407ca3eca2cea955f7e649dc39e06f4b0a9605b.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="graph" src="./media_1d407ca3eca2cea955f7e649dc39e06f4b0a9605b.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Risk Reducers</p>
+  <p>In the near term, businesses will be focused on reducing rooted in current threats.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_11870080f6f581b4ab276767ea63bcf4fd0c01f4c.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_11870080f6f581b4ab276767ea63bcf4fd0c01f4c.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_11870080f6f581b4ab276767ea63bcf4fd0c01f4c.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="test" src="./media_11870080f6f581b4ab276767ea63bcf4fd0c01f4c.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Process-Enabling Technologies</p>
+  <p>Businesses are turning to technologies that help them improve processes that came under pressure during the pandemic.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1eddcadba01600c9842ec81643d7a446ecae96f3a.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1eddcadba01600c9842ec81643d7a446ecae96f3a.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1eddcadba01600c9842ec81643d7a446ecae96f3a.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="graph" src="./media_1eddcadba01600c9842ec81643d7a446ecae96f3a.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Critical Areas for Innovation</p>
+  <p>Respondents see sustainability as an essential area for business innovation.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_141aa18202298e305f5e5df855f0fcaae226f7ea2.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_141aa18202298e305f5e5df855f0fcaae226f7ea2.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_141aa18202298e305f5e5df855f0fcaae226f7ea2.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="graph" src="./media_141aa18202298e305f5e5df855f0fcaae226f7ea2.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Competition and Profitability</p>
+  <p>Successful business transformation is critical to companies’ long-term profitability and competitiveness.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="graph" src="./media_1d1d3adeaac59b5250897336a7e2298d43cb07fca.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Needs for Process Change</p>
+  <p>To improve their processes, businesses need to become more flexible, agile, and collaborative.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1faf3528d40a91aaabfefe613ee2b28f9faf74ec5.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1faf3528d40a91aaabfefe613ee2b28f9faf74ec5.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1faf3528d40a91aaabfefe613ee2b28f9faf74ec5.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="graph" src="./media_1faf3528d40a91aaabfefe613ee2b28f9faf74ec5.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p>Process Transformation Journey</p>
+  <p>Many companies expect to still be in the earliest stages of business transformation in two years.</p>
+  <p><sub>Click on image to view data</sub></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1a978273537a5cd47016ce478c2b373778ea70f07.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1a978273537a5cd47016ce478c2b373778ea70f07.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1a978273537a5cd47016ce478c2b373778ea70f07.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Man sitting on a tree trunk in the woods" src="./media_1a978273537a5cd47016ce478c2b373778ea70f07.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2744" height="1544">
+    </picture>
+  </p>
+  <p>Read the analysis of our survey results: "Bridging the Gap Between Sustainability and Financial Metrics"</p>
+  <p>Still think sustainability is a loss leader, a side project? Guess again. Survey respondents say they are embedding it into their business processes at the deepest levels, not because they have to, but because it gets results.</p>
+  <p><a href="https://www.sap.com/documents/2022/06/5e587926-307e-0010-bca6-c68f7e60039b.html">Read the report PDF</a></p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/business-transformation</category>
+            <category>core-topic/sustainable-business-operations</category>
+            <category>content-type/original-research</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Cut Your Losses: Have a Turnaround Plan]]></title>
+            <link>https://www.sap.com/resources/how-to-cut-your-losses</link>
+            <guid>https://www.sap.com/resources/how-to-cut-your-losses</guid>
+            <pubDate>Fri, 28 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Author and executive Lisa Gable explains the importance of recognizing when it's time to change a project's direction with a turnaround plan.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1096902e8784408b954934c0b33624ce043570b7e.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1096902e8784408b954934c0b33624ce043570b7e.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1096902e8784408b954934c0b33624ce043570b7e.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Diverging path" src="./media_1096902e8784408b954934c0b33624ce043570b7e.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="how-to-cut-your-losses">How to Cut Your Losses</h1>
+        <p>Not every initiative succeeds. Author and executive Lisa Gable helps leaders understand when it’s time to change direction and where to go next.</p>
+      </div>
+    </div>
+  </div>
+  <p>How do you salvage a project – or an organization – that’s circling the drain? Lisa Gable has done it often enough, at sufficient scale, that she’s developed a four-step rescue process: focus on the desired endpoint, figure out what is and isn’t working, create a road map of necessary decisions and actions, and build effective partnerships to forge ahead rapidly.</p>
+  <p>Under her leadership as the U.S. ambassador to Aichi World Expo 2005, U.S. participation in the global business showcase came in under budget for the first time in 150 years. More recently, as leader of the Healthy Weight Commitment Foundation (HWCF), she helped 16 major food and beverage manufacturers collaborate with public health experts on a five-year plan to reduce the total number of calories sold in the U.S. marketplace – a plan that addressed public criticism for the companies’ role in rising obesity rates and reduced demands for greater regulation of the commercial food industry.</p>
+  <p>In <strong>Turnaround: How to Change Course When Things Are Going South</strong>, Gable shows leaders how to identify why a project is struggling and guides them to create and implement a new vision of success.</p>
+  <p>We asked Gable what makes projects fall apart, how to bring stakeholders along when leaders have decided to cut their losses and adopt a turnaround strategy, and how to recognize when a project or organization is too far gone to save.</p>
+  <h2 id="q-you-cite-multiple-familiar-reasons-why-projects-get-off-track-from-scope-creep-to-some-leaders-belief-that-any-problem-can-be-solved-by-throwing-enough-money-at-it-is-there-anything-they-all-have-in-common">Q: You cite multiple familiar reasons why projects get off track, from scope creep to some leaders’ belief that any problem can be solved by throwing enough money at it. Is there anything they all have in common?</h2>
+  <p><strong>Gable:</strong> Three things, actually. One is that we get distracted by shiny new objects instead of finishing what we started. Another is that we tend to forget why a project exists and just keep it going because it’s there. But I think the biggest issue is hubris. At the World Expo, for example, previous leadership teams went well over budget making sure the U.S. pavilion was more innovative, technologically advanced, and engaging than anyone else’s – even though focusing on being fun and impressive didn’t automatically align with the goals of <a href="/blogs/thinking-long-and-wide-horizon-scanning">creating long-term business relationships</a> or staying in budget.</p>
+  <h2 id="q-whats-the-difference-between-a-project-thats-been-slipping-gradually-and-one-that-collapses-suddenly">Q: What’s the difference between a project that’s been slipping gradually and one that collapses suddenly?</h2>
+  <p><strong>Gable:</strong> The reality is that a project in sudden collapse is just one that’s been slipping gradually without anyone stopping it. Many companies don’t have the processes to help them see when that’s happening.</p>
+  <p>In an era of improvisation and agile development, process engineering has fallen out of favor. I started my career at Intel, where process was everything. We constantly ranked and rated what we were doing, at a level that other companies didn’t, and I came to see that as the key to keeping what was working and letting go of what wasn’t. To this day, I do much better when I’m forced to prioritize. When you ask questions like “What are the most important things you can do right now?” or “What will you do if you only have X in your budget?” at least once a quarter, you can identify your priorities and see when you’re drifting away from them.</p>
+  <h2 id="q-how-do-you-know-you-have-enough-support-for-a-turnaround-plan">Q: How do you know you have enough support for a turnaround plan?</h2>
+  <p><strong>Gable:</strong> You need to not only gain buy-in from key stakeholders in the decision-making process, but also to engage in shuttle diplomacy with those who may oppose you, because it’s hard to move forward when you’re constantly engaged in battle. If some people refuse to buy in, you have to pivot to grow your base of supporters so your opponents are less relevant. In my experience, if I can get people to agree with me 60% of the time, we can mutually agree to set aside the remaining 40% to find a path forward toward a shared goal.</p>
+  <p>For example, when the HWCF first launched, a lot of public health influencers suggested we encourage people to just stop eating many of our members’ products. Obviously, we weren’t going to create a plan centered on lower sales and revenues! But we were able to agree on wanting better health outcomes, which let us build a partnership with one of the most respected private sector public health organizations and eventually align around a common goal of reducing the total number of calories sold (partly by reducing the calories in existing products and partly by introducing new healthier, lower-calorie options).</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_179a2ebcdd00b8b76b2cddb8b774d2167a35a7a77.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_179a2ebcdd00b8b76b2cddb8b774d2167a35a7a77.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_179a2ebcdd00b8b76b2cddb8b774d2167a35a7a77.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Businesswoman at whiteboard leading meeting in office" src="./media_179a2ebcdd00b8b76b2cddb8b774d2167a35a7a77.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="840" height="560">
+    </picture>
+  </p>
+  <h2 id="q-how-can-leaders-win-over-skeptics-and-critics-of-their-turnaround-strategy">Q: How can leaders win over skeptics and critics of their turnaround strategy?</h2>
+  <p><strong>Gable:</strong> Encouraging key stakeholders to talk about their pain points is important to gaining their support. Walk through their concerns and find out what actions they think would address them. Then be clear, quantitative, and specific about what actions you need to take and your options for taking them. See if that helps them let go of their objections.</p>
+  <p>For example, I worked with an organization that held a beloved fundraiser that brought in US$1 million a year — but cost $2 million to host. My ability to prove that it was no longer cost-effective allowed the stakeholders to understand why they needed to end it, even though they were unhappy about it.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="to-collaborate-or-not-to-collaborate">To collaborate or not to collaborate?</h3>
+        <p>That should be a question, according to our Q&#x26;A with Rob Cross.</p>
+        <p><strong><a href="/resources/why-were-burning-out-on-collaboration">Read the story</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>I also use decision trees to eliminate “maybes” and force a yes or no decision. A decision tree with key benchmarks, quantitative measures, and trigger points helps you show whether specific actions are getting you to your goal. If you can say “if X doesn’t happen in six months, we will do Y,” people will feel more confident about supporting the plan, because they can monitor how well the organization is achieving those benchmarks and know what will happen if it doesn’t.</p>
+  <p>Not incidentally, leaders need to understand and acknowledge the impact their actions and decisions will have on loyal partners and employees. If someone’s work will be rendered irrelevant by your turnaround plan, make it clear that you’ll help them move on to a new opportunity after the restructuring.</p>
+  <p>And remember, there will always be holdouts. You’ll never be able to satisfy everyone.</p>
+  <h2 id="q-is-a-project-team-or-organization-ever-too-far-gone-to-rescue--and-is-it-still-worth-it-to-try-nonetheless">Q: Is a project, team, or organization ever too far gone to rescue – and is it still worth it to try nonetheless?</h2>
+  <p><strong>Gable:</strong> Sometimes people try to expand a small project into a permanent department or keep an initiative going after its moment has passed.</p>
+  <p>I was once recruited by a nonprofit organization that had been around for 20 years and was operating in the red. After I looked at their work, financials, and competition, I told them, “I can’t take this job, because I don’t think this organization actually needs to exist anymore.” Two of their board members agreed. They had been consistently saying that the organization had already accomplished the goals it had been founded to achieve, but the rest of the board needed to hear it from an outsider before they could recognize it was time to shut down.</p>
+  <p>But that doesn’t mean there isn’t a part worth saving. You need to think about every project, business, or organization as a compilation of assets: products, services, programs, tools, processes, resources, and so on. Say you started an organization to help a group of people solve a specific problem, and you’ve made progress but can no longer deliver those benefits to those end users in the current configuration. If there are assets you can save for the future, that’s not a failure! That’s when you do a victory lap, and then pass on the remaining assets to someone else who can get some value out of them.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/business-transformation</category>
+            <category>topic/hcm</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+    </channel>
+</rss>

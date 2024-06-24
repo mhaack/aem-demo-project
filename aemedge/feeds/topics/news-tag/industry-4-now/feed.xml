@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/industry-4-now/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 15 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Industrial IoT Is Key to a Resilient Supply Chain]]></title>
+            <link>https://www.sap.com/news/2021/04/iiot-resilient-supply-chain-of-the-future</link>
+            <guid>https://www.sap.com/news/2021/04/iiot-resilient-supply-chain-of-the-future</guid>
+            <pubDate>Thu, 15 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What does the supply chain of the future look like? Increasing productivity with IIoT and Industry 4.Now from SAP is an essential component.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/industry-4-now</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP at Hannover Messe: Automated Material Supply in Intralogistics with IIoT]]></title>
+            <link>https://www.sap.com/news/2021/04/hannover-messe-automated-material-supply-iiot</link>
+            <guid>https://www.sap.com/news/2021/04/hannover-messe-automated-material-supply-iiot</guid>
+            <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[At Hannover Messe exhibition, SAP will showcase automated material supply in intralogistics with IIoT. Learn more about the event.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP at Hannover Messe: Automated Material Supply in Intralogistics with IIoT" src="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-at-hannover-messe-automated-material-supply-in-intralogistics-with-iiot">SAP at Hannover Messe: Automated Material Supply in Intralogistics with IIoT</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>At this year’s virtual <a href="/topics/hannover-messe">Hannover Messe</a> exhibition, SAP will show how Industry 4.Now can help make supply chains more flexible and dynamic, including through the use of the Industrial Internet of Things (IIoT).</div>
+    </div>
+  </div>
+  <p>“Many of our customers have seen their global supply chains take on a tremendous level of complexity,” says Dominik Metzger, head of Product Management, Manufacturing, and Industrial IoT at SAP. Those operating in production industries typically find themselves enmeshed in an intricate web of international suppliers and sub-suppliers. “That’s why plenty of companies are really struggling with disruptions,” Metzger explains. “Some of them have to do with <a href="/covid-19">COVID-19</a>, but others have been apparent since before the pandemic.”</p>
+  <p>In terms of macroeconomic trends, the introduction of significant trade tariffs between China and the U.S. as well as the post-Brexit EU/UK Trade and Cooperation Agreement have rattled the established structures of many organizations.</p>
+  <p>“For that reason, if anything is a top priority for our customers – right now and after the pandemic – it is measures that lower costs and boost productivity in efficient ways,” Metzger says. “For those of us at SAP, the core question is: How can we leverage our innovative technologies to help our customers automate their processes?”</p>
+  <p>At the virtual Hannover Messe 2021 exhibition, SAP plans to unveil an array of new functions and applications that are set to make industrial process data usable all along the value chain starting in the second quarter.</p>
+  <p>“That includes data generated during manufacturing, maintenance, logistics, and so on, which needs to be integrated deep within SAP applications,” Metzger shares. Value cannot be created for companies with data alone; it also has to be analyzed in a business context. “That context lies in SAP systems – in our intelligent suite, our industry cloud, and our manufacturing and logistics solutions.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="join-sap-at-hannover-messe">Join SAP at Hannover Messe</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/en-hannover-messe-2021/en/home?url_id=ctabutton-de-hm21-newscenter:CRM-DE21-EVE-HM21COMNC1">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="supplying-materials-automatically-with-iot-robotics-and-edge-computing">Supplying Materials Automatically with IoT, Robotics, and Edge Computing</h2>
+  <p>Metzger’s product management team has put together an IIoT portfolio that enables customers to fully automate their resupply and stock removal processes in SAP S/4HANA, to name just two examples. This is made possible by robotics, the digitalization of intralogistics processes, and an intelligent framework of rules that derives potential actions from real-time data.</p>
+  <p>In assembly line manufacturing, things like forklifts and manual transport systems are needed to retrieve materials for subsequent installation. Areas like these are where companies often implement the ‘kanban’ process, which involves supplying materials exactly where production and assembly employees need them on the line.</p>
+  <p>“Sensors are now being built into these kanban bins in order to ‘connect’ the materials,” Metzger explains. “A sensor can tell when the weight of its bin has fallen below a certain threshold, which is when more materials are automatically procured to resupply the bin.”</p>
+  <p>Meanwhile, an intelligent, cloud-based system of rules interprets the sensor data to determine when actions should be triggered in specific business processes and applications. Systems like SAP S/4HANA, SAP Digital Manufacturing Cloud, and SAP Predictive Asset Insights are highly integrated into the rules to help ensure that the right processes are automatically activated at the right time. Procedures pertaining to kanban, the posting of goods, and quality assurance are just a few pertinent examples.</p>
+  <p>“We refer to this combination of IoT and SAP Edge Services as ‘Industrial IoT’ because we’re using IoT data in an industrial context,” Metzger says.</p>
+  <p>In a further innovation, autonomous guided vehicles (AGVs) are responsible for retrieving materials instead of forklift drivers. Metzger describes this fully automated approach to supplying assembly lines and carrying away finished products as a “best-in-class” logistics process, but one that only works when completely integrated between SAP systems for manufacturing execution (MES) and warehouse management.</p>
+  <p>These new functions are designed to be used in the context of SAP Digital Manufacturing Cloud, where they can be implemented and employed seamlessly thanks to the integration of SAP Manufacturing solution systems and others for logistics.</p>
+  <h2 id="lower-implementation-costs-through-standardization">Lower Implementation Costs Through Standardization</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="industry-4now-agile-production-in-uncertain-times">Industry 4.Now: Agile Production in Uncertain Times</h3>
+      </div>
+      <div><strong><a href="/2021/03/industry-4now-agile-production-uncertain-times">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>According to a <a href="https://www.sap.com/products/supply-chain-management/industry-4-0.html?overlay=%252Fcmp%252Fdg%252Findustry4-mpi%252Findex.html">study that SAP conducted with the MPI Group</a>, customers tested these productivity-boosting innovations at specific plants and warehouses in 2020, but have not yet rolled them out more broadly in many cases.</p>
+  <p>“That’s because until now, the integration of operational technology like AGVs or machines, sensors, and other equipment wasn’t standardized very well in business software,” Metzger explains. “This meant that such projects involved a relatively large amount of implementation effort, and thus higher costs – which led to something of a catch-22 with regard to the fundamental idea of reducing costs and increasing productivity.”</p>
+  <p>In the meantime, however, SAP has put much of its focus on integrating automation technologies into industry standards like the OPC Unified Architecture and on implementing the administration shell.</p>
+  <h2 id="sap-relies-on-cloud-edge-architecture-to-reduce-costs">SAP Relies on Cloud-Edge Architecture to Reduce Costs</h2>
+  <p>“Over the last six or seven years, we’ve invested a huge amount of effort in lowering the total cost of ownership of these implementations so that customers can operate them at scale. Along with standardization, the main thing that’s helping us here is our own technological innovation in terms of cloud-edge architecture,” Metzger says. In the past, the fact that SAP hardware infrastructure had to be set up at every plant was another reason why implementing new solutions was expensive.</p>
+  <p>“These days, however, all these processes run in the cloud,” Metzger continues. This means that it takes just one data center to control processes like warehouse robotics, digital manufacturing, or IIoT at 100 plants or more.</p>
+  <p>“When you’re dealing with automation processes in particular, you can’t afford to have an Internet connection fail for a few seconds,” Metzger says. “It was for high-availability scenarios like these that we introduced SAP Digital Manufacturing Cloud for edge computing.”</p>
+  <p>This involves an edge device – basically a small-scale server – that helps ensure that mission-critical processes always keep running at a plant. Instead of being implemented anew at each facility, these processes are configured centrally in the cloud for each specific plant and run at the edge in a container at the plant.</p>
+  <p>SAP Edge Services and other IoT offerings from the company enable customers to turn use cases like these into reality. “It gives you the best of both worlds,” Metzger says. “It significantly improves your ability to scale up thanks to cloud computing, all while reducing your total cost of ownership. Plus, edge computing gives you the degree of robustness you need to control mission-critical processes.”</p>
+  <p>In addition, auto ID technology is to be offered as a new function in SAP Edge Services and IoT solutions from SAP. This technology makes it possible to automatically associate the movement of a physical object with a specific process step. “Real-time status updates like these are a big step forward in terms of supply chain reliability,” Metzger says. “This way, companies can make sure they’re always available to their customers and able to adapt to bottlenecks around the world.”</p>
+  <div class="promo">
+    <div>
+      <div>To find out more about how IIoT can help your company reduce costs and increase its productivity, <a href="https://events.sap.com/en-hannover-messe-2021/en/registration.aspx">register here for the virtual Hannover Messe exhibition</a>, scheduled for April 12–16, 2021.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/industry-4-now</category>
+        </item>
+        <item>
+            <title><![CDATA[Industry 4.Now: Agile Production in Uncertain Times]]></title>
+            <link>https://www.sap.com/news/2021/03/industry-4now-agile-production-uncertain-times</link>
+            <guid>https://www.sap.com/news/2021/03/industry-4now-agile-production-uncertain-times</guid>
+            <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[For inspiration on agile production in challenging times, SAP customers can now turn to the digital Showcase. Learn about it here.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1218bb461adc405a1d437d772768cdbce2b2f9ff2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1218bb461adc405a1d437d772768cdbce2b2f9ff2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1218bb461adc405a1d437d772768cdbce2b2f9ff2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Industry 4.Now: Agile Production in Uncertain Times" src="./media_1218bb461adc405a1d437d772768cdbce2b2f9ff2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="industry-4now-agile-production-in-uncertain-times">Industry 4.Now: Agile Production in Uncertain Times</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Cycling, climbing, sailing, and other hobbies that one can enjoy solo, away from the crowds, have surged in popularity in the past 12 months. People, it seems, have (re)discovered their love for outdoor sports in these socially distanced times.</div>
+    </div>
+  </div>
+  <p>In fact, the <a href="/covid-19">pandemic</a> has generated an enormous demand for sports equipment of all kinds, from mountain bikes to sports boats, stretching vital international supply chains to the limit in the process.</p>
+  <p>“Since the spring of 2020, we’ve received an increasing number of messages from manufacturers reporting that, despite full order books, they can’t deliver their goods,” reports <a href="https://people.sap.com/ralf.lehmann">Ralf Lehmann</a>, senior director of Solution Management Digital Manufacturing and Industry 4.0 at SAP.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="make-your-organization-more-resilient-and-agile-in-todays-challenging-environment-get-back-to-best-with-sap">Make your organization more resilient and agile in today’s challenging environment: Get back to best with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/covid-19/back-to-best.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="covid-19-challenges-the-supply-chain">COVID-19 Challenges the Supply Chain</h2>
+  <p>New bicycles, for example, were in danger of becoming scarce because a saddle post and a bottom bracket used by nearly all bicycle manufacturers could not be shipped out of China. Similarly, while demand for sports boats surged last year, production lagged due to missing parts that had to be sourced externally, such as specially curved windshields.</p>
+  <p>“One of the few manufacturers of these windshields is situated in Italy,” explains Lehmann. “When the entire country was forced to shut down due to the pandemic, that put an end to windshield supply for a while.” Brexit resulted in similar issues where product availability changed practically overnight.</p>
+  <p>According to Lehmann, “That’s the lack-of-agility dilemma: You are dependent on the manufacturer of a certain part and cannot sell your product even though it’s 98% finished and could be shipped out to the customer.”</p>
+  <p>In a global economy, companies have to be able to rely on certain production steps being carried out in other countries. But the pandemic has completely changed the rules of the game here, “which, in the worst case, can result in a shortage of certain goods on the market,” notes Lehmann.</p>
+  <h2 id="from-industry-40-to-industry-4now">From Industry 4.0 to Industry 4.Now</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="join-sap-at-hannover-messe-2021">Join SAP at Hannover Messe 2021</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/en-hannover-messe-2021/en/home?url_id=ctabutton-de-hm21-newscenter:CRM-DE21-EVE-HM21COMNC1">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“So the question a lot of SAP customers in the process industry are asking right now is, how can I adapt my manufacturing processes today to be able to produce small lots of different types of products and navigate the company through this crisis?” Lehmann and his team want to help SAP customers with answers tailored to their specific situation.</p>
+  <p>In the summer of 2020, SAP launched the <a href="https://www.sap.com/dmc/exp/2020-10-industry4now-experience/">Industry 4.Now</a> program. Lehmann explains: “The problem many customers currently have is adapting their manufacturing processes to the market and reacting dynamically to situations that change at short notice. That’s a typical Industry 4.0 use case that we run through with the customer in our Industry 4.Now showcase in Walldorf and then explore possible solutions for together.</p>
+  <h2 id="design-to-operate-process-as-digital-twin">Design-to-Operate Process as Digital Twin</h2>
+  <p>Originally built for the Hannover Messe for discrete industries, this showcase can be configured for individual customers and their specific problem. Since the fair could not take place in 2020, the showcase was set up in Walldorf instead and made available to SAP customers to visit in-person.</p>
+  <p>“The showcase contains numerous industry components – <a href="https://www.sap.com/dmc/exp/2020-10-industry4now-experience/now/ecosystem/showcase">equipment that was provided by SAP partners</a> – and thus required technical expertise and service for its correct installation onsite. SAP quickly came to realize just how challenging a physical installation can be in times of a pandemic,” recalls <a href="https://people.sap.com/karol.kalisz">Karol Kalisz</a>, SAP’s project lead for the showcase. “Some of the key experts we needed were not able to travel, and we also had to substitute construction components with viable alternatives. Thanks to SAP’s long-standing and trusted collaboration with the partners, however, SAP was able to get the job done on time.”</p>
+  <div class="promo">
+    <div>
+      <div><strong>SAP at Hannover Messe 2021: Increasing Resilience for Operational Excellence</strong></div>
+    </div>
+  </div>
+  <p>Following the successful installation of the physical equipment, SAP turned its attention to creating the showcase’s digital twin. In response to the pandemic safety measures, customers can now sign up for a virtual tour of the physical showcase – from the comfort of their own home. In addition, SAP offers an <a href="http://www.sap.com/industry4now-experience">online version of the showcase</a> that explores Industry 4.0 themes, as well as integrated value streams for discrete and process industries in digital form.</p>
+  <p>“It is a complete, virtual reproduction of the physical showcase,” explains Lehmann. “That is why we call it a digital twin, which maps the entire design-to-operate process, or, in other words, design, planning, production, implementation, operations, and maintenance.”</p>
+  <p>Imagine, for example, a company produces valves but the caps for them cannot be delivered from its supplier in Asia. What options does this company have when its supply chain breaks down? Using the showcase, the company can test different strategic approaches to mitigate the impact of this disruption – a missing part – at different points along the manufacturing chain.</p>
+  <p>Should the company change the design of the final product? Should it change its planning process? Should it change its manufacturing workflows? “The showcase uses examples to illustrate and answer all kinds of questions like these,” notes Kalisz. “As such, you can evaluate different approaches based on your situation to make the best decision for your company.”</p>
+  <p>For example, if a part is missing, the company has the option of modifying its existing machines to allow it to diversify and manufacture other related products. “Obviously, switching from machine construction to, say, glass casting isn’t possible,” notes Lehmann. “But a production line in the machinery industry is capable of producing more than just engine blocks, for example. It can also build similar parts.” By changing the parameters of a component coming off the production line – such as a milling cutter – it can build a different part.</p>
+  <p>“Industry 4.0 makes this possible,” he says. “It was possible to do this before the pandemic, too, but the topic has become increasingly relevant lately.” It increases a company’s core competencies and allows it to adapt their industry components dynamically to the current market situation.</p>
+  <p>Lehmann is convinced that, “Companies that succeed in this will come out as winners in these challenging times. And that is exactly what we at SAP want for our customers, so we’ll support them as best we can in this endeavor.”</p>
+  <div class="promo">
+    <div>
+      <div>To find out more about Industry 4.0, check out <a href="https://www.sap.com/dmc/exp/2020-10-industry4now-experience/">SAP Industry 4.Now Experience</a> and explore different scenarios for discrete and process industries digitally. Does your company have a specific challenge you’d like to address? We’ll show you possible SAP solution approaches. Contact <a href="mailto:industry4nowhubs@sap.com">industry4nowhubs@sap.com</a> to request an online presentation of a showcase tailored to your specific challenges.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-sap-industry-4now-experience">Explore the SAP Industry 4.Now Experience</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/dmc/exp/2020-10-industry4now-experience/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/industry-4-now</category>
+        </item>
+    </channel>
+</rss>

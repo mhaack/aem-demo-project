@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/core-topic/sustainable-supply-chain/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 15 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Sustainable Factory of the Future]]></title>
+            <link>https://www.sap.com/blogs/the-sustainable-factory-of-the-future</link>
+            <guid>https://www.sap.com/blogs/the-sustainable-factory-of-the-future</guid>
+            <pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how the evolution of manufacturing processes and technology provides the opportunity to think differently about sustainable factory operations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/trends-predictions</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Guide to End-to-End Supply Chain Sustainability]]></title>
+            <link>https://www.sap.com/resources/end-to-end-supply-chain-sustainability</link>
+            <guid>https://www.sap.com/resources/end-to-end-supply-chain-sustainability</guid>
+            <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn about end-to-end supply chain processes and how better supply chain solution can help you meet and exceed your sustainability goals.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[The Circular Economy Goes Mainstream]]></title>
+            <link>https://www.sap.com/resources/the-circular-economy-goes-mainstream</link>
+            <guid>https://www.sap.com/resources/the-circular-economy-goes-mainstream</guid>
+            <pubDate>Wed, 15 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The circular economy is no longer just a lofty theory – it’s become a set of practices that companies are using today to improve performance.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/scm</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Green Logistics: What It Is and Why It Matters]]></title>
+            <link>https://www.sap.com/resources/green-logistics</link>
+            <guid>https://www.sap.com/resources/green-logistics</guid>
+            <pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how green logistics and sustainable distribution networks are helping businesses reduce carbon footprint and meet consumer demands.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d833e4ccd4df8048b6491d5f4b13015956b5a6a1.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d833e4ccd4df8048b6491d5f4b13015956b5a6a1.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1d833e4ccd4df8048b6491d5f4b13015956b5a6a1.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Electric vehicles are an essential component of a greener future for logistics networks" src="./media_1d833e4ccd4df8048b6491d5f4b13015956b5a6a1.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="green-logistics-what-it-is-and-why-it-matters">Green Logistics: What It Is and Why It Matters</h1>
+      </div>
+    </div>
+  </div>
+  <p>Green logistics includes any business practice that minimizes the environmental impact of the logistics network and delivery. Sustainable logistics or green logistics secure a strong bottom line without sacrificing customer satisfaction, or the well-being of the planet. Intelligent businesses are rushing to understand and embrace sustainable logistics management, supported by powerful technologies such as artificial intelligence, machine learning, and advanced analytics.</p>
+  <p>As enterprises make the shift toward greener logistics, they realize benefits across the business, including improved profitability and good corporate citizenship. But a primary driver is customer demand. As customers (both businesses and consumers) see the real-world results of climate change on newsfeeds and streaming channels daily, they are quickly shifting loyalties to companies that demonstrate significant, permanent steps toward a sustainable future. Customers (and shareholders) advocate for a circular supply chain that incorporates reverse logistics, and are not content with or influenced by “greenwashing.”</p>
+  <h2 id="reverse-logistics-and-circular-supply-chains">Reverse logistics and circular supply chains</h2>
+  <p>Traditionally, supply chains have been linear and unidirectional: raw materials are processed into products and shipped to customers, who then dispose of them. Today, this flow is being disrupted with two practices – reverse logistics and <a href="https://www.sap.com/products/sustainability/what-is-circular-economy.html">circular supply chains</a> – that add bottom-line value to supply chains <a href="https://www.sap.com/products/scm/what-is-a-sustainable-supply-chain.html">while reducing environmental impact</a>.</p>
+  <ul>
+    <li><strong>Reverse logistics:</strong> As the name implies, reverse logistics refers to processes related to the return of items and goods traveling backward through the supply chain. This can include repairs and maintenance, returns of defective items, reuse of packaging, or recycling and reclamation of end-of-life products. For businesses, today’s reverse logistics challenges most often come <a href="/resources/business-of-returning-things">in the form of customer returns</a>. Online purchases contribute to a much higher rate of customer returns than in-store purchases. This issue is further exacerbated by the business model of “subscription box” brands (typically fashion), which are based entirely on the concept of customers selecting from a wide assortment of delivered goods and returning whatever they decide not to keep. In fact, as this trend progresses, estimates are for the global amount of e-commerce returns to exceed <a href="https://www.the-future-of-commerce.com/2021/05/11/ecommerce-returns-marketing-metrics/">one trillion dollars</a> over the coming decade. Furthermore, transporting returned inventory creates more than <a href="https://www.optoro.com/2018-impact-report/">15 million metric tons</a> of CO2 in the U.S. alone each year.</li>
+    <li><strong>Circular supply chains</strong>: A <a href="/resources/circular-economy-sustainable-profitability">circular supply chain</a> is a loop in which organizations reclaim as much as possible, from raw materials to finished products. In its simplest form, this means realizing value from end-of-life products, often by recycling their primary components. For example, plastics can be shredded and repurposed – even into the very shipping pallets that are used to move goods. And as the world’s metal supplies diminish, there is meaningful value to be had in extracting gold, copper, and other recyclable commodities from otherwise discarded items.</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="circularity-is-going-mainstream">Circularity is Going Mainstream</h3>
+        <p>Learn how companies are using circular models to improve their performance.</p>
+        <p><strong><a href="/resources/the-circular-economy-goes-mainstream">Read the guide</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="green-transport-and-the-growing-use-of-commercial-evs">Green transport and the growing use of commercial EVs</h2>
+  <p>At the height of the COVID pandemic, online shopping rose to an all-time high with parcel volume in the US alone, growing 37% from 2019 to 2020, reaching <a href="https://www.pitneybowes.com/content/dam/pitneybowes/us/en/shipping-index/parcel-shipping-index-ebook.pdf">55 million deliveries each day</a>. The Amazon Effect put further strain on logistics operations with consumers expecting deliveries within a day – and sometimes even within a few hours. This means goods can no longer be warehoused in a single location and distributed nationally. To achieve such aggressive delivery speeds, items must be stored in local distribution centers and then rushed to consumers in smaller batches. This calls for larger fleets of smaller vehicles.</p>
+  <p>And as the pandemic shifts and restrictions lift, these trends show no sign of slowing. According to the <a href="https://www.weforum.org/press/2020/01/urban-deliveries-expected-to-add-11-minutes-to-daily-commute-and-increase-carbon-emissions-by-30-until-2030-without-effective-intervention-e3141b32fa/">World Economic Forum</a>, we should expect demand for urban <a href="/resources/last-mile-logistics">last-mile delivery</a> to grow as much as 78% by 2030, and add up to 36% more delivery vehicles in the world’s largest 100 cities.</p>
+  <p>To meet these changing delivery demands, businesses are rapidly shifting to EV fleets. At less than half the cost per mile for electricity as for gas or diesel, and without any need for tune-ups or oil changes, EV fleets have lower operating costs and <a href="https://www.thedetroitbureau.com/2022/02/commercial-ev-market-will-grow-faster-than-retail-side-forecasts-ram-boss/">less downtime</a>. For businesses, another advantage of EVs is the ease with which they can be integrated into a greater cloud-connected supply chain network. This means that businesses can use AI-powered technologies to analyze both past and real-time operational data – delivering powerful (and actionable) insights into ways to save money, lower fuel consumption, and streamline their operations overall.</p>
+  <p>The capacity and size of modern EVs is also becoming increasingly diverse. Today, we are seeing a rise in not only light commercial vehicles (LCVs) like cargo vans but also a growing range of electric semi-trucks and long-haul transport vehicles.</p>
+  <p>And when it comes to greener transport, let’s not forget that some 80-90% of the world’s goods are transported by sea. Each year, container ships spew about 1 billion metric tons of carbon dioxide into the air — about <a href="https://www.npr.org/2021/12/01/1060382176/shipping-industry-is-pressured-to-cut-pollution-caused-by-merchant-fleet">three percent of all greenhouse gas emissions</a> — and tons of toxic waste left in the oceans. Recognizing this, in September 2021, the International Maritime Organization (IMO), representing 150 industry leaders, set a <a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/Reducing-greenhouse-gas-emissions-from-ships.aspx">decarbonization goal</a> to reduce emissions by 50% by 2050, compared to 2008 levels.</p>
+  <p>Danish company Maersk (whose ships emitted 33 million tons of CO<sub>2</sub> in 2020) ordered eight new vessels that run on <a href="https://www.reuters.com/business/sustainable-business/maersk-orders-eight-vessels-able-run-carbon-neutral-methanol-2021-08-24/">carbon-neutral methanol</a> to help meet that ambitious goal. Shipping companies in Japan and Norway are also bringing significant innovation to the marine cargo sector, unveiling fully electric tanker ships and even the world’s first autonomous electric cargo carrier which (using radar, infrared, and automotive integrated solutions cameras) can be operated and moored entirely via remote control.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_18fda86a6db710bcbb0bfbe3d47d56def23a6b95d.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_18fda86a6db710bcbb0bfbe3d47d56def23a6b95d.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_18fda86a6db710bcbb0bfbe3d47d56def23a6b95d.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Delivery driver using connected logistics software" src="./media_18fda86a6db710bcbb0bfbe3d47d56def23a6b95d.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <p><em>A connected logistics system helps improve profitability and brand perceptions while reducing environmental impact.</em></p>
+  <h2 id="alternative-distribution-networks-and-green-logistics-solutions">Alternative distribution networks and green logistics solutions</h2>
+  <p>Of course, making the switch to EVs and alternative fuels is probably the most significant change when it comes to greener logistics. However, as <a href="https://www.weforum.org/press/2020/01/urban-deliveries-expected-to-add-11-minutes-to-daily-commute-and-increase-carbon-emissions-by-30-until-2030-without-effective-intervention-e3141b32fa/">McKinsey’s Bernd Heid</a> points out “<em>in an 'ecosystem scenario' in which both public and private players work together effectively, delivery emissions and congestion could be reduced by 30%...when compared to a 'do nothing' scenario</em>”. To achieve maximum cost efficiency, faster delivery speeds, and meaningful reductions in emissions and waste, businesses will need to consider more collaborative logistics methods, and a more sophisticated array of optimizations.</p>
+  <p>A few additional optimization strategies include:</p>
+  <ul>
+    <li><strong>Load pooling:</strong> A growing trend in optimized <a href="https://www.sap.com/products/scm/what-is-supply-chain-management.html">supply chain management</a> sees similar (even competitive) companies working together to pool their warehouse and logistics resources. At first glance, this can seem like a challenging concept but fortunately, <a href="https://www.sap.com/products/scm/supply-chain-logistics.html">cloud-connected logistics management technologies</a> are helping businesses to collaborate and cooperate with maximum visibility and control.</li>
+    <li><strong>Unbranded parcel lockers</strong>: Amazon pioneered the idea of neighborhood parcel lockers to shorten routes and speed up delivery. This is highly effective but has tended to shut out the competition. Unbranded community parcel lockers function similarly to the existing Amazon locker networks, but are accessible to a much broader range of delivery providers. By making this resource more widely available, the major logistics providers can work together to save time and money – and improve consumer choice.</li>
+    <li><strong>Automated load optimization</strong>: This refers to coordinating items (held in warehouses and distribution centers) with similar delivery ETAs and destinations. With today’s volumes, it’s essentially impossible to achieve this via manual efforts but smart supply chain solutions can identify and automate vehicle loading, to help eliminate the costly practice of sending delivery vans out with only half a load.</li>
+    <li><strong>Night-time delivery</strong>: The more time vehicles spend on the road, the greater the amount of fuel and energy used. Especially in urban areas, making deliveries at night can reduce road-time and congestion by <a href="https://www.weforum.org/press/2020/01/urban-deliveries-expected-to-add-11-minutes-to-daily-commute-and-increase-carbon-emissions-by-30-until-2030-without-effective-intervention-e3141b32fa/">up to 15%</a>. Furthermore, with EVs being quieter, there is less risk of adding to night-time noise pollution.</li>
+    <li><strong>On-demand micro-mobility networks</strong>: Micro-mobility refers to small – often two-wheeled – vehicles like electric scooters and e-bikes. Modern logistics technologies now give drivers easy access to cloud-connected apps. This means connectivity with the home base (dispatch) and the customer (delivery ETAs) in real time. By leveraging an on-demand network of independent drivers (not exclusively employed by any one business), companies are reaping significant savings in both fuel usage, and the cost of maintaining standing fleets.</li>
+    <li><strong>Dynamic route allocation</strong>: In urban settings, cloud-connected route allocation tools can assess traffic, parking, even construction or other delays. In rural areas, other factors may be more relevant such as road and weather conditions, or distance from EV charging stations. By incorporating this kind of intel into real-time route planning, companies can increase delivery speed and minimize fuel consumption.</li>
+    <li><strong>Drones and automated vehicles</strong>: It’s visually compelling to think of drones crossing the skies and dropping packages like mechanized storks, or unmanned robots rolling down city sidewalks, laden with parcels. In reality though, we are still a few years away from fully automated logistics networks. But innovation is fast in this sector and digital automation is at the fore of many green solutions – so watch this space…</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sustainable-logistics-on-the-move">Sustainable Logistics on the Move</h3>
+        <p>How technology is paving the way to greener, more sustainable logistics.</p>
+        <p><strong><a href="/resources/sustainable-logistics-on-the-move">Explore the story</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="advantages-of-green-logistics">Advantages of green logistics</h2>
+  <p>The advantages of green logistics accrue to the company, its suppliers and partners, its customers, and every member of society. Here are just a few:</p>
+  <ul>
+    <li><strong>Improved long-term profitability</strong>: From first to last-mile delivery, green logistics cut waste, cost, and carbon emissions. Although realizing the advantages of green logistics requires an upfront investment, the downstream benefit outweighs the cost. A recent <a href="https://www.hbs.edu/ris/Publication%20Files/SSRN-id1964011_6791edac-7daa-4603-a220-4a0c6c7a3f7a.pdf">study</a> found “evidence that High Sustainability companies significantly outperform their counterparts over the long-term, both in terms of stock market as well as accounting performance.” The bottom line? Green business equals good business.</li>
+    <li><strong>New or enhanced partnerships</strong>: When businesses use <a href="https://www.sap.com/products/scm/what-is-a-sustainable-supply-chain.html">sustainable supply chains</a> and green logistics, they’re not only more attractive to customers but to corporate partners as well. A recent study from <a href="https://hbr.org/2020/03/a-more-sustainable-supply-chain">HBR</a> found that the largest global multinationals are using the United Nations Global Compact or the Carbon Disclosure Project’s (CDP’s) Supply Chain Program to assess their suppliers’ levels of sustainability and environmental impact. Suppliers, in turn, are eager to partner with the largest brands and are making investments to try to reduce their carbon footprints.</li>
+    <li><strong>Happier, loyal customers</strong>: Customers – both retail and business – demand fast delivery and the flexibility to make easy returns. They want to know where their products came from, whether they’re sustainably sourced and transported, and where they are in their journey – in real time. Companies that offer these insights and transparency gain new customers and earn long-term loyalty among existing ones.</li>
+    <li><strong>Better corporate responsibility reputation:</strong> Large companies are increasingly called to the mat to answer for their contribution to global warming, which is considered a social justice issue. Publicly leveraging the advantages of green logistics will help companies win in the court of public opinion. Smart companies are scrutinizing their environmental footprint locally, as well as globally. Those that aren’t willing to change, especially in moving away from fossil fuels, risk their reputation and are at a competitive disadvantage.</li>
+    <li><strong>Easier recruitment:</strong> In the tightest job market in decades, every company advantage matters. An organization focused on green logistics is more attractive to young professionals who desire to work for a company that embodies their values.</li>
+  </ul>
+  <h2 id="green-logistics-strategies">Green logistics strategies</h2>
+  <p>Organizations that combine a cloud-based smart supply chain with mobile technologies get a birds-eye view of their entire logistics process, from manufacturing to delivery to returns. But green logistics isn’t achieved in isolation. Successful implementation requires planning and the inclusion of all the various stakeholders. Below are a few suggested steps:</p>
+  <ul>
+    <li>Collaborate with suppliers, vendors, third- and fourth-party logistics (3PL and 4PL) partners, and experienced advisors to develop environmentally-friendly procurement protocols and eco-friendly shipping options.</li>
+    <li>Use AI-powered technologies like <a href="/resources/supply-chain-control-tower">supply chain control towers</a> to integrate carbon footprint analysis into all stages of the business.</li>
+    <li>Engage with corporate networks to share logistics resources and data-driven insights. Even brands that are typically competitive can become partners for a shared purpose.</li>
+    <li>Strategize and right-size your fleet. Build in the ability to handle fluctuating demand with elastic logistic networks so that trucks aren’t sitting idle. For last-mile delivery, consider adding micro-mobility vehicles, such as e-bikes or drones.</li>
+    <li>Educate customers on the impact of fast delivery speeds versus more sustainable choices. Amazon, for example, encourages customers to pick an “Amazon Day” that groups packages into fewer shipments, which saves money on packaging and transportation.</li>
+  </ul>
+  <h2 id="green-logistics-and-the-future-of-distribution-networks">Green logistics and the future of distribution networks</h2>
+  <p>Robust, AI-powered, cloud-based logistics solutions are at the core of the supply chains of the future – helping businesses to consolidate loads, automate dispatch and tracking, optimize routes, determine when and where to charge batteries, calculate ETAs, monitor vehicle maintenance, and more. Data modeling and simulations can test routes and fleet capacities, and integrated technologies can help incorporate and analyze supply chain and delivery data across the entire value chain. Every step toward the smoother and faster movement and delivery of goods, is a win/win, making customers happier and more engaged, and helping businesses to improve both their sustainability profiles and their bottom lines.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-green-logistics-solutions">Explore green logistics solutions</h3>
+        <p>Achieve your sustainability goals with SAP Supply Chain Logistics software.</p>
+        <p><strong><a href="https://www.sap.com/products/scm/supply-chain-logistics.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/scm</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/what-is</category>
+            <category>content-type/use-case</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[A Circular Path to Sustainability for Manufacturers]]></title>
+            <link>https://www.sap.com/resources/circular-path-to-sustainability-for-manufacturers</link>
+            <guid>https://www.sap.com/resources/circular-path-to-sustainability-for-manufacturers</guid>
+            <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Manufacturers are building business models that embrace circular economy principles. Learn more about how it's good for business and the planet.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/scm</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/what-is</category>
+            <category>content-type/business-case</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable Logistics on the Move]]></title>
+            <link>https://www.sap.com/resources/sustainable-logistics-on-the-move</link>
+            <guid>https://www.sap.com/resources/sustainable-logistics-on-the-move</guid>
+            <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology is paving the way to greener, more sustainable logistics, but there are still a few roadblocks ahead. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1621e0926945a8219ca7e0d9575b2507b9d579f7a.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1621e0926945a8219ca7e0d9575b2507b9d579f7a.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1621e0926945a8219ca7e0d9575b2507b9d579f7a.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Sustainable logistics, Cardboard boxes with recycling symbols on conveyor belt" src="./media_1621e0926945a8219ca7e0d9575b2507b9d579f7a.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="sustainable-logistics-on-the-move">Sustainable Logistics on the Move</h1>
+        <p>Delivery and logistics are obvious paths to implement green measures. Technology will help, but there are still a few roadblocks ahead.</p>
+      </div>
+    </div>
+  </div>
+  <p>Putting solar panels on refrigerated trucks. Going paperless in the warehouse. Using accurate, real-time data to address the environmental cost of delivery by product and vehicle route. These and other moves are the focus of supply chain leaders who are working to make logistics more sustainable and less of a burden on the planet.</p>
+  <p>The reason these actions are high on the logistics agenda: Sustainability is a heavy lift. Carbon dioxide emissions from rising freight transport will climb 16% by 2050, even with countries’ commitments to curb them, according to the <a href="https://www.oecd-ilibrary.org/sites/e8125f08-en/index.html?itemId=/content/component/e8125f08-en#section-d1e972">International Transport Forum</a>. Without intervention, cities around the world will host millions more freight and parcel delivery vehicles in the next decade, leading to traffic congestion and a proportional increase in greenhouse gas emissions, the World Economic Forum <a href="https://www3.weforum.org/docs/WEF_Future_of_the_last_mile_ecosystem.pdf">reports</a>.</p>
+  <p>It all adds up: Finding ways to make the logistics and <a href="https://insights.sap.com/last-mile-delivery/">delivery</a> end of the supply chain more environmentally sustainable is a no-brainer.</p>
+  <p>“Companies are more interested in the sustainability of logistics,” says Josué Velázquez Martínez, director of the Sustainable Supply Chains Lab at the <a href="https://ctl.mit.edu/">MIT Center for Transportation and Logistics</a>. “There are more pressures from regulations and from consumers. Companies are really trying to look at different parts of the supply chain.”</p>
+  <p>And enterprises may be forced to take more actions. Under current rules, <a href="https://www.nytimes.com/2021/11/02/business/corporate-climate-pledge-supply-chain.html">many companies underreport</a> or don’t include emissions from their supply chains in their sustainability reports, <em>The New York Times</em> notes. But they soon may be forced to do so as regulators focus on logistics. In the United States, <a href="https://www.sec.gov/news/speech/gensler-pri-2021-07-28">regulators are considering</a> making public companies report emissions along their supply chains. The EU also has a <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0189">proposed directive</a> that beefs up sustainability reporting rules.</p>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">Companies are more interested in the sustainability of logistics. There are more pressures from regulations and from consumers.</div>
+    </div>
+    <div>
+      <div data-valign="middle">Josué Velázquez Martínez</div>
+    </div>
+    <div>
+      <div data-valign="middle"><a href="https://ctl.mit.edu/">MIT Center for Transportation and Logistics</a></div>
+    </div>
+  </div>
+  <p><a href="/research/social-impact-in-business">Consumer expectations</a>, regulations, and market demands are putting pressure on business executives to step up their sustainability game. The logistics and distribution systems across the supply chain are obvious places to implement new standards. These will go far in creating a competitive edge as companies spend less money on delivery by using less energy and other resources, get better ROI on their investments, such as truck fleets, and identify better ways to deliver. Add to that increasing consumer awareness of the environmental cost of deliveries and their <a href="/research/social-impact-in-business">willingness to make decisions</a> that delay delivery gratification to protect the planet.</p>
+  <p>But for sustainable logistics to happen, we need to optimize transportation routes, build more efficient warehouses, and use data more often and more effectively. These aren’t easy tasks. There are multiple steps to measuring sustainability to create a real product footprint in terms of CO2 emissions.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="supply-chain-innovation-whats-next">Supply chain innovation: what's next?</h3>
+        <p>Three supply chain experts offer insights on how to make investments pay off.</p>
+        <p><strong><a href="https://www.sap.com/insights/viewpoints/supply-chain-innovation-whats-next.html">Read the story</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>The report “<a href="https://www.oxfordeconomics.com/resource/the-sustainable-supply-chain-paradox/">The Sustainable Supply Chain Paradox</a>” from SAP and Oxford Economics found that executives don’t yet know enough about their supply chains, and they’re having difficulties making them more sustainable. They’re still at the stage of setting targets, not implementing them. Almost half of those surveyed said complexity and cost are the two biggest obstructions to getting their companies to be more sustainable.</p>
+  <p>But increasing pressures are motivating companies to get more visibility into their holistic supply chains and to get to zero emissions or carbon neutral, says Shimon Gowda, manager of supply chain design at Chainalytics. “More companies are trying to just measure what their carbon footprint is looking like in their current network,” Gowda says. “The industry leaders are trying to get closer to what an accurate and precise metric of measure is that you would benchmark your current scenario with.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_129cb1a9fe373450d9a274d6908123870fe056d62.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_129cb1a9fe373450d9a274d6908123870fe056d62.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_129cb1a9fe373450d9a274d6908123870fe056d62.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="hand holding tablet with AR application to check order pick time in smart factory warehouse" src="./media_129cb1a9fe373450d9a274d6908123870fe056d62.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="why-logistics-are-a-big-sustainability-target">Why logistics are a big sustainability target</h2>
+  <p>Logistics are a complex undertaking. They manage the movement of raw materials, intermediate products, and packaging across the globe to manufacturing facilities as well as the distribution of products from where they’re made to where they’re used. Transportation is one of the areas in which getting to zero emissions is a big goal. That includes reducing travel distances and using transportation more efficiently. It’s not uncommon, for example, for delivery trucks to return empty once a delivery has been completed (such truck trips are called “deadhead miles” or “empty miles”).</p>
+  <p>Take cold chain transportation: We rely on refrigerated trucks to move pharmaceuticals, produce, dairy products, meat products, and beverages. That means keeping trucks chilly inside – but that takes significant energy, and that energy has conventionally been petrol.</p>
+  <p>There are companies that help make cold chain trucking more sustainable by running the refrigeration on alternative energy sources. <a href="https://voltapowersystems.com/news/enow-and-volta-power-systems-debut-solar-electric-refrigerated-trailer/">eNow</a>, for example, puts solar panels on the tops of refrigerated trailers. And <a href="https://coldtainerusa.com/">Coldtainer</a> makes portable cold storage boxes.</p>
+  <p>Companies are working to make cold chain trucking more sustainable by running refrigeration on alternative energy sources.</p>
+  <p>Established companies such as <a href="https://www.npr.org/2021/03/17/976152350/from-amazon-to-fedex-the-delivery-truck-is-going-electric">FedEx and DHL</a> are investing in fleets and equipment such as e-vehicles, as NPR has reported. But focusing only on new vehicles misses important opportunities, says Martínez.</p>
+  <p>“What I see is that there is a lot of focus on the equipment side, which in the long term is actually awesome,” he says. “But in the meantime, there are plenty of opportunities that, at this stage, companies are not really paying attention to that much.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1e85d21f6592c2420260f430938d0c153cde82a5e.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1e85d21f6592c2420260f430938d0c153cde82a5e.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1e85d21f6592c2420260f430938d0c153cde82a5e.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Truck" src="./media_1e85d21f6592c2420260f430938d0c153cde82a5e.png?width=750&#x26;format=png&#x26;optimize=medium" width="1958" height="1648">
+    </picture>
+  </p>
+  <h2 id="when-your-mileage-varies-pick-the-right-vehicle-for-each-delivery-route">When your mileage varies, pick the right vehicle for each delivery route</h2>
+  <p>Those opportunities include areas that Martínez and others are studying, such as transport planning systems that optimize routes, reduce mileage and emissions, and analyze the topographical effects on truck performance.</p>
+  <p>Not that new fleets are an inherently bad choice, but a new truck isn’t necessarily a better truck, environmentally speaking. Research from the Sustainable Supply Chains Lab found that mileage as touted on vehicle manufacturers’ Websites is about half in real-world terms during actual deliveries. That’s likely because they tested their trucks in different conditions.</p>
+  <p>“They’re probably testing in conditions that are not related to the way that the truck is going to be operated, particularly in the last mile,” he says.</p>
+  <p>Compare the performance of a truck on a highway traveling at 40 to 50 miles per hour and making three delivery stops with the same truck traveling a very hilly area at 5 to 10 miles per hour and making 20 delivery stops. The performance is markedly different, depending on the vehicle. Older trucks tend to significantly outperform newer trucks on highways; Martínez’s group has found examples of better fuel efficiency up to 15% through a study with Mexican logistics company Coppel. They discovered this by using the average speed, segment lengths (the amount of stops on a specific route), and topographic profile and applying machine learning to classify regions based on those characteristics – some are more residential, some more urban, some are mixed.</p>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">Imagine that you can actually communicate [to a customer], ‘If you are willing to wait two, three, four days more, you’re actually going to be able to reduce that footprint by a certain percentage.</div>
+    </div>
+    <div>
+      <div data-valign="middle">Josué Velázquez Martínez</div>
+    </div>
+    <div>
+      <div data-valign="middle"><a href="https://ctl.mit.edu/">MIT Center for Transportation and Logistics</a></div>
+    </div>
+  </div>
+  <p>Martínez’s group modeled reassigning vehicles according to their analysis so that each were in the areas where they performed best. The results showed a 3% fuel use reduction – no small figure for companies that spend millions in fuel every year. They also did a real-world pilot based on the same thesis using 10 vehicles over a month and saw an 8% savings in fuel use.</p>
+  <p>“You don’t really need to make an investment but just reassign,” says Martínez. “But if you are going to renew the fleet, then you need to make sure that the new vehicles are located in the regions that you expect and then reassign those you’re going to keep in your operation.”</p>
+  <p>These results point to how the combination of data and computing capacity and algorithms can improve transportation. Topography matters, but it isn’t usually included in environmental assessments because conventionally the shortest and fastest routes are prioritized and because it’s complex, says Martínez. But it makes sense – going uphill and going downhill take different amounts of energy.</p>
+  <p>“There’s this huge opportunity in managing this data to use the GPS traces to really capture the facts and make better decisions,” he says. “I call this the squeezing in the part of the supply chain to make sure that you are really reducing emissions as much as possible and still meeting your customer expectations and business goals.”</p>
+  <p>Same-day delivery is challenging because it means a lot of trips to the same neighborhoods with trucks that aren’t always fully loaded, which increases emissions. The Sustainable Supply Chains Lab did an experiment to see whether consumers make different delivery choices according to how green they are and if they’re willing to wait.</p>
+  <p>The “<a href="https://sustainable.mit.edu/255136-2/">green button</a>” experiment found that 52% of customers actually changed their delivery decisions to minimize the environmental impact. The lab tried different ways to quantify that to the customer, such as CO2 reduction and trees saved. When researchers used the example of trees, they found that people were willing to wait an average of up to four more days for their delivery – although 70% <em>said</em> they would, but 52% <em>actually did</em>. But that’s still more than half who made that choice.</p>
+  <p>“There is the opportunity to communicate supply chain transparency to customers so that they can use that information at the moment of the purchase,” says Martínez. But this isn’t so easy to do. It requires emissions data specific to each order that is displayed when a shopper is making a purchase so that consumer has accurate information and can understand the footprint their decision generates, says Martínez. This requires a lot of analysis and maybe even third-party validation to legitimize the information – but providing it would be a significant edge for brands and their enviro credibility.</p>
+  <p>“Imagine that you can actually communicate [to a customer], ‘If you are willing to wait two, three, four days more, you’re actually going to be able to reduce that footprint by a certain percentage; you’re going to actually save the environment,’” he says.</p>
+  <h2 id="the-sustainability-value-of-local-warehouses">The sustainability value of local warehouses</h2>
+  <p><a href="/blogs/for-resilient-supply-chains-think-local">Localizing supply chains</a> by balancing local and distant sourcing and manufacturing is another way to improve supply chain sustainability. Warehousing is an important part of that – building smaller warehouses that are close to demand would reduce travel time and emissions. Warehouses are now the biggest type of commercial building in the United States, and those numbers are increasing, according to the <a href="https://www.eia.gov/todayinenergy/detail.php?id=50496">U.S. Energy Information Administration</a>.</p>
+  <p>Warehouses could be mandated to be energy self-sustaining and designed to be carbon neutral. Alternative energy production – such as a solar panel array on a warehouse roof – seems obvious and, in some areas, is mandated or subsidized. Germany, for instance, has been a proponent of financial support for solar infrastructure. In the United States, there are a host of <a href="https://www.energy.gov/eere/solar/articles/residential-and-commercial-itc-factsheets">federal</a> and <a href="https://www.dsireusa.org/">state</a> incentives.</p>
+  <p>In Elizabeth, New Jersey, East Coast Warehouse has a solar array on its warehouse that’s one of the largest in the Northeast. Kevin Daly, chief commercial officer, says the company recently installed another 4,900 high-efficiency solar modules that generated over two and a half gigawatts of solar energy in 2020. “Our solar array has really outperformed our expectations,” he says.</p>
+  <p>The company is expanding to Maryland and Georgia and investigating the use of solar with their warehouses there. Daly notes that this is easier for those who own their buildings, in part because the developer community is concerned about liabilities and the weight that panels can add to a building. Apart from that, it’s an ROI decision, and that often has to do with subsidies, he says.</p>
+  <p>In warehouses, putting the most important and fastest-moving SKUs where they can be quickly and easily accessed means less energy used by forklifts moving things around.</p>
+  <p>Daly expects more warehouses to adopt solar and other forms of alternative energy. “I’m sure that as technology continues to be perfected, it’ll become even more efficient and more beneficial to everybody,” he says.</p>
+  <p>Running the internal workings of warehouses and deliveries has become more sustainable as well. East Coast Warehouse has moved to tablets and mobile devices for dispatching and getting rid of paper as much as possible – and this in an industry that’s always used a lot of paper.</p>
+  <p>With digital options, truck drivers can stay in the trucks and use tablets to do all the paperwork, including the bills of lading, which can be sent directly to the consignees digitally. More than reducing paper, this makes for better transparency. The proof of delivery – where, when, and who signed – can be put into a <a href="https://insights.sap.com/what-is-a-transportation-management-system-tms/">transport management system</a> and automatically archived.</p>
+  <p>“So that process, which was a lot of [staff] hours and a lot of manual operation in scanning and paper, has really become much more manageable if you’re doing it the right way,” Daly says.</p>
+  <p>Optimizing operations with a warehouse design is something that more companies are interested in, says Gowda of Chainalytics. Getting back to the basics of organization and doing things like putting the most important and fastest-moving SKUs where they can be quickly and easily accessed means less energy used by forklifts moving things around.</p>
+  <p>“Just trying to streamline this can really bring about a lot of change, even in terms of greenhouse gases because you’re really optimizing your operations, which is trying to make the best use of your resource available on the floor,” Gowda says.</p>
+</div>
+<div>
+  <h3 id="adding-a-recycling-section-to-the-warehouse">Adding a Recycling Section to the Warehouse</h3>
+  <p>Shimon Gowda, manager of supply chain design at Chainalytics, says there are a growing number of companies with corrugated recycling facilities within their warehouses so that they can reduce waste and <a href="https://www.theverge.com/2019/12/2/20986298/cyber-monday-black-friday-amazon-effect-recycling-cardboard-shopping">keep boxes out of waste systems</a>. For example, if a warehouse has a corrugated facility, cardboard can be recycled into boxes the sizes and shapes needed for specific products.</p>
+  <p>“This really drives and promotes reusing your packaging material and trying to consume less,” she says.</p>
+  <div class="section-metadata">
+    <div>
+      <div>Style</div>
+      <div>Additional Reading</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1750e499d988c506ca7a04358ea99eb9677472716.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1750e499d988c506ca7a04358ea99eb9677472716.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1750e499d988c506ca7a04358ea99eb9677472716.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Engineers working on computer inside heavy industry factory" src="./media_1750e499d988c506ca7a04358ea99eb9677472716.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <h2 id="sustainable-logistics-requires-data">Sustainable logistics requires data</h2>
+  <p>The question is, as always, “How good is your data?” Because the way things were done using historical information and assumptions on things like truck emissions is no longer enough.</p>
+  <p>Now there are third-party companies that provide tools to find the actual CO2 emission info for a truck using real data at the operational level, which can deliver info through dashboards to enable more strategic thinking and actions and create a more holistic supply chain.</p>
+  <p>Another big goal for many brands and manufacturers is the ability to break down emissions by product, from design to decommissioning. Consumers want this info, and it has the potential to be a significant brand differentiator if it’s done well and communicated accurately (that is, without unsubstantiated claims, or “greenwashing”).</p>
+  <p>More attention is being paid to reverse logistics, says Gowda, because now companies are driving more analytics and visibility to understand the environmental cost of the entire product life cycle. Chainalytics customers now want to run scenarios in which greenhouses gases are the primary focus and priority instead of costs, an area in which a <a href="/resources/how-digital-twins-are-driving-the-future-of-business">digital twin</a> is useful.</p>
+  <p>“Answering those kinds of questions becomes a little challenging without having a full-fledged digital twin platform,” says Gowda. “But we are definitely better than we were a decade ago, where we really do have the ability to understand our impact and also try and create more solutions to drive toward greener supply chains.”</p>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">We really do have the ability to understand our impact and also try and create more solutions to drive toward greener supply chains.</div>
+    </div>
+    <div>
+      <div data-valign="middle">Shimon Gowda, manager of supply chain design at Chainalytics</div>
+    </div>
+  </div>
+  <p>Streamlining supply and <a href="/resources/new-era-of-demand-planning">demand forecasts</a> can also improve sustainability, says Gowda. All along the supply chain, each entity has its own forecasting metric. But, she says, if there’s a flaw upstream, that gets repeated and magnified downstream. This can lead to overproduction by every company in that chain, and overproduction can mean waste or excess product sitting in warehouses after it’s traveled around the globe. “This is the exact kind of scenario that we really want to avoid when trying to move toward a more sustainable carbon neutral environment,” she says.</p>
+  <p>The supply chain concept called “collaborative planning and forecasting replenishment” is gaining ground. It’s another example in which a digital twin plays a key role because everyone in the supply chain can see one another’s data transfers. For example, a manufacturer can see the end retailer’s forecast three months in advance. If there’s a problem, it’s more likely to be identified and fixed sooner. “This can really drive toward <a href="https://www.sap.com/products/sustainability/what-is-circular-economy.html">circular economy</a> because you’re really being minimalistic with your consumption, with your transfers, with everything,” she says.</p>
+  <p>As businesses become more focused on assessing the true environmental impact of their supply chains and logistics, deliveries will become more streamlined and less wasteful and will generate fewer emissions. And that will keep the environment and customers happy.</p>
+</div>
+<div>
+  <h3 id="a-note-from-the-editors">A note from the editors</h3>
+  <p>Discover more sustainable logistics ideas and practical examples in <a href="https://www.sap.com/insights/viewpoints/the-circular-economy-goes-mainstream.html?url_id=text-glo-insights-text-cta">The Circular Economy Goes Mainstream</a>; <a href="https://www.sap.com/insights/viewpoints/5-supply-chain-truths-post-covid-19-world.html?url_id=text-glo-insights-text-cta">5 Supply Chain Truths for a Post-COVID-19 World</a>; and <a href="https://www.sap.com/insights/viewpoints/by-land-sea-and-air-emerging-technologies-to-tackle-climate-change.html?url_id=text-glo-insights-text-cta">By Land, Sea, and Air: Emerging Technologies to Tackle Climate Change</a>.</p>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">additional reading</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>industry/automotive</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[The Road to Regeneration | SAP Insights]]></title>
+            <link>https://www.sap.com/blogs/the-road-to-regeneration</link>
+            <guid>https://www.sap.com/blogs/the-road-to-regeneration</guid>
+            <pubDate>Tue, 14 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The road to regeneration is a journey, not a destination. Learn how to build a sustainable business that benefits both your bottom line and the planet.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_155b97388a0a99e34fe0e0f2ad532c25038b28e02.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_155b97388a0a99e34fe0e0f2ad532c25038b28e02.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_155b97388a0a99e34fe0e0f2ad532c25038b28e02.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Garbage plastic with island floating in the ocean" src="./media_155b97388a0a99e34fe0e0f2ad532c25038b28e02.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="the-road-to-regeneration">The Road to Regeneration</h1>
+        <p>Humanity now needs more than one Earth to satisfy its demands for resources – but sustainable, regenerative materials can reverse our overextension of the planet’s capacity.</p>
+      </div>
+    </div>
+  </div>
+  <p>By Dan Wellers, Emily Acton, Fawn Fitter</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_118362ee0d6e63ddb6f60f9f5122e3f6f41307792.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_118362ee0d6e63ddb6f60f9f5122e3f6f41307792.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_118362ee0d6e63ddb6f60f9f5122e3f6f41307792.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_118362ee0d6e63ddb6f60f9f5122e3f6f41307792.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="320" height="180">
+          </picture>
+        </p>
+        <p><a href="https://d.dam.sap.com/m/gEHkW4D/hls.m3u8">SAP Digital Futures: How Regenerative Materials Will Heal an Overextended Planet</a></p>
+      </div>
+    </div>
+  </div>
+  <p>From plastic bottles to the bricks and concrete that make up our buildings and roads, <a href="/blogs/the-super-materials-revolution">materials</a> determine the form and function of everything we experience in the world around us and every product we use to fulfill our needs.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="want-a-quick-overview">Want a quick overview?</h3>
+        <p>Read “How Regenerative Materials Will Heal an Overextended Planet.”</p>
+        <p><strong><a href="https://www.sap.com/documents/2021/12/6a233be3-0c7e-0010-bca6-c68f7e60039b.html">Download the PDF</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>However, the way we currently produce and use materials is so wasteful and toxic that we’re degrading the planet beyond its ability to repair itself, with all that implies for humanity’s survival. In 2023, “Earth Overshoot Day,” the day on which humans use more natural resources than the planet can regenerate in a year, arrived on August 2. In other words, humanity now needs <a href="https://www.overshootday.org/how-many-earths-or-countries-do-we-need/">1.7 Earths</a> just to satisfy its demands.</p>
+  <p>This situation is not just unsustainable; it’s permanently altering our environment. The weight of every human-made thing that exists, from the biggest ocean vessels to the smallest electronic components, now equals all living <a href="https://singularityhub.com/2020/12/24/anthropocene-human-made-materials-now-weigh-as-much-as-all-living-biomass-say-scientists/">biomass</a> combined. If current trends continue, this “<a href="https://www.nature.com/articles/s41586-020-3010-5">anthropogenic mass</a>” will outweigh the natural world threefold by 2040. And the output of all this human activity has a negative environmental impact disproportionate to its size: we produce more than <a href="https://doi.org/10.1016/j.chempr.2020.12.006">350 million metric tons</a> of synthetic polymers (plastics) each year, but 76% of all plastic ever <a href="https://doi.org/10.1016/B978-0-12-817880-5.00002-5">produced</a> is lying unused in landfills, floating in the oceans, and defiling the natural environment.</p>
+  <p>But there’s hope for a more sustainable future. Researchers and innovative companies are rethinking the materials that businesses use throughout their operations. They understand that we can no longer separate how materials are used from how they’re sourced and disposed of – so they’re creating better alternatives for existing needs, designing materials to do more than is currently possible, and inventing materials that are less harmful to the planet and even actively help <em>regenerate</em> natural ecosystems.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1e276eaacf60fb51bc80bf9a0d3253813bf489cc2.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1e276eaacf60fb51bc80bf9a0d3253813bf489cc2.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1e276eaacf60fb51bc80bf9a0d3253813bf489cc2.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Workers in a lab" src="./media_1e276eaacf60fb51bc80bf9a0d3253813bf489cc2.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="finding-alternatives-for-plastics-and-textiles--and-harvesting-carbon-emissions-for-new-uses">Finding alternatives for plastics and textiles – and harvesting carbon emissions for new uses</h2>
+  <p>To remove conventional materials from supply chains, we need to find sustainable alternatives that perform at least as well, if not better. After all, so much plastic exists because it is lightweight, durable, relatively low-cost, and can be used in a multitude of ways.</p>
+  <p>In fact, the <strong>plastics</strong> problem is a leading target for improving materials use. Many possibilities are emerging for developing durable but biodegradable bioplastics. One approach involves diverting food waste, with promising experiments involving <a href="https://www.innovationnewsnetwork.com/creating-high-performance-plastic-foam-from-whey-protein/12521/">whey protein</a>, <a href="http://innovationnewsnetwork.com/citrus-peel-pef-plastics/10743/">citrus peels</a>, <a href="https://www.innovationnewsnetwork.com/enhancing-food-preservation-mango-based-bioplastic/13572/">mango leaves</a>, <a href="https://www.designweek.co.uk/issues/26-october-1-november-2020/bioplastic-made-from-lobster-shells-leads-wave-of-material-innovation/">lobster shells</a>, <a href="https://scitechdaily.com/making-cleaner-greener-biodegradable-plastics-from-waste-fish-parts/">fish oil</a> from salmon processing scraps, and <a href="https://scitechdaily.com/plant-based-vegan-spider-silk-provides-sustainable-alternative-to-single-use-plastics/">soybean oil</a> byproducts. Other sources of biopolymers come from beyond the plate and pantry, like <a href="https://news.uchicago.edu/story/sustainable-future-scientists-rethink-plastics-and-devices">cellulose</a>, which makes up the cell walls of plants, and <a href="https://www.cbc.ca/news/science/mycelium-fungi-green-materials-1.5954664">mycelium</a>, the root network of fungi. There’s even a company that crushes stone to extract <a href="https://www.fastcompany.com/90600241/manufacturing-most-innovative-companies-2021">calcium carbonate</a>, one of the most common minerals in the world, and uses it to replace up to 80% of the plastic in chip bags, candy wrappers, and other packaging so it degrades in months instead of centuries.</p>
+  <p>Another material that needs to be made more sustainably is <strong>concrete</strong>. Traditionally, concrete is made by binding gravel and fine sand with a paste of cement (made of limestone and ash that have been burned together and ground up) and water. Its strength and durability make concrete the most widely used human-made material on the planet, but <a href="https://www.mdpi.com/2071-1050/13/1/204">making it</a> consumes about 10% of the water used worldwide for industrial and commercial activities and emits about 8% of global CO<sub>2</sub> emissions. But researchers have discovered that replacing up to half of the sand, which is expensive and carbon-intensive to produce, with waste clay dug up during <a href="https://www.innovationnewsnetwork.com/producing-sustainable-concrete-repurposing-excavation-waste/10977/">excavation work</a>, makes a super-concrete that’s both stronger and diverts construction material from landfills. Another new approach to concrete involves combining lime binder with fast-growing hemp plants to create a renewable, carbon-sequestering “<a href="https://sustainablebrands.com/read/product-service-design-innovation/3-advances-in-sequestering-carbon-in-the-built-environment">hempcrete</a>” that weighs eight times less than standard concrete and is ideal for non-structural uses like borders or sidewalks.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1bcfad6dd2be61da24aa4f4ea99646054e06ff4c9.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1bcfad6dd2be61da24aa4f4ea99646054e06ff4c9.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1bcfad6dd2be61da24aa4f4ea99646054e06ff4c9.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Oil drops on a water surface" src="./media_1bcfad6dd2be61da24aa4f4ea99646054e06ff4c9.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <p>There’s ample room to rethink <strong>other construction materials</strong>, too, as well as how to use them to design buildings with smaller ecological footprints. Renewable bio-based alternatives to standard building materials might include nanocellulose <a href="https://revolutionized.com/7-amazing-ways-we-use-nanocellulose/">insulation</a> that’s stronger and more effective than Styrofoam, <a href="https://www.sciencedaily.com/releases/2021/05/210504154557.htm">transparent, heat-retaining wood</a> made with citrus peel waste, and <a href="https://www.startus-insights.com/innovators-guide/top-10-construction-industry-trends-innovations-in-2021/">engineered wood products</a> that are as strong, stable, safe, and as versatile as concrete and steel. There’s also lightweight, flexible, emissions-free construction board made from cellulose extracted from <a href="https://www.dezeen.com/2020/11/26/honext-recyclable-construction-material-cellulose-paper/">paper recycling waste</a> that would otherwise be discarded, and <a href="https://www.buildwithrise.com/stories/hempwood-the-sustainable-new-building-material">wood made from hemp</a> that’s been bioengineered to be as durable as oak, but to grow 100 times faster. And nanotechnology has enabled <a href="https://www.graphenglass.com/">graphene-based</a> construction materials that enhance solar protection, deflect wind, kill germs, and more, actively improving the buildings’ immediate environments.</p>
+  <p>In addition to shelter, we need clothing, furniture, and bedding. But <strong>textiles and fabrics</strong> are often unsustainable. If the fashion industry continues its current practices, it will create an <a href="https://www.thefashionlaw.com/home/can-the-fashion-industry-ever-really-be-sustainable">estimated</a> 148 million tons of waste by 2030, or 38.5 pounds (17.5 kilograms) of waste for every person on the planet. We’ll need eco-friendly alternatives that create less waste during production, like fast-growing <a href="https://sourcingjournal.com/denim/denim-mills/us-national-hemp-association-fiber-kontoor-panda-biotech-agi-xinjiang-cotton-276485/">hemp</a> as a cotton substitute or artificial leather made of <a href="https://utenvironment.org/2020/11/05/mycelium-the-future-of-leather/">mycelium</a> fibers.</p>
+  <p><strong>Other industries</strong> are also rethinking materials use. Take <strong>aerospace</strong>, for example. Researchers recently announced they had developed a new <a href="https://www.innovationnewsnetwork.com/optimising-future-aircraft-with-the-worlds-lightest-aerogel-material/12625/">aerogel</a> that, while not made from particularly green materials itself, is so lightweight that it would significantly cut fuel consumption in the next generation of aircraft – while also reducing noise pollution from the engine, both inside and outside the cabin. Another recent development in <strong>construction</strong> involves ultra-white <a href="https://www.purdue.edu/newsroom/releases/2021/Q2/the-whitest-paint-is-here-and-its-the-coolest.-literally..html">paint</a> so effective at reflecting sunlight and infrared heat that it actually makes surfaces cooler than their surroundings. The scientists who developed it speculate that giving buildings a lightweight, hyper-white coat of paint could be enough to significantly reduce the need for electricity-hungry air conditioning.</p>
+  <p>We’ll also turn more <strong>waste</strong> into value by capturing carbon belched from smokestacks. By turning it into black <a href="https://reflowproject.eu/best-practices/air-ink/">inks</a>, paints, and coatings, or embedding it in <a href="https://www.nytimes.com/2021/06/23/magazine/interface-carpet-carbon.html">carpet tiles</a> that also use recycled vinyl, waste vegetation, and salvaged nylon, we can create durable products that move greenhouse gases out of the atmosphere for years, if not decades.</p>
+  <p>Finding more sustainable materials for our present-day needs is just the beginning. Materials scientists are going further by creating and using materials that expand on what’s possible.</p>
+  <h2 id="materials-with-future-potential">Materials with future potential</h2>
+  <p>As we investigate the properties of more renewable materials, we will find uses for them that aren’t possible with materials we’re familiar with today.</p>
+  <p>For example, when certain common ocean bacteria eat a combination of gelatin and sand, they turn into a mass of <a href="https://www.discovermagazine.com/the-sciences/this-regenerative-building-material-is-made-from-sand-and-bacteria">living concrete</a> that can repair and reproduce itself. This material has promise for rebuilding after disasters and providing shelter quickly in challenging conditions. Scientists think they could even teach it to make oxygen and water, which would be useful in harsh environments – not just on Earth, but on other planets, should NASA realize plans to send crews to settle Mars, for example. Similarly, researchers are working on making building materials and tools by combining chitin, a <a href="https://pubmed.ncbi.nlm.nih.gov/14610026/">biopolymer</a> produced by fungi and insects, with <a href="https://physicsworld.com/a/martian-buildings-could-be-made-of-chitin-based-material/">other materials</a> that are readily available.</p>
+  <p>Plants will also inspire new material properties. A lightweight, breathable textile made of cellulose fibers and <a href="https://reflowproject.eu/best-practices/seacell-fiber/">seaweed</a> could be able to infuse nutrients through skin contact, for clothing that nourishes the person wearing it. A genetically tailored <a href="https://arstechnica.com/science/2021/02/kombucha-tea-inspires-new-living-material-for-biosensing-applications/">kombucha tea</a> starter that can sense pollutants and produce glow-in-the-dark enzymes could potentially be an eco-friendly biosensor indicating a package has been tampered with. Plants infused with nanoparticles that <a href="https://news.mit.edu/2019/ambient-plant-illumination-could-light-way-greener-buildings-0510">turn energy from photosynthesis</a> into light could replace lighting fixtures with ambient off-grid lighting that also freshens the air.</p>
+  <p>In addition, researchers are creating partly organic and non-organic <a href="https://royalsociety.org/-/media/policy/projects/animate-materials/animate-materials-report.pdf">animate materials</a> that are capable of sensing and adapting to their environments. Buildings made from these materials would be able to harvest light, water, heat, bacteria, greenhouse gases, and biowaste from their surroundings and inhabitants, then use those resources to maintain and repair themselves while generating useful outputs like power, oxygen, heat, and drinkable water. Equipment in industrial facilities could be made from self-repairing plastics and self-diagnostic coatings that simplify maintenance. Products could be programmed to disassemble themselves at end-of-life so their basic components can be recycled or repurposed. Even <a href="/blogs/fashion-the-future-interface-between-mind-body-and-planet">clothing</a> could be made with animate materials that respond to people’s vital signs to keep them comfortable or detect possible illness.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_16375f25aab6a15164645fc95037a5291d5fa8909.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_16375f25aab6a15164645fc95037a5291d5fa8909.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_16375f25aab6a15164645fc95037a5291d5fa8909.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Streams of light" src="./media_16375f25aab6a15164645fc95037a5291d5fa8909.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="regeneration-the-next-frontier">Regeneration: The next frontier</h2>
+  <p>In the search for a sustainable materials future, the ultimate outcome could be a broad shift to materials that aren’t just lower-impact, but that actively regenerate the environment and systems they are part of. That could mean designing materials that sustain themselves, restore nutrients to the environment as they break down, or actively remove <em>existing</em> waste from the environment as they’re created. Researchers in the Netherlands recently mixed microalgae with bacterial cellulose to create a “<a href="https://www.tudelft.nl/en/2021/tnw/researchers-create-living-material-based-on-algae">living material</a>” that can be 3D printed into sturdy, biodegradable objects that sustain and regenerate themselves through photosynthesis. One potential application is artificial leaves that, given water and CO<sub>2</sub>, emit oxygen and store energy as sugars that can be harvested for fuel.</p>
+  <p>Living materials like this could also be formed into artificial skin that speeds healing by flooding a wound site with oxygen before dissolving – or <a href="https://www.tudelft.nl/en/2021/tnw/researchers-create-living-material-based-on-algae">fabric</a> that requires less water than cotton to produce, purifies the air through photosynthesis, and returns nutrients to the environment when it biodegrades.</p>
+  <p>People who prefer less literal active wear may choose instead to wear textiles made from repurposed agricultural waste, and that break down at end of life to return nutrients to the environment. According to the EU’s Reflow Project, these garments could come from <a href="https://reflowproject.eu/best-practices/pinatex/">pineapple leaves</a>, <a href="https://reflowproject.eu/best-practices/malai-plant-base-leather/">coconut water</a>, or crustacean shells combined with <a href="https://reflowproject.eu/best-practices/orange-fibre/">citrus byproducts</a> or <a href="https://reflowproject.eu/best-practices/tomtex/">coffee grounds</a>.</p>
+  <p>When it comes time to package all of these products, we can feed sewage <a href="https://www.futurity.org/bioplastics-mangrove-bacteria-wastewater-2487542-2/?utm_source=rss&#x26;utm_medium=rss&#x26;utm_campaign=bioplastics-mangrove-bacteria-wastewater-2487542-2">sludge</a> and agriculture wastewater to hungry bacteria who excrete it as biopolymers that can be made into biodegradable plastics. Sourcing plastics this way could remove a sizable amount of sewage sludge from landfills – 2,500 Olympic-sized swimming pools’ worth is produced annually in the United States alone – and when those bioplastics dissolve or are recycled into their individual components, we can reuse, recycle, and reform those components into more sustainable materials.</p>
+  <p>The future of materials isn’t just about making man-made items more durable or designing them so that they can be upcycled or retired with less harm to the environment. It’s a fundamentally different paradigm. Ultimately, the future of materials requires us to leave behind our unsustainable system of resource extraction, processing, consumption, and disposal in favor of one where our materials restore and/or repair the damage we have done to the planet.</p>
+  <p>In other words, it’s not enough to travel down the wrong path more slowly. We need to take a different path – one that actually improves the quality of life for humanity and all other living things.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>industry/oil-gas-energy</category>
+            <category>industry/chemicals</category>
+            <category>content-type/trends-predictions</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Make Sustainable Materials Use Matter]]></title>
+            <link>https://www.sap.com/resources/how-to-make-sustainable-materials-use-matter</link>
+            <guid>https://www.sap.com/resources/how-to-make-sustainable-materials-use-matter</guid>
+            <pubDate>Mon, 11 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[By utilizing sustainable materials, companies can take steps toward a circular economy that saves money and conserves raw materials.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bf0c510aec39014a5318d3e55975930ea0d19dad.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bf0c510aec39014a5318d3e55975930ea0d19dad.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1bf0c510aec39014a5318d3e55975930ea0d19dad.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Glass globe with green foliage background" src="./media_1bf0c510aec39014a5318d3e55975930ea0d19dad.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="how-to-make-sustainable-materials-use-matter">How to Make Sustainable Materials Use Matter</h1>
+        <p>By recapturing resources and rethinking packaging, companies can take steps toward a circular economy that saves money and conserves raw materials.</p>
+      </div>
+    </div>
+  </div>
+  <p>A recent SAP Insights survey on sustainability <a href="/research/environmental-sustainability-affects-competitiveness">found</a> that companies’ biggest barrier to taking more environmental action is their uncertainty about how to embed sustainability into business processes and systems. Making more sustainable choices about materials use is one way to address that challenge.</p>
+  <p>Apple, for example, gives customers the option of returning their used phones, laptops, and other products. Newer items <a href="https://www.apple.com/shop/trade-in">earn</a> trade-in credit, which the company recoups by refurbishing and reselling them. It also disassembles unrepairable and obsolete technology, both for parts and to extract and recycle or reuse materials like aluminum and gold. As one result, the latest MacBook Airs, Mac Minis, and iPads are encased in 100% recycled aluminum from Apple’s own manufacturing <a href="https://www.apple.com/shop/trade-in">scrap</a> as well as postconsumer building and construction waste. This approach recaptures the value of materials that would otherwise be discarded while keeping e-waste out of landfills and incinerators.</p>
+  <p>Indeed, the SAP survey identified sustainable materials use as one of respondents’ top two priorities for investing in the environment, roughly equal to their commitment to addressing climate change. We also found a minority of companies, which we call the Nows, that believe sustainability is financially material* to their operations today and are already profiting from their investments in it. The Nows are significantly more committed than other survey respondents to investing in sustainability across the board, including <a href="/blogs/the-road-to-regeneration">sustainable materials use.</a></p>
+  <p>And the business case for that investment is incontrovertible. In 2020, the Center for Sustainable Systems at the University of Michigan <a href="https://css.umich.edu/factsheets/us-material-use-factsheet">found</a> that raw materials use has grown at more than three times the speed of population growth in the United States alone. Given an expanding global population that insists on an ever-higher standard of living, combining reuse and recycling with more sustainable raw materials would help ensure companies have enough resources to keep up with demand.</p>
+  <p>There are, of course, trade-offs. Companies may have to spend more up front to redesign their products and manufacturing processes to make better use of current materials or substitute different ones. But it’s likely they can build on their existing processes and systems, which will help them see a fairly prompt return on investment. Along the way, it’s possible they may also identify previously unnoticed opportunities to cut costs and create new income streams.</p>
+  <p>“There’s increased interest in materials choices because they can fit into a larger sustainability narrative,” says Kevin Dooley, chief scientist at The Sustainability Consortium, a nonprofit helping the global consumer goods industry create more transparent and environmentally sound supply chains. “And there are many ways to approach materials use based on what will appeal to customers while meeting sustainability goals.”</p>
+  <p>Dooley offers the example of a university that wants to make its logo T-shirts “greener.” Arguably, the university has multiple choices of more sustainable materials. Synthetic fabric from recycled plastics is highly durable and requires less water to produce than cotton. Cotton, on the other hand, can be recycled, is biodegradable, and doesn’t shed microplastics into the water when it’s laundered. If the university can source organic cotton (or an alternative material like hemp) from a nearby farmer, it can promote its support for the local economy. The fabric the university chooses will depend on how it wants to balance multiple sustainability priorities with traditional factors such as cost, quality, and price.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-balance-sheet-blind-spot">The Balance Sheet Blind Spot</h3>
+        <p>Learn how sustainability affects your competitiveness and profits.</p>
+        <p><strong><a href="/research/environmental-sustainability-affects-competitiveness">Read the research</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1b10c409a4c3013adea53f443c26fd7b92045007f.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1b10c409a4c3013adea53f443c26fd7b92045007f.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1b10c409a4c3013adea53f443c26fd7b92045007f.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Woman using laptop in a small gardening shop" src="./media_1b10c409a4c3013adea53f443c26fd7b92045007f.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="the-business-value-in-sustainable-materials">The business value in sustainable materials</h2>
+  <p>To some degree, a combination of consumer demand and government regulation is driving many companies toward more sustainable sourcing and use of materials. Consider the current pressure to eliminate single-use plastics, driven by both heartrending photos of animals that starved to death with stomachs full of trash and predictions like that of the World Economic Forum: that without intervention, the oceans in 2050 will contain more plastic waste than fish. Consumers are reacting with demands that companies use less plastic. Meanwhile, governments are responding with increasingly stringent regulations and are ratcheting up taxes, fees, and bans on single-use plastics. At the same time, they’re pushing companies to take responsibility for the disposal <a href="/resources/circularity-taking-trash-out-of-global-economy">costs</a> as a way to encourage them to choose different materials, or at least to design products and packaging that contain less plastic and can be reused multiple times.</p>
+  <p>There’s also significant evidence that customers are putting their money where their demands are. From 2015 to 2021, sales of sustainably marketed products grew 2.7 times <a href="https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/centers-of-research/center-sustainable-business/research/csb-sustainable-market-share-index">faster</a> than those of other consumer packaged goods and accounted for more than one third of overall growth in the category. Nonetheless, Dooley notes that while The Sustainability Consortium members he works with are finding current value in selling sustainable products to consumers, they’re getting even more value from their overall sustainability efforts in the form of cost savings.</p>
+  <p>Companies discover savings opportunities when they invest the time and effort into collecting data about their current materials use. The more data they have, and the more visible and accessible it becomes, the more useful it is for generating insights that lead to greater efficiency, increased cost savings, and potential new opportunities.</p>
+  <p>Calculating the true costs of your materials use – not just to manufacture and package a product, but also the way it’s used and eventually disposed of – may initially seem burdensome or impractical to the point of impossibility. But the more you understand those costs and how you incur them, the more you can identify opportunities to create value, recapture it, or both.</p>
+  <p>It makes sense to start exploring new approaches to materials use in two key areas: resource recapture and packaging. After all, every resource you recapture is one you don’t have to buy.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="circularity-is-the-economy-of-the-future">Circularity is the Economy of the Future</h3>
+        <p>Treating waste as a valuable resource is good for the planet and bottom lines.</p>
+        <p><strong><a href="/resources/circularity-creates-value-from-waste">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Exploring the full lifecycle costs of materials contributes to a comprehensive view of sustainability in the markets where you do business, which in turn provides metrics for areas where you can set goals and take action. For example, you may identify ways to avoid materials (like plastic) that can’t currently be recycled in a key market. You might also develop new product designs based on more sustainable materials. Sportswear brand Cariuma makes knit sneakers from thread that combines plastic reclaimed from the ocean with highly renewable bamboo – an approach that reduces manufacturing waste and promotes alternative textiles while creating new markets among eco-conscious consumers.</p>
+  <p>You may even discover new ways to shift or extend your entire business model. Seventh Generation, which makes eco-friendly cleaning products, created an ultraconcentrated <a href="https://www.seventhgeneration.com/easydose-ultra-concentrated-laundry-detergent-freeclear">version</a> of its flagship laundry detergent that contains 50% less water and requires 60% less plastic to package. By having consumers reconstitute the detergent from their own taps instead of paying to ship water around the world, the company distributed more product at less cost while making that product even more sustainable.</p>
+  <p>Meanwhile, in places where governments are using regulations to promote recyclable materials and minimize waste, companies willing to pay more for materials that include recycled content will find opportunities to recoup these costs through lower taxes and fees in those markets.</p>
+  <p>It’s likely one reason the Nows in the SAP Insights survey are so enthusiastic about investing in better materials use is because they see its potential to deliver an impressive ROI, even though that may take some effort to achieve.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_13c9635d2c68aa3f710b6d1dec58970a3d3017443.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_13c9635d2c68aa3f710b6d1dec58970a3d3017443.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_13c9635d2c68aa3f710b6d1dec58970a3d3017443.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Stacked wood planks" src="./media_13c9635d2c68aa3f710b6d1dec58970a3d3017443.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="two-approaches-to-sustainable-materials-use">Two approaches to sustainable materials use</h2>
+  <p>The ultimate goal for sustainable materials use is a <a href="https://www.sap.com/products/sustainability/what-is-circular-economy.html">circular economy</a> that increases value by eliminating waste. However, changing materials in products or using them differently can be complicated and expensive. You had good reasons for choosing the plastics, fabrics, metals, or minerals in your company’s products and packaging. It takes planning to account for all the potential impacts from choosing differently.</p>
+  <p>“One area of saving can come from your logistics operations,” says Ian Catley, director at Turnkey Group, whose software provides real-time data collection and analytics to help companies more effectively manage environmental, social, and governance efforts and associated risks. “Perhaps you can’t easily switch the materials you use, but with better planning you could switch air freight to ocean freight, with a significant reduction in both cost and greenhouse gas emissions.”</p>
+  <p>Catley notes that even a seemingly minor decision to change a product wrapper made of polyethylene to one made from compostable materials may require new manufacturing and shipping processes to ensure the revamped wrapper performs as well as what it replaced.</p>
+  <p>Still, it makes sense to start exploring new approaches to materials use in two key areas: resource recapture and packaging. After all, every resource you recapture is one you don’t have to buy. And every product has to be packaged, even if only for the trip from producer to purchaser.</p>
+  <h3 id="recapturing-resources">1. Recapturing resources</h3>
+  <p>Manufacturers are developing alternatives to purchasing raw materials, particularly by reclaiming valuable materials from complex products as Apple does. In fact, these efforts are especially common with electronics: a single circuit board can contain more gold and copper than an entire ton of mined ore, while the cobalt necessary for lithium-ion batteries is increasingly scarce and expensive. In some cases, recovering and reusing resources can be more cost-effective, as well as more environmentally sound, than extracting raw materials.</p>
+  <p>"The product lifecycle from cradle to grave is on every company’s agenda."</p>
+  <p><em>– Ian Catley, director at Turnkey Group</em></p>
+  <p>A handful of manufacturers are creating products that actively sequester climate-changing greenhouse gases. One example is Interface, a flooring manufacturer with a line of carpet <a href="https://www.nytimes.com/2021/06/23/magazine/interface-carpet-carbon.html">tiles</a> that combine recycled nylon and vinyl with latex extracted from exhaust captured on its way out of factory smokestacks. By locking these industrial emissions into flooring instead of letting them drift into the air, each 10’x20′ installation of these tiles keeps about 12 pounds of CO2 out of the atmosphere – the equivalent of driving more than 13 miles in an average passenger vehicle.</p>
+  <h3 id="rethinking-packaging">2. Rethinking packaging</h3>
+  <p>Manufacturers are doing <a href="https://www.mckinsey.com/industries/paper-forest-products-and-packaging/our-insights/the-drive-toward-sustainability-in-packaging-beyond-the-quick-wins">more</a> to recycle and reuse packaging. They are also moving away from petroleum-based plastic that lingers in landfills for thousands of years to create new forms of packaging made of cardboard, organic fibers from renewable sources like wool and bamboo, and compostable plastics made from corn or sugarcane that degrade within months.</p>
+  <p>Catley says that even though manufacturers’ focus on packaging is predominantly driven by opportunities to reduce costs, such as transportation and compliance fees, companies may also see their efforts as benefiting their reputation. As he points out, “Companies don’t want customers to see their branded materials washed up on the beach.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_19dec91049d37235dd4529a104a6e8b6cd4a434e6.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_19dec91049d37235dd4529a104a6e8b6cd4a434e6.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_19dec91049d37235dd4529a104a6e8b6cd4a434e6.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Giant spool of sustainable material, fabric" src="./media_19dec91049d37235dd4529a104a6e8b6cd4a434e6.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="sustainable-materials-use-takes-leadership">Sustainable materials use takes leadership</h2>
+  <p>The SAP Insights survey found that companies are more likely to take action on sustainability when their leaders consider it a priority. This finding points to an approach for exploring how to use materials more sustainably.</p>
+  <p>The Nows report that their top motivation for taking environmental action is CEO and board commitment. They also assign accountability for it to significantly more roles across the organization than other companies do, ensuring a sustainability mindset permeates the enterprise.</p>
+  <p>The Nows have also been collecting data around sustainability longer, are taking more actions in pursuit of sustainability, and are achieving better business outcomes as a result.</p>
+  <p>Business leaders can apply these insights in three specific ways:</p>
+  <p>First, create a sustainability vision and agenda to make clear to the organization why sustainable materials use matters and to get buy-in at multiple levels.</p>
+  <p>Second, identify and explain the business benefits, such as cost savings or <a href="https://www.sap.com/products/scm/integrated-business-planning/what-is-a-resilient-supply-chain.html">supply chain resilience</a>, of reducing, reusing, and recycling the materials your company already uses, as well as the potential benefits of transitioning to other materials.</p>
+  <p>Third, spread the responsibility for making materials use more sustainable throughout the organization, from purchasing to design to manufacturing. Getting more parts of the business involved, invested, and actively experimenting with alternatives increases the <a href="https://www.sap.com/insights/viewpoints/sustainability-data-isnt-perfect-but-its-benefits-will-be.html">volume and variety of data</a> you can use to develop and refine your approach.</p>
+  <p>“The product lifecycle from cradle to grave is on every company’s agenda,” Catley comments. “Even renewable materials aren’t all that renewable yet, so it makes sense to make that a high priority. Materials use sits squarely in the middle of the supply chain, and any smart company is looking at that from end to end to find ways to reduce risk and increase value.”</p>
+  <div class="footnote">
+    <div>
+      <div data-valign="middle">*By material, we mean an event, fact, or issue that is reasonably likely to affect the financial condition or operating performance of a company and should be publicly disclosed (along with the corresponding financial statements).</div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/scm</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>content-type/business-case</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Circularity: Taking the Trash Out of the Global Economy]]></title>
+            <link>https://www.sap.com/resources/circularity-taking-trash-out-of-global-economy</link>
+            <guid>https://www.sap.com/resources/circularity-taking-trash-out-of-global-economy</guid>
+            <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read what author Ron Gonen has to say about the issues facing sustainability-minded CEOs who want to build circularity into their businesses.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c17bd132613df881d67ba8abc1d6306f5acf6373.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c17bd132613df881d67ba8abc1d6306f5acf6373.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1c17bd132613df881d67ba8abc1d6306f5acf6373.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Landfill compactor in a landfill" src="./media_1c17bd132613df881d67ba8abc1d6306f5acf6373.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="taking-the-trash-out-of-the-global-economy">Taking the Trash Out of the Global Economy</h1>
+        <p>Eliminating waste from a product’s cradle to its grave lifts margins while meeting consumer sustainability demands.</p>
+      </div>
+    </div>
+  </div>
+  <p>Before World War II, the global economy was inherently circular. Manufacturers extracted resources to make items that were designed to last and were used until they could no longer be repaired. At that point, people repurposed the parts or components in any way possible. Discarding an item before it was worn out was unthinkable; even most trash was put to good use. But the deprivation of war on the heels of the Great Depression drove a backlash against thrift. Companies aggressively marketed the idea that consumers deserved things that were new and untouched – and that anything else was inferior, even shameful.</p>
+  <p>The resulting demand turbocharged economic growth, but at a steep price. The linear way of manufacturing – extracting and consuming raw materials to make new products that are barely used before being thrown away – has befouled the planet and made precious resources increasingly scarce and expensive while literally shoveling billions of dollars into landfills. As the deputy commissioner of sanitation, recycling, and sustainability for New York City, Ron Gonen saw this every day, both in the streets and in the city budget: every penny of tax revenues that the city spent on landfills and other waste disposal could have been invested in delivering education, transportation, recreation, safety, and other public services.</p>
+  <p>In 2014, Gonen left city government to become the founder and CEO of Closed Loop Partners, an investment firm and innovation center focused on making the economy circular again by connecting entrepreneurs with industry experts, global consumer goods companies, retailers, financial institutions, and municipalities. His book, <em>The Waste-Free World: How the Circular Economy Will Take Less, Make More, and Save the Planet</em>, encapsulates what he’s learned about maximizing growth while reducing waste.</p>
+  <p>We asked Gonen about the challenges facing sustainability-minded CEOs who want to build circularity into their businesses and what enterprises can learn from how his firm invests.</p>
+  <h2 id="q-what-does-closed-loop-partners-look-for-in-an-investment">Q: What does Closed Loop Partners look for in an investment?</h2>
+  <p><strong>Ron Gonen:</strong> We chose all 45 of our portfolio companies because they provide solutions for other companies or people that want to become more circular – for example, by coming up with secondary uses and markets for materials that weren’t previously being recycled or by developing technology to reduce food waste by keeping perishable foods fresher longer. We want to invest in aspirins for issues that are causing a lot of pain on the path to circularity.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="what-is-the-goal-of-a-circular-economy">What is the goal of a circular economy?</h3>
+        <p>It aims to redefine growth to benefit people and the planet.</p>
+        <p><strong><a href="https://www.sap.com/products/sustainability/what-is-circular-economy.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>For example, Algramo sells name-brand household cleaning products in bulk from cashless kiosks using reusable containers with an embedded radio-frequency identification (RFID) chip that connects to the online payment capabilities of your mobile phone. You download the Algramo app and create an account, then go to the vending kiosk, where you select an Algramo “smart” container and fill it with detergent. The kiosk charges you for the product by weight and deducts that plus the cost of the container from your account. The next time you run out of detergent, you bring the container back to the kiosk, which charges you only for the refill. And you don’t have to fill the container to the brim. You can buy only as much as you need or can afford.</p>
+  <p>By encouraging customers to use a single smart container over and over, Algramo helps eliminate single-use plastic, which is especially important in areas with no recycling infrastructure. It also increases manufacturers’ margins because it enables them to sell more product without needing to purchase additional materials to package items individually. And because the chip can keep track of how much and how often a consumer buys the products that Algramo dispenses, a shop or manufacturer can better manage inventory, offer coupons or frequent buyer discounts, and create opportunities for cross-sales.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1a5bd0b380a38eca41917c02e987b0822dd47a79c.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1a5bd0b380a38eca41917c02e987b0822dd47a79c.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1a5bd0b380a38eca41917c02e987b0822dd47a79c.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Sorted recycling in containers" src="./media_1a5bd0b380a38eca41917c02e987b0822dd47a79c.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="q-how-does-circularity-fit-under-the-broader-umbrella-of-sustainability">Q: How does circularity fit under the broader umbrella of sustainability?</h2>
+  <p><strong>Gonen:</strong> Sustainability and circularity are concentric circles. Sustainability is a moral and ethical view of business that’s about recognizing how the “take, make, use, pollute” approach increases the risk that climate change, environmental degradation, resource scarcity, and so on will raise the costs of doing business. The circular economy is the tactical approach: you reduce risk, increase margins, and serve your customers by eliminating as much waste as possible from the system.</p>
+  <h2 id="q-as-you-describe-in-your-book-the-concept-of-the-circular-economy-has-been-emerging-for-50-years-why-has-it-only-recently-started-to-gain-traction-with-senior-executives">Q: As you describe in your book, the concept of the circular economy has been emerging for 50 years. Why has it only recently started to gain traction with senior executives?</h2>
+  <p><strong>Gonen:</strong> Leaders in the C-suite are recognizing that they’ve become too dependent on extracting raw natural resources to make their products. Doing so is becoming increasingly risky, costly, and volatile as resources become scarcer. As companies recapture more of the waste they create, they find more ways to <a href="/resources/circularity-creates-value-from-waste">extract value from it</a>, their margins are higher, and they become better positioned for long-term success.</p>
+  <div class="quote">
+    <div>
+      <div>As companies recapture more of the waste they create, they find more ways to extract value from it, their margins are higher, and they become better positioned for long-term success.</div>
+    </div>
+  </div>
+  <p>At the same time, leaders in the public sector globally are realizing that they need to spend more taxpayer money on infrastructure and public services instead of waste disposal. So they are communicating to business leaders that companies can’t expect to sell their products while the community subsidizes the cost of recycling or disposing of them. Instead, municipalities are starting to demand that companies pay for landfills in perpetuity – or invest heavily in developing recycling infrastructure, which is a lot less expensive!</p>
+  <p>Consumer demand also plays a role, but it’s not the main driver.</p>
+  <h2 id="q-what-can-business-leaders-do-right-now-to-promote-the-case-for-circularity">Q: What can business leaders do right now to promote the case for circularity?</h2>
+  <p><strong>Gonen:</strong> American business culture has assumed for decades that businesses can shunt onto the public the enormous costs of cleaning up after their products, but that’s changing quickly. This makes it a challenging time for CEOs. They’re not hearing a consistent message from all stakeholders. Some stakeholders are pushing for more circularity, which will generate enormous economic opportunity while healing the planet, while others are pushing to maintain the status quo, which is focused on short-term gains regardless of long-term cost.</p>
+  <p>One way for leaders to promote the case for circularity is by making eliminating waste synonymous with cutting costs and reducing risk. Then they can challenge their internal teams to use materials science, supply chain technologies, and product design to eliminate waste streams, which will create measurable and profitable results.</p>
+  <div class="quote">
+    <div>
+      <div>One way for leaders to promote the case for circularity is by making eliminating waste synonymous with cutting costs and reducing risk.</div>
+    </div>
+  </div>
+  <h2 id="q-where-should-companies-be-focusing-their-attention-if-they-want-to-be-in-the-vanguard-of-this-shift">Q: Where should companies be focusing their attention if they want to be in the vanguard of this shift?</h2>
+  <p><strong>Gonen:</strong> The first step is for companies to explore and analyze their supply chain in detail to spot potential waste, from inefficient processes to excessive resource consumption. The second is to explore ways to utilize their materials that are not dependent on natural resource extraction. For example, you could replace the need to extract natural resources by using recycled content and locking in a lower price in the long term. And the third step is to change your product design so that materials get continually reused. For example, the typical toothpaste tube is made of a mix of plastic and aluminum that’s so hard to separate that it can’t be recycled. It’s hugely notable that Colgate has spent five years developing a tube made entirely of recycled plastic that works just as well and is 100% recyclable.</p>
+  <p>Right now, only 16% of companies have taken significant steps toward circularity, and most of those efforts have been by manufacturers around cutting the cost of production by using recycled or renewable materials. To get closer to our goal of 80% of companies thinking circular, business leaders need to look at actually eliminating waste in the manufacturing process by using less material and making their processes and supply chains more efficient. Leaders who recognize that are the ones who are going to be out in front.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/scm</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/business-case</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Government, Business, & Civil Society Unite for Circularity]]></title>
+            <link>https://www.sap.com/blogs/government-business-civil-society-fast-track-circularity</link>
+            <guid>https://www.sap.com/blogs/government-business-civil-society-fast-track-circularity</guid>
+            <pubDate>Thu, 25 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Despite the obvious problems of the linear make-take-waste economic model, the move to a circular economy has yet to fully take off.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/trends-predictions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[5 Key Areas Where Circularity Creates Value from Waste]]></title>
+            <link>https://www.sap.com/resources/circularity-creates-value-from-waste</link>
+            <guid>https://www.sap.com/resources/circularity-creates-value-from-waste</guid>
+            <pubDate>Thu, 25 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Food, clothes, plastics, electronics, and machines all generate waste and contribute to climate change. How can circularity help?]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_163105c07e17659bf3d8be1a9c5fc90356f67fabd.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_163105c07e17659bf3d8be1a9c5fc90356f67fabd.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_163105c07e17659bf3d8be1a9c5fc90356f67fabd.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Assorted paper containers and utensils" src="./media_163105c07e17659bf3d8be1a9c5fc90356f67fabd.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="key-areas-where-circularity-creates-value-from-waste">5 Key Areas Where Circularity Creates Value from Waste</h1>
+        <p>In just one decade, circularity transcended sustainability and going green to become the guiding narrative for the economy of the future.</p>
+      </div>
+    </div>
+  </div>
+  <p>The food we eat, the clothes we wear, our plastics and electronics, and the machines that make it all contribute to the biggest modern challenge for humanity – climate change. These sectors produce exorbitant amounts of waste, and when waste decomposes, it emits the greenhouse gases creating global warming and climate change.</p>
+  <p>A shift from the current linear take-make-waste approach to a circular model would create the necessary framework to halt these destructive trends and lay the foundation for a regenerative system that eliminates waste. In a <a href="https://www.sap.com/products/sustainability/what-is-circular-economy.html">circular economy</a>, resources and products stay in use for as long as possible before being recycled or regenerated into new products.</p>
+  <p>To speed up the pace of change, the <a href="https://pacecircular.org/">Platform for Accelerating the Circular Economy</a> (PACE) launched the Circular Economy Action Agenda, which helps businesses and government agencies think of waste as a valuable resource, find different business models to reduce dependence on scarce resources, and generate innovative services that grow revenues.</p>
+  <p>The <a href="https://pacecircular.org/action-agenda/">PACE Action Agenda</a> details five key areas where businesses, governments, and society can drive a faster transition to circularity:</p>
+  <h2 id="the-food-we-eat">The food we eat</h2>
+  <p>Food is a very intimate thing. We put it inside our bodies, yet we seldom think about where it came from or how it got to our tables. The industrialization of agriculture has led to 75% of food coming from just 12 plant and 5 animal species, greatly reducing <a href="/blogs/technology-for-biology-preserving-biodiversity">biodiversity</a>. At the same time, climate change and other factors are leading to <a href="https://www.theguardian.com/environment/2019/may/03/climate-crisis-is-about-to-put-humanity-at-risk-un-scientists-warn">mass extinctions</a> of animals and insects around the globe, which also impacts food crops.</p>
+  <p>The first challenge is to change what we grow and how we grow it. The second is to reduce the mountains of food wasted at all stages from field to fork. If all of the current food loss and waste was collected and compared with that of the countries of the world, it would be the third largest greenhouse gas emitter in the world.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="who-are-the-passionates">Who are the Passionates?</h3>
+        <p>Meet the consumers who are putting principles at the forefront of everything.</p>
+        <p><strong><a href="https://www.sap.com/insights/research/blank-canvas.html">Watch Blank Canvas</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>The <a href="https://pacecircular.org/action-agenda/food">PACE Action Agenda for Food</a> includes transitioning to healthier diets rich in fruit and vegetables, ramping up regenerative agricultural practices, and integrating food loss and waste more broadly into the UN Sustainable Development Goals.</p>
+  <p>Technology plays a key role in implementing the agenda. Digital farming practices, for example, can lead to better decision-making. But perhaps the greatest role of technology is to use data and information to ensure transparent <a href="https://www.sap.com/products/scm/what-is-a-sustainable-supply-chain.html">supply chains</a> and shift consumer behavior. The good news: people are becoming passionate about food waste and are actively driving change in the industry.</p>
+  <h2 id="the-clothes-we-wear">The clothes we wear</h2>
+  <p>Who doesn’t love a new outfit? But it seems the thrill is fleeting for many: the average consumer throws away 31 kilograms of clothing per year, most of which ends up in landfills. That is a lot of waste. According to the <a href="https://www.ellenmacarthurfoundation.org/">Ellen MacArthur Foundation</a>, the textile industry will account for 26% of the world’s carbon footprint by 2050.</p>
+  <p>Circularity for fashion and textiles starts with resources – reducing the use of water, energy, raw materials like cotton, and toxic substances – and ends with recycling, reducing, and reusing textiles to prolong their lifecycle.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_109e298aaa1b91f362832aaa7aa5736fa72ad40ff.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_109e298aaa1b91f362832aaa7aa5736fa72ad40ff.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_109e298aaa1b91f362832aaa7aa5736fa72ad40ff.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Two clothing designers designing sustainable clothing to decrease waste" src="./media_109e298aaa1b91f362832aaa7aa5736fa72ad40ff.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <p>The <a href="https://pacecircular.org/action-agenda/textiles">PACE Action Agenda for Textiles</a> highlights the need to design for longevity and recyclability. After all, waste and pollution are the result of design flaws in either the production system or the product itself (or both) – 90% of environmental impact can be eliminated during the design phase of a product. A circular model would also impact employment through a shift from farming and manufacturing to more jobs focused on repair, resale, sorting, and recycling. This provides an opportunity to improve the working conditions of people working outside formally controlled environments.</p>
+  <p>Fortunately, consumers are becoming more and more knowledgeable and <a href="https://www.sap.com/insights/research/blank-canvas.html">passionate</a> about this topic. But change won’t happen automatically. Targeted efforts are needed from governments, companies, and civil society.</p>
+  <h2 id="the-plastics-around-us">The plastics around us</h2>
+  <p>The problems caused by the proliferation of plastics are well known. To make matters worse, COVID-19 exacerbated the magnitude and urgency of this challenge, with items like take-out food containers and personal protective gear increasing the use of single-use plastic products by <a href="https://www.economist.com/international/2020/06/22/covid-19-has-led-to-a-pandemic-of-plastic-pollution">up to 300%</a>.</p>
+  <p>The <a href="https://pacecircular.org/action-agenda/plastics">PACE Action Agenda for Plastics</a> suggests eliminating plastics that can’t be recycled and designing plastic packaging for reuse and recycling. Consumers need to understand why reuse is important and communities must invest in better collection systems and recycling facilities. And the market must become more competitive to stimulate the recycled plastics supply chain.</p>
+  <p>There are many groups working towards circularity in this area, such as the <a href="https://globalplasticaction.org/about/">Global Plastic Action Partnership</a> launched by the World Economic Forum. Enterprises around the world are joining in on the action:</p>
+  <ul>
+    <li>Adidas is selling shoes that are made from ocean plastic and are 100% recyclable.</li>
+    <li>Grocery stores are moving away from single use plastic bags and allowing shoppers to fill their own reusable containers with refillable items, reducing the impact of single-use packaging.</li>
+    <li>The Coca-Cola Company is <a href="https://www.coca-colacompany.com/news/coca-cola-reduces-use-of-plastic">teaming up with competitors</a> to speed up the recovery and recycling of plastic and reduce the amount of new plastic in the market.</li>
+    <li>As part of its <a href="https://news.sap.com/2019/09/plastics-cloud-pilot-new-global-supplier-marketplace/">Plastic Cloud program</a>, SAP is connecting buyers with suppliers of recycled plastics and plastic alternatives through a global marketplace based on its <a href="http://www.ariba.com/ariba-network">Ariba Network</a>, the world’s largest business-to-business network. This came about through a collaborative engagement at the <a href="https://www.oceanplasticsleadershipsummit.com/">Ocean Plastics Leadership Summit</a> between SAP and brands like The Coca-Cola Company, Nestlé S.A., and the Proctor &#x26; Gamble Company.</li>
+  </ul>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_18c7102d0d6b679f01fadd2d8d154aa7c68b0217c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_18c7102d0d6b679f01fadd2d8d154aa7c68b0217c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_18c7102d0d6b679f01fadd2d8d154aa7c68b0217c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Plastic water bottles" src="./media_18c7102d0d6b679f01fadd2d8d154aa7c68b0217c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="840" height="560">
+    </picture>
+  </p>
+  <h2 id="the-electronics-we-use">The electronics we use</h2>
+  <p>Everyone loves their electronic gadgets, but e-waste represents the fastest growing waste stream in the world. <a href="https://collections.unu.edu/view/UNU:7737">Less than 20%</a> of electronic products are collected and recycled, and raw materials like iron, copper, and gold valued at <a href="https://collections.unu.edu/view/UNU:7737">US$57 billion</a> were lost through e-waste globally in 2019.</p>
+  <p>As with textiles and plastics, about 90% of the total environmental impact of a product is determined in the design phase. Electronics must be designed for durability and ease of upgrade, repair, and disassembly to facilitate recycling.</p>
+  <p>The <a href="https://pacecircular.org/action-agenda/electronics">action plan in this area</a> suggests effective collection systems and greater investments in recycling technology and facilities. More importantly, consumers must be educated about the hazards of e-waste and the importance of recycling. Apple is an exemplar in this area, informing customers and taking back products for recycling. The company <a href="https://www.apple.com/newsroom/2020/07/apple-commits-to-be-100-percent-carbon-neutral-for-its-supply-chain-and-products-by-2030/">plans</a> to become carbon neutral across its entire business by 2030.</p>
+  <p>Batteries can power sustainable development. However, the way materials are sourced and how this technology is produced and used must change. One exciting project is the <a href="https://pacecircular.org/sites/default/files/2020-01/A%20Vision%20for%20a%20Sustainable%20Battery%20Value%20Chain%20in%202030%20-%20Global%20Battery%20Alliance_0.pdf">Global Battery Alliance</a>, a public-private partnership with over 60 member organizations. It aims to reduce emissions in the transport and power sectors by 30%, create 10 million jobs, and provide 600 million people with access to electricity as part of the Paris Agreement.</p>
+  <h2 id="the-capital-equipment-we-need">The capital equipment we need</h2>
+  <p>One sector is well ahead of the pack in terms of embracing circularity. Producing <a href="https://www.circle-economy.com/resources/circularity-gap-report-2020">7.2 million tons of raw materials</a> every year from high-value metal and mineral resources, capital equipment includes the buildings, machines, and infrastructure that keep society running. It includes everything from computer servers to medical scanners, power plants to agricultural equipment. These products are expensive to produce and purchase, and are designed to stay in use for decades. Because of the higher value at stake, this sector is leading the way in its transition to a circular company and has many lessons to offer.</p>
+  <p>Once again, the <a href="https://pacecircular.org/action-agenda/capital-equipment">action agenda in the sector</a> begins with design, with a special emphasis on materials. Concrete, for example, is the <a href="https://www.theguardian.com/cities/2019/feb/25/concrete-the-most-destructive-material-on-earth">most destructive material on earth</a>, yet it is the foundation of modern development, destroying natural habitats. By some estimates it outweighs the combined carbon mass of every tree, bush, and shrub on the planet. Durable, yet sustainable, materials can help extend the use of buildings without harming the environment. And machines, cars, and appliances should be refurbished, remanufactured, or repurposed rather than incinerated or discarded in landfills.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_18ed6386c8f846e479b014a6d0fbedd18ed448fd6.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_18ed6386c8f846e479b014a6d0fbedd18ed448fd6.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_18ed6386c8f846e479b014a6d0fbedd18ed448fd6.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Aerial view of a roundabout in the middle of a city" src="./media_18ed6386c8f846e479b014a6d0fbedd18ed448fd6.png?width=750&#x26;format=png&#x26;optimize=medium" width="1958" height="1648">
+    </picture>
+  </p>
+  <p>Digital technology can transform the way components and products are made and managed. Technology can be used for monitoring and optimizing a product’s life and managing reverse logistics (recovering items for reuse or recycling) while sharing information across the value chain. Subscription models that offer products as a service – leasing cars or machinery, for example – are excellent examples of circularity in action. Firms are paid for the service they deliver, which decouples material use from value creation. This means the provider designs, produces, and maintains the product, offering more opportunities for going circular.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-circular-economy-goes-mainstream">The Circular Economy Goes Mainstream</h3>
+        <p>Learn how circular models are sustainability to its ultimate goal: zero waste.</p>
+        <p><strong><a href="/resources/the-circular-economy-goes-mainstream">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>One noteworthy initiative in this area is the <a href="https://pacecircular.org/capital-equipment-coalition">Capital Equipment Coalition</a> for Europe and North America, a partnership between companies like Philips, Microsoft, SAP, and others to share best practices and create solutions that help drive a circular economy.</p>
+  <p>For the Ellen MacArthur Foundation, which aims to accelerate the transition to a circular economy, this is the decisive decade for changing the world. Thanks to the efforts of the foundation and its network of partners like PACE, in just one decade, circularity morphed into a bigger idea than just sustainability or going green; it is now the guiding narrative for the economy of the future. As these examples demonstrate, when we adopt a circular economic model, we can create value and new opportunities from waste and help minimize the existential threat climate change poses to humanity.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <h4 id="read-more-in-this-series">Read more in this series</h4>
+  <div class="collection">
+    <div>
+      <div>
+        <h6 id="editorial">Editorial</h6>
+        <p><a href="/blogs/government-business-civil-society-fast-track-circularity">Uniting to Fast Track Circularity</a></p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <h6 id="best-practice-guide">Best Practice Guide</h6>
+        <p><a href="/resources/circularity-creates-value-from-waste">5 Key Areas Where Circularity Creates Value from Waste</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>content-type/investment-value</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Circular Economy: Path to Sustainable Profitability]]></title>
+            <link>https://www.sap.com/resources/circular-economy-sustainable-profitability</link>
+            <guid>https://www.sap.com/resources/circular-economy-sustainable-profitability</guid>
+            <pubDate>Wed, 29 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[The circular economy isn’t just—or even mainly—about saving the planet. It’s the best way forward as a business strategy.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>content-type/use-case</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Fashion: The Future Interface Between Mind, Body, and Planet]]></title>
+            <link>https://www.sap.com/blogs/fashion-the-future-interface-between-mind-body-and-planet</link>
+            <guid>https://www.sap.com/blogs/fashion-the-future-interface-between-mind-body-and-planet</guid>
+            <pubDate>Mon, 15 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Facing an urgent need to modernize and become more sustainable without sacrificing growth, the fashion industry is on the verge of a massive tech makeover.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14e2c200a45c7c29b456c092ddd572ee4516d3abc.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14e2c200a45c7c29b456c092ddd572ee4516d3abc.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_14e2c200a45c7c29b456c092ddd572ee4516d3abc.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Woman runs through field in a vibrant red coat." src="./media_14e2c200a45c7c29b456c092ddd572ee4516d3abc.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="fashion-the-future-interface-between-mind-body-and-planet">Fashion: The Future Interface Between Mind, Body, and Planet</h1>
+        <p>The fashion industry is on the verge of a major tech makeover in pursuit of sustainability and customer personalization.</p>
+      </div>
+    </div>
+  </div>
+  <p>Without his impressive collection of accessories, Batman would just be a guy with anger issues. Without his AI-enhanced exoskeleton, Iron Man would just be an arrogant genius with a life-threatening heart condition. And without her talent for disguise, how would the fugitive spy known as the Black Widow survive at all?</p>
+  <p>We can’t all be superheroes, but fashion lets us become someone else, even if only a little bit. As our clothes and accessories demonstrate, fashion is visual and fun. But it’s also the interface between us and our world, protecting us while broadcasting who we are and who we want to be.</p>
+  <p>In the not-too-distant future, fashion will enhance much more than our appearance. It will monitor our physical and mental well-being and signal our needs in the moment. It will be more assistive, thinking and acting to help us improve our performance in a given environment. It will be more adaptive, made from advanced materials that change their appearance and function according to our requirements and desires. The extreme possibilities could genuinely make us more than we are – an exciting prospect for those of us who secretly dream of acquiring superpowers!</p>
+  <p>Before we can reach this future, though, the fashion industry has some urgent catching up to do. Its current business model doesn’t work for today’s consumers, who are rebelling against fashion’s tradition of pushing whatever comes off the runway at them. Instead, consumers want what their favorite social media influencers are wearing. And they want it fast, with a personalized fit. Today’s consumers are also increasingly passionate about sustainability even as the fashion industry confronts a waste problem of global proportions.</p>
+  <p>Facing the urgent need to modernize its business model and solve its sustainability problem without sacrificing growth, an industry not known for leading the way in technology adoption is suddenly on the verge of a massive technology makeover.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="want-a-quick-overview">Want a quick overview?</h3>
+        <p>Read “Future Fashion Could Make Us Superheroes.”</p>
+        <p><strong><a href="https://www.sap.com/documents/2019/12/0c4f2fff-477e-0010-bca6-c68f7e60039b.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="advanced-technologies-are-the-industrys-new-look">Advanced technologies are the industry’s new look</h2>
+  <p>In its explorations of new technologies, the fashion industry is right on trend. Like virtually every other industry, it is looking at the potential of artificial intelligence (AI), centralized platforms, blockchain, and virtual and augmented reality (VR and AR) – and it likes what it sees.</p>
+  <p>For example, manufacturers can’t afford to waste time and money creating products that increasingly rebellious consumers don’t want. Enter predictive AI, which uses image recognition and machine learning to break products down into collections of data points, such as color, pattern, material, and design detail, so manufacturers can quickly <a href="https://stylesage.co/">identify</a> the latest influencer trends and develop new offerings fast.</p>
+  <p>Similarly, producing only enough product to <a href="https://www.cbinsights.com/research/fashion-tech-future-trends/">meet demand</a> allows manufacturers to reduce waste while appealing to customers’ desire for customization, whether that means a tailored fit, a unique color combination, or nonstandard details. Robots and 3D printers are making it possible to manufacture anything from shirts to shoes on demand.</p>
+  <p>The industry is also trying on VR and AR for size, with mirrors and glasses that let customers cycle through multiple items and entire outfits in shops without removing their own clothes, as well as websites that let people “try on” clothing and accessories in their own homes before buying.</p>
+  <p>And the latest generation of <a href="https://www.lifewire.com/best-smart-glasses-4172796">smart glasses</a>, with their built-in speakers, video-recording ability, and integration with phones and digital assistants, are both useful and, well, we won’t go so far as to call them fashionable, but they’re not hideous.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1d8d54757b582d9ba39b6dab278e446752d893e0f.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1d8d54757b582d9ba39b6dab278e446752d893e0f.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1d8d54757b582d9ba39b6dab278e446752d893e0f.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Close-up of threads on a loom." src="./media_1d8d54757b582d9ba39b6dab278e446752d893e0f.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="improving-accuracy-in-the-supply-chain">Improving accuracy in the supply chain</h2>
+  <p>Companies are also starting to explore how technology can help them tackle their sourcing issues, from choosing vendors that can meet both delivery schedules and ethical employment standards to using materials produced more safely, delivered more efficiently, and tracked more closely to prevent loss and theft. Using specialized platforms, blockchain, RFID, and other next-generation supply-chain management technology can help the industry track products and their component parts.</p>
+  <p>Digital transparency into the <a href="https://www.sap.com/products/scm/what-is-supply-chain-management.html">supply chain</a> improves inventory accuracy and availability, prevents counterfeiting, and – in a nod to consumers’ increased interest in the broader societal impact of their purchasing decisions – creates greater supply chain transparency. Some fashion companies are already giving their customers <a href="https://www.cbinsights.com/research/fashion-tech-future-trends/#inv">detailed information</a> about every step of a product’s journey, from the farm where wool for a sweater was sheared to the factory that spun it into yarn to the actual truck that delivered it to the warehouse or store.</p>
+  <h2 id="technology-makes-circularity-stylish-in-the-fashion-industry">Technology makes circularity stylish in the fashion industry</h2>
+  <p>Growth in the fashion industry generates a continuous stream of appealing new products – and, unfortunately, an equally continuous stream of greenhouse gas emissions, pollutants, and other waste. This waste is damaging to <a href="/blogs/technology-for-biology-preserving-biodiversity">biodiversity</a> as well as humans. If the industry doesn’t change its practices, it will create an <a href="https://www.thefashionlaw.com/home/can-the-fashion-industry-ever-really-be-sustainable">estimated</a> 148 million tons of waste by 2030, or 38.5 pounds (17.5 kilograms) of waste for every person on the planet. Yet this crisis could also create a runway for new opportunities to satisfy customer demand for both new looks and new ways of doing business.</p>
+  <p>Technology makes it easier for fashion to join the circular economy, which is based on reusing materials and ending waste. This can take multiple forms:</p>
+  <ul>
+    <li>To make <a href="https://rothys.com/sustainability">new materials from recaptured materials</a>, fashion manufacturers need to source, track, and verify the content of recaptured materials and design products that take advantage of the materials’ best qualities.</li>
+    <li>To make new items of <a href="https://www.everlane.com/collections/womens-recashmere">clothing</a> from recaptured parts of existing clothing, manufacturers need to identify and source used clothing, ensure that it can be recycled or upcycled, and design products that incorporate it.</li>
+    <li>To <a href="https://www.eileenfisherrenew.com/">buy back and resell</a> barely worn or unworn clothes, brands need to track both items and past customers in order to identify and recapture previously sold or never sold items for resale.</li>
+    <li>Brands can also participate in subscription or sharing models, in which consumers wear something once or a few times before sending it back for something different.</li>
+  </ul>
+  <p>In all of these cases, success requires manufacturers to identify products (what they are, what they’re made of, where they come from, how they can be reused) so they can track the components, maximize their value, and continue to reuse them with minimal waste.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_167523fd57fdb3027204e5cd7a50bb9b2dcf82015.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_167523fd57fdb3027204e5cd7a50bb9b2dcf82015.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_167523fd57fdb3027204e5cd7a50bb9b2dcf82015.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Digital data of particle wave and network connection" src="./media_167523fd57fdb3027204e5cd7a50bb9b2dcf82015.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="fashion-the-new-softwear">Fashion: The new softwear</h2>
+  <p>Farther down the runway, we may find ourselves thinking of clothing as less like hardware – something to buy once, wear until it’s worn out or obsolete, and then dispose of – and more like software, something that changes to meet our needs (and whims) and that we use for longer periods of time. Think of shoes with <a href="https://onesoleshoe.com/">interchangeable tops</a> that snap onto replaceable soles or <a href="https://shop.petitpli.com/">clothing that grows</a> with the wearer.</p>
+  <p>We’re already seeing the emergence of <a href="https://teslasuit.io/">smart clothing</a> containing sensors that provide haptic feedback and offer assistive support to improve performance and prevent injury. The new Nike Adapt BB <a href="https://www.theverge.com/2019/1/15/18167388/nike-self-lacing-shoes-adapt-bb-smart-bluetooth-app-features-battery-life-price-release-date">sneakers</a>, for example, contain sensors that pair with a companion app to adjust the shoe’s fit and advise the wearer on how to improve the way their foot hits the ground.</p>
+  <p>This personalization trend has plenty of extra room in the seams. In the future, we may be able to alter our clothing with “in-app purchases” and “upgrades” that keep an item fresh, interesting, and useful for longer while still generating revenue for the maker.</p>
+  <p>The concept of clothing itself will also stretch. Instead of selling clothes and accessories, a manufacturer might sell designs and materials for customers to create and personalize with 3D printers in the store or at home.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="fashion-forward">Fashion Forward</h3>
+        <p>Explore how the fashion industry is undergoing a green makeover.</p>
+        <p><strong><a href="https://www.sap.com/insights/research/blank-canvas.html">Watch the video</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Meanwhile, fabrics will adapt to meet new technology-powered demands. We’ll see more materials developed to last longer, <a href="https://futurism.com/kinetic-wrinkle-free-pants-ministry-of-supply">require less care</a>, recycle more easily, or <a href="https://futurism.com/seaweed-sneakers-save-environment">biodegrade faster</a>. Researchers are developing smart fabric that actually has soft, flexible circuits embedded in the fibers. Smart fabric might literally let us update our clothing digitally, with manufacturers pushing out <a href="https://www.ischool.berkeley.edu/news/2016/color-changing-smart-thread-turns-fabric-computerized-display">color changes</a> or the ability to adapt to changing weather in real time.</p>
+  <p>Or, imagine being the first fashion retailer to offer clothing made of fabric that can fend off bacteria, foil surveillance, track data about the wearer’s actions, and generate energy from the wearer’s motions. How is that anything other than a superhero suit?</p>
+  <p>If the fashion industry wants to thrive and grow, it must shift from continuous consumption to responsible consumerism while continuing to satisfy the unquenchable human desire for something new. It might be the industry’s most epic challenge.</p>
+  <p>But by using technology, fashion can transform itself – and maybe even help save the world.</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/crm-customer-experience</category>
+            <category>core-topic/sustainable-supply-chain</category>
+            <category>industry/retail</category>
+            <category>content-type/trends-predictions</category>
+            <category>stage/awareness</category>
+        </item>
+    </channel>
+</rss>

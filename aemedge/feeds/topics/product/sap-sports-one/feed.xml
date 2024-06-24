@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-sports-one/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 13 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[German National Team Relies on SAP Technology at the European Championship]]></title>
+            <link>https://www.sap.com/news/2024/06/german-national-team-dfb-sap-technology-european-championship</link>
+            <guid>https://www.sap.com/news/2024/06/german-national-team-dfb-sap-technology-european-championship</guid>
+            <pubDate>Thu, 13 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The coaches and analysts of the German Football Association (DFB) use SAP Sports One to analyze opponents and share tactics with players.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/customer-story</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-sports-one</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[Kicking Off AI with SAP Sports One]]></title>
+            <link>https://www.sap.com/news/2024/02/ai-sap-sports-one-soccer-scouting-fc-bayern</link>
+            <guid>https://www.sap.com/news/2024/02/ai-sap-sports-one-soccer-scouting-fc-bayern</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is expanding the SAP Sports One solution with with AI-powered scouting reporting. Learn more about the new features.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-sports</category>
+            <category>product/sap-sports-one</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[Sports and the Metaverse: A Revolutionary Convergence for Inclusion]]></title>
+            <link>https://www.sap.com/news/2023/04/sports-and-metaverse-revolutionary-convergence-inclusivity</link>
+            <guid>https://www.sap.com/news/2023/04/sports-and-metaverse-revolutionary-convergence-inclusivity</guid>
+            <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the metaverse taking shape, corporations can now use intelligent software to create virtual sporting worlds for inclusivity. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/esports</category>
+            <category>news-tag/metaverse</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-hana-cloud</category>
+            <category>product/sap-sports-one</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+    </channel>
+</rss>

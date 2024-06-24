@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/content-type/investment-value-scoping/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 03 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Why Agile Working Capital Management is Business Critical]]></title>
+            <link>https://www.sap.com/resources/why-working-capital-management</link>
+            <guid>https://www.sap.com/resources/why-working-capital-management</guid>
+            <pubDate>Thu, 03 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Discover why agile working capital management is critical in today’s economy – and determine if your business is ready to cope with macroeconomic changes.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>content-type/investment-value-scoping</category>
+            <category>stage/acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[Calculating ERP ROI: Legacy ERP vs. a New ERP System?]]></title>
+            <link>https://www.sap.com/resources/erp-roi-calculation-worksheet</link>
+            <guid>https://www.sap.com/resources/erp-roi-calculation-worksheet</guid>
+            <pubDate>Tue, 17 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Calculate the return on investment (ROI) for a replacement ERP system. This worksheet will help you compare the costs and benefits of a new ERP system vs your legacy ERP.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ea61e6699b4eb07eee494a69199593622f91851f.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ea61e6699b4eb07eee494a69199593622f91851f.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_1ea61e6699b4eb07eee494a69199593622f91851f.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Man calculating ERP ROI" src="./media_1ea61e6699b4eb07eee494a69199593622f91851f.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="calculating-the-roi-in-erp-legacy-erp-vs-new-erp-system">Calculating the ROI in ERP: Legacy ERP vs new ERP system?</h1>
+      </div>
+    </div>
+  </div>
+  <p>The process for calculating enterprise resource planning ROI (return on investment) seems straightforward enough: add up the costs, add up the benefits, and compare the two figures. However, there are a number of factors that need to be considered to make sure that your results are valid – and useful. It’s important to have a complete view of both costs and benefits, now and in the future, for both the existing system and the new system under evaluation. Following are expert tips based on dozens of ERP implementations.</p>
+  <h2 id="preparing-for-the-erp-roi-analysis">Preparing for the ERP ROI analysis</h2>
+  <p><strong>Use a reasonable time frame for ROI analysis.</strong> To ensure your analysis will cover the full lifecycle of both costs and benefits, consider a time frame of at least five years.<br><br>Look for cost differences between the legacy system and the replacement ERP system. To do this, you need to enumerate current costs to maintain your legacy system as well as future <a href="https://www.sap.com/products/erp/what-is-erp/erp-upgrade-replacing-legacy-system.html">ERP upgrade</a> costs. Remember that a key motivator to change systems is to add new functionality to remain competitive – so include a realistic estimate of upgrade costs for the legacy system.</p>
+  <p><strong>Be thorough.</strong> Make sure you have gathered each and every cost estimate: for acquiring the new system, getting it implemented, and operating it effectively. In many cases, new system operating costs will be less than existing system costs. Also consider the projected benefits when calculating your ERP return on investment, recognizing that those benefits will be realized over time.</p>
+  <p><strong>Think positively but realistically.</strong> If your company is product based (for example, a distributor or manufacturer), you might envision a significant inventory reduction – but do your homework to understand what result is typical. Also keep in mind that savings will not happen automatically, nor right away.</p>
+  <p><strong>Why this much detailed work?</strong> ROI is often required for financial planning purposes. It’s also important to understand total project costs and benefits to justify your ERP investment and to evaluate system performance against expectations once implemented. The ERP ROI calculator worksheet below can help you accurately identify your costs – while offering tips and advice to make the process smoother.</p>
+  <h2 id="using-this-worksheet">Using this worksheet</h2>
+  <p>This page will guide you through a series of tables to be completed. Each step will provide information to assist in filling out those tables.</p>
+  <p>As you go through the process you can create your own custom spreadsheets based on these tables. We’ve also created a <a href="https://www.sap.com/documents/2020/11/0a0cb512-bd7d-0010-87a3-c30de2ffd8ff.html">downloadable ERP ROI template</a> worksheet to help you.</p>
+  <p>There are three major steps to calculating the ROI of an ERP upgrade:</p>
+  <ul>
+    <li>Calculate the costs</li>
+    <li>Estimate the benefits</li>
+    <li>Calculate the ROI</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-erp-roi-worksheet">Get the ERP ROI worksheet</h3>
+        <p>We’ve created a downloadable ERP ROI template to help you with the calculations.</p>
+        <p><strong><a href="https://www.sap.com/documents/2020/11/0a0cb512-bd7d-0010-87a3-c30de2ffd8ff.html">Download the worksheet</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="calculate-the-erp-costs">1. Calculate the ERP costs</h2>
+  <h3 id="how-will-your-erp-system-be-deployed">How will your ERP system be deployed?</h3>
+  <p>How the <a href="/resources/cloud-erp-deployment-options">ERP system is deployed</a> significantly impacts the cost estimates. There are several options:</p>
+  <ul>
+    <li><strong>On-premise (on-prem):</strong> On-premise deployment is the traditional way legacy ERP systems have been implemented for decades. The hardware and software are purchased and installed on a company’s own servers, and the system is maintained and upgraded by the company.</li>
+    <li><strong>Cloud:</strong> In a cloud deployment, the system runs over the internet with hardware and software typically owned and supported by a third-party provider. Businesses subscribe to the service – a licensing model referred to as software-as-a-service (SaaS) ERP.</li>
+    <li><strong>Hybrid:</strong> In this model, elements of on-premise deployment and cloud can be combined to create a hybrid cloud. This gives the company the ultimate flexibility but requires significantly more IT staff involvement.</li>
+  </ul>
+  <p><strong>Which deployment options will you compare?</strong></p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1be15760ce8ff886959ef0fe8a961c15320b6eff2.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1be15760ce8ff886959ef0fe8a961c15320b6eff2.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1be15760ce8ff886959ef0fe8a961c15320b6eff2.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="ERP deployment options" src="./media_1be15760ce8ff886959ef0fe8a961c15320b6eff2.png?width=750&#x26;format=png&#x26;optimize=medium" width="1920" height="344">
+    </picture>
+  </p>
+  <p><em>Table 1: ERP Deployment Options</em></p>
+  <h3 id="calculate-the-erp-cost-of-both-systems">Calculate the ERP cost of both systems</h3>
+  <p>This section of the worksheet is designed to calculate the total cost of ownership (TCO) for both the existing ERP legacy system and the new replacement system. There are typically four areas of investment:</p>
+  <ul>
+    <li>Infrastructure</li>
+    <li>Software</li>
+    <li>Implementation</li>
+    <li>Ongoing personnel costs</li>
+  </ul>
+  <p>For the initial project justification, it will be necessary to estimate these costs (before you go out for proposals and quotes). Many or most of the items listed here may be included in a package quote but expect to pay for additional services, training, hardware, and software to complete the job.</p>
+  <p>Growth and support costs will be significantly higher if your existing system is old, not well supported by the developer, or if it is “down-level,” that is, not up to date with developer fixes and releases.</p>
+  <h4 id="erp-infrastructure-costs">ERP infrastructure costs</h4>
+  <p>In addition to the initial costs, estimate the cost of upgrades and expansion beyond the initial purchase. Since this is a time-oriented estimate – all costs will be replicated (and escalated) through the five years (at least) of the lifecycle – place these upgrade and expansion costs in future years as it is unlikely that you will need to upgrade or expand during the first year or so.</p>
+  <ul>
+    <li><strong>Initial hardware:</strong> Purchase or lease cost of the computers, servers, printers, for example. In the comparison table, this expense should have already been spent for “legacy system.”</li>
+    <li><strong>Ongoing upgrades and maintenance:</strong> Continued costs for above infrastructure. There will be no or low infrastructure maintenance costs with SaaS.</li>
+    <li><strong>System software license:</strong> Includes operating system, database, utilities, for example.</li>
+    <li><strong>System software upgrades and maintenance:</strong> Ongoing costs for above system software. Expect no or low infrastructure maintenance costs with SaaS.</li>
+    <li><strong>Networking equipment and fees:</strong> Initial budget for networking equipment and services.</li>
+    <li><strong>User devices:</strong> Cost to purchase, replace, and maintain the various PC’s, tablets, scanners, and so forth.</li>
+    <li><strong>Infrastructure facilities fees:</strong> Calculated costs for the space and utilities, for example, that the system requires.</li>
+  </ul>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_126b223ec996d758e69ad39106c9a4e871f4d8077.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_126b223ec996d758e69ad39106c9a4e871f4d8077.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_126b223ec996d758e69ad39106c9a4e871f4d8077.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="ERP infrastructure costs" src="./media_126b223ec996d758e69ad39106c9a4e871f4d8077.png?width=750&#x26;format=png&#x26;optimize=medium" width="2500" height="1369">
+    </picture>
+  </p>
+  <p><em>Table: 2: ERP Infrastructure Costs</em></p>
+  <h4 id="erp-software-costs--business-and-productivity-applications">ERP software costs – business and productivity applications</h4>
+  <p>Here, you will want to budget for the cost of upgrades and expansion beyond the initial purchase. The annual fees may rise over time as additional users or applications are added, depending on a supplier’s pricing strategy.</p>
+  <ul>
+    <li><strong>Perpetual license fee initial cost:</strong> Upfront costs especially for on-premise plus some hosted and hybrid licensing options. This has already been spent for the legacy system.</li>
+    <li><strong>Perpetual license ongoing annual fee:</strong> This covers the updates and some level of support. For an ERP system, it is typically 16-20% of list price annually. At 20% yearly the license is “repurchased” every five years.</li>
+    <li><strong>Annual subscription (SaaS):</strong> Use quoted or estimated annual subscription costs for cloud applications.</li>
+    <li><strong>Annual maintenance fees (SaaS):</strong> Additional support fees that will be needed on the software that are not included elsewhere. Most SaaS software maintenance fees are included in the subscription.</li>
+  </ul>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14c5e7c4dada7ed651f0ecdc104370eb6b699bfaf.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14c5e7c4dada7ed651f0ecdc104370eb6b699bfaf.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_14c5e7c4dada7ed651f0ecdc104370eb6b699bfaf.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="ERP software costs" src="./media_14c5e7c4dada7ed651f0ecdc104370eb6b699bfaf.png?width=750&#x26;format=png&#x26;optimize=medium" width="2500" height="940">
+    </picture>
+  </p>
+  <p><em>Table 3: Software Costs</em></p>
+  <h4 id="erp-implementation-costs">ERP implementation costs</h4>
+  <p>Next you need to estimate the costs of implementing both the initial system and the planned upgrades over the five-year period. Most software suppliers have one or two major releases during a year. Each release is in fact a mini implementation. First, the project team must review the release to determine the overall impact to the current business process. Then the release is loaded and tested. Before going live, the users should be sufficiently trained on the new software. Potential costs to consider include:</p>
+  <ul>
+    <li><strong>Staff project team:</strong> Factor in the budgeted time (including overtime) for IT staff and users.</li>
+    <li><strong>Consultancy fees:</strong> Determine the initial assistance you may need beyond what the supplier will be including.</li>
+    <li><strong>Data conversion, input, and testing:</strong> Use staff or temps for data entry, testing, or whatever other basic tasks you need covered. (This is often under budgeted, which can lead to data quality issues.)</li>
+    <li><strong>User education and training:</strong> Some initial end user training will be included by the supplier, but to get the most of your system further education is highly recommended.</li>
+  </ul>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_17cfe0feb7d34982172da3a089cad9480d544432a.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_17cfe0feb7d34982172da3a089cad9480d544432a.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_17cfe0feb7d34982172da3a089cad9480d544432a.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="ERP implementation costs" src="./media_17cfe0feb7d34982172da3a089cad9480d544432a.png?width=750&#x26;format=png&#x26;optimize=medium" width="2500" height="940">
+    </picture>
+  </p>
+  <p><em>Table 4: ERP Implementation Costs</em></p>
+  <h4 id="ongoing-erp-personnel-costs">Ongoing ERP personnel costs</h4>
+  <p>Estimate the “normal” operational costs for keeping your new ERP business system up and running. When considering on-going (recurring) costs, be as realistic as possible and include a reasonable expectation for escalation or inflation year-to-year. The major items will be a blend of internal IT staff and consultants’ time and expenses such as:</p>
+  <ul>
+    <li><strong>Infrastructure support costs:</strong> This covers time budgeted for support beyond what the supplier’s recommendation included. With SaaS, there will be either no infrastructure maintenance costs or minimal costs.</li>
+    <li><strong>Backup and disaster recovery:</strong> Include outsourced or in-house practices.</li>
+    <li><strong>Network and devices support:</strong> Estimated support required for the network, PC’s, and mobile, for example.</li>
+    <li><strong>Periodic bug fixes:</strong> This is for IT staff to apply the stream of bug fixes.</li>
+    <li><strong>Software integrations:</strong> Expect to maintain regularly as software products are updated.</li>
+    <li><strong>Software customizations:</strong> Updated or reapplied in software release cycles.</li>
+    <li><strong>User’s mobile device support:</strong> Effort required for app development and support.</li>
+  </ul>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_158489bb6fa2477d27f342b98ed064310ef909d63.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_158489bb6fa2477d27f342b98ed064310ef909d63.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_158489bb6fa2477d27f342b98ed064310ef909d63.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Chart of ongoing ERP personnel costs" src="./media_158489bb6fa2477d27f342b98ed064310ef909d63.png?width=750&#x26;format=png&#x26;optimize=medium" width="2500" height="1332">
+    </picture>
+  </p>
+  <p><em>Table 5: Ongoing ERP Personnel Costs</em></p>
+  <h3 id="determine-the-total-cost-of-your-legacy-erp-vs-new-erp-system">Determine the total cost of your legacy ERP vs new ERP system</h3>
+  <p>From the four tables above, transfer the total for each area of investment, as well as the subtotals of the new system costs, to the table below. You will now be able to see the total savings or additional costs of going to a new system. Expect a mix of negative and positive subtotals for the “5-Year Difference.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_16483806afaa199d4f2f12a8f68d0799b54d22f39.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_16483806afaa199d4f2f12a8f68d0799b54d22f39.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_16483806afaa199d4f2f12a8f68d0799b54d22f39.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Summary of ERP costs to calculate ROI" src="./media_16483806afaa199d4f2f12a8f68d0799b54d22f39.png?width=750&#x26;format=png&#x26;optimize=medium" width="2500" height="837">
+    </picture>
+  </p>
+  <p><em>Table 6: Summary of ERP Costs</em></p>
+  <h3 id="what-to-do-with-this-information">What to do with this information</h3>
+  <ul>
+    <li>If the total “5-Year Difference” is positive, it means that it is more expensive to maintain your legacy system then to replace it. That amount is a direct benefit <strong>and needs to be added</strong> to <em>Table 8: Summary of ERP Benefits</em> (below).</li>
+    <li>If the total “5-Year Difference” is negative, it means the new system will be more expensive to implement then to maintain your existing system. The additional benefits will be covered in the next section.</li>
+    <li>The total of the <em>New System’s 5-Year Costs</em> will be used below in <strong>the ROI calculation as “the investment.”</strong></li>
+  </ul>
+  <h2 id="estimate-the-erp-benefits">2. Estimate the ERP benefits</h2>
+  <p>If the five-year cost of the new system is more than the cost of maintaining the legacy system, then you will need sufficient additional benefits to justify making the change – otherwise, why make the switch?</p>
+  <p>For example, if you anticipate more revenue and higher margins as a result of the upgrade to a new ERP – or if the system will deliver more value and a higher level of customer support – these benefits might help you rationalize the upgrade to a new ERP.</p>
+  <p>Some of the new system’s benefits are by nature a bit harder to separate out and assign to the new system but well worth the effort to do so. In most cases, there will be plenty of direct benefits to more than justify the new system implementation. But documenting and estimating the indirect benefits will help in project planning, setting priorities, and measuring the results of the <a href="https://www.sap.com/products/erp/what-is-erp/erp-implementation-best-practices.html">ERP implementation</a> on the organization. Even if you cannot assign a monetary value to these benefits, go ahead and list them in the ROI worksheet and the project plan.</p>
+  <h3 id="erp-benefit-examples">ERP benefit examples</h3>
+  <p>For this worksheet, <strong>sample</strong> ERP benefits have been organized into five areas of improvement:</p>
+  <ul>
+    <li>People productivity</li>
+    <li>Decision-making</li>
+    <li>Finance and accounting</li>
+    <li><a href="#operations">Operations</a></li>
+    <li>Business technology</li>
+  </ul>
+  <p><strong>The lists below are samples of the benefits.</strong> There will be many more that you and your team will uncover when reviewing customer success stories, analyst reports, business requirements, software options, and new technology. List the possible benefits and capture initial estimates for process improvements and their financial value.</p>
+  <h4 id="people-productivity">People productivity</h4>
+  <ul>
+    <li>Support mobile devices to allow working anywhere at any time.</li>
+    <li>Improve the efficiency and accuracy in data entry due to awkward procedures and slow system response associated with older ERP systems that are not “user friendly.”</li>
+    <li>Reduce time to productivity with a role-based, modern user interface (UI) that decreases the training time required for users to get up and running.</li>
+    <li>Help establish a controlled, managed environment to reduce variability with standard processes.</li>
+  </ul>
+  <h4 id="decision-making">Decision-Making</h4>
+  <ul>
+    <li>Consolidate systems to reduce inaccuracies in data and eliminate redundant data.</li>
+    <li>Centralize and manage information (single source of truth) to make intra-enterprise communications more effective and help avoid misunderstandings and confusion.</li>
+    <li>Access Big Data with modern analytical tools to provide insights for better decision-making.</li>
+    <li>Provide user friendly tools such as alerts and dashboards to allow fast and accurate self-service queries.</li>
+  </ul>
+  <h4 id="finance-and-accounting">Finance and accounting</h4>
+  <ul>
+    <li>Streamline finance and accounting processes across the company.</li>
+    <li>Speed up monthly closes and improve accuracy of financial reporting.</li>
+    <li>Improve accounts receivable by reducing days sales outstanding (DSO).</li>
+    <li>Reduce the stress of audits because the data is organized and readily available, as well as accurate and complete.</li>
+    <li>Facilitate regulatory compliance.</li>
+  </ul>
+  <h4 id="operations">Operations</h4>
+  <ul>
+    <li>Improve company-wide business operations and modernize outdated processes.</li>
+    <li>Integrate e-commerce into customer and order management.</li>
+    <li>Decrease operational labor costs through better planning systems.</li>
+    <li>Increase customer satisfaction with a firm product or delivery date at the time of quoting.</li>
+    <li>Help procurement become proactive and controlled rather than chaotic and reliant on expediting.</li>
+    <li>Reduce inventory without increasing the occurrence of shortages, backorders, or customer disappointment through better inventory planning and control.</li>
+  </ul>
+  <h4 id="business-technology">Business technology</h4>
+  <ul>
+    <li>Replace obsolete infrastructure holding the business back.</li>
+    <li>Improve interaction between the various department’s business systems.</li>
+    <li>Consolidate standalone legacy applications and reduce the use of Excel spreadsheets and manual workarounds.</li>
+    <li>Access new technology such as artificial intelligence (AI), machine learning, and the Internet of Things (IoT).</li>
+    <li>Provide a path to scalability with modern systems that are designed to grow as a business grows.</li>
+    <li>Enforce data security with up-to-date systems and controls.</li>
+    <li>Alleviate the issue of finding support for legacy systems that are no longer supported by the vendor.</li>
+  </ul>
+  <h3 id="document-the-erp-improvements">Document the ERP improvements</h3>
+  <p>The worksheet below is a <strong>sample</strong> spreadsheet for documenting your observations and estimates for process improvements and their financial value. Remember to populate each column in your own spreadsheet.</p>
+  <ul>
+    <li>Create a worksheet for each of the five areas of improvement listed above.</li>
+    <li>Record the processes under each that will be improved.</li>
+    <li>Estimate the annual direct and indirect amounts.</li>
+    <li>Calculate the five-year total value.</li>
+    <li>Specify the benefit, even if the dollar amount cannot be determined.</li>
+  </ul>
+  <p><strong>Identify the direct and indirect benefits for each department in your organization.</strong> Following is an <em>example</em> of benefits in the finance and accounting area. You’ll need a table like this for each department in your organization.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_149b74f7a169706f4236aa4757424b7fbd5d51933.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_149b74f7a169706f4236aa4757424b7fbd5d51933.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_149b74f7a169706f4236aa4757424b7fbd5d51933.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Example ERP Benefits for Finance and Accounting" src="./media_149b74f7a169706f4236aa4757424b7fbd5d51933.png?width=750&#x26;format=png&#x26;optimize=medium" width="2500" height="760">
+    </picture>
+  </p>
+  <p><em>Table 7: Example ERP Benefits for Finance and Accounting</em></p>
+  <h3 id="summarize-all-the-erp-benefits">Summarize all the ERP benefits</h3>
+  <p>Once all the areas of improvement have been considered, add the sum of the five-year total from each department to determine the total benefit.</p>
+  <p>Also, if you found that the “Total 5-Year Difference” from <em>Table 6: Cost Summary</em> in was positive, then it clearly will be more expensive to maintain your legacy system then replace it. The amount of savings is a direct benefit amount and should be added to the table below in Line 6. If that number was negative (new system costs more than existing) place a zero (0) in Line 6.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1f12118d651d7d4ec04a0c028c388b404460e99df.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1f12118d651d7d4ec04a0c028c388b404460e99df.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1f12118d651d7d4ec04a0c028c388b404460e99df.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Summary of ERP benefits" src="./media_1f12118d651d7d4ec04a0c028c388b404460e99df.png?width=750&#x26;format=png&#x26;optimize=medium" width="2500" height="1019">
+    </picture>
+  </p>
+  <p><em>Table 8: Summary of ERP Benefits</em></p>
+  <h2 id="calculate-the-erp-roi">3. Calculate the ERP ROI</h2>
+  <p><strong>You will not need a spreadsheet for this phase.</strong></p>
+  <p>At this point, you should have all the information you need to calculate the ROI on your ERP investment using this formula:</p>
+  <p><strong>ROI = (Benefits – Investment)/Investment</strong></p>
+  <p>Here’s where you find the information:</p>
+  <ul>
+    <li>The “Investment” is the “Total New System’s 5-Year Costs,” which is the total from <em>Table 6: Summary of ERP Costs</em></li>
+    <li>The “Benefits” is the “Total Project ERP Benefits” from <em>Table 8: Summary of ERP Benefits</em></li>
+  </ul>
+  <p>In most cases the benefit will be larger than the investment and you will end up with a ratio greater than 1.</p>
+  <p>For example, if the five-year benefit is US$2,000,000 and the five-year investment is $575,000, the ratio would be ($2,000,000 – $575,000) / $ 575,000 = 2.479 and that is rounded to 2.5.</p>
+  <p>Multiply that ratio by 100 to get the ROI percentage that results from upgrading your ERP system. In our example, the 2.5 ratio represents a 250% ROI.</p>
+  <h2 id="the-next-step">The next step</h2>
+  <p>If the benefits and ROI are sound, the next step is to expand the effort to match your company’s planning and budgeting process. Since software affects both operating and capital budgets, you may need to involve more stakeholders.</p>
+  <ul>
+    <li>Communicate with the sponsoring executives and team members who created the estimates.</li>
+    <li>Provide supporting sales, costs, and other documentation.</li>
+    <li>Create specific sales and cost forecasts by year.</li>
+    <li>Prepare financial analysis data for total cost of ownership (TCO), payback period, and other calculations.</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="upgrade-your-legacy-erp-today">Upgrade your legacy ERP today</h3>
+        <p>Get an ERP with a lightning-fast database, built-in AI, and a consumer-grade UX.</p>
+        <p><strong><a href="https://www.sap.com/products/erp.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/erp</category>
+            <category>content-type/investment-value-scoping</category>
+            <category>content-type/business-case</category>
+            <category>stage/acquisition</category>
+        </item>
+    </channel>
+</rss>

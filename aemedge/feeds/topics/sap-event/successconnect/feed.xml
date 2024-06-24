@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/sap-event/successconnect/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 01 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Coles Reimagines Volume Hiring with AI and Automation]]></title>
+            <link>https://www.sap.com/news/2023/12/coles-reimagines-volume-hiring-with-ai-and-automation</link>
+            <guid>https://www.sap.com/news/2023/12/coles-reimagines-volume-hiring-with-ai-and-automation</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Coles uses an AI-powered solution integrated with SAP SuccessFactors to help revolutionize its hiring process and gain speed and efficiency.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Coles Reimagines Volume Hiring with AI and Automation" src="./media_149ed3b06f07dcdc3485b441db14e19620bea42c6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="coles-reimagines-volume-hiring-with-ai-and-automation">Coles Reimagines Volume Hiring with AI and Automation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.colesgroup.com.au/home/">Coles Group</a>, one of Australia’s most trusted and iconic brands, is steadfast in delivering on its purpose to help Australians eat and live better every day. Through its core business as a full-service supermarket retailer, Coles engages with millions of customers every week in its 860 supermarkets throughout Australia. The group’s other areas of business include its Click &#x26; Collect online platform, network of liquor stores, and financial services with nearly 1,000 additional retail outlets.</div>
+    </div>
+  </div>
+  <p>Guided by the organization’s clear <a href="https://colescareers.com.au/au/en/culture">vision, purpose, and strategy</a>, Coles’ team of 120,000 employees is dedicated to making a difference in the lives of customers and the local communities it serves.</p>
+  <p>In fiscal year 2020/21, Coles Group hired nearly 30,000 people to deliver on its business needs. Mike Virgo, head of Talent Acquisition for Coles Group, said this hiring volume was necessary to make sure the company was “positioned well to support our customers.”</p>
+  <p>The business environment, however, dramatically shifted as the public health crisis of the pandemic unfolded, resulting in repeated lockdowns and restrictions. As a neighborhood retailer dependent on in-person interaction to deliver most of its services, Coles found its workforce impacted by the pandemic. Faced with supply chain disruptions, panic buying behaviors by consumers, high employee absenteeism, and increased turnover, Coles urgently needed to step up its volume and pace of hiring to support its customers.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="create-ai-powered-experiences-that-drive-real-competitive-advantage-with-sap-successfactors">Create AI-powered experiences that drive real competitive advantage with SAP SuccessFactors</h3>
+        <p><em><a href="https://www.sap.com/products/hcm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Around 2020-2021, we started to experience one of the most significant shifts in the employment market we’d ever seen,” Virgo said in a <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1693098679863001ykJ6">session</a> at <a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews">SuccessConnect Virtual</a>. “It started to create huge challenges for organizations around the world – around how we attract, retain, and hire talent.”</p>
+  <h2 id="catalyst-for-change-and-a-new-way-of-working">Catalyst for Change and a New Way of Working</h2>
+  <p>To meet pressing business demands, Coles doubled its hiring volume from 30,000 to 60,000 people and increased recruitment advertising spend by a factor of three. Its talent acquisition team grew proportionally to manage the increased workload – but then labored under manual transactional activities that slowed processing times. As a result of the huge strain, variability in the candidate and hiring manager experience became noticeable.</p>
+  <p>Due to the volume of work, Coles looked for ways to evolve its system to create more speed, efficiency, and scalability. With a list of criteria, Coles began to review technology solutions on the market to find one that could support its vision for a new way of working. “We wanted to reimagine how we recruit for our stores,” Virgo said. “We needed automation and AI to remove a lot of the manual work in our systems. We wanted to create more consistency and uplift the experiences we were giving our candidates and our hiring managers. And ultimately, [the solution] needed to drive commercial benefit for us.”</p>
+  <p>As a key requirement, the new solution needed to integrate with <a href="https://www.sap.com/products/hcm/what-is-hxm-suite.html">SAP SuccessFactors Human Experience Management (HXM) Suite</a>. In 2020, as part of an organization-wide <a href="/australia/2021/09/08/how-coles-group-is-transforming-hr-during-the-global-pandemic">digital transformation</a> that introduced SAP S/4HANA and SAP Ariba solutions, Coles modernized its HR and payroll processing, replacing a patchwork of outdated systems with SAP SuccessFactors solutions. It became the first organization in the southern hemisphere to launch all modules of the SAP SuccessFactors portfolio in one go. With all HR processes unified on a single platform, Coles benefits from having a single source of truth for people data that is accurate and available in real time for the entire organization.</p>
+  <h2 id="two-way-integration-ensures-single-source-of-truth-in-data">Two-Way Integration Ensures Single Source of Truth in Data</h2>
+  <p>To help with the project, Coles chose <a href="https://www.phenom.com/">Phenom</a>, an SAP partner whose AI-powered Intelligent Talent Experience platform provides two-way integration with SAP SuccessFactors solutions. Virgo said the two-way integration “allows us to have a holistic view of the candidates that progress through the process, no matter whether the team is operating in Phenom or SAP SuccessFactors, and it allows SAP SuccessFactors to be our single source of truth.”</p>
+  <p>There are several key benefits of Phenom’s solution at Coles. One is candidate attraction and engagement, which is achieved primarily through the Coles career site and chatbot. Another is recruiter automation and interview management, which provides automation and process efficiencies from when a job requisition is created in SAP SuccessFactors solutions and replicated into Phenom until a hiring manager chooses a candidate for the job. Once a candidate is chosen, the two-way integration enables the HR team to access the data in SAP SuccessFactors solutions and complete all compliance aspects, such as working rights, contract generation, and onboarding.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="learn-how-phenom-can-compliment-sap-successfactors-recruiting">Learn how Phenom can compliment SAP SuccessFactors Recruiting</h3>
+        <p><em><a href="https://store.sap.com/dcp/en/product/display-2001007992_live_v1">Find out</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>The Coles team gains additional efficiencies in its onboarding programs through the application of robotic process automation (RPA) powered by two bots that work in the background: <em>Ashbotty</em> processes the working rights and <em>Usain Bot</em> processes onboarding and manages pending recruits. “They take a lot of the transactional, manual work that we used to have team members doing. It can do that quickly, accurately, and it can do that 24/7 – which is particularly important for us as a seven-days-a-week business,” Virgo said.</p>
+  <h2 id="ai-powered-experiences-for-candidates-and-recruiters">AI-Powered Experiences for Candidates and Recruiters</h2>
+  <p>Coles reimagined the candidate experience to launch a modern, tech-enabled career site – which has been chosen as a two-time winner of Australia’s Best Careers Site. The site includes an AI-powered chatbot to guide candidates as they look for information, search relevant job postings, and submit their applications. It also includes Coles’ Expression of Interest, always-on advertising that drives the growth of its talent pool and advances its talent marketing by reducing the need to advertise every role. A Hosted Apply process, facilitated by integrations with Phenom, presents a consistent candidate experience and increases the conversion rate on applications.</p>
+  <p>Phenom AI Scheduling, a key part of Coles’ hiring experience, enables candidates to book themselves an available interview slot and automates the coordination of hiring team calendars. The new solution provides a fully mobile-enabled experience to meet the demands of candidates for an omni-channel, real-time experience where they can learn, read, and apply for jobs where and when they want.</p>
+  <p>Inundated by nearly 1 million applications each year to review, Coles also took steps to elevate the recruiter experience and increase the speed and accuracy of candidate screening and job matching. It implemented Phenom Fit Score, an AI-powered feature that assesses a candidate’s suitability for an open role, based on location and optimal travel distances, availability, and working rights; then, assigns a fit score and surfaces the most closely matched candidates to the recruiters. In addition, the new solution empowers in-store managers to collaborate with recruiters to review candidates and make quick hiring decisions with confidence.</p>
+  <h2 id="talent-pools-grow-with-improvements-to-hiring-speed-and-efficiency">Talent Pools Grow with Improvements to Hiring Speed and Efficiency</h2>
+  <p>With the new augmented solution, Coles is experiencing tangible benefits across multiple categories and key metrics for success: time-to-fill is down six days; time-to-hire is down two days, which is impressive considering candidates can book the in-store interview up to two weeks in advance; and advertising spend is down 50%.</p>
+  <p>Most notably for Coles as a people-centric organization is the development of its talent pool, now numbering 2 million potential candidates. It achieves an 85% application conversion rate on up to 1 million applications per year. Through its <a href="https://www.colesgroup.com.au/media-releases/?page=coles-group-ranked-1-for-recruitment-of-aussies-with-disabilities">commitment</a> to be a safe, inclusive, and diverse workplace, Coles has applied the new solution to provide greater accessibility for more diverse candidates, resulting in an increase of 24% more hiring for people who identify as having a disability.</p>
+  <p>Virgo said that the talent acquisition team will continue to evolve its solution and assess more opportunities for AI and automation to bring value to the recruitment process. Although these technologies are not cure-alls for every recruitment scenario, they can save recruiting teams precious time and resources to focus on more high-touch interactions further down the recruiting funnel. In sharing lessons learned, Virgo noted, “I think the important call out is the level of automation you can inject in your process will likely diminish as the seniority, complexity, and requirements of your roles increase because they are likely to be more high touch, perhaps need more interpretation or judgment calls from your recruiters to identify who the right talent is for your organization.”</p>
+  <p>Watch <a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews">SuccessConnect Virtual</a> on demand.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="follow-sap-news-on-linkedin-to-stay-up-to-date">Follow SAP News on LinkedIn to stay up-to-date</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/automation</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/recruiting</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>sap-event/successconnect</category>
+            <category>news-tag/talent-acquisition</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Customers Realize the Power of Connected Cloud HR and ERP]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-customers-realize-power-of-connected-cloud-hr-erp</link>
+            <guid>https://www.sap.com/news/2023/10/sap-customers-realize-power-of-connected-cloud-hr-erp</guid>
+            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP customers connect SAP SuccessFactors solutions for HR with SAP S/4HANA Cloud to improve end-to-end business processes and experiences.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12c8a896617a0e516f610561e9bf9c127d0a779ff.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12c8a896617a0e516f610561e9bf9c127d0a779ff.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12c8a896617a0e516f610561e9bf9c127d0a779ff.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Customers Realize the Power of Connected Cloud HR and ERP" src="./media_12c8a896617a0e516f610561e9bf9c127d0a779ff.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-customers-realize-the-power-of-connected-cloud-hr-and-erp">SAP Customers Realize the Power of Connected Cloud HR and ERP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP customers are unlocking strategic value across the organization by using a single cloud platform to connect HR, run on <a href="https://www.sap.com/products/hcm.html?campaigncode=CRM-YI23-HXM-2053446&#x26;source=text-glo-SAPNews">SAP SuccessFactors</a> solutions, with finance and other business operations that use <a href="https://www.sap.com/products/erp/s4hana.html?campaigncode=crm-ya22-int-1517075&#x26;source=ppc-de-google_ads-search-71700000111912410-58700008464076060-s4hana_s4fin-x-&#x26;dfa=1&#x26;gclid=EAIaIQobChMImKnKw_7tgQMV94ZoCR1j7QLcEAAYASAAEgJPEfD_BwE&#x26;gclsrc=aw.ds?campaigncode=CRM-YI23-HXM-2053446&#x26;source=text-glo-SAPNews">SAP S/4HANA Cloud</a>. In various industries, large and midsized organizations alike are discovering the power of having a common people and skills data model that is used across the entire organization. The combined effectiveness of SAP SuccessFactors solutions and SAP S/4HANA Cloud is moving leading brands to new levels of strategic insight and organizational agility.</div>
+    </div>
+  </div>
+  <p>With this integrated approach, real-time people data from the SAP SuccessFactors Employee Central solution is automatically consumed by SAP S/4HANA Cloud and other SAP cloud applications. This “single source of truth” helps to improve end-to-end business processes, experiences, and insights for the organization. Learn more in this SAP Community <a href="https://blogs.sap.com/2023/08/07/sap-successfactors-and-sap-s-4hana-cloud-public-edition-supercharge-your-hr-and-erp-investments-now-on-demand/?campaigncode=CRM-YI23-HXM-2053446&#x26;source=text-glo-SAPNews">blog</a>.</p>
+  <p>Maryann Abbajay, chief revenue officer at SAP SuccessFactors, spoke with some of these customers at <a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews?campaigncode=CRM-YI23-HXM-2053446&#x26;source=text-glo-SAPNews">SuccessConnect</a> to find out how they are leveraging the combined power of SAP SuccessFactors solutions and SAP S/4HANA Cloud to overcome business challenges and grow their organizations with people at the center of business. “These organizations show how HR and finance come together to enable business transformation while keeping employee experience at the center,” she underscored.</p>
+  <h2 id="pandora-becomes-a-future-ready-organization">Pandora Becomes a Future-Ready Organization</h2>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="catch-up-on-this-years-event-with-successconnect-virtual-on-demand">Catch up on this year’s event with SuccessConnect Virtual on-demand</h3>
+        <p><em><a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews?campaigncode=CRM-YI23-HXM-2053446&#x26;source=ctabutton-glo-SAPNews">Watch now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Connecting people in the moments that matter is at the heart of <a href="https://us.pandora.net/">Pandora</a>, the world’s largest jewelry brand. Based in Copenhagen, Denmark, Pandora employs 32,000 people worldwide. With 6,500 points of sale, including 2,500 concept stores, Pandora depends on the experience of its brick-and-mortar stores, which account for the majority of its sales.</p>
+  <p>Three years ago, Pandora began its transformation from an analog retailer to a future-ready organization. It set out to strengthen and harmonize the global HR system landscape with an implementation of SAP SuccessFactors solutions to gain efficiency in how the company hires, manages, and develops employees worldwide, thus replacing a multitude of local applications.</p>
+  <p>“We used the SAP SuccessFactors portfolio as a driver of transformation,” said Mihael Šutalo, vice president of People Technology, Pandora. “This is transforming the experience. The future integration of SAP S/4HANA Cloud with SAP SuccessFactors solutions will give us a tremendous opportunity to manage our workforce and manage our revenue model in a completely different way.”</p>
+  <h2 id="bt-group-connects-people-for-good">BT Group Connects People for Good</h2>
+  <p><a href="https://www.bt.com/about">BT Group</a>, the world’s oldest telecommunications company, recently modernized its HR information systems to provide a digital colleague experience for its 100,000 employees working in 44 countries. “In 2021, we started what we call our I-Connect program,” said Elaine Bergin, director of Colleague Experience and Delivery, BT Group. The program name highlights BT Group’s purpose: “We connect for good.”</p>
+  <p>The new colleague experience, launched in 2022, now uses the SAP SuccessFactors Employee Central solution, reporting and analytics, and the full suite of talent and learning management solutions to support the organization’s big focus on skills. BT Group also uses SAP SuccessFactors and SAP Fieldglass solutions to manage a contingent workforce of 60,000 additional employees.</p>
+  <p>Bergin said, “Through our SAP SuccessFactors journey, we’re in a great place with a single master source of truth on our colleague and contingent workforce data – and our organizational hierarchy.”</p>
+  <h2 id="brightspeed-manages-rapid-growth-and-contingent-workforce">Brightspeed Manages Rapid Growth and Contingent Workforce</h2>
+  <p><a href="https://www.brightspeedplans.com/about">Brightspeed</a> is a telecommunications company that provides affordable, quality internet in rural areas of the U.S. Since it started in 2022 with 30 permanent employees, Brightspeed has grown exponentially through acquisition. Today, it has 4,200 employees using SAP solutions and a sizable contingent workforce. To manage growth, Brightspeed implemented SAP SuccessFactors solutions, SAP Fieldglass solutions, and SAP S/4HANA Cloud.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="predict-manage-and-create-a-future-ready-workforce-with-sap-successfactors">Predict, manage, and create a future-ready workforce with SAP SuccessFactors</h3>
+        <p><em><a href="https://www.sap.com/products/hcm.html?campaigncode=CRM-YI23-HXM-2053446&#x26;source=text-glo-SAPNews">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Greg Williams, director of Human Resources Information Systems, Brightspeed, summarized the value of an integrated approach for the organization: “Finance is up and running on SAP S/4HANA and with SAP Fieldglass solutions. We import that data into SAP SuccessFactors Learning, so our contractors can train on compliance and technical training. The SAP S/4HANA data is integrated into <a href="https://api.sap.com/package/SuccessFactorsEmployeeCentralwithThirdPartyTimeVendorWorkForceSoftwareWFS/overview">WFS</a>, which is our time system. We capture millions of dollars of project costs. Those are sent back to SAP S/4HANA on a pay-for-period basis.”</p>
+  <h2 id="versuni-gains-agility-with-hxm-and-connected-cloud-erp">Versuni Gains Agility with HXM and Connected Cloud ERP</h2>
+  <p><a href="https://www.versuni.com/">Versuni</a>, formerly known as Philipps Domestic Appliances, is a consumer products company with the purpose to help people turn their houses into homes. It took the unique opportunity of reinventing itself as an independent company to transform its entire technology landscape. To succeed in a dynamic, consumer marketplace, it had to adopt best-of-suite applications that power advanced, digital-first consumer goods organizations.</p>
+  <p>By connecting SAP S/4HANA Cloud to SAP SuccessFactors solutions, Versuni has achieved three key benefits: a seamless user journey based on a single source of truth across the entire landscape; increased visibility achieved from the integration with other systems, especially finance; and improved reporting, which is leading to better decision-making. Lokesh Rastogi, IT platform leader for Finance and HR at Versuni, summarized: “It’s one source of truth, one system, and one number.”</p>
+  <h2 id="nestlé-creates-engaging-people-experiences-at-scale">Nestlé Creates Engaging People Experiences at Scale</h2>
+  <p><a href="https://www.nestle.com/">Nestlé</a>, one of the world’s largest food and beverage companies, is using RISE with SAP to help advance its digital transformation. With 275,000 employees in 188 countries, Nestlé focused on the modernization of its HR systems. SAP SuccessFactors solutions now enable it to standardize and automate HR processes and provide a personalized employee experience from recruitment to retirement. Nestlé plans to continue its journey to migrate its entire business operations to <a href="https://www.sap.com/products/erp/s4hana-private-edition.html">SAP S/4HANA Cloud</a> with finance and procurement already live. To learn more, watch this <a href="https://www.sap.com/assetdetail/2023/09/5c433416-8d7e-0010-bca6-c68f7e60039b.html?campaigncode=CRM-YI23-HXM-2053446&#x26;source=text-glo-SAPNews">video</a>.</p>
+  <p>Giancarlo Pala, head of IT/HR, Nestlé S.A., said, “SAP SuccessFactors is our people backbone. It provides the common processes, systems, and data that let us create engaging people experiences at scale.”</p>
+  <h2 id="accelerating-business-performance">Accelerating Business Performance</h2>
+  <p>SAP customers are experiencing firsthand the value of having HR and finance connected on a single cloud platform to help improve speed, accuracy, and insights. This integration can extend beyond the data to connect business processes and employee experiences across all business areas. To find out more about the benefits of connected cloud HR and ERP, watch <a href="https://www.sap.com/events/successconnect/virtual.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews?campaigncode=CRM-YI23-HXM-2053446&#x26;source=ctabutton-glo-SAPNews">SuccessConnect Virtual</a> on demand.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="follow-sap-news-on-linkedin">Follow SAP News on LinkedIn</h3>
+        <p><em><a href="">Connect with us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Highlights from SuccessConnect 2023]]></title>
+            <link>https://www.sap.com/news/2023/10/three-highlights-from-successconnect-2023</link>
+            <guid>https://www.sap.com/news/2023/10/three-highlights-from-successconnect-2023</guid>
+            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SuccessConnect 2023 celebrated the HR community, discussed what AI means for the future of work, and shared ideas. Here are the highlights.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19ceecf9802c64707f3aee1c60f9ef5908b6cd90d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19ceecf9802c64707f3aee1c60f9ef5908b6cd90d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19ceecf9802c64707f3aee1c60f9ef5908b6cd90d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Three Highlights from SuccessConnect 2023" src="./media_19ceecf9802c64707f3aee1c60f9ef5908b6cd90d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="three-highlights-from-successconnect-2023">Three Highlights from SuccessConnect 2023</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Thousands of attendees came to Las Vegas, Nevada, to celebrate the HR community, discuss what artificial intelligence (AI) means for the future of work, and share new ideas for how to ignite the potential within every workforce and business.</div>
+    </div>
+  </div>
+  <p>Indeed, from the mainstage keynote and breakout sessions to networking with customers and partners, AI was at the center of every conversation. If you weren’t able to attend this year’s event, you can catch the latest product announcements and select content now available <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog?tab.sessionplanned=1692641568884001cZ9d">on demand</a>.</p>
+  <p>Here are three takeaways from this year’s SuccessConnect.</p>
+  <h2 id="the-time-is-now-to-adopt-ai">The Time Is Now to Adopt AI</h2>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="igniting-workforce-potential-with-the-new-sap-successfactors-ai-innovations">Igniting Workforce Potential with the New SAP SuccessFactors AI Innovations</h3>
+        <p><em><a href="/2023/10/new-sap-successfactors-ai-innovations-successconnect">Read keynote coverage</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>As the pace of technological innovation continues to accelerate, organizations face an incredible opportunity to explore new ways to get work done – ways that take engagement and productivity to new heights for everyone at work. Special guest <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1695684941523001eAp3">Josh Bersin</a>, global industry analyst and CEO of The Josh Bersin Company, discussed the urgent need for companies to get on board with AI, emphasizing how AI can help keep companies ahead of the curve by transforming the employee experience. Bersin also shared ways to increase everyone’s knowledge and confidence when it comes to adopting AI, as well as the real economic benefits organizations can achieve based on early case studies.</p>
+  <p>In addition, Julia White, member of the Executive Board of SAP SE and chief marketing and solutions officer, shared what AI means for businesses today and <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1695684941478001eFQ4">how SAP is embedding AI into its cloud HR solutions</a>. She talked about the latest addition to SAP Business AI, <a href="/2023/09/joule-new-generative-ai-assistant">Joule</a> – a natural-language, generative AI copilot designed to help improve the experiences of everyone at work by making it easy for users to find information, get answers to questions, navigate processes, and complete tasks related to HR as well as finance, supply chain, and customer relationship management. She emphasized how Joule, with its AI-powered insight and assistance, can help organizations unlock new levels of performance, productivity, and efficiency.</p>
+  <h2 id="talent-intelligence-is-key-to-closing-skills-gaps">Talent Intelligence Is Key to Closing Skills Gaps</h2>
+  <p>The power of talent intelligence has far-reaching implications for how organizations can more accurately and efficiently evaluate talent across all levels and address skills gaps. During the event, there was a lot of buzz around the general availability of the <a href="/2023/10/skills-based-organization-talent-intelligence-hub">talent intelligence hub</a>, an AI-powered skills framework that’s built into the foundation of <a href="https://www.sap.com/products/hcm/solutions.html?campaigncode=CRM-YI23-HXM-2055448&#x26;source=text-glo-SAPNews">SAP SuccessFactors Human Experience Management (HXM) Suite</a>. Now organizations can have the power and simplicity of a single skills model to fuel everything from recruiting and onboarding to learning and development, as well as performance and succession.</p>
+  <p>Sam Passman, vice president, Product Management at SAP SuccessFactors, provided a comprehensive overview of the <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1695684941379001elme">talent intelligence hub</a>, including how organizations can better understand and leverage the skills of their workforce. “An organization that is not focused on skills is going to be left behind,” he said. “Customers often struggle with having visibility into their full skills picture and having employee profile data integrated throughout talent management processes. The talent intelligence hub is how we are making sure our customers can match the right people, doing the right work, at the right time – truly helping them become skills-based organizations.”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="put-your-people-at-the-center-of-everything-with-sap-successfactors">Put your people at the center of everything with SAP SuccessFactors</h3>
+        <p><em><a href="https://www.sap.com/products/hcm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In addition, Tim Gregory, managing director of HR Innovation and Workforce Technology at <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1695684941731001exmK">Delta Air Lines</a>, shared how the company is using SAP SuccessFactors solutions, including the talent intelligence hub, to create personalized career development plans for employees based not only on the skills most important to Delta but also each individual’s capabilities, strengths, and aspirations.</p>
+  <p>Other sessions provided tips for becoming a skills-based organization and focused on <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1693098679964001yjIr">how to get ready for the talent intelligence hub</a> and use it to help guide actions across all areas of talent management and development. And, of course, a live demonstration brought the talent intelligence hub to life as part of the <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1692366446499001bBgm">SuccessConnect keynote</a>.</p>
+  <h2 id="a-powerful-cloud-foundation-drives-true-hr-transformation">A Powerful Cloud Foundation Drives True HR Transformation</h2>
+  <p>Having a cloud-based HR foundation is key for achieving true HR transformation – the kind of transformation that makes data-driven insights, smarter decision-making, automation, and a positive employee experience a reality. At the event, Mihael Sutalo, vice president, People Technology at <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1695672921270001Czuo">Pandora</a>, the world’s leading jewelry brand, shared how the company is digitalizing HR and adopting new technologies to create amazing employee experiences as a unified, global company. “We wanted to scale to future-proof the company, and we believe strongly in the power of the cloud,” he said. He explained how Pandora has successfully moved from a fragmented HR landscape to SAP SuccessFactors HXM Suite, improving the company’s ability to attract and retain top talent.</p>
+  <p>Avery Williams, manager of HR Operations Strategy at <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1693098680331001ybtw">Starbucks Corporation</a>, also discussed how the company modernized its core HR technology, service delivery, and employee and partner experience by migrating 250,000 employees and partners from the legacy, on-premise SAP ERP Human Capital Management solution to a new cloud-based platform with <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1695684941222001ejfa">SAP SuccessFactors Employee Central</a>.</p>
+  <p>In addition, Todd Asevedo, GVP, chief expert, SAP, shared a host of best practices for how customers can minimize risk and disruption as they <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog/session/1693098680290001ycKR">make the move</a> from SAP ERP HCM to the cloud. He also outlined the various deployment options to help organizations understand the transition paths available for a smooth migration.</p>
+  <p>Couldn’t attend the in-person event? You can get the best of SuccessConnect wherever you are! Be sure to access the <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog?tab.sessionplanned=1692641568884001cZ9d&#x26;search.sessiontype=sessionType_keynote">keynotes</a>, <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog?tab.sessionplanned=1692641568884001cZ9d&#x26;search.sessiontype=1693097660680001RkSd&#x26;search.sessiontype=1695686379399001hUNT">customer success stories</a>, and <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog?tab.sessionplanned=1692641568884001cZ9d&#x26;search.sessiontype=1679388717208002sub4">expert sessions</a>, including road maps, product demos, and more, all available <a href="https://go3.events.sap.com/successconnect/virtual/2023/reg/flow/sap/sc23/catalog/page/catalog?tab.sessionplanned=1692641568884001cZ9d">on demand</a>. Plus, don’t forget to sign up to stay informed about the <a href="https://www.sap.com/cmp/nl/successconnect/index.html">SuccessConnect event in 2024</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Lara Albert is global vice president of Solution Marketing for SAP SuccessFactors.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-right-to-your-inbox">Get the latest SAP news delivered right to your inbox</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Igniting Workforce Potential with the New SAP SuccessFactors AI Innovations]]></title>
+            <link>https://www.sap.com/news/2023/10/new-sap-successfactors-ai-innovations-successconnect</link>
+            <guid>https://www.sap.com/news/2023/10/new-sap-successfactors-ai-innovations-successconnect</guid>
+            <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SuccessConnect, SAP announced new innovations around AI and talent intelligence to help organizations address their skills gaps.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Power a Skills-Based Organization with the Talent Intelligence Hub]]></title>
+            <link>https://www.sap.com/news/2023/10/skills-based-organization-talent-intelligence-hub</link>
+            <guid>https://www.sap.com/news/2023/10/skills-based-organization-talent-intelligence-hub</guid>
+            <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The talent intelligence hub, an AI-powered skills framework built into SAP SuccessFactors HXM Suite, is now generally available. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Announces 2023 SAP SuccessFactors Partner Excellence Awards]]></title>
+            <link>https://www.sap.com/news/2023/10/2023-sap-successfactors-partner-excellence-awards</link>
+            <guid>https://www.sap.com/news/2023/10/2023-sap-successfactors-partner-excellence-awards</guid>
+            <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Six 2023 SAP SuccessFactors Partner Excellence Awards were presented at SuccessConnect in Las Vegas. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/newsbyte</category>
+            <category>sap-award/sap-global-lob-partner-excellence-awards</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers New AI Capabilities Across SAP SuccessFactors Solutions to Ignite the Potential Within Every Organization]]></title>
+            <link>https://www.sap.com/news/2023/10/new-ai-sap-successfactors-capabilities-ignite-potential</link>
+            <guid>https://www.sap.com/news/2023/10/new-ai-sap-successfactors-capabilities-ignite-potential</guid>
+            <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[AI now spans the entire SAP SuccessFactors Human Experience Management Suite to guide every people decision. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Things to Look Forward to at SuccessConnect 2023]]></title>
+            <link>https://www.sap.com/news/2023/08/five-things-at-successconnect-2023</link>
+            <guid>https://www.sap.com/news/2023/08/five-things-at-successconnect-2023</guid>
+            <pubDate>Wed, 30 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SuccessConnect 2023, we are bringing together our HR community, along with inspiration, ideas, and solutions. Here's what to expect.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Vodafone Builds Its Future-Ready Workforce on Cloud HR Foundations]]></title>
+            <link>https://www.sap.com/news/2023/03/vodafone-builds-cloud-hr-foundations</link>
+            <guid>https://www.sap.com/news/2023/03/vodafone-builds-cloud-hr-foundations</guid>
+            <pubDate>Tue, 14 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Vodafone Group Plc implements SAP SuccessFactors solutions as its cloud HR foundation for improved efficiency and employee engagement.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/learning</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>sap-event/successconnect</category>
+            <category>news-tag/total-workforce-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Connect with SAP Events in 2023]]></title>
+            <link>https://www.sap.com/news/2022/12/connect-with-sap-events-in-2023</link>
+            <guid>https://www.sap.com/news/2022/12/connect-with-sap-events-in-2023</guid>
+            <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[We know how important it is to make time to connect, so we are excited to confirm and announce some flagship SAP events in 2023. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Building a Future-Ready Workforce]]></title>
+            <link>https://www.sap.com/news/2022/11/future-ready-workforce-successconnect</link>
+            <guid>https://www.sap.com/news/2022/11/future-ready-workforce-successconnect</guid>
+            <pubDate>Thu, 10 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With skills and learning key for a future-ready workforce, organizations are implementing strategies to support employees]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19715d40664169167d986f37da80ce023742c4795.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19715d40664169167d986f37da80ce023742c4795.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19715d40664169167d986f37da80ce023742c4795.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Building a Future-Ready Workforce" src="./media_19715d40664169167d986f37da80ce023742c4795.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="building-a-future-ready-workforce">Building a Future-Ready Workforce</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Organizations are under constant pressure to keep up with the pace of change and ongoing challenges in the macro-economic environment. The only way they can adapt to industry-wide disruption and evolving work models, according to new <a href="http://www.sap.com/peoplesustainability">IDC research</a>, is to rely on their most important asset: their people.</div>
+    </div>
+  </div>
+  <p>As many organizations are discovering, however, traditional approaches to human resources (HR) management aren’t working in today’s business world. Faced with inflation, supply chain disruption, labor crises, skills gaps, and a silent mental health epidemic, employers are looking for a new style of HR.</p>
+  <p>Savvy organizations are moving swiftly to implement long-term strategies that support an agile, skilled, and healthy workforce. Offering employees new opportunities for skills development and learning is one of the ways they are building organizational agility. They are making people sustainability their leading priority for the future of work.</p>
+  <p>“We’ve been staring down the learning problem for a long time,” said Meg Bear, president and chief product officer for SAP SuccessFactors, at <a href="https://www.sap.com/about/events/successconnect.html">SuccessConnect 2022</a>. “I’m so excited to get past number of hours of training as the metric we look at and start talking about outcomes. How are people growing? What is it meaning to the business? How is it helping them to thrive in their careers?”</p>
+  <h2 id="dynamic-time-for-hr">Dynamic Time for HR</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-successconnect">Read more news and coverage from SuccessConnect</h3>
+      </div>
+      <div><strong><a href="/topics/successconnect">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>During the keynote session at SuccessConnect 2022, Bear and global industry analyst <a href="https://joshbersin.com/">Josh Bersin</a> discussed why now is the right time for organizations to build a future-ready workforce through skills and learning – and why the talent supply pipeline is now the top priority for chief executives.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_16d0c350a3b5728aae05aefaaa527e779f92c6d46.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_16d0c350a3b5728aae05aefaaa527e779f92c6d46.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_16d0c350a3b5728aae05aefaaa527e779f92c6d46.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="SuccessConnect panel on the future-ready workforce" src="./media_16d0c350a3b5728aae05aefaaa527e779f92c6d46.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2500" height="1266">
+    </picture>
+  </p>
+  <p>SAP SuccessConnect 2022, Las Vegas, USA</p>
+  <p>Bersin has talked to thousands of organizations to understand their workforce challenges during this time of industry transformation. “What we basically found is that every company is turning into a different company,” he said. “Industries are converging. Retailers are getting into health care. Communication companies are getting into media. Car companies are getting into electric vehicles and batteries. It goes on industry after industry. As a result of that there is this huge demand for talent.”</p>
+  <p>Bersin said this is a dynamic time in HR, citing a massive need for reskilling and deployment of people. Despite the pre-pandemic belief that automation would eliminate jobs, today there are not enough people available to fill open roles as companies grow and adapt to macro-economic conditions.</p>
+  <p>Chief human resource officers (CHROs) are taking their seat at the table to weigh in on some of the biggest opportunities for organizations. “We’re sitting on the most important issues in the entire economy,” said Bersin, who has deep experience advising organizations on corporate learning, HR, and talent management. “Most CEOs have their CHRO’s sitting right next to them for all these issues. I think it is a big upskill and demand for us in HR. It’s a very, very exciting time to be in HR.”</p>
+  <p>Bersin recalled the “4 Rs” for adding talent: recruiting, reskilling, retention, and redesign. The challenge is that these HR functions are still siloed in most organizations. Addressing the audience, he said, “The real solution to this is for you as an HR group/team/organization to come together and make sure you’re working in an integrated way, because the old model of HR was a service delivery model.” He listed several siloed HR jobs and roles that have gone by the wayside, such as narrowly defined roles for specialists and business partners. “It doesn’t work that way anymore. Everything is connected together. […] It’s a big, big change in the way HR organizations operate.”</p>
+  <h2 id="putting-people-at-the-heart-of-business">Putting People at the Heart of Business</h2>
+  <p>SAP SuccessFactors customers joined Bear and Bersin on stage to talk about their journeys. <a href="https://www.tractorsupply.com/">Tractor Supply Company</a> and <a href="https://www.suncommunities.com/">Sun Communities</a> &#x26; Sun Outdoors have relied on SAP SuccessFactors to thrive through the pandemic and labor shortage, managing changing workforces by making transformative investments in their people. Communication and listening are how they put people at the heart of their businesses.</p>
+  <p>“I felt that we always did a good job listening to our team, but the pandemic really gave us the opportunity to show that we were listening more than ever before,” said Marc Farrugia, executive vice president and chief administrative officer at Sun Communities &#x26; Sun Outdoors, which uses SAP SuccessFactors to maintain constant communication with employees, provide tools and resources, identify skills gaps, and provide opportunities for additional training.</p>
+  <p>Farrugia is interested in expanding the skills and development possibilities for employees with new <a href="/2022/09/future-ready-sustainable-workforces-new-innovations-successconnect">innovations featured at SuccessConnect 2022</a>, such as the <a href="https://www.sap.com/products/hcm/opportunity-marketplace.html">SAP SuccessFactors Opportunity Marketplace</a>. “People’s choices and aspirations change so rapidly nowadays that giving them tools to communicate effectively and ultimately take charge of their own journey is what I think will help us continue to succeed,” he said.</p>
+  <p>As the largest rural lifestyle retailer in the U.S., Tractor Supply Company is a “demand-driven, needs-based company,” said Hollie Cummings, the company’s senior director HR Strategy and Team Member Experience. So, when it came time to choose a new software solution for HR, the project team gathered feedback and ideas from the employees. “We were really able to take a step back and listen to our team members. It’s really important for us to listen to them first,” she said. “SAP was a top choice. [It] really matched up with our values and culture.”</p>
+  <p>Skills and development are top of mind at Tractor Supply Company heading into 2023. “As we look forward to 2023, our key priority will be career pathing, reskilling and upskilling our workforce,” Cummings said. “As we know, sourcing and attracting talent are more difficult today. We want to make sure we’re setting up our teams for success, and they also see a long-term journey with Tractor Supply. That’s really important for us.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="put-people-at-the-heart-of-your-hr-strategy">Put people at the heart of your HR strategy</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/human-resources-hcm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="watch-successconnect-2022-on-demand"><a href="https://www.sap.com/about/events/successconnect.html">Watch SuccessConnect 2022 on demand</a>.</h3>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[To Change Work for Good, We Must Acknowledge the Power of Belonging]]></title>
+            <link>https://www.sap.com/news/2022/11/change-work-for-good-power-of-belonging</link>
+            <guid>https://www.sap.com/news/2022/11/change-work-for-good-power-of-belonging</guid>
+            <pubDate>Wed, 02 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Baratunde Thurston talked with HR leaders at SuccessConnect 2022 about how to co-create an inclusive future of work.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1dc67c3d72d90f816f7df7e989ec2e210fdb850b9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1dc67c3d72d90f816f7df7e989ec2e210fdb850b9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1dc67c3d72d90f816f7df7e989ec2e210fdb850b9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="To Change Work for Good, We Must Acknowledge the Power of Belonging" src="./media_1dc67c3d72d90f816f7df7e989ec2e210fdb850b9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="to-change-work-for-good-we-must-acknowledge-the-power-of-belonging">To Change Work for Good, We Must Acknowledge the Power of Belonging</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>A wave of racial justice protests in the U.S. in 2020 — sparked by the tragic murder of George Floyd — triggered nationwide discourse on the role of power and race in society. “2020 was a hard year,” recalled Baratunde Thurston, a writer, producer, and TV host.</div>
+    </div>
+  </div>
+  <p>He remembered how his phone lit up with messages of outreach from people who wanted to express their lament — in a personal way — to Thurston, who is Black, for four centuries of racial injustice. “It was real. It was awkward. And it was beautiful all at once.”</p>
+  <p>The events of 2020 inspired Thurston to channel that energy into activating societal change for liberty, justice, and belonging. He said, “I’ve learned a lot since then and I feel that I claim to teach, which is the best form of teaching, to learn at the same time.”</p>
+  <p>Thurston recently took his message of empowerment and inclusion to people and culture leaders at <a href="https://www.sap.com/about/events/successconnect.html#overview">SuccessConnect 2022</a> in Las Vegas. He appealed to them to embrace the challenges and opportunities of their leadership roles as they endeavor to change work for good through policies and programs. This message resonated with the audience, who were attending the keynote to learn how leaders and employees can co-create a future of work that cultivates productivity, well-being, and innovation by building a culture of belonging.</p>
+  <p>“Belonging is something that organizations still struggle with,” said Aaron Green, chief marketing and solutions officer of <a href="https://www.sap.com/products/hcm.html">SAP SuccessFactors</a>, which hosted SuccessConnect 2022. “When we talk about things like internal mobility, reskilling, and truly unleashing human potential at work, none of this is possible if people don’t actually feel like they belong. Creating a culture of belonging is the first step in creating a truly sustainable workforce.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-successconnect">Read more news and coverage from SuccessConnect</h3>
+      </div>
+      <div><strong><a href="/topics/successconnect">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="citizen-is-an-active-verb">Citizen Is an Active Verb</h2>
+  <p>In the podcast “<a href="https://www.howtocitizen.com/">How to Citizen</a>,” Thurston explores how societal themes of equity and fairness influence government and how people can reclaim their collective power to bring about change. “To citizen” is an active verb that mandates participation, said Thurston, who emphasized that every person should have the feeling of liberation, justice, and belonging. “Inclusion means everybody.”</p>
+  <p>“To citizen,” he said, we must do four things: show up and participate; invest in relationships with ourselves, others, and the planet; understand power and the ways we have access to it; and value the collective self, not just the individual self.</p>
+  <h2 id="three-lessons-for-liberty-justice-and-belonging">Three Lessons for Liberty, Justice, and Belonging</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="put-people-at-the-heart-of-your-hr-strategy-with-sap-successfactors">Put people at the heart of your HR strategy with SAP SuccessFactors</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/hcm.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>As an activist with a message of hope for sociopolitical empowerment, Thurston said experience has already taught him some lessons about the dynamics of power. “One of the first things I learned in this is to adjust our expectations,” he said, noting that systems in place for hundreds or thousands of years cannot be changed in one election cycle. “We’ve got to set a different type of goal, maybe not instant completion, instant gratification; maybe gratitude to participate in a journey that began well before us and will continue after us.”</p>
+  <p>He has gained an understanding for how various groups cling to power. “As we engage in this epic quest to level up and extend liberty and justice to all, I’ve also learned to be sensitive to the real feelings of dispossession, of loss, of fear for those who are positioned as the insiders,” he said, identifying a false charitable mindset, grounded in assumptions of superiority, as just one of the pitfalls that can arise when people are not authentic in their commitment to inclusion.</p>
+  <p>Thurston asked audience members to do their part to distribute the power of technology for societal good, saying “We’re too long in the game to pretend that we can make all of this better by just adding technology.” He expressed his thoughts about how technology is used and for what purpose. “I think about crypto and blockchain and I get very excited – and very skeptical – because we use the same language: minting, mining, even chains. We want to financialize everything. But what if we could use those tools to actually help build stronger bonds?”</p>
+  <h2 id="enriching-the-journey-through-human-connection">Enriching the Journey Through Human Connection</h2>
+  <p>Joining Thurston on stage at SuccessConnect 2022 were executive leaders who are advancing diversity, equity, inclusion, and belonging (DEI&#x26;B) initiatives at global organizations. Their goal is to create a more sustainable workforce by putting in place policies and initiatives that support the workforce. Shelley Zalis, CEO, <a href="https://www.thefemalequotient.com/">The Female Quotient</a>, said that more needs to be done, especially to protect employee retention. “We need to get smart about this and just ask our employees, what do you need to stay?” Speaking to the senselessness of <a href="https://www.linkedin.com/posts/ariannahuffington_is-the-entry-interview-the-new-exit-interview-activity-6596221179961319424-6g1d">exit interviews</a>, as called out by Arianna Huffington of <a href="https://thriveglobal.com/">Thrive Global</a>, Zalis said, “We pay more attention to the people that are leaving than the people that are here.”</p>
+  <p>A lack of belonging is among the frequently cited reasons for employees to leave an organization. Leaders can take steps to bolster employee retention by providing an environment of psychological safety that allows employees to bring their whole selves to work. Supriya Jha, chief diversity and inclusion officer, <a href="https://www.sap.com/">SAP</a>, noted, “The beauty of psychological safety is that you don’t necessarily understand it unless you’ve gone through that feeling of being the only one, that feeling of not being able to speak up, that feeling of needing to blend into the background so you’re not seen. If you’ve gone through it, you start realizing the true value of psychological safety.”</p>
+  <p>“Just watch and observe,” advised Prerna Ajmera, general manager, HR Digital, Transformation Programs, <a href="https://www.microsoft.com/">Microsoft</a>. “If you’re in a meeting and you find two people sitting quiet, why are they quiet? Is it because their superiors are in the meeting and culturally, they won’t speak? Or is it something else? Are they not feeling like they’re the in-crowd? Encourage them – be their ally.”</p>
+  <p>Jha shared with the people and culture leaders in the audience her perspective on the value of the difficult and enriching work required to create a workplace that fosters authentic connection and belonging. “When we talk about diversity and inclusion being a journey, and being a long journey, please also look at it in another way,” she said. “You are travelers on this journey. You are enriching yourselves with the entire experience.”</p>
+  <p>Watch a recording of the SuccessConnect 2022 keynote:<br><a href="https://www.sap.com/about/events/successconnect.html#keynote-2">We Belong: Co-Creating an Inclusive Future of Work</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em><a href="https://www.forbes.com/sites/sap/2022/10/28/the-power-of-belonging-at-work/">This story originally appeared on SAP BrandVoice on Forbes</a>.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Highlights from SuccessConnect 2022]]></title>
+            <link>https://www.sap.com/news/2022/10/five-takeaways-from-successconnect-2022</link>
+            <guid>https://www.sap.com/news/2022/10/five-takeaways-from-successconnect-2022</guid>
+            <pubDate>Thu, 06 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SuccessConnect was finally back in person after three years! Here are five key takeaways if you missed the in-person event.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Setting a Vision for People Sustainability]]></title>
+            <link>https://www.sap.com/news/2022/09/aaron-green-in-focus-people-sustainability</link>
+            <guid>https://www.sap.com/news/2022/09/aaron-green-in-focus-people-sustainability</guid>
+            <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Aaron Green, the new chief marketing and solutions officer for SAP SuccessFactors, shares why now is the time to change work for good.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/in-focus</category>
+            <category>news-tag/people-sustainability</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Why People Win with Connected Cloud ERP and HXM]]></title>
+            <link>https://www.sap.com/news/2022/09/connected-cloud-erp-people-win-successconnect</link>
+            <guid>https://www.sap.com/news/2022/09/connected-cloud-erp-people-win-successconnect</guid>
+            <pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Connected cloud ERP and HXM enable organizations to put people at the center of business. Learn more from last week's SuccessConnect.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/enterprise-resource-planning</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SuccessConnect 2022: Together, We Can Change Work for Good]]></title>
+            <link>https://www.sap.com/news/2022/09/successconnect-2022-together-change-work-for-good</link>
+            <guid>https://www.sap.com/news/2022/09/successconnect-2022-together-change-work-for-good</guid>
+            <pubDate>Fri, 16 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SuccessConnect 2022 took place this week in Las Vegas, with a message: it’s time for a new kind of business that elevates people and culture.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Qualtrics and SAP SuccessFactors Recruiting: Automating In-Moment Listening Across the Entire Candidate Journey]]></title>
+            <link>https://www.sap.com/news/2022/09/qualtrics-and-sap-successfactors-recruiting-listening-candidate-journey</link>
+            <guid>https://www.sap.com/news/2022/09/qualtrics-and-sap-successfactors-recruiting-listening-candidate-journey</guid>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Qualtrics and SAP SuccessFactors, through deepened integration, are improving the candidate experience with in-moment listening.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/qualtrics</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-recruiting</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP SuccessFactors Employee Central Surpasses 5,000 Customers]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-successfactors-employee-central-customers-5000</link>
+            <guid>https://www.sap.com/news/2022/09/sap-successfactors-employee-central-customers-5000</guid>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[More than 5,000 SAP SuccessFactors Employee Central customers are building more sustainable workforces and changing work for good.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/people-sustainability</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-successfactors-employee-central</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Changing Work for Good]]></title>
+            <link>https://www.sap.com/blogs/2022/09/changing-work-for-good</link>
+            <guid>https://www.sap.com/blogs/2022/09/changing-work-for-good</guid>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[As organizations face the requirements to become more agile and resilient than ever, SAP is changing work for good. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/executive-blog</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Delivers New Innovations to Build Future-Ready, Sustainable Workforces]]></title>
+            <link>https://www.sap.com/news/2022/09/future-ready-sustainable-workforces-new-innovations-successconnect</link>
+            <guid>https://www.sap.com/news/2022/09/future-ready-sustainable-workforces-new-innovations-successconnect</guid>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Future-ready, sustainable workforces are supported by new advancements to the SAP SuccessFactors HXM Suite. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Announces Winners of the SAP Global SAP SuccessFactors Partner Excellence Awards 2022]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-global-sap-successfactors-partner-excellence-awards-winners-2022</link>
+            <guid>https://www.sap.com/news/2022/09/sap-global-sap-successfactors-partner-excellence-awards-winners-2022</guid>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2022 SAP Global SAP SuccessFactors Partner Excellence Awards finalists and winners have been named. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/newsbyte</category>
+            <category>sap-award/sap-global-lob-partner-excellence-awards</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Why People Managers May Be the New Employee Experience Heroes]]></title>
+            <link>https://www.sap.com/news/2022/09/people-managers-new-heroes-employee-experiences</link>
+            <guid>https://www.sap.com/news/2022/09/people-managers-new-heroes-employee-experiences</guid>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[People managers are evolving to give organizations opportunities to create even better employee experiences. Learn more about the change.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Reinventing the Employee Experience for Sales Teams with SAP Sales Performance Management]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-sales-performance-management-reinvent-sales-teams-employee-experience</link>
+            <guid>https://www.sap.com/news/2022/09/sap-sales-performance-management-reinvent-sales-teams-employee-experience</guid>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Sales Performance Management delivers the best employee experience for sales teams through a a comprehensive set of tools.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Things to Look Forward to at SuccessConnect 2022]]></title>
+            <link>https://www.sap.com/news/2022/08/five-things-look-forward-to-successconnect-2022</link>
+            <guid>https://www.sap.com/news/2022/08/five-things-look-forward-to-successconnect-2022</guid>
+            <pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[For new or longtime SAP SuccessFactors customers as well as companies looking to make a move, here’s what to expect at SuccessConnect 2022.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-people-analytics</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Change Work for Good: SuccessConnect Returns to Las Vegas]]></title>
+            <link>https://www.sap.com/news/2022/07/successconnect-2022-las-vegas-change-work-for-good</link>
+            <guid>https://www.sap.com/news/2022/07/successconnect-2022-las-vegas-change-work-for-good</guid>
+            <pubDate>Fri, 22 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SuccessConnect 2022 is back in Las Vegas after two years as a virtual event. Learn how to attend and lead the change you want to see at work.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Workplace Norms Innovative HXM Leaders Are Replacing Right Now]]></title>
+            <link>https://www.sap.com/news/2021/11/five-workplace-norms-innovative-hxm-leaders-are-replacing</link>
+            <guid>https://www.sap.com/news/2021/11/five-workplace-norms-innovative-hxm-leaders-are-replacing</guid>
+            <pubDate>Tue, 30 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read to learn what workplace norms need to change so that employees can collaborate inclusively and do their best work.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13eada8d8f338bb968c2d04ab77105853c63ac477.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13eada8d8f338bb968c2d04ab77105853c63ac477.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13eada8d8f338bb968c2d04ab77105853c63ac477.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Five Workplace Norms Innovative HXM Leaders Are Replacing Right Now" src="./media_13eada8d8f338bb968c2d04ab77105853c63ac477.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="five-workplace-norms-innovative-hxm-leaders-are-replacing-right-now">Five Workplace Norms Innovative HXM Leaders Are Replacing Right Now</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.adamgrant.net/">Adam Grant</a>, host of the WorkLife TED podcast, wants us to replace best practices and group brainstorming with mind-opening networks of people unafraid to challenge ideas so we can collaborate inclusively to do our best work. Oh, and we all have to work less.</div>
+    </div>
+  </div>
+  <p>Grant, who is also a bestselling author and organizational psychologist at the Wharton School of Business, had plenty of insights to share in a lively conversation with Jill Popelka, president of <a href="https://www.sap.com/products/human-resources-hcm.html">SAP SuccessFactors</a>, during a broadcast of this year’s virtual <a href="https://events.sap.com/successconnect/en/global-home">SuccessConnect event</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-successconnect">Read more news and coverage from SuccessConnect</h3>
+      </div>
+      <div><strong><a href="/topics/successconnect">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="value-learning-cultures-over-performance-cultures">Value Learning Cultures Over Performance Cultures</h2>
+  <p>According to Grant, workplaces that value a traditional performance-based culture are ideal for short-term goal execution but fall short when it comes to innovation. Instead of best practices, he suggested calling them “better practices,” signaling that there is always room for improvement.</p>
+  <p>“If you don’t have a learning culture, you end up freezing yourself in time and basically crystallizing the best practices of the past that are no longer relevant to the present or unlikely to help you innovate in the future,” said Grant. “A learning culture is one where you’re not so committed to the tried-and-true ways that you’ve always done things that you close your mind to testing, learning, and experimenting with new ways of doing things…One way to get there is to abandon the idea of best practices altogether.”</p>
+  <h2 id="build-a-network-of-people-who-challenge-you">Build a Network of People Who Challenge You</h2>
+  <p>Expert group support in a learning culture, said Grant, consists of a “challenge network” of people who have the psychological safety to speak up – even if they don’t know how to fix a problem. Turn the age-old “suggestion box” into a “problem box” where people figure out what needs solving and rethink productive directions moving forward.</p>
+  <p>“Your challenge network is the group of thoughtful critics who you trust to hold up a mirror so you can see your own blind spots more clearly,” he said. “I’ve gone to some of the most disagreeable givers in my work life…and I’ve told them, ‘I know I haven’t always taken your criticism. Sometimes I’ve gotten defensive and other times I have been dismissive, and I regret that because I know I need you to challenge me to think again. So if you ever hesitate because you’re worried about hurting my feelings or hurting our relationship, don’t. The only way you can hurt me is by not telling me the truth.’”</p>
+  <h2 id="working-towards-inclusivity">Working Towards Inclusivity</h2>
+  <p>Anyone who has ever been marginalized at a meeting knows that group brainstorming doesn’t work. Grant’s simple workaround is called “brainwriting,” which heads off group think and cultivates diversity of thought. While leaders still frame the problem and type of decision that needs to be made, they end up including every voice in the room before making their own opinion known.</p>
+  <p>“Prompt people in advance to let them generate their own ideas independently,” he said. “Once you’ve collected all the ideas, you begin to take advantage of the wisdom of crowds to evaluate and refine…People are more honest with you. They get more engaged and empowered. You also learn more and might have a better opinion at the end of the discussion.”</p>
+  <h2 id="take-care-of-peoples-emotional-and-physical-well-being">Take Care of People’s Emotional and Physical Well-Being</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-forward-a-new-series-about-a-better-human-experience-at-work">Watch Forward, a new series about a better human experience at work</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/oth/forward-series-and-the-future-of-work/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>No expert session on work life these days would be complete without addressing employee burnout. Grant had tips to reduce demands on workers, give people more choices, and let them know help is available.</p>
+  <p>“Try to lighten the load on people, especially figuring out what their most stressful tasks are and trying to make sure they’re not overburdened with those,” he said. “We can’t always eliminate the demands of their job altogether, but we can give more choices and discretion about how to manage them…Support is the biggest part right now…We need compassionate leadership that takes action to alleviate other people’s pain.”</p>
+  <h2 id="worker-importance-in-hybrid-workplace">Worker Importance in Hybrid Workplace</h2>
+  <p>When Popelka pointed out that organizations need to balance employee autonomy, cultural cohesion, and workforce productivity, Grant discussed the rising importance of people called “culture carriers.”</p>
+  <p>“Culture carriers [are] the people who disproportionately exemplify the values and norms of a team or an organization…They’ve become especially critical in a hybrid world where we can’t all be in the same room at the same time,” he said. “Make sure they’re visible in these critical moments where culture is shaped during recruiting and onboarding [and] in all-hands meetings. I want people to see them so that they can watch them in action…hear their stories, [and] learn the values and norms by osmosis.”</p>
+  <h2 id="fewer-work-hours-boosts-productivity">Fewer Work Hours Boosts Productivity</h2>
+  <p>If Grant could do just one thing to change work for good, it would be to upend the quantity over quality workplace ethic.</p>
+  <p>“I would have people work less…I know of no evidence that people are more productive in eight unfocused, distracted hours a day than they could be in six highly concentrated hours a day,” he said. “Experiments show that if people know they can earn that fifth day off and turn it into a four-day week, they find lots of ways to be more efficient and effective, [and] to work smarter, as well as more creatively.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler</em><br><em><a href="https://www.forbes.com/sites/sap/2021/10/28/the-5-workplace-norms-innovative-hxm-leaders-are-replacing-right-now/?sh=3d2421bb7e60">This blog also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Highlights from SuccessConnect 2021]]></title>
+            <link>https://www.sap.com/news/2021/10/five-highlights-successconnect-2021</link>
+            <guid>https://www.sap.com/news/2021/10/five-highlights-successconnect-2021</guid>
+            <pubDate>Tue, 26 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Explore on-demand content from the virtual SuccessConnect 2021 event and learn how to deliver exceptional experiences for your workforce.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1255f4eeec79dc009bea0bf5801aa1a2e7a7aab50.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1255f4eeec79dc009bea0bf5801aa1a2e7a7aab50.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1255f4eeec79dc009bea0bf5801aa1a2e7a7aab50.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Five Highlights from SuccessConnect 2021" src="./media_1255f4eeec79dc009bea0bf5801aa1a2e7a7aab50.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="five-highlights-from-successconnect-2021">Five Highlights from SuccessConnect 2021</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>If you weren’t able to attend this year’s SuccessConnect virtual event on October 13, be sure to catch the latest product announcements and road maps that are now <a href="https://ve.on24.com/vshow/SuccessConnect/lobby/18011">available on demand</a>. Learn how human experience management (HXM) solutions from SAP can help you attract the best talent, develop a future-ready workforce through continuous learning, manage and pay your teams with confidence, and innovate faster in the cloud to remain agile and resilient.</div>
+    </div>
+  </div>
+  <p>Here are the some highlights from this year’s event.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="empower-workers-to-succeed-with-the-next-evolution-of-human-capital-management">Empower workers to succeed with the next evolution of human capital management</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/programs/experience-wins.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="changing-work-for-good-requires-rethinking-and-unlearning">Changing Work for Good Requires Rethinking and Unlearning</h2>
+  <p>Special guest <a href="https://vshow.on24.com/vshow/SuccessConnect/content/3455430/Let%E2%80%99s%20Think%20Again:%20A%20Conversation%20with%20Adam%20Grant">Adam Grant</a>, organizational psychologist at The Wharton School of Business, best-selling author, and host of WorkLife, a TED original podcast, challenged everyone to rethink and unlearn when looking to change work for good. His conversation with SAP SuccessFactors President Jill Popelka is a must-listen for anyone working on creating a learning-focused culture where everyone feels empowered to experiment with new ways of doing things to accelerate innovation and improve adaptability and resilience. Stay on until the end of the session to hear Grant’s candid thoughts on the one thing he would do to change work for good.</p>
+  <h2 id="new-hxm-innovations-fuel-ongoing-employee-development-and-growth">New HXM Innovations Fuel Ongoing Employee Development and Growth</h2>
+  <p>Amy Wilson, senior vice president of Products and Design for SAP SuccessFactors, returned for a much-loved session on SAP’s HXM product strategy and vision. In the <a href="https://vshow.on24.com/vshow/SuccessConnect/content/3455470/Let%E2%80%99s%20Change%20Work%20for%20Good:%20Vision%20Keynote">product keynote session</a>, she shared the latest innovation, <a href="/2021/10/sap-successfactors-opportunity-marketplace-drives-internal-mobility-and-upskilling-to-help-organizations-future-proof-their-business">the SAP SuccessFactors Opportunity Marketplace solution</a>, and showcased how employees can easily discover recommendations – all in one place – to further their ongoing development and growth. Recommendations range from capabilities, learning, roles, and projects to dynamic teams, mentors, and more.</p>
+  <p>In addition, Anabel Fall, group head of People Innovation and Transformation at Zurich Insurance Company, a leading Switzerland-based multi-line insurer, shared how and why work sustainability is both a commitment and responsibility of Zurich to its workforce to help employees continually grow.</p>
+  <h2 id="dont-underestimate-the-power-of-moving-hr-to-the-cloud">Don’t Underestimate the Power of Moving HR to the Cloud</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="move-from-on-premise-to-cloud-hcm-with-sap-hxm-suite">Move from on-premise to cloud HCM with SAP HXM Suite</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/hxm-move.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Legacy HR systems often can’t keep up with the demands of a more permanent hybrid workforce model and new employee expectations. Focusing on employees and their experience is more important than ever to keep everyone connected, supported, and empowered. The time for HR digital transformation is now.</p>
+  <p>Hear how <a href="https://event.on24.com/wcc/r/3440122/B57A1A0303AF5CD3A65764C3EB86BD03">Whirlpool Corporation transformed its HR organization to adopt a cloud mindset</a> and went from multiple on-premise solutions to SAP SuccessFactors Human Experience Management Suite. Discover how moving to the cloud helped HR leaders at Whirlpool provide strategic value and handle constant change with agility. Also, learn how <a href="https://event.on24.com/wcc/r/3439501/FEADA76C6B388E4FE47DA5A3E3BF801F">LEO Pharma transformed the employee experience</a> and successfully created a culture of growth and opportunity by moving its HR operations to the cloud.</p>
+  <h2 id="agile-learning-is-key-to-building-a-future-ready-workforce">Agile Learning Is Key to Building a Future-Ready Workforce</h2>
+  <p>The world of work has undergone a massive change during the past year. HR leaders have accelerated investment in upskilling and reskilling their workforce so their employees can master existing skills and develop new ones to support business growth.</p>
+  <p>Hear from Etihad Aviation Group and Lloyd’s Register Group Limited about how they leveraged the SAP SuccessFactors Learning solution to help meet business needs in new and more efficient ways by <a href="https://event.on24.com/wcc/r/3439193/820D6645119FC30947F927FAE80416DC">optimizing the learner experience</a> and focusing on skills-based learning. Discover what’s new and <a href="https://event.on24.com/wcc/r/3439739/2C17087541BCE1360651F0A2CE1E95B9">what’s coming with SAP SuccessFactors Learning</a>, and explore three factors to consider when creating your organization’s <a href="https://event.on24.com/wcc/r/3439277/6016B620067AEB732424231AED7DFB71">reimagined approach to learning and development</a>.</p>
+  <h2 id="building-tomorrows-workforce-means-reimagining-todays-candidate-experience">Building Tomorrow’s Workforce Means Reimagining Today’s Candidate Experience</h2>
+  <p>Building your workforce starts with finding the right talent. Many organizations have seen year-over-year increases in turnover, time to hire, and cost of hire. While some candidates compare the experience provided to that of others competing for their talent, all of them compare it to the consumer experiences they enjoy day in and day out. How frustrating is it when you place an order and get no confirmation or delivery time frame? How does your level of engagement shift when the right recommendations are served up?</p>
+  <p>Learn <a href="https://event.on24.com/wcc/r/3439039/7C6CA8251446EC093CD08C0B28ABBFEB">five tips from CHS and Unifar</a> to optimize your talent acquisition strategy to attract, engage, and win over today’s tech-savvy candidates and new hires. Gain insights on <a href="https://event.on24.com/wcc/r/3440048/93CCC2F78D4D0ED637669341F7261F9A">how technology is accelerating talent acquisition</a> results and what best-in-class organizations are doing differently to competitively position and outperform others.</p>
+  <p>Don’t miss specific road map sessions, product demos, and other content now <a href="https://ve.on24.com/vshow/SuccessConnect/lobby/18011">available on demand</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Lara Albert is vice president of Solution Marketing for SAP SuccessFactors.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-successfactors-hxm-suite</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[SuccessConnect Keynote: Human Resiliency Is Our Superpower]]></title>
+            <link>https://www.sap.com/news/2021/10/successconnect-keynote-human-resiliency-superpower</link>
+            <guid>https://www.sap.com/news/2021/10/successconnect-keynote-human-resiliency-superpower</guid>
+            <pubDate>Thu, 14 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[In her SuccessConnect keynote, Jill Popelka shared the company vision for a future of work with a continuous employee learning experience.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ef64f1ae62b43a0106f35d1320c63b40f7dee2b6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ef64f1ae62b43a0106f35d1320c63b40f7dee2b6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ef64f1ae62b43a0106f35d1320c63b40f7dee2b6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SuccessConnect Keynote: Human Resiliency Is Our Superpower" src="./media_1ef64f1ae62b43a0106f35d1320c63b40f7dee2b6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="successconnect-keynote-human-resiliency-is-our-superpower">SuccessConnect Keynote: Human Resiliency Is Our Superpower</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The human experience at work is getting far more personalized, workers’ mental health is impacting productivity, and people managers have a pivotal role in listening to and acting on evolving employee expectations. These were the three major workforce shifts that Jill Popelka, president of <a href="https://www.sap.com/products/human-resources-hcm.html">SAP SuccessFactors</a>, shared in her opening keynote at this year’s virtual <a href="https://events.sap.com/successconnect/en/global-home">SuccessConnect event.</a></div>
+    </div>
+  </div>
+  <p>Popelka saw these changes creating a new social contract with employees and redefining work.</p>
+  <p>“Research shows one of the top three things people look for in a job today is purpose. It’s no longer about fitting your life into work; it’s about fitting work into your life,” she said. “We have to do more. C-suiters are the vision-setters and business drivers, but our managers are our culture advocates. They are the doers and planners, the coaches and leaders and so much more. As we move from linear career paths to constantly changing roles, we need strong managers who are invested in their people and dynamic teams that are nimble, fast, and challenge oriented. Human resiliency is our superpower.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-replays-from-successconnect">Watch replays from SuccessConnect</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/successconnect/en/global-home">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="how-hr-leaders-can-shape-the-future-of-work">How HR Leaders Can Shape the Future of Work</h2>
+  <p>Popelka netted out leadership’s role in rethinking and reinventing human resources (HR) to fundamentally transform the work experience for every employee during a fascinating conversation with Meg Bear, senior vice president of Product, Engineering, and Operations for SAP SuccessFactors, and Maryann Abbajay, chief revenue officer of SAP SuccessFactors.</p>
+  <p>As 90% of HR leaders reported increased stress levels in the past year similar to all workers, Abbajay saw the profession itself undergoing its own transformation: “HR leaders are facing the same challenges as employees – burnout, balancing work and family care, and anxiety over uncertainty. They need data and insights on employees that they can translate into strategies for the business.”</p>
+  <h2 id="diversity-and-inclusion-benefits-people-and-the-business">Diversity and Inclusion Benefits People and the Business</h2>
+  <p>Noting that a recent <a href="https://www.qualtrics.com/research-center/">Qualtrics</a> study showed the top priorities among job seekers were benefits, flexibility, and purposeful work, Popelka said that the biggest change was cultural. When she asked Bear about the importance of diversity in the workplace, the latter pointed out that diversity was just the first step.</p>
+  <p>“Transformation and culture is all about people, and we at SAP think about diversity as this concept of zero inequality,” said Bear. “When we can bring all of our selves to work, we can help make great things happen. We want to create a workforce that not only has diversity in the workforce, but also has inclusion, belonging, and opportunity for everyone.”</p>
+  <h2 id="delivering-a-continuous-learning-employee-experience">Delivering a Continuous Learning Employee Experience</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-forward-an-exciting-new-series-about-making-the-human-experience-better-at-work">Explore Forward, an exciting new series about making the human experience better at work</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/oth/forward-series-and-the-future-of-work/index.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Abbajay spotlighted companies worldwide that transformed employee learning in the past year to provide individualized, on demand, mobile experiences.</p>
+  <p>“At Singapore Airlines, people were grounded so they focused on individualized learning to re-skill people using <a href="https://www.sap.com/products/corporate-lms.html">SAP SuccessFactors Learning</a>. They were ready when planes started flying again,” she said. “Royal Mail is using <a href="/2021/09/hr-executive-top-product-sap-successfactors-work-zone">SAP SuccessFactors Work Zone</a> to power learning, communicate with their 140,000 employees, and empower people managers to drive transformation in making a fantastic difference. They built a personal development platform and called it ‘The Fridge’ — think trying to keep the fridge stocked when you have hungry teenagers. Employees have responded and want more.”</p>
+  <p>Later during the keynote, customers including Whirlpool and Zurich Insurance Company shared how their respective organizations were using SAP SuccessFactors software to develop employees and accelerate digital transformation for business results.</p>
+  <h2 id="cloud-computing-creates-effective-learning-culture">Cloud Computing Creates Effective Learning Culture</h2>
+  <p>Everyone agreed that cloud computing provided HR leaders and their organizations with the foundation to create and foster a learning culture.</p>
+  <p>“The cloud is helping our customers be more innovative,” said Popelka. “With things like onboarding and learning in virtual reality, companies are creating new ways to collaborate with deskless workers, and using AI and machine learning to improve diversity and inclusion.”</p>
+  <p>Bear added that the power was in the data, meaning that “dynamic individualized solutions [backed by] data to bring opportunity to every worker, and to help bring their skills to [address] the needs of the business.”</p>
+  <h2 id="hxm-redefines-work-as-we-know-it">HXM Redefines Work as We Know It</h2>
+  <p>Organizations worldwide have rallied to help managers and their people meet the unprecedented challenges of the past year. Popelka said that HR was central to creating the best experience for every employee to build a future-ready workforce innovating faster in the cloud.</p>
+  <p>Case in point was the introduction of the <a href="/2021/10/dynamic-teams-power-future-of-work%e2%80%af">dynamic teams vision</a>, brought to life in a demonstration of the newly launched <a href="/2021/10/sap-successfactors-opportunity-marketplace-drives-internal-mobility-and-upskilling-to-help-organizations-future-proof-their-business">SAP SuccessFactors Opportunity Marketplace</a>. This marketplace solution is designed to upskill employees, fueling their personal growth and development and increasing organizational agility.</p>
+  <p>“We know these are challenging times,” Popelka said. “It comes down to how well you support your people through this culture change. It’s about creating a sense of belonging, encouraging lifelong learning, and tapping into the right technology. And we’re doing all of this with human experience management.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me: @smgaler</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-successconnect">Read more news and coverage from SuccessConnect</h3>
+      </div>
+      <div><strong><a href="/topics/successconnect">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Dynamic Teams Will Power the Future of Work]]></title>
+            <link>https://www.sap.com/news/2021/10/dynamic-teams-power-future-of-work</link>
+            <guid>https://www.sap.com/news/2021/10/dynamic-teams-power-future-of-work</guid>
+            <pubDate>Wed, 13 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Identify, track, measure and optimize the outcomes of dynamic teams within your workforce with SAP SuccessFactors software. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_12559a4c109c05d7d3f688b310b0124d46ae0bc39.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_12559a4c109c05d7d3f688b310b0124d46ae0bc39.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_12559a4c109c05d7d3f688b310b0124d46ae0bc39.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Dynamic Teams Will Power the Future of Work" src="./media_12559a4c109c05d7d3f688b310b0124d46ae0bc39.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="dynamic-teams-will-power-the-future-of-work">Dynamic Teams Will Power the Future of Work</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Each year when we host <a href="https://events.sap.com/successconnect/en/global-home">SuccessConnect</a>, it takes a village. For several months, a cross-functional group of people from sales, marketing, communications, product, and engineering come together to collaborate and put on an incredible program for our customers. At the end, the group celebrates their success, debriefs, then returns to their “day jobs.”</div>
+    </div>
+  </div>
+  <p>This is the perfect example of a <strong>dynamic team</strong>: a group of people with different skills, strengths, and work styles, that work together on a mission-critical initiative, and once the team’s goals are achieved, they disband. Increasingly, this is the way work gets done. Our research found that 82% of employees have participated in a dynamic team more than once in their current organizations.*</p>
+  <p>Dynamic teams are sometimes the most innovative and productive groups within an organization, creating important networks and lasting impact. However, with today’s human capital management (HCM) systems, these teams – and their value – are hidden.</p>
+  <p>Consider what happens today when a leader needs to assemble a team for an important, high-visibility project. They’re likely to pull in people they already know. But is this the best way to optimize both initial results and long-lasting effects? Does this serve diverse populations that may be hidden themselves?</p>
+  <p>With dynamic teams hidden from view, organizations lack insight into how work is allocated, how to optimize and replicate results, and how well capabilities are building. Meanwhile, employees are not getting recognition for the skills they are gaining and the results they are delivering. And within the dynamic teams themselves, leaders and team members lack the visibility into what each person brings to the table and how they can most effectively work together.</p>
+  <p>This lack of transparency is holding us back in our pursuit of personal and organizational sustainability and adaptability.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-successfactors-opportunity-marketplace-drives-internal-mobility-and-upskilling-to-help-organizations-future-proof-their-business">SAP SuccessFactors Opportunity Marketplace Drives Internal Mobility and Upskilling to Help Organizations Future-Proof Their Business</h3>
+      </div>
+      <div><strong><a href="/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="the-next-chapter-for-hxm-dynamic-teams">The Next Chapter for HXM: Dynamic Teams</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-successconnect">Read more news and coverage from SuccessConnect</h3>
+      </div>
+      <div><strong><a href="/topics/successconnect">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Today at SuccessConnect, we announced the <a href="/">delivery of SAP SuccessFactors Opportunity Marketplace</a>, backed by our center of capabilities, as the foundation for bottom-up learning, skilling, and self-development. It is an ever-evolving platform that extends beyond the traditional matching capabilities of HCM software to support a range of opportunities, from learning content and mentor relationships to temporary assignments and career roles, curated around an <a href="/2021/07/opportunity-in-x-redefine-employee-experience">individual’s whole self</a> — who they are today and who they are becoming.</p>
+  <p>But we are not stopping there. We believe that dynamic teams are the pinnacle of opportunities. Just think about when you experienced your most significant growth – was it when you were holed up in your office studying or when you were surrounded by a team working together on an audacious goal? It was most likely the latter. Our research found that when an employee participates on a dynamic team, more than 70% of their line managers report a positive impact on their career development and engagement.</p>
+  <p>Today, we shared our vision to bring dynamic teams to the forefront of <a href="https://www.sap.com/programs/experience-wins.html">human experience management</a> (HXM). With HXM technology to support dynamic teams, organizations can identify, track, measure and optimize the outcomes of these hidden groups, and individuals can access broader development and networking opportunities.</p>
+  <p>The benefits of elevating the power of teams include:</p>
+  <ul>
+    <li><strong>Diversity and inclusion:</strong> By making dynamic teams and the roles within them transparent, organizations can open opportunities to a broader set of colleagues. With data and insight into diversity of thought, strengths and backgrounds, they can assemble teams with balance and belonging.</li>
+    <li><strong>Trackable investments:</strong> Understanding where and how work is being done, organizations can gain greater insights into what and who is driving innovation and agility throughout their business.</li>
+    <li><strong>Sustainable development and transformation:</strong> Participating in a cross-functional team helps people acquire new skills and strengthen their network. This growth benefits their “day jobs” by fostering ongoing adaptability and development. In turn, organizations can accelerate broad transformation initiatives that rely on the network effects of cross-functional skill development and behavioral change.</li>
+    <li><strong>Health and prosperity:</strong> With a better understanding of who we are as individuals and what we can bring to a team, along with greater empathy and understanding of our teammates and how best to work together, we can optimize team dynamics. Not only does this help deliver tremendous results, but it also helps people have more fun in doing so.</li>
+  </ul>
+  <p>Human experience management is about putting people at the center of business. With our introduction of <a href="http://sap.com/opportunitymarketplace">SAP SuccessFactors Opportunity Marketplace</a> and the center of capabilities this year, and dynamic teams next year, we are reshaping the way we work and grow – as organizations and as humans. So together, we can change work for good.</p>
+  <p>Our journey to bring our HXM vision to life would not be possible without the hundreds of customers who have partnered and co-innovated with us. To get involved, visit the <a href="https://training.sap.com/successfactors-community?redirectreason=notregistered&#x26;referer=https%3A%2F%2Fcommunity.successfactors.com%2F">SAP SuccessFactors Community page</a>.</p>
+  <p>Learn more about dynamics teams by tuning into <a href="https://events.sap.com/successconnect/en/global-home">SuccessConnect</a> and reading our current research on <a href="https://community.successfactors.com/t5/SAP-SuccessFactors-HR-Research/ct-p/HRResearch">SAP SuccessFactors Community</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p><em>Amy Wilson is senior vice president of Products and Design for SAP SuccessFactors.</em></p>
+        <p><em>*Based on a survey of 1,492 dynamic team-members and line managers globally, conducted by the SAP SuccessFactors HR Research Team (March, 2021).</em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/dynamic-teams</category>
+            <category>news-tag/employee-experience</category>
+            <category>news-tag/future-of-work</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>sap-event/successconnect</category>
+        </item>
+        <item>
+            <title><![CDATA[Announcing the Winner of the First-Ever SAP SuccessFactors Work Zone Innovation Challenge for Partners]]></title>
+            <link>https://www.sap.com/news/2021/10/sap-successfactors-work-zone-innovation-challenge-winners</link>
+            <guid>https://www.sap.com/news/2021/10/sap-successfactors-work-zone-innovation-challenge-winners</guid>
+            <pubDate>Wed, 13 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the SAP SuccessFactors Work Zone Innovation Challenge, SAP is thrilled to announce 5 regional winners and an overall global winner!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/hcm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-successfactors-work-zone</category>
+            <category>sap-event/successconnect</category>
+        </item>
+    </channel>
+</rss>

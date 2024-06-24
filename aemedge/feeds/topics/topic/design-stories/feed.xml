@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/topic/design-stories/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 22 Mar 2024 12:15:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Design System]]></title>
+            <link>https://www.sap.com/design/stories-resources/sap-design-system</link>
+            <guid>https://www.sap.com/design/stories-resources/sap-design-system</guid>
+            <pubDate>Fri, 22 Mar 2024 12:15:00 GMT</pubDate>
+            <description><![CDATA[Be Ready for the Future of Work – Start with a Design System]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero full-background-image text-white">
+    <div>
+      <div>
+        <h1 id="be-ready-for-the-future-of-work--start-with-a-design-system">Be Ready for the Future of Work – Start with a Design System</h1>
+        <p>The SAP design system is evolving to meet the challenges of today’s enterprise needs, preparing not only our workforce and products but our customers and partners for the future of work</p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">Background blue/8</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>Design systems are a superpower for any future-ready enterprise.</p>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">text large</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>With the future of work in flux, companies must continue to navigate a work force that is figuring out how to work across endless combinations of locations, time zones, cultures, perspectives, and processes. One of the most crucial superpowers for any global enterprise may be an unexpected one: the design system. By establishing standardized design principles, visual components, and interaction patterns, design systems ensure a consistent user experience regardless of who is working on a project or where they are located. This consistency not only accelerates productivity but also fosters a sense of familiarity and trust among users.</p>
+  <p>But we don’t want to just stop at consistency—we want to strive for exceptional experiences. At SAP, our vision is to bring out the best in every business. This is why when building the SAP design system, we focused on 3 key things we knew would be needed as we define a higher standard for the future of work together:</p>
+  <ol>
+    <li>Start with a foundation of accessibility and inclusion</li>
+    <li>Design for a truly cross-platform experience</li>
+    <li>Build consistency at enterprise scale</li>
+  </ol>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_19a6bc14bbcdec658944a2948096e5439810d3b15.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_19a6bc14bbcdec658944a2948096e5439810d3b15.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_19a6bc14bbcdec658944a2948096e5439810d3b15.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="A digital graphic showcasing various UI elements of a design system, including buttons, charts, and informational widgets. The color scheme is predominantly shades of blue and white, with some elements featuring graphs and statistics. The design emphasizes a clean and modern interface with rounded corners and drop shadows for depth." src="./media_19a6bc14bbcdec658944a2948096e5439810d3b15.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1437" height="808">
+    </picture>
+  </p>
+  <h2 id="start-with-a-foundation-of-accessibility-and-inclusion">Start with a foundation of accessibility and inclusion</h2>
+  <p>SAP serves an estimated half a billion users across all product portfolios. With a user base this large, we have a responsibility to design experiences that let all people do outstanding work, every day. Making enterprise software as accessible and inclusive as possible is not a nice-to-have but rather a must-have.</p>
+  <p>To start, we’ve made sure that the SAP design system is advancing digital accessibility in line with the WCAG (the international <a href="https://wcag.com/">Web Content Accessibility Guidelines</a>). The system is also designed to go beyond base-line standards for accessibility and we strive for all of our products to be as inclusive as possible of the human experience in all its diversity. Here are some examples below:</p>
+  <ul>
+    <li><strong>High-contrast ratio:</strong> According to the <a href="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment">World Health Organization</a>, there are an estimated 2.2 billion people globally with vision impairments. With this in mind, the four variants of the SAP design system’s latest visual theme Horizon have been designed in line with the WCAG’s contrast recommendations. Morning Horizon, Evening Horizon, High Contrast Black and High Contrast White themes were designed with adequate contrast between the text and background to assist people with color vision deficit and moderately low vision. SAP’s 80+ components and patterns are automatically available in all four themes.</li>
+    <li><strong>Screen reader ready:</strong> Most designers think first about the visual screen, but many users rely on a screen reader to intake content and operate a page via voice or braille output. Our design templates and assets come equipped with keyboard and screen reader specifications.</li>
+    <li><strong>Accessible typography:</strong> A font plays a key role in any design system. It’s one of the most widely used elements, connecting information, interface, and style. When it comes to choosing a font, it’s not just about looking good, it also has to put in the work. SAP’s proprietary font, 72, supports more than 150 languages and is designed to improve legibility. For example, font elements such as counterform (the whitespace in letters like ‘O’, ‘P’, ‘d’, and ‘e’), and open terminals (the tail ends in ‘t’, ‘d’ etc.,) are designed to be more open and reduce density for better legibility. An advantage of “72” is also that the letters are distinguishable. E.g. I and l.</li>
+    <li><strong>Global languages:</strong> To serve a global customer base, we must make sure that our design system is truly global. For example, the system supports languages that are read from right to left (RTL), such as Arabic and Hebrew. In these instances, they mirror the default left to right (LTR) interface. This includes the visualization of imagery which is direction sensitive, such as arrows or buttons.</li>
+    <li><strong>Universal imagery:</strong> In addition to accommodating global languages, we’ve also taken into account how imagery reads in different global contexts. Icons and illustrations can have different local meanings or interpretations, so it’s important that any visual metaphors used are as universal as possible. For example, when researching what to use for our currency icon, we wanted to avoid defaulting to the US dollar sign for all currency. While the US dollar sign is still in use as an icon, we also developed an icon representative of generic paper money, which is country agnostic.</li>
+    <li><strong>Improved keyboard focus:</strong> A focus indicator is a visual indicator that “highlights” the currently focused element. This visual indicator is commonly presented as an outline around the element. We enhanced the color, thickness and style to improve perceived contrast and visual affordance of this element across the Horizon themes.</li>
+  </ul>
+  <div class="quote">
+    <div>
+      <div>Inclusive outcomes equal better business outcomes</div>
+    </div>
+  </div>
+  <p>Time and time again, we’ve found that designing for accessibility has massive benefits for all users. When SAP supports our customers’ diverse users, it is better for business overall. Together with other tools like the <a href="https://www.sap.com/design/stories-resources/inclusive-research-handbook.html">SAP Inclusive Research Handbook</a> and the <a href="https://www.sap.com/design/stories-resources/accessibility-design-tools-by-sap.html">SAP Accessible Design Tools</a>, we’re on a mission to empower teams outside of SAP to also drive inclusive practices into their businesses.</p>
+  <h2 id="design-for-a-truly-cross-platform-experience">Design for a truly cross-platform experience</h2>
+  <p>The rise of remote work in 2020 certainly ushered in a new era of comfort for employees working across desktop and mobile devices. In the immediate future, the barriers between devices will disappear even more. But “cross-platform” does not begin and end with remote desk workers—it’s about bringing the same level of technology and user experience to the many different environments in which companies get work done. From desk to factory floor to delivery truck, the SAP design system is poised to meet the diverse landscape of modern work on every device to strive for a seamless user experience.</p>
+  <p>To ensure a truly seamless user experience, the design system needs to meet the ergonomic and functional needs of an increasingly wide range of devices. Below are a few ways that SAP is approaching the cross-platform experience:</p>
+  <ul>
+    <li><strong>Partnerships with Apple and Google:</strong> With SAP Fiori for iOS, we’ve adapted our design language specifically for iOS devices in close partnership with Apple. SAP Fiori for Android extends Google’s Material Design with business relevant UI components, patterns, and capabilities. With this approach, we’re making sure enterprise use cases have the same quality as any modern operating system.</li>
+    <li><strong>SAP Fiori across devices:</strong> The SAP design system is designed for different interfaces so that we can bring business applications to a growing list of devices including desktop/laptop, mobile (including foldables), tablet, watch, AR/VR, large format, and auto. We’ve already begun adapting SAP Fiori for watchOS by Apple and Wear OS by Google so that enterprise users can access real- time business insights, smart notifications, and critical tasks through their smart watches.</li>
+  </ul>
+  <h2 id="build-consistency-at-enterprise-scale">Build consistency at enterprise scale</h2>
+  <p>When it comes to design systems, consistency helps users learn something once and use it over and over again, decreasing onboarding time for new apps. These patterns help us learn and extend that knowledge across experiences.</p>
+  <p>One thing that makes the SAP design system unique is that it’s not just used by our internal product teams, but by customers and partners around the world. This means, we’re responsible for a system that shows up in apps used by millions all over the world, every day. Here are some of the ways we’re driving consistency both inside and outside SAP:</p>
+  <ul>
+    <li>Driving consistency externally: To reach a global enterprise scale requires a tight set of design standards and guidelines to ensure consistency and cohesion. <a href="https://experience.sap.com/fiori-design/">The SAP Fiori Design Guidelines</a> are available externally and are widely used with 1.4 million clicks in 2023. The site includes guidance for how elements such as buttons, icons, and full-page layouts are used. It also includes a set of out of the box coded componentry that can be used to create a consistent user experience for all our customers’ business application needs.</li>
+    <li>Driving consistency from within: Internally, we’ve adopted a specific set of standards to help us improve the consistency of the user experience across the SAP product portfolio. This not only makes the SAP user experience more seamless but helps anyone externally extending the system with applications built on SAP S/4HANA or on the SAP Business Technology Platform.</li>
+  </ul>
+  <h2 id="a-standout-design-system-built-to-scale-with-the-future">A standout design system built to scale with the future</h2>
+  <p>The future of work will only be as strong as the tools we use to enable it. It may come as a surprise that a design system is doing so much to help future-proof companies around the world, but with user-centered principles at its core, the SAP design system is bringing out the best in businesses.</p>
+  <div class="article-footnote">
+    <div>
+      <div>Find out more about how we’re evolving the <a href="https://www.sap.com/design/design-system.html">SAP design system</a>, and to get started building your own SAP-powered apps, check out the <a href="https://experience.sap.com/fiori-design/">SAP Fiori Design Guidelines</a>.</div>
+    </div>
+  </div>
+  <h2 id="share-this-article">Share this article</h2>
+  <div class="social-sharing"></div>
+  <h2 id="more-by-the-author">More by the author</h2>
+  <div class="profiles"></div>
+</div>
+<div>
+  <h2 id="whats-up-next">What's up next?</h2>
+  <div class="resource-center">
+    <div>
+      <div data-valign="middle">Tags</div>
+      <div data-valign="middle">topic/design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Topics</div>
+      <div data-valign="middle">design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Content Type</div>
+      <div data-valign="middle">design-story</div>
+    </div>
+    <div>
+      <div data-valign="middle">Info</div>
+      <div data-valign="middle">publicationDate</div>
+    </div>
+    <div>
+      <div data-valign="middle">Limit</div>
+      <div data-valign="middle">3</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[6 Unexpected Ways AI Is Changing the Future of ERP UX]]></title>
+            <link>https://www.sap.com/design/stories-resources/ai-is-changing-the-future-of-erp-ux</link>
+            <guid>https://www.sap.com/design/stories-resources/ai-is-changing-the-future-of-erp-ux</guid>
+            <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the rise of generative AI, cloud ERP systems are getting more human-centered]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[Leveraging Product Insights for Better Business Outcomes]]></title>
+            <link>https://www.sap.com/design/stories-resources/leveraging-product-insights</link>
+            <guid>https://www.sap.com/design/stories-resources/leveraging-product-insights</guid>
+            <pubDate>Fri, 08 Dec 2023 12:00:00 GMT</pubDate>
+            <description><![CDATA[SAP SuccessFactors uses product insights to make data-driven decisions that lead to better outcomes for customers and business.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Rethinking Innovation for Product Designers with “Jobs to Be Done”]]></title>
+            <link>https://www.sap.com/design/stories-resources/jobs-to-be-done</link>
+            <guid>https://www.sap.com/design/stories-resources/jobs-to-be-done</guid>
+            <pubDate>Fri, 08 Dec 2023 12:00:00 GMT</pubDate>
+            <description><![CDATA[A conversation with Mural’s Chief Evangelist Jim Kalbach on how to approach bottom-up innovation– and how AI can support.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Accessibility Design Tools]]></title>
+            <link>https://www.sap.com/design/stories-resources/accessibility-design-tools-by-sap</link>
+            <guid>https://www.sap.com/design/stories-resources/accessibility-design-tools-by-sap</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[An extensive resource for designers offering an accessibility annotations library, plugin, and supporting handbook to make accessibility part of the entire product experience from the start.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[The Inclusive Research Handbook]]></title>
+            <link>https://www.sap.com/design/stories-resources/inclusive-research-handbook</link>
+            <guid>https://www.sap.com/design/stories-resources/inclusive-research-handbook</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A resource to empower everyone doing research with the knowledge, best practices, guidance, and templates to make inclusive research part of their everyday practice]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[Coldplay’s Tour App Gets a Mixed Reality Boost]]></title>
+            <link>https://www.sap.com/design/stories-resources/coldplay</link>
+            <guid>https://www.sap.com/design/stories-resources/coldplay</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP brings the power of mixed reality to drive community connection and sustainable outcomes for Coldplay’s Music of the Spheres World Tour]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero full-background-image text-white">
+    <div>
+      <div data-valign="middle">
+        <h1 id="coldplays-tour-app-gets-a-mixed-reality-boost">Coldplay's Tour App Gets a Mixed Reality Boost</h1>
+        <p>SAP brings the power of mixed reality to drive community connection and sustainable outcomes for Coldplay's Music of the Spheres World Tour</p>
+      </div>
+      <div data-valign="middle"></div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">Background blue/8</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>As Coldplay continues on its massively-successful <a href="https://www.coldplay.com/tour/">Music of the Spheres World Tour</a>, fans in over 150 countries worldwide have embraced the companion app Coldplay Music of the Spheres World Tour on <a href="https://apps.apple.com/us/app/id1603820130">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.sap.coldplay">Android</a> to make the most of their experience.</p>
+  <p>Designed and launched by <a href="https://www.sap.com/about/customer-stories/coldplay.html">SAP in collaboration with Coldplay</a> last year, the app allows users to make more sustainable and informed travel decisions when going to and from their concerts by harnessing the capabilities of two best-in-class solutions: <a href="https://www.sap.com/products/business-technology-platform.html?campaigncode=CRM-YS22-CDP-CDPLAMP">SAP Business Technology Platform</a> and <a href="https://www.sap.com/sustainability.html">SAP Cloud for Sustainable Enterprises</a>. Coldplay also integrated SAP Analytics Cloud to gain a deeper understanding of the carbon footprint generated by fans traveling using data collected within the app. This valuable information will assist the band in monitoring the tour's efforts to offset calculated carbon emissions.</p>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">The Music of the Spheres Tour has produced 47% less CO2e emissions than Coldplay's 2016-2017 stadium tour.</div>
+    </div>
+  </div>
+  <p>While the primary goal of the app is to guide fans to make more sustainable choices and to provide exclusive insights into Coldplay's tour, one stand-out feature has kept fans enthralled. The app offers a fantastical musical mixed reality experience to bring fans deeper into the Coldplay universe, allowing them to dance with augmented reality (AR) aliens from the “Higher Power” music video in their chosen environment and create videos and take pictures that can be shared across social media.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d1b1febff2b29f78d01205773f0cd74effa5e9e6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d1b1febff2b29f78d01205773f0cd74effa5e9e6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d1b1febff2b29f78d01205773f0cd74effa5e9e6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Screenshot of a video about Coldplay&#x27;s tour app." src="./media_1d1b1febff2b29f78d01205773f0cd74effa5e9e6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1437" height="808">
+          </picture>
+        </p>
+        <p><a href="https://www.sap.com/assetdetail/2023/11/001952f0-987e-0010-bca6-c68f7e60039b.html">https://www.sap.com/assetdetail/2023/11/001952f0-987e-0010-bca6-c68f7e60039b.html</a></p>
+      </div>
+    </div>
+  </div>
+  <p>A seemingly unlikely candidate to experiment with mixed reality and music, SAP has been laying the groundwork for their foray into mixed reality solutions for a while now – and they're only just getting started.</p>
+  <h2 id="creating-a-sustainable-and-fun-user-experience">Creating a sustainable and fun user experience</h2>
+  <p>When SAP joined forces with Coldplay to work on an app that would support the band's sustainability mission, SAP's Academy for Engineering and the Mixed Reality Solutions team quickly teamed up to conceptualize an experience which, while powered by SAP's unified business-centric platform, would also be on par with Coldplay's unique creative direction.
+    <picture>
+      <source type="image/webp" srcset="./media_13441a6ee7739d6d0ed538e5807df6c6d21395d31.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_13441a6ee7739d6d0ed538e5807df6c6d21395d31.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_13441a6ee7739d6d0ed538e5807df6c6d21395d31.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Against a deep purple background, there is collection of diagonally displayed smartphone screens featuring different user interfaces from the Coldplay Music of the Spheres World Tour app on iOS." src="./media_13441a6ee7739d6d0ed538e5807df6c6d21395d31.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1437" height="808">
+    </picture>
+  </p>
+  <p><em>The app features a cohesive user experience to support Coldplay's vision of sustainability and aesthetic.</em></p>
+  <p>“Our first thought was that we wanted to build an experience of community,” recounts Rana Chakrabarti, Director of Learning Experiences at SAP Academy for Engineering. “We started with the idea: “What if you had Coldplay in your living room?”. While the initial concept was to have the band in the living room with users, allowing them to take selfies, the team quickly pivoted towards the visuals coming from <a href="https://www.youtube.com/watch?v=gXgf5smLEgQ">Coldplay's Higher Power video</a>, ultimately borrowing from their highly unique and intricate alien characters and planets and language scripts to develop the bespoke iconography and visual style that spoke to the album's aesthetic.</p>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">What if you had Coldplay in your living room?</div>
+    </div>
+    <div>
+      <div data-valign="middle">Rana Chakrabarti, Director of Learning Experiences at SAP Academy for Engineering</div>
+    </div>
+  </div>
+  <p>“We wanted the app to be in touch with Coldplay's visual standards and amazing storytelling concept, while also supporting Coldplay's vision of sustainability through the design itself," says Tanya Pradhan, Communications and Visual Lead for SAP Academy for Engineering. The team opted, for example, for the app to display in dark mode to save battery life and make a positive environmental impact. But the entertainment value of the app also plays a critical role in pushing sustainability. "It's not to be undervalued," argues Rana Chakrabarti, "entertainment is an essential component of the app because it increases user adoption."</p>
+  <p>Further expanding on the visual style, SAP's Mixed Reality Solutions team then pulled in concepts from Coldplay's experimentations with holographics, augmented reality, and 3D motion graphics.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_16a147112b9f577d36a159ec66b3e71efc8613afe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_16a147112b9f577d36a159ec66b3e71efc8613afe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_16a147112b9f577d36a159ec66b3e71efc8613afe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="A vibrant planetary scene taken from Coldplay&#x27;s Music of the Spheres aesthetic, featuring fantastical planets and galactic icons and calligraphies floating against a dark, star-filled space background." src="./media_16a147112b9f577d36a159ec66b3e71efc8613afe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1437" height="809">
+    </picture>
+  </p>
+  <p><em>SAP leveraged Coldplay's unique and intricate space-themed aesthetic to create an entertaining, educational, and informative experience.</em></p>
+  <p>The two teams worked together to ensure that users would transition from the two to three-dimensional spatial field in a way that feels seamless. The key was to apply the <a href="https://www.sap.com/design/design-system.html">design principles</a> that SAP uses for its own enterprise applications — simplicity, coherence, responsiveness, and moments of delight. "The app is a real game-changer," says Chris Salmon, Director of Digital and Communications for Coldplay. "It offers interactive and immersive experiences that engage our fans in ways the band had not in the past."</p>
+  <p>Mixed reality meets the power of enterprise</p>
+  <p>When it came to developing the augmented reality experience, the Mixed Reality Solutions team leveraged the technology that they've been developing for enterprise applications such as <a href="https://blogs.sap.com/2023/02/27/sap-product-model-viewer-a-new-app-to-view-3d-visual-work-instructions-in-augmented-reality/">SAP Product Model Viewer</a>, a mobile app that uses 3D visualizations of products and assets in augmented reality to provide frontline workers a better user experience when conducting service, manufacturing or maintenance procedures.</p>
+  <p>Over the last few years, the team has been working on <a href="https://blogs.sap.com/2021/02/04/mixed-reality-solutions-at-sap-whats-it-all-about/">various mixed reality proofs-of-concepts and solutions</a> across all lines of business, for both office workers and frontline warehouse and field workers. They believe that, just like when smartphones were first introduced into the enterprise context, the use cases for mixed reality are not yet fully grasped, but will soon become an indispensable part of working life.</p>
+  <p>And they're not wrong. The augmented reality and mixed reality market is growing steadily. <a href="https://www.grandviewresearch.com/industry-analysis/augmented-reality-market">According to Grand View Research</a>, increasing adoption of mixed reality technologies across several industry verticals, such as automotive, healthcare, education, construction, and logistics, will see the market size reaching an expected USD 597.54 billion by 2030. Augmented reality interfaces are expected to optimize operational efficiency, productivity, and safety.</p>
+  <p>"The potential was always huge with mixed reality, and we are at a point where the technology is catching up with our vision," says Johannes Nichell, Senior Developer for SAP's Mixed Reality Solutions team. "But if we wait until the technology is fully there to start producing enterprise apps, it's going to be too late."</p>
+  <p>Collaborating with cutting-edge artists such as Coldplay represents an invaluable opportunity for SAP's designers and developers to be inspired, experiment with, and learn from what makes certain consumer-facing apps a hit. As the team turns to enterprise solutions, these learnings can help them bring mixed reality solutions into the next frontier.</p>
+  <div class="article-footnote">
+    <div>
+      <div data-valign="middle">To immerse yourself in the experience, download the Coldplay Music of the Spheres World Tour app on <a href="https://apps.apple.com/us/app/id1603820130">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.sap.coldplay">Android</a> today.</div>
+    </div>
+  </div>
+  <h2 id="share-this-article">Share this article</h2>
+  <div class="social-sharing"></div>
+  <h2 id="more-by-the-author">More by the author</h2>
+  <div class="profiles"></div>
+</div>
+<div>
+  <h2 id="whats-up-next">What's up next?</h2>
+  <div class="resource-center">
+    <div>
+      <div data-valign="middle">Tags</div>
+      <div data-valign="middle">topic/design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Topics</div>
+      <div data-valign="middle">design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Content Type</div>
+      <div data-valign="middle">design-story</div>
+    </div>
+    <div>
+      <div data-valign="middle">Info</div>
+      <div data-valign="middle">publicationDate</div>
+    </div>
+    <div>
+      <div data-valign="middle">Limit</div>
+      <div data-valign="middle">3</div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP User Research Panel: Help optimize SAP’s product UX and development]]></title>
+            <link>https://www.sap.com/design/stories-resources/sap-user-research-panel</link>
+            <guid>https://www.sap.com/design/stories-resources/sap-user-research-panel</guid>
+            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Join our SAP User Research Panel and share your UX and usability feedback with us to improve SAP’s products and services, so your workflow will be smoother.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Getting Innovation Teams Up and Running]]></title>
+            <link>https://www.sap.com/design/stories-resources/getting-innovation-teams-up-and-running</link>
+            <guid>https://www.sap.com/design/stories-resources/getting-innovation-teams-up-and-running</guid>
+            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Global Head of SAP AppHaus Network Andreas Hauser shares valuable tips on managing innovation teams.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero full-background-image text-white">
+    <div>
+      <div data-valign="middle">
+        <h1 id="getting-innovation-teams-up-and-running">Getting Innovation Teams Up and Running</h1>
+        <p>Global Head of SAP AppHaus Network Andreas Hauser shares his most valuable tips on managing innovation teams</p>
+      </div>
+      <div data-valign="middle"></div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">Background blue/8</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>The trend for companies to invest in innovation teams, typically housed in a lavish, creative space, is growing steadily. Known as innovation labs, accelerators, or business incubators, these hubs have become known as a safe space to try out new ideas and directions. However, research shows that <a href="https://hbr.org/2019/07/why-innovation-labs-fail-and-how-to-ensure-yours-doesnt?registration=success">up to 90% of hubs fail</a> before they achieve any real transformation or discovery.</p>
+  <div class="fast-facts text-green">
+    <div>
+      <div data-valign="middle">
+        <h4 id="90"><em>90</em></h4>
+        <h5 id="-1">%</h5>
+        <p>of innovation hubs fail before achieving any real transformation</p>
+      </div>
+    </div>
+  </div>
+  <p><a href="https://apphaus.sap.com/">The SAP AppHaus Network</a>, consisting of over twenty locations, is an anomaly in that it has not only endured for the past decade, but it has flourished and grown from a small team into a large network of global locations.</p>
+  <p>SAP has recently reached a major milestone in its pursuit of human-centered innovation. With the official opening of the São Paulo office, run by our SAP AppHaus Network partner Exed Consulting, we now have SAP AppHaus locations across every continent. Across the globe, we have more than 15,000 employees dedicating themselves to customer co-innovation with the help of SAP Business Technology Platform.</p>
+  <p>As Head of SAP AppHaus, I’m often asked how I started this innovation network, and how we manage to not just survive, but thrive. After two decades of experience leading global UX design and innovation teams, I’m happy to share some of my key learnings. Here are six practices that have contributed to our success—from setting up an innovation team to ensuring it remains relevant in changing strategic business contexts.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1e4c0799b1357433c9fdac04b655e1fc2ab783e6d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1e4c0799b1357433c9fdac04b655e1fc2ab783e6d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1e4c0799b1357433c9fdac04b655e1fc2ab783e6d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1e4c0799b1357433c9fdac04b655e1fc2ab783e6d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <h3 id="set-clear-goals-from-the-start">1. Set clear goals from the start</h3>
+  <p>The first step in creating business value is to set clear goals that allowed you to justify your existence and inform the makeup of your team.</p>
+  <p>Initial goals should answer the questions “What does the business need?”, “What do we want to achieve?” and “How do we measure success?” Once you define those goals, it’s important to make the value of your team visible for all stakeholders within the organization and beyond.</p>
+  <h3 id="form-a-multidisciplinary-team">2. Form a multidisciplinary team</h3>
+  <p>With clear goals set, you can then begin to build your multidisciplinary team. When we launched the first SAP AppHaus, we hosted a workshop to identify the in-house skills and personality attributes that would complement the team. I mention personality attributes because innovation teams aren’t just about technical skillsets, but also about finding the right emotional fit. Innovation environments and technologies change on a regular basis, so looking at soft skills like emotional intelligence, curiosity, adaptability, and a willingness to learn and engage in team building are even more critical than the professional or technical skills.</p>
+  <h4 id="put-it-into-practice-design-a-pizza-service">Put it into practice: Design a pizza service</h4>
+  <p>To test out the team dynamics, we invited the interviewees to participate in a short exercise to design a pizza service, splitting them into groups of three to five. This allowed us to witness team dynamics and better gauge factors such as emotional and people-oriented skills alongside their technical know-how. Just watching how people behave in the group exercise provides valuable insight into soft skills. Find more ideas, methods, and tools to enable a culture of innovation at your company in the <a href="https://apphaus.sap.com/toolkit">SAP Innovation Toolkit</a>.</p>
+  <h3 id="define-and-track-success">3. Define and track success</h3>
+  <p>Innovation teams are a space for experimentation, but they need to be outcome-driven or they risk quickly losing executive support and funding. To ensure the long-term success of your team, define metrics early on that are closely tied to the business goals and focus on delivering results right from the start. What this might look like depends on the kind of innovation work you are doing, though ultimately the right metrics will remind the organization that innovation brings benefits that are both tangible (financial) as well as non-tangible (new knowledge and insights). Our metrics at the SAP AppHaus are strictly tied to customer success. We make sure to strengthen our team’s value with stories and references that demonstrate the successful innovation done with and for the customer, and which are closely tied to the capabilities and goals of our organization.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_12cdc9d35f3c95868683e0f36f8891570e142975c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_12cdc9d35f3c95868683e0f36f8891570e142975c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_12cdc9d35f3c95868683e0f36f8891570e142975c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_12cdc9d35f3c95868683e0f36f8891570e142975c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <p><a href="https://my.matterport.com/show/?m=L6gN7iCfQUr">Take a tour of the SAP AppHaus Heidelberg</a>, winner of the 2019 MUSE Design Award. Creativity needs space to unfold, to be inspired and to discover new possibilities. Space that promotes exchange and offers security to open up or even to be able to fail.</p>
+  <h3 id="do-great-things-and-talk-about-them">4. Do great things and talk about them</h3>
+  <p>Don’t be afraid to share what you’re doing both inside and outside of your organization. In my experience, openly sharing our best practices and methodologies for innovation promotes excitement for the work and buy-in from our organization and beyond. The <a href="https://apphaus.sap.com/toolkit">SAP Innovation Toolkit</a> is a great example of how our team leverages our tools and best practices to not only secure our team’s existence, but to also showcase SAP as a thought leader in innovation, even beyond our work with our customers and partners.</p>
+  <p>The sooner you can share first achievements and successes, the better the team can show its value to the organization. What’s more, the reputation of a team is not only important for internal perception. External events, lectures, and panel discussions are a perfect means to spread the word about the good work a team is doing and grow your network of innovators. We are proud to share our customer co-innovation success stories on <a href="https://apphaus.sap.com/work">our website</a>.</p>
+  <h3 id="keep-it-moving">5. Keep it moving</h3>
+  <p>Nothing is set in stone. To ensure your innovation team stays afloat, you’ll need to regularly reassess both your goals and the team dynamic.</p>
+  <p>Ensure that your team has an ongoing open exchange on all kinds of strategic topics that might affect the work, such as new solutions being developed, innovation tools, or strategic changes within the organization. Your team knows the world is constantly changing. Be aware that a team of highly motivated and empowered members will not only want to understand the changes, but also the reasons and purposes behind them.</p>
+  <p>One solution that worked well for keeping the team informed and up to date during the shift to hybrid and remote work during the pandemic was our <a href="https://apphaus.sap.com/resource/flex-team-workshop">Flex Team Workshop</a>.</p>
+  <h3 id="be-a-collaborative-leader">6. Be a collaborative leader</h3>
+  <p>Team leaders play a crucial role in innovation teams – if they are doing their job right. A good leader should have a strong vision and strategy, foster innovation, and empower the team to implement their ideas effectively to create value for the organization and its customers. In my experience, an innovation team will thrive with a leader who can:</p>
+  <ul>
+    <li><strong>Empower the team:</strong> Remember: it’s not about you, it’s about the team. As a leader, it’s your job to inspire and motivate the team with a contagious passion. You are responsible for creating the secure environment the team needs to succeed and thrive. It’s important to empower your employees to come up with their own ideas and allow them to make mistakes and even fail. As a leader, it will be your job to find the right balance between empowerment and accountability.</li>
+    <li><strong>Be an advocate for users and customers:</strong> Customer and user focus is key to driving sustainable innovation. As a leader, you need to live and breathe customer and user empathy.</li>
+    <li><strong>Make innovation a team sport:</strong> Innovation is not just driven by one team. It is a team sport and requires close collaboration with different areas and departments within the company. You need to be a collaborative leader and work together with other organizations in a positive and appreciative way. Support others and ask for support. Form strategic alliances with other teams.</li>
+    <li><strong>Be transparent:</strong> Share the good and the bad with the team to jointly work on next steps, solutions, and strategic change. Encourage a culture where it's okay to fail as long as we learn from our mistakes.</li>
+    <li><strong>Have fun!</strong> Ensure that successes are celebrated and appreciated. In this post-pandemic world where the lines between private and work life are increasingly blurring, fostering team spirit and mutual support is even more important.</li>
+  </ul>
+  <h2 id="bringing-it-all-together">Bringing it all together</h2>
+  <p>Managing and leading an innovation team is a rewarding challenge. From my work spanning the past two decades, I am convinced that innovation needs more than just a creative space to succeed—it needs a team nurtured with the right direction, transparency, and support.</p>
+  <p>My team likes to think of innovation as the confluence of technical feasibility, business viability, and human values. We focus on implementing the latest and most robust technology, while also finding the right people and setting up processes for cross-collaboration that support innovation. This ensures that we are working towards the right goals while demonstrating success along the way.</p>
+  <div class="article-footnote">
+    <div>
+      <div data-valign="middle">
+        <p><em>Andreas Hauser has more than two decades of experience in founding and leading design and innovation teams on global scale. He is the Senior Vice President and Global Head of the <a href="https://apphaus.sap.com/">The SAP AppHaus Network</a>.</em></p>
+        <p>Join a free online course to learn about innovation culture directly from the <a href="https://open.sap.com/courses/ic1?locale=en">SAP AppHaus team</a>.</p>
+      </div>
+    </div>
+  </div>
+  <h2 id="share-this-article">Share this article</h2>
+  <div class="social-sharing"></div>
+  <h2 id="more-by-the-author">More by the author</h2>
+  <div class="profiles"></div>
+</div>
+<div>
+  <h2 id="whats-up-next">What's up next?</h2>
+  <div class="resource-center">
+    <div>
+      <div data-valign="middle">Tags</div>
+      <div data-valign="middle">topic/design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Topics</div>
+      <div data-valign="middle">design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Content Type</div>
+      <div data-valign="middle">design-story</div>
+    </div>
+    <div>
+      <div data-valign="middle">Info</div>
+      <div data-valign="middle">publicationDate</div>
+    </div>
+    <div>
+      <div data-valign="middle">Limit</div>
+      <div data-valign="middle">3</div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[The Small Giants Embracing Innovation]]></title>
+            <link>https://www.sap.com/design/stories-resources/small-giants-embracing-innovation</link>
+            <guid>https://www.sap.com/design/stories-resources/small-giants-embracing-innovation</guid>
+            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Empowering small and mid-sized enterprises to succeed with SAP S/4HANA public cloud.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Cross-Product Innovation for a Stronger Future]]></title>
+            <link>https://www.sap.com/design/stories-resources/cross-product-innovation</link>
+            <guid>https://www.sap.com/design/stories-resources/cross-product-innovation</guid>
+            <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[How SAP is uniting its product portfolio with better user experience and leveraging the latest in emerging technology to bring customers the best possible enterprise solutions.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero full-background-image text-white">
+    <div>
+      <div data-valign="middle">
+        <h1 id="cross-product-innovation-for-a-stronger-future">Cross-Product Innovation for a Stronger Future</h1>
+        <p>How SAP is uniting its product portfolio with better user experience and leveraging the latest in emerging technology to bring customers the best possible enterprise solution</p>
+      </div>
+      <div data-valign="middle"></div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">Background blue/8</div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">User research is key in understanding the new design patterns and interactions for emerging tech.</div>
+    </div>
+  </div>
+  <p>It’s no secret that today’s customers want seamless experiences, consumer-grade design, and personalization when it comes to enterprise software. Employing top tier UX and the latest in emerging technology is no longer a nice-to-have, it’s a must for forging the future of enterprise.</p>
+  <p>In an exclusive interview, Philipp Herzig, SVP and Head of SAP’s Cross-Product Engineering and Experience, shared with Chief Design Officer Arin Bhowmick the latest innovations showcased at SAP Sapphire 2023. Learn about the power of connected solutions, how SAP is uniting user experience across products, and what lies ahead for the future of enterprise powered by emerging technologies like augmented and virtual reality (AR/VR).</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_18762fbf7696817f2c759e9ef6e996b376be0e18d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_18762fbf7696817f2c759e9ef6e996b376be0e18d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_18762fbf7696817f2c759e9ef6e996b376be0e18d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_18762fbf7696817f2c759e9ef6e996b376be0e18d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="5760" height="3240">
+    </picture>
+  </p>
+  <p><strong>Arin Bhowmick:</strong> When it comes to digital products and solutions, your view is that the whole must be greater than the sum of its parts. What does that mean for SAP customers?</p>
+  <p><strong>Philipp Herzig:</strong> Individual products can have excellent capabilities for specific use cases or needs. But companies now want to get end-to-end insights, apply artificial intelligence, and have a consistent and seamless user experience. This is only possible through an integrated portfolio where all of these aspects have been taken into account by design.</p>
+  <p>With our integrated portfolio, we create opportunities for new ways to utilize tools and processes across work streams. At Sapphire this year, we shared a prime example of this kind of cross-product innovation, looking at a process from design to operate. By making 3D models available via augmented reality (AR), a service technician is able to have a virtual representation of the machine they are working on in order to do the necessary repair and maintenance. Rather than having to parse through manuals and out-of-date records, they can see an accurate engineer-designed 3D model of the machine and all the components right at their worksite.</p>
+  <p>With this kind of integration—from the engineer who designed the machine or factory plan to the technician maintaining it on the floor—companies are now able to gain end-to-end insights into every aspect of the enterprise. This makes the solution portfolio stronger than the sum of its individual products or apps.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_173459d58bcbc73522f5a3c82d9a9f109f3cf9ba3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_173459d58bcbc73522f5a3c82d9a9f109f3cf9ba3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_173459d58bcbc73522f5a3c82d9a9f109f3cf9ba3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_173459d58bcbc73522f5a3c82d9a9f109f3cf9ba3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p><em>Product views show the latest integrated UX across SAP apps like SAP Build and SAP Start.</em></p>
+  <p><strong>AB:</strong> A key part of this unified solution portfolio is a topic of utmost importance to me: user experience. It's been an exciting journey to collaborate across topics with so many experts on the UX transformation in order to ensure all of SAP’s products have a unified experience across all touch points. In your opinion, what role has design played in this transformation?</p>
+  <p><strong>PH:</strong> In the last 2-3 years we have focused on key end-to-end business processes, such as design to operate, source to pay, recruit to retire, and lead to cash. We brought everything together in one integrated suite of solutions by introducing qualities such as single sign on, harmonized data for greater insights, and a consistent view on how one’s identity or profile is managed across SAP’s application portfolio.</p>
+  <p>Ultimately, these aspects all contribute to a coherent user experience for anyone moving across different SAP products and applications. A big first step starts with our design system.</p>
+  <p>The reality is that SAP has had the opportunity to acquire some excellent products over the last few years that have truly strengthened our solutions offerings, but also come with their own distinct aesthetics and behaviors. It’s our job now to unite those experiences so that these products not only look the same, but they behave and function the same as well.</p>
+  <p>Applications like SAP Start and SAP Mobile Start have been hugely helpful in creating a unified entry point for users. And SAP Fiori with Horizon has helped to bring consistency to the look and feel of our products.</p>
+  <p>But, as you well know, the <a href="https://www.sap.com/design/design-system.html">design system</a> is so much more than just our visual identity. We’re investing in user research and human-centered design practices to ensure our products are functionally cohesive, as well as inclusive and accessible for as many people as possible. It’s a very exciting time, as we are currently working across virtually all our application areas to bring a unified user experience to all of SAP.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1d35b90f1271c161d7799c1ce159b8ddd6e3711a6.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1d35b90f1271c161d7799c1ce159b8ddd6e3711a6.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1d35b90f1271c161d7799c1ce159b8ddd6e3711a6.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1d35b90f1271c161d7799c1ce159b8ddd6e3711a6.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="1080">
+    </picture>
+  </p>
+  <p><em>Homescreen views of both SAP Mobile Start (left) and SAP Start for desktop (right).</em></p>
+  <p><strong>AB:</strong> You mentioned SAP Start and SAP Mobile Start, which are key to cross product transformation. What are you most excited for customers and users to get their hands on with these particular apps and what are the biggest advancements we're going to see with these new entry points?</p>
+  <p><strong>PH:</strong> First of all, customers are really excited about these apps, many saying it’s a game changer for them. Additionally, analysts also really see the benefit, saying that this is the most exciting topic we’ve been working on in the last few years.</p>
+  <p>We go beyond just bringing together a user’s various workflows, and rather address the jobs to be done by any given user. It enables users to find exactly what they need to do across all business applications in one consistent and coherent way.</p>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">Enterprise software users expect a modern consumer-grade product experience.</div>
+    </div>
+  </div>
+  <p>This is where we push the boundaries of how we think about SAP solutions overall. Enterprise software users expect a modern consumer-grade product experience. And we will deliver it and meet users where they are. With the new realities of work, that means expanding across mobile, wearables, and even emerging tech like AR and VR.</p>
+  <p>We have a tremendous opportunity right now to really push our user experience forward to make it more modern, more delightful, and more accessible than ever before.</p>
+  <p><strong>AB:</strong> To that point, a major part of implementing a cross-product experience is ensuring there is consistency, standardization, and efficiency across the solution. How does SAP balance that with the rising preference towards personalization?</p>
+  <p><strong>PH:</strong> It’s a continuous process. Everything we do with respect to designing our products and solutions starts with user research and implementing insights from this research. We have worked this feedback loop into the products as well, with user measurement tools providing feedback in real-time. These measurements are then fed back into our user research studies to ensure that we are optimizing in the right ways for as many users as possible.</p>
+  <p>We are also continuously testing for accessibility and inclusion measures to make sure that we’re not excluding any of our millions of users from doing their best possible work. This is particularly important on mobile, and we’ve also come a long way on web with each new release.</p>
+  <p>AI also plays a big role in how we achieve this balance. For example, we provide personalized recommendations for learnings and purchasing processes where we tailor the experience towards what's most important to the end user.</p>
+  <p><strong>AB:</strong> Those of us that were lucky enough to be in person at Sapphire were treated to a very cool future-forward look into not only how AR can function in these enterprise environments, but also how it can be used to sell innovation solutions. Can you talk a little bit about how that AR demo came together and how it was received by customers?</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1601357b2ea4da3b92604554b993f1e5315b2269a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1601357b2ea4da3b92604554b993f1e5315b2269a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1601357b2ea4da3b92604554b993f1e5315b2269a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1601357b2ea4da3b92604554b993f1e5315b2269a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="3840" height="2160">
+    </picture>
+  </p>
+  <p><em>A still from the AR demonstration at Sapphire 2023, showing how the SAP Product Model Viewer allows technicians to use AR to easily maintain equipment on the ground.</em></p>
+  <p><strong>PH:</strong> We were so thrilled to be able to feature the AR demo at Sapphire. This coincides with our first real augmented reality applications that we shipped to the market. With the integration of SAP Product Model Viewer and SAP Service and Asset Manager, we are now in a position to enable AR systematically across the enterprise to our customers. Today, this experience is primarily focused on mobile and tablet users, but we are also exploring how we can bring it to life on other devices, like watches and VR headsets.</p>
+  <p>User research is key in this stage of development so that we can understand the new design patterns and interactions for this emerging tech. We are working closely with customers to explore how these experiences can enhance different working environments and ensure our customers are ready for the future.</p>
+  <p>The reality for emerging tech is constantly changing. This can make it challenging for our customers to sell new innovation and transformation solutions. It’s always great to put these tools in the hands of users as soon as possible to see how they interact. Our goal is always to make the best possible experiences for people to get their best work done today and well into the future.</p>
+  <p><strong>AB:</strong> Thank you, Phillip, I couldn’t agree more. Additionally, we know that design as a competency is also constantly evolving with the introduction of new technology and methodologies. It's so important for us to keep pushing and exploring the bounds of these emerging technologies to also keep our skills sharp and our design culture thriving. Knowing how important UX is to our customers and end users, it’s very exciting to see how we’re able to employ the tools of design at every level—from pitch to product.</p>
+  <h2 id="share-this-article">Share this article</h2>
+  <div class="social-sharing"></div>
+  <h2 id="more-by-the-authors">More by the authors</h2>
+  <div class="profiles"></div>
+</div>
+<div>
+  <h2 id="whats-up-next">What's up next?</h2>
+  <div class="resource-center">
+    <div>
+      <div data-valign="middle">Tags</div>
+      <div data-valign="middle">topic/design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Topics</div>
+      <div data-valign="middle">design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Content Type</div>
+      <div data-valign="middle">design-story</div>
+    </div>
+    <div>
+      <div data-valign="middle">Info</div>
+      <div data-valign="middle">publicationDate</div>
+    </div>
+    <div>
+      <div data-valign="middle">Limit</div>
+      <div data-valign="middle">3</div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[The Business of Calculating Sustainability Footprints]]></title>
+            <link>https://www.sap.com/design/stories-resources/calculating-sustainability-footprints</link>
+            <guid>https://www.sap.com/design/stories-resources/calculating-sustainability-footprints</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[How insights-driven design is helping businesses make more sustainable decisions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[Putting People at the Center of Digital Transformation]]></title>
+            <link>https://www.sap.com/design/stories-resources/people-at-the-center-of-digital-transformation</link>
+            <guid>https://www.sap.com/design/stories-resources/people-at-the-center-of-digital-transformation</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Schaeffler and SAP teamed up to apply a human-centered design approach for more successful change management.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Innovation Unleashed: How To Design Breakthrough Products]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/innovation-unleashed-how-to-design-breakthrough-products</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/innovation-unleashed-how-to-design-breakthrough-products</guid>
+            <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Planning for the future is vital for growth. So why is it so hard to get enterprises to consider the future?]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Designing SAP Sales Cloud: UX Excellence]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/designing-sap-sales-cloud-ux-excellence</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/designing-sap-sales-cloud-ux-excellence</guid>
+            <pubDate>Thu, 20 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get a glimpse of the process, skill, and craft that went into creating this new product experience.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[16 Questions with SAP's Chief Design Officer]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/16-questions-with-sap-cdo</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/16-questions-with-sap-cdo</guid>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Follow along as SAP's Chief Design Officer Arin Bhowmick walks through the SAP Design offices to his next design meeting]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainability: The Next Digital]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/sustainability-the-next-digital</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/sustainability-the-next-digital</guid>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This report covers global trends including select startups that are collaborating with SAP to help customers across all industries shift from challenge to opportunity to create a sustainable future]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Don’t Let Stakeholder Bias Derail Your User Research]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/dont-let-stakeholder-bias-derail-your-user-research</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/dont-let-stakeholder-bias-derail-your-user-research</guid>
+            <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[How to turn skepticism and second-guessing into collaboration and trust]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Leading with Experience: An HXM Design Manifesto]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/leading-with-experience-an-hxm-design-manifesto</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/leading-with-experience-an-hxm-design-manifesto</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[How SAP SuccessFactors is redefining the vision and approach for a breakthrough employee experience]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Designing for Human Experience Management]]></title>
+            <link>https://www.sap.com/design/stories-resources/designing-for-human-experience-management</link>
+            <guid>https://www.sap.com/design/stories-resources/designing-for-human-experience-management</guid>
+            <pubDate>Wed, 15 Mar 2023 12:00:00 GMT</pubDate>
+            <description><![CDATA[How SAP SuccessFactors transforms deep user research into a solid product design vision and human-centered strategy]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero full-background-image text-white">
+    <div>
+      <div data-valign="middle">
+        <h1 id="designing-for-human-experience-management">Designing for Human Experience Management</h1>
+        <p>How SAP SuccessFactors is transforming deep user research into a solid product design vision and strategy</p>
+      </div>
+      <div data-valign="middle"></div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div data-valign="middle">style</div>
+      <div data-valign="middle">Background blue/8</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>With more than 248 million users across the globe, SAP SuccessFactors is on a mission to meet the accelerating demands of the digital workplace.</p>
+  <p>As a part of this ongoing mission, we embarked on a journey to reimagine the user experience of the <a href="https://www.sap.com/products/hcm.html">Human Experience Management (HXM) suite</a> starting with the home page, the integrated entry point to SAP SuccessFactors and SAP apps on mobile and desktop devices. While home pages for Human Resources systems are typically quite generalized and HR-process-oriented, we’ve listened to our users and are designing the experience to feel more human. The future of HXM is designed to bring clarity of purpose and a sense of achievement to every end user, as well as tangible value to the organization at large.</p>
+  <div class="quote">
+    <div>
+      <div data-valign="middle">Our mission is for employees to feel accomplished, confident, supported, and inspired.</div>
+    </div>
+  </div>
+  <p>To fulfill these goals for both the individual and the organization, we started with a strong foundation of research to help us understand our users and inform our design decisions. Through this research we uncovered three key findings: the tools need to be individualized, efficient, and help to identify opportunities for employees. With these guiding principles in mind, we were able to leverage <a href="https://www.sap.com/design/design-system.html">the SAP design system</a> and begin building an experience approach that would deliver intentional and exceptional product outcomes.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1068936ce7f1c7746dbac2090a2b85517da022e6d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1068936ce7f1c7746dbac2090a2b85517da022e6d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1068936ce7f1c7746dbac2090a2b85517da022e6d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="A preview of visual design elements of the SAP SuccessFactors Human Experience Management Suite." src="./media_1068936ce7f1c7746dbac2090a2b85517da022e6d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1437" height="650">
+    </picture>
+  </p>
+  <h2 id="transforming-research-into-a-durable-product-vision-and-strategy">Transforming research into a durable product vision and strategy</h2>
+  <p>At SAP SuccessFactors, user research frames our product development process from start to finish. To redesign the home page experience, we began by conducting dozens of usability studies of our existing home page to understand what was working, and where there were gaps to improve upon.</p>
+  <div class="fast-facts text-green">
+    <div>
+      <div data-valign="middle">
+        <h4 id="248"><em>248</em></h4>
+        <h5 id="m">M</h5>
+        <p><strong>User base</strong></p>
+        <p>SAP SuccessFactors serves 9,600 customers across 200 countries and territories, and 45 languages, reaching a user base of about 248 million users in total.</p>
+      </div>
+    </div>
+  </div>
+  <p>SAP SuccessFactors solutions serve over 9,600 customers, across more than 200 countries and territories. Our software is localized into 45 languages to serve a user base of about 248 million users. With such a large customer base, it was critical to get a deep understanding of how the experience could support operational excellence and keep data flowing. We ran qualitative studies to understand the perception and motivations across multiple user <a href="https://medium.com/sap-design/archetypes-understanding-user-behavior-ca8cc12fb6c3">archetypes</a>. Through facilitated workshop exercises we were able to identify the problems to be solved and the opportunities for innovation. These activities led us to strategic conclusions that were validated with our customers, and which served to inspire the team during the conceptualization and design phases, and beyond. From here we were able to define an experience strategy to serve the initial design and concept maturation of all our new and reimagined experiences going forward, starting with the home page.</p>
+  <h2 id="outcome-focused-product-experiences">Outcome-focused product experiences</h2>
+  <p>When it comes to workforce software, one major learning we found is that it’s not always about keeping users engaged for as long as possible. Rather, we’re attempting to maximize on employees’ tight attention in the most efficient ways to keep them focused on their jobs to be done. Through our research, we arrived at three key principles to inform a better user experience for the HXM home page:</p>
+  <h5 id="individuality-use-data-to-inform-more-personalized-experiences-for-each-employee">#1 Individuality: Use data to inform more personalized experiences for each employee</h5>
+  <p>Our overarching mission is for employees to feel accomplished, confident, supported, and inspired. Our research shows that when we craft unique experiences for each employee, we’re able to fast-track onboarding and learning, increase engagement, and identify opportunities to deeply connect employees to their organizations. However, achieving this depends on the individual, and individualization across such a large user base is an ambitious goal. By leveraging past, present, and future data from across SAP SuccessFactors, we’re able to create an experience unique to each employee and design a thoughtful and expedient experience with the tool. To do this we consider how these data sources can be used to provide insight, context, or even inspiration to engage.</p>
+  <h3 id="efficiency-prioritize-actions-and-keep-users-focused-on-whats-important-to-their-role">#2 Efficiency: Prioritize actions and keep users focused on what’s important to their role</h3>
+  <p>As the global workforce continues to change and shift rapidly, efficiency is more important than ever. Our user research showed that users sometimes struggled with navigating to their destination, often needing a couple of clicks to reach where they needed to go. They were also left feeling somewhat overwhelmed when confronted with unfamiliar apps that did not serve their purpose, and that they deemed redundant or irrelevant. With the new HXM home page, we’re able to target exactly what’s needed by the organization to operate and engage users task by task. By surfacing specific and targeted tasks to the home page as they require attention, we reduce the need to navigate into individual apps, expediting time to completion and reducing friction.</p>
+  <h3 id="opportunity-ensure-everyone-is-connected-and-engaged-with-the-organization-and-able-to-build-on-their-future">#3 Opportunity: Ensure everyone is connected and engaged with the organization, and able to build on their future</h3>
+  <p>SAP SuccessFactors’ long-term vision is focused on employee-driven development, engagement, and strategic organizational alignment. The home page serves to facilitate employees towards better engagement with their organization, teams, and career path. As customers engage with a new suite of tools like Opportunity Marketplace and Growth Portfolio, recommendations powered by machine learning bring clarity of purpose that is aligned to the strategic needs of the organization as well as the employee’s career goals. This in turn fosters a beneficial cycle of mutually-assured success.</p>
+  <h2 id="building-better-ux-together">Building better UX together</h2>
+  <p>The HXM home page is just one way in which we’re supporting the SAP Start initiative to align all customers on a deeply integrated central entry point for SAP cloud solutions. And we know that in order to reach that goal, we need to work together. Through our Design Advisors programs, we’re able to leverage the collective wisdom and ideas from across our customer base. We’re also working closely in collaboration with our partners at SAP Design to implement <a href="https://medium.com/sap-design/a-new-horizon-for-saps-design-system-ed0e31abdc34">SAP Fiori with the Horizon theme</a> on all new releases. And, perhaps most importantly, we’re continuing to listen to you—our customers and end users.</p>
+  <p>Our goal is to deliver more tightly woven, deeply integrated data stories, a higher return on investment for every employee, and a tool suite that supports your ability to deliver on strategic goals and transformational opportunities for years to come.</p>
+  <h2 id="share-this-article">Share this article</h2>
+  <div class="social-sharing"></div>
+  <h2 id="more-by-the-author">More by the author</h2>
+  <div class="profiles"></div>
+</div>
+<div>
+  <h2 id="whats-up-next">What's up next?</h2>
+  <div class="resource-center">
+    <div>
+      <div data-valign="middle">Tags</div>
+      <div data-valign="middle">topic/design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Topics</div>
+      <div data-valign="middle">design-stories</div>
+    </div>
+    <div>
+      <div data-valign="middle">Content Type</div>
+      <div data-valign="middle">design-story</div>
+    </div>
+    <div>
+      <div data-valign="middle">Info</div>
+      <div data-valign="middle">publicationDate</div>
+    </div>
+    <div>
+      <div data-valign="middle">Limit</div>
+      <div data-valign="middle">3</div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/design-story</category>
+            <category>topic/design-stories</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus: Creating a Culture of Innovation]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/creating-a-culture-of-innovation-the-key-to-successful-continuous-process</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/creating-a-culture-of-innovation-the-key-to-successful-continuous-process</guid>
+            <pubDate>Tue, 14 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Andreas Hauser, Head of SAP AppHaus Network, breaks down SAP's human-centered approach to innovation]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <h1 id="sap-apphaus-creating-a-culture-of-innovation">SAP AppHaus: Creating a Culture of Innovation</h1>
+</div>
+]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[New Features to Support SAP Fiori Mobile Users]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/latest-releases-of-sap-fiori-for-android-6-0-ios-9-1-new-features-to</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/latest-releases-of-sap-fiori-for-android-6-0-ios-9-1-new-features-to</guid>
+            <pubDate>Tue, 14 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Unlock Apple iOS and Google Android capabilities for your business and users]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus: Creating a Culture of Innovation]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/sap-apphaus-creating-culture-innovation</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/sap-apphaus-creating-culture-innovation</guid>
+            <pubDate>Tue, 14 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Andreas Hauser, Head of SAP AppHaus Network, breaks down SAP's human-centered approach to innovation]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[New Features to Support SAP Fiori Mobile Users]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/new-features-support-sap-fiori-mobile-users</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/new-features-support-sap-fiori-mobile-users</guid>
+            <pubDate>Tue, 14 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Unlock Apple iOS and Google Android capabilities for your business and users]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Swedish Food Retailer Axfood Bring the Right Product Mix to Supermarkets]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/sap-and-axfood-bring-right-product-mix-to-supermarkets</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/sap-and-axfood-bring-right-product-mix-to-supermarkets</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP teamed up with Swedish food retailer Axfood to create an innovative assortment planning solution.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Designing for Supply Chain Agility]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/designing-for-supply-chain-agility</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/designing-for-supply-chain-agility</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Strategic design helps keep supply chains upright even as the earth shifts beneath them.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <h1 id="designing-for-supply-chain-agility">Designing for Supply Chain Agility</h1>
+</div>
+]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[5 Ways to Advance Your Inclusive Research Efforts]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/5-ways-to-inclusive-research</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/5-ways-to-inclusive-research</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Our guide to reframing how product development teams conduct user research.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Future of Work Trend Report]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/new-era-in-future-of-work</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/new-era-in-future-of-work</guid>
+            <pubDate>Mon, 13 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This report covers global trends including select startups that are collaborating with SAP SuccessFactors to shape the future of work with emerging innovations]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Inclusive Teams, Better Products]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/inclusive-teams-better-products</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/inclusive-teams-better-products</guid>
+            <pubDate>Thu, 02 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Four simple things that your teams can do today to improve the user experience for all and create a culture of inclusion]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Designing Under Pressure]]></title>
+            <link>https://www.sap.com/design/l3-proxy-cards/designing-under-pressure</link>
+            <guid>https://www.sap.com/design/l3-proxy-cards/designing-under-pressure</guid>
+            <pubDate>Thu, 02 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Unlocking the psychology behind deadlines can help product teams become more resilient]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/design-stories</category>
+            <category>content-type/design-story</category>
+        </item>
+    </channel>
+</rss>

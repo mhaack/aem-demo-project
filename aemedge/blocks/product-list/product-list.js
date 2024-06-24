@@ -1,4 +1,5 @@
-import { createOptimizedPicture } from '../../scripts/aem.js';
+import { createOptimizedPicture, getMetadata } from '../../scripts/aem.js';
+import { addColClasses, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2 } from '../../scripts/utils.js';
 
 export default function decorate(block) {
   /* change to ul, li */
@@ -13,9 +14,14 @@ export default function decorate(block) {
     ul.append(li);
   });
   ul.querySelectorAll('img').forEach((img) => img.closest('picture')?.replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '100' }])));
-  if (ul.children.length < 4) {
-    ul.classList.add(`product-list-length-${ul.children.length}`);
-  }
   block.textContent = '';
+
+  const template = getMetadata('template');
+  if (template === 'hub-l2') {
+    addColClasses(block, ul, LIST_LAYOUT_CONFIG_L2);
+  } else {
+    addColClasses(block, ul, LIST_LAYOUT_CONFIG);
+  }
+
   block.append(ul);
 }

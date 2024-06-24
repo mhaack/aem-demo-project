@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/enterprise-risk-management/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 02 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud]]></title>
+            <link>https://www.sap.com/news/2023/03/zero-trust-data-protection-security-and-privacy-in-cloud</link>
+            <guid>https://www.sap.com/news/2023/03/zero-trust-data-protection-security-and-privacy-in-cloud</guid>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[To secure data and operations in a hybrid work environment, companies have been adopting a zero trust approach. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud" src="./media_1211a23b261cb4d75710a8be6bf454f40e45e3da3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="zero-trust-for-the-highest-level-of-data-protection-security-and-privacy-in-the-cloud">Zero Trust for the Highest Level of Data Protection, Security, and Privacy in the Cloud</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When Rihanna sang some of her greatest hits suspended on a platform that hovered 15 to 60 feet above the stadium at this year’s <a href="/2023/02/the-take-super-bowl-lvii-supply-demand">Super Bowl</a>, trust in technology was of utmost importance. On the same note, trust is crucial when it comes to an organization’s security on every platform it operates.</div>
+    </div>
+  </div>
+  <p>Data privacy, risk management, and cybersecurity remain key priorities for businesses in 2023 to ensure continuous high performance and to catapult to new heights. In a recent <a href="https://www.cio.com/article/306384/state-of-the-cio-2022-focus-turns-to-it-fundamentals.html">CIO Magazine survey</a>, 43% of survey respondents said that they plan to upgrade IT and data security to reduce corporate risks. That includes security and data protection measures to keep their data safe. This becomes even more important when moving to and operating in a cloud enterprise resource planning (ERP) environment to drive continuous innovation. In the same CIO survey, 12% of the respondents said that they are planning to accelerate the move to the cloud as a service.</p>
+  <h2 id="adopt-a-zero-trust-security-approach-for-the-cloud">Adopt a Zero Trust Security Approach for the Cloud</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-about-security-at-sap">Read more about security at SAP</h3>
+      </div>
+      <div><strong><a href="/topics/security">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>To secure data and operations in a hybrid work environment, companies have been adopting a zero trust approach. <a href="https://www.forrester.com/blogs/the-definition-of-modern-zero-trust/">Forrester</a> defines zero trust as an “information security model that denies access to applications and data by default. Threat prevention is achieved by only granting access to networks and workloads utilizing policy, informed by continuous, contextual, risk-based verification across users and their associated devices.”</p>
+  <p>According to 2022 global survey data published by <a href="https://www.statista.com/statistics/1228254/zero-trust-it-model-adoption/">Statista</a>, 39% of companies have already begun to roll out a zero trust solution and 41% of companies have plans to adopt a zero trust strategy and are in the early phases of doing so.</p>
+  <p>My principle in life is to trust people and systems until I am provided a reason not to. The zero trust principle is the exact opposite of this.</p>
+  <p>The zero trust approach has three key principles: all entities and users are untrusted by default until authorized, the least privilege access is enforced, and extensive security monitoring is in place. In short, no connections to corporate networks and systems should be trusted at sight. All users, devices, and systems need to be authenticated, reverified, and continuously monitored when accessing networks, systems, and data.</p>
+  <p>Adopting this approach to cloud transformation has become the leading industry standard to keep operations and data safe across the entire virtual and physical network infrastructure.</p>
+  <p>Here are some best practices for putting an enterprise security plan in place that utilizes zero trust concepts to run operations safely and securely in the cloud.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="organizations-around-the-world-trust-sap-with-their-data">Organizations around the world trust SAP with their data</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/trust-center.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="define-clear-security-roles-and-responsibilities">Define Clear Security Roles and Responsibilities</h3>
+  <p>First and foremost, ensuring security is always a shared responsibility between companies and their cloud transformation partners. It is a common goal and commitment that is independent of the type of cloud path companies take.</p>
+  <p>Like with any shared responsibility, the best way to approach it is by defining the roles and responsibilities up front. This process starts by asking these key questions: who is managing the cloud, how will everyone work together to secure the cloud, who is responsible for which part, and where are dependencies?</p>
+  <p>This will ensure that there is a clear strategy and plan to monitor and implement security policies and measures.</p>
+  <h3 id="keep-an-eye-on-users-devices-network-applications-and-monitoring">Keep an Eye on Users, Devices, Network, Applications, and Monitoring</h3>
+  <p>Based on our experience at SAP Enterprise Cloud Services, another best practice is to focus the zero trust security approach on five pillars: users, devices, networks, applications, and monitoring.</p>
+  <p>Eighty-seven percent of organizations consider the <strong>application</strong> layer as being the front door for data breaches. Most data breaches through cyberattacks happen because <strong>users</strong> fail to keep their credentials safe or fall prey to false identities. In addition, the number of remote users with their own <strong>devices</strong> has significantly increased in enterprise <strong>networks</strong> as well as the number of cloud-based assets that are not located within an enterprise-owned network boundary.</p>
+  <p>By regulating and <strong>monitoring</strong> user access to devices, networks, and applications, companies can protect all their resources, including assets, services, workflows, and network accounts. For example, identity management systems can manage privileged user authentication and access at a very granular level. This includes keeping administrative accounts separate from corporate accounts and applying encryption to several layers in the IT environment. Data classification makes it possible to associate the security levels with specific types of data, regardless of where that data resides – in the cloud, at endpoints, or in owned data centers.</p>
+  <h2 id="scaling-security-needs-faster-with-the-cloud">Scaling Security Needs Faster with the Cloud</h2>
+  <p>While managing the complexity of security needs for cloud transformations can be daunting, here is an added merit: companies can scale their security needs much faster in the cloud, according to <a href="https://www2.deloitte.com/ca/en/pages/insight/articles/how-to-accelerate-cloud-adoption-with-security-by-design.html">Deloitte</a> research. Benefits include better automation capabilities as well as higher storage and data capacity in the cloud. Companies can push infrastructure as code and fix a security problem in real time when operating in the cloud. Automation also helps in increasing the maturity of identity management and security management systems. <a href="https://www2.deloitte.com/ca/en/pages/insight/articles/how-to-accelerate-cloud-adoption-with-security-by-design.html">Deloitte</a> recommends embracing cybersecurity as a differentiator to promote greater stakeholder trust and better use of cloud-native solutions that take advantage of the cloud’s full potential.</p>
+  <p>In other words, you can shine like a diamond on your cloud platform of choice with a zero trust security approach for the cloud.</p>
+  <div class="quote">
+    <div>
+      <div>For more information, visit the <a href="https://www.sap.com/about/trust-center.html">SAP Trust Center</a> site and read this <a href="https://www-forbes-com.cdn.ampproject.org/c/s/www.forbes.com/sites/sap/2021/07/29/5-cybersecurity-tactics-to-protect-the-cloud/amp/">Forbes article by Roland Costea,</a> chief security officer for SAP Enterprise Cloud Services.</div>
+    </div>
+    <div>
+      <div>Peter Pluim is president of SAP Enterprise Cloud Services and SAP Sovereign Cloud Services.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>content-type/feature</category>
+            <category>topic/erp</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/data-privacy</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/enterprise-risk-management</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches Real-Time Cloud-Based Enterprise Threat Detection Solution for SAP Applications as Managed Service]]></title>
+            <link>https://www.sap.com/news/2021/07/sap-enterprise-threat-detection-cloud-based-managed-service</link>
+            <guid>https://www.sap.com/news/2021/07/sap-enterprise-threat-detection-cloud-based-managed-service</guid>
+            <pubDate>Thu, 15 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Enterprise Threat Detection, combined with SAP managed security services on SAP BTP, detects cyber-attacks in real time. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/cybersecurity</category>
+            <category>news-tag/enterprise-risk-management</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+    </channel>
+</rss>

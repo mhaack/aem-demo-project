@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/coldplay/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 23 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Making the Coldplay Music Of The Spheres World Tour App Accessible for Blind and Visually Impaired People]]></title>
+            <link>https://www.sap.com/news/2023/03/accessibility-coldplay-app-music-of-the-spheres-world-tour</link>
+            <guid>https://www.sap.com/news/2023/03/accessibility-coldplay-app-music-of-the-spheres-world-tour</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A blind Coldplay fan has supported SAP in making the tour app accessible for blind and visually impaired people. Learn more about how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accessibility</category>
+            <category>news-tag/coldplay</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+    </channel>
+</rss>

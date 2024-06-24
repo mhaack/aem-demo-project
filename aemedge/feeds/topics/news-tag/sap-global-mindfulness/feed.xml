@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-global-mindfulness/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 10 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Mindfulness: The Surprising Business Model]]></title>
+            <link>https://www.sap.com/news/2023/11/mindfulness-the-surprising-business-model</link>
+            <guid>https://www.sap.com/news/2023/11/mindfulness-the-surprising-business-model</guid>
+            <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Global Mindfulness Practice is bringing its successful formula to customers around the world. Read to learn about SLB's experience.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/mental-health-well-being</category>
+            <category>news-tag/sap-global-mindfulness</category>
+        </item>
+        <item>
+            <title><![CDATA[Mindfulness: The New Superpower]]></title>
+            <link>https://www.sap.com/news/2022/09/mindfulness-day-2022-new-superpower</link>
+            <guid>https://www.sap.com/news/2022/09/mindfulness-day-2022-new-superpower</guid>
+            <pubDate>Fri, 16 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Mindfulness Day 2022 was a reminder of the value of a mindfulness practice, the benefits of which SAP has long been aware. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-global-mindfulness</category>
+        </item>
+    </channel>
+</rss>

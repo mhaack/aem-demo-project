@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-digital-manufacturing/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 02 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Hannover Messe: What Can AI Do for Manufacturing?]]></title>
+            <link>https://www.sap.com/news/2024/05/hannover-messe-ai-manufacturing</link>
+            <guid>https://www.sap.com/news/2024/05/hannover-messe-ai-manufacturing</guid>
+            <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[At Hannover Messe 2024, SAP and its partners showed how they are embedding AI to help companies achieve excellence in manufacturing.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/manufacturing-x</category>
+            <category>product/sap-digital-manufacturing</category>
+        </item>
+        <item>
+            <title><![CDATA[Jowat Creates Seamless, Just-in-Time Operations with SAP Digital Manufacturing]]></title>
+            <link>https://www.sap.com/news/2024/01/jowat-creates-seamless-operations-sap-digital-manufacturing</link>
+            <guid>https://www.sap.com/news/2024/01/jowat-creates-seamless-operations-sap-digital-manufacturing</guid>
+            <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP Digital Manufacturing, Jowat is on its way to having transparent factories with a reduction in risks, errors, and process costs.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1751a2980ab4eaba557c46a3624a271a2fe09bc21.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1751a2980ab4eaba557c46a3624a271a2fe09bc21.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1751a2980ab4eaba557c46a3624a271a2fe09bc21.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Jowat Creates Seamless, Just-in-Time Operations with SAP Digital Manufacturing" src="./media_1751a2980ab4eaba557c46a3624a271a2fe09bc21.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="jowat-creates-seamless-just-in-time-operations-with-sap-digital-manufacturing">Jowat Creates Seamless, Just-in-Time Operations with SAP Digital Manufacturing</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.jowat.com/en/">Jowat Group</a> is one of the world’s top adhesive manufacturers for industrial use. Tradition and experience from 100 years of corporate development and experience allow it to act as a leading company in technology and innovation in numerous markets and application areas.</div>
+    </div>
+  </div>
+  <p>Jowat SE’s annual production amounts to 100,000 tons of industrial adhesives. Production is complex and requires high volumes of specialized chemicals and a tremendous amount of power. With raw materials and energy costs skyrocketing, premium manufacturer Jowat looked to get a tighter grip on its inventory management and production processes.</p>
+  <p>To ensure maximum efficiency, Jowat requires enough raw materials to fulfill orders while minimizing waste and inventory costs. Moreover, the company needs smooth workflows, as any delay in order placement, production, or the delivery of raw materials can have huge cost implications for the company. As a result, Jowat works hard to ensure that its 24/7 manufacturing processes always run like clockwork.</p>
+  <p>With demand for industrial adhesives surging, the company was eager to ensure that its production processes could scale to meet increasing order numbers and still deliver optimum efficiency.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="deliver-individualized-sustainable-and-smart-equipment-products-and-components-in-industrial-manufacturing">Deliver individualized, sustainable, and smart equipment, products, and components in industrial manufacturing</h3>
+        <p><em><a href="https://www.sap.com/industries/industrial-manufacturing.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="targeting-seamless-digital-workflows">Targeting Seamless Digital Workflows</h2>
+  <p>Originally established in 1919, Jowat is no stranger to innovation. Leaders at Jowat identified that the next stage of the company’s evolution would require a radical digital transformation of its production and inventory management processes.</p>
+  <p>“Our factory workers relied heavily on paper-based processes,” explained Dirk-Alexander Segger, Detmold plant manager at Jowat. “For instance, when employees had finished mixing and decanting adhesives, they handwrote notes to track the volume and type of raw materials that they used during the process. Shortly after decanting, workers would then input the information from their notes into our inventory management and manufacturing execution systems, adding to their workload and increasing the risk of errors.”</p>
+  <p>Tracking materials usage manually created time delays, potential for human errors, and discrepancies between the stock numbers recorded in Jowat’s inventory system and the actual volume of raw materials available on the factory floor. Moreover, with information stored across multiple systems and in different formats, plant managers had no clarity to identify process bottlenecks or potential enhancements.</p>
+  <p>Annette Podleschny-Borchardt, project lead at Jowat, commented: “To enhance efficiency, improve transparency, and prepare for growth, we decided it was time to go entirely paperless. Building digital processes would give us a more detailed, up-to-date picture of our stock position, which would help drive smarter raw materials purchasing decisions and production improvements.”</p>
+  <p>“We aimed to take a more proactive approach to our manufacturing processes. Developing robust, reliable, end-to-end digital workflows was the perfect way to achieve this goal,” explained Christine Künne, head of IT and Business Process Services at Jowat SE.</p>
+  <h2 id="embracing-digital-transformation">Embracing Digital Transformation</h2>
+  <p>To find the best solution to support its digital transformation initiative, Jowat invited multiple technology vendors to outline the strengths of their solutions. To keep customization low, Jowat targeted a solution that it could easily adapt to meet the highly specialized nature of just-in-time chemicals manufacturing.</p>
+  <p>After reviewing 15 different solutions, Jowat selected <a href="https://www.sap.com/products/scm/digital-manufacturing-cloud.html">SAP Digital Manufacturing</a>. In addition to providing a solid foundation for digitalization, SAP Digital Manufacturing can also integrate seamlessly with Jowat’s existing SAP solutions, including <a href="https://www.sap.com/products/erp/s4hana.html">SAP S/4HANA</a>, <a href="https://www.sap.com/products/scm/extended-warehouse-management.html">SAP Extended Warehouse Management</a>, and <a href="https://www.sap.com/products/technology-platform.html">SAP Business Technology Platform</a> (SAP BTP).</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sustainable-risk-resilient-manufacturing-is-here">Sustainable, risk-resilient manufacturing is here</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-manufacturing-cloud.html">Learn more about SAP Digital Manufacturing</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“We were immediately interested in SAP Digital Manufacturing because it is a cloud-native solution,” commented Segger. “Previously, we used on-premise solutions that required us to carry out extensive and disruptive updates. With SAP Digital Manufacturing, we get instant access to the latest features thanks to the quarterly release schedule.”</p>
+  <p>Jowat also valued SAP’s proactive engagement with the chemicals manufacturing industry. “We really appreciate that SAP is eager to co-innovate with industry leaders like Jowat to develop next-generation manufacturing solutions,” said Podleschny-Borchardt. “Through the SAP Customer Engagement Initiative, we can help expert developers at SAP build smart factory solutions that meet the needs of our sector down to the finest detail.”</p>
+  <h2 id="sticking-with-the-experts">Sticking with the Experts</h2>
+  <p>To ensure a smooth implementation of SAP Digital Manufacturing, Jowat relied on support from SAP Services and Support.</p>
+  <p>“Whenever we hit a stumbling block, the experts helped us work through the issues. For instance, we wanted to develop a dedicated production operation dashboard, which would give plant managers fast access to key production metrics. As this was uncharted territory, it naturally took a lot of time and energy to work through and SAP was behind us every step of the way,” said Segger.</p>
+  <p>Currently, Jowat is completing the first phase of the SAP Digital Manufacturing implementation at its Detmold factory before expanding the solution across all plants. Künne explained: “With a phased implementation, we can ensure that the processes we build at our Detmold plant are tried and tested to deliver maximum efficiency. This will give us the best chance of success when we roll out these processes across all our facilities.”</p>
+  <p>“Consultants from SAP Services and Support brought not only their expertise to the project, but also the willingness to listen to the needs and the challenges of our industry. Because of this, we were able to collaborate extremely effectively,” added Podleschny-Borchardt.</p>
+  <h2 id="driving-efficient-manufacturing-with-high-quality-data">Driving Efficient Manufacturing with High-Quality Data</h2>
+  <p>With SAP Digital Manufacturing, Jowat left error-prone, manual processes behind and now benefits from seamless digital workflows with end-to-end transparency. This helps increase quality and ease work for shop floor operators. The activity confirmation is automatically done in the SAP system, enabling real-time inventory insight.</p>
+  <p>Consequently, Jowat gained the following benefits:</p>
+  <ul>
+    <li>100% digitalized manufacturing process</li>
+    <li>One source of truth for detailed production information</li>
+    <li>Time savings of three person days per week through automated raw material consumption updates allowing employees focus on higher value activities</li>
+    <li>100% accurate inventory</li>
+  </ul>
+  <p>“Today workers feed consumption information at the point of production. Previously, it would take one full-time employee three days a week to track raw materials consumption,” said Segger. “With SAP Digital Manufacturing, we have a real-time, accurate picture of our raw materials usage and needs. This is helping us optimize usage and reduce costs.”</p>
+  <p>Podleschny-Borchardt added: “Production processes are so much faster now that we have built streamlined digital processes. Before, our paper-based ways of working could add up to five days to production timelines. With SAP Digital Manufacturing, we’ve shaved off this time, allowing us to produce and distribute products to our customers much faster, boosting satisfaction.”</p>
+  <h2 id="planning-ahead-for-an-ai-driven-future">Planning Ahead for an AI-Driven Future</h2>
+  <p>With reliable, up-to-date information in SAP Digital Manufacturing, plant managers and leaders at Jowat can have full visibility across the entire manufacturing cycle. “SAP Digital Manufacturing has helped improve the traceability of our products and given us a much more detailed understanding of our manufacturing operations. Ultimately, that helps to enhance planning and provides new insights into potential process improvements,” said Künne.</p>
+  <p>Jowat’s plans for SAP Digital Manufacturing go far beyond a global rollout. The company is already exploring the potential to scale and streamline manufacturing processes further with artificial intelligence (AI) and Internet of Things (IoT) technologies.</p>
+  <p>“AI holds tremendous potential for us,” reflected Podleschny-Borchardt. “We’re excited to explore how it can help us to ensure consistently excellent quality across heavily customized product lines and how we can enhance production uptime with IoT-driven predictive maintenance. Having an AI-ready solution like SAP Digital Manufacturing at the heart of our operations makes taking these next steps in our innovation journey much easier.”</p>
+  <p>Summarizing the overall benefits, Künne concluded: “With the implementation of SAP Digital Manufacturing through SAP Services and Support, we see ourselves on the way to becoming a transparent factory with a reduction in risks, errors, and process costs thanks to optimized processes.”</p>
+  <p><a href="https://www.sap.com/about/customer-stories/smart-press-shop.html">Discover benefits other companies have gained</a>, including improved quality with AI-assisted visual inspection. Be sure to listen to the <a href="https://event.on24.com/eventRegistration/console/apollox/mainEvent?&#x26;eventid=4294893&#x26;sessionid=1&#x26;username=&#x26;partnerref=web&#x26;format=fhvideo1&#x26;mobile=&#x26;flashsupportedmobiledevice=&#x26;helpcenter=&#x26;key=2A85021F45D14DF9C657C622AA74D180&#x26;newConsole=true&#x26;nxChe=true&#x26;newTabCon=true&#x26;consoleEarEventConsole=false&#x26;text_language_id=en&#x26;playerwidth=748&#x26;playerheight=526&#x26;eventuserid=626283838&#x26;contenttype=A&#x26;mediametricsessionid=550094581&#x26;mediametricid=6052808&#x26;usercd=626283838&#x26;mode=launch">webinar</a> about how a renowned manufacturer revolutionizes manufacturing with Industry 4.0. Also, read this <a href="https://www.sap.com/cmp/dg/risk-resilient-supply-chain-manufacturing/typ.html">report</a> from Oxford Economics about making supply chains more resilient and sustainable.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>Karin Fent is senior director of Global Customer Success for Digital Supply Chain at SAP.</p>
+        <p>Top image courtesy of Jowat.</p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>industry/mining: industry/mill-products</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Supply Chain Issues Keeping CEOs Up at Night]]></title>
+            <link>https://www.sap.com/blogs/2023/11/supply-chain-issues-keeping-ceos-up-at-night</link>
+            <guid>https://www.sap.com/blogs/2023/11/supply-chain-issues-keeping-ceos-up-at-night</guid>
+            <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Supply chain issues keep executives up at night, but SAP is working to leverage the power of generative AI for supply chain resilience.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Supply Chain Issues Keeping CEOs Up at Night" src="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="supply-chain-issues-keeping-ceos-up-at-night">Supply Chain Issues Keeping CEOs Up at Night</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Building risk-resilient supply chains is one of the top issues CEOs are discussing on earning calls and in board rooms around the globe. The issue has gone from one priority among many to business critical. And CEOs are no longer just pursuing lower costs, shorter lead times, and higher quality.</div>
+    </div>
+  </div>
+  <p>Instead, they are recognizing the need to resolve supply chain disruptions in an integrated way, bridging the silos of various functions and going beyond dealing with supply chain disruptions as they occur.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="a-risk-resilient-and-sustainable-supply-chain-is-one-that-is-connected-contextualized-and-collaborative">A risk-resilient and sustainable supply chain is one that is connected, contextualized, and collaborative</h3>
+        <p><em><a href="https://www.sap.com/products/scm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Taking a macro-view is also something governments have begun doing. Just think of the huge investments to “bring supply chains home”; for example, <a href="https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-chips-act_en">€43 billion in the EU</a> for semiconductors or <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/04/17/fact-sheet-biden-harris-administration-announces-new-private-and-public-sector-investments-for-affordable-electric-vehicles/">$100 billion in the U.S.</a> for sustainable energy. At the same time, diversifying supply chains and complying with new regulations keeps increasing their complexity.</p>
+  <p>Companies take various approaches to these challenges, such as de-coupling their supply chains by building up costly inventories for critical components. Another option is reshoring or nearshoring, which brings manufacturing and supplier relationships closer to core markets, ideally in countries with similar political and economic systems. But all of these strategies come with downsides, including the cost of operations in globally competitive markets.</p>
+  <p>At SAP, our vision is to embrace interconnected supply chains and optimize material flows — sustainably — with digital technologies. We believe in intelligent strategies to reduce supply chain uncertainties for the long-term by helping industries redefine their operations and by creating value chains that are more intelligent, connected, and responsive.</p>
+  <h2 id="supply-chain-convergence-increases-agility">Supply Chain Convergence Increases Agility</h2>
+  <p>Companies that resolve supply chain disruptions in an integrated manner bridge the silos of various functions such as procurement, logistics, or manufacturing. That’s how they can truly alleviate the impact to their organizations. Supply chain functions need to work in concert and extend into their ecosystem of suppliers. Even the most accurate supply chain plan is meaningless if material suppliers cannot commit to volumes and lead times. Through integrating supply chain planning, such as demand and supply plans with procurement collaboration, manufacturers have a much stronger strategic lever to avoid downstream shortages.</p>
+  <p>At SAP, we call this approach <strong>design-to-operate</strong>. Our strategy is to deeply connect all relevant functions in a supply chain along end-to-end value chains and business processes. Going beyond the four walls of your own enterprise, into your ecosystem of suppliers and sub-suppliers — that’s the ultimate way to tackle supply chain challenges. In the case of supply shortages, for example, it is imperative to analyze the impact to the organization.</p>
+  <p>With SAP Integrated Business Planning, <a href="https://blogs.sap.com/2022/07/05/how-network-aware-supply-chain-planning-drives-resiliency/">affected production orders can be quickly identified</a>. Impacted customer orders and revenue at risk are visible and informed actions can be taken to mitigate any shortages, for example, by changing production schedules. The SAP Digital Manufacturing system knows immediately about the changed production plan for the next shifts and adjusts labor and resources accordingly. Logistics departments in SAP Extended Warehouse Management orchestrate the new material flow, <a href="https://blogs.sap.com/2023/04/14/sap-digital-manufacturing-and-ewm-integration-using-manage-staging-2.0-app/">moving the right raw materials into production</a>, and asset maintenance activities are re-scheduled to adhere to the new production priorities.</p>
+  <p>As a result, supply chain leaders who follow a design-to-operate paradigm are highly agile and can take critical actions quickly to deal with supply chain disruptions.</p>
+  <h2 id="saps-industry-business-networks-a-new-paradigm">SAP’s Industry Business Networks: A New Paradigm</h2>
+  <p>Entire industries are recognizing the benefits of going beyond the four walls of their own enterprise. Consider a car company investigating faulty engines coming from one of their production lines. Now imagine it can trace the failure not only to a particular batch of components from one supplier but then dig even deeper to identify faulty basic parts from the supplier’s supplier. Instead of having to recall thousands of vehicles, it needs to recall only a few.</p>
+  <p>Solving problems this way requires a mindset for radical collaboration as well as technology for efficient, cross-company data exchange. <a href="https://catena-x.net/en/">Catena-X</a> is an open network that enables just that. It guarantees interoperability by defining common standards. The network is not owned by a single business and data providers keep their data sovereignty. For instance, they define for how long and for which purpose their data can be used. On the other hand, consumers can trust that data comes from a reliable source.</p>
+  <p>SAP is one of the founding members of Catena-X, together with five other companies. Since 2020, the initiative has grown to <a href="https://catena-x.net/fileadmin/_online_media_/231012_1_CAT_007_List_of_Members_EN.pdf">170 international auto makers, suppliers, and</a> IT companies. Among them are Germany’s biggest car companies as well as many small and medium enterprises. Catena-X may soon become the industry’s standard.</p>
+  <p>Naturally, the <a href="https://www.sap.com/industries/automotive/industry-network-automotive.html">SAP Business Network for the automotive industry</a> is ready for Catena-X. It readily connects Catena-X to SAP’s broad portfolio of automotive IT solutions to trace parts, measure carbon emissions and manage demand, capacity and quality. Recently, SAP announced business networks for more industries, including <a href="https://www.sap.com/products/business-network/industries.html">high tech, industrial manufacturing, consumer products, and life sciences</a>, with more to come.</p>
+  <h2 id="generative-ai-adds-new-types-of-intelligence">Generative AI Adds New Types of Intelligence</h2>
+  <p>A key tool in solving supply chain complexity challenges is artificial intelligence (AI). Even before the recent groundbreaking advances in large language models (LLMs) and generative AI, our supply chain solutions have been infused with both “traditional” and “advanced” AI.</p>
+  <p>For instance, <a href="https://www.sap.com/products/scm/integrated-business-planning.html">SAP Integrated Business Planning for Supply Chain</a> creates demand forecasts based on historical demand patterns, but it also leverages advanced machine learning capabilities to improve forecast demand with point-of-sales data and improve planning quality using self-healing master data and lead time predictions. In the future, generative AI will enable completely new types of intelligent capabilities like these:</p>
+  <ul>
+    <li><strong>Facilitating human-machine interaction:</strong> Users will soon be able to interact with their system much more naturally via our new embedded <a href="/2023/09/joule-new-generative-ai-assistant">generative assistant Joule</a>. For example, they will be able to ask which of customer X’s demands for product Y are still unfilled in Central America. Joule will give the answer, intelligently combining data from various systems and domains because it will be embedded throughout the SAP cloud enterprise portfolio.</li>
+    <li><strong>Supporting creativity:</strong> Much like a sparring partner, generative AI can help designers, engineers, and product managers create new product ideas in an innovation cycle and iterate them with SAP Enterprise Product Development.</li>
+    <li><strong>Transforming unstructured data:</strong> Consider a truck arriving at a warehouse with inbound cargo. The clerk knows what cargo to expect and this is saved in an SAP system. However, what is really on the truck is written on a loading list, often in paper form. Making this data available digitally has been possible for quite a while and is known as optical character recognition (OCR). What’s new is that generative AI tools can now match the unstructured loading list to the structured data already in the system — in a split second.</li>
+  </ul>
+  <p>Leveraging AI for companies to scale and sustain business operations will no longer be optional. Consider the increasing labor shortage facing manufacturing companies, among others. They will have a shortfall of up to 85 million employees by 2030 — roughly the population of Germany!</p>
+  <p>By automating mundane tasks with advanced AI capabilities, we will bridge the human resources gap and enable experts to focus on what really matters: making data-backed business decisions.</p>
+  <p>Human and artificial intelligence work hand in hand — it’s a duet, not a duel.</p>
+  <p>We already help our customers build risk-resilient supply chains and deeply connect enterprises to run productive, agile and automated operations. Now, by also leveraging the power of generative AI, we will ensure that supply chain resilience doesn’t have to be something that keeps CEOs up at night.</p>
+  <div class="footnote">
+    <div>
+      <div>Thomas Saueressig is a member of the Executive Board of SAP SE, SAP Product Engineering.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/catena-x</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>product/sap-extended-warehouse-management</category>
+            <category>product/sap-integrated-business-planning-for-supply-chain</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Powers Siemens Energy in SAP Digital Manufacturing Implementation Milestone]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-powers-siemens-energy-in-sap-digital-manufacturing-implementation-milestone</link>
+            <guid>https://www.sap.com/news/2023/10/sap-powers-siemens-energy-in-sap-digital-manufacturing-implementation-milestone</guid>
+            <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Siemens Energy has started to launch SAP Digital Manufacturing at five lighthouse plants in Germany, the UK and Mexico. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Powers Siemens Energy in SAP Digital Manufacturing Implementation Milestone" src="./media_1f59bed1f2f3f962501f6e20d910a06f617393469.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-powers-siemens-energy-in-sap-digital-manufacturing-implementation-milestone">SAP Powers Siemens Energy in SAP Digital Manufacturing Implementation Milestone</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>MUNICH</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced that Siemens Energy, a global leader in energy technology, has started to launch the SAP Digital Manufacturing solution at five lighthouse plants located in Germany, the United Kingdom and Mexico.</p>
+      </div>
+    </div>
+  </div>
+  <p>Together with implementation partner, Syntax Systems GmbH &#x26; Co. KG, this marks a milestone for Siemens Energy as it paves the way for further rollouts of SAP Digital Manufacturing throughout the company’s global network of plants over the coming years.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-digital-manufacturing-sustainable-risk-resilient-manufacturing-is-here">SAP Digital Manufacturing: Sustainable, risk-resilient manufacturing is here</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-manufacturing-cloud.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Siemens Energy turned to SAP for a single, unified manufacturing execution system landscape that would increase productivity and support standardization across its production plants globally. With Syntax as the implementation partner introducing and moving selected plants to SAP Digital Manufacturing, Siemens Energy will be able to oversee the entire shop floor with fit-for-purpose production dashboards, which provide shop floor operators with guidance and assistance, increasing productivity.</p>
+  <p>“The implementation of SAP Digital Manufacturing at our lighthouse plants marks an important milestone in our digital transformation journey,” said Kian Mossanen, Chief Information Officer, Siemens Energy. “This collaboration equips us with the tools needed to further enhance our production capabilities and foster a data-driven culture, allowing us to even better support our customers.”</p>
+  <p>SAP Digital Manufacturing will empower the Siemens Energy sites to make fast and critical production decisions based on real-time manufacturing information. With a harmonized solution, the plants will be able to optimize production processes, while low-code plug-ins support shop floor operators during assembly activities.</p>
+  <p>“The rollout of our solutions across the production network of Siemens Energy is aimed at supporting the company on its mission of making energy more reliable, affordable and sustainable,” said Sven Mulder, Managing Director, SAP Germany. “Clean energy is one of the most important assets of our time and this can only be achieved collaboratively using real-time data and analytics.”</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong><br>Lesa Plingen, +49 622 776 9000, <a href="mailto:lesa.plingen@sap.com">lesa.plingen@sap.com</a>, CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>product/sap-digital-manufacturing</category>
+        </item>
+        <item>
+            <title><![CDATA[Shinhwa Auto Drives North American Expansion with Public Cloud ERP]]></title>
+            <link>https://www.sap.com/news/2023/08/shinhwa-auto-drives-expansion-public-cloud-erp</link>
+            <guid>https://www.sap.com/news/2023/08/shinhwa-auto-drives-expansion-public-cloud-erp</guid>
+            <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Shinhwa Auto chose GROW with SAP so the company can operate in a more streamlined manner on a global, standardized scale. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>topic/erp</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Leveraging SAP’s Industry Cloud, Going from Concept to Commercialization Can Be Fast and Fulfilling]]></title>
+            <link>https://www.sap.com/news/2023/07/cogniac-sap-syntax-industry-cloud</link>
+            <guid>https://www.sap.com/news/2023/07/cogniac-sap-syntax-industry-cloud</guid>
+            <pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The industry cloud partnership between Cogniac, Syntax, and SAP illustrates how combining forces can deliver more value to customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-cloud</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>news-tag/sap-store</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[HANNOVER MESSE: Making Manufacturing More Resilient]]></title>
+            <link>https://www.sap.com/news/2023/04/hannover-messe-making-manufacturing-more-resilient</link>
+            <guid>https://www.sap.com/news/2023/04/hannover-messe-making-manufacturing-more-resilient</guid>
+            <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the 2023 Hannover Messe trade show, SAP showed visitors how it enables resilient, sustainable production and supply chain operations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/manufacturing-x</category>
+            <category>product/sap-digital-manufacturing</category>
+        </item>
+        <item>
+            <title><![CDATA[HANNOVER MESSE 2023: SAP Generates New Data-Driven Insights for Resilient Manufacturing]]></title>
+            <link>https://www.sap.com/news/2023/04/sap-hannover-messe-2023-data-driven-insights-resilient-manufacturing</link>
+            <guid>https://www.sap.com/news/2023/04/sap-hannover-messe-2023-data-driven-insights-resilient-manufacturing</guid>
+            <pubDate>Wed, 12 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At HANNOVER MESSE 2023, SAP will showcase its unique position to accelerate the journey to resilient manufacturing. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/manufacturing-x</category>
+            <category>news-tag/oxford-economics</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>product/sap-responsible-design-and-production</category>
+        </item>
+    </channel>
+</rss>

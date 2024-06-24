@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/research-development/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 16 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[RISE with SAP Accelerates Biotech Innovation]]></title>
+            <link>https://www.sap.com/news/2023/08/rise-with-sap-accelerates-innovation-stemcell</link>
+            <guid>https://www.sap.com/news/2023/08/rise-with-sap-accelerates-innovation-stemcell</guid>
+            <pubDate>Wed, 16 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[STEMCELL Technologies is digitally transforming to speed up advanced healthcare discoveries, bringing hope to patients and their families.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digitalization</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/innovation</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/research-development</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Industry Innovation: Turning Supply Chains into Hot Spots for Meaningful Change]]></title>
+            <link>https://www.sap.com/news/2022/10/industry-innovation-supply-chains-meaningful-change</link>
+            <guid>https://www.sap.com/news/2022/10/industry-innovation-supply-chains-meaningful-change</guid>
+            <pubDate>Thu, 20 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Customer Solution Support & Innovation organization at SAP works with various organizations to support and encourage industry innovation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/banking</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/innovation</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/research-development</category>
+            <category>news-tag/sap-advanced-track-and-trace-for-pharmaceuticals</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-information-collaboration-hub-for-life-sciences</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable AI Turns Small Data into Huge Results for Manufacturers and Researchers]]></title>
+            <link>https://www.sap.com/news/2022/04/sustainable-sparse-modeling-ai-manufacturers-researchers</link>
+            <guid>https://www.sap.com/news/2022/04/sustainable-sparse-modeling-ai-manufacturers-researchers</guid>
+            <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sparse modeling AI is the tech of choice for manufacturers and researchers who demand speed, sustainability, and explainability. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/research-development</category>
+            <category>news-tag/sap-store</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches R&D Hub for Deep Tech in Singapore]]></title>
+            <link>https://www.sap.com/news/2022/03/sap-launches-sap-labs-singapore</link>
+            <guid>https://www.sap.com/news/2022/03/sap-launches-sap-labs-singapore</guid>
+            <pubDate>Thu, 31 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Labs Singapore will drive product leadership, foster local digital talent, and boost ecosystem and community engagement. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/research-development</category>
+            <category>news-tag/sap-labs-network</category>
+        </item>
+    </channel>
+</rss>

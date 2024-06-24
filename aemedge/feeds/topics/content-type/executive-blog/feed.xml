@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/content-type/executive-blog/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 17 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Elevating the RISE with SAP Experience]]></title>
+            <link>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</link>
+            <guid>https://www.sap.com/blogs/2024/06/elevating-rise-with-sap-experience</guid>
+            <pubDate>Mon, 17 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the elevated RISE with SAP experience that is improving services and delivery for customers end-to-end.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Elevating the RISE with SAP Experience" src="./media_16f71bd27ee4db299c2fe36e929f4108d8ce4d936.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="elevating-the-rise-with-sap-experience">Elevating the RISE with SAP Experience</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>According to Albert Einstein, “Life is like a bicycle. To keep your balance, you must keep moving.” He had a point! The same is true of business.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-sapphire-taking-business-to-the-next-level-in-the-era-of-ai">SAP Sapphire: Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Successful businesses keep moving and evolving, especially in times of rapid change and macroeconomic uncertainty. And given the current volatility, business transformation is no longer optional; it’s imperative.</p>
+  <p>Knowing this, we launched RISE with SAP in 2021 not as a technical IT migration approach, but as a comprehensive solution designed to drive broad business transformation. With 6,000 customers having selected RISE with SAP, we know we cannot stop moving either. And I was <a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">thrilled to share at SAP Sapphire this year</a> how we are taking the RISE with SAP experience to the next level and improving services and delivery for customers end-to-end.</p>
+  <p>Here are some key takeaways.</p>
+  <h2 id="evolving-how-we-engage-with-customers">Evolving How We Engage with Customers</h2>
+  <p>Navigating the transformation of today’s complex system landscapes and business processes is like orchestrating a symphony with countless instruments and moving parts. To succeed, we need to keep refining our engagement approach to better manage the intricacies of our customers’ complex architecture at an unprecedented level of detail.</p>
+  <p>To this end, we’re making a lot of changes in how we engage with customers, including strengthening the role of the enterprise architect (EA). The EA harmonizes all elements and guides the customer throughout their cloud journey.</p>
+  <h2 id="enhancing-methodologies">Enhancing Methodologies</h2>
+  <p>We know the biggest challenge for any cloud transformation is to make the system landscape more agile and enable innovation — quickly. We’ve been listening and have introduced solutions. For example, our <strong><a href="/2024/04/transform-confidence-rise-with-sap-methodology">RISE with SAP Methodology</a></strong> is a significant step forward in creating a consistent experience for all RISE with SAP customers, independent of their individual cloud journeys. Now, a dedicated enterprise architect guides customers through the RISE with SAP Methodology to enhance onboarding and provides transparency throughout the project with key milestone checks, q-gates, and checklists that ensure consistent quality and more predictable timelines throughout the implementation process.</p>
+  <p>This new offering is included in our <strong><a href="https://www.sap.com/products/erp/rise.html#migration">SAP RISE Migration and Modernization</a></strong> program, which is designed to give customers the confidence to migrate even the most complex ERP systems to the cloud. By enabling our customers to integrate and extend SAP S/4HANA with a clean core approach, we ensure our customers experience better maintainability and lower total cost of ownership.​ Because legacy ERP systems often carry technical debt and, let’s face it, code is also a liability not just an asset. The more code you have, the more you have to optimize, debug, and modernize. And this is something we all need to actively work against.</p>
+  <h2 id="introducing-partner-training-and-validation">Introducing Partner Training and Validation</h2>
+  <p>We are also making it easier for RISE with SAP customers to identify partners to help with complex SAP S/4HANA Cloud transformations. It is essential for our partner ecosystem to follow the RISE with SAP Methodology as well. For customers to onboard successfully, there needs to be a close alignment between SAP, the customer, and implementation partner. This is why we are training and validating partners to use the RISE with SAP Methodology and will collaborate closely with partners to provide consistency and quality.</p>
+  <p>We are also introducing the <strong>RISE with SAP Validated Partner</strong> recognition, which verifies a partner’s adherence to the RISE with SAP Methodology and our q-gates, giving businesses the confidence to know that they are fully leveraging the potential of cloud-based innovations from SAP. Almost 90% of all SAP implementations are overseen by partners, so training and validating them is a key part of our strategy to ensure consistency and quality for customers.</p>
+  <h2 id="building-a-seamless-end-to-end-tool-chain">Building a Seamless End-to-End Tool Chain</h2>
+  <p>As a former SAP CIO, I’ve felt the challenges (and pain) of large-scale transformation. I know the pressure CIOs are under to show tangible business outcomes quickly. It’s why true business transformation requires a holistic approach, not a simple technology lift and shift.</p>
+  <p>We deliver the most complete business transformation suite in the industry. With the range of capabilities on offer today — including SAP Signavio, SAP LeanIX, and SAP Cloud ALM solutions as well as SAP Business Technology Platform — we have an amazing set of tools to bring out the best in businesses. Now, we are bringing them more closely together as one end-to-end seamless tool chain to make it easier to manage the process, system, and data landscape holistically.</p>
+  <p>With our recently announced <a href="/2024/06/sap-enters-agreement-to-acquire-walkme">agreement to acquire <strong>WalkMe</strong></a>, we plan to further strengthen our ability to deliver successful business transformation across applications, processes, systems, and people. ​WalkMe will help us incorporate user-centric adoption, enablement, and productivity capabilities alongside our Business Transformation Management portfolio of SAP Signavio and SAP LeanIX solutions. And WalkMe’s AI capabilities will complement our process AI with user intelligence, improving the capabilities of our <a href="https://www.sap.com/products/artificial-intelligence/ai-assistant.html">generative AI copilot Joule</a> to help people get work done faster.​</p>
+  <h2 id="sap-business-ai-new-frontier-for-business-transformation">SAP Business AI: New Frontier for Business Transformation</h2>
+  <p>In 2024, SAP Sapphire has been an opportunity for us to showcase how we are introducing in a new era of optimized business operations, with all the IT complexity concealed behind intuitive, AI-powered user experiences.</p>
+  <p>We highlighted the progress we are making embedding Joule throughout our enterprise portfolio and the enormous potential we see for AI to support both customers and partners in their RISE with SAP journey. I was thrilled to announce that starting in Q4 of 2024, customers and partners can leverage generative AI-powered assistance for their RISE with SAP clean core success plan.</p>
+  <p>We are also bringing new consulting capabilities to Joule, aimed at simplifying SAP implementations for partners. The new consulting capability draws insights from SAP product documentation and the SAP community to provide consultants with vital information and is planned to be available in the second half of this year.</p>
+  <h2 id="business-transformation-more-than-an-it-project">Business Transformation: More Than an IT Project</h2>
+  <p>At SAP, we understand that true business transformation is more than an IT project. It requires a holistic approach and not a simple technological lift and shift. That’s why we are putting the people, methodologies, financial incentives, tools, partner practices, and SAP Business AI in place to ensure our customers not only have compelling reasons to move to the cloud, but also a compelling experience.</p>
+  <p><strong>Learn more:</strong></p>
+  <ul>
+    <li>Watch the replay of the <strong><a href="https://www.youtube.com/watch?v=ZZ1yFoALzAs">Customer Keynote at SAP Sapphire</a></strong></li>
+    <li>Read all the announcements in the <strong><a href="https://www.sap.com/events/sapphire/news-guide.html">SAP Sapphire News Guide</a></strong></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Thomas Saueressig is a member of the Executive Board of SAP SE leading Customer Services &#x26; Delivery.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-leanix</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Driving Progress in Sustainability, Adoption, and AI: The 2024 SAP Innovation Award Winners]]></title>
+            <link>https://www.sap.com/blogs/2024/04/2024-sap-innovation-award-winners</link>
+            <guid>https://www.sap.com/blogs/2024/04/2024-sap-innovation-award-winners</guid>
+            <pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The 2024 SAP Innovation Award winners have utilized SAP solutions and AI to achieve remarkable results. Learn more about the winners.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/corporate</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/customer-story</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/innovation</category>
+            <category>sap-award/sap-innovation-awards</category>
+        </item>
+        <item>
+            <title><![CDATA[Combine the Power of AI with Business Context Using SAP HANA Cloud Vector Engine]]></title>
+            <link>https://www.sap.com/blogs/2024/04/sap-hana-cloud-vector-engine-ai-with-business-context</link>
+            <guid>https://www.sap.com/blogs/2024/04/sap-hana-cloud-vector-engine-ai-with-business-context</guid>
+            <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest quarterly release introduces the SAP HANA Cloud vector engine, enhancing capabilities with AI technology to tackle complex issues.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP's Adoption Revolution: When Expectations and Outcomes for Cloud Transformation Meet]]></title>
+            <link>https://www.sap.com/blogs/2024/04/cloud-transformation-adoption-revolution-expectations-outcomes-meet</link>
+            <guid>https://www.sap.com/blogs/2024/04/cloud-transformation-adoption-revolution-expectations-outcomes-meet</guid>
+            <pubDate>Tue, 02 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new Customer Services & Delivery Board area at SAP will make it easier and faster for customers to adopt cloud solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/corporate</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[The Biggest Opportunity for Businesses Today: Using the Right Business Data]]></title>
+            <link>https://www.sap.com/blogs/2024/03/business-opportunity-use-the-right-business-data</link>
+            <guid>https://www.sap.com/blogs/2024/03/business-opportunity-use-the-right-business-data</guid>
+            <pubDate>Mon, 11 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Having a central hub for data is more critical than ever. Updates to SAP Datasphere empower businesses with more innovations.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10cb3ea6ef420b80f58847074323ded1ddf40b734.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10cb3ea6ef420b80f58847074323ded1ddf40b734.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10cb3ea6ef420b80f58847074323ded1ddf40b734.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Biggest Opportunity for Businesses Today: Using the Right Business Data" src="./media_10cb3ea6ef420b80f58847074323ded1ddf40b734.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-biggest-opportunity-for-businesses-today-using-the-right-business-data">The Biggest Opportunity for Businesses Today: Using the Right Business Data</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There is no doubt that generative AI for business will transform every aspect of how business is done. But the reality is that generative AI is only as good as the data that it’s trained on.</div>
+    </div>
+  </div>
+  <p>While data may be the fuel powering the engine of AI, it’s good data that’s the real game changer. With good data, a company can automate processes — freeing up their people to do the most impactful work — and analyze the most important variables facing their business to create intelligent insights.</p>
+  <p>That’s where a datasphere comes in. It makes data more complete and logical by understanding the different relationships within a company’s data. And that’s what can truly bring out the best in any business today.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="deliver-seamless-and-scalable-access-to-mission-critical-business-data">Deliver seamless and scalable access to mission-critical business data</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere.html">Explore SAP Datasphere</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Having a central hub for data is more critical than ever. It allows our customers to better model their business across all SAP business applications. That’s exactly why we introduced <strong>SAP Datasphere</strong> last year to empower businesses with insights they need – based on the right data – in the context of their business. Since then, generative AI has disrupted and simplified even more business processes, and data capture is no different. This week <a href="/2024/03/future-of-data-driven-business-new-sap-datasphere-capabilities">we announced new generative-AI features in SAP Datasphere that will transform enterprise planning</a> through simplified data landscapes and more-intuitive data interaction.</p>
+  <p>Why is this important? Because having a unified data view that simplifies the data landscapes while retaining context and logic is what enables businesses to adapt faster to market changes and make better decisions. It’s also a more efficient way of working. Because while you’re busy pulling data together, competitors are circling your customers.</p>
+  <p>I am constantly speaking with our customers about the value of SAP Datasphere. It’s a data architecture that harmonizes mission-critical data across an organization. I hear amazing outcomes they’re able to achieve: from PwC breaking down silos in the different countries where it stores sensitive data so its workforce can access it more efficiently and securely for customers, to the Lufthansa Group taking data from different parts of its operations like aircraft, HR, and procurement, to see how decisions from one could impact the other.<br><br>With our additional news this week, such as making our generative AI copilot Joule available in SAP Analytics Cloud and expanding our partnership with Collibra to help our customers meet compliance, privacy, and regulatory requirements related to AI as they evolve, we’re making it easier to find the right data and use it to drive deeper insights, more efficiencies, faster growth, and more trust in their business.</p>
+  <p>While PwC and Lufthansa show what’s possible today with a simplified data fabric, imagine what is about to become possible when you infuse it with the power of generative AI that understands your business – and then learns from that data. This has the potential to deliver exponential value from your data.</p>
+  <p>Or think of it this way: years ago, the biggest differentiators for businesses were price, location, products, and services. Today, and especially in the years ahead, it could very well be how effectively a business is training their AI models. That’s why building the right data fabric is one of the most important investments any business can make today.</p>
+  <p>It’s been said that the best way to predict the future is to invent it. And in an era where data is being created exponentially, I believe that those businesses that can separate the signal from the noise when it comes to their data will be the ones that invent the future in an AI-first world.</p>
+  <div class="footnote">
+    <div>
+      <div>Scott Russell is a member of the Executive Board of SAP SE.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="take-a-guided-tour-and-experience-firsthand-the-power-of-business-data-with-sap-datasphere">Take a guided tour and experience firsthand the power of business data with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">Start now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[What the Automotive Industry Can Learn from the Next Wave of Digital Transformations]]></title>
+            <link>https://www.sap.com/blogs/2024/02/next-wave-digital-transformation-automotive-industry</link>
+            <guid>https://www.sap.com/blogs/2024/02/next-wave-digital-transformation-automotive-industry</guid>
+            <pubDate>Thu, 22 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the automotive industry, disruption is a massive opportunity. Learn more about the next wave of digital transformation in the industry.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>industry/automotive</category>
+            <category>news-tag/bmw</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[How Generative AI for Business Is Creating a New Playbook for Value]]></title>
+            <link>https://www.sap.com/blogs/2024/02/how-generative-ai-for-business-is-creating-a-new-playbook-for-value</link>
+            <guid>https://www.sap.com/blogs/2024/02/how-generative-ai-for-business-is-creating-a-new-playbook-for-value</guid>
+            <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The promise of generative AI is the value it creates. With it, SAP Sports One supports better scouting. Learn why businesses should care.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Get the Most Out of This Transformative Moment for Business Technology]]></title>
+            <link>https://www.sap.com/blogs/2024/01/ai-transformative-moment-business-technology</link>
+            <guid>https://www.sap.com/blogs/2024/01/ai-transformative-moment-business-technology</guid>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Two transformative technologies are converging: the cloud and generative AI. With them, integration across systems matters more than ever.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Is Supply Chain Innovation Even Possible in an Era of Tighter Regulation?]]></title>
+            <link>https://www.sap.com/blogs/2024/01/is-supply-chain-innovation-possible-era-tighter-regulation</link>
+            <guid>https://www.sap.com/blogs/2024/01/is-supply-chain-innovation-possible-era-tighter-regulation</guid>
+            <pubDate>Tue, 16 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[When it comes to supply chain regulation, compliance and innovation are not mutually exclusive. Investing in advanced technologies can help.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/catena-x</category>
+            <category>non-sap-event/wef-davos</category>
+            <category>product/sap-integrated-business-planning-for-supply-chain</category>
+        </item>
+        <item>
+            <title><![CDATA[Trustworthy AI Can Reinvent Companies and Help Resolve Global Challenges]]></title>
+            <link>https://www.sap.com/blogs/2024/01/trustworthy-ai-can-reinvent-companies-and-help-resolve-global-challenges</link>
+            <guid>https://www.sap.com/blogs/2024/01/trustworthy-ai-can-reinvent-companies-and-help-resolve-global-challenges</guid>
+            <pubDate>Tue, 16 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pioneering trustworthy AI will offer nations, regions, and businesses a greater competitiveness, resilience, and sustainability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>non-sap-event/wef-davos</category>
+        </item>
+        <item>
+            <title><![CDATA[AI: Act, Don’t Hesitate]]></title>
+            <link>https://www.sap.com/blogs/2024/01/ai-act-dont-hesitate</link>
+            <guid>https://www.sap.com/blogs/2024/01/ai-act-dont-hesitate</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Thomas Saueressig tackles the question of what Germany needs to do in order to seize and act on AI and its opportunities. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f4949b3d53dbf46c9cb030f708afe34afe3a67e8.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f4949b3d53dbf46c9cb030f708afe34afe3a67e8.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f4949b3d53dbf46c9cb030f708afe34afe3a67e8.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="AI: Act, Don’t Hesitate" src="./media_1f4949b3d53dbf46c9cb030f708afe34afe3a67e8.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="ai-act-dont-hesitate">AI: Act, Don’t Hesitate</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>Artificial intelligence (AI) is here, whether we like it or not</strong>. In my opinion, the rapid rise of generative AI can be attributed to three factors:</div>
+    </div>
+  </div>
+  <ul>
+    <li>Firstly, technological progress, as improved AI architectures and available data have enabled models to perform impressively.</li>
+    <li>Secondly, an economic effect as successful platforms of the past, such as the Internet and the cloud, experienced breakthroughs when marginal costs approached zero. That was the birth of platform innovation. In the case of the Internet, for example, the cost of distributing increasing amounts of content approached zero. When it comes to content creation, we are also seeing the same thing now with generative AI. Therefore, AI is not just hype, but an innovation platform.</li>
+    <li>Thirdly, we are witnessing a growing social acceptance. Generative AI was brought into the consciousness of the general public as millions of users suddenly gained access, seemingly overnight, to language models like ChatGPT and tried them out for themselves.</li>
+  </ul>
+  <p><strong>AI is powerful, but not all-powerful</strong>. Artificial intelligence are big words. Smart neural networks and models excite us because they are designed to mimic human patterns as closely as possible. They can offer solutions for certain types of problems. What they can’t do is find a solution to a previously unsolved problem and compete with the inexhaustible creativity and empathy of humans.</p>
+  <p>Recently, I was asked to name an example when AI really ‘wowed’ me. For me, it was the moment I read that ChatGPT had passed the medical exam in the U.S. My wife is a doctor, so I’m somewhat familiar with medicine and everyday hospital life. Will AI replace humans here? No. Will technology like AI improve the lives of healthcare workers and thus patients? I believe so. AI creates space for professionals where they are most needed.</p>
+  <p><strong>AI is changing everything.</strong> Are we just going along with this change or are we boldly leading the way? We are at a crucial point where generative AI will also significantly change business processes in companies. <a href="https://www.mckinsey.de/news/presse/genai-ist-ein-hilfsmittel-um-die-produktivitaet-zu-steigern-und-das-globale-wirtschaftswachstum-anzukurbeln">McKinsey</a> considers AI to be a productivity booster and predicts worldwide increases in the trillions. This is urgently needed if we look at demographic trends and the growing shortage of skilled workers. Provided that companies use AI consistently, this much is certain: AI will revolutionize the way we work and live.</p>
+  <p><strong>AI will shape our country.</strong> The question is whether we see it as a threatening competitor or a helpful companion. It is up to us to decide whether these significant changes will provide a boost to innovation in Germany and Europe. Germany, and indeed each of us, must adapt to change in order to remain globally competitive. It is important to recognize and minimize the risks, but also to see the opportunities as chances.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="see-how-you-can-benefit-from-sap-business-ai-built-into-your-core-business-processes">See how you can benefit from SAP Business AI built into your core business processes</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>So, what do we need to do in order to seize this opportunity for Germany?</p>
+  <h2 id="use-strengths-and-competitive-advantages">Use Strengths and Competitive Advantages</h2>
+  <p>According to an <a href="https://www.zeit.de/wirtschaft/2023-09/wirtschaftsleistung-wachstum-ki-kuenstliche-intelligenz-studie">IW study</a>, systems with generative AI capabilities can contribute to approximately €330 billion of future value creation in the German economy. We would be able to gain a competitive advantage if AI is value-oriented, transparent, and explainable. A suitable legal framework with high ethical standards promotes the ability to innovate; over-regulation would have the opposite effect. We should not categorically classify generative AI as high-risk, but rather leave room for innovation.</p>
+  <p>We are moving in the right direction with the EU AI Act’s risk-based approach. And when the various regulations on AI and data protection interact, we are on the right track. Because there can be no compromises in the use of AI when it comes to business-critical processes and decisions.</p>
+  <p>Therefore, at SAP, we see it as our duty to deliver responsible, reliable, and business-relevant AI results. That is why we are looking at how to best utilize the various models to provide value to customers. The models behave very differently. We see ourselves as a driving force in terms of enterprise AI. However, we do not rely solely on our own expertise, but collaborate with research institutions and leading providers of generative AI.</p>
+  <p>Our credo is: AI is a natural part of our software and intuitively integrated into processes and applications. Why? Because for us, it’s not about writing a poem with AI, but about using AI in a specific business context based on real-time data — and, when necessary, to support business-critical decisions.</p>
+  <p>To make this possible, we are working on our own foundation model, which is trained on the data of thousands of customers that have consented to the use of their data. AI models trained on publicly available data do not have this valuable context. Therefore, while they may pass a medical exam because the knowledge is available on the Internet, they will not be able to answer complex questions in the context of a company. Because AI is only as good as the data it relies on. This includes filtering out biased data or queries.</p>
+  <h2 id="promote-a-climate-of-innovation-and-openness-to-technology">Promote a Climate of Innovation and Openness to Technology</h2>
+  <p>Currently, <a href="https://www.tagesschau.de/inland/innenpolitik/ki-strategie-bundesregierung-101.html">73% of major AI models</a> are developed in the U.S. and 15% in China. This is also due to the willingness to invest. The fact that the German government will <a href="https://www.bundesregierung.de/breg-en/issues/remembrance-and-commemoration/business-hub-germany-2209048">invest around €3.5 billion in AI by 2025</a> is a positive signal, but it is not enough. The private sector also needs to invest significantly more across all industries. Additionally, the “can do” mentality is more pronounced elsewhere. Of the 1,300 <a href="https://www.statista.com/statistics/1096928/number-of-global-unicorns-by-country/">startup unicorns</a> worldwide, only 36 are in Germany. Our AI research is among the best; however, the insights rarely lead to companies being created.</p>
+  <p>We do not lack knowledge in Germany, we lack the will to implement it. And according to the <a href="https://leam.ai/wp-content/uploads/2023/05/LEAM-Feasibility-STudy.pdf">LEAM: AI feasibility study</a>, there is also a lack of computing power and a supercomputing infrastructure for AI.</p>
+  <p>We should also strengthen small and midsize enterprises (SMEs). As the backbone of the German economy, SMEs must receive the necessary support — including from the public sector — to drive AI forward. According to a <a href="https://www.bitkom.org/Presse/Presseinformation/Deutsche-Wirtschaft-drueckt-bei-Kuenstlicher-Intelligenz-aufs-Tempo">bitkom study</a>, 15% of all companies are already using AI. But this is not yet the urgently needed boost to AI innovation. At least 68% understand the importance of AI and consider AI to be the most important future technology, but too few are taking action.</p>
+  <p>This clearly shows that most people are looking into AI. But for many companies, AI is not yet an issue. This gap needs to be closed so that in the future not just a minority but a majority of companies use AI. We must act instead of hesitating!</p>
+  <h2 id="culturally-embedding-a-readiness-for-change-and-lifelong-learning">Culturally Embedding a Readiness for Change and Lifelong Learning</h2>
+  <p>Innovation starts in the mind. Every company wants employees who think like entrepreneurs. Those who don’t want to wait for something coming from other corners of the world. But for that, we need to overcome our reservations towards new technologies. Fears are blocking our view of opportunities and companies have a duty to act now. Transparency is the most important means to alleviate employees’ concerns about automation and AI.<br><br>AI will not make humans redundant, but it will change our existing professions. Well-trained professionals are and will remain indispensable, and AI can help to counteract the shortage of skilled workers to some extent. Not only the technologies themselves, but above all the responsible handling of data must be an integral part of school education. Similarly, companies should integrate AI into their company’s further education.</p>
+  <p>But what is particularly important is that for most professionals, it is not about understanding AI in every detail. There are experts for that, just as there are experts who design complex manufacturing machines. It is about developing the skills of the future: critical thinking and the ability to assess information and above all, empathy. Putting oneself in other people’s position is the core competency of the future! These are skills that make humans unique.<br><br>Therefore, I do not see AI as an apocalypse, but rather as one of our best chances for renewal and progress. Because the interaction between humans and machines is not a duel, but a duet.</p>
+  <div class="footnote">
+    <div>
+      <div>Thomas Saueressig is a member of the Executive Board of SAP SE.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Why We Must Leave No One Behind in the AI Revolution]]></title>
+            <link>https://www.sap.com/blogs/2024/01/ai-revolution-leave-no-one-behind</link>
+            <guid>https://www.sap.com/blogs/2024/01/ai-revolution-leave-no-one-behind</guid>
+            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[AI will radically change the way we live and work. The revolution must operate responsibly and benefit everyone.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>non-sap-event/wef-davos</category>
+        </item>
+        <item>
+            <title><![CDATA[Being Human in the Age of AI]]></title>
+            <link>https://www.sap.com/blogs/2023/12/being-human-in-the-age-of-ai</link>
+            <guid>https://www.sap.com/blogs/2023/12/being-human-in-the-age-of-ai</guid>
+            <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The current age of AI is disrupting every industry. To adapt, we must equip people with skills to adapt and thrive in changing environments.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[How the Cloud and AI Will Help More Companies Become Future Proof]]></title>
+            <link>https://www.sap.com/blogs/2023/12/cloud-ai-help-companies-become-future-proof</link>
+            <guid>https://www.sap.com/blogs/2023/12/cloud-ai-help-companies-become-future-proof</guid>
+            <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Businesses that invest in the cloud and AI will be able to future proof in ways that were previously unimaginable. Learn why.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Generative AI’s "Show Me the Money" Moment]]></title>
+            <link>https://www.sap.com/blogs/2023/12/generative-ai-show-me-the-money-moment</link>
+            <guid>https://www.sap.com/blogs/2023/12/generative-ai-show-me-the-money-moment</guid>
+            <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Generative AI is having a moment, one where businesses are demanding tech vendors show them the actual business value. Learn why.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_126d4ceb40bb13e68189e442c513da0611b047fe1.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_126d4ceb40bb13e68189e442c513da0611b047fe1.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_126d4ceb40bb13e68189e442c513da0611b047fe1.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Generative AI’s “Show Me the Money” Moment" src="./media_126d4ceb40bb13e68189e442c513da0611b047fe1.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="generative-ais-show-me-the-money-moment">Generative AI’s “Show Me the Money” Moment</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In a key scene from the 1996 movie “Jerry Maguire,” a pro football player is in the midst of contract negotiations with the Arizona Cardinals. He gets tired of his agent Jerry’s slick sales pitch and shouts at him in exasperation: “Show me the money!”</div>
+    </div>
+  </div>
+  <p>This is the very spot the world finds itself with <a href="https://www.sap.com/products/artificial-intelligence/what-is-generative-ai.html">generative AI</a>. We’re past the hype and slick generative AI sales pitches.</p>
+  <p>Business leaders now want results. They are demanding tech vendors show them the money — the actual business value delivered by generative AI.</p>
+  <h2 id="the-big-picture">The Big Picture</h2>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="what-is-artificial-intelligence">What is artificial intelligence?</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html">Get an overview</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>At a macro level, generative AI’s impact on productivity could add trillions of dollars in value to the global economy. McKinsey’s latest research estimates that generative AI could add the equivalent of $2.6 trillion to $4.4 trillion annually across just the 63 use cases the consultancy firm analyzed — by comparison, the UK’s entire GDP in 2021 was $3.1 trillion.</p>
+  <p>SAP is uniquely positioned to deliver on the promise of generative AI. We deliver the broadest suite of enterprise applications that maintain customers’ most mission-critical data. When this data is combined with the power of AI, it can truly revolutionize the way business runs.</p>
+  <p>Here are just a few examples of how we’re already showing customers the money with generative AI.</p>
+  <h2 id="supply-chain-automation">Supply Chain Automation</h2>
+  <p>We’ve built generative AI into the SAP Transportation Management solution to speed up freight verification and documentation for manufacturing customers.</p>
+  <p>This transforms a historically cumbersome task that’s often still done on paper into a quick, automated, and fully digitized process. Expediting freight processing time with this capability translates into real money, delivering nearly $1 million in annual savings at a single warehouse facility — a savings customers with multiple such facilities can realize many times over.</p>
+  <h2 id="human-capital">Human Capital</h2>
+  <p>Delta Air Lines is another customer working toward using SAP’s business AI. <a href="/2023/09/generative-ai-employee-experience-delta">Delta</a> is an early adopter of the talent intelligence hub built into SAP SuccessFactors. Delta Air Lines is developing a generative AI proof of concept slated to automatically transform generic skill descriptions into more accurate capabilities that reflect the job’s requirements based on real-world, updated employee and customer data in context.</p>
+  <p>To help employees move from an hourly, customer-facing role to the salaried corporate position of their dreams, Delta Air Lines is building a dynamic, skills-based experience for continuous employee learning using the talent intelligence hub in SAP SuccessFactors solutions. Individual employees have a growth portfolio, which is a profile that includes their current skills and competencies mapped to formal and informal learning opportunities within and outside the organization, some recommended by AI-based algorithms.</p>
+  <h2 id="intelligent-collections">Intelligent Collections</h2>
+  <p>Suppliers always face the risk that some of their customers won’t pay on time. Late payments impact liquidity planning and working capital requirements.</p>
+  <p>Collection management for SAP S/4HANA intelligently analyzes historical data and identifies customers and invoices with a higher risk for late payment. The solution reduces customer billing, credit, and collections costs. In one customer study, the solution enabled a consumer products producer with 30,000 employees to realize up to an extra $2.9 million in earnings annually.</p>
+  <h2 id="natural-language-questions-quick-intelligent-answers">Natural Language Questions. Quick, Intelligent Answers</h2>
+  <p>As these examples show, time is money. <a href="/topics/joule">Joule</a>, SAP’s generative AI copilot, helps customers save even more of it.</p>
+  <p>It’s like tapping your smartest coworker on the shoulder to get instant and accurate insights. Users can ask plain-language questions of Joule, which pulls reliable and relevant information from across SAP’s cloud portfolio, instead of manually hunting for answers across systems.</p>
+  <p>In one Joule test, information and insights about transactional data were achieved an average of 10 minutes faster compared to manual searching and analysis. For the user, that means more time available for higher level tasks. And, for the business, that adds up across the enterprise to real resource and cost savings.</p>
+  <h2 id="whats-next">What’s Next</h2>
+  <p>This is just the beginning. We can expect that 2024 will see generative AI solutions create even more value for customers around the world.</p>
+  <p>We <a href="https://www.sap.com/events/teched/news-guide.html">recently launched a number of AI innovations</a> — from AI-infused coding tools to a one-stop shop to create generative AI extensions and applications — that give the developers at <a href="https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html">the heart of the AI</a> revolution the tools they need to transform the way businesses run.</p>
+  <p>Who knows? Soon Joule may be the one to tap you on the shoulder with an offer to “Help me help you!”</p>
+  <div class="footnote">
+    <div>
+      <div>Julia White is chief marketing and solutions officer and a member of the Executive Board of SAP SE.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="see-how-you-can-benefit-from-sap-business-ai-built-into-your-core-business-processes">See how you can benefit from SAP Business AI built into your core business processes</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+        </item>
+        <item>
+            <title><![CDATA[Supply Chain Issues Keeping CEOs Up at Night]]></title>
+            <link>https://www.sap.com/blogs/2023/11/supply-chain-issues-keeping-ceos-up-at-night</link>
+            <guid>https://www.sap.com/blogs/2023/11/supply-chain-issues-keeping-ceos-up-at-night</guid>
+            <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Supply chain issues keep executives up at night, but SAP is working to leverage the power of generative AI for supply chain resilience.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Supply Chain Issues Keeping CEOs Up at Night" src="./media_17fce40551915dfea41e19d0bfc190fb085838212.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="supply-chain-issues-keeping-ceos-up-at-night">Supply Chain Issues Keeping CEOs Up at Night</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Building risk-resilient supply chains is one of the top issues CEOs are discussing on earning calls and in board rooms around the globe. The issue has gone from one priority among many to business critical. And CEOs are no longer just pursuing lower costs, shorter lead times, and higher quality.</div>
+    </div>
+  </div>
+  <p>Instead, they are recognizing the need to resolve supply chain disruptions in an integrated way, bridging the silos of various functions and going beyond dealing with supply chain disruptions as they occur.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="a-risk-resilient-and-sustainable-supply-chain-is-one-that-is-connected-contextualized-and-collaborative">A risk-resilient and sustainable supply chain is one that is connected, contextualized, and collaborative</h3>
+        <p><em><a href="https://www.sap.com/products/scm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Taking a macro-view is also something governments have begun doing. Just think of the huge investments to “bring supply chains home”; for example, <a href="https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-chips-act_en">€43 billion in the EU</a> for semiconductors or <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2023/04/17/fact-sheet-biden-harris-administration-announces-new-private-and-public-sector-investments-for-affordable-electric-vehicles/">$100 billion in the U.S.</a> for sustainable energy. At the same time, diversifying supply chains and complying with new regulations keeps increasing their complexity.</p>
+  <p>Companies take various approaches to these challenges, such as de-coupling their supply chains by building up costly inventories for critical components. Another option is reshoring or nearshoring, which brings manufacturing and supplier relationships closer to core markets, ideally in countries with similar political and economic systems. But all of these strategies come with downsides, including the cost of operations in globally competitive markets.</p>
+  <p>At SAP, our vision is to embrace interconnected supply chains and optimize material flows — sustainably — with digital technologies. We believe in intelligent strategies to reduce supply chain uncertainties for the long-term by helping industries redefine their operations and by creating value chains that are more intelligent, connected, and responsive.</p>
+  <h2 id="supply-chain-convergence-increases-agility">Supply Chain Convergence Increases Agility</h2>
+  <p>Companies that resolve supply chain disruptions in an integrated manner bridge the silos of various functions such as procurement, logistics, or manufacturing. That’s how they can truly alleviate the impact to their organizations. Supply chain functions need to work in concert and extend into their ecosystem of suppliers. Even the most accurate supply chain plan is meaningless if material suppliers cannot commit to volumes and lead times. Through integrating supply chain planning, such as demand and supply plans with procurement collaboration, manufacturers have a much stronger strategic lever to avoid downstream shortages.</p>
+  <p>At SAP, we call this approach <strong>design-to-operate</strong>. Our strategy is to deeply connect all relevant functions in a supply chain along end-to-end value chains and business processes. Going beyond the four walls of your own enterprise, into your ecosystem of suppliers and sub-suppliers — that’s the ultimate way to tackle supply chain challenges. In the case of supply shortages, for example, it is imperative to analyze the impact to the organization.</p>
+  <p>With SAP Integrated Business Planning, <a href="https://blogs.sap.com/2022/07/05/how-network-aware-supply-chain-planning-drives-resiliency/">affected production orders can be quickly identified</a>. Impacted customer orders and revenue at risk are visible and informed actions can be taken to mitigate any shortages, for example, by changing production schedules. The SAP Digital Manufacturing system knows immediately about the changed production plan for the next shifts and adjusts labor and resources accordingly. Logistics departments in SAP Extended Warehouse Management orchestrate the new material flow, <a href="https://blogs.sap.com/2023/04/14/sap-digital-manufacturing-and-ewm-integration-using-manage-staging-2.0-app/">moving the right raw materials into production</a>, and asset maintenance activities are re-scheduled to adhere to the new production priorities.</p>
+  <p>As a result, supply chain leaders who follow a design-to-operate paradigm are highly agile and can take critical actions quickly to deal with supply chain disruptions.</p>
+  <h2 id="saps-industry-business-networks-a-new-paradigm">SAP’s Industry Business Networks: A New Paradigm</h2>
+  <p>Entire industries are recognizing the benefits of going beyond the four walls of their own enterprise. Consider a car company investigating faulty engines coming from one of their production lines. Now imagine it can trace the failure not only to a particular batch of components from one supplier but then dig even deeper to identify faulty basic parts from the supplier’s supplier. Instead of having to recall thousands of vehicles, it needs to recall only a few.</p>
+  <p>Solving problems this way requires a mindset for radical collaboration as well as technology for efficient, cross-company data exchange. <a href="https://catena-x.net/en/">Catena-X</a> is an open network that enables just that. It guarantees interoperability by defining common standards. The network is not owned by a single business and data providers keep their data sovereignty. For instance, they define for how long and for which purpose their data can be used. On the other hand, consumers can trust that data comes from a reliable source.</p>
+  <p>SAP is one of the founding members of Catena-X, together with five other companies. Since 2020, the initiative has grown to <a href="https://catena-x.net/fileadmin/_online_media_/231012_1_CAT_007_List_of_Members_EN.pdf">170 international auto makers, suppliers, and</a> IT companies. Among them are Germany’s biggest car companies as well as many small and medium enterprises. Catena-X may soon become the industry’s standard.</p>
+  <p>Naturally, the <a href="https://www.sap.com/industries/automotive/industry-network-automotive.html">SAP Business Network for the automotive industry</a> is ready for Catena-X. It readily connects Catena-X to SAP’s broad portfolio of automotive IT solutions to trace parts, measure carbon emissions and manage demand, capacity and quality. Recently, SAP announced business networks for more industries, including <a href="https://www.sap.com/products/business-network/industries.html">high tech, industrial manufacturing, consumer products, and life sciences</a>, with more to come.</p>
+  <h2 id="generative-ai-adds-new-types-of-intelligence">Generative AI Adds New Types of Intelligence</h2>
+  <p>A key tool in solving supply chain complexity challenges is artificial intelligence (AI). Even before the recent groundbreaking advances in large language models (LLMs) and generative AI, our supply chain solutions have been infused with both “traditional” and “advanced” AI.</p>
+  <p>For instance, <a href="https://www.sap.com/products/scm/integrated-business-planning.html">SAP Integrated Business Planning for Supply Chain</a> creates demand forecasts based on historical demand patterns, but it also leverages advanced machine learning capabilities to improve forecast demand with point-of-sales data and improve planning quality using self-healing master data and lead time predictions. In the future, generative AI will enable completely new types of intelligent capabilities like these:</p>
+  <ul>
+    <li><strong>Facilitating human-machine interaction:</strong> Users will soon be able to interact with their system much more naturally via our new embedded <a href="/2023/09/joule-new-generative-ai-assistant">generative assistant Joule</a>. For example, they will be able to ask which of customer X’s demands for product Y are still unfilled in Central America. Joule will give the answer, intelligently combining data from various systems and domains because it will be embedded throughout the SAP cloud enterprise portfolio.</li>
+    <li><strong>Supporting creativity:</strong> Much like a sparring partner, generative AI can help designers, engineers, and product managers create new product ideas in an innovation cycle and iterate them with SAP Enterprise Product Development.</li>
+    <li><strong>Transforming unstructured data:</strong> Consider a truck arriving at a warehouse with inbound cargo. The clerk knows what cargo to expect and this is saved in an SAP system. However, what is really on the truck is written on a loading list, often in paper form. Making this data available digitally has been possible for quite a while and is known as optical character recognition (OCR). What’s new is that generative AI tools can now match the unstructured loading list to the structured data already in the system — in a split second.</li>
+  </ul>
+  <p>Leveraging AI for companies to scale and sustain business operations will no longer be optional. Consider the increasing labor shortage facing manufacturing companies, among others. They will have a shortfall of up to 85 million employees by 2030 — roughly the population of Germany!</p>
+  <p>By automating mundane tasks with advanced AI capabilities, we will bridge the human resources gap and enable experts to focus on what really matters: making data-backed business decisions.</p>
+  <p>Human and artificial intelligence work hand in hand — it’s a duet, not a duel.</p>
+  <p>We already help our customers build risk-resilient supply chains and deeply connect enterprises to run productive, agile and automated operations. Now, by also leveraging the power of generative AI, we will ensure that supply chain resilience doesn’t have to be something that keeps CEOs up at night.</p>
+  <div class="footnote">
+    <div>
+      <div>Thomas Saueressig is a member of the Executive Board of SAP SE, SAP Product Engineering.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/catena-x</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>product/sap-extended-warehouse-management</category>
+            <category>product/sap-integrated-business-planning-for-supply-chain</category>
+        </item>
+        <item>
+            <title><![CDATA[Bringing Generative AI to Business: How a Platform Enables Systems of Intelligence]]></title>
+            <link>https://www.sap.com/blogs/2023/11/generative-ai-business-platform-systems-of-intelligence</link>
+            <guid>https://www.sap.com/blogs/2023/11/generative-ai-business-platform-systems-of-intelligence</guid>
+            <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[After SAP TechEd Bangalore, CTO Juergen Mueller shares his experience with the company's leap forward in AI evolution toward generative AI.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Bringing Generative AI to Business: How a Platform Enables Systems of Intelligence" src="./media_1d3841225b19f51748f341443bd006926c3368989.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="bringing-generative-ai-to-business-how-a-platform-enables-systems-of-intelligence">Bringing Generative AI to Business: How a Platform Enables Systems of Intelligence</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>What a week at <a href="https://www.sap.com/events/teched/bangalore.html">SAP TechEd</a>! No matter if you joined the two-day live experience in Bangalore, India, or virtually, you could not get around the topic of generative AI.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="enterprise-innovation-in-the-age-of-ai">Enterprise Innovation in the Age of AI</h3>
+        <p><em><a href="https://www.sap.com/events/teched/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>SAP has been working on AI for more than eight years now. Regardless, the past year was special as it has shown a huge leap forward in AI evolution toward generative AI. Today, more than 24,000 of our SAP customers are using SAP Business AI solutions in over 130 use cases. And we are aiming to provide even more businesses the opportunity to benefit from our unique data, industry, and process know-how as we work to become THE leading business AI company.</p>
+  <p>At the heart of that vision is SAP Business Technology Platform (SAP BTP), THE platform of choice and key enabler for infusing SAP and partner applications with business AI.</p>
+  <p>My keynote guest speaker Michael Nilles, chief digital and information officer (CDIO) of Henkel, said it well: “Generative AI disrupts economy and society like the internet, but at lightspeed. Look at the last 10 months only — I have never discovered an exponential technology like that. SAP BTP is our choice at Henkel for three years already; it’s our innovation platform. Together with SAP, we innovate at large scale, now also in the generative AI space.”</p>
+  <p>To this end, we have been driving significant progress in the past months, from <a href="/2023/07/power-of-business-ai-sap-btp">SAP Business AI capabilities</a> across our portfolio to the launch of our generative <a href="/2023/09/joule-new-generative-ai-assistant">AI co-pilot Joule</a>. The <a href="https://www.sap.com/events/teched/news-guide.html">announcements made at SAP TechEd</a> are another testament to the innovation SAP provides.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <picture>
+          <source type="image/webp" srcset="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+          <source type="image/webp" srcset="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+          <source type="image/jpeg" srcset="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+          <img loading="lazy" alt="" src="./media_18de9c188ebe8515efbb6b9e1e0a822f6405cc9ed.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="626" height="357">
+        </picture><br><a href="https://www.linkedin.com/posts/juergmueller_sapteched-sapbtp-activity-7127690708659916801-eVu_/">https://www.linkedin.com/posts/juergmueller_sapteched-sapbtp-activity-7127690708659916801-eVu_/</a>
+      </div>
+    </div>
+  </div>
+  <h2 id="build-in-not-bolt-on">Build In, Not Bolt On</h2>
+  <p>We believe that business AI capabilities need to be directly embedded into applications and extensions. Designed with security, governance, and trust in mind, the <a href="https://www.sap.com/products/artificial-intelligence/business-technology-platform.html">AI Foundation on SAP BTP</a> is our new one-stop shop for developers to do exactly that. It provides ready-to-use AI services, AI runtimes, lifecycle management, as well as tooling for generative AI capabilities and business-data connectivity.</p>
+  <p>As part of the AI Foundation, our generative AI hub provides instant access to the most powerful large language models (LLM), such as Azure OpenAI Service and Falcon-40b. On the other side, it offers grounding capabilities based on enterprise data to ensure context, for example, by leveraging our new SAP HANA Cloud vector engine that combines LLMs with relevant organizational data.</p>
+  <h2 id="all-developers-will-be-ai-developers">All Developers Will Be AI Developers</h2>
+  <p>Today’s dynamic technology and business landscape means every developer needs to become an AI developer. For coders using Java and Javascript, our new solution <a href="https://www.sap.com/products/technology-platform/developer-tools.html">SAP Build Code</a> increases developer productivity by offering a simplified experience with a unified lobby as an entry point, and generative AI capabilities. SAP Build Code also takes care of identity management, audit logging, secure access, and more.</p>
+  <p>Does this sound too good to be true? Check out <a href="https://www.youtube.com/watch?app=desktop&#x26;v=6BsvzygS5Hg">my keynote</a> to see for yourself how SAP Build Code helped to create a full-blown application in just five minutes on stage!</p>
+  <h2 id="raise-the-ecosystem">R“AI”se the Ecosystem</h2>
+  <p>More and more businesses are seeking to benefit from AI. No single company can unlock generative AI’s potential alone. A vibrant ecosystem of partners is required in order to meet growing customer expectations.</p>
+  <p>SAP is partnering with many key players that offer solutions connected to SAP BTP. Today, partners support 90% of SAP-based implementations and offer 2,000 solutions on our store — more than 400 of these include AI capabilities. Moreover, our partner solutions also enable developers to create AI-based apps on SAP BTP. One example is our partnership with DataRobot, announced earlier this year. We now brought its AI models to SAP AI Core as well as its predictive and generative AI capabilities to SAP Build.</p>
+  <p>Apart from the partner context, we also invest in AI research. The recently announced <a href="/2023/11/sap-joins-stanford-hai-corporate-affiliate-program">membership at the Stanford Institute for Human-Centered AI</a> is an important step to reinforce our commitment to build ethical and trustworthy AI.</p>
+  <h2 id="going-forward-looking-beyond">Going Forward, Looking Beyond</h2>
+  <p>The future holds a lot. On our way to become THE leading business AI company we will continue to integrate AI into businesses’ everyday processes.</p>
+  <p>For 2024 and beyond, we are exploring multiple use cases, such as AI-supported business simulations, AI-generated business correspondence replies and follow-up actions, composable business processes, or automated generation of code. We will also support fine-tuned LLMs to make them more suitable for business AI.</p>
+  <p>This SAP TechEd has only been a first milestone — there’s a lot more to come! Don’t miss out on your journey to SAP BTP, THE choice for anything technology-related in an SAP context.</p>
+  <div class="footnote">
+    <div>
+      <div>Juergen Mueller is CTO and a member of the Executive Board of SAP SE.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-teched-virtual-live-and-on-demand-experiences">SAP TechEd Virtual: Live and on-demand experiences</h3>
+        <p><em><a href="https://www.sap.com/events/teched/virtual.html">Watch replays</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>news-tag/developers</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Pioneering the Business AI Revolution]]></title>
+            <link>https://www.sap.com/blogs/2023/09/sap-business-ai-joule</link>
+            <guid>https://www.sap.com/blogs/2023/09/sap-business-ai-joule</guid>
+            <pubDate>Wed, 27 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is pioneering the business AI revolution with technology and innovation like Joule, the new generative AI assistant. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15d81aab5655fc3d446a54b921e2b82aa353de098.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15d81aab5655fc3d446a54b921e2b82aa353de098.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15d81aab5655fc3d446a54b921e2b82aa353de098.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Pioneering the Business AI Revolution" src="./media_15d81aab5655fc3d446a54b921e2b82aa353de098.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="pioneering-the-business-ai-revolution">Pioneering the Business AI Revolution</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>“The only constant is change.” This has always been true for enterprise software. And agility, especially when it comes to the ability of software architecture to create and respond to change, is at the heart of reinventing business processes.</div>
+    </div>
+  </div>
+  <p>But one type of technology — machine-generated text, images, and media that mimic human creativity — is introducing an entirely new era of transformation. Known as <strong>generative artificial intelligence (AI)</strong>, this technology has set off a wave of innovation that will dramatically change how businesses run. And at SAP, we are perfectly positioned to pioneer this business AI revolution.</p>
+  <h2 id="what-sets-sap-apart">What Sets SAP Apart?</h2>
+  <p>Our access to business data, our understanding of the context of complex business processes, as well as our deep domain and industry expertise: these are incredible differentiators at this moment in time.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="see-how-you-can-benefit-from-sap-business-ai-built-into-your-core-business-processes">See how you can benefit from SAP Business AI built into your core business processes</h3>
+        <p><em><a href="https://sap.com/ai">Explore AI</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>SAP Business AI is deeply embedded into applications and process flows that rely on <strong>a veritable treasure trove of decades of relevant business data</strong> curated from huge customer data sets. We have agreements with more than 25,000 customers to use their data to train our own models. Using this data to contextualize generative AI models results in very task-specific outcomes for business users.</p>
+  <p>Without this customer data, generative AI users get results that are more like dinner-table conversation than business-altering insights and responses. The data we use for context for our tenants are protected and used only for that tenant — they are not reused elsewhere.</p>
+  <p>For more than 50 years, customers have trusted us with their most mission-critical business processes and now that trust is crucial as we deliver business AI with the highest levels of concern for security, privacy, compliance, and ethics, which our customers have come to expect.</p>
+  <h2 id="sap-foundation-models-our-differentiator">SAP Foundation Models: Our Differentiator</h2>
+  <p>It is clear that the emergence of generative AI has completely changed the game. General-purpose foundation models can be adapted to many different tasks in a short time. Users can have simple interactions with models in their natural language, so they don’t need any technical knowledge to use AI. Additionally, large language models (LLMs) have gotten bigger and more accurate, with new versions being released all the time.</p>
+  <p>These changes have opened up huge opportunities for us to build even better AI for business, especially when we adapt LLMs to the SAP business context and create our own models using our structural data and business process knowledge.</p>
+  <p>That is why we are investing in building our own foundation models and combining them with our deep understanding of business processes and SAP data. <strong>Using our own foundation models, we can create powerful, context-specific outcomes for our customers.</strong> Our foundation models, which will also allow for fine-tuning for different scenarios, will further unlock and strengthen our leading position in embedded AI. Customers will benefit from high-performance models trained on rich SAP data, achieving better predictive results.</p>
+  <p>But customers don’t have to wait for these SAP foundation models to be ready before they can leverage context from business data because we are also using retrieval-augmented generation (RAG) to provide business data context and give customers better results right away.</p>
+  <p>With these foundation models in place, we will embed business capabilities powered by AI in every solution to enable new business models.</p>
+  <h2 id="saps-generative-ai-assistant-joule">SAP’s Generative AI Assistant: Joule</h2>
+  <p>The vision of SAP Business AI is to deliver the first true system of intelligence to fundamentally change the way companies operate, helping them create even more value, faster. Essentially, <strong>embedded AI will become the norm for powering business processes</strong>.</p>
+  <p>That’s why we <a href="/">announced that we will embed our new generative AI assistant Joule</a> throughout the SAP cloud enterprise portfolio. Joule will help our customers achieve business results faster by enabling them to access insights that are relevant for their business through natural conversation.</p>
+  <p>By simply asking a question in plain language, our customers can get smart answers tapped from a pool of data from across the SAP portfolio and third-party sources. Joule will continuously deliver new insights that get even more intelligent over time. Imagine for example, asking Joule to prioritize suppliers based on their average margins and carbon footprint. Joule will handle some tasks completely, like writing job descriptions that are unbiased and compliant, or help to develop relevant interview questions and more.</p>
+  <h2 id="applying-ai-to-solve-specific-business-problems">Applying AI to Solve Specific Business Problems</h2>
+  <p>The true value of business AI comes from knowing how to apply AI to solve specific business problems. Here are some more examples.</p>
+  <p>Decision-makers need intelligent recommendations based on connecting, understanding, and processing relevant information. Generative AI can produce those intelligent recommendations in seconds, if it is trained on relevant data in a manner equivalent to the ways humans would consider that data.</p>
+  <p>An HR manager can use generative AI to create a job description or interview questions and do this at scale. Generative AI can create thousands of responses in the time it takes a human to manually create one.</p>
+  <p>Or take financial reports: they typically require data to be extracted from complex systems. Generative AI can automate this time-consuming process and produce accurate reports quickly and simply.</p>
+  <p>When booking a trip, employees can receive offerings that are in line with company policies just by describing their travel requirements, such as destination and dates.</p>
+  <p>But the potential of generative AI extends far beyond content generation. Consider warehouses, where delivery notes need to be matched with orders. Generative AI can automate this process or provide detailed assistance to warehouse workers, reducing manual labor.</p>
+  <p>AI-optimized business processes can also help companies continuously optimize and improve efficiency. Instead of going through each time-consuming step to analyze, monitor, modify, and automate their processes, process owners can simply describe the type of improvements they want in natural language, removing any need to write code or understand a domain-specific language, and get immediate and ready-to-configure results.</p>
+  <p>The ultimate vision is to translate all recommended process changes into actual configuration modifications within the source systems, thereby facilitating self-optimizing processes. This ambitious vision is already being realized by incorporating generative AI into SAP Signavio Process Transformation Suite.</p>
+  <h2 id="creating-an-open-enterprise-ai-ecosystem">Creating an Open Enterprise AI Ecosystem</h2>
+  <p>Creating this evolution in enterprise software requires us to focus on direct investments and undertake a significant increase in research and development as well as third-party partnerships. Most recently, we announced significant partnerships with <a href="/2023/07/generative-ai-investments-aleph-alpha-anthropic-cohere">Aleph Alpha GmbH, Anthropic PBC, and Cohere</a>. These are all generative AI market leaders with unique potential to transform entire industries working with SAP.</p>
+  <p>These partnerships complement announcements we made in May 2023 about our AI partnerships with <a href="/2023/05/sap-microsoft-joint-generative-ai-offerings-talent-gap">Microsoft</a>, <a href="/2023/05/sap-google-cloud-expanded-partnership-open-data-ai-enterprises">Google Cloud</a>, and <a href="/2023/05/ibm-watson-artificial-intelligence-in-sap-solutions">IBM</a>. We are collaborating with these leaders in the AI market to leverage state-of-the-art technology where it does not make sense for us to build it on our own. That way, we can focus on improving business insight in areas we know best. At the same time, we are doubling down on investing in areas where we have a competitive advantage and can build differentiating capabilities into our products.</p>
+  <p>At SAP, we are already riding the AI wave. Today, more than 24,000 customers have implemented over 130 AI use cases and there are more than 360 partner apps infused with AI available on the SAP Store.</p>
+  <p>The moment for organizations to redefine how they work is now. With SAP Business AI, we help our customers benefit from the power of AI by tailoring it to their unique business needs.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-reinventing-how-businesses-run">SAP Business AI: Reinventing How Businesses Run</h3>
+        <p><em><a href="https://d.dam.sap.com/a/11HRxdm/SAP%20Business%20AI%20Whitepaper.pdf?rc=10">Read the white paper</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div><a href="/author/thomassaueressig">Thomas Saueressig</a> is a member of the Executive Board of SAP SE.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and New Zealand Rugby: Honoring Age-Old Traditions and Digitalizing for the Future]]></title>
+            <link>https://www.sap.com/blogs/2023/09/sap-new-zealand-rugby-honor-old-traditions-digitalize-for-the-future</link>
+            <guid>https://www.sap.com/blogs/2023/09/sap-new-zealand-rugby-honor-old-traditions-digitalize-for-the-future</guid>
+            <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is proud to serve as technology partner and help New Zealand Rugby drive its digital transformation. Learn more about how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/new-zealand-rugby</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[Data Takes Center Court at the Women’s Tennis Association]]></title>
+            <link>https://www.sap.com/blogs/2023/08/wta-and-sap-data-takes-center-court</link>
+            <guid>https://www.sap.com/blogs/2023/08/wta-and-sap-data-takes-center-court</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The WTA and SAP are joining forces to transform the way data is managed and applied in women’s tennis. Learn more about their partnership.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>news-tag/wta</category>
+        </item>
+        <item>
+            <title><![CDATA[Unleash the Power of Business AI with SAP Business Technology Platform]]></title>
+            <link>https://www.sap.com/blogs/2023/07/power-of-business-ai-sap-btp</link>
+            <guid>https://www.sap.com/blogs/2023/07/power-of-business-ai-sap-btp</guid>
+            <pubDate>Wed, 26 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Business AI has the potential to revolutionize the way enterprises operate and solve their technology challenges with SAP BTP. Learn how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14f18d500ea81c62d9170713c9a5aea70c61bc72f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14f18d500ea81c62d9170713c9a5aea70c61bc72f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14f18d500ea81c62d9170713c9a5aea70c61bc72f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Unleash the Power of Business AI with SAP Business Technology Platform" src="./media_14f18d500ea81c62d9170713c9a5aea70c61bc72f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="unleash-the-power-of-business-ai-with-sap-business-technology-platform">Unleash the Power of Business AI with SAP Business Technology Platform</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>We are at the beginning of a new technological era. Generative artificial intelligence (AI) has entered the public consciousness on a broad scale and Business AI by SAP has the potential to revolutionize the way enterprises operate and solve their technology challenges with SAP Business Technology Platform (SAP BTP).</div>
+    </div>
+  </div>
+  <p>Generative AI provides us with a whole new toolbox that opens so many opportunities to simplify and improve our work lives. At SAP Sapphire, we <a href="https://www.sap.com/events/sapphire/news-guide/ai-built-for-business.html">announced several use cases that we are working on</a>. When using and applying AI in a business context, we make sure it is relevant, reliable, and responsible.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-artificial-intelligence-for-every-aspect-of-your-business">SAP Business AI: Artificial intelligence for every aspect of your business</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>SAP BTP acts as the enabler for SAP and partner applications to leverage generative AI capabilities in an SAP context. Generative AI capabilities in SAP BTP will improve the developer experience, how integrations are done, the process automation space, analytics and holistic planning activities, as well as simplify administrative tasks.</p>
+  <p>Let me demonstrate with three use cases how AI capabilities in SAP BTP will help build applications faster, outline a reference architecture to bind applications to the most appropriate large language model (LLM), and apply the reference architecture to a concrete example – an app that helps you keep an eye on your own CO2 footprint.</p>
+  <h2 id="building-enterprise-applications-faster">Building Enterprise Applications Faster</h2>
+  <p>Building enterprise-ready applications can take time and requires many very skilled professionals. Even experienced developers need to consult documentation and websites like Stack Overflow to help them with their daily tasks. In our SAP Labs, we are working on making developers’ lives easier.</p>
+  <p>For example, we are utilizing the power of generative AI to automatically generate an SAP BTP application based on our cloud application programming (CAP) model. This means that in the future, developers will be able to describe an application’s capabilities, and SAP Business AI will create a proposal for the actual application. An SAP BTP application developer can simply insert a prompt into the command-line tool and <a href="https://www.linkedin.com/posts/dr-david-kunz_sapteched-sap-sapbtp-activity-7075472197640712192-pMe7/?utm_source=share&#x26;utm_medium=member_desktop">create a CAP application</a>, and then continue to refine it.</p>
+  <p>This will enable applications, such as extensions for SAP S/4HANA Cloud, to be built in hours instead of weeks or months. Not only will developers be faster and even more productive in their work, but organizations will be able to respond to business needs with rapid innovation.</p>
+  <h2 id="enabling-large-language-model-choice">Enabling Large Language Model Choice</h2>
+  <p>SAP BTP applications can leverage any LLM or similarly powerful tools available as a service from one of the hyperscale providers or open source models.</p>
+  <p>We are enabling SAP BTP application developers to choose the most appropriate LLM for their use case. We <a href="https://github.com/SAP/sap-btp-reference-architectures/tree/main/hyperscalers/openai">published a reference architecture</a> that enables developers to bind their SAP BTP application to OpenAI’s GPT or any other LLM.</p>
+  <p>This means developers can build applications with our CAP model on SAP BTP to blend LLMs with SAP S/4HANA and other SAP solutions. Access to LLMs such as GPT models will be offered through SAP’s AI Core, which provides key benefits, including context validation and portability between LLMs.</p>
+  <p>With this architecture, developers can benefit from the co-engineering work we have done with hyperscalers on SAP Single-Sign On and Private Link, helping ensure that data is secured within the network backbone and does not exit to the public internet.</p>
+  <p>With SAP Business AI, we apply powerful tools and services in a responsible way, in a context that makes the use cases highly relevant for our customers’ businesses and ensures reliable outcomes.</p>
+  <h2 id="using-the-power-of-ai-for-good">Using the Power of AI for Good</h2>
+  <p>The old saying holds true: you cannot manage what you cannot measure. This is especially true for sustainability. But with AI, we have a new lever to support sustainability efforts.</p>
+  <p>Using the reference architecture, we built a <a href="https://discovery-center.cloud.sap/missiondetail/4264/4522/">sample app</a> on SAP BTP based on a customer co-innovation project with an enterprise from the finance industry. It helps bank customers better understand how consumption habits are driving their carbon footprint, become more climate conscious, and adapt their behavior accordingly.<br>How does it work? The app matches spending behavior based on purchase data from banking customers with the corresponding carbon emission information from our sustainability partner <a href="https://connect.earth/">Connect Earth</a>. The app, which was built using SAP’s CAP model, blends customers’ banking data with Connect Earth data and then calls out to Microsoft Azure OpenAI services via SAP’s AI Core on SAP BTP to summarize and recommend actions for improvement.</p>
+  <p>This is an example of how the reference architecture for Microsoft Azure OpenAI services mentioned before can be implemented through the sample code shared on GitHub.</p>
+  <p>These are just three out of many of the ways SAP is using generative AI to make a difference for professional developers and our customers and users alike.</p>
+  <p>It is an amazing time to be alive, and SAP is ready to take enterprise software into the generative AI age and to support our customers in this transformation as a strong partner.</p>
+  <div class="footnote">
+    <div>
+      <div><em><a href="/author/juergenmueller">Juergen Mueller</a> is CTO and member of the Executive Board of SAP SE.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-and-stories-delivered-to-your-inbox-weekly">Get the latest SAP news and stories delivered to your inbox weekly</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><em>This content was originally published on LinkedIn:</em></p>
+  <ul>
+    <li><a href="https://www.linkedin.com/posts/juergmueller_sapteched-sapbtp-generativeai-activity-7076592952663269376-DhHo?utm_source=share&#x26;utm_medium=member_desktop">Generative AI and the Cloud Application Programming Model</a></li>
+    <li><a href="https://www.linkedin.com/posts/juergmueller_sapsapphire-sapbtp-sapbtp-activity-7081703120023515136-zJrx?utm_source=share&#x26;utm_medium=member_desktop">Choice for Large Language Models</a></li>
+    <li><a href="https://www.linkedin.com/posts/juergmueller_sapbtp-generativeai-sustainability-activity-7086651583064612864--Sr_?utm_source=share&#x26;utm_medium=member_desktop">Sustainability Meets AI</a></li>
+  </ul>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches Cloud ERP Offering for Midsize Companies]]></title>
+            <link>https://www.sap.com/blogs/2023/03/grow-with-sap-cloud-erp-offering-midsize-companies</link>
+            <guid>https://www.sap.com/blogs/2023/03/grow-with-sap-cloud-erp-offering-midsize-companies</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[GROW with SAP is the company's new offering for midsize customers to harness the proven benefits of cloud ERP. Learn more about it.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[A Deeper Look Into How SAP Datasphere Enables a Business Data Fabric]]></title>
+            <link>https://www.sap.com/blogs/2023/03/sap-datasphere-business-data-fabric</link>
+            <guid>https://www.sap.com/blogs/2023/03/sap-datasphere-business-data-fabric</guid>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Datasphere leads to seamless and scalable access to mission-critical business data. Take a deep dive into its capabilities.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP CX: Delivering Growth with Intelligent Industry-Tailored Solutions]]></title>
+            <link>https://www.sap.com/blogs/2023/03/sap-cx-intelligent-industry-tailored-solutions</link>
+            <guid>https://www.sap.com/blogs/2023/03/sap-cx-intelligent-industry-tailored-solutions</guid>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The aligned SAP CX portfolio takes an industry-first approach to accelerate value to customers with end-to-end, integrated business processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Customer Experience: Delivering Growth with Intelligent Industry-Tailored Solutions" src="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-customer-experience-delivering-growth-with-intelligent-industry-tailored-solutions">SAP Customer Experience: Delivering Growth with Intelligent Industry-Tailored Solutions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP’s unmatched industry expertise has been a cornerstone of our leadership for the past 50 years and will continue as the foundation for success. As we work with business leaders to manage their digital transformation and navigate their pathways to sustainable growth, they trust us to not just understand and deliver industry standards, but industry specifics.</div>
+    </div>
+  </div>
+  <p>Our customers have also been clear with us: they need greater agility in their business processes while also reducing the costs of integrating a patchwork of solutions from multiple vendors. From finance to supply chain to commerce, the user and customer experiences need to be seamless. This requires the underlying applications to service the user and customer journeys in real time.</p>
+  <p>SAP has the rare combination of unmatched industry depth as well as the breadth of business process solutions to meet this moment. While our ERP has always had deep industry capabilities, we have now aligned the <a href="https://www.sap.com/products/crm.html">SAP Customer Experience</a> (CX) portfolio to an industry-first approach to accelerate value to customers by enabling end-to-end, integrated business processes.</p>
+  <p>Some voices across the market are recasting SAP’s commitment to an industry-first strategy to suggest that SAP is no longer committed to key needs of our customers, starting with our CX portfolio. Let us be clear: SAP will continue to deliver customer experience (<a href="/topics/crm-customer-experience">CX/CRM</a>) solutions. Now we’ll focus on adding an industry lens, delivering industry-tailored CX solutions and bringing the front office together with the back office to provide the unmatched value customers expect from SAP solutions.</p>
+  <p>Together with our global ecosystem, we can solve the most relevant challenges of customers in all industries. In fact, today, 80% of industry solutions are ecosystem-led. With this approach, customers will get solutions that natively connect the cloud ERP through to the last mile of a customer’s experiences spanning e-commerce, sales, service, and marketing — all with the industry-specific best practices they rely on from SAP and our ecosystem.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-cx-and-crm-solutions-that-work-for-your-customers">Explore CX and CRM solutions that work for your customers</h3>
+        <p><strong><a href="https://www.sap.com/products/crm/solutions.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Here are just a few examples of where industry-first CX has bridged gaps often seen between business process-led ERP and experience delivery:</p>
+  <ul>
+    <li><strong>Retail:</strong> Maintaining optimal inventory levels in stores and distribution centers is crucial to ensure customers get the products they want. Predictive replenishment uses artificial intelligence (AI) to help retailers automate the restocking process, drawing on the deep retail expertise built into our customer experience product and our cloud ERP. Retailers benefit by reducing their environmental footprint while avoiding both overstock and out-of-stock situations and delivering personalized customer service if things go wrong.</li>
+    <li><strong>Consumer Products:</strong> By automating 80% of the trade claims process and enhancing cash flow by about a month, consumer product companies free up billions of dollars tied up in settlement processes as well as hours of time for key account managers. SAP uniquely sits at the intersection of accounts receivables (finance, ERP) and revenue growth management (sales, service, and marketing), which allows us to provide not only native integrations but also faster time to value and lower TCO in this space than any other vendor.</li>
+    <li><strong>Automotive:</strong> SAP improves production planning and forecasting based on real-time demand; we boost logistics optimization thanks to end-to-end integration from dealership sales and service to group production and logistics processes. Dealers can also optimize sales strategy and marketing spend as well as improving upsell, retention, and overall customer lifetime value thanks to data aggregated from the front and back office into SAP’s customer data platform. This enables dealers to strategically upsell subscription services or entertainment system software updates while updating customers on production progress, delivery, warranty, and service notifications.</li>
+  </ul>
+  <p>SAP CX customers including Pizza Hut, Carhartt, and smart Europe are among those already benefiting from our unique industry depth. We are excited about the additional value we can deliver to our customers with our industry-focused approach to delivering holistic, integrated business process solutions together with our ecosystem. Examples include the retail solutions <a href="https://events.sap.com/noam-nrf/en/videopage.aspx?v=oluBrjrC1Rn9L3WV043aZMFVlhreKw4xK%2FqQRqxWlTTCvgEhZalDo0E7G5%2FOzPee0p9owH7y6I%2FAATgMBsvHh%2B02mKjH8DsP">we showcased at NRF 2023</a>, from customer engagement to inventory fulfillment to sustainable manufacturing. We will demonstrate this same industry value for manufacturing at the Hannover Messe in April.</p>
+  <p>Stay tuned for more exciting updates in the coming months.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Thomas Saueressig is a member of the Executive Board of SAP SE, SAP Product Engineering.</em><br><em>Julia White is chief marketing and solutions officer and a member of the Executive Board of SAP SE.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-customer-data-from-demand-to-delivery-with-sap-software">Connect customer data from demand to delivery with SAP software</h3>
+        <p><strong><a href="https://www.sap.com/products/crm.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>industry/automotive</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[In a Fragmented World, Technology Brings Us Together]]></title>
+            <link>https://www.sap.com/blogs/2023/01/fragmented-world-technology-unites</link>
+            <guid>https://www.sap.com/blogs/2023/01/fragmented-world-technology-unites</guid>
+            <pubDate>Tue, 31 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology is key to uniting a fragmented world; business, government, and society can tackle the challenges. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>non-sap-event/wef-davos</category>
+        </item>
+        <item>
+            <title><![CDATA[Eight Industry Trends That Are Here to Stay]]></title>
+            <link>https://www.sap.com/blogs/2022/12/eight-2023-industry-trends-here-to-stay</link>
+            <guid>https://www.sap.com/blogs/2022/12/eight-2023-industry-trends-here-to-stay</guid>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about eight 2023 industry trends here to stay according to SAP Executive Board Member Thomas Saueressig.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+        </item>
+        <item>
+            <title><![CDATA[The Business Value of SAP BTP]]></title>
+            <link>https://www.sap.com/blogs/2022/12/the-business-value-of-sap-btp</link>
+            <guid>https://www.sap.com/blogs/2022/12/the-business-value-of-sap-btp</guid>
+            <pubDate>Thu, 08 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP CTO and Executive Board Member Juergen Mueller explains the true business value of SAP BTP. Learn more here.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/idc</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Build: What’s Under the Hood?]]></title>
+            <link>https://www.sap.com/blogs/2022/11/sap-build-capabilities-under-the-hood-sap-teched</link>
+            <guid>https://www.sap.com/blogs/2022/11/sap-build-capabilities-under-the-hood-sap-teched</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take a deeper look at SAP Build capabilities and how the low-code offering helps SAP customers deliver new, innovative solutions quickly.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Activating the Power of Good Through Sports]]></title>
+            <link>https://www.sap.com/blogs/2022/11/activating-power-sports-for-good</link>
+            <guid>https://www.sap.com/blogs/2022/11/activating-power-sports-for-good</guid>
+            <pubDate>Thu, 10 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has been recognized in the Laureus Sport for Good Index. Learn how we come together with organizations to succeed as a team.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/sap-sponsorships</category>
+            <category>industry/sports-entertainment</category>
+        </item>
+        <item>
+            <title><![CDATA[Changing Work for Good]]></title>
+            <link>https://www.sap.com/blogs/2022/09/changing-work-for-good</link>
+            <guid>https://www.sap.com/blogs/2022/09/changing-work-for-good</guid>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[As organizations face the requirements to become more agile and resilient than ever, SAP is changing work for good. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/hcm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/executive-blog</category>
+            <category>sap-event/successconnect</category>
+        </item>
+    </channel>
+</rss>

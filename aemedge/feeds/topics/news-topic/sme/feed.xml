@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-topic/sme/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 13 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Growing Your Business Begins with Growing Your People]]></title>
+            <link>https://www.sap.com/news/2024/05/growing-your-business-begins-with-growing-your-people</link>
+            <guid>https://www.sap.com/news/2024/05/growing-your-business-begins-with-growing-your-people</guid>
+            <pubDate>Mon, 13 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[An Oxford Economics study, sponsored by SAP, reveals how to optimizing talent management with best practices for HR and IT. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>news-tag/sap-successfactors-hcm-suite</category>
+            <category>product/sap-successfactors-learning</category>
+            <category>product/sap-successfactors-opportunity-marketplace</category>
+            <category>product/sap-successfactors-performance-goals</category>
+            <category>product/sap-successfactors-recruiting</category>
+        </item>
+        <item>
+            <title><![CDATA[Corvias Combines SAP S/4HANA Cloud and SAP BTP to Streamline Efficiency and Maximize Results]]></title>
+            <link>https://www.sap.com/news/2024/01/corvias-sap-streamline-efficiency-maximize-results</link>
+            <guid>https://www.sap.com/news/2024/01/corvias-sap-streamline-efficiency-maximize-results</guid>
+            <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Corvias selected SAP S/4HANA Cloud, private edition and SAP BTP to help modernize its business processes. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16b00da7ad89aecaccd983d3343285162838738c3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16b00da7ad89aecaccd983d3343285162838738c3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16b00da7ad89aecaccd983d3343285162838738c3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Corvias Combines SAP S/4HANA Cloud and SAP BTP to Streamline Efficiency and Maximize Results" src="./media_16b00da7ad89aecaccd983d3343285162838738c3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="corvias-combines-sap-s4hana-cloud-and-sap-btp-to-streamline-efficiency-and-maximize-results">Corvias Combines SAP S/4HANA Cloud and SAP BTP to Streamline Efficiency and Maximize Results</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><a href="https://www.corvias.com/">Corvias</a> is known for its unwavering commitment to addressing critical infrastructure challenges. The company’s work isn’t merely about providing housing or energy – it’s about enhancing quality of life and promoting collaboration within communities.</div>
+    </div>
+  </div>
+  <p>This vision is underpinned by concrete plans that will help turn it into a reality. That’s why Corvias recently began modernizing its business processes for the future. Together with <a href="https://www.avvale.com">Avvale</a>, the company embarked on a journey that led to the adoption of SAP S/4HANA Cloud, private edition and SAP Business Technology Platform (SAP BTP).</p>
+  <h2 id="a-vision-for-optimization">A Vision for Optimization</h2>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15c36d38c8030e9f6e88a0cf9cdb1cdba127470ce.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15c36d38c8030e9f6e88a0cf9cdb1cdba127470ce.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15c36d38c8030e9f6e88a0cf9cdb1cdba127470ce.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Row of houses. Photo courtesy of Corvias" src="./media_15c36d38c8030e9f6e88a0cf9cdb1cdba127470ce.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="600" height="400">
+          </picture>
+        </p>
+        <p><em>Photo courtesy of Corvias</em></p>
+      </div>
+    </div>
+  </div>
+  <p>Before choosing SAP, Corvias was grappling with a complex organizational structure, one characterized by disconnected systems and processes across accounting and purchasing. The allocation process was cumbersome and required redundant updates in multiple parts of the system, causing administrative headaches.</p>
+  <p>Executive leadership quickly identified the need to simplify workflows so that they could deliver information to the right stakeholders effectively and quickly and create an integrated system that could move data seamlessly between processes without human intervention.</p>
+  <h2 id="choosing-sap-for-success">Choosing SAP for Success</h2>
+  <p>To help overcome its challenges, Corvias selected two primary SAP solutions: <a href="https://www.sap.com/products/erp/s4hana-private-edition.html">SAP S/4HANA Cloud, private edition</a> and <a href="https://www.sap.com/products/technology-platform.html">SAP BTP</a>. With them, Corvias hoped to primarily centralize its data, enabling integrated purchasing and accounting capabilities. The implementation also leveraged SAP Fiori to help develop customized applications for allocating segment costs.</p>
+  <p>Today, Corvias’ processes are simplified and streamlined, thanks to real-time, actionable information accessible by key members of leadership through SAP. This allows them to be more strategic in their decision-making with greater visibility into real costs and profitability at both the individual and project levels, contributing to a more efficient financial management system for the company overall.</p>
+  <h2 id="far-reaching-benefits">Far-Reaching Benefits</h2>
+  <p>The adoption of SAP has empowered the company to concentrate on enhancing its working capital through ongoing improvements. This has fostered a culture of innovation and encouraged a proactive approach to operational challenges and enhancements within the organization.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="get-tailored-to-fit-cloud-erp-that-adapts-to-your-organizations-unique-transformation">Get tailored-to-fit cloud ERP that adapts to your organization’s unique transformation</h3>
+        <p><em><a href="https://www.sap.com/products/erp/s4hana-private-edition.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In accounts payable, for instance, the implementation of automated purchase order management processes has resulted in a notable decrease in touch points. The accounts payable team has seen a reduction from seven to two touch points in 75% of cases. This not only enhances efficiency but reduces the likelihood that errors will occur as often as they would with manual processes. The streamlined purchase-order management system has become a valuable asset in optimizing the company’s financial workflow.</p>
+  <p>Corvias has also embraced a more unified and secure information management system. By standardizing data security roles throughout the entire organization, SAP provided a reliable and protected method for managing information. This consistency has made it easier for site teams to handle administrative tasks, freeing up their time to focus on more strategic initiatives.</p>
+  <p>Best of all, these SAP solutions provided a flexible and scalable platform that allows Corvias to seamlessly incorporate acquired or new companies.</p>
+  <h2 id="looking-ahead-to-the-future">Looking Ahead to the Future</h2>
+  <p>Corvias’ journey with SAP and Avvale showcases the transformative power of streamlined systems and integrated solutions. By addressing the challenges of a complex organizational structure and disparate workflows, Corvias not only achieved operational efficiency but also laid the groundwork for future scalability. The collaboration with Avvale unlocked expert guidance and support throughout the process, highlighting the importance of strategic partnerships in navigating the evolving landscape of technology integration.</p>
+  <p>Today, as Corvias continues to oversee diverse projects in partnership with the military, higher education institutions, and communities, the adoption of SAP stands as a testament to the company’s commitment to innovation and excellence across all its mission-critical endeavors.</p>
+  <div class="footnote">
+    <div>
+      <div>Mike Kaszuk is SVP and COO for Midmarket at SAP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/mining: industry/mill-products</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Supporting Midmarket Business with a Strong Partner Ecosystem]]></title>
+            <link>https://www.sap.com/news/2023/11/supporting-midmarket-business-strong-partner-ecosystem</link>
+            <guid>https://www.sap.com/news/2023/11/supporting-midmarket-business-strong-partner-ecosystem</guid>
+            <pubDate>Mon, 27 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP solutions help midmarket companies build relationships with partners that can enable continued growth and scale. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/partners</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-partneredge</category>
+        </item>
+        <item>
+            <title><![CDATA[The Power of SAP S/4HANA Cloud: Revolutionizing the Midmarket Banking Industry]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-s4hana-cloud-revolutionizing-midmarket-banking-industry</link>
+            <guid>https://www.sap.com/news/2023/11/sap-s4hana-cloud-revolutionizing-midmarket-banking-industry</guid>
+            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP S/4HANA Cloud helps revolutionize midmarket banking with tailored simplicity, scalability, and customer-centric innovation. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_17356558432084b1ac6f3aff27227d6550342794a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_17356558432084b1ac6f3aff27227d6550342794a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_17356558432084b1ac6f3aff27227d6550342794a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Power of SAP S/4HANA Cloud: Revolutionizing the Midmarket Banking Industry" src="./media_17356558432084b1ac6f3aff27227d6550342794a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-power-of-sap-s4hana-cloud-revolutionizing-the-midmarket-banking-industry">The Power of SAP S/4HANA Cloud: Revolutionizing the Midmarket Banking Industry</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the fast-paced world of the midmarket <a href="/topics/banking">banking</a> industry, finding the perfect technology partner is like discovering a gem amidst a sea of stones. It’s about harnessing the power of innovation, scalability, and tailored solutions to meet the ever-evolving needs of both customers and businesses.</div>
+    </div>
+  </div>
+  <p>Enter <a href="https://www.sap.com/products/erp/grow/industry/banking.html">SAP S/4HANA Cloud</a>, a game changer for the midmarket banking industry. Let’s dive into how this solution can help banks aiming to skyrocket their growth and redefine the future of banking.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14692ed3dc37fd427f9eb5a242dd341d3c1119167.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14692ed3dc37fd427f9eb5a242dd341d3c1119167.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14692ed3dc37fd427f9eb5a242dd341d3c1119167.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Industry - Banking: Introduction" src="./media_14692ed3dc37fd427f9eb5a242dd341d3c1119167.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=Q93o4YvvhjA">SAP Industry – Banking: Introduction</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="tailored-for-the-midmarket">Tailored for the Midmarket</h2>
+  <p>SAP S/4HANA Cloud can address the unique challenges and aspirations of midmarket banks. With a laser focus on pre-built functionality and best practices, the solution is designed to fit seamlessly into the specific requirements of midsized financial institutions, helping to ensure a match that caters to their distinct operational demands and strategic visions.</p>
+  <h2 id="unleashing-the-power-of-simplicity">Unleashing the Power of Simplicity</h2>
+  <p>In the complex maze of banking operations, simplicity is the ultimate sophistication. SAP S/4HANA Cloud offers a user-friendly interface and streamlined processes that can simplify complex banking tasks, helping midmarket players to navigate with ease and efficiency. It’s about fostering a culture of simplicity that can amplify productivity and enhance the overall banking experience.</p>
+  <h2 id="scalability-redefined">Scalability Redefined</h2>
+  <p>For midmarket banks aiming to scale their operations and expand their market presence, SAP S/4HANA Cloud can serve as the ultimate growth catalyst. With its robust scalability features, the solution can empower banks to seamlessly adapt to evolving market dynamics, embrace new opportunities, and catapult their business to new heights without the fear of outgrowing their technological backbone.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="digital-transformation-is-paving-the-way-for-innovation-in-banking">Digital transformation is paving the way for innovation in banking</h3>
+        <p><em><a href="https://www.sap.com/industries/banking.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="customer-centric-innovation">Customer-Centric Innovation</h2>
+  <p>In an era where the customer experience reigns supreme, SAP S/4HANA Cloud helps place the customer at the heart of every banking endeavor. From personalized banking services to real-time insights that can drive meaningful engagements, the solution can enable midmarket banks to create unforgettable customer journeys that can foster long-term relationships and trust, helping to set them apart in a competitive landscape.</p>
+  <h2 id="security-fortified">Security Fortified</h2>
+  <p>In the age of digital threats and cyber vulnerabilities, the security of financial data is non-negotiable. SAP S/4HANA Cloud comes fortified with robust security features that can safeguard sensitive information, helping ensure data integrity and compliance with regulatory standards. It’s like having an impenetrable fortress protecting the valuable assets and trust of both the bank and its customers.</p>
+  <h2 id="embracing-future-ready-technology">Embracing Future-Ready Technology</h2>
+  <p>SAP S/4HANA Cloud is not just about meeting the current industry standards; it’s about setting the stage for future innovation and technological advancements. With a forward-thinking approach and integration of cutting-edge technologies like generative artificial intelligence (AI) and data analytics, the solution can empower midmarket banks to stay ahead of the curve and help pave the way for a future-ready banking landscape.</p>
+  <p>In conclusion, SAP S/4HANA Cloud stands out as a quintessential choice for the midmarket banking industry, offering a blend of customization, simplicity, scalability, customer-centric innovation, robust security, and future-ready technology. By embracing the power of SAP S/4HANA Cloud, midmarket banks can embark on a transformative journey that can propel their growth, amplify their customer relationships, and set them on a trajectory of unprecedented success in the dynamic world of modern banking.</p>
+  <p>To learn more, please visit <a href="https://www.sap.com/products/erp/grow/industry/banking.html">GROW with SAP page for Banking</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Falk Rieker is global head of IBU Banking at SAP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/banking</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Western Sugar Cooperative Achieves Cost Optimization and Efficiency with SAP S/4HANA Cloud, Public Edition]]></title>
+            <link>https://www.sap.com/news/2023/11/western-sugar-cooperative-sap-s4hana-cloud-public-edition</link>
+            <guid>https://www.sap.com/news/2023/11/western-sugar-cooperative-sap-s4hana-cloud-public-edition</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The adoption of SAP S/4HANA Cloud marked a significant moment in the technological transformation of Western Sugar Cooperative. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Phoenix Global Enhances Operational Excellence via GROW with SAP]]></title>
+            <link>https://www.sap.com/news/2023/11/phoenix-global-enhances-operational-excellence-with-sap</link>
+            <guid>https://www.sap.com/news/2023/11/phoenix-global-enhances-operational-excellence-with-sap</guid>
+            <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Global successfully implemented GROW with SAP to accelerate its journey to a unified, digitally integrated ERP system. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>industry/mining: industry/mill-products</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[North American Customers Embracing Public Cloud as 2023 Enters Home Stretch]]></title>
+            <link>https://www.sap.com/news/2023/09/north-american-customers-grow-with-sap-2023</link>
+            <guid>https://www.sap.com/news/2023/09/north-american-customers-grow-with-sap-2023</guid>
+            <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[GROW with SAP can help midsize businesses discover what’s possible. Read about the SAP customers that have adopted GROW with SAP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[GROW with SAP: A Game Changer for Midsize Companies]]></title>
+            <link>https://www.sap.com/news/2023/09/grow-with-sap-game-changer-midsize-companies</link>
+            <guid>https://www.sap.com/news/2023/09/grow-with-sap-game-changer-midsize-companies</guid>
+            <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Three midsize companies share how GROW with SAP and cloud ERP help them foster business growth and stay agile. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Cloud ERP: GROW with SAP Signals Midmarket Push]]></title>
+            <link>https://www.sap.com/videos/in-focus-julia-white-grow-with-sap</link>
+            <guid>https://www.sap.com/videos/in-focus-julia-white-grow-with-sap</guid>
+            <pubDate>Wed, 22 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Midsize companies need cloud ERP to compete effectively.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/video</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/in-focus</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches Cloud ERP Offering for Midsize Companies]]></title>
+            <link>https://www.sap.com/blogs/2023/03/grow-with-sap-cloud-erp-offering-midsize-companies</link>
+            <guid>https://www.sap.com/blogs/2023/03/grow-with-sap-cloud-erp-offering-midsize-companies</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[GROW with SAP is the company's new offering for midsize customers to harness the proven benefits of cloud ERP. Learn more about it.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[Partner Quotes: GROW with SAP]]></title>
+            <link>https://www.sap.com/news/2023/03/partner-quotes-grow-with-sap</link>
+            <guid>https://www.sap.com/news/2023/03/partner-quotes-grow-with-sap</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has launched GROW with SAP to help midsize customers adopt cloud ERP. Read SAP partner quotes on the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/statement</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[GROW with SAP Brings Proven Cloud ERP Benefits to Midsize Customers]]></title>
+            <link>https://www.sap.com/news/2023/03/grow-with-sap-proven-cloud-erp-midsize-customers</link>
+            <guid>https://www.sap.com/news/2023/03/grow-with-sap-proven-cloud-erp-midsize-customers</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new GROW with SAP offering helps midsize customers adopt cloud ERP that enables speed, predictability and continuous innovation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[SMEs Can Turn Ambition into Action with SAP Product Footprint Management for Clean Operations]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-product-footprint-management-for-clean-operations-smes-action</link>
+            <guid>https://www.sap.com/news/2022/06/sap-product-footprint-management-for-clean-operations-smes-action</guid>
+            <pubDate>Mon, 13 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Product Footprint Management for clean operations addresses the needs of SMEs to streamline and simplify carbon management.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>product/sap-product-footprint-management</category>
+        </item>
+        <item>
+            <title><![CDATA[CRN Recognizes 20 SAP Leaders]]></title>
+            <link>https://www.sap.com/news/2022/05/crn-recognizes-20-sap-leaders</link>
+            <guid>https://www.sap.com/news/2022/05/crn-recognizes-20-sap-leaders</guid>
+            <pubDate>Mon, 09 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Twenty SAP leaders have been named to CRN’s 2022 Women of the Channel Awards, and SAP's Cathy Daum has been named to the Power 100.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/sme</category>
+            <category>content-type/feature</category>
+            <category>news-tag/crn</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP Helps Resolve Capital Issues for MSMEs on SAP BTP]]></title>
+            <link>https://www.sap.com/news/2021/07/capital-issues-msmes-sap-btp-sap-supplier-financing</link>
+            <guid>https://www.sap.com/news/2021/07/capital-issues-msmes-sap-btp-sap-supplier-financing</guid>
+            <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[For MSMEs, getting access to capital can be tough. Learn how SAP Supplier Financing helps to bridge the funding gap on SAP BTP .]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a4695fb09e968554fa6fd954faad29380135e4e7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a4695fb09e968554fa6fd954faad29380135e4e7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a4695fb09e968554fa6fd954faad29380135e4e7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How SAP Helps Resolve Capital Issues for MSMEs on SAP BTP" src="./media_1a4695fb09e968554fa6fd954faad29380135e4e7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="how-sap-helps-resolve-capital-issues-for-msmes-on-sap-btp">How SAP Helps Resolve Capital Issues for MSMEs on SAP BTP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Whether it’s your favorite pizza place that treats you to Italian flair and flavor anytime, the local bookstore with the best curated selection, or the creative agency that really understands your business, micro, small, and medium enterprises (MSMEs) are considered the backbone of the world economy.</div>
+    </div>
+  </div>
+  <p>In fact, according to the <a href="https://www.worldbank.org/en/topic/smefinance">World Bank</a>, MSMEs make up roughly 90% of businesses globally — there are approximately 400 million of them — and employ 50% of the workforce.</p>
+  <p>While smaller businesses tend to be more flexible and quicker to change than larger corporations, they are much more vulnerable to deterioration in the business environment. The <a href="/covid-19">COVID-19</a> pandemic has unleashed extensive socioeconomic impacts, putting millions of companies worldwide at risk of being forced out of business.</p>
+  <p>The crisis has hit MSMEs and their workers particularly hard. A significant challenge for them can be access to working capital to run and grow their business. This was already an issue for many small companies before the crisis started. The International Finance Corporation estimates that 65 million firms in developing countries have an unmet financing need of <a href="https://www.ifc.org/wps/wcm/connect/Industry_EXT_Content/IFC_External_Corporate_Site/Financial+Institutions/Priorities/SME+Finance?CID=IFC_TT_IFC_EN_EXT">$5.2 trillion</a> every year — almost twice the GDP of the UK.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sapio-helping-innovators-inside-and-outside-of-sap">SAP.iO: Helping innovators inside and outside of SAP</h3>
+      </div>
+      <div><strong><a href="https://sap.io/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="getting-access-to-cash-is-tough">Getting Access to Cash Is Tough</h2>
+  <p>MSMEs in particular rely on funding from banks, since they typically do not access capital markets. Over the last decade, <a href="https://www.bis.org/review/r210302g.pdf">43%</a> of external finance for MSMEs in the euro area has come from bank loans, double the share for large firms.</p>
+  <p>However, getting a loan can be difficult for MSMEs. Rejection rates have always been higher due to the costs of serving customers and higher risk profiles for banks, as well as a lack of traditional data to accurately evaluate the creditworthiness of MSMEs. This lack of information about the applying business and the limited transaction history are among the concerns and why their lending requests get turned down.</p>
+  <p>How can this funding gap be bridged?</p>
+  <h2 id="no-business-can-do-business-alone">No Business Can Do Business Alone</h2>
+  <p>Over 5.5 million companies conduct business-to-business (B2B) e-commerce on the newly unified <a href="https://www.sap.com/products/business-network.html">SAP Business Network</a>. Between buyers and suppliers, $3.75 trillion of B2B commerce activities transpire. The next phase of evolution is to integrate the physical and financial supply chains. Historically, siloed or inaccessible information from vendors and disconnected systems and teams across the organization posed challenges for companies to react to changes quickly.</p>
+  <p>Leveraging <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP), <a href="https://www.youtube.com/watch?v=-kC67yRBjVU">SAP Supplier Financing</a> enables an open ecosystem of financial institutions to integrate and embed relevant financial solutions within the context of every business transaction executing on SAP Business Network.</p>
+  <p>SAP Supplier Financing leverages the data that was traditionally locked within an SAP system to unlock new ways for banks to distribute finance to MSMEs and bridge the funding gap.</p>
+  <p>Available since 2018 and started as an internal venture in the <a href="https://sap.io/">SAP.iO</a> program, SAP Supplier Financing adds capabilities to SAP Business Network with a new working capital solution for trading partners, providing millions of transacting suppliers with simplified and cost-effective access to a network of lenders to help improve cash flow. Suppliers can use this free extension as part of their existing <a href="https://www.ariba.com/ariba-network">Ariba Network</a> subscription. At the same time, their corporate buyers that are already part of SAP Business Network will not be charged with IT implementation costs, nor with additional software commitments.</p>
+  <h2 id="data-alone-does-not-provide-value">Data Alone Does Not Provide Value</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="evolve-your-business-to-operate-in-the-networked-economy">Evolve your business to operate in the networked economy</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-network.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Connecting a stack of applications, data, and business processes gets more complicated by the minute as today’s businesses operate in an increasingly complex IT environment. MSMEs are no different. Data is king, but with the rapidly growing number of data sources, types, and volume, creating value from data is getting tougher. Aware of these challenges, SAP Supplier Financing was built on SAP BTP from the ground up. It leverages Ariba Network data such as the supplier profile, invoice, and purchase order and turns it into real insights and business value for the suppliers by matching their financial needs with curated funding partners.</p>
+  <p>With SAP BTP, suppliers can review multiple offers from funding partners without sending paper and scanned PDF documents usually required for due diligence process and funding events. Once they choose an offer and establish the relationship with the funding partner, SAP BTP automates the exchange of electronic data between the supplier and their funding partner, thereby improving the daily sales outstanding (DSO) from a few months to only a couple of days.</p>
+  <p>Since its inception in the <a href="https://sap.io/studio/">SAP.iO Venture Studio</a> in 2017, SAP Supplier Financing has facilitated more than $70 million in funding to Ariba Network suppliers. During the <a href="/covid-19">pandemic</a>, the former SAP.iO venture facilitated access to over $40 million in financing for MSMEs in the U.S., supporting a steady cash flow in times of crisis.</p>
+  <h2 id="enable-financial-partners-to-get-the-full-picture">Enable Financial Partners to Get the Full Picture</h2>
+  <p>Providing suppliers with access to capital via Ariba Network is one side of the coin. On the other side are financial institution partners in need of verified data to assess the financial situation of these supplier businesses. With SAP Supplier Financing on SAP BTP, financial partners get unified access to consolidated data across different trading partners along with the ability to integrate data from non-SAP data sources on a single platform for improved transparency into the financial health of the MSME. This turns raw data into real business value, allowing banks to serve smaller firms effectively and efficiently and to limit the risk of investing in a failing business.</p>
+  <p>Started with the successful integration into Ariba Network, SAP Supplier Financing now aims to scale the matching solution outside of the U.S. and eventually offer it as part of SAP Fieldglass, SAP S/4HANA, SAP Commerce Cloud, and SAP Concur software.</p>
+  <div class="promo">
+    <div>
+      <div><a href="https://sap.io/">SAP.iO</a> is SAP’s strategic business unit to incubate, accelerate, and scale startup innovation and explore new business models for SAP. Since 2017, SAP.iO has helped over 300 external startups and internal ventures both start and scale their businesses while enabling thousands of SAP customers to access innovation.</div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div><em>Vishal Shah is founder of SAP Supplier Financing.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="accelerate-business-outcomes-with-integration-data-to-value-and-extensibility-with-sap-business-technology-platform">Accelerate business outcomes with integration, data to value, and extensibility with SAP Business Technology Platform</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html?pdf-asset=d29a141c-e47d-0010-bca6-c68f7e60039b&#x26;page=1">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Upscale Commerce Offers Midmarket Brands No-Code, Maintenance-Free Path to Direct-to-Consumer Engagement]]></title>
+            <link>https://www.sap.com/news/2021/06/sapphire-now-sap-upscale-commerce-midmarket-brands</link>
+            <guid>https://www.sap.com/news/2021/06/sapphire-now-sap-upscale-commerce-midmarket-brands</guid>
+            <pubDate>Wed, 02 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[No-code, headless commerce platform SAP Upscale Commerce gets midmarket brands up and running fast. Read the news from SAPPHIRE NOW.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Upscale Commerce Offers Midmarket Brands No-Code, Maintenance-Free Path to Direct-to-Consumer Engagement" src="./media_102af7b26add9fec57f77504e28732f45a2ac74e4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-upscale-commerce-offers-midmarket-brands-no-code-maintenance-free-path-to-direct-to-consumer-engagement">SAP Upscale Commerce Offers Midmarket Brands No-Code, Maintenance-Free Path to Direct-to-Consumer Engagement</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When the <a href="/covid-19">pandemic</a> hit and physical retail outlets had to close or limit their operations, midmarket brands had to pivot quickly to sell directly to consumers (D2C) and learn how to interact with customers digitally – only to realize that a simple webstore was not enough to compete in the digital world.</div>
+    </div>
+  </div>
+  <p>This spiked a need for a new kind of commerce solution, one that equips midmarket companies with all the necessary tools to sell fast and easy, apply changes quickly, and offer intelligent merchandising capabilities that were previously only accessible to large enterprises.</p>
+  <p><a href="https://www.sap.com/products/upscale-commerce.html">SAP Upscale Commerce</a> enables this by offering an intelligent selling engine that delivers engaging storefronts while optimizing for sales and profit, with the ability to more rapidly create mobile-first shopping experiences to meet the changing expectations of their customers. Businesses can take full control of the customer journey, drive world-class omnichannel customer experiences, and create a competitive edge by choosing to start with easily configurable building blocks or create completely custom commerce experiences.</p>
+  <p>The solution enables brands to:</p>
+  <ul>
+    <li><strong>Sell anywhere — make the store the destination:</strong> SAP Upscale Commerce delivers rich mobile-first, cross-channel, in-store experience for shoppers and makes it easy for shoppers to intuitively shop by swiping, pinching, and tapping their devices.</li>
+    <li><strong>Sell intelligently — big or small, sell smart:</strong> With built-in artificial intelligence (AI), brands can create a unique storefront experience for each shopper at scale and deliver intelligent, relevant experiences that optimize business profits. Intelligent capabilities also help to convert one-time purchases into subscriptions.</li>
+    <li><strong>Speed and agility — start fast and go far:</strong> Brands can start small and scale as they grow using no code tools out of the box to create new and fresh shopping experiences in days and using low- and no-code tools to easily extend and build the perfect fit solution.</li>
+    <li><strong>Keep the promise — deliver on the brand promise:</strong> Brands can sell and ship from everywhere with an agile order orchestration and fulfill orders from the closest stores.</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sapphire-now">Read more news and coverage from SAPPHIRE NOW</h3>
+      </div>
+      <div><strong><a href="/topics/sapphire-now">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="transitioning-customer-engagement-from-in-store-to-online">Transitioning Customer Engagement from In Store to Online</h2>
+  <p>One organization that experienced these changes firsthand is Swedish fashion retailer <a href="https://www.joyshop.se/">JOY</a>. JOY, which for many years has delighted Swedish women with quality clothes, has re-emerged in a completely new form. JOY no longer has any physical stores and is instead focusing on e-commerce and personalized fashion advice. The founders see JOY as a startup building next-generation e-commerce based on AI and slow fashion – a more sustainable alternative with clothes lasting several seasons. JOY is also the first company in the world that has selected the combination of the cloud-based solutions SAP Upscale Commerce and the Emarsys platform for customer engagement functionality.</p>
+  <p>“We are definitely in a paradigm shift within e-commerce and digital channels. The retail industry has so far been able to make a living from using large product catalogs, but they do not provide the best customer experience. Instead, customers want inspiration, advice, and, in our case, also ready-made combinations of clothes that suit their own style – and lasting several seasons,” said Anna Ullman Sersé, CEO and co-founder of JOY. “SAP Upscale Commerce fit our needs perfectly. The solution is very flexible, allowing us to make changes quickly and to provide more content than just a traditional product catalog. This frees up more time for us to truly focus on engaging with the customers online, much like we did when we would meet in stores.”</p>
+  <h2 id="powering-social-selling-with-top-social-media-platforms">Powering Social Selling with Top Social Media Platforms</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-upscale-commerce-start-fast-and-grow-intelligently-with-an-ai-powered-selling-engine">SAP Upscale Commerce: Start fast and grow intelligently with an AI-powered selling engine</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/upscale-commerce.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Another option for brands pivoting to direct customer engagement is selling through social media channels, more commonly known as “social selling.” With careful and considered targeting of the right products at the right time, it is possible for midmarket brands to drive down the cost of customer acquisition as products find customers directly through algorithmic targeting. However, this means that having the right type of information about products and the right content in posts is critical – as is for that information to be up to date.</p>
+  <p>To deliver on this opportunity, SAP Upscale Commerce integrates into social media platforms, enabling organizations to easily start taking advantage of social commerce. The solution makes it easy to connect an online store to a Facebook business account, continuously sync the product catalog, create a Facebook Shop, and use that to drive new sales opportunities to consumers. The result is a consistent shopping experience on social media, with the front-end and back-end business processes fully integrated.</p>
+  <h2 id="hackathon-spurs-new-ideas-to-solve-customer-pain-points">Hackathon Spurs New Ideas to Solve Customer Pain Points</h2>
+  <p>To meet individual customer challenges, the SAP Customer Experience team in Canada recently hosted a hackathon, in which teams of product experts and solution integration partners battled to create brand new online shopping experiences based on specific, real-world client requirements for fashion, automotive, and retail – all within SAP Upscale Commerce.</p>
+  <p>Judging criteria was based on overall creativity, use of available product extensions, ease of shopping experience, time-to-market, and how well the solution drives customers toward long-term loyalty and advocacy for the brand. After a day and a half of competition, the event culminated in a final virtual pitch presentation, with <a href="https://www.ecenta.com/en/company/">ECENTA</a> taking home the award for Most Creative, and <a href="https://www.liveareacx.com/">LiveArea</a> awarded for Best Use of Technology.</p>
+  <p>“As a judge, I was truly impressed with the quality and quantity of results after only a day and a half of hacking, showcasing incredible innovation, creativity, and accomplishment by small teams in a small amount of time,” said Frédéric Bouthillier, CEO of <a href="http://www.grtouchette.com/en/home.html">Groupe Touchette</a>. “The teams’ rapid development of new, innovative experiences proves the time to value of SAP Upscale Commerce and headless commerce solutions.”</p>
+  <p>The events of the past year have changed the way people shop and the shift to online purchasing is here to stay. Now midmarket brands don’t have to settle with a simple direct-to-consumer webstore. With SAP Upscale Commerce, businesses have the ability to put the customer at the heart of everything they do, connecting front- and back-office data, simplifying and automating complex sales processes, and delivering insights in real time that enable seamless, personalized experiences that grow revenue.</p>
+  <p>The SAP Upscale Commerce solution, <a href="https://store.sap.com/en/?campaigncode=CRM-YD21-SOC-0STORPZ&#x26;source=ppc-SAPSTOREPS-GL-202121&#x26;gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-LIG56BYZkTP40_VO10vLETrMtaeoEorbGOdSnJC-bU5MS27bwkfggaAuygEALw_wcB">available on SAP Store</a>, is the next-generation intelligent selling engine that can help midmarket brands to achieve fast growth, create differentiated experiences, and leverage intelligence to optimize sales and profits.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Bob Stutz is president of SAP Customer Experience.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="register-to-join-sapphire-now-in-2021">Register to join SAPPHIRE NOW in 2021</h3>
+      </div>
+      <div><strong><a href="https://reg.sapevents.sap.com/flow/sap/sapphirenow2021/portal/page/home">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/commerce</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[CRN Recognizes 15 SAP Leaders]]></title>
+            <link>https://www.sap.com/news/2021/05/crn-recognizes-15-sap-leaders</link>
+            <guid>https://www.sap.com/news/2021/05/crn-recognizes-15-sap-leaders</guid>
+            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Fifteen SAP executives have been named to CRN's 2021 Women of the Channel Awards and Power 100 lists. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/sme</category>
+            <category>content-type/feature</category>
+            <category>news-tag/crn</category>
+        </item>
+        <item>
+            <title><![CDATA[SMEs: Small CO2 Footprint, Big Climate Impact]]></title>
+            <link>https://www.sap.com/news/2021/04/carbon-footprint-of-smes-impact</link>
+            <guid>https://www.sap.com/news/2021/04/carbon-footprint-of-smes-impact</guid>
+            <pubDate>Thu, 15 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pressure is on to manage the carbon footprint of SMEs, as large companies pass their carbon-neutral goals requirements on.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SMEs: Small CO2 Footprint, Big Climate Impact" src="./media_16dca4aab592023620ed62a1dddbb0779c36d48b4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="smes-small-co2-footprint-big-climate-impact">SMEs: Small CO2 Footprint, Big Climate Impact</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>More than 90% of the world’s businesses are small and midsize enterprises (SMEs), and their combined CO<sub>2</sub> footprint, while not easily calculated, exceeds that of large enterprises.</div>
+    </div>
+  </div>
+  <p>The challenge this presents is huge, but so are the rewards. In Europe alone, <a href="https://www.oecd-ilibrary.org/environment/smes-key-drivers-of-green-and-inclusive-growth_8a51fc0c-en">SMEs contribute up to 70% of industrial pollution</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-how-sap-is-working-to-make-sustainability-profitable-and-profitability-sustainable">Explore how SAP is working to make sustainability profitable and profitability sustainable</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/company/purpose-and-sustainability.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="change-in-the-air">Change in the Air</h2>
+  <p>SMEs have <a href="https://www.oecd.org/greengrowth/GGSD_2018_SME%20Issue%20Paper_WEB.pdf">traditionally experienced less environmental scrutiny and regulation</a> compared with large corporations. But change is in the air. Pressure to act is <a href="https://hbr.org/2021/03/what-bidens-sustainability-agenda-means-for-business">is mounting on SMEs</a> as large companies pass their requirements on to suppliers.</p>
+  <p>BMW is a case in point. In July 2020, the German auto group <a href="https://www.press.bmwgroup.com/global/article/detail/T0312166EN/no-premium-without-responsibility-bmw-group-makes-sustainability-and-efficient-resource-management">announced CO<sub>2</sub> targets for its supply chain</a> of well over 10,000 suppliers, with the goal of reducing emissions per vehicle produced by at least one-third. The company uses carbon footprint as a criterion for awarding contracts for everything from materials and components to production equipment and tools. “Our aim is to ensure the most sustainable supply chain in the entire industry,” says Oliver Zipse, chairman of the Board of Management at BMW.</p>
+  <p>BMW’s German competitor Mercedes-Benz announced that more than 75% of its suppliers are committed to supplying CO₂-neutral parts to help it achieve its 2039 ambition of CO₂ neutrality.</p>
+  <p>Other examples of large enterprises that are working with their suppliers to reduce carbon footprint include <a href="https://www.tetrapak.com/sustainability/environmental-impact/suppliers">Tetra Pak</a> and <a href="https://www.basf.com/global/en/who-we-are/sustainability/we-produce-safely-and-efficiently/energy-and-climate-protection/corporate-carbon-footprint.html">BASF</a>. Nearly half of CEOs at large companies are targeting sustainability in their business operations, according to the <a href="https://www.unglobalcompact.org/library/5716">2019 UN Global Compact Progress Report</a>.</p>
+  <p>But it is not only the supply chain leaders that are adding climate action to their corporate policies. Increasingly investors, shareholders, consumers, and employees are looking to business to adopt ambitious climate-related targets. Countries, cities, states, and provinces are also adding to the pressure. Over <a href="https://carbonpricingdashboard.worldbank.org/">60 carbon-pricing initiatives have already been implemented</a> or are planned worldwide. National and international regulations may soon require <a href="https://www.environdec.com/about-us/the-international-epd-system-about-the-system">environmental impact information</a> to be provided on product labels and descriptions.</p>
+  <h2 id="open-questions-without-adequate-answers">Open Questions Without Adequate Answers</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="information-sheet-manage-your-green-line-with-sap-business-ecology-management">Information sheet: Manage your green line with SAP Business Ecology Management</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/documents/2020/11/421f493b-ba7d-0010-87a3-c30de2ffd8ff.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Matthias Weigold is familiar with the complex world in which SMEs currently find themselves. The director of the Institute for Production Management, Technology, and Machine Tools (PTW) at the Technical University Darmstadt is partnering with German manufacturers to test scenarios for energy efficiency and flexibility in manufacturing processes based on the availability of renewable energy sources.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot: Matthias Weigold" src="./media_1630186fe657cd9b593134d4b9c04f76ee6c49d2d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="850" height="800">
+    </picture>
+  </p>
+  <p><em>Image courtesy of PTW</em></p>
+  <p>“Many SMEs hear their primary customers saying, ‘Do something about your carbon footprint and do it fast.’ They are faced with a mountain of open questions without adequate answers,” he explains. “SMEs also know that if they react too slowly and without the necessary level of detail, they could lose their most valuable customers.”</p>
+  <p>To satisfy the demands of their customers for low-carbon production, SMEs will increasingly need to adapt their manufacturing operations to the pricing fluctuations associated with the energy mix of fossil and renewable energy. The scenarios are no longer hypothetical, according to Weigold: “Exceptionally <a href="https://energypost.eu/negative-electricity-prices-lockdowns-demand-slump-exposes-inflexibility-of-german-power/">sunny and windy periods during 2020</a> led wholesale electricity prices to go negative in Germany.”</p>
+  <p>Complicating the situation are the myriad national policies and timelines worldwide, says Weigold, who provides an example. “Over 80% of the machine tools made in Germany are exported, with the lion’s share going to manufacturers in China. Now that <a href="https://climateactiontracker.org/climate-target-update-tracker/china/">China has proposed updated targets in December 2020</a>, German SMEs are unsure how they should react.”</p>
+  <p>At the <a href="https://eta-fabrik.de/">ETA model factory in Darmstadt</a> which makes it possible to test various production scenarios under real-world conditions, SAP and PTW are modeling enterprise resource planning (ERP) software to the manufacturing environment.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="ETA-Fabrik" src="./media_1b3bf9f508a4e46672a27553554123f737e927fbe.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1500" height="1032">
+    </picture>
+  </p>
+  <p><em>Image courtesy of Andreas Körner</em></p>
+  <p>“By bringing two worlds together — the business software layer and the operational layer — we can influence the efficiency and flexibility of manufacturing processes,” Weigold says, adding that it is the first project of its type worldwide.</p>
+  <h2 id="turning-climate-action-into-a-competitive-advantage">Turning Climate Action into a Competitive Advantage</h2>
+  <p>SAP expects the cooperation with PTW to help it refine its new software package that enables CO<sub>2</sub> accounting for SMEs over the entire supply chain. The <a href="https://www.sap.com/documents/2020/11/421f493b-ba7d-0010-87a3-c30de2ffd8ff.html">SAP Business Ecology Management</a> solution makes it possible for companies to manage the CO<sub>2</sub> footprint for each product by combining their existing ERP system — for example, SAP Business One or SAP Business ByDesign — with an energy flow model for the process. SAP partners worldwide will be responsible for applying the solution to customers’ individual and industry needs.</p>
+  <p><a href="https://rdcu.be/cgzMZ">Studies show</a> that SMEs are prepared to manage their carbon emissions if they have the necessary support and tools. The recently launched <a href="https://smeclimatehub.org/">SME Climate Hub</a> is a brokerage for such resources. With a growing number of members, the hub could serve as a vital part of the implementation of ambitious corporate climate action.</p>
+  <p>Emissions are typically divided into three categories, or <a href="https://compareyourfootprint.com/difference-scope-1-2-3-emissions/">Scopes</a>. The main targets of SAP Business Ecology Management are the Scope 1 and Scope 2 emissions of SMEs, which directly impact the upstream Scope 3 emissions of their customers.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot: Jochen Mayerle" src="./media_130bfc8e549ce9242d7335fdbfae855a5dc34e53e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="800" height="800">
+    </picture>
+  </p>
+  <p><em>Jochen Mayerle</em></p>
+  <p>“Supply chains make up the part of the carbon footprint, which are not under direct influence of a company, but have the highest reduction potential because they give organizations insight into the hot spots in their supply chain,” says Jochen Mayerle, business process architect, SAP.</p>
+  <p>Mayerle emphasizes that the new product is designed to be easy to use and its implementation does not require the hiring of an expert in sustainability. Niels Hermansen, founder of the Danish SAP partner BitPeople A/S, based in Denmark, agrees. “I like that SAP has taken the initiative in this area,” Hermansen says. “It understands that SMEs have the same requirements as big companies, but do not have the same resources.”</p>
+  <p>SAP Business Ecology Management is currently being testing by numerous customers and is planned for launch the third quarter of 2021.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Sandra Thiel, Agile expert, and Chris Horak, global vice president of Solution Marketing, contributed to this story.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/sme</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/climate-21</category>
+            <category>product/sap-business-bydesign</category>
+            <category>product/sap-business-one</category>
+        </item>
+    </channel>
+</rss>

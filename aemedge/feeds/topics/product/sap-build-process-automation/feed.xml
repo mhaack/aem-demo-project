@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/product/sap-build-process-automation/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 23 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Build Now Part of GROW with SAP and RISE with SAP]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-build-part-of-grow-with-sap-and-rise-with-sap</link>
+            <guid>https://www.sap.com/news/2023/03/sap-build-part-of-grow-with-sap-and-rise-with-sap</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're pleased to announce the SAP Build portfolio is now included in the RISE with SAP and GROW with SAP offerings. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-process-automation</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[New Automation Starter Pack for SAP S/4HANA Cloud, Public Edition]]></title>
+            <link>https://www.sap.com/news/2023/01/new-automation-starter-pack-sap-s4hana-cloud-public-edition</link>
+            <guid>https://www.sap.com/news/2023/01/new-automation-starter-pack-sap-s4hana-cloud-public-edition</guid>
+            <pubDate>Thu, 05 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With a new automation starter pack, SAP S/4HANA Cloud customers can benefit from SAP Build Process Automation. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-process-automation</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+    </channel>
+</rss>

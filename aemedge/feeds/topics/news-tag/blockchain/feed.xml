@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/blockchain/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 30 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Empowering the City of Antibes to Redefine Digital Contract Management]]></title>
+            <link>https://www.sap.com/news/2023/11/city-of-antibes-redefines-digital-contract-management</link>
+            <guid>https://www.sap.com/news/2023/11/city-of-antibes-redefines-digital-contract-management</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The City of Antibes and SAP Innovation Center Network are revamping digital contract management with a focus on public procurement processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Empowering the City of Antibes to Redefine Digital Contract Management" src="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="empowering-the-city-of-antibes-to-redefine-digital-contract-management">Empowering the City of Antibes to Redefine Digital Contract Management</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the era of digital transformation, multi-company processes governed by legal contracts are becoming increasingly common. With the untapped potential of decentralized processes, there is a growing prospect for digitizing and automating collaborative contract management, streamlining operations, and reducing risks and costs.</div>
+    </div>
+  </div>
+  <p>Recognizing this potential, the City of Antibes and <a href="https://www.sap.com/about/company/innovation/icn.html">SAP Innovation Center Network</a> have joined forces to redefine digital contract management with a focus on public procurement processes. Patrick Duverger, chief technology officer of the City of Antibes, describes its previous procurement operations as follows: “Although we achieved a high level of operational proficiency, our business processes lacked full traceability. This resulted in process opacity when it comes to recurring delays, delivery errors, or administrative sanctions. By gaining a deeper understanding of our processes, we can optimize them, reduce costs, and minimize business risks.”</p>
+  <h2 id="transparent-and-traceable-collaboration">Transparent and Traceable Collaboration</h2>
+  <p>The lack of visibility and traceability in these processes hindered automation, cross-organizational data and process mining, and intelligence. This directly affected how disputes were resolved and impacted organizational budgets.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="build-and-deploy-intelligent-data-applications-at-scale-with-sap-hana-cloud">Build and deploy intelligent data applications at scale with SAP HANA Cloud</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/hana.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To address this challenge, SAP Innovation Center Network developed a prototype based on the <a href="https://d.dam.sap.com/a/1vxdhV8/Cross-Company%20Workflow%20-%20One%20pager%289%29%20%20-%20%20Read-Only.pdf?rc=10">SAP Cross-Company Workflow Collaboration</a> service, combined with a blockchain-based shared ledger on SAP HANA Cloud. “This prototype aims to replace manual practices with automated, cross-company orchestrations. By using an SAP HANA Cloud shared ledger, organizations like the City of Antibes can benefit from a permissioned, publicly verifiable, and immutable audit trail of cross-organizational interactions,” says Benjamin Stoeckhert, innovation product manager at SAP Innovation Center Network, illustrating the potential of this innovation.</p>
+  <p>“Leveraging the full potential of an SAP HANA Cloud shared ledger allows us to connect digital platforms that unite businesses and government to track the compliance of services and product deliveries according to contractual terms and conditions,” explains Duverger. “We can leverage data from different parties, such as logistics companies and quality certification bodies, and move beyond the era of cumbersome paperwork and manual processes. For example, this pattern is applicable to procurement processes where multiple parties verify the compliance of suppliers and their deliveries.”</p>
+  <h2 id="complete-control-of-unencrypted-data">Complete Control of Unencrypted Data</h2>
+  <p>However, opening up collaborative processes directly conflicts with customer privacy concerns. This dilemma poses a significant challenge for next-generation contract management. How can businesses ensure transparency without compromising the privacy of private business information and processes? Duverger emphasizes the importance of protecting sensitive public procurement secrets: “Confidentiality, including negotiated prices and deal sizes, is paramount for us and our suppliers.”</p>
+  <p>In response to this pressing need, the SAP Security Research team, in collaboration with the SAP Innovation Center Network blockchain team, has extended SAP Cross-Company Workflow Collaboration with a hardware-based privacy-enhancing technology (PET) innovation. Dr. Laurent Gomez, who led this innovation with Antibes, explains: “Before committing a transaction to the shared ledger, organizations encrypt it along with its associated sensitive information, using their own managed cryptographic material. Encrypted data and processes are only processed within secure and trusted hardware modules, with the explicit consent of each stakeholder.”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="future-focused-solutions-can-solve-todays-challenges-and-shape-the-next-generation-of-enterprise-software">Future-focused solutions can solve today’s challenges and shape the next generation of enterprise software</h3>
+        <p><em><a href="https://www.sap.com/about/company/innovation/icn.html">Learn how</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>This innovation can unlock significant business value by helping to automate cross-company operations and protect the privacy of customer data while still allowing for analysis. The key contribution of this approach is that it gives customers complete control and ownership of their encrypted material. “SAP can never access unencrypted data; the only data that leaves our information system is encrypted by us,” says Duverger. “SAP Business Technology Platform (SAP BTP) allows us to hold our own encryption keys, which is different from competing solutions.”</p>
+  <h2 id="less-late-payment-penalty-costs">5% Less Late Payment Penalty Costs</h2>
+  <p>The co-innovation has revealed the bottlenecks that slow down the procurement process at the City of Antibes and lead to late payment penalties for suppliers and delivery delays. “By adopting this secure distributed ledger approach, we have improved these key performance indicators without changing the process itself. We can now reliably manage all our procurement transactions,” says Duverger. “A key achievement was that we reduced our delinquency rate by 5%, which significantly minimized the impact of late payment penalty costs on our global spend budget.”</p>
+  <p>The project was recently recognized at the highest national level with the Territoria Gold Award by the French Ministries of the Interior, Ecological Transition, and Territorial Cohesion.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="681">
+          </picture>
+        </p>
+        <p><em>© Niclas Fagot Studio9</em></p>
+      </div>
+    </div>
+  </div>
+  <p>To find out more about SAP Cross-Company Workflow, get in touch with us at <a href="mailto:icn@sap.com">icn@sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Corinna Schmidt is part of NVT Communication at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="stay-in-touch-and-connect-with-sap-news-on-linkedin">Stay in touch and connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[New SAP Exhibition Shines a Light on NFT Art]]></title>
+            <link>https://www.sap.com/news/2023/11/new-exhibition-nft-art-sap</link>
+            <guid>https://www.sap.com/news/2023/11/new-exhibition-nft-art-sap</guid>
+            <pubDate>Fri, 17 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has opened an NFT art exhibition at its international training center in Walldorf, Germany. Read to learn more about the art on display.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="New SAP Exhibition Shines a Light on NFT Art" src="./media_1885c69bbf9dcd29bb29f03d58f391fc97b8d7c88.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="new-sap-exhibition-shines-a-light-on-nft-art">New SAP Exhibition Shines a Light on NFT Art</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When the coronavirus pandemic hit, artists around the world faced a challenge. With museums, exhibitions, and art forums closed, they suddenly had nowhere to present their works to the public.</div>
+    </div>
+  </div>
+  <p>At least not in analog form.</p>
+  <p>“Many artists were left wondering how to sell and market their work,” says Alexandra Cozgarea, art curator at SAP. “That’s why we saw a great deal of hype around digital art at the time – and especially about artworks in the form of NFTs.”</p>
+  <p>SAP’s latest exhibition entitled “The Poetry of Blockchain” is the first it has staged exclusively for NFT art and features 47 works by 18 artists. But what exactly <em>are</em> NFTs?</p>
+  <p>NFT stands for non-fungible token. This is a unique, non-replaceable, and non-interchangeable digital object stored on a blockchain that acts as a certificate of authenticity and ownership of a physical or digital asset, such as a picture. It takes the form of a digital identifier composed of a unique string of characters.</p>
+  <h2 id="nfts-in-the-art-market">NFTs in the Art Market</h2>
+  <p>If you want to buy NFT artworks, you need cryptocurrency and a crypto wallet – installed on your smartphone or other device – to store them in. You’re then ready to visit one of the many open platforms on the Internet, known as “NFT marketplaces,” where people can browse NFTs or search for works by specific artists. One of these marketplaces is <a href="https://opensea.io/de-DE">OpenSea</a>.</p>
+  <p>“These platforms work a little like galleries,” says Cozgarea. “Artists wishing to offer their work for sale there upload their pieces to the underlying blockchain to create NFTs in a process known as ‘minting.’”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="the-metaverse-dreamland-or-dystopia">The Metaverse: Dreamland or Dystopia?</h3>
+        <p><em><a href="/2023/07/metaverse-art-exhibition">Read about a previous SAP art exhibit</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>These tokens can represent a single, unique asset or multiple copies of the same asset, in which case the image displayed on the platform will be identical but the digital identifier will be slightly different for each copy. This means an artist can mint an entire series of artworks and put them up for sale on an NFT marketplace.</p>
+  <p>“Many of the works on these marketplaces are created digitally and added straight to the blockchain as NFTs,” explains Cozgarea. “But it’s also possible to create NFTs from analog artworks such as oil paintings or sculptures. You would do this by photographing the artwork and uploading it as a JPG file.”</p>
+  <p>When you have selected an artwork you wish to buy, you place a bid for it on the platform or, if a fixed price is specified, make an offer. If the artist accepts your offer, the NFT is released and payment is made using the cryptocurrency deposited in your wallet. You then receive a link containing the address of the NFT and can transfer it to your wallet.</p>
+  <p>The acquired piece can be displayed at any time – as a JPG, video, or other file – by clicking a link or scanning a QR code. But the token itself stays in the buyer’s wallet.</p>
+  <p>“The artists exhibiting their NFTs at SAP in Walldorf copied their artworks onto a USB stick as files,” says Cozgarea. “The original artwork remains securely on the blockchain, so if the stick is lost or stolen, it makes no difference to ownership.”</p>
+  <div class="quote">
+    <div>
+      <div>Many of my works are the result of several years of research, during which I investigate and change gaps in history, the background of coding, and the opaque influence of databases on the development of algorithms and the resulting creation of images. At every stage, I ask, ‘Who are we and what shapes our identity? What makes a person? What traces do we leave behind in the places where we live?’</div>
+    </div>
+    <div>
+      <div>Johanna Reich, exhibiting artist</div>
+    </div>
+  </div>
+  <h2 id="sap-working-on-an-nft-management-solution">SAP Working on an NFT Management Solution</h2>
+  <p>NFTs are having an impact way beyond the art market. The business world has recognized their potential, too. At SAP, a team spread across three continents is working on an NFT management solution that focuses on customer engagement and loyalty programs.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="nfts-on-the-hunt-for-iconic-moments-from-saps-50-year-history">NFTs: On the Hunt for Iconic Moments from SAP’s 50-Year History</h3>
+        <p><em><a href="/2022/11/nft-drop-sap-teched">Read the feature</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To showcase the possibilities of the solution, visitors at the opening night of the SAP art exhibition were invited to access NFTs created by SAP. Sven Haiges, a software developer at SAP Labs Munich, explains the background: “We are working with MetaBrewSociety, based in Bavaria, Germany. It’s a startup that has financed itself partly by selling NFTs. By scanning a QR code on one of the beer cans we ordered with them, customers and visitors at SAP events can now claim one of our own NFTs, created with our NFT management solution.”</p>
+  <p>“At the moment, only about 5% to 10% of the population understands crypto and NFTs, and they tend, of course, to be younger people,” says Haiges. But he fully expects the level of interest and engagement to grow.</p>
+  <p>Cozgarea sees NFTs as a response to digitalization and what she describes as its promise of openness, exchange, and – to some extent – democratization. “NFTs present a concept of ownership for the digital age. People are looking for something exclusive,” she says.</p>
+  <p>There are 47 works of art by 18 different artists on display at the SAP training center in Walldorf – all on monitors. The organizers decided against streaming the works live from the blockchain because that would have been very energy intensive.</p>
+  <p>“This exhibition contains exclusively digitally produced works,” says Cozgarea. “But it also includes works that are based on traditional art forms and play with the possibilities of digitalization, such as augmented reality.”</p>
+  <p>Reinhard Schmid, one of the exhibiting artists, says: “I created my first cryptoart in 2018 and have featured in many publications and exhibitions since then. ‘The Poetry of Blockchain’ is a massive highlight for me. The fact that a global player like SAP is exhibiting NFTs is an important milestone for both me as an artist and for the entire Web3 community.”</p>
+  <p>The exhibition runs until February 23, 2024. <a href="https://my.matterport.com/show/?m=Ko1ZNhnRb5o">Check out a digital 360° tour of the exhibition</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Top image courtesy of SAP employee Juelma Guerreiro.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin">Connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/art-at-sap</category>
+            <category>news-tag/blockchain</category>
+        </item>
+        <item>
+            <title><![CDATA[How HCLTech Uses SAP BTP Innovations to Combat Water Scarcity]]></title>
+            <link>https://www.sap.com/news/2023/10/hcltech-uses-sap-btp-combat-water-scarcity</link>
+            <guid>https://www.sap.com/news/2023/10/hcltech-uses-sap-btp-combat-water-scarcity</guid>
+            <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP partner and global tech company HCLTech is tackling the problem of water scarcity with its AquaSphere solution. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains]]></title>
+            <link>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</link>
+            <guid>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</guid>
+            <pubDate>Thu, 27 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A pilot of SAP Green Token with a group of SAP customers validated the solution's ability to provide visibility into their supply chains.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains" src="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-traceability-and-transparency-can-foster-sustainability-in-chemical-and-plastics-supply-chains">How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many consumers and companies understand the need to recycle or recover the <a href="https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm#:~:text=22%2F02%2F2022%20%2D%20The,to%20a%20new%20OECD%20report">91% of global plastic waste that is mismanaged, ends up in landfills, oceans, and rivers, or is incinerated</a>. Likewise, new bio- and circular plastic components offer a path to making these vital materials more sustainable by saving fossil resources and greenhouse gas emissions.</div>
+    </div>
+  </div>
+  <p>Today, only <a href="https://www.unep.org/interactives/beat-plastic-pollution/?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU-swAQ57sjFHeL7YUFJGqwykYKF1f9T-GX8Xo09Blzmt84GFFkhQLkaAg10EALw_wcB">2% of single-use plastic products are produced from certified sustainable sources</a> such as bio- and circular components. Bio-components are feedstock that comes from organic, bio-based origins, such as used cooking oil. Circular components are feedstock that is recycled from waste plastic, such as post-consumer recycled waste.</p>
+  <p>A viable and efficient way to use such sustainable feedstock is integrating it into existing, large-scale production systems to avoid the additional cost, energy, and carbon emissions of segregated production facilities. But, when bio- and circular feedstock is blended with conventional fossil feedstock, how can consumers, regulators, and supply chains have confidence in bio- and circular-attributed plastic product claims? And how can these claims be leveraged to encourage informed choices when industries and consumers purchase products that are certified sustainable?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transform-business-and-value-chains-for-a-circular-economy-with-sap-solutions">Transform business and value chains for a circular economy with SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/sustainability/circular-economy.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="digital-tracking-for-total-traceability-and-transparency">Digital Tracking for Total Traceability and Transparency</h2>
+  <p>The <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token</a> solution is a mass balance management solution from SAP that leverages tokenization and blockchain for chain of custody to help create traceability and transparency. In September 2022, SAP Green Token became an official part of the SAP Sustainability portfolio.</p>
+  <p>In a successful pilot, a group of SAP customers – including SKGC, Korea; Elantas, Italy; Westlake Vinnolit, Germany; Berry Global, U.S.; and Unilever R&#x26;D, the Netherlands – reviewed the ability of SAP Green Token to enable traceability and transparency of bio- and circular waste inputs to bio- and circular-attributed products across the chemical and plastics supply chain.</p>
+  <p>SAP Green Token enables organizations to create tokens that serve as digital twins of the bio- and circular chemical feedstock material flows throughout the entire supply chain and capture the unique <a href="/topics/sustainability">sustainability</a> attributes linked to the bio- and circular feedstock origin. As a result, the solution allows organizations to verify their certified sustainable material usage in their processes. What’s more, the green credentials encapsulated in the tokens can be passed from one business partner to another via blockchain as the material moves along the supply chain, helping to ensure that important environmental, social, and governance (ESG) attributes are preserved. Also, an auditable record can be documented to prove the product is sustainable in accordance with recognized product standards, such as ISCC PLUS and REDcert2, and hence better for the environment.</p>
+  <p>“This successful trial of SAP Green Token represents another key milestone on our mission to establish the ‘green line’ alongside the top and bottom lines as key performance dimensions,” says Gunther Rothermel, head of Sustainability Engineering at SAP. “This solution offers our customers an easy way to have complete visibility into the origin and chain of custody of their bio- and circular-based feedstock and allows them to prove to their customers, international standard agencies, and their board that they have a concrete, auditable way of proving their circular performance against their sustainability KPIs.”</p>
+  <p>The blockchain technology helps prevent double counting of claims and create trust; it can make the production of sustainable plastic easier to verify and thus certifiable, which is particularly important in terms of customer demand, regulatory compliance, and the ability to charge a price premium.</p>
+  <h2 id="rapid-adoption-crucial-for-sustainable-plastics">Rapid Adoption Crucial for Sustainable Plastics</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-way-forward-for-consumer-goods-packaging">The Way Forward for Consumer Goods Packaging</h3>
+      </div>
+      <div><strong><a href="/2023/06/way-forward-for-consumer-goods-packaging">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Accelerating the circular economy requires driving demand for circular plastics,” said Diane Marret, sustainability director for Consumer Packaging North America at Berry Global. “Integrating mass balance-accounted materials into SAP Green Token’s centralized, global IT system helps reduce risk in our reporting accuracy, minimize manual efforts through automation, and build confidence and trust in our ability to manage circular materials.”</p>
+  <p>Read more about this pilot in the newly published <a href="https://www.sap.com/documents/2023/06/ca44c9c2-7c7e-0010-bca6-c68f7e60039b.html">SAP Green Token white paper</a>. For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="http://www.sap.com/sustainability">www.sap.com/sustainability</a> and the <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token page on sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Gloria Figaroa is a solution advisor for SAP Green Token.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[Tchibo and SAP Brew Up Web3 Innovation]]></title>
+            <link>https://www.sap.com/news/2023/05/tchibo-and-sap-brew-up-web3-innovation</link>
+            <guid>https://www.sap.com/news/2023/05/tchibo-and-sap-brew-up-web3-innovation</guid>
+            <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the NFT Launchpad, SAP and Tchibo show how Web3 can improve the customer experience through NFTs and digital twin technology.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/digital-twin</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Blockchain Rises Despite Crypto’s Crash]]></title>
+            <link>https://www.sap.com/news/2023/01/the-take-crypto-crash-blockchain-rises</link>
+            <guid>https://www.sap.com/news/2023/01/the-take-crypto-crash-blockchain-rises</guid>
+            <pubDate>Fri, 20 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The crypto crash may have tarnished blockchain, its underlying technology has many more successful uses. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/cryptocurrency</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[How Digitalization Can Accelerate the Energy Transition to Green Hydrogen]]></title>
+            <link>https://www.sap.com/news/2023/01/energy-transition-to-green-hydrogen-digitalization</link>
+            <guid>https://www.sap.com/news/2023/01/energy-transition-to-green-hydrogen-digitalization</guid>
+            <pubDate>Tue, 17 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Green hydrogen is a critical technology in the transition to renewable energy and the move toward a global net zero economy.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>non-sap-event/wef-davos</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[On the Hunt for Iconic Moments from SAP’s 50-Year History]]></title>
+            <link>https://www.sap.com/news/2022/11/nft-drop-sap-teched</link>
+            <guid>https://www.sap.com/news/2022/11/nft-drop-sap-teched</guid>
+            <pubDate>Tue, 08 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP TechEd 2022, participants can take part in a unique NFT drop, collecting 15 pieces of digital art based on SAP's 50-year history.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/sap-history</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Sartorius Are Reinventing Collaboration and Manual Processes]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-and-sartorius-reinventing-collaboration</link>
+            <guid>https://www.sap.com/news/2022/10/sap-and-sartorius-reinventing-collaboration</guid>
+            <pubDate>Tue, 04 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Sartorius developed a prototype that aims to replace manual practices with automated cross-company orchestrations. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/automation</category>
+            <category>news-tag/blockchain</category>
+            <category>industry/healthcare</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Crypto Regulation Could Quash Blockchain Innovation]]></title>
+            <link>https://www.sap.com/news/2022/08/the-take-crypto-regulation-blockchain-innovation</link>
+            <guid>https://www.sap.com/news/2022/08/the-take-crypto-regulation-blockchain-innovation</guid>
+            <pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[There’s a lot of potential riding in the cryptocurrency space, so crypto regulation is a hot topic, with concerns circling. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/cryptocurrency</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Unilever Pilot Blockchain Technology to Support Deforestation-Free Palm Oil]]></title>
+            <link>https://www.sap.com/news/2022/03/sap-and-unilever-pilot-blockchain-deforestation-free-palm-oil</link>
+            <guid>https://www.sap.com/news/2022/03/sap-and-unilever-pilot-blockchain-deforestation-free-palm-oil</guid>
+            <pubDate>Mon, 21 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Unilever have announced a pilot to further increase traceability and transparency in Unilever’s global palm oil supply chain.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/blockchain</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[Blockchain as a Megatrend]]></title>
+            <link>https://www.sap.com/news/2021/12/blockchain-as-a-megatrend</link>
+            <guid>https://www.sap.com/news/2021/12/blockchain-as-a-megatrend</guid>
+            <pubDate>Wed, 15 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What makes blockchain a megatrend and what can be expected from the technology in the near future? Read to find out.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Top 2021 Blockchain Trends: Build Trusted Business Through Digital Transformation]]></title>
+            <link>https://www.sap.com/news/2021/01/top-2021-blockchain-trends-building-trusted-business</link>
+            <guid>https://www.sap.com/news/2021/01/top-2021-blockchain-trends-building-trusted-business</guid>
+            <pubDate>Wed, 06 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Top 2021 blockchain trends directly align with the push for digital transformation as a path to build trust with customers. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/idc</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Zuellig Pharma Fight Fake Drugs]]></title>
+            <link>https://www.sap.com/videos/sap-and-zuellig-pharma-fight-fake-drugs</link>
+            <guid>https://www.sap.com/videos/sap-and-zuellig-pharma-fight-fake-drugs</guid>
+            <pubDate>Sun, 05 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Fake medicines have become a multi-billion dollar trade, with a higher profit margin then heroin trafficking. Now big healthcare corporations like Zuellig Pharma are fighting...]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/video</category>
+            <category>news-tag/blockchain</category>
+            <category>industry/life-sciences</category>
+        </item>
+    </channel>
+</rss>

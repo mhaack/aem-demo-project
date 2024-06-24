@@ -1,5 +1,12 @@
 import { a, div } from '../../scripts/dom-builder.js';
-import { fetchProfiles, getAuthorMetadata, lookupProfiles } from '../../scripts/utils.js';
+import {
+  fetchProfiles,
+  getAuthorMetadata,
+  lookupProfiles,
+  addColClasses,
+  LIST_LAYOUT_CONFIG_L2,
+  LIST_LAYOUT_CONFIG,
+} from '../../scripts/utils.js';
 import Avatar from '../../libs/avatar/avatar.js';
 import { getMetadata, fetchPlaceholders, toCamelCase } from '../../scripts/aem.js';
 
@@ -27,8 +34,13 @@ function renderProfiles(block, profiles, linkText, stacked = false) {
         block.append(cardContent);
       }
     });
-    if (multipleProfiles && !stacked) {
-      block.classList.add(`elems${profiles.length}`);
+    if (!stacked) {
+      const template = getMetadata('template');
+      if (template === 'hub-l2') {
+        addColClasses(block, block, LIST_LAYOUT_CONFIG_L2);
+      } else {
+        addColClasses(block, block, LIST_LAYOUT_CONFIG);
+      }
     } else {
       block.classList.add('stacked');
     }

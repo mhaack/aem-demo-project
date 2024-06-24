@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/digital-twin/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 15 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Signavio Again Leads the 2024 SPARK Matrix™ for Digital Twin of an Organization]]></title>
+            <link>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</link>
+            <guid>https://www.sap.com/news/2024/05/sap-signavio-leads-2024-spark-matrix-digital-twin-organization</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio is a Leader in the 2024 SPARK Matrix for Digital Twin of an Organization (DTO) for the fourth consecutive year. Read more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-process-management</category>
+            <category>news-tag/business-process-transformation</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Goes the Distance with EV Fleet Digitalization]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</link>
+            <guid>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Longtime partners SAP and Mercedes-Benz are transforming the sustainable EV experience with digitalized corporate fleet management.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Goes the Distance with EV Fleet Digitalization" src="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-goes-the-distance-with-ev-fleet-digitalization">SAP Goes the Distance with EV Fleet Digitalization</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Electric vehicles (<a href="/topics/electric-vehicles">EVs</a>) are transforming the mobility experience in corporate fleet management. A great example is the partnership between <a href="https://www.mercedes-benz.com/en/">Mercedes-Benz</a> and SAP where the companies are both customers and vendors to each other. Mercedes-Benz is using SAP solutions to digitalize its omnichannel buying experience, and SAP is the first customer using its own technology to manage the company’s vehicle fleet in Germany.</div>
+    </div>
+  </div>
+  <p>As longtime partners, SAP and Mercedes-Benz have a history of shared knowledge for mutual competitive advantage. The fleet management program is grounded in the companies’ similar business philosophies and product road maps.</p>
+  <p>Mercedes-Benz has committed to move the company’s B2B business to 100% digital and plans to sell 25% of all new cars online by 2025. The company selected <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> to help support this mission. It will create a future-proof composable commerce portfolio designed to reliably power the company’s digital strategy, including a standardized offering across different markets. It will also simplify processes and reduce time-to-market.</p>
+  <h2 id="benefits-of-digitalized-fleet-management">Benefits of Digitalized Fleet Management</h2>
+  <p>From the SAP employee’s perspective, ordering a company EV couldn’t be simpler. Instead of time-consuming manual research and back and forth communication with the car dealer, employees can use <a href="https://www.sap.com/products/spend-management/solutions.html">the guided buying capability in SAP Ariba solutions</a> to order the EV they want directly from the Mercedes-Benz online catalog. They can choose the features they want, such as car make and model, color, and equipment packages, within SAP’s pre-set guidelines.</p>
+  <p>“The car configurator automates the EV selection process end-to-end, eliminating manual steps and saving time while providing the employee with a highly personalized experience,” said Steffen Krautwasser, head of SAP’s global car fleet. “Automating the approval process assures data consistency and eliminates the need for manual quality checks.”</p>
+  <p>There’s a tremendous convenience factor in captured EV data as well. In one pilot program for select EVs in SAP’s fleet, the digital twin will automatically track mileage. Drivers will no longer need to manually enter mileage every time they recharge, and SAP can use this data to better manage the fleet.</p>
+  <h2 id="connected-data-drives-sustainable-business">Connected Data Drives Sustainable Business</h2>
+  <p>Once ordered, EVs are tracked as assets in SAP’s financial system. After delivery, <a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">SAP Digital Vehicle Suite</a> creates a digital twin that can capture relevant, secure data across the EV’s lifetime. SAP’s fleet management team can track CO2 emissions based on green energy usage, mileage, and the number of vehicles on the road. Krautwasser envisioned reporting this data to support the company’s global sustainability commitments.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-digital-vehicle-suite-delivers-a-holistic-approach-to-vehicle-sales-and-data-management">SAP Digital Vehicle Suite delivers a holistic approach to vehicle, sales, and data management</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Performance data from the EV digital twin can help corporate fleet managers guide employees in choosing the best vehicle for their driving needs,” said Krautwasser. “Over time, drivers can better understand travel ranges between charges.”</p>
+  <p>Data is expected to help address so-called range anxiety, alerting EV drivers when their vehicle needs a charge and, most important, where to recharge. Mercedes-Benz is investing in charging infrastructure to create an ecosystem that would be integrated with public and private charge point providers in the U.S., China, and Europe.</p>
+  <p>The partnership also reflects a shared commitment to sustainability. Mercedes-Benz has committed to become carbon neutral by 2038, and transition to 100% electric vehicles by 2030 wherever possible. SAP is transitioning the company’s vehicle fleet for employees in Germany to all EVs by 2025 as part of its corporate commitment to be carbon neutral by 2030.</p>
+  <h2 id="omnichannel-is-fastest-path-to-customer-love">Omnichannel Is Fastest Path to Customer Love</h2>
+  <p>The digital experience is extremely important for customers who expect convenience and quality. Organizations in many industries have shifted to an omnichannel strategy that offers people their preferred experience, whether online or in-person, building brand loyalty and repeat business.</p>
+  <p>“We want to provide a seamless journey for employees as they research, select, purchase, and enjoy their vehicle,” said Krautwasser. “The most exciting part of our EV fleet management strategy is how we can use our knowledge to enhance the employee experience. Through data and digital services, we can get closer to our employees and act quickly based on their feedback, making improvements and introducing new offerings that keep us on top of trends and support SAP’s sustainability commitment.”</p>
+  <p>EVs represent a profound business model shift for the entire automotive supply chain as automakers sell direct to customers, provide digital services from vehicle data, and explore new revenue opportunities. It’s clear that Mercedes-Benz and SAP are going the distance for a sustainable and satisfying driving experience.</p>
+  <div class="footnote">
+    <div>
+      <div>Susan Galer is a communications director at SAP. Follow her @smgaler.<br>Top photo courtesy of SAP employee Jude Calvin Parong.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/mercedes</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Digitalizing Food Security: AI and Digital Twins Balance Farm-to-Consume Value Chains]]></title>
+            <link>https://www.sap.com/news/2023/12/digitalizing-food-security-ai-digital-twins</link>
+            <guid>https://www.sap.com/news/2023/12/digitalizing-food-security-ai-digital-twins</guid>
+            <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Advanced technologies like AI and digital twins are digitalizing agricultural ecosystems and supply chains for worldwide food security.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-twin</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/machine-learning</category>
+        </item>
+        <item>
+            <title><![CDATA[How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains]]></title>
+            <link>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</link>
+            <guid>https://www.sap.com/news/2023/07/greentoken-traceability-transparency-plastics</guid>
+            <pubDate>Thu, 27 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A pilot of SAP Green Token with a group of SAP customers validated the solution's ability to provide visibility into their supply chains.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains" src="./media_1a1dd41a6ca6717f30d3edffbb9dcf23ed5819705.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-traceability-and-transparency-can-foster-sustainability-in-chemical-and-plastics-supply-chains">How Traceability and Transparency Can Foster Sustainability in Chemical and Plastics Supply Chains</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many consumers and companies understand the need to recycle or recover the <a href="https://www.oecd.org/environment/plastic-pollution-is-growing-relentlessly-as-waste-management-and-recycling-fall-short.htm#:~:text=22%2F02%2F2022%20%2D%20The,to%20a%20new%20OECD%20report">91% of global plastic waste that is mismanaged, ends up in landfills, oceans, and rivers, or is incinerated</a>. Likewise, new bio- and circular plastic components offer a path to making these vital materials more sustainable by saving fossil resources and greenhouse gas emissions.</div>
+    </div>
+  </div>
+  <p>Today, only <a href="https://www.unep.org/interactives/beat-plastic-pollution/?gclid=Cj0KCQiA3eGfBhCeARIsACpJNU-swAQ57sjFHeL7YUFJGqwykYKF1f9T-GX8Xo09Blzmt84GFFkhQLkaAg10EALw_wcB">2% of single-use plastic products are produced from certified sustainable sources</a> such as bio- and circular components. Bio-components are feedstock that comes from organic, bio-based origins, such as used cooking oil. Circular components are feedstock that is recycled from waste plastic, such as post-consumer recycled waste.</p>
+  <p>A viable and efficient way to use such sustainable feedstock is integrating it into existing, large-scale production systems to avoid the additional cost, energy, and carbon emissions of segregated production facilities. But, when bio- and circular feedstock is blended with conventional fossil feedstock, how can consumers, regulators, and supply chains have confidence in bio- and circular-attributed plastic product claims? And how can these claims be leveraged to encourage informed choices when industries and consumers purchase products that are certified sustainable?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transform-business-and-value-chains-for-a-circular-economy-with-sap-solutions">Transform business and value chains for a circular economy with SAP solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/sustainability/circular-economy.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="digital-tracking-for-total-traceability-and-transparency">Digital Tracking for Total Traceability and Transparency</h2>
+  <p>The <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token</a> solution is a mass balance management solution from SAP that leverages tokenization and blockchain for chain of custody to help create traceability and transparency. In September 2022, SAP Green Token became an official part of the SAP Sustainability portfolio.</p>
+  <p>In a successful pilot, a group of SAP customers – including SKGC, Korea; Elantas, Italy; Westlake Vinnolit, Germany; Berry Global, U.S.; and Unilever R&#x26;D, the Netherlands – reviewed the ability of SAP Green Token to enable traceability and transparency of bio- and circular waste inputs to bio- and circular-attributed products across the chemical and plastics supply chain.</p>
+  <p>SAP Green Token enables organizations to create tokens that serve as digital twins of the bio- and circular chemical feedstock material flows throughout the entire supply chain and capture the unique <a href="/topics/sustainability">sustainability</a> attributes linked to the bio- and circular feedstock origin. As a result, the solution allows organizations to verify their certified sustainable material usage in their processes. What’s more, the green credentials encapsulated in the tokens can be passed from one business partner to another via blockchain as the material moves along the supply chain, helping to ensure that important environmental, social, and governance (ESG) attributes are preserved. Also, an auditable record can be documented to prove the product is sustainable in accordance with recognized product standards, such as ISCC PLUS and REDcert2, and hence better for the environment.</p>
+  <p>“This successful trial of SAP Green Token represents another key milestone on our mission to establish the ‘green line’ alongside the top and bottom lines as key performance dimensions,” says Gunther Rothermel, head of Sustainability Engineering at SAP. “This solution offers our customers an easy way to have complete visibility into the origin and chain of custody of their bio- and circular-based feedstock and allows them to prove to their customers, international standard agencies, and their board that they have a concrete, auditable way of proving their circular performance against their sustainability KPIs.”</p>
+  <p>The blockchain technology helps prevent double counting of claims and create trust; it can make the production of sustainable plastic easier to verify and thus certifiable, which is particularly important in terms of customer demand, regulatory compliance, and the ability to charge a price premium.</p>
+  <h2 id="rapid-adoption-crucial-for-sustainable-plastics">Rapid Adoption Crucial for Sustainable Plastics</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-way-forward-for-consumer-goods-packaging">The Way Forward for Consumer Goods Packaging</h3>
+      </div>
+      <div><strong><a href="/2023/06/way-forward-for-consumer-goods-packaging">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Accelerating the circular economy requires driving demand for circular plastics,” said Diane Marret, sustainability director for Consumer Packaging North America at Berry Global. “Integrating mass balance-accounted materials into SAP Green Token’s centralized, global IT system helps reduce risk in our reporting accuracy, minimize manual efforts through automation, and build confidence and trust in our ability to manage circular materials.”</p>
+  <p>Read more about this pilot in the newly published <a href="https://www.sap.com/documents/2023/06/ca44c9c2-7c7e-0010-bca6-c68f7e60039b.html">SAP Green Token white paper</a>. For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="http://www.sap.com/sustainability">www.sap.com/sustainability</a> and the <a href="https://www.sap.com/products/scm/green-token.html">SAP Green Token page on sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Gloria Figaroa is a solution advisor for SAP Green Token.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/esg</category>
+            <category>product/sap-green-token</category>
+        </item>
+        <item>
+            <title><![CDATA[Nordlaks Leverages IoT and Cloud Processing to Sustainably Farm Salmon]]></title>
+            <link>https://www.sap.com/news/2023/06/nordlaks-leverages-iot-cloud-sustainably-farm-salmon</link>
+            <guid>https://www.sap.com/news/2023/06/nordlaks-leverages-iot-cloud-sustainably-farm-salmon</guid>
+            <pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[To take salmon aquaculture to a new level, Nordlaks looked to the latest technology. Read to learn about its open-sea farm vessel, Havfarm.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/internet-of-things</category>
+            <category>product/sap-enterprise-product-development</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Twin of an Organization: Reflections on the State of Your Business Processes]]></title>
+            <link>https://www.sap.com/news/2023/06/digital-twin-of-an-organization-reflections-on-the-state-of-your-business-processes</link>
+            <guid>https://www.sap.com/news/2023/06/digital-twin-of-an-organization-reflections-on-the-state-of-your-business-processes</guid>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Signavio has been named a Leader in the Digital Twin of an Organization (DTO) market by Quadrant Knowledge Solutions. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-signavio-process-explorer</category>
+        </item>
+        <item>
+            <title><![CDATA[Tchibo and SAP Brew Up Web3 Innovation]]></title>
+            <link>https://www.sap.com/news/2023/05/tchibo-and-sap-brew-up-web3-innovation</link>
+            <guid>https://www.sap.com/news/2023/05/tchibo-and-sap-brew-up-web3-innovation</guid>
+            <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the NFT Launchpad, SAP and Tchibo show how Web3 can improve the customer experience through NFTs and digital twin technology.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/digital-twin</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Steps to Profitable and Sustainable Energy Management]]></title>
+            <link>https://www.sap.com/news/2023/03/three-steps-profitable-sustainable-energy-management</link>
+            <guid>https://www.sap.com/news/2023/03/three-steps-profitable-sustainable-energy-management</guid>
+            <pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Energy-intensive industries are exploring new trends for profitable, sustainable business and energy management. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/decarbonization</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/greenhouse-gas-emissions</category>
+            <category>industry/oil-gas-energy</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[Unleashing Automation for a Resilient Aerospace & Defense Sector]]></title>
+            <link>https://www.sap.com/news/2023/02/unleashing-automation-resilient-aerospace-defense-sector</link>
+            <guid>https://www.sap.com/news/2023/02/unleashing-automation-resilient-aerospace-defense-sector</guid>
+            <pubDate>Fri, 17 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The aerospace and defense industry needs ways to overcome labor shortage-driven production challenges. Automation solutions and SAP can help]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/aerospace-defense</category>
+            <category>news-tag/automation</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/rpa</category>
+            <category>news-tag/sap-signavio</category>
+            <category>product/sap-warehouse-robotics</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Enriched by Real-Time Data, Digital Twins Thrive in Resilient Supply Chains]]></title>
+            <link>https://www.sap.com/news/2023/01/the-take-resilient-supply-chains-digital-twins</link>
+            <guid>https://www.sap.com/news/2023/01/the-take-resilient-supply-chains-digital-twins</guid>
+            <pubDate>Fri, 27 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Digital twins may be the key to more dynamic, agile supply chains. Get SAP's take on the value that they can deliver to operations.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[smart Europe Offers Car Drivers a Hyper-Personalized Customer Journey]]></title>
+            <link>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</link>
+            <guid>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</guid>
+            <pubDate>Wed, 28 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[smart Europe is breaking new ground with its direct sales model. Read how its central e-commerce platform supports all customer interactions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Why Your Company Needs a Digital Financial Twin]]></title>
+            <link>https://www.sap.com/news/2022/10/digital-financial-twin-sap-bcg</link>
+            <guid>https://www.sap.com/news/2022/10/digital-financial-twin-sap-bcg</guid>
+            <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[BCG and SAP are exploring the digital financial twin concept, which will revolutionize informed decision making for businesses. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/feature</category>
+            <category>news-tag/bcg</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/financial-services</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Bridge in Distress Sends Warning Using IoT Sensors]]></title>
+            <link>https://www.sap.com/news/2021/10/npra-bridge-distress-warning-iot-sensors</link>
+            <guid>https://www.sap.com/news/2021/10/npra-bridge-distress-warning-iot-sensors</guid>
+            <pubDate>Tue, 26 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP technology helps the Norwegian Public Roads Administration (NPRA) recognize stresses before they result in damage to a structure.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15df2c185189ca19ea08b82f7e30bad1cdb3fc13c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15df2c185189ca19ea08b82f7e30bad1cdb3fc13c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15df2c185189ca19ea08b82f7e30bad1cdb3fc13c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Bridge in Distress Sends Warning Using IoT Sensors" src="./media_15df2c185189ca19ea08b82f7e30bad1cdb3fc13c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="bridge-in-distress-sends-warning-using-iot-sensors">Bridge in Distress Sends Warning Using IoT Sensors</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>There’s not much that can shake up Kjetil Sletten, a senior engineer who manages bridge maintenance for the <a href="https://www.vegvesen.no/en/home">Norwegian Public Roads Administration</a> (NPRA). But when Sletten received an automated notification in April 2021 that movement sensors on a bridge in central Norway had gone off the scales, his instincts told him he needed to have a look with his own eyes.</div>
+    </div>
+  </div>
+  <p>Bridges in Norway have an excellent safety record, but the nearly 80-year-old Stavå bridge along Norway’s main north-south highway has been a constant cause for concern to NPRA’s engineers. Like so many older bridges worldwide, the concrete arch bridge was built for less than half the traffic volume and loads experienced today. Even before the April event, trucks were required to cross the bridge at reduced speed in one direction at a time.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b9661c8e755e849a62aca325cc01192c5fe6fc74.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b9661c8e755e849a62aca325cc01192c5fe6fc74.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b9661c8e755e849a62aca325cc01192c5fe6fc74.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Digital Twin Bridge Saves Real-World Sibling" src="./media_1b9661c8e755e849a62aca325cc01192c5fe6fc74.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=b6heGJknCvw">Digital Twin Bridge Saves Real-World Sibling</a></p>
+      </div>
+    </div>
+  </div>
+  <p><em>Video by John Hunt</em></p>
+  <p>When Sletten arrived at the bridge, he felt the reinforced-concrete structure moving under him.</p>
+  <p>“I saw the end of the bridge moving up and down with each truck passing and thought to myself, ‘This doesn’t look good at all,’” Sletten recalled. Realizing that one of the bridge abutments was floating free of its support, Sletten coolly blocked traffic in the northbound lane with his vehicle and called a road crew to manage traffic.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1a4a65dc273638846aaf0f7ee2575f41cfff275cc.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1a4a65dc273638846aaf0f7ee2575f41cfff275cc.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1a4a65dc273638846aaf0f7ee2575f41cfff275cc.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Kjetil Sletten, NPRA" src="./media_1a4a65dc273638846aaf0f7ee2575f41cfff275cc.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="533">
+    </picture>
+  </p>
+  <p><em>Kjetil Sletten, NPRA</em></p>
+  <p>In the meantime, an interim bridge has been put into operation while a new bridge is under construction.</p>
+  <h2 id="detect-understand-and-react-in-a-critical-situation">Detect, Understand, and React in a Critical Situation</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="try-sap-enterprise-product-development-today-for-fast-collaborative-product-development-and-lifecycle-management">Try SAP Enterprise Product Development today for fast, collaborative product development and lifecycle management</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/td/sap-enterprise-product-development-trial.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Sletten was able to react quickly thanks to a solution from SAP that combines IoT sensors, <a href="/2018/11/sap-predictive-engineering-insights-bridges-digital-technology">digital twin technology</a>, and asset intelligence to deliver insight into bridge behavior in real-time. <a href="https://www.sap.com/products/enterprise-product-development.html">SAP Enterprise Product Development</a> is a new class of tools that authorities can use to monitor their road assets remotely, plan maintenance, and – in extreme cases – predict structural failure.</p>
+  <p>The average age of Norway’s 5,800 bridges is 36 years, and they undergo routine inspections every five years. The bridges are considered safe, but it was a mixture of intelligent foresight and good fortune on NPRA’s part that the Stavå bridge was being used to test a new real-time monitoring and prediction system using digital twin technology.</p>
+  <p>“I don’t want to think about what might have happened if we didn’t have this instrumentation on the bridge,” said Trond Michael Andersen, director of Technology, division for Operation and Maintenance, NPRA. “It gave us a lot of insight into the integrity of the bridge and enabled us to detect, understand, and react in a critical situation.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1bfb8c0e07dec443b29c859e6d81d426803e4cf83.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1bfb8c0e07dec443b29c859e6d81d426803e4cf83.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1bfb8c0e07dec443b29c859e6d81d426803e4cf83.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Trond Michael Andersen, NPRA" src="./media_1bfb8c0e07dec443b29c859e6d81d426803e4cf83.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="540">
+    </picture>
+  </p>
+  <p><em>Trond Michael Andersen, NPRA</em></p>
+  <p>Much of the wear and tear on bridges is not visible to the human eye. But the latest digital twin technology can recognize stresses before they result in damage to a structure.</p>
+  <p>“With the cloud solution from SAP, NPRA can react immediately to abnormal behavior and also localize the problem at an early stage in development in locations where engineers cannot inspect visually,” said Marit Reiso, senior project manager for SAP Enterprise Product Development. “This has added benefits, because during routine inspections traffic has to be stopped to look at the entire bridge, and structural problems may not be recognized during non-operational conditions.”</p>
+  <p>It is important to note that later discovery of the Stavå bridge’s defect would not have resulted in a collapse, but it likely would have resulted in greater damage and required shutdown of the structure and blockage of one of the country’s most important north-south transit routes. As NPRA’s Andersen puts it, “Bridges are not only important because they shorten travel times. They are critical for healthcare services and disaster relief efforts that save lives.” An example of the potential impact on transport is exemplified by the <a href="https://www.forbes.com/sites/sap/2021/05/14/one-small-crack-in-a-bridge-one-giant-crack-in-the-supply-chain/?sh=27e52e0f48b4">forced shutdown of a major Mississippi River bridge in the U.S.</a></p>
+  <p>The clock is ticking on millions of aging bridges around the world. In the U.S. alone, <a href="https://www.artba.org/2018/01/29/54000-american-bridges-structurally-deficient-analysis-new-federal-data-shows/">more than 54,000 of the over 600,000 bridges are rated “structurally deficient.”</a> <a href="https://www.nytimes.com/2018/08/21/world/europe/genoa-bridge-collapse.html">Countries in Europe</a> are also sounding the alarm that without proper monitoring and maintenance, more bridge failures like that of the <a href="https://edition.cnn.com/2018/08/14/europe/italy-genoa-bridge-collapse-intl/index.html">Morandi Bridge in Genoa</a>, Italy, can be expected.</p>
+  <p>The <a href="https://www.economist.com/science-and-technology/2018/08/18/crumbling-infrastructure-is-a-worldwide-problem">problem is expected to worsen</a> as the expanding development in BRIC countries and other growth markets increase the use of roadways.</p>
+  <h2 id="more-digital-intelligent-and-automated-roads">More Digital, Intelligent, and Automated Roads</h2>
+  <p>Andersen recognizes the advantages of technology for keeping Norway’s roads open and safe. Being a rugged country of islands, peninsulas, and mountains, it has a complex network of 94,000 kilometers of road connected by bridges and tunnels – many of them in remote terrain. NPRA will soon introduce an asset management system for inspection, monitoring, and repair.</p>
+  <p>“The roads are becoming more digital, intelligent, and automated and the requirements for an asset management system to manage all of the data will only increase. We expect this system to help us become more predictive,” says Andersen. The introduction of an asset management system for a national road system is no simple task, but Andersen takes the long-term view, because he knows that technological change across NPRA must be accompanied by a cultural change.</p>
+  <p>“We have to adapt best practices and take the lessons learned from other asset-intensive industries to develop our organization, our tools, our methods, and we are integrating all of these aspects,” he says.</p>
+  <p>As he puts it, technology and data are “part of a large formula” to achieve the needed result: “We are in the middle of this process and it requires a big effort, but we will get there.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-twin</category>
+            <category>product/sap-enterprise-product-development</category>
+        </item>
+        <item>
+            <title><![CDATA[The Road Map to the Digital Thread Across the Product Life Cycle]]></title>
+            <link>https://www.sap.com/news/2021/07/road-map-digital-thread-product-life-cycle</link>
+            <guid>https://www.sap.com/news/2021/07/road-map-digital-thread-product-life-cycle</guid>
+            <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Siemens are sharing more details on the joint road map for the integration of SAP S/4HANA and Siemens’ Teamcenter software.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_180e9892d6483356634ba936ee96b03e3c67162d3.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_180e9892d6483356634ba936ee96b03e3c67162d3.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_180e9892d6483356634ba936ee96b03e3c67162d3.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Road Map to the Digital Thread Across the Product Life Cycle" src="./media_180e9892d6483356634ba936ee96b03e3c67162d3.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-road-map-to-the-digital-thread-across-the-product-life-cycle">The Road Map to the Digital Thread Across the Product Life Cycle</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="test-drive-sap-s4hana-today">Test drive SAP S/4HANA today</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/s4hana-erp.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Siloes between engineering and business have existed in enterprises for decades. As manufacturers design and deliver smarter products and assets, access to real-time business information across networks is critical to bring new and improved innovations to market faster.</div>
+    </div>
+  </div>
+  <p>In July 2020, <a href="/2020/07/siemens-and-sap-accelerate-industrial-transformation">SAP and Siemens announced a strategic partnership</a> to deliver a digital thread that bridges engineering, manufacturing, and business. By teaming up, we are putting our customers on a faster path to bringing together the best of our leading product lifecycle management (PLM) and enterprise resource planning (ERP) platforms. Our goal is to help customers to break down siloes so product design teams, manufacturers, and service managers have the information they need to quickly create and manage customer-centric product and service offerings.</p>
+  <p>Now, after close collaboration and teamwork, we are in a position to share more details about our joint <a href="https://roadmaps.sap.com/board?PRODUCT=73554900100800003593&#x26;range=CURRENT-LAST">road map</a> for the integration of <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA</a> and <a href="https://www.plm.automation.siemens.com/global/en/products/teamcenter/">Siemens’ Teamcenter®</a> software. This integration builds upon best practices across system and line of business boundaries, to result in a new integrated solution that blends engineering, manufacturing, and business. It comes with unique differentiating capabilities that will allow organizations to accelerate time to market — without worrying about the complexity of integration — and reducing total cost of ownership.</p>
+  <p>We will be delivering the integration in three phases through the end of 2022, with additional phases planned beyond this time to address new digital threads.</p>
+  <ul>
+    <li><strong>Phase I (October 2021)</strong> focuses on product engineering fundamentals, establishing a framework of core business scenarios on a shared domain model that will underpin end-to-end business processes. This enables enhanced traceability, federation, and linkages across the Siemens and SAP system boundaries.</li>
+    <li><strong>Phase II (Spring 2022)</strong> aims to shorten time to market by providing optimized integration between product engineering, extended supply chain, and manufacturing operations, and delivers the foundation for advanced capabilities such as variant rules and schema, project and portfolio management, and integration to manufacturing.</li>
+    <li><strong>Phase III (Fall 2022</strong>) will focus on bi-directional traceability and closed loop collaboration between manufacturing engineering and production engineering covering use cases such as cross-system impact analysis, change initiation, and process execution.</li>
+  </ul>
+  <p>This road map provides clear direction to our valued Siemens and SAP customers to help them manage increasingly complex and configurable products and meet the challenge of an ever-increasing rate of innovation. Our collaboration will help our customers accelerate their digital transformation by more closely connecting our industry-leading solutions. This end-to-end solution aims to allow teams across the business network to efficiently work together to design and deliver innovative products productively, profitably, and sustainably.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="watch-the-video-siemens-and-sap-join-forces-to-accelerate-industrial-transformation">Watch the video: Siemens and SAP Join Forces to Accelerate Industrial Transformation</h3>
+      </div>
+      <div><strong><a href="https://youtu.be/qFVE3pD7DAg">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>This collaboration affirms both companies’ commitment to working together to deliver innovations to meet the needs of our joint customers today and in the future. This combined integration solution will be developed and provided by SAP and Siemens, it will be made available to customers of both companies.</p>
+  <p>Our teams could not be more excited about the opportunities that we are creating for our customers to grow their businesses.</p>
+  <div class="footnote">
+    <div>
+      <div><em><a href="https://people.sap.com/jan.gilg">Jan Gilg</a></em> <em>is president SAP S/4HANA.<a href="https://www.plm.automation.siemens.com/global/en/our-story/leadership/tony-hemmelgarn.html">Tony Hemmelgarn</a></em> <em>is president and CEO of Siemens Digital Industries Software.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/siemens</category>
+        </item>
+    </channel>
+</rss>

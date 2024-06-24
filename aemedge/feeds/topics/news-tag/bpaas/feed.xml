@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/bpaas/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 29 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[BPaaS: Something You Can Rely On]]></title>
+            <link>https://www.sap.com/news/2023/06/bpaas-something-you-can-rely-on</link>
+            <guid>https://www.sap.com/news/2023/06/bpaas-something-you-can-rely-on</guid>
+            <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[When opting to use BPaaS, companies can redirect saved time from operational process optimization toward innovation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/bpaas</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/rpa</category>
+            <category>news-tag/sap-concur</category>
+        </item>
+    </channel>
+</rss>

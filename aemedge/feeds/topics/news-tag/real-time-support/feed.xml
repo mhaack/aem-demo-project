@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/real-time-support/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 05 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Support Accreditation: A Consultant’s Hack for Maximizing SAP’s Support Offerings]]></title>
+            <link>https://www.sap.com/news/2023/12/support-accreditation-maximizing-sap-support-offerings</link>
+            <guid>https://www.sap.com/news/2023/12/support-accreditation-maximizing-sap-support-offerings</guid>
+            <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Support Accreditation is a course that enables customers and partners to make the best use of SAP's offerings and tools. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/real-time-support</category>
+            <category>product/sap-cloud-alm</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Built-In Support Coverage Extended for SAP SuccessFactors Solutions]]></title>
+            <link>https://www.sap.com/news/2023/11/built-in-support-for-sap-successfactors</link>
+            <guid>https://www.sap.com/news/2023/11/built-in-support-for-sap-successfactors</guid>
+            <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is now expanding Built-In Support into SAP SuccessFactors solutions, so customers can access support right in the solution. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[Pushing the Boundaries of Procurement Customer Support with Innovations]]></title>
+            <link>https://www.sap.com/news/2023/10/procurement-customer-support-innovations</link>
+            <guid>https://www.sap.com/news/2023/10/procurement-customer-support-innovations</guid>
+            <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this interview, SAP's Rohan Patel gives insight into how SAP support can benefit procurement customers. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1560e17ebf571c1cad896fad5b3fe9c897622bb2c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1560e17ebf571c1cad896fad5b3fe9c897622bb2c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1560e17ebf571c1cad896fad5b3fe9c897622bb2c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Pushing the Boundaries of Procurement Customer Support with Innovations" src="./media_1560e17ebf571c1cad896fad5b3fe9c897622bb2c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="pushing-the-boundaries-of-procurement-customer-support-with-innovations">Pushing the Boundaries of Procurement Customer Support with Innovations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In today’s environment, customers are reevaluating how they use and source software solutions to run their business. The move from on-premise only solutions to the cloud is SAP’s reality as a cloud vendor.</div>
+    </div>
+  </div>
+  <p>“Customers undergo a cloud transformation because they want to accelerate their time to realize business value and they want to take advantage of innovations faster,” says Rohan Patel, global vice president, Customer Support and Innovation, Product Support – Procurement, SAP. “That’s what helps them maintain a competitive edge. And they want to do this while decreasing overall cost and minimizing risk.”</p>
+  <p>This is where <a href="https://support.sap.com/en/offerings-programs/strategy.html">Real-Time Support</a> from SAP can add real value. In this conversation, Patel gives insight into how SAP support can benefit procurement customers.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Q: How are you supporting procurement customers on their journey to the cloud?</strong></div>
+    </div>
+  </div>
+  <p><strong>A:</strong> Support in the old, on-premise world is what I like to call ‘break-fix’ support. When something failed, the IT department submitted a ticket for support, the problem was fixed, and communication ended until another issue arose. Being a break-fix support provider doesn’t work in the cloud environment. Support requires speed and foresight. Support today identifies problems and optimizes products before customers even notice something’s not working as it should.</p>
+  <p>SAP’s strategy is predictive and proactive. We want continuous dialogue with customers to provide insights and guidance that are a value-add so we’re there long before something breaks. Success in the cloud requires adoption outside of the traditional IT environment. Business end users and lines of business, like procurement, supply chain, and HR, expect easy-to-use support portals that are intuitive and quickly anticipate user needs.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-creates-support-programs-to-drive-an-innovative-and-consistent-experience">SAP creates support programs to drive an innovative and consistent experience</h3>
+        <p><em><a href="https://support.sap.com/en/offerings-programs/strategy.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>Can you share some examples of how SAP is using data to enhance predictive support?</strong></div>
+    </div>
+  </div>
+  <p>The tools we use not only help us deliver a great experience to our customers, they also continue to improve the SAP solution itself. Consider the cloud health monitoring tools within <a href="https://support.sap.com/en/alm/sap-cloud-alm.html">SAP Cloud ALM</a>, our application lifecycle management solution that helps streamline the way our customers implement and operate their cloud and hybrid environments across the entire business.</p>
+  <p>These tools can analyze what’s happening at the customer experience layer – for example, how long it takes a specific page to load, how long a user needs to complete a task, and any delays that could frustrate users, hinder adoption, and slow business outcomes. We act proactively at the engineering and cloud operations layer to help continuously improve that user experience.</p>
+  <p>We also use knowledge and data to improve the support experience, such as with <a href="https://www.sap.com/products/business-network.html">SAP Business Network</a>, which has millions of active trading partners. This business-to-business network of companies connecting, transacting, and partnering with numerous shared processes and information expands the SAP footprint well beyond the four walls of traditional operations.</p>
+  <p>Equally important is that our consumers today aren’t just IT support users, but rather work in departments throughout the clients’ operations. We’ve taken steps to help meet the needs of all those different user types. We can provide quick, easy-to-understand guidance and answers to their questions using intuitive, personalized, and real-time channels driven by both humans and artificial intelligence (AI). This recommendation engine can provide guided answers based on who the users are, what they’re doing in the application, or what questions they ask. Users can quickly get useful and relevant content for answering their questions. The data from those guided-answer experiences is then fed into the product road map to help make the entire user experience more optimal and eliminate problems before they happen.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>What have procurement customers seen in 2023 from SAP support?</strong></div>
+    </div>
+  </div>
+  <p>Our procurement coverage in 2023 hits two themes: harmonization and Real-Time Support. Let me begin with the harmonization perspective. We’re taking significant steps to create a customer support experience that’s consistent across all SAP solutions – most notably a single entry point to SAP support with <a href="https://me.sap.com/">SAP for Me</a>. SAP Fieldglass solutions went live on SAP for Me case management in March 2023, and SAP Ariba solutions and SAP Business Network will soon follow. The SAP for Me portal can give users the information and answers they need, specific to the solution they’re using. Earlier this year, procurement support went live on <a href="https://community.sap.com/">SAP Community</a>, where our business and IT users can access blog posts, tips, and connect with experts. Even customers and partners can provide an additional layer of insights and guidance, especially to a specific industry.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="learn-more-about-real-time-support">Learn more about Real-Time Support</h3>
+        <p><em><a href="https://support.sap.com/en/offerings-programs/strategy.html">Explore now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>This year we have been working to bring our Real-Time Support concept to reality for procurement. When I talk about Real-Time Support, I mean support that is always on, continuously evolves, and adapts to customer needs. This can be direct access to support experts for business-critical processes when and where customers need it. It’s the live support channels such as <a href="https://support.sap.com/en/my-support/product-support.html?anchorId=section_519294480">Expert Chat</a>, Ask an Expert Peer, context-sensitive help, <a href="https://support.sap.com/en/my-support/product-support.html?anchorId=section_1255553798">support built into our software</a>, and <a href="/2022/05/artificial-intelligence-future-of-customer-support-experiences">AI-driven self-service access</a> to a vast knowledge base and user community.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>What do you see in the future of support for procurement?</strong></div>
+    </div>
+  </div>
+  <p>I envision a day when customers don’t need to see or hear from us because we’re already working behind the scenes to give our customers a seamless, reliable, and delightful experience. The ultimate vision is preventative support with the help of AI and machine learning – in other words, self-healing IT systems.</p>
+  <p>Of course, there will always be times when customers need us. In those times, SAP is prepared to offer as simple of a support experience as possible, such as with <a href="https://support.sap.com/en/my-support/product-support.html?anchorId=section_1255553798">Built-In Support</a> and direct access to experts or a quick call to solve an issue the moment it occurs. We also continuously look to disrupt ourselves by using new technologies such as ChatGPT to enable self-help or self-guidance and provide the best possible customer experience.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>What sets the SAP support experience apart in the industry?</strong></div>
+    </div>
+  </div>
+  <p>SAP mindfully takes steps that help give customers the best support experience possible. We can provide a cohesive array of support channels, self-service tools, and cloud health and integration monitoring. Even with these successes in hand, SAP will continuously push the boundaries of customer support with new innovations, help ensure support interactions are delightful, and offer Real-Time Support that can bring ambition to life.</p>
+  <p>Follow Rohan Patel on <a href="https://www.linkedin.com/in/rohan-patel-1897941/">LinkedIn</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Regina Postman is part of Customer Support and Innovation Communications at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="follow-sap-news-on-linkedin">Follow SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Connect with us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/procurement</category>
+            <category>news-tag/product-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>news-tag/sap-for-me</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP for Me Enhances the Customer Support Experience with Get Support]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-for-me-customer-support-experience-get-support</link>
+            <guid>https://www.sap.com/news/2023/09/sap-for-me-customer-support-experience-get-support</guid>
+            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Users can now engage with SAP support through the new get support application in SAP for Me and its use of artificial intelligence (AI).]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-for-me</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Meeting the Customer in Real Time: Support Whenever They Need It]]></title>
+            <link>https://www.sap.com/news/2023/09/customer-experience-real-time-support</link>
+            <guid>https://www.sap.com/news/2023/09/customer-experience-real-time-support</guid>
+            <pubDate>Thu, 14 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Bente Vollan describes the support experience SAP customers can expect with Real-Time Support. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/product-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-for-me</category>
+        </item>
+        <item>
+            <title><![CDATA[Putting the “Real” in Real-Time Support]]></title>
+            <link>https://www.sap.com/news/2023/06/putting-the-real-in-real-time-support</link>
+            <guid>https://www.sap.com/news/2023/06/putting-the-real-in-real-time-support</guid>
+            <pubDate>Tue, 27 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Real-Time Support approach aims to make the overall experience simpler and more personal and human. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/hcm</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/schedule-an-expert</category>
+        </item>
+        <item>
+            <title><![CDATA[Bi-Directional Support for SAP S/4HANA Gives Targeted and Timely Information]]></title>
+            <link>https://www.sap.com/news/2023/05/bi-directional-support-gives-targeted-timely-information</link>
+            <guid>https://www.sap.com/news/2023/05/bi-directional-support-gives-targeted-timely-information</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With bi-directional support, SAP is expanding on its Real-Time Support approach to give tailored, proactive support content in real time.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/expert-chat</category>
+            <category>news-tag/real-time-support</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP for Me as the New, Personalized Central Entry Point for SAP Support]]></title>
+            <link>https://www.sap.com/news/2023/04/sap-for-me-new-personalized-entry-point-sap-support</link>
+            <guid>https://www.sap.com/news/2023/04/sap-for-me-new-personalized-entry-point-sap-support</guid>
+            <pubDate>Tue, 25 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP for Me helps make performing support-related tasks easier and more efficient in one place. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-for-me</category>
+            <category>news-tag/sap-one-support-launchpad</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/sap-support-portal</category>
+        </item>
+        <item>
+            <title><![CDATA[Real-Time Support from SAP Is Essential to the Digital Transformation of Jinlong]]></title>
+            <link>https://www.sap.com/news/2023/04/real-time-support-essential-to-digital-transformation-jinlong</link>
+            <guid>https://www.sap.com/news/2023/04/real-time-support-essential-to-digital-transformation-jinlong</guid>
+            <pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Real-Time Support from SAP helps customers, like Jinlong, quickly resolve issues and accelerate their digital transformations. Learn how!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[Real-Time Support Channels Take Big Steps Forward in Customer Care]]></title>
+            <link>https://www.sap.com/news/2023/02/real-time-support-big-steps-forward-customer-care</link>
+            <guid>https://www.sap.com/news/2023/02/real-time-support-big-steps-forward-customer-care</guid>
+            <pubDate>Wed, 22 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With Real-Time Support, SAP is moving towards a bidirectional, predictive, and effortless support future. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/expert-chat</category>
+            <category>news-tag/product-support</category>
+            <category>news-tag/real-time-support</category>
+            <category>news-tag/sap-for-me</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/sap-support-portal</category>
+            <category>news-tag/schedule-a-manager</category>
+            <category>news-tag/schedule-an-expert</category>
+        </item>
+        <item>
+            <title><![CDATA[Serving Customers Better through Expanded Functionality and Enhanced Offerings in 2023]]></title>
+            <link>https://www.sap.com/news/2023/02/serving-customers-better-expanded-functionality-sap-support</link>
+            <guid>https://www.sap.com/news/2023/02/serving-customers-better-expanded-functionality-sap-support</guid>
+            <pubDate>Thu, 16 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With expanded functionality, enhanced transformation planning, and access to test automation solutions, 2023 will be big for SAP support.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/real-time-support</category>
+            <category>product/sap-cloud-alm</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Reflecting On a Year of Transformation]]></title>
+            <link>https://www.sap.com/news/2022/12/reflecting-on-support-experience-transformation</link>
+            <guid>https://www.sap.com/news/2022/12/reflecting-on-support-experience-transformation</guid>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Andreas Heckmann reflects on the support experience transformation of the past year, and how it will continue in 2023.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>news-tag/application-lifecycle-management</category>
+            <category>news-tag/built-in-support</category>
+            <category>news-tag/customer-solution-support-innovation</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/real-time-support</category>
+            <category>product/sap-cloud-alm</category>
+            <category>product/sap-information-collaboration-hub-for-life-sciences</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+    </channel>
+</rss>

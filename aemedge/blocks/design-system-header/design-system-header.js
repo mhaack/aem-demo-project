@@ -12,6 +12,7 @@ import {
 import initDsMainNav from './design-system-main-nav.js';
 import initDsSearch from './design-system-search.js';
 import {
+  decorateButtons,
   decorateIcons,
   loadCSS,
 } from '../../scripts/aem.js';
@@ -390,8 +391,18 @@ function addLandingZone(mastheadLandingZone) {
       class: 'landing-zone-part landing-zone-part-links',
     });
 
+    const betaButton = div({
+      class: 'landing-zone-beta',
+    }, a({
+      'aria-label': 'Beta',
+      href: '/design-system/beta',
+    }, 'BETA'));
+
+    decorateButtons(betaButton);
+
     mastheadLandingZone.appendChild(landingZoneAreaLabel);
     mastheadLandingZone.appendChild(landingZoneAreaLinks);
+    mastheadLandingZone.appendChild(betaButton);
     mastheadLandingZoneAreaLinks = landingZoneAreaLinks;
   }
 

@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/industry/automotive/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 30 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Preh Eases Product Costing for Hundreds of Projects with SAP]]></title>
+            <link>https://www.sap.com/news/2024/04/how-preh-eases-product-costing</link>
+            <guid>https://www.sap.com/news/2024/04/how-preh-eases-product-costing</guid>
+            <pubDate>Tue, 30 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Preh uses SAP Product Lifecycle Costing to help increase cost transparency, improve design, and achieve time savings. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-supply-chain</category>
+        </item>
+        <item>
+            <title><![CDATA[Widening Your Sustainability Scope]]></title>
+            <link>https://www.sap.com/resources/widening-sustainability-scope-2-scope-3</link>
+            <guid>https://www.sap.com/resources/widening-sustainability-scope-2-scope-3</guid>
+            <pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Businesses are measuring Scope 2 and 3 effects of their operations beyond their corporate walls. That requires strong supply chain data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>topic/scm</category>
+            <category>core-topic/environmental-compliance</category>
+            <category>industry/automotive</category>
+            <category>content-type/what-is</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[What the Automotive Industry Can Learn from the Next Wave of Digital Transformations]]></title>
+            <link>https://www.sap.com/blogs/2024/02/next-wave-digital-transformation-automotive-industry</link>
+            <guid>https://www.sap.com/blogs/2024/02/next-wave-digital-transformation-automotive-industry</guid>
+            <pubDate>Thu, 22 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the automotive industry, disruption is a massive opportunity. Learn more about the next wave of digital transformation in the industry.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>industry/automotive</category>
+            <category>news-tag/bmw</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Goes the Distance with EV Fleet Digitalization]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</link>
+            <guid>https://www.sap.com/news/2024/02/sap-goes-the-distance-ev-fleet-digitalization</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Longtime partners SAP and Mercedes-Benz are transforming the sustainable EV experience with digitalized corporate fleet management.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Goes the Distance with EV Fleet Digitalization" src="./media_1300ce8d341537d322ce2ddfe25ec1e05ce2fbf64.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-goes-the-distance-with-ev-fleet-digitalization">SAP Goes the Distance with EV Fleet Digitalization</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Electric vehicles (<a href="/topics/electric-vehicles">EVs</a>) are transforming the mobility experience in corporate fleet management. A great example is the partnership between <a href="https://www.mercedes-benz.com/en/">Mercedes-Benz</a> and SAP where the companies are both customers and vendors to each other. Mercedes-Benz is using SAP solutions to digitalize its omnichannel buying experience, and SAP is the first customer using its own technology to manage the company’s vehicle fleet in Germany.</div>
+    </div>
+  </div>
+  <p>As longtime partners, SAP and Mercedes-Benz have a history of shared knowledge for mutual competitive advantage. The fleet management program is grounded in the companies’ similar business philosophies and product road maps.</p>
+  <p>Mercedes-Benz has committed to move the company’s B2B business to 100% digital and plans to sell 25% of all new cars online by 2025. The company selected <a href="https://www.sap.com/products/crm/commerce-cloud.html">SAP Commerce Cloud</a> to help support this mission. It will create a future-proof composable commerce portfolio designed to reliably power the company’s digital strategy, including a standardized offering across different markets. It will also simplify processes and reduce time-to-market.</p>
+  <h2 id="benefits-of-digitalized-fleet-management">Benefits of Digitalized Fleet Management</h2>
+  <p>From the SAP employee’s perspective, ordering a company EV couldn’t be simpler. Instead of time-consuming manual research and back and forth communication with the car dealer, employees can use <a href="https://www.sap.com/products/spend-management/solutions.html">the guided buying capability in SAP Ariba solutions</a> to order the EV they want directly from the Mercedes-Benz online catalog. They can choose the features they want, such as car make and model, color, and equipment packages, within SAP’s pre-set guidelines.</p>
+  <p>“The car configurator automates the EV selection process end-to-end, eliminating manual steps and saving time while providing the employee with a highly personalized experience,” said Steffen Krautwasser, head of SAP’s global car fleet. “Automating the approval process assures data consistency and eliminates the need for manual quality checks.”</p>
+  <p>There’s a tremendous convenience factor in captured EV data as well. In one pilot program for select EVs in SAP’s fleet, the digital twin will automatically track mileage. Drivers will no longer need to manually enter mileage every time they recharge, and SAP can use this data to better manage the fleet.</p>
+  <h2 id="connected-data-drives-sustainable-business">Connected Data Drives Sustainable Business</h2>
+  <p>Once ordered, EVs are tracked as assets in SAP’s financial system. After delivery, <a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">SAP Digital Vehicle Suite</a> creates a digital twin that can capture relevant, secure data across the EV’s lifetime. SAP’s fleet management team can track CO2 emissions based on green energy usage, mileage, and the number of vehicles on the road. Krautwasser envisioned reporting this data to support the company’s global sustainability commitments.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-digital-vehicle-suite-delivers-a-holistic-approach-to-vehicle-sales-and-data-management">SAP Digital Vehicle Suite delivers a holistic approach to vehicle, sales, and data management</h3>
+        <p><em><a href="https://www.sap.com/products/scm/digital-vehicle-suite.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Performance data from the EV digital twin can help corporate fleet managers guide employees in choosing the best vehicle for their driving needs,” said Krautwasser. “Over time, drivers can better understand travel ranges between charges.”</p>
+  <p>Data is expected to help address so-called range anxiety, alerting EV drivers when their vehicle needs a charge and, most important, where to recharge. Mercedes-Benz is investing in charging infrastructure to create an ecosystem that would be integrated with public and private charge point providers in the U.S., China, and Europe.</p>
+  <p>The partnership also reflects a shared commitment to sustainability. Mercedes-Benz has committed to become carbon neutral by 2038, and transition to 100% electric vehicles by 2030 wherever possible. SAP is transitioning the company’s vehicle fleet for employees in Germany to all EVs by 2025 as part of its corporate commitment to be carbon neutral by 2030.</p>
+  <h2 id="omnichannel-is-fastest-path-to-customer-love">Omnichannel Is Fastest Path to Customer Love</h2>
+  <p>The digital experience is extremely important for customers who expect convenience and quality. Organizations in many industries have shifted to an omnichannel strategy that offers people their preferred experience, whether online or in-person, building brand loyalty and repeat business.</p>
+  <p>“We want to provide a seamless journey for employees as they research, select, purchase, and enjoy their vehicle,” said Krautwasser. “The most exciting part of our EV fleet management strategy is how we can use our knowledge to enhance the employee experience. Through data and digital services, we can get closer to our employees and act quickly based on their feedback, making improvements and introducing new offerings that keep us on top of trends and support SAP’s sustainability commitment.”</p>
+  <p>EVs represent a profound business model shift for the entire automotive supply chain as automakers sell direct to customers, provide digital services from vehicle data, and explore new revenue opportunities. It’s clear that Mercedes-Benz and SAP are going the distance for a sustainable and satisfying driving experience.</p>
+  <div class="footnote">
+    <div>
+      <div>Susan Galer is a communications director at SAP. Follow her @smgaler.<br>Top photo courtesy of SAP employee Jude Calvin Parong.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/mercedes</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-commerce-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[CEV Technologies and SAP Fuel E-Mobility Revolution in Croatia’s Retail Sector]]></title>
+            <link>https://www.sap.com/news/2024/02/cev-technologies-e-mobility-croatia-retail-sector</link>
+            <guid>https://www.sap.com/news/2024/02/cev-technologies-e-mobility-croatia-retail-sector</guid>
+            <pubDate>Tue, 13 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[To realize the potential of convenient charging within the customer experience, CEV Technologies implemented SAP E-Mobility in Croatia.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>industry/retail</category>
+            <category>product/sap-e-mobility</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and the Mercedes-AMG PETRONAS F1 Team Join Forces to Drive Efficiency On and Off the Racetrack]]></title>
+            <link>https://www.sap.com/news/2023/11/sap-mercedes-amg-petronas-f1-team-join-forces-drive-efficiency</link>
+            <guid>https://www.sap.com/news/2023/11/sap-mercedes-amg-petronas-f1-team-join-forces-drive-efficiency</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is proud to partner with the Mercedes-AMG PETRONAS F1 Team to make sure its operations are as fine-tuned as its cars. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/corporate</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>industry/automotive</category>
+            <category>news-tag/mercedes</category>
+            <category>product/sap-build</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-s4hana-finance</category>
+            <category>news-tag/sap-sponsorships</category>
+        </item>
+        <item>
+            <title><![CDATA[BMW Group Revs Up iFACTORY Plants with SAP S/4HANA and Supply Chain Logistics]]></title>
+            <link>https://www.sap.com/news/2023/09/bmw-ifactory-sap-s-4hana-supply-chain-logistics</link>
+            <guid>https://www.sap.com/news/2023/09/bmw-ifactory-sap-s-4hana-supply-chain-logistics</guid>
+            <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The BMW iFACTORY in Oxford, UK, has successfully gone live with SAP S/4HANA, a milestone for BMW’s iFACTORY. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/automotive</category>
+            <category>news-tag/bmw</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Google Cloud Enhance Open Data Cloud With New Generative AI Solutions for Enterprises]]></title>
+            <link>https://www.sap.com/news/2023/08/sap-google-cloud-partnership-open-data-cloud-new-generative-ai-solutions-for-enterprises</link>
+            <guid>https://www.sap.com/news/2023/08/sap-google-cloud-partnership-open-data-cloud-new-generative-ai-solutions-for-enterprises</guid>
+            <pubDate>Tue, 29 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The expanded SAP and Google Cloud partnership will launch new generative AI-powered industry solutions supporting improved sustainability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>topic/ai</category>
+            <category>industry/automotive</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/google-cloud</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[Shinhwa Auto Drives North American Expansion with Public Cloud ERP]]></title>
+            <link>https://www.sap.com/news/2023/08/shinhwa-auto-drives-expansion-public-cloud-erp</link>
+            <guid>https://www.sap.com/news/2023/08/shinhwa-auto-drives-expansion-public-cloud-erp</guid>
+            <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Shinhwa Auto chose GROW with SAP so the company can operate in a more streamlined manner on a global, standardized scale. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>topic/erp</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Labs India: A Pioneer in Transitioning to Electric Vehicles]]></title>
+            <link>https://www.sap.com/news/2023/04/sap-labs-india-pioneer-transitioning-to-electric-vehicles</link>
+            <guid>https://www.sap.com/news/2023/04/sap-labs-india-pioneer-transitioning-to-electric-vehicles</guid>
+            <pubDate>Fri, 14 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Over the past decade, the transportation team at SAP Labs India implemented various initiatives to encourage employees to use EVs.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/decarbonization</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>industry/travel-transportation</category>
+            <category>product/sap-e-mobility</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP CX: Delivering Growth with Intelligent Industry-Tailored Solutions]]></title>
+            <link>https://www.sap.com/blogs/2023/03/sap-cx-intelligent-industry-tailored-solutions</link>
+            <guid>https://www.sap.com/blogs/2023/03/sap-cx-intelligent-industry-tailored-solutions</guid>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The aligned SAP CX portfolio takes an industry-first approach to accelerate value to customers with end-to-end, integrated business processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Customer Experience: Delivering Growth with Intelligent Industry-Tailored Solutions" src="./media_18e5bbb7b48fb7e47ef274203aba2e61d2fc2bbe7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-customer-experience-delivering-growth-with-intelligent-industry-tailored-solutions">SAP Customer Experience: Delivering Growth with Intelligent Industry-Tailored Solutions</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>SAP’s unmatched industry expertise has been a cornerstone of our leadership for the past 50 years and will continue as the foundation for success. As we work with business leaders to manage their digital transformation and navigate their pathways to sustainable growth, they trust us to not just understand and deliver industry standards, but industry specifics.</div>
+    </div>
+  </div>
+  <p>Our customers have also been clear with us: they need greater agility in their business processes while also reducing the costs of integrating a patchwork of solutions from multiple vendors. From finance to supply chain to commerce, the user and customer experiences need to be seamless. This requires the underlying applications to service the user and customer journeys in real time.</p>
+  <p>SAP has the rare combination of unmatched industry depth as well as the breadth of business process solutions to meet this moment. While our ERP has always had deep industry capabilities, we have now aligned the <a href="https://www.sap.com/products/crm.html">SAP Customer Experience</a> (CX) portfolio to an industry-first approach to accelerate value to customers by enabling end-to-end, integrated business processes.</p>
+  <p>Some voices across the market are recasting SAP’s commitment to an industry-first strategy to suggest that SAP is no longer committed to key needs of our customers, starting with our CX portfolio. Let us be clear: SAP will continue to deliver customer experience (<a href="/topics/crm-customer-experience">CX/CRM</a>) solutions. Now we’ll focus on adding an industry lens, delivering industry-tailored CX solutions and bringing the front office together with the back office to provide the unmatched value customers expect from SAP solutions.</p>
+  <p>Together with our global ecosystem, we can solve the most relevant challenges of customers in all industries. In fact, today, 80% of industry solutions are ecosystem-led. With this approach, customers will get solutions that natively connect the cloud ERP through to the last mile of a customer’s experiences spanning e-commerce, sales, service, and marketing — all with the industry-specific best practices they rely on from SAP and our ecosystem.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-cx-and-crm-solutions-that-work-for-your-customers">Explore CX and CRM solutions that work for your customers</h3>
+        <p><strong><a href="https://www.sap.com/products/crm/solutions.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Here are just a few examples of where industry-first CX has bridged gaps often seen between business process-led ERP and experience delivery:</p>
+  <ul>
+    <li><strong>Retail:</strong> Maintaining optimal inventory levels in stores and distribution centers is crucial to ensure customers get the products they want. Predictive replenishment uses artificial intelligence (AI) to help retailers automate the restocking process, drawing on the deep retail expertise built into our customer experience product and our cloud ERP. Retailers benefit by reducing their environmental footprint while avoiding both overstock and out-of-stock situations and delivering personalized customer service if things go wrong.</li>
+    <li><strong>Consumer Products:</strong> By automating 80% of the trade claims process and enhancing cash flow by about a month, consumer product companies free up billions of dollars tied up in settlement processes as well as hours of time for key account managers. SAP uniquely sits at the intersection of accounts receivables (finance, ERP) and revenue growth management (sales, service, and marketing), which allows us to provide not only native integrations but also faster time to value and lower TCO in this space than any other vendor.</li>
+    <li><strong>Automotive:</strong> SAP improves production planning and forecasting based on real-time demand; we boost logistics optimization thanks to end-to-end integration from dealership sales and service to group production and logistics processes. Dealers can also optimize sales strategy and marketing spend as well as improving upsell, retention, and overall customer lifetime value thanks to data aggregated from the front and back office into SAP’s customer data platform. This enables dealers to strategically upsell subscription services or entertainment system software updates while updating customers on production progress, delivery, warranty, and service notifications.</li>
+  </ul>
+  <p>SAP CX customers including Pizza Hut, Carhartt, and smart Europe are among those already benefiting from our unique industry depth. We are excited about the additional value we can deliver to our customers with our industry-focused approach to delivering holistic, integrated business process solutions together with our ecosystem. Examples include the retail solutions <a href="https://events.sap.com/noam-nrf/en/videopage.aspx?v=oluBrjrC1Rn9L3WV043aZMFVlhreKw4xK%2FqQRqxWlTTCvgEhZalDo0E7G5%2FOzPee0p9owH7y6I%2FAATgMBsvHh%2B02mKjH8DsP">we showcased at NRF 2023</a>, from customer engagement to inventory fulfillment to sustainable manufacturing. We will demonstrate this same industry value for manufacturing at the Hannover Messe in April.</p>
+  <p>Stay tuned for more exciting updates in the coming months.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Thomas Saueressig is a member of the Executive Board of SAP SE, SAP Product Engineering.</em><br><em>Julia White is chief marketing and solutions officer and a member of the Executive Board of SAP SE.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-customer-data-from-demand-to-delivery-with-sap-software">Connect customer data from demand to delivery with SAP software</h3>
+        <p><strong><a href="https://www.sap.com/products/crm.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>sidebar</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>industry/automotive</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-customer-experience</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Three Keys to Unlock Europe’s Bold Shift to Electric Vehicles by 2035]]></title>
+            <link>https://www.sap.com/news/2023/02/the-take-eu-electric-vehicles-shift-2035</link>
+            <guid>https://www.sap.com/news/2023/02/the-take-eu-electric-vehicles-shift-2035</guid>
+            <pubDate>Mon, 27 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The shift to electric vehicles in the EU calls for charging infrastructure, circularity and improved mobility. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>industry/automotive</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[With the Foundation of the Joint Venture Cofinity-X, 10 Partners of the Automotive Industry Will Further Foster the Adoption of the Catena-X Network]]></title>
+            <link>https://www.sap.com/news/2023/01/cofinity-x-joint-venture-further-catena-x-network</link>
+            <guid>https://www.sap.com/news/2023/01/cofinity-x-joint-venture-further-catena-x-network</guid>
+            <pubDate>Tue, 31 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about Cofinity-X, a joint venture of BASF, BMW, Henkel, Mercedes-Benz, SAP, Schaeffler, Siemens, T-Systems, VW and ZF.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+        </item>
+        <item>
+            <title><![CDATA[BMW Group Chooses RISE with SAP to Drive Business Transformation]]></title>
+            <link>https://www.sap.com/news/2023/01/bmw-group-chooses-rise-with-sap-to-drive-business-transformation</link>
+            <guid>https://www.sap.com/news/2023/01/bmw-group-chooses-rise-with-sap-to-drive-business-transformation</guid>
+            <pubDate>Mon, 30 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[BMW Group is expanding its strategic partnership with SAP to accelerate its digital transformation. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/rise-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[smart Europe Offers Car Drivers a Hyper-Personalized Customer Journey]]></title>
+            <link>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</link>
+            <guid>https://www.sap.com/news/2022/12/smart-europe-hyper-personalized-customer-journey</guid>
+            <pubDate>Wed, 28 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[smart Europe is breaking new ground with its direct sales model. Read how its central e-commerce platform supports all customer interactions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/digital-twin</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>product/sap-customer-data-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Ways Automakers and Suppliers Can Prepare for the Future of Mobility]]></title>
+            <link>https://www.sap.com/news/2022/11/five-ways-automotive-industry-future-of-mobility</link>
+            <guid>https://www.sap.com/news/2022/11/five-ways-automotive-industry-future-of-mobility</guid>
+            <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[EVs, mobility-as-a-service, operational resilience, and digital retail are shaping the future of mobility in the automotive industry.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/industry-cloud</category>
+            <category>product/sap-e-mobility</category>
+            <category>news-tag/sap-industry-network-for-automotive</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Traffic Safety Technology Hits a Culture Speed Bump]]></title>
+            <link>https://www.sap.com/news/2022/08/the-take-traffic-safety-technology</link>
+            <guid>https://www.sap.com/news/2022/08/the-take-traffic-safety-technology</guid>
+            <pubDate>Wed, 24 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Technology can help improve traffic safety. Get SAP's take on how it could help curtail reckless driving and save lives.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>industry/automotive</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[Capgemini and SAP Accelerate Automotive Sustainability]]></title>
+            <link>https://www.sap.com/news/2022/08/capgemini-and-sap-accelerate-automotive-sustainability</link>
+            <guid>https://www.sap.com/news/2022/08/capgemini-and-sap-accelerate-automotive-sustainability</guid>
+            <pubDate>Mon, 22 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the automotive industry, sustainability must be at the foundation of every decision. Learn more about SAP and Capgemini's initiative.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/capgemini</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-product-footprint-management</category>
+            <category>product/sap-supply-chain-control-tower</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[End-to-End Electric Vehicle Charging Management with coneva and SAP E-Mobility]]></title>
+            <link>https://www.sap.com/news/2022/08/electric-vehicle-charging-management-coneva</link>
+            <guid>https://www.sap.com/news/2022/08/electric-vehicle-charging-management-coneva</guid>
+            <pubDate>Thu, 11 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To enable companies to adapt their EV fleets’ energy consumption to local generation capacity, SAP teamed up with coneva. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>product/sap-e-mobility</category>
+        </item>
+        <item>
+            <title><![CDATA[Automakers Steer Toward Sustainable Supply Chains]]></title>
+            <link>https://www.sap.com/news/2022/08/automakers-steer-toward-sustainable-supply-chains</link>
+            <guid>https://www.sap.com/news/2022/08/automakers-steer-toward-sustainable-supply-chains</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Electric vehicles (EV) are disrupting the auto industry, giving companies like ElectraMeccanica a historic opportunity to reinvent mobility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/e-mobility</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Chasing Zero with SAP Industry Network for Automotive]]></title>
+            <link>https://www.sap.com/news/2022/07/sap-industry-network-for-automotive-greentoken-product-carbon-footprint</link>
+            <guid>https://www.sap.com/news/2022/07/sap-industry-network-for-automotive-greentoken-product-carbon-footprint</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Solutions like SAP Industry Network for Automotive and GreenToken help enterprises gain insights into their product carbon footprint data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/chasing-zero</category>
+            <category>news-tag/sap-industry-network-for-automotive</category>
+        </item>
+        <item>
+            <title><![CDATA[Hyperconnected Auto Supply Chains Give Electric Vehicles a Jolt of Sustainable Mobility]]></title>
+            <link>https://www.sap.com/news/2022/06/automotive-supply-chains-electric-vehicles-sustainable-mobility</link>
+            <guid>https://www.sap.com/news/2022/06/automotive-supply-chains-electric-vehicles-sustainable-mobility</guid>
+            <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Industry networks connect makers, suppliers, and customers across the automotive supply chain to bring sustainable products to market faster.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/electric-vehicles</category>
+        </item>
+        <item>
+            <title><![CDATA[Revving up the value of connected car data | SAP Insights]]></title>
+            <link>https://www.sap.com/resources/connected-car-data</link>
+            <guid>https://www.sap.com/resources/connected-car-data</guid>
+            <pubDate>Wed, 15 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how connected car data and connected vehicle telematics are being used to improve safety, performance, and car infotainment choices.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/procurement</category>
+            <category>industry/automotive</category>
+            <category>content-type/what-is</category>
+            <category>content-type/best-practice-how-to-guide</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Enabling a Circular Economy Through Industry Network Collaboration]]></title>
+            <link>https://www.sap.com/news/2022/05/circular-economy-automotive-industry-network-collaboration</link>
+            <guid>https://www.sap.com/news/2022/05/circular-economy-automotive-industry-network-collaboration</guid>
+            <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Achieving a circular economy in the automotive industry is key to tackling the environmental challenges. SAP technology supports the shift.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/sap-industry-network-for-automotive</category>
+        </item>
+        <item>
+            <title><![CDATA[Product Sourcing Reins in Complexity of Sourcing Highly Engineered Products]]></title>
+            <link>https://www.sap.com/news/2022/05/product-sourcing-reins-in-complexity-of-highly-engineered-products</link>
+            <guid>https://www.sap.com/news/2022/05/product-sourcing-reins-in-complexity-of-highly-engineered-products</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[New product sourcing solutions from SAP fill the critical gap left by solutions that fail companies creating highly engineered products.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Material Traceability Accelerates Sustainability in the Automotive Industry]]></title>
+            <link>https://www.sap.com/news/2022/04/material-traceability-accelerates-sustainability-automotive-industry</link>
+            <guid>https://www.sap.com/news/2022/04/material-traceability-accelerates-sustainability-automotive-industry</guid>
+            <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP Business Network and material traceability, industry networks can achieve an unparalleled level of supply chain visibility.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Discover Cross-Industry Innovation in the Cloud and Become a Sustainable Intelligent Enterprise]]></title>
+            <link>https://www.sap.com/news/2022/03/cross-industry-innovation-in-cloud-sustainable-intelligent-enterprise</link>
+            <guid>https://www.sap.com/news/2022/03/cross-industry-innovation-in-cloud-sustainable-intelligent-enterprise</guid>
+            <pubDate>Tue, 22 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Create a new future for your industry. SAP MaxAttention can help you explore innovations from other industries for a strategic advantage.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Discover Cross-Industry Innovation in the Cloud and Become a Sustainable Intelligent Enterprise" src="./media_1209fa9218a6020a66789a0550bc78dbeeb17891e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="discover-cross-industry-innovation-in-the-cloud-and-become-a-sustainable-intelligent-enterprise">Discover Cross-Industry Innovation in the Cloud and Become a Sustainable Intelligent Enterprise</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Lines between industries are blurring, and it isn’t enough for your business to be the best in its class. Automotive newcomers are uprooting long-standing industry leaders and embracing concepts from their friends in high tech. Manufacturers are taking notes from consumer products and debuting as-a-service offerings that increase revenue. Oil and gas companies are transforming into full-scale energy providers. The list goes on.</div>
+    </div>
+  </div>
+  <p>SAP solutions and services can help your business start thinking, acting, and innovating like a leader – a leader from another industry, that is. Through <a href="https://www.sap.com/services/premium-engagement/maxattention.html?sort=latest_desc">SAP MaxAttention</a>, you can lean on our expert knowledge and experience of your industry – and many more – as you explore new technologies on the way to a successful digital transformation. Take advantage of industry cloud solutions from SAP, including more than 200 industry-specific applications built by SAP and SAP partners.</p>
+  <p>With SAP’s industry cloud, you can optimize and transform at a much faster pace. SAP MaxAttention can show you how to use these solutions to build innovations – without overhauling entire systems or putting limitations on what you can do with your data. With our help, you can:</p>
+  <ul>
+    <li>Access innovation in modular, consumable packages</li>
+    <li>Plug innovations in quickly without disrupting existing technologies and processes</li>
+    <li>Reach across categories to get ideas, apps, and solutions from other industries</li>
+  </ul>
+  <p>SAP’s industry cloud can provide a foundation for innovation and transformation, connecting you to a community of in-depth SAP expertise, top thinkers, investors, and disruptors. Now, it’s your turn to create a new future with the cloud. When you trust <a href="/topics/sap-maxattention">SAP MaxAttention</a>, you’ll work with us to grow and evolve based on innovative technology trends and next practices – using SAP’s industry cloud – that cross industry lines.</p>
+  <h2 id="assess-the-industry--and-your-it-architecture">Assess the Industry – And Your IT Architecture</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="subscribe-to-the-quarterly-sap-maxattention-newsletter">Subscribe to the quarterly SAP MaxAttention newsletter</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/nl/insights-customer-newsletter.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Trends and best practices are changing all the time, and it can be hard for a busy business to keep up. You may know your competitors use technologies such as the cloud to provide better customer experiences, but you can’t possibly know how their technology infrastructures look and perform. Yet, this knowledge is a prerequisite to creating a successful and competitive technology strategy.</p>
+  <p>More specifically, we can help you uncover the potential that new technology holds for your business and what your IT architecture needs before it can take advantage of automation, artificial intelligence (AI), the Internet of Things (IoT), and other next-generation innovations. These innovations are key to realizing the transformation into a sustainable intelligent enterprise. For instance, leaders across industries are using automation to eliminate manual tasks and digital waste that contribute to their carbon footprint.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="access-the-services-methods-tools-and-expertise-that-you-need-to-succeed-with-sap-maxattention">Access the services, methods, tools, and expertise that you need to succeed with SAP MaxAttention</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/services/premium-engagement/maxattention.html?sort=latest_desc">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="what-about-retail">What about retail?</h3>
+  <p>As the shift from bricks to clicks increases, we can help a retailer understand the imperative for omnichannel customer experiences, such as the ability to offer personalized products and experiences that boost customer retention. Our services can reveal how retail businesses can break down silos that separate valuable customer data insights from the systems that need them.</p>
+  <h2 id="demonstrate-real-value-with-proof-of-concepts">Demonstrate Real Value with Proof of Concepts</h2>
+  <p>Engagements with SAP MaxAttention are designed to help create both quick wins and long-term value. We help develop proof-of-concept (PoC) projects that demonstrate the real benefits of SAP’s industry cloud and how it can transform and optimize your existing business processes and create opportunities for new business models, such as:</p>
+  <ul>
+    <li>Increased supply chain visibility across globally distributed production facilities</li>
+    <li>Transparency into the logistics network (such as fleet, trucks, containers, and so on)</li>
+    <li>Asset risk management and asset care strategies to improve plant reliability and safety</li>
+    <li>Omnichannel solutions to orchestrate multichannel salesforce</li>
+    <li>Personalized products for unique end-customer needs</li>
+    <li>More competitive products made possible by providing origination and provenance data</li>
+    <li>Better workforce planning thanks to better visibility into historical data and the ability to leverage forecasts</li>
+  </ul>
+  <p>Our experts can also help you measure success, setting success criteria for your PoC that you can present to the business and other stakeholders to prove the value of digital transformation.</p>
+  <h3 id="what-about-the-automotive-industry">What about the automotive industry?</h3>
+  <p>Carmakers, suppliers, and dealerships are under intense pressure to transform their businesses and prepare for the future of mobility. SAP solutions can help run traditional automotive businesses profitably and more sustainably while driving new growth with innovative new mobility business models.</p>
+  <h2 id="extend-industry-innovation">Extend Industry Innovation</h2>
+  <p>You can’t stop at achieving what the rest of your industry has already done. To create a competitive advantage, you need to take your innovations a step further. SAP MaxAttention can help bring your business up to speed with trends in your industry and others and then build upon those innovations using your unique business strengths as a strategic advantage.</p>
+  <p>During this step, SAP MaxAttention can help integrate the innovations created with our experts into your technology landscape and connect them with existing applications. For instance, you can connect your industry applications on SAP Business Technology Platform (SAP BTP) with your finance or logistics data in SAP S/4HANA or third-party solutions. SAP’s industry cloud can extend SAP S/4HANA, our line-of-business cloud solutions, and SAP Business Network with industry next practices.</p>
+  <h3 id="what-about-consumer-products">What about consumer products?</h3>
+  <p>Consumer products companies need to act with agility to meet the fast-changing needs of customers. SAP services can quickly demonstrate the value of AI by deploying a chatbot that helps handle simple customer service requests and empowers human agents to tackle higher-value tasks.</p>
+  <h2 id="realize-your-digital-transformation">Realize Your Digital Transformation</h2>
+  <p>After demonstrating the value of your PoC, we can help you build the rollout plan for the full-scale deployment of industry cloud solutions from SAP. SAP MaxAttention can help achieve a smooth activation of your new or enhanced solution for a go-live without business disruption.</p>
+  <h3 id="what-about-manufacturing">What about manufacturing?</h3>
+  <p>Working together, we can reveal how a manufacturer might use Industry 4.0 throughout its factories to gain real-time insight into asset performance. Industry 4.0 opens the door to a new level of predictive maintenance that helps manufacturers avoid disruption and stay as profitable as possible.</p>
+  <h2 id="exceed-expectations-with-sap-maxattention-and-saps-industry-cloud">Exceed Expectations with SAP MaxAttention and SAP’s Industry Cloud</h2>
+  <p>Whether you’re a business in wholesale distribution, automotive, professional services, high tech, consumer products, chemicals, retail, utilities, or any of the industries supported by SAP’s industry cloud, our services are designed for you. We’ve reinvented our services based on industry trends, next practices, and the needs of your business. You can expect our experts to focus holistically on your business – and not on a rigid set of steps or concepts that weren’t created with you in mind.</p>
+  <p>Start creating real results based on the outcomes your business needs. To learn more about SAP MaxAttention, <a href="https://www.sap.com/services/premium-engagement/maxattention.html?sort=latest_desc">visit us online</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Markus Steer is Premium Engagement Services lead for Cloud Success Services at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-cloud</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-maxattention</category>
+            <category>news-tag/sap-services-and-support</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Understanding Chip Market Dynamics]]></title>
+            <link>https://www.sap.com/news/2022/02/the-take-chip-shortage-understanding-market-dynamics</link>
+            <guid>https://www.sap.com/news/2022/02/the-take-chip-shortage-understanding-market-dynamics</guid>
+            <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A worldwide chip shortage has impacted a wide range of manufacturers, including the automotive industry. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: Understanding Chip Market Dynamics" src="./media_1c439b1723ef3980431d3d91415c1e1825e1fea55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-understanding-chip-market-dynamics">The Take: Understanding Chip Market Dynamics</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>Global semiconductor industry sales reached a record $555.9 billion, up 26.2% year on year, the U.S.-based Semiconductor Industry Association (SIA) said this week.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="drive-profitable-and-sustainable-new-growth-with-automotive-industry-solutions-from-sap">Drive profitable and sustainable new growth with automotive industry solutions from SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/automotive.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>The record sales came as global chip makers ramped up production to meet demand amid a worldwide chip shortage that has impacted a wide range of manufacturers — including car makers in the U.S., forcing them to cut production, eliminate showroom discounts and raise prices.</p>
+  <p>New cars prices rose by 12.2% in the year to the end of January, while used car and truck prices jumped by 40.5% according to U.S. Department of Labor <a href="https://www.bls.gov/news.release/cpi.htm">statistics</a>.</p>
+  <p>“At the beginning of the COVID-19 outbreak, as the demand for cars plummeted, the automotive industry cut its forecast by about 13%,” notes Richard Howells, an SAP supply chain expert.</p>
+  <p>At the same time, he notes, there was a huge surge in demand for consumer electronics as working from home became the norm. This resulted in increased demand for additional bandwidth, improved audio equipment, new video lighting and high-resolution cameras.</p>
+  <p>The stay-at-home mandates and office closures also increased demand for home appliances such as televisions, washing machines and dishwashers. “This caused a surge in demand for semiconductors, and high-tech OEMs quickly seized the opportunity and increased their forecast to take advantage of the additional capacity,” Howells says.</p>
+  <p>“So when car sales rebounded in late 2020 and the automotive industry started placing new orders, they couldn’t get enough chips to meet the demand. It’s simple economics. If demand is higher than supply, it usually results in increased prices.”</p>
+  <div class="promo">
+    <div>
+      <div>For further insight, see SAP’s new whitepaper:<br><a href="https://www.sap.com/documents/2021/12/56fd98a9-0e7e-0010-bca6-c68f7e60039b.html">Maintaining Business ContinuityDuring Periods of Semiconductor Shortages</a></div>
+    </div>
+  </div>
+  <p>Adding to the uncertainty, there is no general consensus on when the chip shortage will ease, although most expect supply pressures to ease in the second half of 2022.</p>
+  <p>This week Herbert Diess, Volkswagen’s chief executive, said he expects a continued hit from a shortage of semiconductors this year, but believes the company should be able to ramp up production in the second half.</p>
+  <p>AMD’s chief executive, Lisa Su, said she believes the semiconductor industry is making progress in adding capacity. “I do believe that the first half of this year will continue to be quite tight. But the second half of this year, I think things will get a little bit better,” she told Yahoo Finance Live.</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong><br>Joellen Perry, Head of <a href="/press-room">Global Public Relations</a>, SAP<br>+1 (626) 265-0370, <a href="mailto:joellen.perry@sap.com">joellen.perry@sap.com</a>, PT</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/perspective</category>
+            <category>industry/automotive</category>
+            <category>news-tag/covid-19</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Introduces E-Mobility Solution for Electric Vehicle Fleet]]></title>
+            <link>https://www.sap.com/news/2022/02/sap-e-mobility-solution-ev-fleet</link>
+            <guid>https://www.sap.com/news/2022/02/sap-e-mobility-solution-ev-fleet</guid>
+            <pubDate>Thu, 03 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is applying its own e-mobility enterprise software to achieve the goal of an emissions-free car fleet by 2030.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f2e6d93c35becc557821fc7ed743ef1675c177c4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f2e6d93c35becc557821fc7ed743ef1675c177c4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f2e6d93c35becc557821fc7ed743ef1675c177c4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Introduces E-Mobility Solution for Electric Vehicle Fleet" src="./media_1f2e6d93c35becc557821fc7ed743ef1675c177c4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-introduces-e-mobility-solution-for-electric-vehicle-fleet">SAP Introduces E-Mobility Solution for Electric Vehicle Fleet</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Beginning with Austria, SAP is applying its own e-mobility enterprise software to achieve the goal of an emissions-free car fleet by 2030.</div>
+    </div>
+  </div>
+  <p>The e-mobility transformation is underway, and chances are good that you are witnessing it on the streets of your own town. More and more consumers are choosing electric-powered transport over the internal combustion engine, and this despite supply chain disruptions due to the ongoing global pandemic.</p>
+  <p>As battery range improves, charging infrastructure expands, and government incentives gain traction, the popularity of electric vehicles (EVs) <a href="https://www.rolandberger.com/en/Insights/Publications/E-Mobility-booms-despite-the-pandemic.html">appears to be taking off</a>. According to the Electric Vehicle World Sales Database, in 2021 all regions witnessed strong <a href="https://www.ev-volumes.com/">increases in EV sales</a>, with growth rates three to eight times higher than for the overall light-vehicle market. By 2026, <a href="https://www.bcg.com/publications/2021/why-evs-need-to-accelerate-their-market-penetration">according to a BCG study</a>, EVs will account for more than half of light vehicles sold globally.</p>
+  <p>But there are still hurdles to overcome. Case-in-point is a charging infrastructure that is unevenly distributed and cannot keep up with demand. For example, Europe only has around <a href="https://www.reuters.com/world/us/five-facts-state-us-electric-vehicle-charging-network-2021-09-01/">62 public charging points</a> per 100,000 inhabitants, while the U.S. has roughly 37 charge points on the same per-capita basis. This is causing many potential EV converts to take a “wait-and-see” stance until they are assured of a viable charging infrastructure in their area.</p>
+  <p>The successful transition to e-mobility will therefore require huge <a href="https://techcrunch.com/2021/09/19/how-to-meet-the-demand-of-ev-infrastructure-and-maintain-a-stable-grid/?guccounter=1&#x26;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&#x26;guce_referrer_sig=AQAAAGe8ekyPOciu-TGbgfCwhPudGlf8Zw3PXfJGKdyHhB11ULnWaRdby3cPGZwxCEF8Dl8sJsDyY_Ym5kzshncALcYunE5ZWHhAUemKukl2YWOUXTFgP0kZNiJ7eBSC-TrHLzziTH6sK5D5Zgm2s5A3HjOS5hUDIY3fay-No8XdcWse">investments in infrastructure</a> and related technologies. Industry experts agree that demand can only be satisfied through a <a href="https://techcrunch.com/2021/09/19/how-to-meet-the-demand-of-ev-infrastructure-and-maintain-a-stable-grid/">range of options,</a> which includes semi-public charging options like privately run charging stations, office and retail parking lots, home garages, and government-provided locations.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-accelerates-its-move-to-an-emission-free-car-fleet">SAP Accelerates Its Move to an Emission-Free Car Fleet</h3>
+      </div>
+      <div><strong><a href="/2021/11/sap-accelerates-move-to-emission-free-car-fleet">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="sap-e-mobility-intelligent-charging-experience">SAP E-Mobility: Intelligent Charging Experience</h2>
+  <p>Establishing a ubiquitous charge-point network is only one side of the coin. Charge-point providers will also need to provide consumers an easy, intelligent, and automated charging experience. Think of the one-click online-shopping experience consumers have become accustomed to and you get the idea. Achieving this level of service requires an intelligent software platform that is interconnected with other mobility-related business tasks and immediately recognizes the charging profile of your vehicle when you register at the charging point.</p>
+  <p>In September 2021, <a href="/2021/09/sap-e-mobility-solution-sustainable-electric-vehicles">SAP launched</a> SAP E-Mobility, a standardized, cloud-based solution that provides a complete package that enables charge point operators to run their business efficiently and profitably.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_119ce1ae56b92d9cc66762d568b744f6093e77f3e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_119ce1ae56b92d9cc66762d568b744f6093e77f3e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_119ce1ae56b92d9cc66762d568b744f6093e77f3e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Ulrich Scholl, VP and chief product manager for SAP E-Mobility" src="./media_119ce1ae56b92d9cc66762d568b744f6093e77f3e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="600" height="600">
+    </picture>“SAP E-Mobility is targeted at companies where mobility is the core business, such as logistics companies managing large vehicle fleets or mobility-as-a-service providers such as public transit, municipalities, and private ground transportation,” explains Ulrich Scholl, vice president and chief product manager for SAP E-Mobility.
+  </p>
+  <p>The enterprise-grade capabilities of SAP E-Mobility offer integration with other software solutions for expense reimbursement management, analytics, cost management, billing, and invoicing.</p>
+  <h2 id="transition-to-an-emissions-free-car-fleet-by-2030">Transition to an Emissions-Free Car Fleet by 2030</h2>
+  <p>Since 2009, SAP has made sustainability a key pillar of its corporate strategy and annually discloses its own sustainability performance in an <a href="https://www.sap.com/integrated-reports/2020/en.html">integrated report</a>. It is only logical, therefore, that SAP would use the business software it develops to increase its own operational efficiency. This is exactly what the company is doing with SAP E-Mobility.</p>
+  <p>To make good on its promise to <a href="/2021/03/sap-carbon-neutrality-goal-2023">become carbon neutral</a> by 2023, SAP is applying the standard solution for its own electric vehicles, which comprise nearly one-fifth of its total fleet of around 27,000 company cars. Battery electric vehicles have been part of the company’s fleet since 2010, and their share is growing as part of the company’s <a href="/2021/11/sap-accelerates-move-to-emission-free-car-fleet">transition to an emissions-free fleet</a> by 2030. Coupled with the decision to go 100% electric by latest 2030 is a pledge to employees that the charging infrastructure at its facilities can meet growing demand.</p>
+  <h2 id="e-vehicle-charging-infrastructure-flexibility-is-key">E-Vehicle Charging Infrastructure: Flexibility Is Key</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-targets-carbon-neutrality-by-2023">SAP Targets Carbon-Neutrality by 2023</h3>
+      </div>
+      <div><strong><a href="/2021/03/sap-carbon-neutrality-goal-2023">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>The SAP Austria office in Vienna was the company’s first corporate location to implement SAP E-Mobility. Currently one-quarter of the 400 company cars at SAP Austria are battery electric vehicles, with a significant transition to electric planned in the coming years.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_181ebe12abba9fc0664656385118b1ae2e67856e9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_181ebe12abba9fc0664656385118b1ae2e67856e9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_181ebe12abba9fc0664656385118b1ae2e67856e9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Charging station at SAP in Vienna" src="./media_181ebe12abba9fc0664656385118b1ae2e67856e9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="2400" height="1500">
+    </picture>
+  </p>
+  <p><em>Photo courtesy of Michael Gruber.</em></p>
+  <p>The charging infrastructure is operated by SAP’s facility management team in Vienna as part of its overall responsibility for asset management. Charging capacity is supplemented by a photovoltaic system that is also connected to the electricity grid.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c9b49f090338e3e88dd8377c9f429bfed5ee9eb0.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c9b49f090338e3e88dd8377c9f429bfed5ee9eb0.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1c9b49f090338e3e88dd8377c9f429bfed5ee9eb0.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Steffen Krautwasser, head of Global Car Fleet at SAP" src="./media_1c9b49f090338e3e88dd8377c9f429bfed5ee9eb0.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="600" height="600">
+    </picture>“Flexibility is key to any enterprise charging concept because employees want to be able to charge their cars at work, public charging points, and private charging points at home,” says Steffen Krautwasser, head of Global Car Fleet at SAP. “The operation of our charging infrastructure in Austria is based on our strategic adoption road map of SAP E-Mobility and marks a critical milestone for adoption at our other locations.”
+  </p>
+  <p>Strong fluctuations in office use during the pandemic have shown the importance of flexibility. Close coordination between the fleet manager and facilities manager in creating an adaptable strategy is of the utmost importance. SAP E-Mobility enables flexible charging at work and supports reimbursement of private charging at home via <a href="https://www.concur.com/">SAP Concur</a> software for travel and expense management.</p>
+  <h2 id="charge-point-sharing-for-sustainable-e-mobility-in-cities">Charge-Point Sharing for Sustainable E-Mobility in Cities</h2>
+  <p>Some cities and communities are looking to bridge the current shortage in public charging capacity by opening private charging infrastructure to the public. “Since the number of public charging stations is increasing more slowly than demand, it is particularly relevant to open up semi-public charging points to as many users as possible,” says Scholl.</p>
+  <p>This is where the versatility of SAP’s new solution comes through.</p>
+  <p>“SAP E-Mobility gives us the ability to open up access and billing options to any user, and we can scale the system to new requirements rapidly as required,” says Robert Diglas, head of regional facilities for SAP in Austria, Switzerland, Central Europe, and Ukraine. “For example, the flexible solution will enable us to open up our charging points to customers and business partners if and when we decide to do so.”</p>
+  <p>But SAP’s e-mobility vision extends well beyond the office parking lot. In 2021, the company started a co-innovation project with UnternehmerTUM, the city of Munich, and other partners from the mobility and energy industries. Together, they are developing new concepts based on <a href="https://mobility.unternehmertum.de/en/citizen-mobility-1">Citizen Mobility</a> to improve charge-point coverage in German cities.</p>
+  <p>The integration of private charge points is just one focus area, according to Scholl. “With SAP E-Mobility, we are just beginning to help our customers and partners turn mobility as a service into a reality,” he says. “The collaboration with innovative partners and real-life testing by citizens has delivered innovative use cases and thoughtful insights into how sustainable e-mobility, as one mode of urban transportation, can work in the future.”</p>
+  <p>Customers and partners can experience the SAP E-Mobility solution in action at the company’s <a href="https://blogs.sap.com/2021/12/15/sap-e-mobility-charging-infrastructure-lab-opens/">e-mobility lab locations</a> in Walldorf, Germany, and Bangalore, India.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>product/sap-e-mobility</category>
+            <category>industry/utilities</category>
+        </item>
+        <item>
+            <title><![CDATA[Industry Cloud: Advancing Business Transformation for a Changing World]]></title>
+            <link>https://www.sap.com/news/2022/01/industry-cloud-solutions-business-transformation</link>
+            <guid>https://www.sap.com/news/2022/01/industry-cloud-solutions-business-transformation</guid>
+            <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP makes industry cloud solutions available for organizations to optimize, extend, and transform their core business processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Industry Cloud: Advancing Business Transformation for a Changing World" src="./media_1757da8a7acfbe5a5106c2cdd6ac202a6380443f0.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="industry-cloud-advancing-business-transformation-for-a-changing-world">Industry Cloud: Advancing Business Transformation for a Changing World</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Justifiably proud of their digital accomplishments, most companies still suffer from a false sense of digital capabilities. Their increasing attention on evolving customer experiences, product and service innovations, production efficiencies, and competitive advantages leaves little room for driving much needed change in core operations, such as facility management or payroll processing.</div>
+    </div>
+  </div>
+  <p>But the world is changing, and keeping one foot on the gas pedal for higher visibility projects while pumping the brakes with the other foot for back-office changes is not enough to keep up. Businesses must rapidly move both aspects of their digital strategies in unison to drive significant progress so that competitors are challenged to keep pace.</p>
+  <p>With <a href="https://www.sap.com/industries/industry-cloud.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">industry cloud solutions</a>, organizations can achieve this balance.</p>
+  <h2 id="modernizing-industries-to-meet-unique-expectations">Modernizing Industries to Meet Unique Expectations</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="shop-industry-cloud-solutions-on-sap-store">Shop industry cloud solutions on SAP Store</h3>
+      </div>
+      <div><strong><a href="https://store.sap.com/dcp/en/industry-cloud">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>SAP makes industry cloud solutions easier to discover, subscribe to, and use, offering customers access to unified user experiences, familiar design paradigms, and plug-and-play integrations to reinvent themselves and their markets simultaneously. Organizations from every industry can then deploy specialized solutions to optimize, extend, and transform their core business processes by digitalizing and automating operations across their business.</p>
+  <p>For example, <strong>utilities</strong> companies are shifting operations to provide more <a href="https://www.sap.com/assetdetail/2021/06/2abac107-e87d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">sustainable and renewable energy</a> in response to growing demand for decarbonization and decentralization. Industry cloud solutions can be used to combine Big Data-enabled energy data management for millions of end devices on a cloud-based, open platform with smart, industry-specific analytics and integration to support energy-related core processes.</p>
+  <p>Meanwhile, <strong>logistics service providers</strong> can collect various types of information from their vehicle fleets with a <a href="https://www.sap.com/assetdetail/2021/06/e0f83fc4-f47d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">digital vehicle hub</a> enabled by an asset network. By consolidating multiple data sources into a single network-based cloud platform, they can rapidly ramp up new business models, monetize vehicle information across customer channels, and enable collaboration and innovation with third-party participants.</p>
+  <p><strong>Consumer products companies</strong> also have access to an intelligent virtual assistant that streamlines the <a href="https://www.sap.com/assetdetail/2021/09/e2ec4787-f77d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">trade claims management</a> process and eliminates the need for manual matching and auditing. The solution leverages embedded machine learning to automate steps, reduce errors, and help avoid disputes. Organizations can then aggregate and enrich market activity in real time, accelerate balance sheet reconciliation with greater accuracy, lower the cost per claim, and enhance workflow productivity — all while establishing stronger customer relationships.</p>
+  <p>With an industry cloud solution, <strong>retailers</strong> can improve their <a href="https://www.sap.com/assetdetail/2021/10/1cb575ce-fd7d-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">intelligent returns management</a> processes through embedded machine learning models and an analytics engine that accelerate and ease profitable decision-making. The solution turns the challenges of product returns into opportunities that improve customer retention and brand connection with a fluid returns experience for consumers, while increasing productivity and lowering processing costs across sales channels.</p>
+  <p>Retailers can also benefit from an <a href="https://www.sap.com/assetdetail/2021/11/4e536978-087e-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">order management foundation</a> developed to centralize the monitoring, analysis, and management of their omnichannel order processes. By optimizing nodes in their network — such as distribution centers, stores, dark stores, and third-party drop shipping — they can reduce costs, improve agility, and increase brand satisfaction by meeting their customer promises as expected.</p>
+  <p>Industry cloud solutions can even enable emerging industries, such as <strong>automotive original equipment manufacturers (</strong> OEMs) installing and operating residential and commercial charging stations for electric vehicles. An <a href="https://www.sap.com/assetdetail/2021/11/509d5249-077e-0010-bca6-c68f7e60039b.html?source=social-global-news-blog-IEumbrella-2021-industrycloud">e-mobility</a> solution integrates end-to-end billing processes with one platform to lower energy costs and avoid expensive grid-connection expenditure through connections to energy service providers. And for their customers, the cost of improving their carbon footprint and impact on the planet becomes more affordable.</p>
+  <h2 id="competing-as-an-ecosystem-forged-by-innovation">Competing as an Ecosystem Forged by Innovation</h2>
+  <p>Business transformation begins with an idea – whether fixing a problem or discovering and creating new value. But eventually, companies translate ideas differently to address their industry’s unique market dynamics, customer demands, public expectations, and regulatory pressures.</p>
+  <p>For SAP customers, the answer to turning their ideas into meaningful technologies, products, services, business models, or people experiences is an industry cloud solution designed to meet their unique reality. Doing so offers the scale, access, and support they need to adapt to emerging dynamics continuously and rapidly, without sacrificing process efficiency or disrupting their other innovation efforts.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="augment-your-intelligent-enterprise-with-industry-cloud-solutions">Augment your intelligent enterprise with industry cloud solutions</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/industries/industry-cloud.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="visit-the-sap-store-site-to-explore-and-access-the-latest-industry-cloud-solutions-from-sap">Visit the <a href="https://store.sap.com/dcp/en/product/display-0000008655_live_v1?source=social-global-news-blog-IEumbrella-2021-industrycloud">SAP Store</a> site to explore and access the latest industry cloud solutions from SAP.</h3>
+  <div class="footnote">
+    <div>
+      <div><em>Joe Pacor is senior director of Industries Marketing at SAP.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/industry-cloud</category>
+            <category>industry/retail</category>
+            <category>news-tag/sap-store</category>
+        </item>
+    </channel>
+</rss>

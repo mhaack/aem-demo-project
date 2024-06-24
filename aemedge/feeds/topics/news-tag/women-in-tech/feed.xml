@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/women-in-tech/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 22 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Women Shape AI at SAP]]></title>
+            <link>https://www.sap.com/news/2024/03/how-women-shape-ai-at-sap</link>
+            <guid>https://www.sap.com/news/2024/03/how-women-shape-ai-at-sap</guid>
+            <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Women working in AI at SAP describe their roles, responsibilities, and how to build a successful career in the space. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Women Shape AI at SAP" src="./media_1c71f389e8850fb7895355ea5b6b7c031021581a5.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-women-shape-ai-at-sap">How Women Shape AI at SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Although women comprise about 35% of the workforce at SAP, when it comes to shaping AI it seems they are punching above their weight.</div>
+    </div>
+  </div>
+  <p>Here, five SAP employees share about their roles, motivations, and tips for anyone wanting to step into AI. The women – Khawla Mallat, Camila Lombana Diaz, Xin Chen, Nadine Hoffmann, and Puntis Palazzolo – span four countries and three areas: Data Science Engineering, Product Management, and AI Ethics.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-ai-revolutionary-technology-real-world-results">SAP Business AI: Revolutionary technology, real-world results</h3>
+        <p><em><a href="https://www.sap.com/products/artificial-intelligence.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Dr. Khawla Mallat, Security and Quantum Exploration Team, SAP France</strong></p>
+        <p>“Be ready to be challenged all times,” says Mallat, if you want to build a career in AI.</p>
+        <p>Unlike most data scientists at SAP, Mallat does not work directly on the product but is firmly anchored in researching and addressing “some of the technical challenges related to AI, namely fairness, explainability, privacy, and security.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1bd271968479d2d41e43558e1d7ef16cac75424e4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="291" height="300">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Khawla Mallat</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Prior to joining SAP two years ago, Mallat was confronted with the unintended prejudices of face analysis systems. Certain demographic groups, explains Mallat, used to be inadvertently omitted or underrepresented in the underlying data sets, leading to shortcomings in the face analysis capabilities. Such cases highlight the broader issue of bias in other AI applications. In areas like HR, she continues, removing personal details in data sets might seem to solve the bias issues, but AI can still infer these details. This leads to potentially biased outcomes and the lack of explainability in AI models makes identification of such biases difficult. Letting data sets like this take root and grow into powerful data models not subject to scrutiny will only magnify the inherent bias or discrimination.</p>
+        <p>Today Mallat’s passion for addressing such unfairness aligns well with her role of identifying the inherent risks of AI, educating teams about them, and defining technological solutions to mitigate them.</p>
+        <p>“We need to adopt an interdisplinary approach to AI, with experts from ethics, legal compliance, and domain experts, for example, and abstract ourselves from the role of data scientists to succeed,” says Mallat.</p>
+        <p>“I love working in AI,” she continues. “Everything is progressing at an incredible pace so if you want to work in AI, you have to have a certain thirst for knowledge. And, regardless of your role, you must take AI ethics – regulations and regulatory frameworks – seriously because these have huge implications not only for SAP but for individuals and societies in general.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>AI Ethics</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Camila Lombana Diaz, Responsible AI, Germany</strong></p>
+        <p>“AI is a mirror of our capacities as humans. And the biggest responsibility for those working in AI is, what do we want to see in that mirror?” explains Lombana Diaz, AI ethics research expert in the AI Ethics/Responsible AI team located in the SAP Business AI growth area.</p>
+        <p>Lombana Diaz’s responsibilities include maturing and applying the SAP AI Global Ethics policy, creating and delivering enablement content, defining AI personas and processes, and giving guidance to make responsible AI an operational reality for development, as exemplified in SAP’s AI ethics handbook.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_116dec50e3ea9328d01378970e5e7ed4ce2f96acd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Camila Lombana Diaz</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>When she joined SAP eight years ago, initially as a UX designer and then a strategic designer, machine learning and AI were core topics. But it became increasingly clear to her that “understanding the human implications of AI for a responsible and ethical AI demands a human-centric perspective.”</p>
+        <p>Even though SAP is committed to the ethical development of AI – developers must now complete AI ethics assessment tasks and a steering committee scrutinizes all high-risk use cases – Lombana Diaz emphasizes the need to remain focused on the inherent risks and unintentional harms that AI may present. Part of her role is an ongoing assessment of the technology, identifying risks and limitations and communicating them to different teams.</p>
+        <p>As AI continues to evolve at speed, so do the roles. Lombana Diaz is passionate about seeing AI beyond the confines of a technology-centric perspective. “AI is now an omnipresent technology shaping our daily lives; hence, we need individuals working in the field who challenge AI technology to be community centric. AI ethics is a space for experimental, open, curious, collaborative, and human-centered individuals,” and, she concludes, “the time to step into AI and build a career is <em>now</em> because, unlike the technology, the business of AI, the legal and ethical aspects, are still being shaped.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Dr. Xin Chen, SAP HANA Machine Learning, China</strong></p>
+        <p>“I have always enjoyed working at SAP since joining nine years ago. I like the work environment and the colleagues here and I really want to encourage others to join us here in AI,” says Chen, data science researcher on the SAP HANA Machine Learning team.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1fd4656c3221d9e4aa5efe44771ca3b23d71d87db.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Dr. Xin Chen</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>The team works on a toolbox providing different kinds of machine learning algorithms for regression, classification, clustering, and so on for the SAP HANA predictive analysis library.</p>
+        <p>Part of Chen’s role is investigating research papers on the latest machine learning algorithms and, together with the team, deciding which algorithms would be beneficial to customers. Once the machine learning algorithms are implemented, Chen and the team evaluate feedback from customers and deliver enhancements.</p>
+        <p>Recently Chen and her team researched machine learning algorithms investigating notions of fairness. “Fairness is a very hot topic just now,” she says. “In mathematics, there are different notions of fairness, but it is still a complex and evolving topic.”</p>
+        <p>And Chen’s advice to would-be AI developers? “Critical thinking will become even more important to understand what solutions to offer, to make judgements on your own innovations, and to know if the generated output is right or wrong,” she says, reflecting on how this skill will become ever more important for future AI developers.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Product Management</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Nadine Hoffmann, SAP Business AI, Germany</strong></p>
+        <p>“I translate and I want to fascinate,” says Hoffmann, global AI product manager in the SAP Business AI growth area.</p>
+        <p>Even after more than 20 years at SAP, disruptive ideas and mindset shifts still energize Hoffmann. To be an expert in new technologies, and to be energized and enthused by the constant volume and speed of them, is critical to being successful in the AI product management teams of today because product management is the glue between partners, customers, the field, and development.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_1b4e988730056885c9e500b8c6a21150a3fcc626a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Nadine Hoffmann</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>“On the one hand,” says Hoffmann, “SAP has data scientists, software engineers, and researchers taking our software to the next level. And on the other, there are experts defining the legal and ethical guardrails.” Product management must be fluent in both “technical software speak” and “customer speak” to understand desires, pain points, and business processes.</p>
+        <p>Pivoting between these and aligning customer speak with technical software speak is akin to being a translator, Hoffmann says. Our software will only meet the requirements of customers if there is a common understanding between the teams responsible for the technological development, the legal teams responsible for ethical and legal compliance, and the customer.</p>
+        <p>Regardless of the latest innovation, Hoffmann says success in product management is “not only about convincing teams and partners about the ease and positiveness of a technology, but also infusing them with a fascination about it so that they become passionate advocates and are intrinsically motivated to find out more by themselves.”</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Text Large</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Data Science Engineering</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><strong>Puntis Palazzolo, AI Strategist &#x26; Ethics Lead, SAP SuccessFactors, U.S.</strong></p>
+        <p>“The ethical challenges presented by AI have transcended the scope of individual enterprises, extending beyond entities like SAP. It is crucial that we collaborate with others to collectively address AI’s emerging concerns,” says Palazzolo, who leads the SAP SuccessFactors Data Science team.</p>
+        <p>The team acts as a consulting service on AI use cases for product teams in SAP SuccessFactors, analyzing the problem, developing code and algorithms, and building proof-of-concepts. Successful AI use cases are then integrated into SAP SuccessFactors solutions.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Lightbox</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <picture>
+                    <source type="image/webp" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+                    <source type="image/webp" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+                    <source type="image/jpeg" srcset="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+                    <img loading="lazy" alt="" src="./media_14ad04a2a505c656213cdec94acc2bd3275077a33.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="240" height="300">
+                  </picture>
+                </p>
+                <p><em>Photo courtesy of Puntis Palazzolo</em></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Much of the data in SAP SuccessFactors solutions is sensitive customer data. With the dramatic increase in generative AI use cases, safeguarding customer data must take precedence, Palazzolo says. “Generative AI is a powerful technology that introduces new challenges, such as hallucinations and automated decision-making. In high-risk sectors like HR, we need to explain how we reach certain decisions, especially when we are impacting people’s lives.”</p>
+        <p>Palazzolo joined SAP 11 years ago and has been based in Palo Alto, California, since 2013, where she represents SAP on <a href="https://mlcommons.org/">MLCommons</a> – a collaboration of academia and companies, such as Google and NVIDIA, dedicated to developing safe practices and industry-standard benchmarks to improve AI models.</p>
+        <p>Her advice to current and would-be AI practitioners? Follow your passion, be ethical, and make your voice heard while we still have time.</p>
+        <p>“Legislators alone cannot write AI regulations for us because they do not have a full understanding of its complexities,” she says. “We cannot solve all the problems by ourselves, but we must make our voices heard to shape the future of AI.”</p>
+        <p>Alexa MacDonald is an SAP News editor.</p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="follow-sap-news-on-linkedin-to-stay-in-touch">Follow SAP News on LinkedIn to stay in touch</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Connect with us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/women-at-sap</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[Actionable Strategies for Elevating Women in Supply Chain]]></title>
+            <link>https://www.sap.com/news/2023/11/elevating-women-in-supply-chain-actionable-strategies</link>
+            <guid>https://www.sap.com/news/2023/11/elevating-women-in-supply-chain-actionable-strategies</guid>
+            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[A recent discussion hosted by SAP and EY shed light on important trends, challenges, and strategies for advancing women in supply chain.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Actionable Strategies for Elevating Women in Supply Chain" src="./media_1f9da2820936b7055a711bcac1c73b9837db4504d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="actionable-strategies-for-elevating-women-in-supply-chain">Actionable Strategies for Elevating Women in Supply Chain</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Supporting and retaining women in <a href="/topics/supply-chain-management">supply chain</a> remains critical to not only the success of women in this space, but in many ways also to fostering sustainable and resilient supply chains.</div>
+    </div>
+  </div>
+  <p>According to a <a href="https://www.gartner.com/en/newsroom/press-releases/2023-06-29-gartner-says-26-percent-of-supply-chain-csuite-roles-now-filled-by-women">study by Gartner</a>, women representation in C-suite supply chain roles has risen from 19% in 2022 to 26% in 2023. Encouragingly, there has also been an increase in the percentage of women in the supply chain workforce, from 39% to 41%. While these are considered positive shifts in the industry, there is a notable lag in the percentage of frontline roles held by women in this space, ranging from 26% to 34% across various leadership levels.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="design-risk-out-of-your-supply-chain-with-sap">Design risk out of your supply chain with SAP</h3>
+        <p><em><a href="https://www.sap.com/products/scm.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In a recent panel discussion hosted by the SAP North America Business Women’s Network and EY Women in SAP, women supply chain leaders shed light on some important trends, challenges, and strategies for advancing women in supply chain.</p>
+  <p>The discussion was moderated by Lori Foster, managing director for EY SAP Consulting. On the panel, I was joined by Etosha Thurman, chief marketing and solutions officer for SAP Intelligent Spend &#x26; Business Network, Regenia Sanders, partner at EY Business Consulting, and Angelee Tango, manager for EY SAP Extended Warehouse Management. Opening remarks were provided by Yolanda Kirksey, SAP Alliance leader and director for SAP Ariba U.S. Go-to-Market for EY.</p>
+  <p>A few key strategies emerged from the discussion for how organizations can help to elevate women in supply chain:</p>
+  <div class="text-large">
+    <div>
+      <div><strong>1. Support the choice to stay with flexibility</strong></div>
+    </div>
+  </div>
+  <p>A consequence of the global pandemic was a moment of reassessment for women juggling full-time careers with responsibilities at home. In that moment, many women (and men) chose to shift their priorities outside of work or simply had to make that shift to address the needs at home. What we as business leaders can learn from observing this trend is the need to create environments that support women and accommodate work-life balance.</p>
+  <p>An important point called out in this panel discussion is that work-life balance looks different for everyone. Organizations must set an expectation of respect and boundaries that allow for all employees to manage the many responsibilities they have outside of work — regardless of marital status, if they have children or grandchildren, or if they are a caregiver in another capacity. A culture supportive of pursuing career aspirations while maintaining a healthy balance in personal life empowers women to effectively set and maintain boundaries as well as seek help when needed.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>2. Recruit for top skills to succeed in supply chain roles</strong></div>
+    </div>
+  </div>
+  <p>The panel named skills like curiosity, customer focus, relationship building, change management, crisis management, and communication as both crucial factors for success in this field and areas in which women tend to excel, citing the <a href="https://onlinelibrary.wiley.com/doi/10.1111/poms.13329">Production and Operations Management Society (POMS) study</a>. Collaboration was underscored by several panelists as essential. Tango shared, “From determining the technology we want to use to the final stage of implementation, the need to continuously evaluate requires everyone to be on board.”</p>
+  <p>The panel suggested that having more women engaged in these transformative projects helping facilitate collaboration is a strategic way to support innovation that sticks. As Sanders stated, “Making sure [internal stakeholders’] input is being heard when gathering requirements is a critical difference-maker to having an organization that actually embraces technology versus being intimidated by it.”</p>
+  <div class="text-large">
+    <div>
+      <div><strong>3. Provide forums that encourage open discussion</strong></div>
+    </div>
+  </div>
+  <p>At any stage in your career, it can be helpful to hear of the challenges other women supply chain professionals have faced and how they overcame them. What Foster shared on this topic stood out to me: “It’s easy for people to see where you are today, but not what you went through to get there.” That sense of mutual respect and understanding helps to build confidence.</p>
+  <p>Role models also play an important role. Thurman spoke to the importance of representation: “Seeing people who look like you and can manage a life like you is important to how we move forward.”</p>
+  <p>Of the many valuable individual takeaways from this discussion, a few specific pieces of advice resonated with me for women looking to elevate their careers in supply chain:</p>
+  <div class="text-large">
+    <div>
+      <div><strong>1. Set and hold boundaries where they make sense for you</strong></div>
+    </div>
+  </div>
+  <p>You must be willing to reshape your own conceptions of how you need to be perceived and what your role needs to be. Instead of trying to meet this picture-perfect standard, work from an understanding of what you want and need so you can set and maintain reasonable boundaries with a career that requires significant flexibility.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>2. Know that you belong and operate in that way</strong></div>
+    </div>
+  </div>
+  <p>As a woman working in a male-dominated field, it is likely that you will experience moments where you or your contributions are slighted, discounted, or ignored. While we are working to change that behavior, when this happens it’s important to remember to focus on what you want to achieve. If you feel that you are not yet at a point in your career to remedy the situation directly, ask for help.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>3. Use your voice</strong></div>
+    </div>
+  </div>
+  <p>There is an advantage to being different. If you are one woman in a room of 50 men and you can clearly articulate your point well, you will be remembered. As you build your brand, opportunities will follow. And when you have the chance to support other women in your field, lend your voice to advocate, guide, and champion the next generation of leaders.</p>
+  <p>There is a lot that we can learn from each other, in and across industries. These leaders conveyed inspiring journeys in their supply chain careers where they have encountered and continue to navigate a wide spectrum of challenges, but also have found fulfillment in this line of work. This open discussion represented a significant stride toward acknowledging the challenges, opportunities, and collective efforts needed to empower and elevate women in supply chain.</p>
+  <p>As these forums continue, my hope is that they will not only support and inspire women through a vast network of supply chain professionals, but also drive toward a more equitable and inclusive supply chain landscape.</p>
+  <div class="footnote">
+    <div>
+      <div>Darcy MacClaren is chief revenue officer for SAP Digital Supply Chain.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-sap-news-on-linkedin-for-the-latest-updates">Connect with SAP News on LinkedIn for the latest updates</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news/">Follow now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/ecosystem</category>
+            <category>sap-event/[any]</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/gender-equality</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[From Kitchen Assistant to IT Student]]></title>
+            <link>https://www.sap.com/news/2023/04/from-kitchen-assistant-to-it-student</link>
+            <guid>https://www.sap.com/news/2023/04/from-kitchen-assistant-to-it-student</guid>
+            <pubDate>Fri, 28 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Malbina Ramil Kyzy‘s story is one of courage and hard work. Read how a meeting in an SAP cafeteria paved the way to the career of her dreams.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-employee-profile</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[Bridging the Digital Gap for Women in Tech]]></title>
+            <link>https://www.sap.com/news/2023/03/iwd-2023-women-in-tech-bridging-digital-gap</link>
+            <guid>https://www.sap.com/news/2023/03/iwd-2023-women-in-tech-bridging-digital-gap</guid>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For IWD 2023, learn more about how SAP is investing in programs that help existing and potential female employees thrive.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>non-sap-event/international-womens-day</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[Creating a Sense of Belonging for the Next Generation of Female Data Scientists]]></title>
+            <link>https://www.sap.com/news/2022/09/next-generation-female-data-scientists</link>
+            <guid>https://www.sap.com/news/2022/09/next-generation-female-data-scientists</guid>
+            <pubDate>Fri, 23 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In support of the next generation of female data scientists, SAP is committed to creating a sense of belonging. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/business-womens-network</category>
+            <category>news-tag/sap-university-alliances</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[One Organization's Effort to Close the Technology Gender Gap]]></title>
+            <link>https://www.sap.com/news/2022/06/last-mile-close-technology-gender-gap</link>
+            <guid>https://www.sap.com/news/2022/06/last-mile-close-technology-gender-gap</guid>
+            <pubDate>Wed, 08 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last Mile Education Fund helps to get low-income women and students through college to graduation. SAP has pledged a $500k donation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-csr</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[Advice to My Younger Self: Challenge the Status Quo]]></title>
+            <link>https://www.sap.com/news/2022/04/advice-to-younger-self-challenge-the-status-quo</link>
+            <guid>https://www.sap.com/news/2022/04/advice-to-younger-self-challenge-the-status-quo</guid>
+            <pubDate>Fri, 15 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With over 27 years of experience in tech and mentoring women, SAP's Aneesha Shenoy shares advice she wishes she could tell her younger self.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/women-in-leadership</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[International Women’s Day: Empowering a Sustainable Future]]></title>
+            <link>https://www.sap.com/news/2022/03/international-womens-day-2022-change-makers</link>
+            <guid>https://www.sap.com/news/2022/03/international-womens-day-2022-change-makers</guid>
+            <pubDate>Tue, 08 Mar 2022 05:15:19 GMT</pubDate>
+            <description><![CDATA[For International Women's Day 2022, SAP and UN Women come together under the theme “Change Makers: Women Empowering a Sustainable Future.”]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>non-sap-event/international-womens-day</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Women in Tech: The Math Rebel]]></title>
+            <link>https://www.sap.com/news/2022/01/sarah-detzler-sap-women-in-tech-series</link>
+            <guid>https://www.sap.com/news/2022/01/sarah-detzler-sap-women-in-tech-series</guid>
+            <pubDate>Mon, 17 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sarah Detzler has always loved math. Never allowing gender stereotypes to hold her back, today she works as a data scientist at SAP.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1816aa44b75dad03e7b61e84c9cb817ad892f78e2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1816aa44b75dad03e7b61e84c9cb817ad892f78e2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1816aa44b75dad03e7b61e84c9cb817ad892f78e2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Women in Tech: The Math Rebel" src="./media_1816aa44b75dad03e7b61e84c9cb817ad892f78e2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-women-in-tech-the-math-rebel">SAP Women in Tech: The Math Rebel</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Sarah Detzler has loved numbers ever since she can remember. At the age of six, she knew what she wanted to do when she grew up – study mathematics.</div>
+    </div>
+  </div>
+  <p>Whenever she mentioned her dream to her family and other people, their response was always the same: “You’re just a little girl, you can’t do that, don’t you want think about something else?” Although it was clear from her schoolwork that she was talented, people still doubted her abilities. Everyone, apart from her teacher, would tell her that studying math was a bad idea. Reactions like these were a constant source of frustration for Sarah: “You have pull through that, even though it’s quite hard work. I knew that’s what I really wanted to do, and that’s why I moved forward, no matter what anyone else said. And now I’m pretty glad that I did.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13ffec6da4dc71b8c3798a36ebb83a80a36e2e8c8.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13ffec6da4dc71b8c3798a36ebb83a80a36e2e8c8.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13ffec6da4dc71b8c3798a36ebb83a80a36e2e8c8.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Women in Tech: The Math Rebel" src="./media_13ffec6da4dc71b8c3798a36ebb83a80a36e2e8c8.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/1w1_ITi_sHk">SAP Women in Tech: The Math Rebel</a></p>
+      </div>
+    </div>
+  </div>
+  <p><em>Video produced by Natalie Hauck and Alexander Januschke</em></p>
+  <p>In fact, Sarah completed a doctorate in mathematics and is now a data scientist at SAP. It is her job to help customers make the most of their data, gain insights, and create predictions, enabling them to make better business decisions. “Basically, I’m living the dream I had as a little girl – I get to talk about mathematics the entire day,” she says.</p>
+  <h2 id="beating-stereotypes-with-humor">Beating Stereotypes with Humor</h2>
+  <p>Even as a professional, Sarah still encounters stereotyping. She is often the only woman in the room at customer meetings. Sometimes, on being introduced to clients, they automatically assume that one of her male colleagues must be Dr. Detzler the data scientist. “Humor is the best way of handling those situations,” Sarah notes. “Knowing your stuff helps too. When I hold a presentation, after the first five minutes no one has any doubt that I am the data scientist in the room.”</p>
+  <p>The fact that data and numbers offer a neutral and objective perspective strikes a chord with Sarah – especially because she has experienced bias and is acutely aware of it. Erik Kandel, a neuroscientist and Nobel laureate, estimated that between 80% and 90% of our mind works unconsciously, which means that most of our cognitive processes are based on unconscious conclusions. Sarah says: “Getting this neutral look from the data and seeing that there really is a bias and we can do something about it, or seeing, reflected from the data, how wrong our bias is, that’s something that really excites me and that I didn’t see in any other job.”</p>
+  <h2 id="teamwork-with-a-superhero">Teamwork with a Superhero</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-what-life-looks-like-at-sap">Learn more about what life looks like at SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/careers/who-we-are/life.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Sarah works full-time, her husband part-time. He stayed at home to look after their daughter for the first year after she was born. “It was a natural decision for us, since I was keen to return to work and he enjoys working part-time,” Sarah explains. Though they share tasks, her husband takes on most of the childcare and housework. “My husband is my superhero,“ she says. “We are a great team, the three of us, and this is the only way this can work.”</p>
+  <p>Being able to do her job from home and fit her hours around caring for her child makes life a lot easier for Sarah and her family. “I really appreciate the flexibility, since it allows me to balance work and family, and spend a lot of time with my daughter,” she adds.</p>
+  <h2 id="inspiring-girls-to-think-big">Inspiring Girls to Think Big</h2>
+  <p>She often thinks back to when she was six years old and mad about math. If only there had been female role models to follow and who she could point to and say that women are mathematicians too. But there were hardly any. At university, she was one of just two women on her undergraduate course, and later one of only three PhD students. It was a situation that left Sarah feeling isolated. That is why she encourages young girls whenever she can. “I want to say to them: ‘other women have made it and you can too.’”</p>
+  <p>Sarah is keen for her daughter to grow up knowing that there are no barriers. She can be an ABAP developer in the cloud, become a data scientist, or embark on a different technical career. “If she wants to do something else, that’s also perfectly fine, but I want it to be her decision. And for her to know that she can do whatever she wants in life.”</p>
+  <div class="promo">
+    <div>
+      <div><strong>SAP Women in Technology</strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Women in Tech: Be Proud of Who You Already Are]]></title>
+            <link>https://www.sap.com/news/2021/12/divya-chandrika-mohan-sap-women-in-tech-series</link>
+            <guid>https://www.sap.com/news/2021/12/divya-chandrika-mohan-sap-women-in-tech-series</guid>
+            <pubDate>Mon, 13 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Moving from India and continuing her career in Germany was the toughest challenge SAP's Divya Chandrika Mohan ever faced. Read her story.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a86d19dc5aefa85e0a985e96a8920d86842c4168.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a86d19dc5aefa85e0a985e96a8920d86842c4168.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a86d19dc5aefa85e0a985e96a8920d86842c4168.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Women in Tech: Be Proud of Who You Already Are" src="./media_1a86d19dc5aefa85e0a985e96a8920d86842c4168.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-women-in-tech-be-proud-of-who-you-already-are">SAP Women in Tech: Be Proud of Who You Already Are</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Divya is a dancer. But she’s not just someone who takes classes with her husband on Friday evenings. Divya Chandrika Mohan is an internationally recognized artist who practices the ancient Indian classical art form of <a href="https://en.wikipedia.org/wiki/Bharatanatyam">Bharatanatyam</a>.</div>
+    </div>
+  </div>
+  <p>She started dancing at the age of five and was considered a child prodigy in her native India. Everything she did came easily to her: dance, school, her master’s degree in banking. At 22 she became the youngest branch manager to head a CitiFinancial branch in Mumbai. “All I had experienced in my life was success and accolades. It felt like the movies,” she says.</p>
+  <p>Then, about 10 years ago, her husband received an offer to work for SAP in Germany. Divya agreed to the move without hesitation. In her childhood, her family had moved every two or three years because of her father’s job. “Exploring something unknown has always been very exciting for me. This is part of my personality,” says Divya.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_133ebd6a0ba3076c1286b4af257ea4aeac1ce338c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_133ebd6a0ba3076c1286b4af257ea4aeac1ce338c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_133ebd6a0ba3076c1286b4af257ea4aeac1ce338c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Women in Tech: Be Proud of Who You Already Are" src="./media_133ebd6a0ba3076c1286b4af257ea4aeac1ce338c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/-JpUfhMz_wg">SAP Women in Tech: Be Proud of Who You Already Are</a></p>
+      </div>
+    </div>
+  </div>
+  <p><em>Video produced by Natalie Hauck and Alexander Januschke</em></p>
+  <h2 id="never-give-up">Never Give Up</h2>
+  <p>But Germany was a different space. Divya didn’t know anyone and didn’t speak the language at first. “I wanted to adapt to my new environment and also make sure my toddler felt comfortable and could make friends.” Divya had become a mother in 2009 and wanted to be with her child completely in the first years of his life, enjoying every single milestone.</p>
+  <p>But when her son started going to kindergarten, Divya faced the toughest time of her life. The former child prodigy, the dancer, the successful banker felt, “I couldn’t just be home, I had more energy to give.” A piece of advice from her mother helped her come out of it. “It will feel cold when you’re thrown into it, just stick around there, take it as a challenge.” Determined to teach Indian dance, she navigated her way through the German bureaucratic maze to understand what was required to work as a freelance dance teacher. But she didn’t give up. She’s now been teaching classical Indian dance to local students for over 10 years.</p>
+  <p>Trying to get back into her career in banking also felt like swimming upstream. Rejection letters became a very common thing for her. “I had to face that moment when I was going through failure at a rate that I had never known before, when I was being judged for what I was not, when I didn’t have a place to prove myself. This has given me so much empathy that I can really relate to people who are going through it,” she says.</p>
+  <h2 id="learning-was-a-constant">Learning Was a Constant</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="saps-commitment-to-diversity-and-inclusion-is-critical-to-the-companys-success">SAP's commitment to diversity and inclusion is critical to the company's success</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/company/diversity.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Divya has been a permanent employee at SAP since 2019 and now works as a product manager in the SAP S/4HANA Cloud area. Part of her job is to educate customers, partners, and internal colleagues on the value of SAP S/4HANA Cloud. She has also recently started working on the product strategy side. “Of course, I do need to understand the technology to be able to sell the value, but not having an engineering background should never be a showstopper.”</p>
+  <h2 id="bringing-empathy-to-work">Bringing Empathy to Work</h2>
+  <p>Divya’s art form, Bharatanatyam, represents nine basic emotions. The dancer’s role is to observe, understand, and explore every single layer of these emotions. For Divya, this is her bridge between the creative and the corporate worlds. “Bringing empathy and emotion to work – or, as we say at SAP, helping the world run better and improving people’s lives – that’s exactly the strength I bring,” she says. In conversations, she always tries to put herself in the shoes of customers or colleagues. “It’s about showing the customer that you care. Most customers don’t leave a supplier because of the product itself, but because they’re feeling they are not being cared for enough.”</p>
+  <p>As in her art, she plays many roles in life. She’s a product manager, an artist, a teacher, a wife, a mother, and a daughter. “And I feel that amidst all this, I’m still Divya,” she says. “I have this innate happiness within me that forms the core of what I am. And that’s helped go through the storm or calm. It’s this small little quotient of bliss that I have that’s always been my essence.”</p>
+  <div class="promo">
+    <div>
+      <div>“As a woman working for SAP, you are a ‘woman in tech,’ regardless of what you have studied or graduated in,” says Christine Regitz, head of the company’s global initiative, SAP Women in Tech. The new Women in Tech series covers the successes and opportunities woman have had and the clichés and challenges they’ve encountered. Some entered the IT industry after studying computer science, others via very different routes. <a href="/topics/sap-women-in-tech">Let their stories inspire you</a>!</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Women in Tech: Svea’s Leap from Career to Passion]]></title>
+            <link>https://www.sap.com/news/2021/11/svea-becker-sap-women-in-tech-series</link>
+            <guid>https://www.sap.com/news/2021/11/svea-becker-sap-women-in-tech-series</guid>
+            <pubDate>Mon, 15 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[After 17 years as an assistant, Svea Becker took her career in a totally different direction. Read her story.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Women in Tech: From Tehran to Tech Giant]]></title>
+            <link>https://www.sap.com/news/2021/10/tannaz-piroozi-tehran-sap-women-in-tech-series</link>
+            <guid>https://www.sap.com/news/2021/10/tannaz-piroozi-tehran-sap-women-in-tech-series</guid>
+            <pubDate>Mon, 18 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Tannaz Piroozi’s discusses her unique journey from a childhood in Iran to a management role at SAP. Read the Women in Tech series.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/women-in-tech</category>
+        </item>
+    </channel>
+</rss>

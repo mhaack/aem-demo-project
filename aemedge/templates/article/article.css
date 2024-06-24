@@ -131,6 +131,7 @@ main {
       margin-block: var(--udexSpacer20) 0;
     }
 
+
     & > h2, & > h3, & > h4 {
       margin-block: var(--udexSpacer40) 0;
 
@@ -143,7 +144,23 @@ main {
       }
     }
 
-    & > h2 + h3 {
+    &:has(:is(h2, h3, h4):first-child):not(:first-child) {
+      margin-block: var(--udexSpacer40) 0;
+
+      @media (width >= 980px) {
+        margin-block: var(--udexSpacer48) 0;
+      }
+
+      @media (width >= 1280px) {
+        margin-block: var(--udexSpacer56) 0;
+      }
+    }
+
+    & > h2 + :is(h3, h4) {
+      margin-block: var(--udexSpacer20) 0;
+    }
+
+    & > h3 + h4 {
       margin-block: var(--udexSpacer20) 0;
     }
 
@@ -155,6 +172,10 @@ main {
   & .section[data-location="document-footer"] :is(> .default-content-wrapper, .section > .default-content-wrapper) {
     /* Should align with L1 and L2 typography */
     & > h2 {
+      margin-block: 0;
+    }
+
+    & > h3 {
       margin-block: 0;
     }
 

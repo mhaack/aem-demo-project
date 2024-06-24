@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/grow-with-sap/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 07 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Four SAP Customers Are Successfully Driving Transformation in Their Businesses]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-sapphire-sap-customers-drive-business-transformation</link>
+            <guid>https://www.sap.com/news/2024/06/sap-sapphire-sap-customers-drive-business-transformation</guid>
+            <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In their SAP Sapphire keynote, Scott Russell and Thomas Saueressig talked to four customers about using SAP to deliver high-value results.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How Four SAP Customers Are Successfully Driving Transformation in Their Businesses" src="./media_1c4521f798d991573b94b36fd1f60cfe20d3399cf.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-four-sap-customers-are-successfully-driving-transformation-in-their-businesses">How Four SAP Customers Are Successfully Driving Transformation in Their Businesses</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>This week at SAP Sapphire, four industry-leading companies joined SAP Executive Board Members Scott Russell and Thomas Saueressig on stage in Orlando to discuss how they are using SAP technology to deliver high-value results for their businesses.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="taking-business-to-the-next-level-in-the-era-of-ai">Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Russell told the crowd that customer stories and conversations is what SAP Sapphire is all about, saying that what makes the event special is having “a collective group that comes together, both here in the room and virtually, and being able to understand how SAP can bring out your best.”</p>
+  <p>Russell emphasized that the news from SAP Sapphire is a “demonstration of our commitment to continually innovate, to continually strive to bring more creative value to your business.”</p>
+  <p>He noted that a perfect example of this is the announcement that <a href="/2024/06/sap-enters-agreement-to-acquire-walkme">SAP has entered into an agreement to acquire WalkMe</a>, a leader in digital adoption platforms. Reflecting on the acquisition, Russell said “We are obsessed not only about great applications and great platforms to deliver value for your business, we also care passionately about the transformation journey to get there.”</p>
+  <p><a href="https://www.youtube.com/live/ZZ1yFoALzAs?si=mbPWUzgttHga-_PR">Embed from www.youtube.com</a></p>
+  <p>As Chief Revenue Officer, Russell noted that every day 300 million people log on to SAP cloud applications to run their businesses. “And obviously we can never take that for granted,” he said. “You have choice, you have options. We strive to be at our best to help you be at yours. The way we measure success is in your terms, because ultimately [as a] market leader in business AI, we hold ourselves to the highest standards. Why? Because that’s what you expect.”</p>
+  <p>A big part of the transformation journey many customers are taking is moving to the cloud with RISE with SAP. “We are super proud of our cloud journey and [that] we are helping you transform your business,” Russell said. “More than 6,000 customers have already moved to RISE with SAP. Of those 6,000 customers in the last 12 months, over 1,000 have already gone live.”</p>
+  <h2 id="puretech-scientific-speed-and-scalability-is-key">PureTech Scientific: Speed and Scalability is Key</h2>
+  <p>Russell was first joined on stage by Brian Hardee, CIO of <a href="https://www.puretechscientific.com/">PureTech Scientific LLC</a>, a global leader in the production of glycolic acid used in a variety of industries and applications. As a recent carve-out by a private equity owner from a much larger global manufacturer, PureTech had to quickly migrate its operations to its own systems. But without an IT team of its own this was initially a daunting challenge. The new company chose SAP S/4HANA Cloud Public Edition because of its many benefits.</p>
+  <p>“For us, it was an easy choice because first, we have no IT team,” Hardee said. “We have no internal training team, and we also had a very tight timeline with respect to the exit. So, we needed a solution that would enable us to move forward with speed, efficiency, and scalability. I could be confident that the infrastructure was being managed and secure. And that left us with an awesome choice for growth as well.”</p>
+  <p>Scalability and rapid implementation were key factors in the choice of GROW with SAP, Hardee noted: “It was a great fit and gave us a platform for scalability for future bolt-ons, acquisitions, and so forth. So that’s the main reason. And SAP has an awesome suite of tools that enable that rapid implementation. And there was no other way we were going to do it without an internal IT team and without the access to the training material and the testing and so on.”</p>
+  <p>And speaking of rapid implementation, PureTech went live on SAP in just 15 weeks, standardizing a business with an 85-year history on a common platform. Hardee gave some advice on how to make a project successful: “Use the tool set that SAP provides – SAP Activate methodology does work! And if you have the opportunity, sign up for the SAP Preferred Success program because it gives you a direct line to someone in SAP so that if you or your integrator doesn’t know the answer, SAP can point you to the right direction very quickly. So that helps with the speed of transformation.”</p>
+  <h2 id="tropicana-brands-group-all-about-agility-and-time">Tropicana Brands Group: All About Agility and Time</h2>
+  <p>Tropicana is a household name to many consumers, known chiefly for its juice and other beverage products. But while the brand is more than 75 years old, <a href="https://www.tropicanabrandsgroup.com/">Tropicana Brands Group</a> is just a bit over two years old, having been recently spun-off as a stand-alone group.</p>
+  <p>Jeff Lischett, CIO of the US$3 billion organization, joined Russell to talk about how his company relied on RISE with SAP to make its “Project Harvest” IT separation and transformation project successful.</p>
+  <p>Lischett noted that speed and agility was the key value proposition for the project. “We needed a platform that was able to accelerate, move with us, pivot with us, as we were going through this in a very accelerated timeline,” he said. “When you bring the technology and couple it with the unified business architecture powered by SAP, the choice for us was clearly RISE with SAP. Tropicana really needed a fit for purpose. Where we came from was going to be entirely different than where we were going, and this modern ERP, in terms of leaner, simpler, more streamlined ways of working, was really at the core of what we needed across the value chain.”</p>
+  <p>Tropicana Brands Group took its European business operations live on SAP just 11 months after it started the design work, followed by North America three months later. “That was pressure testing!” Lischett said. “In just over a year, we had a fully implemented, end-to-end digital core and technology foundation for Tropicana Brands. We have a technology and a platform now that is really going to – no pun intended – rise to meet the challenge of our growth ambition.”</p>
+  <p>“Ruthless prioritization” and change management were key to the project’s success, Lischett said. “I’m the biggest evangelist and advocate of change management,” he said. “You need it. You need it at the front, you need it during, you need it at the end. One thing that I would’ve probably done slightly differently is [to have] stayed with it longer at the end.”</p>
+  <p>Tropicana is already seeing the impact of the project and specifically its focus on a clean core. “The most impactful value we’ve seen [goes] back to that clean core,” Lischett said. “Just in the months that followed, the ability to … bring the development forward, to build on top of the core that we have with enhancements and optimizing at a speed ratio that you just haven’t seen.”</p>
+  <p>When asked about what role AI will play in his company, Lischett focused mainly on the human side of the technology. “Ironically, from the standpoint of being a technologist … AI in my mind, in terms of how I lead it, [needs to be] human-centered first and foremost, ensuring that we’ve got the right culture, responsible use, and effective use,” he said. “The gift of time is really the value creator that I see in AI and being able to work more efficiently and being able to take that time and translate it into what matters to you.”</p>
+  <h2 id="responsibly-enabling-critical-systems">Responsibly Enabling Critical Systems</h2>
+  <p>Russell handed over the stage to Saueressig, who recently launched the <a href="/2024/04/cloud-transformation-adoption-revolution-expectations-outcomes-meet">new Customer Services &#x26; Delivery Board area</a>. Saueressig noted that 25% of the world’s commerce already runs through more than 6,000 RISE with SAP customers worldwide, and that SAP supports the most critical business processes on the planet.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <picture>
+          <source type="image/webp" srcset="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+          <source type="image/webp" srcset="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+          <source type="image/jpeg" srcset="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+          <img loading="lazy" alt="" src="./media_1dc5f09272052858aaeb01a0eec06423efb162249.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="683">
+        </picture>
+      </div>
+    </div>
+  </div>
+  <p>With that comes “the responsibility and the accountability to provide you with the most reliable and secure infrastructure,” Saueressig said. “That’s the reason why we co-engineered together with our partners from AWS, Microsoft Azure, Google Cloud Platform, and many others, to ensure that you have the highest level of quality and availability.”</p>
+  <p>Echoing the theme of speed and adaptability, he noted that fast adoption of technology is critical. “Today, it’s not about the big fish that eats the small fish, it’s about the fast fish that eats the slow,” he cited. “At the end of the day, [our] ambition is to transform your system landscape to create a more flexible architecture, which enables fast adoption of innovations and ultimately, value realization. … And we take our responsibility seriously to really help you thrive in this ever-changing environment.”</p>
+  <h2 id="fresenius-se-from-complexity-to-standardization">Fresenius SE: From Complexity to Standardization</h2>
+  <p>Ingo Elfering, CIO of global healthcare conglomerate <a href="https://www.fresenius.com/">Fresenius</a>, knows something about speed: his team migrated 29 system landscapes containing more than 134 systems in less than 15 months. He joined Saueressig on stage to provide some insights into his company’s transformation project.</p>
+  <p>As a company that has grown through many acquisitions, Fresenius had a highly heterogenous IT landscape. “We never quite integrated them,” Elfering said. “So, a really complex landscape …, [with] all sorts of interfaces and other applications attached to it. That was our starting point.”</p>
+  <p>Fresenius’ management realized the company needed to change and become more efficient and effective to set itself up for ongoing success. It went all-in, doing four major transformations at the same time. As Elfering noted, “We not only did the RISE with SAP migration, we also did a complete cloud migration of our data centers worldwide; an outsourcing with a partner to become a more global team; and a global change of our network, including a whole bunch of security additions into our space.”</p>
+  <p>Since it works in the healthcare and pharmaceutical space, Fresenius has a lot of regulatory requirements that it must adhere to, making the project more challenging than it might be in other industries. “You do a lot more technical documentation, testing, and so forth. So, from that perspective, regulations like GxP, good manufacturing or critical infrastructure, they were new to SAP in that instance in RISE with SAP. And we did it together. And I find that quite remarkable.”</p>
+  <p>The <a href="/2023/06/fresenius-rise-with-sap-moves-sap-systems-cloud">new system has now been live</a> for just over a year and the company has seen many benefits. “We have a better speed on the underlying systems,” Elfering said. “We have a new infrastructure stack that works well. The main benefit for us will come as we [reinvent] the company. … We have some systems that doubled and tripled in size. So, it’s possible to leverage SAP quite quickly in these types of environments. From that perspective, I’m very happy with where we are. … We now have all the foundations in place to be able to execute our next phase of changes, our consolidation, our simplification, and in the cloud.”</p>
+  <p>Finally, Elfering believes that healthcare is an area where AI can make a significant difference. “Healthcare always has been data-rich and insights-poor. … And the only way to get there, in our opinion at least, is to be on a cloud-based infrastructure in the first place. Because otherwise you don’t have the same performance or capabilities.”</p>
+  <h2 id="clean-core-drives-agility">Clean Core Drives Agility</h2>
+  <p>The idea of a “clean core” and a unified, simplified system underlies all these customer transformation stories. And it’s even more important in the context of agility and adaptability when it comes to taking advantage of the latest innovations in AI.</p>
+  <p>“It’s super important for us to be clear that the clean core is not just for the sake of the clean core,” Saueressig said. “It’s a means to get to an innovation- and upgrade-ready system to be able to embrace these innovations. Because at the end of the day, legacy systems often have this technical depth that limits agility.”</p>
+  <p>Saueressig admitted that even SAP has struggled with this, noting that the company had millions of lines of custom code in its systems. An internal analysis of all SAP customers showed that more than 65% of their custom code was unused in the past 12 months. “Code is also a liability, not just an asset,” he said. “And this is something we need to actively work against.”</p>
+  <h2 id="hitachi-high-tech-corporation-clean-and-simple-benefits">Hitachi High-Tech Corporation: Clean and Simple Benefits</h2>
+  <p>Saueressig invited Takuya Sakai, general manager of the Digital Transformation Business Group at <a href="https://www.hitachi-hightech.com/">Hitachi High-Tech</a>, on the stage to talk more about the benefits of system simplification and clean core. In 2019, Hitachi High-Tech <a href="https://www.sap.com/asset/dynamic/2023/07/d237f8b9-7e7e-0010-bca6-c68f7e60039b.html">initiated a project</a> to simplify its business processes and digitize its management information. With its existing business processes fragmented across overseas sales offices, headquarters, and manufacturing sites, the organization needed to change to accelerate its business and set itself up for future growth. It chose SAP S/4HANA to help it build its new foundation for ongoing growth.</p>
+  <p>Hitachi was running SAP R/3 but had significantly customized it with 9,000 add-ons across four instances, resulting in a lot of custom code. This resulted in many errors every day and large operational costs every year, Sakai said. And with the cost of validating so many add-ons, the company only did a major version update once in 12 years.</p>
+  <p>To move to a more standardized and flexible system, Hitachi High-Tech adopted a two-tier architecture model. Taking advantage of development flexibility, the company deployed SAP S/4HANA Cloud Private Edition for its headquarters and group companies in Japan and SAP S/4HANA Cloud Public Edition for its overseas sales offices. The adoption of SAP S/4HANA Cloud allows Hitachi High-Tech to take advantage of the functionality offered by SAP Business Technology Platform (SAP BTP) for application development, data management, automation, integration, analytics, and AI.</p>
+  <p>With the new system, Hitachi High-Tech reduced its 9,000 add-ons to just 750, allowing it to easily upgrade its ERP core. “Upgrading our old ERP took about a year and a half from the planning stage,” Sakai said. “However, with clean core, we can now do an upgrade every year in about 40 days. An upgrade every year keeps the clean core fresh and means new features can be delivered to our business quickly, like AI or process automation.”</p>
+  <p>But achieving – and keeping – a clean core “requires patience,” Sakai said. Executives must understand the purpose of the transformation project and employees must overcome the pain that comes with a transformation project. “This is the most difficult thing,” he said. “The IT department must properly understand the new technology and suggest how to use it correctly. Then together we embark on the journey to the transformation.”</p>
+  <h2 id="supporting-business-transformation-and-accelerating-time-to-value">Supporting Business Transformation and Accelerating Time to Value</h2>
+  <p>Accelerating and improving time-to-value for customers is very important to SAP, according to Saueressig.</p>
+  <p>“We are now bringing together all of our assets … in a seamless, end-to-end tool chain,” he said. “We want to holistically support your business transformation according to the dimensions of applications, data, processes, and people, which means we bring together and fully integrate SAP LeanIX for the IT landscapes and architecture, SAP Signavio for process management, SAP Cloud Application Lifecycle Management for application management and operational aspects, SAP BTP for integrations, and SAP Build for extensions, but also our telemetry tools, which we can leverage in the cloud.”</p>
+  <p>Saueressig’s passion and ambition is to help customers drive innovation adoption. He noted that RISE with SAP is more than just a technical migration: it’s an offering for holistic business transformation as a service to accelerate value realization.</p>
+  <p>“Ultimately, we want to help you to bring the best out of our entire holistic portfolio,” he said. “We want to help you to transform, realize agility at scale, achieve more across the entire value chain, and fundamentally transform operations with sustainability at the core. And this is something where I feel that we have a huge opportunity together to make that a reality.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Read more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[End-to-End Innovation Is Key to Bringing Out Your Best]]></title>
+            <link>https://www.sap.com/news/2024/06/sap-sapphire-innovation-key-to-bring-out-your-best</link>
+            <guid>https://www.sap.com/news/2024/06/sap-sapphire-innovation-key-to-bring-out-your-best</guid>
+            <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In their keynote, Juergen Mueller and Muhammad Alam demoed and discussed the latest innovations out of SAP Sapphire in 2024.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="End-to-End Innovation Is Key to Bringing Out Your Best" src="./media_1e38256295162fd6aa4582f624a1a9f11f0f8543b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="end-to-end-innovation-is-key-to-bringing-out-your-best">End-to-End Innovation Is Key to Bringing Out Your Best</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In their SAP Sapphire Orlando keynote, Executive Board Members Muhammad Alam, SAP Product Engineering, and Juergen Mueller, chief technology officer, shared how the latest SAP innovations will help businesses drive true, end-to-end digital transformation and address their toughest business challenges.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="taking-business-to-the-next-level-in-the-era-of-ai">Taking Business to the Next Level in the Era of AI</h3>
+        <p><em><a href="https://www.sap.com/events/sapphire/news-guide.html">Read the news guide</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>In the keynote, which featured several real-world product demos by SAP employees, Alam and Mueller touted the value of SAP’s best-of-breed solutions with an outlook of what the next 50 years of innovation by SAP may look like.</p>
+  <p>Who better to inspire the keynote than Hasso Plattner, co-founder and recently retired chairman of the SAP Supervisory Board, who both Alam and Mueller invoked during the session. To spell out SAP’s legacy and vision for the future, Mueller quoted <a href="/2024/05/hasso-plattner-olaf-scholz-farewell-tributes">Plattner’s farewell message</a>: “Keep innovating, keep pushing boundaries, and keep making a difference in the lives of our customers and the world at large.”</p>
+  <h2 id="keep-innovating">Keep Innovating</h2>
+  <p>To kick off his first SAP Sapphire appearance as the head of SAP Product Engineering, Alam began by describing the importance of harnessing innovation to deliver an end-to-end picture across all business functions and unlock true value.</p>
+  <p>Simply put, businesses exist to build and deliver products and services to customers, he explained. But the materials, assets, people, and processes that come together to achieve this task is far from simple. “The reality is that each part of the business is deeply and intricately connected to all the others,” Alam said, meaning a pain point in one area impacts the rest. That’s why SAP’s modular cloud ERP approach is so successful: “We allow our customers to drive true digital transformation as opposed to running systems integration projects disguised as digital transformation,” he added.</p>
+  <p>Alam presented <a href="https://www.sap.com/products/erp/grow.html">GROW with SAP</a> as an example of this composability and extensibility, as it can work for and scale to many sizes and types of business. And now, SAP Sales Cloud and Concur Expense are natively integrated into GROW with SAP, making the offering even more comprehensive. Sinit Foto, product manager for UX, Cloud ERP at SAP, joined Alam on stage to show how GROW with SAP and SAP Business AI can help achieve integrated processes, demoing use cases such as communicating with customers about sales quotes, creating expense reports, and supporting financial analyses. In fact, Alam announced that SAP is implementing the demoed application internally to manage sales worldwide. And Mueller emphasized: “We are committed to helping you in this transformative AI moment by creating business outcomes that were unthinkable before. That’s why we’re embedding SAP Business AI deeply in our processes and analytics.”</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <picture>
+          <source type="image/webp" srcset="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+          <source type="image/webp" srcset="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+          <source type="image/jpeg" srcset="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+          <img loading="lazy" alt="" src="./media_1ab1b55bf13f95fe3a6b47084f96d918d20d0b6d4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="683">
+        </picture>
+      </div>
+    </div>
+  </div>
+  <h2 id="keep-pushing">Keep Pushing</h2>
+  <p>AI was woven throughout the entire keynote, with both Alam and Mueller discussing <a href="https://www.sap.com/products/artificial-intelligence.html">SAP’s strategy and product enhancements in this space</a>. AI must be high value, easy to adopt into the flow of work, and trustworthy for it to truly transform how we do business, Alam said. “Equally important is whether it’s done in a way where it keeps your data secure and private – and is executed in a responsible manner,” he added. “And that is really the core promise of SAP Business AI.”</p>
+  <p>There’s no doubt that AI is a powerful technology, which is why it’s essential that businesses view it as a “responsibility” not just an “opportunity,” Alam said. Megan Fife, executive solution advisor for SAP SuccessFactors, showed how SAP executes on its responsible, reliable, and relevant business AI by demoing how SAP’s AI copilot Joule in SAP SuccessFactors HCM can help fill skills gaps and collaborate across teams, among other meaningful tasks. Key to this endeavor is <a href="/2024/06/joule-microsoft-copilot-unified-work-experience">SAP’s expanded partnership with Microsoft announced earlier in the day</a>, which Scott Guthrie, executive vice president of Cloud and AI at Microsoft, discussed with Alam on stage.</p>
+  <p>Mueller echoed the importance of responsible AI, saying that the technology depends highly on data that is reliable and that allows customers to look at their business end-to-end. Here, SAP Datasphere and SAP Spend Control Tower – which was demoed by Orla Cullen, product marketing manager for Data and Analytics at SAP – can help simplify data management and view and manage spend and sustainability data holistically.</p>
+  <p>This transformation is supported by <a href="https://www.sap.com/products/technology-platform.html">SAP Business Technology Platform (SAP BTP)</a>, and Mueller demonstrated the newest generative AI features in SAP Analytics Cloud, SAP Integration Suite, and SAP Build solutions. He showed how Joule can help create and summarize financial reports for controlling teams; generate integration flows between SAP and non-SAP applications; and create custom skills and content based on specific business needs. Greater insights, faster reaction times, and increased productivity are the result. Soon, Mueller added, it will even be possible to enhance and extend Joule’s knowledge by creating custom skills using SAP Build and having the copilot interact with data housed in SAP and non-SAP systems, helping businesses run even more efficiently.</p>
+  <p>SAP BTP is the key to being “innovation-ready,” maintaining a clean core, and tailoring standard offerings to unique needs, Mueller explained. More than 24,000 companies running live on SAP BTP, including Blue Diamond Growers and Lufthansa Technik, can attest to this.</p>
+  <p>“SAP BTP’s extensibility and enterprise automation capabilities can help businesses turn process insights into actual improvements,” Mueller said. Cecilia Huergo, product manager for SAP BTP, showed this in her demo on how identifying improvement opportunities, realizing needed changes while maintaining a clean core, and gaining an up-to-date view of your IT landscape can be enabled with the combined power of SAP Signavio solutions, SAP LeanIX,, SAP BTP, and ABAP Cloud.</p>
+  <h2 id="keep-making-a-difference">Keep Making a Difference</h2>
+  <p>The innovations demoed and discussed in Alam and Mueller’s keynote, in addition to <a href="/2024/06/sap-sapphire-news-business-ai-enterprise-cloud-portfolio-cutting-edge-partnerships">the many others announced at SAP Sapphire in 2024</a>, are just the latest steps forward in SAP’s journey to bringing out the best in its customers. “The future is here, and it’s defined by those who innovate first,” Mueller said. “And we are here to give you the right tools at hand, such that you can be a leader not just today, but also tomorrow.”</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Why AI Means Being In The Cloud" src="./media_1d468a3b0b7b4a96babee63b887b0c66d1bdc61b2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/EnxihshouTE">Why AI Means Being In The Cloud</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footnote">
+    <div>
+      <div>Gillian Hixson is an integrated communications specialist at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-news-and-coverage-from-sap-sapphire-in-2024">Get the latest news and coverage from SAP Sapphire in 2024</h3>
+        <p><em><a href="/topics/sap-sapphire">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-ai</category>
+        </item>
+        <item>
+            <title><![CDATA[GROW with SAP: Add-On Packages Expand the Value of Cloud ERP for Growing Businesses]]></title>
+            <link>https://www.sap.com/news/2024/04/grow-with-sap-add-on-packages-expand-cloud-erp-value</link>
+            <guid>https://www.sap.com/news/2024/04/grow-with-sap-add-on-packages-expand-cloud-erp-value</guid>
+            <pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[New GROW with SAP add-on packages strengthen financial and HR management practices to become strategic pillars for growth.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/financial-management</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Churchill Downs Makes Play for Growth with Cloud Solutions from SAP]]></title>
+            <link>https://www.sap.com/news/2024/04/churchill-downs-cloud-grow-with-sap</link>
+            <guid>https://www.sap.com/news/2024/04/churchill-downs-cloud-grow-with-sap</guid>
+            <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Churchill Downs has selected GROW with SAP to support its financial technology transformation. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_132d042893e3fab23f4d34925b1701fd3ad6ec788.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_132d042893e3fab23f4d34925b1701fd3ad6ec788.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_132d042893e3fab23f4d34925b1701fd3ad6ec788.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Churchill Downs Makes Play for Growth with Cloud Solutions from SAP" src="./media_132d042893e3fab23f4d34925b1701fd3ad6ec788.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="churchill-downs-makes-play-for-growth-with-cloud-solutions-from-sap">Churchill Downs Makes Play for Growth with Cloud Solutions from SAP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) announced that Churchill Downs Incorporated (NSQ: CHDN, “CDI”) has selected the GROW with SAP solution to support the company’s financial technology transformation as CDI continues to grow within the racing, online wagering and gaming entertainment industries.</p>
+      </div>
+    </div>
+  </div>
+  <p>CDI has chosen cloud solutions from SAP to serve as its technology foundation for the financial systems across its portfolio of 27 properties in 14 states, including Churchill Downs Racetrack (“Churchill Downs”), the home of the Kentucky Derby. CDI’s significant technology transformation builds on the company’s partnership with SAP as a signature partner and the first official technology partner serving Churchill Downs, the Kentucky Derby and the Kentucky Oaks.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="sap-s4hana-cloud-public-edition-ready-to-run-cloud-erp">SAP S/4HANA Cloud Public Edition: Ready-to-run cloud ERP</h3>
+        <p><em><a href="https://www.sap.com/products/erp/s4hana.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>By adopting SAP S/4HANA Cloud Public Edition, CDI can benefit from the ready-to-run cloud ERP that delivers the latest industry best practices and continuous innovation. Additionally, choosing SAP Business Technology Platform and SAP SuccessFactors solutions allows CDI to leverage the cloud to streamline its data sources while using business data to make informed strategic decisions underpinning business transformation. From creating engaging employee experiences with SAP SuccessFactors solutions to running business analytics to understand and predict data, CDI plans to be able to integrate business data from various acquisitions, allowing it to have one, unified view of its business operations.</p>
+  <p>“Cloud solutions from SAP will enable us to streamline our financial processes and support the significant long-term growth of our company,” said Marcia Dall, CDI Executive Vice President and Chief Financial Officer. “We are excited to work with SAP to innovate and evolve our financial technology platform with cloud solutions from SAP.”</p>
+  <p>“Churchill Downs Incorporated has a long history of entertaining and delighting people,” SAP North America President Lloyd Adams said. “By choosing SAP S/4HANA Cloud Public Edition and several other cloud-based solutions, CDI now can integrate data across its portfolio and make data-driven decisions that help the company reach its goals. This is an incredible example of how companies invest in SAP solutions to help them grow.”</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contacts:</strong><br>Mallory Kuno, +1 (425) 239-9362, <a href="mailto:mallory.kuno@sap.com">mallory.kuno@sap.com</a>, ET<br>Lesa Plingen, +49 622 776 9000, <a href="mailto:lesa.plingen@sap.com">lesa.plingen@sap.com</a>, CET<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2023 Annual Report on Form 20-F.<br>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Solarpack Scales Up Renewable Energy for the World Stage]]></title>
+            <link>https://www.sap.com/news/2023/11/solarpack-scales-up-renewable-energy-for-world</link>
+            <guid>https://www.sap.com/news/2023/11/solarpack-scales-up-renewable-energy-for-world</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Working with a combination of experts and solutions from SAP empowered Solarpack to rethink its digital landscape. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/renewable-energy</category>
+        </item>
+        <item>
+            <title><![CDATA[Phoenix Global Enhances Operational Excellence via GROW with SAP]]></title>
+            <link>https://www.sap.com/news/2023/11/phoenix-global-enhances-operational-excellence-with-sap</link>
+            <guid>https://www.sap.com/news/2023/11/phoenix-global-enhances-operational-excellence-with-sap</guid>
+            <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Global successfully implemented GROW with SAP to accelerate its journey to a unified, digitally integrated ERP system. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>industry/mining: industry/mill-products</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[North American Customers Continue Turning to SAP in Q3 2023]]></title>
+            <link>https://www.sap.com/news/2023/10/north-american-customers-q3-2023</link>
+            <guid>https://www.sap.com/news/2023/10/north-american-customers-q3-2023</guid>
+            <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In the Q3 2023, our North American customers spanned all shapes, sizes, and industries, proving the momentum behind the cloud revolution.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-datasphere</category>
+            <category>news-tag/sap-north-america</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-sustainability-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[North American Customers Embracing Public Cloud as 2023 Enters Home Stretch]]></title>
+            <link>https://www.sap.com/news/2023/09/north-american-customers-grow-with-sap-2023</link>
+            <guid>https://www.sap.com/news/2023/09/north-american-customers-grow-with-sap-2023</guid>
+            <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[GROW with SAP can help midsize businesses discover what’s possible. Read about the SAP customers that have adopted GROW with SAP.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP S/4HANA Cloud Is a Leader in the 2023 Gartner® Magic Quadrant™ for Cloud ERP for Service-Centric Enterprises]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-leader-2023-gartner-magic-quadrant-cloud-erp-service-centric</link>
+            <guid>https://www.sap.com/news/2023/09/sap-leader-2023-gartner-magic-quadrant-cloud-erp-service-centric</guid>
+            <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has been recognized as a leader in the 2023 Gartner Magic Quadrant for Cloud ERP for Service-Centric Enterprises. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[GROW with SAP: A Game Changer for Midsize Companies]]></title>
+            <link>https://www.sap.com/news/2023/09/grow-with-sap-game-changer-midsize-companies</link>
+            <guid>https://www.sap.com/news/2023/09/grow-with-sap-game-changer-midsize-companies</guid>
+            <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Three midsize companies share how GROW with SAP and cloud ERP help them foster business growth and stay agile. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Shinhwa Auto Drives North American Expansion with Public Cloud ERP]]></title>
+            <link>https://www.sap.com/news/2023/08/shinhwa-auto-drives-expansion-public-cloud-erp</link>
+            <guid>https://www.sap.com/news/2023/08/shinhwa-auto-drives-expansion-public-cloud-erp</guid>
+            <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Shinhwa Auto chose GROW with SAP so the company can operate in a more streamlined manner on a global, standardized scale. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>topic/erp</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>product/sap-digital-manufacturing</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[Run Your Business in the Cloud with SAP S/4HANA Cloud, Public Edition 2308 Release]]></title>
+            <link>https://www.sap.com/news/2023/07/sap-s-4hana-cloud-public-edition-2308-release</link>
+            <guid>https://www.sap.com/news/2023/07/sap-s-4hana-cloud-public-edition-2308-release</guid>
+            <pubDate>Wed, 26 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP S/4HANA Cloud, public edition 2308 release aims to make the user experience more productive and collaborative for end users and IT.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[GROW with SAP: Answering Questions about Public Cloud]]></title>
+            <link>https://www.sap.com/news/2023/07/grow-with-sap-answering-questions-about-public-cloud</link>
+            <guid>https://www.sap.com/news/2023/07/grow-with-sap-answering-questions-about-public-cloud</guid>
+            <pubDate>Wed, 26 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is GROW with SAP? Get the scoop on this game-changer for midmarket organizations from SAP North America President Lloyd Adams.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[GROW with SAP to Power The Brenda Strafford Foundation and Its Mission to Improve Lives]]></title>
+            <link>https://www.sap.com/news/2023/07/the-brenda-strafford-foundation-bsf-grow-with-sap</link>
+            <guid>https://www.sap.com/news/2023/07/the-brenda-strafford-foundation-bsf-grow-with-sap</guid>
+            <pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[GROW with SAP will help BSF deliver the right levels of care and services to optimize well-being and enrich lives every day. Learn how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1292fde3f5413b4dd87114df594fc91226c4b8002.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1292fde3f5413b4dd87114df594fc91226c4b8002.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1292fde3f5413b4dd87114df594fc91226c4b8002.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="GROW with SAP to Power The Brenda Strafford Foundation and Its Mission to Improve Lives" src="./media_1292fde3f5413b4dd87114df594fc91226c4b8002.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="grow-with-sap-to-power-the-brenda-strafford-foundation-and-its-mission-to-improve-lives">GROW with SAP to Power The Brenda Strafford Foundation and Its Mission to Improve Lives</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>CALGARY</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced that <a href="https://thebsf.ca">The Brenda Strafford Foundation</a> (BSF) has selected the GROW with SAP solution to take full advantage of cloud ERP and help meet its current and future ambitions.</p>
+      </div>
+    </div>
+  </div>
+  <p>The GROW with SAP solution will help BSF deliver the right levels of care and services to optimize well-being and enrich lives every day.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="adopt-cloud-erp-with-speed-predictability-and-continuous-innovation">Adopt cloud ERP with speed, predictability, and continuous innovation</h3>
+        <p><em><a href="https://www.sap.com/products/erp/grow.html">Learn more about GROW with SAP</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“Transitioning the foundation to SAP and working with SAP partner VistaVu Solutions means finalizing accounts faster and improving operational efficiencies,” said Karyn Golem, vice president of Corporate Services and CFO, BSF. “By investing in technology, we’re able to shift our focus to other priorities – like releasing administrative time to provide more person-centered care and services or supporting research and innovation that drives impact and supports our mission to optimize well-being and enrich lives.”</p>
+  <p>The charitable organization, founded in 1975 by Dr. Barrie I. Strafford, owns and operates five long-term care and assisted-living communities in Calgary and Okotoks, Alberta. Its local programs serve victims of domestic violence and families at risk of homelessness in Calgary. Internationally, BSF provides health services in underserved regions of the Caribbean, including Haiti, Jamaica and Dominica. BSF supports several innovative projects for seniors’ health and wellness, with a strategic goal to expand its work in quality, research and innovation to address the needs of vulnerable populations.</p>
+  <p>“The Brenda Strafford Foundation provides a critical service to those in need, and we want to ensure it can continue to do that for years to come in the most efficient and effective way possible,” said Greg Petraetis, senior vice president and managing director, Midmarket and Partner Ecosystem, North America, SAP. “GROW with SAP is designed for growing companies like BSF – who are looking for built-in industry best practices to get up and running quickly and predictably.”</p>
+  <p>As a first step in its digital transformation journey, BSF will implement the full suite of SAP SuccessFactors solutions, beginning with the SAP SuccessFactors Employee Central, SAP SuccessFactors Performance &#x26; Goals and SAP SuccessFactors Learning solutions. SAP SuccessFactors Employee Central Payroll, SAP SuccessFactors Compensation and SAP SuccessFactors Employee Central Global Benefits solutions will go live with SAP S/4HANA Cloud, public edition. The SAP SuccessFactors solutions implementation is being done in conjunction with <a href="https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fhr-path.com%2Fen%2F&#x26;data=05%7C01%7Cangela.schuller%40sap.com%7Ca1bd9167f4d64193542408db86d3140b%7C42f7676cf455423c82f6dc2d99791af7%7C0%7C0%7C638252013396156611%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&#x26;sdata=EVGCmZfYZvBA6roBNrTfo3dGoxwmTFML6USuNAt0t6M%3D&#x26;reserved=0">HR Path</a>, a global implementation and reselling partner specializing in SAP SuccessFactors solutions and human experience management solutions from SAP.</p>
+  <p>BSF is also using software from <a href="https://www.makeshift.ca/">MakeShift</a>. Running on SAP Business Technology Platform, MakeShift software helps to optimize scheduling and time management to ensure efficient operations.</p>
+  <p>“Through our collaboration, we aim to enhance the foundation’s operational efficiency, effectiveness and overall impact. The Brenda Strafford Foundation will have the opportunity to optimize processes, streamline workflows and enable the foundation to focus more on its core objectives of providing care and support to those in need,” said Jory Lamb, CEO, VistaVu. “We believe BSF has brought tremendous foresight in positioning themselves for further growth and scale with the single fully integrated system from SAP.”</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign Up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><strong>Media Contact:</strong> Natalie Sauve, +1 (613) 898-0988, <a href="mailto:natalie.sauve@sap.com">natalie.sauve@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2022 Annual Report on Form 20-F.<br>© 2023 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>topic/hcm</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[How RISE with SAP and GROW with SAP Contribute to SAP’s Net-Zero Journey]]></title>
+            <link>https://www.sap.com/news/2023/07/rise-grow-with-sap-net-zero-journey</link>
+            <guid>https://www.sap.com/news/2023/07/rise-grow-with-sap-net-zero-journey</guid>
+            <pubDate>Mon, 17 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[RISE with SAP and GROW with SAP have strong momentum in helping both SAP and customers achieve ambitious net-zero goals. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/carbon-footprint</category>
+            <category>topic/erp</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/net-zero</category>
+            <category>news-tag/renewable-energy</category>
+            <category>news-tag/rise-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Market Leaders on What It Takes to Become a Service-Based Business]]></title>
+            <link>https://www.sap.com/news/2023/07/three-market-leaders-service-based-xaas-business</link>
+            <guid>https://www.sap.com/news/2023/07/three-market-leaders-service-based-xaas-business</guid>
+            <pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP Sapphire, industry leaders shared XaaS experiences, including business drivers and results, lessons learned, and future strategies.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/quote-to-cash</category>
+            <category>news-tag/recurring-revenue-models</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-billing-and-revenue-innovation-management</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/xaas</category>
+        </item>
+        <item>
+            <title><![CDATA[Defining the Future Through Innovation]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-defining-future-through-innovation</link>
+            <guid>https://www.sap.com/news/2023/05/sap-sapphire-orlando-keynote-defining-future-through-innovation</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In a keynote at SAP Sapphire, Thomas Saueressig and Juergen Mueller highlighted the innovations the company is delivering to its customers.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-business-network</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[Greater Austin Merchants Cooperative Association (GAMA) Launches Its Cloud ERP Journey with SAP]]></title>
+            <link>https://www.sap.com/news/2023/04/gama-fuels-up-for-cloud-erp-journey</link>
+            <guid>https://www.sap.com/news/2023/04/gama-fuels-up-for-cloud-erp-journey</guid>
+            <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The public edition of SAP S/4HANA Cloud will support GAMA in growing its business and keeping up with growth for the next decade. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Build Now Part of GROW with SAP and RISE with SAP]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-build-part-of-grow-with-sap-and-rise-with-sap</link>
+            <guid>https://www.sap.com/news/2023/03/sap-build-part-of-grow-with-sap-and-rise-with-sap</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're pleased to announce the SAP Build portfolio is now included in the RISE with SAP and GROW with SAP offerings. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/erp</category>
+            <category>content-type/feature</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+            <category>product/sap-build-process-automation</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Cloud ERP: GROW with SAP Signals Midmarket Push]]></title>
+            <link>https://www.sap.com/videos/in-focus-julia-white-grow-with-sap</link>
+            <guid>https://www.sap.com/videos/in-focus-julia-white-grow-with-sap</guid>
+            <pubDate>Wed, 22 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Midsize companies need cloud ERP to compete effectively.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/video</category>
+            <category>news-tag/grow-with-sap</category>
+            <category>news-tag/in-focus</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches Cloud ERP Offering for Midsize Companies]]></title>
+            <link>https://www.sap.com/blogs/2023/03/grow-with-sap-cloud-erp-offering-midsize-companies</link>
+            <guid>https://www.sap.com/blogs/2023/03/grow-with-sap-cloud-erp-offering-midsize-companies</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[GROW with SAP is the company's new offering for midsize customers to harness the proven benefits of cloud ERP. Learn more about it.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[Partner Quotes: GROW with SAP]]></title>
+            <link>https://www.sap.com/news/2023/03/partner-quotes-grow-with-sap</link>
+            <guid>https://www.sap.com/news/2023/03/partner-quotes-grow-with-sap</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has launched GROW with SAP to help midsize customers adopt cloud ERP. Read SAP partner quotes on the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/statement</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+        <item>
+            <title><![CDATA[GROW with SAP Brings Proven Cloud ERP Benefits to Midsize Customers]]></title>
+            <link>https://www.sap.com/news/2023/03/grow-with-sap-proven-cloud-erp-midsize-customers</link>
+            <guid>https://www.sap.com/news/2023/03/grow-with-sap-proven-cloud-erp-midsize-customers</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The new GROW with SAP offering helps midsize customers adopt cloud ERP that enables speed, predictability and continuous innovation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/grow-with-sap</category>
+        </item>
+    </channel>
+</rss>

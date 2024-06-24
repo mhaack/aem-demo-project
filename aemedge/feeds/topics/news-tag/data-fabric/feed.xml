@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/data-fabric/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 29 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem]]></title>
+            <link>https://www.sap.com/news/2024/01/modernize-sap-bw-with-sap-datasphere-open-data-ecosystem</link>
+            <guid>https://www.sap.com/news/2024/01/modernize-sap-bw-with-sap-datasphere-open-data-ecosystem</guid>
+            <pubDate>Mon, 29 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is now offering a limited-time, complimentary SAP BW system assessment to help you optimize your transition to SAP Datasphere.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem" src="./media_16bae8ef497f5c9c6bdf1b5fdaf69f1f911aad108.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="modernize-sap-business-warehouse-with-sap-datasphere-and-its-open-data-ecosystem">Modernize SAP Business Warehouse with SAP Datasphere and Its Open Data Ecosystem</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many SAP Business Warehouse (SAP BW) customers are seeking to leverage cloud-based solutions but want to ensure that their previous investments are safeguarded. While the benefits of modernizing to the cloud are clear, customers need a flexible path that builds upon their existing technology and talent.</div>
+    </div>
+  </div>
+  <p>SAP Datasphere can offer that path. Its native connectivity to SAP BW means customers can reuse up to 80% of existing SAP BW content, retaining value while adding cloud speed, scale, and interoperability and avoiding costly and unnecessary rework.</p>
+  <p>Delivering meaningful data to every data professional requires a comprehensive cloud data service. With SAP Datasphere, organizations can:</p>
+  <ul>
+    <li>Access authoritative data, accelerating time-to-value by automatically reusing the semantical definitions and associations from SAP applications.</li>
+    <li>Enrich all data projects, harmonizing heterogeneous data into a business semantic model of their diverse data landscapes.</li>
+    <li>Simplify the data landscape, accessing all their data across hybrid and cloud environments no matter where it resides.</li>
+  </ul>
+  <p>SAP has also partnered with an open data ecosystem of leading technology vendors to provide tailored integration between SAP Datasphere and their solutions. The first set of industry-leading data and AI vendors includes Collibra, Confluent, Databricks, DataRobot, and Google Cloud. By closely integrating their data and AI platforms with SAP Datasphere, organizations can access their mission-critical business data across any cloud infrastructure.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="transition-to-a-modern-business-data-fabric-at-your-pace-with-sap-datasphere">Transition to a modern business data fabric at your pace with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/migration.html#migration">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="flexible-paths-to-the-cloud">Flexible Paths to the Cloud</h2>
+  <p>Many SAP BW users have always-on projects that depend on SAP BW data and objects, which requires flexibility in modernizing to the cloud.</p>
+  <p>SAP offers flexible paths. Whether you’re moving directly or integrating SAP Datasphere as part of your data landscape to enhance your SAP BW deployment, there’s a strategy:</p>
+  <ul>
+    <li>Gradually transition functionality over time using <a href="https://community.sap.com/topics/datasphere/bw-bridge">SAP Datasphere, SAP BW bridge</a> to reuse and integrate SAP BW objects.</li>
+    <li>Leverage SAP BW data ingestion and staging to accelerate the move or, for SAP Business Suite customers without SAP BW, move directly to SAP Datasphere.</li>
+    <li>In some cases, migrate SAP BW systems to SAP Datasphere for a complete transition.</li>
+    <li>Modernize with a combination of SAP Datasphere and SAP HANA Cloud to benefit from the capabilities of both solutions. SAP Datasphere can provide the foundation for a business data fabric, while SAP HANA Cloud enables the development of intelligent data applications.</li>
+  </ul>
+  <p>The goal is to provide options to fit each customer’s unique environment and timeline. With the right approach, the move to SAP Datasphere can be straightforward while optimizing previous investments.</p>
+  <p>Our experienced SAP partners understand the importance of flexible paths. They work with our customers to outline customized modernization paths that can safeguard their technology and fit their goals.</p>
+  <div class="quote">
+    <div>
+      <div>We are excited to help SAP BW customers experience the power of SAP Datasphere. We’ve already seen multiple customers take this modernization approach and it’s the ideal modernization path to protect the customer’s existing SAP BW investments.</div>
+    </div>
+    <div>
+      <div>Deepu Sasidharan, Vice President, Analytics, Applexus</div>
+    </div>
+  </div>
+  <p>No matter which path a customer takes, they can always progress to SAP Datasphere. Technically, this can be achieved with the support of SAP Datasphere, SAP BW bridge and modernization tools. That’s why customers like <a href="https://www.sap.com/asset/dynamic/2022/7/cd349586-5fc8-4a25-8486-4204460ca03d.html">Nipro</a> chose SAP Datasphere.</p>
+  <div class="quote">
+    <div>
+      <div>SAP Datasphere, SAP BW bridge is a complete game changer. The cloud architecture allows us to simplify our landscape. We are also seeing significant improvements in our performance.</div>
+    </div>
+    <div>
+      <div>Iaroslav Korzh, SAP Technology Manager, Nipro Europe Group Companies</div>
+    </div>
+  </div>
+  <h2 id="new-professional-readiness-assessment">New Professional Readiness Assessment</h2>
+  <p>Whether you’re starting fresh or modernizing an existing system, having a solid plan is key for a successful move to the cloud.</p>
+  <p>SAP is now offering a limited-time, complimentary SAP BW system assessment to help you optimize your transition to SAP Datasphere. Through this assessment, you can gain insight into your SAP BW environment and learn which objects are active and frequently used and whether they can be migrated.</p>
+  <p>This assessment helps deliver a reliable basis for an actionable modernization plan. With the right information, you can modernize on your terms. Get started today by applying for your complimentary <a href="https://www.sap.com/registration/free-assessment-offer-for-bw-customers.html">assessment</a>.</p>
+  <h2 id="get-started">Get Started</h2>
+  <p>Visit our <a href="https://www.sap.com/products/technology-platform/datasphere/migration.html#migration">Web site</a> for the latest modernization tools, including our <a href="https://www.sap.com/documents/2023/10/96cfbee0-8f7e-0010-bca6-c68f7e60039b.html">getting started guide</a>, <a href="https://community.sap.com/t5/technology-blogs-by-sap/watch-the-sap-bw-modernization-webinar-series/ba-p/13699559">technical deep dive webinar series</a>, and <a href="https://www.sap.com/registration/free-assessment-offer-for-bw-customers.html">professional readiness assessment</a>.</p>
+  <p>SAP BW customers moving to SAP Datasphere may also qualify for exclusive incentives. Contact your SAP representative before this limited-time opportunity expires.</p>
+  <div class="footnote">
+    <div>
+      <div>Daniel Yu is senior vice president of Solution Management and Product Marketing for SAP Data and Analytics.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/sap-business-warehouse</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools]]></title>
+            <link>https://www.sap.com/news/2023/12/sap-a-leader-gartner-magic-quadrant-data-integration-tools</link>
+            <guid>https://www.sap.com/news/2023/12/sap-a-leader-gartner-magic-quadrant-data-integration-tools</guid>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For the 16th consecutive time, Gartner has recognized SAP as a Leader in its Magic Quadrant for Data Integration Tools.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools" src="./media_18676e13249083c87480612ffdb6501c1181d00cd.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-recognized-as-a-leader-in-2023-gartner-magic-quadrant-for-data-integration-tools">SAP Recognized as a Leader in 2023 Gartner® Magic Quadrant™ for Data Integration Tools</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>We are proud to announce that Gartner has recognized SAP as a Leader in its 2023 <a href="https://www.gartner.com/reprints/?id=1-2FTDYPZU&#x26;ct=231204&#x26;st=sb">Magic Quadrant for Data Integration Tools</a> for the 16th consecutive time.</div>
+    </div>
+  </div>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="get-an-engaging-hands-on-experience-with-sap-datasphere">Get an engaging, hands-on experience with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">Start now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To achieve true digital transformation, organizations must have seamless access to their mission-critical business data no matter where it resides. Yet with data landscapes distributed among different applications and systems both in the cloud and on premises, organizations spend countless resources extracting, rebuilding, and integrating their data.</p>
+  <p>By leveraging the right data integration tools and strategies, organizations can easily discover, connect, integrate, govern, and orchestrate their data assets. Data integration offerings from SAP deliver trusted, relevant, and timely information to enable customers to simplify their data landscape and unleash the power of business data. Our primary solutions include <a href="https://www.sap.com/products/technology-platform/datasphere.html">SAP Datasphere</a>, <a href="https://www.sap.com/products/cloud-platform/capabilities/integration.html">SAP Data Intelligence</a> Cloud, <a href="https://www.sap.com/products/data-services.html">SAP Data Services</a>, and <a href="https://www.sap.com/products/cloud-platform/capabilities/integration.html">SAP Integration Suite</a>. These offerings are part of <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a> (SAP BTP).</p>
+  <p>Gartner evaluated 21 vendors and named SAP a Leader based on our “ability to execute” and “completeness of vision.” We believe this recognition serves as acknowledgment of SAP’s continued commitment to providing our customers with world-class data integration tools.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1b4a7dd1fbccb32babb1428357e9df797fb738917.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="926" height="1024">
+          </picture>
+        </p>
+        <p><em>This graphic was published by Gartner, Inc. as part of a larger research document and should be evaluated in the context of the entire document. The Gartner document is available upon request from SAP here.</em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="unleash-the-power-of-business-data">Unleash the Power of Business Data</h2>
+  <p>Data integration is necessary for customers to gain intelligent, relevant, and contextual insights for better decision-making. However, without the right data management approach and technology, companies can face an uphill battle in integrating, processing, curating, governing, and augmenting their data.</p>
+  <p>SAP takes a business data fabric approach, which goes beyond a traditional data fabric. A business data fabric is a data management architecture that delivers an integrated, semantically rich data layer over underlying data landscapes to provide users with scalable access to their data without duplication.</p>
+  <p>It eliminates the need to recreate the business context that was lost from extracting and replicating data. This gives users the ability to accelerate their decision-making with trust and confidence, knowing they always have the complete picture of their data regardless of where it is stored or how it was designed.</p>
+  <p>SAP Datasphere — and its open data ecosystem — is the foundation for a business data fabric. It equips any organization to deliver meaningful data to every data consumer — with business context and logic intact. SAP Datasphere helps customers:</p>
+  <ul>
+    <li><strong>Access authoritative data:</strong> Accelerate time-to-value by automatically reusing the semantical definitions and associations from SAP applications</li>
+    <li><strong>Enrich all data projects:</strong> Harmonize heterogeneous data into a business semantic model of diverse data landscape</li>
+    <li><strong>Simplify the data landscape:</strong> Access all data across hybrid and cloud environments no matter where it resides</li>
+  </ul>
+  <p>With a unified experience for data integration, data cataloging, semantic modeling, data warehousing, data federation, and data virtualization, SAP Datasphere enables data professionals to easily distribute authoritative business data — with business context and logic preserved — across the data landscape.</p>
+  <p>Since the launch of SAP Datasphere, we have seen tremendous growth of customers innovating with this technology. For example, Messer CIO David Johnston describes his experience with the solution this way:“The business data fabric architecture enables us to bring SAP and non-SAP data together in the seamless and self-service way we’ve been envisioning. SAP Datasphere provided us with a solution to build a harmonized layer, or business data fabric, across SAP and non-SAP, cloud or on-premise data sources, making the best use of our existing investments in SAP, Microsoft Azure, Salesforce, and Oracle.”</p>
+  <h2 id="next-steps">Next Steps</h2>
+  <p>For over 16 years, data integration tools from SAP have enabled our customers to turn disjoined data assets into actionable business insights at scale. Take the next step and begin your business data fabric journey today:</p>
+  <ul>
+    <li>Visit the <a href="https://www.sap.com/products/technology-platform/datasphere.html">SAP Datasphere page</a></li>
+    <li>Try the free <a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">SAP Datasphere guided experience</a></li>
+    <li>Read the <a href="https://www.gartner.com/reprints/?id=1-2FTDYPZU&#x26;ct=231204&#x26;st=sb">2023 Gartner Magic Quadrant for Data Integration Tools report</a></li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Kaiser Larsen is vice president of Data and Analytics at SAP.</div>
+    </div>
+  </div>
+  <p>Gartner, Magic Quadrant for Data Integration Tools, Ehtisham Zaidi, Robert Thanaraj, Sharat Menon, Thornton Craig, Roxane Edjlali, Michele Launi, 4 December 2023<br>Gartner does not endorse any vendor, product or service depicted in its research publications and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s Research &#x26; Advisory organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.<br>GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, Magic Quadrant is a registered trademark of Gartner, Inc. and/or its affiliates and is used herein with permission. All rights reserved.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/data-integration</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[Three Key Highlights from the Gartner Data & Analytics Summit 2023]]></title>
+            <link>https://www.sap.com/news/2023/04/three-key-highlights-gartner-data-analytics-summit</link>
+            <guid>https://www.sap.com/news/2023/04/three-key-highlights-gartner-data-analytics-summit</guid>
+            <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the Gartner Data & Analytics Summit attendees explored recent data and analytics trends, technologies, and strategies, like SAP Datasphere.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/gartner</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Recognized as a Leader in 2022 Gartner® Magic Quadrant™ for Data Integration Tools]]></title>
+            <link>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-data-integration-tools-sap-a-leader</link>
+            <guid>https://www.sap.com/news/2022/08/2022-gartner-magic-quadrant-for-data-integration-tools-sap-a-leader</guid>
+            <pubDate>Tue, 23 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is a Leader in the 2022 Magic Quadrant for Data Integration Tools for the 15th consecutive year. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-fabric</category>
+            <category>news-tag/data-integration</category>
+            <category>news-tag/database-and-data-management</category>
+            <category>news-tag/gartner</category>
+            <category>news-tag/magic-quadrant</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-data-intelligence</category>
+            <category>product/sap-data-intelligence-cloud</category>
+        </item>
+    </channel>
+</rss>

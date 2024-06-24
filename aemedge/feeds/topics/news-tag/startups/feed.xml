@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/startups/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 08 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[HomeMade: Self-Service Home Care Because There Is No Place Like Home]]></title>
+            <link>https://www.sap.com/news/2024/03/homemade-self-service-home-care-sap-btp</link>
+            <guid>https://www.sap.com/news/2024/03/homemade-self-service-home-care-sap-btp</guid>
+            <pubDate>Fri, 08 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[HomeMade, an Australian startup working to empower its customers in the home care sector, used SAP BTP to help scale, grow, and innovate.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="HomeMade: Self-Service Home Care Because There Is No Place Like Home" src="./media_132610f4998fda9f546e77509f74312e342bbea68.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="homemade-self-service-home-care-because-there-is-no-place-like-home">HomeMade: Self-Service Home Care Because There Is No Place Like Home</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>People over age 65 made up 16% of the Australian population in 2020, and they’re on track to represent more than 22% by 2026. This growing cohort is increasingly forgoing traditional facility care models to remain at home. The Australian government offers financial support to qualifying citizens, who can use those funds to support in-home care.</div>
+    </div>
+  </div>
+  <p>These government funds are typically managed by a traditional provider who establishes a plan within the customer’s budget and assigns caregivers. They offer limited to no choice regarding providers and little transparency on how the funds are being spent. This inefficient and costly approach reduces available funds for actual care with limited and often unfamiliar providers.</p>
+  <p>Enter HomeMade, a startup looking to disrupt the home care sector with a transformative solution that would empower customers to not only stay in their own homes but also to oversee their spending and self-select their providers. With an initial staff of only six, HomeMade set out to create a <a href="/topics/business-technology-platform">technology platform</a> that would deliver efficiency, flexibility, transparency, and ease of use for customers and a scalable model that would grow and evolve with the company.</p>
+  <h2 id="a-rock-solid-technology-foundation-for-a-digitally-native-startup">A Rock-Solid Technology Foundation for a Digitally Native Startup</h2>
+  <p>Technology is at the heart of HomeMade’s business model, so choosing the right technology partner and the right digital platform was essential. “We wanted a solution that would give us that ability to scale rapidly and with confidence knowing that the rails weren’t going to fall off, because to be digitally enabled is what makes us different,” <a href="https://www.linkedin.com/in/laura-westhorpe/?originalSubdomain=au">Laura Westhorpe</a>, HomeMade general manager, said.</p>
+  <p>HomeMade found the perfect partner in Bourne Digital, part of Accenture, which steered the startup to <a href="http://sap.com/btp">SAP Business Technology Platform</a> (SAP BTP). In choosing the platform, HomeMade benefits from a locally hosted, high-performance cloud architecture that can scale across its network. As a React Native open-source Cloud Foundry runtime service, the HomeMade application is intuitive, user-friendly, and easy for the company to maintain and support long term. Add SAP Integration Suite and SAP HANA data storage into the mix and HomeMade emerged with a secure, integrated, and scalable technology foundation to offer efficient care and support to Australia’s at-home care population.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="bring-out-your-best-with-data-and-ai-from-sap-btp">Bring out your best with data and AI from SAP BTP</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="young-company-makes-an-outsize-impact">Young Company Makes an Outsize Impact</h2>
+  <p>In just two years, HomeMade has grown its business to 2,500 customers and reduced new user onboarding time from 14 days to 48 hours. The company has empowered qualifying citizens to manage their budgets and choose their care while saving 14 million Australian dollars and counting.</p>
+  <p>Customers and families rave about the solution’s functionality and ease of use. HomeMade’s team members, who have grown to over 100, can happily focus on the customer instead of the endless paperwork they might find in traditional care management. Service providers appreciate timely payment, and another critical stakeholder – the Australian government – conducted a regulatory compliance audit and found that HomeMade scored 100% across 42 requirements for the Age Care Quality Safety Standards.</p>
+  <p>And this is only the beginning for a new company already making an appreciable impact. “As the needs of HomeMade grow and evolve, the platform will grow and evolve with HomeMade,” <a href="https://www.linkedin.com/in/selimahmed/?originalSubdomain=au">Selim Ahmed</a>, managing director of Bourne Digital, part of Accenture, explained. For example, Ahmed continued, “We leverage AI business services to read documents…and we’re feeling really confident that those AI services will continue to play a part in the future evolution of HomeMade as the company moves more and more towards automation and self-service.”</p>
+  <h2 id="adding-value-through-innovation">Adding Value Through Innovation</h2>
+  <p>An SAP Innovation Award winner in 2023, HomeMade continues to grow and think creatively about how its foundational SAP BTP-based technology can enable it to continue to innovate and add value for customers. “There are endless opportunities,” Westhorpe said, from increasing efficiency to leveraging data to identify falls or other incidents to using large language models to recognize clinical deterioration in users and launch preventative interventions.</p>
+  <p>For other startups looking to build technology solutions that will make a dramatic impact, Westhorpe offered to consider, “You want to build everything and you’ve got all these grand ideas, but what are the biggest things that will add value for customers?” Ahmed adds that resilience, a strong partnership, and hard work are critical: “Adapt, learn, grow together, and accept feedback…To build something innovative, you must be prepared to roll up your sleeves.”</p>
+  <h2 id="the-full-episode">The Full Episode</h2>
+  <p>Special thanks to <a href="https://apphaus.sap.com/">SAP AppHaus</a>, a hub for fostering human-centered innovation, for collaborating on this <a href="https://www.sap.com/programs/btp-better-together-customer-series.html">Better Together: Customer Conversations</a> on SAP Business Technology Platform episode. Learn more about how HomeMade built a better solution for qualifying citizens:</p>
+  <ul>
+    <li><strong>Thought leadership podcast:</strong> Thulium’s CEO <a href="https://www.linkedin.com/in/tamaramccleary/">Tamara McCleary</a> sat down with Westhorpe and Ahmed to discuss the change in caring for older adults, home-based care, and how technology can deliver on a promise dedicated to purpose.</li>
+    <li><strong>Practitioners’ video</strong>: Westhorpe, Ahmed, and I discussed the challenges and opportunities in creating a world-class digital solution for a small but rapidly scaling startup.</li>
+  </ul>
+  <p>Explore more success stories of customers leveraging SAP BTP to help optimize processes for the sake of people and purpose:</p>
+  <ul>
+    <li><strong><a href="https://www.sap.com/asset/dynamic/2023/04/ac38cbd6-6d7e-0010-bca6-c68f7e60039b.html">Colsubsidio</a></strong>: This nonprofit provider of wide-ranging social services chose SAP BTP and SAP HANA Cloud to enable extensive solution integrations, helping deliver better data connectivity and operational efficiency.</li>
+    <li><strong><a href="https://www.sap.com/assetdetail/2023/07/b457bfbe-837e-0010-bca6-c68f7e60039b.html">Heartland Dental</a></strong>: Administratively supporting over 1,700 dental practices, Heartland Dental leverages SAP BTP to help improve the business assistant’s user experience, increase productivity, and reduce turnover.</li>
+  </ul>
+  <p>For the full episode and the on-demand Better Together: Customer Conversations series, visit <a href="https://www.sap.com/programs/btp-better-together-customer-series.html">sap.com/btp</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Timo Elliott is vice president and a global innovation advocate for SAP BTP.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>industry/healthcare</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-award/sap-innovation-awards</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Helping Customers Innovate with More Than 125 AI-Powered Startup Partner Solutions]]></title>
+            <link>https://www.sap.com/news/2023/12/ai-powered-startup-partner-solutions-sap-io</link>
+            <guid>https://www.sap.com/news/2023/12/ai-powered-startup-partner-solutions-sap-io</guid>
+            <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[More than 125 AI-powered startup partner solutions are fully integrated with SAP and available via SAP Store. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-store</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[What You Didn’t Know You Needed to Know About Entrepreneurship]]></title>
+            <link>https://www.sap.com/news/2023/01/what-you-need-to-know-entrepreneurship</link>
+            <guid>https://www.sap.com/news/2023/01/what-you-need-to-know-entrepreneurship</guid>
+            <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP's Cindy Fagen spoke with Anastasia Kiku of Reusables about her startup experience and expertise in entrepreneurship. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/csr</category>
+            <category>news-tag/entrepreneurship</category>
+            <category>news-tag/sap-canada</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/social-entrepreneurship</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Providing Access to Opportunity for Innovators to Start Up with SAP]]></title>
+            <link>https://www.sap.com/news/2022/08/start-up-with-sap-access-opportunity-innovators</link>
+            <guid>https://www.sap.com/news/2022/08/start-up-with-sap-access-opportunity-innovators</guid>
+            <pubDate>Thu, 11 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about the opportunities to start up with SAP, particularly for underrepresented entrepreneurs such as women and people of color.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable AI Turns Small Data into Huge Results for Manufacturers and Researchers]]></title>
+            <link>https://www.sap.com/news/2022/04/sustainable-sparse-modeling-ai-manufacturers-researchers</link>
+            <guid>https://www.sap.com/news/2022/04/sustainable-sparse-modeling-ai-manufacturers-researchers</guid>
+            <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sparse modeling AI is the tech of choice for manufacturers and researchers who demand speed, sustainability, and explainability. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/research-development</category>
+            <category>news-tag/sap-store</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Hypergrowth Catalyst Program: Scalable Business Processes for Fast-Growing Companies]]></title>
+            <link>https://www.sap.com/news/2022/02/sap-hypergrowth-catalyst-program-scalable-business-processes</link>
+            <guid>https://www.sap.com/news/2022/02/sap-hypergrowth-catalyst-program-scalable-business-processes</guid>
+            <pubDate>Mon, 28 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP Hypergrwoth Catalyst program supports startups to keep the focus on their core businesses and quickly win market share.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Augmented Reality Boosts Online Shopping Sales up to 200%]]></title>
+            <link>https://www.sap.com/news/2022/01/augmented-reality-boosts-online-shopping-sales-up-to-200</link>
+            <guid>https://www.sap.com/news/2022/01/augmented-reality-boosts-online-shopping-sales-up-to-200</guid>
+            <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Indian startup Adloid uses augmented reality (AR) to deliver immersive, personalized online shopping experiences. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Augmented Reality Boosts Online Shopping Sales up to 200%" src="./media_109aa8b1916fb632815d9652558727d406a69acb7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="augmented-reality-boosts-online-shopping-sales-up-to-200">Augmented Reality Boosts Online Shopping Sales up to 200%</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>For shoppers who’ve yearned for an immersive, personalized experience that’s open 24/7, mobile <a href="/topics/augmented-reality">augmented reality (AR)</a> technology is the real-time deal of the next era. Bangalore-based startup <a href="https://www.adloid.io/index.php">Adloid</a> is leading the charge with a platform that turns two-dimensional search and discovery into a full-fledged 3D experience, whether someone is in the market for automobiles or bikes, household furniture, consumer electronics, or personal lifestyle products.</div>
+    </div>
+  </div>
+  <p>“Our AR platform gives consumers and companies personalized virtual shopping and training experiences, expanding the horizon of what AR can do for any brand or company,” said Kanav Singla, founder and CEO of Adloid. “We’re making the benefits of this technology more accessible and contextual to create an immersive experience for customers or employees on an e-commerce Website or within applications, directly from someone’s mobile device.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Can Artificial Intelligence Take the Guesswork Out of the Customer Journey?</h3>
+      </div>
+      <div><strong><a href="/2021/12/can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="convenient-try-before-you-buy-shopping">Convenient ‘Try Before You Buy’ Shopping</h2>
+  <p>Unlike earlier AR tech that relied on clunky headsets with varied compatibility, Adloid’s AR platform runs on any smartphone, allowing customers to experience products at scale, in context. Once the online shopper logs in through their phone, the device’s camera scans their real-world surroundings and virtually mirrors the retailer’s or manufacturer’s product.</p>
+  <p>“People can see how a new sofa or chair would fit into their home or apartment with a click of their smartphone,” said Singla. “Consumers can virtually try on jewelry, makeup, and other products. Remote workers can see if that laptop, screen, and desk configuration will fit in their home office. It’s as if the actual products are in front of you.”</p>
+  <p>He added that manufacturers were interested in using the AR platform within training modules for industrial machinery service technicians, providing them with hands-on learning in a virtual setting.</p>
+  <h2 id="immersive-product-discovery-experience">Immersive Product Discovery Experience</h2>
+  <p>On the consumer side, AR technology is tailor-made for online shoppers who can’t get enough information about products they might purchase.</p>
+  <p>“For someone trying to decide between different car models, AR lets them virtually go inside the trunk to see how much space is in there,” said Singla. “They can open and close the sunroof or try out the controls on the entertainment console, experiencing various car options before going to the showroom.”</p>
+  <p>Automotive manufacturers are among the startup’s biggest customers, along with e-commerce platforms of all sizes, retailers with or without brick-and-mortar stores, and manufacturers located in the U.S., Germany, and India.</p>
+  <h2 id="augmented-reality-increases-sales">Augmented Reality Increases Sales</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-labs-india">Learn more about SAP Labs India</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/india/about/labs-india.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Some customers using Adloid have increased sales conversions from online channels up to 200%. One online retailer tripled the number of online customers who purchased consumer items after using the tool. AR also boosts customer engagement time viewing product images and videos from an average of 30 seconds to a whopping eight minutes.</p>
+  <p>“Instead of being limited by a finite number of pre-posted images or videos, AR allows people to interact longer with products in a more personalized way, creating a powerful sales channel that’s always on at the customer’s convenience,” said Singla. “People can better understand how a product would fit into their lives, in many cases motivating them to make a purchase decision during that single online session.”</p>
+  <h2 id="connected-data-for-intelligent-enterprise">Connected Data for Intelligent Enterprise</h2>
+  <p>Adloid securely anonymizes all customer data and doesn’t store any personal images or other information once someone ends their AR session. However, organizations can extract valuable insights from the tool’s analytics.</p>
+  <p>“A car might come in six colors, but which ones are customers viewing the most? Companies can see what options people are most interested in, then connect back to inventory management to make sure they can meet market demands,” said Singla.</p>
+  <p>Indeed, one of Adloid’s biggest strengths is working with the SAP Startup Studio for India, <a href="https://www.sap.com/india/about/labs-india.html">SAP Labs India’s</a> startup accelerator program. Singla said that his team gained validation for product iterations, along with access to SAP solutions, including <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, and the company’s enterprise customers.</p>
+  <p>“Working with a global leader like SAP gives our product immediate credibility because we learned what customers were looking for,” he said. “Adloid is integrated with <a href="https://www.qualtrics.com/">Qualtrics</a>, <a href="https://www.sap.com/products/crm/e-commerce-platforms.html">SAP Commerce Cloud</a>, and <a href="https://www.sap.com/products/s4hana-erp/pricing.html">SAP S/4HANA</a>, helping companies connect data to become intelligent enterprises.</p>
+  <h2 id="ar-bridges-gap-between-e-commerce-and-cx">AR Bridges Gap Between E-Commerce and CX</h2>
+  <p>Singla’s entrepreneurial spirit was initially sparked by his family, all of whom own businesses. He founded his first startup at age 21 during his undergraduate studies in engineering, then saw a major selling gap as e-commerce took off.</p>
+  <p>“Companies went online with their catalogs, but customers couldn’t more fully experience these products,” he said. “I launched Adloid to turn e-commerce into 3D commerce where customers can try out products virtually on their mobile device. We expect AR will provide immersive experiences in more consumer and B2B online sites including fashion, travel and tourism, and large industrial machinery.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler.</em><br><em><a href="https://www.forbes.com/sites/sap/2021/09/28/augmented-reality-boosts-online-shopping-sales-up-to-200/?sh=249fcb717b26">This blog also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/ar</category>
+            <category>news-tag/e-commerce</category>
+            <category>news-tag/qualtrics</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-commerce-cloud</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[AI Startup Gives Sustainable Wastewater Management a High-Tech Refresh]]></title>
+            <link>https://www.sap.com/news/2021/12/ai-startup-gives-sustainable-wastewater-management-high-tech-refresh</link>
+            <guid>https://www.sap.com/news/2021/12/ai-startup-gives-sustainable-wastewater-management-high-tech-refresh</guid>
+            <pubDate>Tue, 14 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Streamwise D.I offers data from wastewater treatment systems to help close the gap between business exigencies and sustainability mandates.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ee75fdb9c9def28312cb07c8d850eb067400055c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ee75fdb9c9def28312cb07c8d850eb067400055c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ee75fdb9c9def28312cb07c8d850eb067400055c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="AI Startup Gives Sustainable Wastewater Management a High-Tech Refresh" src="./media_1ee75fdb9c9def28312cb07c8d850eb067400055c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="ai-startup-gives-sustainable-wastewater-management-a-high-tech-refresh">AI Startup Gives Sustainable Wastewater Management a High-Tech Refresh</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Clean water is one of the highest sustainability priorities worldwide, and industrial manufacturers are turning to artificial intelligence (AI), machine learning, and Industrial Internet of Things (IIoT) technologies to meet the challenge. In Australia, startup <a href="https://streamwisedi.com/">Streamwise D.I.</a> has developed an AI-powered intelligence platform providing industrial-grade digitization for wastewater treatment.</div>
+    </div>
+  </div>
+  <p>“Manufacturers across a range of industries process water that is on the scale of megaliters per day,” said Abhyuday Bhartia, chief technology officer at Streamwise D.I. “Our devices and decision intelligence platform guide companies through collecting the right data and give them the tools to effortlessly find insights. This transparency lowers operational costs and risk while improving the organization’s ability to meet compliance regulations.”</p>
+  <p>Streamwise D.I.’s blue chip customers include recognized brands in the food and beverage, mining, and chemicals industries, as well as municipal water authorities. Customers can gain business value early with smaller initial projects while making further improvements over time.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-how-sapio-foundries-supports-b2b-technology-startups-worldwide">Learn how SAP.iO Foundries supports B2B technology startups worldwide</h3>
+      </div>
+      <div><strong><a href="https://sap.io/foundries/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="bubbling-up-process-inefficiencies">Bubbling Up Process Inefficiencies</h2>
+  <p>The Streamwise D.I. platform collects real-time information from cameras, IoT-based sensors, and other instruments installed on machinery at the customer’s facilities. The data becomes a “digital twin” that feeds into a cloud-based dashboard, where it’s analyzed and shared as action items with designated team members. People have immediate access to the information through their mobile device or Web browser.</p>
+  <p>“Within an hour of turning on the system, operations teams can quickly see water contaminant levels and if operations are out of compliance with regulations,” said Bhartia. “Over time, the algorithms calculate asset and process inefficiencies, as well as environmental compliance with that company’s municipal trade waste agreements.”</p>
+  <p>Among the biggest regulatory mandates is the volume and type of chemicals that manufacturers use in wastewater treatment. The issue is as much about regulatory compliance as cost-savings.</p>
+  <p>“Using the data, the operator can adjust mechanisms and treatment processes to stay in compliance and achieve great efficiencies,” said Bhartia. “With historical and real-time data, the platform can create what-if scenarios, and make automated operational control and management decisions. Companies may discover they’re using types and levels of chemicals that aren’t necessary.”</p>
+  <p>One customer, an Australian cereal manufacturer, significantly lowered wastewater treatment operating costs by reducing unnecessary chemical usage. A dairy processing plant lowered trade waste charges by 26% and operator oversight by 80% for a total savings of over one-quarter of a million dollars each year.</p>
+  <h2 id="data-reduces-operational-expenses">Data Reduces Operational Expenses</h2>
+  <p>Addressing environment, sustainability, and corporate governance (ESG) imperatives also hinges on operational efficiencies. In monitoring and analyzing data from water treatment operations, Bhartia said that Streamwise D.I. delivers insights with far-reaching sustainable business impact.</p>
+  <p>“Are operations working to their optimized efficiency? Are they working to agreed-upon specifications, or are they actually failing? Does equipment need maintenance or replacement?” he said. “Understanding and acting on all of these issues affects efficiencies for energy savings too.”</p>
+  <h2 id="digital-intelligence-modernizes-wastewater-treatment">Digital Intelligence Modernizes Wastewater Treatment</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Can Artificial Intelligence Take the Guesswork Out of the Customer Journey?</h3>
+      </div>
+      <div><strong><a href="/2021/12/can-artificial-intelligence-take-the-guesswork-out-of-the-customer-journey">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Bhartia has been with Streamwise D.I. since it transitioned into a digital services platform. He agreed with the startup’s founder, Alastair Lockey, that AI had the power to modernize wastewater treatment, closing the gap between business exigencies and sustainability mandates.</p>
+  <p>“Wastewater treatment systems are inefficient and extremely complex with unique environments and operations,” said Bhartia. “We knew intelligent digitalization could help simplify processes, providing operators with actionable insights to meet operational targets, budget objectives, and regulatory mandates. There’s enormous global potential to make a real difference for business and the environment worldwide.”</p>
+  <h2 id="incredible-sustainability-partnership-with-sapio">Incredible Sustainability Partnership with SAP.iO</h2>
+  <p>Streamwise D.I. was part of the energy and natural resource cohort of <a href="http://www.sap.io/">SAP.iO Foundry Singapore</a>. Bhartia found value in SAP’s hands-on product commercialization and go-to-market support.</p>
+  <p>“It’s been an incredible opportunity working with SAP. We’ve learned so much from SAP’s experts, and their validation of our solution has provided us with greater market credibility and visibility,” he said. “Being integrated with <a href="https://www.sap.com/products/asset-intelligence-network.html">SAP Asset Intelligence Network</a> increases our collective sustainability impact for industrial water management customers globally.”</p>
+  <p>Streamwise D.I. is available on <a href="https://store.sap.com/dcp/en/product/display-0000060292_live_v1/Streamwise%20D.I.%20Extender">SAP Store</a>.</p>
+  <h2 id="tech-can-turn-back-the-water-pollution-tide">Tech Can Turn Back the Water Pollution Tide</h2>
+  <p>Sustainable business demands technologies to head off increasingly dire predictions about our quality of life and very survival. The <a href="https://www.worldbank.org/en/news/feature/2019/08/20/quality-unknown">World Bank</a> said that around 80% of the world’s wastewater is returned to the environment without adequate treatment. These experts predicted that two-thirds of the world’s population could be water stressed by 2025. But they also made it clear that “change is possible…Increased awareness, strengthened prevention, and smart investments using new technology are needed to turn back the tide of water pollution.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler.</em><br><em>This blog also appeared on <a href="https://www.forbes.com/sites/sap/2021/11/15/ai-start-up-gives-sustainable-wastewater-management-a-high-tech-refresh/?sh=6d9783186155">SAP BrandVoice on Forbes</a>.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/sap-anz</category>
+            <category>news-tag/sap-store</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Navigating to Zero with Startup Innovations in Sustainability]]></title>
+            <link>https://www.sap.com/news/2021/11/startup-sustainability-innovations</link>
+            <guid>https://www.sap.com/news/2021/11/startup-sustainability-innovations</guid>
+            <pubDate>Thu, 11 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP.iO has the privilege of working on startup sustainability innovations across industries and geographies. Learn more about the programs.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ba8aec47a02964ee49d292285e12af2045ccb867.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ba8aec47a02964ee49d292285e12af2045ccb867.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ba8aec47a02964ee49d292285e12af2045ccb867.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Navigating to Zero with Startup Innovations in Sustainability" src="./media_1ba8aec47a02964ee49d292285e12af2045ccb867.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="navigating-to-zero-with-startup-innovations-in-sustainability">Navigating to Zero with Startup Innovations in Sustainability</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>A call to action is changing the future of business. Regulatory committees, investors, consumers, and employees increasingly call for more socially, environmentally, and economically responsible goods and services.</div>
+    </div>
+  </div>
+  <p>The market is seeing consumers requesting sustainable products and services through their buying behavior — evidence to which we can see in the numbers. According to a STERN Center for Sustainability Business report, <a href="https://www.stern.nyu.edu/sites/default/files/assets/documents/NYU%20Stern%20CSB%20Sustainable%20Share%20Index%E2%84%A2%202019.pdf">products marketed as sustainable</a> grew more than five times faster than conventionally marketed products and three times faster than the consumer packaged goods (CPG) market. When given choice, today’s consumer is more likely to select the more environmentally responsible option.</p>
+  <p>Sustainability has become a critical topic for enterprises to reduce emissions and waste, increase circularity, and use socially responsible practices throughout product life cycles. Simply put, business leaders are listening to the customers’ call to buy sustainable products and are looking to address how to make <a href="/2021/08/sustainability-journey-profitability-interconnected-nature">sustainability profitable</a>.</p>
+  <p>Accenture’s CEO study confirmed that 99% of CEOs from companies with more than $1 billion in annual revenues believe sustainability is <a href="https://www.accenture.com/_acnmedia/PDF-109/Accenture-UNGC-CEO-Study.pdf#zoom=40">important to the future success</a> of their business. When it comes to the workforce, research into workplace priorities of millennial and Generation Z employees has found they rank <a href="https://www.businessgreen.com/news/3074070/sustainability-top-priority-for-young-employees">sustainability as a leading concern</a> when evaluating the companies they choose for employment. Sustainability matters; from the products you make and how you make them to the type of talent you can attract can all hinge on your company’s sustainability model.</p>
+  <p>Even federal governments are stepping in to take action. Recently an alliance of German companies that included SAP called for more tangible measures for climate protection from the federal government. The companies said in a <a href="https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/klimaschutz-appel-von-bayer-adidas-otto-und-co-an-neue-regierung-17579510.html">joint statement</a> that Germany must be put on a “clear, reliable, and predictable path to climate neutrality.” With governments requesting action, there is a huge opportunity to engage technologies that optimize carbon emissions, increase operational efficiency by activation of circular business processes, and connect with socially responsible partners to help organizations make better informed decisions.</p>
+  <h2 id="accelerate-startups-focused-on-sustainability">Accelerate Startups Focused on Sustainability</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="become-a-sustainable-business-with-sap">Become a sustainable business with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/sustainability.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="https://sap.io/">SAP.iO</a> has the privilege of partnering with startups whose technology assists organizations as they shift their priority toward sustainability. During our work with these companies, we bring them together with SAP customers and can learn firsthand what resonates and what solutions meet the industry’s ever-changing needs.</p>
+  <p>This year’s fall and winter cohorts alone support a wide variety of sustainability goals:</p>
+  <ul>
+    <li>The <strong>Future of Work program</strong> at SAP.iO Foundry Singapore focuses on helping customers increase the value of their workforce by developing, managing, engaging, and empowering their people to develop a skilled, healthy, and inclusive workforce.</li>
+    <li>The <strong>New Mobility program</strong> at SAP.iO Foundry Munich helps customers manage connectivity in transport, fleet management, charging and battery management, and automated and autonomous driving.</li>
+    <li>The <strong>Sustainability in Retail and Consumer program</strong> at SAP.iO Foundry New York helps customers in the retail, consumer products, and fashion industries drive sustainability across the value chain, including circular packaging and responsible and ethical sourcing, as well as responsible design and production.</li>
+    <li>The <strong>Sustainability in Energy and Natural Resources program</strong> at SAP.iO Foundry San Francisco supports customers in the energy and natural resources industries build sustainable businesses, improve experiences, and manage their environmental footprint and sustainability goals, including compliance, regulation, tracking, and carbon trading.</li>
+    <li>The <strong>Circular Economic program</strong> at SAP.iO Foundry Paris helps drive circularity for customers in service industries such as passenger and cargo travel and engineering construction and operations by helping redefine the design, production, demand, and supply of products through their use cycles for reusability, waste reduction, and new value creation.</li>
+  </ul>
+  <h2 id="how-customers-can-get-started">How Customers Can Get Started</h2>
+  <p>Experience shows that the desire to impact sustainability goals coupled with the innovative technology needed to turn the tide must be looked at as a journey instead of a destination. Industries and companies are at different stages of maturity, with requirements in other areas across teams. The challenge is how to make sustainability profitable.</p>
+  <p>To help customers get started on this journey, SAP.iO begins by initiating an innovation session to define and prioritize the critical sustainability areas. Then they leverage their experience and startup ecosystem to discover innovative solutions specifically for the customers’ business and provide the opportunity to meet with startups to learn about their solutions. Then the customer can pilot and implement startup solutions that will help achieve your sustainability ambitions.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-sapio">Explore SAP.iO</h3>
+      </div>
+      <div><strong><a href="https://sap.io/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="for-insights-and-key-takeaways-from-our-past-sustainability-cohort-with-accenture-read-the-whitepaper-sustainability-the-next-digital">For insights and key takeaways from our past sustainability cohort with Accenture, read the whitepaper, <a href="https://sap.io/sustainability-next-digital/">Sustainability: The Next Digital</a>.</h3>
+  <div class="footnote">
+    <div>
+      <div><em>Alexa Gorman is senior vice president and global head of SAP.iO Foundries and Intrapreneurship at SAP.<a href="https://www.linkedin.com/pulse/navigating-zero-startup-innovations-sustainability-alexa-gorman/?trackingId=cDgTrNF8IHbZHWsmSA4Ytw%3D%3D">This story originally appeared on LinkedIn</a></em>.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Affordable Products: A Eureka Moment for Sustainability]]></title>
+            <link>https://www.sap.com/news/2021/09/affordable-products-eureka-moment-for-sustainability-simreka</link>
+            <guid>https://www.sap.com/news/2021/09/affordable-products-eureka-moment-for-sustainability-simreka</guid>
+            <pubDate>Thu, 30 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the help of startup Simreka, companies can address climate change by building sustainability into affordable product designs.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cb7cb2e2ac2963fc95e41ce79d60e75da1388896.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cb7cb2e2ac2963fc95e41ce79d60e75da1388896.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cb7cb2e2ac2963fc95e41ce79d60e75da1388896.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Affordable Products: A Eureka Moment for Sustainability" src="./media_1cb7cb2e2ac2963fc95e41ce79d60e75da1388896.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="affordable-products-a-eureka-moment-for-sustainability">Affordable Products: A Eureka Moment for Sustainability</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Once upon a time, we easily traded off product sustainability for reasonable prices, quality, and safety. Now we expect companies to bake sustainability into business as usual, and startups like <a href="https://simreka.com/">Simreka</a> have the technology to make it happen. Its cloud-based simulation software helps manufacturers experiment faster to create more sustainable products.</div>
+    </div>
+  </div>
+  <p>“We are accelerating the design and manufacture of products that are both cost-effective and sustainable,” said Dr. Akshay Patel, co-founder and CEO at Simreka. “Companies can quickly collect and analyze data including materials, manufacturing processes, quality and performance standards, pricing, safety and compliance, and carbon emissions to simulate design options. With these insights, leaders can make product design decisions that will best meet business targets.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-balance-sheet-blind-spot-how-sustainability-affects-competitiveness-and-profits">The Balance Sheet Blind Spot: How Sustainability Affects Competitiveness and Profits</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/environmental-sustainability-affects-competitiveness/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="scaling-sustainability-with-cost-and-time-savings">Scaling Sustainability with Cost and Time-Savings</h2>
+  <p>Simreka’s customers are primarily consumer packaged goods (CPGs) and chemical materials manufacturers in the United States, Europe, Middle East, and Mexico. Professionals in product research and development (R&#x26;D), supply chain, materials, quality assurance, sustainability, and manufacturing operations are relying on the software’s artificial intelligence (AI)-based algorithms to answer critical questions like should we develop this new product, redesign an existing one, select this particular material, or take another manufacturing approach? The company also provides data from public sources to support customer decisions.</p>
+  <p>“Companies may decide to manufacture the same product, but in a different way. Or, they realize it makes sense to create an entirely new product,” said Dr. Patel. “Our name comes from our simulation software and that ‘eureka moment’ our customers have when they see what’s possible and the best action. They can run a lot more experiments during a shorter timeframe, reducing time wasted, increasing their chances of success, and speeding up commercialization of products that meet cost, safety, and sustainability criteria.”</p>
+  <p>One manufacturer reduced R&#x26;D experiment timeframes by over 80%, saving time and costs. Another customer was exploring alternatives to animal leather in their products. Another was experimenting to find climate-friendly options for petroleum-based plastics and other materials. One company used simulations to remove a component expected to be regulated in the future and replaced it with a safer material while maintaining the product’s quality, cost, and sustainability.</p>
+  <h2 id="scalable-sustainability-worldwide">Scalable Sustainability Worldwide</h2>
+  <p>Although he’s based in the Netherlands, Dr. Patel grew up and studied in India, where the company also has an office in Bangalore. Long fascinated by alternative fuels and materials, his undergraduate and graduate studies focused on biofuel alternatives and chemicals.</p>
+  <p>“I wanted to turn the product ideas in my PhD thesis into a solution that could scale across the globe so that manufacturing companies can speed up sustainable product development and design from the earliest stages through production,” said Dr. Patel. “Some of this comes from my parents, who instilled in me a lifelong commitment to do something meaningful in the world.”</p>
+  <h2 id="sustainability-is-profitable-for-business">Sustainability Is Profitable for Business</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="reinvent-how-businesses-run-by-partnering-with-sapio">Reinvent how businesses run by partnering with SAP.iO</h3>
+      </div>
+      <div><strong><a href="https://sap.io/foundries/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Unlike conventional AI and machine learning bots, Dr. Patel said that Simreka’s technology generates predictions by analyzing a wide range of data from raw materials and manufacturing processes, through external market data. The startup continuously iterates algorithms with customers as they simulate product design and production scenarios.</p>
+  <p>“The only way we’ll see wider production and adoption of sustainable products is if they are also affordable and just as high performing and safe as before,” he said. “We can address climate change, and it’s good for business too, saving time and resources in R&#x26;D and manufacturing.”</p>
+  <h2 id="working-with-sapio-foundry">Working with SAP.iO Foundry</h2>
+  <p>As an alumnus of <a href="https://sap.io/foundry-berlin/">SAP.iO Foundry Berlin</a>, Dr. Patel appreciated the access to SAP experts in <a href="https://insights.sap.com/what-is-product-lifecycle-management/">product lifecycle management (PLM)</a>, industries, and other cloud-based solutions, including introductions to customers.</p>
+  <p>“We valued SAP’s openness, especially conversations with its customers, which helped us fine tune our value proposition and gain a better understanding of how we can work together to address market needs,” he said. “We can integrate data from <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA</a> and other SAP solutions with our simulator to help customers generate new insights so that they can create more sustainable products.”</p>
+  <p>Simreka’s growth over the past 18 months reflects larger climate change trends for business everywhere.</p>
+  <p>“Sustainable products used to be something separate, but now customers are telling us that it’s core to their business,” said Dr. Patel.</p>
+  <p>Sustainability should not be the purview of a limited few who can afford higher priced, exclusive goods. It’s for all of us and the future of our planet.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler</em><br><em><a href="https://www.forbes.com/sites/sap/2021/07/27/this-is-a-eureka-moment-for-sustainability-affordable-products/?sh=3b0721ec5699">This blog also appeared on SAP BrandVoice on Forbes.</a></em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Life Sciences Industry Digitalizes for People-Centric Clinical Drug Trials]]></title>
+            <link>https://www.sap.com/news/2021/08/life-sciences-symetric-people-centric-clinical-drug-trials</link>
+            <guid>https://www.sap.com/news/2021/08/life-sciences-symetric-people-centric-clinical-drug-trials</guid>
+            <pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SyMetric is on a mission to modernize the life sciences industry with its cloud-based analytics solution that runs on SAP BTP. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19d2ed00090b302d73eb56a097086aa86088d546f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19d2ed00090b302d73eb56a097086aa86088d546f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19d2ed00090b302d73eb56a097086aa86088d546f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Life Sciences Industry Digitalizes for People-Centric Clinical Drug Trials" src="./media_19d2ed00090b302d73eb56a097086aa86088d546f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="life-sciences-industry-digitalizes-for-people-centric-clinical-drug-trials">Life Sciences Industry Digitalizes for People-Centric Clinical Drug Trials</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>After the earliest clinical trials in India for <a href="/covid-19">COVID-19</a> plasma therapy went live using <a href="https://www.symetricsystems.com/">SyMetric’s</a> cloud-based analytics solution, the startup hasn’t looked back. With 10 completed COVID-19 studies behind them, SyMetric is on a mission to modernize the <a href="https://www.sap.com/industries/life-sciences.html">life sciences industry</a>.</div>
+    </div>
+  </div>
+  <p>“We are providing a holistic solution for clinical trials management, what we call ERP for clinical research,” said Uma Janapareddy, founder and managing director at SyMetric. “Having easily accessible data on one unified platform helps researchers develop more effective drugs with stronger study results so they can bring pioneering medicines faster to people.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="build-a-strong-digital-platform-with-sap-business-technology-platform">Build a strong digital platform with SAP Business Technology Platform</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="people-driven-clinical-trials">People-Driven Clinical Trials</h2>
+  <p>Physicians, researchers, project managers, investigators, and biostatisticians are using SyMetric Trial Analytics to conduct studies at global pharmaceutical companies and clinical research organizations in a variety of therapeutic areas such as neurology, respiratory illness, oncology, and dermatology.</p>
+  <p>Running on <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, the solution captures and analyzes historical and updated clinical trial data in one system. This includes patient information indicating initial eligibility to participate in a clinical trial and progress monitoring through rigorous statistical analyses at trial completion for regulatory submission. The tool captures and analyzes electronic data from anywhere, such as a patient’s activities tracked on a mobile device or artificial intelligence (AI)-based imaging that shows medical progress.</p>
+  <p>“If you’re starting a lung cancer study, you can easily find out disease prevalence rates and research histories by geography, experience of the investigators, availability of skilled coordinators or pharmacists, and other factors. Our solution brings this data together for informed planning that leads to more efficient execution,” said Janapareddy. “Once the trial is underway, our easy-to-use solutions help researchers accurately track patient recruitment, study progress, make necessary amendments to the clinical study on the fly, and conduct any other activities.”</p>
+  <h2 id="time-saving-clinical-data-analytics">Time-Saving Clinical Data Analytics</h2>
+  <p>According to Janapareddy, the solution gives clinicians cost-savings foresight and flexibility. Built-in algorithms automatically monitor data, for example, rejecting potential patients who don’t fit certain parameters based on gender, age, or certain health and lifestyle conditions. Real-time data saves time in data clean up at the project completion stage.</p>
+  <p>Customers have reduced clinical trial setup and completion timelines by 20%. Some have saved up to 30% wastage of drug supplies during the trial manufacturing phase. One customer saved thousands of dollars using the solution to calculate the number of patient volunteers, as well as the number of drugs and testing kits required to meet randomization objectives with greater precision.</p>
+  <p>“With real-time data and built-in algorithms, companies can quickly adapt protocols in response to continuous patient recruitment,” she said. “Researchers can conduct interim analyses at any time before study completion, adjusting drug dosages, delivery mechanisms, and packaging quantities. The system automatically incorporates protocol adjustments and amendments, sans any downtime and without jeopardizing overall study timelines.”</p>
+  <h2 id="working-with-sap-labs-india">Working with SAP Labs India</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="the-amazing-inclusion-story-behind-indias-digital-transformation">The Amazing Inclusion Story Behind India’s Digital Transformation</h3>
+      </div>
+      <div><strong><a href="/2021/05/code-unnati-inclusion-story-india-digital-transformation">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>While most of SyMetric’s customers are based in the United States and India, Janapareddy has set her sights on Europe, inspired by the strength of SAP’s innovation ecosystem. An alumni of SAP Startup Studio at <a href="https://www.sap.com/about/labs-india.html">SAP Labs India</a>, Janapareddy appreciated the design thinking workshops her team used to develop use cases from their collective experiences. She also valued the co-innovation relationships her startup has forged with other members of the program. These include biopharmaceutical companies, medical device manufacturers, and cosmeceutical and nutraceutical manufacturers.</p>
+  <p>“We have a shared passion with SAP for the power of life sciences and integrated enterprise resource planning (ERP) data on a single platform – where every company becomes an <a href="https://www.sap.com/products/intelligent-enterprise.html">intelligent enterprise</a>,” said Janapareddy. “SAP is a global leader in life sciences including pharmaceuticals, manufacturing, and ERP, and its leaders generously share their expertise with us. We also appreciate the significant exposure to SAP customers from this partnership.”</p>
+  <p>SyMetric Trial Analytics and the SyMetric Clinical Trial Platform are available on <a href="https://store.sap.com/dcp/en/industries/try-and-buy-life-sciences-apps-and-software">SAP Store</a>.</p>
+  <h2 id="connected-clinical-trial-supply-chain">Connected Clinical Trial Supply Chain</h2>
+  <p>Before she founded SyMetric, Janapareddy held leadership positions at an international non-profit organization that provided funding, education, and other opportunities for underprivileged women. She developed the concept for SyMetric with input from her family and friends at SAP and in the life sciences industry.</p>
+  <p>“I wanted to do something big in life, contributing to the community in a way that would have lasting impact,” she said. “There was no integrated system for clinical trials anywhere in the life science industry, so I founded SyMetric to help manage the entire supply chain for people-centric research.”</p>
+  <h2 id="from-data-centric-to-patient-centric-trials">From Data-Centric to Patient-Centric Trials</h2>
+  <p>Janapareddy envisioned a fully interconnected data platform for everyone involved in life sciences clinical research and manufacturing.</p>
+  <p>“The industry is looking ahead to patient-centricity, where people can control their data using the latest technologies to share information and act on it on secure, compliant cloud-based platforms,” she said. “It began with informed consent and now connected data brings researchers and patients even closer together.”</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me @smgaler</em><br><em><a href="https://www.forbes.com/sites/sap/2021/06/30/life-sciences-industry-digitalizes-for-people-centric-clinical-drug-trials/?sh=12cc7beb55bc">This blog also appeared on SAP BrandVoice on Forbes</a>.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/feature</category>
+            <category>news-tag/covid-19</category>
+            <category>topic/data-analytics</category>
+            <category>industry/life-sciences</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/sap-store</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Startup refundrebel Simplifies Reimbursements in SAP Concur Solutions]]></title>
+            <link>https://www.sap.com/news/2021/08/refundrebel-simplifies-reimbursements-sap-concur</link>
+            <guid>https://www.sap.com/news/2021/08/refundrebel-simplifies-reimbursements-sap-concur</guid>
+            <pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The integration between Concur Travel and refundrebel enables companies to avoid cumbersome, manual compensation claim processes. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Indian Startup Innovates Supply Chains for Dynamic IoT-Based Intelligence]]></title>
+            <link>https://www.sap.com/news/2021/07/tagbox-innovates-supply-chains-iot</link>
+            <guid>https://www.sap.com/news/2021/07/tagbox-innovates-supply-chains-iot</guid>
+            <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Indian startup Tagbox utilizes Internet of Things (IoT) technology to support greater supply chain reliability and resiliency. Learn more!]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Indian Startup Innovates Supply Chains for Dynamic IoT-Based Intelligence" src="./media_1fb3b6af7f49a7db83bed3c8de9941011ffbb2eed.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="indian-startup-innovates-supply-chains-for-dynamic-iot-based-intelligence">Indian Startup Innovates Supply Chains for Dynamic IoT-Based Intelligence</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In a world struggling to recover from <a href="/covid-19">COVID-19</a>, <a href="https://www.sap.com/products/intelligent-technologies.html">intelligent technologies</a> like the Internet of Things (IoT), machine learning, and artificial intelligence (AI) are transforming supply chain logistics and quality assurance for groundbreaking innovations. Indian-based startup <a href="https://www.tagbox.co/">Tagbox</a> has developed a cloud solution that dynamically tracks shipments on the move.</div>
+    </div>
+  </div>
+  <p>IoT-based sensors capture the temperature and other critical parameters of products in real time, using machine learning and AI algorithms to automatically send alerts about risk anomalies so people can take corrective action and head off damages.</p>
+  <p>“Our vision is to make supply chains more holistically intelligent for greater reliability and resiliency,” said Adarsh Kumar, co-founder and CEO of Tagbox. “Organizations have full visibility into shipment risks like shocks, temperature changes, tampering, or pilferage at any point along the supply chain. Our technology shares that data to the cloud, sends shipment risk alerts to relevant stakeholders, and logs data into the ERP system. People can immediately see when something’s gone wrong and take fast action.”</p>
+  <p>Most Tagbox customers are located in India, but the startup is gaining traction with organizations in other parts of Asia-Pacific, including Singapore.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="ignite-innovation-in-your-business-with-intelligent-technology">Ignite innovation in your business with intelligent technology</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/intelligent-technologies.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="automated-triggers-for-quality-control">Automated Triggers for Quality Control</h2>
+  <p>Traditional supply chain quality management was typically one dimensional and tracked shipment risk post-delivery. In contrast, Tagbox’s technology monitors products at every step of the journey with small battery-powered sensors attached to product packaging by individual SKU, box, or pallet. Hosted on <a href="https://www.sap.com/products/business-technology-platform.html">SAP Business Technology Platform</a>, the tool uses SAP Internet of Things (SAP IoT) and is integrated with <a href="https://www.sap.com/india/products/s4hana-erp.html">SAP ERP</a>. Data sharing includes product or order information with designated employees in order management, transportation and logistics, quality parameters, warehouse and inventory metrics, and first to last mile delivery.</p>
+  <p>For example, after downloading a mobile app, a delivery person driving a refrigerated truck transporting medication would be alerted to temperature changes in the vehicle and receive recommended actions to prevent spoilage.</p>
+  <p>“People can immediately intervene when they’re notified of a temperature change or other risk, while managers can spot systemic issues and address those,” said Kumar. “Reports reveal patterns, such as where temperature excursions happen regularly. The company may decide to improve product packaging or select different transportation routes.”</p>
+  <p>One pharmaceutical customer saved thousands of dollars by reducing post-delivery assessment times by up to 72 hours. Having collected real-time data throughout the shipping process, the company eliminated time-consuming reports after delivery.</p>
+  <h2 id="business-growth-from-sap-partnership">Business Growth from SAP Partnership</h2>
+  <p>Kumar credited his company’s recent growth partly to his team’s experience at SAP Startup Studio, an accelerator program at <a href="https://www.sap.com/india/about/labs-india.html">SAP Labs India</a> for early- and growth-stage tech startups.</p>
+  <p>“Our IoT sensors collect and send data to supply chain, SAP IoT, and other SAP ERP systems that provide the business context for product shipments and locations, making this an ideal partnership,” he said. “We’ve accelerated our time-to-market because SAP experts have provided us with industry-specific opportunity guidance and introductions to a wide range of SAP customers.”</p>
+  <h2 id="data-fuels-insights-to-action">Data Fuels Insights to Action</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="with-stylumia-real-time-data-intelligence-powers-competitive-retail-advantage">With Stylumia, Real-Time Data Intelligence Powers Competitive Retail Advantage</h3>
+      </div>
+      <div><strong><a href="/2021/04/stylumia-data-intelligence-retail-advantage">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>While pharmaceutical companies are obvious candidates for fully traceable quality control of vaccine and other medicine cold chains, numerous industries can also benefit from real-time insights. These include food and beverage companies and consumer electronics. One e-commerce grocery company using Tagbox improved its cold chain temperature compliance while reducing missing inventory rates by 20%.</p>
+  <p>“They have end-to-end traceability of real-time temperatures for products like meats and dairy products from warehouse to consumer,” said Kumar. “They can track what percentage of orders were delivered at the right temperatures, cascading to employee performance metrics and training, as well as infrastructure and other supply chain decisions.”</p>
+  <p>Appliance, home electronic, and glass manufacturers have also found benefits from Tagbox when it comes to product damage prevention during transport.</p>
+  <p>“Any combination of factors can damage fragile goods on the road, whether it’s bad driving and accidents or because products weren’t packaged or loaded properly,” said Kumar. “With our sensors, companies can see precisely what kind of shock happened and when it occurred. Our algorithms translate the data into meaningful metrics such as if the product was in freefall, turned upside down, tilted, or unsecured. In the moment, they can repack the item, adjust the temperature, and keep going without damage.”</p>
+  <h2 id="turning-data-into-business-value">Turning Data into Business Value</h2>
+  <p>Kumar, Saumitra Singh, and Sameer Singh co-founded Tagbox, drawing from 25 years of collective experience in IoT, data analytics, AI, and integrated circuit and chip design.</p>
+  <p>“We realized that despite all the talk about IoT as a data generator, there wasn’t enough focus on using that data for concrete business decisions,” he said. “We wanted to tackle supply chain inefficiencies and product quality control for high-value, fragile goods traveling across cold chains. There are so many diversification opportunities in B2B operations using IoT and machine learning.”</p>
+  <p>Kumar said future international expansion plans for Tagbox included the United States, providing dynamic intelligence for supply chains worldwide, long after the pandemic recedes.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Follow me: @smgaler</em>.<br><em><a href="https://www.forbes.com/sites/sap/2021/06/08/indian-startup-innovates-supply-chains-for-dynamic-iot-based-intelligence/?sh=53116be4bcb6">This story originally appeared on SAP BrandVoice on Forbes</a>.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-technologies</category>
+            <category>news-tag/internet-of-things</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-erp</category>
+            <category>news-tag/sap-labs-network</category>
+            <category>news-tag/startups</category>
+        </item>
+        <item>
+            <title><![CDATA[Future Grid: Why Australia Is Proving Grounds for Renewable Energy]]></title>
+            <link>https://www.sap.com/news/2021/03/future-grid-renewable-energy-australia</link>
+            <guid>https://www.sap.com/news/2021/03/future-grid-renewable-energy-australia</guid>
+            <pubDate>Wed, 31 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Available on SAP Store, Future Grid is filling the visibility gap to better manage the accelerated transition to renewable energy. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/renewable-energy</category>
+            <category>news-tag/sap-io</category>
+            <category>news-tag/startups</category>
+            <category>industry/utilities</category>
+        </item>
+    </channel>
+</rss>

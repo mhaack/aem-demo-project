@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-at-unga/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 01 Sep 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Gears Up for UNGA 78]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-unga-78</link>
+            <guid>https://www.sap.com/news/2023/09/sap-unga-78</guid>
+            <pubDate>Fri, 01 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how SAP is preparing for UNGA 78, which signifies the midpoint toward the 2030 target for implementing the UN SDGs.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/life-at-sap</category>
+            <category>news-tag/sap-at-unga</category>
+            <category>news-tag/sap-csr</category>
+            <category>news-tag/sap-educate-to-employ</category>
+        </item>
+        <item>
+            <title><![CDATA[Labor Market Mismatch and Global Youth Employment: Coalition Is Key]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-unicef-global-youth-employment-coalition</link>
+            <guid>https://www.sap.com/news/2022/09/sap-unicef-global-youth-employment-coalition</guid>
+            <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[To address youth employment, SAP and UNICEF are empowering them with both hard and soft skills needed for the changing global economy.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/generation-unlimited</category>
+            <category>news-tag/sap-at-unga</category>
+            <category>news-tag/sap-csr</category>
+        </item>
+        <item>
+            <title><![CDATA[A Platform for Sustainable Success]]></title>
+            <link>https://www.sap.com/news/2022/09/sustainable-success-technology-platform</link>
+            <guid>https://www.sap.com/news/2022/09/sustainable-success-technology-platform</guid>
+            <pubDate>Tue, 20 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A technology platform can help in achieving sustainable success through accurate, holistic insight across an organization and supply chain.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-at-unga</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/un-sdgs</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP at UNGA 77: Driving Positive Business Transformation for People and Planet]]></title>
+            <link>https://www.sap.com/news/2022/09/sap-at-unga-77-positive-business-transformation-people-planet</link>
+            <guid>https://www.sap.com/news/2022/09/sap-at-unga-77-positive-business-transformation-people-planet</guid>
+            <pubDate>Fri, 09 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get the details on SAP's participation in UNGA 77, taking place September 13-27 at the United Nations headquarters in New York City.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-at-unga</category>
+            <category>news-tag/un-sdgs</category>
+        </item>
+    </channel>
+</rss>

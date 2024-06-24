@@ -460,7 +460,7 @@ function loadDelayed() {
 }
 
 async function scheduleAdobeDCLoad() {
-  window.setTimeout(() => import('../libs/analytics/adobedc.js'), 3000);
+  window.setTimeout(() => import('../libs/analytics/adobedc.js'), 3200);
 }
 
 function dispatchDLEvent(event) {
@@ -515,9 +515,11 @@ async function loadPage() {
   await loadEager(document);
   await initDataLayer();
   const cfEnabled = isCFEnabled();
-  if (cfEnabled) { await scheduleSolutionsLoad(); }
+  if (cfEnabled) {
+    await scheduleSolutionsLoad();
+    scheduleAdobeDCLoad();
+  }
   await loadLazy(document);
-  if (cfEnabled) { await scheduleAdobeDCLoad(); }
   loadDelayed();
 }
 

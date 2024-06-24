@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-concur/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Fri, 26 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Is on the Cutting Edge of How to Best Manage Company Spend]]></title>
+            <link>https://www.sap.com/news/2024/04/sap-cutting-edge-company-spend-management</link>
+            <guid>https://www.sap.com/news/2024/04/sap-cutting-edge-company-spend-management</guid>
+            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has been on the cutting edge of how to best manage company spend. Read about some recent updates to SAP spend management solutions.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Is on the Cutting Edge of How to Best Manage Company Spend" src="./media_11441be6b25f7c09e02cd28d0b0aa9997b84c22a1.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-is-on-the-cutting-edge-of-how-to-best-manage-company-spend">SAP Is on the Cutting Edge of How to Best Manage Company Spend</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>As a pioneer of spend management software, SAP has been on the cutting edge of how to best comprehensively manage company spend and supplier relationships.</div>
+    </div>
+  </div>
+  <p>Like at home, identifying every dollar you spend and getting the most out of it is more critical than ever for your business. And as we continue to roll out SAP Business AI technology, the teams behind SAP solutions are working on ways to help you reduce the time spent on mundane tasks so you can focus on executing your strategy, unlocking spend potential, and unleashing efficiency.</p>
+  <p>The first quarter of 2024 was among the most productive in my 18 years at SAP. We debuted new AI capabilities in various SAP spend management solutions. Check out some of these highlights:</p>
+  <ul>
+    <li><strong>SAP Ariba Category Management</strong>: We’ve incorporated <a href="https://community.sap.com/t5/spend-management-blogs-by-sap/generative-ai-powered-content-recommendations-in-sap-ariba-category/ba-p/13640447?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">generative AI-enabled features</a> that can assist category managers by generating recommendations in the solution’s category segmentation, market dynamics, and cost structure tools.</li>
+    <li><strong>Scoutbee Discovery</strong>: SAP partnered with Scoutbee, a leading AI-powered supplier intelligence and discovery platform, to launch <a href="https://store.sap.com/dcp/en/product/display-2001012892_live_v1/scoutbee-discovery?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">Scoutbee Discovery</a>. This SAP endorsed app can rapidly identify qualified suppliers that meet specific criteria and can help advance strategic business imperatives. <a href="https://www.linkedin.com/events/7176993552332140544/comments/">Watch the recording</a> of me participating in a recent LinkedIn Live with the Scoutbee team.</li>
+    <li><strong>Concur Request:</strong> Now, this service uses generative AI to help provide <a href="https://www.concur.com/blog/article/sap-concur-delivers-enriched-travel-and-expense-experiences-at-fusion-2024?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">intelligent cost estimates</a> for trip planning.</li>
+    <li><strong>ExpenseIt</strong>: Users can upload receipt images to the ExpenseIt solution, which taps AI to help <a href="https://www.concur.com/blog/article/sap-concur-delivers-enriched-travel-and-expense-experiences-at-fusion-2024?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">automatically create a new expense</a> with several key fields prepopulated. Plus, ExpenseIt can now itemize hotel folios using generative AI.</li>
+    <li><strong>Generative AI search</strong>: A new capability within Concur Support allows SAP Concur customers to type questions in natural language and get quick answers using generative AI, <a href="https://www.concur.com/blog/article/sap-concur-delivers-enriched-travel-and-expense-experiences-at-fusion-2024?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">without submitting a support ticket</a>.</li>
+  </ul>
+  <p>SAP’s market-leading spend and business network solutions are getting even smarter, working to unlock greater value for our customers. We have many resources devoted to spend management and that’s why we continue to deliver innovation in spend management.</p>
+  <p>And we are only getting started. By the end of 2024, <a href="https://www.sap.com/products/business-network.html?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">SAP Business Network</a> is planning the following enhancements:</p>
+  <ul>
+    <li><strong>Generative AI RFI/RFP responses in SAP Business Network Discovery</strong>: With generative AI-enabled responses for postings in SAP Business Network Discovery, suppliers will be able to respond to RFIs promptly and more accurately, helping to save time and reduce costs associated with manual labor and resource allocation.</li>
+    <li><strong>Catalog enrichment using ChatGPT recommendations</strong>: This feature can enable suppliers to generate and improve product descriptions and overall catalog quality based on prompts and keyword recommendations from ChatGPT.</li>
+    <li><strong>Intelligent error simplification using generative AI</strong>: This feature uses machine learning and a large language model to interpret and categorize invoice rejection reasons, allowing suppliers to reduce the number of failing invoices, improve rapid invoice submission and payment, and optimize cash flow.</li>
+  </ul>
+  <p>For more on how AI is transforming business networks, read <a href="/2024/04/business-networks-accelerate-ai-value">this recent article</a> from my colleague Joern Keller.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="eliminate-the-mundane-and-elevate-the-strategic-in-spend-management-with-generative-ai">Eliminate the mundane and elevate the strategic in spend management with generative AI</h3>
+        <p><em><a href="https://www.sap.com/products/spend-management/innovations.html#ai">Discover SAP solutions</a></em></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="but-what-are-our-customers-saying">But What Are Our Customers Saying?</h2>
+  <p>Each quarter, G2 highlights the top rated solutions in the industry, chosen by the source that matters most: customers. Spring 2024 is no different, and once again our suite of spend and business network solutions scored extremely well.</p>
+  <ul>
+    <li><a href="https://www.g2.com/products/sap-sap-fieldglass/reviews">SAP Fieldglass</a> is a G2 Spring Leader in Vendor Management.</li>
+    <li><a href="https://www.g2.com/products/sap-ariba/reviews">SAP Ariba</a> is a G2 Spring Leader in Procure to Pay, Purchasing, Strategic Sourcing, Supplier Relationship Management, and Contract Lifecycle Management.</li>
+    <li><a href="https://www.g2.com/products/sap-concur/reviews">SAP Concur</a> is a G2 Spring Leader in Expense, Travel &#x26; Expense, and Invoicing.</li>
+  </ul>
+  <p>What’s more, G2 recently announced its <a href="https://www.g2.com/best-software-companies">2024 Best Software Award winners</a>, with SAP Fieldglass and SAP Concur receiving high honors:</p>
+  <ul>
+    <li>SAP Fieldglass came in at No. 26 in G2’s Best Software Awards across all products and No. 12 in G2’s Best Software Awards for best midmarket products.</li>
+    <li>SAP Concur came in at No. 4 in G2’s Best Software Awards for the account and software product category.</li>
+  </ul>
+  <p>My colleagues are also getting their flowers. Etosha Thurman, chief marketing and solutions officer of Intelligent Spend and Business Network, and Steve Seide, global head of Adoption for Intelligent Spend and Business Network, were named Top Procurement Pros in the <a href="https://issuu.com/supplydemandchainfoodlogistics/docs/sdc0324_digital?fr=sNGVkZTcxMzY1NTY">Supply &#x26; Demand Chain Executive 2024 Pros to Know awards</a>. A big congratulations also goes out to Darcy MacClaren, CRO for SAP Digital Supply Chain, who received a Pros to Know Lifetime Achievement award.</p>
+  <h2 id="driving-success-for-our-customers">Driving Success for Our Customers</h2>
+  <p>Hearing me spotlight our direct and indirect procurement, external workforce, and travel and expense management solutions is one thing. Seeing them in action is something way more powerful. Here are a few recent customer success stories to take in:</p>
+  <ul>
+    <li><strong>American Eagle Outfitters</strong> (AEO), a leading global specialty retailer offering high-quality on-trend clothing, accessories, and personal care products through its portfolio of brands, needed to evaluate indirect purchasing processes and vendor relationships to maximize efficiency. See how <a href="https://www.sap.com/asset/dynamic/2023/10/2ed3b1af-917e-0010-bca6-c68f7e60039b.htm?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124l">SAP Business Network for Procurement and SAP Ariba solutions</a> helped simplify processes and deliver compliant purchasing protocols across the company.</li>
+    <li>Power provider to over 900,000 electric customers, <strong>Oklahoma Gas &#x26; Electric Company</strong> (OG&#x26;E) faced challenges with the complexity of third-party and cross-department management of contingent workers. After transitioning SAP Fieldglass solutions to internal management, OG&#x26;E <a href="/2024/02/oge-and-brightspeed-manage-employees-contingent-workers">gained the visibility</a> to make more informed financial decisions, like supplier negotiations.</li>
+    <li><a href="https://www.sap.com/idea-place/sap-innovation-awards/entries/2024-award.html#winners?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">2024 SAP Innovation Award winner</a> <strong>Vestas Wind Systems</strong>, the world’s largest manufacturer of wind turbines, launched a large-scale quality initiative powered by SAP Business Network to help mitigate product defects in a highly complex supply chain. Now, using SAP Business Network, suppliers complete predefined quality tests and document them before confirming or sending an order. This enables Vestas employees to be warned in advance of any quality issues further up the supply chain, so they can <a href="/2024/02/vestas-powering-quality-in-supply-chain">take corrective action</a>.</li>
+    <li>Most <strong>KUKA</strong> employees are based in Germany, where tax regulation is complex and submitting hotel and entertainment expenses is anything but simple. The KUKA team worked together to develop a simple process using SAP Concur solutions, connected to SAP ERP, that allows employees to create hotel and entertainment expenses <a href="https://www.concur.com/en-us/casestudy/kuka?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">seven times faster</a> with fewer errors and fewer rejected expense reports.</li>
+  </ul>
+  <h2 id="join-us-at-sap-sapphire">Join Us at SAP Sapphire!</h2>
+  <p>SAP Sapphire &#x26; ASUG Annual Conference is June 3-5 in Orlando, Florida, this year and I can’t wait to meet with customers, partners, and my fellow colleagues. This is the best event in the industry in my opinion and you don’t want to miss out. Join us by registering on the <a href="https://www.sap.com/events/sapphire.html?campaigncode=CRM-YD24-ISM-2422141&#x26;source=blog-glo-JCollierQ124">SAP Sapphire event website</a>, where you can also save your spot at the SAP Sapphire Virtual and SAP Sapphire Barcelona events. See you there!</p>
+  <div class="footnote">
+    <div>
+      <div>Jeff Collier is chief revenue officer for SAP Intelligent Spend and Business Network.</div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>news-tag/customer-story</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>topic/spend-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Concur Enriches Travel and Expense Experiences with Generative AI at SAP Concur Fusion 2024]]></title>
+            <link>https://www.sap.com/news/2024/03/sap-concur-enriches-travel-and-expense-experiences-with-generative-ai-at-sap-concur-fusion-2024</link>
+            <guid>https://www.sap.com/news/2024/03/sap-concur-enriches-travel-and-expense-experiences-with-generative-ai-at-sap-concur-fusion-2024</guid>
+            <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP Concur Fusion 2024, SAP announced new updates reimagining travel and expense management and new capabilities powered by generative AI.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/microsoft</category>
+            <category>news-tag/sap-concur</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Cares About Your Company’s Spend]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-cares-about-your-companys-spend</link>
+            <guid>https://www.sap.com/news/2024/02/sap-cares-about-your-companys-spend</guid>
+            <pubDate>Tue, 13 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP spend management and business network solutions continue evolving and improving with time – and 2024 will be no different.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/idc-marketscape</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-business-ai</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[What Does 2024 Have in Store for Spend Management and Supply Chain Professionals?]]></title>
+            <link>https://www.sap.com/news/2023/12/spend-management-supply-chain-2024-predictions</link>
+            <guid>https://www.sap.com/news/2023/12/spend-management-supply-chain-2024-predictions</guid>
+            <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP professionals share their 2024 predictions for spend management and supply chain. Read to learn what they said about the coming year.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18efa0d05f945b26c1dda8d2694f972656f97e05a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18efa0d05f945b26c1dda8d2694f972656f97e05a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18efa0d05f945b26c1dda8d2694f972656f97e05a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="What Does 2024 Have in Store for Spend Management and Supply Chain Professionals?" src="./media_18efa0d05f945b26c1dda8d2694f972656f97e05a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="what-does-2024-have-in-store-for-spend-management-and-supply-chain-professionals">What Does 2024 Have in Store for Spend Management and Supply Chain Professionals?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When we look back on 2023, we’ll remember it as a year when economic conditions put the spotlight back on cost containment. At the same time, spend management professionals continued to face unexpected supply chain risks and environmental, social, and governance (ESG) requirements created more pressure to comply with government regulations and consumer demands.</div>
+    </div>
+  </div>
+  <p>It was also the year when business leaders worldwide decided enough is enough. They began taking steps to future proof their supply chains. And we can’t forget that 2023 was the year when generative <a href="/topics/ai">AI</a> came to dominate every conversation about technology.</p>
+  <p>Now it’s time to look ahead. Where will world events, business developments, and technology innovations take spend management in 2024? What strategies and technology will business leaders employ to bring greater resilience and efficiency to their supply chains?</p>
+  <p>Here are predictions for 2024, from SAP’s intelligent spend and business network leaders.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p>“In 2023, generative AI was like a bolt of lightning that compelled every business and technology leader to sit up and take notice. We’re no longer asking <em>if</em> businesses will adopt AI technology, but rather <em>how quickly</em> they can deploy it and realize its benefits. In 2024, businesses leaders will look beyond the industry buzz for solutions that deliver real-life, AI-based use cases. They’ll also see firsthand that AI is only as effective as the quality and availability of data. With the huge number of data and transactions running through our <a href="https://www.sap.com/products/spend-management/solutions.html?campaigncode=CRM-Y123-ISM-1980086&#x26;source=blog-glo-2024ISBNPredictions">systems</a> and <a href="https://www.sap.com/products/business-network.html?campaigncode=CRM-Y123-ISM-1980086&#x26;source=blog-glo-2024ISBNPredictions">business network</a>, SAP is uniquely positioned to help organizations access the data they need, visualize it, and take decisive action to drive their success.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/muhammad-s-alam/">Muhammad Alam</a>, President and Chief Product Officer,</em><br><em>SAP Intelligent Spend and Business Network,</em><br><em>and General Manager for SAP Business Network</em></p>
+        <p>“As we enter 2024, procurement organizations will continue to focus on cost containment and supply continuity in order to bring value to their businesses. These have traditionally been the primary value drivers and, in today’s economic environment, I see this continuing. The opportunity will be maintaining the expanded voice earned with stakeholders during the volatile, crisis-riddled past few years, given the resurgence of hyper focus on cost containment. I believe that the scope of procurement will not contract back to a sole focus on supply stability and cost containment. In fact, I think procurement’s remit will continue to evolve to lead broader supply chain risk management, given the growing variety and number of risks faced such as geopolitical tensions, sustainability expectations, the need for more diverse sources of supply, and lingering labor availability concerns. The challenge facing procurement will be how to tackle all of this successfully. What we’ll see is the use of innovation like generative AI, spend analysis, and category management solutions to not only provide relevant, real-time business insights, but, importantly, to increase the efficiency and productivity of procurement teams, giving more capacity to focus on the strategic work stakeholders now expect.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/etoshathurman/">Etosha Thurman</a>, Chief Marketing and Solutions Officer,</em><br><em>Intelligent Spend and Business Network, SAP</em></p>
+        <p>“The more things change, the more they stay the same. Or do they? Last year we were talking about how businesses needed to grapple with economic, political, and environmental uncertainty. That hasn’t changed. What’s different is how quickly new strategies and technologies have emerged to help businesses deal with these challenges. In 2024, I expect business leaders to continue pursuing supply chain resilience and to look for solutions such as AI that enable them to make big leaps. There will also be a continued focus on cost savings. With economic concerns looming as central banks raise funds rates to counter inflation, I foresee leaders being asked to deliver higher margins for their enterprises. To do this, traditional cost-focused sourcing and procurement cost compliance will be essential.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/jeffcollier/">Jeff Collier</a>, Chief Revenue Officer,</em><br><em>Intelligent Spend and Business Network, SAP</em></p>
+        <p>“As enterprises continue on their journey to digitalize procurement processes, the need for an even more intuitive user experience will increase. Procurement professionals are looking for ways to spend more time on value-adding tasks and are looking to generative AI and analytics to support them at the point of decision. Moving into 2024 and beyond, we expect the demand for these technologies to increase, as well as for new use cases to arise. At SAP, we are already evaluating further ways to embed generative AI and analytics into solutions throughout our SAP Ariba portfolio to help make our customers’ business lives easier than ever.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/salvatore-lombardo-a579662/">Salvatore Lombardo</a>, SVP, Chief Product Officer,</em><br><em>SAP Ariba Procurement Solutions, SAP</em></p>
+        <p>“As technology evolves, pragmatic business leaders are looking for ways to leverage these new developments to help streamline and simplify their processes. Managing a workforce that can be comprised of up to 40% external workers demands tools that can simplify the user experience and offer broad visibility to both external and full-time workers. I predict that in 2024 we will see more organizations lean into total workforce management strategies to address this need for greater visibility across full-time and external workers, allowing businesses to align the skills they have with the work they need to complete. Along with a more holistic approach to managing their workforce, these same companies can leverage innovative AI tools designed to offer efficiencies and improve the user experience. In 2024, SAP Fieldglass customers will be able to leverage powerful AI tools, including AI-enhanced statement of work creation, translation capabilities, and our new <a href="https://www.sap.com/assetdetail/2023/10/e8cd2e18-937e-0010-bca6-c68f7e60039b.html">job description builder</a> powered by generative AI. These offerings are just the beginning, with many more use cases to come.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/vishbaliga/">Vish Baliga</a>, Chief Technology Officer,</em><br><em>SAP Fieldglass Solutions, SAP</em></p>
+        <p>“In my conversations with customers and prospects about their plans for 2024, they consistently voice concerns about supply chain disruption and economic uncertainty. Meanwhile, most seem to appreciate that artificial intelligence is vital to maintaining their competitive edge, yet many are unsure how to distinguish the actual value from the ample hype. In 2024, we will see more of the value that AI can deliver to organizations with capabilities to support their value chains. These include generative and predictive AI capabilities to help forecast disruptions, recommend alternate sources of raw materials, detect errors in invoices, extract pertinent data from requests for information, predict shipment and delivery times, and complete catalogue details. Trading partners need the ability to enter into additional collaborative relationships, such as those between buyers and suppliers spanning SAP Business Network Supply Chain Collaboration and material traceability and freight collaboration solutions. Also in 2024, we see network convergence taking center stage to give organizations a shared onboarding experience across all network applications, as well as a set of common data federation services to support data residency requirements.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/joernkeller/">Joern Keller</a>, Executive Vice President and Chief Product Officer,</em><br><em>SAP Business Network</em></p>
+        <p>“In 2024, generative AI will deliver trillions in economic benefits. It will help companies realize greater top-line growth, be more productive, and safeguard supply chains. At the same time, resiliency will continue to be a major focus. The combination of AI and business networks will drive game-changing resiliency and productivity by facilitating improved demand forecasting and more efficient inventory management. These technologies will empower businesses to respond proactively to market changes, allowing them to source new suppliers quickly. In times of supply chain disruptions or demand surges, the nimblest companies will benefit most. Business networks will help them anticipate challenges with real-time information sharing and enhanced supply chain visibility. And there’s more good news for midmarket and smaller companies: as enterprise adoption of these technologies may begin to lag behind due to complex and unique use cases, segments like the midmarket and smaller companies will start to gain the competitive edge, building more resilient, predictable, and sustainable supply chains at scale.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/valerie-blatt-3790091/">Val Blatt</a>, Global Head, SAP Business Network</em><br><em>Customer Success and Go-to-Market, SAP</em></p>
+        <p>“We’ll see business digitalization efforts go a level deeper – and become substantially more integrated – in 2024. Continued adoption of AI, automation, and virtual forms of payment will drive streamlined processes in travel, expense, and invoice. Instead of using a company credit card, employees will be able to expand their use of virtual payments for all business expenses, including travel. In turn, we’ll start to see two types of transactions emerge: trusted and exceptions. Most transactions will use trusted payment methods, and AI will quickly validate them as compliant, enabling near-immediate reimbursement. Exceptions will trigger AI-driven, automated audits to ensure compliance. In both cases, payments will be issued faster with more ease, and employees will have more time to focus on what matters most to them and the organization.”</p>
+        <p>– <em><a href="https://www.linkedin.com/in/cajseattle/">Christopher Juneau</a>, Head of SAP Concur Market Strategy,</em><br><em>SAP Concur</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-more-predictions-from-sap-concur">Get more predictions from SAP Concur</h3>
+        <p><em><a href="https://www.concur.com/blog/article/sap-concur-predictions-for-2024">Read the 2024 predictions blog</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>“After another year of significant disruption caused by economic and geopolitical uncertainty, supply chain optimization has risen up the agenda as companies seek to better manage their working capital. Embedded finance has emerged as a solution, promising to reshape the way we do business and interact. Embedded finance has the power to expedite transactions, facilitate financing between trading partners, and lower trade barriers. By harnessing embedded finance, companies have the potential to optimize processes and access financing solutions seamlessly through B2B platforms. Ultimately, this will result in more streamlined payments, faster credit decisions, and expanded access to working capital.”</p>
+  <p>– <em><a href="https://www.linkedin.com/in/dweinblatt/">Danielle Weinblatt</a>, Chief Product Officer, Taulia</em></p>
+  <p>“As organizations, especially midmarket companies, continue to navigate today’s dynamic business environment, they are realizing the need to work with solution partners to create more value for their customers and themselves. A strong relationship between organizations and their partner ecosystems is critical to success, and I expect we will continue to see more businesses, both large and small, looking to establish these relationships. With the cost of managing sustainable supply chains continuing to increase, companies should turn to their partner ecosystems to leverage their expertise, skills, and services. This approach can help unify a company’s operations to provide a greater experience for its buyers and sellers, enabling stronger collaboration, greater visibility and transparency, risk mitigation, and more efficient operations.”</p>
+  <p>– <em><a href="https://www.linkedin.com/in/clausgruenewald/">Claus Gruenewald</a>, Head of Intelligent Spend and</em><br><em>Business Network Partner Ecosystem, SAP</em></p>
+  <h2 id="one-more-prediction">One More Prediction</h2>
+  <p>Recent times have shown that unexpected disruptions aren’t the only reason businesses struggle in times of crisis. It’s also about their readiness to deal with disruption, to adapt, and to come out stronger when the crisis subsides. Many business leaders have learned this lesson. They’re taking action to ensure – to the best of their ability – that their businesses are prepared for what comes next.</p>
+  <p>Of course, that’s easier said than done. Sometimes it feels like we need a crystal ball to see into the future. Or, to use a more common term, we need “visibility.” Visibility into market trends. Visibility into world events. Visibility into every corner of the supply chain.</p>
+  <p>Here’s a prediction you can take to the bank: in 2024, SAP will continue to design and deliver <a href="https://www.sap.com/products/spend-management/solutions.html?campaigncode=CRM-Y123-ISM-1980086&#x26;source=blog-glo-2024ISBNPredictions">spend management</a> and <a href="https://www.sap.com/products/business-network.html?campaigncode=CRM-Y123-ISM-1980086&#x26;source=blog-glo-2024ISBNPredictions">business network</a> solutions that can drive efficiency, leverage AI in ways that are relevant, reliable, and responsible, and create greater visibility for every size business.</p>
+  <p>Mike Conners is a communications specialist for the SAP Spend Management Communications team.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-the-latest-sap-news-delivered-to-your-inbox-once-a-week">Get the latest SAP news delivered to your inbox once a week</h3>
+        <p><em><a href="https://www.sap.com/cmp/nl/sap-news-center-newsletter/index.html">Sign up</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>topic/spend-management</category>
+            <category>news-tag/taulia</category>
+        </item>
+        <item>
+            <title><![CDATA[What’s New in Intelligent Spend Management Solutions from SAP]]></title>
+            <link>https://www.sap.com/news/2023/10/whats-new-intelligent-spend-management-from-sap</link>
+            <guid>https://www.sap.com/news/2023/10/whats-new-intelligent-spend-management-from-sap</guid>
+            <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Intelligent spend management solutions from SAP are evolving with AI, being adopted by customers, and receiving recognition. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>topic/spend-management</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future of Procurement Is Already a Reality at SAP Spend Connect Live]]></title>
+            <link>https://www.sap.com/news/2023/10/procurement-news-sap-spend-connect-live</link>
+            <guid>https://www.sap.com/news/2023/10/procurement-news-sap-spend-connect-live</guid>
+            <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP Spend Connect Live, we announced a series of procurement innovations focused on streamlining procurement processes. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-ariba-buying</category>
+            <category>product/sap-ariba-contracts</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-event/sap-spend-connect-live</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Announces Winners of the SAP Global Intelligent Spend and Business Network Partner Excellence Awards for 2023]]></title>
+            <link>https://www.sap.com/news/2023/10/2023-sap-global-intelligent-spend-business-network-partner-excellence-awards</link>
+            <guid>https://www.sap.com/news/2023/10/2023-sap-global-intelligent-spend-business-network-partner-excellence-awards</guid>
+            <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Six SAP Global Intelligent Spend and Business Network Partner Excellence Awards were presented at SAP Spend Connect Live in Vienna.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-award/sap-global-lob-partner-excellence-awards</category>
+            <category>sap-event/sap-spend-connect-live</category>
+        </item>
+        <item>
+            <title><![CDATA[The Latest Innovations in Spend Management Revealed at SAP Spend Connect Live]]></title>
+            <link>https://www.sap.com/news/2023/10/innovations-ai-spend-management-sap-spend-connect-live</link>
+            <guid>https://www.sap.com/news/2023/10/innovations-ai-spend-management-sap-spend-connect-live</guid>
+            <pubDate>Mon, 09 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[As shown at SAP Spend Connect Live, SAP has made it a mission to enable the use of generative AI in spend management. Read to find out how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>topic/spend-management</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Unveils New Generative AI Innovations That Boost Productivity and Effectiveness in Spend Management]]></title>
+            <link>https://www.sap.com/news/2023/10/sap-spend-connect-live-generative-ai-innovations-spend-management</link>
+            <guid>https://www.sap.com/news/2023/10/sap-spend-connect-live-generative-ai-innovations-spend-management</guid>
+            <pubDate>Mon, 09 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Spend Connect Live in Vienna, SAP has introduced new business AI and UX innovations for spend management and business network.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>product/sap-ariba-category-management</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-ariba-buying</category>
+            <category>product/sap-ariba-contracts</category>
+            <category>product/sap-ariba-sourcing</category>
+            <category>news-tag/sap-concur</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>product/sap-spend-control-tower</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Concur Unveils New Experiences for Concur Travel]]></title>
+            <link>https://www.sap.com/news/2023/08/new-experiences-for-concur-travel</link>
+            <guid>https://www.sap.com/news/2023/08/new-experiences-for-concur-travel</guid>
+            <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how SAP is modernizing the Concur Travel booking experience to make booking and expensing travel more productive.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/concur-travel</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/sap-concur</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust]]></title>
+            <link>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</link>
+            <guid>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</guid>
+            <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[S.Oleum’s data-driven sustainability efforts will generate revenue and sequester carbon. Read how SAP helps lay the foundation for success.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust" src="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-high-tech-helps-soleum-deliver-esg-metrics-you-can-trust">How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>How can a three-year-old agroforestry company produce trustworthy, <a href="/topics/sustainability">sustainable</a> feedstock – raw materials for finished goods, energy, and more – while reducing the amount of carbon in the atmosphere?</div>
+    </div>
+  </div>
+  <p>“We do that by using the biodiversity of this region, the Cerrado in Brazil,” Francisco de Blanco, S.Oleum co-founder and CEO, told SAP at the company’s headquarters, an innovative farm just outside João Pinheiro.</p>
+  <p>Why the Brazilian outback? This tropical savanna is home to the macaúba, a highly adaptable oil-producing tree with a penchant for scrubbing harmful CO2 from the air. Macaúba fruit yields advanced vegetable oils (AVOs) and high-protein food – and it can be 15 times more productive than soybeans.</p>
+  <p>“We are restoring the landscape that was deforested…Macaúba was native here many, many years ago,” Felipe Morbi, S.Oleum co-founder and Agroforestry VP, said. “Now we are bringing back these trees, and also all the other species, to restore this biodiversity.”</p>
+  <p>S.Oleum seeks to accomplish this scientifically, using macaúba and other crops in an integrated crop-livestock-forest approach, according to Morbi. The goal is to create working farms that rejuvenate degraded, low-yielding soil – and that sequester into the soil more carbon than they generate.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots" src="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/czukYJD_15c">How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="science-based-approach-to-reforesting-the-cerrado">Science-Based Approach to Reforesting the Cerrado</h2>
+  <p>“We are looking for the balance of the system,” Morbi said in a new <a href="https://youtu.be/czukYJD_15c">SAP video</a>. “We will measure the amount of carbon in the soil, the moisture, the biodiversity in terms of the plants we have, and also native animals coming back to the area.”</p>
+  <p>Toward that end, S.Oleum is starting small, but aiming big. Most of the current crop grows on a 700-hectare, or more than 1,700-acre, pilot farm. But S.Oleum intends to plant more than 65 million additional macaúba trees by 2029, which would reforest 180,00 hectares – about 444,800 acres – in Brazil’s southeastern state of Minas Gerais.</p>
+  <p>Over time, macaúba trees also help improve the nutrient and moisture capacity of the soil, making it easier to grow other crops, according to de Blanco. And S.Oleum increases farm productivity by growing carefully chosen crops in between rows of macaúba trees, such as sunflowers, peanuts, and yucas.</p>
+  <p>“If you do it right, agriculture as a system is positive for the environment,” de Blanco said. “Plants that were deforested a few decades ago, they are currently in a poor state because they were depleted by poor management…We believe there are better ways, and that’s what we are pursuing here.”</p>
+  <p>An innovative case in point: macaúba trees increase a biome’s carbon sequestration levels. Removing this greenhouse gas helps more than the planet; S.Oleum also generates revenue by selling carbon credits and building trust via its data.</p>
+  <h2 id="any-little-bit-of-data">Any Little Bit of Data</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="earth-overshoot-day-2023-reversing-the-clock-for-a-sustainable-future">Earth Overshoot Day 2023: Reversing the Clock for a Sustainable Future</h3>
+      </div>
+      <div><strong><a href="/2023/08/earth-overshoot-day-2023-sustainable-future">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Any little thing, any generation of data that R&#x26;D is currently developing, is extremely important,” Mirelle Santos, S.Oleum Agroforestry R&#x26;D manager, said. “We want to deploy technologies as dictated by those urgent needs.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Macaúba thorns" src="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="300" height="225">
+    </picture>
+  </p>
+  <p><em>Photo by Derek Klobucher</em></p>
+  <p>This could include remote sensing via drones that run fruit-recognition software, according to Santos. This would help S.Oleum gather and compile data quickly, without human error – and without sending workers, who must dress in personal protective equipment (PPE) to defend against snakes, mosquitos, the brutal Cerrado sun (even in winter), and dangerous macaúba thorns, which grow even on seedlings.</p>
+  <p>S.Oleum’s intricate business model combines agriculture, forestry, biodiversity, and carbon offsetting – and that leads to a lot of complexity. SAP technology will be an important differentiator for this small enterprise, as well as a foundation for its future growth.</p>
+  <p>“We have a big project to run; so, a lot of people, a lot of machines, a lot of suppliers,” Morbi said. “And we need everything in the right moment, in the right way.”</p>
+  <h2 id="how-to-best-manage-esg-metrics">How to Best Manage ESG Metrics</h2>
+  <p>“SAP is different because it is recognized as one of the most reliable ERP systems on the market, not only based on the technology,” de Blanco said. “Also, because it has well-established and well-defined processes.”</p>
+  <p>Standardizing processes was “extremely important” for S.Oleum both internally and to inspire customer, stakeholder, and regulatory confidence, according to de Blanco. SAP will also enable S.Oleum to run its circular enterprise as well as record, report, and act on its sustainability data.</p>
+  <p>“We have a very integrated system, and a very circular way to produce things,” de Blanco said. “Finding out where waste is generated – and where it’s being used – is very important to ensure the carbon intensity and the circularity of our systems at our entire site…This is where SAP helps us.”</p>
+  <p>SAP S/4HANA, SAP Ariba solutions, SAP Concur solutions, and SAP SuccessFactors solutions will help standardize all of S.Oleum’s processes, which will improve transparency and compliance, according to S.Oleum IT Director Marcio Propp. To help better manage and understand its myriad environmental, social, and governance (ESG) metrics, the company has also begun implementation of <a href="https://www.sap.com/products/sustainability-control-tower.html">SAP Sustainability Control Tower</a> and <a href="https://www.sap.com/products/scm/sustainability-footprint-management.html">SAP Sustainability Footprint Management</a>.</p>
+  <p>“It is super important that we have a very robust core system in place because it will serve as the basis for all our other processes…and practically all niche applications focused on digital agriculture connect with this core with SAP,” Propp said. “SAP is an agribusiness market standard, and it makes perfect sense for S.Oleum to be part of this ecosystem.”</p>
+  <p>That’s a big deal because compliant, transparent ESG metrics are crucial to S.Oleum’s success, according to de Blanco.</p>
+  <h2 id="a-matter-of-trust">A Matter of Trust</h2>
+  <p>“Somewhere around one-third of our revenues come from carbon credits,” de Blanco said. “This is our, let’s say, core business…to convert sustainability into revenues and financial results.”</p>
+  <p>That will require trust. SAP core technologies, such as SAP S/4HANA Cloud and <a href="https://www.sap.com/sustainability.html">SAP Sustainability solutions</a>, will help S.Oleum keep that trust, thanks to a reliable foundation of sustainability data and robust, auditable ESG metrics for reporting.</p>
+  <p>“My advice for companies that are starting their sustainability endeavor: do it as quick as you can,” de Blanco said. “And do it attached to science.”</p>
+  <div class="quote">
+    <div>
+      <div>For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="https://www.sap.com/sustainability.html">www.sap.com/sustainability</a>.</div>
+    </div>
+    <div>
+      <div>Top photo credit S.Oleum</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[No Breaks for SAP Spend Management Solutions]]></title>
+            <link>https://www.sap.com/news/2023/07/no-breaks-sap-spend-management</link>
+            <guid>https://www.sap.com/news/2023/07/no-breaks-sap-spend-management</guid>
+            <pubDate>Thu, 27 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP spend management solutions continue to help our customers and gain recognition from trusted review sites. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-event/sap-spend-connect-live</category>
+            <category>topic/spend-management</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[BPaaS: Something You Can Rely On]]></title>
+            <link>https://www.sap.com/news/2023/06/bpaas-something-you-can-rely-on</link>
+            <guid>https://www.sap.com/news/2023/06/bpaas-something-you-can-rely-on</guid>
+            <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[When opting to use BPaaS, companies can redirect saved time from operational process optimization toward innovation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/bpaas</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/rpa</category>
+            <category>news-tag/sap-concur</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP S/4HANA Cloud Is Digital Foundation for Lifesaving Medicines of the Future]]></title>
+            <link>https://www.sap.com/news/2023/06/sap-s4hana-cloud-digital-foundation-zymeworks</link>
+            <guid>https://www.sap.com/news/2023/06/sap-s4hana-cloud-digital-foundation-zymeworks</guid>
+            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Biotech innovator Zymeworks builds a foundation for fast growth with SAP solutions, gaining industry best practices with less customization.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>industry/healthcare</category>
+            <category>industry/life-sciences</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-concur</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>news-tag/sap-successfactors</category>
+        </item>
+        <item>
+            <title><![CDATA[Majority Feel Business Travel Isn’t Offered Equally to All, SAP Concur Survey Finds]]></title>
+            <link>https://www.sap.com/news/2023/06/business-travel-sap-concur-survey</link>
+            <guid>https://www.sap.com/news/2023/06/business-travel-sap-concur-survey</guid>
+            <pubDate>Tue, 13 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP Concur Global Business Travel Survey explores challenges facing business travelers today. Here are this year's findings.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/sap-concur</category>
+        </item>
+        <item>
+            <title><![CDATA[A Winning Combination: SAP Customers and Our Spend Management Solutions]]></title>
+            <link>https://www.sap.com/news/2023/05/winning-combination-sap-customers-spend-management</link>
+            <guid>https://www.sap.com/news/2023/05/winning-combination-sap-customers-spend-management</guid>
+            <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Our commitment to delivering a complete set of SAP spend management solutions has only grown, as shown by the recognitions we've received.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/idc-marketscape</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>topic/spend-management</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[Lenovo Banks on SAP Digital Supply Chain Solutions]]></title>
+            <link>https://www.sap.com/news/2023/03/lenovo-banks-on-sap-digital-supply-chain-solutions</link>
+            <guid>https://www.sap.com/news/2023/03/lenovo-banks-on-sap-digital-supply-chain-solutions</guid>
+            <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Working with supply chain management solutions from SAP, Lenovo is taking its manufacturing processes to the next level. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-supply-chain</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-billing-and-revenue-innovation-management</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-s4hana-2</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Customers Continue to Solve Their Toughest Business Challenges with Spend Management Solutions]]></title>
+            <link>https://www.sap.com/news/2023/02/sap-customers-solve-business-challenges-with-spend-management-solutions</link>
+            <guid>https://www.sap.com/news/2023/02/sap-customers-solve-business-challenges-with-spend-management-solutions</guid>
+            <pubDate>Fri, 10 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Customers leverage our procurement, external workforce, travel, and supply chain solutions to help understand and solve business challenges.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/intelligent-spend</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>topic/spend-management</category>
+            <category>news-tag/trustradius</category>
+        </item>
+        <item>
+            <title><![CDATA[Supply Chain Due Diligence Acts: What You Should Know]]></title>
+            <link>https://www.sap.com/news/2023/01/lksg-supply-chain-due-diligence-acts-what-to-know</link>
+            <guid>https://www.sap.com/news/2023/01/lksg-supply-chain-due-diligence-acts-what-to-know</guid>
+            <pubDate>Mon, 09 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn what you need to know about LkSG and other supply chain due diligence acts that aim to create more transparent supply chains.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+        </item>
+        <item>
+            <title><![CDATA[Thriving Amid Uncertainty and Disruption: 2023 Predictions for Intelligent Spend Management and Business Network]]></title>
+            <link>https://www.sap.com/news/2022/12/2023-predictions-for-spend-management-business-network</link>
+            <guid>https://www.sap.com/news/2022/12/2023-predictions-for-spend-management-business-network</guid>
+            <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[How we deal with uncertainty and disruption can set us apart. Get the 2023 predictions for spend management and business networks.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-event/sap-spend-connect-live</category>
+        </item>
+        <item>
+            <title><![CDATA[Reflections on SAP Spend Connect Live: How We Are Earning Customer Trust]]></title>
+            <link>https://www.sap.com/news/2022/12/sap-spend-connect-live-recap-earning-customer-trust</link>
+            <guid>https://www.sap.com/news/2022/12/sap-spend-connect-live-recap-earning-customer-trust</guid>
+            <pubDate>Mon, 05 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this SAP Spend Connect Live recap, get the details on how SAP continues to earn customer trust as well as recent accomplishments.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a24b7a5adff5dc172e8a5a7c1d904d545aab9cee.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a24b7a5adff5dc172e8a5a7c1d904d545aab9cee.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a24b7a5adff5dc172e8a5a7c1d904d545aab9cee.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Reflections on SAP Spend Connect Live: How We Are Earning Customer Trust" src="./media_1a24b7a5adff5dc172e8a5a7c1d904d545aab9cee.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="reflections-on-sap-spend-connect-live-how-we-are-earning-customer-trust">Reflections on SAP Spend Connect Live: How We Are Earning Customer Trust</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The events of recent weeks — SAP Spend Connect Live, a slew of industry accolades, and most importantly the trust our customers have shown us — have put a permanent smile on my face.</div>
+    </div>
+  </div>
+  <p><a href="https://www.sap.com/about/events/spend-connect-live.html">SAP Spend Connect Live</a> in Dallas was incredible. Attendees were engaged in the conference and passionate about the important work they do. But most gratifying were my conversations with customers, who spoke about how they trust SAP to help them solve large, complex problems. Things like economic challenges, supply chain disruptions, and sustainability, along with environmental, social, and governance (ESG) goals: these are challenges SAP is uniquely qualified to address, and we’ve made it our purpose to help our customers tackle them.</p>
+  <p>It was an honor to <a href="https://www.sap.com/assetdetail/2022/11/823c1eda-4c7e-0010-bca6-c68f7e60039b.html">share the SAP Spend Connect Live stage</a> with Christine Hipp of Los Alamos National Labs (pictured below), who spoke about a successful transformation with SAP Ariba and SAP Fieldglass solutions. Likewise, we were all fascinated by Patricia Miller’s account of Accenture’s internal services spend journey with SAP Fieldglass.</p>
+  <p>We came to Dallas to hear from SAP customers like these — and we were not disappointed.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1ab0014b1b6bc9d525c8ed7d2becdf7cff9e12028.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1ab0014b1b6bc9d525c8ed7d2becdf7cff9e12028.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1ab0014b1b6bc9d525c8ed7d2becdf7cff9e12028.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1ab0014b1b6bc9d525c8ed7d2becdf7cff9e12028.png?width=750&#x26;format=png&#x26;optimize=medium" width="2250" height="1500">
+    </picture>
+  </p>
+  <p><em>© LILA PHOTO</em></p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-the-sap-spend-connect-virtual-experience">Explore the SAP Spend Connect Virtual Experience</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/about/events/spend-connect-live.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="recognitions-accolades-and-awards">Recognitions, Accolades, and Awards</h2>
+  <p>SAP Spend Connect Live was a great moment for SAP and the organizations that use our solutions to run their business. In fact, more than a few customers told me we should “brag a little more” about what we’re doing.</p>
+  <p>I won’t do that, but I would like to share some of the accolades that our solutions and our customers have received in the past few months.</p>
+  <p><strong>SAP Ariba</strong></p>
+  <ul>
+    <li>SAP Named a Leader for the seventh consecutive time in the <a href="https://www.ariba.com/resources/library/library-pages/2022-gartner-magic-quadrant-for-procure-to-pay-suites">2022 Gartner® Magic Quadrant™ for Procure-to-Pay Suites</a> for SAP Ariba</li>
+    <li>SAP was recognized in the <a href="https://www.ariba.com/resources/library/library-pages/2022-gartner-critical-capabilities-for-procure-to-pay-suites">2022 Gartner Critical Capabilities for Procure-to-Pay Suites</a> among the three highest vendors across all the five Gartner Use Cases and ranked highest for the Use Case Service Focused</li>
+    <li>No. 1 in Procure-to-Pay, <a href="https://www.g2.com/reports/63afc547-2264-438d-91af-1b7b929e30b9/preview">G2 Fall 2022 Grid® Reports</a></li>
+    <li>Top Rated Procurement Software award, TrustRadius</li>
+    <li>No. 1 leading procurement software provider, <em><a href="https://supplychaindigital.com/procurement/top-10-sap-oracle-lead-way-on-procurement-solutions">Supply Chain Digital</a></em></li>
+    <li>Procurement Platform, <em><a href="https://procurementmag.com/magazine/procurement-magazine-november-2022">Procurement Magazine</a></em></li>
+  </ul>
+  <p><strong>SAP Concur</strong></p>
+  <ul>
+    <li>No. 1 for Worldwide Travel and Expense Management Software, <a href="https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.concur.com%2Fen-us%2Fresource-center%2Freports%2Fidc-worldwide-travel-and-expense-management-software-market-shares-2021&#x26;data=05%7C01%7Cmike.conners%40sap.com%7Cf0072dc7a5b6487c8e3b08dabce6abc3%7C42f7676cf455423c82f6dc2d99791af7%7C0%7C0%7C638029996180986109%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&#x26;sdata=aFgPT7hdI8WoAO%2B%2BsYONCoMMaGZIclfHWNhjKz4SfRY%3D&#x26;reserved=0">IDC</a></li>
+    <li>No. 1 leader in Expense Management, Travel and Expense Management, and Invoice Management, <a href="https://www.g2.com/reports">G2 Fall 2022 Grid® Reports</a></li>
+    <li>2022 Top-Rated Software (Concur Travel &#x26; Expense), <a href="https://www.trustradius.com/expense-management#bestof">TrustRadius</a></li>
+    <li>No. 1 in ZDNet’s list of the five best travel planner apps (TripIt), <a href="https://www.zdnet.com/article/best-trip-planner-app/">ZDNet</a></li>
+  </ul>
+  <p><strong>SAP Fieldglass</strong></p>
+  <ul>
+    <li>No. 1 in Strategic Sourcing, <a href="https://www.g2.com/reports/c2ce88b3-670a-4d70-8077-78fe942e0b20/preview">G2 Fall 2022 Grid® Reports</a></li>
+    <li>Market Leader, <a href="http://ardentpartners.com/">Ardent Partners</a>’ 2022 Vendor Management System (VMS) Technology Advisor</li>
+  </ul>
+  <p>SAP Fieldglass and SAP Ariba were also selected for Spend Matters’ <a href="https://spendmatters.com/almanac/50-to-know-2022/">50 Procurement Providers to Know for 2022</a>. And Capgemini, an SAP Fieldglass customer, is the winner in the “Innovations in Talent” category of the <a href="https://futureofsourcing.com/innovations-in-talent-management-sap-capgemini">Sourcing Industry Group (SIG)</a> Future of Sourcing Awards.</p>
+  <h2 id="beyond-the-accolades">Beyond the Accolades</h2>
+  <p>While it is great to receive industry accolades, at the end of the day, our truest measure of success lies with our customers. This quarter, hundreds of SAP customers worldwide — including Chow Tai Fook Jewellery Group, the City of Vienna, Austria, The Pennsylvania State University, Dole Asia Holdings Pte., Ltd, and Hapag-Lloyd Aktiengesellschaft — are engaging with SAP, either for the first time or by expanding their footprint, to leverage our market-leading procurement, travel management, and supply chain finance solutions.</p>
+  <p>Here are a few of their stories:</p>
+  <ul>
+    <li><a href="https://www.chowtaifook.com/en/">Chow Tai Fook Jewellery Group Limited</a> is a top jewelry brand with a huge retail network in China and the rest of the world. To support the group’s strategy to drive sustainable growth empowered by technology, the company chose SAP Ariba software to build its unified digital procurement system, deploy procurement in the cloud, improve end-to-end visibility and efficiency, reduce procurement cost, and greatly improve business efficiency.</li>
+    <li><a href="https://www.psu.edu/">The Pennsylvania State University</a> has been using SAP Concur solutions for more than 15 years. This quarter, it chose to expand that partnership as it has seen an increase in student, faculty, and administrator travel and expense management requirements.</li>
+    <li><a href="https://www.dolenz.co.nz/about/about-dole">Dole Asia Holdings Pte., Ltd</a>. is a Singapore-based, global consumer food and beverage company that produces and distributes fresh and packaged fruit products. It has chosen <a href="/2022/03/sap-completes-acquisition-of-taulia">Taulia</a>, part of SAP, for Taulia Dynamic Discounting and Taulia Supply Chain Finance on the Taulia multi-funder network. This will enable the company to strengthen its supply chain by improving the financial resilience of suppliers, therefore improving sustainability.</li>
+  </ul>
+  <h2 id="another-reason-to-smile">Another Reason to Smile</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-news-and-coverage-from-sap-spend-connect-live">Read more news and coverage from SAP Spend Connect Live</h3>
+      </div>
+      <div><strong><a href="news.sap.com/tags/sap-spend-connect-live">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>I am also proud that our team considers it our purpose to lend a hand to the people who have served our nation. We are thrilled to announce that Nettie, short for “Network,” the beautiful service dog our North America sales team helped to sponsor, is now a graduate of the <a href="https://k9sforwarriors.org">K9s For Warriors</a> program. She has joined her Warrior, Kevin, and we wish them a wonderful life together.</p>
+  <h2 id="our-customers-moment">Our Customers’ Moment</h2>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_18e2063e48f8dcabc916ceaa42618a59591b8258b.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_18e2063e48f8dcabc916ceaa42618a59591b8258b.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_18e2063e48f8dcabc916ceaa42618a59591b8258b.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Kevin and Nettie" src="./media_18e2063e48f8dcabc916ceaa42618a59591b8258b.png?width=750&#x26;format=png&#x26;optimize=medium" width="2250" height="1496">
+    </picture>
+  </p>
+  <p>As we near the end of 2022, we are working harder than ever to help our current customers, as well as customers we haven’t met yet, to address their biggest challenges and achieve their business goals — always with purpose; now, with a smile.</p>
+  <h2 id="experience-sap-spend-connect-live-virtually">Experience SAP Spend Connect Live virtually</h2>
+  <p>If you were not able to join us in Dallas, check out the <a href="https://www.sap.com/about/events/spend-connect-live.html">SAP Spend Connect Virtual Experience</a>. This on-demand forum will share recordings of the keynotes and select breakout sessions from the conference. It will also feature additional, recorded sessions not seen at SAP Spend Connect Live.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <p><em>Jeff Collier is chief revenue officer for SAP Intelligent Spend and Business Network.</em></p>
+        <p>GARTNER is a registered trademark and service mark of Gartner and Magic Quadrant is a registered trademark of Gartner, Inc. and/or its affiliates in the U.S. and internationally and are used herein with permission. All rights reserved.<br>Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.</p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-event/sap-spend-connect-live</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Apps to Download for Your Next Trip]]></title>
+            <link>https://www.sap.com/news/2022/11/five-travel-apps-download-next-trip</link>
+            <guid>https://www.sap.com/news/2022/11/five-travel-apps-download-next-trip</guid>
+            <pubDate>Fri, 25 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn more about five travel apps that should sit alongside TripIt on your phone for easier trips and travels.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Jingle Bells and Flight Alerts – Travel Smart This Holiday Season]]></title>
+            <link>https://www.sap.com/news/2022/11/the-take-smart-holiday-travel</link>
+            <guid>https://www.sap.com/news/2022/11/the-take-smart-holiday-travel</guid>
+            <pubDate>Thu, 17 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In one of the busiest holiday travel seasons in recent years, TripIt can help travelers navigate. Get SAP's take.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Take: Jingle Bells and Flight Alerts – Travel Smart This Holiday Season" src="./media_1cfc99e7852a08ae4b9ae0ca5ec80f8611ead6f3b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="the-take-jingle-bells-and-flight-alerts--travel-smart-this-holiday-season">The Take: Jingle Bells and Flight Alerts – Travel Smart This Holiday Season</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>What’s News</strong></div>
+    </div>
+  </div>
+  <p>This holiday travel season is expected to be among the <a href="https://www.wsj.com/articles/this-thanksgiving-is-expected-to-be-one-of-the-busiest-for-travel-in-decades-11668532148?mod=hp_listb_pos1">busiest</a> and <a href="https://www.nbcnews.com/business/consumer/airline-tickets-cheap-or-expensive-holiday-season-2022-rcna52261">most expensive</a> in years. Travel industry experts are sharing their tips for a better travel experience.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-travel-expense-and-invoice-management-for-total-visibility-and-control">Connect travel, expense, and invoice management for total visibility and control</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/spend-management/travel-and-expense-management.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="saps-take">SAP’s Take</h2>
+  <p>The trend of “making up for lost travel time,” a knock-on effect of the <a href="/topics/covid-19">pandemic</a>, continues into the holiday season. Despite inflation and high ticket prices, people are as determined as ever to travel this holiday season — and into 2023.</p>
+  <p>“Just about every TripIt user (99%) is planning a trip for the year ahead,” said Jen Moyse, vice president of product, <a href="https://www.tripit.com/">TripIt</a> from SAP Concur, a travel app that helps people organize and manage their travel plans. “Nearly one in three are planning a Christmas and New Year’s trip and one in four said they’ll travel for Thanksgiving. That’s more than what we heard last year. When we asked the same question <a href="https://www.tripit.com/web/blog/news-culture/american-travelers-practice-cautious-optimism-booking-trips">last fall</a>, only 27% of respondents said they’d travel for the winter holidays and just 19% for Thanksgiving.”</p>
+  <p>In fact, <a href="https://www.tripit.com/web/blog/news-culture/tripit-data-thanksgiving-2022">Thanksgiving travel reservations</a> stored in the TripIt app are up from 2021 for domestic flights (45%), international flights (117%), car rentals (35%), lodging (46%) and vacation rentals (26%).</p>
+  <h2 id="be-prepared">Be Prepared</h2>
+  <p>Summer travel was exceptionally turbulent, with flight delays and cancellations disrupting travel for 57% of TripIt users, according to a <a href="https://www.tripit.com/web/blog/news-culture/tripit-survey-shoulder-season-travel">recent survey</a>. While the travel industry has learned from the experience, 93% of the people who plan to travel over the holidays say they will adjust their behaviors to accommodate potential cancellations and delays.</p>
+  <p>“Some will arrive at the airport earlier than they have in the past (52%), while others will be more selective with the travel providers they use (45%) and nearly as many (44%) will plan ahead for a delay and come bearing snacks and reading material,” Moyse said. “Almost half of travelers are planning not to check a bag, which is a good way to ease the stress of the unknown and keep a few factors of their trip in their control.”</p>
+  <h2 id="be-early">Be Early</h2>
+  <p>This may be the most expensive holiday travel season in recent years, according to <a href="https://www.cnbc.com/2022/09/12/thanksgiving-christmas-travel-to-lift-airfare.html">industry experts</a>. TripIt survey findings reveal that approximately half of respondents say they are spending more money on travel due to inflation (52%), rising airfare (49%) and gas prices (29%).</p>
+  <p>Moyse said that the best way to prepare is to expect and budget for higher prices. She advised booking travel early to avoid sell-outs. She shared her tips: “Check your saved-up points and miles, set alerts for travel deals, use a tool like Fare Tracker in TripIt Pro to secure refunds or investigate programs your credit card provides. Consider looking at flights that might be less desirable for others, like red-eyes or flights on the holidays themselves.”</p>
+  <p>If you plan to travel in 2023, she advised, “It’s safe to assume travel prices will remain high for the foreseeable future, so if you want to make travel a priority, budget accordingly and evaluate the number or types of trips you’re planning to take.”</p>
+  <h2 id="be-flexible">Be Flexible</h2>
+  <p>Plan for the unexpected and you won’t be disappointed, so goes the saying that seems to perfectly describe holiday travel. Indeed, there is a higher probability of travel disruptions around Thanksgiving and the winter holidays in part due to labor shortages and inclement weather. “Build in buffer days for important events, and regularly monitor your flight should the time change or any other adjustments be made to the schedule,” Moyse said.</p>
+  <p>“To avoid holiday mishaps, travelers who have flexibility should avoid the busiest travel days,” she said. “<a href="https://www.tripit.com/web/blog/news-culture/tripit-data-thanksgiving-2022">This Thanksgiving</a>, the busiest travel days will be Wednesday, November 23, followed by Tuesday, November 22. Plan for crowds and long lines, especially at Hartsfield-Jackson Atlanta International Airport, Boston Logan International Airport, Denver International Airport, and Dallas Fort Worth International Airport.”</p>
+  <div class="footnote">
+    <div>
+      <div><strong>Contact:</strong> Ilaina Jonas, Senior Director of <a href="/press-room">Global Public Relations</a>, SAP<br>+1 (646) 923-2834, <a href="mailto:ilaina.jonas@sap.com">ilaina.jonas@sap.com</a></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/the-take</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[Canceled or Delayed Flight? TripIt Can Help with Compensation]]></title>
+            <link>https://www.sap.com/news/2022/11/canceled-flight-compensation-tripit-airhelp</link>
+            <guid>https://www.sap.com/news/2022/11/canceled-flight-compensation-tripit-airhelp</guid>
+            <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[When it comes to overbooked, delayed, or canceled flight compensation, TripIt and AirHelp offer users support for navigating options.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Announces Winners of the SAP Global Intelligent Spend and Business Network Partner Excellence Awards 2022]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-global-intelligent-spend-and-business-network-partner-excellence-awards-2022</link>
+            <guid>https://www.sap.com/news/2022/10/sap-global-intelligent-spend-and-business-network-partner-excellence-awards-2022</guid>
+            <pubDate>Tue, 25 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Global Intelligent Spend and Business Network Partner Excellence Awards were presented at SAP Spend Connect Live in Dallas.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-award/sap-global-lob-partner-excellence-awards</category>
+            <category>sap-event/sap-spend-connect-live</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Rounds Up Big Innovations in Spend Management at SAP Spend Connect Live]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-spend-connect-live-spend-management-innovations</link>
+            <guid>https://www.sap.com/news/2022/10/sap-spend-connect-live-spend-management-innovations</guid>
+            <pubDate>Tue, 25 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP Spend Connect Live, SAP announced spend management innovations and milestones. Get the news from the event.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-business-network</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-fieldglass</category>
+            <category>sap-event/sap-spend-connect-live</category>
+        </item>
+        <item>
+            <title><![CDATA[Five Ways to Make the Most of Traveling This Fall]]></title>
+            <link>https://www.sap.com/news/2022/10/five-ways-to-make-the-most-of-fall-travel</link>
+            <guid>https://www.sap.com/news/2022/10/five-ways-to-make-the-most-of-fall-travel</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[According to new TripIt data, 85% of Americans are planning fall travel. Get tips on maximizing your trips from SAP Concur experts.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Know Before You Go Can Make Bleisure Trips Fun – and Reimbursable]]></title>
+            <link>https://www.sap.com/news/2022/10/the-take-bleisure-fun-reimbursable</link>
+            <guid>https://www.sap.com/news/2022/10/the-take-bleisure-fun-reimbursable</guid>
+            <pubDate>Mon, 03 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bleisure, or blending business travel with personal vacation or leisure, is taking off. Get SAP's take on the practice.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>content-type/perspective</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/the-take</category>
+            <category>news-tag/tripit</category>
+        </item>
+        <item>
+            <title><![CDATA[New Global Survey Considers Business Travel’s Talent Implications]]></title>
+            <link>https://www.sap.com/news/2022/06/sap-concur-global-business-traveler-report-talent-implications</link>
+            <guid>https://www.sap.com/news/2022/06/sap-concur-global-business-traveler-report-talent-implications</guid>
+            <pubDate>Thu, 09 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP Concur Global Business Traveler Report was unveiled during SAP Concur Travel Industry Summit with key findings across seven markets.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/cloud</category>
+            <category>topic/erp</category>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-concur</category>
+        </item>
+        <item>
+            <title><![CDATA[Cirque du Soleil Entertainment Group Taps RISE with SAP to Drive Intelligent Enterprise Strategy]]></title>
+            <link>https://www.sap.com/news/2021/11/cirque-du-soleil-entertainment-group-rise-with-sap</link>
+            <guid>https://www.sap.com/news/2021/11/cirque-du-soleil-entertainment-group-rise-with-sap</guid>
+            <pubDate>Mon, 01 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cirque du Soleil Entertainment Group has expanded its relationship with SAP, investing in RISE with SAP to support global growth.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_156abd619041804682268f89108a7aaab035ebf4d.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_156abd619041804682268f89108a7aaab035ebf4d.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_156abd619041804682268f89108a7aaab035ebf4d.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Cirque du Soleil Entertainment Group Taps RISE with SAP to Drive Intelligent Enterprise Strategy" src="./media_156abd619041804682268f89108a7aaab035ebf4d.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="cirque-du-soleil-entertainment-group-taps-rise-with-sap-to-drive-intelligent-enterprise-strategy">Cirque du Soleil Entertainment Group Taps RISE with SAP to Drive Intelligent Enterprise Strategy</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="rise-with-sap-transform-your-business-in-the-way-that-works-best-for-you">RISE with SAP: Transform your business in the way that works best for you</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/rise.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced that Cirque du Soleil Entertainment Group has expanded its relationship with SAP by investing in SAP’s business-transformation-as-a-service offering, RISE with SAP, to further the entertainment company’s intelligent enterprise journey.</p>
+      </div>
+    </div>
+  </div>
+  <p>Cirque du Soleil Entertainment Group will upgrade its existing SAP ECC 6.0 environment to SAP S/4HANA Cloud on Microsoft Azure and integrate other modular cloud solutions including SAP Ariba, SAP SuccessFactors and SAP Concur software. Where highly unique processes are required, SAP Business Technology Platform will be used to innovate.</p>
+  <p>“Embracing an intelligent enterprise strategy will simplify our business and support the organization’s global growth strategy,” said Philippe Lalumière, vice president, Information Technology, Cirque du Soleil Entertainment Group. “Having the ability to quickly pivot, scale and create new, engaging fan experiences has never been more important given the impact the global pandemic has had on the entertainment industry. RISE with SAP and SAP S/4HANA will help power our ability to deliver on these goals.”</p>
+  <p>“People around the world love Cirque du Soleil for the performers’ incredible agility, flexibility, coordination and talent,” said SAP North America President DJ Paoni. “This partnership is all about helping Cirque du Soleil embrace and incorporate these same values in its day-to-day operations as a company.”</p>
+  <p>This project is the latest step in SAP and Cirque du Soleil Entertainment Group’s ongoing, innovation-driven partnership aimed at delivering new and exciting experiences to audiences around the world using the power of technology. Cirque du Soleil Entertainment Group became an SAP customer in 2001 to help transform its business to be the leading entertainment company in the world — a two-decade milestone both organizations are excited to celebrate in the months to come.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Justin Wolz, +1 (919) 306-7084, <a href="mailto:j.wolz@sap.com">j.wolz@sap.com</a>, ET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/technology</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>industry/media: industry/sports-entertainment</category>
+            <category>news-tag/rise-with-sap</category>
+            <category>news-tag/sap-ariba</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-concur</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+    </channel>
+</rss>

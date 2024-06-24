@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/industry/agribusiness/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 26 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[How Farmers Harvest New Insights with Generative AI]]></title>
+            <link>https://www.sap.com/blogs/how-farmers-harvest-new-insights-with-generative-ai</link>
+            <guid>https://www.sap.com/blogs/how-farmers-harvest-new-insights-with-generative-ai</guid>
+            <pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Agribusiness players are using generative AI to find more and better data to improve yields and manage natural resources.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_110073b3f26e477cf3ec92294b3cc1fa8cd859357.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_110073b3f26e477cf3ec92294b3cc1fa8cd859357.png?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/png" srcset="./media_110073b3f26e477cf3ec92294b3cc1fa8cd859357.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Farmer analyzing corn crop using a tablet with AI technology" src="./media_110073b3f26e477cf3ec92294b3cc1fa8cd859357.png?width=750&#x26;format=png&#x26;optimize=medium" width="3840" height="1044">
+          </picture>
+        </p>
+        <h1 id="how-farmers-harvest-new-insights-with-generative-ai">How Farmers Harvest New Insights with Generative AI</h1>
+        <p>Agribusiness players are using generative AI to find more and better data to improve yields and manage natural resources.</p>
+      </div>
+    </div>
+  </div>
+  <p>By Eric Somitsch and Tam Harbert</p>
+  <p>Imagine a farmer in India growing millet on two acres of land. Rain has been scarce this year, and a new type of pest ate much of his crop. He’s concerned that his tried-and-true practices are not as effective as they used to be, and he’s wondering what might increase his odds of a better harvest next season. He pulls out his phone and asks an AI chatbot, which provides him with recommendations.</p>
+  <p>This scenario represents a new use of generative AI in agriculture and illustrates a new opportunity to bring innovations to the world’s farmlands.</p>
+  <p>Generative AI promises benefits for society at large as well as for the agriculture industry, from smallholder farmers to larger cooperatives to the giant players in commodity crops, seeds, fertilizers, and pesticides. The extent to which the industry has begun experimenting with targeted uses of generative AI offers multiple lessons learned for other business sectors.</p>
+</div>
+<div>
+  <h2 id="more-on-agriculture-at-sap-insights">More on Agriculture at SAP Insights</h2>
+  <p>“<a href="/resources/how-ai-transforms-agriculture">How AI Transforms Agriculture</a>”: Next-generation farming processes promise higher yields, greater efficiency, and better sustainability, all of which will improve business performance.</p>
+  <p>“<a href="/blogs/the-future-of-feeding-the-world">The Future Feeding of the World</a>”: How intelligent technologies can help the agricultural industry to lift poor farmers and heal the planet.</p>
+  <div class="section-metadata">
+    <div>
+      <div>Style</div>
+      <div>Additional Reading</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>More than ever, farmers need to make <a href="/blogs/the-future-of-feeding-the-world">more efficient use of natural resources</a> such as soil, seed, and water and lessen the toll that farming takes on the environment through methane generation, pesticide use, and other factors. The food system generates about one-third of greenhouse gas emissions globally, according to <a href="https://www.un.org/en/actnow/food">the United Nations</a>. Consumers are demanding more sustainably grown products, as Harvard Business Review <a href="https://hbr.org/2023/09/research-consumers-sustainability-demands-are-rising">points out</a>. At the same time, agriculture is part of the climate; for example, when farmers grow perennial crops, their soils <a href="https://climate.mit.edu/explainers/soil-based-carbon-sequestration">store more carbon</a>. But agriculture is also vulnerable to extreme weather patterns that are causing more floods, droughts, and wildfires.</p>
+  <p>In agriculture, AI is already being used to improve food production and sustainability. For example, Vista GmbH, a subsidiary of BayWa, Germany’s largest digital agriculture company, uses satellite data and AI models to forecast and improve yields in a project with SAP. Such tools can analyze data in ways that help farmers produce more food more sustainably for the earth’s growing population while also helping them adapt to a changing climate. They can also produce reliable data on sustainability for shareholders and government bodies.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="an-ai-copilot">An AI Copilot</h3>
+        <p>Introducing Joule, a natural language GenAI copilot.</p>
+        <p><strong><a href="https://www.sap.com/products/artificial-intelligence/ai-assistant.html">Learn more</a></strong></p>
+      </div>
+    </div>
+  </div>
+  <p>Such data is increasingly important. Agriculture’s role in climate change was highlighted in November 2023 at COP28, the United Nations Climate Change Conference, where 159 countries signed the United Arab Emirates (UAE) Declaration on Sustainable Agriculture, Resilient Food Systems, and Climate Action. Through <a href="https://www.cop28.com/en/food-and-agriculture">this declaration</a>, countries committed to improving sustainable farming practices and pledged to include agricultural emissions in their next round of climate targets. In addition, the United States and the UAE committed about $17 billion toward agricultural innovations to address climate change.</p>
+  <p>With the added capabilities of generative AI, farmers and their advisors can more quickly and directly access agronomic data and analysis, enabling them to make near-real-time decisions about soil treatments, seed varieties, and market conditions. Using chatbots, farmers can ask natural language questions in their native languages (When should I plant this crop? How much and what kind of fertilizer should I apply?) and get answers that any farmer, regardless of their training or background, can understand.</p>
+  <p>For agricultural companies, generative AI can gather and crunch even more granular and timely information and analysis that help them improve their products, customer service, and processes and operations to better meet business goals – including sustainability targets.</p>
+  <p>While the promise is there, agricultural companies will need to carefully navigate four key areas as they implement generative AI:</p>
+  <ol>
+    <li>Data quality and model training</li>
+    <li>Risks associated with the application of generative AI, such as false information</li>
+    <li>The need to ensure that IT systems and operational processes are set up to use generative AI</li>
+    <li>Developing trust in these systems and their results so that farmers use the technology</li>
+  </ol>
+  <p>This article describes two examples of generative AI in use today and discusses how companies can reap the benefits and reduce the risks in each of these four areas.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1e4196c8a2009a17481771df4d40261adadbeadf1.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1e4196c8a2009a17481771df4d40261adadbeadf1.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1e4196c8a2009a17481771df4d40261adadbeadf1.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Person of color using digital tablet for analysis of farm" src="./media_1e4196c8a2009a17481771df4d40261adadbeadf1.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="example-1-generative-ai-chatbot-provides-fast-advice-to-smallholder-farmers">Example 1: Generative AI chatbot provides fast advice to smallholder farmers</h2>
+  <p>With the increased reliance on data in farming, every major player in agriculture is experimenting with generative AI – and the first application to find traction is a virtual agronomist chatbot. That’s because the ROI is clear: the cost of providing a chatbot is low in comparison to regularly sending human agronomists to remote areas, and the potential benefits are high. Specifically, a chatbot’s ability to access and analyze data on weather patterns, plant genetics, pesticides, soil chemistry, and other areas offers farmers direct, immediate help in improving their agricultural practices.</p>
+  <p>In India, agriculture is a major contributor to the gross domestic product, employing nearly half the population directly or indirectly, <a href="https://analyticsindiamag.com/generative-ai-already-finding-multiple-use-cases-agriculture/">notes</a> Analytics India Magazine. Yet these farms are very small; the average size is just 1.08 hectares (about 2.5 acres), <a href="https://www.fortuneindia.com/opinion/how-to-put-indian-agriculture-back-on-growth-path/113125">reports</a> Fortune India. Half lack basic farming equipment, and three-quarters are at risk of crop damage from pests and weather, according to a May 2023 McKinsey <a href="https://www.mckinsey.com/industries/agriculture/our-insights/how-agtech-is-poised-to-transform-india-into-a-farming-powerhouse">report</a>.</p>
+  <p>Digital Green, a global nonprofit that builds technology to help farmers in developing nations, began rolling out an AI assistant in 2023 with farmers in India, Kenya, and Ethiopia. The assistant, a chatbot built into Telegram, initially targets agricultural extension agents, who are professionals providing training and information for farmers. Such agents can be few and far between – the ratio is as low as one agent for every 1,000 farmers in some areas – which makes it hard to provide timely, accurate, localized advice, says Jona Repishti, Digital Green’s head of global gender programs.</p>
+  <p>“Extension agents play a critical role in helping smallholder farmers get the information they need to be climate-resilient and get better yields at a time when there is soil degradation and new types of pests,” says Repishti. “But this requires them to be experts in plant genetics, soil health, new types of seeds, climatology, and market and government regulations.”</p>
+  <p>In some cases, agents may spend a week to research a problem and deliver an answer, which is often too late. “Agriculture is very time-sensitive,” says Repishti. “You need the right information now or pests quickly devastate your crop.”</p>
+  <p>Digital Green built the AI assistant to improve communication and advice to farmers, thereby increasing the speed and effectiveness of extension agents – which in turn will increase farmers’ faith in the agents’ advice.</p>
+  <p>Digital Green expects to have the chatbot in the hands of 10,000 agents by the end of 2024. In the early phases of the rollout, the agents used it in several ways: to research across volumes of scientific reports and papers, to quickly answer farmers' questions in the field, and to present information to groups at meetings. The agents have also begun sharing the chatbot with farmers to use directly, says Repishti. Eventually, Digital Green expects the chatbot to incorporate local market data so that a farmer could ask a question such as, “What is the most profitable crop to grow, given variables such as the costs for supplies like seeds and pesticides and local selling prices for certain crops or livestock?,” according to Repishti.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1096004fb2c967e673c70d964e8b17503d58c47df.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1096004fb2c967e673c70d964e8b17503d58c47df.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_1096004fb2c967e673c70d964e8b17503d58c47df.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Farmer with digital tablet inspecting cows feeding from trough on dairy farm" src="./media_1096004fb2c967e673c70d964e8b17503d58c47df.png?width=750&#x26;format=png&#x26;optimize=medium" width="1958" height="1648">
+    </picture>
+  </p>
+  <h2 id="example-2-milking-more-data-from-cows">Example 2: Milking more data from cows</h2>
+  <p>Datamars, a company based in Switzerland, also develops technology to help farmers become more sustainable. Datamars initially sold radio-frequency ID tags to track farm animals, but today it has a strategic focus on both hardware and software to enable smart farming, according to Kevin Coffey, the company’s global head of smart farming.</p>
+  <p>In early 2023, Datamars acquired the sensor business of a technology partner, Connecterra, which has built software that provides data to farmers, their advisors, and agricultural companies. Today, the two companies offer a service that uses data from sensor-chipped animals to create insights for farmers as well as the Connecterra software to crunch data and create insights for farm-supporting partners such as advisors and feed companies. The service helps farmers better manage their animals and in turn provides data that helps companies meet sustainability targets.</p>
+  <p>Through networked sensors – “like Fitbits for cows,” says Coffey – a farmer can see the individual characteristics and behavior of each animal, including eating, rumination, and even estrus, or fertility status. That helps farmers better manage their animals, and, says Coffey, “Good farming and sustainability are synergistic.”</p>
+  <p>For example, dairy farmers want the cows to be “in calf” as much as possible to maximize milk production, so they can improve collection rates by tracking estrus – which means they don’t need to buy more cows to maintain the same level of milk production. Fewer cows also means less methane, a significant contributor to global warming, Coffey explains. Large dairy processors and slaughterhouses need this information to show customers that their milk and beef is produced in a sustainable way, he notes.</p>
+  <p>Given how fast generative AI is developing, it may not be long before other agricultural apps are in the field. (See sidebars: Computer Vision in Farming Equipment and Developing New Crop Breeds Faster.)</p>
+</div>
+<div>
+  <h2 id="computer-vision-in-farming-equipment">Computer Vision in Farming Equipment</h2>
+  <p>Some equipment, such as tractors and sprayers, already incorporate cameras and use AI to examine images to spot weeds and spray herbicide in just the right places. This reduces herbicide use and costs for farmers. For example, John Deere uses machine vision in its agricultural equipment, Vision Systems Design <a href="https://www.vision-systems.com/non-factory/environment-agriculture/article/14293351/john-deere-uses-machine-vision-and-machine-learning-to-automate-agriculture">reports</a>.</p>
+  <p>Traditionally, training such AI requires a lot of images and tedious work, says Vikram S. Adve of the University of Illinois at Urbana-Champaign, where he is the Donald B. Gillies professor of computer science and director of the AIFARMS (Artificial Intelligence for Future Agricultural Resilience, Management, and Sustainability) Institute. “This supervised machine learning is very expensive and requires certain expertise,” says Adve.</p>
+  <p>By using the foundational image models now available, which have been trained on very large but general data on all sorts of images, companies could fine-tune agricultural vision apps using synthetic images that are quickly generated by generative AI. This dramatically reduces the time and expense required to train AI to spot particular things such as specific indications of disease.</p>
+  <p>Datamars is already evaluating such an application through a collaboration with Serket, a company that develops AI-based vision systems for livestock, according to Kevin Coffey, Global Head of Smart Farming at Datamars. AI trained on a foundation model might recognize a cow as distinct from a goat, for example. But generative AI could further train the model to distinguish between different behaviors of those animals and potentially identify the early onset of disease.</p>
+  <div class="section-metadata">
+    <div>
+      <div>Style</div>
+      <div>Additional Reading</div>
+    </div>
+  </div>
+</div>
+<div>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_17af7f0ac0a6480d769585288d93b885ac33844ef.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_17af7f0ac0a6480d769585288d93b885ac33844ef.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_17af7f0ac0a6480d769585288d93b885ac33844ef.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Close-up image of wheat field with sunset in the background" src="./media_17af7f0ac0a6480d769585288d93b885ac33844ef.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <h2 id="key-takeaways-risks-and-rewards">Key takeaways: Risks and rewards</h2>
+  <p>Generative AI holds great promise for agriculture, but companies seeding new applications should pay special attention to the following factors.</p>
+  <p><em>Data and model training</em></p>
+  <p>All agriculture is local – so for generative AI to be useful, it requires specific, localized data. Climate, soils, diseases, growing practices, and many other factors differ significantly from one region to another. “The answers you get to the same question about the same crop and even the same climate conditions could be quite different in central Illinois versus Mexico versus other corn-growing regions of the world,” explains Vikram S. Adve of the University of Illinois at Urbana-Champaign, where he is the Donald B. Gillies professor of computer science and director of the AIFARMS (Artificial Intelligence for Future Agricultural Resilience, Management, and Sustainability) Institute. That means generative AI must be trained not only on domain-specific data but on location-specific data.</p>
+  <p>That presents a twofold challenge – first, being able to gather and use the data. Some data, such as weather data, is publicly available, but some, such as details on specific types of seeds developed by specific companies, might be proprietary, which raises legal risk. In addition, if companies are collecting and analyzing data from individual farms, they need to adhere to data privacy rules and make sure they have the express permission of farmers.</p>
+  <p>Second, such specificity makes model training more complicated. While ChatGPT – which is trained on information from the Internet – might be a start, agricultural chatbots need to be trained on trusted data sets, such as peer-reviewed agricultural research and best practices. But since farming is local, that training also requires specific data on regional variations in weather patterns, typical crops grown in that geography, and even market conditions in specific areas.</p>
+  <p>Digital Green’s Repishti says the organization has developed databases for select high-value crops. In Ethiopia and Kenya, the chatbot supports over 40 value chains, including potato and rice, which are among the major crops in those countries. It plans to expand the databases to additional crops and livestock.</p>
+  <p>But static databases may not be enough to enable the chatbot to answer highly specific questions in a changing context. So Digital Green is working to enable the chatbot to connect with dynamic databases through retrieval augmented generation (RAG) as well as fine-tuning the language models to keep up with farmers’ changing needs. In this way, the chatbot could access the most recent data on commodity markets and selling prices, for example.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_173100acba53307e783d8c5f7313694a98fb81fde.png?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_173100acba53307e783d8c5f7313694a98fb81fde.png?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/png" srcset="./media_173100acba53307e783d8c5f7313694a98fb81fde.png?width=2000&#x26;format=png&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Close-up image of blueberry plant through mobile device" src="./media_173100acba53307e783d8c5f7313694a98fb81fde.png?width=750&#x26;format=png&#x26;optimize=medium" width="2598" height="1648">
+    </picture>
+  </p>
+  <p>With RAG technology, a model has access to the most current information, helping to ensure accuracy and helping it to sync up with hyperlocal data. This means the AI model can retrieve information while answering a specific question. RAG also reduces the chances of the model “hallucinating,” or making up erroneous answers based on data patterns on which it was trained. However, RAG requires specialized expertise and technology; for example, it depends on coding that enables relevant information to be drawn from specific databases.</p>
+  <p><em>Legal risks associated with data ownership</em></p>
+  <p>Any company developing a generative AI tool for farmers needs to make sure it owns the data it intends to use or at least has permission to use it. A company must also have knowledge of various laws around the world that govern data ownership and data mining. For years, large agricultural equipment vendors have collected data through sensors and cameras on tractors in addition to data from farmers, so they may have legal ownership of certain information, Adve notes.</p>
+  <p>However, there are legal opportunities as well. If trained using the right data, chatbots can help farmers comply with local regulations.</p>
+  <p>In addition, agriculture companies, technology suppliers, and software vendors should make sure that users understand the possibility of error. While it is improving, generative AI is still prone to hallucinating. One reason that Digital Green rolled out its chatbot only to extension agents is that the agents have the knowledge to spot such errors. “The agents are another layer of security because they are experts that can critically assess the information the chatbot offers,” Repishti says.</p>
+  <p>Adve notes that evaluating the accuracy of generative AI tools is difficult and time-consuming. There are good reasons that most of the large language models come from some of the biggest technology companies in the world, which have the vast resources required to reduce the chance of errors. For all the promise that generative AI holds, business leaders need to remember that it isn’t perfect.</p>
+  <p><em>IT systems and operation processes</em></p>
+  <p>Because farming is local, sophisticated technical tools were developed in isolation and were not widely adopted until recently. That means that much of the data is not standardized and that systems require integration, potentially leading to some heavy lifting for companies that want to gather and analyze agricultural data. For example, different countries use different codes to identify various cattle breeds, says Coffey.</p>
+  <p><em>Developing farmers’ trust</em></p>
+  <p>Companies need to pay special attention to gaining the trust of farmers. Traditional farming practices have been developed over many generations; often the same family has worked the same land for hundreds of years. So it is understandable that farmers are skeptical of new technologies like data analytics and generative AI. (For more on this issue, see “<a href="/resources/how-ai-transforms-agriculture">How AI Transforms Agriculture</a>.”)</p>
+  <p>Clear explanations can help. State what generative AI can do, what it cannot do, and how it works. For example, describe how generative AI provides information expressed in probabilities and can make mistakes (just as people do) and also how it can take in much more data than people can. Reviewing these issues helps users understand the technology’s strengths and weaknesses – and how it benefits them.</p>
+  <p>Companies need to pay special attention to gaining the trust of farmers.</p>
+  <p>Digital Green focuses on gaining farmers’ trust. “It's notoriously hard to change farmer behavior and practices in the fields,” Repishti says. When farmers ask their extension agent questions, it can take time to get an answer if the agent must research it. With the AI chatbot, agents can immediately respond to farmer queries with relevant, useful, and accurate advice. In addition, Digital Green’s bot can handle multiple languages and respond to spoken questions rather than relying on one language and text. “Meeting farmers on their terms helps build trust between farmers and extension agents,” she notes.</p>
+  <p>The trust factor is important even in developed countries such as the United States because the use of digital technology in agriculture is still relatively new. The AI Institute for Climate-Land Interactions, Mitigation, Adaptation, Tradeoffs, and Economy (AI-CLIMATE), based at the University of Minnesota, is researching how AI can help U.S. farmers adopt and profit from more climate-smart practices.</p>
+  <p>“An important factor for this institute to be successful is to bring in the farmer,” says Zhenong Jin, assistant professor of digital agriculture at the University of Minnesota. “We are co-creating the solution with them. Farmers play a significant role in this process. It’s not just a scientist telling them what to do.”</p>
+  <p><a href="/fragments/insights/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/insights/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/article-read-more</a></p>
+  <p><a href="/fragments/insights/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/insights/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>topic/ai</category>
+            <category>core-topic/generative-ai</category>
+            <category>industry/agribusiness</category>
+            <category>content-type/expert-opinions</category>
+            <category>stage/awareness</category>
+        </item>
+        <item>
+            <title><![CDATA[Digital Eco-Farming: How SAP Japan Helps Revitalize Rural Communities]]></title>
+            <link>https://www.sap.com/news/2024/02/minano-digital-eco-farm-sap-japan-revitalize-rural-communities</link>
+            <guid>https://www.sap.com/news/2024/02/minano-digital-eco-farm-sap-japan-revitalize-rural-communities</guid>
+            <pubDate>Wed, 21 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Minano Digital Eco Farm, launched by PSI and SAP Co-Innovation Lab in Japan, is helping the town of Minano revitalize its community.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/digitization</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/internet-of-things</category>
+            <category>news-tag/partners</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-co-innovation-lab</category>
+        </item>
+        <item>
+            <title><![CDATA[Palm Oil and SAP Software Give Ugandan Farmers New Hope]]></title>
+            <link>https://www.sap.com/news/2024/01/kopgt-sap-ugandan-oil-palm-farmers</link>
+            <guid>https://www.sap.com/news/2024/01/kopgt-sap-ugandan-oil-palm-farmers</guid>
+            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Kalangala Oil Palm Growers Trust (KOPGT) works with SAP software to support Ugandan oil palm farmers sustainably. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-rural-sourcing-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Cloud Technology Empowers Ugandan Island Community]]></title>
+            <link>https://www.sap.com/videos/cloud-technology-empowers-ugandan-island-community</link>
+            <guid>https://www.sap.com/videos/cloud-technology-empowers-ugandan-island-community</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[KOPGT, which educates farmers on improved agricultural practices, recognized the need for a digital solution to meet the rising demand for palm oil and chose SAP Rural Sourcing Management.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/video</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-business-one</category>
+            <category>product/sap-rural-sourcing-management</category>
+        </item>
+        <item>
+            <title><![CDATA[Digitalizing Food Security: AI and Digital Twins Balance Farm-to-Consume Value Chains]]></title>
+            <link>https://www.sap.com/news/2023/12/digitalizing-food-security-ai-digital-twins</link>
+            <guid>https://www.sap.com/news/2023/12/digitalizing-food-security-ai-digital-twins</guid>
+            <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Advanced technologies like AI and digital twins are digitalizing agricultural ecosystems and supply chains for worldwide food security.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>topic/ai</category>
+            <category>news-tag/digital-twin</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/machine-learning</category>
+        </item>
+        <item>
+            <title><![CDATA[Gonzalez Byass Tracks Plastics From the Vineyard to Your Wine Glass]]></title>
+            <link>https://www.sap.com/news/2023/12/gonzalez-byass-tracks-plastics-sap-responsible-design-and-production</link>
+            <guid>https://www.sap.com/news/2023/12/gonzalez-byass-tracks-plastics-sap-responsible-design-and-production</guid>
+            <pubDate>Mon, 04 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Gonzalez Byass can monitor, measure, and act on its plastic data using SAP Responsible Design and Production. Learn how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/circular-economy</category>
+            <category>product/sap-responsible-design-and-production</category>
+        </item>
+        <item>
+            <title><![CDATA[Western Sugar Cooperative Achieves Cost Optimization and Efficiency with SAP S/4HANA Cloud, Public Edition]]></title>
+            <link>https://www.sap.com/news/2023/11/western-sugar-cooperative-sap-s4hana-cloud-public-edition</link>
+            <guid>https://www.sap.com/news/2023/11/western-sugar-cooperative-sap-s4hana-cloud-public-edition</guid>
+            <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The adoption of SAP S/4HANA Cloud marked a significant moment in the technological transformation of Western Sugar Cooperative. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/erp</category>
+            <category>news-topic/sme</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-s4hana-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable Coffee: Farming for a Better Future]]></title>
+            <link>https://www.sap.com/news/2023/09/sustainable-coffee-agri-evolve-farming-for-future</link>
+            <guid>https://www.sap.com/news/2023/09/sustainable-coffee-agri-evolve-farming-for-future</guid>
+            <pubDate>Thu, 28 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Agri Evolve is a social enterprise that uses SAP digital technology to improve established supply chains for coffee cherries in Uganda.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-rural-sourcing-management</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust]]></title>
+            <link>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</link>
+            <guid>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</guid>
+            <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[S.Oleum’s data-driven sustainability efforts will generate revenue and sequester carbon. Read how SAP helps lay the foundation for success.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust" src="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-high-tech-helps-soleum-deliver-esg-metrics-you-can-trust">How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>How can a three-year-old agroforestry company produce trustworthy, <a href="/topics/sustainability">sustainable</a> feedstock – raw materials for finished goods, energy, and more – while reducing the amount of carbon in the atmosphere?</div>
+    </div>
+  </div>
+  <p>“We do that by using the biodiversity of this region, the Cerrado in Brazil,” Francisco de Blanco, S.Oleum co-founder and CEO, told SAP at the company’s headquarters, an innovative farm just outside João Pinheiro.</p>
+  <p>Why the Brazilian outback? This tropical savanna is home to the macaúba, a highly adaptable oil-producing tree with a penchant for scrubbing harmful CO2 from the air. Macaúba fruit yields advanced vegetable oils (AVOs) and high-protein food – and it can be 15 times more productive than soybeans.</p>
+  <p>“We are restoring the landscape that was deforested…Macaúba was native here many, many years ago,” Felipe Morbi, S.Oleum co-founder and Agroforestry VP, said. “Now we are bringing back these trees, and also all the other species, to restore this biodiversity.”</p>
+  <p>S.Oleum seeks to accomplish this scientifically, using macaúba and other crops in an integrated crop-livestock-forest approach, according to Morbi. The goal is to create working farms that rejuvenate degraded, low-yielding soil – and that sequester into the soil more carbon than they generate.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots" src="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/czukYJD_15c">How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="science-based-approach-to-reforesting-the-cerrado">Science-Based Approach to Reforesting the Cerrado</h2>
+  <p>“We are looking for the balance of the system,” Morbi said in a new <a href="https://youtu.be/czukYJD_15c">SAP video</a>. “We will measure the amount of carbon in the soil, the moisture, the biodiversity in terms of the plants we have, and also native animals coming back to the area.”</p>
+  <p>Toward that end, S.Oleum is starting small, but aiming big. Most of the current crop grows on a 700-hectare, or more than 1,700-acre, pilot farm. But S.Oleum intends to plant more than 65 million additional macaúba trees by 2029, which would reforest 180,00 hectares – about 444,800 acres – in Brazil’s southeastern state of Minas Gerais.</p>
+  <p>Over time, macaúba trees also help improve the nutrient and moisture capacity of the soil, making it easier to grow other crops, according to de Blanco. And S.Oleum increases farm productivity by growing carefully chosen crops in between rows of macaúba trees, such as sunflowers, peanuts, and yucas.</p>
+  <p>“If you do it right, agriculture as a system is positive for the environment,” de Blanco said. “Plants that were deforested a few decades ago, they are currently in a poor state because they were depleted by poor management…We believe there are better ways, and that’s what we are pursuing here.”</p>
+  <p>An innovative case in point: macaúba trees increase a biome’s carbon sequestration levels. Removing this greenhouse gas helps more than the planet; S.Oleum also generates revenue by selling carbon credits and building trust via its data.</p>
+  <h2 id="any-little-bit-of-data">Any Little Bit of Data</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="earth-overshoot-day-2023-reversing-the-clock-for-a-sustainable-future">Earth Overshoot Day 2023: Reversing the Clock for a Sustainable Future</h3>
+      </div>
+      <div><strong><a href="/2023/08/earth-overshoot-day-2023-sustainable-future">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Any little thing, any generation of data that R&#x26;D is currently developing, is extremely important,” Mirelle Santos, S.Oleum Agroforestry R&#x26;D manager, said. “We want to deploy technologies as dictated by those urgent needs.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Macaúba thorns" src="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="300" height="225">
+    </picture>
+  </p>
+  <p><em>Photo by Derek Klobucher</em></p>
+  <p>This could include remote sensing via drones that run fruit-recognition software, according to Santos. This would help S.Oleum gather and compile data quickly, without human error – and without sending workers, who must dress in personal protective equipment (PPE) to defend against snakes, mosquitos, the brutal Cerrado sun (even in winter), and dangerous macaúba thorns, which grow even on seedlings.</p>
+  <p>S.Oleum’s intricate business model combines agriculture, forestry, biodiversity, and carbon offsetting – and that leads to a lot of complexity. SAP technology will be an important differentiator for this small enterprise, as well as a foundation for its future growth.</p>
+  <p>“We have a big project to run; so, a lot of people, a lot of machines, a lot of suppliers,” Morbi said. “And we need everything in the right moment, in the right way.”</p>
+  <h2 id="how-to-best-manage-esg-metrics">How to Best Manage ESG Metrics</h2>
+  <p>“SAP is different because it is recognized as one of the most reliable ERP systems on the market, not only based on the technology,” de Blanco said. “Also, because it has well-established and well-defined processes.”</p>
+  <p>Standardizing processes was “extremely important” for S.Oleum both internally and to inspire customer, stakeholder, and regulatory confidence, according to de Blanco. SAP will also enable S.Oleum to run its circular enterprise as well as record, report, and act on its sustainability data.</p>
+  <p>“We have a very integrated system, and a very circular way to produce things,” de Blanco said. “Finding out where waste is generated – and where it’s being used – is very important to ensure the carbon intensity and the circularity of our systems at our entire site…This is where SAP helps us.”</p>
+  <p>SAP S/4HANA, SAP Ariba solutions, SAP Concur solutions, and SAP SuccessFactors solutions will help standardize all of S.Oleum’s processes, which will improve transparency and compliance, according to S.Oleum IT Director Marcio Propp. To help better manage and understand its myriad environmental, social, and governance (ESG) metrics, the company has also begun implementation of <a href="https://www.sap.com/products/sustainability-control-tower.html">SAP Sustainability Control Tower</a> and <a href="https://www.sap.com/products/scm/sustainability-footprint-management.html">SAP Sustainability Footprint Management</a>.</p>
+  <p>“It is super important that we have a very robust core system in place because it will serve as the basis for all our other processes…and practically all niche applications focused on digital agriculture connect with this core with SAP,” Propp said. “SAP is an agribusiness market standard, and it makes perfect sense for S.Oleum to be part of this ecosystem.”</p>
+  <p>That’s a big deal because compliant, transparent ESG metrics are crucial to S.Oleum’s success, according to de Blanco.</p>
+  <h2 id="a-matter-of-trust">A Matter of Trust</h2>
+  <p>“Somewhere around one-third of our revenues come from carbon credits,” de Blanco said. “This is our, let’s say, core business…to convert sustainability into revenues and financial results.”</p>
+  <p>That will require trust. SAP core technologies, such as SAP S/4HANA Cloud and <a href="https://www.sap.com/sustainability.html">SAP Sustainability solutions</a>, will help S.Oleum keep that trust, thanks to a reliable foundation of sustainability data and robust, auditable ESG metrics for reporting.</p>
+  <p>“My advice for companies that are starting their sustainability endeavor: do it as quick as you can,” de Blanco said. “And do it attached to science.”</p>
+  <div class="quote">
+    <div>
+      <div>For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="https://www.sap.com/sustainability.html">www.sap.com/sustainability</a>.</div>
+    </div>
+    <div>
+      <div>Top photo credit S.Oleum</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots]]></title>
+            <link>https://www.sap.com/videos/how-s-oleum-will-use-high-tech-to-get-back-to-brazils-roots</link>
+            <guid>https://www.sap.com/videos/how-s-oleum-will-use-high-tech-to-get-back-to-brazils-roots</guid>
+            <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[S.Oleum uses a high-tech crop-livestock-forest approach to farm sustainably, generate revenue, and scrub harmful CO2 from the air.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/video</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+        </item>
+        <item>
+            <title><![CDATA[Supporting All Farmers with Technology to Sustainably Feed the World]]></title>
+            <link>https://www.sap.com/news/2023/06/supporting-farmers-with-technology-sap-intelligent-agriculture</link>
+            <guid>https://www.sap.com/news/2023/06/supporting-farmers-with-technology-sap-intelligent-agriculture</guid>
+            <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP Intelligent Agriculture, an industry cloud solution from SAP, agribusiness companies can become more sustainable and efficient.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/industry-cloud</category>
+        </item>
+        <item>
+            <title><![CDATA[Intelligent Data Drives Growth Across Farm-to-Consume Food Value Chain]]></title>
+            <link>https://www.sap.com/news/2023/04/intelligent-data-drives-growth-food-value-chain</link>
+            <guid>https://www.sap.com/news/2023/04/intelligent-data-drives-growth-food-value-chain</guid>
+            <pubDate>Mon, 24 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP’s industry cloud can help help fresh produce companies use data to make better decisions for managing the food value chain.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/industry-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-store</category>
+        </item>
+        <item>
+            <title><![CDATA[Brazilian Food Company Pif Paf Alimentos Goes Live with SAP Build Apps in Only Three Weeks]]></title>
+            <link>https://www.sap.com/news/2023/04/pif-paf-alimentos-goes-live-sap-build-apps</link>
+            <guid>https://www.sap.com/news/2023/04/pif-paf-alimentos-goes-live-sap-build-apps</guid>
+            <pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Pif Paf Alimentos built an app for maintenance technicians with SAP Build Apps to fulfill tasks remotely and without Internet connection.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Mississippi Water Levels Disrupt Grain Shipments]]></title>
+            <link>https://www.sap.com/news/2022/10/the-take-mississippi-river-water-levels-disrupt-grain-shipments</link>
+            <guid>https://www.sap.com/news/2022/10/the-take-mississippi-river-water-levels-disrupt-grain-shipments</guid>
+            <pubDate>Mon, 24 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Water levels in some parts of the Mississippi river are now so low that commercial traffic has been halted. Get SAP's take on the impact.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/perspective</category>
+            <category>industry/agribusiness</category>
+            <category>industry/travel-transportation</category>
+            <category>news-tag/climate-change</category>
+            <category>product/sap-transportation-management</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[U.S. Sugar: Ninety Years of Sustainable, Innovative Agriculture]]></title>
+            <link>https://www.sap.com/news/2022/09/u-s-sugar-sustainable-innovative-agriculture</link>
+            <guid>https://www.sap.com/news/2022/09/u-s-sugar-sustainable-innovative-agriculture</guid>
+            <pubDate>Mon, 26 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Connecting people, technology, and the environment enables U.S. Sugar to keep innovating for a sustainable future. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/digitalization</category>
+            <category>news-tag/sap-extreme-series</category>
+        </item>
+        <item>
+            <title><![CDATA[Ivory Coast Cashew Nut Industry Embraces Technology]]></title>
+            <link>https://www.sap.com/videos/ivory-coast-cashew-nut-industry-embraces-technology</link>
+            <guid>https://www.sap.com/videos/ivory-coast-cashew-nut-industry-embraces-technology</guid>
+            <pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[West Africa’s Ivory Coast is one of the world’s largest producers of cashew nuts and home to Cashew Coast, a leading producer and distributor of...]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/video</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-rural-sourcing-management</category>
+        </item>
+        <item>
+            <title><![CDATA[The Take: Water, War, Weather and Wheat Ignite Interest in Farming Technology]]></title>
+            <link>https://www.sap.com/news/2022/05/the-take-farming-technology-water-war-weather-wheat</link>
+            <guid>https://www.sap.com/news/2022/05/the-take-farming-technology-water-war-weather-wheat</guid>
+            <pubDate>Tue, 24 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[An agricultural crisis has been brewing for years and now only 10 weeks of global consumption of wheat exists. Get SAP's take on how technology can help.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>content-type/perspective</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/industry-cloud</category>
+            <category>news-tag/the-take</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP.iO Foundry Paris Accelerates Agribusiness Startups in New Program]]></title>
+            <link>https://www.sap.com/news/2021/04/sap-io-foundry-paris-agribusiness-accelerator</link>
+            <guid>https://www.sap.com/news/2021/04/sap-io-foundry-paris-agribusiness-accelerator</guid>
+            <pubDate>Wed, 14 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[An SAP.iO Foundry Paris agribusiness-focused accelerator launched this week. Eight international startups have joined the virtual program.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1dc3bb529f097ce2deabf2f30a272cc144963ef17.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1dc3bb529f097ce2deabf2f30a272cc144963ef17.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1dc3bb529f097ce2deabf2f30a272cc144963ef17.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP.iO Foundry Paris Accelerates Agribusiness Startups in New Program" src="./media_1dc3bb529f097ce2deabf2f30a272cc144963ef17.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sapio-foundry-paris-accelerates-agribusiness-startups-in-new-program">SAP.iO Foundry Paris Accelerates Agribusiness Startups in New Program</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sapio-foundry-paris">Learn more about SAP.iO Foundry Paris</h3>
+      </div>
+      <div><strong><a href="https://sap.io/foundry-paris/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>PARIS</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) launched an agribusiness-focused virtual startup accelerator program at <a href="https://sap.io/foundry-paris/">SAP.iO Foundry Paris</a>. The eight international startups have been selected by a jury of SAP experts, partners, customers and investment funds to join the program.</p>
+      </div>
+    </div>
+  </div>
+  <p>As France is one of the largest agricultural powers in the world, SAP.iO Foundry Paris was a natural location for the first accelerator program from SAP.iO entirely dedicated to this industry. The selected startups specialize in procurement, supply chain, production monitoring platforms and decision support tools.</p>
+  <p>“Digital technology and collaboration are key enablers to feed the rapidly growing world population in a sustainable way,” said Anja Strothkaemper, SAP vice president of Agribusiness and Commodity Management. “Working together with startups, we can combine our innovation power and serve the evolving needs of our agribusiness customers.”</p>
+  <p>The program addresses three key industry challenges:</p>
+  <ul>
+    <li>Integrating data, artificial intelligence, analytics and decision-making into agribusiness</li>
+    <li>Combining compliance and traceability throughout production and processing</li>
+    <li>Ensuring agriculture is more responsible and environmentally sensitive</li>
+  </ul>
+  <p>Over the next 10 weeks, the startups will have access to curated mentorship from SAP executives, exposure to SAP technology and application programming interfaces (APIs), and opportunities to collaborate with SAP customers around the world.</p>
+  <p>The following startups are participating in the SAP.iO Foundry Paris program:</p>
+  <ul>
+    <li><a href="https://agrora.market/">Agrora</a> enables processors and traders of agricultural commodities to save time on procurement and distribution processes.</li>
+    <li><a href="https://www.clarifruit.com">Clarifruit</a> offers an automated quality control platform for fast, objective and consistent fresh fruit and vegetable quality control.</li>
+    <li><a href="http://www.connecting-food.com">Connecting Food</a> uses blockchain technology and smart modules to provide transparency, traceability and digital auditing of food products.</li>
+    <li><a href="https://www.grainchain.io">GrainChain Inc</a>. combines blockchain and Internet of Things–driven technologies to verify and auto-execute smart contracts, creating fully automated and digitalized workflows at every stage.</li>
+    <li><a href="https://www.heavyconnect.com/">HeavyConnect</a> develops easy-to-use mobile software that digitalizes paper-based compliance workflows in farming and processing.</li>
+    <li><a href="https://www.milkmoovement.com/">Milk Moovement</a> connects all players in the dairy supply chain, improving visibility and generating valuable insights across the raw milk supply chain.</li>
+    <li><a href="http://www.procsea.com">ProcSea</a> digitalizes seafood trading by connecting all partners on one digital platform for optimized and secured purchasing and sales processes.</li>
+    <li><a href="http://www.sencrop.com/eu">Sencrop</a> designs and sells connected weather forecast solutions farmers use to measure humidity, temperature, wind speed and rainfall.</li>
+  </ul>
+  <p>To learn more about how SAP.iO is helping innovators start up and scale with SAP, please visit <a href="https://sap.io/">https://sap.io/</a>.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Benjamin Nickel, +49 170 4920616, <a href="mailto:benjamin.nickel@sap.com">benjamin.nickel@sap.com</a>, CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/newsbyte</category>
+            <category>industry/agribusiness</category>
+            <category>industry/consumer-goods-cpg</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[Sustainable Farming: Agranimo Integrates with SAP BTP]]></title>
+            <link>https://www.sap.com/news/2021/03/agranimo-sustainable-farming-sap-btp</link>
+            <guid>https://www.sap.com/news/2021/03/agranimo-sustainable-farming-sap-btp</guid>
+            <pubDate>Thu, 25 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[German-Chilean startup Agranimo has enhanced its existing climate-intelligence solution on SAP Business Technology Platform.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a89d81a24e18f046d292dbcbcdd48ae2c97a643b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a89d81a24e18f046d292dbcbcdd48ae2c97a643b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a89d81a24e18f046d292dbcbcdd48ae2c97a643b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Sustainable Farming: Agranimo Integrates with SAP BTP" src="./media_1a89d81a24e18f046d292dbcbcdd48ae2c97a643b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sustainable-farming-agranimo-integrates-with-sap-btp">Sustainable Farming: Agranimo Integrates with SAP BTP</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Despite the ongoing debate of whether it’s a fruit or a vegetable, the avocado has been an export hit around the globe. Avocados are grown in the southern hemisphere but are immensely popular in countries where they cannot be harvested. There is also growing consumer awareness that intensive avocado farming leads to environmental issues in the countries of origin.</div>
+    </div>
+  </div>
+  <p>“Driving through the rural areas of Chile, you will notice how severely the country has been going through a major drought during the last five to seven years,” <a href="https://www.linkedin.com/in/nikitagulin/">Nikita Gulin</a> says. “Part of it is due to climate change, but it cannot be denied that intensive farming is adding to the problem.” Chile’s GDP relies heavily on agriculture. Apart from avocados, food crops include blueberries, cherries, and walnuts. “Water efficiency is a huge topic for Chilean farmers and the country as a whole.”</p>
+  <p>For Gulin, Aganimo’s Russian-born founder and CEO, and his Chilean co-founder, CTO <a href="https://www.linkedin.com/in/sergioestebanc">Sergio Esteban</a>, this was an obvious problem to tackle.</p>
+  <p>“In Chile, everybody knows someone working in the agricultural sector, whether it’s an uncle or the friend of a friend,” Esteban says. “When we looked at the problem and solutions already available, it became clear that there was much room for improvement by means of technology – and we had the skills to do that.”</p>
+  <p>To combine their technical knowledge with research on agriculture, they made contact with academia. “The University of Chile immediately wanted to collaborate,” Gulin says. Agranimo has 10 employees located in Chile, Russia, and Germany with backgrounds in technology, research, and practical experience in agriculture.</p>
+  <p>“Chile is not the only country with this problem,” Gulin explains, “It’s really all over the world — water is rare. From our first application for water efficiency, our vision grew as we expanded to more climate-related issues. Water is still one of the key components, but we are now working with any information that can be derived from climate and soil data.“</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-business-technology-platform-accelerate-business-outcomes-with-integration-data-to-value-and-extensibility">SAP Business Technology Platform: Accelerate business outcomes with integration, data to value, and extensibility</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/business-technology-platform.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="from-the-field-into-one-data-warehouse">From the Field Into One Data Warehouse</h2>
+  <p>Esteban explains: “Basically, we connect a lot of sensors together into one system to provide field managers with crop-specific information. Some of those sensors we actually manufacture ourselves, some are third-party. The sensors are sending information to the cloud, where we try to combine information from different sources. We collect plant-relevant information and provide the industry with climate analytics or what we call climate intelligence.”</p>
+  <p>Agranimo is working with large producers of fruit and vegetables that source their crops all over the world. The basic idea is to support field managers and commercial teams in decision-making.</p>
+  <p>“This includes irrigation, disease management, such as whether to apply fungicide or pesticide, frost damage assessment, and harvest forecasting,” Gulin explains. “With this set of indicators, we also assess the later stages of the supply chain: export, import, distribution, and retail. They all have to know what they can expect from the coming harvest. And with a drive toward traceability and sustainability, consumers are also demanding more understanding of how the field where their avocados come from is being managed.”</p>
+  <h2 id="growing-impact-with-sap">Growing Impact With SAP</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="explore-sapio-foundry-berlin">Explore SAP.iO Foundry Berlin</h3>
+      </div>
+      <div><strong><a href="https://sap.io/foundry-berlin/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Very early in their journey, Agranimo’s founders came to regard SAP as a potential partner. “Integration with SAP was on our mind right away, because a lot of companies use SAP’s applications – and so do our customers,” Gulin says.</p>
+  <p>Once in contact with SAP Germany, the SAP.iO Foundries program looked like a natural fit. “It seemed like a more straightforward pathway to integration, so we applied,” Gulin says. Agranimo was accepted into the <a href="/2020/03/sap-io-foundry-berlin-spring-program-industry-40">SAP.iO Foundry Berlin in March 2020</a> as part of the Industry 4.0 cohort.</p>
+  <p><a href="https://www.linkedin.com/in/mirodimitrov/?originalSubdomain=de">Miroslav Dimitrov</a>, head of <a href="https://sap.io/foundry-berlin/">SAP.iO Foundry Berlin</a>, says: “The demand for avocado and other intensive food crops are causing substantial environmental damages and has led to biodiversity loss, extreme weather conditions, and, in some cases, villages losing access to clean water. By tackling this issue, Agranimo is really having an impact to improve people’s lives. We at SAP.iO absolutely want to support that.”</p>
+  <p>“At SAP, we see a growing demand from our agribusiness customers for highly specialized industry-specific capabilities that startups can bring to the table,” shares Anja Strothkaemper, vice president of Agribusiness and Commodity Management at SAP. “<a href="https://www.sap.com/industries/industry-cloud.html">Industry cloud</a> simplifies access to innovative vertical solutions across industries built by SAP and our partners. As a result, we see great interest from the startup community to partner with SAP. Just now, we are launching a startup cohort with SAP.iO focusing on agribusiness and industry topics such as origination and supply chain transparency.”</p>
+  <p>Cedrik Kern, who is mentoring Agranimo since the company joined SAP.iO Foundries, adds, “Agranimo is a great example of a startup that adds capabilities that are relevant for our customers when it comes to realizing more efficient and sustainable farming processes.”</p>
+  <h2 id="a-window-to-the-customer-sap-business-technology-platform">A Window to the Customer: SAP Business Technology Platform</h2>
+  <p>At the time, the startup program within SAP Business Technology Platform (SAP BTP) was scouting for high-potential startups that could grow faster by using the unified, business-centric, open platform. Agranimo was invited to join the program and accepted.</p>
+  <p>“This program was brand-new at the time,” shares <a href="https://www.linkedin.com/in/liga-bronowski-4b08a71a6/">Liga Bronowski</a>, program manager for adoption activities for SAP Business Technology Platform. “Agranimo was one of our pilot startups.”</p>
+  <p>The startup program targets startups that are already collaborating with SAP, including those in an accelerator cohort within SAP.iO Foundries. “The overall goal of the program is to increase the adoption of SAP Business Technology Platform,” Bronowski says.</p>
+  <p>“We offer SAP BTP to chosen, promising, enterprise-relevant startups that can have massive impact for our customers,” explains <a href="https://www.linkedin.com/in/upenbarve/">Upen Barve</a>, co-founder and business owner of the program. “They get up to €50,000 worth of cloud credits, and they can decide how to spend that to get full benefit of SAP BTP as they progress and grow.”</p>
+  <p>With these investments, he says, SAP BTP can help startups to scale their dream and become enterprise-grade with access to the powerful technology portfolio, community, and the SAP ecosystem of customers and partners. “Continuous enablement and expert support are key to joint success, and we are proud to have Agranimo and SAP taking significant steps together toward a sustainable future.”</p>
+  <p>The program offers two options for startups; they can either build their own services from scratch on SAP BTP so that they are compatible with SAP products right away, or use the SAP technology stack to integrate their existing solution into SAP, as Agranimo did.</p>
+  <p>Gulin says, “Working with the SAP BTP team, we covered the integration of our solution with SAP Analytics Cloud. We’re still in the process of interfacing our solutions with what SAP systems our customers use. As a startup, we had our focus on immediate cash flow-generating activities. Collaboration with SAP on the other hand, is a long-term project. We think of this as an investment to help us scale.”</p>
+  <p>He’s pleased with the progress: “We’ve received a lot of personalized attention; we’ve never had the situation that a question of ours went unanswered. I would definitely recommend it to other startups.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/customers</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/customer-story</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-io</category>
+        </item>
+        <item>
+            <title><![CDATA[A Plan to Revitalize Rural China]]></title>
+            <link>https://www.sap.com/news/2021/02/sap-technology-rural-revitalization</link>
+            <guid>https://www.sap.com/news/2021/02/sap-technology-rural-revitalization</guid>
+            <pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rural revitalization is essential to achieving sustainable living conditions. Learn how SAP technology is supporting efforts in China.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b462a712635d83f691e764a6a4a2df3720b72f94.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b462a712635d83f691e764a6a4a2df3720b72f94.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b462a712635d83f691e764a6a4a2df3720b72f94.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="A Plan to Revitalize Rural China" src="./media_1b462a712635d83f691e764a6a4a2df3720b72f94.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="a-plan-to-revitalize-rural-china">A Plan to Revitalize Rural China</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When Li Jie left his rural village in 2014 to begin a new life in Chengdu, a sprawling city of 16 million and the largest in Sichuan province, he could never have dreamed he would find prosperity by returning home as a farmer.</div>
+    </div>
+  </div>
+  <p>Back then there was very little reason to look back. <a href="https://www.chinadaily.com.cn/a/202011/18/WS5fb46f72a31024ad0ba94c6a.html">Poverty has hindered the development of rural Sichuan for decades</a>, but through government initiatives and entrepreneurial spirit, <a href="https://news.cgtn.com/news/2020-11-17/All-counties-in-China-s-Sichuan-have-cast-off-poverty-official--Vu8dJvYuAw/index.html">extreme poverty has largely been eradicated</a>.</p>
+  <p>Since 2015, Li has maintained orchards full of blooming dragon fruit plants, one of <a href="https://www.novotaste.com/chinese-dragon-fruit-price-shows-upward-trend-fresh-plaza/">China’s most popular fruits</a>. An annual yield nearly 30,000 kilograms per acre has helped earn Li the honor of “top return entrepreneur” in Sichuan in 2020.</p>
+  <p>Supported by SAP, he is now learning to apply new technologies in combination with trickle irrigation to achieve even greater yields at less cost.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_146943e1f30b7292c3c02c8612334dd3a379bcdd4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_146943e1f30b7292c3c02c8612334dd3a379bcdd4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_146943e1f30b7292c3c02c8612334dd3a379bcdd4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Rural Revitalization: China’s New Strategy To Lift Millions Out of Poverty With the Help of Tech" src="./media_146943e1f30b7292c3c02c8612334dd3a379bcdd4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=a0TzuN738HU">Rural Revitalization: China’s New Strategy To Lift Millions Out of Poverty With the Help of Tech</a></p>
+      </div>
+    </div>
+  </div>
+  <p>Li Jie’s story is an integral part of China’s transformation to economic superpower and its negative impact on rural areas. Four decades of strong growth and increases in per capita income have <a href="https://www.ifad.org/">lifted more than 800 million people out of poverty</a> and improved food security, nutrition, and human development.</p>
+  <p>But there has been a palpable drain on rural towns, whose populations are projected to drop from 40% of China’s total population today to 31% by 2030. If not checked, this trend is predicted to have a <a href="https://www.linkedin.com/pulse/poverty-alleviation-rural-revitalization-post-2020-china-marchisio/?trk=public_profile_article_view">dramatic effect on the supporting capacity and social stability of rural areas</a>, according to Matteo Marchisio, head of East Asia Regional Hub at the International Fund for Agricultural Development.</p>
+  <h2 id="urban-rural-divide-is-global">Urban-Rural Divide Is Global</h2>
+  <p>The worldwide exodus from rural areas to cities is not new and it is not limited to China. The world’s rural citizens currently <a href="https://data.worldbank.org/indicator/SP.RUR.TOTL.ZS">make up 45% of the global population</a> but bear a disproportionate burden of poverty, malnutrition, and poor quality of life. This is why <a href="https://www.ifpri.org/blog/global-rural-crisis-rural-revitalization-solution">policy experts worldwide are calling for a system-wide transformation</a> to make rural areas more attractive to young people.</p>
+  <p>Rebalancing initiatives, referred to as “rural revitalization,” are essential to achieving sustainable living conditions for all, concluded a <a href="https://doi.org/10.2499/9780896293502">recent report from the International Food Policy Research Institute</a>. “Policies, institutions, and investments that take advantage of new opportunities and technologies, increase access to basic services, create more and better rural jobs, foster gender equality, and restore the environment can make rural areas vibrant and healthy places to live and work,” the report stated.</p>
+  <h2 id="sap-introduces-the-leader-plan">SAP Introduces The Leader Plan</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="with-indoor-farming-ever-is-revolutionizing-the-food-chain">With Indoor Farming, &#x26;ever Is Revolutionizing the Food Chain</h3>
+      </div>
+      <div><strong><a href="/2020/04/indoor-farming-ever-revolutionize-food-chain">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Dragon fruit farmer Li Jie is at the forefront of an emerging trend in China, as more and more young people are attracted by government-sponsored incentives to move back to their rural communities and start new livelihoods as farmers. According to China’s Ministry of Agriculture and Rural Affairs, 7.5 million young people returned to rural areas in 2019.</p>
+  <p>Since 2017, SAP has been supporting China’s “rural renaissance” by providing digital skills training and mentorship to these returning workers. Under the title “The Leader Plan,” SAP partnered in 2019 with <a href="http://en.youcheng.org/index/index/index.html">YouChange Foundation</a>, <a href="http://www.charityalliance.org.cn/English/index.jhtml">China Charity Alliance</a>, and <a href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a> to launch the new initiative. SAP provides funding and volunteer expertise to develop learning courses that are delivered online. By 2023, SAP aims to train 50,000 rural entrepreneurs across 30 provinces.</p>
+  <p>After moving back to his village, Li took online courses which focused on the industrialization and commercialization of agriculture. With his new knowledge and skills, Li plans to build intelligent greenhouses and manage the temperature in them automatically.</p>
+  <p>Now in its third year, online courses have reached more than 43,000 learners. SAP has also supported Tsinghua University in conducting an “Elite Camp” courses and mentoring for entrepreneurs. “We’ve had great impact with The Leader Plan, and I look forward to more success in the future,” said Mark Gibbs, president SAP Greater China.</p>
+  <h2 id="next-steps-for-the-leader-plan">Next Steps for The Leader Plan</h2>
+  <p><a href="/2020/08/industry-in-china-smarter-faster-more-resilient-ai-machine-learnings">In the future</a>, SAP in China will explore how digital farming technology and information systems can help agricultural productivity in rural China. This includes the use of e-commerce, Internet of Things (IoT), data analytics and other technologies that support the entrepreneurs’ ambitions of improved productivity and commercialization. Employee volunteers will contribute their expertise to the program, and other opportunities such as the <a href="https://www.sap.com/dmc/exp/2017_03_46558/enUS/index.html">SAP Social Sabbatical</a> program will be explored to train rural entrepreneurs with the skills they need to grow their businesses sustainably.</p>
+  <p><em>Top image via video.</em></p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/china</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/sap-csr</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future of Farming]]></title>
+            <link>https://www.sap.com/videos/the-future-of-farming</link>
+            <guid>https://www.sap.com/videos/the-future-of-farming</guid>
+            <pubDate>Mon, 13 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[In an endeavor to produce fresher, healthier and pesticide-free greens, SAP customer &ever revolutionizes the way of doing agriculture. Learn more: With Indoor Farming, &ever...]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/video</category>
+            <category>industry/agribusiness</category>
+        </item>
+    </channel>
+</rss>

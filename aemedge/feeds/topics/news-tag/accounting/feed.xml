@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/accounting/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 27 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Business Network Digitalizes Procurement for VAT E-Invoicing Mandates]]></title>
+            <link>https://www.sap.com/news/2024/02/sap-business-network-digitalizes-procurement-e-invoicing</link>
+            <guid>https://www.sap.com/news/2024/02/sap-business-network-digitalizes-procurement-e-invoicing</guid>
+            <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With VAT e-invoicing mandates on the rise, buyers and suppliers can join SAP Business Network for trusted, simplified procurement automation.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-network</category>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/spend-management</category>
+            <category>topic/scm</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accounting</category>
+            <category>news-tag/digitalization</category>
+            <category>topic/procurement</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Global Minimum Tax Rate with BEPS 2.0: What to Expect]]></title>
+            <link>https://www.sap.com/news/2023/09/global-minimum-tax-rate-beps-2-0</link>
+            <guid>https://www.sap.com/news/2023/09/global-minimum-tax-rate-beps-2-0</guid>
+            <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[BEPS 2.0 Pillar 2, new global minimum tax regulations for multinational enterprises, will take effect in the EU and other countries in 2024.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accounting</category>
+            <category>news-tag/financial-services</category>
+        </item>
+        <item>
+            <title><![CDATA[How to Adjust the Speed and Scale of Your Financial Close]]></title>
+            <link>https://www.sap.com/news/2023/04/adjust-speed-scale-of-financial-close</link>
+            <guid>https://www.sap.com/news/2023/04/adjust-speed-scale-of-financial-close</guid>
+            <pubDate>Mon, 10 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Account Substantiation and Automation by BlackLine can provide a foundation for efficiency throughout the financial close process.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/financial-management</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/accounting</category>
+            <category>news-tag/automation</category>
+            <category>news-tag/digital-transformation</category>
+            <category>news-tag/financial-services</category>
+        </item>
+    </channel>
+</rss>

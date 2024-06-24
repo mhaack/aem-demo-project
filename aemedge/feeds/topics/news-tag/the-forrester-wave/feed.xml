@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/the-forrester-wave/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 11 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP Master Data Governance Named a Leader in 2023 Master Data Management Analyst Report]]></title>
+            <link>https://www.sap.com/news/2023/07/sap-master-data-governance-leader-forrester</link>
+            <guid>https://www.sap.com/news/2023/07/sap-master-data-governance-leader-forrester</guid>
+            <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Master Data Governance has been named a Leader in The Forrester Wave™: Master Data Management, Q2 2023 report. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/forrester</category>
+            <category>news-tag/master-data-management</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-master-data-governance</category>
+            <category>news-tag/the-forrester-wave</category>
+        </item>
+    </channel>
+</rss>

@@ -240,7 +240,7 @@
 
     div[slot="content"],
     div[slot="additionalContent"] {
-      grid-column: 2 / 13;
+      grid-column: 1 / -1; /* Adjusting value as hero text not properly align */
       padding: 0 var(--udexSpacer64);
     }
 

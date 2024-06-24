@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/coursera/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 25 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Women Can Be the Key to Solving the Global Skills Gap in Tech]]></title>
+            <link>https://www.sap.com/news/2023/01/women-key-to-global-digital-skills-gap-in-tech</link>
+            <guid>https://www.sap.com/news/2023/01/women-key-to-global-digital-skills-gap-in-tech</guid>
+            <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The global lack of digitally skilled workers is increasing in the tech industry. Learn about SAP's initiative and how women are key.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/coursera</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/digital-skills-gap</category>
+            <category>news-tag/diversity-and-inclusion</category>
+            <category>news-tag/learning</category>
+            <category>news-tag/sap-certification</category>
+            <category>news-tag/sap-community</category>
+        </item>
+        <item>
+            <title><![CDATA[Power to the People: SAP Unleashes Today's Business Experts and Tomorrow's Tech Talent]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-build-at-sap-teched-power-to-the-people</link>
+            <guid>https://www.sap.com/news/2022/11/sap-build-at-sap-teched-power-to-the-people</guid>
+            <pubDate>Wed, 16 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Get the scoop on SAP Build at SAP TechEd, including what the low-code offering will give to the millions of people who use SAP every day.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/coursera</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Pledges to Equip Underrepresented Groups with Digital Skills, Announces Partnership with Coursera to Reach Millions of Learners Worldwide]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-coursera-partnership-digital-skills-underrepresented-groups</link>
+            <guid>https://www.sap.com/news/2022/11/sap-coursera-partnership-digital-skills-underrepresented-groups</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A Coursera partnership and global skills initiative are part of SAP's efforts to grow a more diverse ecosystem of tech professionals.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>news-tag/coursera</category>
+            <category>news-tag/digital-skills</category>
+            <category>news-tag/learning</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Launches SAP Build to Unleash Business Expertise, Partners with Coursera to Empower a New Generation of Developers]]></title>
+            <link>https://www.sap.com/news/2022/11/sap-teched-sap-build-business-expertise-coursera-partnership</link>
+            <guid>https://www.sap.com/news/2022/11/sap-teched-sap-build-business-expertise-coursera-partnership</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[From SAP TechEd, SAP launched new low-code offering SAP Build, along with a partnership with Coursera. Read the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>sap-event/sap-teched</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/press-release</category>
+            <category>news-tag/coursera</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>product/sap-build</category>
+        </item>
+    </channel>
+</rss>

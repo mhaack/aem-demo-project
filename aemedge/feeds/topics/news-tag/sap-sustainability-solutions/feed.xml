@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-sustainability-solutions/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 14 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[The Power of the Consumer]]></title>
+            <link>https://www.sap.com/news/2024/05/the-power-of-the-consumer</link>
+            <guid>https://www.sap.com/news/2024/05/the-power-of-the-consumer</guid>
+            <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Power of the Consumer" src="./media_1c74888da6a92ef0c940cec39419b20613ae1ce55.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-power-of-the-consumer">The Power of the Consumer</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Over recent years, retailers have experienced a notable shift in consumer behavior towards more sustainable products and conscious consumption. Consumers have driven this shift with their increased awareness of environmental issues, ethical concerns, and desire to support products which are eco-friendly, ethically sourced, and produced under fair labor conditions.</div>
+    </div>
+  </div>
+  <p>Companies that prioritize <a href="/topics/sustainability">sustainability</a> in their operations, such as using recycled materials, reducing carbon emissions, or supporting social causes, are gaining popularity among consumers. But those consumers demand proof of these values and product promises at the point of sale.</p>
+  <p>“The rise of sustainability isn’t just a movement; it is a shift in consumer consciousness,” said Dania Fayyaz, SAP North America sustainability program manager. “Today’s consumers are redefining their purchasing patterns, opting for products and brands that align with their values, and driving a demand for eco-conscious practices and ethical sourcing.” In her conversations with retailers that visited SAP’s booth at NRF 2024, the world’s largest retail fair, she saw a high interest in sustainability solutions.</p>
+  <h2 id="consumers--and-markets--demand-visibility">Consumers – and Markets – Demand Visibility</h2>
+  <p>When the EU Deforestation Regulation (EUDR) comes into effect for large enterprises later this year all products sold in the EU containing palm oil, cocoa, soy, rubber, cattle/leather, coffee, wood, and their derivatives will need proof that their harvest didn’t contribute to deforestation. Non-compliance will result in potential fines of up to 4% of companies’ EU annual turnover. To help businesses simplify this complex task, the SAP Green Token solution can track the geolocation of where raw materials are harvested and automate the creation of due diligence statements (DDS). The solution can also help improve visibility for consumers on where the raw material for their clothing was sourced and offer information on potential reuse and recycling.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="record-report-and-act-with-sap-sustainability-solutions">Record, report, and act with SAP Sustainability solutions</h3>
+        <p><em><a href="https://www.sap.com/products/sustainability.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>Take the example of a cotton shirt made from 50% certified recycled materials. Cotton can be sourced from multiple farms or recycling services and taken to a cotton mill where it’s spun into thread and later fabric. It becomes impossible to distinguish the different cotton elements – conventional versus recycled cotton – once they are co-mingled and the manufacturer loses insight into the sustainability attributes of the raw materials. That’s why it’s important to have a sophisticated tracking solution in place. “SAP Green Token can enhance transparency for bulk-traded, co-mingled raw materials by digitally storing sustainability attributes on tokens that traverse the supply chain,” said Fayyaz.</p>
+  <p>In addition to making conscious decisions on raw materials and products, consumers can also consider circular economy models. “I’m really intrigued by the idea of revitalizing clothing items,” said Fayyaz. “Imagine being able to exchange a well-loved jacket you’ve had for years and receive credit in return. And the jacket might find a new owner who will genuinely appreciate it.” The SAP Recommerce solution enables that scenario, helping brands and retailers take back, manage, and resell secondhand inventory to help accelerate the shift from linear to circular business models. On an even larger scale, SAP Green Ledger is SAP’s vision to make transactional carbon accounting a reality. It can enable organizations to track carbon like they do cash, with every financial transaction having a corresponding carbon entry. “This is incredibly desirable because we will see taxes for carbon imposed in the future, and decision-makers will want insights into which processes are utilizing the most carbon,” Fayyaz said.</p>
+  <h2 id="the-future-of-retail--a-retailers-view">The Future of Retail – A Retailer’s View</h2>
+  <p>At a recent SAP event, Christoph Werner, CEO at German retailer dm-drogerie markt, shared his view on the future of retail and his insights on what customers want – and therefore what will shape the way retailers have to engage to drive business.</p>
+  <p>For Werner, individualization of the shopping experience and any transaction will play a major role. Therefore, retailers will have to focus on the individual shopper, not on clusters of shoppers like in the past. Hyper-personalizing the customer experience will improve loyalty; the value for the customer will not only be the price, but increasingly the overall service and experience. This will change the concept of promotions. Werner is convinced that retailers will benefit from giving added benefits and delighting the customer, rather than pushing products into the market based on reduced prices. “Bring home flowers every now and then, but keep it special,” Werner said.</p>
+  <p>To no surprise, AI will be the foundation for personalized shopping experiences. “AI has benefits and downsides and today it remains to be seen where it will take us,” Werner stated. Overall, retailers see AI as an opportunity, with the technology completing repeatable tasks, freeing up employees for more value-adding tasks, and empowering individuals to make a difference. As retail stores often face staffing challenges, this can empower people in sales and marketing teams instead of replacing them. From Werner’s perspective, an AI-empowered workplace will attract new employees.</p>
+  <p><a href="https://www.sap.com/assetdetail/2024/04/d2065341-b97e-0010-bca6-c68f7e60039b.html">Learn more about dm-drogerie markt and its path to excellence with SAP.</a></p>
+  <h2 id="a-glance-into-the-crystal-ball">A Glance into the Crystal Ball</h2>
+  <p>At the same time, low-price online platforms continue to attract consumers with their affordable and wide range of products. They offer competitive prices on trendy clothing and accessories using economies of scale and direct-to-consumer models. Despite concerns about their environmental and ethical practices, these platforms remain popular among price-conscious consumers. However, there is growing awareness of the environmental and social impacts of fast fashion and low-price models. As a result, consumers are becoming increasingly discerning in their purchasing decisions, prioritizing quality, longevity, and sustainability over cheap prices and fast fashion trends.</p>
+  <p>“Overall, the consumer landscape is evolving, with a growing emphasis on sustainability, conscious consumption, and ethical practices,” said Sven Denecken, chief marketing and solutions officer for SAP Industries &#x26; CX. “Companies that can adapt to these changing preferences and demonstrate a commitment to environmental and social responsibility are likely to thrive in the long term.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-us-to-get-all-the-updates-on-company-news-stories-and-coverage">Connect with us to get all the updates on company news, stories, and coverage</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow SAP News on LinkedIn</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/nrf</category>
+            <category>industry/retail</category>
+            <category>product/sap-green-token</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[UN Plastics Treaty: Good for Business and the Planet]]></title>
+            <link>https://www.sap.com/news/2024/05/un-plastics-treaty-good-for-business-and-planet</link>
+            <guid>https://www.sap.com/news/2024/05/un-plastics-treaty-good-for-business-and-planet</guid>
+            <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is part of the Business Coalition for a Global Plastics Treaty, which supports a legally binding UN treaty to end plastic pollution.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[We Can’t Achieve Net Zero Without the Circular Economy]]></title>
+            <link>https://www.sap.com/news/2024/03/we-cant-achieve-net-zero-without-the-circular-economy</link>
+            <guid>https://www.sap.com/news/2024/03/we-cant-achieve-net-zero-without-the-circular-economy</guid>
+            <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Net zero and the circular economy go hand in hand. Read to learn how businesses, like SAP, and non-corporate bodies can accelerate progress.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/net-zero</category>
+            <category>product/sap-green-token</category>
+            <category>product/sap-responsible-design-and-production</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[From CSRD Reporting to Sustainable Business Outcomes]]></title>
+            <link>https://www.sap.com/news/2024/03/from-csrd-reporting-to-sustainable-business-outcomes</link>
+            <guid>https://www.sap.com/news/2024/03/from-csrd-reporting-to-sustainable-business-outcomes</guid>
+            <pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[By leveraging SAP Sustainability solutions, organizations can move beyond compliance, like CSRD reporting, and operationalize sustainability.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/compliance</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/green-ledger</category>
+            <category>product/sap-business-ai</category>
+            <category>product/sap-s4hana-cloud</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP-Funded Trees Help Reforestation Programs]]></title>
+            <link>https://www.sap.com/news/2023/09/sap-funded-trees-help-reforestation-programs</link>
+            <guid>https://www.sap.com/news/2023/09/sap-funded-trees-help-reforestation-programs</guid>
+            <pubDate>Mon, 25 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has financed the planting of more than 14 million trees to date to restore ecosystems and foster sustainable development. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/net-zero</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust]]></title>
+            <link>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</link>
+            <guid>https://www.sap.com/news/2023/08/high-tech-helps-s-oleum-deliver-esg-metrics</guid>
+            <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[S.Oleum’s data-driven sustainability efforts will generate revenue and sequester carbon. Read how SAP helps lay the foundation for success.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust" src="./media_130d6fab1e2941e378a85881bd255a5fab73223e2.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="how-high-tech-helps-soleum-deliver-esg-metrics-you-can-trust">How High Tech Helps S.Oleum Deliver ESG Metrics You Can Trust</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>How can a three-year-old agroforestry company produce trustworthy, <a href="/topics/sustainability">sustainable</a> feedstock – raw materials for finished goods, energy, and more – while reducing the amount of carbon in the atmosphere?</div>
+    </div>
+  </div>
+  <p>“We do that by using the biodiversity of this region, the Cerrado in Brazil,” Francisco de Blanco, S.Oleum co-founder and CEO, told SAP at the company’s headquarters, an innovative farm just outside João Pinheiro.</p>
+  <p>Why the Brazilian outback? This tropical savanna is home to the macaúba, a highly adaptable oil-producing tree with a penchant for scrubbing harmful CO2 from the air. Macaúba fruit yields advanced vegetable oils (AVOs) and high-protein food – and it can be 15 times more productive than soybeans.</p>
+  <p>“We are restoring the landscape that was deforested…Macaúba was native here many, many years ago,” Felipe Morbi, S.Oleum co-founder and Agroforestry VP, said. “Now we are bringing back these trees, and also all the other species, to restore this biodiversity.”</p>
+  <p>S.Oleum seeks to accomplish this scientifically, using macaúba and other crops in an integrated crop-livestock-forest approach, according to Morbi. The goal is to create working farms that rejuvenate degraded, low-yielding soil – and that sequester into the soil more carbon than they generate.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots" src="./media_1ba7dafe5dd92eabd85315450bbf0bdc404c57879.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/czukYJD_15c">How S.Oleum Will Use High Tech to Get Back to Brazil’s Roots</a></p>
+      </div>
+    </div>
+  </div>
+  <h2 id="science-based-approach-to-reforesting-the-cerrado">Science-Based Approach to Reforesting the Cerrado</h2>
+  <p>“We are looking for the balance of the system,” Morbi said in a new <a href="https://youtu.be/czukYJD_15c">SAP video</a>. “We will measure the amount of carbon in the soil, the moisture, the biodiversity in terms of the plants we have, and also native animals coming back to the area.”</p>
+  <p>Toward that end, S.Oleum is starting small, but aiming big. Most of the current crop grows on a 700-hectare, or more than 1,700-acre, pilot farm. But S.Oleum intends to plant more than 65 million additional macaúba trees by 2029, which would reforest 180,00 hectares – about 444,800 acres – in Brazil’s southeastern state of Minas Gerais.</p>
+  <p>Over time, macaúba trees also help improve the nutrient and moisture capacity of the soil, making it easier to grow other crops, according to de Blanco. And S.Oleum increases farm productivity by growing carefully chosen crops in between rows of macaúba trees, such as sunflowers, peanuts, and yucas.</p>
+  <p>“If you do it right, agriculture as a system is positive for the environment,” de Blanco said. “Plants that were deforested a few decades ago, they are currently in a poor state because they were depleted by poor management…We believe there are better ways, and that’s what we are pursuing here.”</p>
+  <p>An innovative case in point: macaúba trees increase a biome’s carbon sequestration levels. Removing this greenhouse gas helps more than the planet; S.Oleum also generates revenue by selling carbon credits and building trust via its data.</p>
+  <h2 id="any-little-bit-of-data">Any Little Bit of Data</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="earth-overshoot-day-2023-reversing-the-clock-for-a-sustainable-future">Earth Overshoot Day 2023: Reversing the Clock for a Sustainable Future</h3>
+      </div>
+      <div><strong><a href="/2023/08/earth-overshoot-day-2023-sustainable-future">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>“Any little thing, any generation of data that R&#x26;D is currently developing, is extremely important,” Mirelle Santos, S.Oleum Agroforestry R&#x26;D manager, said. “We want to deploy technologies as dictated by those urgent needs.”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Macaúba thorns" src="./media_117cccc01d32d21d19b8033c668004e09a27b9c1b.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="300" height="225">
+    </picture>
+  </p>
+  <p><em>Photo by Derek Klobucher</em></p>
+  <p>This could include remote sensing via drones that run fruit-recognition software, according to Santos. This would help S.Oleum gather and compile data quickly, without human error – and without sending workers, who must dress in personal protective equipment (PPE) to defend against snakes, mosquitos, the brutal Cerrado sun (even in winter), and dangerous macaúba thorns, which grow even on seedlings.</p>
+  <p>S.Oleum’s intricate business model combines agriculture, forestry, biodiversity, and carbon offsetting – and that leads to a lot of complexity. SAP technology will be an important differentiator for this small enterprise, as well as a foundation for its future growth.</p>
+  <p>“We have a big project to run; so, a lot of people, a lot of machines, a lot of suppliers,” Morbi said. “And we need everything in the right moment, in the right way.”</p>
+  <h2 id="how-to-best-manage-esg-metrics">How to Best Manage ESG Metrics</h2>
+  <p>“SAP is different because it is recognized as one of the most reliable ERP systems on the market, not only based on the technology,” de Blanco said. “Also, because it has well-established and well-defined processes.”</p>
+  <p>Standardizing processes was “extremely important” for S.Oleum both internally and to inspire customer, stakeholder, and regulatory confidence, according to de Blanco. SAP will also enable S.Oleum to run its circular enterprise as well as record, report, and act on its sustainability data.</p>
+  <p>“We have a very integrated system, and a very circular way to produce things,” de Blanco said. “Finding out where waste is generated – and where it’s being used – is very important to ensure the carbon intensity and the circularity of our systems at our entire site…This is where SAP helps us.”</p>
+  <p>SAP S/4HANA, SAP Ariba solutions, SAP Concur solutions, and SAP SuccessFactors solutions will help standardize all of S.Oleum’s processes, which will improve transparency and compliance, according to S.Oleum IT Director Marcio Propp. To help better manage and understand its myriad environmental, social, and governance (ESG) metrics, the company has also begun implementation of <a href="https://www.sap.com/products/sustainability-control-tower.html">SAP Sustainability Control Tower</a> and <a href="https://www.sap.com/products/scm/sustainability-footprint-management.html">SAP Sustainability Footprint Management</a>.</p>
+  <p>“It is super important that we have a very robust core system in place because it will serve as the basis for all our other processes…and practically all niche applications focused on digital agriculture connect with this core with SAP,” Propp said. “SAP is an agribusiness market standard, and it makes perfect sense for S.Oleum to be part of this ecosystem.”</p>
+  <p>That’s a big deal because compliant, transparent ESG metrics are crucial to S.Oleum’s success, according to de Blanco.</p>
+  <h2 id="a-matter-of-trust">A Matter of Trust</h2>
+  <p>“Somewhere around one-third of our revenues come from carbon credits,” de Blanco said. “This is our, let’s say, core business…to convert sustainability into revenues and financial results.”</p>
+  <p>That will require trust. SAP core technologies, such as SAP S/4HANA Cloud and <a href="https://www.sap.com/sustainability.html">SAP Sustainability solutions</a>, will help S.Oleum keep that trust, thanks to a reliable foundation of sustainability data and robust, auditable ESG metrics for reporting.</p>
+  <p>“My advice for companies that are starting their sustainability endeavor: do it as quick as you can,” de Blanco said. “And do it attached to science.”</p>
+  <div class="quote">
+    <div>
+      <div>For more information on how SAP helps companies record, report, and act on their sustainability goals, visit <a href="https://www.sap.com/sustainability.html">www.sap.com/sustainability</a>.</div>
+    </div>
+    <div>
+      <div>Top photo credit S.Oleum</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/agribusiness</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/esg</category>
+            <category>news-tag/sap-ariba</category>
+            <category>news-tag/sap-concur</category>
+            <category>news-tag/sap-s4hana-2</category>
+            <category>news-tag/sap-successfactors</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[Earth Overshoot Day 2023: Reversing the Clock for a Sustainable Future]]></title>
+            <link>https://www.sap.com/news/2023/08/earth-overshoot-day-2023-sustainable-future</link>
+            <guid>https://www.sap.com/news/2023/08/earth-overshoot-day-2023-sustainable-future</guid>
+            <pubDate>Wed, 02 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Earth Overshoot Day 2023 falls five days later than last year, but it's no cause for celebration. Read how to drive more change and impact.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/decarbonization</category>
+            <category>non-sap-event/earth-overshoot-day</category>
+            <category>news-tag/net-zero</category>
+            <category>news-tag/renewable-energy</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Rated Top Three in IDC’s Sustainability Index]]></title>
+            <link>https://www.sap.com/news/2023/06/sap-rated-top-three-idc-sustainability-index</link>
+            <guid>https://www.sap.com/news/2023/06/sap-rated-top-three-idc-sustainability-index</guid>
+            <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP placed in the top three of 23 software vendors that were assessed for the IDC Sustainability Index for Software Providers. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/idc</category>
+            <category>product/sap-cloud-for-sustainable-enterprises</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[What Gets Measured, Gets Managed: Record, Report, and Act to Decarbonize Using SAP Sustainability Footprint Management]]></title>
+            <link>https://www.sap.com/news/2023/05/record-report-act-sap-sustainability-footprint-management</link>
+            <guid>https://www.sap.com/news/2023/05/record-report-act-sap-sustainability-footprint-management</guid>
+            <pubDate>Mon, 22 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP enables the data visibility and insight needed to decarbonize across value chains with SAP Sustainability Footprint Management.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-accounting</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/decarbonization</category>
+            <category>news-tag/green-ledger</category>
+            <category>news-tag/greenhouse-gas-emissions</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Introduces Transactional Carbon Accounting to Accelerate Climate Action]]></title>
+            <link>https://www.sap.com/news/2023/05/sap-introduces-transactional-carbon-accounting</link>
+            <guid>https://www.sap.com/news/2023/05/sap-introduces-transactional-carbon-accounting</guid>
+            <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP is well-positioned deliver high-quality carbon accounting to rapidly scale business decarbonization. Learn about the new SAP solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>news-topic/solutions</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/carbon-accounting</category>
+            <category>news-tag/carbon-emissions</category>
+            <category>news-tag/carbon-footprint</category>
+            <category>news-tag/climate-action</category>
+            <category>news-tag/decarbonization</category>
+            <category>news-tag/net-zero</category>
+            <category>product/sap-sustainability-control-tower</category>
+            <category>product/sap-sustainability-data-exchange</category>
+            <category>product/sap-sustainability-footprint-management</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+        <item>
+            <title><![CDATA[New SAP Services Embed Sustainability into Business Decision-Making]]></title>
+            <link>https://www.sap.com/news/2021/07/embed-sustainability-services-into-decision-making</link>
+            <guid>https://www.sap.com/news/2021/07/embed-sustainability-services-into-decision-making</guid>
+            <pubDate>Wed, 14 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new sustainability service package from SAP is the next step in the path to a greener, more resilient, safer future. Read to learn more!]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/services-support</category>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>news-tag/compliance</category>
+            <category>news-tag/sap-services-and-support</category>
+            <category>news-tag/sap-sustainability-solutions</category>
+        </item>
+    </channel>
+</rss>

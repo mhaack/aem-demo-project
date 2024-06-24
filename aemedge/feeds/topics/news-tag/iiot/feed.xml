@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/iiot/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Tue, 10 May 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Achieve Rapid ROI from Industry 4.0 Investment Through IIoT]]></title>
+            <link>https://www.sap.com/news/2022/05/achieve-rapid-roi-industry-4-0-iiot</link>
+            <guid>https://www.sap.com/news/2022/05/achieve-rapid-roi-industry-4-0-iiot</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and partners are now offering the SAP IoT starter package to help speed up IIoT projects and reduce digital transformation risks.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>sap-event/sap-sapphire</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/industry-4-0</category>
+        </item>
+        <item>
+            <title><![CDATA[Leading Commercial Vehicles Manufacturer Embraces Industry 4.0 to Achieve Smarter and Leaner Operations]]></title>
+            <link>https://www.sap.com/news/2021/11/leading-commercial-vehicles-manufacturer-vecv-embraces-industry-4-0</link>
+            <guid>https://www.sap.com/news/2021/11/leading-commercial-vehicles-manufacturer-vecv-embraces-industry-4-0</guid>
+            <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP Manufacturing Suite, commerical vehicle manufacturer VECV improved productivity and cut operating costs. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Leading Commercial Vehicles Manufacturer Embraces Industry 4.0 to Achieve Smarter and Leaner Operations" src="./media_1757ca0c89f98bd920670b0e1192f2aa76882c160.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="leading-commercial-vehicles-manufacturer-embraces-industry-40-to-achieve-smarter-and-leaner-operations">Leading Commercial Vehicles Manufacturer Embraces Industry 4.0 to Achieve Smarter and Leaner Operations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Headquartered in Gurugram, a city located about 30 kilometers southwest of India’s national capital New Delhi, VE Commercial Vehicles Ltd. is regarded as the most successful joint venture in the Indian commercial vehicle industry.</div>
+    </div>
+  </div>
+  <p>In 2008, two leading players in the commercial vehicle business – Volvo Group and Eicher Motors – joined forces with a common vision of driving modernization in the commercial transport business in India. Volvo Group brought in global expertise, leadership in product technology, well-defined processes, and a brand respected all over the world. Eicher Motors, a leader in the light and medium vehicle segment, contributed with frugal engineering, considerable after-sales infrastructure, and cost-effective operations.</p>
+  <p>VE Commercial Vehicles Ltd. (VECV) is comprised of six business verticals: Eicher Trucks and Buses, Volvo Trucks India, Eicher Engineering Components, VE Powertrain, VECV Engine Business, and Volvo Bus India. The company includes the exclusive distribution of Volvo Trucks in India, engine manufacturing and exports for Volvo Group, non-automotive engines, and the Eicher component business. A multi-brand, multi-division company backed by innovative products and services, VECV is recognized as a leader its industry today.</p>
+  <h2 id="mastering-highly-complex-assembly-processes-at-minimum-cost">Mastering Highly Complex Assembly Processes at Minimum Cost</h2>
+  <p>Commercial truck manufacturing involves highly complex assembly operations due to the large number of variants, the thousands of parts being assembled, and the many types of tools and machines that are required.</p>
+  <p>On top of this, VECV faced several challenges:</p>
+  <ul>
+    <li>Shortage of skilled manpower that made it extremely difficult to maintain quality and high productivity at minimum cost</li>
+    <li>Inability to track and trace its assembly operations</li>
+    <li>Considerable training effort was required for new operators as there was no system to guide operators on assembly processes while performing operations</li>
+    <li>Suboptimal line efficiency, machine utilization, and operator productivity resulted in lower quality and higher rework due to lack of process controls and error-proofing</li>
+    <li>Lack of data connection on the assembly line which did not allow any meaningful insights to improve process quality</li>
+  </ul>
+  <h2 id="paving-the-way-to-industry-40-and-smart-manufacturing">Paving the Way to Industry 4.0 and Smart Manufacturing</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="weidmüller-group-how-does-industry-40-empower-employees-with-real-time-insight-into-machine-performance">Weidmüller Group: How Does Industry 4.0 Empower Employees with Real-Time Insight into Machine Performance?</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/supply-chain-management/manufacturing.html?video=2a24c413-a27d-0010-87a3-c30de2ffd8ff">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>VECV needed a solution that would enable real-time monitoring of its entire manufacturing supply chain processes to:</p>
+  <ul>
+    <li><strong>Gain meaningful insights</strong> to increase overall line efficiency, productivity, and quality</li>
+    <li><strong>Achieve cost savings</strong> by standardizing operational processes and equipment</li>
+    <li><strong>Create standard operating procedures</strong> to guide new operators and reduce time for operator deployment on assembly lines</li>
+    <li><strong>Reduce operator errors and drive efficiency</strong> by making assembly operations 100% traceable</li>
+    <li><strong>Decrease costly downtime</strong> by implementing predictive maintenance for critical machinery</li>
+  </ul>
+  <p>Embracing <a href="/2021/09/industry-40-manufacturing-industrial-landscape">Industry 4.0 principles</a>, the vehicles company decided to adopt smart manufacturing processes by implementing Industrial Internet of Things (IIoT)-based solutions from SAP to bring shop-floor visibility to the top floor. This enables faster decision-making and provides meaningful insights to improve overall line efficiency, productivity, and quality.</p>
+  <h2 id="fostering-smarter-and-leaner-operations-with-impressive-results">Fostering Smarter and Leaner Operations with Impressive Results</h2>
+  <p>VECV introduced <a href="https://www.sap.com/products/supply-chain-management/manufacturing.html">SAP Manufacturing Suite</a>, which is comprised of a number of digital manufacturing solutions that helped meet its objectives. The solution was deployed on all 10 assembly lines, each comprised of about 150 assembly stations, where over 200 machines are used to assemble about 3,000 parts.</p>
+  <p>This means that:</p>
+  <ul>
+    <li>Assembly operations’ standard operating procedures are now displayed in real time. Assembly machines are connected to capture more than 400 critical process parameters, ensuring tight process controls and error-proofing.</li>
+    <li>Automated part selection guarantees correct selection and traceability for all 3,000 parts. The RFID integration through SAP Plant Connectivity eliminates manual interventions and <a href="https://insights.sap.com/what-is-mes-manufacturing-execution-system/">manufacturing execution system (MES)</a> screens on assembly stations optimize efficiency.</li>
+    <li>A defect capturing and feedback system improves product quality and reduces errors.</li>
+    <li>A 100% labor tracking improves operator efficiency.</li>
+    <li>Overall equipment efficiency calculations enable predictive maintenance of critical machines. Real-time reports provide meaningful insights and enable faster decision-making. Vibration sensors installed on six key critical machines capture data into <a href="https://www.sap.com/products/manufacturing-intelligence-integration.html">SAP Manufacturing Integration and Intelligence (SAP MII)</a> via SAP Plant Connectivity software. Data is analyzed to create an algorithm in SAP MII to predict machine failure.</li>
+  </ul>
+  <p>SAP Manufacturing Suite enabled the company to standardize operational processes, equipment, and activities, leading to cost savings in operations and faster gains in productivity and quality. With 100% tracking and traceability of all assembly operations, troubleshooting time was significantly reduced. Tight process controls and error-proofing increased overall product quality, reduced mistakes, and improved productivity.</p>
+  <p>As Sumit Goyal, senior manager IT, Digital Manufacturing, explained, “SAP Manufacturing Suite has brought many tactical and strategic benefits to VECV. It has helped improve productivity, lower operating costs, and increase quality and compliance. By gaining real-time visibility into the entire manufacturing supply chain, we are able to accelerate root-cause analysis by making fact-based decisions.”</p>
+  <p>And the numbers speak for themselves. VECV has seen:</p>
+  <ul>
+    <li>15% productivity improvement</li>
+    <li>30% process quality improvement</li>
+    <li>Reduction in field failures</li>
+    <li>20% improvement in manpower utilization</li>
+    <li>Significant reduction in non-value-add activities through automation</li>
+    <li>40% error reduction</li>
+    <li>100% tracking and traceability of critical process parameters and assembled parts</li>
+    <li>Zero compliance issues</li>
+  </ul>
+  <p>And from an IT perspective, VECV now has:</p>
+  <ul>
+    <li>A single platform capturing data from different sources to ease system maintenance</li>
+    <li>Reduced infrastructure and operational costs by removing standalone, third-party solutions used to capture data from different systems</li>
+    <li>95% of machines connected with line controls and improved process quality by 20%</li>
+    <li>30% reduction in unplanned downtime</li>
+    <li>15% improvement in OEE (overall equipment effectiveness) management and OLE (overhead line equipment)</li>
+  </ul>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="digital-manufacturing-solutions-are-the-future-of-productivity">Digital manufacturing solutions are the future of productivity</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/supply-chain-management/manufacturing.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h3 id="want-to-learn-more-about-how-innovative-organizations-utilize-industry-40-to-improve-manufacturing-processes-check-out-the-building-intelligent-factories-with-industry-40-report-and-read-the-business-transformation-study">Want to learn more about how innovative organizations utilize Industry 4.0 to improve manufacturing processes? Check out the “<a href="https://www.sap.com/cmp/dg/intelligent-factory/index.html">Building Intelligent Factories with Industry 4.0</a>” report and read the <a href="https://www.sap.com/about/customer-stories.html?sort=latest_desc&#x26;search=VECV&#x26;pdf-asset=02190a07-057e-0010-bca6-c68f7e60039b&#x26;page=1#customer-stories-finder">Business Transformation Study</a>.</h3>
+  <div class="footnote">
+    <div>
+      <div><em>Karin Fent is senior director of Global Customer Success Digital Supply Chain at SAP.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>content-type/feature</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+        </item>
+        <item>
+            <title><![CDATA[Beyond the Crisis: An Outlook for SAP IoT and SAP Edge Services]]></title>
+            <link>https://www.sap.com/news/2021/05/sap-iot-sap-edge-services-smart-sensing-technology</link>
+            <guid>https://www.sap.com/news/2021/05/sap-iot-sap-edge-services-smart-sensing-technology</guid>
+            <pubDate>Mon, 03 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP recently released smart sensing capabilities to help customers move more swiftly with their 2021 transformation strategies. Learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1848e02483cf8b303b54fe168141766c1d9dbf866.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1848e02483cf8b303b54fe168141766c1d9dbf866.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1848e02483cf8b303b54fe168141766c1d9dbf866.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Beyond the Crisis: An Outlook for SAP IoT and SAP Edge Services" src="./media_1848e02483cf8b303b54fe168141766c1d9dbf866.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="beyond-the-crisis-an-outlook-for-sap-iot-and-sap-edge-services">Beyond the Crisis: An Outlook for SAP IoT and SAP Edge Services</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Opportunities with the Internet of Things (IoT) are enormous, there is no doubt about it. It was during my time living in New York City a few years back, where I was excited the first time by an IoT application.</div>
+    </div>
+  </div>
+  <p>To explore New York’s tourist sights, there is a mobile app that shows you the live visitor streams in one of the impressive skyscrapers. This allows you to decide the best time for a tour and to enjoy a view from the visitor terrace. The app also allowed registered users to change the colors of the illuminated antenna at night time, which was a great trick to impress any visitors I hosted in the city.</p>
+  <p>While this use case was certainly a great party trick, it is no comparison to the business value we see when equipping machines, equipment, transport boxes, containers, or devices with <a href="https://www.sap.com/products/iot-data-services.html?url_id=text-glo-404-reclink">Industrial Internet of Things</a> (IIoT) capabilities.</p>
+  <p>In the past year, manufacturers all over the world experienced significant disruptions that can impact globally optimized supply chains. Running resilient operations — highly productive and interconnected with a network of suppliers, contract manufacturers, logistics service providers, and customers — is key to weathering the storms of disruption.</p>
+  <p>Resiliency allows companies to withstand disruptions and, more importantly, to drive business process transformations of entire operating models. Thereby, <a href="https://www.sap.com/dmc/exp/2020-10-industry4now-experience/">Industry 4.0</a> technologies, such as IIoT and <a href="https://www.sap.com/products/edge-services.html">edge computing</a>, have proven significant enablers. Optimized production, improved decision making based on higher visibility, and supply chain transparency are just a few examples of the many opportunities that IIoT provides.</p>
+  <p>At SAP, we see even more in it; we see the opportunity for companies to better understand their businesses, redefine business models, and meet new customer demands — all while achieving sustainability goals.</p>
+  <p>By embedding IIoT capabilities and making industrial data available to line-of-business and industry applications such as <a href="https://www.sap.com/products/s4hana-erp.html">SAP S/4HANA</a> and <a href="https://www.sap.com/products/supply-chain-management.html">SAP Digital Supply Chain</a>, we enable new business processes, empowering customers to connect entire industry value chains.</p>
+  <h2 id="enabling-industry-4now-with-smart-sensing">Enabling Industry 4.Now with Smart Sensing</h2>
+  <p>To help customers move more swiftly with their <a href="https://roadmaps.sap.com/board?PRODUCT=73554900100800002247&#x26;range=CURRENT-LAST#Q2%202021">transformation strategies in 2021</a>, we recently released “smart sensing” capabilities. The reason? Industry 4.0 requires the digital identification and localization of people, assets, machines, deliveries, and other business objects. Smart sensing technology helps to not just exchange this information between physical objects and enterprise applications, but also to track the associated business objects to automatically steer process steps and actions. Cloud technology enables not only the possibility to process large numbers of scanning events in parallel, but also provides a powerful decision and rules engine to “translate” insights to actions, allowing customers to leverage intelligence at almost every business process they can imagine.</p>
+  <p>The smart sensing capabilities are offered as part of SAP IoT and enable customers to automatically correlate the movement of physical objects to specific process steps by scanning ID-tags such as RFID, barcode, QR code, or image recognition.</p>
+  <p>Let’s have a look at a few examples:</p>
+  <p><strong>1. Smart Sensing Technology in a Logistics Scenario</strong> Think about a manufacturer of high voltage batteries that sends the products out for delivery to an automobile manufacturer. Each movement of a physical item — for example, product, pallet, container, etc. — has an implicit meaning for the progress of the business process execution. Sending a battery out for delivery to a customer means “goods issue,” receiving a delivery means “goods receipt.” By equipping these batteries with RFID tags, a “goods issue” or “goods receipt” can be created automatically in SAP S/4HANA as soon as it passes an RFID gate at the warehouse dock, for example. Based on the scan event, it can be detected if the correct handling units and the correct number of handling units have been shipped. In this way, the battery manufacturer can reduce manual efforts and thereby also avoid human mistakes.</p>
+  <p><strong>2. Smart Sensing Technology in a Handling-Unit Tracking Scenario:</strong> Being part of one solution, we can now also combine the power of smart sensing tags with sensors for IoT. An example: By equipping the transport boxes of our batteries with IoT sensors, we can now automatically create a digital twin of these handling units based on an ID scan with smart sensing. As a consequence, conditions of the batteries — such as temperature, humidity, or shocks to the unit — are tracked during the transport and warehouse processes in real time. In case an issue occurs with the delivery, the sales or logistics manager will be notified in SAP S/4HANA immediately and receives proposals on how to solve the issue. Such proposals can be to create a customer return, send an express replacement order, or to inform the affected customer about the situation. This increase of supply chain transparency enables the battery manufacturer to react faster and more effectively when issues occur and to ultimately extend the average lifespan of the batteries.</p>
+  <p><strong>3. Smart Sensing Technology in a Production Scenario:</strong> Another example taken from production is <a href="https://blogs.sap.com/2021/02/03/taking-manufacturing-optimization-one-step-further-iot-enabled-kanban/">SAP IoT-enabled Kanban</a>. During the production of our high voltage batteries, the manufacturer leverages Kanban, a scheduling system for lean manufacturing to improve manufacturing efficiency and to avoid excess inventory at any point in production. By equipping kanban containers or shelves with RFID tags, status changes — for example, empty, full, in use, etc. — are triggered in SAP S/4HANA. This status update automatically triggers replenishment at the warehouse or at the supplier. The real-time analytics of location and retention time of raw material enables the manufacturer to optimize stock level as well as line runners’ routes.</p>
+  <h2 id="extending-smart-sensing-technology-to-the-edge">Extending Smart Sensing Technology to the Edge</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="leverage-iot-enriched-business-insights-to-embed-in-and-extend-business-processes-for-transformative-outcomes">Leverage IoT-enriched business insights to embed in and extend business processes for transformative outcomes</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/iot-data-services.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>In order to provide reliable connectivity among machines, people, processes, and assets, the scenarios described above will soon be <a href="https://roadmaps.sap.com/board?range=CURRENT-LAST&#x26;PRODUCT=73554900100800001107#Q2%202021">extended to the edge</a>. In latency-sensitive scenarios, relevant business data from SAP S/4 HANA business objects is synchronized from cloud to the edge nod such as a gateway in a factory or at a warehouse. Scanning events through auto-ID devices can now be enhanced with relevant business data locally. In this way, configurable business rules and actions can be instantly processed and analyzed at the edge. The consequence for the business is that no pallet, truck, or Kanban box will ever stand still, as even during intermittent Internet connectivity, the show will go on based on the edge compute right at the site.</p>
+  <p>The physical proximity of applications and devices make it easier to achieve low-latency responses and to optimize bandwidth consumption by sending only relevant data to the cloud. Compounded with various benefits in terms of data privacy and cost savings, it helps ensure business continuity and offline operations even for the most mission-critical processes when connectivity is not available or unstable.</p>
+  <h2 id="edge-containerization">Edge Containerization</h2>
+  <p>Bringing software from the cloud to the edge happens via so called containers. A container consists of an entire runtime environment: an application plus all its dependencies and configuration files needed to run it, bundled into a single package. Containers provide the answer to the question of how software can run reliably when moved from one computing environment (cloud) to another (edge). Such containers may be only a few megabytes in size, which makes them ideal for running on edge devices with limited hardware resources.</p>
+  <p>Kubernetes is the de-facto standard for container orchestration in the cloud or edge. By embracing Kubernetes at the edge, SAP moves toward a uniform approach in service management across cloud and edge. SAP Edge Services provides a centralized fully fledged edge lifecycle management using Kubernetes for services and applications, including the possibility to deploy extensions, while enabling consistent execution across cloud and edge.</p>
+  <h2 id="bring-your-own-data-lake">Bring Your Own Data Lake</h2>
+  <p>IIoT and edge computing are critical enablers for connecting industry value chains, running businesses in real time, and driving a step-change in productivity. Yet our vision is to go one step further and empower customers to leverage more data than ever before. “Real world thing-data,” coming from machines, devices, industrial cameras, or sensors by themselves are useless. Only by combining IoT data, such as a detected shock of a sensor, with business data, such as deliveries, materials, or production orders, can we truly generate business value.</p>
+  <p>Our strategy of “bring your own data lake” will enable customers to integrate data from their own Big Data stores into SAP applications. With this, customers can leverage and integrate different kind of data formats, allowing them to contextualize their “thing” data with application business data to transform from insights and analysis to action.</p>
+  <p>The potential of IIoT is not just in connecting millions of devices, or the antenna of a skyscraper with users, but to really turn the data they generate into intelligent insights and derive action. As the <a href="/covid-19">COVID-19</a> crisis amplified the need for business and supply chain resilience, IIoT will be embedded into more business processes than ever before — enabling entirely new business models. Through this, businesses can rapidly scale their productivity, product quality, sustainability, and even customer experience goals, leading to happy and engaged end customers.</p>
+  <div class="footnote">
+    <div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Promo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <h3 id="reinvent-manufacturing-and-reach-a-new-level-of-connectivity-with-industry-40-and-iiot">Reinvent manufacturing and reach a new level of connectivity with Industry 4.0 and IIoT</h3>
+              </td>
+              <td><strong><a href="https://www.sap.com/products/supply-chain-management/industry-4-0.html">Learn more</a></strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 id="for-more-information-about-iiot-read">For more information about IIoT, read:</h3>
+        <ul>
+          <li><a href="/2021/03/iiot-at-sap-speed-agility-resilience">Delivering Speed, Agility, and Resilience with IIoT</a></li>
+          <li><a href="/2021/03/iot-enabled-cloud-erp-business-resilience">Business Resilience with IoT-Enabled Cloud ERP</a></li>
+          <li><a href="https://www.forbes.com/sites/sap/2021/04/12/industrial-i0t-the-key-component-to-a-resilient-supply-chain/">Industry 4.0: A Key Enabler of Resilient Supply Chains</a></li>
+        </ul>
+        <p><em>Dominik Metzger is head of Product Management for Manufacturing and Industrial IoT at SAP.</em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Industrial IoT Is Key to a Resilient Supply Chain]]></title>
+            <link>https://www.sap.com/news/2021/04/iiot-resilient-supply-chain-of-the-future</link>
+            <guid>https://www.sap.com/news/2021/04/iiot-resilient-supply-chain-of-the-future</guid>
+            <pubDate>Thu, 15 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What does the supply chain of the future look like? Increasing productivity with IIoT and Industry 4.Now from SAP is an essential component.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/scm</category>
+            <category>content-type/feature</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/industry-4-now</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP at Hannover Messe: Automated Material Supply in Intralogistics with IIoT]]></title>
+            <link>https://www.sap.com/news/2021/04/hannover-messe-automated-material-supply-iiot</link>
+            <guid>https://www.sap.com/news/2021/04/hannover-messe-automated-material-supply-iiot</guid>
+            <pubDate>Wed, 07 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[At Hannover Messe exhibition, SAP will showcase automated material supply in intralogistics with IIoT. Learn more about the event.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP at Hannover Messe: Automated Material Supply in Intralogistics with IIoT" src="./media_11174721b72ee01f1bdf33708a811e10c1525f623.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-at-hannover-messe-automated-material-supply-in-intralogistics-with-iiot">SAP at Hannover Messe: Automated Material Supply in Intralogistics with IIoT</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>At this year’s virtual <a href="/topics/hannover-messe">Hannover Messe</a> exhibition, SAP will show how Industry 4.Now can help make supply chains more flexible and dynamic, including through the use of the Industrial Internet of Things (IIoT).</div>
+    </div>
+  </div>
+  <p>“Many of our customers have seen their global supply chains take on a tremendous level of complexity,” says Dominik Metzger, head of Product Management, Manufacturing, and Industrial IoT at SAP. Those operating in production industries typically find themselves enmeshed in an intricate web of international suppliers and sub-suppliers. “That’s why plenty of companies are really struggling with disruptions,” Metzger explains. “Some of them have to do with <a href="/covid-19">COVID-19</a>, but others have been apparent since before the pandemic.”</p>
+  <p>In terms of macroeconomic trends, the introduction of significant trade tariffs between China and the U.S. as well as the post-Brexit EU/UK Trade and Cooperation Agreement have rattled the established structures of many organizations.</p>
+  <p>“For that reason, if anything is a top priority for our customers – right now and after the pandemic – it is measures that lower costs and boost productivity in efficient ways,” Metzger says. “For those of us at SAP, the core question is: How can we leverage our innovative technologies to help our customers automate their processes?”</p>
+  <p>At the virtual Hannover Messe 2021 exhibition, SAP plans to unveil an array of new functions and applications that are set to make industrial process data usable all along the value chain starting in the second quarter.</p>
+  <p>“That includes data generated during manufacturing, maintenance, logistics, and so on, which needs to be integrated deep within SAP applications,” Metzger shares. Value cannot be created for companies with data alone; it also has to be analyzed in a business context. “That context lies in SAP systems – in our intelligent suite, our industry cloud, and our manufacturing and logistics solutions.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="join-sap-at-hannover-messe">Join SAP at Hannover Messe</h3>
+      </div>
+      <div><strong><a href="https://events.sap.com/en-hannover-messe-2021/en/home?url_id=ctabutton-de-hm21-newscenter:CRM-DE21-EVE-HM21COMNC1">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="supplying-materials-automatically-with-iot-robotics-and-edge-computing">Supplying Materials Automatically with IoT, Robotics, and Edge Computing</h2>
+  <p>Metzger’s product management team has put together an IIoT portfolio that enables customers to fully automate their resupply and stock removal processes in SAP S/4HANA, to name just two examples. This is made possible by robotics, the digitalization of intralogistics processes, and an intelligent framework of rules that derives potential actions from real-time data.</p>
+  <p>In assembly line manufacturing, things like forklifts and manual transport systems are needed to retrieve materials for subsequent installation. Areas like these are where companies often implement the ‘kanban’ process, which involves supplying materials exactly where production and assembly employees need them on the line.</p>
+  <p>“Sensors are now being built into these kanban bins in order to ‘connect’ the materials,” Metzger explains. “A sensor can tell when the weight of its bin has fallen below a certain threshold, which is when more materials are automatically procured to resupply the bin.”</p>
+  <p>Meanwhile, an intelligent, cloud-based system of rules interprets the sensor data to determine when actions should be triggered in specific business processes and applications. Systems like SAP S/4HANA, SAP Digital Manufacturing Cloud, and SAP Predictive Asset Insights are highly integrated into the rules to help ensure that the right processes are automatically activated at the right time. Procedures pertaining to kanban, the posting of goods, and quality assurance are just a few pertinent examples.</p>
+  <p>“We refer to this combination of IoT and SAP Edge Services as ‘Industrial IoT’ because we’re using IoT data in an industrial context,” Metzger says.</p>
+  <p>In a further innovation, autonomous guided vehicles (AGVs) are responsible for retrieving materials instead of forklift drivers. Metzger describes this fully automated approach to supplying assembly lines and carrying away finished products as a “best-in-class” logistics process, but one that only works when completely integrated between SAP systems for manufacturing execution (MES) and warehouse management.</p>
+  <p>These new functions are designed to be used in the context of SAP Digital Manufacturing Cloud, where they can be implemented and employed seamlessly thanks to the integration of SAP Manufacturing solution systems and others for logistics.</p>
+  <h2 id="lower-implementation-costs-through-standardization">Lower Implementation Costs Through Standardization</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="industry-4now-agile-production-in-uncertain-times">Industry 4.Now: Agile Production in Uncertain Times</h3>
+      </div>
+      <div><strong><a href="/2021/03/industry-4now-agile-production-uncertain-times">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>According to a <a href="https://www.sap.com/products/supply-chain-management/industry-4-0.html?overlay=%252Fcmp%252Fdg%252Findustry4-mpi%252Findex.html">study that SAP conducted with the MPI Group</a>, customers tested these productivity-boosting innovations at specific plants and warehouses in 2020, but have not yet rolled them out more broadly in many cases.</p>
+  <p>“That’s because until now, the integration of operational technology like AGVs or machines, sensors, and other equipment wasn’t standardized very well in business software,” Metzger explains. “This meant that such projects involved a relatively large amount of implementation effort, and thus higher costs – which led to something of a catch-22 with regard to the fundamental idea of reducing costs and increasing productivity.”</p>
+  <p>In the meantime, however, SAP has put much of its focus on integrating automation technologies into industry standards like the OPC Unified Architecture and on implementing the administration shell.</p>
+  <h2 id="sap-relies-on-cloud-edge-architecture-to-reduce-costs">SAP Relies on Cloud-Edge Architecture to Reduce Costs</h2>
+  <p>“Over the last six or seven years, we’ve invested a huge amount of effort in lowering the total cost of ownership of these implementations so that customers can operate them at scale. Along with standardization, the main thing that’s helping us here is our own technological innovation in terms of cloud-edge architecture,” Metzger says. In the past, the fact that SAP hardware infrastructure had to be set up at every plant was another reason why implementing new solutions was expensive.</p>
+  <p>“These days, however, all these processes run in the cloud,” Metzger continues. This means that it takes just one data center to control processes like warehouse robotics, digital manufacturing, or IIoT at 100 plants or more.</p>
+  <p>“When you’re dealing with automation processes in particular, you can’t afford to have an Internet connection fail for a few seconds,” Metzger says. “It was for high-availability scenarios like these that we introduced SAP Digital Manufacturing Cloud for edge computing.”</p>
+  <p>This involves an edge device – basically a small-scale server – that helps ensure that mission-critical processes always keep running at a plant. Instead of being implemented anew at each facility, these processes are configured centrally in the cloud for each specific plant and run at the edge in a container at the plant.</p>
+  <p>SAP Edge Services and other IoT offerings from the company enable customers to turn use cases like these into reality. “It gives you the best of both worlds,” Metzger says. “It significantly improves your ability to scale up thanks to cloud computing, all while reducing your total cost of ownership. Plus, edge computing gives you the degree of robustness you need to control mission-critical processes.”</p>
+  <p>In addition, auto ID technology is to be offered as a new function in SAP Edge Services and IoT solutions from SAP. This technology makes it possible to automatically associate the movement of a physical object with a specific process step. “Real-time status updates like these are a big step forward in terms of supply chain reliability,” Metzger says. “This way, companies can make sure they’re always available to their customers and able to adapt to bottlenecks around the world.”</p>
+  <div class="promo">
+    <div>
+      <div>To find out more about how IIoT can help your company reduce costs and increase its productivity, <a href="https://events.sap.com/en-hannover-messe-2021/en/registration.aspx">register here for the virtual Hannover Messe exhibition</a>, scheduled for April 12–16, 2021.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>sap-event/[any]</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/hannover-messe</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/industry-4-now</category>
+        </item>
+        <item>
+            <title><![CDATA[Business Resilience with IoT-Enabled Cloud ERP]]></title>
+            <link>https://www.sap.com/news/2021/03/iot-enabled-cloud-erp-business-resilience</link>
+            <guid>https://www.sap.com/news/2021/03/iot-enabled-cloud-erp-business-resilience</guid>
+            <pubDate>Tue, 30 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[IoT-enabled cloud ERP can help manufacturing companies re-think their business models and start their Industry 4.Now journey today.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/erp</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Delivering Speed, Agility, and Resilience with IIoT]]></title>
+            <link>https://www.sap.com/blogs/2021/03/iiot-at-sap-speed-agility-resilience</link>
+            <guid>https://www.sap.com/blogs/2021/03/iiot-at-sap-speed-agility-resilience</guid>
+            <pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn about the business value of IIoT at SAP, including how continuous optimization generates added value for the ecosystem and customers.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b56aa609610e6c9a24def67c519ff967c6179fd4.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b56aa609610e6c9a24def67c519ff967c6179fd4.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b56aa609610e6c9a24def67c519ff967c6179fd4.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Delivering Speed, Agility, and Resilience with IIoT" src="./media_1b56aa609610e6c9a24def67c519ff967c6179fd4.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="delivering-speed-agility-and-resilience-with-iiot">Delivering Speed, Agility, and Resilience with IIoT</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Many of us take advantage of Internet of Things (IoT) innovations in our personal lives, where the benefits of connected sensors and IoT are well understood. But what excites me is the transformative promise of IoT in the industrial world. That is why we are kicking off a series to showcase the business value of the Industrial Internet of Things (IIoT).</div>
+    </div>
+  </div>
+  <p>In the industrial sector, IIoT has emerged as a significant value driver in the manufacturing industry. It has changed the way goods are produced and delivered by connecting all phases of the design-to-operate product life cycle, including ideation and conceptualizing, manufacturing, delivery, and operations.</p>
+  <h2 id="a-need-that-is-here-to-stay-building-resilience-beyond-the-crisis">A Need That Is Here to Stay: Building Resilience Beyond the Crisis</h2>
+  <p>The strong uptake of IIoT reflects an increasing need for business resilience. Even before the pandemic, manufacturing companies operated in an increasingly volatile environment, requiring them to adapt quickly to shifting priorities. <a href="/covid-19">COVID-19</a> accelerated this trend. As consumer demands changed dramatically and manufacturing capacities were constrained, supply chains broke, forcing businesses to cope with the disruption of their daily operations.</p>
+  <p>While the world will hopefully overcome COVID-19 at some point, new health, societal, geopolitical, or economic crises are likely to occur. That is why an increased need for business and supply chain resilience is here to stay — and IIoT and <a href="https://www.sap.com/dmc/exp/2020-10-industry4now-experience/">Industry 4.0</a> will help take us there.</p>
+  <p>When we look at which companies were able to overcome these challenges, it is clear that it was highly digitalized businesses capable of taking informed decisions based on real-time data. IIoT technologies played a major role in helping them to repurpose production, provide help where needed, and find alternative routes to maintain <a href="https://www.sap.com/products/supply-chain-management.html">supply chains</a>.</p>
+  <p>Take INDEX-Werke as an example: the traditional supplier for the automotive industry kept its own business and that of its customers running throughout the crisis. Based on SAP Commerce Cloud, <a href="https://www.youtube.com/watch?v=RjV4WUWGNpU">INDEX-Werke offers its parts online and provides technical support remotely</a>.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1d5f64bff86f8d7d15ecf54f26c8ec7b6769d2742.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1d5f64bff86f8d7d15ecf54f26c8ec7b6769d2742.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1d5f64bff86f8d7d15ecf54f26c8ec7b6769d2742.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="INDEX-Werke: How Does a Traditional Company Reinvent Itself?" src="./media_1d5f64bff86f8d7d15ecf54f26c8ec7b6769d2742.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://youtu.be/RjV4WUWGNpU">INDEX-Werke: How Does a Traditional Company Reinvent Itself?</a></p>
+      </div>
+    </div>
+  </div>
+  <p>The opportunities are enormous, but many companies that I speak with are wondering where and when to start. Given the disruption we see among our customers in almost every industry, I believe that companies can start small, but should start now.</p>
+  <h2 id="introducing-new-business-models-from-product-to-outcome">Introducing New Business Models: From Product to Outcome</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="from-sap-insights-what-is-a-smart-factory">From SAP Insights: What is a Smart Factory?</h3>
+      </div>
+      <div><strong><a href="https://insights.sap.com/what-is-a-smart-factory/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>IIoT enables new business models and the shift from selling products to delivering services and solutions. The underlying idea of outcome-based models is that customers pay for what they get out of a product rather than for the product itself. In addition, IIoT opens the door to a fully personalized customer experience. Data exchange between a customer and a smart factory makes it possible to produce a highly customized product within just a few days — from receiving an order to shipping the goods.</p>
+  <p>For example, when <a href="https://www.sap.com/idea-place/sap-innovation-awards/submission-details-2021.html?idea_id=2160">VEM</a>, a leading manufacturer of electronic motors, was looking for a way to differentiate its products, the company identified a growing demand for remote monitoring. Together with SAP, the company created a custom app with monitoring and alerting capabilities. VEM’s sensor-equipped motors not only reduced operational downtime and extended product lifetime, they also helped achieve a 25% revenue increase. Most importantly, the company was able to reinvent its business model completely.</p>
+  <h2 id="operating-in-industry-networks-if-the-ecosystem-wins-everyone-wins">Operating in Industry Networks: If the Ecosystem Wins, Everyone Wins</h2>
+  <p>Just recently, I <a href="http://sie.ag/3qREyyz">talked with Cedrik Neike</a>, CEO Digital Industries at Siemens, about the importance of partnerships to accelerate the industrial transformation. We spoke about moving from enterprise resource planning (ERP) to network resource planning, and from “ego-systems” to ecosystems where the players strive for added value together.</p>
+  <p>At SAP, we envision that enterprises will exchange data via an industry network of suppliers, machine manufacturers, and customers. We are addressing this with <a href="https://www.sap.com/products/business-network.html">SAP Business Network</a> and thereby enabling a shift from a seller/buyer paradigm to collaborative models. When, for example, data from production quality records is shared between suppliers and manufacturers, they can collaboratively resolve warranty claims and recalls.</p>
+  <p>SAP actively uses and contributes to various industry standards that build the foundation for industry networks. SAP helped incubate the <a href="https://openindustry4.com/">Open Industry 4.0 Alliance</a> in 2019, with the goal of creating guidelines for compatible and interoperable IIoT solutions and services. Joint standards between the systems of different players in our ecosystem help drive digitalization in factories, plants, and warehouses in a collaborative manner.</p>
+  <p>Sharing data beyond a company’s borders adds even more value for all the players, from original equipment manufacturers (OEMs) to suppliers and consumers. Strong networks rely on cooperation among companies within and across industries. SAP is a <a href="/2021/03/catena-x-automotive-alliance-picks-up-speed">founding partner of the Automotive Alliance</a>, <a href="https://www.linkedin.com/company/catena-x-automotive-network/">Catena-X</a>, which aims to create a unified business network for the automotive industry. The alliance’s goal is to create a consistent information exchange through the entire automotive value chain.</p>
+  <h2 id="from-concept-to-execution">From Concept to Execution</h2>
+  <p>Today, we have all the technology and applications at hand to connect devices, people, and processes. Making use of data across the entire product and service life cycle is the foundation of managing business processes end to end.</p>
+  <p>To sustain long-term success, it is imperative for companies to move from concept to execution. This also requires a shift in our mindset. We need to rethink how data is used and set common standards. We need to rethink how businesses run and be open to new business models. And we need to rethink how markets work and move from the buyer/supplier relational paradigm to a collaborative model.</p>
+  <p>If we see IIoT and Industry 4.0 as both an urgent need and an opportunity, we will not only achieve continuous optimization but we will also generate added value — both for the ecosystem we operate in and for our customers.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Thomas Saueressig is a member of the Executive Board of SAP SE, SAP Product Engineering.</em><br><em><a href="https://www.linkedin.com/pulse/delivering-speed-agility-resilience-iiot-thomas-saueressig/">This story previously appeared on LinkedIn</a>.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/blog/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/blog/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/blog/article-read-more</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>topic/scm</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/manufacturing-2</category>
+            <category>news-tag/industry-4-0</category>
+            <category>news-tag/sap-business-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Manufacturing Digital Connections from Shop Floor to Top Floor]]></title>
+            <link>https://www.sap.com/news/2021/02/forcam-manufacturing-digital-connections</link>
+            <guid>https://www.sap.com/news/2021/02/forcam-manufacturing-digital-connections</guid>
+            <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Available on SAP Store, Forcam Force Edge allows signals to be understood, translated, and communicated to the shop and top floor.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1559fa7beb2ab00e379c81bbb47ba8d711108b7ec.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1559fa7beb2ab00e379c81bbb47ba8d711108b7ec.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1559fa7beb2ab00e379c81bbb47ba8d711108b7ec.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Manufacturing Digital Connections from Shop Floor to Top Floor" src="./media_1559fa7beb2ab00e379c81bbb47ba8d711108b7ec.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="manufacturing-digital-connections-from-shop-floor-to-top-floor">Manufacturing Digital Connections from Shop Floor to Top Floor</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>As we’ve watched digitalization steadily gathering steam in recent years, with robots popping up in factories everywhere, <a href="/covid-19">COVID-19</a> has put the trend into overdrive. And from everything I have heard, that trend is here to stay.</div>
+    </div>
+  </div>
+  <p>But what about the realities of all that costly machinery that has been in place since the 1970s? How are manufacturers bringing new technologies into old environments without throwing in the proverbial monkey wrench? How are they protecting their investments?</p>
+  <p>I learned the answers in a discussion with Andrea Rösinger and Oliver Hoffmann, co-CEOs of Forcam GmbH, a 20-year-old company headquartered in Germany. Its leading application, <a href="https://www.store.sap.com/apps/59335?source=blog-FORCAM">Forcam Force Edge,</a> helps companies connect “brownfield” machinery with the latest software. In short, Forcam Force Edge collects data “in the edge” – from machinery wherever it’s located – and pushes it via the cloud for aggregation and reporting. The product description on <a href="https://store.sap.com/en/">SAP Store</a> explains it well: “Signals – from machines that were never intended to be digitized to semi-intelligent assets – can be understood, translated, and communicated to the shop and top floor.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-the-power-of-partnership-with-sap">Learn more about the power of partnership with SAP</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/partner.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="digitizing-the-ghost-in-the-machine">Digitizing the Ghost in the Machine</h2>
+  <p>The “aha” moment for this invention struck way back in 2001, said Hoffmann, when Forcam’s founder had a brilliant idea. “These monolithic systems don’t focus on modern machines,” he noted, and clearly, that would have to change for companies to move into the next generation of manufacturing. At the time, SAP was revolutionizing the business landscape with enterprise resource planning (ERP) software, which could integrate data and systems across organizational boundaries.</p>
+  <p>“Before ERP, every plant had different systems without a common database,” Hoffmann explained. “That was the on-premise age, but client/server technology made it possible to connect and standardize even machines of different vintages from different manufacturers.”</p>
+  <p>Forcam experienced rapid growth, celebrating its debut and first customer, including global airline and automotive manufacturers. SAP had good market penetration with many of these same companies that were also early adopters of SAP ERP, Hoffmann added. The result was an early, loosely coupled alignment of Forcam with SAP.</p>
+  <p>As Forcam’s customers expanded their operations globally, Forcam followed suit, establishing service centers in locations convenient to customers’ plants. Over time, the company has evolved into a comprehensive Industrial Internet of Things (IIoT) and production control solution provider, with an extensible cloud platform solution running on some 100,000 machines worldwide.</p>
+  <p>But the past year has driven an explosion of demand, Rösinger said. One obvious reason is the need to reduce the number of people physically working in a plant; they need a way to access machines remotely and see what’s happening in real time. That is well supported by Forcam Force Edge, which features a role-based interface, whether for the operator on the plant floor or a production manager working from home.</p>
+  <h2 id="shifting-expectations-for-plant-managers">Shifting Expectations for Plant Managers</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="get-forcam-force-edge-now-on-sap-store">Get Forcam Force Edge now on SAP Store</h3>
+      </div>
+      <div><strong><a href="https://www.store.sap.com/apps/59335?source=blog-FORCAM">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Other key factors have come into play, Rösinger explained. The pressure is on from CFOs and CIOs to execute processes quickly, switch gears to respond to changes in demand, grease the wheels of the global supply chain, control costs, and boost productivity. Hence, the incentives for plant managers have shifted. Their plant is their own domain, she observed, and their primary mission is to ensure that high-quality products are manufactured on time. End-to-end processes, standardization, and cross-communications across lines of business are not necessarily on their radar screen. “Yet this decentralized model is not practical as digital strategies are introduced,” Rösinger added.</p>
+  <p>That’s not to say that Forcam Force Edge is unpopular with plant managers. The app helps production people in the plant with decision-making by collecting and normalizing data from signals on process values such as temperature and quantity count, and writing the parameters of machine controls. It supports all industry communication standards, with plug-in architecture for efficient integration of new standards. And it’s fast to implement.</p>
+  <h2 id="cloud-integration-for-data-access-and-insights">Cloud Integration for Data Access and Insights</h2>
+  <p>Integration with the SAP Digital Manufacturing Cloud solution enables access to all relevant data and insights, not just for in-plant operations but as well for broader managerial use and higher-level improvement processes. And Forcam today has a much closer relationship with SAP that began about a year ago with the arrival of hyperscalers and SAP’s strategic partnership with Microsoft, along with SAP Business Technology Platform. For Forcam, that translates to support for rapid and secure integration with a vast number of machines in plants across distances.</p>
+  <p>Now an SAP partner, Forcam is doing brisk business on SAP Store, especially as SAP account execs recommend the solution and send customers to SAP Store to find out more. <a href="https://www.store.sap.com/apps/59335?source=blog-FORCAM">Find out more yourself on SAP Store</a>.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Bill Rojas is senior director of Business Development and Partner Alliances for SAP Digital Commerce.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/enterprise-resource-planning</category>
+            <category>news-tag/iiot</category>
+            <category>news-tag/sap-store</category>
+        </item>
+    </channel>
+</rss>

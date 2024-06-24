@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-industry-network-for-automotive/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Mon, 21 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Five Ways Automakers and Suppliers Can Prepare for the Future of Mobility]]></title>
+            <link>https://www.sap.com/news/2022/11/five-ways-automotive-industry-future-of-mobility</link>
+            <guid>https://www.sap.com/news/2022/11/five-ways-automotive-industry-future-of-mobility</guid>
+            <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[EVs, mobility-as-a-service, operational resilience, and digital retail are shaping the future of mobility in the automotive industry.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/electric-vehicles</category>
+            <category>news-tag/industry-cloud</category>
+            <category>product/sap-e-mobility</category>
+            <category>news-tag/sap-industry-network-for-automotive</category>
+        </item>
+        <item>
+            <title><![CDATA[Chasing Zero with SAP Industry Network for Automotive]]></title>
+            <link>https://www.sap.com/news/2022/07/sap-industry-network-for-automotive-greentoken-product-carbon-footprint</link>
+            <guid>https://www.sap.com/news/2022/07/sap-industry-network-for-automotive-greentoken-product-carbon-footprint</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Solutions like SAP Industry Network for Automotive and GreenToken help enterprises gain insights into their product carbon footprint data.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/chasing-zero</category>
+            <category>news-tag/sap-industry-network-for-automotive</category>
+        </item>
+        <item>
+            <title><![CDATA[Enabling a Circular Economy Through Industry Network Collaboration]]></title>
+            <link>https://www.sap.com/news/2022/05/circular-economy-automotive-industry-network-collaboration</link>
+            <guid>https://www.sap.com/news/2022/05/circular-economy-automotive-industry-network-collaboration</guid>
+            <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Achieving a circular economy in the automotive industry is key to tackling the environmental challenges. SAP technology supports the shift.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/sustainability</category>
+            <category>content-type/feature</category>
+            <category>industry/automotive</category>
+            <category>news-tag/catena-x</category>
+            <category>news-tag/circular-economy</category>
+            <category>news-tag/sap-industry-network-for-automotive</category>
+        </item>
+    </channel>
+</rss>

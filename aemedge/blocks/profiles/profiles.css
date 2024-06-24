@@ -23,32 +23,54 @@
     }
 }
 
-/* S: use 2 per row */
-@media (width >=640px) {
-    :is(.profiles):not(.stacked) {
-        grid-template-columns: repeat(2, 1fr);
+@media (width >= 640px) {
+    .profiles.col-s-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-/* M: use 2 per row */
-@media (width >=980px) {
-    :is(.profiles):not(.stacked) {
-        grid-template-columns: repeat(2, 1fr);
+@media (width >= 980px) {
+    .profiles.col-m-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    :is(.profiles).elems2:not(.stacked) {
-        grid-template-columns: 4fr 4fr 0.75fr;
+    .profiles.col-m-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
 /* L and XL: use 3 per row, unless there are two elements */
-@media (width >=1280px) {
-    :is(.profiles):not(.stacked) {
-        grid-template-columns: repeat(3, 1fr);
+@media (width >= 1280px) {
+    .profiles.col-l-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    :is(.profiles).elems2:not(.stacked) {
-        grid-template-columns: 4fr 4fr 0.75fr;
+    .profiles.col-l-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .profiles.col-l-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    body.hub-l2:has(aside) {
+        & .profiles {
+            &.col-l-2 {
+                grid-template-columns: repeat(9, minmax(0, 1fr));
+
+                & > :nth-child(odd) {
+                    grid-column: 1 / 5;
+                }
+
+                & > :nth-child(even) {
+                    grid-column: 5 / 9;
+                }
+            }
+
+            &.col-l-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+        }
     }
 }
 

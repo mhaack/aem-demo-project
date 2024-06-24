@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/sap-event/sap-data-unleashed/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Wed, 06 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Unleashing the Latest SAP Data and Analytics Innovations]]></title>
+            <link>https://www.sap.com/news/2024/03/latest-sap-data-and-analytics-innovations-sap-data-unleashed</link>
+            <guid>https://www.sap.com/news/2024/03/latest-sap-data-and-analytics-innovations-sap-data-unleashed</guid>
+            <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has shared the latest innovations in data and analytics. Read on to learn more about the company's transformative announcements.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1025728cedc072568e25830043a6185f08eca8f64.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1025728cedc072568e25830043a6185f08eca8f64.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1025728cedc072568e25830043a6185f08eca8f64.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Unleashing the Latest SAP Data and Analytics Innovations" src="./media_1025728cedc072568e25830043a6185f08eca8f64.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="unleashing-the-latest-sap-data-and-analytics-innovations">Unleashing the Latest SAP Data and Analytics Innovations</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Today at <a href="/">SAP Data Unleashed</a>, SAP proudly announced the latest innovations in data and analytics.</div>
+    </div>
+  </div>
+  <p>Read on to learn more about these transformative announcements, which will enable businesses to unlock new potential in the areas of data management, AI-driven planning, and analytics.</p>
+  <h2 id="access-insights-wherever-your-data-resides">Access Insights Wherever Your Data Resides</h2>
+  <div class="text-large">
+    <div>
+      <div><strong>SAP Datasphere Knowledge Graph</strong></div>
+    </div>
+  </div>
+  <p>SAP Datasphere knowledge graph will enable organizations to better represent their real-world use of data, leading to more effectively leveraging it for generative AI and better reasoning.</p>
+  <p>As data is onboarded, transformed, and integrated in SAP Datasphere, SAP Datasphere knowledge graph automatically creates an ontology representing the relationships in the data, including the inherent business context from SAP application sources like SAP S/4HANA. This is then available to be extended and augmented via an ontology editor to reflect specific attributes within an organization. Finally, the data in SAP Datasphere is automatically applied to this ontology to create a knowledge graph that allows the data to be processed as a semantic web of relationships, drawing new insights from connections that are otherwise difficult to follow.</p>
+  <p>These knowledge graphs are better suited for answering complex, often open-ended questions. For example, a marketing manager might ask a question like: “What type of campaign for mountain bikes works best for my highest performing cities with a population over 1 million?”</p>
+  <p>Knowledge graphs can provide better context to large language models (LLMs) and prevent AI-generated “hallucinations.” SAP Datasphere knowledge graph will enable organizations to unleash the power of AI for even the most complex queries.</p>
+  <p>The effort and cost of manually creating knowledge graphs is typically very high. SAP Datasphere knowledge graph overcomes this by pre-populating the knowledge graphs using all the valuable content already available in SAP Datasphere. The knowledge graph can then be used with Joule, SAP’s generative AI co-pilot, allowing business users to ask both open-ended and specific questions and get instant and well-documented answers. Sign up for a preview of SAP Datasphere knowledge graph via the link below.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15c1af20ba8e68937af5d24f99fac41cebc44dce7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15c1af20ba8e68937af5d24f99fac41cebc44dce7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15c1af20ba8e68937af5d24f99fac41cebc44dce7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_15c1af20ba8e68937af5d24f99fac41cebc44dce7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="576">
+          </picture>
+        </p>
+        <p><em>Auto-generated knowledge graphs enable AI to answer complex, open-ended questions</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>SAP HANA Cloud Vector Engine</strong></div>
+    </div>
+  </div>
+  <p>With the next release of SAP HANA Cloud, a vector capability will be added to existing multi-model capabilities, allowing customers to gain value from all relevant types of business data using a single database. The inclusion of a vector engine further enables customers to build <a href="https://pages.community.sap.com/topics/hana/intelligent-data-applications">intelligent data applications</a> that combine the natural intuition of human interaction with powerful machine learning and multi-model processing capabilities.</p>
+  <p>The vector engine in SAP HANA Cloud provides the ability to store and compare vectors using SQL. Determining similarity between vectors enables use cases such as retrieval-augmented generation (RAG), recommendations, classifications, clustering, and more. Key benefits of SAP HANA Cloud vector engine include:</p>
+  <ul>
+    <li>Simplify data architecture and security with a single multi-model database with SQL interaction</li>
+    <li>Gain new insights by combining spatial, graph, JSON, and relational data with vector queries</li>
+    <li>Easily incorporate vector use cases in solutions based on the HANA Cloud ecosystem (clients, Python libraries, CAP, etc.)</li>
+    <li>Integrate with open-source community tools such as LangChain via plug-ins</li>
+  </ul>
+  <p>SAP HANA Cloud vector engine is currently in public preview and is planned for general availability in late Q1 2024.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Simplified Consumption of Data Products in SAP Datasphere</strong></div>
+    </div>
+  </div>
+  <p>Data products facilitate self-service access to data as a product and enable data sharing across application boundaries. Data consumers need an easy way to explore, understand, and activate the data needed to perform their tasks — and data providers need an easy way to publish their assets and make them available to data consumers.</p>
+  <p>SAP is innovating in this space with an improved user experience that drives data sharing at scale. This starts with published data products, whether produced by SAP line-of-business applications, industry solutions, or third parties, and follows with simple consumption in SAP Datasphere.</p>
+  <p>In SAP Datasphere, customers will find ready access to SAP and non-SAP data products and easily install them into their SAP Datasphere instance. The procedure establishes relevant connections and creates the necessary artifacts in SAP Datasphere without the user having to enter those details. Key to this is making data provisioning easier via metadata, which are described via the Open Resource Directory (ORD) protocol. The experience will be harmonized within SAP Datasphere by bringing catalog and the data product installation closely together. Visit <a href="https://roadmaps.sap.com/board?range=FIRST-LAST&#x26;PRODUCT=73555000100800002141&#x26;q=data%20products#Q1%202024">SAP Road Map Explorer</a> for the latest updates.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_15b1605af3a6110198283ea2725e4e982d88adc28.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_15b1605af3a6110198283ea2725e4e982d88adc28.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_15b1605af3a6110198283ea2725e4e982d88adc28.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_15b1605af3a6110198283ea2725e4e982d88adc28.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="576">
+          </picture>
+        </p>
+        <p><em>Data products available in catalog enhances the experience and productivity of data users</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>SAP Datasphere Semantic Onboarding Enhancements</strong></div>
+    </div>
+  </div>
+  <p>Semantic onboarding provides a seamless import of semantically rich objects from SAP S/4HANA and SAP BW/4HANA into SAP Datasphere. Now, we are taking the next step by adding support for SAP HANA Cloud and SAP data products through the same unified onboarding experience.</p>
+  <p>Customers will be able to combine their SAP HANA Cloud modeling approach with SAP Datasphere by importing calculation views into the data layer of SAP Datasphere. This preserves the semantic information such as measures, attributes, hierarchies, aggregations, and currencies/units, while keeping SAP HANA Cloud and SAP Datasphere objects in sync — allowing customers to leverage their prior investments in SAP HANA modeling.</p>
+  <p>Likewise, semantic onboarding of SAP data products will enable inheritance of business context from SAP line-of-business applications and industry solutions. By providing the semantics of the source systems and transferring that into the business data fabric as a foundation, SAP Datasphere drastically improves the analytic workflow and accelerates and simplifies data-driven insights.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>Collibra AI Governance Integration with SAP Solutions</strong></div>
+    </div>
+  </div>
+  <p>The SAP and Collibra partnership enables end-to-end data governance and delivers trusted data to all users across the business data fabric. As more tasks and decisions are automated by AI within critical business processes, the need to extend governance to AI has also become apparent.</p>
+  <p>The partnership with Collibra is being expanded to address the data and AI governance needs of joint customers via Collibra AI Governance. We will build tailored integrations between Collibra AI Governance and SAP solutions to connect the data used for AI with the models themselves in a single platform, allowing enterprises to track and manage their AI development efforts.</p>
+  <ul>
+    <li>Customers will better understand data lineage and metadata of SAP data that is utilized in AI modeling. With that, users can see what data their AI models were trained on to ensure that the data is accurate and from a trusted source.</li>
+    <li>Customers will benefit from a single view to understand what AI models exist in their organization, and what data is being used to power them. AI/machine learning models created with SAP technology will be registered with the Collibra AI Governance platform.</li>
+  </ul>
+  <p>This extension of the SAP partnership with Collibra will increase transparency and accountability for organizations, and help ensure that regulatory, compliance, and privacy policies are being met. More importantly, it will build user trust by preventing biased decision-making, inaccurate recommendations, and other risks arising from AI.</p>
+  <p>Together, SAP and Collibra will help joint customers address the data and AI governance needs across their organizations. Collibra AI Governance was <a href="https://www.collibra.com/us/en/company/newsroom/press-releases/collibra-introduces-collibra-ai-governance">launched last week</a> and is available to interested customers.</p>
+  <div class="text-large">
+    <div>
+      <div><strong>SAP Datasphere Confluent Integration</strong></div>
+    </div>
+  </div>
+  <p>Core to the SAP data strategy is providing customers with the ability to interoperate with the world’s leading data and AI vendors through an open data ecosystem. To this end, the newly enhanced Confluent integration enables real-time streaming of data to and from SAP Datasphere.</p>
+  <p>First, the outbound capabilities were extended by taking advantage of Confluent’s proprietary schema registry capabilities. Second, the Confluent schema registry will be used to enable seamless consumption of Confluent data within SAP Datasphere.</p>
+  <p>The integration is specifically tailored to Confluent and provides a superior user experience for joint customers. It allows connections on the application level without additional custom application development. The integration is a pre-established replication flow in SAP Datasphere, which already includes delta and real-time processing natively. This makes the process very efficient as it does not force customers to load all the data at every step, but only when data has changed.</p>
+  <p>The first integration for data ingestion into Kafka and Confluent is generally available. Additional capabilities for Confluent specific outbound and inbound integration will be generally available at the end of Q1 and Q3, respectively.</p>
+  <h2 id="transform-planning-with-a-business-data-fabric">Transform Planning with a Business Data Fabric</h2>
+  <div class="text-large">
+    <div>
+      <div><strong>SAP Analytics Cloud for Planning Deep Integration to SAP Datasphere</strong></div>
+    </div>
+  </div>
+  <p>SAP Datasphere and SAP Analytics Cloud for planning will be more closely integrated to expand the business data fabric to planning use cases. SAP Analytics Cloud planning models can be deployed into SAP Datasphere, bringing plan and actuals data together for real-time steering.</p>
+  <p>Through a reduction in both data footprint and modeling efforts, SAP Analytics Cloud extends planning functionality via SAP Datasphere and its native capabilities for transformation and integration. This reduces the complexity and risk inherent in storing multiple copies of data which is prevalent today.</p>
+  <p>SAP Analytics Cloud for planning will have live access to actual and plan data for extended planning and analysis scenarios, including the live usage of master data. With this, SAP Datasphere will become the platform on which planning processes and tools can integrate.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_14d5d8f4cd6ea2a14b3cb7d88fc159719e39722c7.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_14d5d8f4cd6ea2a14b3cb7d88fc159719e39722c7.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_14d5d8f4cd6ea2a14b3cb7d88fc159719e39722c7.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_14d5d8f4cd6ea2a14b3cb7d88fc159719e39722c7.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="558">
+          </picture>
+        </p>
+        <p><em>In this example, third-party inflation data from the World Bank (blue box) is provisioned through Datasphere to help planners do scenario planning with SAP Analytics Cloud compass</em></p>
+      </div>
+    </div>
+  </div>
+  <p>SAP is the only vendor to offer a business data fabric that seamlessly integrates planning and therefore covers the entire technology stack required to transform data into insights and future actions. Visit <a href="https://roadmaps.sap.com/board?PRODUCT=67838200100800006884&#x26;q=seamless&#x26;range=CURRENT-LAST#;INNO=1FA75F34ABA51EDEADDAB4FD3ACC8288">SAP Road Map Explorer</a> for the latest updates.</p>
+  <h2 id="foster-trusted-ai-across-your-business">Foster Trusted AI Across Your Business</h2>
+  <div class="text-large">
+    <div>
+      <div><strong>SAP Analytics Cloud Generative AI Co-Pilot</strong></div>
+    </div>
+  </div>
+  <p>SAP customers will embrace the power of generative AI to create and simulate business plans in SAP Analytics Cloud. With the power of Joule, planning and analytics professionals can leverage generative AI capabilities in a wide range of business processes. Activities such as data discovery, dashboard creation, planning model maintenance, and more are benefitting from a boost in core capabilities and an unmatched user experience.</p>
+  <p>With the power of natural language processing, end users can easily run analytical queries, simulate driver impacts, plan resource allocations, and auto-generate dashboards and calculations. For example, a business user seeking to understand why gross margins declined in the latest version of a plan could query Joule, which could automatically look through previous plan iterations and attached comments, and uncover the fact that planners were estimating higher commodity costs.</p>
+  <p>SAP’s investment in AI and its understanding of the context of business data provides truly limitless potential in unleashing the world of planning and analytics.</p>
+  <p>A preview of Joule co-pilot functionality in SAP Analytics Cloud is planned to be available in Q2 2024. Sign up for the preview via the link below.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_135bdf52547a43026234fdf26c84defd9f04f1334.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_135bdf52547a43026234fdf26c84defd9f04f1334.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_135bdf52547a43026234fdf26c84defd9f04f1334.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_135bdf52547a43026234fdf26c84defd9f04f1334.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="574">
+          </picture>
+        </p>
+        <p><em>With Joule co-pilot, planning and analytics professionals can prompt Joule to analyze all aspects of extended planning and create new analytical views on the fly, provisioned specially for individual user types</em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>SAP Analytics Cloud Compass</strong></div>
+    </div>
+  </div>
+  <p>In an increasingly volatile business climate, it is essential to create operational and financial plans and provision BI insights with risk mitigation in mind. This requires the ability to simulate uncertainties and the probability of their impact. Knowing how uncertainties in commodity prices, labor costs, or production volumes will hit your operational expenses or revenue means that companies can quickly prepare and plan counter measures for any scenario.</p>
+  <p>SAP Analytics Cloud compass provides Monte Carlo simulation capabilities with a business user-friendly interface. This enables non-technical users to perform real-time multi-variate analysis without prior IT setup or advanced statistical skills.</p>
+  <p>Users can perform business simulations directly in SAP Analytics Cloud at a fraction of the time and effort required to perform similar analysis manually. Scenario modeling capabilities will allow comparisons between assumptions, and the reporting of impact variances provides real-time insight, concept validation, and reveals the sensitivity of the drivers chosen. Now customers can identify their major drivers and combinations over time, enabling a better understanding of the dynamics between the data, and how to continuously simulate better and faster. With compass, customers can face the future with confidence.</p>
+  <p>A preview of SAP Analytics Cloud compass is planned to be available at the end of Q3 2024. Sign up for the preview via the link below.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1b407deea790db28d0775959ab3574632b1f5e085.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1b407deea790db28d0775959ab3574632b1f5e085.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1b407deea790db28d0775959ab3574632b1f5e085.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1b407deea790db28d0775959ab3574632b1f5e085.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="600">
+          </picture>
+        </p>
+        <p><em>SAP Analytics Cloud compass showing distribution of impact probability on the operating income based on a simulation of uncertainty in inputs such as inflation or other relevant drivers.</em></p>
+      </div>
+    </div>
+  </div>
+  <h3 id="get-started-today">Get Started Today</h3>
+  <p>Begin your path toward unlocking the full potential of your business data with SAP Datasphere. Embrace the opportunity to seamlessly integrate and activate your data landscape, propelling your business into a new era of insights and efficiency. Start now and transform how your organization leverages data with SAP Datasphere.</p>
+  <p>Start your journey today to bring out your best with SAP data and AI:</p>
+  <ul>
+    <li><a href="https://www.sap.com/registration/trial.4d48ec23-eadf-4399-8595-ac3f9c66c64f.html">Take a complete tour and try the latest features of SAP Datasphere</a> with the 30-day guided experience.</li>
+    <li><a href="https://www.sap.com/products/technology-platform/datasphere/migration.html">Begin your SAP Business Warehouse cloud modernization journey</a> with a free assessment and special offers.</li>
+    <li><a href="https://www.sap.com/cmp/oth/business-data-fabric/index.html?campaigncode=CRM-YJ24-BTP-2560577&#x26;source=blog-glo">Save on costs and learn how to implement a business data fabric architecture</a> with the Total Cost of Ownership study and getting started package</li>
+    <li><a href="https://events.sap.com/dataunleashed-previews/en/home">Sign up today for an early preview</a> of the upcoming SAP Datasphere and SAP Analytics Cloud features</li>
+  </ul>
+  <div class="footnote">
+    <div>
+      <div>Irfan Khan is chief product officer and president for SAP HANA Database &#x26; Analytics.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="deliver-seamless-and-scalable-access-to-mission-critical-business-data">Deliver seamless and scalable access to mission-critical business data</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere.html">Explore SAP Datasphere</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Data Unleashed: The Future Belongs to Data-Driven Organizations]]></title>
+            <link>https://www.sap.com/news/2024/03/future-belongs-to-data-driven-organizations-sap-data-unleashed</link>
+            <guid>https://www.sap.com/news/2024/03/future-belongs-to-data-driven-organizations-sap-data-unleashed</guid>
+            <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the latest updates to SAP Datasphere, SAP is empowering data-driven organizations to bring out their best. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Shapes the Future of Data-Driven Business Transformation with Innovations that Equip Customers to Succeed in the Era of AI]]></title>
+            <link>https://www.sap.com/news/2024/03/future-of-data-driven-business-new-sap-datasphere-capabilities</link>
+            <guid>https://www.sap.com/news/2024/03/future-of-data-driven-business-new-sap-datasphere-capabilities</guid>
+            <pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[New SAP Datasphere capabilities will drive deeper insights, faster growth and more efficiency in the era of AI. Read the news.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1ca92906e5e003a06f25ac5a8b837a5576894477a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1ca92906e5e003a06f25ac5a8b837a5576894477a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1ca92906e5e003a06f25ac5a8b837a5576894477a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP Shapes the Future of Data-Driven Business Transformation with Innovations that Equip Customers to Succeed in the Era of AI" src="./media_1ca92906e5e003a06f25ac5a8b837a5576894477a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="sap-shapes-the-future-of-data-driven-business-transformation-with-innovations-that-equip-customers-to-succeed-in-the-era-of-ai">SAP Shapes the Future of Data-Driven Business Transformation with Innovations that Equip Customers to Succeed in the Era of AI</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) today announced transformative data innovations that will help customers harness the full power of their data to drive deeper insights, faster growth and more efficiency in the era of AI. New capabilities in the SAP Datasphere solution, including new generative-AI features, transform enterprise planning through simplified data landscapes and more-intuitive data interaction.</p>
+      </div>
+    </div>
+  </div>
+  <p>“Capturing data to make better decisions is an enterprise technology imperative that’s become increasingly critical as AI – which relies on quality data – revolutionizes every aspect of business,” said Juergen Mueller, SAP Chief Technology Officer and member of the Executive Board. “Our newest SAP Datasphere innovations, as well as an expanded partnership with Collibra, represent a quantum leap in our ability to help customers drive intelligent business transformations through data.”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="deliver-seamless-and-scalable-access-to-mission-critical-business-data">Deliver seamless and scalable access to mission-critical business data</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere.html">Explore SAP Datasphere</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>At the heart of these announcements is the business data fabric, an architecture that helps ensure data is not just an asset but also the core underpinning of strategic initiatives. The innovations and partnership announced today equip organizations to deliver meaningful data to data consumers – with business context and logic intact.</p>
+  <p>“We have decided to leverage SAP Datasphere for a modern business data fabric architecture in conjunction with our SAP S/4HANA landscape. It allows us to effectively establish a modern data analytics platform that enables a business self service capability on the basis of trusted data and data models,” said Achim Welter, Senior Director ERP, Digital &#x26; IT Strategy, Hershey’s.</p>
+  <p>Today’s SAP Datasphere innovations help customers achieve a unified data view that simplifies their data landscapes while retaining context and logic – enabling them to adapt faster to market changes and make more-efficient decisions. From new copilot and vector database capabilities that help ensure business context remains constant in generative AI outputs to a new knowledge graph that helps uncover insights and patterns in complex data, SAP’s data innovations help ensure customers have the full power of their data at their fingertips.</p>
+  <p>Today’s key innovations include:</p>
+  <h2 id="generative-ai-copilot-and-ai-governance">Generative-AI Copilot and AI Governance</h2>
+  <p>SAP’s generative-AI assistant, the <a href="https://www.sap.com/joule">Joule</a> copilot, is now coming to the SAP Analytics Cloud solution to automate the creation and development of reports, dashboards, plans and more. This automation is enabled by the <strong>SAP HANA Cloud vector engine capabilities,</strong> which combine the power of large language models with the relevant data of your organization – helping ensure business context is a constant for generative-AI outputs.</p>
+  <p>Incorporating generative AI across the business isn’t possible without trusted and governed data. To provide organizations with a solution to govern the policies, processes and practices of AI, SAP is announcing an <strong>expansion of our partnership with Collibra</strong> to integrate Collibra’s AI Governance with SAP data assets. This can help provide transparency and accountability for organizations and help ensure regulatory, compliance and privacy policies are met.</p>
+  <h2 id="discover-hidden-insights-and-patterns-with-knowledge-graph">Discover Hidden Insights and Patterns with Knowledge Graph</h2>
+  <p>With the new <strong>SAP Datasphere knowledge graph,</strong> organizations can discover hidden insights and patterns across their applications and systems. This enables both technical and business users to deeply understand the relationships between data, metadata and business processes, as well as boost the effectiveness of machine learning and large language models.</p>
+  <h2 id="unified-and-advanced-planning-and-analytics">Unified and Advanced Planning and Analytics</h2>
+  <p>The new SAP Datasphere integration with SAP Analytics Cloud offers a single data management system and advanced analytics to power cross-organizational planning. Planners can leverage a single flexible model to break down silos between planning using one tool for data preparation, modeling and planning.</p>
+  <p>Additionally, business users can use the <strong>new compass</strong> capability in SAP Analytics Cloud to realize better outcomes in planning and analytics through data-driven simulation. It enables organizations to run complex simulations using a chat interface to evaluate predictive outcomes and continually adjust controllable variables to find the optimal plan.</p>
+  <p>This supports customers to transform their planning by unifying financial, operational, supply chain and workforce planning with native connection to SAP applications and third-party data.</p>
+  <p>To learn more, please read: <strong><a href="/">Unleashing the Latest SAP Data and Analytics Innovations</a></strong>.</p>
+  <p>Visit the <a href="/">SAP News Center</a>. Follow SAP at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="take-a-guided-tour-and-experience-firsthand-the-power-of-business-data-with-sap-datasphere">Take a guided tour and experience firsthand the power of business data with SAP Datasphere</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/datasphere/guided-experience.html">Start now</a></em></p>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div><strong>About SAP</strong></div>
+    </div>
+  </div>
+  <p>SAP’s strategy is to help every business run as an intelligent, sustainable enterprise. As a market leader in enterprise application software, we help companies of all sizes and in all industries run at their best: SAP customers generate 87% of total global commerce. Our machine learning, Internet of Things (IoT), and advanced analytics technologies help turn customers’ businesses into intelligent enterprises. SAP helps give people and organizations deep business insight and fosters collaboration that helps them stay ahead of their competition. We simplify technology for companies so they can consume our software the way they want – without disruption. Our end-to-end suite of applications and services enables business and public customers across 26 industries globally to operate profitably, adapt continuously, and make a difference. With a global network of customers, partners, employees, and thought leaders, SAP helps the world run better and improve people’s lives. For more information, visit <a href="http://www.sap.com">www.sap.com</a>.</p>
+  <p><strong>Note to editors:</strong><br>To preview and download broadcast-standard stock footage and press photos digitally, please visit <a href="http://www.sap.com/photos">www.sap.com/photos</a>. On this platform, you can find high resolution material for your media channels.</p>
+  <p><strong>For customers interested in learning more about SAP products:</strong><br>Global Customer Center: +49 180 534-34-24<br>United States Only: 1 (800) 872-1SAP (1-800-872-1727)</p>
+  <p><strong>For more information, press only:</strong><br>Julia Fargel, +1 (650) 276-8964, <a href="mailto:julia.fargel@sap.com">julia.fargel@sap.com</a>, PT<br>Martin Gwisdalla, +49 (6227) 767 275, <a href="mailto:martin.gwisdalla@sap.com">martin.gwisdalla@sap.com</a>, CET<br><a href="mailto:SAP%20Press%20Room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>This document contains forward-looking statements, which are predictions, projections, or other statements about future events. These statements are based on current expectations, forecasts, and assumptions that are subject to risks and uncertainties that could cause actual results and outcomes to materially differ. Additional information regarding these risks and uncertainties may be found in our filings with the Securities and Exchange Commission, including but not limited to the risk factors section of SAP’s 2023 Annual Report on Form 20-F.<br>© 2024 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.<br>Please consider our <a href="https://www.sap.com/corporate/en/legal/privacy.html">privacy policy</a>. If you received this press release in your e-mail and you wish to unsubscribe to our mailing list please contact <a href="mailto:press@sap.com">press@sap.com</a> and write Unsubscribe in the subject line.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/cloud</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>core-topic/generative-ai</category>
+            <category>news-tag/joule</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[Unleashing the Power of Business Data with SAP Datasphere]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-datasphere-power-of-business-data</link>
+            <guid>https://www.sap.com/news/2023/03/sap-datasphere-power-of-business-data</guid>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Datasphere and its open data ecosystem comprise the technology foundation that enables a business data fabric. Learn more now.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[Partner Quotes: SAP Introduces SAP Datasphere]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-introduces-sap-datasphere-partner-quotes</link>
+            <guid>https://www.sap.com/news/2023/03/sap-introduces-sap-datasphere-partner-quotes</guid>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP has introduced SAP Datasphere to give customers access to mission-critical data. Read the SAP partner comments on the news.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/statement</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP Introduces SAP Datasphere to Simplify Customers’ Data Landscape – Partners with Collibra, Confluent, Databricks and DataRobot]]></title>
+            <link>https://www.sap.com/news/2023/03/sap-datasphere-simplify-data-landscape-partnerships-collibra-confluent-databricks-datarobot</link>
+            <guid>https://www.sap.com/news/2023/03/sap-datasphere-simplify-data-landscape-partnerships-collibra-confluent-databricks-datarobot</guid>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[With SAP Datasphere, SAP announces key innovations and partnerships that enable faster time to insights and better business decision-making.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/press-release</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+        <item>
+            <title><![CDATA[A Deeper Look Into How SAP Datasphere Enables a Business Data Fabric]]></title>
+            <link>https://www.sap.com/blogs/2023/03/sap-datasphere-business-data-fabric</link>
+            <guid>https://www.sap.com/blogs/2023/03/sap-datasphere-business-data-fabric</guid>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Datasphere leads to seamless and scalable access to mission-critical business data. Take a deep dive into its capabilities.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/executive-blog</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>sap-event/sap-data-unleashed</category>
+            <category>product/sap-datasphere</category>
+        </item>
+    </channel>
+</rss>

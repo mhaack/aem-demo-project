@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/sap-innovation-center-network/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 28 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[Self-Sovereign Identity Gives Users Control Over Their Personal Data]]></title>
+            <link>https://www.sap.com/news/2023/12/self-sovereign-identity-gives-control-over-personal-data</link>
+            <guid>https://www.sap.com/news/2023/12/self-sovereign-identity-gives-control-over-personal-data</guid>
+            <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Self-sovereign identity (SSI) is the first technology to give individuals maximum control over their digital persona. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-privacy</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Sharing Data Without Sharing It: Secure Computation with Bosch]]></title>
+            <link>https://www.sap.com/news/2023/12/sharing-data-without-sharing-it-secure-computation-bosch</link>
+            <guid>https://www.sap.com/news/2023/12/sharing-data-without-sharing-it-secure-computation-bosch</guid>
+            <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Bosch have joined forces to harness secure computation, helping enable privacy-preserving data analysis across businesses.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/data-security</category>
+            <category>news-tag/sap-innovation-center-network</category>
+            <category>news-tag/security</category>
+        </item>
+        <item>
+            <title><![CDATA[Empowering the City of Antibes to Redefine Digital Contract Management]]></title>
+            <link>https://www.sap.com/news/2023/11/city-of-antibes-redefines-digital-contract-management</link>
+            <guid>https://www.sap.com/news/2023/11/city-of-antibes-redefines-digital-contract-management</guid>
+            <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The City of Antibes and SAP Innovation Center Network are revamping digital contract management with a focus on public procurement processes.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Empowering the City of Antibes to Redefine Digital Contract Management" src="./media_10b8e8e68a4e4aa39731dd6f73e4b22d1f8d1d59f.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="empowering-the-city-of-antibes-to-redefine-digital-contract-management">Empowering the City of Antibes to Redefine Digital Contract Management</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>In the era of digital transformation, multi-company processes governed by legal contracts are becoming increasingly common. With the untapped potential of decentralized processes, there is a growing prospect for digitizing and automating collaborative contract management, streamlining operations, and reducing risks and costs.</div>
+    </div>
+  </div>
+  <p>Recognizing this potential, the City of Antibes and <a href="https://www.sap.com/about/company/innovation/icn.html">SAP Innovation Center Network</a> have joined forces to redefine digital contract management with a focus on public procurement processes. Patrick Duverger, chief technology officer of the City of Antibes, describes its previous procurement operations as follows: “Although we achieved a high level of operational proficiency, our business processes lacked full traceability. This resulted in process opacity when it comes to recurring delays, delivery errors, or administrative sanctions. By gaining a deeper understanding of our processes, we can optimize them, reduce costs, and minimize business risks.”</p>
+  <h2 id="transparent-and-traceable-collaboration">Transparent and Traceable Collaboration</h2>
+  <p>The lack of visibility and traceability in these processes hindered automation, cross-organizational data and process mining, and intelligence. This directly affected how disputes were resolved and impacted organizational budgets.</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="build-and-deploy-intelligent-data-applications-at-scale-with-sap-hana-cloud">Build and deploy intelligent data applications at scale with SAP HANA Cloud</h3>
+        <p><em><a href="https://www.sap.com/products/technology-platform/hana.html">Learn more</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>To address this challenge, SAP Innovation Center Network developed a prototype based on the <a href="https://d.dam.sap.com/a/1vxdhV8/Cross-Company%20Workflow%20-%20One%20pager%289%29%20%20-%20%20Read-Only.pdf?rc=10">SAP Cross-Company Workflow Collaboration</a> service, combined with a blockchain-based shared ledger on SAP HANA Cloud. “This prototype aims to replace manual practices with automated, cross-company orchestrations. By using an SAP HANA Cloud shared ledger, organizations like the City of Antibes can benefit from a permissioned, publicly verifiable, and immutable audit trail of cross-organizational interactions,” says Benjamin Stoeckhert, innovation product manager at SAP Innovation Center Network, illustrating the potential of this innovation.</p>
+  <p>“Leveraging the full potential of an SAP HANA Cloud shared ledger allows us to connect digital platforms that unite businesses and government to track the compliance of services and product deliveries according to contractual terms and conditions,” explains Duverger. “We can leverage data from different parties, such as logistics companies and quality certification bodies, and move beyond the era of cumbersome paperwork and manual processes. For example, this pattern is applicable to procurement processes where multiple parties verify the compliance of suppliers and their deliveries.”</p>
+  <h2 id="complete-control-of-unencrypted-data">Complete Control of Unencrypted Data</h2>
+  <p>However, opening up collaborative processes directly conflicts with customer privacy concerns. This dilemma poses a significant challenge for next-generation contract management. How can businesses ensure transparency without compromising the privacy of private business information and processes? Duverger emphasizes the importance of protecting sensitive public procurement secrets: “Confidentiality, including negotiated prices and deal sizes, is paramount for us and our suppliers.”</p>
+  <p>In response to this pressing need, the SAP Security Research team, in collaboration with the SAP Innovation Center Network blockchain team, has extended SAP Cross-Company Workflow Collaboration with a hardware-based privacy-enhancing technology (PET) innovation. Dr. Laurent Gomez, who led this innovation with Antibes, explains: “Before committing a transaction to the shared ledger, organizations encrypt it along with its associated sensitive information, using their own managed cryptographic material. Encrypted data and processes are only processed within secure and trusted hardware modules, with the explicit consent of each stakeholder.”</p>
+  <div class="promo blue">
+    <div>
+      <div>
+        <h3 id="future-focused-solutions-can-solve-todays-challenges-and-shape-the-next-generation-of-enterprise-software">Future-focused solutions can solve today’s challenges and shape the next generation of enterprise software</h3>
+        <p><em><a href="https://www.sap.com/about/company/innovation/icn.html">Learn how</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p>This innovation can unlock significant business value by helping to automate cross-company operations and protect the privacy of customer data while still allowing for analysis. The key contribution of this approach is that it gives customers complete control and ownership of their encrypted material. “SAP can never access unencrypted data; the only data that leaves our information system is encrypted by us,” says Duverger. “SAP Business Technology Platform (SAP BTP) allows us to hold our own encryption keys, which is different from competing solutions.”</p>
+  <h2 id="less-late-payment-penalty-costs">5% Less Late Payment Penalty Costs</h2>
+  <p>The co-innovation has revealed the bottlenecks that slow down the procurement process at the City of Antibes and lead to late payment penalties for suppliers and delivery delays. “By adopting this secure distributed ledger approach, we have improved these key performance indicators without changing the process itself. We can now reliably manage all our procurement transactions,” says Duverger. “A key achievement was that we reduced our delinquency rate by 5%, which significantly minimized the impact of late payment penalty costs on our global spend budget.”</p>
+  <p>The project was recently recognized at the highest national level with the Territoria Gold Award by the French Ministries of the Interior, Ecological Transition, and Territorial Cohesion.</p>
+  <div class="lightbox">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="" src="./media_1a39ac04a061b0b54756921e032f354640f916943.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="681">
+          </picture>
+        </p>
+        <p><em>© Niclas Fagot Studio9</em></p>
+      </div>
+    </div>
+  </div>
+  <p>To find out more about SAP Cross-Company Workflow, get in touch with us at <a href="mailto:icn@sap.com">icn@sap.com</a>.</p>
+  <div class="footnote">
+    <div>
+      <div>Corinna Schmidt is part of NVT Communication at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="stay-in-touch-and-connect-with-sap-news-on-linkedin">Stay in touch and connect with SAP News on LinkedIn</h3>
+        <p><em><a href="https://www.linkedin.com/showcase/sap-news">Follow us</a></em></p>
+      </div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/customers</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/customer-story</category>
+            <category>news-tag/digital-transformation</category>
+            <category>product/sap-hana-cloud</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[From Sentiments to Solutions: Decoding Business Correspondence with Gen AI]]></title>
+            <link>https://www.sap.com/news/2023/10/decoding-business-correspondence-ai-communication-intelligence</link>
+            <guid>https://www.sap.com/news/2023/10/decoding-business-correspondence-ai-communication-intelligence</guid>
+            <pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Communication intelligence is a service on SAP BTP that can analyze, categorize, and correspond to written communication by leveraging AI.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/innovation</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[The Immediate Impacts of Video Data Stories]]></title>
+            <link>https://www.sap.com/news/2023/06/immediate-impacts-of-video-data-stories</link>
+            <guid>https://www.sap.com/news/2023/06/immediate-impacts-of-video-data-stories</guid>
+            <pubDate>Fri, 16 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Innovation Center Network is creating a solution that gives business users video data stories on activities relevant to their roles.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_10243be8ae363277c6bd409d6e30d14f26e1ae31a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_10243be8ae363277c6bd409d6e30d14f26e1ae31a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_10243be8ae363277c6bd409d6e30d14f26e1ae31a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="The Immediate Impacts of Video Data Stories" src="./media_10243be8ae363277c6bd409d6e30d14f26e1ae31a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1920" height="600">
+          </picture>
+        </p>
+        <h1 id="the-immediate-impacts-of-video-data-stories">The Immediate Impacts of Video Data Stories</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When it comes to offering audiences engaging and easy-to-consume content, platforms like Instagram and TikTok lead the way. In the world of business, too, storytelling-on-the-go has huge potential. SAP Innovation Center Network is creating a solution that helps address this opportunity.</div>
+    </div>
+  </div>
+  <p>“We want to enable companies to share business insights fast and in a fresh and immediate way,” says Michael Wittmann, senior developer at <a href="https://www.sap.com/about/company/innovation/icn.html">SAP Innovation Center Network</a>, on the rationale behind the data storytelling solution he and his team are working on.</p>
+  <p>The purpose is to provide business users with short, animated “video data stories” about the key activities relevant to their individual roles.</p>
+  <div class="embed">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1410d1fd13d29b717e5aedbf0a9a0f05f3c0d034e.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1410d1fd13d29b717e5aedbf0a9a0f05f3c0d034e.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1410d1fd13d29b717e5aedbf0a9a0f05f3c0d034e.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Video Data Stories: The Smartest Way to Stay Updated" src="./media_1410d1fd13d29b717e5aedbf0a9a0f05f3c0d034e.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="480" height="360">
+          </picture>
+        </p>
+        <p><a href="https://www.youtube.com/watch?v=G0yrL-E9p5A">Video Data Stories: The Smartest Way to Stay Updated</a></p>
+      </div>
+    </div>
+  </div>
+  <p>Eye-catching videos that are 10 to 15 seconds long will mean that users won’t have to refer to dashboards or wade through reports as they do today. Built-in templates for the most common business processes will enable anyone to create their own video data story and link it to their data sources. No design or programming experience is required.</p>
+  <p>The solution’s video data stories apply the same user experience principles as other content-sharing platforms. New videos are displayed in chronological order, and viewers can navigate easily through the different parts of a story or skip entire stories that are not relevant to them.</p>
+  <p>By incorporating animated visualizations, users can show changes in data over a specific time period dynamically. If more details are needed, they can point the audience to the right people and include links to the data sources and applications.</p>
+  <p>“One potential use case is sales reporting,” says Wittmann. Here, the solution has a predefined template that can be used to generate a personalized story for each sales accountant, showing how sales figures have changed over a defined period and including highlights and historical comparisons.</p>
+  <p>“Other information, such as headcount growth, quarterly earnings, and fact sheets for communications and sales, can also be shared through video storytelling in a far more compelling way than in PDF files or PowerPoint,” continues Wittmann.</p>
+  <p>The same applies to many of the e-mail notifications that land in our inboxes. Though not every notification needs a video data story. “It’s about finding the right balance,” notes Wittmann. “Instead of separate alerts for each event, you might receive a daily summary of the most important updates on a particular topic.”</p>
+  <p>In principle, video data stories can translate their insights into animated videos like those on Instagram. Users can decide for which events and applications video data stories are generated. “For some scenarios, daily or weekly updates are best. For others, it might be when a particular threshold is exceeded or when other kinds of exceptions occur,” explains Wittmann.</p>
+  <p>It is hard to imagine any department that would not benefit from this type of storytelling. Yet what might at first seem highly generic is in fact very individual.</p>
+  <p>“Right now, business software is clearly moving toward hyper-personalization,” says Wittmann. “That is why we want our video data stories to be used not just to share generic content but also to be tailorable to the individual viewer.”</p>
+  <p>Examples of personalized content could be team members’ birthdays and reports indicating how many of a manager’s direct reports have completed the latest compliance training.</p>
+  <p>“At the moment, we’re still defining the product,” says Wittmann. “We are working on a first version of an <a href="https://www.sap.com/products/technology-platform.html">SAP Business Technology Platform (SAP BTP)</a> service that can generate videos from different applications. We have also teamed up with colleagues from <a href="https://www.sap.com/products/technology-platform/cloud-analytics.html">SAP Analytics Cloud</a> to create an initial integration function for exporting video data stories directly from an analytics story.”</p>
+  <p>At SAP, Wittmann and his team have been working mainly with the Customer, Competitive, and Market Insights (CMI) team. In an early prototype, stories were generated weekly for a specific solution area to see which topics were seeing the most customer demand.</p>
+  <p>In another pilot project, the team is testing personalized video data stories for the sales organization. Here, account executives receive stories with updates on the specific customers they serve.</p>
+  <p>“We are really keen to trial the solution with customers to learn which use cases they might have, how they want to tell those stories, and where we can best integrate this capability,” says Wittmann.</p>
+  <div class="quote">
+    <div>
+      <div>To find out more about video data stories, get in touch with us at <a href="mailto:icn@sap.com">icn@sap.com</a>.</div>
+    </div>
+    <div>
+      <div>Jeanette Rohr is a brand journalist at SAP.</div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Knowledge Graphs: The Dream of a Knowledge Network]]></title>
+            <link>https://www.sap.com/news/2023/04/knowledge-graphs-dream-of-knowledge-network</link>
+            <guid>https://www.sap.com/news/2023/04/knowledge-graphs-dream-of-knowledge-network</guid>
+            <pubDate>Mon, 24 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Knowledge graphs can help bridge scientific disciplines and data silos, creating potential for new insights and interdisciplinary inventions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/machine-learning</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and Sartorius Are Reinventing Collaboration and Manual Processes]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-and-sartorius-reinventing-collaboration</link>
+            <guid>https://www.sap.com/news/2022/10/sap-and-sartorius-reinventing-collaboration</guid>
+            <pubDate>Tue, 04 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and Sartorius developed a prototype that aims to replace manual practices with automated cross-company orchestrations. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/automation</category>
+            <category>news-tag/blockchain</category>
+            <category>industry/healthcare</category>
+            <category>product/sap-business-technology-platform</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[The Future of Analytics: How to Make Sense of Data and Mitigate Business-Critical Risks]]></title>
+            <link>https://www.sap.com/news/2022/08/future-of-analytics-make-sense-of-data-mitigate-risks</link>
+            <guid>https://www.sap.com/news/2022/08/future-of-analytics-make-sense-of-data-mitigate-risks</guid>
+            <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At SAP, we want to help our customers navigate the data jungle and move into the future of analytics. Learn more about how.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[TUMO Labs Students Put Their Skills to Work in Innovation Challenges]]></title>
+            <link>https://www.sap.com/news/2022/08/tumo-labs-students-put-their-skills-to-work-in-innovation-challenges</link>
+            <guid>https://www.sap.com/news/2022/08/tumo-labs-students-put-their-skills-to-work-in-innovation-challenges</guid>
+            <pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A program from SAP and TUMO Labs supports university students in understanding, utilizing, and shaping digital technologies. Learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>news-topic/training</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>news-tag/future-of-work</category>
+            <category>news-tag/sap-innovation-center-network</category>
+            <category>news-tag/sap-university-alliances</category>
+        </item>
+        <item>
+            <title><![CDATA[How SAP Builds Bridges Between Research and Development]]></title>
+            <link>https://www.sap.com/news/2022/07/sap-bridges-academia-and-business-research-and-development</link>
+            <guid>https://www.sap.com/news/2022/07/sap-bridges-academia-and-business-research-and-development</guid>
+            <pubDate>Mon, 18 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[When it comes to getting academia and business to work together on the problems of the future, SAP is breaking new ground]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-innovation-center-network</category>
+            <category>news-tag/sap-signavio</category>
+        </item>
+        <item>
+            <title><![CDATA[Continuous Intelligence: Definition, Benefits, and Examples]]></title>
+            <link>https://www.sap.com/news/2022/07/continuous-intelligence-definition-benefits-examples</link>
+            <guid>https://www.sap.com/news/2022/07/continuous-intelligence-definition-benefits-examples</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Continuous Intelligence, or continuously monitoring business data for anomalies, can help brands make smart, real-time business decisions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>topic/crm-customer-experience</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>topic/ai</category>
+            <category>topic/data-analytics</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Toward a Fully Digital Accounting with DATEV]]></title>
+            <link>https://www.sap.com/news/2022/05/sap-datev-fully-digital-accounting</link>
+            <guid>https://www.sap.com/news/2022/05/sap-datev-fully-digital-accounting</guid>
+            <pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and IT service provider DATEV developed a digital system to assist in handling a largely—but not entirely—paperless world.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Blockchain as a Megatrend]]></title>
+            <link>https://www.sap.com/news/2021/12/blockchain-as-a-megatrend</link>
+            <guid>https://www.sap.com/news/2021/12/blockchain-as-a-megatrend</guid>
+            <pubDate>Wed, 15 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What makes blockchain a megatrend and what can be expected from the technology in the near future? Read to find out.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/blockchain</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[A Vision of Innovation]]></title>
+            <link>https://www.sap.com/news/2021/12/a-vision-of-innovation</link>
+            <guid>https://www.sap.com/news/2021/12/a-vision-of-innovation</guid>
+            <pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dr. Martin Heinig was appointed head of New Ventures & Technologies at SAP in February 2021. Read to learn more about him.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="A Vision of Innovation" src="./media_1bb99445bf3734ec70700c7d1dd7e1a6823ff9863.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="a-vision-of-innovation">A Vision of Innovation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>The start of Martin Heinig’s career was marked by a formative experience at a company that no longer exists today. As a young working student at radio manufacturer Blaupunkt, he observed firsthand how an established company, the inventor of the car radio, toppled from its perch as market leader due to technological disruption and ultimately went bankrupt.</div>
+    </div>
+  </div>
+  <p>“Only because they failed to recognize the signs of the times,” says Heinig. “It was sad to watch and terrible for the workforce. People asked themselves, ‘How could that happen to our company in particular?’ That bothered me for a long time. Could we have prevented this downfall? And if so, when and how should we have changed course?”</p>
+  <p>Today, a decade and a half later, Heinig heads the New Ventures and Technologies area at SAP. It explores this very question, which is more relevant than ever for many companies around the world: how can a successful company stay innovative and manage its own technologies and business models with an eye to the future?</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="new-ventures-and-technologies-solutions-from-sap-graduate-to-core-portfolio">New Ventures and Technologies Solutions from SAP Graduate to Core Portfolio</h3>
+      </div>
+      <div><strong><a href="/2020/12/new-ventures-and-technologies-solutions-graduate-to-sap-portfolio">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="the-road-to-sap">The Road to SAP</h2>
+  <p>“I’d be exaggerating if I said that my experience at Blaupunkt predetermined the direction my career would take,” says Heinig. “But the company did have a certain influence on my family and my life.” Heinig’s parents met each other for the first time at Blaupunkt, after his mother moved to Germany from Turkey as a young woman. Heinig grew up in a village near Hildesheim in Germany, but he regularly spent his summers in Turkey.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Headshot of Martin Heinig" src="./media_14f1d4ec56cf549edbd55683f3b46477924472ca9.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="360" height="200">
+    </picture>
+  </p>
+  <p><em>Photo courtesy of Kay Herschelmann</em></p>
+  <p>“My mother’s family is from Ankara, so I grew up bilingual, which I always saw as a great advantage,” says Heinig, who was the first in his family to earn a doctorate. “Education was important to my parents, but they never checked whether I did my homework. They didn’t have the time for that. It was simply understood: if you want to achieve something, you have to do the work.”</p>
+  <p>That meant a high level of personal responsibility from the start, but also the freedom to decide what he wanted to do with his life. “It all started with a Schneider PCP, followed by an Amiga 500, and later I decided to major in business informatics at the University of Göttingen because IT was what interested me the most and what promised to be the most fun.”</p>
+  <p>Heinig spent a semester abroad in Paris, so he speaks pretty good French in addition to German, Turkish, and English. After earning his master’s degree, he worked as a software developer for two years before starting a dissertation at TU Hamburg on the use of virtual and augmented reality (VR/AR) in manufacturing. Towards the end of this four-year doctoral phase, Martin accepted a position at the newly founded <a href="/2021/11/10-years-sap-innovation-center-potsdam">SAP Innovation Center Potsdam</a> and moved to Berlin.</p>
+  <p>He laughs at the memory: “Colleagues, fellow students, practically everyone I knew asked me if I was really sure that joining SAP would be a sensible step in my career.”</p>
+  <p>“But I was sure,” says Heinig. “There was a real pioneering spirit at SAP Innovation Center Potsdam. Everyone was full of ideas and creative drive.”</p>
+  <h2 id="from-sap-innovation-center-network-to-new-ventures-and-technologies">From SAP Innovation Center Network to New Ventures and Technologies</h2>
+  <p>This first of what has become nine innovation centers worldwide today was led at the time by Dr. Juergen Mueller, who is now a member of the Executive Board of SAP SE and chief technology officer. Over the next few years, the seed in Potsdam grew into SAP Innovation Center Network, which serves as a kind of trend radar and think tank for SAP and is now part of Heinig’s New Ventures and Technologies domain.</p>
+  <p>“Back then, we liked to use the metaphor of SAP as an oil tanker – and <a href="https://icn.sap.com/">SAP Innovation Center Network</a> was a speedboat,” says Martin. “We wanted to be agile and flexible, try out new technologies and ideas, but also be able to drop them effortlessly if it became apparent that they wouldn’t go anywhere.”</p>
+  <p>Martin says one of the most important lessons he learned from this time was that think tanks have to be well connected with product departments and maintain regular contact with the lines of business.</p>
+  <p>“That’s a cornerstone of our work in New Ventures and Technologies today, too,” he explains. “How can you establish early collaboration with the lines of business to enable them to incorporate new technologies, solutions, and products?”</p>
+  <p>Having served as director of SAP Labs Berlin since August 2018, Heinig was appointed head of New Ventures and Technologies in February 2021. His years of experience as COO under Juergen Mueller served him well here: “Seizing the reins, setting the agenda myself, that part was new for me. But I was already familiar with all the topics from my support role.”</p>
+  <p>In addition to SAP Innovation Center Network, a number of other SAP departments also belong to New Ventures and Technologies.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Diagram explaining how New Ventures and Technologies lead SAP&#x27;s innovation agenda" src="./media_1c51ca15150daf810e1f764e9223598ce6f1731ea.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="571">
+    </picture>
+  </p>
+  <p>“They all work on innovation and new technologies in some way,” says Heinig, “but each has a different focus and different partners within the SAP ecosystem. We’re not a line organization. There are many different functions in our organization, which I had to learn about in detail as the new head before I could assemble my leadership team and we could define a strategic framework together that everyone could identify with and find their place in.”</p>
+  <h2 id="a-vision-of-innovation-1">A Vision of Innovation</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-innovation-center-network">Learn more about SAP Innovation Center Network</h3>
+      </div>
+      <div><strong><a href="https://icn.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>In this forward-looking approach, all departments within New Ventures and Technologies were involved and asked for their perspectives. “This inclusive method proved to be very important to the success of the agenda,” says Heinig. “You can’t just politely ask the employees to be innovative. The ideas need to fit with SAP’s portfolio and strategy as smoothly as possible, as both continue to evolve in the future.”</p>
+  <p>Instead, the team focused on defining the right vision of innovation for SAP. “What might our future look like and where do we want to go?” were the most important questions, according to Heinig. “And then to think back from there: what steps will get us there, what issues do we need to resolve, and what needs to happen for us to be able to resolve them?”</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="Diagram showing the innovation vision and strategy" src="./media_15c3c7a0375295663095b4d2e62cb340c0815d936.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1024" height="744">
+    </picture>
+  </p>
+  <p>Three core units are responsible for anticipating major changes, in harmony with the current SAP strategy and product portfolio.</p>
+  <p>Heinig explains: “First of all, we envision the next level of the ERP systems as a kind of platform that makes it possible to put business processes and individual functions together as needed. As such, this composability architecture is a key focus of our current work, with which we want to empower our customers to use subprocesses as individual modules.”</p>
+  <p>The second development involves the handling of data. “Instead of the current usual method of displaying and analyzing data in a dashboard that you defined yourself beforehand, it will be possible to involve the system in this selection in future,” Heinig says. The magic word here is ‘contextualization.’ “Systems will evolve to the point where they can recognize my current context as a user and supply me with information on their own accord, without me having to request it explicitly,” he adds.</p>
+  <p>In addition, the Finance and Accounting area and its standards and KPIs for steering business will change. “As we see it, sustainability aspects have to be given much greater weight in reporting,” says Heinig. “To achieve this, we need a separate accounting system and sustainability KPIs have to be integrated in the SAP core system.”</p>
+  <h2 id="a-culture-of-trust-and-transparency">A Culture of Trust and Transparency</h2>
+  <p>With nearly 300 full-time employees and a large number of students, New Ventures and Technologies consists of 10 branch offices worldwide. Martin’s goal for this teamwork is to establish a culture of personal responsibility. Instead of simply assigning topics, the responsible employees should be empowered to develop them on their own.</p>
+  <p>“The most important thing is a relationship of mutual trust,” he says. “I often talk about budget issues in team meetings and provide information about my own work. Other department heads in New Ventures and Technologies do likewise.” Knowledge transfer among the different teams is also important. “Everyone has to understand that we can only succeed if we all work together and collaborate closely with one another,” he adds.</p>
+  <p>This culture of transparency is deeply rooted in SAP Innovation Center Network, but it’s also a sign of the times, according to Heinig. “We’re living in the age of the platform economy, which simply demands this transparency and strong networking among us as prerequisites for collaborative work.”</p>
+  <p>And that’s a good thing. “Ultimately, the ideas of the employees will always be the decisive factor when it comes to keeping a company in shape for the future,” he emphasizes.</p>
+  <p>As he sees it, the role of management here is to create structures that give employees the space to exercise this creativity and develop these ideas. “It starts with me as a manager, giving my employees the impression that they are allowed to express their thoughts and submit their ideas for consideration,” Heinig says. “Encouraging this openness might be my most important responsibility as head of New Ventures and Technologies – and it’s also the thing makes me like this role so much.”</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[One Technical Revolution at a Time: 10 Years of SAP Innovation Center Potsdam]]></title>
+            <link>https://www.sap.com/news/2021/11/10-years-sap-innovation-center-potsdam</link>
+            <guid>https://www.sap.com/news/2021/11/10-years-sap-innovation-center-potsdam</guid>
+            <pubDate>Fri, 05 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP Innovation Center Potsdam has given rise to many significant innovations since its founding in 2011. Read to learn more.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_19904870e2370d9e427b7fb6d43cce1bae7f8a673.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_19904870e2370d9e427b7fb6d43cce1bae7f8a673.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_19904870e2370d9e427b7fb6d43cce1bae7f8a673.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="One Technical Revolution at a Time: 10 Years of SAP Innovation Center Potsdam" src="./media_19904870e2370d9e427b7fb6d43cce1bae7f8a673.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="one-technical-revolution-at-a-time-10-years-of-sap-innovation-center-potsdam">One Technical Revolution at a Time: 10 Years of SAP Innovation Center Potsdam</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Small beginnings can lead to large impact. The first location of <a href="https://icn.sap.com/">SAP Innovation Center Network</a> was founded in October 2011 as a technology trend radar for the Walldorf-based company and has since given rise to a significant number of SAP’s most innovative products and solutions.</div>
+    </div>
+  </div>
+  <p>“Invisible spheres making funny noises,” Marcus Krug says when asked about the first thing he remembers from the early days of SAP Innovation Center Potsdam. “We were located right underneath the Hasso Plattner Institute’s D-School and would always hear the HPI students playing funny ice-breaker games to get their creativity going on the lawn outside our windows.” Now the head of SAP Innovation Center Potsdam, Krug first joined when it was five months old and had just over 20 employees.</p>
+  <p>SAP Innovation Center Potsdam was founded by the Executive Board of SAP SE and with the encouragement of Professor Hasso Plattner, chairman of the Supervisory Board of SAP SE. Today it serves as the nucleus of what has become SAP Innovation Center Network, which eventually gave rise to the New Ventures and Technologies department with close to 400 innovators within the SAP Technology and Innovation Board area.</p>
+  <p>“The idea was to have a dedicated SAP unit looking into new technologies and what could be done with them,” Krug says. “We didn’t want to risk missing out on both technical and business opportunities.”</p>
+  <p>Matthias Uflacker, the first SAP Innovation Center Potsdam employee at the time, explains why Potsdam was chosen as the first location: “The collaboration with the Hasso Plattner Institute helped us identify and try out new things outside of standard SAP product development. SAP Innovation Center Potsdam fostered research, providing a platform for the cooperation between SAP and scientists, with SAP not only funding but also bringing in relevant questions to solve. And, with its proximity to HPI and the academic hub that is Berlin, it was able to attract a lot of amazing, international talent over the years.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="learn-more-about-sap-innovation-center-network">Learn more about SAP Innovation Center Network</h3>
+      </div>
+      <div><strong><a href="https://icn.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="technology-vanguard-for-sap">Technology Vanguard for SAP</h2>
+  <p>“The original mission was to transform cutting-edge research into innovation, so obviously from the beginning we’ve had the ambition to explore and use the latest technology in order to find out how it could benefit our customers and SAP,” Krug says.</p>
+  <p>Working closely with academia was an obvious way to get access to cutting-edge research. The birth of SAP HANA, for example, was the result of a strong relationship between SAP and HPI. Experts from both sides were eager to continue working together, with further projects revolving around the application side of SAP HANA.</p>
+  <p>“Part of our mission was to explore novel SAP HANA use cases to see how far we could push what was possible with this new, paradigm-shifting in-memory technology,” Krug says. “To do so, we were looking at new applications leveraging data science and machine learning on Big Data sets in a broad range of industries, including healthcare, life sciences, and even gaming. Many of these projects were small and it was a lot of fun to work on them with highly talented colleagues coming from all over the world.”</p>
+  <p>“HPI student projects had already been an important contribution to the development of SAP HANA,” Dr. Michael Perscheid, chair representative of Prof. Hasso Plattner at HPI, says. After founding SAP Innovation Center Potsdam, these types of projects were continued with a strong focus on the application side. “Gifted students from HPI got to work on a specialized business problem together with SAP and an industry partner,” he adds. Some of these projects were so successful that they were featured in Plattner’s SAPPHIRE NOW keynotes.</p>
+  <h2 id="strategic-approach-to-innovation">Strategic Approach to Innovation</h2>
+  <p>SAP Innovation Center Potsdam moved to a building of its own in September 2013, located in an idyllic spot north of Potsdam, near Lake Jungfernsee. Designed for transparency with its open spaces and large glass fronts, the new location in Potsdam is meant to foster communication, exchange of ideas, collaboration, and contemplation of new possibilities. Due to massive hiring, an additional building was opened in May 2016.</p>
+  <p>In 2013, the leadership of SAP Innovation Center Potsdam changed to Juergen Mueller, formerly head of Plattner’s chair at HPI and today member of the Executive Board of SAP SE and chief technology officer, who was to give SAP an actual innovation strategy.</p>
+  <p>“SAP Innovation Center Network, among other things rose from that strategy,” Krug says. “Juergen brought in the necessary structure and focus for the location to take on increasingly bigger responsibilities within the SAP family and to get ready to grow the team significantly over the next few years.”</p>
+  <h2 id="startup-agility-combined-with-corporate-expertise">Startup Agility Combined with Corporate Expertise</h2>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="intelligent-enterprises-are-changing-the-world-for-the-better">Intelligent enterprises are changing the world for the better</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/products/intelligent-enterprise.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Inspired by his work with startups and venture capitalists in the Berlin ecosystem, Krug developed the idea of creating an entrepreneurial space within SAP, allowing employees to develop new ventures following the same principles and governance as their non-SAP counterparts. The resulting blueprint for SAP’s intrapreneurship program made it into Mueller’s innovation strategy in 2014 and laid the foundation for yet another big step in the evolution of SAP’s innovation ambitions.</p>
+  <p>After reaching more than 1,000 employees who submitted more than 400 venture ideas, it was clear that the program struck a chord. Venture capitalists who had been invited to help structure the program by providing outside-in perspective were impressed with the quality of the submissions and the proposal was met with a lot of interest by the executive board. In retrospect, Krug is certain: “Coming up with this idea, developing it, actually getting the mandate and the freedom to build the program the way we did – this could only have happened at SAP Innovation Center Potsdam.”</p>
+  <p>Working closely with startups also spurred a certain SAP Innovation Center Potsdam-specific mindset about the development of new ideas. “Think big, start small. Fail often, fail early, as a startup would,” Krug sums up. “This isn’t typically possible when you’re part of a large corporation.”</p>
+  <p>Using a lean startup approach, design thinking, and first-principles thinking, SAP Innovation Center Potsdam experts first focus on a business problem when working with SAP customers. While most big problems have already been addressed one way or another in the market, new technologies often allow for completely rethinking how to approach a problem. Machine learning and blockchain are two prominent examples of technologies that SAP has been able to adopt to build fundamentally new capabilities after exploring them in <a href="/topics/sap-innovation-center-network">SAP Innovation Center Network</a>.</p>
+  <p>The setup for SAP Innovation Center Potsdam’s innovation projects with customers closely resembles the work of a startup. It starts with a small team and works to demonstrate in an agile way how it will benefit customers. Since SAP Innovation Center Potsdam typically works in close alignment with SAP’s lines of business, there is always a realistic chance that a successful solution might eventually become an SAP standard product.</p>
+  <h2 id="outlook-into-the-future">Outlook into the Future</h2>
+  <p>SAP Innovation Center Potsdam’s mission, however, still feels fresh and vibrant after 10 years. Now part of the bigger New Ventures and Technologies family, the team continues to tackle big customer problems using the latest technologies, including neurosymbolic artificial intelligence (AI), semantic technologies, and blockchain.</p>
+  <p>Some of the team’s biggest bets are on decentralized technologies to build the business network of the future, enabling customers to seamlessly share scope-3 carbon emissions, embedding financial technology into business processes using smart contracts and decentralized finance, as well as new AI-powered simulation and decision-making tools to contextualize business events and augment SAP S4/HANA Finance users.</p>
+  <p>“We don’t own a fail-proof crystal ball,” Krug says. “But I’m sure we will hear and see a lot more on the topics of AI-enabled contextualization, human augmentation, smart contracts, tokenization, and tokenomics. Our goal is to drive the change these new capabilities will enable to create a better world and help our customers address their biggest needs.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/solutions</category>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/intelligent-enterprise</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Two Steps Ahead of Potential Failures with Airborne Sound]]></title>
+            <link>https://www.sap.com/news/2021/10/airborne-sound-ahead-of-failures</link>
+            <guid>https://www.sap.com/news/2021/10/airborne-sound-ahead-of-failures</guid>
+            <pubDate>Fri, 22 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Maintaining industrial machines and plants is increasingly complex but airborne sound can help predict failures before they occur. Learn how.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_13b2a9e4f8c715f04878c8f8f871a34af899902e1.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_13b2a9e4f8c715f04878c8f8f871a34af899902e1.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_13b2a9e4f8c715f04878c8f8f871a34af899902e1.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Two Steps Ahead of Potential Failures with Airborne Sound" src="./media_13b2a9e4f8c715f04878c8f8f871a34af899902e1.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="two-steps-ahead-of-potential-failures-with-airborne-sound">Two Steps Ahead of Potential Failures with Airborne Sound</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>When Peter Meyer opens the doors to the production hall, he stands in his realm. For outsiders, the clicking, rattling and hammering of the machines is simply loud. What Peter hears are steady, typical operating sounds from the various rotating mechanical components that mesh smoothly to keep the machine running. If something was wrong, it wouldn’t get past his trained ears.</div>
+    </div>
+  </div>
+  <p>The machines are part of his everyday life; Peter is responsible for their maintenance. It’s an important job, because if one of them breaks down, it can lead to costly downtime, supply bottlenecks, and lost revenue.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-innovation-center-network-future-proofing-sap-and-delivering-an-era-of-organic-growth-through-technical-innovation">SAP Innovation Center Network: Future-proofing SAP and delivering an era of organic growth through technical innovation</h3>
+      </div>
+      <div><strong><a href="https://icn.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="sound-as-an-early-warning-system">Sound as an Early Warning System</h2>
+  <p>Relying on sound to determine if a machine is about to fail is not new. Experienced listeners like Peter have developed a sharp sense for unusual machine operating noises over the years. But the more machines he oversees, the harder it becomes to notice an impending failure in time. With advances in media and sensor technology, automatic acoustic monitoring has become a widely used approach to predictive maintenance.</p>
+  <p>Measuring structural vibrations is the most commonly used sound technique for predicting failures. If a machine is unbalanced, misaligned, or if mounting bolts are loose, vibration increases — an indicator that something is wrong. But in order to determine the right time to take the equipment out of service, operators must continuously monitor the malfunction and need great experience with similar problems.</p>
+  <p>The use of airborne sound for predictive maintenance has long been considered an unusual monitoring option. Airborne sound is sound that is transmitted through the air, like music or speech. This differs from vibration, where the sensor is mounted directly on the machine under test. Its susceptibility to background noise has made airborne sound impractical for monitoring machines in the past. Anyone who has ever stood in a production hall knows why hearing protection is an essential piece of equipment.</p>
+  <h2 id="improve-existing-forecasting-models-with-airborne-sound">Improve Existing Forecasting Models with Airborne Sound</h2>
+  <p>With advances in sensor technology and signal processing algorithms, airborne sound-based acoustic condition monitoring has become robust to background noises. This has allowed the development of systems that can replicate and enhance human hearing diagnostic capabilities by analyzing sound characteristics like time, frequency, amplitude, or velocity comparable to that of experienced human hearing — like Peter’s.</p>
+  <p>“Keeping assets running by predicting, simulating, and optimizing their health is a key priority for industrial companies,” said Anton Kroeger, senior director of Natural Resources for Australia and New Zealand at SAP. “Using airborne sound for predictive maintenance could improve existing forecasting models and deliver additional value to our customers.”</p>
+  <p>To better understand the potential of airborne sound for predictive maintenance, the <a href="https://icn.sap.com/">SAP Innovation Center Network</a> joined forces with the <a href="https://www.idmt.fraunhofer.de/en.html">Fraunhofer Institute for Digital Media Technology</a> (IDMT). In a proof of concept, the SAP Innovation Center Network and Fraunhofer aim to explore how to predict and avoid planned and unplanned downtime of industrial equipment through airborne sound measurements. With their expertise in sound engineering and acoustic condition monitoring, Fraunhofer IDMT will install a set of acoustic monitoring microphones at a customer site to capture sound radiated by the machine under test.</p>
+  <p>“Airborne sound carries valuable information for acoustic condition monitoring to detect anomalies and classify the behavior of machinery in automated production processes,” said Judith Liebetrau, group lead for Industrial Media Applications at Fraunhofer IDMT. “Since airborne sound-based condition monitoring is a non-invasive approach, sensors can be easily installed on the existing assets.”</p>
+  <h2 id="big-impact-with-small-adjustments">Big Impact with Small Adjustments</h2>
+  <p>The measured acoustic data of the machines and their surroundings will be recorded locally and transmitted securely to Fraunhofer for analysis. Instead of processing these immense amounts of data centrally in the cloud, the SAP Innovation Center Network team will train machine learning models locally across multiple decentralized edge devices without exchanging any raw data. The learnings of these individual edge models are then combined and transferred to the cloud to train a common, more robust master model. Think of it as leveraging swarm intelligence. The master model shares this aggregated knowledge with the local edge models and is continuously updated with new data. This distributed learning approach is designed to improve performance, increase accuracy and scale to larger input data sizes.</p>
+  <p>“With Fraunhofer’s expertise, we are able to explore this new technology in action and potentially apply the technological advances as part of a standardized solution at enterprise scale,” said Kavitha Krishnan, product manager and head of the <a href="/topics/sap-innovation-center-network">SAP Innovation Center Network</a> in Bangalore. “The data and insights from this joint project will help SAP to better understand and evaluate the business impact for customers.”</p>
+  <p>If airborne sound proves to be a reliable indicator for machine operators such as Peter, companies can add another dimension to existing forecasting models to further increase machine uptime and productivity. In maintenance, even small adjustments can have a big impact: SAP’s industry experts estimate that a 1% increase in asset availability and the resulting higher production can generate $38 billion in incremental revenue for customers in asset-intensive industries.</p>
+  <p>Instead of relying on intuition and experience in understanding if a machine is working well or not, the use of airborne sound can potentially extend existing predictive maintenance models and help to be two steps ahead of potential failures.</p>
+  <div class="footnote">
+    <div>
+      <div><em>Yaad Oren is head of the SAP Innovation Center Network.</em></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP and the EU TUMO Convergence Center Team Up to Boost Digital Education]]></title>
+            <link>https://www.sap.com/news/2021/10/sap-eu-tumo-convergence-center-digital-education</link>
+            <guid>https://www.sap.com/news/2021/10/sap-eu-tumo-convergence-center-digital-education</guid>
+            <pubDate>Fri, 15 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP and the EU TUMO Convergence Center are helping students and recent graduates understand, utilize, and shape digital technologies.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1712136a51fe7abe9956a3c324ab5b20621fe243a.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1712136a51fe7abe9956a3c324ab5b20621fe243a.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1712136a51fe7abe9956a3c324ab5b20621fe243a.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="SAP and the EU TUMO Convergence Center Team Up to Boost Digital Education" src="./media_1712136a51fe7abe9956a3c324ab5b20621fe243a.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="sap-and-the-eu-tumo-convergence-center-team-up-to-boost-digital-education">SAP and the EU TUMO Convergence Center Team Up to Boost Digital Education</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="test-drive-sap-learning-hub-today-with-a-free-trial">Test drive SAP Learning Hub today with a free trial</h3>
+      </div>
+      <div><strong><a href="https://www.sap.com/cmp/td/sap-learning-hub.html">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>
+        <p><strong><em>WALLDORF</em></strong></p>
+        <hr>
+        <p><a href="http://www.sap.com/">SAP SE</a> (NYSE: SAP) and the <a href="https://www.convergence.center/">EU TUMO Convergence Center for Engineering and Applied Science</a>, which helps bridge the gap between higher education and industry in Armenia, today said they launched a strategic collaboration aimed at helping university students and recent graduates understand, utilize and shape digital technologies.</p>
+      </div>
+    </div>
+  </div>
+  <p>“Innovation is what supercharges any science and technology ecosystem, and our collaboration with SAP deploys an innovation platform that is full of promise, not only from an industry perspective but also in terms of leading-edge research and education,” TUMO chief development officer Pegor Papazian said.</p>
+  <p>As part of this collaboration, the EU TUMO Convergence Center is now an associate member of the <a href="https://www.sap.com/about/company/innovation/next-gen-innovation-platform/university-alliances.html">SAP University Alliances program</a>. As such, it will have access to SAP software and learning content, and a partnership with the SAP network, including SAP Next-Gen Labs around the world.</p>
+  <p>The SAP Innovation Center Network in Potsdam, Germany, has developed 22 <a href="https://blogs.sap.com/2021/09/27/sap-innovation-center-network-invites-university-students-to-solve-real-world-business-technical-challenges/">innovation exploration challenges</a> for <a href="https://www.convergence.center/tumo-labs">TUMO Labs</a>, a technology, applied science and engineering education hub that is part of the EU TUMO Convergence Center. Students can explore emerging topics such as the future of self-service, augmented access control or augmented extended planning and analysis. In close collaboration with experts at the SAP Innovation Center Network, they will work to formulate proven and validated solutions to industry challenges. The expected outcomes range from user interface mockups and use-case ideas to data exploration and prototype code.</p>
+  <p>“Students have the opportunity to put their creativity to work and connect research ideas to real-world business challenges,” said Lukasz Ostrowski, development manager at the SAP Innovation Center Network in Potsdam. “Working with educational institutions like TUMO Labs offers us the chance to find new talent and shape the next generation of enterprise software together.”</p>
+  <p>The EU TUMO Convergence Center is currently registering for SAP learning resources, including SAP Learning Hub, <a href="https://learninghub.sap.com/academicedition/registration">academic edition</a> and SAP Learning Hub, <a href="https://learninghub.sap.com/next-gen">edition for SAP Next-Gen</a>. Plans to expand the collaboration are being evaluated and could include <a href="https://www.sap.com/about/company/innovation/next-gen-innovation-platform/young-thinkers.html">SAP Young Thinkers</a> programs, an SAP Next-Gen Lab in the EU TUMO Convergence Center and a research collaboration with TUMO Labs Berlin.</p>
+  <p>Visit the <a href="http://news.sap.com/">SAP News Center</a>. Follow SAP on Twitter at <a href="http://twitter.com/sapnews/">@SAPNews</a>.</p>
+  <p><strong>Media Contact:</strong> Benjamin Nickel, +49 170 4920616, <a href="mailto:benjamin.nickel@sap.com">benjamin.nickel@sap.com</a>, CET<br><a href="/press-room">SAP Press Room</a>; <a href="mailto:press@sap.com">press@sap.com</a></p>
+  <p>Any statements contained in this document that are not historical facts are forward-looking statements as defined in the U.S. Private Securities Litigation Reform Act of 1995. Words such as “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “may,” “plan,” “project,” “predict,” “should” and “will” and similar expressions as they relate to SAP are intended to identify such forward-looking statements. SAP undertakes no obligation to publicly update or revise any forward-looking statements. All forward-looking statements are subject to various risks and uncertainties that could cause actual results to differ materially from expectations. The factors that could affect SAP’s future financial results are discussed more fully in SAP’s filings with the U.S. Securities and Exchange Commission (“SEC”), including SAP’s most recent Annual Report on Form 20-F filed with the SEC. Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of their dates.<br>© 2021 SAP SE. All rights reserved.<br>SAP and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP SE in Germany and other countries. Please see <a href="https://www.sap.com/copyright">https://www.sap.com/copyright</a> for additional trademark information and notices.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>news-topic/training</category>
+            <category>content-type/newsbyte</category>
+            <category>news-tag/sap-innovation-center-network</category>
+            <category>product/sap-learning-hub</category>
+            <category>news-tag/sap-next-gen</category>
+            <category>news-tag/sap-university-alliances</category>
+        </item>
+        <item>
+            <title><![CDATA[What Businesses Need to Consider Today to Prepare for the Quantum Era]]></title>
+            <link>https://www.sap.com/news/2021/08/prepare-for-the-quantum-era</link>
+            <guid>https://www.sap.com/news/2021/08/prepare-for-the-quantum-era</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[To prepare for the quantum era, SAP is working with leading experts and quantum technology players in academia and industry on developments.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_18dacefe3a1724d79f5c851489294e522ea541aa1.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_18dacefe3a1724d79f5c851489294e522ea541aa1.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_18dacefe3a1724d79f5c851489294e522ea541aa1.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="What Businesses Need to Consider Today to Prepare for the Quantum Era" src="./media_18dacefe3a1724d79f5c851489294e522ea541aa1.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="what-businesses-need-to-consider-today-to-prepare-for-the-quantum-era">What Businesses Need to Consider Today to Prepare for the Quantum Era</h1>
+      </div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Quantum technology has enormous potential for science, industry, and society. The research in this area has gained strong momentum in recent years, sparking a <a href="https://www.washingtonpost.com/technology/2021/04/07/duality-quantum-startup-accelerator/">mini startup boom</a>. Quantum computing is of particular importance here. With the rise of quantum computing we might be able to solve complex tasks in the future that even the most powerful supercomputers fail at today.</div>
+    </div>
+  </div>
+  <p>The most discussed use cases for quantum computers are the ones where complex models that require enormous combinatorial computation power are applied to a problem. This includes combinatorial optimization problems such as supply chain logistics, where coordinating and identifying the most efficient route for goods to travel to market has been one of the most sought-after goals for both business and science.</p>
+  <p>Another domain of application could be financial services, where market prediction models are used for predicting important, disruptive events to the broader economy to drive portfolio decisions. Quantum computing is also expected to enhance machine learning, which may accelerate for instance the training of neural networks.</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="sap-innovation-center-network-curiosity-courage-determination">SAP Innovation Center Network: Curiosity, Courage, Determination</h3>
+      </div>
+      <div><strong><a href="https://icn.sap.com/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <h2 id="still-in-early-days-but-advancing-fast">Still in Early Days, but Advancing Fast</h2>
+  <p>Quantum computing is a multi-year journey. While the quantum computing market is expected to reach <a href="https://analyticsindiamag.com/top-countries-pumping-money-into-quantum-computing-technology/">$1.7 billion by 2026</a>, nobody yet knows when we will see widespread adoption at an enterprise scale. Companies including IBM, Google, Honeywell, and IonQ are making progress harnessing quantum-computational units (qubits) for early-stage computers.</p>
+  <p>However, it is still unclear when a general-purpose quantum computer superior to classical computers in solving business-relevant problems will be available. Several major technical and conceptual challenges need to be overcome first including increasing the number of qubits, while keeping or extending their coherence-time (useful time) and their inter-connectivity.</p>
+  <p>SAP’s approach is to work with leading experts and quantum technology players in academia and industry on developments in this field. We are assessing the timescale as well as potential domains of application and how they might impact the future of SAP and our customers.</p>
+  <h2 id="now-is-the-time-to-prepare-for-the-quantum-era">Now Is the Time to Prepare for the Quantum Era</h2>
+  <p>While quantum computing opens many new doors in a wide variety of fields, it can also be a security threat. With the advances in quantum computing, conventional cryptographic schemes are becoming more vulnerable. That’s why it’s critical for businesses to prepare for post-quantum cryptography today that is resistant to attacks by both classical and quantum computers. The SAP Security Research team in the <a href="https://icn.sap.com/">SAP Innovation Center Network</a> is highly engaged in quantum security and currently works on benchmarking post-quantum cryptography algorithms and more.</p>
+  <p>Cryptography is the last line of defense against data breaches. When all other security measures have failed, encryption provides the last barrier that protects company secrets against unauthorized access. The current progress in the development of quantum computers and their ability to break conventional encryption schemes requires companies to act now. Considering the longevity of sensitive information in government affairs or the pharmaceutical industry, this data could be collected today and stored until a powerful quantum computer is available to decrypt them.</p>
+  <p>To be prepared once a quantum computer becomes available, businesses need to think ahead. A good starting point is a relevance and impact analysis to help plan for the inevitability of consequences and their cost. This analysis also includes identifying uses cases that could benefit from applying quantum computing. The better equipped businesses are to recognize and prepare for the opportunities and risks posed by quantum computing, the more likely they are to be able to continue doing business in the future. Businesses are then well advised to work closely with industry leaders and academic partners to exchange research results, build strategic road maps, and find common applications and use cases in different areas.</p>
+  <h2 id="no-business-can-do-it-alone">No Business Can Do It Alone</h2>
+  <p>SAP works with industry leaders and top research centers and participates in several initiatives to explore quantum technology and potential use cases. For instance, SAP has been involved in the <a href="https://qt.eu/">EU Quantum Flagship</a> from the beginning and is a founding member of the <a href="https://qt.eu/about-quantum-flagship/the-quantum-flagship-community/quic/">European Quantum Industry Consortium</a> (QuIC), and others.</p>
+  <p>Most recently, SAP joined the new <a href="https://www.qutac.de/?lang=en">Quantum Technology and Application Consortium</a> (QUTAC) along with global corporations such as BASF, BMW, Bosch, and others to advance developments in quantum computing for practical application. Within QUTAC, SAP will drive the use of quantum computing in logistics, production, or procurement. Our focus is on developing software applications to optimize transport routes, supply chains, or production plans. This can help companies reduce costs, improve delivery reliability, or avoid empty runs.</p>
+  <p>At SAP, we work to leverage the advances in quantum tech for our customers while protecting their business-critical data. I’m excited for the quantum future ahead of us — stay tuned for more to come!</p>
+  <div class="footnote">
+    <div>
+      <div><em>Martin Heinig is head of New Ventures and Technologies at SAP.</em><br><em>This piece was originally published on LinkedIn.</em></div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="connect-with-the-sap-news-network-on-linkedin">Connect with the SAP News Network on LinkedIn</h3>
+      </div>
+      <div><strong><a href="https://www.linkedin.com/showcase/sap-news-network/">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/technology</category>
+            <category>content-type/feature</category>
+            <category>news-tag/quantum-computing</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+        <item>
+            <title><![CDATA[Developers and Researchers Drive Outside-In Innovation]]></title>
+            <link>https://www.sap.com/news/2021/01/sap-innovation-center-network-academic-partnership-program</link>
+            <guid>https://www.sap.com/news/2021/01/sap-innovation-center-network-academic-partnership-program</guid>
+            <pubDate>Mon, 04 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Through a new academic partnership program at SAP, academic research plays a crucial role in exploring technology trends.]]></description>
+            <content:encoded><![CDATA[
+<div>
+  <div class="hero">
+    <div>
+      <div>
+        <p>
+          <picture>
+            <source type="image/webp" srcset="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+            <source type="image/webp" srcset="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+            <source type="image/jpeg" srcset="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+            <img loading="lazy" alt="Developers and Researchers Drive Outside-In Innovation" src="./media_1a0d0ed5d32d50782489512925ddb7478b14c6b09.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="1900" height="476">
+          </picture>
+        </p>
+        <h1 id="developers-and-researchers-drive-outside-in-innovation">Developers and Researchers Drive Outside-In Innovation</h1>
+      </div>
+    </div>
+  </div>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="read-more-about-the-sap-innovation-center-network-academic-partnership-program">Read more about the SAP Innovation Center Network academic partnership program</h3>
+      </div>
+      <div><strong><a href="https://icn.sap.com/academic-partnership-program">Learn more</a></strong></div>
+    </div>
+  </div>
+  <div class="text-large">
+    <div>
+      <div>Evolution in the tech world happens fast. To keep up with the industry’s pace, SAP works closely with academia to help ensure that the company never loses touch with the latest trends and innovations.</div>
+    </div>
+  </div>
+  <p>To facilitate this, <a href="https://icn.sap.com/">SAP Innovation Center Network</a>, which is part of the New Ventures and Technologies unit, has established the <a href="https://icn.sap.com/academic-partnership-program">academic partnership program</a>. In this initiative, theory and practice go hand in hand. Academic research plays a crucial role in exploring new technology trends, but without a link back to the business, it can sometimes remain purely theoretical.</p>
+  <p>By partnering with academic institutions like the MIT Computer Science and Artificial Intelligence Lab, the Hasso Plattner Institute, and the University of Southern California, SAP can bring knowledge about emerging technology trends into the company.</p>
+  <p>This targeted exploration of forward-looking technologies with external experts from the academic community is referred to as “outside-in innovation.” It enables the company to identify trends at an early stage and to evaluate whether it is worth investing in a particular trend or not.</p>
+  <p>The academic partnership program includes engagements with several top-ranked universities around the globe. “We take a proactive approach,” explains Matthias Uflacker, location lead at the SAP Innovation Center Network location in Munich. “Once we have identified a promising topic area, we address academic experts directly.”</p>
+  <p>Uflacker says that flexibility is particularly important when exploring new fields of technology: “We want to take small steps and learn along the way.”</p>
+  <p>The individual projects with the universities are designed to run for a relatively short time, starting with a six-month or one-year plan, but with the option of extending them whenever results are promising.</p>
+  <p>An important criterion is always the relevance for SAP’s own mid- to long-term strategic goals and product visions. The program is therefore designed to help ensure that collaboration projects are either linked to existing projects and teams or supervised by SAP engineers.</p>
+  <p>SAP Innovation Center Network has been working on establishing three main pillars within their academic partnership program: academic fellowships, research sponsorships and community outreach.</p>
+  <p>
+    <picture>
+      <source type="image/webp" srcset="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=2000&#x26;format=webply&#x26;optimize=medium" media="(min-width: 600px)">
+      <source type="image/webp" srcset="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=750&#x26;format=webply&#x26;optimize=medium">
+      <source type="image/jpeg" srcset="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=2000&#x26;format=jpeg&#x26;optimize=medium" media="(min-width: 600px)">
+      <img loading="lazy" alt="" src="./media_1212c5f22c48db4deebf30f8e5630b64c39cb283c.jpeg?width=750&#x26;format=jpeg&#x26;optimize=medium" width="600" height="214">
+    </picture>
+  </p>
+  <p><em>The three main pillars within the SAP Innovation Center Network academic partnership program.</em></p>
+  <p>The <strong>academic fellowship program</strong> started in 2020. Under it, SAP Innovation Center Network invites renowned university faculty to join SAP as visiting researchers. They then work on new ideas and promising exploration topics as members of an SAP team or multiple teams simultaneously. This enables them to bring their own research into an SAP context and validate it against real-world use cases. It also gives them a chance to influence SAP’s exploration and incubation of new technology and to earn reputation as a technology advisor.</p>
+  <p>Academic fellowships can be set up as full-time or part-time engagements – in the form of a sabbatical or freelance consulting work, for example. The program addresses different tiers of academic staff, ranging from post-doctoral researchers to junior and senior faculty.</p>
+  <p>Felix Naumann, professor for Information Systems at the Hasso Plattner Institute (HPI) in Potsdam, was one of the first scholars to dive into the SAP world as part of this program. He says he was able to garner a lot of knowledge and practical experience that he can bring back into his daily work at HPI.</p>
+  <p>Asked how the cooperation went, Naumann shares, “In academia, I try to generalize problems and find elegant solutions, while at SAP — very understandably — sometimes the thinking is much more practical, to solve the problem at hand and not think about it in a principled way. I think that both sides very much benefited from this difference.”</p>
+  <div class="promo">
+    <div>
+      <div>
+        <h3 id="listen-to-a-podcast-with-felix-naumann-on-academics-in-the-tech-industry">Listen to a podcast with Felix Naumann on academics in the tech industry</h3>
+      </div>
+      <div><strong><a href="https://open.spotify.com/episode/3z4D4SZoCQe6b768t3jaLX?si=UM0d8eDER5CMaPKMVf39Cw">Learn more</a></strong></div>
+    </div>
+  </div>
+  <p>Naumann says that he can now use his insights to provide more valuable feedback to his PhD students.</p>
+  <p>He believes that this alliance is essential for innovation and progress.</p>
+  <p>“To solve real-world problems we need the real-world input and that remains a large difficulty, because SAP – for very good reasons – cannot share much of its data,” he explains. “This problem will not go away, so this is exactly why we need a close collaboration between academia and SAP.”</p>
+  <p><strong>Research sponsorships</strong> through SAP Innovation Center Network support PhD-level and post-doctoral research projects in the area of computer science and related fields at relevant academic institutions. These can be either unrestricted donations or third-party budgets provided for contracted research services working on jointly defined projects.</p>
+  <p>A current example for a sponsored research project is the research on human-human dialogue understanding at the University of California, Irvine. From April 2020 to March 2021, researchers sponsored by SAP are working in collaboration with SAP employees at the <a href="https://icn.sap.com/location/newport-beach">SAP Innovation Center location in Newport Beach</a>.</p>
+  <p>The project seeks to develop machine learning and natural language processing (NLP) algorithms to automatically analyze transcripts of human conversations in order to detect questions in the conversations and to characterize the quality of responses.</p>
+  <p>“It is common in academic research in this area to work with somewhat idealized testbed datasets,” explains Padhraic Smyth, Chancellor’s Professor at the Departments of Computer Science and Statistics. “These are very useful for building initial prototypes and testing research ideas, but they often underestimate the challenges of real-world environments, such as the variety of ways that we as humans express ideas and concepts through natural language.”</p>
+  <p>That is why the feedback of SAP researchers was so beneficial.</p>
+  <p><strong>Community outreach</strong> is the third pillar of the academic partnership program, where SAP Innovation Center Network teams up with university students to tackle problems in technology.</p>
+  <p>This engagement happens through internships, campus events, student projects, and hackathons. The array of on-site and off-site events has so far included the support of the TEDx conference in Potsdam and other events such as the symposium on natural language processing in California.</p>
+  <p>One example of a successful community outreach cooperation is user behavior mining, which started out as a thesis project for a bachelor’s course at the Hasso Plattner Institute in 2019. The students worked together with the SAP teams based in Potsdam, Walldorf, and Newport Beach and delivered concepts and prototypes for tracking behavioral patterns when using SAP Fiori apps. The prototypes have been successfully evaluated with customers, and have now been <a href="https://youtu.be/xQijCv8ZpgE">productized by teams in the New Ventures and Technologies unit</a>.</p>
+  <p>Overall, the academic partnership program benefits both SAP and the research institutions: SAP can sound out which new business and technology trends should be addressed within the company while researchers can validate their studies in a real-world environment.</p>
+  <p><a href="/fragments/news/article-details">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-details</a></p>
+</div>
+<div>
+  <p><a href="/fragments/news/article-read-more">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/article-read-more</a></p>
+  <p><a href="/fragments/news/newsletter-subscription">https://main--builder-prospect-prod--sapudex.hlx.page/fragments/news/newsletter-subscription</a></p>
+  <div class="section-metadata">
+    <div>
+      <div>location</div>
+      <div>document-footer</div>
+    </div>
+  </div>
+</div>
+]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/new-ventures-and-technologies</category>
+            <category>news-tag/sap-innovation-center-network</category>
+        </item>
+    </channel>
+</rss>

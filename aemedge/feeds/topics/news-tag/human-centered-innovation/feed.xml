@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>SAP Sponsorships Archives | SAP News Center</title>
+        <link>https://www.sap.com/topics/news-tag/human-centered-innovation/feed/</link>
+        <description>Company &amp;#38; Customer Stories &amp;#124; Press Room.</description>
+        <lastBuildDate>Thu, 07 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>AEM SAP News feed generator (GitHub action)</generator>
+        <language>en-US</language>
+        <item>
+            <title><![CDATA[SAP AppHaus Network to Onboard New Partners in North America]]></title>
+            <link>https://www.sap.com/news/2024/03/sap-apphaus-network-new-partners-in-north-america</link>
+            <guid>https://www.sap.com/news/2024/03/sap-apphaus-network-new-partners-in-north-america</guid>
+            <pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[SAP AppHaus Network announced its plans to establish additional partner-driven locations in North America. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/ecosystem</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Network: 22 Locations and Counting in 2022]]></title>
+            <link>https://www.sap.com/news/2022/10/sap-apphaus-network-22-locations-and-counting</link>
+            <guid>https://www.sap.com/news/2022/10/sap-apphaus-network-22-locations-and-counting</guid>
+            <pubDate>Fri, 07 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The SAP AppHaus Network welcomes two new partners: Flexso in Belgium and AGILITA in Switzerland. Learn more about the innovation network.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>news-topic/corporate</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>news-tag/innovation</category>
+            <category>news-tag/partners</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[SAP AppHaus Network Holds 2022 Meetup]]></title>
+            <link>https://www.sap.com/news/2022/08/sap-apphaus-network-holds-2022-meetup</link>
+            <guid>https://www.sap.com/news/2022/08/sap-apphaus-network-holds-2022-meetup</guid>
+            <pubDate>Fri, 05 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the 2022 SAP AppHaus Network meetup, members shared new ideas and best practices and tested new innovation methods. Read to learn more.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>sap-event/[any]</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>news-tag/sap-apphaus-network</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+        <item>
+            <title><![CDATA[Transforming UK Infrastructure Projects with SAP Business Technology Platform and SAP Analytics Cloud]]></title>
+            <link>https://www.sap.com/news/2021/09/transforming-uk-infrastructure-projects-sap-costain</link>
+            <guid>https://www.sap.com/news/2021/09/transforming-uk-infrastructure-projects-sap-costain</guid>
+            <pubDate>Mon, 13 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[UK construction company Costain solved the problem of tracking money spent on large government infrastructure projects with SAP solutions.]]></description>
+            <content:encoded><![CDATA[{"message":"Service Unavailable"}]]></content:encoded>
+            <category>news-topic/business-technology-platform</category>
+            <category>content-type/feature</category>
+            <category>news-tag/human-centered-innovation</category>
+            <category>product/sap-analytics-cloud</category>
+            <category>news-tag/sap-apphaus</category>
+            <category>product/sap-business-technology-platform</category>
+        </item>
+    </channel>
+</rss>
