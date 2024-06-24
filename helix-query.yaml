@@ -156,12 +156,12 @@ indices:
       title:
         select: head > meta[property="og:title"]
         value: attribute(el, "content")
+      breadcrumbs:
+        select: head > meta[name="breadcrumbs"]
+        value: attribute(el, "content")
       intro-desc:
         select: h2[id="intro"] + p
         value: textContent(el)
-      intro-img:
-        select: img:first-of-type
-        value: attribute(el, "src")
       page-tabs:
         select: .page-tabs > div > div
         value: textContent(el)
