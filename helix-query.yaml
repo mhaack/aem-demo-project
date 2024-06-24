@@ -136,11 +136,14 @@ indices:
         select: h2[id="intro"] + p
         value: textContent(el)
       intro-img:
-        select: img
+        selectFirst: img
         value: attribute(el, "src")
+      image:
+        select: head > meta[property="og:image"]
+        value: attribute(el, "content")
       page-tabs:
         select: .page-tabs > div > div
-        value: textContent(el)
+        values: textContent(el)
 
   design-system:
     include:
@@ -164,4 +167,4 @@ indices:
         value: textContent(el)
       page-tabs:
         select: .page-tabs > div > div
-        value: textContent(el)
+        values: textContent(el)
