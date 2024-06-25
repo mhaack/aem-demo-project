@@ -66,14 +66,15 @@ function getOffsetTop(element) {
  * address bar (to keep page tabs working).
  * Also set the aria-current attribute to the clicked link and remove it from the others.
  * @param e The event object
+ * @param block
  */
-function updateTocAndScrollToContent(e, main) {
-  const targetElement = main.getElementById(e.target.hash.substring(1));
+function updateTocAndScrollToContent(e, block) {
+  const targetElement = document.getElementById(e.target.hash.substring(1));
 
   // Do not change the URL hash in the address bar
   e.preventDefault();
 
-  main.querySelectorAll('.ds-toc-link').forEach((link) => {
+  block.querySelectorAll('.ds-toc-link').forEach((link) => {
     link.removeAttribute('aria-current');
   });
   e.target.setAttribute('aria-current', 'true');
@@ -87,15 +88,16 @@ function updateTocAndScrollToContent(e, main) {
 /**
  * Create a list item element with an anchor element.
  * @param h2 The h2 element
+ * @param block
  * @returns {Element} The list item element
  */
-function createListItem(h2, main) {
+function createListItem(h2, block) {
   const listItem = li();
   const listItemLink = a(
     {
       class: 'ds-toc-link',
       href: `#${h2.id}`,
-      onclick: (e) => { updateTocAndScrollToContent(e, main); },
+      onclick: (e) => { updateTocAndScrollToContent(e, block); },
     },
     h2.text,
   );
@@ -108,9 +110,10 @@ function createListItem(h2, main) {
  * Create a list element with list item elements.
  * @param dataName
  * @param h2s
+ * @param block
  * @returns {Element}
  */
-function createToc(dataName, h2s, main) {
+function createToc(dataName, h2s, block) {
   const list = ol(
     {
       class: 'ds-toc-list',
@@ -119,7 +122,7 @@ function createToc(dataName, h2s, main) {
   );
 
   h2s.forEach((h2) => {
-    const listItem = createListItem(h2, main);
+    const listItem = createListItem(h2, block);
     list.appendChild(listItem);
   });
 
@@ -188,8 +191,7 @@ function initTocList(block, main) {
   });
 }
 
-export default async function decorate(block) {
-  console.log('decorating toc');
+export default function decorate(block) {
   const tocNav = nav({
     class: 'ds-toc-nav',
     role: 'navigation',
@@ -210,7 +212,7 @@ export default async function decorate(block) {
 
   tocLists.forEach((tocList) => {
     const [dataName, h2s] = Object.entries(tocList)[0];
-    const toc = createToc(dataName, h2s, main);
+    const toc = createToc(dataName, h2s, block);
     tocNav.appendChild(toc);
   });
 
