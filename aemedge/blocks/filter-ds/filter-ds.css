@@ -6,12 +6,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    background-color: transparent;
-    border: none;
-    height: 42px;
-    padding: 0 12px;
-    font-size: var(--udexTypographyBodyXSFontSize);
+    background-color: #0070f2;
+    border: 1px solid #0070f2;
+    color: white;
+    border-radius: 8px;
+    width: 108px;
+    height: 36px;
+    font-size: var(--udexTypographyBodySFontSize);
+    font-weight: 500;
     cursor: pointer;
+    font-family: var(--sapFontFamily);
 
     &.expanded {
       border: 1px solid var(--udexColorBlue8);
@@ -19,9 +23,10 @@
     }
 
     .icon {
-      width: 12px;
-      height: 12px;
+      width: 18px;
+      height: 18px;
       margin-right: 8px;
+      display: none;
     }
   }
 
@@ -30,6 +35,8 @@
     box-shadow: var(--sapContent_Shadow2);
     padding: var(--udexSpacer24);
     display: none;
+    width: 100vw;  
+    overflow-y: scroll;
 
     &.open {
       display: block;
@@ -47,7 +54,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
-        font-size: var(--udexTypographyBodyXSFontSize);
+        font-size: var(--udexTypographyBodyMFontSize);
         padding: 0 0 16px 16px;
         cursor: pointer;
 
@@ -56,6 +63,10 @@
           width: 16px;
           margin-right: 24px;
         }
+
+        span.icon-slim-arrow-right {
+          display: none;
+        }
       }
     }
 
@@ -63,30 +74,30 @@
       display: flex;
       flex-wrap: wrap;
       gap: 4px 8px;
+      height: 497px;
 
       .filter-item {
-        max-width: 49%;
         width: 100%;
         padding: var(--udexSpacer16);
-  
+
         label {
           display: block;
           width: 100%;
           padding-bottom: 4px;
           border-bottom: 1px solid var(--udexColorGrey2);
           font-weight: var(--udexTypographyFontWeightMedium);
-          font-size: var(--udexTypographyBodyXXSFontSize);
+          font-size: var(--udexTypographyBodyXSFontSize);
         }
-  
+
         .item-options {
           display: flex;
           flex-wrap: wrap;
           gap: 8px;
           padding-top: 8px;
-          font-size: var(--udexTypographyBodyXXSFontSize);
+          font-size: var(--udexTypographyBodyXSFontSize);
           font-weight: var(--udexTypographyFontWeightRegular);
           cursor: pointer;
-  
+
           span {
             border: 1px solid var(--udexColorGrey4);
             border-radius: 6px;
@@ -94,7 +105,7 @@
             user-select: none;
             /* stylelint-disable-next-line property-no-vendor-prefix */
             -webkit-user-select: none;
-  
+
             &.selected {
               color: var(--udexColorBlue7);
               border-color: var(--udexColorBlue7);
@@ -110,7 +121,6 @@
       justify-content: flex-end;
       align-items: center;
       gap: 0 8px;
-      width: 100%;
       padding: var(--udexSpacer24);
       text-align: right;
       border-top: 1px solid var(--udexColorGrey3);
@@ -119,6 +129,8 @@
         background-color: transparent;
         border: none;
         font-size: var(--udexTypographyBodySFontSize);
+        font-weight: 500;
+        font-family: var(--sapFontFamily);
         cursor: pointer;
       }
 
@@ -131,7 +143,7 @@
         color: var(--udexColorNeutralWhite);
         padding: 8px 12px;
         border-radius: 8px;
-        
+
         .results-count {
           width: 16px;
           height: 16px;
@@ -165,11 +177,13 @@
   }
 }
 
-/* M */
-@media (width < 640px) {
+
+
+/* xs - s */
+@media (width >= 375px) {
   .filter-container {
     .filter-menu {
-      max-width: 100%;
+      width: 100%;
       height: 100%;
       position: fixed;
       top: 0;
@@ -188,17 +202,19 @@
       .filter-actions {
         position: absolute;
         top: 0;
+        width: 100%;
         padding: 16px 0 8px;
         justify-content: flex-start;
         border: none;
 
-        button {
-          font-size: var(--udexTypographyBodyXSFontSize);
-        }
-
         .close-menu-btn {
           position: absolute;
           right: 60px;
+
+          .icon {
+            width: 16px;
+            height: 16px;
+          }
         }
 
         .clear-filter-btn {
@@ -210,14 +226,17 @@
         }
       }
     }
+    
   }
 }
 
 /* M */
-@media (width >= 640px) and (width < 980px) {
+@media (width >= 980px) {
   .filter-container {
+    padding: 16px, 24px, 0;
+
     .filter-menu {
-      max-width: 50%;
+      width: 50%;
       height: 100%;
       position: fixed;
       top: 0;
@@ -240,9 +259,6 @@
         justify-content: flex-start;
         border: none;
 
-        button {
-          font-size: var(--udexTypographyBodyXSFontSize);
-        }
 
         .close-menu-btn {
           position: absolute;
@@ -259,24 +275,94 @@
       }
     }
   }
+  
 }
 
-/* L */
-@media (width >= 980px) {
+@media (width >= 1280px) {
   .filter-container {
-    .filter-menu {
-      max-width: 75%;
-      position: absolute;
-      z-index: 1;
-      margin-top: 2px;
+    position: relative;
+    top: 5px;
 
-      .items-accordion {
+    & .filter-btn {
+      border: none;
+      background-color: transparent;
+      color: var(--udexColorBlue10);
+      font-size: var(--udexTypographyBodySFontSize);
+      font-weight: 500;
+
+      & .icon {
+        display: block;
+      }
+    }
+
+    & .filter-menu {
+      width: 909px;
+      height: 476px;
+      position: absolute;
+      left: -446px !important;
+      z-index: 1;
+      margin-top: 42px;
+      padding: 32px 32px 48px 56px;
+      overflow-y: unset;
+
+      & .items-accordion {
         display: none;
       }
 
-      .filter-actions {
-        .close-menu-btn {
+      & .items-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 340px;
+        margin-top: 0;
+
+        & .filter-item {
+          max-width: 392px;
+          padding: 0;
+          
+        }
+      }
+
+      & button {
+        display: none;
+      }
+
+      & .filter-actions {
+        position: relative;
+        justify-content: flex-end;
+        padding: var(--udexSpacer24);
+        border-top: 1px solid var(--udexColorGrey3);
+       
+
+        .clear-filter-btn {
+          display: block;
+        }
+
+        .reset-filter-btn {
           display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (width >= 1920px) {
+  .filter-container {
+    & .filter-btn{
+      border: 1px solid #0040B0;
+      height: 42px;
+    }
+
+    & .filter-menu {
+      width: 1182px;
+      padding: 32px 75px;
+
+      & .items-container{
+          column-gap: 24px;
+
+        & .filter-item {
+          max-width: 492px;
+          padding: 0;
+          
         }
       }
     }

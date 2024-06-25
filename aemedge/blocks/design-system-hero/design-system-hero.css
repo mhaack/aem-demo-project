@@ -10,7 +10,7 @@
   column-gap: var(--udexGridXSGutters);
   grid-template-columns: repeat(var(--udexGridColumns), 1fr);
   grid-template-rows: repeat(5, 1fr);
-  height: 192px;
+  height: 152px;
   position: relative;
 
   div[slot="content"],
@@ -25,9 +25,10 @@
     grid-row: 3 / 4;
 
     & > h1 {
-      font-size: var(--udexTypographyHeadingRegularMFontSize);
+      font-size: var(--udexTypographyHeadingRegularSFontSize);
       margin-top: 16px;
       margin-bottom: 40px;
+      font-weight: 500;
 
       .hero-sub-heading {
         margin: 4px 0;
@@ -56,7 +57,7 @@
     width: 100vw;
 
     & > img {
-      height: 192px;
+      height: 100%;
       object-fit: cover;
       width: 100%;
     }
@@ -222,6 +223,10 @@
     div[slot="additionalContent"] {
       padding: 0 var(--udexSpacer48);
 
+      & > h1 {
+        font-size: var(--udexTypographyHeadingRegularMFontSize)
+      }
+
       .tags-container {
         display: block;
       }
@@ -237,15 +242,16 @@
 @media (width >= 980px) {
   .fiori-hero-banner {
     column-gap: var(--udexGridMGutters);
+    height: 192px;
 
     div[slot="content"],
     div[slot="additionalContent"] {
-      grid-column: 1 / -1; /* Adjusting value as hero text not properly align */
+      grid-column: 2 / 13; /* Adjusting value as hero text not properly align */
       padding: 0 var(--udexSpacer64);
     }
 
     div[slot="content"] > h1 {
-      font-size: var(--udexTypographyHeadingRegularMFontSize);
+      font-size: var(--udexTypographyHeadingRegularLFontSize);
     }
   }
 }
@@ -255,11 +261,12 @@
   .fiori-hero-banner {
     div[slot="content"],
     div[slot="additionalContent"] {
-      padding: 0 var(--udexSpacer64);
+      grid-column: 1/13;
+      padding: 0 var(--udexSpacer72);
     }
 
     div[slot="content"] > h1 {
-      font-size: var(--udexTypographyHeadingRegularMFontSize);
+      font-size: var(--udexTypographyHeadingRegularXLFontSize);
     }
   }
 }
@@ -271,9 +278,13 @@
       left: calc(-1 * (100vw - 1600px)/2);
     }
 
-    div[slot="content"],
+    div[slot="content"] > h1 {
+      font-size: var(--udexTypographyHeadingRegularXXLFontSize);
+    }
+
+    div[slot="content"] ,
     div[slot="additionalContent"] {
-      padding: 0 var(--udexSpacer72);
+      padding: 0 var(--udexSpacer84);
     }
   }
 }

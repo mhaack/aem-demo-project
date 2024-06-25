@@ -131,9 +131,26 @@ export function updateCardsFromFilteredRawData() {
 
 export function applySelectedFilters(appliedFilters) {
   if (appliedFilters?.size) {
-    appliedFilters.forEach((item) => {
-      const { category, filter } = item;
-      RAW_FILTERED_DATA = RAW_FILTERED_DATA.filter((data) => data[category] === filter);
+    const newFiltersObject = {};
+    appliedFilters.forEach((value) => {
+      const { category, filter } = value;
+      if (newFiltersObject[category]) {
+        newFiltersObject[category].filters.push(filter);
+      } else {
+        newFiltersObject[category] = { filters: [filter] };
+      }
+    });
+
+    RAW_FILTERED_DATA = RAW_FILTERED_DATA.filter((item) => {
+      let isMatch = true;
+      Object.entries(newFiltersObject).forEach((value) => {
+        const [category, val] = value;
+        if (!val.filters.includes(item[category])) {
+          isMatch = false;
+        }
+      });
+
+      return isMatch;
     });
   } else {
     resetFilteredData();

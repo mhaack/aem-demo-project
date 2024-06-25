@@ -6,7 +6,7 @@
 .design-system-masthead-nav {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  padding: 0 var(--udexGridMargins);
+  padding: 0 var(--udexGridMargins) ;
   position: relative;
   width: 100%;
 }
@@ -47,7 +47,7 @@
   grid-column: 1 / 13;
   height: var(--masthead-height);
   margin: 0;
-  padding: 0;
+  padding-left: 8px !important;
   position: relative;
   width: 100%;
 }
@@ -792,6 +792,8 @@
   .masthead-areas {
     --masthead-padding-inline: var(--masthead-padding-inline-s);
     --explore-nav-width: var(--explore-nav-width-s);
+    
+    padding-left: 8px !important;
   }
 
   [data-mobile="true"] {
@@ -803,8 +805,13 @@
       }
     }
   }
+ 
 
   .masthead-area-landing-zone {
+    & .landing-zone-current-btn {
+      display: flex;
+    }
+
     & .landing-zone-part-label {
       & p {
         display: block;
@@ -855,11 +862,6 @@
     --explore-nav-width: var(--explore-nav-width-l);
   }
 
-  .masthead-area-landing-zone {
-    & .landing-zone-current-btn {
-      display: flex;
-    }
-  }
 
   .masthead-area-explore {
     position: relative;

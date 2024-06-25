@@ -9,6 +9,7 @@ const APPLIED_FILTERS = new Map();
 
 export default async function decorate() {
   const searchForm = document.querySelector('#ui-search-form');
+  const searchItems = document.querySelector('.search-result-items');
 
   const filterButton = button(
     {
@@ -26,8 +27,8 @@ export default async function decorate() {
         elem.style.left = `${formOffsetLeft}px`;
       },
     },
-    span({ class: 'label' }, 'Filter'),
-    span({ class: 'icon icon-menu' }),
+    span({ class: 'label' }, 'Filter & Sort'),
+    span({ class: 'icon icon-filter' }),
   );
 
   const filterOptions = [
@@ -61,7 +62,7 @@ export default async function decorate() {
       category: 'Category',
       options: [
         { key: 'action', label: 'Action', category: 'uielementscategory' },
-        { key: 'dataVisualization', abel: 'Data Visualization', category: 'uielementscategory' },
+        { key: 'dataVisualization', label: 'Data Visualization', category: 'uielementscategory' },
         { key: 'containers', label: 'Containers', category: 'uielementscategory' },
         { key: 'inputSelection', label: 'Input and Selection', category: 'uielementscategory' },
         { key: 'displayMsg', label: 'Display and Messaging', category: 'uielementscategory' },
@@ -176,7 +177,22 @@ export default async function decorate() {
     { class: 'filter-menu' },
     div(
       { class: 'items-accordion' },
-      button({ class: 'accordion-label' }, 'Filter', span({ class: 'icon icon-slim-arrow-down' })),
+      button(
+        {
+          class: 'accordion-label',
+          onclick: (event) => {
+            event.preventDefault();
+            accordionClose();
+          },
+        },
+        'Filter',
+        span({
+          class: 'icon icon-slim-arrow-down',
+        }),
+        span({
+          class: 'icon icon-slim-arrow-right',
+        }),
+      ),
     ),
     itemsContainer,
     filterActions,
@@ -189,7 +205,23 @@ export default async function decorate() {
   );
 
   decorateIcons(filterContainer);
-  searchForm.append(filterContainer);
+
+  function filterBttn(x) {
+    if (x.matches) {
+      searchForm.append(filterContainer);
+      document.querySelector('.filter-btn>.label').innerText = 'Filter';
+      document.querySelector('.search-result-items>.sort').firstChild.data = 'Sort by:';
+    } else {
+      searchItems.prepend(filterContainer);
+      document.querySelector('.filter-btn>.label').innerText = 'Filter & Sort';
+      document.querySelector('.search-result-items>.sort').firstChild.data = '';
+    }
+  }
+  const x = window.matchMedia('(width >= 1280px)');
+  filterBttn(x);
+  x.addEventListener('change', () => {
+    filterBttn(x);
+  });
 }
 
 // close the filter menu and reset filter selection
@@ -213,4 +245,19 @@ function applyFilterAndClose() {
   applySelectedFilters(APPLIED_FILTERS);
   document.querySelector('.filter-btn').classList.remove('expanded');
   document.querySelector('.filter-menu').classList.remove('open');
+}
+
+function accordionClose() {
+  const item = document.querySelector('.items-container').style;
+  const arrowdown = document.querySelector('.icon.icon-slim-arrow-down').style;
+  const arrowright = document.querySelector('.icon.icon-slim-arrow-right').style;
+  if (item.display === 'none') {
+    item.display = 'block';
+    arrowdown.display = 'block';
+    arrowright.display = 'none';
+  } else {
+    item.display = 'none';
+    arrowdown.display = 'none';
+    arrowright.display = 'block';
+  }
 }

@@ -50,6 +50,7 @@ function decorateSearchResultItems() {
   const searchResultContainer = document.querySelector('.search-result-container');
 
   const sortEl = div({ class: 'sort' }, 'Sort by: ', span({ class: 'sort-az' }, 'A - Z'));
+
   searchResultItems.append(sortEl);
 
   const dropdown = ul(
