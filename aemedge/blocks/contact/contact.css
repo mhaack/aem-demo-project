@@ -1,85 +1,162 @@
-.contact-container {
-  padding-top: var(--udexSpacer24);
-}
-
-.contact-wrapper {
-  .logo-lang-picker {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: var(--udexSpacer48);
-    
-    select {
-      background-color: var(--udexColorNeutralWhite);
-      border-radius: 4px;
-      border: 1px;
-      color: var(--udexColorGrey7);
-      font-size: var(--udexTypographyBodyXSFontSize);
-      letter-spacing: 0;
-      min-width: 282px;
-      padding: var(--udexSpacer4) var(--udexSpacer12);
-      text-align: left;
-    }
-  }
-  
-  .icon-sap-logo {
-    height: 32px;
-    margin-right: var(--udexSpacer20);
-    width: 65.4px;
-  }
-}
-
-.block.contact {
+.contact {
+  color: var(--udexColorGrey8);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: var(--udexTypographyBodyXSFontSize);
   justify-content: space-between;
   letter-spacing: 0;
-  text-align: left;
-  width: 90%;
-  
-  h2 {
-    font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+
+  & a {
+    color: var(--udexColorGrey8);
+  }
+
+  & p {
+    font-size: var(--udexTypographyBodyXSFontSize);
+    line-height: var(--udexTypographyBodyLineHeight);
     margin: 0;
-    
-    & + p {
-      margin-top: var(--udexSpacer2);
+  }
+
+  & h2,
+  & p:not(:has(em)) {
+    & a:not(:hover) {
+      text-decoration: none;
     }
   }
-  
+
+  & em {
+    font-size: var(--udexTypographyBodyXXSFontSize);
+    font-style: normal;
+    line-height: var(--udexTypographyBodyLineHeight);
+  }
+
+  & h2 {
+    font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    line-height: var(--udexTypographyHeadingLineHeight);
+    margin: 0;
+
+    & + p {
+      margin-block-start: var(--udexSpacer20);
+    }
+
+    & + p:has(em) {
+      margin-block-start: var(--udexSpacer2);
+    }
+  }
+
+  & p + h2 {
+    margin-block-start: var(--udexSpacer2);
+  }
+
+  & p:has(em) + * {
+    margin-block-start: var(--udexSpacer20);
+  }
+
   & > div {
     display: flex;
     flex-direction: row;
-    padding: 10px 16px 10px 0;
+    margin-block-end: var(--udexSpacer20);
+
+    &:last-child {
+      margin-block-end: 0;
+    }
+
+    @media (width >= 980px) {
+      margin-block-end: 0;
+    }
   }
-  
-  .icon {
-    margin-right: var(--udexSpacer16);
-    
-    img {
+
+  & > div > div > p {
+    display: flex;
+  }
+
+  & .icon {
+    margin-inline-end: var(--udexSpacer16);
+    padding: var(--udexSpacer4);
+    height: 1.625rem;
+    width: 1.625rem;
+
+    & img {
       height: 1.125rem;
       width: 1.125rem;
     }
   }
 }
 
-/* S */
-@media (width >= 640px) {
-  .block.contact {
-    flex-direction: column;
-  }
-}
-
 /* M */
 @media (width >= 980px) {
-  .block.contact {
+  .contact {
     flex-direction: row;
+    gap: var(--udexGridGutters);
+
+    & > * {
+      flex: 1;
+    }
   }
 }
 
 /* L */
 @media (width >= 1280px) {
-  .block.contact {
+  .contact {
     flex-direction: column;
-    padding-bottom: var(--udexSpacer20);
+    gap: var(--udexSpacer20);
+  }
+}
+
+.contact-wrapper {
+  & > div:has(> .logo-lang-picker) {
+    display: grid;
+    column-gap: var(--udexGridGutters);
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+
+    @media (width >= 1280px) {
+      display: block;
+    }
+  }
+
+  & .logo-lang-picker {
+    display: flex;
+    flex-direction: row;
+    grid-column: 1 / -1;
+    margin-block-end: var(--udexSpacer32);
+
+    & select {
+      background-color: var(--udexColorNeutralWhite);
+      border-radius: var(--udexRadiusXS);
+      border: 1px solid var(--udexColorGrey6);
+      color: var(--udexColorGrey7);
+      cursor: pointer;
+      flex-grow: 1;
+      font-family: var(--sapFontFamily);
+      font-size: var(--udexTypographyBodyXSFontSize);
+      letter-spacing: 0;
+      padding: 7px var(--udexSpacer12);
+    }
+
+    & .icon-sap-logo {
+      height: 32px;
+      margin-right: var(--udexSpacer20);
+      width: 65.6px;
+    }
+
+    @media (width >= 640px) {
+      grid-column: 1 / 10;
+    }
+
+    @media (width >= 980px) {
+      grid-column: 1 / 7;
+    }
+
+    @media (width >= 1280px) {
+      margin-block-end: var(--udexSpacer48);
+    }
+
+    @media (width >= 1600px) {
+      margin-block-end: var(--udexSpacer48);
+
+      & select {
+        max-width: 282px;
+      }
+    }
   }
 }

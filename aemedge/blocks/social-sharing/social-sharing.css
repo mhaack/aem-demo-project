@@ -10,14 +10,6 @@
   }
 }
 
-.link-group-container + .social-sharing-container {
-  display: block;
-}
-
-.contact-wrapper + .social-sharing-wrapper {
-  display: none;
-}
-
 .block.social-sharing {
   display: flex;
   flex-direction: row;
@@ -58,15 +50,4 @@ footer .block.social-sharing {
 
 .social-sharing a.button:any-link:hover {
   background-color: transparent;
-}
-
-/* L */
-@media (width >= 1280px) {
-  .link-group-container + .social-sharing-container {
-    display: none;
-  }
-
-  .contact-wrapper + .social-sharing-wrapper {
-    display: block;
-  }
 }
