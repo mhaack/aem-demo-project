@@ -120,7 +120,8 @@ main {
       & .section {
         &:first-child {
           & > .page-tabs-wrapper {
-            grid-column: 2 / 11;
+            grid-column: 1 / 11;
+            padding-left: var(--udexSpacer72);
           }
         }
       }
@@ -129,5 +130,20 @@ main {
 
   .page-tabs {
     margin-right: unset;
+  }
+}
+
+/* =XL */
+@media (width >= 1600px) {
+  .design-system {
+    main {
+      & .section {
+        &:first-child {
+          & > .page-tabs-wrapper {
+            padding-left: var(--udexSpacer84);
+          }
+        }
+      }
+    }
   }
 }

@@ -361,7 +361,7 @@ html:has(.design-system) {
 
         /* stylelint-disable-next-line */
         & div {
-          grid-column: 2 / 13;
+          grid-column: 1 / 13;
         }
       }
     }
@@ -379,7 +379,7 @@ html:has(.design-system) {
         }
 
         &:not(:first-child) {
-          grid-column: 2 / 11;
+          grid-column: 1 / 11;
           padding-block: var(--udexSpacer56);
         }
 
