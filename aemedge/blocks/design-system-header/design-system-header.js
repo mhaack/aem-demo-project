@@ -26,7 +26,7 @@ const LANDING_ZONE_LABEL_MOBILE = 'SAP Design System';
 const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
   {
     web: {
-      title: 'SAP Fiori for Web',
+      title: 'Web',
       titleShort: 'Web',
       url: 'https://experience.sap.com/internal/fiori-design-web/',
       segment: 'fiori-design-web',
@@ -35,7 +35,7 @@ const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
   },
   {
     ios: {
-      title: 'SAP Fiori for iOS',
+      title: 'iOS',
       titleShort: 'iOS',
       url: 'https://experience.sap.com/internal/fiori-design-ios/',
       segment: 'fiori-design-ios',
@@ -44,7 +44,7 @@ const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
   },
   {
     android: {
-      title: 'SAP Fiori for Android',
+      title: 'Android',
       titleShort: 'Android',
       url: 'https://experience.sap.com/internal/fiori-design-android/',
       segment: 'fiori-design-android',
