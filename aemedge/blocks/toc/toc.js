@@ -15,85 +15,60 @@ function expand(expandable) {
   }
 }
 
-function setActiveLink() {
-  const selected = document.querySelector('.toc .toc__selected');
-  const selectedLabel = selected.querySelector('span');
-
-  const links = document.querySelectorAll('.toc li');
-  links.forEach((link) => {
-    const anchor = link.querySelector('a');
-    const linkHash = anchor?.hash;
-    const isH3 = anchor?.classList.contains('toc__h3-link');
-    const linkMatch = linkHash === window.location.hash;
-    if (linkMatch) {
-      selectedLabel.innerHTML = anchor.innerText;
-      link.setAttribute('aria-current', 'true');
-      if (isH3) {
-        expand(link.closest('.toc__list-item.parent'));
-      } else if (link.classList.contains('parent')) {
-        expand(link);
-      }
-    } else {
-      link.setAttribute('aria-current', 'false');
-      collapse(link);
-    }
-  });
-}
-
-function buildListItemLink(header) {
+function buildListItemLink(heading) {
   return a({
-    href: `#${header.id}`,
-    class: `toc__${header.tagName.toLowerCase()}-link`,
-  }, header.innerText);
+    href: `#${heading.id}`,
+    class: `toc__${heading.tagName.toLowerCase()}-link`,
+  }, heading.innerText);
 }
 
-function buildListItemContent(header) {
+function buildListItemContent(heading) {
   return div(
     { class: 'toc__list-item__content' },
     span({ class: 'toc__list-item__spacer' }),
-    buildListItemLink(header),
+    buildListItemLink(heading),
   );
 }
 
-function buildListItem(header, subheaders) {
-  const hasSubheaders = subheaders && subheaders.length > 0;
+function buildListItem(heading, subheadings) {
+  const hasSubheadings = subheadings && subheadings.length > 0;
   return li(
-    { class: `toc__list-item ${hasSubheaders ? 'parent' : ''}` },
-    buildListItemContent(header),
-    hasSubheaders ? ol(
+    { class: `toc__list-item ${hasSubheadings ? 'parent' : ''}` },
+    buildListItemContent(heading),
+    hasSubheadings ? ol(
       { class: 'toc__list' },
-      ...subheaders.map(
-        (subheader) => li(
+      ...subheadings.map(
+        (subheading) => li(
           { class: 'toc__list-item' },
-          buildListItemContent(subheader),
+          buildListItemContent(subheading),
         ),
       ),
     ) : '',
   );
 }
 
-function buildList(headers) {
+function buildList(headings) {
   const tocList = ol({ class: 'toc__list', id: 'toc' });
-  let currentParentHeader;
-  let subheaders = [];
-  headers.forEach((header, index) => {
-    const isH2 = header.tagName === 'H2';
-    if (isH2 && currentParentHeader) {
-      tocList.appendChild(buildListItem(currentParentHeader, subheaders));
-      currentParentHeader = header;
-      subheaders = [];
+  let currentParentHeading;
+  let subheadings = [];
+  headings.forEach((heading, index) => {
+    const isH2 = heading.tagName === 'H2';
+    if (isH2 && currentParentHeading) {
+      tocList.appendChild(buildListItem(currentParentHeading, subheadings));
+      currentParentHeading = heading;
+      subheadings = [];
     } else if (isH2) {
-      currentParentHeader = header;
-      subheaders.forEach((subheader) => tocList.appendChild(buildListItem(subheader, [])));
-      subheaders = [];
+      currentParentHeading = heading;
+      subheadings.forEach((subheading) => tocList.appendChild(buildListItem(subheading, [])));
+      subheadings = [];
     } else {
-      subheaders.push(header);
+      subheadings.push(heading);
     }
-    if (index === headers.length - 1) {
-      if (currentParentHeader) {
-        tocList.appendChild(buildListItem(currentParentHeader, subheaders));
+    if (index === headings.length - 1) {
+      if (currentParentHeading) {
+        tocList.appendChild(buildListItem(currentParentHeading, subheadings));
       } else {
-        subheaders.forEach((subheader) => tocList.appendChild(buildListItem(subheader, [])));
+        subheadings.forEach((subheading) => tocList.appendChild(buildListItem(subheading, [])));
       }
     }
   });
@@ -138,6 +113,86 @@ function addFocusOutHandler(tocElement, selected) {
   });
 }
 
+/**
+ * @private
+ * @param {HTMLElement} tocElement
+ * @param {HTMLElement[]} headings
+ * @param {HTMLElement} selected
+ */
+function addScrollHandler(tocElement, headings, selected) {
+  const links = Array.from(tocElement.querySelectorAll('li'));
+
+  if (!headings || !links || headings.length === 0 || links.length === 0) {
+    return;
+  }
+
+  const linkDetails = Array.from(links).map((link) => {
+    const anchor = link.querySelector('a');
+    const closestParent = link.closest('.toc__list-item.parent');
+    return {
+      anchor,
+      closestParent,
+      link,
+      isParent: link.classList.contains('parent'),
+    };
+  });
+
+  const selectedLabel = selected.querySelector('span');
+
+  const throttle = (callbackFn, limit) => {
+    let wait = false;
+    return () => {
+      if (!wait) {
+        callbackFn.call();
+        wait = true;
+        setTimeout(() => {
+          wait = false;
+        }, limit);
+      }
+    };
+  };
+
+  const cleanup = (activeLinkDetail) => {
+    linkDetails.forEach((linkDetail) => {
+      if (activeLinkDetail && linkDetail === activeLinkDetail) {
+        return;
+      }
+      const { link, closestParent, isParent } = linkDetail;
+      link.setAttribute('aria-current', 'false');
+      if (isParent) {
+        collapse(link);
+      }
+      if (closestParent !== activeLinkDetail) {
+        collapse(closestParent);
+      }
+    });
+  };
+
+  window.addEventListener('scroll', throttle(() => {
+    // Headings have scroll margin of 40px, allow 1px grace
+    const boundary = Math.ceil(window.scrollY + 41);
+
+    for (let i = headings.length - 1; i >= 0; i -= 1) {
+      if (boundary >= Math.floor(headings[i].offsetTop)) {
+        const linkDetail = linkDetails[i];
+        cleanup(linkDetail);
+
+        const {
+          anchor, link, closestParent, isParent,
+        } = linkDetail;
+        link.setAttribute('aria-current', 'true');
+        selectedLabel.innerHTML = anchor.innerText;
+
+        expand(closestParent);
+        if (isParent) {
+          expand(link);
+        }
+        break;
+      }
+    }
+  }, 150));
+}
+
 export default async function decorate(block) {
   /*
   Exclude content in hero, TOC, sidebar, and doc footer.
@@ -153,12 +208,12 @@ export default async function decorate(block) {
     acc.push(...currentSection.querySelectorAll('.section'));
     return acc;
   }, []);
-  const headers = [...Array.from(mainSections), ...Array.from(fragmentSections)]
+  const headings = [...Array.from(mainSections), ...Array.from(fragmentSections)]
     .reduce((acc, currentSection) => {
       acc.push(...currentSection.querySelectorAll(':scope > .default-content-wrapper > :is(h2, h3)'));
       return acc;
     }, []);
-  if (headers.length > 0) {
+  if (headings.length > 0) {
     const placeholders = await fetchPlaceholders();
     const heading = getMetadata('toc-heading') || placeholders[toCamelCase('toc-heading')];
     const selected = button({
@@ -170,16 +225,14 @@ export default async function decorate(block) {
       },
       h2(heading),
       selected,
-      buildList(headers),
+      buildList(headings),
     );
     block.append(tocElement);
 
-    setActiveLink();
     addClickHandlerToSelectedItem(selected);
     addClickHandlerToDocument(tocElement, selected);
     addEscKeyHandler(tocElement, selected);
     addFocusOutHandler(tocElement, selected);
-
-    window.addEventListener('hashchange', setActiveLink);
+    addScrollHandler(tocElement, headings, selected);
   }
 }
