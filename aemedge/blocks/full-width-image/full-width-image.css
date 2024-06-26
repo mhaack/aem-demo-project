@@ -1,0 +1,13 @@
+.full-width-image {
+  & picture {
+    display: block;
+    height: auto;
+    width: 100%;
+
+    & img {
+      display: block;
+      height: inherit;
+      width: inherit;
+    }
+  }
+}
