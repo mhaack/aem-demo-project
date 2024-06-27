@@ -11,15 +11,11 @@
     row-gap: var(--udexSpacer84);
   }
 
-  & > div {
+  & .pages {
     grid-column: 1 / -1;
+  }
 
-    @media (width >= 980px) {
-      & {
-        grid-column: span 4;
-      }
-    }
-
+  & > div {
     & p {
       margin: 0;
       padding: 0;
@@ -103,10 +99,6 @@
   }
 
   @media (width >= 980px) {
-    & {
-      grid-template-columns: repeat(9, 1fr);
-    }
-
     &:has(div > div:nth-child(1) img) {
       row-gap: var(--udexSpacer48);
     }
@@ -115,9 +107,21 @@
     &:has(.pages) > div:is(:nth-last-child(2), :nth-last-child(3)) > div:nth-child(2) {
       border-bottom: none;
     }
+  }
+}
 
-    & > .pages {
-      grid-column: 4 / span 2;
+@media (width >= 980px) {
+  :where(body:not(.hub-l2:has(aside))) .list-external {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 1280px) {
+  :where(body.hub-l2:has(aside)) .list-external {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+
+    & .card {
+      grid-column: span 4;
     }
   }
 }
