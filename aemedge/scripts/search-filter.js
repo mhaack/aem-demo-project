@@ -85,19 +85,23 @@ function buildCardTemplate(cardObj) {
   }
 
   let introDesc = cardObj['intro-desc'] || 'Default';
-  const prefix = '/design-system/fiori-design-web/v1-124/ui-elements/';
+  // const prefix = '/design-system/fiori-design-web/v1-124/ui-elements/';
   const defaultPath = '/design-system/images/result-overview/cards-compact.svg';
-  let imageLink = cardObj['intro-img'] || '';
+  let imageLink = cardObj.image || '';
   const hasPageTabs = cardObj['page-tabs'] !== '';
   if (hasPageTabs) {
     const newPath = `${cardObj.path}usage`;
     const card = RAW_DATA.filter(({ path }) => path === newPath);
     introDesc = card[0]?.['intro-desc'] || '';
-    imageLink = card[0]?.['intro-img'];
+    // imageLink = card[0]?.image;
   }
-  if (imageLink?.length > 0) {
-    const responsePath = imageLink.substr(imageLink.indexOf('/') + 1, imageLink.length);
-    imageLink = prefix + responsePath;
+  if (imageLink?.length > 0 && imageLink !== 'https://www.sap.com/default-meta-image.png?width=1200&format=pjpg&optimize=medium') {
+    try {
+      const url = new URL(imageLink); // Assuming 'https://example.com' as the base URL
+      imageLink = url.pathname;
+    } catch (error) {
+      imageLink = defaultPath; // Fallback to defaultPath in case of an invalid URL
+    }
   } else {
     imageLink = defaultPath;
   }
