@@ -69,6 +69,7 @@ function buildResultHeader() {
     <div class="header-cell">Design owning area</div>
     <div class="header-cell">Technology</div>
     <div class="header-cell">Status</div>
+    <div class="header-cell">Element Type</div>
   </div>`;
   return resultHeaderTemplate;
 }
@@ -108,12 +109,11 @@ function buildCardTemplate(cardObj) {
         <img src="${imageLink}" />
       </div>
       <div class="search-result-card-content">
-        <h2><span>${cardObj?.designowner || 'Default'}</span></h2>
         <h3 class="search-result-card-title">${cardObj?.title}</h3>
         <p class="search-result-card-description">${introDesc}</p>
         <div class="d-flex justify-content-between align-items-center">
-          <span class="search-result-card-tag"><span>${cardObj?.uielementstechnology || 'Default'}</span></span>
-          <span class="search-result-card-status ${cardObj.elementstatus?.toLowerCase?.() || 'default'}">${capitalizeString(cardObj.elementstatus) || 'status'}</span>
+          <span class="search-result-card-tag"><span class='tech'>${cardObj?.uielementstechnology || 'Default'}</span><span class='design'>${cardObj?.designowner || 'Default'}</span><span class='type'>${cardObj?.elementtype || 'Default'}</span>
+          <span class="search-result-card-status ${cardObj.elementstatus?.toLowerCase?.() || 'default'}">${capitalizeString(cardObj.elementstatus) || 'status'}</span></span>
         </div>
       </div>
       <a href="${cardObj?.path}" class="search-result-card-link"></a>

@@ -3,13 +3,40 @@ import { decorateIcons } from '../../scripts/aem.js';
 import {
   button, div, label, nav, span,
 } from '../../scripts/dom-builder.js';
-import { applySelectedFilters } from '../../scripts/search-filter.js';
+import { applySelectedFilters, getRawFilteredData, resetFilteredData } from '../../scripts/search-filter.js';
 
 const APPLIED_FILTERS = new Map();
 
 export default async function decorate() {
   const searchForm = document.querySelector('#ui-search-form');
   const searchItems = document.querySelector('.search-result-items');
+
+  const resultDisplay = div(
+    {
+      class: 'result-display',
+    },
+    span({ class: 'results-count' }, getRawFilteredData().length, ' results'),
+
+  );
+  const tagdisplay = div(
+    { class: 'show-tags' },
+    button(
+      {
+        class: 'clear-all',
+        style: 'display : none',
+        onclick: (event) => {
+          event.preventDefault();
+          APPLIED_FILTERS.clear();
+          removeTag();
+          removeFilterSelectionAndClose();
+        },
+      },
+      'Clear All',
+      span({ class: 'icon icon-close' }),
+    ),
+  );
+  searchItems.prepend(resultDisplay);
+  searchItems.after(tagdisplay);
 
   const filterButton = button(
     {
@@ -108,12 +135,30 @@ export default async function decorate() {
             } else {
               APPLIED_FILTERS.set(filterKey, { category, filter: clickedItem.textContent });
             }
-            const resultsCounter = document.querySelector('.results-count');
-            if (APPLIED_FILTERS.size === 0) {
-              resultsCounter.classList.add('hide');
+            removeTag();
+            if (APPLIED_FILTERS !== 0) {
+              APPLIED_FILTERS.forEach((obj) => {
+                const filterTags = span({ class: 'tags' }, obj.filter, button(
+                  {
+                    class: 'icon icon-close-tag',
+                    onclick: (e) => {
+                      e.preventDefault();
+                      const spanTag = e.target.closest('span.tags');
+                      if (spanTag) {
+                        spanTag.remove();
+                        APPLIED_FILTERS.delete(key);
+                        applyFilterAndClose(APPLIED_FILTERS);
+                        resetFilteredData();
+                      }
+                    },
+                  },
+                  'x',
+                ));
+                tagdisplay.append(filterTags);
+                return tagdisplay;
+              });
             } else {
-              resultsCounter.classList.remove('hide');
-              resultsCounter.textContent = APPLIED_FILTERS.size;
+              removeFilterSelectionAndClose();
             }
           },
         },
@@ -136,7 +181,6 @@ export default async function decorate() {
         },
       },
       'Show Results',
-      span({ class: 'results-count hide' }, ''),
     ),
     button(
       {
@@ -233,9 +277,9 @@ function removeFilterSelectionAndClose() {
 
 // reset filter selection
 function resetResultsCount() {
+  resetFilteredData();
   const resultsCount = document.querySelector('.results-count');
-  resultsCount.textContent = '';
-  resultsCount.classList.add('hide');
+  resultsCount.textContent = `${getRawFilteredData().length} results`;
   document.querySelectorAll('.item-options span.label').forEach((elem) => elem.classList.remove('selected'));
   applySelectedFilters();
 }
@@ -243,6 +287,12 @@ function resetResultsCount() {
 // apply the filter and close the filter menu
 function applyFilterAndClose() {
   applySelectedFilters(APPLIED_FILTERS);
+  const resultsCounter = document.querySelector('.results-count');
+  if (APPLIED_FILTERS.size !== 0) {
+    resultsCounter.textContent = `${getRawFilteredData().length} results`;
+  } else {
+    resetResultsCount();
+  }
   document.querySelector('.filter-btn').classList.remove('expanded');
   document.querySelector('.filter-menu').classList.remove('open');
 }
@@ -260,4 +310,8 @@ function accordionClose() {
     arrowdown.display = 'none';
     arrowright.display = 'block';
   }
+}
+
+function removeTag() {
+  Array.from(document.querySelectorAll('span.tags')).forEach((tag) => tag.remove());
 }
