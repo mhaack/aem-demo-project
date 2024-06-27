@@ -6,7 +6,7 @@
 .design-system-masthead-nav {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  padding: 0 var(--udexGridMargins) ;
+  padding: 0 var(--udexGridMargins);
   position: relative;
   width: 100%;
 }
@@ -202,10 +202,6 @@
   line-height: var(--udexTypographyNavigationLineHeight);
   position: relative;
 
-  &[aria-hidden="true"] {
-    display: none;
-  }
-
   & .landing-zone-part {
     display: flex;
     height: 100%;
@@ -216,9 +212,10 @@
   }
 
   & .landing-zone-part-label {
+    display: none;
+
     & p {
       color: var(--udexColorGrey8);
-      display: none;
       font-weight: var(--udexTypographyFontWeightMedium);
       margin: 0;
       padding: 0;
@@ -228,31 +225,38 @@
   }
 
   & .landing-zone-beta {
-    width: 50px;
-    height: 26px;
-    background: white;
-    border: 0.0625rem solid var(--udexColorGrey7);
+    height: auto;
+  }
+
+  & .landing-zone-beta-btn {
+    background: var(--udexColorNeutralWhite);
     border-radius: var(--sapButton_BorderCornerRadius);
+    border: var(--sapButton_BorderWidth) solid var(--udexColorGrey7);
+    color: var(--udexColorBlue9);
+    display: block;
+    font-size: var(--udexTypographyBodyXSFontSize);
+    font-weight: 600;
+    line-height: 1;
+    padding: 5px 8px;
     text-align: center;
+    text-decoration: none;
+    width: auto;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background: var(--udexColorGrey2);
-    }
-
-    &:active, &:focus-visible {
-      background: white;
-      border-color: var(--udexColorBlue9);
-    }
-
-    & a {
+      border-color: var(--udexColorGrey7);
       color: var(--udexColorBlue9);
-      display: block;
-      font-size: var(--udexTypographyBodyXSFontSize);
-      font-weight: 600;
-      height: 100%;
-      width: auto;
-      text-decoration: none;
-      line-height: var(--udexTypographyBodyLineHeight);      
+    }
+
+    &:active {
+      background: var(--udexColorNeutralWhite);
+      border-color: var(--udexColorBlue9);
+      color: var(--udexColorBlue9);
+    }
+
+    &:focus-visible {
+      outline-offset: -2px; /* fix outline */
     }
   }
 
@@ -764,6 +768,33 @@
   }
 }
 
+[data-mq="xs"] {
+  .masthead-area-landing-zone {
+    gap: 0;
+  }
+}
+
+[data-mq="xs"],
+[data-mq="s"] {
+  & .masthead-areas {
+    &[data-mobile-search="true"] {
+      padding-left: 0 !important;
+    }
+  }
+
+  & .masthead-area-brand {
+    &[aria-hidden="true"] {
+      display: none;
+    }
+  }
+
+  & .masthead-area-landing-zone {
+    &[aria-hidden="true"] {
+      display: none;
+    }
+  }
+}
+
 /* =XS */
 @media (width < 640px) {
   .masthead-areas {
@@ -792,7 +823,7 @@
   .masthead-areas {
     --masthead-padding-inline: var(--masthead-padding-inline-s);
     --explore-nav-width: var(--explore-nav-width-s);
-    
+
     padding-left: 8px !important;
   }
 
@@ -805,7 +836,6 @@
       }
     }
   }
- 
 
   .masthead-area-landing-zone {
     & .landing-zone-current-btn {
@@ -813,9 +843,7 @@
     }
 
     & .landing-zone-part-label {
-      & p {
-        display: block;
-      }
+      display: flex;
     }
   }
 
@@ -861,7 +889,6 @@
   .masthead-areas {
     --explore-nav-width: var(--explore-nav-width-l);
   }
-
 
   .masthead-area-explore {
     position: relative;

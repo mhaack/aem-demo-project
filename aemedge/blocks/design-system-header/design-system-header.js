@@ -12,7 +12,6 @@ import {
 import initDsMainNav from './design-system-main-nav.js';
 import initDsSearch from './design-system-search.js';
 import {
-  decorateButtons,
   decorateIcons,
   loadCSS,
 } from '../../scripts/aem.js';
@@ -153,6 +152,11 @@ function resetDesignSystemMainNav() {
     mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
     mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
     mainNavElements.mainNavWrapper.style.display = 'block';
+    mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
+    mainNavElements.mastheadBrand.setAttribute('aria-hidden', 'false');
+    mainNavElements.mastheadLandingZone.setAttribute('aria-hidden', 'false');
+    mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
+    mainNavElements.mastheadSearchForm.setAttribute('aria-expanded', 'false');
   }
 }
 
@@ -172,9 +176,10 @@ function addDesignSystemSearch(block, mastheadSearch) {
  */
 function addBrand(mastheadBrand) {
   const brandLogo = div({ class: 'masthead-logo' }, a({
-    href: '/',
-    title: 'SAP',
     'aria-label': 'SAP',
+    href: '/',
+    role: 'banner',
+    title: 'SAP',
   }, span({ class: 'icon icon-sap-logo' })));
   mastheadBrand.prepend(brandLogo);
   decorateIcons(brandLogo);
@@ -392,13 +397,11 @@ function addLandingZone(mastheadLandingZone) {
     });
 
     const betaButton = div({
-      class: 'landing-zone-beta',
+      class: 'landing-zone-part landing-zone-beta',
     }, a({
-      'aria-label': 'Beta',
+      class: 'landing-zone-beta-btn',
       href: '/design-system/beta',
     }, 'BETA'));
-
-    decorateButtons(betaButton);
 
     mastheadLandingZone.appendChild(landingZoneAreaLabel);
     mastheadLandingZone.appendChild(landingZoneAreaLinks);
@@ -708,6 +711,11 @@ function addExploreZone(mastheadExplore) {
     onclick: (e) => {
       const isPressed = e.currentTarget.getAttribute('aria-pressed') === 'true';
       e.currentTarget.setAttribute('aria-pressed', (!isPressed).toString());
+      mainNavElements.mastheadSearch.setAttribute('aria-expanded', (!isPressed).toString());
+      mainNavElements.mastheadSearchForm.setAttribute('aria-expanded', (!isPressed).toString());
+      mainNavElements.mastheadAreas.setAttribute('data-mobile-search', (!isPressed).toString());
+      mainNavElements.mastheadBrand.setAttribute('aria-hidden', (!isPressed).toString());
+      mainNavElements.mastheadLandingZone.setAttribute('aria-hidden', (!isPressed).toString());
     },
   }, span({
     class: 'label',
@@ -869,18 +877,23 @@ function addMediaQueryHandler() {
     if (mediaQueryLists.XL.matches) {
       breakpoint = 'XL';
       body.setAttribute('data-mobile', 'false');
+      body.setAttribute('data-mq', 'xl');
     } else if (mediaQueryLists.L.matches) {
       breakpoint = 'L';
       body.setAttribute('data-mobile', 'false');
+      body.setAttribute('data-mq', 'L');
     } else if (mediaQueryLists.M.matches) {
       breakpoint = 'M';
       body.setAttribute('data-mobile', 'false');
+      body.setAttribute('data-mq', 'm');
     } else if (mediaQueryLists.S.matches) {
       breakpoint = 'S';
       body.setAttribute('data-mobile', 'true');
+      body.setAttribute('data-mq', 's');
     } else if (mediaQueryLists.XS.matches) {
       breakpoint = 'XS';
       body.setAttribute('data-mobile', 'true');
+      body.setAttribute('data-mq', 'xs');
     }
 
     if (breakpoint) {
@@ -900,13 +913,20 @@ export default async function decorate(block) {
   addDesignSystemMainNav(block);
 
   mainNavElements = {
-    dsHeader: block.querySelector(':scope .design-system-header'),
+    dsHeader: document.querySelector('.design-system-header'),
     mainNavWrapper: block.querySelector(':scope .design-system-main-nav-wrapper'),
     mainNavOverlay: block.querySelector(':scope .main-nav-overlay'),
+    mastheadAreas: block.querySelector(':scope .masthead-areas'),
     mastheadBrand: block.querySelector(':scope .masthead-area-brand'),
+    mastheadLandingZone: block.querySelector(':scope .masthead-area-landing-zone'),
+    mastheadSearch: block.querySelector(':scope .masthead-area-search'),
+    mastheadSearchForm: block.querySelector(':scope .masthead-area-search .search-form'),
     mastheadExplore: block.querySelector(':scope .masthead-area-explore'),
     mainNavButton: block.querySelector(':scope .masthead-area .main-nav-btn'),
+    mastheadExploreSearchButton: block.querySelector(':scope .masthead-area .explore-search-btn'),
   };
+
+  console.log(mainNavElements);
 
   await addMediaQueryHandler();
 }

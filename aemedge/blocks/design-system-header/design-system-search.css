@@ -1,3 +1,22 @@
+/* Restyle the 'X' button in Webkit browsers (Chrome, Safari, etc.) */
+input[type="search"]::-webkit-search-cancel-button {
+  /* stylelint-disable-next-line */
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--udexColorGrey7);
+  cursor: pointer;
+  height: var(--search-button-icon-size);
+  margin-right: 30px;
+  mask: url("/aemedge/icons/close.svg") center no-repeat;
+  padding: 0;
+  width: var(--search-button-icon-size);
+}
+
+/* Hide 'x' for Firefox */
+input[type="search"]::-moz-search-cancel-button {
+  display: none;
+}
+
 .masthead-area-search {
   --search-form-height: 42px;
   --search-button-size: 28px;
@@ -10,7 +29,6 @@
     display: none;
     height: var(--search-form-height);
     justify-content: space-between;
-    max-width: 540px;
     position: relative;
     width: 100%;
   }
@@ -124,14 +142,25 @@
   }
 }
 
+[data-mq="xs"],
+[data-mq="s"],
+[data-mq="m"] {
+  .masthead-area-search {
+    & .search-form {
+      &[aria-expanded="true"] {
+        display: flex;
+      }
+    }
+  }
+}
+
 /* =M */
 @media (width >= 980px) {
   .masthead-area-search {
     justify-content: flex-start;
-    
+
     & .search-form {
-      display: flex;
-      width: 295px;
+      width: 100%;
     }
   }
 }
@@ -143,7 +172,7 @@
 
     & .search-form {
       display: flex;
-      width:100%;
+      max-width: 540px;
     }
   }
 }
