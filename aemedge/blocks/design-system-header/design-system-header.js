@@ -27,7 +27,7 @@ const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
     web: {
       title: 'Web',
       titleShort: 'Web',
-      url: 'https://experience.sap.com/internal/fiori-design-web/',
+      url: '/design-system/fiori-design-web/',
       segment: 'fiori-design-web',
       jouleAiUrl: '/internal/fiori-design-web/',
     },
@@ -36,7 +36,7 @@ const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
     ios: {
       title: 'iOS',
       titleShort: 'iOS',
-      url: 'https://experience.sap.com/internal/fiori-design-ios/',
+      url: '/design-system/fiori-design-ios/',
       segment: 'fiori-design-ios',
       jouleAiUrl: '/internal/fiori-design-ios/',
     },
@@ -45,7 +45,7 @@ const LANDING_ZONE_MENU_GROUP_PRODUCTS_URLS = [
     android: {
       title: 'Android',
       titleShort: 'Android',
-      url: 'https://experience.sap.com/internal/fiori-design-android/',
+      url: '/design-system/fiori-design-android/',
       segment: 'fiori-design-android',
       jouleAiUrl: '/internal/fiori-design-android/',
     },
