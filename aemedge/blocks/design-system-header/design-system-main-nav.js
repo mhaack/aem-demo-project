@@ -1,17 +1,10 @@
 import {
-  a,
-  div,
-  img,
-  li,
-  span,
-  ul,
+  a, div, img, li, span, ul,
 } from '../../scripts/dom-builder.js';
 import ffetch from '../../scripts/ffetch.js';
 import { convertStringToKebabCase } from '../../scripts/utils.js';
 import { mediaQueryLists } from '../../scripts/config-ds.js';
 
-// TODO: Update the URL to the actual query index URL
-const QUERY_INDEX_URL = '/fiori-design-web/mock-query-index.json';
 const VALUE_SEPARATOR = ',';
 const isCategoryHeaderLink = (el) => el.tagName === 'A' && el.getAttribute('href') === '#' && el.hasAttribute('data-category');
 const isOverviewPageLink = (el) => el.tagName === 'A' && el.hasAttribute('data-overview');
@@ -602,7 +595,7 @@ function getSitePlatform() {
 export default async function init(wrapper) {
   const platform = getSitePlatform();
   if (platform) {
-    const mainNavQueryIndex = await ffetch(QUERY_INDEX_URL).sheet(platform).all();
+    const mainNavQueryIndex = await ffetch('/design-system/main-navigation.json').sheet(platform).all();
     const mainNav = createMainNav(mainNavQueryIndex);
 
     if (mainNav) {
