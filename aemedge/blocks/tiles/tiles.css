@@ -224,7 +224,7 @@
 
             & p {
               margin: 0;
-              font-size: var(--udexTypographyBodyXSFontSize);
+              font-size: var(--udexTypographyBodyXXSFontSize);
               font-weight: var(--udexTypographyFontWeightRegular);
 
               &:first-of-type {
@@ -361,7 +361,7 @@
           & li {
             & .tile-body {
               & p {
-                font-size: var(--udexTypographyBodyXSFontSize);
+                font-size: var(--udexTypographyBodyXXSFontSize);
               }
             }
           }

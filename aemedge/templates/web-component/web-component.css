@@ -111,14 +111,6 @@ html:has(.design-system) {
         margin-top: var(--udexSpacer40);
       }
 
-      &:has(+ .design-guidelines-container) {
-        border-bottom: 0 none;
-      }
-
-      &:has(+ .deep-link-container) {
-        padding-block-end: 84px !important;
-      }
-
       &:first-child {
         border: 0 none;
         display: grid;
@@ -413,6 +405,7 @@ html:has(.design-system) {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       margin-inline: auto;
+      max-width: var(--udexGridXLMinWidth);
       padding-inline: var(--udexGridMargins);
       position: relative;
 
@@ -447,30 +440,6 @@ html:has(.design-system) {
           border-radius: var(--udexRadiusM);
         }
       }
-    }
-  }
-}
-
-/* Design System - Landing Page */
-.design-system.landing-page {
-  & main {
-    .section {
-      border: none;
-    }
-    & h2 {
-      font-size: var(--udexTypographyHeadingMediumXSFontSize);
-
-      @media(width >= 1280px) {
-        font-size: var(--udexTypographyHeadingMediumMFontSize);
-      }
-    }
-  }
-}
-
-@media(width >= 980px) {
-  .design-system.landing-page {
-    & main {
-      padding: 0 var(--udexGridMargins);
     }
   }
 }

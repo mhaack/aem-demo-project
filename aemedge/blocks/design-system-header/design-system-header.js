@@ -13,7 +13,6 @@ import initDsMainNav from './design-system-main-nav.js';
 import initDsSearch from './design-system-search.js';
 import {
   decorateIcons,
-  getMetadata,
   loadCSS,
 } from '../../scripts/aem.js';
 import { mediaQueryLists } from '../../scripts/config-ds.js';
@@ -137,33 +136,28 @@ function removeEmptyStringsFromArray(array) {
  * @param block The block to add the main navigation to.
  */
 function addDesignSystemMainNav(block) {
-  const template = getMetadata('template');
-  if (template !== 'landing-page') {
-    loadCSS(`${window.hlx.codeBasePath}/blocks/design-system-header/design-system-main-nav.css`);
-    const mainNavWrapper = nav({ class: 'design-system-main-nav-wrapper' });
-    block.append(mainNavWrapper);
-    initDsMainNav(mainNavWrapper);
-  }
+  loadCSS(`${window.hlx.codeBasePath}/blocks/design-system-header/design-system-main-nav.css`);
+  const mainNavWrapper = nav({ class: 'design-system-main-nav-wrapper' });
+  block.append(mainNavWrapper);
+  initDsMainNav(mainNavWrapper);
 }
 
 function resetDesignSystemMainNav() {
-  if (getMetadata('template') !== 'landing-page') {
-    if (body.getAttribute('data-mobile') === 'true') {
-      mainNavElements.mainNavButton.setAttribute('aria-pressed', 'false');
-      mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
-      mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
-      mainNavElements.mainNavWrapper.style.display = 'none';
-      mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
-      mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
-    } else {
-      mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
-      mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
-      mainNavElements.mainNavWrapper.style.display = 'block';
-      mainNavElements.mastheadBrand.setAttribute('aria-hidden', 'false');
-      mainNavElements.mastheadLandingZone.setAttribute('aria-hidden', 'false');
-      mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
-      mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
-    }
+  if (body.getAttribute('data-mobile') === 'true') {
+    mainNavElements.mainNavButton.setAttribute('aria-pressed', 'false');
+    mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
+    mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
+    mainNavElements.mainNavWrapper.style.display = 'none';
+    mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
+    mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
+  } else {
+    mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
+    mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
+    mainNavElements.mainNavWrapper.style.display = 'block';
+    mainNavElements.mastheadBrand.setAttribute('aria-hidden', 'false');
+    mainNavElements.mastheadLandingZone.setAttribute('aria-hidden', 'false');
+    mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
+    mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
   }
 }
 
@@ -403,8 +397,6 @@ function addLandingZone(mastheadLandingZone) {
       class: 'landing-zone-part landing-zone-part-links',
     });
 
-    const template = getMetadata('template');
-
     const betaButton = div({
       class: 'landing-zone-part landing-zone-beta',
     }, a({
@@ -413,9 +405,7 @@ function addLandingZone(mastheadLandingZone) {
     }, 'BETA'));
 
     mastheadLandingZone.appendChild(landingZoneAreaLabel);
-    if (template !== 'landing-page') {
-      mastheadLandingZone.appendChild(landingZoneAreaLinks);
-    }
+    mastheadLandingZone.appendChild(landingZoneAreaLinks);
     mastheadLandingZone.appendChild(betaButton);
     mastheadLandingZoneAreaLinks = landingZoneAreaLinks;
   }
@@ -867,16 +857,13 @@ function generateMasthead(block) {
     class: 'masthead-area masthead-area-explore',
     'aria-label': 'Explore',
   });
-  if (getMetadata('template') !== 'landing-page') {
-    mastheadBrand.append(mainNavButton);
-  }
+
+  mastheadBrand.append(mainNavButton);
   mastheadBrand.append(mainNavOverlay);
   addBrand(mastheadBrand);
   addLandingZone(mastheadLandingZone);
   addDesignSystemSearch(block, mastheadSearch);
-  if (getMetadata('template') !== 'landing-page') {
-    addExploreZone(mastheadExplore);
-  }
+  addExploreZone(mastheadExplore);
 
   mastheadAreas.append(
     mastheadBrand,
@@ -884,6 +871,7 @@ function generateMasthead(block) {
     mastheadSearch,
     mastheadExplore,
   );
+
   mastheadNav.append(mastheadAreas);
   block.append(mastheadNav);
 }

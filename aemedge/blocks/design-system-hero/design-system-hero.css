@@ -32,10 +32,7 @@
 
       .hero-sub-heading {
         margin: 4px 0;
-        font-size: var(--udexTypographyBodySFontSize);
-        font-weight: 400;
-        line-height: 24px;
-        margin-top: 12px;
+        font-size: var(--udexTypographyBodyXSFontSize);
       }
     }
 
@@ -236,7 +233,7 @@
         display: block;
       }
 
-      .dropdown{
+      .dropdown {
         width: 109px;
       }
     }
@@ -245,7 +242,7 @@
 
 /* =M */
 @media (width >= 980px) {
-  .design-system-hero-container:not( > .landing-page-style-wrapper) {
+  .design-system-hero-container {
     margin-left: calc((128px) * -1) !important;
   }
 
@@ -282,7 +279,7 @@
 
 /* =XL */
 @media (width >= 1600px) {
-  .design-system-hero-container:not( > .landing-page-style-wrapper) {
+  .design-system-hero-container {
     margin-left: calc(var(--udexGridMargins) * -1) !important;
   }
 
@@ -298,39 +295,6 @@
     div[slot="content"],
     div[slot="additionalContent"] {
       padding: 0 var(--udexSpacer84);
-    }
-  }
-}
-
-.design-system-hero-landing-page-wrapper {
-  & .fiori-hero-banner {
-    max-height: 450px;
-    height: 100%;
-
-    picture[slot="backgroundPicture"] {
-      left: unset;
-    }
-
-    & div[slot="content"] {
-      grid-row: 2 / 3;
-      
-      @media(width >= 980px) {
-        grid-column: 1 / 7;
-        grid-row: 3 / 4;
-        padding: 0 var(--udexSpacer72);
-      }
-
-      @media(width >= 1600px) {
-        grid-column: 2 / 12;
-      }
-    }
-
-    & div[slot="additionalContent"] {
-      grid-row: 1 / 2;
-
-      @media(width >= 980px) {
-        grid-row: 2 / 3;
-      }
     }
   }
 }
