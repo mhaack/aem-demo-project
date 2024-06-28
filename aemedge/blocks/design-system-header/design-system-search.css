@@ -21,6 +21,7 @@ input[type="search"]::-moz-search-cancel-button {
   --search-form-height: 42px;
   --search-button-size: 28px;
   --search-button-icon-size: 18px;
+
   position: relative;
 
   & .search-form {
