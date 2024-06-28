@@ -941,3 +941,14 @@
     grid-column: 1 / -1; /* Adjusting value as nav is not properly align */
   }
 }
+
+/* landing-page template */
+.landing-page {
+  & .masthead-area-landing-zone {
+    gap: var(--udexSpacer24);
+
+    & .landing-zone-part-label {
+      display: flex;
+    }
+  }
+}

@@ -32,6 +32,7 @@ const TEMPLATE_LIST = {
   'versioned-page': 'versioned-page',
   'design-system-overview': 'design-system-overview',
   'simple-overview': 'simple-overview',
+  'landing-page': 'landing-page',
 };
 
 /**
