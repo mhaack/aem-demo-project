@@ -926,7 +926,5 @@ export default async function decorate(block) {
     mastheadExploreSearchButton: block.querySelector(':scope .masthead-area .explore-search-btn'),
   };
 
-  console.log(mainNavElements);
-
   await addMediaQueryHandler();
 }

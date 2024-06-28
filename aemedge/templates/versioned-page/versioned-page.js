@@ -3,10 +3,62 @@ import ffetch from '../../scripts/ffetch.js';
 import {
   a as aElem, div, h1, h2, meta, p,
 } from '../../scripts/dom-builder.js';
-import { compareVersions, fioriWebRootUrl } from '../../scripts/utils.js';
-import {
-  buildBlock, getMetadata, loadCSS, toClassName,
-} from '../../scripts/aem.js';
+import { compareVersions, fioriWebRootUrl, redirectTo404 } from '../../scripts/utils.js';
+import { buildBlock, getMetadata, loadCSS } from '../../scripts/aem.js';
+
+function comparePathPriority(order, pathA, pathB) {
+  const aPriority = order.find((o) => o.path === pathA)?.priority || 0;
+  const bPriority = order.find((o) => o.path === pathB)?.priority || 0;
+  return bPriority - aPriority;
+}
+
+class Section {
+  prefix;
+
+  title;
+
+  pagesInfo = [];
+
+  constructor(relativePath, title, pagesInfo = []) {
+    this.relativePath = `/${relativePath}/`;
+    this.title = title;
+    this.pagesInfo = pagesInfo;
+  }
+
+  addPageInfo(pageInfo) {
+    this.pagesInfo.push(pageInfo);
+  }
+
+  render(order) {
+    this.pagesInfo.sort((a, b) => {
+      const pathA = this.getPageRelativePath(a);
+      const pathB = this.getPageRelativePath(b);
+      return comparePathPriority(order, pathA, pathB);
+    });
+
+    const tiles = buildBlock('tiles', this.pagesInfo.map((pageInfo) => [
+      div(
+        p(this.title),
+        aElem({ href: pageInfo.path }, p(pageInfo.title)),
+        p(pageInfo['intro-desc']),
+      ),
+    ]));
+
+    if (this.title) {
+      return div(
+        h2(this.title),
+        tiles,
+      );
+    }
+
+    return div(tiles);
+  }
+
+  getPageRelativePath(pageInfo) {
+    const { latestUrl } = pageInfo;
+    return latestUrl.substring(latestUrl.indexOf(this.relativePath));
+  }
+}
 
 function getLatestUrl(path, virtualVersion) {
   if (virtualVersion === 'latest') {
@@ -58,35 +110,31 @@ function addMetadata(metaFields, doc) {
   });
 }
 
-function breadcrumbsMatch(breadcrumbs, pathSections) {
-  const breadcrumbSections = breadcrumbs.split(' / ');
-  if (breadcrumbSections.length < pathSections.length) {
-    return false;
-  }
-
-  for (let i = 0; i < pathSections.length; i += 1) {
-    if (toClassName(breadcrumbSections[i]) !== pathSections[i]) {
-      return false;
-    }
-  }
-
-  return true;
+function getPathParts(path, virtualVersion) {
+  return getLatestUrl(path, virtualVersion).split('/').filter((part) => part !== '');
 }
 
-function fallbackVersioning(doc, virtualVersion, candidateVersions) {
+async function fallbackOverviewPage(doc, virtualVersion, candidateVersions) {
   const path = doc.location.pathname;
-
-  const latestUrlParts = getLatestUrl(path, virtualVersion).split('/').slice(3);
-
-  if (latestUrlParts.length !== 3 || latestUrlParts[2] !== '') {
+  const data = await ffetch(`${fioriWebRootUrl}overview-pages.json`).sheet('pages').all();
+  const overviewPageInfo = data.find((overviewInfo) => path.endsWith(overviewInfo.path));
+  if (!overviewPageInfo) {
+    console.warn('overview page info not found for path', path, data);
     return false;
   }
+
+  const overviewLatestUrl = getLatestUrl(path, virtualVersion);
 
   // TODO use "breadcrumbs 1" and "breadcrumbs 2" for the filtering
 
-  const pathSections = latestUrlParts.slice(0, 2);
-  const pagesInfo = Object.values(candidateVersions
-    .filter((pageInfo) => breadcrumbsMatch(pageInfo.breadcrumbs, pathSections))
+  const filtered = candidateVersions
+    .map((pageInfo) => {
+      pageInfo.latestUrl = getLatestUrl(pageInfo.path, pageInfo.version);
+      pageInfo.pathParts = getPathParts(pageInfo.path, pageInfo.version);
+      return pageInfo;
+    })
+    .filter((pageInfo) => pageInfo.latestUrl.startsWith(overviewLatestUrl));
+  const pagesInfo = Object.values(filtered
     .reduce((acc, pageInfo) => {
       const parentUrl = getLatestUrl(pageInfo.path, pageInfo.version);
       const accElement = acc[parentUrl];
@@ -100,13 +148,16 @@ function fallbackVersioning(doc, virtualVersion, candidateVersions) {
     }, {}));
 
   if (pagesInfo.length === 0) {
+    console.warn('No pages found for path', path, filtered, pagesInfo);
     return false;
   }
 
+  const overviewAbsolutePathParts = getPathParts(path, virtualVersion);
+  const fioriParts = getPathParts(fioriWebRootUrl, '');
+
   // eslint-disable-next-line max-len
-  const [firstSectionPages, otherSectionPages] = pagesInfo.reduce(([firstSection, sections], pageInfo) => {
-    const splitBreadcrumbs = pageInfo.breadcrumbs.split(' / ');
-    if (splitBreadcrumbs.length === pathSections.length + 1) {
+  const [firstLevelPages, otherSectionPages] = pagesInfo.reduce(([firstSection, sections], pageInfo) => {
+    if (pageInfo.pathParts.length === overviewAbsolutePathParts.length + 1) {
       firstSection.push(pageInfo);
     } else {
       sections.push(pageInfo);
@@ -115,7 +166,14 @@ function fallbackVersioning(doc, virtualVersion, candidateVersions) {
     return [firstSection, sections];
   }, [[], []]);
 
-  const pageBreadcrumbsComponents = pagesInfo[0].breadcrumbs.split(' / ').slice(0, 2);
+  const overviewIndex = firstLevelPages
+    .findIndex((pageInfo) => pageInfo.latestUrl === overviewLatestUrl + overviewPageInfo.overview);
+  const overviewSectionPage = firstLevelPages[overviewIndex];
+  if (overviewIndex !== -1) {
+    firstLevelPages.splice(overviewIndex, 1);
+  }
+
+  const pageBreadcrumbsComponents = pagesInfo[0].breadcrumbs.split(' / ').slice(0, overviewAbsolutePathParts.length);
   const pageTitle = pageBreadcrumbsComponents[1];
 
   const metaFields = {
@@ -130,48 +188,52 @@ function fallbackVersioning(doc, virtualVersion, candidateVersions) {
   loadCSS(`${window.hlx.codeBasePath}/templates/web-component/web-component.css`);
   loadCSS(`${window.hlx.codeBasePath}/styles/design-system/overview.css`);
 
-  const sections = Object.entries(otherSectionPages.reduce((acc, pageInfo) => {
-    const thirdBreadcrumb = pageInfo.breadcrumbs.split(' / ')[2];
-    const accElem = acc[thirdBreadcrumb];
-    if (accElem) {
-      accElem.push(pageInfo);
-    } else {
-      acc[thirdBreadcrumb] = [pageInfo];
+  const breadcrumbsElementNumber = overviewAbsolutePathParts.length - fioriParts.length;
+  const sectionObjects = Object.values(otherSectionPages.reduce((acc, pageInfo) => {
+    const title = pageInfo.breadcrumbs
+      .split('/')
+      .map((part) => part.trim())[breadcrumbsElementNumber];
+
+    let accElem = acc[title];
+    if (!accElem) {
+      accElem = new Section(pageInfo.pathParts.slice(breadcrumbsElementNumber, breadcrumbsElementNumber + overviewAbsolutePathParts.length - 1).join('/'), title);
+      acc[title] = accElem;
     }
 
-    return acc;
-  }, {})).map(([title, sectionPages]) => div(
-    h2(title),
-    buildBlock('tiles', sectionPages.map((pageInfo) => [
-      div(
-        p(title),
-        p(pageInfo.title),
-        p(pageInfo['intro-desc']),
-      ),
-    ])),
-  ));
+    accElem.addPageInfo(pageInfo);
 
-  const heroBlock = buildBlock('design-system-hero', [[h1(pageTitle)]]);
-  const firstLevelPageCards = buildBlock('tiles', firstSectionPages.map((pageInfo) => [div(
-    p(pageInfo.title),
-    p(pageInfo['intro-desc']),
-    aElem({ href: pageInfo.path }, 'Learn more'),
-  )]));
-  if (sections.length > 0) {
-    main.replaceChildren(
-      div(
-        heroBlock,
-        h2('Overview'),
-        firstLevelPageCards,
-      ),
-      ...sections,
-    );
+    return acc;
+  }, {}));
+  if (sectionObjects.length === 0 && !overviewSectionPage) {
+    sectionObjects.push(new Section(overviewPageInfo.path, '', firstLevelPages));
   } else {
-    main.replaceChildren(
-      div(heroBlock),
-      div(firstLevelPageCards),
+    sectionObjects.push(...firstLevelPages.map((pageInfo) => {
+      const startRelativePath = pageInfo.latestUrl.indexOf(overviewPageInfo.path);
+      const relativePath = pageInfo.latestUrl.substring(startRelativePath);
+      return new Section(relativePath, pageInfo.title, [pageInfo]);
+    }));
+  }
+  const heroSection = div(
+    buildBlock('design-system-hero', [[h1(pageTitle)]]),
+  );
+  if (overviewSectionPage) {
+    const overviewTitle = h2('Overview');
+    heroSection.append(
+      overviewTitle,
+      buildBlock('tiles', [[div(
+        p(overviewSectionPage.title),
+        p(overviewSectionPage['intro-desc']),
+        aElem({ href: overviewSectionPage.path }, 'Learn more'),
+      )]]),
     );
   }
+  const order = await ffetch(`${fioriWebRootUrl}overview-pages.json`).sheet('order').all();
+  sectionObjects.sort((a, b) => comparePathPriority(order, a.relativePath, b.relativePath));
+
+  main.replaceChildren(
+    heroSection,
+    ...(sectionObjects.map((section) => section.render(order))),
+  );
 
   return true;
 }
@@ -186,7 +248,10 @@ async function decorate(doc) {
   const virtualVersion = metaVersion || 'latest';
   const latestUrl = getLatestUrl(path, virtualVersion);
 
-  const candidatePages = await ffetch(`${fioriWebRootUrl}query-index.json`).chunks(10000).filter((pageInfo) => compareVersions(virtualVersion, pageInfo.version) >= 0).all();
+  const candidatePages = await ffetch(`${fioriWebRootUrl}query-index.json`)
+    .chunks(10000)
+    .filter((pageInfo) => compareVersions(virtualVersion, pageInfo.version) >= 0 && pageInfo.breadcrumbs !== '')
+    .all();
   const pageVersions = candidatePages.filter(
     (row) => getLatestUrl(row.path, row.version) === latestUrl,
   );
@@ -195,8 +260,8 @@ async function decorate(doc) {
 
   const sourceVersion = findVersion(virtualVersion, pageVersions);
   if (!sourceVersion) {
-    if (!fallbackVersioning(doc, virtualVersion, candidatePages)) {
-      doc.location.href = '/404';
+    if (!await fallbackOverviewPage(doc, virtualVersion, candidatePages)) {
+      await redirectTo404();
     }
     return;
   }

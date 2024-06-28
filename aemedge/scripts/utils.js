@@ -7,6 +7,17 @@ export const fioriWebRootUrl = '/design-system/fiori-design-web/';
 // Match author names and Ph.D. titles
 const authorTitleRegex = /[^,]+(?:,\s*Ph\.?D\.?)?/gi;
 
+export async function redirectTo404() {
+  const errorPage = await fetch('/404');
+  const html = await errorPage.text();
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+  const newHTMLContent = doc.documentElement.outerHTML;
+  document.open();
+  document.write(newHTMLContent);
+  document.close();
+}
+
 export function compareVersions(a, b) {
   if (a === 'latest') {
     if (b === 'latest') {
