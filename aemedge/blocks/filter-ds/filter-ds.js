@@ -266,6 +266,14 @@ export default async function decorate() {
   x.addEventListener('change', () => {
     filterBttn(x);
   });
+
+  const filterB = document.querySelector('.filter-btn');
+  const filterM = document.querySelector('.filter-menu');
+  document.addEventListener('mousedown', (event) => {
+    if (!filterM.contains(event.target) && !filterB.contains(event.target)) {
+      filterM.classList.remove('open');
+    }
+  });
 }
 
 // close the filter menu and reset filter selection

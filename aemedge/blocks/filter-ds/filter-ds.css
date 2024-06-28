@@ -93,7 +93,7 @@
           display: flex;
           flex-wrap: wrap;
           gap: 8px;
-          padding-top: 8px;
+          padding-top: 12px;
           font-size: var(--udexTypographyBodyXSFontSize);
           font-weight: var(--udexTypographyFontWeightRegular);
           cursor: pointer;
@@ -282,9 +282,11 @@
   .filter-container {
     position: relative;
     top: 5px;
+    height: 42px;
 
     & .filter-btn {
       border: none;
+      height: 100%;
       background-color: transparent;
       color: var(--udexColorBlue10);
       font-size: var(--udexTypographyBodySFontSize);
@@ -297,12 +299,12 @@
 
     & .filter-menu {
       width: 909px;
-      height: 476px;
+      height: 455px;
       position: absolute;
       left: -446px !important;
       z-index: 1;
       margin-top: 42px;
-      padding: 32px 32px 48px 56px;
+      padding: 32px 48px 32px 56px;
       overflow-y: unset;
 
       & .items-accordion {
@@ -314,6 +316,7 @@
         flex-wrap: wrap;
         height: 340px;
         margin-top: 0;
+        gap: 15px 21px;
 
         & .filter-item {
           max-width: 392px;
@@ -329,7 +332,7 @@
       & .filter-actions {
         position: relative;
         justify-content: flex-end;
-        padding: var(--udexSpacer24);
+        padding-top: 16px; 
         border-top: 1px solid var(--udexColorGrey3);
        
 
@@ -349,7 +352,6 @@
   .filter-container {
     & .filter-btn{
       border: 1px solid #0040B0;
-      height: 42px;
     }
 
     & .filter-menu {
@@ -357,7 +359,7 @@
       padding: 32px 75px;
 
       & .items-container{
-          column-gap: 24px;
+          column-gap: 48px;
 
         & .filter-item {
           max-width: 492px;
