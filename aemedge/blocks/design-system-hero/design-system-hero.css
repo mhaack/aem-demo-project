@@ -155,11 +155,13 @@
               padding: 0;
 
               li a:any-link {
+                display: block;
                 text-decoration: none;
                 color: var(--udexColorNeutralBlack);
-                padding: 8px;
+                padding: 4px 8px;
                 cursor: pointer;
                 font-size: var(--udexTypographyBodySFontSize);
+                width: 100%;
 
                 &:hover {
                   background-color: var(--udexColorGrey1);
