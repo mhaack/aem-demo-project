@@ -1,5 +1,29 @@
 .design-system {
-  div.section:first-child {
-    background-color: #f8f8f8;
+  main {
+    & .section {
+      &:not(:first-child) {
+        grid-column: 1 / 13;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0 0 0 1rem;
+    }
   }
 }
+
+/* =XS */
+/* @media (width < 640px) {} */
+
+/* =S */
+/* @media (width >= 640px) {} */
+
+/* =M */
+/* @media (width >= 980px) {} */
+
+/* =L */
+/* @media (width >= 1280px) {} */
+
+/* =XL */
+/* @media (width >= 1600px) {} */

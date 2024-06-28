@@ -1,10 +1,23 @@
 import { loadFragment } from '../../scripts/scripts.js';
 import ffetch from '../../scripts/ffetch.js';
 import {
-  a as aElem, div, h1, h2, meta, p,
+  a as aElem,
+  div,
+  h1,
+  h2,
+  meta,
+  p,
 } from '../../scripts/dom-builder.js';
-import { compareVersions, fioriWebRootUrl, redirectTo404 } from '../../scripts/utils.js';
-import { buildBlock, getMetadata, loadCSS } from '../../scripts/aem.js';
+import {
+  compareVersions,
+  fioriWebRootUrl,
+  redirectTo404,
+} from '../../scripts/utils.js';
+import {
+  buildBlock,
+  getMetadata,
+  loadCSS,
+} from '../../scripts/aem.js';
 
 function comparePathPriority(order, pathA, pathB) {
   const aPriority = order.find((o) => o.path === pathA)?.priority || 0;
@@ -43,6 +56,7 @@ class Section {
         p(pageInfo['intro-desc']),
       ),
     ]));
+    tiles.classList.add('overview');
 
     if (this.title) {
       return div(
@@ -119,6 +133,7 @@ async function fallbackOverviewPage(doc, virtualVersion, candidateVersions) {
   const data = await ffetch(`${fioriWebRootUrl}overview-pages.json`).sheet('pages').all();
   const overviewPageInfo = data.find((overviewInfo) => path.endsWith(overviewInfo.path));
   if (!overviewPageInfo) {
+    // eslint-disable-next-line no-console
     console.warn('overview page info not found for path', path, data);
     return false;
   }
@@ -148,6 +163,7 @@ async function fallbackOverviewPage(doc, virtualVersion, candidateVersions) {
     }, {}));
 
   if (pagesInfo.length === 0) {
+    // eslint-disable-next-line no-console
     console.warn('No pages found for path', path, filtered, pagesInfo);
     return false;
   }
@@ -173,7 +189,8 @@ async function fallbackOverviewPage(doc, virtualVersion, candidateVersions) {
     firstLevelPages.splice(overviewIndex, 1);
   }
 
-  const pageBreadcrumbsComponents = pagesInfo[0].breadcrumbs.split(' / ').slice(0, overviewAbsolutePathParts.length);
+  const pageBreadcrumbsComponents = pagesInfo[0].breadcrumbs.split(' / ')
+    .slice(0, overviewAbsolutePathParts.length);
   const pageTitle = pageBreadcrumbsComponents[1];
 
   const metaFields = {
@@ -196,7 +213,9 @@ async function fallbackOverviewPage(doc, virtualVersion, candidateVersions) {
 
     let accElem = acc[title];
     if (!accElem) {
-      accElem = new Section(pageInfo.pathParts.slice(breadcrumbsElementNumber, breadcrumbsElementNumber + overviewAbsolutePathParts.length - 1).join('/'), title);
+      // eslint-disable-next-line max-len
+      accElem = new Section(pageInfo.pathParts.slice(breadcrumbsElementNumber, breadcrumbsElementNumber + overviewAbsolutePathParts.length - 1)
+        .join('/'), title);
       acc[title] = accElem;
     }
 
@@ -213,25 +232,35 @@ async function fallbackOverviewPage(doc, virtualVersion, candidateVersions) {
       return new Section(relativePath, pageInfo.title, [pageInfo]);
     }));
   }
-  const heroSection = div(
-    buildBlock('design-system-hero', [[h1(pageTitle)]]),
-  );
-  if (overviewSectionPage) {
-    const overviewTitle = h2('Overview');
-    heroSection.append(
-      overviewTitle,
-      buildBlock('tiles', [[div(
-        p(overviewSectionPage.title),
-        p(overviewSectionPage['intro-desc']),
-        aElem({ href: overviewSectionPage.path }, 'Learn more'),
-      )]]),
-    );
-  }
+
   const order = await ffetch(`${fioriWebRootUrl}overview-pages.json`).sheet('order').all();
   sectionObjects.sort((a, b) => comparePathPriority(order, a.relativePath, b.relativePath));
 
-  main.replaceChildren(
-    heroSection,
+  let overviewSection = null;
+
+  if (overviewSectionPage) {
+    const overviewTitle = h2('Overview');
+    const block = buildBlock('tiles', [[div(
+      p(overviewSectionPage.title),
+      p(overviewSectionPage['intro-desc']),
+      aElem({ href: overviewSectionPage.path }, 'Learn more'),
+    )]]);
+    block.classList.add('overview');
+    overviewSection = div(
+      overviewTitle,
+      block,
+    );
+  }
+
+  main.replaceChildren(div(
+    buildBlock('design-system-hero', [[h1(pageTitle)]]),
+  ));
+
+  if (overviewSection) {
+    main.append(overviewSection);
+  }
+
+  main.append(
     ...(sectionObjects.map((section) => section.render(order))),
   );
 

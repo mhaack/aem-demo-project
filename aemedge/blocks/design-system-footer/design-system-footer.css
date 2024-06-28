@@ -2,6 +2,8 @@
   background: var(--udexCoreSurfaceHigher);
 
   .section {
+    background: var(--udexCoreSurfaceHigher) !important;
+
     .default-content-wrapper {
       align-items: start;
       display: flex;
