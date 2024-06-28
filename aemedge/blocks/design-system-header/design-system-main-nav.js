@@ -584,14 +584,31 @@ function addMediaQueryHandler() {
   changeHandler();
 }
 
-export default async function init(wrapper) {
-  const mainNavQueryIndex = await ffetch(QUERY_INDEX_URL).all();
-  const mainNav = createMainNav(mainNavQueryIndex);
+function getSitePlatform() {
+  const path = window.location.pathname;
 
-  if (mainNav) {
-    wrapper.append(mainNav);
+  if (path.includes('fiori-design-web')) {
+    return 'web';
   }
+  if (path.includes('fiori-design-ios')) {
+    return 'ios';
+  }
+  if (path.includes('fiori-design-android')) {
+    return 'android';
+  }
+  return null;
+}
 
+export default async function init(wrapper) {
+  const platform = getSitePlatform();
+  if (platform) {
+    const mainNavQueryIndex = await ffetch(QUERY_INDEX_URL).sheet(platform).all();
+    const mainNav = createMainNav(mainNavQueryIndex);
+
+    if (mainNav) {
+      wrapper.append(mainNav);
+    }
+  }
   mainNavWrapper = document.querySelector('.design-system-main-nav-wrapper');
   mainNavLinks = [...mainNavWrapper.querySelectorAll('a')];
   level1ListItems = mainNavWrapper.querySelectorAll('.main-nav__list-level-1-item');
