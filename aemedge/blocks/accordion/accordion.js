@@ -4,8 +4,11 @@
  * https://www.hlx.live/developer/block-collection/accordion
  */
 
-import { domEl, p, span } from '../../scripts/dom-builder.js';
+import {
+  domEl, p, span, div,
+} from '../../scripts/dom-builder.js';
 import { decorateIcons } from '../../scripts/aem.js';
+import Button from '../../libs/button/button.js';
 
 function hasWrapper(el) {
   return !!el.firstElementChild && window.getComputedStyle(el.firstElementChild).display === 'block';
@@ -36,21 +39,36 @@ export default function decorate(block) {
     );
     row.replaceWith(details);
   });
+  function getPreviousElementSibling(previousElement, selector) {
+    return previousElement && previousElement.classList.contains(selector)
+      ? previousElement
+      : null;
+  }
+  // Create Accordion Header
+  const accordionHeaderContainer = getPreviousElementSibling(block.parentElement.previousElementSibling, 'default-content-wrapper');
+
+  const headerDiv = div({ class: 'accordion-header' });
+  const headerEl = accordionHeaderContainer?.querySelector('h2, h3');
+  if (headerEl) {
+    headerEl.classList.add('header-text');
+    headerDiv.append(headerEl);
+  }
 
   // Accordion bulk-toggle functionality
   const hasExpandAll = block.classList.contains('expand-all');
   if (hasExpandAll) {
-    const expandAll = p({ class: 'expand' }, 'Expand all');
-    block.parentElement.prepend(expandAll);
+    const expandAll = new Button('Expand All', null, 'tertiary', 'large').render();
+    headerDiv.append(expandAll);
 
     expandAll.addEventListener('click', () => {
-      const isExpanded = expandAll.textContent === 'Collapse all';
-      expandAll.textContent = isExpanded ? 'Expand all' : 'Collapse all';
+      const isExpanded = expandAll.querySelector('span').textContent === 'Collapse All';
+      expandAll.querySelector('span').textContent = isExpanded ? 'Expand All' : 'Collapse All';
       block.querySelectorAll('details').forEach((details) => {
         details.open = !isExpanded;
       });
     });
   }
+  block.prepend(headerDiv);
 
   decorateIcons(block);
 }

@@ -1,3 +1,5 @@
+@import url("/aemedge/libs/button/button.css");
+
 .accordion p {
   margin: 0
 }
@@ -77,15 +79,19 @@
     margin-block: var(--udexSpacer40);
   }
 
-  & .expand {
-    color: var(--sapInformationColor);
-    cursor: pointer;
-    font-size: var(--sapFontSize);
-    line-height: var(--udexTypographyHeadingLineHeight);
-    margin: 0;
-    position: absolute;
-    right: 10px;
-    top: -20px;
+  & .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: var(--udexSpacer16);
+    
+    & .header-text {
+      margin: var(--udexSpacer8) var(--udexSpacer8);
+      font-size: var(--udexTypographyHeadingRegularXSFontSize);
+    }
+  }
+
+  & .accordion-header:not(:has(.header-text)) {
+    justify-content: flex-end;
   }
 
   & .expand-all .accordion-item-body h3 {
