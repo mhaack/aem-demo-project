@@ -200,7 +200,12 @@
         background-color: white;
         border: 1px solid var(--udexColorBlue6);
         box-shadow: var(--sapContent_Shadow1);
+      }
 
+      &:focus {
+        background-color: white;
+        border: 1px solid var(--udexColorBlue10);
+        box-shadow: var(--sapContent_Shadow1);
       }
 
       .carousel-slide-image {
@@ -403,11 +408,6 @@
 /* stylelint-disable-next-line no-duplicate-selectors */
 .design-system {
   & .carousel.promo {
-    .carousel-slides-container {
-      background-color: var(--udexColorBlue1);
-      border-radius: var(--udexRadiusL);
-    }
-
     & .carousel-slide {
       align-items: flex-start;
       gap: 24px;
@@ -459,10 +459,11 @@
 
     & .carousel-slide {
       min-height: unset;
-      border-radius: 0;
       box-shadow: none;
       flex: 0 0 100%;
       height: auto;
+      background-color: var(--udexColorBlue1);
+      border-radius: var(--udexRadiusL);
     }
 
     & .carousel-slide .carousel-slide-image {

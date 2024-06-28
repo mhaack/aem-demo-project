@@ -1,4 +1,4 @@
-import { decorateIcons } from '../../scripts/aem.js';
+import { decorateIcons, getMetadata } from '../../scripts/aem.js';
 import {
   a,
   button,
@@ -217,6 +217,9 @@ async function fetchPageSearchData() {
 export default async function init(block, mastheadSearch) {
   await fetchPageSearchData();
   await filterDataWithCategories();
-  addSearchForm(mastheadSearch);
+  const template = getMetadata('template');
+  if (template !== 'landing-page') {
+    addSearchForm(mastheadSearch);
+  }
   buildSearchResults(RAW_SEARCH_DATA);
 }
