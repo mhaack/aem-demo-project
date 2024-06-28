@@ -4,6 +4,7 @@ import {
 import ffetch from '../../scripts/ffetch.js';
 import { convertStringToKebabCase } from '../../scripts/utils.js';
 import { mediaQueryLists } from '../../scripts/config-ds.js';
+import { getSitePlatform } from '../../scripts/ds-scripts.js';
 
 const VALUE_SEPARATOR = ',';
 const isCategoryHeaderLink = (el) => el.tagName === 'A' && el.getAttribute('href') === '#' && el.hasAttribute('data-category');
@@ -575,21 +576,6 @@ function addMediaQueryHandler() {
   Object.values(mediaQueryLists).forEach((mql) => mql.addEventListener('change', changeHandler));
   // Call the change handler once
   changeHandler();
-}
-
-function getSitePlatform() {
-  const path = window.location.pathname;
-
-  if (path.includes('fiori-design-web')) {
-    return 'web';
-  }
-  if (path.includes('fiori-design-ios')) {
-    return 'ios';
-  }
-  if (path.includes('fiori-design-android')) {
-    return 'android';
-  }
-  return null;
 }
 
 export default async function init(wrapper) {

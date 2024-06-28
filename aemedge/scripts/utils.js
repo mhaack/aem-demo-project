@@ -1,5 +1,5 @@
 import { getMetadata, toCamelCase, toClassName } from './aem.js';
-import { div } from './dom-builder.js';
+import { div, meta } from './dom-builder.js';
 import ffetch from './ffetch.js';
 
 export const fioriWebRootUrl = '/design-system/fiori-design-web/';
@@ -256,6 +256,16 @@ function getConfig(key) {
   return config ? JSON.parse(config)[key] : null;
 }
 
+export function addMetadata(metaFields, doc) {
+  Object.entries(metaFields).forEach(([name, content]) => {
+    const metaField = meta({
+      name,
+      content,
+    });
+    doc.head.append(metaField);
+  });
+}
+
 /**
  * Converts a given string to "kebab case" making all letters lowercase and replacing all
  * whitespaces with dashes.
@@ -424,10 +434,10 @@ function addColClasses(toUpdate, parentEl, breakpointsConfig) {
  */
 function getMetadataOverride(name, doc = document) {
   const attr = name.includes(':') && !name.startsWith('twitter:') ? 'property' : 'name';
-  const meta = [...doc.head.querySelectorAll(`meta[${attr}="${name}"]`)]
+  const metaElems = [...doc.head.querySelectorAll(`meta[${attr}="${name}"]`)]
     .map((m) => m.content)
     .join(', ');
-  return meta || '';
+  return metaElems || '';
 }
 
 export {

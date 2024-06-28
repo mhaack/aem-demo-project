@@ -3,6 +3,29 @@ import { getVersionList } from './utils.js';
 
 const encodeHTML = (str) => str.replace(/[\u00A0-\u9999<>&]/g, (i) => `&#${i.charCodeAt(0)};`);
 
+export function getLatestUrl(path, virtualVersion) {
+  if (virtualVersion === 'latest') {
+    return path;
+  }
+
+  return path.replace(`v${virtualVersion}/`, '');
+}
+
+export function getSitePlatform() {
+  const path = window.location.pathname;
+
+  if (path.includes('fiori-design-web')) {
+    return 'web';
+  }
+  if (path.includes('fiori-design-ios')) {
+    return 'ios';
+  }
+  if (path.includes('fiori-design-android')) {
+    return 'android';
+  }
+  return null;
+}
+
 /**
  * converts text with attributes to <span> elements with given attributes.
  * eg: [text]{color="red" class="highlight"} => <span color="red" class="highlight">text</span>

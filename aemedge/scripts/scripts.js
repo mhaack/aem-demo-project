@@ -31,6 +31,7 @@ const TEMPLATE_LIST = {
   'web-component': 'web-component',
   'versioned-page': 'versioned-page',
   'design-system-overview': 'design-system-overview',
+  'simple-overview': 'simple-overview',
 };
 
 /**
