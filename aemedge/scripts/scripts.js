@@ -501,6 +501,7 @@ async function initDataLayer() {
       url: window.location.href,
       referrer: document.referrer,
       title: document.querySelector('title').textContent.replace(/[\n\t]/gm, ''),
+      template: 'AEM EDS v1',
     },
     user: {
       type: 'visitor',
