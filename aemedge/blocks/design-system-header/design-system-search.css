@@ -145,10 +145,12 @@ input[type="search"]::-moz-search-cancel-button {
 [data-mq="xs"],
 [data-mq="s"],
 [data-mq="m"] {
-  .masthead-area-search {
-    & .search-form {
-      &[aria-expanded="true"] {
-        display: flex;
+  & .masthead-areas {
+    &[data-mobile-search="true"] {
+      & .masthead-area-search {
+        & .search-form {
+          display: flex;
+        }
       }
     }
   }

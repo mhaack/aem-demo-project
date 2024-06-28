@@ -211,7 +211,7 @@ html:has(.design-system) {
   }
 }
 
-/* XS */
+/* =XS */
 @media (width < 640px) {
   .design-system {
     & main {
@@ -222,7 +222,7 @@ html:has(.design-system) {
   }
 }
 
-/* S */
+/* =S */
 @media (width >= 640px) {
   .design-system {
     & main {
@@ -268,11 +268,12 @@ html:has(.design-system) {
   }
 }
 
-/* M */
+/* =M */
 @media (width >= 980px) {
   .design-system {
     & main {
       column-gap: var(--udexGridMGutters);
+      padding-inline: 128px var(--udexGridMargins);
 
       & h2 {
         font-size: var(--udexTypographyHeadingMediumMFontSize);
@@ -287,13 +288,6 @@ html:has(.design-system) {
       }
 
       & .section {
-        &:first-child {
-          & > div {
-            grid-column: 2 / 13;
-            margin-inline: unset;
-          }
-        }
-
         & .columns.columns-2-cols {
           &> div {
             grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -346,7 +340,7 @@ html:has(.design-system) {
         }
 
         &:not(:first-child) {
-          grid-column: 2 / 13;
+          /* grid-column: 2 / 13; */
         }
 
         &:nth-last-child(2):has(+ .design-system-toc-container) {
@@ -368,7 +362,7 @@ html:has(.design-system) {
   }
 }
 
-/* L */
+/* =L */
 @media (width >= 1280px) {
   .design-system {
     & main {
@@ -404,7 +398,7 @@ html:has(.design-system) {
   }
 }
 
-/* XL */
+/* =XL */
 @media (width >= 1600px) {
   .design-system {
     & main {
@@ -412,6 +406,7 @@ html:has(.design-system) {
       grid-template-columns: repeat(12, 1fr);
       margin-inline: auto;
       max-width: var(--udexGridXLMinWidth);
+      padding-inline: var(--udexGridMargins);
       position: relative;
 
       & .section {

@@ -62,7 +62,7 @@
       width: 100%;
     }
   }
-  
+
   div[slot="additionalContent"] {
     grid-row: 2 / 3;
 
@@ -89,7 +89,7 @@
           &:not(:last-child) {
             color: var(--sapShell_Category_15_Background);
           }
-          
+
           &:hover {
             cursor: pointer;
             text-decoration: underline;
@@ -107,7 +107,7 @@
       .last-updated-version {
         position: absolute;
         right: 0;
-  
+
         .dropdown {
           position: relative;
           min-width: 68px;
@@ -201,7 +201,7 @@
 
 }
 
-/* XS */
+/* =XS */
 @media (width < 640px) {
   .fiori-hero-banner {
     div[slot="additionalContent"] {
@@ -214,7 +214,7 @@
   }
 }
 
-/* S */
+/* =S */
 @media (width >= 640px) {
   .fiori-hero-banner {
     column-gap: var(--udexGridSGutters);
@@ -230,24 +230,28 @@
       .tags-container {
         display: block;
       }
-      
-      .dropdown{
+
+      .dropdown {
         width: 109px;
       }
     }
   }
 }
 
-/* M */
+/* =M */
 @media (width >= 980px) {
+  .design-system-hero-container {
+    margin-left: calc((128px) * -1) !important;
+  }
+
   .fiori-hero-banner {
     column-gap: var(--udexGridMGutters);
     height: 192px;
 
     div[slot="content"],
     div[slot="additionalContent"] {
-      grid-column: 2 / 13; /* Adjusting value as hero text not properly align */
-      padding: 0 var(--udexSpacer64);
+      grid-column: 1 / 13; /* Adjusting value as hero text not properly align */
+      padding: 0 var(--udexSpacer72) 0 128px;
     }
 
     div[slot="content"] > h1 {
@@ -256,13 +260,13 @@
   }
 }
 
-/* L */
+/* =L */
 @media (width >= 1280px) {
   .fiori-hero-banner {
     div[slot="content"],
     div[slot="additionalContent"] {
       grid-column: 1/13;
-      padding: 0 var(--udexSpacer72);
+      padding: 0 var(--udexSpacer72) 0 128px;
     }
 
     div[slot="content"] > h1 {
@@ -271,18 +275,22 @@
   }
 }
 
-/* XL */
+/* =XL */
 @media (width >= 1600px) {
+  .design-system-hero-container {
+    margin-left: calc(var(--udexGridMargins) * -1) !important;
+  }
+
   .fiori-hero-banner {
     picture[slot="backgroundPicture"] {
-      left: calc(-1 * (100vw - 1600px)/2);
+      left: calc(-1 * (100vw - 1600px) / 2);
     }
 
     div[slot="content"] > h1 {
       font-size: var(--udexTypographyHeadingRegularXXLFontSize);
     }
 
-    div[slot="content"] ,
+    div[slot="content"],
     div[slot="additionalContent"] {
       padding: 0 var(--udexSpacer84);
     }

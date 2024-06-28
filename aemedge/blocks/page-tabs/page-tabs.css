@@ -95,7 +95,7 @@ main {
       & .section {
         &:first-child {
           & > .page-tabs-wrapper {
-            grid-column: 2 / 13;
+            margin-inline: 128px var(--udexGridMargins);
           }
         }
       }
@@ -103,8 +103,6 @@ main {
   }
 
   .page-tabs {
-    margin-right: calc(var(--udexGridMargins));
-
     & li {
       & a {
         font-size: var(--udexTypographyNavigationRegularXLFontSize);
@@ -121,7 +119,7 @@ main {
         &:first-child {
           & > .page-tabs-wrapper {
             grid-column: 1 / 11;
-            padding-left: var(--udexSpacer72);
+            margin-right: unset;
           }
         }
       }
@@ -140,7 +138,7 @@ main {
       & .section {
         &:first-child {
           & > .page-tabs-wrapper {
-            padding-left: var(--udexSpacer84);
+            margin-left: var(--udexGridMargins);
           }
         }
       }

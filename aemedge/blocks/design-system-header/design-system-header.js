@@ -148,15 +148,16 @@ function resetDesignSystemMainNav() {
     mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
     mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
     mainNavElements.mainNavWrapper.style.display = 'none';
+    mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
+    mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
   } else {
     mainNavElements.mainNavWrapper.setAttribute('aria-expanded', 'false');
     mainNavElements.mainNavOverlay.setAttribute('aria-hidden', 'true');
     mainNavElements.mainNavWrapper.style.display = 'block';
-    mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
     mainNavElements.mastheadBrand.setAttribute('aria-hidden', 'false');
     mainNavElements.mastheadLandingZone.setAttribute('aria-hidden', 'false');
+    mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
     mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
-    mainNavElements.mastheadSearchForm.setAttribute('aria-expanded', 'false');
   }
 }
 
@@ -534,18 +535,16 @@ function generateExploreMenu(exploreZones) {
    * @param exploreNav {object} The explore navigation.
    */
   function handleCloseBtnState(menuBtn, closeBtn, exploreNav) {
-    const mastheadNav = exploreZones?.closest('.masthead-areas');
-    const mastheadLandingZone = mastheadNav?.querySelector('.masthead-area-landing-zone');
-    const mastheadExplore = mastheadNav?.querySelector('.masthead-area-explore');
-    const mastheadAreaExploreZones = mastheadExplore?.querySelector('.masthead-area-explore-zones');
-
     menuBtn.setAttribute('aria-expanded', 'false');
     menuBtn.setAttribute('aria-pressed', 'false');
     exploreNav.setAttribute('aria-expanded', 'false');
     closeBtn.style.display = 'none';
-    mastheadLandingZone.setAttribute('aria-hidden', 'false');
-    mastheadExplore.setAttribute('aria-expanded', 'false');
-    mastheadAreaExploreZones.setAttribute('aria-expanded', 'false');
+    mainNavElements.mastheadBrand.setAttribute('aria-hidden', 'false');
+    mainNavElements.mastheadLandingZone.setAttribute('aria-hidden', 'false');
+    mainNavElements.mastheadExplore.setAttribute('aria-expanded', 'false');
+    mainNavElements.mastheadExploreZones.setAttribute('aria-expanded', 'false');
+    mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
+    mainNavElements.mastheadAreas.setAttribute('data-explore-menu', 'false');
 
     Object.values(exploreAreaZones).forEach((zone) => {
       zone.removeAttribute('style');
@@ -571,6 +570,8 @@ function generateExploreMenu(exploreZones) {
       const mastheadAreas = exploreZones?.closest('.masthead-areas');
       const mastheadLandingZone = mastheadAreas?.querySelector('.masthead-area-landing-zone');
       const mastheadExplore = mastheadAreas?.querySelector('.masthead-area-explore');
+
+      mainNavElements.mastheadAreas.setAttribute('data-explore-menu', (!isPressed).toString());
 
       // Set masthead states
       if (
@@ -622,6 +623,10 @@ function generateExploreMenu(exploreZones) {
           handleCloseBtnState(menuBtn, closeBtn, exploreNav);
         }
       });
+
+      // Close the search form when the explore menu is opened
+      mainNavElements.mastheadAreas.setAttribute('data-mobile-search', 'false');
+      mainNavElements.mastheadExploreSearchButton.setAttribute('aria-pressed', 'false');
     },
   }, span({
     class: 'label',
@@ -705,17 +710,14 @@ function addExploreZone(mastheadExplore) {
     class: 'explore-search',
   }, button({
     'aria-label': 'Search',
+    'aria-pressed': 'false',
     class: 'masthead-btn explore-btn explore-search-btn',
     title: 'Search',
     type: 'button',
     onclick: (e) => {
       const isPressed = e.currentTarget.getAttribute('aria-pressed') === 'true';
       e.currentTarget.setAttribute('aria-pressed', (!isPressed).toString());
-      mainNavElements.mastheadSearch.setAttribute('aria-expanded', (!isPressed).toString());
-      mainNavElements.mastheadSearchForm.setAttribute('aria-expanded', (!isPressed).toString());
       mainNavElements.mastheadAreas.setAttribute('data-mobile-search', (!isPressed).toString());
-      mainNavElements.mastheadBrand.setAttribute('aria-hidden', (!isPressed).toString());
-      mainNavElements.mastheadLandingZone.setAttribute('aria-hidden', (!isPressed).toString());
     },
   }, span({
     class: 'label',
@@ -803,7 +805,11 @@ function generateMasthead(block) {
     'aria-label': 'Masthead Navigation',
   });
 
-  const mastheadAreas = div({ class: 'masthead-areas' });
+  const mastheadAreas = div({
+    class: 'masthead-areas',
+    'data-mobile-search': 'false',
+    'data-explore-menu': 'false',
+  });
 
   const mainNavButton = button({
     'aria-label': 'Open Main Navigation',
@@ -881,7 +887,7 @@ function addMediaQueryHandler() {
     } else if (mediaQueryLists.L.matches) {
       breakpoint = 'L';
       body.setAttribute('data-mobile', 'false');
-      body.setAttribute('data-mq', 'L');
+      body.setAttribute('data-mq', 'l');
     } else if (mediaQueryLists.M.matches) {
       breakpoint = 'M';
       body.setAttribute('data-mobile', 'false');
@@ -922,6 +928,7 @@ export default async function decorate(block) {
     mastheadSearch: block.querySelector(':scope .masthead-area-search'),
     mastheadSearchForm: block.querySelector(':scope .masthead-area-search .search-form'),
     mastheadExplore: block.querySelector(':scope .masthead-area-explore'),
+    mastheadExploreZones: block.querySelector(':scope .masthead-area-explore-zones'),
     mainNavButton: block.querySelector(':scope .masthead-area .main-nav-btn'),
     mastheadExploreSearchButton: block.querySelector(':scope .masthead-area .explore-search-btn'),
   };

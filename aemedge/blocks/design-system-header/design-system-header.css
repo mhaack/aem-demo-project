@@ -47,7 +47,6 @@
   grid-column: 1 / 13;
   height: var(--masthead-height);
   margin: 0;
-  padding-left: 8px !important;
   position: relative;
   width: 100%;
 }
@@ -759,10 +758,6 @@
 }
 
 [data-mobile="true"] {
-  .masthead-area-brand {
-    left: calc(var(--udexSpacer8) * -1);
-  }
-
   .masthead-area-explore {
     position: relative;
   }
@@ -778,19 +773,19 @@
 [data-mq="s"] {
   & .masthead-areas {
     &[data-mobile-search="true"] {
-      padding-left: 0 !important;
-    }
-  }
+      .masthead-area-brand {
+        display: none;
+      }
 
-  & .masthead-area-brand {
-    &[aria-hidden="true"] {
-      display: none;
+      .masthead-area-landing-zone {
+        display: none;
+      }
     }
-  }
 
-  & .masthead-area-landing-zone {
-    &[aria-hidden="true"] {
-      display: none;
+    &[data-explore-menu="true"] {
+      .masthead-area-landing-zone {
+        display: none;
+      }
     }
   }
 }
@@ -823,18 +818,6 @@
   .masthead-areas {
     --masthead-padding-inline: var(--masthead-padding-inline-s);
     --explore-nav-width: var(--explore-nav-width-s);
-
-    padding-left: 8px !important;
-  }
-
-  [data-mobile="true"] {
-    .masthead-area-brand {
-      left: calc(var(--udexGridSGutters) * -1);
-
-      & + .masthead-area-landing-zone {
-        left: calc(var(--udexGridSGutters) * -1);
-      }
-    }
   }
 
   .masthead-area-landing-zone {
@@ -955,6 +938,6 @@
     --masthead-padding-inline: var(--masthead-padding-inline-xl);
     --explore-nav-width: var(--explore-nav-width-xl);
 
-    grid-column: 1 / -1; /* Adjusting value as Nav is not properly align */
+    grid-column: 1 / -1; /* Adjusting value as nav is not properly align */
   }
 }
