@@ -157,7 +157,7 @@ function initConsentChecker() {
         });
       }
 
-      window.addEventListener('load',function () {
+      document.addEventListener('cc-initialized',function () {
         window.setTimeout(function () {
           if (isCookieBannerOpen()) {
             window.truste.util.createPreferenceFromCookieValue('0,1,2');
