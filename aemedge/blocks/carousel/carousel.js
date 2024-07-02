@@ -1,4 +1,22 @@
 import { decorateIcons, fetchPlaceholders } from '../../scripts/aem.js';
+import { mediaQueryLists } from '../../scripts/config-ds.js';
+
+function addCarouselMediaQueryHandler(block) {
+  const container = block.querySelector('.carousel-slides-container');
+  const rows = block.querySelectorAll('.carousel-slide');
+  function mediaQueryChangeHandler() {
+    const totalLength = rows[0].offsetWidth * rows.length;
+    const containerLength = container.offsetWidth;
+    if (totalLength <= containerLength) {
+      block.classList.add('carousel-no-scroll');
+    } else {
+      block.classList.remove('carousel-no-scroll');
+    }
+  }
+  Object.values(mediaQueryLists)
+    .forEach((mql) => mql.addEventListener('change', mediaQueryChangeHandler));
+  mediaQueryChangeHandler();
+}
 
 function updateActiveSlide(slide) {
   const block = slide.closest('.carousel');
@@ -184,5 +202,8 @@ export default async function decorate(block) {
   if (!isSingleSlide) {
     bindEvents(block);
   }
+
+  addCarouselMediaQueryHandler(block);
+
   decorateIcons(block);
 }

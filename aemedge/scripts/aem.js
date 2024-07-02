@@ -10,9 +10,6 @@
  * governing permissions and limitations under the License.
  */
 
-/* eslint-env browser */
-import { mediaQueryLists } from './config-ds.js';
-
 /**
  * log RUM if part of the sample.
  * @param {string} checkpoint identifies the checkpoint in funnel
@@ -741,23 +738,6 @@ async function waitForLCP(lcpBlocks) {
   });
 }
 
-function addCarouselMediaQueryHandler() {
-  const container = document.querySelector('.carousel-slides-container');
-  const rows = container.querySelectorAll('.carousel-slide');
-  function mediaQueryChangeHandler() {
-    const totalLength = rows[0].offsetWidth * rows.length;
-    const containerLength = container.offsetWidth;
-    if (totalLength <= containerLength) {
-      container.classList.add('carousel-no-scroll');
-    } else {
-      container.classList.remove('carousel-no-scroll');
-    }
-  }
-  Object.values(mediaQueryLists)
-    .forEach((mql) => mql.addEventListener('change', mediaQueryChangeHandler));
-  mediaQueryChangeHandler();
-}
-
 init();
 
 export {
@@ -786,5 +766,4 @@ export {
   updateSectionsStatus,
   waitForLCP,
   wrapTextNodes,
-  addCarouselMediaQueryHandler,
 };
