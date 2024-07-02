@@ -26,6 +26,14 @@ export function getSitePlatform() {
   return null;
 }
 
+export function getSiteHomePath() {
+  const platform = getSitePlatform();
+  if (!platform) {
+    return '/design-system/';
+  }
+  return `/design-system/fiori-design-${platform}/`;
+}
+
 /**
  * converts text with attributes to <span> elements with given attributes.
  * eg: [text]{color="red" class="highlight"} => <span color="red" class="highlight">text</span>

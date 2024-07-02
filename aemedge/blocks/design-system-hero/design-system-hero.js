@@ -12,7 +12,7 @@ import {
 } from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
 import { fioriWebRootUrl, getVersionList } from '../../scripts/utils.js';
-import { getLatestVersion } from '../../scripts/ds-scripts.js';
+import { getLatestVersion, getSiteHomePath } from '../../scripts/ds-scripts.js';
 
 async function addVersioningDropdown(currentVersion, breadcrumb) {
   const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
@@ -83,7 +83,8 @@ export default async function decorate(block) {
       const item = Object.assign(document.createElement('a'), { className: 'item' });
       if (itemText.trim() === 'Home') {
         item.innerHTML = itemText.trim();
-        item.setAttribute('href', '/topics/');
+        const siteHome = getSiteHomePath();
+        item.setAttribute('href', siteHome);
       } else {
         const separator = document.createElement('span');
         separator.innerHTML = ' / ';
