@@ -821,10 +821,6 @@
   }
 
   .masthead-area-landing-zone {
-    & .landing-zone-current-btn {
-      display: flex;
-    }
-
     & .landing-zone-part-label {
       display: flex;
     }
@@ -845,6 +841,12 @@
 @media (width >= 980px) {
   .design-system-masthead-nav {
     column-gap: var(--udexGridMGutters);
+  }
+
+  .masthead-area-landing-zone {
+    & .landing-zone-current-btn {
+      display: flex;
+    }
   }
 
   .masthead-areas {

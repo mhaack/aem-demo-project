@@ -182,7 +182,7 @@
       gap: 1rem;
       min-height: 327px;
       width:100%;
-      padding: 10px;
+      padding: 10px 0;
     }
     
     /* stylelint-disable-next-line no-descending-specificity */
@@ -194,7 +194,7 @@
       border-radius: var(--udexRadiusXL);
       border: 1px solid var(--udexColorGrey2);
       box-shadow: var(--sapContent_Shadow0);
-      scroll-snap-align: center;
+      scroll-snap-align: start;
       
       &:hover {
         background-color: white;
@@ -364,7 +364,7 @@
     .carousel {
       .carousel-slide {
         min-width: 248px;
-        flex: 0 0 50%;
+        flex: 1 0 40%;
       }
       /* stylelint-disable-next-line rule-empty-line-before */
       .carousel-slides {
@@ -463,7 +463,6 @@
       flex: 0 0 100%;
       height: auto;
       background-color: var(--udexColorBlue1);
-      border-radius: var(--udexRadiusL);
     }
 
     & .carousel-slide .carousel-slide-image {
@@ -483,6 +482,7 @@
       &.promo {
         & .carousel-slide {
           flex-direction: row;
+          align-items: center;
         }
       }
 
@@ -493,8 +493,15 @@
       /* stylelint-disable-next-line no-descending-specificity */
       .carousel-slide {
         min-width: 228px;
-        flex: 0 0 31%;
+        flex: 1 0 30%;
       }
     }
   }
-} 
+}
+
+.carousel:has( > .carousel-no-scroll) {
+  /* stylelint-disable-next-line no-descending-specificity */
+  nav {
+    display: none;
+  }
+}

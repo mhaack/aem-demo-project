@@ -138,7 +138,7 @@
 
   body:not(.hub-l2:has(aside)) .tiles:not(.elems9plus) > ul,
   body.hub-l2:has(aside) .tiles:not(.elems7, .elems8, .elems9plus) > ul{
-    row-gap: var(--udexSpacer48);
+    row-gap: var(--udexSpacer20);
 
     & > li .tile {
       display: block;

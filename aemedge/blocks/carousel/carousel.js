@@ -184,6 +184,5 @@ export default async function decorate(block) {
   if (!isSingleSlide) {
     bindEvents(block);
   }
-
   decorateIcons(block);
 }

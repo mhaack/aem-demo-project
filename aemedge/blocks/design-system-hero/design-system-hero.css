@@ -302,7 +302,35 @@
   }
 }
 
-.design-system-hero-landing-page-wrapper {
+.design-system-hero-container:has( > .home-page-style-wrapper) {
+  @media(width >= 980px) {
+    margin-inline: -128px var(--udexGridMargins) !important;
+  }
+
+  @media(width >= 1600px) {
+    margin-inline: calc(var(--udexGridMargins) * -1) !important;
+  }
+}
+
+.design-system-hero-home-page-wrapper {
+  & div[slot="content"] {
+    grid-row: 2 / 3;
+
+    @media(width >= 980px) {
+      grid-column: 1 / 11 !important;
+      grid-row: 3 / 4;
+      padding: 0 128px !important;
+    }
+
+    @media(width >= 1600px) {
+      grid-column: 2 / 9 !important;
+      padding: 72px !important;
+    }
+  }
+}
+
+.design-system-hero-landing-page-wrapper,
+.design-system-hero-home-page-wrapper {
   & .fiori-hero-banner {
     max-height: 450px;
     height: 100%;

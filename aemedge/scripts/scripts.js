@@ -15,6 +15,7 @@ import {
   sampleRUM,
   toCamelCase,
   toClassName,
+  addCarouselMediaQueryHandler,
 } from './aem.js';
 import {
   scheduleSolutionsLoad,
@@ -524,6 +525,7 @@ async function loadPage() {
   }
   await loadLazy(document);
   loadDelayed();
+  addCarouselMediaQueryHandler();
 }
 
 if (!window.hlx.suppressLoadPage) {
