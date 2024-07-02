@@ -440,6 +440,12 @@ function getMetadataOverride(name, doc = document) {
   return metaElems || '';
 }
 
+function capitalize(name) {
+  return toClassName(name)
+    .replace(/-(\w)/g, (_, letter) => letter.toUpperCase())
+    .replace(/^\w/, (firstLetter) => firstLetter.toUpperCase());
+}
+
 export {
   buildAuthorUrl,
   buildCardDisplayProfile,
@@ -460,6 +466,7 @@ export {
   lookupProfiles,
   toTitleCase,
   getMetadataOverride,
+  capitalize,
   addColClassesForCount,
   addColClasses,
   LIST_LAYOUT_CONFIG,

@@ -1,3 +1,5 @@
+/* stylelint-disable selector-class-pattern */
+
 .cards {
   & ul {
     margin: 0;
@@ -41,7 +43,6 @@
       & > .button-container:not(:last-child) {
         margin-block: 0 var(--udexSpacer12);
       }
-
     }
   }
 }
@@ -132,12 +133,24 @@
   object-fit: contain;
 }
 
-.cards.icons .cards-card-image img {
-  aspect-ratio: 1;
-  width: var(--udexSpacer48);
+
+.cards.icons .cards-card-image--has-background {
+  display: inline-block;
+  padding: var(--udexSpacer8);
+  border-radius: var(--udexRadiusM);
 
   @media (width >= 980px) {
-    width: var(--udexSpacer64);
+    padding: 13px;
+  }
+}
+
+.cards.icons .cards-card-image picture,
+.cards.icons .cards-card-image img {
+  aspect-ratio: 1;
+  width: var(--udexSpacer32);
+
+  @media (width >= 980px) {
+    width: var(--udexSpacer40);
   }
 }
 

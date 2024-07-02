@@ -1,9 +1,8 @@
-import { createOptimizedPicture, getMetadata } from '../../scripts/aem.js';
+import { createOptimizedPicture, getMetadata, toClassName } from '../../scripts/aem.js';
+import { div, domEl } from '../../scripts/dom-builder.js';
 import {
-  div,
-  domEl,
-} from '../../scripts/dom-builder.js';
-import { addColClasses, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2 } from '../../scripts/utils.js';
+  addColClasses, capitalize, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2,
+} from '../../scripts/utils.js';
 
 /**
  * Decorate Cards (colors) variant.
@@ -81,6 +80,7 @@ function decorateColorsVariant(block) {
 }
 
 export default function decorate(block) {
+  const styleProperties = getComputedStyle(document.body);
   /* change to ul, li */
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
@@ -90,6 +90,21 @@ export default function decorate(block) {
     [...cardDiv.children].forEach((childDiv) => {
       if (childDiv.children.length === 1 && childDiv.querySelector('picture')) {
         childDiv.className = 'cards-card-image';
+      } else if (childDiv.children.length === 2 && childDiv.querySelector('picture')) {
+        // remove wrapping <p> from <picture>
+        const pictureEl = childDiv.querySelector('picture');
+        const pictureElParent = pictureEl.parentElement;
+        pictureEl.parentElement.parentElement.insertBefore(pictureEl, pictureElParent);
+        pictureElParent.remove();
+
+        const backgroundColourTokenEl = childDiv.querySelector('p:nth-child(2)');
+        if (backgroundColourTokenEl && backgroundColourTokenEl.textContent) {
+          const backgroundColourToken = toClassName(backgroundColourTokenEl.textContent.trim());
+          const styleKey = `--udexColor${capitalize(backgroundColourToken.replace('background-', ''))}`;
+          childDiv.style.backgroundColor = styleProperties.getPropertyValue(styleKey);
+          childDiv.className = 'cards-card-image cards-card-image--has-background';
+          backgroundColourTokenEl.remove();
+        }
       } else {
         childDiv.className = 'cards-card-body';
       }
