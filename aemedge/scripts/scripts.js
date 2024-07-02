@@ -33,6 +33,7 @@ const TEMPLATE_LIST = {
   'design-system-overview': 'design-system-overview',
   'simple-overview': 'simple-overview',
   'landing-page': 'landing-page',
+  'ui-elements': 'ui-elements',
 };
 
 /**
