@@ -1,7 +1,7 @@
 import { getMetadata } from '../../scripts/aem.js';
 import {
   fetchAndStoreCountryCode,
-  getCountryCookieValue,
+  getCountryCode,
 } from './country.js';
 
 function getEnvType(hostname = window.location.hostname) {
@@ -28,7 +28,7 @@ function isCLEnabled() {
 }
 
 async function setCountry() {
-  if (!getCountryCookieValue()) {
+  if (!getCountryCode()) {
     await fetchAndStoreCountryCode();
   }
 }

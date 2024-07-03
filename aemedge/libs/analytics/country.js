@@ -3,9 +3,13 @@ const prodHostnames = [
   'sap.com',
 ];
 
-function getCountryCookieValue() {
+function getCountryCode() {
   const match = document.cookie.match('country=([^;]+)');
   return match && match[1] !== '(NULL)' ? match[1] : null;
+}
+
+function getRegionCode() {
+  return sessionStorage.getItem('regionCode');
 }
 
 function storeCountryCodeInCookie(countryCode) {
@@ -34,12 +38,16 @@ function storeCountryCodeInCookie(countryCode) {
 
 async function fetchAndStoreCountryCode() { // sync
   try {
-    const resp = await fetch(`https://${prodHostnames.includes(window.location.hostname) ? 'www.sap.com' : 'www-qa.sap.com'}/sap-session?fields=detectedCountry`);
+    const resp = await fetch(`https://${prodHostnames.includes(window.location.hostname) ? 'www.sap.com' : 'www-qa.sap.com'}/sap-session?fields=detectedCountry,detectedRegion`);
     if (resp.ok) {
       const json = await resp.json();
       const countryCode = json.detectedCountry;
+      const regionCode = json.detectedRegion;
       if (countryCode) {
         storeCountryCodeInCookie(countryCode.toUpperCase());
+      }
+      if (regionCode && regionCode !== '') {
+        sessionStorage.setItem('regionCode', regionCode);
       }
     }
   } catch (e) {
@@ -48,6 +56,7 @@ async function fetchAndStoreCountryCode() { // sync
 }
 
 export {
-  getCountryCookieValue,
+  getCountryCode,
+  getRegionCode,
   fetchAndStoreCountryCode,
 };

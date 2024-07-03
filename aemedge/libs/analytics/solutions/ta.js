@@ -1,3 +1,5 @@
+import { getCountryCode, getRegionCode } from '../country.js';
+
 const prodHostnames = [
   'www.sap.com',
   'sap.com',
@@ -11,11 +13,6 @@ function createConsentBlackBar() {
   document.body.appendChild(div);
 }
 
-function getCountryCode() {
-  const match = document.cookie.match('country=([^;]+)');
-  return match && match[1] !== '(NULL)' ? match[1] : null;
-}
-
 function loadTrustArcScript() {
   const { trustArcDiv } = window;
   let trustArcConsentDiv = 'teconsent';
@@ -25,8 +22,9 @@ function loadTrustArcScript() {
 
   const trustArcDomain = prodHostnames.includes(window.location.hostname) ? 'sap.com' : 'saptest.com';
   const countryParam = getCountryCode() ? `country=${getCountryCode()}&` : '';
+  const regionParam = getRegionCode() ? `state=${getRegionCode()}&` : '';
   const privacyPath = encodeURIComponent('https://www.sap.com/about/legal/privacy.html');
-  const trustArcScriptURL = `https://consent.trustarc.com/notice?domain=${trustArcDomain}&c=${trustArcConsentDiv}&gtm=1&pcookie&js=nj&noticeType=bb&pn=1-0&${countryParam}privacypolicylink=${privacyPath}&text=true`
+  const trustArcScriptURL = `https://consent.trustarc.com/notice?domain=${trustArcDomain}&c=${trustArcConsentDiv}&gtm=1&pcookie&js=nj&noticeType=bb&pn=1-0&${countryParam}${regionParam}privacypolicylink=${privacyPath}&text=true`
 
   const script = document.createElement('SCRIPT');
   script.async = true;
