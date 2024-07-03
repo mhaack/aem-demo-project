@@ -17,6 +17,10 @@ import {
   lookupProfiles,
   getContentTypeFromArticle,
   fetchAuthors,
+  addColClassesForCount,
+  LIST_LAYOUT_CONFIG_L2,
+  LIST_LAYOUT_CONFIG,
+  addColClasses,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
@@ -136,7 +140,7 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
     .paginate(batchSize, startPage);
 }
 
-function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel) {
+function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel, pageSize, totalCount) {
   const cards = articles.map((article) => {
     const authors = lookupProfiles(article.author, authorIndex);
     const displayAuthor = buildCardDisplayProfile(authors);
@@ -146,12 +150,20 @@ function renderCards(articles, placeholders, tags, authorIndex, textOnly, carous
     if (carousel) {
       return getPictureCard(article, placeholders, tags, displayAuthor).render(true);
     }
-    return getPictureCard(article, placeholders, tags, displayAuthor).render();
+    return getPictureCard(article, placeholders, tags, displayAuthor).render(pageSize === 1 || totalCount === 1);
   });
   if (carousel) {
     return new Carousel(cards).render();
   }
   return ul({ class: 'card-items' }, ...cards);
+}
+
+function addPaginationClasses(cardList, pageSize) {
+  if (getMetadata('template') === 'hub-l2') {
+    addColClassesForCount(cardList, pageSize, LIST_LAYOUT_CONFIG_L2);
+  } else {
+    addColClassesForCount(cardList, pageSize, LIST_LAYOUT_CONFIG);
+  }
 }
 
 function registerHandler(
@@ -173,7 +185,7 @@ function registerHandler(
     block.addEventListener(e, async () => {
       articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize);
       articleStream.next().then((cursor) => {
-        block.querySelector('.card-items').remove();
+        block.querySelector('.card-items')?.remove();
         const cards = renderCards(
           cursor.value.results,
           placeholders,
@@ -181,7 +193,12 @@ function registerHandler(
           authorIndex,
           textOnly,
           carousel,
+          pageSize,
+          cursor.value.total,
         );
+        if (cursor.value.pages > 1) {
+          addPaginationClasses(cards, pageSize);
+        }
         if (filters) filters.updateResults(block, cursor.value.total);
         block.append(cards);
         if (pages) pages.updatePages(cursor.value.pages, 1);
@@ -198,8 +215,13 @@ function registerHandler(
         authorIndex,
         textOnly,
         carousel,
+        pageSize,
+        cursor.value.total,
       );
       block.append(cards);
+      if (cursor.value.pages > 1) {
+        addPaginationClasses(cards, pageSize);
+      }
       if (pages) pages.updatePages(cursor.value.pages);
     });
   });
@@ -309,6 +331,8 @@ export default async function decorateBlock(block) {
   ];
   const articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, page, pageSize);
   const cursor = await articleStream.next();
+  const moreThanOnePage = cursor.value.pages > 1;
+
   const cardList = renderCards(
     cursor.value.results,
     placeholders,
@@ -316,6 +340,8 @@ export default async function decorateBlock(block) {
     authorIndex,
     textOnly,
     carousel,
+    pageSize,
+    cursor.value.total,
   );
 
   if (userConfig.length > 0 && !carousel) {
@@ -329,7 +355,7 @@ export default async function decorateBlock(block) {
     filters.updateResults(block, cursor.value.total);
   }
   block.append(cardList);
-  if (!carousel && cursor.value.pages > 1 && cursor.value.pages <= 2 && userConfig.length === 0) {
+  if (!carousel && moreThanOnePage && cursor.value.pages <= 2 && userConfig.length === 0) {
     const btnLabel = placeholders.showMore || 'Show More';
     const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', 'large').render();
     viewBtn.addEventListener('click', () => {
@@ -341,6 +367,8 @@ export default async function decorateBlock(block) {
           authorIndex,
           textOnly,
           carousel,
+          pageSize,
+          cursor.value.total,
         );
         Array.from(cards.children).forEach((card) => {
           cardList.append(card);
@@ -355,6 +383,15 @@ export default async function decorateBlock(block) {
   if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0)) {
     pages = new Pages(block, cursor.value.pages, page, id);
     pages.render();
+  }
+
+  // Apply column layout classes
+  if (!carousel && !textOnly && (moreThanOnePage || userConfig.length > 0)) {
+    addPaginationClasses(cardList, pageSize);
+  } else if (!carousel && !textOnly && getMetadata('template') === 'hub-l2') {
+    addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
+  } else if (!carousel && !textOnly) {
+    addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG);
   }
   registerHandler(
     block,

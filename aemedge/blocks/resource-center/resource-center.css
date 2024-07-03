@@ -28,7 +28,7 @@
 
   & ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+    grid-template-columns: repeat(1, 1fr);
     gap: var(--udexSpacer32) var(--udexGridGutters);
     list-style: none;
     margin: 0;
@@ -82,15 +82,53 @@
   }
 }
 
-body.hub-l2 .resource-center {
-  @media (width >= 980px) {
-    ul {
-      /* Restrict columns to 3 when sidebar is present, i.e. L2 pages */
-      grid-template-columns: repeat(3, 1fr);
+@media (width >= 640px) {
+  .resource-center:not(.carousel, .text-only) .card-items.col-s-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 980px) {
+  .resource-center:not(.carousel, .text-only) {
+    & .card-items.col-m-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    &.wide ul {
-      grid-template-columns: repeat(2, 1fr);
+    & .card-items.col-m-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+}
+
+/* L and XL - 3 or 4 per row */
+@media (width >= 1280px) {
+  .resource-center:not(.carousel, .text-only) {
+    & .card-items.col-l-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    & .card-items.col-l-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    & .card-items.col-l-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  :where(body.hub-l2:has(aside)) {
+    & .resource-center:not(.carousel, .text-only) .card-items {
+      &.col-l-2 {
+        grid-template-columns: repeat(9, minmax(0, 1fr));
+
+        & > * {
+          grid-column: 1 / 5;
+        }
+
+        & > *:nth-child(even) {
+          grid-column: 5 / 9;
+        }
+      }
     }
   }
 }
@@ -98,26 +136,6 @@ body.hub-l2 .resource-center {
 @container resource-center (240px < width < 480px) {
   .resource-center.text-only ul .card {
     grid-column: 1 / -1;
-  }
-}
-
-@container resource-center (width >= 640px) {
-  .resource-center ul {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .resource-center.wide ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@container resource-center (width >= 980px) {
-  .resource-center ul {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .resource-center.wide ul {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
