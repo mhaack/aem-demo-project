@@ -123,8 +123,8 @@
             gap: 4px;
             height: 30px;
             width: 100%;
-            padding-block: none;
-            padding-inline: none;
+            padding-block: unset;
+            padding-inline: unset;
             padding: 5px 10px;
             border: 1px solid var(--udexColorGrey7);
             border-radius: 8px;
@@ -135,16 +135,16 @@
             font-size: var(--udexTypographyBodyXSFontSize);
             font-weight: 500;
 
-            &:hover{
+            &:hover {
               background-color: var(--udexColorGrey2);
             }
 
-            &:active{
+            &:active {
               background-color: #fff;
               border: 1px solid var(--udexColorBlue9);
             }
 
-            &:disabled{
+            &:disabled {
               background-color: #fff;
               border: 1px solid var(--udexColorGrey7);
               opacity: 0.4;
@@ -154,16 +154,15 @@
               display: inline-block;
               font-size: var(--udexTypographyBodyXSFontSize);
               font-family: var(--sapFontFamily);
-            font-weight: 500;
+              font-weight: 500;
 
             }
 
             .lg-view {
               display: none;
               font-size: var(--udexTypographyBodyXSFontSize);
-            font-weight: 500;
-            font-family: var(--sapfontfamily);
-
+              font-weight: 500;
+              font-family: var(--sapFontFamily);
             }
 
             .icon {
@@ -203,7 +202,7 @@
 
                 &:hover {
                   background-color: var(--udexColorGrey1);
-    
+
                 }
 
                 &:active {
@@ -369,6 +368,9 @@
   }
 }
 
+/**
+ * =HERO Home Page
+ */
 .design-system-hero-home-page-wrapper {
   & div[slot="content"] {
     grid-row: 2 / 3;
@@ -384,10 +386,7 @@
       padding: 72px !important;
     }
   }
-}
 
-.design-system-hero-landing-page-wrapper,
-.design-system-hero-home-page-wrapper {
   & .fiori-hero-banner {
     max-height: 450px;
     height: 100%;
@@ -415,6 +414,54 @@
 
       @media (width >= 980px) {
         grid-row: 2 / 3;
+      }
+    }
+  }
+}
+
+/**
+ * =HERO Landing Page
+ */
+.design-system-hero-landing-page-wrapper {
+  & .fiori-hero-banner {
+    max-height: 450px;
+    height: 100%;
+
+    & div[slot="content"] {
+      grid-row: 2 / 3;
+    }
+
+    & div[slot="additionalContent"] {
+      grid-row: 1 / 2;
+    }
+  }
+}
+
+/* =M */
+@media (width >= 980px) {
+  .design-system-hero-landing-page-wrapper {
+    & .fiori-hero-banner {
+      & div[slot="content"] {
+        grid-column: 1 / 7;
+        grid-row: 3 / 4;
+        padding: 0 var(--udexSpacer72);
+      }
+
+      & div[slot="additionalContent"] {
+        grid-row: 2 / 3;
+      }
+    }
+  }
+}
+
+/* =XL */
+@media (width >= 1600px) {
+  .design-system-hero-landing-page-wrapper {
+    & .fiori-hero-banner {
+      & div[slot="content"] {
+        grid-column: 2 / 12;
+        margin-left: calc(var(--udexGridMGutters) * -1);
+        padding: 0 !important;
       }
     }
   }

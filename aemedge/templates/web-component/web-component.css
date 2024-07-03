@@ -306,7 +306,7 @@ html:has(.design-system) {
 
       & .section {
         & .columns.columns-2-cols {
-          &> div {
+          & > div {
             grid-template-columns: repeat(2, minmax(0, 1fr));
           }
 
@@ -317,7 +317,6 @@ html:has(.design-system) {
           &.columns-2-1 > div {
             grid-template-columns: 2fr 1fr;
           }
-
 
           &.columns-1-3 > div {
             grid-template-columns: 1fr 3fr;
@@ -379,7 +378,7 @@ html:has(.design-system) {
   }
 }
 
-@media(width >= 980px) {
+@media (width >= 980px) {
   .design-system.design-system-overview {
     & main {
       max-width: unset;
@@ -387,7 +386,7 @@ html:has(.design-system) {
         &:not(:first-child) {
           grid-column: 1 / 13;
 
-          @media(width >= 1600px) {
+          @media (width >= 1600px) {
             grid-column: 2 / 12;
           }
         }
@@ -478,23 +477,27 @@ html:has(.design-system) {
   }
 }
 
-/* Design System - Landing Page */
+/**
+ * Design System - Landing Page
+ */
 .design-system.landing-page {
   & main {
     .section {
       border: none;
     }
+
     & h2 {
       font-size: var(--udexTypographyHeadingMediumXSFontSize);
 
-      @media(width >= 1280px) {
+      @media (width >= 1280px) {
         font-size: var(--udexTypographyHeadingMediumMFontSize);
       }
     }
   }
 }
 
-@media(width >= 980px) {
+/* =M */
+@media (width >= 980px) {
   .design-system.landing-page {
     & main {
       padding: 0 var(--udexGridMargins);
@@ -502,10 +505,11 @@ html:has(.design-system) {
   }
 }
 
-@media(width >= 1600px) {
+/* =XL */
+@media (width >= 1600px) {
   .design-system.landing-page {
     & main {
-      max-width: 100%;
+      /* max-width: 100%; */
     }
   }
 }

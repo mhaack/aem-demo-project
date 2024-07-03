@@ -5,7 +5,7 @@
     margin-top: 24px !important;
   }
 
-  .columns {
+  & .columns {
     & > div {
       display: flex;
       flex-direction: column;
@@ -26,9 +26,57 @@
         & + p {
           font-size: var(--udexTypographyBodySFontSize);
         }
+      }
     }
   }
 
+  /* Desktop view (--udexGridMMinWidth) */
+  @media (width >= 980px) {
+    & .columns {
+      & > div {
+        flex-direction: unset;
+        gap: 32px;
+
+        & > div {
+          flex: 1;
+          order: unset;
+        }
+      }
+    }
+  }
+}
+
+.design-system {
+  & .columns.blue-links {
+    --sapLinkColorBlue: #0064D9;
+
+    & ul {
+      padding: 0;
+
+      & li {
+        list-style-type: none;
+      }
+    }
+
+    & a {
+      color: var(--sapLinkColorBlue);
+      text-decoration: none;
+    }
+  }
+}
+
+/**
+ * =ADVANTAGES CARDS
+ */
+/* stylelint-disable-next-line */
+.columns-wrapper {
+  /* stylelint-disable-next-line */
+  &.columns-advantages-cards-wrapper {
+    margin-top: 24px !important;
+  }
+
+  /* stylelint-disable-next-line */
+  & .columns {
     &.advantages-cards {
       & > div {
         gap: 48px;
@@ -38,14 +86,6 @@
         & > div {
           flex-basis: 100%;
           flex-grow: 0;
-
-          @media(width >= 640px) {
-            flex-basis: calc((100% - 96px) / 3);
-          }
-
-          @media(width >= 1280px) {
-            flex-basis: calc((100% - 192px) / 5);
-          }
         }
       }
 
@@ -81,20 +121,27 @@
       }
     }
   }
+}
 
-  /* Desktop view (--udexGridMMinWidth) */
-  @media (width >= 980px) {
+/* =S */
+@media (width >= 640px) {
+  .columns-wrapper {
     .columns {
-      & > div {
-        flex-direction: unset;
-        gap: 32px;
-
+      &.advantages-cards {
         & > div {
-          flex: 1;
-          order: unset;
+          & > div {
+            flex-basis: calc((100% - 96px) / 3);
+          }
         }
       }
+    }
+  }
+}
 
+/* =M */
+@media (width >= 980px) {
+  .columns-wrapper {
+    .columns {
       &.advantages-cards {
         & .icon {
           height: 4rem;
@@ -109,34 +156,19 @@
       }
     }
   }
-
-  .design-system {
-    & .columns.blue-links {
-      --sapLinkColorBlue: #0064D9;
-
-      & ul {
-        padding: 0;
-
-        & li {
-          list-style-type: none;
-        }
-      }
-
-      & a {
-        color: var(--sapLinkColorBlue);
-        text-decoration: none;
-      }
-    }
-  }
 }
 
-@media(width >= 980px) {
-  .section.columns-container:has(>.columns-advantages-cards-wrapper) {
-      grid-column: 1 / 13 !important;
-
-      @media(width >= 1600px) {
-        grid-column: 2 / 12 !important;
-        
+/* =L */
+@media (width >= 1280px) {
+  .columns-wrapper {
+    .columns {
+      &.advantages-cards {
+        & > div {
+          & > div {
+            flex-basis: calc((100% - 192px) / 5);
+          }
+        }
       }
+    }
   }
 }

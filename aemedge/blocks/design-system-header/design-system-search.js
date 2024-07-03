@@ -26,6 +26,7 @@ function getIconName(category) {
  */
 function buildSearchResults(resultsData) {
   const resultsContainer = document.querySelector('.search-form-results');
+  if (!resultsContainer) return;
   resultsContainer.innerHTML = '';
   let currentCategory = '';
   resultsData.forEach(({ title, path, category: categoryName }) => {
