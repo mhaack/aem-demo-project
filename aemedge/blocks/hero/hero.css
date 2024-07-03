@@ -28,20 +28,23 @@ udex-hero-banner {
   container-name: hero-wrapper;
   width: 100%;
 
+  --udexHeroBannerMinHeight: 0;
+  --hero-custom-image-height: auto;
   --udexHeroBannerBackgroundImageObjectFit: cover;
   --udexHeroBannerContentPaddingVertical: var(--udexSpacer40);
   --udexHeroBannerSlotMaxWidth: calc(100% - 2 * var(--udexHeroBannerContentPaddingHorizontal));
 
   &:has(.media-blend__additional-content) {
+    /* Corresponds to Media Blend Hero on Frontify */
     --udexHeroBannerContentPaddingVertical: 0;
     --udexHeroBannerSlotMaxWidth: calc(50% - 2 * var(--udexHeroBannerContentPaddingHorizontal));
 
     .media-blend__content {
-      padding-block-start: 40px;
+      padding-block-start: var(--udexSpacer32);
     }
 
     .media-blend__additional-content {
-      padding-block-end: 40px;
+      padding-block-end: var(--udexSpacer32);
     }
   }
 
@@ -55,10 +58,8 @@ udex-hero-banner {
 
 @media (width >= 640px) {
   udex-hero-banner {
-    --udexHeroBannerContentPaddingVertical: var(--udexSpacer40);
-
     &:has(.media-blend__additional-content) {
-      --udexHeroBannerContentPaddingVertical: var(--udexSpacer40);
+      --udexHeroBannerContentPaddingVertical: var(--udexSpacer32);
 
       .media-blend__content {
         padding-block-start: 0;
@@ -75,6 +76,10 @@ udex-hero-banner {
   udex-hero-banner {
     --udexHeroBannerContentPaddingVertical: var(--udexSpacer48);
 
+    &:has(.media-blend__additional-content) {
+      --udexHeroBannerContentPaddingVertical: var(--udexSpacer56);
+    }
+
     /* Calculating the width of 8 columns */
     --udexHeroBannerSlotMaxWidth: calc(((((100% - var(--hero-margin--right) - var(--hero-margin--left)) / 12) * 8) + var(--hero-margin--left)) - (var(--udexGridGutters)));
   }
@@ -86,9 +91,13 @@ udex-hero-banner {
   }
 }
 
-@media (width >= 1600px) {
+@media (width >= 1280px) {
   udex-hero-banner {
     --udexHeroBannerContentPaddingVertical: var(--udexSpacer56);
+
+    &:has(.media-blend__additional-content) {
+      --udexHeroBannerContentPaddingVertical: var(--udexSpacer56);
+    }
   }
 }
 
@@ -208,17 +217,12 @@ udex-hero-banner .hero-banner.media-blend__content {
 }
 
 udex-hero-banner .hero-banner.media-blend__content .media-blend__intro-text {
-  font-family: var(--sapFontFamily);
+  color: var(--udexColorGrey6, #5b738b);
   font-size: var(--udexTypographyEyebrowMFontSize, 14px);
   font-weight: var(--udexTypographyFontWeightMedium);
-  text-transform: uppercase;
-  color: var(--udexColorGrey6, #5b738b);
-  text-decoration: none;
   margin-block-end: var(--udexSpacer8);
-
-  @media (width >= 640px) {
-    margin-block-end: var(--udexSpacer12);
-  }
+  text-decoration: none;
+  text-transform: uppercase;
 
   a {
     color: inherit;
@@ -303,6 +307,10 @@ udex-hero-banner .hero-banner .media-blend__info-block span:last-of-type::after 
   content: '';
 }
 
+udex-hero-banner .hero-banner .media-blend__tags .tag {
+  font-size: var(--udexTypographyBodyXXSFontSize);
+}
+
 udex-hero-banner .media-blend__buttons {
   display: flex;
   flex-wrap: wrap;
@@ -335,7 +343,7 @@ udex-hero-banner .custom-background-image {
   }
 
   udex-hero-banner picture:has(.custom-background-image) {
-    height: var(--udexHeroBannerMinHeight);
+    height: var(--hero-custom-image-height);
     width: 50%;
   }
 }
@@ -391,13 +399,25 @@ udex-hero-banner .text-neutral-black {
   color: var(--udexColorNeutralBlack);
 }
 
+.hero-wrapper.fixed-height-small-style-wrapper udex-hero-banner,
+.hero-wrapper.fixed-height-large-style-wrapper udex-hero-banner {
+  --udexHeroBannerContentPaddingVertical: var(--udexSpacer48);
+}
+
 @media (width >= 980px) {
+  .hero-wrapper.fixed-height-small-style-wrapper udex-hero-banner,
+  .hero-wrapper.fixed-height-large-style-wrapper udex-hero-banner {
+    --udexHeroBannerContentPaddingVertical: var(--udexSpacer56);
+  }
+
   .hero-wrapper.fixed-height-large-style-wrapper udex-hero-banner {
     --udexHeroBannerMinHeight: 550px;
+    --hero-custom-image-height: var(--udexHeroBannerMinHeight);
   }
 
   .hero-wrapper.fixed-height-small-style-wrapper udex-hero-banner {
     --udexHeroBannerMinHeight: 450px;
+    --hero-custom-image-height: var(--udexHeroBannerMinHeight);
   }
 }
 
