@@ -133,8 +133,7 @@ function createToc(dataName, h2s, block) {
  * Retrieves the current hash value from the URL.
  * @returns {string} The current hash value.
  */
-function getCurrentHash(block) {
-  const main = block.closest('main');
+function getCurrentHash(main) {
   const sections = main.querySelectorAll('.section[data-name]');
   const dataNames = getDataNames(sections);
   const tocLists = createDsTocList(dataNames, main);
@@ -159,8 +158,8 @@ function getCurrentHash(block) {
   return currentHash;
 }
 
-function updateToc(block, lists) {
-  const currentHash = getCurrentHash(block);
+function updateToc(lists, main) {
+  const currentHash = getCurrentHash(main);
 
   lists.forEach((list) => {
     const listDataName = list.getAttribute('data-toc-list');
@@ -183,12 +182,12 @@ function updateToc(block, lists) {
  * data-toc-list attribute.
  * @param block The block element
  */
-function initTocList(block) {
+function initTocList(block, main) {
   const lists = block.querySelectorAll('.ds-toc-list');
-  updateToc(block, lists);
+  updateToc(lists, main);
 
   window.addEventListener('hashchange', () => {
-    updateToc(block, lists);
+    updateToc(lists);
   });
 }
 

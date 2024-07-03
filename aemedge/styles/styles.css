@@ -275,7 +275,7 @@ a {
 }
 
 [aria-hidden="true"] {
-  display: none !important;
+  display: none;
 }
 
 main .button-container {
