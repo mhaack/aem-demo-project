@@ -195,11 +195,13 @@ function decorateImageLinks(main) {
  * Decorates external links to make them open in new browser window.
  * @param {HTMLElement} main - The container element to search for links.
  */
-function decorateExternalLinks(main) {
+export function decorateExternalLinks(main) {
   main.querySelectorAll('a').forEach((link) => {
     const isPdfLink = link.href?.includes('.pdf');
-    const isExternalLink = !link.href?.startsWith(window.location.origin);
+    const url = new URL(link.href);
+    const isExternalLink = !link.href?.startsWith(window.location.origin) && !url.hostname?.endsWith('.sap.com');
     if (isExternalLink || isPdfLink) {
+      link.classList.add('external-link');
       link.rel = 'noopener noreferrer';
       link.target = '_blank';
     }

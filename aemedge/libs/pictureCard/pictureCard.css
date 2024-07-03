@@ -134,7 +134,7 @@
         display: none;
       }
 
-      & .external-link {
+      & .card-external-link {
         color: var(--udexColorBlue7);
         display: inline-flex;
         align-items: center;

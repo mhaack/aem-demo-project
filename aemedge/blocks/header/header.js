@@ -1,5 +1,5 @@
 import { getMetadata, decorateIcons, loadCSS } from '../../scripts/aem.js';
-import { loadFragment } from '../../scripts/scripts.js';
+import { loadFragment, decorateExternalLinks } from '../../scripts/scripts.js';
 import {
   div, span, p, button, a, nav as navBuilder, hr,
 } from '../../scripts/dom-builder.js';
@@ -215,7 +215,10 @@ function decorateListItem(nav, listItem, parents = []) {
     });
   } else if (listItem.textContent === '---') {
     listItem.parentElement?.replaceChild(hr({ class: 'nav__separator' }), listItem);
+  } else {
+    wrapLinkTextNodeInSpan(listItem.querySelector('a'));
   }
+  decorateExternalLinks(listItem);
   return listItem;
 }
 

@@ -39,6 +39,20 @@ header {
     }
   }
 
+  & li a.external-link {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  & li a.external-link:first-child::after {
+    background-color: currentcolor;
+    content: "";
+    height: 14px;
+    margin-inline-start: var(--udexSpacer4);
+    mask: url("/aemedge/icons/action.svg") center / 14px no-repeat;
+    width: 14px;
+  }
+
   & li :is(a, .text) {
     cursor: pointer;
     display: flex;
