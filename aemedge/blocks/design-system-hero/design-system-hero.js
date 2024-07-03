@@ -15,7 +15,17 @@ import { fioriWebRootUrl, getVersionList } from '../../scripts/utils.js';
 import { getLatestVersion, getSiteHomePath } from '../../scripts/ds-scripts.js';
 
 async function addVersioningDropdown(currentVersion, breadcrumb) {
-  const dropdownArrowDown = span({ class: 'icon icon-slim-arrow-right-blue' });
+  const dropdownArrowDown = span(
+    {
+      class: 'icon icon-slim-arrow-right-blue',
+      onclick: (e) => {
+        const options = e.target.closest('.dropdown');
+        if (options) {
+          options.classList.toggle('open');
+        }
+      },
+    },
+  );
   let versionSelectorTarget = currentVersion;
   if (currentVersion === 'latest') {
     versionSelectorTarget = await getLatestVersion();
@@ -31,6 +41,8 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
         }
       },
     },
+    span({ class: 's-view' }, 'v'),
+    span({ class: 'lg-view' }, 'Version'),
     versionSelectorTarget,
     dropdownArrowDown,
   );
@@ -149,4 +161,11 @@ export default async function decorate(block) {
   );
 
   block.replaceWith(hero);
+  const dropB = document.querySelector('.dropdown-btn');
+  const dropM = document.querySelector('.dropdown');
+  document.addEventListener('mousedown', (event) => {
+    if (!dropM.contains(event.target) && !dropB.contains(event.target)) {
+      dropM.classList.remove('open');
+    }
+  });
 }
