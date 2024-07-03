@@ -36,13 +36,13 @@
 }
 
 @media (width >= 640px) {
-  .resource-center:not(.carousel, .text-only) .card-items.col-s-2 {
+  .resource-center:not(.carousel, .text-only, .horizontal) .card-items.col-s-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (width >= 980px) {
-  .resource-center:not(.carousel, .text-only) {
+  .resource-center:not(.carousel, .text-only, .horizontal) {
     & .card-items.col-m-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -65,7 +65,7 @@
 
 /* L and XL - 3 or 4 per row */
 @media (width >= 1280px) {
-  .resource-center:not(.carousel, .text-only) {
+  .resource-center:not(.carousel, .text-only, .horizontal) {
     & .card-items.col-l-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -81,7 +81,7 @@
 
   :where(body.hub-l2:has(aside)) {
     & .resource-center.text-only .card-items,
-    & .resource-center:not(.carousel, .text-only) .card-items.col-l-2 {
+    & .resource-center:not(.carousel, .text-only, .horizontal) .card-items.col-l-2 {
       grid-template-columns: repeat(9, minmax(0, 1fr));
 
       & > * {

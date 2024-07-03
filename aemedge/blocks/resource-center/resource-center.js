@@ -140,7 +140,7 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
     .paginate(batchSize, startPage);
 }
 
-function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel, pageSize, totalCount) {
+function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel, pageSize, totalCount, horizontal) {
   const cards = articles.map((article) => {
     const authors = lookupProfiles(article.author, authorIndex);
     const displayAuthor = buildCardDisplayProfile(authors);
@@ -150,7 +150,7 @@ function renderCards(articles, placeholders, tags, authorIndex, textOnly, carous
     if (carousel) {
       return getPictureCard(article, placeholders, tags, displayAuthor).render(true);
     }
-    return getPictureCard(article, placeholders, tags, displayAuthor).render(pageSize === 1 || totalCount === 1);
+    return getPictureCard(article, placeholders, tags, displayAuthor).render(pageSize === 1 || totalCount === 1 || horizontal);
   });
   if (carousel) {
     return new Carousel(cards).render();
@@ -180,6 +180,7 @@ function registerHandler(
   nonFilterParams,
   id,
   pageSize,
+  horizontal,
 ) {
   ['sap:itemSelect', 'sap:itemClose'].forEach((e) => {
     block.addEventListener(e, async () => {
@@ -195,6 +196,7 @@ function registerHandler(
           carousel,
           pageSize,
           cursor.value.total,
+          horizontal,
         );
         if (cursor.value.pages > 1) {
           addPaginationClasses(cards, pageSize);
@@ -217,6 +219,7 @@ function registerHandler(
         carousel,
         pageSize,
         cursor.value.total,
+        horizontal,
       );
       block.append(cards);
       if (cursor.value.pages > 1) {
@@ -313,6 +316,7 @@ export default async function decorateBlock(block) {
   const id = getBlockId();
   const textOnly = block.classList.contains('text-only');
   const carousel = block.classList.contains('carousel');
+  const horizontal = block.classList.contains('horizontal');
   const tags = await fetchTagList();
   const { editorConfig, userConfig } = getFilterConfig(block, tags, id);
   block.textContent = '';
@@ -342,6 +346,7 @@ export default async function decorateBlock(block) {
     carousel,
     pageSize,
     cursor.value.total,
+    horizontal,
   );
 
   if (userConfig.length > 0 && !carousel) {
@@ -386,7 +391,7 @@ export default async function decorateBlock(block) {
   }
 
   // Apply column layout classes
-  if (!carousel && !textOnly && (moreThanOnePage || userConfig.length > 0)) {
+  if (!carousel && !textOnly && !horizontal && (moreThanOnePage || userConfig.length > 0)) {
     addPaginationClasses(cardList, pageSize);
   } else if (!carousel && !textOnly && getMetadata('template') === 'hub-l2') {
     addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
@@ -407,5 +412,6 @@ export default async function decorateBlock(block) {
     nonFilterParams,
     id,
     pageSize,
+    horizontal,
   );
 }
