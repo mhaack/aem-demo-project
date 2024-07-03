@@ -465,7 +465,7 @@ function loadDelayed() {
 }
 
 async function scheduleAdobeDCLoad() {
-  window.setTimeout(() => import('../libs/analytics/adobedc.js'), 3200);
+  window.setTimeout(() => import('../libs/analytics/adobedc.js'), 100);
 }
 
 function dispatchDLEvent(event) {
