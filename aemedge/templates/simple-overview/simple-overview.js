@@ -132,7 +132,7 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
   }, {}));
 
   if (sectionObjects.length === 0 && !overviewSectionPage) {
-    sectionObjects.push(new Section(overviewPageInfoRelativePath, '', firstLevelPages));
+    sectionObjects.push(new Section(overviewPageInfoRelativePath, '', firstLevelPages, pageTitle));
   } else {
     sectionObjects.push(...firstLevelPages.map((pageInfo) => {
       const startRelativePath = pageInfo.latestUrl.indexOf(overviewPageInfoRelativePath);
