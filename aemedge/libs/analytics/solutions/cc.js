@@ -1,3 +1,5 @@
+import { getCountryCode } from '../country.js';
+
 const settings = {
   'prodHostnames': [
     'www.sap.com',
@@ -7,8 +9,8 @@ const settings = {
 
 function initConsentChecker() {
   if (!window.isConsentEnabled) {
-    function getCountryCode(countryCode, isDebug) {
-      var countryCodeFromPath = countryCode ? countryCode : getCountryCodeFromCookie(isDebug);
+    function resolveCountryCode(countryCode, isDebug) {
+      var countryCodeFromPath = countryCode ? countryCode : getCountryCode();
       var host = getHostname();
       var isSapCom = getIsSapCom(host);
       var isCn = getIsCn(host);
@@ -108,26 +110,21 @@ function initConsentChecker() {
       return countryCodeFromPath;
     }
 
-    function getCountryCodeFromCookie(isDebug) {
-      var match = document.cookie.match('country=([^;]+)');
-      return match && match[1] !== '(NULL)' ? match[1] : null;
-    }
-
     // function getCountryCodeByGeolocation is superseded by fetchAndStoreCountryCode (see country.js)
 
     function isCPRA() {
-      var CPRA_COUNTRIES = {'US': 1, 'BR': 1, 'MA': 1, 'RS': 1, 'SG': 1, 'ZA': 1};
-      var countryCode = getCountryCode();
+      var CPRA_COUNTRIES = {'US': 1, 'MA': 1, 'MX': 1, 'RS': 1, 'SG': 1, 'ZA': 1};
+      var countryCode = resolveCountryCode();
 
       return countryCode in CPRA_COUNTRIES;
     }
 
     function isZeroConsentCountry(countryCode) {
       var ZERO_CONSENT_COUNTRIES = {
-        'AE': 1, 'AT': 1, 'AX': 1, 'AZ': 1, 'BE': 1, 'BG': 1, 'BL': 1, 'BR': 1, 'CA': 1, 'CH': 1, 'CO': 1, 'CY': 1, 'CZ': 1,
+        'AE': 1, 'AR': 1, 'AT': 1, 'AX': 1, 'AZ': 1, 'BE': 1, 'BG': 1, 'BL': 1, 'BR': 1, 'CA': 1, 'CH': 1, 'CO': 1, 'CR': 1, 'CY': 1, 'CZ': 1,
         'DE': 1, 'DK': 1, 'EE': 1, 'ES': 1, 'FI': 1, 'FR': 1, 'GB': 1, 'GF': 1, 'GP': 1, 'GR': 1, 'HR': 1, 'HU': 1,
         'IE': 1, 'IL': 1, 'IS': 1, 'IT': 1, 'JP': 1, 'KE': 1, 'KR': 1, 'LI': 1, 'LT': 1, 'LU': 1, 'LV': 1, 'MA': 1,
-        'MF': 1, 'MQ': 1, 'MT': 1, 'MX': 1, 'MY': 1, 'NG': 1, 'NL': 1, 'NO': 1, 'PH': 1, 'PL': 1, 'PT': 1, 'QA': 1,
+        'MF': 1, 'MQ': 1, 'MT': 1, 'MX': 1, 'MY': 1, 'NG': 1, 'NL': 1, 'NO': 1, 'PA': 1, 'PE': 1, 'PH': 1, 'PL': 1, 'PT': 1, 'QA': 1,
         'RE': 1, 'RO': 1, 'RS': 1, 'SA': 1, 'SE': 1, 'SG': 1, 'SI': 1, 'SK': 1, 'TF': 1, 'TH': 1, 'TR': 1, 'US': 1,
         'VN': 1, 'ZA': 1, '(NULL)': 1
       };
@@ -178,16 +175,16 @@ function initConsentChecker() {
     window.isConsentEnabled = (function (cookie, trustArcPreferenceCookie, storageString, countryCode, isDebug) {
       countryCode = (countryCode || "").toUpperCase();
       window.isUserFromChina = countryCode === 'CN';
-      countryCode = getCountryCode(countryCode, isDebug);
+      countryCode = resolveCountryCode(countryCode, isDebug);
       trustArcPreferenceCookie = trustArcPreferenceCookie || '';
       var hasTrustArcLocationCookie = countryCode || cookie && cookie.match(/\bnotice_behavior=/);
       var isTrustArcUserFromZeroConsentCountry = countryCode
         ? (countryCode.indexOf('NULL') !== -1 || isZeroConsentCountry(countryCode))
         : (!cookie || cookie.match(/\bnotice_behavior=\bexpressed\b/));
       var trustArcStorageKeys = ['Required Cookies', 'Functional Cookies', 'Advertising Cookies'];
-      var trustArcNoDomainExists = -1;
-      var trustArcOptedOut = 0;
-      var trustArcOptedIn = 1;
+      const trustArcNoDomainExists = -1;
+      const trustArcOptedOut = 0;
+      const trustArcOptedIn = 1;
       var trustArcStorage;
 
       try {
@@ -198,12 +195,12 @@ function initConsentChecker() {
       }
 
       function getGranularTrustArcPermission(domain, allowedRuleLevel) {
-        if (!trustArcStorage || allowedRuleLevel < 0 || allowedRuleLevel >= trustArcStorageKeys.length)
+        if (!trustArcStorage || !allowedRuleLevel || allowedRuleLevel < 0 || allowedRuleLevel >= trustArcStorageKeys.length)
           return trustArcNoDomainExists;
 
         var optout_domains;
         for (var category in trustArcStorage) {
-          if (trustArcStorage[category].value === allowedRuleLevel) {
+          if (trustArcStorage[category].value === allowedRuleLevel.toString()) {
             optout_domains = trustArcStorage[category].domains;
             break;
           }
