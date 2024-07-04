@@ -15,13 +15,18 @@ function comparePathPriority(order, pathA, pathB) {
 class Section {
   prefix;
 
+  relativePath;
+
   title;
+
+  subtitle;
 
   pagesInfo = [];
 
-  constructor(relativePath, title, pagesInfo = []) {
+  constructor(relativePath, title, pagesInfo = [], subtitle = null) {
     this.relativePath = `/${relativePath}/`;
     this.title = title;
+    this.subtitle = subtitle || title;
     this.pagesInfo = pagesInfo;
   }
 
@@ -38,7 +43,7 @@ class Section {
 
     const tiles = buildBlock('tiles', this.pagesInfo.map((pageInfo) => [
       div(
-        p(this.title),
+        p(this.subtitle),
         aElem({ href: pageInfo.path }, p(pageInfo.title)),
         p(pageInfo['intro-desc']),
       ),
@@ -116,7 +121,8 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
 
     let accElem = acc[title];
     if (!accElem) {
-      accElem = new Section(pageInfo.pathParts.slice(breadcrumbsElementNumber, breadcrumbsElementNumber + overviewAbsolutePathParts.length - 1).join('/'), title);
+      const relativePath = pageInfo.pathParts.slice(breadcrumbsElementNumber, breadcrumbsElementNumber + overviewAbsolutePathParts.length - 1).join('/');
+      accElem = new Section(relativePath, title);
       acc[title] = accElem;
     }
 
@@ -131,7 +137,7 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
     sectionObjects.push(...firstLevelPages.map((pageInfo) => {
       const startRelativePath = pageInfo.latestUrl.indexOf(overviewPageInfoRelativePath);
       const relativePath = pageInfo.latestUrl.substring(startRelativePath);
-      return new Section(relativePath, pageInfo.title, [pageInfo]);
+      return new Section(relativePath, pageInfo.title, [pageInfo], pageTitle);
     }));
   }
 
