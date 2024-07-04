@@ -4,7 +4,7 @@ import {
 import { buildBlock, loadCSS } from '../../scripts/aem.js';
 import { addMetadata, fioriWebRootUrl, redirectTo404 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
-import { getLatestUrl, getSitePlatform } from '../../scripts/ds-scripts.js';
+import { getSitePlatform } from '../../scripts/ds-scripts.js';
 
 function comparePathPriority(order, pathA, pathB) {
   const aPriority = order.find((o) => o.path === pathA)?.priority || 0;
@@ -61,12 +61,8 @@ class Section {
   }
 }
 
-function getPathParts(path) {
+export function getPathParts(path) {
   return path.split('/').filter((part) => part !== '');
-}
-
-export function getVersionedPathParts(path, virtualVersion) {
-  return getPathParts(getLatestUrl(path, virtualVersion));
 }
 
 // eslint-disable-next-line max-len
@@ -76,7 +72,6 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
     .filter((pageInfo) => pageInfo.breadcrumbs !== '');
   const overviewPageInfoRelativePath = overviewPageInfo.path;
   const overviewPageInfoOverviewPage = overviewPageInfo.overview;
-  const fioriParts = getVersionedPathParts(fioriWebRootUrl, '');
 
   // eslint-disable-next-line max-len
   const [firstLevelPages, otherSectionPages] = pagesInfo.reduce(([firstSection, sections], pageInfo) => {
@@ -112,7 +107,8 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
   loadCSS(`${window.hlx.codeBasePath}/templates/web-component/web-component.css`);
   loadCSS(`${window.hlx.codeBasePath}/styles/design-system/overview.css`);
 
-  const breadcrumbsElementNumber = overviewAbsolutePathParts.length - fioriParts.length;
+  const fioriPartsLength = getPathParts(fioriWebRootUrl, '').length;
+  const breadcrumbsElementNumber = overviewAbsolutePathParts.length - fioriPartsLength;
   const sectionObjects = Object.values(otherSectionPages.reduce((acc, pageInfo) => {
     const title = pageInfo.breadcrumbs
       .split('/')

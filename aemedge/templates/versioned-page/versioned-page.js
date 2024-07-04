@@ -5,7 +5,11 @@ import {
 } from '../../scripts/utils.js';
 import { getMetadata } from '../../scripts/aem.js';
 import { getLatestUrl } from '../../scripts/ds-scripts.js';
-import { getVersionedPathParts, renderOverviewPage } from '../simple-overview/simple-overview.js';
+import { getPathParts, renderOverviewPage } from '../simple-overview/simple-overview.js';
+
+function getVersionedPathParts(path, virtualVersion) {
+  return getPathParts(getLatestUrl(path, virtualVersion));
+}
 
 function correctUrlVersion(path, virtualVersion, sourceVersion) {
   if (virtualVersion === 'latest') {

@@ -301,11 +301,20 @@
 
               /* Text */
               /* stylelint-disable-next-line */
-              & p {
+              & > p {
                 color: var(--sapTextColor);
                 font-size: var(--udexTypographyBodyXSFontSize);
                 font-weight: var(--udexTypographyFontWeightRegular);
                 line-height: var(--udexTypographyBodyLineHeight);
+              }
+
+              /* stylelint-disable-next-line */
+              & > p:last-child {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                overflow: hidden;
               }
             }
           }
