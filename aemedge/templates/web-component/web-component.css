@@ -12,6 +12,7 @@ html:has(.design-system) {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto !important;
   height: 100%;
+  overflow-x: hidden; /* get rid of `100vw` horizontal scrollbar */
   position: relative;
 
   > header {
@@ -378,23 +379,6 @@ html:has(.design-system) {
   }
 }
 
-@media (width >= 980px) {
-  .design-system.design-system-overview {
-    & main {
-      max-width: unset;
-      & .section {
-        &:not(:first-child) {
-          grid-column: 1 / 13;
-
-          @media (width >= 1600px) {
-            grid-column: 2 / 12;
-          }
-        }
-      }
-    }
-  }
-}
-
 /* =L */
 @media (width >= 1280px) {
   .design-system {
@@ -478,7 +462,22 @@ html:has(.design-system) {
 }
 
 /**
- * Design System - Landing Page
+ * =OVERVIEWPAGE
+ */
+@media (width >= 980px) {
+  .design-system.design-system-overview {
+    & main {
+      & .section {
+        &:not(:first-child) {
+          grid-column: 1 / 13;
+        }
+      }
+    }
+  }
+}
+
+/**
+ * =LANDINGPAGE
  */
 .design-system.landing-page {
   & main {
@@ -488,10 +487,6 @@ html:has(.design-system) {
 
     & h2 {
       font-size: var(--udexTypographyHeadingMediumXSFontSize);
-
-      @media (width >= 1280px) {
-        font-size: var(--udexTypographyHeadingMediumMFontSize);
-      }
     }
   }
 }
@@ -505,11 +500,13 @@ html:has(.design-system) {
   }
 }
 
-/* =XL */
-@media (width >= 1600px) {
+/* =L */
+@media (width >= 1280px) {
   .design-system.landing-page {
     & main {
-      /* max-width: 100%; */
+      & h2 {
+        font-size: var(--udexTypographyHeadingMediumMFontSize);
+      }
     }
   }
 }

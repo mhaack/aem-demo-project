@@ -127,3 +127,38 @@
     }
   }
 }
+
+/* =OVERVIEWPAGE */
+/* =M */
+@media (width >= 980px) {
+  .design-system-overview {
+    & .design-guidelines-container {
+      margin-inline: -128px calc(var(--udexGridMargins) * -1);
+
+      & > div {
+        margin-inline: 128px calc(var(--udexGridMargins));
+      }
+    }
+  }
+}
+
+/* =XL */
+@media (width >= 1600px) {
+  .design-system-overview {
+    & .design-guidelines-container {
+      grid-column: 1 / -1;
+      left: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      position: relative;
+      right: 50%;
+      width: 100vw;
+
+      & > div {
+        margin-inline: auto;
+        max-width: var(--udexGridXLMinWidth);
+        padding: 0 var(--udexGridMargins);
+      }
+    }
+  }
+}
