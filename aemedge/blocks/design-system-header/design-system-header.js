@@ -178,7 +178,7 @@ function addDesignSystemSearch(block, mastheadSearch) {
 function addBrand(mastheadBrand) {
   const brandLogo = div({ class: 'masthead-logo' }, a({
     'aria-label': 'SAP',
-    href: getSiteHomePath(),
+    href: (window.location.pathname === '/design-system/') ? 'https://www.sap.com/' : getSiteHomePath(),
     role: 'banner',
     title: 'SAP',
   }, span({ class: 'icon icon-sap-logo' })));
