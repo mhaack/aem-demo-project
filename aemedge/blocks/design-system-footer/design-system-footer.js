@@ -7,7 +7,7 @@ export default async function decorate(block) {
   const footerMeta = getMetadata('footer');
   block.textContent = '';
 
-  const footerPath = footerMeta.footer || '/fiori-design-web/footer';
+  const footerPath = footerMeta.footer || '/design-system/footer';
   const fragment = await loadFragment(footerPath);
 
   const footer = document.createElement('div');
