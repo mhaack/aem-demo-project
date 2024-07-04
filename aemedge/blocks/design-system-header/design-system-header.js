@@ -11,15 +11,9 @@ import {
 } from '../../scripts/dom-builder.js';
 import initDsMainNav from './design-system-main-nav.js';
 import initDsSearch from './design-system-search.js';
-import {
-  decorateIcons,
-  getMetadata,
-  loadCSS,
-} from '../../scripts/aem.js';
+import { decorateIcons, getMetadata, loadCSS } from '../../scripts/aem.js';
 import { mediaQueryLists } from '../../scripts/config-ds.js';
-import {
-  camelToKebab,
-} from '../../scripts/ds-scripts.js';
+import { camelToKebab, getSiteHomePath } from '../../scripts/ds-scripts.js';
 
 const LANDING_ZONE_LABEL = 'Design System';
 const LANDING_ZONE_LABEL_MOBILE = 'SAP Design System';
@@ -184,7 +178,7 @@ function addDesignSystemSearch(block, mastheadSearch) {
 function addBrand(mastheadBrand) {
   const brandLogo = div({ class: 'masthead-logo' }, a({
     'aria-label': 'SAP',
-    href: '/',
+    href: getSiteHomePath(),
     role: 'banner',
     title: 'SAP',
   }, span({ class: 'icon icon-sap-logo' })));
