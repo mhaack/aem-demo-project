@@ -33,17 +33,12 @@ export default class PictureCard extends Card {
     if (!profileEntry) {
       return '';
     }
-
     return profileEntry?.image
-      && new URL(this.profileEntry.image).pathname !== '/default-meta-image.png' && profileEntry.name.indexOf('+ more') === -1
-      ? div(
-        { class: 'author-profile' },
-        Avatar.fromAuthorEntry(profileEntry).render('small'),
-      )
-      : div(
-        { class: 'author subtitle' },
-        span(`${this.profileEntry.name}`),
-      );
+      && profileEntry?.image !== '0'
+      && new URL(this.profileEntry.image).pathname !== '/default-meta-image.png'
+      && profileEntry.name.indexOf('+ more') === -1
+      ? div({ class: 'author-profile' }, Avatar.fromAuthorEntry(profileEntry).render('small'))
+      : div({ class: 'author subtitle' }, span(`${this.profileEntry.name}`));
   }
 
   render(horizontal) {
@@ -54,10 +49,7 @@ export default class PictureCard extends Card {
       { class: `picture-card ${horizontal ? 'horizontal' : ''}` },
       a(
         { href: this.path, 'aria-label': this.title, target: externalLink ? '_blank' : '_self' },
-        div(
-          { class: 'picture' },
-          this.getOptimizedPicture(),
-        ),
+        div({ class: 'picture' }, this.getOptimizedPicture()),
         div(
           { class: 'cardcontent' },
           this.getTagLabel(),
