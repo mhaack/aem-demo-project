@@ -37,8 +37,11 @@ async function scheduleSolutionsLoad() {
   const delayMs = 20;
   window.setTimeout(() => {
     document.addEventListener('cc-initialized', () => {
-      if (window.isConsentEnabled('omtrdc.net', 1)) {
+      if (window.isConsentEnabled('omtrdc.net', 1) && window.isConsentEnabled('6sense.com', 1)) {
         import('./solutions/6s.js');
+      }
+      if (window.isConsentEnabled('omtrdc.net', 1) && window.isConsentEnabled('ml314.com', 1)) {
+        import('./solutions/bb.js');
       }
     });
     (async () => {
