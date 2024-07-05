@@ -152,8 +152,8 @@ export default async function decorate(block) {
   } else if (eyebrowText && isArticle) {
     // If article, add link to parent topics page, and appropriate classes for styling
     const eyeBrowHref = (() => {
-      if (contentTypeTag['topic-path'] && contentTypeTag['topic-path'] !== '0') return contentTypeTag['topic-path'];
-      if (contentTypeTag['news-path'] && contentTypeTag['news-path'] !== '0') return contentTypeTag['news-path'];
+      if (contentTypeTag && contentTypeTag['topic-path'] && contentTypeTag['topic-path'] !== '0') return contentTypeTag['topic-path'];
+      if (contentTypeTag && contentTypeTag['news-path'] && contentTypeTag['news-path'] !== '0') return contentTypeTag['news-path'];
       return null;
     })();
     newEyebrow = eyeBrowHref
