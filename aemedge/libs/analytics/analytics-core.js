@@ -2,7 +2,7 @@ import { getMetadata } from '../../scripts/aem.js';
 import {
   fetchAndStoreCountryCode,
   getCountryCode,
-} from './country.js';
+} from './solutions/country.js';
 
 function getEnvType(hostname = window.location.hostname) {
   const fqdnToEnvType = {

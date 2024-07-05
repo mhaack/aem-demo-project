@@ -1,9 +1,3 @@
-const settings = {
-  'prodHostnames': [
-    'www.sap.com',
-    'sap.com'
-  ]
-};
 function init6sense(resolve) {
   try {
     var data = JSON.parse(localStorage.getItem('_6senseCompanyDetails')) || false;

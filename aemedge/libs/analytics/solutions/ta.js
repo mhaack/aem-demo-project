@@ -1,4 +1,4 @@
-import { getCountryCode, getRegionCode } from '../country.js';
+import { getCountryCode, getRegionCode } from './country.js';
 
 const prodHostnames = [
   'www.sap.com',

@@ -1,11 +1,4 @@
-import { getCountryCode } from '../country.js';
-
-const settings = {
-  'prodHostnames': [
-    'www.sap.com',
-    'sap.com'
-  ]
-};
+import { getCountryCode } from './country.js';
 
 function initConsentChecker() {
   if (!window.isConsentEnabled) {
@@ -138,7 +131,6 @@ function initConsentChecker() {
 
     function isCookieBannerOpen() {
       var isSettingsDialogClosed = document.querySelectorAll('iframe[src^="https://consent-pref.trustarc.com"]').length === 0;
-
       return window.truste && isConsentTrack() && isSettingsDialogClosed;
     }
 
