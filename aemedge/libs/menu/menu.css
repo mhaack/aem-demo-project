@@ -2,22 +2,26 @@
   cursor: pointer;
   padding: unset;
   position: relative;
-  margin-block: 8.5px;
+  margin: 0;
+
+  & ul {
+    margin: 0;
+  }
 
   & p {
-    margin: 0.25rem;
+    margin: 0;
   }
 
   & .title {
+    padding-block: 8.5px;
     text-wrap: wrap;
     white-space: wrap;
     position: relative;
-    display: block;
+    display: flex;
+    align-items: center;
     cursor: pointer;
 
     &::after {
-      position: absolute;
-      top: 4px;
       box-sizing: border-box;
       content: "";
       display: inline-block;
@@ -38,8 +42,8 @@
     visibility: hidden;
     list-style: none;
     padding: unset;
-    margin-block: var(--udexSpacer4);
-    box-shadow: var(--sapContent_Shadow2);
+    box-shadow: var(--sapContent_Shadow1);
+    border: 1px solid var(--udexColorGrey6);
     border-radius: var(--udexRadiusS);
     transform: translateY(-10px);
     background-color: var(--udexColorNeutralWhite);
@@ -48,26 +52,70 @@
     &.scrollable {
       max-height: 20rem;
       overflow-y: scroll;
+
+      /* Scrollbar styling works in Chrome. Customisation options are more limited in Firefox */
+      &::-webkit-scrollbar {
+        width: var(--udexSpacer16);
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: var(--udexColorNeutralWhite);
+        border-radius: var(--udexSpacer8);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--udexColorGrey5);
+        border: 2px solid var(--udexColorNeutralWhite);
+        border-radius: var(--udexSpacer8);
+      }
+
+      &::-webkit-scrollbar-thumb:vertical:active {
+        background-color: var(--udexColorGrey6);
+      }
     }
 
     & li {
-      height: var(--udexSpacer32);
-      min-width: 16ch;
+      min-width: 320px;
+      max-width: 640px;
+      padding-block: var(--udexSpacer8);
+      padding-inline: var(--udexSpacer12);
 
       &:hover {
         background-color: var(--udexColorGrey1);
       }
 
       & > p {
-        padding-inline: var(--udexSpacer4);
-        text-wrap: nowrap;
+        font-size: var(--udexTypographyBodySFontSize);
+        line-height: var(--udexTypographyBodyLineHeight);
       }
     }
   }
 
-  &[aria-expanded="true"] .items {
-    visibility: visible;
-    transform: translateY(0);
-    transition: transform 0.3s ease-out;
+  &[aria-expanded="true"] {
+    & .items {
+      visibility: visible;
+      transform: translateY(0);
+      transition: transform 0.3s ease-out;
+    }
+
+    & .title {
+      color: var(--udexColorBlue9);
+
+      &::after {
+        transform: rotate(180deg);
+      }
+
+      &::before {
+        background: var(--udexColorBlue7);
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 3px;
+        position: absolute;
+        width: 100%;
+      }
+    }
   }
 }

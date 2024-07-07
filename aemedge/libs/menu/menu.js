@@ -26,6 +26,15 @@ export default class List {
     });
   }
 
+  addClickHandlerToDocument(menu) {
+    document.addEventListener('click', (event) => {
+      const isClickInsideMenu = menu.contains(event.target);
+      if (!isClickInsideMenu) {
+        menu.setAttribute('aria-expanded', false);
+      }
+    });
+  }
+
   getListItem(title, value) {
     const item = li(
       {
@@ -62,6 +71,7 @@ export default class List {
       ul({ class: `items ${scroll}` }, ...menuItems),
     );
     this.attachHandler(menu);
+    this.addClickHandlerToDocument(menu);
     return menu;
   }
 }

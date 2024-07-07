@@ -70,20 +70,9 @@ export default class Filters {
     return tagsPanel;
   }
 
-  getFilterPanel() {
-    const filterPanel = div({ class: 'filter-panel' });
-    filterPanel.addEventListener('click', (event) => {
-      if (filterPanel.contains(event.target)) return;
-      filterPanel.querySelectorAll('.menu').forEach((menu) => {
-        menu.setAttribute('aria-expanded', 'false');
-      });
-    });
-    return filterPanel;
-  }
-
   render() {
     const noResultLabel = this.placeholders.noResults || 'No results found';
-    const filterPanel = this.getFilterPanel();
+    const filterPanel = div({ class: 'filter-panel' });
     const tagsPanel = this.getTagsPanel();
     const resultsPanel = div({ class: 'results-panel' }, noResultLabel);
     this.filters.forEach((filter) => {
