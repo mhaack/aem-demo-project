@@ -24,9 +24,17 @@
   div[slot="content"] {
     grid-row: 3 / 4;
 
+    & div[slot='title']{
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 13px;
+      letter-spacing: 0.5px;
+    }
+
     & > h1 {
       font-size: var(--udexTypographyHeadingRegularSFontSize);
-      margin-top: 16px;
+      margin-top: 12px;
       margin-bottom: 40px;
       font-weight: 500;
 
@@ -295,6 +303,13 @@
     div[slot="additionalContent"] {
       grid-column: 1 / 13; /* Adjusting value as hero text not properly align */
       padding: 0 var(--udexSpacer72) 0 128px;
+    }
+
+    div[slot="content"] {
+      & div[slot='title']{
+        font-size: 14px;
+        line-height: 15px;
+      }
     }
 
     div[slot="content"] > h1 {

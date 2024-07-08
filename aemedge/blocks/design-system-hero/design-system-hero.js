@@ -168,4 +168,19 @@ export default async function decorate(block) {
       dropM.classList.remove('open');
     }
   });
+
+  const pagetypes = getMetadata('pagetype');
+  const titleheading = document.title;
+  const slot = document.querySelector('div[slot=content]');
+
+  if (pagetypes === 'home') {
+    const title = div(
+      {
+        slot: 'title',
+        class: ['hero-banner', 'media-content'],
+      },
+      titleheading,
+    );
+    slot.prepend(title);
+  }
 }
