@@ -160,7 +160,7 @@
 
       .clear-filter-btn,
       .reset-filter-btn {
-        color: var(--udexColorBlue10);
+        color: #0040B0;
       }
 
       .close-menu-btn {
@@ -288,7 +288,7 @@
       border: none;
       height: 100%;
       background-color: transparent;
-      color: var(--udexColorBlue10);
+      color: #0040B0;
       font-size: var(--udexTypographyBodySFontSize);
       font-weight: 500;
 
