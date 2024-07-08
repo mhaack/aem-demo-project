@@ -75,3 +75,23 @@
     width: calc((5 * var(--udexGridGutters)) + (6 * var(--column-width)));
   }
 }
+
+.lightbox-wrapper {
+  margin-block: var(--udexSpacer24);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+
+  @media (width >= 980px) {
+    margin-block: var(--udexSpacer32);
+  }
+
+  @media (width >= 1280px) {
+    margin-block: var(--udexSpacer40);
+  }
+}
