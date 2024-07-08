@@ -40,42 +40,39 @@ function initRtvi(resolve) {
             callback((data && data.details && Object.keys(data.details).length > 0) ? data.details : null);
         };
     };
-    var config = _satellite?.getVar('targetConfig') || {'_6sense': false,'bombora': false,'target': false};
-    if (config.bombora) {
-        try{
-            var data = JSON.parse(localStorage.getItem(varName)) || false;
-            /* force api call periodically to enforce changes on Bmb end */
-            var cacheExpire = 60 * 60 * 24 * 1000; /* 1 day */
-            var currentTime = (new Date()).getTime();
-            if (data) {
-                if (data._sap && data._sap._lastAPIRefresh) {
-                    if ((currentTime - +data._sap._lastAPIRefresh) >= cacheExpire) {
-                        data = false;
-                    }
-                } else {
+    try{
+        var data = JSON.parse(localStorage.getItem(varName)) || false;
+        /* force api call periodically to enforce changes on Bmb end */
+        var cacheExpire = 60 * 60 * 24 * 1000; /* 1 day */
+        var currentTime = (new Date()).getTime();
+        if (data) {
+            if (data._sap && data._sap._lastAPIRefresh) {
+                if ((currentTime - +data._sap._lastAPIRefresh) >= cacheExpire) {
                     data = false;
                 }
-            }
-            if (!data) {
-                loadBomboraTag();
-                _bmb('vi', function(respObj) {
-                    var data = {
-                        details: respObj ? respObj : {},
-                        _sap: {
-                            _lastAPIRefresh: (new Date()).getTime()
-                        }
-                    };
-                    localStorage.setItem(varName, JSON.stringify(data));
-                    resolve();
-                });
             } else {
-                window._bmb = createBomboraMock();
-                resolve();
+                data = false;
             }
         }
-        catch(e) {
-            data = false;
+        if (!data) {
+            loadBomboraTag();
+            _bmb('vi', function(respObj) {
+                var data = {
+                    details: respObj ? respObj : {},
+                    _sap: {
+                        _lastAPIRefresh: (new Date()).getTime()
+                    }
+                };
+                localStorage.setItem(varName, JSON.stringify(data));
+                resolve();
+            });
+        } else {
+            window._bmb = createBomboraMock();
+            resolve();
         }
+    }
+    catch(e) {
+        data = false;
     }
 }
 
