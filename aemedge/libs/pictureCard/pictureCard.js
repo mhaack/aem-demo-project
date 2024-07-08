@@ -43,7 +43,7 @@ export default class PictureCard extends Card {
 
   render(horizontal) {
     const externalLink = this.path.startsWith('http') || this.path.startsWith('//');
-    const info = externalLink ? span({ class: 'external-link' }, this.info) : this.info;
+    const info = externalLink ? span({ class: 'card-external-link' }, this.info) : this.info;
 
     return li(
       { class: `picture-card ${horizontal ? 'horizontal' : ''}` },
