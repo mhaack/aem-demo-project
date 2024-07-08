@@ -21,10 +21,11 @@ function loadTrustArcScript() {
   }
 
   const trustArcDomain = prodHostnames.includes(window.location.hostname) ? 'sap.com' : 'saptest.com';
-  const countryParam = getCountryCode() ? `country=${getCountryCode()}&` : '';
-  const regionParam = getRegionCode() ? `state=${getRegionCode()}&` : '';
+  const countryCode = getCountryCode();
+  const countryParam = countryCode ? `country=${countryCode}&` : '';
+  const stateParam = (countryCode === 'US' && getRegionCode()) ? `state=${getRegionCode()}&` : '';
   const privacyPath = encodeURIComponent('https://www.sap.com/about/legal/privacy.html');
-  const trustArcScriptURL = `https://consent.trustarc.com/notice?domain=${trustArcDomain}&c=${trustArcConsentDiv}&gtm=1&pcookie&js=nj&noticeType=bb&pn=1-0&${countryParam}${regionParam}privacypolicylink=${privacyPath}&text=true`
+  const trustArcScriptURL = `https://consent.trustarc.com/notice?domain=${trustArcDomain}&c=${trustArcConsentDiv}&gtm=1&pcookie&js=nj&noticeType=bb&pn=1-0&${countryParam}${stateParam}privacypolicylink=${privacyPath}&text=true`
 
   const script = document.createElement('SCRIPT');
   script.async = true;
