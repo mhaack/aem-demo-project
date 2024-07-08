@@ -127,10 +127,21 @@
   width: 100%;
 }
 
+.cards:not(.icons) .cards-card-image {
+  height: 100%;
+  width: 100%
+}
+
+.cards:not(.icons) picture {
+  height: inherit;
+  width: inherit;
+}
+
 .cards:not(.icons) > ul > li img {
-  width: 100%;
+  height: inherit;
+  width: inherit;
   aspect-ratio: 16 / 9;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 
