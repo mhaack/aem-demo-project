@@ -1,8 +1,19 @@
 {
     "name": "atom",
     "version": "1.0.0",
+    "main": "generate.js",
     "dependencies": {
-      "feed": "^4.2.2"
+        "feed": "^4.2.2",
+        "fs-extra": "^11.2.0",
+        "log4js": "^6.9.1",
+        "write-file-atomic": "^5.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-promise": "^6.1.1"
     },
     "type": "module"
-  }
+}

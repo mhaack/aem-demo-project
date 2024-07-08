@@ -1,124 +1,163 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable no-await-in-loop */
+
 import { Feed } from 'feed';
-import fs from 'fs';
-import path from 'path';
+import log4js from 'log4js';
+import fs from 'fs-extra';
 
 const siteRoot = 'https://www.sap.com';
-const sourceRoot = 'https://main--builder-prospect--sapudex.hlx.page';
+const sourceRoot = 'https://main--builder-prospect--sapudex.hlx.live';
 const targetRoot = '../../aemedge/feeds';
-const maxPosts = 30;
+const logger = log4js.getLogger();
+logger.level = 'info';
 
-function ensureDirectoryExistence(filePath) {
-  const dirname = path.dirname(filePath);
-  if (fs.existsSync(dirname)) {
-    return true;
-  }
-  ensureDirectoryExistence(dirname);
-  fs.mkdirSync(dirname);
-}
+const getConfig = async () => {
+  const response = await fetch(
+    'https://main--builder-prospect--sapudex.hlx.page/aemedge/config.json',
+  );
+  const config = await response.json();
+  const keyValueMapping = config.data.reduce((acc, item) => {
+    acc[item.Key] = item.Value;
+    return acc;
+  }, {});
+  return keyValueMapping;
+};
 
-const limit = '1000';
+const getFeed = (info, updateTime) => new Feed({
+  title: info.title,
+  description: info.description,
+  id: info.link,
+  link: info.link,
+  updated: updateTime,
+  generator: 'AEM SAP News feed generator',
+  language: info.language || 'en-US',
+});
 
-async function createFeed(feed, allPosts) {
-  console.log(`found ${allPosts.length} posts - limiting to ${maxPosts}`);
-
-  const newestPost = allPosts
-    .map((post) => new Date(post.publicationDate * 1000))
-    .reduce((maxDate, date) => (date > maxDate ? date : maxDate), new Date(0));
-
-  const atomFeed = new Feed({
-    title: feed.title,
-    description: feed.description,
-    id: feed.link,
-    link: feed.link,
-    updated: newestPost,
-    generator: 'AEM SAP News feed generator (GitHub action)',
-    language: feed.language || 'en-US',
-  });
-
-  allPosts.sort((a,b) => new Date(b.date) - new Date(a.date)).filter((item, idx) => idx < maxPosts).forEach((post) => {
-    const link = feed.siteRoot + post.path;
-    atomFeed.addItem({
-      title: post.title,
-      id: link,
-      link,
-      description: post.description,
-      content: post.content,
-      category: JSON.parse(post.tags).map((tag) => ({ name: tag })),
-      date: new Date(post.publicationDate * 1000),
-      published: new Date(post.publicationDate * 1000),
+const generateFeedFile = async (feedInfo, articles) => {
+  try {
+    const feed = getFeed(feedInfo, new Date(articles[0].publicationDate * 1000));
+    logger.info('Generating feed for ', feedInfo.targetFile);
+    await Promise.all(
+      articles.map(async (article) => {
+        const resp = await fetch(`${sourceRoot}${article.path}.plain.html`);
+        article.content = await resp.text();
+      }),
+    );
+    for (const article of articles) {
+      feed.addItem({
+        title: article.title,
+        id: article.path,
+        link: `${siteRoot}${article.path}`,
+        content: article.content,
+        description: article.description,
+        category: JSON.parse(article.tags).map((tag) => ({ name: tag })),
+        date: new Date(article.publicationDate * 1000),
+      });
+    }
+    fs.outputFile(feedInfo.targetFile, feed.rss2(), (err) => {
+      if (err) {
+        logger.error(`error occured while writing to file ${feedInfo.targetFile}`, err);
+      }
+      logger.info(`Feed generated for ${feedInfo.targetFile}`);
     });
-  });
+  } catch (error) {
+    logger.error(`error occured while generating feed file ${feedInfo.targetFile}`, error);
+  }
+};
 
-  ensureDirectoryExistence(feed.targetFile);
-  fs.writeFileSync(feed.targetFile, atomFeed.rss2());
-  console.log('wrote file to ', feed.targetFile);
+async function fetchResults(feed, key = 'key', offset = 0, limit = 1000, items = {}) {
+  const api = new URL(feed);
+  api.searchParams.append('offset', JSON.stringify(offset));
+  api.searchParams.append('limit', limit);
+  const response = await fetch(api, {});
+  const result = await response.json();
+  result.data.forEach((item) => {
+    items[item[key]] = item;
+  });
+  if (result.offset + result.limit < result.total) {
+    // there are more pages
+    return fetchResults(feed, key, result.offset + result.limit, limit, items);
+  }
+  return items;
 }
 
-async function fetchPosts(feed) {
-  let offset = 0;
-  const allPosts = [];
+const isValidTag = (tag) => tag
+  && ((tag['news-path'] && tag['news-path'] !== '0')
+    || (tag['topic-path'] && tag['topic-path'] !== '0'));
 
-  while (true) {
-    const api = new URL(feed);
-    api.searchParams.append('offset', JSON.stringify(offset));
-    api.searchParams.append('limit', limit);
-    const response = await fetch(api, {});
-    const result = await response.json();
-
-    allPosts.push(...result.data);
-
-    if (result.offset + result.limit < result.total) {
-      // there are more pages
-      offset = result.offset + result.limit;
-    } else {
-      break;
+const getValidArticles = async (tags, articleIndex) => {
+  let validArticles = new Map();
+  for (const [key, value] of Object.entries(articleIndex)) {
+    const articleTag = JSON.parse(value.tags);
+    if (
+      key.startsWith('/news/')
+      && value.template === 'article'
+      && articleTag.some((tag) => isValidTag(tags[tag]))
+    ) {
+      validArticles.set(key, value);
     }
   }
-  return allPosts;
-}
+  validArticles = new Map(
+    [...validArticles.entries()].sort(
+      (a, b) => new Date(b.publicationDate * 1000) - new Date(a.publicationDate * 1000),
+    ),
+  );
+  return validArticles;
+};
 
-const tagging = await fetchPosts(`${sourceRoot}/aemedge/tagging-contenthub.json`);
-const allPosts = await fetchPosts(`${sourceRoot}/aemedge/articles-index.json`);
-await Promise.all(allPosts.map(async (post) => {
-  const resp = await fetch(`${sourceRoot}${post.path}.plain.html`);
-  post.content = await resp.text();
-}));
-
-createFeed({
-  title: 'SAP Sponsorships Archives | SAP News Center',
-  targetFile: `${targetRoot}/news/feed.xml`,
-  siteRoot,
-  link: `${siteRoot}/news/feed/`,
-  language: 'en-US',
-  description: 'Company &#38; Customer Stories &#124; Press Room.',
-}, allPosts.filter((post) => {
-  const { tags } = post;
-  if (!tags) return false;
-  const parsedTags = JSON.parse(tags);
-  return tagging.some((value) => parsedTags.includes(value.key) && value['news-path'] && value['news-path'].length > 0);
-})).catch((e) => console.error(e));
-
-const map = new Map();
-allPosts.forEach((post) => {
-  const { tags } = post;
-  if (tags) {
-    JSON.parse(tags).forEach((tag) => {
-      if (tagging.some((value) => value.key === tag && ((value['news-path'] && value['news-path'].length > 0) || (value['topic-path'] && value['topic-path'].length > 0)))) {
-        const entries = map.get(tag) || [];
-        entries.push(post);
-        map.set(tag, entries);
-      }
-    });
-  }
-});
-
-map.forEach((posts, tag) => {
-  createFeed({
-    title: 'SAP Sponsorships Archives | SAP News Center',
-    targetFile: `${targetRoot}/topics/${tag}/feed.xml`,
+const buildMainFeed = async (articles, config) => {
+  const feedInfo = {
+    title: config['feed.title'] || 'SAP Sponsorships Archives | SAP News Center',
+    targetFile: `${targetRoot}/news/feed.xml`,
     siteRoot,
-    link: `${siteRoot}/topics/${tag}/feed/`,
+    link: `${siteRoot}/news/feed/`,
     language: 'en-US',
-    description: 'Company &#38; Customer Stories &#124; Press Room.',
-  }, posts).catch((e) => console.error(e));
-});
+    description: config['feed.description'] || 'Company &#38; Customer Stories &#124; Press Room.',
+  };
+  await generateFeedFile(feedInfo, [...articles.values()].slice(0, config['feed.maxPosts'] || 30));
+};
+
+const buildTopicWiseFeed = async (articleStream, config) => {
+  const articlesByTag = Array.from(articleStream.values()).reduce((acc, article) => {
+    const tags = JSON.parse(article.tags);
+    tags.forEach((tag) => {
+      if (!acc[tag]) {
+        acc[tag] = [];
+      }
+      acc[tag].push(article);
+    });
+    return acc;
+  }, {});
+  for (const [tag, articles] of Object.entries(articlesByTag)) {
+    const feedInfo = {
+      title: config['feed.title'] || 'SAP Sponsorships Archives | SAP News Center',
+      targetFile: `${targetRoot}/topics/${tag}/feed.xml`,
+      siteRoot,
+      link: `${siteRoot}/topics/${tag}/feed/`,
+      language: 'en-US',
+      description:
+        config['feed.description'] || 'Company &#38; Customer Stories &#124; Press Room.',
+    };
+    await generateFeedFile(feedInfo, articles.slice(0, 30));
+  }
+};
+
+const processFeed = async () => {
+  logger.info('Initiating feed generation');
+  logger.debug('Fetching tags');
+  const tags = await fetchResults(`${sourceRoot}/aemedge/tagging-contenthub.json`);
+  logger.debug('Fetching articles');
+  const articleIndex = await fetchResults(`${sourceRoot}/aemedge/articles-index.json`, 'path');
+  logger.debug('Processing articles');
+  const articles = await getValidArticles(tags, articleIndex);
+  logger.debug('loading configuration');
+  const config = await getConfig();
+  if (config['feed.logLevel']) logger.level = config['feed.logLevel'];
+  logger.debug('building primary feed');
+  await buildMainFeed(articles, config);
+  logger.debug('building topic wise feed');
+  await buildTopicWiseFeed(articles, config);
+  logger.info('Feed generation completed');
+};
+await processFeed();
