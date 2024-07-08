@@ -78,8 +78,11 @@
 }
 
 @media (width >= 1280px) {
-  body.hub-l1 .promo > div,
-  body.article [data-location="document-footer"] .promo > div {
+  /* Disabling linting rule as these style rules cannot conflict with one other */
+  /* stylelint-disable no-descending-specificity */
+  body:not(.article) .promo > div,
+  body.article:has(.toc-container) .promo-container[data-location="document-footer"] .promo > div,
+  body.article:not(:has(.toc-container)) main > .promo-container:not([data-location="sidebar"]) .promo > div {
     align-items: center;
     gap: var(--udexSpacer32);
     padding: var(--udexSpacer32);
@@ -104,6 +107,7 @@
       }
     }
   }
+  /* stylelint-enable no-descending-specificity */
 }
 
 .promo-wrapper {
