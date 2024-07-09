@@ -427,8 +427,6 @@ html:has(.design-system) {
       position: relative;
 
       & .section {
-        /* &:first-child {} */
-
         &:not(:first-child) {
           position: relative;
         }
@@ -481,8 +479,12 @@ html:has(.design-system) {
  */
 .design-system.landing-page {
   & main {
-    .section {
+    & .section {
       border: none;
+
+      &:not(:first-child) {
+        grid-column: 1 / 13;
+      }
     }
 
     & h2 {

@@ -1,10 +1,4 @@
 .columns-wrapper {
-
-  /* stylelint-disable-next-line rule-empty-line-before */
-  &.columns-advantages-cards-wrapper {
-    margin-top: 24px !important;
-  }
-
   & .columns {
     & > div {
       display: flex;
@@ -79,9 +73,9 @@
   & .columns {
     &.advantages-cards {
       & > div {
-        gap: 48px;
         flex-flow: row wrap;
         flex-grow: 0;
+        gap: 48px;
 
         & > div {
           flex-basis: 100%;
@@ -96,8 +90,8 @@
       }
 
       & div p:has(.icon) {
-        margin-top: 0;
         margin-bottom: 1.25rem;
+        margin-top: 0;
       }
 
       & div p:first-child:has(.icon) + h2,
@@ -106,8 +100,8 @@
         font-size: var(--udexTypographyHeadingBoldXXSFontSize);
         font-weight: var(--udexTypographyFontWeightMedium);
         line-height: 22px;
-        margin-top: 1rem;
         margin-bottom: 0.5rem;
+        margin-top: 1rem;
       }
 
       /* stylelint-disable-next-line no-descending-specificity */
@@ -167,6 +161,20 @@
           & > div {
             flex-basis: calc((100% - 192px) / 5);
           }
+        }
+      }
+    }
+  }
+}
+
+/* =XL */
+@media (width >= 1600px) {
+  .columns-wrapper {
+    .columns {
+      &.advantages-cards {
+        & > div {
+          gap: unset;
+          justify-content: space-between;
         }
       }
     }
