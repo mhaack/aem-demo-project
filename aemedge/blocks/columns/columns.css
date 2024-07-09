@@ -154,29 +154,15 @@
 
 /* =L */
 @media (width >= 1280px) {
-  .columns-wrapper {
-    .columns {
-      &.advantages-cards {
-        & > div {
-          & > div {
-            flex-basis: calc((100% - 192px) / 5);
-          }
-        }
-      }
-    }
+  .columns-wrapper .columns.advantages-cards > div > div {
+    flex-basis: calc((100% - 192px) / 5);
   }
 }
 
 /* =XL */
 @media (width >= 1600px) {
-  .columns-wrapper {
-    .columns {
-      &.advantages-cards {
-        & > div {
-          gap: unset;
-          justify-content: space-between;
-        }
-      }
-    }
+  .columns-wrapper .columns.advantages-cards > div {
+    gap: unset;
+    justify-content: space-between;
   }
 }
