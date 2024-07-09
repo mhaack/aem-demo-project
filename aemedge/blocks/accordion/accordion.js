@@ -48,10 +48,13 @@ export default function decorate(block) {
   const accordionHeaderContainer = getPreviousElementSibling(block.parentElement.previousElementSibling, 'default-content-wrapper');
 
   const headerDiv = div({ class: 'accordion-header' });
-  const headerEl = accordionHeaderContainer?.querySelector('h2, h3');
+  const headerEl = accordionHeaderContainer?.querySelector('h2:last-child, h3:last-child');
   if (headerEl) {
     headerEl.classList.add('header-text');
     headerDiv.append(headerEl);
+    if (accordionHeaderContainer.children.length === 0) {
+      accordionHeaderContainer.remove();
+    }
   }
 
   // Accordion bulk-toggle functionality
