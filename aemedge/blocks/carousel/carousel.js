@@ -76,18 +76,6 @@ function bindEvents(block) {
     });
   });
 
-  carouselSlides.forEach((slide) => {
-    slide.addEventListener('click', () => {
-      const slideLink = slide.querySelector('.button-container a.button');
-      if (slideLink) {
-        const slideLinkHref = slideLink.getAttribute('href');
-        if (slideLinkHref) {
-          window.location.href = slideLinkHref;
-        }
-      }
-    });
-  });
-
   block.querySelector('.slide-prev').addEventListener('click', () => {
     showSlide(block, parseInt(block.dataset.activeSlide, 10) - 1);
   });

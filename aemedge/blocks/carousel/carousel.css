@@ -21,7 +21,6 @@
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     overflow: scroll clip;
-    cursor: pointer;
 
     &::-webkit-scrollbar {
       display: none;
@@ -259,6 +258,9 @@
           font-size: var(--udexTypographyHeadingRegularXXXSFontSize);
           font-weight: var(--udexTypographyFontWeightMedium);
           line-height: 26px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
         }
 
         p {
@@ -268,6 +270,22 @@
           line-height: 21px;
           font-size: var(--udexTypographyEyebrowMFontSize);
           font-weight: var(--udexTypographyFontWeightRegular);
+
+          a {
+            color: var(--udexColorBlue7);
+
+            &:visited {
+              color: var(--udexColorBlue10);
+            }
+
+            &:hover {
+              color: var(--udexColorBlue9);
+            }
+
+            &:active {
+              color: var(--udexColorBlue11);
+            }
+          }
 
         }
 
@@ -375,6 +393,23 @@
       /* stylelint-disable-next-line rule-empty-line-before */
       .carousel-slides {
         gap: 48px;
+      }
+      /* stylelint-disable-next-line no-duplicate-selectors */
+      .carousel-slide{
+        .carousel-slide-content {
+          p{
+            max-height: 25px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+        }
+
+        div[data-valign='middle'].carousel-slide-content{
+          p{
+            white-space: unset;
+          }
+        }
       }
     }
   }
