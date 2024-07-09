@@ -1,10 +1,14 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 import {
-  a, div, li, ul,
+  a,
+  div,
+  li,
+  ul,
 } from '../../scripts/dom-builder.js';
 
 export default function decorate(block) {
   const listElement = ul();
+
   [...block.children].forEach((row) => {
     const cardDiv = div({ class: 'tile' });
     while (row.firstElementChild) {
@@ -39,6 +43,7 @@ export default function decorate(block) {
     }
     listElement.append(listItemElement);
   });
+
   listElement
     .querySelectorAll('img')
     .forEach((img) => img
@@ -50,10 +55,13 @@ export default function decorate(block) {
           [{ width: '750' }],
         ),
       ));
+
   block.textContent = '';
   block.classList.add(`elems${listElement.children.length}`);
+
   if (listElement.children.length > 8) {
     block.classList.add('elems9plus');
   }
+
   block.append(listElement);
 }

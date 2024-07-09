@@ -152,6 +152,7 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
       aElem({ href: overviewSectionPage.path }, 'Learn more'),
     )]]);
     block.classList.add('overview');
+    block.classList.add('full-width');
     overviewSection = div(
       overviewTitle,
       block,
