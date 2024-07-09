@@ -4,7 +4,11 @@ import {
   div,
   button,
 } from '../../scripts/dom-builder.js';
-import { applySearchKeyOnFilteredData, buildCardsFromFilteredRawData, fetchAndFilterData } from '../../scripts/search-filter.js';
+import {
+  applySearchKeyOnFilteredData,
+  buildCardsFromFilteredRawData, fetchAndFilterData, getRawFilteredData,
+  updateCardsFromFilteredRawData,
+} from '../../scripts/search-filter.js';
 
 function createSearchBox() {
   const searchBoxTemplate = `
@@ -45,6 +49,23 @@ function buildToggle() {
   return toggleBtn;
 }
 
+function sort(data, criterion) {
+  switch (criterion) {
+    case 'A - Z':
+      // eslint-disable-next-line max-len, max-len
+      return data.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()));
+    case 'Z - A':
+      // eslint-disable-next-line max-len
+      return data.sort((a, b) => b.title.toLowerCase().localeCompare(a.title.toLowerCase()));
+    default: return data;
+  }
+}
+
+function buildNewCards(data, criterion) {
+  sort(data, criterion);
+  updateCardsFromFilteredRawData();
+}
+
 function decorateSearchResultItems() {
   const searchResultItems = div({ class: 'search-result-items' });
   const searchResultContainer = document.querySelector('.search-result-container');
@@ -55,11 +76,8 @@ function decorateSearchResultItems() {
 
   const dropdown = ul(
     { class: 'dropdown', role: 'menu' },
-    li({ role: 'menuitem', class: 'sort-option active' }, span('A - Z')),
-    li({ role: 'menuitem', class: 'sort-option' }, span('Z - A')),
-    li({ role: 'menuitem', class: 'sort-option' }, span('Newest first')),
-    li({ role: 'menuitem', class: 'sort-option' }, span('Last updated')),
-    li({ role: 'menuitem', class: 'sort-option' }, span('Most popular')),
+    li({ role: 'menuitem', class: 'sort-option active', 'sort-criterion': 'A - Z' }, span('A - Z')),
+    li({ role: 'menuitem', class: 'sort-option', 'sort-criterion': 'Z - A' }, span('Z - A')),
   );
 
   const toggle = buildToggle();
@@ -76,12 +94,14 @@ function decorateSearchResultItems() {
   sortOptions.forEach((option) => {
     option.addEventListener('click', (event) => {
       const target = event.currentTarget;
-      const selectedOption = target.textContent;
-      sortAZ.textContent = selectedOption;
+      const selectedOption = target.getAttribute('sort-criterion');
+      sortAZ.textContent = target.textContent;
       dropdown.classList.remove('show');
       sortAZ.parentElement.classList.remove('active');
       sortOptions.forEach((el) => el.classList.remove('active'));
       target.classList.add('active');
+      const data = getRawFilteredData();
+      buildNewCards(data, selectedOption);
     });
   });
 
@@ -115,9 +135,14 @@ function decorateSwitchView() {
   });
 }
 
+async function fetchData(jsonLink) {
+  const data = await fetchAndFilterData(jsonLink?.href);
+  sort(data, 'A - Z');
+}
+
 export default async function decorate(block) {
   const jsonLink = block?.querySelector('a');
-  await fetchAndFilterData(jsonLink?.href);
+  await fetchData(jsonLink);
   const result = buildCardsFromFilteredRawData();
   const searchBoxWrapper = createSearchBox();
   block.innerHTML = '';
