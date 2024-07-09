@@ -134,6 +134,7 @@ export function updateCardsFromFilteredRawData() {
 }
 
 export function applySelectedFilters(appliedFilters) {
+  resetFilteredData();
   if (appliedFilters?.size) {
     const newFiltersObject = {};
     appliedFilters.forEach((value) => {

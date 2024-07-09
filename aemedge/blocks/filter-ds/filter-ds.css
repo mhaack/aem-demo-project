@@ -144,17 +144,17 @@
         padding: 8px 12px;
         border-radius: 8px;
 
-        .results-count {
-          width: 16px;
-          height: 16px;
+        .count {
+          width: 25px;
+          height: 25px;
           background-color: var(--udexColorRed7);
           border-radius: 50%;
           margin-left: 4px;
+          padding-top: 5px;
+          text-align: center;
           font-size: var(--udexTypographyBodyXSFontSize);
+          display: none;
 
-          &.hide {
-            display: none;
-          }
         }
       }
 

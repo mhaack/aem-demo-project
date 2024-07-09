@@ -135,6 +135,11 @@ export default async function decorate() {
             } else {
               APPLIED_FILTERS.set(filterKey, { category, filter: clickedItem.textContent });
             }
+            if (APPLIED_FILTERS.size === 0) {
+              document.querySelector('.count').style.display = 'none';
+            } else {
+              updateCount();
+            }
             removeTag();
             if (APPLIED_FILTERS !== 0) {
               APPLIED_FILTERS.forEach((obj) => {
@@ -181,6 +186,7 @@ export default async function decorate() {
         },
       },
       'Show Results',
+      span({ class: 'count' }),
     ),
     button(
       {
@@ -288,6 +294,7 @@ function resetResultsCount() {
   resetFilteredData();
   const resultsCount = document.querySelector('.results-count');
   resultsCount.textContent = `${getRawFilteredData().length} results`;
+  document.querySelector('.count').style.display = 'none';
   document.querySelectorAll('.item-options span.label').forEach((elem) => elem.classList.remove('selected'));
   applySelectedFilters();
 }
@@ -322,4 +329,15 @@ function accordionClose() {
 
 function removeTag() {
   Array.from(document.querySelectorAll('span.tags')).forEach((tag) => tag.remove());
+}
+
+function updateCount() {
+  const counter = document.querySelector('.count');
+  if (APPLIED_FILTERS !== 0) {
+    counter.style.display = 'block';
+    applySelectedFilters(APPLIED_FILTERS);
+    counter.textContent = getRawFilteredData().length;
+  } else {
+    counter.style.display = 'none';
+  }
 }
