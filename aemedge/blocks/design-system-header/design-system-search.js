@@ -95,10 +95,13 @@ function updateSearchResults(searchText) {
  */
 function addSearchForm(mastheadSearch) {
   let action = '/design-system/fiori-design-web/search';
+  let placeholderText = 'Search across SAP Design System for Web';
   if (window.location.pathname.includes('/design-system/fiori-design-ios')) {
     action = '/design-system/fiori-design-ios/search';
+    placeholderText = 'Search across SAP Design System for iOS';
   } else if (window.location.pathname.includes('/design-system/fiori-design-android')) {
     action = '/design-system/fiori-design-android/search';
+    placeholderText = 'Search across SAP Design System for Android';
   }
   const searchForm = form({
     action,
@@ -114,7 +117,7 @@ function addSearchForm(mastheadSearch) {
     class: 'search-input',
     id: 'search-input',
     name: 'q',
-    placeholder: 'Search across SAP Design System for Web',
+    placeholder: placeholderText,
     type: 'search',
     onsearch: (event) => {
       const searchText = event.target.value;
