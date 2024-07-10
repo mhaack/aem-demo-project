@@ -115,7 +115,8 @@ export default async function decorate(block) {
 
   const subHeading = document.createElement('p');
   subHeading.classList.add('hero-sub-heading');
-  subHeading.innerHTML = subHeadingText.substring(0, subHeadingText.indexOf('|') - 1);
+  const lastPipe = subHeadingText.indexOf('|');
+  subHeading.innerHTML = (lastPipe === -1) ? subHeadingText : subHeadingText.substring(0, lastPipe);
   heading.append(subHeading);
 
   const tagsContainer = Object.assign(document.createElement('div'), { className: 'tags-container' });
