@@ -130,7 +130,7 @@ export default async function decorate(block) {
   });
 
   const currentVersion = getMetadata('version');
-  if (currentVersion) {
+  if (currentVersion && !block.classList.contains('landing-page')) {
     await addVersioningDropdown(currentVersion, breadcrumb);
   }
 
