@@ -134,6 +134,7 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
   );
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
     .filter((entry) => getPathFilter(entry, author, matchedPathTags))
+    .filter((entry) => entry.path !== window.location.pathname)
     .filter(getEditorFilter(editorConfig))
     .filter(getUserFilter(params, nonFilterParams, id))
     .limit(editorConfig.limit ? +editorConfig.limit[0] : -1)

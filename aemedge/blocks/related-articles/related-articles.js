@@ -97,6 +97,7 @@ export default async function decorateBlock(block) {
   const limit = 4;
   const articles = await ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
     .filter(preFilter)
+    .filter((entry) => entry.path !== window.location.pathname)
     .filter(filter)
     .limit(limit)
     .slice(0, limit - 1)
