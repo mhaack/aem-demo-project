@@ -197,13 +197,17 @@ function decorateImageLinks(main) {
  */
 export function decorateExternalLinks(main) {
   main.querySelectorAll('a').forEach((link) => {
-    const isPdfLink = link.href?.includes('.pdf');
-    const url = new URL(link.href);
-    const isExternalLink = !link.href?.startsWith(window.location.origin) && !url.hostname?.endsWith('.sap.com');
-    if (isExternalLink || isPdfLink) {
-      link.classList.add('external-link');
-      link.rel = 'noopener noreferrer';
-      link.target = '_blank';
+    try {
+      const isPdfLink = link.href?.includes('.pdf');
+      const url = new URL(link.href);
+      const isExternalLink = !link.href?.startsWith(window.location.origin) && !url.hostname?.endsWith('.sap.com');
+      if (isExternalLink || isPdfLink) {
+        link.classList.add('external-link');
+        link.rel = 'noopener noreferrer';
+        link.target = '_blank';
+      }
+    } catch (e) {
+      console.error(`Invalid URL: ${link.href}`, e);
     }
   });
 }
