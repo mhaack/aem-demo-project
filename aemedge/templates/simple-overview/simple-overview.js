@@ -1,7 +1,7 @@
 import {
   a as aElem, div, h1, h2, p,
 } from '../../scripts/dom-builder.js';
-import { buildBlock, loadCSS } from '../../scripts/aem.js';
+import { buildBlock, getMetadata, loadCSS } from '../../scripts/aem.js';
 import { addMetadata, fioriWebRootUrl, redirectTo404 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import { getSitePlatform } from '../../scripts/ds-scripts.js';
@@ -147,9 +147,10 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
   if (overviewSectionPage) {
     const overviewTitle = h2('Overview');
     const block = buildBlock('tiles', [[div(
+      p(getMetadata('title')),
       p(overviewSectionPage.title),
       p(overviewSectionPage['intro-desc']),
-      aElem({ href: overviewSectionPage.path }, 'Learn more'),
+      aElem({ href: overviewSectionPage.path }),
     )]]);
     block.classList.add('overview');
     block.classList.add('full-width');
