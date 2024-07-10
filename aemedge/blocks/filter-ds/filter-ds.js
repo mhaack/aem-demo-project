@@ -337,6 +337,9 @@ function updateCount() {
     counter.style.display = 'block';
     applySelectedFilters(APPLIED_FILTERS);
     counter.textContent = getRawFilteredData().length;
+    if (counter.textContent === '0') {
+      counter.style.display = 'none';
+    }
   } else {
     counter.style.display = 'none';
   }
