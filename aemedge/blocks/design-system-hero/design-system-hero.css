@@ -1,4 +1,10 @@
 .design-system-hero-wrapper {
+  --design-system-hero-height-xs: 128px;
+  --design-system-hero-height-s: 133px;
+  --design-system-hero-height-m: 145px;
+  --design-system-hero-height-l: 158px;
+  --design-system-hero-height-xl: 162px;
+
   grid-column: 1 / 13 !important;
   margin-inline: unset !important;
   width: 100%;
@@ -10,7 +16,7 @@
   column-gap: var(--udexGridXSGutters);
   grid-template-columns: repeat(var(--udexGridColumns), 1fr);
   grid-template-rows: repeat(5, 1fr);
-  height: 152px;
+  height: var(--design-system-hero-height-xs);
   position: relative;
 
   div[slot="content"],
@@ -24,12 +30,12 @@
   div[slot="content"] {
     grid-row: 3 / 4;
 
-    & div[slot='title']{
+    & div[slot="title"] {
       text-transform: uppercase;
       font-size: 12px;
       font-weight: 500;
       line-height: 13px;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.05rem;
     }
 
     & > h1 {
@@ -68,7 +74,9 @@
 
     & > img {
       height: 100%;
+      inset: 0;
       object-fit: cover;
+      position: absolute;
       width: 100%;
     }
   }
@@ -268,6 +276,7 @@
 @media (width >= 640px) {
   .fiori-hero-banner {
     column-gap: var(--udexGridSGutters);
+    height: var(--design-system-hero-height-s);
 
     div[slot="content"],
     div[slot="additionalContent"] {
@@ -296,16 +305,16 @@
 
   .fiori-hero-banner {
     column-gap: var(--udexGridMGutters);
-    height: 192px;
+    height: var(--design-system-hero-height-m);
 
     div[slot="content"],
     div[slot="additionalContent"] {
       grid-column: 1 / 13; /* Adjusting value as hero text not properly align */
-      padding: 0 var(--udexSpacer72) 0 128px;
+      padding: 0 var(--udexSpacer72);
     }
 
     div[slot="content"] {
-      & div[slot='title']{
+      & div[slot='title'] {
         font-size: 14px;
         line-height: 15px;
       }
@@ -338,10 +347,12 @@
 /* =L */
 @media (width >= 1280px) {
   .fiori-hero-banner {
+    height: var(--design-system-hero-height-l);
+
     div[slot="content"],
     div[slot="additionalContent"] {
       grid-column: 1/13;
-      padding: 0 var(--udexSpacer72) 0 128px;
+      padding: 0 var(--udexSpacer72);
     }
 
     div[slot="content"] > h1 {
@@ -357,6 +368,8 @@
   }
 
   .fiori-hero-banner {
+    height: var(--design-system-hero-height-xl);
+
     picture[slot="backgroundPicture"] {
       left: calc(-1 * (100vw - 1600px) / 2);
     }

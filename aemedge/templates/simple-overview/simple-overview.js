@@ -158,6 +158,7 @@ export async function renderOverviewPage(main, overviewAbsolutePathParts, pageCa
       overviewTitle,
       block,
     );
+    overviewSection.classList.add('highlight');
   }
 
   main.replaceChildren(div(
