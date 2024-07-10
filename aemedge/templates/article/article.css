@@ -165,7 +165,7 @@ main {
     }
   }
 
-  & .section[data-location="document-footer"] :is(> .default-content-wrapper, .section > .default-content-wrapper) {
+  & .section:is([data-location="document-footer"], [data-location="document-header"]) :is(> .default-content-wrapper, .section > .default-content-wrapper) {
     /* Should align with L1 and L2 typography */
     & > h2 {
       margin-block: 0;
@@ -237,8 +237,8 @@ main {
   @media (width >= 980px) {
     grid-template-rows: repeat(99, auto);
 
-    & .section.background-dark:not(.hero-container, .additional-reading, [data-location='document-footer']),
-    & .section.background-light:not(.hero-container, .additional-reading, [data-location='document-footer']) {
+    & .section.background-dark:not(.hero-container, .additional-reading, [data-location='document-footer'], [data-location='document-header']),
+    & .section.background-light:not(.hero-container, .additional-reading, [data-location='document-footer'], [data-location='document-header']) {
       margin-inline-end: unset;
       padding-inline-end: unset;
     }
@@ -246,6 +246,12 @@ main {
     & > [data-location='sidebar'] {
       grid-column: 10 / -1;
       grid-row: 2 / -2;
+    }
+
+    &:has([data-location='document-header']) {
+      & > [data-location='sidebar'] {
+        grid-row: 3 / -2;
+      }
     }
 
     > .hero-container + .section,
@@ -260,7 +266,8 @@ main {
             .hero-container,
             .toc-container,
             [data-location='sidebar'],
-            [data-location='document-footer']
+            [data-location='document-footer'],
+            [data-location='document-header']
           )
       ) {
       grid-column: 1 / 9;
@@ -270,9 +277,14 @@ main {
       grid-column: 1 / -1;
     }
 
+    & > [data-location='document-header'] {
+      grid-column: 1 / -1;
+      grid-row: 2 / 3;
+    }
+
     &:has(.toc-container) {
-      & .section.background-dark:not(.hero-container, .additional-reading, [data-location='document-footer']),
-      & .section.background-light:not(.hero-container, .additional-reading, [data-location='document-footer']) {
+      & .section.background-dark:not(.hero-container, .additional-reading, [data-location='document-footer'], [data-location='document-header']),
+      & .section.background-light:not(.hero-container, .additional-reading, [data-location='document-footer'], [data-location='document-header']) {
         margin-inline: unset;
         padding-inline: unset;
       }
@@ -283,7 +295,8 @@ main {
               .hero-container,
               .toc-container,
               [data-location='sidebar'],
-              [data-location='document-footer']
+              [data-location='document-footer'],
+              [data-location='document-header']
             )
         ) {
         grid-column: 4 / 10;
@@ -295,6 +308,12 @@ main {
       grid-row: 2 / -2;
       margin-block-end: var(--udexSpacer56);
       position: static;
+    }
+
+    &:has([data-location='document-header']) {
+      & > .toc-container.section {
+        grid-row: 3 / -2;
+      }
     }
   }
 

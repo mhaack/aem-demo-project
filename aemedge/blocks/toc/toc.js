@@ -203,7 +203,7 @@ export default async function decorate(block) {
   Ignore headings that are not direct children of .default-content-wrapper as these could be part
   of a block.
   */
-  const mainSections = document.querySelectorAll('main > .section:not(.hero-container, .toc-container, [data-location="sidebar"], [data-location="document-footer"])');
+  const mainSections = document.querySelectorAll('main > .section:not(.hero-container, .toc-container, [data-location="sidebar"], [data-location="document-footer"], [data-location="document-header"])');
   const fragmentSections = Array.from(mainSections).reduce((acc, currentSection) => {
     acc.push(...currentSection.querySelectorAll('.section'));
     return acc;

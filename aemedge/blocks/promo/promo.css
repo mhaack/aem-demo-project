@@ -81,6 +81,7 @@
   /* Disabling linting rule as these style rules cannot conflict with one other */
   /* stylelint-disable no-descending-specificity */
   body:not(.article) .promo > div,
+  body.article:has(.toc-container) .promo-container[data-location="document-header"] .promo > div,
   body.article:has(.toc-container) .promo-container[data-location="document-footer"] .promo > div,
   body.article:not(:has(.toc-container)) main > .promo-container:not([data-location="sidebar"]) .promo > div {
     align-items: center;
