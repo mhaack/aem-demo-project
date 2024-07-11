@@ -17,7 +17,8 @@ import {
 function getPictureCard(article, placeholders, tags, author, eager) {
   const tagLabel = placeholders[toCamelCase(getMetadata('priority', article))] || '';
   const url = getMetadata('card-url', article) || new URL(getMetadata('og:url', article)).pathname;
-  const info = getMetadata('card-c2a', article) || `Updated on ${formatDate(getMetadata('published-time', article))}`;
+  const infoUpdatedLabel = placeholders.updatedOn || 'Updated on';
+  const info = getMetadata('card-c2a', article) || `${infoUpdatedLabel} ${formatDate(getMetadata('published-time', article))}`;
 
   const contentType = tags[toCamelCase(getContentType(article))];
 

@@ -40,12 +40,15 @@ function getFilter(config) {
     && matchContentType(entry, config);
 }
 
-function getInfo(article, config) {
+function getInfo(article, config, infoUpdatedLabel) {
   const { info = ['publicationDate'] } = config;
   if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
     return article.cardC2A;
   }
   if (info[0] === 'publicationDate') {
+    if (infoUpdatedLabel) {
+      return `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
+    }
     return `Updated on ${formatDate(article.publicationDate * 1000)}`;
   }
   if (info[0] === 'author') {
@@ -63,7 +66,8 @@ function getPictureCard(article, config, placeholders, tags, author) {
     image, path, title, priority, cardUrl,
   } = article;
   const tagLabel = placeholders[toCamelCase(priority)] || '';
-  const info = getInfo(article, config);
+  const infoUpdatedLabel = placeholders.updatedOn || 'Updated on';
+  const info = getInfo(article, config, infoUpdatedLabel);
   const link = cardUrl !== '0' ? cardUrl : path;
   return new PictureCard(title, link, contentType?.label || '', info, author, image, tagLabel);
 }

@@ -38,7 +38,8 @@ function getPictureCard(article, placeholders, tags, author) {
     } = article;
     const tagLabel = placeholders[toCamelCase(priority)] || '';
     const link = cardUrl !== '0' ? cardUrl : path;
-    let info = `Updated on ${formatDate(article.publicationDate * 1000)}`;
+    const infoUpdatedLabel = placeholders.updatedOn || 'Updated on';
+    let info = `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
     if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
       info = article.cardC2A;
     }
