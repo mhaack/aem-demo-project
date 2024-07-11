@@ -145,8 +145,6 @@
       font-size: var(--udexTypographyHeadingMediumXXSFontSize);
       height: 100%;
       padding: var(--udexSpacer24, 24px) var(--udexSpacer20, 20px);
-      padding-top: var(--udexSpacer16, 16px);
-      padding-bottom: var(--udexSpacer16, 16px);
     }
 
     & .tile-image img {
@@ -156,7 +154,6 @@
 
     & .tile-body {
       margin: 16px 0 0;
-      margin: 0;
     }
   }
 
@@ -190,6 +187,7 @@
         /* stylelint-disable-next-line */
         & .tile {
           height: auto;
+          padding: var(--udexSpacer16, 16px) 20px!important;
         }
       }
     }
@@ -223,7 +221,7 @@
           }
 
           & .tile-body {
-            margin: 0;
+            margin: 0!important;
 
             & p {
               margin: 0;
