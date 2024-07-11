@@ -160,7 +160,6 @@ export function applySelectedFilters(appliedFilters) {
   } else {
     resetFilteredData();
   }
-  updateCardsFromFilteredRawData();
 }
 
 export function applySearchKeyOnFilteredData(searchText) {

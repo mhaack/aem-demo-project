@@ -3,7 +3,9 @@ import { decorateIcons } from '../../scripts/aem.js';
 import {
   button, div, label, nav, span,
 } from '../../scripts/dom-builder.js';
-import { applySelectedFilters, getRawFilteredData, resetFilteredData } from '../../scripts/search-filter.js';
+import {
+  applySelectedFilters, getRawFilteredData, resetFilteredData, updateCardsFromFilteredRawData,
+} from '../../scripts/search-filter.js';
 import { buildNewCards } from '../search/search.js';
 
 const APPLIED_FILTERS = new Map();
@@ -197,6 +199,7 @@ export default async function decorate() {
           event.preventDefault();
           APPLIED_FILTERS.clear();
           resetResultsCount();
+          removeTag();
         },
       },
       'Clear All',
@@ -315,6 +318,7 @@ function applyFilterAndClose() {
   }
   document.querySelector('.filter-btn').classList.remove('expanded');
   document.querySelector('.filter-menu').classList.remove('open');
+  updateCardsFromFilteredRawData();
   buildNewCards(data, sortOrder);
 }
 
