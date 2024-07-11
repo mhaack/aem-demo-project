@@ -148,5 +148,12 @@
 
   & .promo > div {
     flex-wrap: wrap;
+    padding: var(--udexSpacer32);
+  }
+
+  @media (width >= 1280px) {
+    .promo :is(h2, h3) {
+      font-size: var(--udexTypographyHeadingMediumXSFontSize);
+    }
   }
 }
