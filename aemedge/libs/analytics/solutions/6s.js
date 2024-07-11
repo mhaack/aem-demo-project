@@ -1,3 +1,5 @@
+import { solutionReadyByPromise } from '../beacon.js';
+
 function init6sense(resolve) {
   try {
     var data = JSON.parse(localStorage.getItem('_6senseCompanyDetails')) || false;
@@ -59,6 +61,8 @@ function load6sense() {
         init6sense(resolve)
       })
     };
+    // register solution as to be waited for before sending the beacon
+    solutionReadyByPromise('6s', window.SAP?.vendors?._6sense?.ready);
   }
 }
 

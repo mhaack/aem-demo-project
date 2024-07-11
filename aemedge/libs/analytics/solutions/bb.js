@@ -1,6 +1,8 @@
+import { solutionReadyByPromise } from '../beacon.js';
+
 async function initBombora(resolve) {
-    await initStandard();
-    initRtvi(resolve);
+  await initStandard();
+  initRtvi(resolve);
 }
 
 async function initStandard() {
@@ -79,14 +81,16 @@ function initRtvi(resolve) {
 
 function loadBombora() {
 	if (window.isConsentEnabled('omtrdc.net', 1) && window.isConsentEnabled('ml314.com', 1)) {
-	// promise to inform that Bombora is ready
-	window.SAP = window.SAP || {};
-	window.SAP.vendors = window.SAP.vendors || {};
-	window.SAP.vendors.bombora = {
-	  ready: new Promise(function(resolve) {
-		initBombora(resolve);
-	  })
-	};
+    // promise to inform that Bombora is ready
+    window.SAP = window.SAP || {};
+    window.SAP.vendors = window.SAP.vendors || {};
+    window.SAP.vendors.bombora = {
+      ready: new Promise(function(resolve) {
+        initBombora(resolve);
+      })
+    };
+    // register solution to be waited for before sending the beacon
+    solutionReadyByPromise('bb', window.SAP?.vendors?.bombora?.ready);
 	}
 }
 

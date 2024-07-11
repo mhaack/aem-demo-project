@@ -522,6 +522,7 @@ async function initDataLayer() {
 }
 
 async function loadPage() {
+  window.adobeDCStart = Date.now();
   await loadEager(document);
   await initDataLayer();
   const cfEnabled = isCFEnabled();
