@@ -52,7 +52,6 @@
 
 .fast-facts__item {
     text-align: center;
-    width: calc((3 * var(--udexGridGutters)) + (4 * var(--column-width)));
 
     > *:not(:last-child) {
         margin-block-end: var(--udexSpacer20);
@@ -107,7 +106,11 @@
     color: var(--udexColorGrey8);
 }
 
-@media (width >= 640px) {
+@media (width >= 980px) {
+    .fast-facts__item {
+        width: calc((3 * var(--udexGridGutters)) + (4 * var(--column-width)));
+    }
+
     .fast-facts__items.even-count {
         grid-template-columns: repeat(2, minmax(0, 1fr));
 
