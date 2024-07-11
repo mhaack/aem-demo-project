@@ -135,6 +135,12 @@ function addSearchForm(mastheadSearch) {
       }
       updateSearchResults(searchText.value);
     },
+    onblur: (event) => {
+      const searchText = event.target;
+      const searchResults = searchText.parentNode.nextSibling.nextSibling;
+      searchText.value = '';
+      searchResults.classList.remove('open');
+    },
   }));
 
   // TODO: Reset button and voice search button (Frontify)
