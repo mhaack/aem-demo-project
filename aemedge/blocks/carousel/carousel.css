@@ -195,12 +195,6 @@
       box-shadow: var(--sapContent_Shadow0);
       scroll-snap-align: start;
 
-      &:hover {
-        background-color: white;
-        border: 1px solid var(--udexColorBlue6);
-        box-shadow: var(--sapContent_Shadow1);
-      }
-
       &:focus {
         background-color: white;
         border: 1px solid var(--udexColorBlue10);
@@ -263,6 +257,16 @@
           overflow: hidden;
         }
 
+        p:not(.button-container){
+          height: 63px;
+          -webkit-box-orient: vertical;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: normal;
+        }
+/* stylelint-disable-next-line no-descending-specificity */
         p {
           margin: 0;
           padding: 0;
@@ -397,18 +401,15 @@
 
       /* stylelint-disable-next-line no-duplicate-selectors */
       & .carousel-slide {
-        & .carousel-slide-content {
-          & p {
-            max-height: 25px;
-            text-overflow: ellipsis;
-            overflow: hidden;
-            white-space: nowrap;
-          }
-        }
-
         & div[data-valign='middle'].carousel-slide-content {
           & p {
-            white-space: unset;
+            height: 42px;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
           }
         }
       }
