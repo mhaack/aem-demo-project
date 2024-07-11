@@ -1,7 +1,10 @@
 import { loadFragment } from '../../scripts/scripts.js';
 import ffetch from '../../scripts/ffetch.js';
 import {
-  addMetadata, compareVersions, fioriWebRootUrl, redirectTo404,
+  addMetadata,
+  compareVersions,
+  fioriWebRootUrl,
+  redirectTo404,
 } from '../../scripts/utils.js';
 import { getMetadata } from '../../scripts/aem.js';
 import { getLatestUrl } from '../../scripts/ds-scripts.js';
@@ -65,12 +68,11 @@ async function fallbackOverviewPage(main, virtualVersion, candidateVersions) {
     .filter((pageInfo) => pageInfo.latestUrl.startsWith(overviewLatestUrl));
   const pagesInfo = Object.values(filtered
     .reduce((acc, pageInfo) => {
-      const parentUrl = getLatestUrl(pageInfo.path, pageInfo.version);
-      const accElement = acc[parentUrl];
+      const accElement = acc[pageInfo.latestUrl];
       if (!accElement) {
-        acc[parentUrl] = pageInfo;
+        acc[pageInfo.latestUrl] = pageInfo;
       } else if (compareVersions(accElement.version, pageInfo.version) < 0) {
-        acc[parentUrl] = pageInfo;
+        acc[pageInfo.latestUrl] = pageInfo;
       }
 
       return acc;
@@ -107,7 +109,7 @@ export default async function decorate(main) {
 
   const candidatePages = await ffetch(`${fioriWebRootUrl}query-index.json`)
     .chunks(10000)
-    .filter((pageInfo) => compareVersions(virtualVersion, pageInfo.version) >= 0 && pageInfo.breadcrumbs !== '')
+    .filter((pageInfo) => compareVersions(virtualVersion, pageInfo.version) >= 0)
     .all();
   const pageVersions = candidatePages.filter(
     (row) => getLatestUrl(row.path, row.version) === latestUrl,
