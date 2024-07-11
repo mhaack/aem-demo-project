@@ -8,7 +8,7 @@
   margin-block-start: var(--udexSpacer24);
 
   @media (width >= 980px) {
-    margin-block-start: var(--udexSpacer40);
+    margin-block-start: var(--udexSpacer32);
   }
 
   & .button-wrapper {

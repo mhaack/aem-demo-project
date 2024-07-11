@@ -13,6 +13,14 @@
 
   & .pages {
     grid-column: 1 / -1;
+
+    /* grid gap + margin = 24px */
+    margin-block-start: var(--udexSpacer8);
+
+    @media (width >= 980px) {
+      /* grid gap + margin = 32px */
+      margin-block-start: var(--udexSpacer16);
+    }
   }
 
   & > div {
