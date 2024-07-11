@@ -119,4 +119,15 @@
 
 .resource-center-carousel-wrapper {
   margin-block-start: var(--udexSpacer8);
+
+  @media (width >= 980px) {
+    & .picture-card {
+      height: 155px;
+
+      & .infoblock,
+      & .description {
+        display: none;
+      }
+    }
+  }
 }
