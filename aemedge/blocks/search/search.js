@@ -61,7 +61,7 @@ function sort(data, criterion) {
   }
 }
 
-function buildNewCards(data, criterion) {
+export function buildNewCards(data, criterion) {
   sort(data, criterion);
   updateCardsFromFilteredRawData();
 }

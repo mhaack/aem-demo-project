@@ -4,8 +4,10 @@ import {
   button, div, label, nav, span,
 } from '../../scripts/dom-builder.js';
 import { applySelectedFilters, getRawFilteredData, resetFilteredData } from '../../scripts/search-filter.js';
+import { buildNewCards } from '../search/search.js';
 
 const APPLIED_FILTERS = new Map();
+const sortOrder = 'A - Z';
 
 export default async function decorate() {
   const searchForm = document.querySelector('#ui-search-form');
@@ -287,6 +289,7 @@ function removeFilterSelectionAndClose() {
   document.querySelector('.filter-btn').classList.remove('expanded');
   document.querySelector('.filter-menu').classList.remove('open');
   resetResultsCount();
+  buildNewCards(getRawFilteredData(), sortOrder);
 }
 
 // reset filter selection
@@ -297,19 +300,22 @@ function resetResultsCount() {
   document.querySelector('.count').style.display = 'none';
   document.querySelectorAll('.item-options span.label').forEach((elem) => elem.classList.remove('selected'));
   applySelectedFilters();
+  buildNewCards(getRawFilteredData(), sortOrder);
 }
 
 // apply the filter and close the filter menu
 function applyFilterAndClose() {
   applySelectedFilters(APPLIED_FILTERS);
   const resultsCounter = document.querySelector('.results-count');
+  const data = getRawFilteredData();
   if (APPLIED_FILTERS.size !== 0) {
-    resultsCounter.textContent = `${getRawFilteredData().length} results`;
+    resultsCounter.textContent = `${data.length} results`;
   } else {
     resetResultsCount();
   }
   document.querySelector('.filter-btn').classList.remove('expanded');
   document.querySelector('.filter-menu').classList.remove('open');
+  buildNewCards(data, sortOrder);
 }
 
 function accordionClose() {
