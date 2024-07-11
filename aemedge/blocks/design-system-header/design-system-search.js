@@ -186,6 +186,13 @@ function addSearchForm(mastheadSearch) {
   searchForm.appendChild(searchFormButtons);
   searchForm.appendChild(searchFormResultsList);
   mastheadSearch.appendChild(searchForm);
+
+  document.addEventListener('click', (event) => {
+    if (!searchFormResultsList.contains(event.target)) {
+      searchInput.getElementsByTagName('input')[0].value = '';
+      searchFormResultsList.classList.remove('open');
+    }
+  });
 }
 
 async function filterDataWithCategories() {
