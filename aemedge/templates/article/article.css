@@ -234,6 +234,12 @@ main {
     z-index: 2;
   }
 
+  &:has([data-location='document-header']) {
+    & > .toc-container.section {
+      grid-row: 3 / 4;
+    }
+  }
+
   @media (width >= 980px) {
     grid-template-rows: repeat(99, auto);
 
