@@ -49,7 +49,7 @@ export default class Pages {
       this.getActionButton('icon-slim-arrow-left', this.currentPage === 1),
       p(
         { class: 'page' },
-        span({ class: 'current' }, this.currentPage),
+        span({ class: 'current' }, this.totalPages > 0 ? this.currentPage : 0),
         label('of'),
         span({ class: 'total' }, this.totalPages),
       ),
