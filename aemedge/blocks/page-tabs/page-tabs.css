@@ -90,18 +90,6 @@ main {
 
 /* =M */
 @media (width >= 980px) {
-  .design-system {
-    main {
-      & .section {
-        &:first-child {
-          & > .page-tabs-wrapper {
-            margin-inline: 128px var(--udexGridMargins);
-          }
-        }
-      }
-    }
-  }
-
   .page-tabs {
     & li {
       & a {

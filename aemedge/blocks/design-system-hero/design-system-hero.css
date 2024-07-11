@@ -4,6 +4,11 @@
   --design-system-hero-height-m: 145px;
   --design-system-hero-height-l: 158px;
   --design-system-hero-height-xl: 162px;
+  --design-system-hero-with-tags-height-xs: 146px;
+  --design-system-hero-with-tags-height-s: 154px;
+  --design-system-hero-with-tags-height-m: 220px;
+  --design-system-hero-with-tags-height-l: 220px;
+  --design-system-hero-with-tags-height-xl: 220px;
 
   grid-column: 1 / 13 !important;
   margin-inline: unset !important;
@@ -17,6 +22,11 @@
   grid-template-columns: repeat(var(--udexGridColumns), 1fr);
   grid-template-rows: repeat(5, 1fr);
   height: var(--design-system-hero-height-xs);
+
+  &.with-tags {
+    height: var(--design-system-hero-with-tags-height-xs);
+  }
+
   position: relative;
 
   div[slot="content"],
@@ -278,6 +288,10 @@
     column-gap: var(--udexGridSGutters);
     height: var(--design-system-hero-height-s);
 
+    &.with-tags {
+      height: var(--design-system-hero-with-tags-height-s);
+    }
+
     div[slot="content"],
     div[slot="additionalContent"] {
       padding: 0 var(--udexSpacer48);
@@ -306,6 +320,10 @@
   .fiori-hero-banner {
     column-gap: var(--udexGridMGutters);
     height: var(--design-system-hero-height-m);
+
+    &.with-tags {
+      height: var(--design-system-hero-with-tags-height-m);
+    }
 
     div[slot="content"],
     div[slot="additionalContent"] {
@@ -349,6 +367,10 @@
   .fiori-hero-banner {
     height: var(--design-system-hero-height-l);
 
+    &.with-tags {
+      height: var(--design-system-hero-with-tags-height-l);
+    }
+
     div[slot="content"],
     div[slot="additionalContent"] {
       grid-column: 1/13;
@@ -369,6 +391,10 @@
 
   .fiori-hero-banner {
     height: var(--design-system-hero-height-xl);
+
+    &.with-tags {
+      height: var(--design-system-hero-with-tags-height-xl);
+    }
 
     picture[slot="backgroundPicture"] {
       left: calc(-1 * (100vw - 1600px) / 2);

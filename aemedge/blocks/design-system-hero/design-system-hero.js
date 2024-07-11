@@ -119,13 +119,15 @@ export default async function decorate(block) {
   subHeading.innerHTML = (lastPipe === -1) ? subHeadingText : subHeadingText.substring(0, lastPipe);
   heading.append(subHeading);
 
-  const tagsContainer = Object.assign(document.createElement('div'), { className: 'tags-container' });
+  const tagsContainer = div({ class: 'tags-container' });
   const componentTags = [getMetadata('uielementstechnology'), getMetadata('elementtype')];
+  let hasTags = false;
   componentTags.forEach((tagName) => {
     if (tagName.trim().length > 0) {
       const tagItem = Object.assign(document.createElement('span'), { className: 'tag' });
       tagItem.innerHTML = tagName;
       tagsContainer.append(tagItem);
+      hasTags = true;
     }
   });
 
@@ -160,6 +162,9 @@ export default async function decorate(block) {
       img({ src: `/design-system/images/hero/xs-${imageName}.svg`, classList: 'custom-background-image' }),
     ),
   );
+  if (hasTags) {
+    hero.classList.add('with-tags');
+  }
 
   block.replaceWith(hero);
   const dropB = document.querySelector('.dropdown-btn');
