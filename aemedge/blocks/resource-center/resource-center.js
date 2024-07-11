@@ -263,7 +263,7 @@ function getMonthRange(startDate, endDate) {
   return months.reverse();
 }
 
-function getFilterConfig(block, tags, id) {
+function getFilterConfig(block, tags, id, placeholders) {
   const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info', 'page-size'];
   const editorConfig = {};
   const userConfig = [];
@@ -301,7 +301,7 @@ function getFilterConfig(block, tags, id) {
       .filter((item) => item !== null);
     userConfig.push({
       id: `${id}-${key}`,
-      name: toTitleCase(key),
+      name: placeholders[toCamelCase(key)] || toTitleCase(key),
       items,
     });
   });
@@ -319,12 +319,12 @@ export default async function decorateBlock(block) {
   const carousel = block.classList.contains('carousel');
   const horizontal = block.classList.contains('horizontal');
   const tags = await fetchTagList();
-  const { editorConfig, userConfig } = getFilterConfig(block, tags, id);
+  const placeholders = await fetchPlaceholders();
+  const { editorConfig, userConfig } = getFilterConfig(block, tags, id, placeholders);
   block.textContent = '';
   let filters;
   let pages;
   const pageSize = Number(editorConfig['page-size']) || 6;
-  const placeholders = await fetchPlaceholders();
   const authorIndex = await fetchAuthors();
   const urlParams = new URLSearchParams(window.location.search);
   const page = +urlParams.get(`${id}-page`) || 1;
