@@ -20,7 +20,7 @@ function loadTrustArcScript() {
     trustArcConsentDiv = trustArcDiv;
   }
 
-  const trustArcDomain = prodHostnames.includes(window.location.hostname) ? 'sap.com' : 'saptest.com';
+  const trustArcDomain = prodHostnames.includes(window.location.hostname) ? 'sap.com' : 'redesign.sap.com';
   const countryCode = getCountryCode();
   const countryParam = countryCode ? `country=${countryCode}&` : '';
   const stateParam = (countryCode === 'US' && getRegionCode()) ? `state=${getRegionCode()}&` : '';
