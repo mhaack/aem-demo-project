@@ -18,7 +18,10 @@ function decorate(doc) {
     const parent = pictureEl.parentElement;
     const { nextElementSibling } = parent;
     const isCaption = nextElementSibling?.tagName === 'P'
-      && nextElementSibling?.firstElementChild?.tagName === 'EM';
+      && nextElementSibling?.firstElementChild?.tagName === 'EM'
+      // Caption does not have text around EM element
+      && nextElementSibling.textContent.trim().length
+        === nextElementSibling.firstElementChild.textContent.trim().length;
 
     const container = domEl(
       'figure',
