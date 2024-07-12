@@ -1,14 +1,11 @@
 import { buildBlock, decorateBlock, getMetadata } from './aem.js';
 import { getVersionList } from './utils.js';
+import ffetch from './ffetch.js';
 
 const encodeHTML = (str) => str.replace(/[\u00A0-\u9999<>&]/g, (i) => `&#${i.charCodeAt(0)};`);
 
-export function getLatestUrl(path, virtualVersion) {
-  if (virtualVersion === 'latest') {
-    return path;
-  }
-
-  return path.replace(`v${virtualVersion}/`, '');
+export function getPathParts(path) {
+  return path.split('/').filter((part) => part !== '');
 }
 
 export function getSitePlatform() {
@@ -24,6 +21,32 @@ export function getSitePlatform() {
     return 'android';
   }
   return null;
+}
+
+function getOverviewDataUrl() {
+  const platform = getSitePlatform();
+
+  return `/design-system/fiori-design-${platform}/overview-pages.json`;
+}
+
+export async function getSiteOverviewPages() {
+  return ffetch(getOverviewDataUrl())
+    .sheet('pages')
+    .all();
+}
+
+export async function getSiteOverviewPageOrder() {
+  return ffetch(getOverviewDataUrl())
+    .sheet('order')
+    .all();
+}
+
+export function getLatestUrl(path, virtualVersion) {
+  if (virtualVersion === 'latest') {
+    return path;
+  }
+
+  return path.replace(`v${virtualVersion}/`, '');
 }
 
 export function getSiteHomePath() {

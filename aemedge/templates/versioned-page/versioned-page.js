@@ -7,8 +7,8 @@ import {
   redirectTo404,
 } from '../../scripts/utils.js';
 import { getMetadata } from '../../scripts/aem.js';
-import { getLatestUrl } from '../../scripts/ds-scripts.js';
-import { getPathParts, renderOverviewPage } from '../simple-overview/simple-overview.js';
+import { getLatestUrl, getPathParts, getSiteOverviewPages } from '../../scripts/ds-scripts.js';
+import { renderOverviewPage } from '../simple-overview/simple-overview.js';
 
 function getVersionedPathParts(path, virtualVersion) {
   return getPathParts(getLatestUrl(path, virtualVersion));
@@ -48,7 +48,7 @@ function findVersion(version, pageVersions) {
 
 async function fallbackOverviewPage(main, virtualVersion, candidateVersions) {
   const path = document.location.pathname;
-  const data = await ffetch(`${fioriWebRootUrl}overview-pages.json`).sheet('pages').all();
+  const data = await getSiteOverviewPages();
   const overviewPageInfo = data.find((overviewInfo) => path.endsWith(overviewInfo.path));
   if (!overviewPageInfo) {
     console.warn('overview page info not found for path', path, data);
@@ -83,14 +83,12 @@ async function fallbackOverviewPage(main, virtualVersion, candidateVersions) {
     return false;
   }
   const overviewAbsolutePathParts = getVersionedPathParts(path, virtualVersion);
-  const order = await ffetch(`${fioriWebRootUrl}overview-pages.json`).sheet('order').all();
   await renderOverviewPage(
     main,
     overviewAbsolutePathParts,
     pagesInfo,
     overviewLatestUrl,
     overviewPageInfo,
-    order,
   );
 
   return true;

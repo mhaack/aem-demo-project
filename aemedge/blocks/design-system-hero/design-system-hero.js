@@ -1,18 +1,15 @@
 import { decorateIcons, getMetadata } from '../../scripts/aem.js';
 import {
-  a,
-  button,
-  div,
-  img,
-  li,
-  picture,
-  source,
-  span,
-  ul,
+  a, button, div, img, li, picture, source, span, ul,
 } from '../../scripts/dom-builder.js';
 import '@udex/webcomponents/dist/HeroBanner.js';
 import { fioriWebRootUrl, getVersionList } from '../../scripts/utils.js';
-import { getLatestVersion, getSiteHomePath } from '../../scripts/ds-scripts.js';
+import {
+  getLatestUrl,
+  getLatestVersion,
+  getPathParts,
+  getSiteOverviewPages,
+} from '../../scripts/ds-scripts.js';
 
 async function addVersioningDropdown(currentVersion, breadcrumb) {
   const dropdownArrowDown = span(
@@ -79,6 +76,22 @@ async function addVersioningDropdown(currentVersion, breadcrumb) {
   breadcrumb.append(versions);
 }
 
+function getPathForBreadcrumbComponent(pathParts, idx, version, overviewPaths) {
+  const diff = (version === 'latest' || idx === 0) ? 2 : 3;
+
+  const path = `/${pathParts.slice(0, idx + diff).join('/')}/`;
+  if (idx === 0) {
+    return path;
+  }
+
+  const isOverviewPage = overviewPaths.some((pagePath) => path.endsWith(pagePath));
+  if (isOverviewPage) {
+    return path;
+  }
+
+  return null;
+}
+
 export default async function decorate(block) {
   const heading = block.querySelector('div > div > div:nth-child(1) > div > h1');
   const subHeadingText = block.querySelector('div > div > div:nth-child(1) > div > h3')?.textContent ?? '';
@@ -89,21 +102,28 @@ export default async function decorate(block) {
 
   const breadcrumbItems = div({ class: 'items' });
   const metaBreadcrumbs = getMetadata('breadcrumbs');
+  const currentVersion = getMetadata('version');
   if (metaBreadcrumbs) {
-    const breadcrumbText = `Home / ${metaBreadcrumbs}`;
-    breadcrumbText.split('/').forEach((itemText) => {
-      const item = Object.assign(document.createElement('a'), { className: 'item' });
-      if (itemText.trim() === 'Home') {
-        item.innerHTML = itemText.trim();
-        const siteHome = getSiteHomePath();
-        item.setAttribute('href', siteHome);
-      } else {
+    const breadcrumbParts = ['Home', ...metaBreadcrumbs.split('/').map((part) => part.trim())];
+
+    const latestUrl = getLatestUrl(window.location.pathname, currentVersion);
+    const overviewPaths = (await getSiteOverviewPages())
+      .map((page) => page.path)
+      .filter((path) => latestUrl.includes(path));
+
+    const pathParts = getPathParts(window.location.pathname);
+
+    breadcrumbParts.forEach((itemText, idx) => {
+      if (idx !== 0) {
         const separator = document.createElement('span');
         separator.innerHTML = ' / ';
         breadcrumbItems.append(separator);
-        item.innerHTML = `${itemText.trim()}`;
-        item.setAttribute('href', '/fiori-design-web/ui-elements/ui-elements');
       }
+      let path = window.location.pathname;
+      if (idx !== breadcrumbParts.length - 1) {
+        path = getPathForBreadcrumbComponent(pathParts, idx, currentVersion, overviewPaths);
+      }
+      const item = (path) ? a({ class: 'item', href: path }, itemText) : span({ class: 'item' }, itemText);
       breadcrumbItems.append(item);
     });
   }
@@ -131,7 +151,6 @@ export default async function decorate(block) {
     }
   });
 
-  const currentVersion = getMetadata('version');
   if (currentVersion && !block.classList.contains('landing-page')) {
     await addVersioningDropdown(currentVersion, breadcrumb);
   }

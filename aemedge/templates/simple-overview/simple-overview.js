@@ -8,7 +8,12 @@ import {
 import { buildBlock, getMetadata, loadCSS } from '../../scripts/aem.js';
 import { addMetadata, fioriWebRootUrl, redirectTo404 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
-import { getSitePlatform } from '../../scripts/ds-scripts.js';
+import {
+  getPathParts,
+  getSiteOverviewPageOrder,
+  getSiteOverviewPages,
+  getSitePlatform,
+} from '../../scripts/ds-scripts.js';
 
 function comparePathPriority(order, pathA, pathB) {
   const aPriority = order.find((o) => o.path === pathA)?.priority || 0;
@@ -70,10 +75,6 @@ class Section {
   }
 }
 
-export function getPathParts(path) {
-  return path.split('/').filter((part) => part !== '');
-}
-
 function getOverviewPageBreadcrumbs(overviewPageInfoRelativePath, pagesInfo) {
   const overviewRelativePathParts = getPathParts(overviewPageInfoRelativePath);
   const pageBreadcrumbsComponents = pagesInfo[0].breadcrumbs.split(' / ').slice(0, overviewRelativePathParts.length);
@@ -86,8 +87,9 @@ export async function renderOverviewPage(
   pageCandidates,
   overviewLatestUrl,
   overviewPageInfo,
-  order,
 ) {
+  const order = await getSiteOverviewPageOrder();
+
   pageCandidates.forEach((pageInfo) => {
     if (pageInfo['intro-desc'] !== '') {
       return;
@@ -237,9 +239,7 @@ export default async function decorate(main) {
     })
     .all();
 
-  const data = await ffetch(`/design-system/fiori-design-${platform}/overview-pages.json`)
-    .sheet('pages')
-    .all();
+  const data = getSiteOverviewPages();
   const overviewPageInfo = data.find((overviewInfo) => path.endsWith(overviewInfo.path));
   if (!overviewPageInfo) {
     /* eslint-disable no-console */
@@ -248,16 +248,11 @@ export default async function decorate(main) {
     return;
   }
 
-  const order = await ffetch(`/design-system/fiori-design-${platform}/overview-pages.json`)
-    .sheet('order')
-    .all();
-
   await renderOverviewPage(
     main,
     overviewAbsolutePathParts,
     candidatePages,
     path,
     overviewPageInfo,
-    order,
   );
 }

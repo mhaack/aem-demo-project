@@ -120,8 +120,6 @@
           }
 
           &:hover {
-            cursor: pointer;
-            text-decoration: underline;
             color: var(--sapShell_Navigation_Active_Background);
           }
 
@@ -131,6 +129,10 @@
             outline-offset: 4px;
           }
         }
+      }
+
+      a.item:hover {
+        text-decoration: underline;
       }
 
       .last-updated-version {
