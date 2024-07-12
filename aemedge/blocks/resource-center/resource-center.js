@@ -142,7 +142,7 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
     .paginate(batchSize, startPage);
 }
 
-function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel, pageSize, totalCount, horizontal) {
+function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel, pageSize, totalCount, horizontal, userConfig) {
   const cards = articles.map((article) => {
     const authors = lookupProfiles(article.author, authorIndex);
     const displayAuthor = buildCardDisplayProfile(authors);
@@ -152,7 +152,12 @@ function renderCards(articles, placeholders, tags, authorIndex, textOnly, carous
     if (carousel) {
       return getPictureCard(article, placeholders, tags, displayAuthor).render(true);
     }
-    return getPictureCard(article, placeholders, tags, displayAuthor).render(pageSize === 1 || totalCount === 1 || horizontal);
+    return getPictureCard(article, placeholders, tags, displayAuthor)
+      .render(
+        pageSize === 1
+        || (userConfig.length === 0 && totalCount === 1)
+        || horizontal,
+      );
   });
   if (carousel) {
     return new Carousel(cards).render();
@@ -168,6 +173,17 @@ function addPaginationClasses(cardList, pageSize) {
   }
 }
 
+function addLayoutClasses(cardList, carousel, textOnly, horizontal, moreThanOnePage, userConfig, pageSize) {
+  // Apply column layout classes
+  if (!carousel && !textOnly && !horizontal && (moreThanOnePage || userConfig.length > 0)) {
+    addPaginationClasses(cardList, pageSize);
+  } else if (!carousel && !textOnly && getMetadata('template') === 'hub-l2') {
+    addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
+  } else if (!carousel && !textOnly) {
+    addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG);
+  }
+}
+
 function registerHandler(
   block,
   tags,
@@ -177,6 +193,7 @@ function registerHandler(
   articleStream,
   authorIndex,
   editorConfig,
+  userConfig,
   textOnly,
   carousel,
   nonFilterParams,
@@ -199,10 +216,17 @@ function registerHandler(
           pageSize,
           cursor.value.total,
           horizontal,
+          userConfig,
         );
-        if (cursor.value.pages > 1) {
-          addPaginationClasses(cards, pageSize);
-        }
+        addLayoutClasses(
+          cards,
+          carousel,
+          textOnly,
+          horizontal,
+          cursor.value.pages > 1,
+          userConfig,
+          pageSize,
+        );
         if (filters) filters.updateResults(block, cursor.value.total);
         block.append(cards);
         if (pages) pages.updatePages(cursor.value.pages, 1);
@@ -222,11 +246,18 @@ function registerHandler(
         pageSize,
         cursor.value.total,
         horizontal,
+        userConfig,
+      );
+      addLayoutClasses(
+        cards,
+        carousel,
+        textOnly,
+        horizontal,
+        cursor.value.pages > 1,
+        userConfig,
+        pageSize,
       );
       block.append(cards);
-      if (cursor.value.pages > 1) {
-        addPaginationClasses(cards, pageSize);
-      }
       if (pages) pages.updatePages(cursor.value.pages);
     });
   });
@@ -349,6 +380,7 @@ export default async function decorateBlock(block) {
     pageSize,
     cursor.value.total,
     horizontal,
+    userConfig,
   );
 
   if (userConfig.length > 0 && !carousel) {
@@ -376,6 +408,8 @@ export default async function decorateBlock(block) {
           carousel,
           pageSize,
           cursor.value.total,
+          horizontal,
+          userConfig,
         );
         Array.from(cards.children).forEach((card) => {
           cardList.append(card);
@@ -392,14 +426,8 @@ export default async function decorateBlock(block) {
     pages.render();
   }
 
-  // Apply column layout classes
-  if (!carousel && !textOnly && !horizontal && (moreThanOnePage || userConfig.length > 0)) {
-    addPaginationClasses(cardList, pageSize);
-  } else if (!carousel && !textOnly && getMetadata('template') === 'hub-l2') {
-    addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
-  } else if (!carousel && !textOnly) {
-    addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG);
-  }
+  addLayoutClasses(cardList, carousel, textOnly, horizontal, moreThanOnePage, userConfig, pageSize);
+
   registerHandler(
     block,
     tags,
@@ -409,6 +437,7 @@ export default async function decorateBlock(block) {
     articleStream,
     authorIndex,
     editorConfig,
+    userConfig,
     textOnly,
     carousel,
     nonFilterParams,
