@@ -32,6 +32,10 @@
       row-gap: var(--udexSpacer40);
     }
   }
+
+  &.text-only ul {
+    row-gap: var(--udexSpacer16);
+  }
 }
 
 @media (width >= 640px) {
