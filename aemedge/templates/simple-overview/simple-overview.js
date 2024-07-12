@@ -239,7 +239,7 @@ export default async function decorate(main) {
     })
     .all();
 
-  const data = getSiteOverviewPages();
+  const data = await getSiteOverviewPages();
   const overviewPageInfo = data.find((overviewInfo) => path.endsWith(overviewInfo.path));
   if (!overviewPageInfo) {
     /* eslint-disable no-console */
