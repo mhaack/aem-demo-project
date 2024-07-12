@@ -11,7 +11,7 @@ import {
   buildCardDisplayProfile,
   getAuthorMetadata,
   lookupProfiles,
-  fetchProfiles,
+  fetchProfiles, addColClasses, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2,
 } from '../../scripts/utils.js';
 
 function getPictureCard(article, placeholders, tags, author, eager) {
@@ -58,8 +58,13 @@ export default async function decorateBlock(block) {
         displayAuthor,
         article === articles[0],
       );
-      cardList.append(card.render(horizontal));
+      cardList.append(card.render(horizontal || articles.length === 1));
     });
+    if (getMetadata('template') === 'hub-l2') {
+      addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
+    } else {
+      addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG);
+    }
     block.append(cardList);
   }
   block.querySelector('div').remove();
