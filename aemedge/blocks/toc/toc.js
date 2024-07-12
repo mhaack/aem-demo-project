@@ -171,9 +171,10 @@ function addScrollHandler(tocElement, headings, selected) {
   window.addEventListener('scroll', throttle(() => {
     // Headings have scroll margin of 40px, allow 1px grace
     const boundary = Math.ceil(window.scrollY + 41);
+    const { scrollTop } = document.documentElement;
 
     for (let i = headings.length - 1; i >= 0; i -= 1) {
-      if (boundary >= Math.floor(headings[i].offsetTop)) {
+      if (boundary >= Math.floor(headings[i].getBoundingClientRect().top + scrollTop)) {
         const linkDetail = linkDetails[i];
         cleanup(linkDetail);
 
