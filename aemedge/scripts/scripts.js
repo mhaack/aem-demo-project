@@ -438,16 +438,19 @@ async function loadFooter(footer) {
  */
 async function loadLazy(doc) {
   initSidekick();
+
+  // load header and sidenav before main blocks
+  if (!window.hlx.suppressLoadPage) {
+    loadHeader(doc.querySelector('header'));
+    loadSideNav(doc.querySelector('aside'));
+  }
   const main = doc.querySelector('main');
   await loadBlocks(main);
 
   const { hash } = window.location;
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
-
   if (!window.hlx.suppressLoadPage) {
-    loadHeader(doc.querySelector('header'));
-    loadSideNav(doc.querySelector('aside'));
     loadFooter(doc.querySelector('footer'));
   }
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
