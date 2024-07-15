@@ -8,5 +8,5 @@ sitemaps:
     lastmod: YYYY-MM-DD
   authors:
     origin: https://www.sap.com
-    source: /aemedge/authors-index.json
+    source: /aemedge/profiles-index.json?sheet=authors
     destination: /aemedge/sitemap-hub-authors.xml
