@@ -1,8 +1,16 @@
-import { sendAdobeDCBeacon, getPrenotificationPromise } from './beacon.js';
+import { getLoadAdobeDCGuard, getSendBeaconGuard } from './guards.js';
 import { getEnvType } from './analytics-core.js';
 import { loadScript } from '../../scripts/aem.js';
 
-async function loadLaunch() {
+async function sendBeacon(stl = null, dl = window.adobeDataLayer) {
+  getSendBeaconGuard().then(() => {
+    dl.push({
+      event: stl ? 'stlBeaconReady' : 'stBeaconReady',
+    });
+  });
+}
+
+async function loadAdobeDC() {
   const prefix = 'https://assets.adobedtm.com/ccc66c06b30b';
   const adobeTagsSrc = {
     dev: `${prefix}/329fd5db13e8/launch-462cd12600a7-development.min.js`,
@@ -17,16 +25,11 @@ async function loadLaunch() {
   }
 }
 
-async function loadAdobeDC() {
-  const ccPromise = getPrenotificationPromise('cc');
-  if (ccPromise) {
-    ccPromise.then(() => {
-      loadLaunch();
-    });
-  } else {
-    loadLaunch();
-  }
+async function loadAdobeDCSendBeacon() {
+  getLoadAdobeDCGuard().then(() => {
+    loadAdobeDC();
+    sendBeacon();
+  });
 }
 
-loadAdobeDC();
-sendAdobeDCBeacon();
+loadAdobeDCSendBeacon();

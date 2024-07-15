@@ -3,7 +3,7 @@ import {
   fetchAndStoreCountryCode,
   getCountryCode,
 } from './solutions/country.js';
-import { prenotifyWaitForSolution, solutionReadyById } from './beacon.js';
+import { registerWaitForSolution, solutionReadyById } from './guards.js';
 
 function getEnvType(hostname = window.location.hostname) {
   const fqdnToEnvType = {
@@ -35,16 +35,16 @@ async function setCountry() {
 }
 
 async function scheduleSolutionsLoad() {
-  prenotifyWaitForSolution('cc');
+  registerWaitForSolution('cc', true);
   const delayMs = 20;
   window.setTimeout(() => {
     document.addEventListener('cc-initialized', () => {
       if (window.isConsentEnabled('omtrdc.net', 1) && window.isConsentEnabled('6sense.com', 1)) {
-        prenotifyWaitForSolution('6s');
+        registerWaitForSolution('6s');
         import('./solutions/6s.js');
       }
       if (window.isConsentEnabled('omtrdc.net', 1) && window.isConsentEnabled('ml314.com', 1)) {
-        prenotifyWaitForSolution('bb');
+        registerWaitForSolution('bb');
         import('./solutions/bb.js');
       }
       solutionReadyById('cc');

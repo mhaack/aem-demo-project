@@ -1,4 +1,4 @@
-import { solutionReadyByPromise } from '../beacon.js';
+import { solutionReadyByPromise } from '../guards.js';
 
 function init6sense(resolve) {
   try {

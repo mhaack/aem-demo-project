@@ -5,7 +5,7 @@ const prodHostnames = [
 
 function getCountryCode() {
   const match = document.cookie.match('country=([^;]+)');
-  return match && match[1] !== '(NULL)' ? match[1] : null;
+  return match && match[1] !== '(NULL)' ? match[1] : 'DE';
 }
 
 function getRegionCode() {

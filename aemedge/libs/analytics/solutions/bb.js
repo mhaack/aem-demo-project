@@ -1,4 +1,4 @@
-import { solutionReadyByPromise } from '../beacon.js';
+import { solutionReadyByPromise } from '../guards.js';
 
 async function initBombora(resolve) {
   await initStandard();
