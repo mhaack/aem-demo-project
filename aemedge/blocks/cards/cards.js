@@ -85,11 +85,11 @@ export default function decorate(block) {
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
     const cardDiv = document.createElement('div');
-    cardDiv.className = 'cards-card';
+    cardDiv.classList.add('cards-card');
     while (row.firstElementChild) cardDiv.append(row.firstElementChild);
     [...cardDiv.children].forEach((childDiv) => {
       if (childDiv.children.length === 1 && childDiv.querySelector('picture')) {
-        childDiv.className = 'cards-card-image';
+        childDiv.classList.add('cards-card-image');
       } else if (childDiv.children.length === 2 && childDiv.querySelector('picture')) {
         // remove wrapping <p> from <picture>
         const pictureEl = childDiv.querySelector('picture');
@@ -102,11 +102,11 @@ export default function decorate(block) {
           const backgroundColourToken = toClassName(backgroundColourTokenEl.textContent.trim());
           const styleKey = `--udexColor${capitalize(backgroundColourToken.replace('background-', ''))}`;
           childDiv.style.backgroundColor = styleProperties.getPropertyValue(styleKey);
-          childDiv.className = 'cards-card-image cards-card-image--has-background';
+          childDiv.classList.add('cards-card-image', 'cards-card-image--has-background');
           backgroundColourTokenEl.remove();
         }
       } else {
-        childDiv.className = 'cards-card-body';
+        childDiv.classList.add('cards-card-body');
       }
     });
     const li = document.createElement('li');

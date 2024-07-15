@@ -32,6 +32,10 @@
   & p:not(.button-container) {
     font-size: var(--udexTypographyBodySFontSize);
     margin-block-end: var(--udexSpacer20);
+
+    &:last-child {
+      margin-block-end: 0;
+    }
   }
 
   & .cards-card {
