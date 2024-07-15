@@ -336,6 +336,11 @@ function setSAPTheme() {
   }
 }
 
+function loadSchemaApp() {
+  window.schema_highlighter = { accountId: 'SAP', outputCache: true };
+  loadScript('https://cdn.schemaapp.com/javascript/highlight.js', { async: true });
+}
+
 async function loadConfig() {
   const response = await fetch(`${window.hlx.codeBasePath}/config.json`);
   const configResponse = await response.json();
@@ -455,6 +460,7 @@ async function loadLazy(doc) {
   }
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
+  loadSchemaApp();
 
   sampleRUM('lazy');
   sampleRUM.observe(main.querySelectorAll('div[data-block-name]'));
