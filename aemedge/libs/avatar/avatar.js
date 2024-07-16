@@ -11,7 +11,7 @@ export default class Avatar {
     this.title = title;
     this.description = description;
     this.path = path;
-    this.image = image;
+    this.image = (image && image !== '0') ? image : null;
   }
 
   static fromAuthorEntry(profile) {
