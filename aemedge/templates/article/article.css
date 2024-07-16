@@ -338,15 +338,15 @@ main {
   }
 }
 
-/* image and video caption */
-.article p > em,
-.article .picture-caption > em {
-  font-style: normal;
-  color: var(--udexColorGrey9);
+.article p > em {
+  font-style: italic;
 }
 
+/* image and video caption */
 .article .picture-caption > em {
+  color: var(--udexColorGrey9);
   font-size: var(--udexTypographyBodyXSFontSize);
+  font-style: normal;
 }
 
 .article :is(.lightbox, p .picture-container) {
