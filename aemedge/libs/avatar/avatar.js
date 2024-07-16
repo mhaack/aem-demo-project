@@ -48,7 +48,7 @@ export default class Avatar {
   renderDetails(size, linkText) {
     const element = div(
       { class: 'avatar-wrapper' },
-      this.image ? div({ class: `avatar ${size}` }, div(this.getImage())) : '',
+      this.image ? div({ class: `avatar ${size}` }, div(this.getImage())) : div({ class: 'no-avatar' }),
       div(
         { class: 'avatar-details' },
         h2(this.name),

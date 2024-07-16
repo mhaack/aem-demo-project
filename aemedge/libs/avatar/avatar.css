@@ -53,6 +53,10 @@
 }
 
 @media (width >=640px) {
+  .avatar-wrapper:has(.no-avatar) {
+    gap: 0;
+  }
+
   .avatar.flexible-big {
     flex: 0 0 7.5rem;
     width: 7.5rem;

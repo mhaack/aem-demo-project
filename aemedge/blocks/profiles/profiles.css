@@ -166,6 +166,12 @@
             }
         }
 
+         & .no-avatar {
+            flex: 0 0 7.5rem;
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+
         & p {
             text-align: center;
         }
