@@ -187,6 +187,18 @@ main {
     }
     /* stylelint-enable no-descending-specificity */
 
+    @media (width >= 1280px) {
+      & > :is(h2, h3, p) {
+        max-width: calc((9 * var(--udexGridGutters)) + (10 * var(--column-width)));
+      }
+    }
+
+    @media (width >= 1600px) {
+      & > :is(h2, h3, p) {
+        max-width: calc((7 * var(--udexGridGutters)) + (8 * var(--column-width)));
+      }
+    }
+
     & > p.button-container {
       margin-block: var(--udexSpacer48) 0;
 

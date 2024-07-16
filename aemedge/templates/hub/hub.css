@@ -103,6 +103,14 @@ main > .section:not(.fragment-container) {
     }
   }
 
+  & > main > .section:not(.column-section) .default-content-wrapper {
+    @media (width >= 1280px) {
+      & > :is(h2, h3, p) {
+        max-width: calc((9 * var(--udexGridGutters)) + (10 * var(--column-width)));;
+      }
+    }
+  }
+
   @media (width >= 980px) {
     display: grid;
   }
@@ -186,14 +194,6 @@ main > .section:not(.fragment-container) {
 }
 
 .hub-l2.appear {
-  & > main {
-    @media (width >= 980px) {
-      & > .section > .default-content-wrapper > :is(h2, h3, p) {
-        width: calc((7 * var(--udexGridGutters)) + (8 * var(--column-width)));;
-      }
-    }
-  }
-
   &:has(aside) {
     --hero-margin--left: 0;
     --hero-margin--right: 0;
@@ -203,6 +203,12 @@ main > .section:not(.fragment-container) {
         & > * {
           --hero-margin--left: 48px;
           --hero-margin--right: var(--udexGridMargins);
+        }
+
+        @media (width >= 1280px) {
+          & > .section > .default-content-wrapper > :is(h2, h3, p) {
+            width: calc((7 * var(--udexGridGutters)) + (8 * var(--column-width)));;
+          }
         }
       }
 
