@@ -6,6 +6,7 @@ export default async function decorate(block) {
   const quoteAuthor = block.querySelector(':scope > div:nth-of-type(2) > div');
   const quoteLink = block.querySelector(':scope > div:nth-of-type(3) > div');
   const isSmall = block.classList.contains('small');
+  const noAvatar = block.classList.contains('no-avatar');
   quoteText.classList.add('col', 'content');
   quoteText.parentNode.classList.add('qt');
   if (quoteAuthor) {
@@ -13,7 +14,7 @@ export default async function decorate(block) {
     quoteAuthor.parentNode.classList.add('qs');
     const authorIndex = await fetchProfiles();
     const authorEntry = lookupProfiles(quoteAuthor.textContent, authorIndex)?.[0];
-    if (authorEntry && authorEntry.image) {
+    if (!noAvatar && authorEntry && authorEntry.image) {
       const avatar = Avatar.fromAuthorEntry(authorEntry).render(isSmall ? 'medium' : 'big', true);
       block.insertBefore(avatar, quoteText.parentNode);
     }
