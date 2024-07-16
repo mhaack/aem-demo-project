@@ -446,6 +446,10 @@ function capitalize(name) {
     .replace(/^\w/, (firstLetter) => firstLetter.toUpperCase());
 }
 
+function isNewsPage() {
+  return window.location.pathname.startsWith('/news/');
+}
+
 export {
   buildAuthorUrl,
   buildCardDisplayProfile,
@@ -469,6 +473,7 @@ export {
   capitalize,
   addColClassesForCount,
   addColClasses,
+  isNewsPage,
   LIST_LAYOUT_CONFIG,
   LIST_LAYOUT_CONFIG_L2,
 };

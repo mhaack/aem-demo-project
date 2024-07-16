@@ -13,6 +13,7 @@ import {
   getTagLink,
   lookupProfiles,
   toTitleCase,
+  isNewsPage,
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
@@ -63,7 +64,7 @@ function decorateMetaInfo(authors) {
     ? getMetadata('modified-time')
     : getMetadata('published-time');
   if (lastUpdate) {
-    const lastUpdatePrefix = window.location.pathname.startsWith('/news/')
+    const lastUpdatePrefix = isNewsPage()
       ? 'Published on'
       : 'Updated on';
     infoBlockWrapper.append(
@@ -209,7 +210,7 @@ export default async function decorate(block) {
 
   // Add primary tag or news placeholder
   const tagContainer = div({ class: 'media-blend__tags' });
-  if (window.location.pathname.startsWith('/news/') && isArticle) {
+  if (isNewsPage() && isArticle) {
     const placeholders = await fetchPlaceholders();
     tagContainer.append(new Tag(placeholders[toCamelCase('SAP News Center')], '/news').render());
   } else {

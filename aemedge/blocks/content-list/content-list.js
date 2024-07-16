@@ -14,6 +14,7 @@ import {
   fetchProfiles,
   fetchTagList,
   getContentTypeFromArticle,
+  isNewsPage,
 } from '../../scripts/utils.js';
 import Carousel from '../../libs/carousel/carousel.js';
 
@@ -46,6 +47,9 @@ function getInfo(article, config, infoUpdatedLabel) {
     return article.cardC2A;
   }
   if (info[0] === 'publicationDate') {
+    if (isNewsPage()) {
+      return `Published on ${formatDate(article.publicationDate * 1000)}`;
+    }
     if (infoUpdatedLabel) {
       return `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
     }
