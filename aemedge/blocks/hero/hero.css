@@ -99,6 +99,12 @@ udex-hero-banner {
       --udexHeroBannerContentPaddingVertical: var(--udexSpacer56);
     }
   }
+
+  .hero-wrapper:not(.full-background-image-style-wrapper) udex-hero-banner {
+    &:has(.custom-background-image) {
+      --udexHeroBannerSlotMaxWidth: calc(((100% - var(--udexGridMargins))/2) - 2 * var(--udexHeroBannerContentPaddingHorizontal));
+    }
+  }
 }
 
 /* Additional content */
@@ -345,6 +351,12 @@ udex-hero-banner .custom-background-image {
   udex-hero-banner picture:has(.custom-background-image) {
     height: var(--hero-custom-image-height);
     width: 50%;
+  }
+}
+
+@media (width >= 1600px) {
+  udex-hero-banner picture:has(.custom-background-image) {
+    width: calc((100% - var(--udexGridMargins)) / 2);
   }
 }
 

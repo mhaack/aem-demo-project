@@ -6,9 +6,13 @@ main .section {
   }
 }
 
-@media (width >= 1600px) {
-  .article {
-    --udexGridMargins: 246px;
+.article {
+  @media (width >= 1600px) {
+    & {
+      --udexGridMargins: max(246px, calc((100vw - 1108px) / 2));
+      --hero-margin--right: var(--udexGridMargins);
+      --hero-margin--left: var(--udexGridMargins);
+    }
   }
 }
 
@@ -37,10 +41,6 @@ main {
 
   & > * {
     grid-column: 1 / -1;
-    transition-property: margin-inline-start, margin-inline-end, margin-inline,
-    margin-block-end;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
   }
 
   & .section > .default-content-wrapper {

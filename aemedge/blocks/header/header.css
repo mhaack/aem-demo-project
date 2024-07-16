@@ -14,7 +14,7 @@ header {
   --nav-links-font-weight: var(--udexTypographyFontWeightRegular);
   --nav-links-line-height: var(--udexTypographyNavigationLineHeight);
   --nav-tab-list-spacing: var(--udexSpacer24);
-  --nav-grid-width: min(var(--grid-width), 1600px);
+  --nav-grid-width: min(var(--grid-width), 1108px);
   --nav-column-width: calc((var(--nav-grid-width) - (11 * var(--udexGridGutters))) / 12);
   --nav-dropdown-desktop-inline-spacing: 52px;
   --nav-dropdown-desktop-block-spacing: 32px;
