@@ -56,7 +56,9 @@ export default async function decorate(block) {
   block.textContent = '';
   const urlParams = new URLSearchParams(window.location.search);
   const page = +urlParams.get(`${id}-page`) || 1;
-  const stream = await ffetch(config.source, 'sapContentHubArticles').paginate(config.limit || 6, page);
+  const stream = await ffetch(config.source, 'sapContentHubArticles')
+    .filter((entry) => entry.Title && entry.URL && entry.Source)
+    .paginate(config.limit || 6, page);
   stream.next().then((cursor) => {
     cursor.value.results.forEach((entry) => {
       const linkTitle = entry.Source
