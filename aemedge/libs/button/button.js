@@ -18,7 +18,7 @@ export default class Button {
   render(isDisabled) {
     const btn = button(
       {
-        class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''} ${this.iconOnly ? '' : 'icon-only'}`,
+        class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''} ${this.iconOnly ? 'icon-only' : ''}`,
         type: 'button',
         'aria-label': this.label,
       },

@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
 import {
-  li, p, label, ul, menu as menuBuilder,
+  li, p, span, ul, menu as menuBuilder,
 } from '../../scripts/dom-builder.js';
 import { toClassName } from '../../scripts/aem.js';
 
@@ -67,7 +67,7 @@ export default class List {
     if (menuItems.length > 10) scroll = 'scrollable';
     const menu = menuBuilder(
       { class: 'menu' },
-      label({ class: 'title' }, this.name),
+      span({ class: 'title' }, this.name),
       ul({ class: `items ${scroll}` }, ...menuItems),
     );
     this.attachHandler(menu);

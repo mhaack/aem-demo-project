@@ -1,19 +1,35 @@
+/* stylelint-disable selector-class-pattern */
+
 @import url("/aemedge/libs/menu/menu.css");
 @import url("/aemedge/libs/tag/tag.css");
 
 .filters {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   margin-block-end: var(--udexSpacer32);
 
-  & .filter-panel {
+  & .filter-panel menu {
+    display: none;
+  }
+
+  & .filter-panel_actions {
     display: flex;
-    justify-content: flex-start;
-    gap: 52px;
-    margin-block-end: var(--udexSpacer32);
-    position: relative;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  & .filter-panel {
+    display: inline-flex;
+  }
+
+  & .results-panel {
+    align-items: center;
+    display: inline-flex;
   }
 
   & .tags-panel {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     gap: var(--udexSpacer8);
     position: relative;
@@ -22,5 +38,210 @@
     &:empty {
       display: none;
     }
+  }
+
+  @media (width >= 980px) {
+    flex-direction: column;
+
+    & .tags-panel {
+      display: flex;
+    }
+
+    & .filter-panel {
+      display: flex;
+      justify-content: flex-start;
+      gap: 52px;
+      margin-block-end: var(--udexSpacer32);
+      position: relative;
+
+      & .filter-panel_actions {
+        display: none;
+      }
+
+      & menu {
+        display: initial;
+      }
+    }
+
+    & .results-panel {
+      display: block;
+    }
+  }
+}
+
+.filter-overlay {
+  background-color: var(--udexColorNeutralWhite);
+  inset: 0;
+  position: fixed;
+  z-index: 200;
+  flex-direction: column;
+  margin: 0;
+  display: none;
+  overflow: auto;
+
+  & .filter-overlay_filters {
+    padding-block-end: var(--udexSpacer16);
+    padding-inline: var(--udexGridMargins);
+    overflow-y: auto;
+
+    /* Scrollbar styling works in Chrome. Customisation options are more limited in Firefox */
+    &::-webkit-scrollbar {
+      width: var(--udexSpacer16);
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: var(--udexColorNeutralWhite);
+      border-radius: var(--udexSpacer8);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--udexColorGrey5);
+      border: 2px solid var(--udexColorNeutralWhite);
+      border-radius: var(--udexSpacer8);
+    }
+
+    &::-webkit-scrollbar-thumb:vertical:active {
+      background-color: var(--udexColorGrey6);
+    }
+  }
+
+  & .filter-overlay_filter:not([open]) {
+    border-bottom: 1px solid var(--udexColorGrey3);
+    width: 100%
+  }
+
+  & .filter-overlay_filter_label {
+    position: relative;
+    padding: var(--udexSpacer12) var(--udexSpacer12) var(--udexSpacer12) var(--udexSpacer8);
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--udexTypographyHeadingMediumXXXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    box-sizing: border-box;
+    width: 100%;
+
+    &::before {
+      background-color: currentcolor;
+      box-sizing: border-box;
+      content: "";
+      display: inline-block;
+      line-height: var(--udexTypographyHeadingMediumXXXSFontSize);
+      padding: var(--udexSpacer12);
+      margin-inline-end:  var(--udexSpacer12);
+      mask: url("/aemedge/icons/slim-arrow-right.svg") center / 18px 18px no-repeat;
+      transition: transform .3s ease;
+      transform: rotate(0deg);
+      width: 42px;
+      height: 42px;
+
+      /* --udexColorBlue7 */
+      filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%);
+    }
+  }
+
+  & .filter-overlay_filter[open] .filter-overlay_filter_label {
+    border-bottom: 1px solid var(--udexColorGrey3);
+    width: 100%;
+
+    &::before {
+      transform: rotate(90deg);
+    }
+  }
+
+  & .filter-overlay_filter_options {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-inline-size: min-content;
+    margin-block: var(--udexSpacer12);
+    margin-inline: var(--udexSpacer16);
+  }
+
+  & .filter-overlay_filter_option_input {
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+  }
+
+  & .filter-overlay_filter_option_input::before {
+    content: "";
+    display: inline-block;
+    height: var(--udexSpacer24);
+    margin: 9px;
+    width: var(--udexSpacer24);
+  }
+
+  & .filter-overlay_filter_option_input::after {
+    box-sizing: border-box;
+    border: 1px solid var(--udexColorGrey6);
+    border-radius: var(--udexSpacer4);
+    content: "";
+    display: inline-block;
+    height: var(--udexSpacer24);
+    left: 0;
+    margin: 9px;
+    position: absolute;
+    top: 0;
+    width: var(--udexSpacer24);
+    z-index: -1;
+  }
+
+  & .filter-overlay_filter_option_input:checked::before {
+    background: url("/aemedge/icons/accept.svg") center / var(--udexSpacer16) var(--udexSpacer16) no-repeat;
+
+    /* --udexColorBlue7 */
+    filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%);
+  }
+
+  & .button-wrapper {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  & .filter-overlay_actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--udexSpacer8);
+    width: 100%;
+    margin-block-end: var(--udexSpacer16);
+    padding-block-start: var(--udexSpacer16);
+    padding-inline: var(--udexGridMargins);
+  }
+
+  & .filter-overlay_close {
+    margin-inline-start: auto;
+  }
+
+  & .filter-overlay_filter_option_label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+
+    & span {
+      flex: 1;
+    }
+
+    &:hover {
+      & input::after {
+        background: var(--udexColorBlue1);
+        border-color: var(--udexColorBlue7);
+      }
+    }
+  }
+}
+
+@media (width < 980px) {
+  .filter-overlay[aria-expanded="true"] {
+    display: flex;
+  }
+
+  body:has(.filter-overlay[aria-expanded="true"]) {
+    overflow-y: hidden;
   }
 }

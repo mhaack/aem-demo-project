@@ -1,26 +1,22 @@
 /* eslint-disable max-len */
 /* eslint-disable no-param-reassign */
 import {
-  getMetadata,
-  fetchPlaceholders,
-  readBlockConfig,
-  toCamelCase,
-  toClassName,
+  fetchPlaceholders, getMetadata, readBlockConfig, toCamelCase, toClassName,
 } from '../../scripts/aem.js';
 import { ul } from '../../scripts/dom-builder.js';
 import {
-  fetchTagList,
-  toTitleCase,
-  formatDate,
-  getParameterMap,
-  buildCardDisplayProfile,
-  lookupProfiles,
-  getContentTypeFromArticle,
-  fetchAuthors,
-  addColClassesForCount,
-  LIST_LAYOUT_CONFIG_L2,
-  LIST_LAYOUT_CONFIG,
   addColClasses,
+  addColClassesForCount,
+  buildCardDisplayProfile,
+  fetchAuthors,
+  fetchTagList,
+  formatDate,
+  getContentTypeFromArticle,
+  getParameterMap,
+  LIST_LAYOUT_CONFIG,
+  LIST_LAYOUT_CONFIG_L2,
+  lookupProfiles,
+  toTitleCase,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
@@ -103,7 +99,7 @@ function getPathFilter(entry, author, matchedPathTags) {
 function getTagFilter(entry, params, nonFilterParams, id) {
   let filterTags = [];
   params.forEach((value, key) => {
-    if (!(nonFilterParams.includes(key) || key === `${id}-month-year`) && key.startsWith(id)) {
+    if (!(nonFilterParams.includes(key) || key === `${id}-date-range`) && key.startsWith(id)) {
       filterTags.push(value);
     }
   });
@@ -112,7 +108,7 @@ function getTagFilter(entry, params, nonFilterParams, id) {
 }
 
 function getDateFilter(entry, params, id) {
-  const dateRange = params.get(`${id}-month-year`);
+  const dateRange = params.get(`${id}-date-range`);
   if (!dateRange) return true;
   const publicationDate = new Date(entry.publicationDate * 1000);
   const dateString = `${publicationDate.getUTCFullYear()}/${(publicationDate.getUTCMonth() + 1).toString().padStart(2, '0')}`;
@@ -155,7 +151,7 @@ function renderCards(articles, placeholders, tags, authorIndex, textOnly, carous
     return getPictureCard(article, placeholders, tags, displayAuthor)
       .render(
         pageSize === 1
-        || (userConfig.length === 0 && totalCount === 1)
+        || (Object.keys(userConfig).length === 0 && totalCount === 1)
         || horizontal,
       );
   });
@@ -175,7 +171,7 @@ function addPaginationClasses(cardList, pageSize) {
 
 function addLayoutClasses(cardList, carousel, textOnly, horizontal, moreThanOnePage, userConfig, pageSize) {
   // Apply column layout classes
-  if (!carousel && !textOnly && !horizontal && (moreThanOnePage || userConfig.length > 0)) {
+  if (!carousel && !textOnly && !horizontal && (moreThanOnePage || Object.keys(userConfig).length > 0)) {
     addPaginationClasses(cardList, pageSize);
   } else if (!carousel && !textOnly && getMetadata('template') === 'hub-l2') {
     addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
@@ -201,36 +197,34 @@ function registerHandler(
   pageSize,
   horizontal,
 ) {
-  ['sap:itemSelect', 'sap:itemClose'].forEach((e) => {
-    block.addEventListener(e, async () => {
-      articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize);
-      articleStream.next().then((cursor) => {
-        block.querySelector('.card-items')?.remove();
-        const cards = renderCards(
-          cursor.value.results,
-          placeholders,
-          tags,
-          authorIndex,
-          textOnly,
-          carousel,
-          pageSize,
-          cursor.value.total,
-          horizontal,
-          userConfig,
-        );
-        addLayoutClasses(
-          cards,
-          carousel,
-          textOnly,
-          horizontal,
-          cursor.value.pages > 1,
-          userConfig,
-          pageSize,
-        );
-        if (filters) filters.updateResults(block, cursor.value.total);
-        block.append(cards);
-        if (pages) pages.updatePages(cursor.value.pages, 1);
-      });
+  block.addEventListener('sap:filterChange', async () => {
+    articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize);
+    articleStream.next().then((cursor) => {
+      block.querySelector('.card-items')?.remove();
+      const cards = renderCards(
+        cursor.value.results,
+        placeholders,
+        tags,
+        authorIndex,
+        textOnly,
+        carousel,
+        pageSize,
+        cursor.value.total,
+        horizontal,
+        userConfig,
+      );
+      addLayoutClasses(
+        cards,
+        carousel,
+        textOnly,
+        horizontal,
+        cursor.value.pages > 1,
+        userConfig,
+        pageSize,
+      );
+      if (filters) filters.updateResults(block, cursor.value.total);
+      block.append(cards);
+      if (pages) pages.updatePages(cursor.value.pages, 1);
     });
   });
   block.addEventListener('sap:pageChange', (e) => {
@@ -263,7 +257,7 @@ function registerHandler(
   });
 }
 
-function getMonthRange(startDate, endDate) {
+function getMonthRange(startDate, endDate, id) {
   const start = new Date(startDate);
   const end = new Date(endDate);
 
@@ -288,6 +282,7 @@ function getMonthRange(startDate, endDate) {
     months.push({
       label: `${month} ${start.getUTCFullYear()}`,
       value: `${start.getUTCFullYear()}/${(start.getUTCMonth() + 1).toString().padStart(2, '0')}`,
+      id,
     });
     start.setUTCMonth(start.getUTCMonth() + 1);
   }
@@ -295,10 +290,16 @@ function getMonthRange(startDate, endDate) {
   return months.reverse();
 }
 
+/**
+ * @param block {HTMLElement}
+ * @param tags {{[id: string]: {label: string, key: string}}}
+ * @param id {string}
+ * @return {{userConfig: {[id: string]: {id: string, name: string, items: {id: string, label: string, value: string}[]}}, editorConfig: {[id: string]: string[]}}}
+ */
 function getFilterConfig(block, tags, id, placeholders) {
   const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info', 'page-size'];
   const editorConfig = {};
-  const userConfig = [];
+  const userConfig = {};
   Object.entries(readBlockConfig(block)).forEach(([key, value]) => {
     if (configKeys.includes(key)) {
       editorConfig[key] = value.split(',').map((v) => v.trim());
@@ -306,36 +307,37 @@ function getFilterConfig(block, tags, id, placeholders) {
     }
     if (key === 'date-range') {
       const dates = value.split('to');
-      userConfig.push({
-        id: `${id}-date-range`,
+      const filterId = `${id}-date-range`;
+      userConfig[filterId] = {
+        id: filterId,
         name: 'Month/Year',
-        items: getMonthRange(dates[0].trim(), dates[1].trim()),
-      });
+        items: getMonthRange(dates[0].trim(), dates[1].trim(), filterId),
+      };
       return;
     }
+    const filterId = `${id}-${key}`;
     const items = value
       .split(',')
       .flatMap((item) => {
         if (item.endsWith('/*')) {
           const prefix = toCamelCase(item);
-          const filteredEntries = Object.entries(tags)
+          return Object.entries(tags)
             .filter(([tagKey]) => tagKey.startsWith(prefix))
             .reduce(
               // eslint-disable-next-line no-unused-vars
-              (acc, [tagKey, tagValue]) => [...acc, { label: tagValue.label, value: tagValue.key }],
+              (acc, [, tagValue]) => [...acc, { label: tagValue.label, value: tagValue.key, id: filterId }],
               [],
             );
-          return filteredEntries;
         }
         const tag = tags[toCamelCase(item.trim())];
-        return tag ? { label: tag.label, value: tag.key } : null;
+        return tag ? { label: tag.label, value: tag.key, id: filterId } : null;
       })
       .filter((item) => item !== null);
-    userConfig.push({
-      id: `${id}-${key}`,
+    userConfig[filterId] = {
+      id: filterId,
       name: placeholders[toCamelCase(key)] || toTitleCase(key),
       items,
-    });
+    };
   });
   return { editorConfig, userConfig };
 }
@@ -383,7 +385,7 @@ export default async function decorateBlock(block) {
     userConfig,
   );
 
-  if (userConfig.length > 0 && !carousel) {
+  if (Object.keys(userConfig).length > 0 && !carousel) {
     filters = new Filters(
       userConfig,
       placeholders,
@@ -394,7 +396,7 @@ export default async function decorateBlock(block) {
     filters.updateResults(block, cursor.value.total);
   }
   block.append(cardList);
-  if (!carousel && moreThanOnePage && cursor.value.pages <= 2 && userConfig.length === 0) {
+  if (!carousel && moreThanOnePage && cursor.value.pages <= 2 && Object.keys(userConfig).length === 0) {
     const btnLabel = placeholders.showMore || 'Show More';
     const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', 'large').render();
     viewBtn.addEventListener('click', () => {
@@ -421,7 +423,7 @@ export default async function decorateBlock(block) {
     });
     block.append(viewBtn);
   }
-  if (!carousel && (cursor.value.pages > 2 || userConfig.length > 0)) {
+  if (!carousel && (cursor.value.pages > 2 || Object.keys(userConfig).length > 0)) {
     pages = new Pages(block, cursor.value.pages, page, id);
     pages.render();
   }
