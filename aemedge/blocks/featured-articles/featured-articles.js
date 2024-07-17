@@ -6,6 +6,7 @@ import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import {
   formatDate,
   fetchPages,
+  getConfig,
   getContentType,
   fetchTagList,
   buildCardDisplayProfile,
@@ -15,8 +16,33 @@ import {
   fetchProfiles, addColClasses, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2,
 } from '../../scripts/utils.js';
 
+/**
+ * @param {string} publishedTime
+ */
+function isPriorityExpired(publishedTime) {
+  try {
+    const publishedDate = new Date(publishedTime);
+    const maxDays = getConfig('article.priority.maxDays');
+    const expirationDate = new Date(publishedDate.setDate(publishedDate.getDate() + +maxDays));
+
+    return expirationDate < new Date();
+  } catch (error) {
+    return false;
+  }
+}
+
+function getTagLabel(article, placeholders) {
+  const publishedTime = getMetadata('published-time', article);
+
+  if (isPriorityExpired(publishedTime)) {
+    return '';
+  }
+
+  return placeholders[toCamelCase(getMetadata('priority', article))] || '';
+}
+
 function getPictureCard(article, placeholders, tags, author, eager) {
-  const tagLabel = placeholders[toCamelCase(getMetadata('priority', article))] || '';
+  const tagLabel = getTagLabel(article, placeholders);
   const url = getMetadata('card-url', article) || new URL(getMetadata('og:url', article)).pathname;
   const infoUpdatedLabel = isNewsPage() ? 'Published on' : (placeholders.updatedOn || 'Updated on');
   const info = getMetadata('card-c2a', article) || `${infoUpdatedLabel} ${formatDate(getMetadata('published-time', article))}`;
