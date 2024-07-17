@@ -37,7 +37,6 @@ udex-hero-banner {
   &:has(.media-blend__additional-content) {
     /* Corresponds to Media Blend Hero on Frontify */
     --udexHeroBannerContentPaddingVertical: 0;
-    --udexHeroBannerSlotMaxWidth: calc(50% - 2 * var(--udexHeroBannerContentPaddingHorizontal));
 
     .media-blend__content {
       padding-block-start: var(--udexSpacer32);
@@ -63,10 +62,12 @@ udex-hero-banner {
 
       .media-blend__content {
         padding-block-start: 0;
+        margin-inline-end: calc(var(--hero-margin--right) - 22px);
       }
 
       .media-blend__additional-content {
         padding-block: 0;
+        margin-inline-start: calc(var(--hero-margin--left) - 22px);
       }
     }
   }
@@ -78,6 +79,15 @@ udex-hero-banner {
 
     &:has(.media-blend__additional-content) {
       --udexHeroBannerContentPaddingVertical: var(--udexSpacer56);
+      --udexHeroBannerSlotMaxWidth: calc(50% - 2 * var(--udexHeroBannerContentPaddingHorizontal));
+
+      .media-blend__content {
+        margin-inline-end: 0;
+      }
+
+      .media-blend__additional-content {
+        margin-inline-start: 0;
+      }
     }
 
     /* Calculating the width of 8 columns */
