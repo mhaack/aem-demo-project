@@ -147,7 +147,7 @@ button.toc__selected {
   }
 }
 
-@media (width >= 980px) {
+@media (width >= 1280px) {
   .toc-container {
     position: static;
   }
