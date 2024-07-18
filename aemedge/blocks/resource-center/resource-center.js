@@ -35,7 +35,7 @@ function getPictureCard(article, placeholders, tags, author) {
     } = article;
     const tagLabel = placeholders[toCamelCase(priority)] || '';
     const link = cardUrl !== '0' ? cardUrl : path;
-    const infoUpdatedLabel = isNewsPage() ? 'Published on' : (placeholders.updatedOn || 'Updated on');
+    const infoUpdatedLabel = isNewsPage() || path.startsWith('/news/') ? 'Published on' : (placeholders.updatedOn || 'Updated on');
     let info = `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
     if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
       info = article.cardC2A;
@@ -51,7 +51,7 @@ function getPictureCard(article, placeholders, tags, author) {
 function getCard(article, tags) {
   const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const { path, title } = article;
-  const infoUpdatedLabel = isNewsPage() ? 'Published on' : 'Updated on';
+  const infoUpdatedLabel = isNewsPage() || path.startsWith('/news/') ? 'Published on' : 'Updated on';
   let info = `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
   if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
     info = article.cardC2A;
