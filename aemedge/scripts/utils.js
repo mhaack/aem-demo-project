@@ -450,6 +450,10 @@ function isNewsPage() {
   return window.location.pathname.startsWith('/news/');
 }
 
+function isArticle() {
+  return getMetadata('template') === 'article';
+}
+
 export {
   buildAuthorUrl,
   buildCardDisplayProfile,
@@ -474,6 +478,7 @@ export {
   addColClassesForCount,
   addColClasses,
   isNewsPage,
+  isArticle,
   LIST_LAYOUT_CONFIG,
   LIST_LAYOUT_CONFIG_L2,
 };

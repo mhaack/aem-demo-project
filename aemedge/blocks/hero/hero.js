@@ -14,6 +14,7 @@ import {
   lookupProfiles,
   toTitleCase,
   isNewsPage,
+  isArticle,
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
@@ -130,8 +131,8 @@ function findFirstTag(tags) {
  * @param {Element} block The hero block element
  */
 export default async function decorate(block) {
-  const isArticle = getMetadata('template') === 'article';
-  const isMediaBlend = isArticle || block.classList.contains('media-blend');
+  const isAnArticle = isArticle();
+  const isMediaBlend = isAnArticle || block.classList.contains('media-blend');
   const tags = await fetchTagList();
 
   // extract block content
@@ -141,7 +142,7 @@ export default async function decorate(block) {
   let eyebrowText = eyebrow?.textContent;
   const contentTypeTag = tags[toCamelCase(getContentType())];
 
-  if (!eyebrowText && isArticle) {
+  if (!eyebrowText && isAnArticle) {
     // if no eyebrow text is set, use the content type for articles
     eyebrowText = contentTypeTag?.label || getContentType()?.split('/')[1].replace('-', ' ');
   }
@@ -150,7 +151,7 @@ export default async function decorate(block) {
   if (eyebrow?.firstElementChild?.tagName.toLowerCase() === 'a') {
     // If author has added a custom link, add appropriate classes for styling
     newEyebrow = buildEyebrow(eyebrow.firstElementChild);
-  } else if (eyebrowText && isArticle) {
+  } else if (eyebrowText && isAnArticle) {
     // If article, add link to parent topics page, and appropriate classes for styling
     const eyeBrowHref = (() => {
       if (contentTypeTag && contentTypeTag['topic-path'] && contentTypeTag['topic-path'] !== '0') return contentTypeTag['topic-path'];
@@ -210,7 +211,7 @@ export default async function decorate(block) {
 
   // Add primary tag or news placeholder
   const tagContainer = div({ class: 'media-blend__tags' });
-  if (isNewsPage() && isArticle) {
+  if (isNewsPage() && isAnArticle) {
     const placeholders = await fetchPlaceholders();
     tagContainer.append(new Tag(placeholders[toCamelCase('SAP News Center')], '/news').render());
   } else {

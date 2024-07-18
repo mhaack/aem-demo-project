@@ -4,6 +4,7 @@ import {
   getAuthorMetadata,
   lookupProfiles,
   addColClasses,
+  isArticle,
   LIST_LAYOUT_CONFIG_L2,
   LIST_LAYOUT_CONFIG,
 } from '../../scripts/utils.js';
@@ -62,7 +63,7 @@ export default async function decorateBlock(block) {
   }
   block.innerHTML = '';
 
-  const stackedLayout = getMetadata('template') === 'article';
+  const stackedLayout = isArticle();
   const profileIndex = await fetchProfiles();
   const profiles = lookupProfiles(keys, profileIndex);
   const placeholders = await fetchPlaceholders();
