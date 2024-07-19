@@ -121,6 +121,13 @@ function getUserFilter(params, nonFilterParams, id) {
   return (entry) => getDateFilter(entry, params, id) && getTagFilter(entry, params, nonFilterParams, id);
 }
 
+function excludedArticlesFilter(entry, editorConfig) {
+  if (editorConfig['excluded-articles'] && editorConfig['excluded-articles'].length > 0) {
+    return !editorConfig['excluded-articles'].includes(entry.path);
+  }
+  return true;
+}
+
 async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 1, batchSize = 6) {
   const params = getParameterMap();
   const path = window.location.pathname;
@@ -134,6 +141,7 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
     .filter((entry) => getPathFilter(entry, author, matchedPathTags))
     .filter((entry) => entry.path !== window.location.pathname)
+    .filter((entry) => excludedArticlesFilter(entry, editorConfig))
     .filter(getEditorFilter(editorConfig))
     .filter(getUserFilter(params, nonFilterParams, id))
     .limit(editorConfig.limit ? +editorConfig.limit[0] : -1)
@@ -299,7 +307,7 @@ function getMonthRange(startDate, endDate, id) {
  * @return {{userConfig: {[id: string]: {id: string, name: string, items: {id: string, label: string, value: string}[]}}, editorConfig: {[id: string]: string[]}}}
  */
 function getFilterConfig(block, tags, id, placeholders) {
-  const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info', 'page-size'];
+  const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info', 'page-size', 'excluded-articles'];
   const editorConfig = {};
   const userConfig = {};
   Object.entries(readBlockConfig(block)).forEach(([key, value]) => {
