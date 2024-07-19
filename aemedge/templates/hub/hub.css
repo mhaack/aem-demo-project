@@ -193,6 +193,20 @@ main > .section:not(.fragment-container) {
   }
 }
 
+.hub-l1.appear {
+  main > .hero-container + .section {
+    @media (width >= 980px) {
+      & > .featured-articles-wrapper + .default-content-wrapper  {
+        & .resource-center-wrapper + .default-content-wrapper {
+          & > p.button-container {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
 .hub-l2.appear {
   &:has(aside) {
     --hero-margin--left: 0;
