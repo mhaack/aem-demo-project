@@ -22,7 +22,12 @@ export default function decorate(block) {
     ),
   ];
 
-  const enlargeButtonHTML = new Button('Enlarge', 'icon-zoom-in', 'secondary', 'medium').render();
+  const enlargeButtonHTML = new Button(
+    'Enlarge',
+    'icon-zoom-in',
+    'secondary',
+    { xs: 'medium', m: 'large' },
+  ).render();
   if (picture.nextSibling.nodeType === Node.TEXT_NODE) {
     const spanWrapper = span();
     spanWrapper.append(picture.nextSibling.cloneNode());

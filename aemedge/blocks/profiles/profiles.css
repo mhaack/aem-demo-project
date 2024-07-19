@@ -74,23 +74,6 @@
     }
 }
 
-.profile .link a {
-    font-size: var(--udexTypographyBodySFontSize);
-    padding-top: var(--udexSpacer4);
-    padding-bottom: var(--udexSpacer4);
-    text-decoration: none;
-}
-
-.profile .link a:hover {
-    text-decoration: underline;
-}
-
-.profile .link .icon img {
-    height: 12px;
-    width: 12px;
-    padding-left: 4px;
-}
-
 /* Use portrait view for S, M, L, XL if more than 1 */
 @media (width >=640px) {
     :is(.profiles):not(.stacked) {

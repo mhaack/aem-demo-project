@@ -15,7 +15,7 @@ header {
     text-wrap: nowrap;
     z-index: 99;
 
-    &, a {
+    &, li a {
       color: var(--udexColorGrey9);
     }
 
@@ -32,10 +32,6 @@ header {
       flex-direction: column;
       gap: var(--udexSpacer16);
       padding-block-start: var(--udexSpacer24);
-
-      & .button-wrapper:has(.button.small) {
-        display: none;
-      }
     }
 
     & .nav-secondary__dropdown {
@@ -348,16 +344,13 @@ header {
       /* Snippet end */
 
       & .nav-secondary-actions {
+        border: none;
         flex-direction: row;
         padding: unset;
         gap: var(--udexSpacer16);
 
-        & .button-wrapper:has(.button.medium) {
+        & .button-container:not(:first-child) {
           display: none;
-        }
-
-        & .button-wrapper:has(.button.small) {
-          display: unset;
         }
       }
 

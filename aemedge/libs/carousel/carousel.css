@@ -1,7 +1,5 @@
 /* stylelint-disable selector-class-pattern */
 
-@import url("/aemedge/libs/button/button.css");
-
 .carousel {
   --carousel-item-width: calc((10 * var(--udexGridGutters)) + (11 * var(--column-width)));
 

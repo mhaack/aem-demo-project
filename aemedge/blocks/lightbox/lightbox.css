@@ -1,5 +1,4 @@
 /* stylelint-disable selector-class-pattern */
-@import url("/aemedge/libs/button/button.css");
 
 .lightbox-modal {
   height: 60vh;
@@ -47,7 +46,7 @@
     margin: 0;
   }
 
-  .button-wrapper {
+  .button-container {
     display: flex;
     justify-content: center;
     margin-block-start: var(--udexSpacer20);

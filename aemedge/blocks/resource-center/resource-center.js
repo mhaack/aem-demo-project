@@ -408,7 +408,12 @@ export default async function decorateBlock(block) {
   block.append(cardList);
   if (!carousel && moreThanOnePage && cursor.value.pages <= 2 && Object.keys(userConfig).length === 0) {
     const btnLabel = placeholders.showMore || 'Show More';
-    const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', 'large').render();
+    const viewBtn = new Button(
+      btnLabel,
+      'icon-slim-arrow-right',
+      'secondary',
+      { xs: 'medium', m: 'large' },
+    ).render();
     viewBtn.addEventListener('click', () => {
       articleStream.next().then((nextCursor) => {
         const cards = renderCards(

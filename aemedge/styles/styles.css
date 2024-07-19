@@ -236,215 +236,14 @@ main pre {
   white-space: pre;
 }
 
-a {
- &:any-link {
-    color: var(--udexColorBlue7);
-    text-decoration: underline;
-  }
-
-  &:visited {
-    color: var(--udexColorBlue10);
-  }
-
-  &:hover,
-  &:focus{
-    color: var(--udexColorBlue9);
-    cursor: pointer;
-    text-decoration: underline;
-  }
-
-  &:active {
-    color: var(--udexColorBlue11);
-  }
-}
-
-.subtitle {
-  & a {
-    font-size: var(--udexTypographyBodyXSFontSize);
-    font-weight: var(--udexTypographyFontWeightMedium);
-    line-height: var(--udexTypographyDisplayLineHeight);
-    color: var(--udexColorNeutralBlack) !important;
-  }
-}
-
-.info {
-  font-size: var(--udexTypographyNavigationRegularXSFontSize);
-  font-weight: var(--udexTypographyFontWeightRegular);
-  line-height: var(--udexTypographyDisplayLineHeight);
-  color: var(--udexColorGrey6);
-}
-
 [aria-hidden="true"] {
   display: none;
-}
-
-main .button-container {
-  strong,
-  em {
-    display: block;
-  }
-
-  & + p {
-    margin-top: 0;
-  }
-
-  & a:is(.primary, .secondary) {
-    display: inline-flex;
-  }
-
-  .button {
-    position: relative;
-    text-decoration: none;
-    color: var(--udexColorBlue7);
-    border-radius: 0.5rem;
-    font-style: normal;
-    font-size: var(--udexTypographyNavigationMediumXLFontSize);
-    line-height: var(--udexTypographyNavigationLineHeight);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    min-height: 36px;
-    padding: 9px 10px;
-
-    &:any-link,
-    button {
-      border-radius: 0.5rem;
-      border: 0.0625rem solid transparent;
-      font-weight: normal;
-    }
-
-    &:is(a):not(.primary, .secondary) {
-      display: inline-flex;
-      align-items: center;
-      padding: 0;
-
-
-      &:visited {
-        color: var(--udexColorBlue10);
-      }
-
-      &:hover {
-        color: var(--udexColorBlue9);
-        text-decoration: underline;
-      }
-
-      &:active {
-        color: var(--udexColorBlue11);
-        text-decoration: underline;
-      }
-
-      &::after {
-        box-sizing: border-box;
-        content: "";
-        display: inline-block;
-        height: 1rem;
-        width: 1rem;
-        margin-left: var(--udexSpacer4);
-
-        /* Use mask in order to be able to adjust SVG colour */
-        mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
-        background-color: currentcolor;
-      }
-    }
-
-    &.primary {
-      color: var(--udexColorNeutralWhite);
-      border-color: var(--udexColorBlue7);
-      background-color: var(--udexColorBlue7);
-
-      &:hover {
-        color: var(--udexColorNeutralWhite);
-        border-color: var(--udexColorBlue9);
-        background-color: var(--udexColorBlue9);
-      }
-
-      &:active {
-        color: var(--udexColorBlue9);
-        border-color: var(--udexColorBlue9);
-        background-color: var(--udexColorNeutralWhite);
-      }
-    }
-
-    &.secondary {
-      color: var(--udexColorBlue9);
-      border-color: var(--udexColorGrey7);
-      background-color: var(--udexColorNeutralWhite);
-
-      &:hover {
-        color: var(--udexColorBlue9);
-        border-color: var(--udexColorGrey7);
-        background-color: var(--udexColorGrey2);
-      }
-
-      &:active {
-        color: var(--udexColorBlue9);
-        border-color: var(--udexColorBlue9);
-        background-color: var(--udexColorNeutralWhite);
-      }
-    }
-  }
 }
 
 main .section.transpose-columns {
   &.column-section-1-1 {
     grid-auto-flow: column;
     grid-template-rows: 1fr 1fr;
-  }
-}
-
-main .section.background-dark .button-container {
-  :is(.button) {
-    &:any-link {
-      color: var(--udexColorNeutralWhite);
-
-      &:hover {
-        color: var(--udexColorBlue3);
-      }
-
-      &:active {
-        color: var(--udexColorBlue5);
-      }
-
-      &:visited {
-        color: var(--udexColorBlue2);
-      }
-    }
-
-    &.primary {
-      color: var(--udexColorBlue8);
-      border-color: var(--udexColorNeutralWhite);
-      background-color: var(--udexColorNeutralWhite);
-
-      &:hover {
-        color: var(--udexColorBlue9);
-        border-color: var(--udexColorGrey3);
-        background-color: var(--udexColorGrey3);
-      }
-
-      &:active {
-        color: var(--udexColorBlue10);
-        border-color: var(--udexColorGrey4);
-        background-color: var(--udexColorGrey4);
-      }
-    }
-
-    &.secondary {
-      color: var(--udexColorNeutralWhite);
-      border-color: var(--udexColorNeutralWhite);
-      background-color: hsl(0deg 0% 0% / 0%);
-
-      &:hover {
-        color: var(--udexColorNeutralWhite);
-        border-color: var(--udexColorNeutralWhite);
-        background-color: hsl(0deg 100% 100% / 20%);
-      }
-
-      &:active {
-        color: var(--udexColorBlue10);
-        border-color: var(--udexColorBlue10);
-        background-color: var(--udexColorGrey4);
-      }
-    }
   }
 }
 
@@ -467,6 +266,468 @@ main img {
 
 .design-system main .image-border img {
   border: 1px solid #e7e7e7;
+}
+
+a {
+  color: var(--udexColorBlue7);
+  cursor: pointer;
+
+  &:visited {
+    color: var(--udexColorBlue10);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--udexColorBlue9);
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: var(--udexColorBlue11);
+    text-decoration: underline;
+  }
+}
+
+.subtitle {
+  & a {
+    font-size: var(--udexTypographyBodyXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    line-height: var(--udexTypographyDisplayLineHeight);
+    color: var(--udexColorNeutralBlack) !important;
+  }
+}
+
+.info {
+  font-size: var(--udexTypographyNavigationRegularXSFontSize);
+  font-weight: var(--udexTypographyFontWeightRegular);
+  line-height: var(--udexTypographyDisplayLineHeight);
+  color: var(--udexColorGrey6);
+}
+
+.button-container {
+  margin: 0;
+  padding: 0;
+
+  & strong,
+  & em {
+    display: contents;
+  }
+
+  & .button {
+    --button-background-color: transparent;
+    --button-border-color: transparent;
+    --button-border-width: 0px;
+    --button-font-size: var(--udexTypographyBodySFontSize);
+    --button-icon-size: var(--udexTypographyBodySFontSize);
+    --button-font-weight: var(--udexTypographyFontWeightRegular);
+    --button-line-height: var(--udexTypographyBodyLineHeight);
+    --button-block-padding: 0px;
+    --button-inline-padding: 0px;
+
+    align-items: center;
+    background-color: var(--button-background-color);
+    border-color: var(--button-border-color);
+    border-radius: 0.5rem;
+    border-width: var(--button-border-width);
+    border-style: solid;
+    cursor: pointer;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    font-family: var(--sapFontFamily);
+    font-size: var(--button-font-size);
+    font-style: normal;
+    font-weight: var(--button-font-weight);
+    line-height: var(--button-line-height);
+    padding: var(--button-block-padding);
+    padding-inline: var(--button-inline-padding);
+    text-decoration: none;
+
+    &.primary {
+      --button-background-color: var(--udexColorBlue7);
+      --button-border-color: var(--udexColorBlue7);
+      --button-border-width: 0.0625rem;
+      --button-text-color: var(--udexColorNeutralWhite);
+      --button-icon-color-filter: brightness(0) invert(1); /* white */
+
+      &:hover {
+        --button-background-color: var(--udexColorBlue9);
+        --button-border-color: var(--udexColorBlue9);
+        --button-text-color: var(--udexColorNeutralWhite);
+        --button-icon-color-filter: brightness(0) invert(1); /* white */
+      }
+
+      &:active {
+        --button-background-color: var(--udexColorNeutralWhite);
+        --button-border-color: var(--udexColorBlue9);
+        --button-text-color: var(--udexColorBlue9);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+        sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+        contrast(107%); /* blue 9 */
+      }
+
+      &:disabled {
+        --button-background-color: var(--udexColorBlue7);
+        --button-border-color: var(--udexColorBlue7);
+        --button-text-color: var(--udexColorNeutralWhite);
+        --button-icon-color-filter: brightness(0) invert(1); /* white */
+
+        opacity: var(--sapContent_DisabledOpacity);
+        cursor: not-allowed;
+      }
+    }
+
+    &.secondary {
+      --button-background-color: var(--udexColorNeutralWhite);
+      --button-border-color: var(--udexColorGrey7);
+      --button-border-width: 0.0625rem;
+      --button-text-color: var(--udexColorBlue9);
+      --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+      sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+      contrast(107%); /* blue 9 */
+
+      &:hover {
+        --button-background-color: var(--udexColorGrey2);
+        --button-border-color: var(--udexColorGrey7);
+        --button-text-color: var(--udexColorBlue9);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+        sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+        contrast(107%); /* blue 9 */
+      }
+
+      &:active {
+        --button-background-color: var(--udexColorNeutralWhite);
+        --button-border-color: var(--udexColorBlue9);
+        --button-text-color: var(--udexColorBlue9);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+        sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+        contrast(107%); /* blue 9 */
+      }
+
+      &:disabled {
+        --button-background-color: var(--udexColorNeutralWhite);
+        --button-border-color: var(--udexColorGrey7);
+        --button-text-color: var(--udexColorBlue9);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%)
+        sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%)
+        contrast(107%); /* blue 9 */
+
+        opacity: var(--sapContent_DisabledOpacity);
+        cursor: not-allowed;
+      }
+    }
+
+    &.tertiary {
+      --button-background-color: transparent;
+      --button-border-color: transparent;
+      --button-border-width: 0.0625rem;
+      --button-text-color: var(--udexColorBlue9);
+      --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+
+      &:hover {
+        --button-background-color: var(--udexColorGrey2);
+        --button-border-color: var(--udexColorGrey7);
+        --button-text-color: var(--udexColorBlue9);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+      }
+
+      &:active {
+        --button-background-color: var(--udexColorNeutralWhite);
+        --button-border-color: var(--udexColorBlue9);
+        --button-text-color: var(--udexColorBlue9);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+      }
+
+      &:disabled {
+        --button-background-color: transparent;
+        --button-border-color: transparent;
+        --button-text-color: var(--udexColorBlue9);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+
+        opacity: var(--sapContent_DisabledOpacity);
+        cursor: not-allowed;
+      }
+    }
+
+    & .icon {
+      &:not(:first-child) {
+        margin-inline-start: var(--button-icon-spacing);
+      }
+
+      &:not(:last-child) {
+        margin-inline-end: var(--button-icon-spacing);
+      }
+
+      & img {
+        filter: var(--button-icon-color-filter);
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    &:where(:is(.primary, .secondary, .tertiary)) {
+      --button-font-weight: var(--udexTypographyFontWeightMedium);
+      --button-line-height: var(--udexTypographyNavigationLineHeight);
+
+      color: var(--button-text-color);
+      text-wrap: nowrap;
+
+      /* LARGE */
+      --button-large-font-size: var(--udexTypographyNavigationMediumXLFontSize);
+      --button-large-icon-spacing: var(--udexSpacer8);
+      --button-large-icon-size: 18px;
+      --button-large-inline-padding: 14px;
+      --button-large-block-padding: var(--udexSpacer12);
+      --button-large-icon-only-block-padding: var(--udexSpacer12);
+      --button-large-icon-only-inline-padding: var(--udexSpacer12);
+
+      /* MEDIUM */
+      --button-medium-font-size: var(--udexTypographyNavigationMediumXLFontSize);
+      --button-medium-inline-padding: 10px;
+      --button-medium-block-padding: 9px;
+      --button-medium-icon-size: 16px;
+      --button-medium-icon-spacing: 6px;
+      --button-medium-icon-only-block-padding: 10px;
+      --button-medium-icon-only-inline-padding: 10px;
+
+      /* SMALL */
+      --button-small-font-size: var(--udexTypographyNavigationMediumMFontSize);
+      --button-small-inline-padding: 10px;
+      --button-small-block-padding: 5px;
+      --button-small-icon-size: 14px;
+      --button-small-icon-spacing: var(--udexSpacer4);
+      --button-small-icon-only-block-padding: 5px;
+      --button-small-icon-only-inline-padding: 5px;
+
+      &.button-xs-large {
+        --button-font-size: var(--button-large-font-size);
+        --button-icon-spacing: var(--button-large-icon-spacing);
+        --button-icon-size: var(--button-large-icon-size);
+        --button-inline-padding: var(--button-large-inline-padding);
+        --button-block-padding: var(--button-large-block-padding);
+
+        &.icon-only {
+          --button-block-padding: var(--button-large-icon-only-block-padding);
+          --button-inline-padding: var(--button-large-icon-only-block-padding);
+        }
+      }
+
+      &.button-xs-medium {
+        --button-font-size: var(--button-medium-font-size);
+        --button-inline-padding: var(--button-medium-inline-padding);
+        --button-block-padding: var(--button-medium-block-padding);
+        --button-icon-size: var(--button-medium-icon-size);
+        --button-icon-spacing: var(--button-medium-icon-spacing);
+
+        &.icon-only {
+          --button-block-padding: var(--button-medium-icon-only-block-padding);
+          --button-inline-padding: var(--button-medium-icon-only-block-padding);
+        }
+      }
+
+      &.button-xs-small {
+        --button-font-size: var(--button-small-font-size);
+        --button-inline-padding: var(--button-small-inline-padding);
+        --button-block-padding: var(--button-small-block-padding);
+        --button-icon-size: var(--button-small-icon-size);
+        --button-icon-spacing: var(--button-small-icon-spacing);
+
+        &.icon-only {
+          --button-block-padding: var(--button-small-icon-only-block-padding);
+          --button-inline-padding: var(--button-small-icon-only-inline-padding);
+        }
+      }
+
+      @media (width >= 640px) {
+        &.button-s-large {
+          --button-font-size: var(--button-large-font-size);
+          --button-icon-spacing: var(--button-large-icon-spacing);
+          --button-icon-size: var(--button-large-icon-size);
+          --button-inline-padding: var(--button-large-inline-padding);
+          --button-block-padding: var(--button-large-block-padding);
+
+          &.icon-only {
+            --button-block-padding: var(--button-large-icon-only-block-padding);
+            --button-inline-padding: var(--button-large-icon-only-block-padding);
+          }
+        }
+
+        &.button-s-medium {
+          --button-font-size: var(--button-medium-font-size);
+          --button-inline-padding: var(--button-medium-inline-padding);
+          --button-block-padding: var(--button-medium-block-padding);
+          --button-icon-size: var(--button-medium-icon-size);
+          --button-icon-spacing: var(--button-medium-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-medium-icon-only-block-padding);
+            --button-inline-padding: var(--button-medium-icon-only-block-padding);
+          }
+        }
+
+        &.button-s-small {
+          --button-font-size: var(--button-small-font-size);
+          --button-inline-padding: var(--button-small-inline-padding);
+          --button-block-padding: var(--button-small-block-padding);
+          --button-icon-size: var(--button-small-icon-size);
+          --button-icon-spacing: var(--button-small-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-small-icon-only-block-padding);
+            --button-inline-padding: var(--button-small-icon-only-inline-padding);
+          }
+        }
+      }
+
+      @media (width >= 980px) {
+        &.button-m-large {
+          --button-font-size: var(--button-large-font-size);
+          --button-icon-spacing: var(--button-large-icon-spacing);
+          --button-icon-size: var(--button-large-icon-size);
+          --button-inline-padding: var(--button-large-inline-padding);
+          --button-block-padding: var(--button-large-block-padding);
+
+          &.icon-only {
+            --button-block-padding: var(--button-large-icon-only-block-padding);
+            --button-inline-padding: var(--button-large-icon-only-block-padding);
+          }
+        }
+
+        &.button-m-medium {
+          --button-font-size: var(--button-medium-font-size);
+          --button-inline-padding: var(--button-medium-inline-padding);
+          --button-block-padding: var(--button-medium-block-padding);
+          --button-icon-size: var(--button-medium-icon-size);
+          --button-icon-spacing: var(--button-medium-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-medium-icon-only-block-padding);
+            --button-inline-padding: var(--button-medium-icon-only-block-padding);
+          }
+        }
+
+        &.button-m-small {
+          --button-font-size: var(--button-small-font-size);
+          --button-inline-padding: var(--button-small-inline-padding);
+          --button-block-padding: var(--button-small-block-padding);
+          --button-icon-size: var(--button-small-icon-size);
+          --button-icon-spacing: var(--button-small-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-small-icon-only-block-padding);
+            --button-inline-padding: var(--button-small-icon-only-inline-padding);
+          }
+        }
+      }
+
+      @media (width >= 1280px) {
+        &.button-l-large {
+          --button-font-size: var(--button-large-font-size);
+          --button-icon-spacing: var(--button-large-icon-spacing);
+          --button-icon-size: var(--button-large-icon-size);
+          --button-inline-padding: var(--button-large-inline-padding);
+          --button-block-padding: var(--button-large-block-padding);
+
+          &.icon-only {
+            --button-block-padding: var(--button-large-icon-only-block-padding);
+            --button-inline-padding: var(--button-large-icon-only-block-padding);
+          }
+        }
+
+        &.button-l-medium {
+          --button-font-size: var(--button-medium-font-size);
+          --button-inline-padding: var(--button-medium-inline-padding);
+          --button-block-padding: var(--button-medium-block-padding);
+          --button-icon-size: var(--button-medium-icon-size);
+          --button-icon-spacing: var(--button-medium-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-medium-icon-only-block-padding);
+            --button-inline-padding: var(--button-medium-icon-only-block-padding);
+          }
+        }
+
+        &.button-l-small {
+          --button-font-size: var(--button-small-font-size);
+          --button-inline-padding: var(--button-small-inline-padding);
+          --button-block-padding: var(--button-small-block-padding);
+          --button-icon-size: var(--button-small-icon-size);
+          --button-icon-spacing: var(--button-small-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-small-icon-only-block-padding);
+            --button-inline-padding: var(--button-small-icon-only-inline-padding);
+          }
+        }
+      }
+
+      @media (width >= 1600px) {
+        &.button-xl-large {
+          --button-font-size: var(--button-large-font-size);
+          --button-icon-spacing: var(--button-large-icon-spacing);
+          --button-icon-size: var(--button-large-icon-size);
+          --button-inline-padding: var(--button-large-inline-padding);
+          --button-block-padding: var(--button-large-block-padding);
+
+          &.icon-only {
+            --button-block-padding: var(--button-large-icon-only-block-padding);
+            --button-inline-padding: var(--button-large-icon-only-block-padding);
+          }
+        }
+
+        &.button-xl-medium {
+          --button-font-size: var(--button-medium-font-size);
+          --button-inline-padding: var(--button-medium-inline-padding);
+          --button-block-padding: var(--button-medium-block-padding);
+          --button-icon-size: var(--button-medium-icon-size);
+          --button-icon-spacing: var(--button-medium-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-medium-icon-only-block-padding);
+            --button-inline-padding: var(--button-medium-icon-only-block-padding);
+          }
+        }
+
+        &.button-xl-small {
+          --button-font-size: var(--button-small-font-size);
+          --button-inline-padding: var(--button-small-inline-padding);
+          --button-block-padding: var(--button-small-block-padding);
+          --button-icon-size: var(--button-small-icon-size);
+          --button-icon-spacing: var(--button-small-icon-spacing);
+
+          &.icon-only {
+            --button-block-padding: var(--button-small-icon-only-block-padding);
+            --button-inline-padding: var(--button-small-icon-only-inline-padding);
+          }
+        }
+      }
+    }
+
+    &:where(:not(.primary, .secondary, .tertiary)) {
+      &:active,
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+body:not(.design-system) .button-container .button .icon {
+  width: var(--button-icon-size);
+  height: var(--button-icon-size);
+}
+
+body:not(.design-system) main .button-container .button:where(:not(.primary, .secondary, .tertiary))::after {
+  box-sizing: border-box;
+  content: "";
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  margin-left: var(--udexSpacer4);
+
+  /* Use mask in order to be able to adjust SVG colour */
+  mask: url("/aemedge/icons/slim-arrow-right.svg") center no-repeat;
+  background-color: currentcolor;
 }
 
 /**
@@ -517,16 +778,6 @@ main img {
 
   & .text {
     color: var(--udexColorNeutralBlack);
-
-    & a:any-link {
-      color: var(--udexColorNeutralBlack);
-    }
-  }
-
-  & .link {
-    & a:any-link {
-      color: var(--udexColorBlue7);
-    }
   }
 
   & .eyebrow {
@@ -536,20 +787,114 @@ main img {
   &.background-dark {
     color: var(--udexColorNeutralWhite);
 
-    & .link {
+    & a:not(.primary, .secondary, .tertiary) {
       color: var(--udexColorNeutralWhite);
 
-      & a:any-link {
-        color: var(--udexColorNeutralWhite);
+      &:visited {
+        color: var(--udexColorBlue2);
+      }
 
-        &:hover {
-          color: var(--udexColorBlue3);
-        }
+      &:hover {
+        color: var(--udexColorBlue3);
+      }
+
+      &:active {
+        color: var(--udexColorBlue5);
       }
     }
 
     .eyebrow {
       color: var(--udexColorGrey3);
+    }
+
+    & .button-container {
+      & .button.primary {
+        --button-background-color: var(--udexColorNeutralWhite);
+        --button-border-color: var(--udexColorNeutralWhite);
+        --button-border-width: 0.0625rem;
+        --button-text-color: var(--udexColorBlue8);
+        --button-icon-color-filter: brightness(0) saturate(100%) invert(24%) sepia(99%) saturate(7500%) hue-rotate(210deg) brightness(95%) contrast(100%);
+
+        &:hover {
+          --button-background-color: var(--udexColorGrey3);
+          --button-border-color: var(--udexColorGrey3);
+          --button-text-color: var(--udexColorBlue9);
+          --button-icon-color-filter: brightness(0) saturate(100%) invert(16%) sepia(88%) saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%); /* blue 9 */
+        }
+
+        &:active {
+          --button-background-color: var(--udexColorGrey4);
+          --button-border-color: var(--udexColorGrey4);
+          --button-text-color: var(--udexColorBlue10);
+          --button-icon-color-filter: brightness(0) saturate(100%) invert(11%) sepia(61%) saturate(4769%) hue-rotate(219deg) brightness(94%) contrast(103%);
+        }
+
+        &:disabled {
+          --button-background-color: var(--udexColorNeutralWhite);
+          --button-border-color: var(--udexColorNeutralWhite);
+          --button-text-color: var(--udexColorBlue8);
+          --button-icon-color-filter: brightness(0) saturate(100%) invert(24%) sepia(99%) saturate(7500%) hue-rotate(210deg) brightness(95%) contrast(100%);
+
+          opacity: var(--sapContent_DisabledOpacity);
+          cursor: not-allowed;
+        }
+      }
+
+      & .button.secondary {
+        --button-background-color: hsl(0deg 100% 100% / 0%);
+        --button-border-color: var(--udexColorNeutralWhite);
+        --button-text-color: var(--udexColorNeutralWhite);
+        --button-icon-color-filter: brightness(0) invert(1); /* white */
+
+        &:hover {
+          --button-background-color: hsl(0deg 100% 100% / 20%);
+          --button-border-color: var(--udexColorNeutralWhite);
+          --button-text-color: var(--udexColorNeutralWhite);
+          --button-icon-color-filter: brightness(0) invert(1); /* white */
+        }
+
+        &:active {
+          --button-background-color: var(--udexColorGrey4);
+          --button-border-color: var(--udexColorBlue10);
+          --button-text-color: var(--udexColorBlue10);
+          --button-icon-color-filter: brightness(0) saturate(100%) invert(11%) sepia(61%) saturate(4769%) hue-rotate(219deg) brightness(94%) contrast(103%);
+        }
+
+        &:disabled {
+          --button-background-color: hsl(0deg 100% 100% / 0%);
+          --button-border-color: var(--udexColorNeutralWhite);
+          --button-text-color: var(--udexColorNeutralWhite);
+          --button-icon-color-filter: brightness(0) invert(1); /* white */
+        }
+      }
+
+      & .button.tertiary {
+        --button-background-color: hsl(0deg 100% 100% / 0%);
+        --button-border-color: transparent;
+        --button-text-color: var(--udexColorNeutralWhite);
+        --button-icon-color-filter: brightness(0) invert(1); /* white */
+
+        &:hover {
+          --button-background-color: hsl(0deg 100% 100% / 20%);
+          --button-border-color: var(--udexColorNeutralWhite);
+          --button-text-color: var(--udexColorNeutralWhite);
+          --button-icon-color-filter: brightness(0) invert(1); /* white */
+        }
+
+        &:active {
+          --button-background-color: var(--udexColorGrey4);
+          --button-border-color: var(--udexColorBlue10);
+          --button-text-color: var(--udexColorBlue10);
+          --button-icon-color-filter: brightness(0) saturate(100%) invert(11%) sepia(61%) saturate(4769%) hue-rotate(219deg) brightness(94%) contrast(103%);
+        }
+
+        &:disabled {
+          --button-background-color: hsl(0deg 100% 100% / 0%);
+          --button-border-color: transparent;
+          --button-text-color: var(--udexColorNeutralWhite);
+          --button-icon-color-filter: brightness(0) invert(1); /* white */
+        }
+      }
     }
   }
 
@@ -640,32 +985,6 @@ body main .section {
   &:has(+ &.no-footprint) {
     border-bottom: none;
     padding-block-end: 0;
-  }
-}
-
-.hero-text-white-wrapper,
-.background-dark {
-  --_ui5-v1-23-0-rc-4_button_border_radius: .5rem;
-
-  udex-button {
-    --udex-button-color-primary-standard-default-background: var(--udexColorNeutralWhite);
-    --udex-button-color-primary-standard-default-border: var(--udexColorNeutralWhite);
-    --udex-button-color-primary-standard-default-text-and-icon: var(--udexColorBlue8);
-    --udex-button-color-primary-standard-hover-background: var(--udexColorGrey3);
-    --udex-button-color-primary-standard-hover-border: var(--udexColorGrey3);
-    --udex-button-color-primary-standard-hover-text-and-icon: var(--udexColorBlue9);
-    --udex-button-color-primary-standard-active-background: var(--udexColorGrey4);
-    --udex-button-color-primary-standard-active-border: var(--udexColorGrey4);
-    --udex-button-color-primary-standard-active-text-and-icon: var(--udexColorBlue10);
-    --udex-button-color-secondary-standard-default-background:  hsl(0deg 0% 0% / 0%);
-    --udex-button-color-secondary-standard-default-border: var(--udexColorNeutralWhite);
-    --udex-button-color-secondary-standard-default-text-and-icon: var(--udexColorNeutralWhite);
-    --udex-button-color-secondary-standard-hover-background: hsl(0deg 100% 100% / 20%);
-    --udex-button-color-secondary-standard-hover-border: var(--udexColorNeutralWhite);
-    --udex-button-color-secondary-standard-hover-text-and-icon: var(--udexColorNeutralWhite);
-    --udex-button-color-secondary-standard-active-background: var(--udexColorGrey4);
-    --udex-button-color-secondary-standard-active-border: var(--udexColorBlue10);
-    --udex-button-color-secondary-standard-active-text-and-icon: var(--udexColorBlue10);
   }
 }
 

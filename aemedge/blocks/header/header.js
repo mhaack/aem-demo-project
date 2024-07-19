@@ -354,16 +354,18 @@ async function generateSecondaryNavigation() {
 
   const navActions = secondNav.querySelector('.nav-secondary-actions');
   if (navActions) {
-    navActions.querySelectorAll('a').forEach((link, index) => {
+    navActions.querySelectorAll('a').forEach((link) => {
       const isSecondary = link.parentElement.tagName === 'EM';
       const text = link?.textContent || null;
       const href = link?.href || null;
-      if (index === 0) {
-        const navCta = new Button(text, null, isSecondary ? 'secondary' : 'primary', 'small', href);
-        navActions.append(navCta.render());
-      }
-      const navCtaLarge = new Button(text, null, isSecondary ? 'secondary' : 'primary', 'medium', href);
-      navActions.append(navCtaLarge.render());
+      const navCta = new Button(
+        text,
+        null,
+        isSecondary ? 'secondary' : 'primary',
+        { xs: 'medium', l: 'small' },
+        href,
+      );
+      navActions.append(navCta.render());
     });
     navActions.firstElementChild.remove();
   }

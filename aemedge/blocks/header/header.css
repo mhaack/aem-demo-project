@@ -1,6 +1,5 @@
 /* stylelint-disable selector-class-pattern */
 /* stylelint-disable no-descending-specificity */
-@import url("/aemedge/libs/button/button.css");
 
 header {
   --nav-active-marker-color: var(--udexColorBlue7);
@@ -34,7 +33,7 @@ header {
   }
 
   & .header {
-    &, a {
+    &, li a {
       color: var(--udexColorNeutralBlack);
     }
   }

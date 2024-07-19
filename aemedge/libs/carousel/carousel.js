@@ -99,7 +99,7 @@ export default class Carousel {
         'Previous',
         'icon-slim-arrow-left',
         'secondary',
-        'large',
+        { xs: 'medium', l: 'large' },
         null,
         true,
       ).render();
@@ -108,7 +108,7 @@ export default class Carousel {
         'Next',
         'icon-slim-arrow-right',
         'secondary',
-        'large',
+        { xs: 'medium', l: 'large' },
         null,
         true,
       ).render();

@@ -14,7 +14,14 @@ export default class Pages {
   }
 
   getActionButton(icon, isDisabled) {
-    const actionButton = new Button('', icon, 'secondary', 'medium').render(isDisabled);
+    const actionButton = new Button(
+      '',
+      icon,
+      'tertiary',
+      'large',
+      null,
+      true,
+    ).render(isDisabled);
     actionButton.addEventListener('click', () => {
       let direction = 'forward';
       if (icon === 'icon-slim-arrow-left') {

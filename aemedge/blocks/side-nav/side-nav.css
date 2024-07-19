@@ -31,6 +31,10 @@ aside {
   }
 
   & #sidenav {
+    & a::after {
+      display: none;
+    }
+
     & :is(a, .text, p:not(.button-container), .nav-side__dropdown-button) {
       color: var(--nav-text-color);
       cursor: pointer;

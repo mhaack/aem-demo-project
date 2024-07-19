@@ -75,37 +75,55 @@
     max-height: 120px;
     display: block;
   }
+
+  & .button-container .button {
+    --button-font-size: var(--button-medium-font-size);
+    --button-inline-padding: var(--button-medium-inline-padding);
+    --button-block-padding: var(--button-medium-block-padding);
+    --button-icon-size: var(--button-medium-icon-size);
+    --button-icon-spacing: var(--button-medium-icon-spacing);
+  }
 }
 
 @media (width >= 1280px) {
   /* Disabling linting rule as these style rules cannot conflict with one other */
   /* stylelint-disable no-descending-specificity */
-  body:not(.article) .promo > div,
-  body.article:has(.toc-container) .promo-container[data-location="document-header"] .promo > div,
-  body.article:has(.toc-container) .promo-container[data-location="document-footer"] .promo > div,
-  body.article:not(:has(.toc-container)) main > .promo-container:not([data-location="sidebar"]) .promo > div {
-    align-items: center;
-    gap: var(--udexSpacer32);
-    padding: var(--udexSpacer32);
+  body:not(.article) .promo,
+  body.article:has(.toc-container) .promo-container[data-location="document-header"] .promo,
+  body.article:has(.toc-container) .promo-container[data-location="document-footer"] .promo,
+  body.article:not(:has(.toc-container)) main > .promo-container:not([data-location="sidebar"]) .promo  {
+    & > div {
+      align-items: center;
+      gap: var(--udexSpacer32);
+      padding: var(--udexSpacer32);
 
-    & > div:has(.button-container) {
-      display: grid;
-      grid-template-columns: 1fr min-content;
+      & > div:has(.button-container) {
+        display: grid;
+        grid-template-columns: 1fr min-content;
 
-      /* We need to specify rows as "grid-row: 1 / -1" will not work for implicit grid rows */
-      grid-template-rows: repeat(99, min-content);
+        /* We need to specify rows as "grid-row: 1 / -1" will not work for implicit grid rows */
+        grid-template-rows: repeat(99, min-content);
 
-      & :is(h2, h3, h4, p:not(.button-container)) {
-        grid-column: 1 / 2;
+        & :is(h2, h3, h4, p:not(.button-container)) {
+          grid-column: 1 / 2;
+        }
+        
+        & .button-container {
+          align-self: center;
+          grid-column: 2 / -1;
+          grid-row: 1 / -1;
+          margin-block: 0;
+          margin-inline-start: var(--udexSpacer32);
+        }
       }
+    }
 
-      & .button-container {
-        align-self: center;
-        grid-column: 2 / -1;
-        grid-row: 1 / -1;
-        margin-block: 0;
-        margin-inline-start: var(--udexSpacer32);
-      }
+    & .button-container .button {
+      --button-font-size: var(--button-large-font-size);
+      --button-icon-spacing: var(--button-large-icon-spacing);
+      --button-icon-size: var(--button-large-icon-size);
+      --button-inline-padding: var(--button-large-inline-padding);
+      --button-block-padding: var(--button-large-block-padding);
     }
   }
   /* stylelint-enable no-descending-specificity */

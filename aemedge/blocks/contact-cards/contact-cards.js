@@ -48,7 +48,7 @@ export default async function decorate(block) {
       'Show More',
       'icon-slim-arrow-right',
       'secondary',
-      'large',
+      { xs: 'medium', m: 'large' },
     ).render();
     viewBtn.addEventListener('click', () => {
       contactStream.next().then((nextCursor) => {

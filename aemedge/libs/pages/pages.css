@@ -1,5 +1,3 @@
-@import url("/aemedge/libs/button/button.css");
-
 .pages {
   display: flex;
   list-style: none;
@@ -9,18 +7,6 @@
 
   @media (width >= 980px) {
     margin-block-start: var(--udexSpacer32);
-  }
-
-  & .button-wrapper {
-    margin: 0;
-
-    & .button {
-      border: unset;
-
-      &:hover {
-        border: initial;
-      }
-    }
   }
 
   & .page {

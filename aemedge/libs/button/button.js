@@ -1,12 +1,24 @@
-import { button, p, span } from '../../scripts/dom-builder.js';
+import {
+  a, button, div, span,
+} from '../../scripts/dom-builder.js';
 import { decorateIcons } from '../../scripts/aem.js';
 
 export default class Button {
-  constructor(label, icon, level, size, href, iconOnly = false) {
+  constructor(label, icon, level, sizeConfig, href, iconOnly = false) {
     this.label = label;
     this.icon = icon;
     this.level = level;
-    this.size = size;
+    if (sizeConfig && typeof sizeConfig === 'object') {
+      this.sizeConfig = sizeConfig;
+    } else if (sizeConfig && typeof sizeConfig === 'string') {
+      this.sizeConfig = {
+        xs: sizeConfig,
+      };
+    } else {
+      this.sizeConfig = {
+        xs: 'medium', l: 'large',
+      };
+    }
     this.href = href;
     this.iconOnly = iconOnly;
   }
@@ -16,26 +28,34 @@ export default class Button {
   }
 
   render(isDisabled) {
-    const btn = button(
+    const btn = this.href ? a(
       {
-        class: `button ${this.level ? this.level : ''} ${this.size ? this.size : ''} ${this.iconOnly ? 'icon-only' : ''}`,
+        class: `button ${this.level ? this.level : ''} ${this.iconOnly ? 'icon-only' : ''}`,
+        href: this.href,
+      },
+      this.label && !this.iconOnly ? span(this.label) : '',
+      this.getIcon(),
+
+    ) : button(
+      {
+        class: `button ${this.level ? this.level : ''} ${this.iconOnly ? 'icon-only' : ''}`,
         type: 'button',
         'aria-label': this.label,
       },
       this.label && !this.iconOnly ? span(this.label) : '',
       this.getIcon(),
     );
+    if (this.sizeConfig) {
+      Object.entries(this.sizeConfig).forEach(([key, value]) => {
+        btn.classList.add(`button-${key}-${value}`);
+      });
+    }
     if (isDisabled) {
       btn.setAttribute('disabled', 'disabled');
     }
-    const btnWrapper = p({ class: 'button-wrapper' }, btn);
+    const btnWrapper = div({ class: 'button-container' }, btn);
     if (this.icon) {
       decorateIcons(btnWrapper);
-    }
-    if (this.href) {
-      btnWrapper.addEventListener('click', () => {
-        window.location.href = this.href;
-      });
     }
     return btnWrapper;
   }

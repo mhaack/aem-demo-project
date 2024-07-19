@@ -1,6 +1,6 @@
 import { createOptimizedPicture, decorateIcons } from '../../scripts/aem.js';
 import {
-  div, a, h2, p, span,
+  div, a, h2, p,
 } from '../../scripts/dom-builder.js';
 
 const breakpoints = [{ width: '480' }];
@@ -55,9 +55,8 @@ export default class Avatar {
         this.description && this.description !== '0' ? p(this.description) : '',
         this.path
           ? p(
-            { class: 'link' },
-            a({ href: this.path, 'aria-label': 'Read more' }, linkText),
-            span({ class: 'icon icon-link-arrow' }),
+            { class: 'button-container' },
+            a({ class: 'button', href: this.path, 'aria-label': 'Read more' }, linkText),
           )
           : '',
       ),

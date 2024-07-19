@@ -1,5 +1,4 @@
 @import url("/aemedge/libs/pictureCard/pictureCard.css");
-@import url("/aemedge/libs/button/button.css");
 @import url("/aemedge/libs/carousel/carousel.css");
 
 .content-list {
@@ -44,7 +43,7 @@
       }
     }
 
-    & .button-wrapper {
+    & .button-container {
       display: flex;
       justify-content: center;
       grid-column: span 6;

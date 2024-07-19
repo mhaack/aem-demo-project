@@ -7,8 +7,9 @@
   display: flex;
   flex-direction: column;
 
-  & > .button-wrapper {
+  & > .button-container {
     align-self: center;
+    display: flex;
     margin-block-start: var(--udexSpacer24);
 
     @media (width >= 980px) {
@@ -63,6 +64,11 @@
     .resource-center.text-only .card-items {
       grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+  }
+
+  & .button-container {
+    justify-content: center;
+    grid-column: span 6;
   }
 }
 

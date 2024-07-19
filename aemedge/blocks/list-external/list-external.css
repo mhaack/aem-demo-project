@@ -7,10 +7,6 @@
   grid-template-columns: 1fr;
   gap: var(--udexSpacer16) var(--udexSpacer48);
 
-  &:has(div > div:nth-child(1) img) {
-    row-gap: var(--udexSpacer84);
-  }
-
   & .pages {
     grid-column: 1 / -1;
 
@@ -43,58 +39,7 @@
     & > div:nth-child(2) {
       border-bottom: 1px solid var(--udexColorGrey3);
       margin-top: var(--udexSpacer16);
-      padding-bottom: 22px;
-
-      & p {
-        display: flex;
-
-        /* Icons */
-        & .icon {
-          display: flex;
-          width: auto;
-          height: 16px;
-
-          & img {
-            /* --udexColorBlue7 */
-            filter: brightness(0) saturate(100%) invert(34%) sepia(98%)
-              saturate(4614%) hue-rotate(202deg) brightness(99%) contrast(103%);
-          }
-
-          &:first-child {
-            margin-right: var(--udexSpacer4);
-          }
-
-          &:last-child {
-            margin-left: var(--udexSpacer4);
-          }
-        }
-
-        & a {
-          /* Icon + Link */
-          &:visited .icon img {
-            /* --udexColorBlue10 */
-            filter: brightness(0) saturate(100%) invert(11%) sepia(89%)
-              saturate(3257%) hue-rotate(214deg) brightness(96%) contrast(112%);
-          }
-
-          &:hover .icon img {
-            /* --udexColorBlue9 */
-            filter: brightness(0) saturate(100%) invert(16%) sepia(88%)
-              saturate(2645%) hue-rotate(212deg) brightness(97%) contrast(107%);
-          }
-
-          &:active .icon img {
-            /* --udexColorBlue11 */
-            filter: brightness(0) saturate(100%) invert(4%) sepia(90%)
-              saturate(4428%) hue-rotate(230deg) brightness(98%) contrast(103%);
-          }
-
-          /* Hide global `a.button` icon */
-          &:has(.icon)::after {
-            display: none;
-          }
-        }
-      }
+      padding-block: 6px 22px;
     }
 
     &:is(:nth-last-child(1)) > div:nth-child(2) {
@@ -107,10 +52,6 @@
   }
 
   @media (width >= 980px) {
-    &:has(div > div:nth-child(1) img) {
-      row-gap: var(--udexSpacer48);
-    }
-
     & > div:is(:nth-last-child(1), :nth-last-child(2)) > div:nth-child(2),
     &:has(.pages) > div:is(:nth-last-child(2), :nth-last-child(3)) > div:nth-child(2) {
       border-bottom: none;
