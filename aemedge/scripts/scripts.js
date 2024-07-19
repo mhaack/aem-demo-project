@@ -196,12 +196,15 @@ function decorateImageLinks(main) {
  * @param {HTMLElement} main - The container element to search for links.
  */
 export function decorateExternalLinks(main) {
+  const config = sessionStorage.getItem('config-ch');
+  const hostnames = config ? JSON.parse(config)['external.hostnames']?.split(',') : null;
   main.querySelectorAll('a').forEach((link) => {
     try {
       const isPdfLink = link.href?.includes('.pdf');
       const url = new URL(link.href);
       const isExternalLink = !link.href?.startsWith(window.location.origin) && !url.hostname?.endsWith('.sap.com');
-      if (isExternalLink || isPdfLink) {
+      const isExternalLinkFromConfig = hostnames ? hostnames.includes(url.hostname) : false;
+      if (isExternalLink || isExternalLinkFromConfig || isPdfLink) {
         link.classList.add('external-link');
         link.rel = 'noopener noreferrer';
         link.target = '_blank';
@@ -243,6 +246,7 @@ let decorateFragments;
 // eslint-disable-next-line import/prefer-default-export
 export async function decorateMain(main, shouldDecorateTemplates = true) {
   // hopefully forward compatible button decoration
+
   decorateFragmentLinks(main);
   decorateButtons(main);
   decorateIcons(main);
