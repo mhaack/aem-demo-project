@@ -11,3 +11,18 @@
     }
   }
 }
+
+.full-width-image-wrapper {
+  .hub-l2.appear &,
+  .hub-l1.appear & {
+    margin-block: var(--udexSpacer24);
+
+    @media (width >= 980px) {
+      margin-block: var(--udexSpacer32);
+    }
+
+    @media (width >= 1280px) {
+      margin-block: var(--udexSpacer40);
+    }
+  }
+}
