@@ -218,13 +218,14 @@ main > .section:not(.fragment-container) {
           --hero-margin--left: 48px;
           --hero-margin--right: var(--udexGridMargins);
         }
+      }
 
-        @media (width >= 1280px) {
-          & > .section > .default-content-wrapper > :is(h2, h3, p) {
-            width: calc((7 * var(--udexGridGutters)) + (8 * var(--column-width)));;
-          }
+      @media (width >= 1280px) {
+        & > .section:not(.column-section) > .default-content-wrapper > :is(h2, h3, p) {
+          max-width: calc((7 * var(--udexGridGutters)) + (8 * var(--column-width)));
         }
       }
+
 
       @media (width >= 980px) {
         & {
