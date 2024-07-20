@@ -18,6 +18,7 @@ import {
   LIST_LAYOUT_CONFIG_L2,
   lookupProfiles,
   toTitleCase,
+  getPathFromUrl,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
@@ -300,6 +301,19 @@ function getMonthRange(startDate, endDate, id) {
   return months.reverse();
 }
 
+function cleanupUrlsToPath(urls) {
+  if (typeof urls === 'string') {
+    return getPathFromUrl(urls) || urls;
+  }
+  return urls.map((url) => {
+    const path = getPathFromUrl(url);
+    if (path !== null) {
+      return path;
+    }
+    return url;
+  });
+}
+
 /**
  * @param block {HTMLElement}
  * @param tags {{[id: string]: {label: string, key: string}}}
@@ -311,6 +325,10 @@ function getFilterConfig(block, tags, id, placeholders) {
   const editorConfig = {};
   const userConfig = {};
   Object.entries(readBlockConfig(block)).forEach(([key, value]) => {
+    if (key === 'excluded-articles') {
+      editorConfig[key] = cleanupUrlsToPath(value);
+      return;
+    }
     if (configKeys.includes(key)) {
       editorConfig[key] = value.split(',').map((v) => v.trim());
       return;

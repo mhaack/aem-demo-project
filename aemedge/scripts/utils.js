@@ -454,6 +454,15 @@ function isArticle() {
   return getMetadata('template') === 'article';
 }
 
+function getPathFromUrl(url) {
+  try {
+    const parsedUrl = new URL(url);
+    return parsedUrl.pathname;
+  } catch (error) {
+    return url;
+  }
+}
+
 export {
   buildAuthorUrl,
   buildCardDisplayProfile,
@@ -479,6 +488,7 @@ export {
   addColClasses,
   isNewsPage,
   isArticle,
+  getPathFromUrl,
   LIST_LAYOUT_CONFIG,
   LIST_LAYOUT_CONFIG_L2,
 };
