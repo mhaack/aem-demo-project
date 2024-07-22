@@ -212,10 +212,9 @@ async function fetchProfiles() {
 }
 
 async function fetchAuthors() {
-  return ffetch(
-    `${window.hlx.codeBasePath}/profiles-index.json`,
-    'sapContentHubAuthorEntries',
-  ).sheet('authors').all();
+  return ffetch(`${window.hlx.codeBasePath}/profiles-index.json`, 'sapContentHubAuthorEntries')
+    .sheet('authors')
+    .all();
 }
 
 /**
@@ -463,6 +462,21 @@ function getPathFromUrl(url) {
   }
 }
 
+function applyLayout(block, el) {
+  let childCount;
+  if (typeof el === 'number') {
+    childCount = el;
+  } else {
+    childCount = el.children.length;
+  }
+  const hasSideNav = document.querySelector('aside') !== null;
+  if (hasSideNav) {
+    addColClassesForCount(block, childCount, LIST_LAYOUT_CONFIG_L2);
+  } else {
+    addColClassesForCount(block, childCount, LIST_LAYOUT_CONFIG);
+  }
+}
+
 export {
   buildAuthorUrl,
   buildCardDisplayProfile,
@@ -489,6 +503,7 @@ export {
   isNewsPage,
   isArticle,
   getPathFromUrl,
+  applyLayout,
   LIST_LAYOUT_CONFIG,
   LIST_LAYOUT_CONFIG_L2,
 };

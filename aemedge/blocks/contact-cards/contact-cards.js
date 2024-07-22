@@ -1,10 +1,8 @@
 import ffetch from '../../scripts/ffetch.js';
-import { getMetadata, readBlockConfig } from '../../scripts/aem.js';
+import { readBlockConfig } from '../../scripts/aem.js';
 import { div } from '../../scripts/dom-builder.js';
 import Button from '../../libs/button/button.js';
-import {
-  getConfig, addColClasses, LIST_LAYOUT_CONFIG_L2, LIST_LAYOUT_CONFIG, addColClassesForCount,
-} from '../../scripts/utils.js';
+import { getConfig, applyLayout } from '../../scripts/utils.js';
 
 function getContactCard(entry) {
   const {
@@ -28,7 +26,6 @@ function getOrigin() {
 }
 
 export default async function decorate(block) {
-  const template = getMetadata('template');
   const pageSize = 6;
   const siteName = getOrigin();
   const contactsEndpoint = getConfig('contacts');
@@ -44,12 +41,10 @@ export default async function decorate(block) {
   block.append(contactList);
 
   if (cursor.value.pages > 1) {
-    const viewBtn = new Button(
-      'Show More',
-      'icon-slim-arrow-right',
-      'secondary',
-      { xs: 'medium', m: 'large' },
-    ).render();
+    const viewBtn = new Button('Show More', 'icon-slim-arrow-right', 'secondary', {
+      xs: 'medium',
+      m: 'large',
+    }).render();
     viewBtn.addEventListener('click', () => {
       contactStream.next().then((nextCursor) => {
         nextCursor.value.results.forEach((contact) => contactList.append(contact));
@@ -59,17 +54,8 @@ export default async function decorate(block) {
       });
     });
     block.append(div({ class: 'expand' }, viewBtn));
-
-    if (template === 'hub-l2') {
-      addColClassesForCount(block, pageSize, LIST_LAYOUT_CONFIG_L2);
-    } else {
-      addColClassesForCount(block, pageSize, LIST_LAYOUT_CONFIG);
-    }
+    applyLayout(block, pageSize);
   } else if (cursor.value.pages === 1) {
-    if (template === 'hub-l2') {
-      addColClasses(block, contactList, LIST_LAYOUT_CONFIG_L2);
-    } else {
-      addColClasses(block, contactList, LIST_LAYOUT_CONFIG);
-    }
+    applyLayout(block, contactList);
   }
 }

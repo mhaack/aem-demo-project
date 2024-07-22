@@ -1,13 +1,16 @@
 /* eslint-disable max-len */
 /* eslint-disable no-param-reassign */
 import {
-  fetchPlaceholders, getMetadata, readBlockConfig, toCamelCase, toClassName,
+  fetchPlaceholders,
+  getMetadata,
+  readBlockConfig,
+  toCamelCase,
+  toClassName,
 } from '../../scripts/aem.js';
 import { ul } from '../../scripts/dom-builder.js';
 import {
   addColClasses,
   isNewsPage,
-  addColClassesForCount,
   buildCardDisplayProfile,
   fetchAuthors,
   fetchTagList,
@@ -19,6 +22,7 @@ import {
   lookupProfiles,
   toTitleCase,
   getPathFromUrl,
+  applyLayout,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
 import Filters from '../../libs/filters/filters.js';
@@ -36,7 +40,9 @@ function getPictureCard(article, placeholders, tags, author) {
     } = article;
     const tagLabel = placeholders[toCamelCase(priority)] || '';
     const link = cardUrl !== '0' ? cardUrl : path;
-    const infoUpdatedLabel = isNewsPage() || path.startsWith('/news/') ? 'Published on' : (placeholders.updatedOn || 'Updated on');
+    const infoUpdatedLabel = isNewsPage() || path.startsWith('/news/')
+      ? 'Published on'
+      : placeholders.updatedOn || 'Updated on';
     let info = `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
     if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
       info = article.cardC2A;
@@ -149,7 +155,18 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
     .paginate(batchSize, startPage);
 }
 
-function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel, pageSize, totalCount, horizontal, userConfig) {
+function renderCards(
+  articles,
+  placeholders,
+  tags,
+  authorIndex,
+  textOnly,
+  carousel,
+  pageSize,
+  totalCount,
+  horizontal,
+  userConfig,
+) {
   const cards = articles.map((article) => {
     const authors = lookupProfiles(article.author, authorIndex);
     const displayAuthor = buildCardDisplayProfile(authors);
@@ -159,12 +176,9 @@ function renderCards(articles, placeholders, tags, authorIndex, textOnly, carous
     if (carousel) {
       return getPictureCard(article, placeholders, tags, displayAuthor).render(true);
     }
-    return getPictureCard(article, placeholders, tags, displayAuthor)
-      .render(
-        pageSize === 1
-        || (Object.keys(userConfig).length === 0 && totalCount === 1)
-        || horizontal,
-      );
+    return getPictureCard(article, placeholders, tags, displayAuthor).render(
+      pageSize === 1 || (Object.keys(userConfig).length === 0 && totalCount === 1) || horizontal,
+    );
   });
   if (carousel) {
     return new Carousel(cards).render();
@@ -172,19 +186,24 @@ function renderCards(articles, placeholders, tags, authorIndex, textOnly, carous
   return ul({ class: 'card-items' }, ...cards);
 }
 
-function addPaginationClasses(cardList, pageSize) {
-  if (getMetadata('template') === 'hub-l2') {
-    addColClassesForCount(cardList, pageSize, LIST_LAYOUT_CONFIG_L2);
-  } else {
-    addColClassesForCount(cardList, pageSize, LIST_LAYOUT_CONFIG);
-  }
-}
-
-function addLayoutClasses(cardList, carousel, textOnly, horizontal, moreThanOnePage, userConfig, pageSize) {
+function addLayoutClasses(
+  cardList,
+  carousel,
+  textOnly,
+  horizontal,
+  moreThanOnePage,
+  userConfig,
+  pageSize,
+) {
   // Apply column layout classes
-  if (!carousel && !textOnly && !horizontal && (moreThanOnePage || Object.keys(userConfig).length > 0)) {
-    addPaginationClasses(cardList, pageSize);
-  } else if (!carousel && !textOnly && getMetadata('template') === 'hub-l2') {
+  if (
+    !carousel
+    && !textOnly
+    && !horizontal
+    && (moreThanOnePage || Object.keys(userConfig).length > 0)
+  ) {
+    applyLayout(cardList, pageSize);
+  } else if (!carousel && !textOnly && document.querySelector('aside') !== null) {
     addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
   } else if (!carousel && !textOnly) {
     addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG);
@@ -321,7 +340,15 @@ function cleanupUrlsToPath(urls) {
  * @return {{userConfig: {[id: string]: {id: string, name: string, items: {id: string, label: string, value: string}[]}}, editorConfig: {[id: string]: string[]}}}
  */
 function getFilterConfig(block, tags, id, placeholders) {
-  const configKeys = ['tags', 'authors', 'content-type', 'limit', 'info', 'page-size', 'excluded-articles'];
+  const configKeys = [
+    'tags',
+    'authors',
+    'content-type',
+    'limit',
+    'info',
+    'page-size',
+    'excluded-articles',
+  ];
   const editorConfig = {};
   const userConfig = {};
   Object.entries(readBlockConfig(block)).forEach(([key, value]) => {
@@ -353,7 +380,10 @@ function getFilterConfig(block, tags, id, placeholders) {
             .filter(([tagKey]) => tagKey.startsWith(prefix))
             .reduce(
               // eslint-disable-next-line no-unused-vars
-              (acc, [, tagValue]) => [...acc, { label: tagValue.label, value: tagValue.key, id: filterId }],
+              (acc, [, tagValue]) => [
+                ...acc,
+                { label: tagValue.label, value: tagValue.key, id: filterId },
+              ],
               [],
             );
         }
@@ -371,7 +401,9 @@ function getFilterConfig(block, tags, id, placeholders) {
 }
 
 function getBlockId() {
-  window.sapResourceCenterCount = window.sapResourceCenterCount ? window.sapResourceCenterCount + 1 : 1;
+  window.sapResourceCenterCount = window.sapResourceCenterCount
+    ? window.sapResourceCenterCount + 1
+    : 1;
   return `rc-${window.sapResourceCenterCount}`;
 }
 
@@ -390,12 +422,7 @@ export default async function decorateBlock(block) {
   const authorIndex = await fetchAuthors();
   const urlParams = new URLSearchParams(window.location.search);
   const page = +urlParams.get(`${id}-page`) || 1;
-  const nonFilterParams = [
-    `${id}-page`,
-    `${id}-sort`,
-    `${id}-order`,
-    `${id}-limit`,
-  ];
+  const nonFilterParams = [`${id}-page`, `${id}-sort`, `${id}-order`, `${id}-limit`];
   const articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, page, pageSize);
   const cursor = await articleStream.next();
   const moreThanOnePage = cursor.value.pages > 1;
@@ -414,24 +441,22 @@ export default async function decorateBlock(block) {
   );
 
   if (Object.keys(userConfig).length > 0 && !carousel) {
-    filters = new Filters(
-      userConfig,
-      placeholders,
-      nonFilterParams,
-      id,
-    );
+    filters = new Filters(userConfig, placeholders, nonFilterParams, id);
     block.append(filters.render());
     filters.updateResults(block, cursor.value.total);
   }
   block.append(cardList);
-  if (!carousel && moreThanOnePage && cursor.value.pages <= 2 && Object.keys(userConfig).length === 0) {
+  if (
+    !carousel
+    && moreThanOnePage
+    && cursor.value.pages <= 2
+    && Object.keys(userConfig).length === 0
+  ) {
     const btnLabel = placeholders.showMore || 'Show More';
-    const viewBtn = new Button(
-      btnLabel,
-      'icon-slim-arrow-right',
-      'secondary',
-      { xs: 'medium', m: 'large' },
-    ).render();
+    const viewBtn = new Button(btnLabel, 'icon-slim-arrow-right', 'secondary', {
+      xs: 'medium',
+      m: 'large',
+    }).render();
     viewBtn.addEventListener('click', () => {
       articleStream.next().then((nextCursor) => {
         const cards = renderCards(

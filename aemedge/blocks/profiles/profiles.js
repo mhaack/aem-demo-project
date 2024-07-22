@@ -3,13 +3,11 @@ import {
   fetchProfiles,
   getAuthorMetadata,
   lookupProfiles,
-  addColClasses,
+  applyLayout,
   isArticle,
-  LIST_LAYOUT_CONFIG_L2,
-  LIST_LAYOUT_CONFIG,
 } from '../../scripts/utils.js';
 import Avatar from '../../libs/avatar/avatar.js';
-import { getMetadata, fetchPlaceholders, toCamelCase } from '../../scripts/aem.js';
+import { fetchPlaceholders, toCamelCase } from '../../scripts/aem.js';
 
 function renderProfiles(block, profiles, linkText, stacked = false) {
   if (profiles && profiles.length) {
@@ -36,12 +34,7 @@ function renderProfiles(block, profiles, linkText, stacked = false) {
       }
     });
     if (!stacked) {
-      const template = getMetadata('template');
-      if (template === 'hub-l2') {
-        addColClasses(block, block, LIST_LAYOUT_CONFIG_L2);
-      } else {
-        addColClasses(block, block, LIST_LAYOUT_CONFIG);
-      }
+      applyLayout(block, block);
     } else {
       block.classList.add('stacked');
     }

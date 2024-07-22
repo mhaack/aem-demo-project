@@ -1,5 +1,5 @@
-import { createOptimizedPicture, getMetadata } from '../../scripts/aem.js';
-import { addColClasses, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2 } from '../../scripts/utils.js';
+import { createOptimizedPicture } from '../../scripts/aem.js';
+import { applyLayout } from '../../scripts/utils.js';
 
 export default function decorate(block) {
   /* change to ul, li */
@@ -16,12 +16,6 @@ export default function decorate(block) {
   ul.querySelectorAll('img').forEach((img) => img.closest('picture')?.replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '100' }])));
   block.textContent = '';
 
-  const template = getMetadata('template');
-  if (template === 'hub-l2') {
-    addColClasses(block, ul, LIST_LAYOUT_CONFIG_L2);
-  } else {
-    addColClasses(block, ul, LIST_LAYOUT_CONFIG);
-  }
-
+  applyLayout(block, ul);
   block.append(ul);
 }

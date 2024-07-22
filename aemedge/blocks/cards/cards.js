@@ -1,8 +1,6 @@
-import { createOptimizedPicture, getMetadata, toClassName } from '../../scripts/aem.js';
+import { createOptimizedPicture, toClassName } from '../../scripts/aem.js';
 import { div, domEl } from '../../scripts/dom-builder.js';
-import {
-  addColClasses, capitalize, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2,
-} from '../../scripts/utils.js';
+import { applyLayout, capitalize } from '../../scripts/utils.js';
 
 /**
  * Decorate Cards (colors) variant.
@@ -10,7 +8,9 @@ import {
  * @param block {HTMLElement}
  */
 function decorateColorsVariant(block) {
-  if (!block.classList.contains('colors')) { return; }
+  if (!block.classList.contains('colors')) {
+    return;
+  }
 
   const cards = block.querySelectorAll('.cards-card');
 
@@ -58,12 +58,10 @@ function decorateColorsVariant(block) {
       const bgColor = color.textContent;
       const isWhite = bgColor === '#FFFFFF';
       const card = color.closest('.cards-card');
-      const colorPreview = div(
-        {
-          class: `cards-card-color-preview${isWhite ? ' --white' : ''}`,
-          style: `background-color: ${bgColor}`,
-        },
-      );
+      const colorPreview = div({
+        class: `cards-card-color-preview${isWhite ? ' --white' : ''}`,
+        style: `background-color: ${bgColor}`,
+      });
       card.prepend(colorPreview);
     });
   }
@@ -113,16 +111,11 @@ export default function decorate(block) {
     li.append(cardDiv);
     ul.append(li);
   });
-  ul.querySelectorAll('img').forEach((img) => img.closest('picture')
+  ul.querySelectorAll('img').forEach((img) => img
+    .closest('picture')
     .replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
   block.textContent = '';
-
-  const template = getMetadata('template');
-  if (template === 'hub-l2') {
-    addColClasses(block, ul, LIST_LAYOUT_CONFIG_L2);
-  } else {
-    addColClasses(block, ul, LIST_LAYOUT_CONFIG);
-  }
+  applyLayout(block, ul);
 
   block.append(ul);
 

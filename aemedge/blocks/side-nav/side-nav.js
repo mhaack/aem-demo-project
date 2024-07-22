@@ -17,26 +17,23 @@ function expand(expandable) {
 }
 
 function toggleAllNavLists(nav, exclude = [], expanded = false) {
-  nav
-    .querySelectorAll('.nav__list-parent')
-    .forEach((section) => {
-      if (exclude.includes(section)) {
-        return;
-      }
-      section.setAttribute('aria-expanded', Boolean(expanded).toString());
-    });
+  nav.querySelectorAll('.nav__list-parent').forEach((section) => {
+    if (exclude.includes(section)) {
+      return;
+    }
+    section.setAttribute('aria-expanded', Boolean(expanded).toString());
+  });
 }
 
 function wrapLinkTextNodeInSpan(link) {
-  Array.from(link.childNodes)
-    .forEach((node) => {
-      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim().length > 0) {
-        const spanElement = span();
-        const textNode = node.cloneNode(true);
-        spanElement.appendChild(textNode);
-        link.replaceChild(spanElement, node);
-      }
-    });
+  Array.from(link.childNodes).forEach((node) => {
+    if (node.nodeType === Node.TEXT_NODE && node.textContent.trim().length > 0) {
+      const spanElement = span();
+      const textNode = node.cloneNode(true);
+      spanElement.appendChild(textNode);
+      link.replaceChild(spanElement, node);
+    }
+  });
 }
 
 function decorateListItemText(listItem) {
@@ -98,11 +95,20 @@ function renderDropdownButton(active, activeParent, fallback) {
   const dropdownButtonLabels = [];
   if (active && activeParent) {
     // Alternate between level 1 and level 2 text in collapsed/espanded state
-    dropdownButtonLabels.push(span({ class: 'nav-side__dropdown-button__level-2' }, active.textContent));
-    dropdownButtonLabels.push(span({ class: 'nav-side__dropdown-button__level-1' }, activeParent.querySelector('.text')?.textContent));
+    dropdownButtonLabels.push(
+      span({ class: 'nav-side__dropdown-button__level-2' }, active.textContent),
+    );
+    dropdownButtonLabels.push(
+      span(
+        { class: 'nav-side__dropdown-button__level-1' },
+        activeParent.querySelector('.text')?.textContent,
+      ),
+    );
   } else if (active) {
     // Show active link name if level 1
-    dropdownButtonLabels.push(span({ class: 'nav-side__dropdown-button__level-1' }, active.textContent));
+    dropdownButtonLabels.push(
+      span({ class: 'nav-side__dropdown-button__level-1' }, active.textContent),
+    );
   }
   if (dropdownButtonLabels.length === 0) {
     // Fallback to first link if no links in nav are currently active

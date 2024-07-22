@@ -13,7 +13,7 @@ import {
   getAuthorMetadata,
   lookupProfiles,
   isNewsPage,
-  fetchProfiles, addColClasses, LIST_LAYOUT_CONFIG, LIST_LAYOUT_CONFIG_L2,
+  fetchProfiles, applyLayout,
 } from '../../scripts/utils.js';
 
 /**
@@ -87,11 +87,7 @@ export default async function decorateBlock(block) {
       );
       cardList.append(card.render(horizontal || articles.length === 1));
     });
-    if (getMetadata('template') === 'hub-l2') {
-      addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG_L2);
-    } else {
-      addColClasses(cardList, cardList, LIST_LAYOUT_CONFIG);
-    }
+    applyLayout(cardList, cardList);
     block.append(cardList);
   }
   block.querySelector('div').remove();
