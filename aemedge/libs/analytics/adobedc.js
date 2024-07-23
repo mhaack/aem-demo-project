@@ -15,7 +15,7 @@ async function loadAdobeDC() {
   const adobeTagsSrc = {
     dev: `${prefix}/329fd5db13e8/launch-462cd12600a7-development.min.js`,
     stage: `${prefix}/329fd5db13e8/launch-ea4f6d155d11-staging.min.js`,
-    prod: null,
+    prod: `${prefix}/329fd5db13e8/launch-57658214ef47.min.js`,
   };
   const envType = getEnvType();
   if (envType && adobeTagsSrc[envType]) {
