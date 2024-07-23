@@ -111,6 +111,9 @@ indices:
       title:
         select: head > meta[property="og:title"]
         value: attribute(el, "content")
+      description:
+        select: head > meta[property="og:description"]
+        value: attribute(el, "content")
       breadcrumbs:
         select: head > meta[name="breadcrumbs"]
         value: attribute(el, "content")
