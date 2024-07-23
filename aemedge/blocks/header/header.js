@@ -25,6 +25,17 @@ function closeOnEscape(e) {
   }
 }
 
+function onClickOutside(e) {
+  const nav = document.getElementById('nav-primary');
+  const closeButton = nav.querySelector('.burger-menu button');
+  const { target } = e;
+
+  if (!nav.contains(target) && !closeButton?.contains(target)) {
+    document.body.style.overflowY = '';
+    document.removeEventListener('click', onClickOutside);
+  }
+}
+
 /**
  * Toggles all nav lists
  * @param {Element} sections The container element
@@ -60,8 +71,10 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   if (!expanded || isDesktop.matches) {
     // collapse menu on escape press
     window.addEventListener('keydown', closeOnEscape);
+    document.addEventListener('click', onClickOutside);
   } else {
     window.removeEventListener('keydown', closeOnEscape);
+    document.removeEventListener('click', onClickOutside);
   }
 }
 
@@ -93,7 +106,7 @@ function getNavBar(nav) {
 }
 
 function getActionBar(nav, navSections) {
-  const openButton = p(
+  const openButtonContainer = p(
     { class: 'button-container burger-menu' },
     button(
       {
@@ -105,8 +118,8 @@ function getActionBar(nav, navSections) {
       span({ class: 'icon icon-burger' }),
     ),
   );
-  openButton.addEventListener('click', () => toggleMenu(nav, navSections));
-  const closeButton = p(
+  openButtonContainer.addEventListener('click', () => toggleMenu(nav, navSections));
+  const closeButtonContainer = p(
     { class: 'button-container close-menu' },
     button(
       {
@@ -118,24 +131,26 @@ function getActionBar(nav, navSections) {
       span({ class: 'icon icon-close' }),
     ),
   );
-  closeButton.addEventListener('click', () => {
+
+  closeButtonContainer.addEventListener('click', () => {
     nav.setAttribute('aria-expanded', 'false');
-    nav.querySelector('.burger-menu button').setAttribute('aria-current', false);
+    const closeButton = nav.querySelector('.burger-menu button');
+    closeButton?.setAttribute('aria-current', false);
     document.body.style.overflowY = '';
   });
   const separator = div({ class: 'separator' });
 
   const actionBar = div({ class: 'nav-actions', id: 'action-buttons' });
-  actionBar.append(openButton);
+  actionBar.append(openButtonContainer);
   actionBar.append(separator);
-  actionBar.append(closeButton);
+  actionBar.append(closeButtonContainer);
   const navTools = nav.querySelector('.nav-tools');
   navTools?.querySelectorAll(':scope p').forEach((tool) => {
     const toolElement = tool.cloneNode(true);
     actionBar.prepend(toolElement);
   });
-  decorateIcons(openButton);
-  decorateIcons(closeButton);
+  decorateIcons(openButtonContainer);
+  decorateIcons(closeButtonContainer);
   return actionBar;
 }
 
