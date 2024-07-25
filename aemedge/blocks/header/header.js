@@ -160,7 +160,7 @@ function decorateLogo(nav) {
     { class: 'logo' },
     a(
       {
-        href: '/',
+        href: 'https://sap.com',
         title: 'SAP',
         'aria-label': 'SAP',
       },

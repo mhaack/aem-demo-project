@@ -1,10 +1,16 @@
 import { decorateIcons } from '../../scripts/aem.js';
-import { div, span } from '../../scripts/dom-builder.js';
+import { a, div, span } from '../../scripts/dom-builder.js';
 
 export default async function decorate(block) {
   const beforeContact = div(
-    div(
-      { class: ['logo-lang-picker'] },
+    { title: 'SAP' },
+    a(
+      {
+        class: ['logo-lang-picker'],
+        href: 'https://sap.com',
+        title: 'SAP',
+        'aria-label': 'SAP',
+      },
       span({ class: 'icon icon-sap-logo' }),
     ),
   );
