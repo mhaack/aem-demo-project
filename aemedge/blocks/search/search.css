@@ -55,6 +55,7 @@
       background-color: white;
       Border: 1px solid var(--udexColorBlue6);
       box-shadow: var(--sapContent_Shadow1);
+      cursor: pointer;
     }
 
     &:active{
@@ -766,7 +767,6 @@
 
     .grid-view .search-result-card {
       min-width: 321px;
-      border: unset;
     }
 }
 }
