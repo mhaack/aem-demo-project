@@ -14,8 +14,14 @@ export default function decorate(block) {
       src="${new URL(href).href}"
        scrolling="no"
         frameborder="0"
+        id="iframeContainer"
       ></iframe>`;
       block.classList.add('embed-is-loaded');
+      const iFrame = block.querySelector('#iframeContainer');
+      iFrame.addEventListener('load', () => {
+        const heightIframe = iFrame.contentWindow.document.documentElement.scrollHeight;
+        iFrame.style.height = `${heightIframe}px`;
+      });
     }
   });
   observer.observe(block);
