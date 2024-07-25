@@ -57,7 +57,8 @@
     }
   }
 
-  & h4 {
+  & h4,
+  & h3:has(+ h2) {
     color: var(--udexColorBlue8);
     font-size: var(--udexTypographyEyebrowLFontSize);
     font-weight: var(--udexTypographyFontWeightMedium);
