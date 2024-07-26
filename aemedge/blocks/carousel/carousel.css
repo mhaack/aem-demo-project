@@ -317,6 +317,18 @@
         width: 42px;
       }
 
+      .slide-prev:hover {
+        background-color: var(--sapButton_Hover_Background); 
+        border: 1px solid var(--sapButton_BorderColor);
+        border-radius: var(--sapButton_BorderCornerRadius); 
+      }
+
+      .slide-next:hover {
+        background-color: var(--sapButton_Hover_Background);
+        border: 1px solid var(--sapButton_BorderColor); 
+        border-radius: var(--sapButton_BorderCornerRadius); 
+      }
+
       span {
         display: flex;
         align-items: center;

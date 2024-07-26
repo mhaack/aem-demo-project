@@ -5,7 +5,8 @@ function addCarouselMediaQueryHandler(block) {
   const container = block.querySelector('.carousel-slides-container');
   const rows = block.querySelectorAll('.carousel-slide');
   function mediaQueryChangeHandler() {
-    const totalLength = rows[0].offsetWidth * rows.length;
+    const firstRowWidth = rows[0]?.offsetWidth ?? 0;
+    const totalLength = firstRowWidth * rows.length;
     const containerLength = container.offsetWidth;
     if (totalLength <= containerLength) {
       block.classList.add('carousel-no-scroll');
