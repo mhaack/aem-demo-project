@@ -83,23 +83,28 @@ async function waitForLCP(lcpBlocks) {
   if (hasLCPBlock) await loadBlock(block);
 
   document.body.style.display = null;
-  const lcpCandidate = document.querySelector('main img');
+  let lcpCands = document.querySelectorAll('main img');
+  if (lcpCands && lcpCands.length > 2) { lcpCands = Array.from(lcpCands).slice(0, 2); }
 
-  await new Promise((resolve) => {
-    const computedStyle = lcpCandidate ? getComputedStyle(lcpCandidate) : {};
-    if (
-      lcpCandidate
-      && !lcpCandidate.complete
-      && !!computedStyle.display
-      && computedStyle.display !== 'none'
-    ) {
-      lcpCandidate.setAttribute('loading', 'eager');
-      lcpCandidate.addEventListener('load', resolve);
-      lcpCandidate.addEventListener('error', resolve);
-    } else {
-      resolve();
-    }
+  const promises = [];
+  lcpCands.forEach((lcpCandidate) => {
+    promises.push(new Promise((resolve) => {
+      const computedStyle = lcpCandidate ? getComputedStyle(lcpCandidate) : {};
+      if (
+        lcpCandidate
+        && !lcpCandidate.complete
+        && !!computedStyle.display
+        && computedStyle.display !== 'none'
+      ) {
+        lcpCandidate.setAttribute('loading', 'eager');
+        lcpCandidate.addEventListener('load', resolve);
+        lcpCandidate.addEventListener('error', resolve);
+      } else {
+        resolve();
+      }
+    }));
   });
+  await Promise.all(promises);
 }
 
 /**
