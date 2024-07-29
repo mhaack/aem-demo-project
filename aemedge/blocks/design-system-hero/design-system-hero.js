@@ -194,6 +194,55 @@ export default async function decorate(block) {
     }
   });
 
+  let lastFocusedElement = null;
+  dropM.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      dropM.classList.add('open');
+
+      const focusElem = document.querySelector(':focus');
+      const tabElements = [...document.querySelectorAll('.dropdown-options>ul.options>li>a')];
+      const tabElementsCount = tabElements.length - 1;
+      e.preventDefault();
+      if (!tabElements.includes(focusElem)) {
+        if (e.key === 'ArrowDown') {
+          if (lastFocusedElement && tabElements.includes(lastFocusedElement)) {
+            lastFocusedElement.focus();
+          } else {
+            tabElements[0].focus();
+          }
+        } else if (e.key === 'ArrowUp') {
+          if (lastFocusedElement && tabElements.includes(lastFocusedElement)) {
+            lastFocusedElement.focus();
+          } else {
+            tabElements[tabElementsCount].focus();
+          }
+        }
+        return;
+      }
+
+      const focusIndex = tabElements.indexOf(focusElem);
+      let elemToFocus;
+
+      if (e.key === 'ArrowUp') {
+        elemToFocus = tabElements[focusIndex > 0 ? focusIndex - 1 : tabElementsCount];
+      } else if (e.key === 'ArrowDown') {
+        elemToFocus = tabElements[focusIndex < tabElementsCount ? focusIndex + 1 : 0];
+      }
+
+      if (elemToFocus) {
+        elemToFocus.focus();
+        lastFocusedElement = elemToFocus;
+      }
+    }
+  });
+
+  dropM.addEventListener('focusin', (e) => {
+    const tabElements = [...document.querySelectorAll('.dropdown-options>ul.options>li>a')];
+    if (tabElements.includes(e.target)) {
+      lastFocusedElement = e.target;
+    }
+  });
+
   const pagetypes = getMetadata('pagetype');
   const titleheading = document.title;
   const slot = document.querySelector('div[slot=content]');
