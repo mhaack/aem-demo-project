@@ -84,17 +84,15 @@ function buildCardTemplate(cardObj) {
     return;
   }
 
-  let description = cardObj['description'] || cardObj['intro-desc'] || '';
-  
+  let description = cardObj.description || cardObj['intro-desc'] || '';
   const defaultPath = '/design-system/images/result-overview/cards-compact.svg';
   let imageLink = cardObj.image || '';
   const hasPageTabs = cardObj['page-tabs'] !== '';
   if (hasPageTabs) {
     const newPath = `${cardObj.path}usage`;
     const card = RAW_DATA.filter(({ path }) => path === newPath);
-
-    if(!description){   
-      description = card[0]?.['intro-desc'] || card[0]?.['description'] || '';
+    if (!description) {
+      description = card[0]?.['intro-desc'] || card[0]?.description || '';
     }
     // imageLink = card[0]?.image;
   }
