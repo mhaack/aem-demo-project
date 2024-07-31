@@ -5,6 +5,69 @@ import {
 } from './solutions/country.js';
 import { registerWaitForSolution, solutionReadyById } from './guards.js';
 
+const botUserAgentsLC = [
+  '360spider',
+  'ahrefsbot',
+  'amazonbot',
+  'anthropic-ai',
+  'claudebot',
+  'claudebot',
+  'claude-web',
+  'ask jeeves/teoma',
+  'baiduspider',
+  'coccocbot',
+  'ccbot',
+  'https://whatis.contentkingapp.com/',
+  'daum',
+  'duckduckbot',
+  'ecosia_bot',
+  'facebookexternalhit',
+  'googlebot',
+  'googlebot-image',
+  'googlebot-news',
+  'adsbot-google',
+  'adsbot-google-mobile',
+  'feedfetcher-google',
+  'googlebot-video',
+  'google-inspectiontool',
+  'googleother',
+  'google-safety',
+  'mediapartners-google',
+  'storebot-google',
+  'google-extended',
+  'gptbot',
+  'ichiro',
+  'archive.org_bot',
+  'linkedinbot',
+  'facebookbot',
+  'bingbot',
+  'bingpreview',
+  'mojeekbot',
+  'chatgpt-user',
+  'perplexitybot',
+  'prerender',
+  'qwantify',
+  'schemabot',
+  'screaming frog seo spider',
+  'semrushbot',
+  'seznambot',
+  'sogou web spider',
+  'twitterbot',
+  'yahoo! slurp',
+  'yandexbot',
+  'yandexmobilebot',
+];
+
+function isABot() {
+  const agentLC = navigator.userAgent.toLowerCase();
+  for (let i = 0; i < botUserAgentsLC.length; i += 1) {
+    if (agentLC.indexOf(botUserAgentsLC[i]) > -1) {
+      return true;
+    }
+  }
+  return false;
+}
+
 function getEnvType(hostname = window.location.hostname) {
   const fqdnToEnvType = {
     'www.sap.com': 'prod',
@@ -59,6 +122,7 @@ async function scheduleSolutionsLoad() {
 
 export {
   scheduleSolutionsLoad,
+  isABot,
   isCFEnabled,
   isCLEnabled,
   getEnvType,

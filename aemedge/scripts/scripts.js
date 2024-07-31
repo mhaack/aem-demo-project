@@ -17,6 +17,7 @@ import {
 } from './aem.js';
 import {
   scheduleSolutionsLoad,
+  isABot,
   isCFEnabled,
   isCLEnabled,
 } from '../libs/analytics/analytics-core.js';
@@ -383,8 +384,10 @@ function setSAPTheme() {
 }
 
 function loadSchemaApp() {
-  window.schema_highlighter = { accountId: 'SAP', outputCache: true };
-  loadScript('https://cdn.schemaapp.com/javascript/highlight.js', { async: true });
+  if (isABot()) {
+    window.schema_highlighter = { accountId: 'SAP', outputCache: true };
+    loadScript('https://cdn.schemaapp.com/javascript/highlight.js', { async: true });
+  }
 }
 
 async function loadConfig() {
