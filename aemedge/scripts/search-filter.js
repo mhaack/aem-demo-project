@@ -84,15 +84,18 @@ function buildCardTemplate(cardObj) {
     return;
   }
 
-  let introDesc = cardObj['intro-desc'] || 'Default';
-  // const prefix = '/design-system/fiori-design-web/v1-124/ui-elements/';
+  let description = cardObj['description'] || cardObj['intro-desc'] || '';
+  
   const defaultPath = '/design-system/images/result-overview/cards-compact.svg';
   let imageLink = cardObj.image || '';
   const hasPageTabs = cardObj['page-tabs'] !== '';
   if (hasPageTabs) {
     const newPath = `${cardObj.path}usage`;
     const card = RAW_DATA.filter(({ path }) => path === newPath);
-    introDesc = card[0]?.['intro-desc'] || '';
+
+    if(!description){   
+      description = card[0]?.['intro-desc'] || card[0]?.['description'] || '';
+    }
     // imageLink = card[0]?.image;
   }
   if (imageLink?.length > 0 && imageLink !== 'https://www.sap.com/default-meta-image.png?width=1200&format=pjpg&optimize=medium') {
@@ -114,7 +117,7 @@ function buildCardTemplate(cardObj) {
       </div>
       <div class="search-result-card-content">
         <h3 class="search-result-card-title">${cardObj?.title}</h3>
-        <p class="search-result-card-description">${introDesc}</p>
+        <p class="search-result-card-description">${description}</p>
         <div class="d-flex justify-content-between align-items-center">
           <span class="search-result-card-tag"><span class='tech'>${cardObj?.uielementstechnology || 'Default'}</span><span class='design'>${cardObj?.designowner || 'Default'}</span><span class='type'>${cardObj?.elementtype || 'Default'}</span>
           <span class="search-result-card-status ${cardObj.elementstatus?.toLowerCase?.() || 'default'}">${capitalizeString(cardObj.elementstatus) || 'status'}</span></span>
