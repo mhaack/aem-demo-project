@@ -394,10 +394,23 @@
     border-bottom: 1px solid #a9b4be;
   }
 
+  .list-view .search-result-card:hover {
+    background: var(--udexColorGrey1);
+  }
+
+  .list-view .search-result-card:focus-within {
+    background:  var(--udexColorGrey2);
+  }
+
+  .list-view .search-result-card:active{
+    background: var(--udexColorBlue1);
+    border-bottom: 1px solid var(--udexColorBlue7);
+  }
+
   .list-view .search-result-card-content {
     display: grid;
     grid-template-rows: repeat(2, 1fr) ;
-    padding: 0 20px 16px 0;
+    padding: 8px 20px 8px 0;
   }
 
   .list-view .search-result-card-status{
