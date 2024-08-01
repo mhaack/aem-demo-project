@@ -40,9 +40,9 @@ function updateActiveSlide(slide) {
   const indicators = block.querySelectorAll('.carousel-slide-indicator');
   indicators.forEach((indicator, idx) => {
     if (idx !== slideIndex) {
-      indicator.querySelector('button').removeAttribute('disabled');
+      indicator.querySelector('button').classList.remove('active-dot');
     } else {
-      indicator.querySelector('button').setAttribute('disabled', 'true');
+      indicator.querySelector('button').classList.add('active-dot');
     }
   });
 }
@@ -63,26 +63,57 @@ function showSlide(block, slideIndex = 0) {
   });
 }
 
+function handleKeyboardNavigation(event, block) {
+  const prevButton = block.querySelector('.slide-prev');
+  const nextButton = block.querySelector('.slide-next');
+
+  switch (event.key) {
+    case 'ArrowLeft':
+      prevButton.click();
+      break;
+    case 'ArrowRight':
+      nextButton.click();
+      break;
+    case 'Enter':
+    case ' ':
+      event.target.click();
+      break;
+    default:
+      return;
+  }
+
+  event.preventDefault();
+}
+
 function bindEvents(block) {
   const slideIndicators = block.querySelector('.carousel-slide-indicators');
   const carouselSlides = block.querySelectorAll('.carousel-slide');
 
   if (!slideIndicators) return;
   if (!carouselSlides) return;
-
   slideIndicators.querySelectorAll('button').forEach((button) => {
     button.addEventListener('click', (e) => {
       const slideIndicator = e.currentTarget.parentElement;
       showSlide(block, parseInt(slideIndicator.dataset.targetSlide, 10));
+    });
+    button.addEventListener('focus', () => {
+      block.dataset.keyboardFocused = 'true';
+    });
+    button.addEventListener('blur', () => {
+      block.dataset.keyboardFocused = 'false';
     });
   });
 
   block.querySelector('.slide-prev').addEventListener('click', () => {
     showSlide(block, parseInt(block.dataset.activeSlide, 10) - 1);
   });
+
   block.querySelector('.slide-next').addEventListener('click', () => {
     showSlide(block, parseInt(block.dataset.activeSlide, 10) + 1);
   });
+
+  // Add keyboard event listener to the whole block
+  block.addEventListener('keydown', (event) => handleKeyboardNavigation(event, block));
 
   const slideObserver = new IntersectionObserver(
     (entries) => {

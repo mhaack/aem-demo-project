@@ -85,7 +85,7 @@
     background-color: rgba(0 0 0 / 25%);
 
     &:hover,
-    &:disabled,
+    & .active-dot,
     &:focus-visible {
       background-color: rgba(0 0 0 / 80%);
     }
@@ -317,16 +317,29 @@
         width: 42px;
       }
 
-      .slide-prev:hover {
-        background-color: var(--sapButton_Hover_Background); 
-        border: 1px solid var(--sapButton_BorderColor);
-        border-radius: var(--sapButton_BorderCornerRadius); 
-      }
-
+      .slide-prev:hover,
       .slide-next:hover {
         background-color: var(--sapButton_Hover_Background);
-        border: 1px solid var(--sapButton_BorderColor); 
-        border-radius: var(--sapButton_BorderCornerRadius); 
+        border: 1px solid var(--sapButton_BorderColor);
+        border-radius: var(--sapButton_BorderCornerRadius);
+      }
+
+       /* stylelint-disable */
+      .slide-prev,
+      .slide-next {
+        position: relative;
+        border-radius: var(--sapButton_BorderCornerRadius);
+        background-color: transparent;
+        border: none;
+        padding: 0;
+      }
+      /* stylelint-enable */
+
+      .slide-prev:focus,
+      .slide-next:focus {
+        outline: 2px solid var(--udexColorBlue9);
+        outline-offset: 2px;
+        border-radius: var(--sapButton_BorderCornerRadius);
       }
 
       span {
@@ -346,7 +359,7 @@
     .carousel-slide-indicators {
       display: flex;
       justify-content: center;
-      padding: 8px;
+      gap: 8px;
       align-items: center;
     }
 
@@ -355,7 +368,7 @@
       height: 4px;
       padding: 2px 0;
 
-      &:not(:disabled) {
+      &:not(.active-dot) {
         span {
           img {
             content: url("/aemedge/icons/dot-regular.svg");
@@ -363,7 +376,7 @@
         }
       }
 
-      &:disabled {
+      &.active-dot {
         background-color: white;
         width: 8px;
         height: 8px;
@@ -381,6 +394,14 @@
         height: 4px;
       }
     }
+
+    .carousel-slide-indicators:focus-within {
+      border: 2px solid var(--udexColorBlue9);
+      border-radius: var(--sapButton_BorderCornerRadius);
+      padding: 0 4px;
+    }
+
+
   }
 }
 
