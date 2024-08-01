@@ -17,7 +17,7 @@ const botUserAgentsLC = [
   'baiduspider',
   'coccocbot',
   'ccbot',
-  'https://whatis.contentkingapp.com/',
+  'https://whatis.contentkingapp.com',
   'daum',
   'duckduckbot',
   'ecosia_bot',
