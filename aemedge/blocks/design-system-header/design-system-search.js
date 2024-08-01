@@ -137,9 +137,9 @@ function addSearchForm(mastheadSearch) {
     },
     onblur: (event) => {
       const searchText = event.target;
-      const searchResults = searchText.parentNode.nextSibling.nextSibling;
+      // const searchResults = searchText.parentNode.nextSibling.nextSibling;
       searchText.value = '';
-      searchResults.classList.remove('open');
+      // searchResults.classList.remove('open');
     },
   }));
 
@@ -187,11 +187,11 @@ function addSearchForm(mastheadSearch) {
   searchForm.appendChild(searchFormResultsList);
   mastheadSearch.appendChild(searchForm);
 
-  document.addEventListener('click', (event) => {
-    if (!searchFormResultsList.contains(event.target)) {
-      searchInput.getElementsByTagName('input')[0].value = '';
-      searchFormResultsList.classList.remove('open');
-    }
+  document.addEventListener('click', () => {
+    // if (!searchFormResultsList.contains(event.target)) {
+    //   searchInput.getElementsByTagName('input')[0].value = '';
+    //   searchFormResultsList.classList.remove('open');
+    // }
   });
 }
 
