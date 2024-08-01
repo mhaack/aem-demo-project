@@ -569,6 +569,7 @@ async function initDataLayer() {
       referrer: document.referrer,
       title: document.querySelector('title').textContent.replace(/[\n\t]/gm, ''),
       template: 'AEM EDS v1',
+      accessLevel: getMetadata('tracking-pageaccess') || 'public',
     },
     user: {
       type: 'visitor',
