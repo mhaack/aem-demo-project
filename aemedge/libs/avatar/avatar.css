@@ -7,10 +7,6 @@
   border: 1px solid var(--udexColorGrey2);
   box-sizing: unset;
 
-  &:hover {
-    border-color: var(--udexColorGrey7);
-  }
-
   & img {
     object-fit: cover;
     height: 5.25rem;
