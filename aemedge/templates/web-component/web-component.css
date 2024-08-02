@@ -557,3 +557,18 @@ html:has(.design-system) {
     }
   }
 }
+
+.design-system main p:has(.live-example-embed) >  p,
+.design-system main p:has(> picture) + p { 
+  font-size: var(--udexTypographyEyebrowSFontSize) !important;
+  font-style: normal !important;
+  color: var(--udexColorGrey8) !important;
+  em {
+    font-style: normal !important;
+  }
+
+  /* S - XL */
+  @media (width >= 640px) {
+    font-size: var(--udexTypographyEyebrowMFontSize) !important;
+  }
+}
