@@ -77,7 +77,7 @@ indices:
         select: head > meta[name="description"]
         value: attribute(el, "content")
       readingTime:
-        select: head > meta[property="twitter:label2"]
+        select: head > meta[property="twitter:data2"]
         value: attribute(el, "content")
   profiles:
     include:
