@@ -991,3 +991,8 @@ body main .section {
 .ta-consent {
   display: none;
 }
+
+udex-media-player {
+  --udex-media-player-mobile-height: 100%;
+  --udex-media-player-mobile-width: 100%;
+}

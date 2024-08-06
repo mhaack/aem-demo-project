@@ -44,6 +44,6 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
-    "@udex/webcomponents": "https://cdn.udex.services.sap.com/dds/npm/web-components-0.67.2.tgz"
+    "@udex/webcomponents": "https://cdn.udex.services.sap.com/dds/npm/web-components-0.74.10.tgz"
   }
 }

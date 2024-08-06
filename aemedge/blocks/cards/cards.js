@@ -1,6 +1,7 @@
 import { createOptimizedPicture, toClassName } from '../../scripts/aem.js';
 import { div, domEl } from '../../scripts/dom-builder.js';
 import { applyLayout, capitalize } from '../../scripts/utils.js';
+import MediaPlayer from '../../libs/mediaPlayer/mediaPlayer.js';
 
 /**
  * Decorate Cards (colors) variant.
@@ -77,6 +78,32 @@ function decorateColorsVariant(block) {
   });
 }
 
+function handleMediaPlayer(childDiv) {
+  childDiv.classList.add('cards-card-media');
+  const placeholder = childDiv.querySelector('picture');
+  const link = childDiv.querySelector('a').href;
+  const player = new MediaPlayer(link, placeholder);
+  childDiv.textContent = '';
+  childDiv.append(player.render());
+}
+
+function handlePictureAndBackground(childDiv, bodyStyleProperties) {
+  // remove wrapping <p> from <picture>
+  const pictureEl = childDiv.querySelector('picture');
+  const pictureElParent = pictureEl.parentElement;
+  pictureEl.parentElement.parentElement.insertBefore(pictureEl, pictureElParent);
+  pictureElParent.remove();
+
+  const backgroundColourTokenEl = childDiv.querySelector('p:nth-child(2)');
+  if (backgroundColourTokenEl && backgroundColourTokenEl.textContent) {
+    const backgroundColourToken = toClassName(backgroundColourTokenEl.textContent.trim());
+    const styleKey = `--udexColor${capitalize(backgroundColourToken.replace('background-', ''))}`;
+    childDiv.style.backgroundColor = bodyStyleProperties.getPropertyValue(styleKey);
+    childDiv.classList.add('cards-card-image', 'cards-card-image--has-background');
+    backgroundColourTokenEl.remove();
+  }
+}
+
 export default function decorate(block) {
   const styleProperties = getComputedStyle(document.body);
   /* change to ul, li */
@@ -85,24 +112,15 @@ export default function decorate(block) {
     const cardDiv = document.createElement('div');
     cardDiv.classList.add('cards-card');
     while (row.firstElementChild) cardDiv.append(row.firstElementChild);
-    [...cardDiv.children].forEach((childDiv) => {
-      if (childDiv.children.length === 1 && childDiv.querySelector('picture')) {
+    [...cardDiv.children].forEach((childDiv, index) => {
+      if (childDiv.querySelector('picture') && childDiv.querySelector('a')) {
+        handleMediaPlayer(childDiv);
+      } else if (childDiv.querySelector('a') && index === 0) {
+        handleMediaPlayer(childDiv);
+      } else if (childDiv.children.length === 1 && childDiv.querySelector('picture')) {
         childDiv.classList.add('cards-card-image');
       } else if (childDiv.children.length === 2 && childDiv.querySelector('picture')) {
-        // remove wrapping <p> from <picture>
-        const pictureEl = childDiv.querySelector('picture');
-        const pictureElParent = pictureEl.parentElement;
-        pictureEl.parentElement.parentElement.insertBefore(pictureEl, pictureElParent);
-        pictureElParent.remove();
-
-        const backgroundColourTokenEl = childDiv.querySelector('p:nth-child(2)');
-        if (backgroundColourTokenEl && backgroundColourTokenEl.textContent) {
-          const backgroundColourToken = toClassName(backgroundColourTokenEl.textContent.trim());
-          const styleKey = `--udexColor${capitalize(backgroundColourToken.replace('background-', ''))}`;
-          childDiv.style.backgroundColor = styleProperties.getPropertyValue(styleKey);
-          childDiv.classList.add('cards-card-image', 'cards-card-image--has-background');
-          backgroundColourTokenEl.remove();
-        }
+        handlePictureAndBackground(childDiv, styleProperties);
       } else {
         childDiv.classList.add('cards-card-body');
       }
