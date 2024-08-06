@@ -195,6 +195,7 @@ body:not(.hub-l2:has(aside)) .hero:has(.hero__background-image:not(.full-backgro
   & picture img {
     border-radius: var(--udexSpacer16);
     aspect-ratio: 16 / 9;
+    object-fit: cover;
   }
 }
 
