@@ -1,4 +1,3 @@
-import '@udex/webcomponents/dist/HeroBanner.js';
 import {
   a, div, p, span,
 } from '../../scripts/dom-builder.js';
@@ -18,37 +17,24 @@ import {
 } from '../../scripts/utils.js';
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
-
-function calculateInitials(name) {
-  const nameParts = name.split(' ');
-  let initials = '';
-  nameParts.forEach((part) => {
-    initials += part.charAt(0).toUpperCase();
-  });
-  return initials;
-}
+import Button from '../../libs/button/button.js';
 
 function buildAuthorEl(author) {
   const renderLink = author.path && author.path.indexOf('/people/') === -1;
   if (renderLink) {
-    return a({ class: 'media-blend__author', href: author.path }, author.name);
+    return a({ class: 'hero__content__info__author', href: author.path }, author.name);
   }
-  return span({ class: 'media-blend__author' }, author.name);
+  return span({ class: 'hero__content__info__author' }, author.name);
 }
 
-function decorateMetaInfo(authors) {
-  const infoBlockWrapper = span({ class: 'media-blend__info-block' });
+function buildMetaInfo(authors = []) {
+  const infoBlockWrapper = span({ class: 'hero__content__info' });
   if (authors.length > 0) {
-    const authorEl = span({ class: 'media-blend__authors' });
+    const authorEl = span({ class: 'hero__content__info__authors' });
     if (authors.length === 1) {
-      const avatarImage = Avatar.fromAuthorEntry(authors[0]).getImage();
-      if (avatarImage) {
-        const avatar = document.createElement('udex-avatar');
-        avatar.setAttribute('size', 'XS');
-        avatar.setAttribute('initials', calculateInitials(authors[0].name));
-        avatar.setAttribute('color-scheme', 'Neutral');
-        avatar.append(avatarImage.querySelector('img'));
-        infoBlockWrapper.prepend(avatar);
+      const avatar = Avatar.fromAuthorEntry(authors[0]);
+      if (avatar.getImage()) {
+        infoBlockWrapper.prepend(avatar.render('small', true));
       }
       authorEl.append(buildAuthorEl(authors[0]));
     } else {
@@ -69,13 +55,13 @@ function decorateMetaInfo(authors) {
       ? 'Published on'
       : 'Updated on';
     infoBlockWrapper.append(
-      span({ class: 'media-blend__date' }, `${lastUpdatePrefix} ${formatDate(lastUpdate)}`),
+      span({ class: 'hero__content__info__date' }, `${lastUpdatePrefix} ${formatDate(lastUpdate)}`),
     );
   }
 
   const readingTime = getMetadataOverride('twitter:data2');
   if (readingTime) {
-    infoBlockWrapper.append(span({ class: 'media-blend__read-time' }, readingTime));
+    infoBlockWrapper.append(span({ class: 'hero__content__info__read-time' }, readingTime));
   }
 
   return infoBlockWrapper;
@@ -108,7 +94,7 @@ function replacePlaceholderText(elem, tags) {
 }
 
 function buildEyebrow(content) {
-  return p({ class: 'media-blend__intro-text' }, content);
+  return p({ class: 'hero__content__eyebrow' }, content);
 }
 
 function findFirstTag(tags) {
@@ -136,7 +122,7 @@ export default async function decorate(block) {
   const tags = await fetchTagList();
 
   // extract block content
-  const hero = document.createElement('udex-hero-banner');
+  const hero = div({ class: 'hero' });
   const heading = block.querySelector('h1');
   const eyebrow = block.querySelector('h6');
   let eyebrowText = eyebrow?.textContent;
@@ -166,15 +152,12 @@ export default async function decorate(block) {
     newEyebrow = buildEyebrow(eyebrowText);
   }
 
-  const contentSlot = div(
-    {
-      slot: 'content',
-      class: ['hero-banner', 'media-blend__content'],
-    },
+  const content = div(
+    { class: 'hero__content' },
     newEyebrow,
     replacePlaceholderText(heading, tags),
   );
-  hero.append(contentSlot);
+  hero.append(content);
 
   // get images for background
   let picture = block.querySelector(':scope div > div > picture');
@@ -183,22 +166,18 @@ export default async function decorate(block) {
       picture.querySelectorAll('source[type="image/webp"]').forEach((source) => {
         source.srcset = source.srcset.replaceAll('format=webply', 'format=webpll');
       });
+      picture.classList.add('full-background-image');
     }
-    picture.setAttribute('slot', 'backgroundPicture');
-    const img = picture.querySelector('img');
-    img.classList.add('custom-background-image');
+    picture.classList.add('hero__background-image');
     hero.append(picture);
   }
   picture = block.querySelector(':scope div > div picture');
   if (picture) {
-    const additionalContentSlot = div(
-      {
-        slot: 'additionalContent',
-        class: ['hero-banner', 'media-blend__additional-content'],
-      },
+    const additionalContent = div(
+      { class: 'hero__additional-content' },
       picture,
     );
-    hero.append(additionalContentSlot);
+    hero.append(additionalContent);
   }
 
   // clean up the block before we get the description
@@ -210,7 +189,7 @@ export default async function decorate(block) {
   });
 
   // Add primary tag or news placeholder
-  const tagContainer = div({ class: 'media-blend__tags' });
+  const tagContainer = div({ class: 'hero__content__tags' });
   if (isNewsPage() && isAnArticle) {
     const placeholders = await fetchPlaceholders();
     tagContainer.append(new Tag(placeholders[toCamelCase('SAP News Center')], '/news').render());
@@ -222,39 +201,31 @@ export default async function decorate(block) {
   }
 
   // convert all buttons to udex-buttons
-  const buttonContainer = div({ class: 'media-blend__buttons' });
+  const buttonContainer = div({ class: 'hero__content__buttons' });
   block.querySelectorAll('p.button-container a').forEach((anchor) => {
-    const button = document.createElement('udex-button');
-    if (anchor.parentElement.nodeName === 'STRONG') button.design = 'Primary';
-    if (anchor.parentElement.nodeName === 'EM') button.design = 'Secondary';
-    button.textContent = anchor.textContent;
-
-    button.addEventListener('click', () => {
-      window.location.href = anchor.href;
-    });
+    const type = anchor.parentElement.nodeName === 'EM' ? 'secondary' : 'primary';
+    const button = new Button(anchor.textContent, null, type, 'medium', anchor.href).render();
 
     buttonContainer.appendChild(button);
     anchor.closest('p').remove();
   });
 
-  if (block.querySelector(':scope div > div').childElementCount > 0) contentSlot.append(...block.querySelector(':scope div > div').children);
+  if (block.querySelector(':scope div > div').childElementCount > 0) content.append(...block.querySelector(':scope div > div').children);
 
   if (isMediaBlend) {
-    if (getMetadata('author')) {
-      await import('@udex/webcomponents/dist/Avatar.js');
-    }
-    const authorIndex = await fetchAuthors();
-    const authors = await lookupProfiles(getAuthorMetadata(), authorIndex);
-    contentSlot.append(decorateMetaInfo(authors));
+    const metaInfo = buildMetaInfo();
+    content.append(metaInfo);
+    fetchAuthors().then((authorIndex) => {
+      metaInfo.replaceWith(buildMetaInfo(lookupProfiles(getAuthorMetadata(), authorIndex)));
+    });
   }
 
   if (tagContainer.children.length > 0) {
-    contentSlot.append(tagContainer);
+    content.append(tagContainer);
   }
 
   if (buttonContainer.childElementCount > 0) {
-    await import('@udex/webcomponents/dist/Button.js');
-    contentSlot.append(buttonContainer);
+    content.append(buttonContainer);
   }
 
   block.replaceWith(hero);

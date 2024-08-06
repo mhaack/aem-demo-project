@@ -219,8 +219,7 @@ async function fetchAuthors() {
 
 /**
  * Fetches author information based on the provided author names.
- * @param {string|string[]} authors - The author name(s) to fetch information for.
- * @returns {Promise<Object[]>} - A promise that resolves to an array of author objects.
+ * @returns {Object[]} - An array of author objects.
  */
 function lookupProfiles(profilesKeys, profileIndex) {
   if (

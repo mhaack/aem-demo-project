@@ -268,7 +268,7 @@ main img {
   border: 1px solid #e7e7e7;
 }
 
-a {
+a:where(:not(.tag)) {
   color: var(--udexColorBlue7);
   cursor: pointer;
 
@@ -787,7 +787,7 @@ body:not(.design-system) main .button-container .button:where(:not(.primary, .se
   &.background-dark {
     color: var(--udexColorNeutralWhite);
 
-    & a:not(.primary, .secondary, .tertiary) {
+    & a:not(.primary, .secondary, .tertiary, .tag) {
       color: var(--udexColorNeutralWhite);
 
       &:visited {

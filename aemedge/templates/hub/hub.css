@@ -209,9 +209,6 @@ main > .section:not(.fragment-container) {
 
 .hub-l2.appear {
   &:has(aside) {
-    --hero-margin--left: 0;
-    --hero-margin--right: 0;
-
     & > main {
       @media (width >= 640px) {
         & > * {
