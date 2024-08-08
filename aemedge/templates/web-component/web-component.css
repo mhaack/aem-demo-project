@@ -59,14 +59,10 @@ html:has(.design-system) {
       font-size: var(--udexTypographyBodySFontSize);
     }
 
-    :is(h1, h2, h3) + p {
-      margin-block: 0 var(--udexSpacer24);
-    }
-
     /* Picture */
     /* stylelint-disable-next-line */
     p:has(> picture) {
-      margin: 0 0 var(--udexSpacer16);
+      margin: var(--udexSpacer16) 0 var(--udexSpacer16);
       padding: 0;
 
       /* Caption */
@@ -82,12 +78,8 @@ html:has(.design-system) {
         }
       }
     }
-
-    ul {
-      margin: 0;
-      padding: 0 0 0 1rem;
-    }
-
+ 
+    
     img {
       display: block;
     }
@@ -174,6 +166,21 @@ html:has(.design-system) {
             }
           }
         }
+      }
+      & :is(h1, h2, h3) + p:has(+ ul) {
+        margin-block: 0 var(--udexSpacer16);
+      }
+  
+      & :is(h1, h2, h3) + p:has(+ ol) {
+        margin-block: 0 var(--udexSpacer16);
+      }
+  
+      & :is(h1, h2, h3) + p:not(+ ul) {
+        margin-block: 0 var(--udexSpacer24);
+      }
+  
+      & :is(h1, h2, h3) + p:not(+ ol) {
+        margin-block: 0 var(--udexSpacer24);
       }
     }
   }
@@ -407,7 +414,6 @@ html:has(.design-system) {
           padding-bottom: var(--udexSpacer84);
         }
       }
-
       & :is(h1, h2, h3) + p {
         margin-block: 0 var(--udexSpacer40);
       }
@@ -576,5 +582,22 @@ html:has(.design-system) {
   /* S - XL */
   @media (width >= 640px) {
     font-size: var(--udexTypographyEyebrowMFontSize) !important;
+  }
+}
+
+
+.design-system main .section {
+  ul, ol {
+    margin: 0;
+    padding: 0 0 0 1rem;
+  }
+
+  ul li, ol li {
+    margin-bottom: 8px; /* Add spacing between list items */
+  }
+
+  /* Remove margin from the last item to avoid extra space at the end */
+  ul li:last-child, ol li:last-child {
+    margin-bottom: 0;
   }
 }
