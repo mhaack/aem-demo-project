@@ -451,9 +451,15 @@ html:has(.design-system) {
     & :is(#anatomy) {
       /* Picture */
       & + p:has(> picture) {
+        margin-block: 0 var(--udexSpacer16);
+
         & img {
           border-radius: var(--udexRadiusM);
         }
+      }
+
+      & ~ ol {
+        margin-top: 20px;
       }
     }
   }
