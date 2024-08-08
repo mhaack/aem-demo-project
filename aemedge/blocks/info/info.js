@@ -7,7 +7,7 @@ const blockToColorIconMap = {
     displayText: 'Warning',
   },
   hint: {
-    icon: 'hint',
+    icon: 'source-code',
     displayText: 'Developer Hint',
   },
   changes: {
