@@ -6,15 +6,15 @@ main .section {
   }
 }
 
-.article {
-  @media (width >= 1600px) {
-    & {
-      --udexGridMargins: max(246px, calc((100vw - 1108px) / 2));
-      --hero-margin--right: var(--udexGridMargins);
-      --hero-margin--left: var(--udexGridMargins);
-    }
+
+@media (width >= 1600px) {
+  :root {
+    --udexGridMargins: max(246px, calc((100vw - 1108px) / 2));
+    --hero-margin--right: var(--udexGridMargins);
+    --hero-margin--left: var(--udexGridMargins);
   }
 }
+
 
 main {
   column-gap: var(--udexGridGutters);
