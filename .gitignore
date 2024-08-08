@@ -3,7 +3,6 @@ coverage/*
 logs/*
 node_modules/*
 
-fstab.yaml
 data
 helix-importer-ui
 .DS_Store
