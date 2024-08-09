@@ -9,9 +9,17 @@
         "includePaths": ["**.docx**"]
       },
       {
+        "id": "tagger",
+        "title": "Tag Picker",
+        "environments": ["edit"],
+        "url": "/tools/sidekick/tagger.html",
+        "includePaths": ["**.docx**"]
+      },
+      {
         "id": "tools",
         "title": "Tools",
-        "isContainer": true
+        "isContainer": true,
+        "environments": ["dev", "preview", "live"]
       },
       {
         "containerId": "tools",

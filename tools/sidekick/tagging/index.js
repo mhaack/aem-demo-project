@@ -1,0 +1,26 @@
+/* eslint-disable import/no-unresolved */
+import 'https://jspm.dev/@spectrum-web-components/theme/sp-theme.js';
+import 'https://jspm.dev/@spectrum-web-components/theme/theme-dark.js';
+import 'https://jspm.dev/@spectrum-web-components/theme/theme-light.js';
+import 'https://jspm.dev/@spectrum-web-components/theme/scale-medium.js';
+import 'https://jspm.dev/@spectrum-web-components/sidenav/sp-sidenav.js';
+import 'https://jspm.dev/@spectrum-web-components/sidenav/sp-sidenav-item.js';
+import 'https://jspm.dev/@spectrum-web-components/icons/sp-icons-medium.js';
+import 'https://jspm.dev/@spectrum-web-components/action-button/sp-action-button.js';
+import 'https://jspm.dev/@spectrum-web-components/search/sp-search.js';
+import 'https://jspm.dev/@spectrum-web-components/divider/sp-divider.js';
+import 'https://jspm.dev/@spectrum-web-components/table/elements.js';
+import 'https://jspm.dev/@spectrum-web-components/icons-workflow/icons/sp-icon-view-all-tags.js';
+import 'https://jspm.dev/@spectrum-web-components/icons-workflow/icons/sp-icon-page-tag.js';
+import 'https://jspm.dev/@spectrum-web-components/icon/sp-icon.js';
+import 'https://jspm.dev/@spectrum-web-components/tags/sp-tags.js';
+import 'https://jspm.dev/@spectrum-web-components/tags/sp-tag.js';
+import 'https://jspm.dev/@spectrum-web-components/button/sp-button.js';
+import 'https://jspm.dev/@spectrum-web-components/toast/sp-toast.js';
+import './app.js';
+import './ui/header.js';
+import './ui/split-view.js';
+import './ui/tags-view.js';
+import './ui/tags-nav.js';
+import './ui/tags-table.js';
+import './ui/tags-basket.js';

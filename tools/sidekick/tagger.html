@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="Description" content="AEM Sidekick Library">
+
+    
+    <title>Tag Picker</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: #ededed;
+        height: 100%;
+      }
+
+      helix-sidekick { display: none }
+    </style>
+  </head>
+
+  <body>
+    <script type="module" src="./tagging/index.js"></script>
+    <script>
+      const tagger = document.createElement('sidekick-tagger');
+      tagger.config = {
+        base: 'https://main--builder-prospect--sapudex.hlx.page/aemedge/tagging-contenthub.json',
+      }
+      document.body.prepend(tagger);
+    </script>
+  </body>
+</html>
+
