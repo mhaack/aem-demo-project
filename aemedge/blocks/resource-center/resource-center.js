@@ -120,7 +120,9 @@ function getDateFilter(entry, params, id) {
   const dateRange = params.get(`${id}-date-range`);
   if (!dateRange) return true;
   const publicationDate = new Date(entry.publicationDate * 1000);
-  const dateString = `${publicationDate.getUTCFullYear()}/${(publicationDate.getUTCMonth() + 1).toString().padStart(2, '0')}`;
+  const dateString = `${publicationDate.getUTCFullYear()}/${(publicationDate.getUTCMonth() + 1)
+    .toString()
+    .padStart(2, '0')}`;
   return dateRange.find((date) => date === dateString);
 }
 
@@ -320,6 +322,49 @@ function getMonthRange(startDate, endDate, id) {
   return months.reverse();
 }
 
+/*
+  getMonthAmount: returns amount of months from the range
+  range examples:
+    - range = "month 8" -> 8
+    - range = "20 year" -> 240
+*/
+function getMonthAmount(range) {
+  let amount = parseInt(range.replace('year', '').replace('month', '').trim(), 10);
+  if (range.includes('year')) {
+    amount *= 12;
+  }
+  return amount;
+}
+
+/*
+  rangeValue examples:
+    - "2023-04-01 to 2024-11-01"
+    - "8 Months"
+    - "years: 1, months: 2"
+*/
+function getDateRange(rangeValue, id) {
+  let startDate;
+  let endDate;
+
+  if (rangeValue.includes('to')) {
+    const dates = rangeValue.split('to');
+    startDate = dates[0].trim();
+    endDate = dates[1].trim();
+  } else {
+    endDate = new Date();
+    startDate = new Date(endDate);
+
+    rangeValue.replaceAll(':', '').replaceAll('s', '').toLowerCase().split(',')
+      .map((value) => getMonthAmount(value))
+      .filter((value) => value)
+      .forEach((months) => {
+        startDate.setUTCMonth(startDate.getUTCMonth() - months);
+      });
+  }
+
+  return getMonthRange(startDate, endDate, id);
+}
+
 function cleanupUrlsToPath(urls) {
   if (typeof urls === 'string') {
     return getPathFromUrl(urls) || urls;
@@ -361,12 +406,11 @@ function getFilterConfig(block, tags, id, placeholders) {
       return;
     }
     if (key === 'date-range') {
-      const dates = value.split('to');
       const filterId = `${id}-date-range`;
       userConfig[filterId] = {
         id: filterId,
         name: 'Month/Year',
-        items: getMonthRange(dates[0].trim(), dates[1].trim(), filterId),
+        items: getDateRange(value, filterId),
       };
       return;
     }
