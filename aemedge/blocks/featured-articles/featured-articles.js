@@ -1,5 +1,7 @@
 import {
-  fetchPlaceholders, getMetadata, toCamelCase,
+  fetchPlaceholders,
+  getMetadata,
+  toCamelCase,
 } from '../../scripts/aem.js';
 import { ul } from '../../scripts/dom-builder.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
@@ -13,7 +15,8 @@ import {
   getAuthorMetadata,
   lookupProfiles,
   isNewsPage,
-  fetchProfiles, applyLayout,
+  fetchProfiles,
+  applyLayout,
 } from '../../scripts/utils.js';
 
 /**
@@ -49,6 +52,19 @@ function getPictureCard(article, placeholders, tags, author, eager) {
 
   const contentType = tags[toCamelCase(getContentType(article))];
 
+  /**
+   * If the article is a Document and has a hero block with a custom description,
+   * use that as the description.
+   * Otherwise, use the `og:description` metadata.
+   */
+  let description = getMetadata('og:description', article);
+  if (article instanceof Document) {
+    const heroDescription = article.querySelector('main div.hero h1 + p');
+    if (heroDescription) {
+      description = heroDescription.textContent;
+    }
+  }
+
   return new PictureCard(
     getMetadata('og:title', article),
     url,
@@ -57,7 +73,7 @@ function getPictureCard(article, placeholders, tags, author, eager) {
     author,
     getMetadata('og:image', article),
     tagLabel,
-    getMetadata('og:description', article),
+    description,
     eager,
   );
 }
@@ -75,7 +91,9 @@ export default async function decorateBlock(block) {
     const authorIndex = await fetchProfiles();
 
     const cardList = ul();
-    articles.forEach(async (article) => {
+
+    // eslint-disable-next-line no-inner-declarations
+    async function getArticle(article) {
       const authors = lookupProfiles(getAuthorMetadata(article), authorIndex);
       const displayAuthor = buildCardDisplayProfile(authors);
       const card = getPictureCard(
@@ -86,7 +104,10 @@ export default async function decorateBlock(block) {
         article === articles[0],
       );
       cardList.append(card.render(horizontal || articles.length === 1));
-    });
+    }
+
+    articles.forEach(getArticle);
+
     applyLayout(cardList, cardList);
     block.append(cardList);
   }

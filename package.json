@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "semantic-release": "semantic-release --debug",
     "build": "vite build",
-    "aem:up": "aem up"
+    "aem:up": "aem up",
+    "aem:up:print-index": "aem up --print-index"
   },
   "lint-staged": {
     "*.js": "eslint .",

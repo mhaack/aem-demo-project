@@ -79,6 +79,9 @@ indices:
       readingTime:
         select: head > meta[name="twitter:data2"]
         value: attribute(el, "content")
+      descriptionHero:
+        select: main div.hero h1 + p
+        value: textContent(el)
   profiles:
     include:
       - /author/**
