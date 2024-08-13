@@ -51,6 +51,7 @@ async function fallbackOverviewPage(main, virtualVersion, candidateVersions) {
   const data = await getSiteOverviewPages();
   const overviewPageInfo = data.find((overviewInfo) => path.endsWith(overviewInfo.path));
   if (!overviewPageInfo) {
+    // eslint-disable no-console
     console.warn('overview page info not found for path', path, data);
     return false;
   }
@@ -79,6 +80,7 @@ async function fallbackOverviewPage(main, virtualVersion, candidateVersions) {
     }, {}));
 
   if (pagesInfo.length === 0) {
+    // eslint-disable no-console
     console.warn('No pages found for path', path, filtered, pagesInfo);
     return false;
   }
