@@ -444,7 +444,10 @@ function capitalize(name) {
     .replace(/^\w/, (firstLetter) => firstLetter.toUpperCase());
 }
 
-function isNewsPage() {
+function isNewsPage(path) {
+  if (path) {
+    return path.startsWith('/news/');
+  }
   return window.location.pathname.startsWith('/news/');
 }
 

@@ -32,7 +32,33 @@ import Pages from '../../libs/pages/pages.js';
 import Button from '../../libs/button/button.js';
 import Carousel from '../../libs/carousel/carousel.js';
 
-function getPictureCard(article, placeholders, tags, author) {
+function getReadingTime(article) {
+  const readingTime = article?.readingTime || '';
+  return readingTime !== '0' ? readingTime : '';
+}
+
+function getInfo(article, author, infoType, placeholders) {
+  if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
+    return article.cardC2A;
+  }
+  if (infoType[0] === 'publicationDate' || infoType[0] === 'authorAndPublicationDate') {
+    const infoUpdatedLabel = placeholders.publishedOn || 'Published on';
+    return `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
+  }
+  if (infoType[0] === 'author') {
+    return author?.title || '';
+  }
+  if (infoType[0] === 'readingTime' || infoType[0] === 'authorAndReadingTime') {
+    return getReadingTime(article);
+  }
+
+  if (isNewsPage(article.path)) {
+    return `${placeholders.publishedOn || 'Published on'} ${formatDate(article.publicationDate * 1000)}`;
+  }
+  return `${placeholders.updatedOn || 'Updated on'} ${formatDate(article.lastModified * 1000)}`;
+}
+
+function getPictureCard(article, config, placeholders, tags, author) {
   try {
     const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
     const {
@@ -40,12 +66,14 @@ function getPictureCard(article, placeholders, tags, author) {
     } = article;
     const tagLabel = placeholders[toCamelCase(priority)] || '';
     const link = cardUrl !== '0' ? cardUrl : path;
-    const infoUpdatedLabel = isNewsPage() || path.startsWith('/news/')
-      ? 'Published on'
-      : placeholders.updatedOn || 'Updated on';
-    let info = `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
+    const infoType = config.info || 'authorAndUpdated';
+    let info = getInfo(article, author, infoType, placeholders);
     if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
       info = article.cardC2A;
+    }
+    // author details shouldnt be shown in those cases
+    if (infoType[0] === 'readingTime' || infoType[0] === 'publicationDate' || infoType[0] === 'updated') {
+      author = '';
     }
     return new PictureCard(title, link, contentType?.label || '', info, author, image, tagLabel);
   } catch (error) {
@@ -55,11 +83,13 @@ function getPictureCard(article, placeholders, tags, author) {
   }
 }
 
-function getCard(article, tags) {
+function getCard(article, tags, placeholders) {
   const contentType = tags[toCamelCase(getContentTypeFromArticle(article))];
   const { path, title } = article;
-  const infoUpdatedLabel = isNewsPage() || path.startsWith('/news/') ? 'Published on' : 'Updated on';
-  let info = `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
+  let info = `${placeholders.updatedOn || 'Updated on'} ${formatDate(article.lastModified * 1000)}`;
+  if (isNewsPage(article.path)) {
+    info = `${placeholders.publishedOn || 'Published on'} ${formatDate(article.publicationDate * 1000)}`;
+  }
   if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
     info = article.cardC2A;
   }
@@ -162,30 +192,22 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
     .paginate(batchSize, startPage);
 }
 
-function renderCards(
-  articles,
-  placeholders,
-  tags,
-  authorIndex,
-  textOnly,
-  carousel,
-  pageSize,
-  totalCount,
-  horizontal,
-  userConfig,
-) {
+function renderCards(articles, placeholders, tags, authorIndex, textOnly, carousel, pageSize, totalCount, horizontal, userConfig, editorConfig) {
   const cards = articles.map((article) => {
     const authors = lookupProfiles(article.author, authorIndex);
     const displayAuthor = buildCardDisplayProfile(authors);
     if (textOnly) {
-      return getCard(article, tags).render();
+      return getCard(article, tags, placeholders).render();
     }
     if (carousel) {
-      return getPictureCard(article, placeholders, tags, displayAuthor).render(true);
+      return getPictureCard(article, editorConfig, placeholders, tags, displayAuthor).render(true);
     }
-    return getPictureCard(article, placeholders, tags, displayAuthor).render(
-      pageSize === 1 || (Object.keys(userConfig).length === 0 && totalCount === 1) || horizontal,
-    );
+    return getPictureCard(article, editorConfig, placeholders, tags, displayAuthor)
+      .render(
+        pageSize === 1
+        || (Object.keys(userConfig).length === 0 && totalCount === 1)
+        || horizontal,
+      );
   });
   if (carousel) {
     return new Carousel(cards).render();
@@ -250,6 +272,7 @@ function registerHandler(
         cursor.value.total,
         horizontal,
         userConfig,
+        editorConfig,
       );
       addLayoutClasses(
         cards,
@@ -279,6 +302,7 @@ function registerHandler(
         cursor.value.total,
         horizontal,
         userConfig,
+        editorConfig,
       );
       addLayoutClasses(
         cards,
@@ -491,6 +515,7 @@ export default async function decorateBlock(block) {
     cursor.value.total,
     horizontal,
     userConfig,
+    editorConfig,
   );
 
   if (Object.keys(userConfig).length > 0 && !carousel) {
@@ -523,6 +548,7 @@ export default async function decorateBlock(block) {
           cursor.value.total,
           horizontal,
           userConfig,
+          editorConfig,
         );
         Array.from(cards.children).forEach((card) => {
           cardList.append(card);
