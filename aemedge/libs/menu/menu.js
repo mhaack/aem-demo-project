@@ -5,18 +5,11 @@ import {
 import { toClassName } from '../../scripts/aem.js';
 
 export default class List {
-  constructor(name, items, id) {
+  constructor(name, items, id, titlePrefix) {
     this.name = name;
     this.items = items;
     this.id = id || toClassName(name);
-  }
-
-  getType() {
-    return this.type?.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-  }
-
-  getLabel() {
-    return this.name;
+    this.titlePrefix = titlePrefix;
   }
 
   attachHandler(element) {
@@ -67,7 +60,11 @@ export default class List {
     if (menuItems.length > 10) scroll = 'scrollable';
     const menu = menuBuilder(
       { class: 'menu' },
-      span({ class: 'title' }, this.name),
+      span(
+        { class: 'label' },
+        this.titlePrefix ? span({ class: 'prefix' }, this.titlePrefix) : '',
+        span({ class: 'title' }, this.name),
+      ),
       ul({ class: `items ${scroll}` }, ...menuItems),
     );
     this.attachHandler(menu);

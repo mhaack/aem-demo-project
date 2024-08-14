@@ -25,7 +25,7 @@ import {
   applyLayout,
 } from '../../scripts/utils.js';
 import ffetch from '../../scripts/ffetch.js';
-import Filters from '../../libs/filters/filters.js';
+import Filters, { defaultSort } from '../../libs/filters/filters.js';
 import Card from '../../libs/card/card.js';
 import PictureCard from '../../libs/pictureCard/pictureCard.js';
 import Pages from '../../libs/pages/pages.js';
@@ -137,9 +137,13 @@ function excludedArticlesFilter(entry, editorConfig) {
   return true;
 }
 
-async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 1, batchSize = 6) {
+async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 1, batchSize = 6, initialSort = defaultSort) {
   const params = getParameterMap();
   const path = window.location.pathname;
+  const sortDirection = params.get(`${id}-sort`)?.[0] || initialSort;
+
+  const sortType = !editorConfig.info || editorConfig.info[0].toLowerCase()?.indexOf('updated') > -1 ? 'modification' : 'publication';
+
   let author;
   if (path.startsWith('/author/')) {
     author = getMetadata('name');
@@ -148,6 +152,7 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
     (tag) => path === tag['topic-path'] || path === tag['news-path'],
   );
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
+    .sheet(`${sortType}-${sortDirection.toLowerCase()}`)
     .filter((entry) => getPathFilter(entry, author, matchedPathTags))
     .filter((entry) => entry.path !== window.location.pathname)
     .filter((entry) => excludedArticlesFilter(entry, editorConfig))
@@ -228,9 +233,10 @@ function registerHandler(
   id,
   pageSize,
   horizontal,
+  initialSort,
 ) {
   block.addEventListener('sap:filterChange', async () => {
-    articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize);
+    articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize, initialSort);
     articleStream.next().then((cursor) => {
       block.querySelector('.card-items')?.remove();
       const cards = renderCards(
@@ -382,6 +388,7 @@ function cleanupUrlsToPath(urls) {
  * @param block {HTMLElement}
  * @param tags {{[id: string]: {label: string, key: string}}}
  * @param id {string}
+ * @param placeholders
  * @return {{userConfig: {[id: string]: {id: string, name: string, items: {id: string, label: string, value: string}[]}}, editorConfig: {[id: string]: string[]}}}
  */
 function getFilterConfig(block, tags, id, placeholders) {
@@ -392,6 +399,7 @@ function getFilterConfig(block, tags, id, placeholders) {
     'limit',
     'info',
     'page-size',
+    'sort',
     'excluded-articles',
   ];
   const editorConfig = {};
@@ -465,9 +473,10 @@ export default async function decorateBlock(block) {
   const pageSize = Number(editorConfig['page-size']) || 6;
   const authorIndex = await fetchAuthors();
   const urlParams = new URLSearchParams(window.location.search);
+  const initialSort = urlParams.get(`${id}-sort`) || (editorConfig.sort && editorConfig.sort[0]) || defaultSort;
   const page = +urlParams.get(`${id}-page`) || 1;
   const nonFilterParams = [`${id}-page`, `${id}-sort`, `${id}-order`, `${id}-limit`];
-  const articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, page, pageSize);
+  const articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, page, pageSize, initialSort);
   const cursor = await articleStream.next();
   const moreThanOnePage = cursor.value.pages > 1;
 
@@ -485,7 +494,7 @@ export default async function decorateBlock(block) {
   );
 
   if (Object.keys(userConfig).length > 0 && !carousel) {
-    filters = new Filters(userConfig, placeholders, nonFilterParams, id);
+    filters = new Filters(userConfig, placeholders, nonFilterParams, id, initialSort);
     block.append(filters.render());
     filters.updateResults(block, cursor.value.total);
   }
@@ -548,5 +557,6 @@ export default async function decorateBlock(block) {
     id,
     pageSize,
     horizontal,
+    initialSort,
   );
 }

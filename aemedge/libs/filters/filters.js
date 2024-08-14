@@ -1,11 +1,14 @@
 /* eslint-disable class-methods-use-this */
 import {
-  div, domEl, fieldset, label, section, span, input,
+  div, domEl, fieldset, form, input, label, section, span,
 } from '../../scripts/dom-builder.js';
 import { getParameterMap } from '../../scripts/utils.js';
 import Menu from '../menu/menu.js';
 import Tag from '../tag/tag.js';
 import Button from '../button/button.js';
+
+const SORT = 'sort';
+export const defaultSort = 'latest';
 
 export default class Filters {
   /**
@@ -28,10 +31,17 @@ export default class Filters {
    */
   filterOverlay;
 
+  sortMenu;
+
   /**
    * @type {{[key: string]: { value: string, label: string, id: string }[]}}
    */
   selectedFilters = {};
+
+  /**
+   * @type {"oldest" | "latest"}
+   */
+  selectedSort;
 
   /**
    * @param filters
@@ -49,23 +59,44 @@ export default class Filters {
    * @param placeholders {{ [ key: string ]: string } }
    * @param nonFilterParams {string[]}
    * @param id {string}
+   * @param sort {"oldest" | "latest"}
    */
-  constructor(filters, placeholders, nonFilterParams, id) {
+  constructor(filters, placeholders, nonFilterParams, id, sort) {
     this.filters = filters || {};
     this.placeholders = placeholders || {};
     this.nonFilterParams = nonFilterParams || ['page', 'sort', 'order', 'limit'];
+    this.sortParam = nonFilterParams.find((param) => param.endsWith('sort'));
     this.id = id;
+    this.selectedSort = sort || defaultSort;
+    this.sortOptions = [
+      {
+        id: 'latest',
+        label: this.placeholders.sortLatest,
+        value: 'latest',
+      },
+      {
+        id: 'oldest',
+        label: this.placeholders.sortOldest,
+        value: 'oldest',
+      },
+    ];
   }
 
   /**
    * @private
    */
   updateTags() {
+    const selectedFiltersFlat = Object.values(this.selectedFilters).flat();
+    const selectedFiltersValues = new Set(selectedFiltersFlat.map((item) => item.value));
     const tags = new Set();
     this.tagsPanel.querySelectorAll('.tag').forEach((tag) => {
-      tags.add(tag.getAttribute('value'));
+      const tagValue = tag.getAttribute('value');
+      tags.add(tagValue);
+      if (!selectedFiltersValues.has(tagValue)) {
+        tag.remove();
+      }
     });
-    Object.values(this.selectedFilters).flat().forEach((item) => {
+    selectedFiltersFlat.forEach((item) => {
       if (tags.has(item.value)) return;
       const tag = new Tag(item.label, item.value, item.id);
       this.tagsPanel.append(tag.renderButtonTag());
@@ -84,6 +115,10 @@ export default class Filters {
     this.nonFilterParams.forEach((param) => {
       params.delete(param);
     });
+    if (this.sortParam && this.selectedSort) {
+      params.append(this.sortParam, this.selectedSort);
+    }
+
     url.search = params.toString();
     window.history.pushState(null, null, url);
   }
@@ -120,6 +155,17 @@ export default class Filters {
     });
   }
 
+  updateSortMenuTitle() {
+    this.sortMenu.querySelector('.title').textContent = this.selectedSort;
+  }
+
+  updateSort(sort) {
+    this.selectedSort = sort;
+    this.updateSortMenuTitle();
+    this.updateUrlAndParams();
+    this.updateFilterOverlay();
+  }
+
   /**
    * @private
    * @param mode {'remove' | 'add'}
@@ -143,7 +189,11 @@ export default class Filters {
   updateFilterOverlay() {
     const filterValues = Object.values(this.selectedFilters).flat().map((filter) => filter.value);
     Array.from(this.filterOverlay.querySelectorAll('input')).forEach((inputEl) => {
-      inputEl.checked = filterValues.includes(inputEl.value);
+      if (inputEl.name !== SORT) {
+        inputEl.checked = filterValues.includes(inputEl.value);
+      } else {
+        inputEl.checked = this.selectedSort === inputEl.value;
+      }
     });
   }
 
@@ -152,8 +202,25 @@ export default class Filters {
    */
   dispatchFilterChangeEvent() {
     this.filterPanel.dispatchEvent(
-      new CustomEvent('sap:filterChange', { detail: this.selectedFilters, bubbles: true, cancelable: true }),
+      new CustomEvent('sap:filterChange', {
+        detail: {
+          filters: this.selectedFilters,
+          sort: this.selectedSort,
+        },
+        bubbles: true,
+        cancelable: true,
+      }),
     );
+  }
+
+  /**
+   * @private
+   */
+  registerSortResultsHandler() {
+    this.sortMenu.addEventListener('sap:itemSelect', (e) => {
+      this.updateSort(e.detail.value);
+      this.dispatchFilterChangeEvent();
+    });
   }
 
   /**
@@ -178,20 +245,9 @@ export default class Filters {
 
   /**
    * @private
-   */
-  registerFilterApplyHandler() {
-    this.filterOverlay.addEventListener('sap:filterApply', (e) => {
-      this.selectedFilters = {};
-      this.updateSelectedFilters('add', ...e.detail);
-      this.dispatchFilterChangeEvent();
-    });
-  }
-
-  /**
-   * @private
    * @returns {HTMLElement} checkbox element
    */
-  renderFilterOverlayOption(item) {
+  renderFilterOverlayOption(item, type = 'checkbox', name = '') {
     return div(
       { class: 'filter-overlay_filter_option' },
       label(
@@ -199,15 +255,40 @@ export default class Filters {
         input(
           {
             class: 'filter-overlay_filter_option_input',
-            type: 'checkbox',
+            type,
             value: item.value,
             id: item.id,
-            name: item.label,
+            name: name || item.label,
           },
         ),
         span(item.label),
       ),
     );
+  }
+
+  /**
+   * @private
+   * @returns {HTMLElement} filter overlay sort options
+   */
+  renderFilterOverlaySortOptions() {
+    const filterOptionFieldSet = fieldset({ class: 'filter-overlay_filter_options' });
+    const filterOptions = domEl(
+      'details',
+      { class: 'filter-overlay_filter' },
+      domEl(
+        'summary',
+        { class: 'filter-overlay_filter_label' },
+        span('Sort'),
+      ),
+      filterOptionFieldSet,
+    );
+    this.sortOptions.forEach((item) => {
+      filterOptionFieldSet.append(
+        this.renderFilterOverlayOption(item, 'radio', SORT),
+      );
+    });
+
+    return filterOptions;
   }
 
   /**
@@ -233,6 +314,29 @@ export default class Filters {
     return filterOptions;
   }
 
+  applyFilters() {
+    this.filterOverlay.setAttribute('aria-expanded', 'false');
+    const filters = [];
+    let sort;
+    Array.from(this.filterOverlay.querySelectorAll('input'))
+      .filter((inputEl) => inputEl.checked)
+      .forEach((inputEl) => {
+        if (inputEl.name === SORT) {
+          sort = inputEl.value;
+        } else {
+          filters.push({
+            id: inputEl.id,
+            label: inputEl.name,
+            value: inputEl.value,
+          });
+        }
+      });
+    this.selectedFilters = {};
+    this.updateSelectedFilters('add', ...filters);
+    this.updateSort(sort);
+    this.dispatchFilterChangeEvent();
+  }
+
   /**
    * @private
    * @returns {HTMLElement} filter overlay element
@@ -243,23 +347,7 @@ export default class Filters {
     const showResultsButton = new Button('Show results', null, 'primary', 'medium', null, false).render();
     showResultsButton.classList.add('filter-overlay_show-results');
     showResultsButton.addEventListener('click', () => {
-      this.filterOverlay.setAttribute('aria-expanded', 'false');
-      this.filterOverlay.dispatchEvent(
-        new CustomEvent(
-          'sap:filterApply',
-          {
-            detail: Array.from(this.filterOverlay.querySelectorAll('input'))
-              .filter((inputEl) => inputEl.checked)
-              .map((inputEl) => ({
-                id: inputEl.id,
-                label: inputEl.name,
-                value: inputEl.value,
-              })),
-            bubbles: true,
-            cancelable: true,
-          },
-        ),
-      );
+      this.applyFilters();
     });
     const resetButton = new Button('Reset', null, 'tertiary', 'medium', null, false).render();
 
@@ -275,7 +363,6 @@ export default class Filters {
     });
 
     this.filterOverlay.append(div({ class: 'filter-overlay_actions' }, showResultsButton, resetButton, closeButton));
-    this.registerFilterApplyHandler();
     this.registerItemCloseHandler();
   }
 
@@ -286,15 +373,17 @@ export default class Filters {
     this.filterPanel = div({ class: 'filter-panel' });
     this.initialiseFilterOverlay();
 
-    // FIXME: Update to "Filter & Sort" when sorting implemented
-    const filterAndSortButton = new Button('Filter', null, 'primary', 'medium', null, false).render();
+    const filterAndSortButton = new Button('Filter & Sort', null, 'primary', 'medium', null, false).render();
     filterAndSortButton.classList.add('filter-panel_filter-and-sort');
     filterAndSortButton.addEventListener('click', () => {
       this.filterOverlay.setAttribute('aria-expanded', 'true');
     });
     this.filterPanel.append(div({ class: 'filter-panel_actions' }, filterAndSortButton));
 
-    const filterOverlayFilters = div({ class: 'filter-overlay_filters' });
+    const filterOverlayFilters = form({ class: 'filter-overlay_filters' });
+
+    filterOverlayFilters.append(this.renderFilterOverlaySortOptions());
+
     Object.values(this.filters).forEach((filter) => {
       if (filter.items.length === 0) return;
       const filterMenu = new Menu(
@@ -306,6 +395,18 @@ export default class Filters {
       this.registerItemSelectHandler(filterMenu);
       filterOverlayFilters.append(this.renderFilterOverlayOptions(filter));
     });
+
+    this.sortMenu = new Menu(
+      '',
+      this.sortOptions,
+      `${this.id}-sort`,
+      this.placeholders.sortBy || 'Sort by:',
+    ).render();
+    this.registerSortResultsHandler();
+    const sortMenuLabel = span({ class: 'filter_position-end' });
+    sortMenuLabel.append(this.sortMenu);
+    this.updateSortMenuTitle();
+    this.filterPanel.append(sortMenuLabel);
 
     this.filterOverlay.append(filterOverlayFilters);
     this.updateFilterOverlay();

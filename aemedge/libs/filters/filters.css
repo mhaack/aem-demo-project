@@ -9,7 +9,7 @@
   justify-content: space-between;
   margin-block-end: var(--udexSpacer32);
 
-  & .filter-panel menu {
+  & .filter-panel :is(menu, .filter_position-end) {
     display: none;
   }
 
@@ -58,8 +58,19 @@
         display: none;
       }
 
-      & menu {
-        display: initial;
+      & :is(menu, .filter_position-end) {
+        display: inline-block;
+      }
+
+      & .filter_position-end {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        margin-inline-start: auto;
+
+        & .items {
+          right: 0;
+        }
       }
     }
 
@@ -167,6 +178,7 @@
     padding: 0;
     cursor: pointer;
     position: relative;
+    height: 42px;
   }
 
   & .filter-overlay_filter_option_input::before {
@@ -180,7 +192,6 @@
   & .filter-overlay_filter_option_input::after {
     box-sizing: border-box;
     border: 1px solid var(--udexColorGrey6);
-    border-radius: var(--udexSpacer4);
     content: "";
     display: inline-block;
     height: var(--udexSpacer24);
@@ -192,7 +203,22 @@
     z-index: -1;
   }
 
-  & .filter-overlay_filter_option_input:checked::before {
+  & .filter-overlay_filter_option_input[type="radio"]::after {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+
+  & .filter-overlay_filter_option_input[type="radio"]:checked::after {
+    background-color: var(--udexColorBlue7);
+    box-shadow: inset 0 0 0 5px var(--udexColorNeutralWhite);
+  }
+
+  & .filter-overlay_filter_option_input[type="checkbox"]::after {
+    border-radius: var(--udexSpacer4);
+  }
+
+  & .filter-overlay_filter_option_input[type="checkbox"]:checked::before {
     background: url("/aemedge/icons/accept.svg") center / var(--udexSpacer16) var(--udexSpacer16) no-repeat;
 
     /* --udexColorBlue7 */
@@ -231,6 +257,11 @@
       & input::after {
         background: var(--udexColorBlue1);
         border-color: var(--udexColorBlue7);
+      }
+
+      & input[type="radio"]:checked::after {
+        background-color: var(--udexColorBlue7);
+        box-shadow: inset 0 0 0 5px var(--udexColorBlue1);
       }
     }
   }
