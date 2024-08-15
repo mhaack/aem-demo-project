@@ -412,6 +412,7 @@ function initSidekick() {
     await loadBlock(preflightBlock);
     const { default: getModal } = await import(`${window.hlx.codeBasePath}/blocks/modal/modal.js`);
     const customModal = await getModal('dialog-modal', () => Array.from(section.children));
+    document.body.appendChild(customModal);
     customModal.showModal();
   };
 

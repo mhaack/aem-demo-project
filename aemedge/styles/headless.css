@@ -1,0 +1,162 @@
+@media (width >= 1600px) {
+  :root {
+    --udexGridMargins: max(246px, calc((100vw - 1108px) / 2));
+    --hero-margin--right: var(--udexGridMargins);
+    --hero-margin--left: var(--udexGridMargins);
+  }
+}
+
+main .section {
+  padding-block: var(--section-spacing-vertical);
+
+  &:first-child {
+    padding-block-start: 0;
+  }
+}
+
+body.appear > main .section .default-content-wrapper {
+  & > h2 {
+    font-size: var(--udexTypographyHeadingMediumXSFontSize);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    line-height: var(--udexTypographyHeadingLineHeight);
+    margin-block: 0;
+
+    @media (width >= 980px) {
+      font-size: var(--udexTypographyHeadingMediumSFontSize);
+    }
+
+    @media (width >= 1280px) {
+      font-size: var(--udexTypographyHeadingMediumMFontSize);
+    }
+
+    @media (width >= 1600px) {
+      font-size: var(--udexTypographyHeadingMediumXLFontSize);
+    }
+  }
+
+  & > h3 {
+    font-size: var(--udexTypographyHeadingMediumXXXSFontSize);
+    line-height: var(--udexTypographyHeadingLineHeight);
+    font-weight: var(--udexTypographyFontWeightMedium);
+    margin-block: 0;
+
+    @media (width >= 980px) {
+      font-size: var(--udexTypographyHeadingMediumXXSFontSize);
+    }
+  }
+
+  &:has(h3:last-child) + * {
+    margin-block-start: var(--udexSpacer16);
+  }
+
+  & > p {
+    font-size: var(--udexTypographyBodyMFontSize);
+    line-height: var(--udexTypographyBodyLineHeight);
+    margin-block: var(--udexSpacer16) 0;
+
+    @media (width >= 980px) {
+      font-size: var(--udexTypographyBodyLFontSize);
+    }
+  }
+
+  & > p.button-container {
+    margin-block: var(--udexSpacer48) 0;
+
+    @media (width >= 980px) {
+      margin-block: var(--udexSpacer56) 0;
+    }
+
+    &:not(:has(.primary, .secondary)) {
+      margin-block-end: var(--udexSpacer48);
+
+      @media (width >= 980px) {
+        margin-block-end: var(--udexSpacer56);
+      }
+    }
+
+    &:last-child {
+      margin-block-end: 0;
+    }
+  }
+
+  & > p.button-container:has(.primary, .secondary) + p.button-container:not(:has(.primary, .secondary)) {
+    margin-block-start: var(--udexSpacer16);
+  }
+}
+
+main > .section:not(.fragment-container) {
+  & > :first-child {
+    margin-block-start: 0;
+  }
+
+  & > .default-content-wrapper:first-child {
+    & :first-child {
+      margin-block-start: 0;
+    }
+  }
+}
+
+body.appear {
+  column-gap: var(--udexGridGutters);
+  display: grid;
+
+  & > main > .section:not(.column-section) .default-content-wrapper {
+    @media (width >= 1280px) {
+      & > :is(h2, h3, p) {
+        max-width: calc((9 * var(--udexGridGutters)) + (10 * var(--column-width)));;
+      }
+    }
+  }
+
+  @media (width >= 980px) {
+    display: grid;
+  }
+
+  & > main {
+    display: flex;
+    flex-direction: column;
+
+    & > :first-child {
+      padding-block-start: 0;
+    }
+
+    & > :last-child {
+      padding-block-end: var(--udexSpacer56);
+
+      @media (width >= 980px){
+        padding-block-end: var(--udexSpacer64);
+      }
+
+      @media (width >= 1280px){
+        padding-block-end: var(--udexSpacer84);
+      }
+    }
+
+    .hero-container,
+    .section.background-dark:not(.additional-reading),
+    .section.background-light:not(.additional-reading) {
+      margin-inline: calc(-1 * var(--udexGridMargins));
+    }
+
+    .section.background-dark:not(.hero-container, .additional-reading),
+    .section.background-light:not(.hero-container, .additional-reading) {
+      padding-inline: var(--udexGridMargins);
+    }
+
+    > .hero-container + .section {
+      padding-block-start: var(--udexSpacer56);
+    }
+
+    @media (width >= 980px) {
+      & > .hero-container + .section {
+        padding-block-start: var(--udexSpacer64);
+      }
+    }
+
+    @media (width >= 1280px) {
+      & > .hero-container + .section {
+        padding-block-start: var(--udexSpacer84);
+      }
+    }
+  }
+}

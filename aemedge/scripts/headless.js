@@ -78,6 +78,7 @@ export class HeadlessFragment extends HTMLElement {
         this.loadCSS(`${origin}/aemedge/styles/css_variables.css`);
         this.loadCSS(`${origin}/aemedge/styles/styles.css`);
         this.loadCSS(`${origin}/aemedge/styles/fonts.css`);
+        this.loadCSS(`${origin}/aemedge/styles/headless.css`);
         body.style.display = null;
 
         const main = document.createElement('main');
@@ -98,6 +99,9 @@ export class HeadlessFragment extends HTMLElement {
         const blockElements = main.querySelectorAll(':scope > div > div');
 
         // Did we find any blocks or all default content?
+        const blocksLoaded = new Set();
+        const decorateBlocks = {};
+
         if (blockElements.length > 0) {
           // Get the block names
           const blocks = Array.from(blockElements).map((block) => block.classList.item(0));
@@ -117,23 +121,27 @@ export class HeadlessFragment extends HTMLElement {
           for (let i = 0; i < blockElements.length; i += 1) {
             const blockName = blocks[i];
             const block = blockElements[i];
-            const link = document.createElement('link');
-            link.setAttribute('rel', 'stylesheet');
-            link.setAttribute('href', `${origin}/aemedge/blocks/${blockName}/${blockName}.css`);
 
-            const cssLoaded = new Promise((resolve) => {
-              link.onload = resolve;
-              link.onerror = resolve;
-            });
+            if (!blocksLoaded.has(blockName)) {
+              const link = document.createElement('link');
+              link.setAttribute('rel', 'stylesheet');
+              link.setAttribute('href', `${origin}/aemedge/blocks/${blockName}/${blockName}.css`);
 
-            body.appendChild(link);
-            // eslint-disable-next-line no-await-in-loop
-            await cssLoaded;
+              const cssLoaded = new Promise((resolve) => {
+                link.onload = resolve;
+                link.onerror = resolve;
+              });
+
+              body.appendChild(link);
+              // eslint-disable-next-line no-await-in-loop
+              await cssLoaded;
+            }
 
             try {
               const blockScriptUrl = `${origin}/aemedge/blocks/${blockName}/${blockName}.js`;
               // eslint-disable-next-line no-await-in-loop
-              const decorateBlock = await import(blockScriptUrl);
+              const decorateBlock = decorateBlocks[blockScriptUrl] || await import(blockScriptUrl);
+              decorateBlocks[blockScriptUrl] = decorateBlock;
               if (decorateBlock.default) {
                 // eslint-disable-next-line no-await-in-loop
                 await decorateBlock.default(block);

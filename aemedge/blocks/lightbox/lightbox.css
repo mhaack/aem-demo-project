@@ -1,4 +1,5 @@
 /* stylelint-disable selector-class-pattern */
+@import url('/aemedge/blocks/modal/modal.css');
 
 .lightbox-modal {
   height: 60vh;

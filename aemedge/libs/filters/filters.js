@@ -410,7 +410,7 @@ export default class Filters {
 
     this.filterOverlay.append(filterOverlayFilters);
     this.updateFilterOverlay();
-    document.body.append(this.filterOverlay);
+    this.filterPanel.append(this.filterOverlay);
   }
 
   /**

@@ -40,6 +40,7 @@ export default function decorate(block) {
       const { default: getModal } = await import(`${window.hlx.codeBasePath}/blocks/modal/modal.js`);
       modal = await getModal(`lightbox-modal-${id}`, () => modalContent);
       modal.classList.add('lightbox-modal');
+      block.appendChild(modal);
     }
     modal.showModal();
   });

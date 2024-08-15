@@ -40,8 +40,6 @@ export default async function getModal(modalId, createContent, addEventListeners
     });
 
     addEventListeners?.(dialog);
-
-    document.body.appendChild(dialog);
   }
 
   return dialog;
