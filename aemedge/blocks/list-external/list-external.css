@@ -69,6 +69,7 @@
   :where(body.hub-l2:has(aside)) .list-external {
     grid-template-columns: repeat(9, minmax(0, 1fr));
 
+    & > div,
     & .card {
       grid-column: span 4;
     }
