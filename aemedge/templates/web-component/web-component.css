@@ -434,7 +434,7 @@ html:has(.design-system) {
 
       & .section {
         &:not(:first-child) {
-          position: relative;
+          position: static;
         }
       }
     }

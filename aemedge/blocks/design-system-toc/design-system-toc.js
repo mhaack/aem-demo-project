@@ -12,25 +12,26 @@ import {
  * @param main
  * @returns {*[]} The list of h2 elements for each section element (array with a key)
  */
+let observer;
+let navHighlightedByScrollTo = false;
 function createDsTocList(dataNames, main) {
   const tocLists = [];
   const processH2Elements = (selector) => {
     const h2Elements = main.querySelectorAll(selector);
-    const h2Arr = Array.from(h2Elements).map((h2) => ({
+    return Array.from(h2Elements).map((h2) => ({
       id: h2.getAttribute('id'),
       text: h2.textContent,
     }));
-    return h2Arr;
   };
 
   if (dataNames.length === 0) {
     tocLists.push({ default: processH2Elements('h2') });
+  } else {
+    dataNames.forEach((dataName) => {
+      const selector = `.section[data-name="${dataName}"] h2`;
+      tocLists.push({ [dataName]: processH2Elements(selector) });
+    });
   }
-
-  dataNames.forEach((dataName) => {
-    const selector = `.section[data-name="${dataName}"] h2`;
-    tocLists.push({ [dataName]: processH2Elements(selector) });
-  });
 
   return tocLists;
 }
@@ -41,24 +42,8 @@ function createDsTocList(dataNames, main) {
  * @returns {*[]} The data-name attributes as an array
  */
 function getDataNames(sections) {
-  let dataNames = [];
-  sections.forEach((section) => {
-    const dataName = section.getAttribute('data-name');
-    if (dataName) {
-      dataNames.push(dataName);
-    }
-  });
-
-  // Remove the duplicates
-  dataNames = [...new Set(dataNames)];
+  const dataNames = Array.from(sections).map((section) => section.getAttribute('data-name')).filter((dataName, index, self) => dataName && self.indexOf(dataName) === index);
   return dataNames;
-}
-
-function getOffsetTop(element) {
-  const headerOffset = element.offsetTop;
-
-  const elementPosition = element.getBoundingClientRect().top;
-  return elementPosition + window.scrollY - headerOffset;
 }
 
 /**
@@ -70,6 +55,20 @@ function getOffsetTop(element) {
  */
 function updateTocAndScrollToContent(e, block) {
   const targetElement = document.getElementById(e.target.hash.substring(1));
+  // if (targetElement) {
+  //   targetElement.scrollIntoView({ behavior: 'smooth' });
+  // }
+  const elementPosition = targetElement.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.pageYOffset - 100;
+  const main = block.closest('main');
+  const sections = main.querySelectorAll('.section:has(h2)');
+  sections.forEach((section) => {
+    observer.unobserve(section);
+  });
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: 'smooth',
+  });
 
   // Do not change the URL hash in the address bar
   e.preventDefault();
@@ -78,11 +77,12 @@ function updateTocAndScrollToContent(e, block) {
     link.removeAttribute('aria-current');
   });
   e.target.setAttribute('aria-current', 'true');
-
-  window.scrollTo({
-    top: getOffsetTop(targetElement),
-    behavior: 'smooth',
-  });
+  setTimeout(() => {
+    navHighlightedByScrollTo = true;
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
+  }, 1000);
 }
 
 /**
@@ -159,6 +159,11 @@ function getCurrentHash(block) {
   return currentHash;
 }
 
+/**
+ * Update the TOC to show the relevant list based on the current hash.
+ * @param block The block element
+ * @param lists The list of TOC elements
+ */
 function updateToc(block, lists) {
   const currentHash = getCurrentHash(block);
 
@@ -192,6 +197,71 @@ function initTocList(block) {
   });
 }
 
+/**
+ * Create an IntersectionObserver to update the TOC links based on section visibility.
+ * @param block The block element
+ */
+function createObserver(block) {
+  const options = {
+    root: null,
+    rootMargin: '-40% 0% -40%',
+    threshold: 0,
+  };
+
+  observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const id = entry.target.querySelector('h2').getAttribute('id');
+        const link = block.querySelector(`a[href="#${id}"]`);
+        if (navHighlightedByScrollTo) {
+          navHighlightedByScrollTo = false;
+          return;
+        }
+        block.querySelectorAll('.ds-toc-link').forEach((linkT) => {
+          linkT.removeAttribute('aria-current');
+        });
+        if (link) {
+          link.setAttribute('aria-current', 'true');
+        }
+      }
+    });
+  }, options);
+
+  const main = block.closest('main');
+  const sections = main.querySelectorAll('.section:has(h2)');
+  sections.forEach((section) => {
+    observer.observe(section);
+  });
+}
+
+/**
+ * Check if the page is at the top.
+ * @returns {boolean} True if the page is at the top, otherwise false.
+ */
+function isPageAtTop() {
+  return window.scrollY === 0;
+}
+
+/**
+ * Update the TOC on page load, setting the first link as current if the page is at the top.
+ * @param block The block element
+ */
+function updateTocOnPageLoad(block) {
+  if (isPageAtTop()) {
+    block.querySelectorAll('.ds-toc-link').forEach((linkT) => {
+      linkT.removeAttribute('aria-current');
+    });
+    const firstTocLink = block.querySelector('.ds-toc-link');
+    if (firstTocLink) {
+      firstTocLink.setAttribute('aria-current', 'true');
+    }
+  }
+}
+
+/**
+ * Main function to initialize the TOC block.
+ * @param block The block element
+ */
 export default function decorate(block) {
   const tocNav = nav({
     class: 'ds-toc-nav',
@@ -219,5 +289,17 @@ export default function decorate(block) {
 
   block.replaceChildren(tocNav);
 
-  initTocList(block, main);
+  initTocList(block);
+  updateTocOnPageLoad(block);
+
+  let hasBeenCalled = false;
+  document.addEventListener('scroll', () => {
+    if (!hasBeenCalled) {
+      createObserver(block);
+      hasBeenCalled = true;
+    }
+    if (window.scrollY <= 300) {
+      updateTocOnPageLoad(block);
+    }
+  });
 }
