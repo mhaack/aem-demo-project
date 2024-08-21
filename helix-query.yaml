@@ -58,6 +58,9 @@ indices:
       lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"])
+      modifiedDate:
+        select: head > meta[name="modified-time"]
+        value: parseTimestamp(attribute(el, "content"))
       publicationDate:
         select: head > meta[name="published-time"]
         value: parseTimestamp(attribute(el, "content"))
