@@ -72,9 +72,9 @@ function getEnvType(hostname = window.location.hostname) {
   const fqdnToEnvType = {
     'www.sap.com': 'prod',
     'www-qa.sap.com': 'stage',
-    'main--builder-prospect--sapudex.hlx.live': 'stage',
+    'main--builder-prospect--sapudex.aem.live': 'stage',
   };
-  const suffixToEnvType = '--builder-prospect--sapudex.hlx.live';
+  const suffixToEnvType = '--builder-prospect--sapudex.aem.live';
   return fqdnToEnvType[hostname] || (hostname.includes(suffixToEnvType) ? 'stage' : 'dev');
 }
 

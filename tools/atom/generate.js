@@ -7,14 +7,14 @@ import log4js from 'log4js';
 import fs from 'fs-extra';
 
 const siteRoot = 'https://www.sap.com';
-const sourceRoot = 'https://main--builder-prospect--sapudex.hlx.live';
+const sourceRoot = 'https://main--builder-prospect--sapudex.aem.live';
 const targetRoot = '../../aemedge/feeds';
 const logger = log4js.getLogger();
 logger.level = 'info';
 
 const getConfig = async () => {
   const response = await fetch(
-    'https://main--builder-prospect--sapudex.hlx.page/aemedge/config.json',
+    'https://main--builder-prospect--sapudex.aem.page/aemedge/config.json',
   );
   const config = await response.json();
   const keyValueMapping = config.data.reduce((acc, item) => {

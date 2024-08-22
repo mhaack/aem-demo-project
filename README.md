@@ -2,8 +2,8 @@
 
 ## Environments
 
-- Preview: https://main--builder-prospect--sapudex.hlx.page
-- Live: https://main--builder-prospect--sapudex.hlx.live
+- Preview: https://main--builder-prospect--sapudex.aem.page
+- Live: https://main--builder-prospect--sapudex.aem.live
 - External: https://www-qa.sap.com
 
 ## Documentation

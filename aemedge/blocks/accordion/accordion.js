@@ -1,9 +1,3 @@
-/*
- * Accordion Block
- * Recreate an accordion
- * https://www.hlx.live/developer/block-collection/accordion
- */
-
 import {
   domEl, p, span, div,
 } from '../../scripts/dom-builder.js';
