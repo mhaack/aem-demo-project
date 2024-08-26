@@ -215,6 +215,7 @@ export function decorateExternalLinks(main) {
         link.target = '_blank';
       }
     } catch (e) {
+      // eslint-disable-next-line no-console
       console.error(`Invalid URL: ${link.href}`, e);
     }
   });
