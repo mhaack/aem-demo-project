@@ -12,7 +12,8 @@ export default async function decorate(block) {
       .filter((articleTag) => {
         const tag = tags[toCamelCase(articleTag)];
         return (
-          tag && !tag.key.startsWith('content-type/') && (tag['topic-path'] || tag['news-path'])
+          // filter out content-type and internal tags
+          tag && !tag.key.startsWith('content-type/') && ((tag['topic-path'] || tag['news-path']) !== '0')
         );
       })
       .map((articleTag) => {
