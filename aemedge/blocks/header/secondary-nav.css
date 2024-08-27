@@ -19,6 +19,12 @@ header {
       color: var(--udexColorGrey9);
     }
 
+    @media (width >= 980px) {
+      &, li a {
+        padding: 0;
+      }
+    }
+
     &.nav-secondary--fixed {
       position: fixed;
       top: 0;
@@ -404,7 +410,7 @@ header {
             background: var(--nav-active-marker-color);
             border-top-left-radius: var(--nav-active-tab-underline-radius);
             border-top-right-radius: var(--nav-active-tab-underline-radius);
-            bottom: 0;
+            bottom: -1px;
             content: '';
             display: block;
             height: var(--nav-active-tab-underline-height);
