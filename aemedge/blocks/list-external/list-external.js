@@ -68,7 +68,7 @@ export default async function decorate(block) {
       block.append(card.renderExternalCard());
     });
     if (cursor.value.pages > 1) {
-      const pages = new Pages(block, cursor.value.pages, page, id);
+      const pages = new Pages(block, cursor.value.pages, page, id, true);
       pages.render();
       registerHandler(stream, block, pages);
     }

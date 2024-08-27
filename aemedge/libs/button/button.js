@@ -51,7 +51,7 @@ export default class Button {
       });
     }
     if (isDisabled) {
-      btn.setAttribute('disabled', 'disabled');
+      btn.disabled = true;
     }
     const btnWrapper = div({ class: 'button-container' }, btn);
     if (this.icon) {

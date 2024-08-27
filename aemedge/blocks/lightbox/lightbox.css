@@ -1,44 +1,20 @@
 /* stylelint-disable selector-class-pattern */
 @import url('/aemedge/blocks/modal/modal.css');
 
-.lightbox-modal {
-  height: 60vh;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
-  width: var(--grid-width);
+.lightbox-modal__image-container {
+  inset: 0;
+  position: absolute;
+  padding: var(--udexSpacer32);
 
-  .modal-content {
-    display: flex;
-    flex-direction: column;
+  picture {
     height: 100%;
+    width: 100%;
   }
 
-  .lightbox-modal__content {
-    flex-grow: 1;
-    position: relative;
-
-    .lightbox-modal__content__image-container {
-      inset: 0;
-      position: absolute;
-      padding: var(--udexSpacer32);
-
-      picture {
-        height: 100%;
-        width: 100%;
-      }
-
-      img {
-        height: inherit;
-        object-fit: contain;
-        width: inherit;
-      }
-    }
-  }
-
-  .lightbox-modal__header__caption {
-    border-bottom: 1px solid var(--udexCoreDividerLight);
-    min-height: calc(var(--udexTypographyHeadingMediumXSFontSize) + var(--udexSpacer32) + var(--udexSpacer32));
-    padding: var(--udexSpacer32);
-    padding-inline-end: 104px;
+  img {
+    height: inherit;
+    object-fit: contain;
+    width: inherit;
   }
 }
 
@@ -55,24 +31,6 @@
     &:not(:last-child) {
       margin-block-end: var(--udexSpacer20);
     }
-  }
-}
-
-@media (width >= 980px) {
-  .lightbox-modal {
-    width: calc((9 * var(--udexGridGutters)) + (10 * var(--column-width)));
-  }
-}
-
-@media (width >= 1280px) {
-  .lightbox-modal {
-    width: calc((7 * var(--udexGridGutters)) + (8 * var(--column-width)));
-  }
-}
-
-@media (width >= 1600px) {
-  .lightbox-modal {
-    width: calc((5 * var(--udexGridGutters)) + (6 * var(--column-width)));
   }
 }
 

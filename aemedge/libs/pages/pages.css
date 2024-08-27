@@ -1,3 +1,5 @@
+/* stylelint-disable selector-class-pattern */
+
 .pages {
   display: flex;
   list-style: none;
@@ -13,5 +15,43 @@
     margin: 0 var(--udexSpacer24);
     display: flex;
     gap: var(--udexSpacer8);
+  }
+}
+
+.pages__numbers {
+  column-gap: var(--udexSpacer4);
+  display: inline-flex;
+  margin-inline: var(--udexSpacer4);
+}
+
+.pages__numbers__number__label {
+  display: inline-flex;
+}
+
+.pages__numbers__number {
+  background: 0;
+  border: 0;
+  border-radius: var(--udexRadiusXS);
+  color: var(--udexColorGrey6);
+  cursor: pointer;
+  font-family: var(--sapFontFamily);
+  font-size: var(--udexTypographyBodySFontSize);
+  line-height: var(--udexTypographyBodyLineHeight);
+  padding: 0;
+  padding-inline: var(--udexSpacer4);
+  margin: 0;
+  min-width: 44px;
+
+  &[aria-current="true"] {
+    color: var(--udexColorGrey9);
+
+    .pages__numbers__number__label {
+      border-bottom: 2px solid var(--udexColorBlue7);
+    }
+  }
+
+  &:hover {
+    background: var(--udexColorGrey1);
+    color: var(--udexColorGrey9)
   }
 }

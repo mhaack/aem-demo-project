@@ -1,5 +1,6 @@
 import { div, span } from '../../scripts/dom-builder.js';
 import Button from '../../libs/button/button.js';
+import { buildModalContent } from '../../scripts/utils.js';
 
 let lightboxCount = 0;
 
@@ -7,20 +8,14 @@ export default function decorate(block) {
   lightboxCount += 1;
   const id = lightboxCount;
   const picture = block.querySelector('picture');
-  const modalContent = [
-    div({ class: 'lightbox-modal__header' }),
+  const modalContent = buildModalContent(
+    null,
+    block.querySelector('em')?.textContent || '',
     div(
-      { class: 'lightbox-modal__header__caption' },
-      block.querySelector('em')?.textContent || '',
+      { class: 'lightbox-modal__image-container' },
+      picture.cloneNode(true),
     ),
-    div(
-      { class: 'lightbox-modal__content' },
-      div(
-        { class: 'lightbox-modal__content__image-container' },
-        picture.cloneNode(true),
-      ),
-    ),
-  ];
+  );
 
   const enlargeButtonHTML = new Button(
     'Enlarge',
@@ -38,7 +33,7 @@ export default function decorate(block) {
   enlargeButtonHTML.addEventListener('click', async () => {
     if (!modal) {
       const { default: getModal } = await import(`${window.hlx.codeBasePath}/blocks/modal/modal.js`);
-      modal = await getModal(`lightbox-modal-${id}`, () => modalContent);
+      modal = await getModal(`lightbox-modal-${id}`, () => modalContent, null, 'lightbox');
       modal.classList.add('lightbox-modal');
       block.appendChild(modal);
     }

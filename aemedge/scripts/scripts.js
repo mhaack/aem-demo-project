@@ -28,6 +28,7 @@ const TEMPLATE_LIST = {
   article: 'article',
   'hub-l2': 'hub',
   'hub-l1': 'hub',
+  pdp: 'pdp',
   'web-component': 'web-component',
   'versioned-page': 'versioned-page',
   'design-system-overview': 'design-system-overview',

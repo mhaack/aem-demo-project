@@ -1,4 +1,5 @@
-import { r as b, i as w, e as d, l as s, s as g, B as k, a as f, b as z, c as q, p as r, d as _, f as C, k as j, U as T, I as V, h as $ } from "./parameters-bundle.css-Bbg-m5ef.js";
+import { r as b, i as w, e as d, l as s, s as g, h as k, a as f, b as z, c as q, p as r, d as _, j, U as C, I as T, g as V } from "./parameters-bundle.css-umy6yUJ9.js";
+import { s as $ } from "./slot-n2SAeQik.js";
 const S = "play", y = "M176 153l181 109-181 109V153zM448 32q13 0 22.5 9.5T480 64v384q0 14-9.5 23t-22.5 9H64q-14 0-23-9t-9-23V64q0-13 9-22.5T64 32h384zm0 32H64v384h384V64z", P = !0, B = "SAP-icons-v4", E = "@ui5/webcomponents-icons";
 b(S, { pathData: y, ltr: P, collection: B, packageName: E });
 const L = "play", x = "M256 0q53 0 100 20t81.5 54.5T492 156t20 100-20 100-54.5 81.5T356 492t-100 20-100-20-81.5-54.5T20 356 0 256t20-100 54.5-81.5T156 20 256 0zm0 461q43 0 80.5-16t65-44 43.5-65 16-80-16-80.5-43.5-65-65-43.5T256 51t-80 16-65 43.5-44 65T51 256t16 80 44 65 65 44 80 16zm85-226q11 8 11 21t-11 21l-109 77q-5 4-14 4-11 0-18.5-7t-7.5-18V179q0-11 7.5-18.5T218 153q7 0 14 5z", R = !0, H = "SAP-icons-v5", M = "@ui5/webcomponents-icons";
@@ -41,7 +42,7 @@ var v = function(i, e, o, t) {
       (p = i[u]) && (a = (n < 3 ? p(a) : n > 3 ? p(e, o, a) : p(e, o)) || a);
   return n > 3 && a && Object.defineProperty(e, o, a), a;
 };
-let l = class extends T {
+let l = class extends C {
   constructor() {
     super(...arguments), this.getPlayedTime = (e) => {
       var t;
@@ -97,7 +98,7 @@ let l = class extends T {
       const o = e(((u = this.shadowRoot) == null ? void 0 : u.querySelector(".udex-media-player__video")) || "");
       if (this.attachListeners(o), this.audioOnly)
         return;
-      const t = (c = o.getChild("BigPlayButton")) == null ? void 0 : c.el_, n = new V();
+      const t = (c = o.getChild("BigPlayButton")) == null ? void 0 : c.el_, n = new T();
       n.name = "play", t.appendChild(n);
       const a = (m = this.shadowRoot) == null ? void 0 : m.querySelector('.vjs-bg-opacity > select > option[value="0.5"]');
       a && (a.value = "0.7", a.selected = !0);
@@ -161,7 +162,7 @@ v([
   r({ type: String, defaultValue: "" })
 ], l.prototype, "poster", void 0);
 v([
-  _({ type: HTMLElement, default: !0, individualSlots: !0 })
+  $({ type: HTMLElement, default: !0, individualSlots: !0 })
 ], l.prototype, "caption", void 0);
 v([
   r({ type: String, defaultValue: "" })
@@ -176,9 +177,9 @@ v([
   r({ type: Boolean })
 ], l.prototype, "_allowIframeLoad", void 0);
 l = v([
-  C({
+  _({
     tag: "udex-media-player",
-    renderer: $,
+    renderer: V,
     styles: U,
     template: I
   }),

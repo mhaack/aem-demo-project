@@ -1,4 +1,5 @@
-import { r as h, i as v, e as i, l as a, s as m, a as _, b as H, c as C, p as c, d as p, f as $, U as w, g as V, h as I } from "./parameters-bundle.css-Bbg-m5ef.js";
+import { r as h, i as v, e as i, l as a, s as m, a as _, b as H, c as C, p as c, d as $, U as w, f as V, g as I } from "./parameters-bundle.css-umy6yUJ9.js";
+import { s as p } from "./slot-n2SAeQik.js";
 const q = "media-play", k = "M433.5 246q8 5 8 13.5t-8 13.5l-314 203q-8 4-17 4-13 0-22.5-9t-9.5-23V64q0-14 9.5-23t22.5-9q7 0 17 5zm-96 13l-203-135v266z", M = !0, P = "SAP-icons-v4", S = "@ui5/webcomponents-icons";
 h(q, { pathData: k, ltr: M, collection: P, packageName: S });
 const z = "media-play", y = "M122 480q-11 0-18.5-7.5T96 454V58q0-11 7.5-18.5T122 32q7 0 15 5l269 198q10 8 10 21t-10 21L137 475q-8 5-15 5zm25-372v296l200-148z", N = !0, D = "SAP-icons-v5", L = "@ui5/webcomponents-icons";

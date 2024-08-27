@@ -111,10 +111,6 @@ main > .section:not(.fragment-container) {
     }
   }
 
-  @media (width >= 980px) {
-    display: grid;
-  }
-
   & :is(.header) {
     display: contents;
   }

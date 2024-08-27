@@ -561,7 +561,7 @@ export default async function decorateBlock(block) {
     block.append(viewBtn);
   }
   if (!carousel && (cursor.value.pages > 2 || Object.keys(userConfig).length > 0)) {
-    pages = new Pages(block, cursor.value.pages, page, id);
+    pages = new Pages(block, cursor.value.pages, page, id, true);
     pages.render();
   }
 

@@ -479,6 +479,27 @@ function applyLayout(block, el) {
   }
 }
 
+function buildModalContent(heading, caption, content, actionButtons = []) {
+  return [
+    div(
+      { class: 'modal__content__header' },
+      div({ class: 'modal__content__header__title' }, heading || ''),
+      div({ class: 'modal__content__header__caption' }, caption || ''),
+    ),
+    div(
+      { class: 'modal__content__content' },
+      div(
+        { class: 'modal__content__content__container' },
+        content,
+      ),
+    ),
+    actionButtons.length > 0 ? div(
+      { class: 'modal__content__actions' },
+      ...actionButtons,
+    ) : '',
+  ];
+}
+
 export {
   buildAuthorUrl,
   buildCardDisplayProfile,
@@ -508,4 +529,5 @@ export {
   applyLayout,
   LIST_LAYOUT_CONFIG,
   LIST_LAYOUT_CONFIG_L2,
+  buildModalContent,
 };
