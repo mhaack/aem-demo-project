@@ -260,7 +260,6 @@ function registerHandler(
   block.addEventListener('sap:filterChange', async () => {
     articleStream = await getArticles(tags, editorConfig, nonFilterParams, id, 1, pageSize, initialSort);
     articleStream.next().then((cursor) => {
-      block.querySelector('.card-items')?.remove();
       const cards = renderCards(
         cursor.value.results,
         placeholders,
@@ -284,13 +283,12 @@ function registerHandler(
         pageSize,
       );
       if (filters) filters.updateResults(block, cursor.value.total);
-      block.append(cards);
+      block.querySelector('.card-items').replaceWith(cards);
       if (pages) pages.updatePages(cursor.value.pages, 1);
     });
   });
   block.addEventListener('sap:pageChange', (e) => {
     articleStream.next({ direction: e.detail.direction }).then((cursor) => {
-      block.querySelector('.card-items')?.remove();
       const cards = renderCards(
         cursor.value.results,
         placeholders,
@@ -313,7 +311,7 @@ function registerHandler(
         userConfig,
         pageSize,
       );
-      block.append(cards);
+      block.querySelector('.card-items').replaceWith(cards);
       if (pages) pages.updatePages(cursor.value.pages);
     });
   });
