@@ -242,6 +242,63 @@ function decorateFragmentLinks(main) {
 }
 
 /**
+ * Returns the two buttons if they exist inside the content wrapper,
+ * the buttons are siblings and each has the desired class.
+ * @param {Element} contentWrapper content wrapper
+ * @param {Element} firstClass class of the first button
+ * @param {Element} secondClass class of the second button
+ * @returns the first and second button wrappers if found and siblings, null otherwise
+ */
+function getPrimarySecondaryIfSiblings(contentWrapper, firstClass, secondClass) {
+  const firstContainer = contentWrapper.querySelector(`.button-container:has(${firstClass})`);
+  if (!firstContainer) {
+    return null;
+  }
+
+  const secondContainer = firstContainer.nextElementSibling;
+  if (!secondContainer?.querySelector(secondClass)) {
+    return null;
+  }
+
+  return ({ firstContainer, secondContainer });
+}
+
+/**
+ * Takes both sibling buttons and adds a wrapper around them.
+ * @param {Element} firstContainer first button container.
+ * @param {Element} secondContainer second button container.
+ */
+function wrapPrimarySecondarySiblings(firstContainer, secondContainer) {
+  if (!firstContainer || !secondContainer) {
+    return;
+  }
+
+  const primarySecondaryWrapper = document.createElement('div');
+  primarySecondaryWrapper.classList.add('primary-secondary-wrapper');
+  primarySecondaryWrapper.append(firstContainer.cloneNode(true), secondContainer);
+  firstContainer.replaceWith(primarySecondaryWrapper);
+}
+
+/**
+ * Decorates primary and secondary buttons if siblings in one section
+ * @param {Element} element container element
+ */
+export function decorateButtonsPrimarySecondaryPairWrapper(element) {
+  element.querySelectorAll('.default-content-wrapper').forEach((contentWrapper) => {
+    const primaryClass = '.primary';
+    const secondaryClass = '.secondary';
+    const containers = getPrimarySecondaryIfSiblings(contentWrapper, primaryClass, secondaryClass)
+      ?? getPrimarySecondaryIfSiblings(contentWrapper, secondaryClass, primaryClass);
+
+    if (!containers) {
+      return;
+    }
+    const { firstContainer, secondContainer } = containers;
+    wrapPrimarySecondarySiblings(firstContainer, secondContainer);
+  });
+}
+
+/**
  * Decorates paragraphs containing a single link as buttons.
  * @param {Element} element container element
  */
@@ -306,6 +363,7 @@ export async function decorateMain(main, shouldDecorateTemplates = true) {
   }
   decorateBlocks(main);
   decorateFragments(main);
+  decorateButtonsPrimarySecondaryPairWrapper(main);
 }
 
 /**

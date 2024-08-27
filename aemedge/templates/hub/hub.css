@@ -78,7 +78,8 @@ main > .section:not(.fragment-container) {
       }
     }
 
-    & > p.button-container {
+    & > p.button-container,
+    & > .primary-secondary-wrapper {
       margin-block: var(--udexSpacer48) 0;
 
       @media (width >= 980px) {
@@ -98,7 +99,8 @@ main > .section:not(.fragment-container) {
       }
     }
 
-    & > p.button-container:has(.primary, .secondary) + p.button-container:not(:has(.primary, .secondary)) {
+    & > p.button-container:has(.primary, .secondary) + p.button-container:not(:has(.primary, .secondary)),
+    .primary-secondary-wrapper + p.button-container:not(:has(.primary, .secondary)) {
       margin-block-start: var(--udexSpacer16);
     }
   }

@@ -304,6 +304,11 @@ a:where(:not(.tag)) {
   color: var(--udexColorGrey6);
 }
 
+.primary-secondary-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
 .button-container {
   margin: 0;
   padding: 0;
