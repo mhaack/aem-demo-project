@@ -1,5 +1,8 @@
 mountpoints:
-  /: https://sap.sharepoint.com/sites/207899/Shared%20Documents/website-qa
+  /:
+    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/mhaack/aem-demo-project/main"
+    type: "markup"
+    suffix: ".html"
 
 folders:
   /topics/: /topics/topic-template
