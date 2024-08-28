@@ -1,0 +1,13 @@
+{
+    "mappings": [
+        "/content/sap:/",
+        "/content/sap/:/",
+        "/content/sap/metadata:/metadata.json",
+        "/content/sap/redirects:/redirects.json",
+        "/content/sap/configuration:/.helix/config.json",
+        "/content/sap/headers:/.helix/headers.json"
+    ],
+    "includes": [
+        "/content/sap/"
+    ]
+}
