@@ -185,8 +185,9 @@
                   "template": {
                     "name": "Fast Fact",
                     "model": "fast-fact",
-                    "fact_numberType" : "h3",
-                    "fact_unitType" : "h4"
+                    "fact_eyebrowType": "h6",
+                    "fact_numberType" : "h4",
+                    "fact_unitType" : "h5"
                   }
                 }
               }

@@ -258,6 +258,19 @@
       {
         "component": "text",
         "valueType": "string",
+        "name": "fact_eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "fact_eyebrowType",
+        "value": "h6",
+        "hidden": true
+      },      
+      {
+        "component": "text",
+        "valueType": "string",
         "name": "fact_number",
         "label": "Number"
       },
@@ -265,7 +278,7 @@
         "component": "text",
         "valueType": "string",
         "name": "fact_numberType",
-        "value": "h3",
+        "value": "h4",
         "hidden": true
       },
       {
@@ -278,7 +291,7 @@
         "component": "text",
         "valueType": "string",
         "name": "fact_unitType",
-        "value": "h4",
+        "value": "h5",
         "hidden": true
       },
       {
