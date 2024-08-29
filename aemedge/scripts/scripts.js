@@ -15,13 +15,6 @@ import {
   toCamelCase,
   toClassName,
 } from './aem.js';
-import {
-  scheduleSolutionsLoad,
-  isABot,
-  isCFEnabled,
-  isCLEnabled,
-} from '../libs/analytics/analytics-core.js';
-import { decorateDesignSystemSite } from './ds-scripts.js';
 
 const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
 const TEMPLATE_LIST = {
@@ -587,68 +580,8 @@ function loadDelayed() {
   // load anything that can be postponed to the latest here
 }
 
-async function scheduleAdobeDCLoad() {
-  window.setTimeout(() => import('../libs/analytics/adobedc.js'), 100);
-}
-
-function dispatchDLEvent(event) {
-  const e = new Event('dl:event');
-  e.data = event;
-  document.dispatchEvent(e);
-}
-
-async function initDataLayer() {
-  await loadScript('/aemedge/libs/analytics/dl/acdl.min.js');
-  if (isCLEnabled()) {
-    await import('../libs/analytics/cl-aa.js');
-    await import('../libs/analytics/cl-cdi.js');
-  }
-  window.adobeDataLayer = window.adobeDataLayer || [];
-  const loginStatus = window.sessionStorage.getItem('loginStatus') === 'logY' ? 'yes' : 'no';
-  const globalDLEvent = {
-    event: 'globalDL',
-    site: {
-      country: 'glo',
-      name: 'sap',
-    },
-    user: {
-      type: 'visitor',
-      loginStatus,
-    },
-  };
-  window.adobeDataLayer.push(globalDLEvent);
-  dispatchDLEvent(globalDLEvent);
-  const relpath = window.location.pathname.substring(1);
-  const pageViewEvent = {
-    event: 'pageView',
-    page: {
-      country: 'glo',
-      language: 'en',
-      name: window.location.pathname,
-      section: relpath.indexOf('/') > 0 ? relpath.substring(0, relpath.indexOf('/')) : relpath,
-      url: window.location.href,
-      referrer: document.referrer,
-      title: document.querySelector('title').textContent.replace(/[\n\t]/gm, ''),
-      template: 'AEM EDS v1',
-      accessLevel: getMetadata('tracking-pageaccess') || 'public',
-    },
-    user: {
-      type: 'visitor',
-      loginStatus,
-    },
-  };
-  window.adobeDataLayer.push(pageViewEvent);
-  dispatchDLEvent(pageViewEvent);
-}
-
 async function loadPage() {
   await loadEager(document);
-  await initDataLayer();
-  const cfEnabled = isCFEnabled();
-  if (cfEnabled) {
-    await scheduleSolutionsLoad();
-    scheduleAdobeDCLoad();
-  }
   await loadLazy(document);
   loadDelayed();
 }
