@@ -32,5 +32,11 @@
         "button",
         "title"
       ]
+    },
+    {
+      "id": "fast-facts",
+      "components": [
+        "fast-fact"
+      ]
     }
   ]

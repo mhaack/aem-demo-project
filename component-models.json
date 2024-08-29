@@ -189,17 +189,55 @@
       "id": "quote",
       "fields": [
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "source",
-          "label": "Quote source"
-        },
-        {
           "component": "richtext",
           "valueType": "string",
           "name": "quote",
           "value": "",
           "label": "Quote Text"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "source",
+          "label": "Quote source"
+        }
+      ]
+    },
+    {
+      "id": "fast-fact",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "fact_number",
+          "label": "Number"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "fact_numberType",
+          "value": "h3",
+          "hidden": true
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "fact_unit",
+          "label": "Unit"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "fact_unitType",
+          "value": "h4",
+          "hidden": true
+        },
+        {
+          "component": "richtext",
+          "name": "fact_text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
         }
       ]
     }
