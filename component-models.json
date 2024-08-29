@@ -213,12 +213,6 @@
       },
       {
         "component": "text",
-        "name": "promo_titleType",
-        "value": "h2",
-        "hidden": true
-      },
-      {
-        "component": "text",
         "name": "promo_text",
         "label": "Text"
       },
