@@ -225,17 +225,17 @@
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "link",
+        "name": "promo_link",
         "label": "CTA Link"
       },
       {
-        "name": "linkText",
+        "name": "promo_linkText",
         "component": "text",
         "label": "CTA Link Text"
       },
       {
         "component": "select",
-        "name": "linkType",
+        "name": "promo_linkType",
         "valueType": "string",
         "options": [
           {
