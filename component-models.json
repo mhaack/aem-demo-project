@@ -1,242 +1,291 @@
 [
-    {
-      "id": "image",
-      "fields": [
-        {
-          "component": "reference",
-          "name": "image",
-          "label": "Image",
-          "multi": false
-        },
-        {
-          "component": "text",
-          "name": "imageAlt",
-          "label": "Alt Text"
-        }
-      ]
-    },
-    {
-      "id": "title",
-      "fields": [
-        {
-          "component": "text",
-          "name": "title",
-          "label": "Title"
-        },
-        {
-          "component": "select",
-          "name": "titleType",
-          "label": "Title Type",
-          "options": [
-            {
-              "name": "h1",
-              "value": "h1"
-            },
-            {
-              "name": "h2",
-              "value": "h2"
-            },
-            {
-              "name": "h3",
-              "value": "h3"
-            },
-            {
-              "name": "h4",
-              "value": "h4"
-            },
-            {
-              "name": "h5",
-              "value": "h5"
-            },
-            {
-              "name": "h6",
-              "value": "h6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "button",
-      "fields": [
-        {
-          "component": "aem-content",
-          "name": "link",
-          "label": "Link"
-        },
-        {
-          "component": "text",
-          "name": "linkText",
-          "label": "Text"
-        },
-        {
-          "component": "text",
-          "name": "linkTitle",
-          "label": "Title"
-        },
-        {
-          "component": "select",
-          "name": "linkType",
-          "label": "Type",
-          "options": [
-            {
-              "name": "default",
-              "value": ""
-            },
-            {
-              "name": "primary",
-              "value": "primary"
-            },
-            {
-              "name": "secondary",
-              "value": "secondary"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "section",
-      "fields": [
-        {
-          "component": "multiselect",
-          "name": "style",
-          "label": "Style",
-          "options": [
-            {
-              "name": "Additional Reading",
-              "value": "additional reading"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "card",
-      "fields": [
-        {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image",
-          "multi": false
-        },
-        {
-          "component": "richtext",
-          "name": "text",
-          "value": "",
-          "label": "Text",
-          "valueType": "string"
-        }
-      ]
-    },
-    {
-      "id": "columns",
-      "fields": [
-        {
-          "component": "text",
-          "valueType": "number",
-          "name": "columns",
-          "value": "",
-          "label": "Columns"
-        },
-        {
-          "component": "text",
-          "valueType": "number",
-          "name": "rows",
-          "value": "",
-          "label": "Rows"
-        }
-      ]
-    },
-    {
-      "id": "fragment",
-      "fields": [
-        {
-          "component": "aem-content",
-          "name": "reference",
-          "label": "Reference"
-        }
-      ]
-    },
-    {
-      "id": "hero",
-      "fields": [
-        {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image",
-          "multi": false
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "imageAlt",
-          "label": "Alt",
-          "value": ""
-        },
-        {
-          "component": "richtext",
-          "name": "text",
-          "value": "",
-          "label": "Text",
-          "valueType": "string"
-        }
-      ]
-    },
-    {
-      "id": "quote",
-      "fields": [
-        {
-          "component": "richtext",
-          "valueType": "string",
-          "name": "quote",
-          "value": "",
-          "label": "Quote Text"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "source",
-          "label": "Quote source"
-        }
-      ]
-    },
-    {
-      "id": "fast-fact",
-      "fields": [
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "fact_number",
-          "label": "Number"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "fact_numberType",
-          "value": "h3"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "fact_unit",
-          "label": "Unit"
-        },
-        {
-          "component": "text",
-          "valueType": "string",
-          "name": "fact_unitType",
-          "value": "h4"
-        },
-        {
-          "component": "richtext",
-          "name": "fact_text",
-          "value": "",
-          "label": "Text",
-          "valueType": "string"
-        }
-      ]
-    }
-  ]
+  {
+    "id": "image",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      }
+    ]
+  },
+  {
+    "id": "title",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "titleType",
+        "label": "Title Type",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          },
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "button",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "linkType",
+        "label": "Type",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "section",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Additional Reading",
+            "value": "additional reading"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "columns",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "fragment",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "reference",
+        "label": "Reference"
+      }
+    ]
+  },
+  {
+    "id": "hero",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quote",
+        "value": "",
+        "label": "Quote Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "source",
+        "label": "Quote source"
+      }
+    ]
+  },
+  {
+    "id": "promo",
+    "fields": [
+      {
+        "component": "text",
+        "name": "promo_title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "name": "promo_titleType",
+        "value": "h2",
+        "condition": false
+      },
+      {
+        "component": "text",
+        "name": "promo_text",
+        "label": "Text"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "link",
+        "label": "CTA Link"
+      },
+      {
+        "name": "linkText",
+        "component": "text",
+        "label": "CTA Link Text"
+      },
+      {
+        "component": "select",
+        "name": "linkType",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fast-fact",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "fact_number",
+        "label": "Number"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "fact_numberType",
+        "value": "h3",
+        "condition": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "fact_unit",
+        "label": "Unit"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "fact_unitType",
+        "value": "h4",
+        "condition": false
+      },
+      {
+        "component": "richtext",
+        "name": "fact_text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  }
+]
