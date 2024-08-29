@@ -1,6 +1,7 @@
 import {
   div, li, span, ul,
 } from '../../scripts/dom-builder.js';
+import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default async function decorateBlock(block) {
   const oddCount = block.childElementCount % 2 !== 0;
