@@ -18,8 +18,7 @@ export default async function decorateBlock(block) {
 
     const hasDetails = headline || text || eyebrow;
 
-    row.remove();
-    factsList.append(li(
+    const liEl = li(
       { class: 'fast-facts__item' },
       factMain ? div(
         { class: 'fast-facts__item__fact' },
@@ -33,7 +32,10 @@ export default async function decorateBlock(block) {
         text ? div({ class: 'fast-facts__item__text' }, text) : '',
       ) : '',
       link,
-    ));
+    )
+    moveInstrumentation(row, liEl);
+    row.remove();
+    factsList.append(liEl);
   });
   block.append(factsList);
 }

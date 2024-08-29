@@ -153,7 +153,8 @@
                   "template": {
                     "name": "Promo",
                     "model": "promo",
-                    "promo_titleType": "h2"
+                    "promo_titleType": "h2",
+                    "promo_linkType": "primary"
                   }
                 }
               }
@@ -183,7 +184,9 @@
                   "resourceType": "core/franklin/components/block/v1/block/item",
                   "template": {
                     "name": "Fast Fact",
-                    "model": "fast-fact"
+                    "model": "fast-fact",
+                    "fact_numberType" : "h3",
+                    "fact_unitType" : "h4"
                   }
                 }
               }
