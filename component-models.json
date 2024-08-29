@@ -226,16 +226,17 @@
         "component": "aem-content",
         "valueType": "string",
         "name": "promo_link",
-        "label": "CTA Link"
+        "label": "Promo Link"
       },
       {
         "name": "promo_linkText",
         "component": "text",
-        "label": "CTA Link Text"
+        "label": "Promo Link Text"
       },
       {
         "component": "select",
         "name": "promo_linkType",
+        "label": "Promo Link Type",
         "valueType": "string",
         "options": [
           {
