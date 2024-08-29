@@ -215,7 +215,7 @@
         "component": "text",
         "name": "promo_titleType",
         "value": "h2",
-        "condition": false
+        "hidden": true
       },
       {
         "component": "text",
@@ -238,6 +238,7 @@
         "name": "promo_linkType",
         "label": "Promo Link Type",
         "valueType": "string",
+        "value": "primary",
         "options": [
           {
             "name": "Primary",
