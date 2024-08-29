@@ -216,8 +216,7 @@
           "component": "text",
           "valueType": "string",
           "name": "fact_numberType",
-          "value": "h3",
-          "condition": false
+          "value": "h3"
         },
         {
           "component": "text",
@@ -229,8 +228,7 @@
           "component": "text",
           "valueType": "string",
           "name": "fact_unitType",
-          "value": "h4",
-          "condition": false
+          "value": "h4"
         },
         {
           "component": "richtext",
