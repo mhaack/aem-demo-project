@@ -104,8 +104,8 @@
           "label": "Style",
           "options": [
             {
-              "name": "Highlight",
-              "value": "highlight"
+              "name": "Additional Reading",
+              "value": "additional reading"
             }
           ]
         }
@@ -182,6 +182,24 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        }
+      ]
+    },
+    {
+      "id": "quote",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "source",
+          "label": "Quote source"
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "quote",
+          "value": "",
+          "label": "Quote Text"
         }
       ]
     }

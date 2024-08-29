@@ -13,15 +13,9 @@
         "button",
         "title",
         "hero",
-        "cards",
+        "quote",
         "columns",
         "fragment"
-      ]
-    },
-    {
-      "id": "cards",
-      "components": [
-        "card"
       ]
     },
     {
