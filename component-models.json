@@ -15,6 +15,12 @@
           {
             "component": "text",
             "valueType": "string",
+            "name": "image",
+            "label": "Page Image"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
             "name": "jcr:description",
             "label": "Description"
           },
@@ -34,26 +40,26 @@
           {
             "component": "text",
             "valueType": "string",
-            "name": "Tags",
+            "name": "tags",
             "multi": true,
             "label": "Tags"
           },
           {
             "component": "text",
             "valueType": "string",
-            "name": "Author",
+            "name": "author",
             "label": "Author"
           },
           {
             "component": "date-time",
             "valueType": "date-time",
-            "name": "Published Time",
+            "name": "published-time",
             "label": "Published Time"
           },
           {
             "component": "date-time",
             "valueType": "date-time",
-            "name": "Modified Time",
+            "name": "modified-time",
             "label": "Modified Time"
           },
           {
@@ -62,7 +68,7 @@
             "name": "toc",
             "valueType": "string",
             "options": [
-              { "name": "Enabled", "value": "yes" },
+              { "name": "Enabled", "value": "Yes" },
               { "name": "Disabled", "value": "" }
             ]
           }
@@ -304,6 +310,17 @@
         "valueType": "string",
         "name": "source",
         "label": "Quote source"
+      }
+    ]
+  },
+  {
+    "id": "text-large",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "text",
+        "label": "Text"
       }
     ]
   },
