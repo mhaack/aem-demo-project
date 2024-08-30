@@ -40,5 +40,11 @@
       "components": [
         "fast-fact"
       ]
+    },
+    {
+      "id": "featured-articles",
+      "components": [
+        "featured-article"
+      ]
     }
   ]

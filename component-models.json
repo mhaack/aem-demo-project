@@ -1,10 +1,81 @@
 [
   {
+    "id": "page-metadata",
+    "fields": [
+      {
+        "component": "container",
+        "label": "Fieldset",
+        "fields": [
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "jcr:title",
+            "label": "Title"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "jcr:description",
+            "label": "Description"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "cq:canonicalUrl",
+            "label": "Canonical"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "keywords",
+            "multi": true,
+            "label": "Keywords"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "Tags",
+            "multi": true,
+            "label": "Tags"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "Author",
+            "label": "Author"
+          },
+          {
+            "component": "date-time",
+            "valueType": "date-time",
+            "name": "Published Time",
+            "label": "Published Time"
+          },
+          {
+            "component": "date-time",
+            "valueType": "date-time",
+            "name": "Modified Time",
+            "label": "Modified Time"
+          },
+          {
+            "component": "select",
+            "label": "Table of Contents",
+            "name": "toc",
+            "valueType": "string",
+            "options": [
+              { "name": "Enabled", "value": "yes" },
+              { "name": "Disabled", "value": "" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "image",
     "fields": [
       {
         "component": "reference",
-        "name": "image",
+        "name": "fileReference",
         "label": "Image",
         "multi": false
       },
@@ -108,6 +179,25 @@
             "value": "additional reading"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "location",
+        "label": "Location",
+        "options": [
+          {
+            "name": "main",
+            "value": "main"
+          }, 
+          {
+            "name": "sidebar",
+            "value": "sidebar"
+          }, 
+          {
+            "name": "document-footer",
+            "value": "document-footer"
+          }
+        ]
       }
     ]
   },
@@ -177,6 +267,20 @@
         "value": ""
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "titleType",
+        "value": "h1",
+        "hidden": true
+      },
+      {
         "component": "richtext",
         "name": "text",
         "value": "",
@@ -223,7 +327,7 @@
         "label": "Text"
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "valueType": "string",
         "name": "promo_link",
         "label": "Promo Link"
@@ -300,6 +404,45 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "featured-article",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "link",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "resource-center",
+    "fields": [
+      {
+        "component": "string",
+        "valueType": "string",
+        "name": "Tags",
+        "label": "Tags"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "Content Type",
+        "label": "Content Type"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "Limit",
+        "label": "Limit"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "Info",
+        "label": "Info"
       }
     ]
   }
