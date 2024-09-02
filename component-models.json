@@ -446,9 +446,16 @@
     "id": "featured-article",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
+        "valueType": "string",
         "name": "link",
-        "value": ""
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "linkText",
+        "label": "Link Text"
       }
     ]
   },
