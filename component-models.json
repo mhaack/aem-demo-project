@@ -296,6 +296,36 @@
     ]
   },
   {
+    "id": "embed",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "embed_image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "emebd_imageAlt",
+        "label": "Alt"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "embed_link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "embed_linkText",
+        "label": "Link Text"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
