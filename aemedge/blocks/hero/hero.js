@@ -124,7 +124,6 @@ export default async function decorate(block) {
 
   // extract block content
   const hero = div({ class: 'hero' });
-  moveInstrumentation(block, hero);
   const heading = block.querySelector('h1');
   const eyebrow = block.querySelector('h6');
   let eyebrowText = eyebrow?.textContent;
@@ -230,5 +229,6 @@ export default async function decorate(block) {
     content.append(buttonContainer);
   }
 
+  moveInstrumentation(block, hero);
   block.replaceWith(hero);
 }
