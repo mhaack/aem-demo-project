@@ -261,34 +261,34 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "hero_image",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "imageAlt",
+        "name": "hero_imageAlt",
         "label": "Alt",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "title",
+        "name": "hero_title",
         "label": "Title",
         "value": ""
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "titleType",
+        "name": "hero_titleType",
         "value": "h1",
         "hidden": true
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "hero_text",
         "value": "",
         "label": "Text",
         "valueType": "string"
