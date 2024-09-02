@@ -18,6 +18,7 @@ import {
 import Tag from '../../libs/tag/tag.js';
 import Avatar from '../../libs/avatar/avatar.js';
 import Button from '../../libs/button/button.js';
+import { moveInstrumentation } from '../../scripts/scripts.js';
 
 function buildAuthorEl(author) {
   const renderLink = author.path && author.path.indexOf('/people/') === -1;
@@ -123,6 +124,7 @@ export default async function decorate(block) {
 
   // extract block content
   const hero = div({ class: 'hero' });
+  moveInstrumentation(block, hero);
   const heading = block.querySelector('h1');
   const eyebrow = block.querySelector('h6');
   let eyebrowText = eyebrow?.textContent;

@@ -259,31 +259,6 @@
     "id": "hero",
     "fields": [
       {
-        "component": "select",
-        "label": "Hero Options",
-        "name": "classes",
-        "value": "",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "default",
-            "value": ""
-          },
-          {
-            "name": "Media Blend",
-            "value": "media-blend"
-          },
-          {
-            "name": "Small with fixed height",
-            "value": "fixed height small"
-          },
-          {
-            "name": "Large with fixed height",
-            "value": "fixed height large"
-          }
-        ]
-      },
-      {
         "component": "reference",
         "valueType": "string",
         "name": "hero_image",
@@ -353,23 +328,6 @@
   {
     "id": "quote",
     "fields": [
-      {
-        "component": "select",
-        "label": "Quote Options",
-        "name": "classes",
-        "value": "",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "default",
-            "value": ""
-          },
-          {
-            "name": "No Avatar",
-            "value": "no-avatar"
-          }
-        ]
-      },
       {
         "component": "richtext",
         "valueType": "string",
@@ -518,7 +476,7 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "Content Type",
+        "name": "content-type",
         "label": "Content Type"
       },
       {
