@@ -30,7 +30,7 @@ export default function decorate(block) {
     },
   ];
 
-  if (block.querySelectorAll(':scope > div').length === 0) {
+  if (block.querySelector(':scope > div')?.textContent?.trim() === '') {
     SOCIAL_CONFIGS.forEach((config) => {
       block.append(div(
         {},
