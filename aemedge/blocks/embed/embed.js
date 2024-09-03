@@ -2,7 +2,7 @@ import MediaPlayer from '../../libs/mediaPlayer/mediaPlayer.js';
 
 const getPlayerSubtitles = (block) => {
   block.firstElementChild.remove();
-  if (block.childElementCount > 0 && child.textContent.trim() !== '') {
+  if (block.childElementCount > 0 && block.textContent.trim() !== '') {
     return [...block.children].map((child) => {
       const track = document.createElement('track');
       track.setAttribute('kind', 'subtitles');
