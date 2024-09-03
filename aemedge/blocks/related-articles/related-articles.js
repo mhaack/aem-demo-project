@@ -73,7 +73,7 @@ function getPictureCard(article, placeholders, tags, author) {
   const type = article.tags.find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
   const tagType = tags[toCamelCase(type)];
   const tagLabel = placeholders[toCamelCase(priority)] || '';
-  const link = cardUrl !== ''||'0' ? cardUrl : path;
+  const link = cardUrl !== (''||'0') ? cardUrl : path;
   const infoUpdatedLabel = isNewsPage() ? 'Published on' : (placeholders.updatedOn || 'Updated on');
   let info = `${infoUpdatedLabel} ${formatDate(article.publicationDate * 1000)}`;
   if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
