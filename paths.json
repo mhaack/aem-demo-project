@@ -6,7 +6,8 @@
         "/content/sap/redirects:/redirects.json",
         "/content/sap/configuration:/.helix/config.json",
         "/content/sap/headers:/.helix/headers.json",
-        "/content/sap/aemedge/placeholders:/aemedge/placeholders.json",        
+        "/content/sap/aemedge/placeholders:/aemedge/placeholders.json",  
+        "/content/sap/aemedge/profiles-index:/aemedge/profiles-index.json",
         "/content/sap/aemedge/config:/aemedge/config.json",
         "/content/sap/aemedge/tagging-contenthub:/aemedge/tagging-contenthub.json"
     ],
