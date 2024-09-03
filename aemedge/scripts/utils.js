@@ -213,7 +213,7 @@ async function fetchProfiles() {
 
 async function fetchAuthors() {
   return ffetch(`${window.hlx.codeBasePath}/profiles-index.json`, 'sapContentHubAuthorEntries')
-    .sheet('authors')
+    //.sheet('authors')
     .all();
 }
 
