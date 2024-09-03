@@ -225,6 +225,81 @@
             }
           },
           {
+            "title": "Social Sharing",
+            "id": "social-sharing",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Social Sharing",
+                    "model": "social-sharing"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Tags",
+            "id": "tags",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Tags",
+                    "model": "tags"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Profiles",
+            "id": "profiles",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Profiles",
+                    "model": "profiles"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Related Articles",
+            "id": "related-articles",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Related Articles",
+                    "model": "related-articles"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Related Articles",
+            "id": "related-articles",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Related Articles",
+                    "model": "related-articles"
+                  }
+                }
+              }
+            }
+          },
+          {
             "title": "Featured Articles",
             "id": "featured-articles",
             "plugins": {

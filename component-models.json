@@ -463,7 +463,7 @@
     "id": "resource-center",
     "fields": [
       {
-        "component": "string",
+        "component": "text",
         "valueType": "string",
         "name": "Tags",
         "label": "Tags"
