@@ -18,7 +18,7 @@ function getPreFilter(filterConfig) {
   if (contentType && filterConfig.contentTypes && filterConfig.contentTypes[contentType]) {
     const contentTypeFilters = filterConfig.contentTypes[contentType]?.split(',').map((item) => item.trim());
     return (entry) => {
-      const entryTags = JSON.parse(entry.tags);
+      const entryTags = entry.tags;
       if (Array.isArray(entryTags) && entryTags.length > 0) {
         return contentTypeFilters.some((item) => entryTags.includes(item));
       }
@@ -32,7 +32,7 @@ function getPreFilter(filterConfig) {
     if (filterConfig.paths[pathSegment]) {
       const contentTypeFilters = filterConfig.paths[pathSegment].split(',').map((item) => item.trim());
       return (entry) => {
-        const entryTags = JSON.parse(entry.tags);
+        const entryTags = entry.tags;
         if (Array.isArray(entryTags) && entryTags.length > 0) {
           return contentTypeFilters.some((item) => entryTags.includes(item));
         }
@@ -45,7 +45,7 @@ function getPreFilter(filterConfig) {
   if (filterConfig.default) {
     const contentTypeFilters = filterConfig.default.split(',').map((item) => item.trim());
     return (entry) => {
-      const entryTags = JSON.parse(entry.tags);
+      const entryTags = entry.tags;
       if (Array.isArray(entryTags) && entryTags.length > 0) {
         return contentTypeFilters.some((item) => entryTags.includes(item));
       }
@@ -58,7 +58,7 @@ function getPreFilter(filterConfig) {
 function getFilter(pageTags) {
   return (entry) => {
     if (entry.path === window.location.pathname) return false;
-    const entryTags = JSON.parse(entry.tags);
+    const entryTags = entry.tags;
     if (Array.isArray(entryTags) && entryTags.length > 0) {
       return pageTags.some((item) => entryTags.includes(item));
     }
@@ -70,7 +70,7 @@ function getPictureCard(article, placeholders, tags, author) {
   const {
     image, path, title, priority, cardUrl,
   } = article;
-  const type = JSON.parse(article.tags).find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
+  const type = article.tags.find((tag) => tag.trim().toLowerCase().startsWith('content-type'));
   const tagType = tags[toCamelCase(type)];
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const link = cardUrl !== '0' ? cardUrl : path;
