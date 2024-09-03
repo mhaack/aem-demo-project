@@ -4,7 +4,7 @@ const getPlayerSubtitles = (block) => {
   block.firstElementChild.remove();
   if (block.childElementCount > 0) {
     return [...block.children].map((child) => {
-      if (child.textContent.trim() !== '') return null;
+      if (child.textContent.trim() === '') return null;
       const track = document.createElement('track');
       track.setAttribute('kind', 'subtitles');
       track.setAttribute('srclang', child.querySelector('div:first-child').textContent);
