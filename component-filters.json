@@ -25,12 +25,7 @@
         "related-articles",
         "tags",
         "profiles",
-        "social-sharing"
-      ]
-    },
-    {
-      "id": "footer-section",
-      "components": [
+        "social-sharing",
         "contact",
         "link-group"
       ]
