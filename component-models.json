@@ -358,6 +358,12 @@
     "id": "promo",
     "fields": [
       {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image"
+      },
+      {
         "component": "text",
         "name": "promo_title",
         "label": "Title"
@@ -446,17 +452,11 @@
     "id": "featured-article",
     "fields": [
       {
-        "component": "text",
+        "component": "aem-content",
         "valueType": "string",
         "name": "link",
         "label": "Link",
         "multi": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "linkText",
-        "label": "Link Text"
       }
     ]
   },
