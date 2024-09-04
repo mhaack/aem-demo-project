@@ -473,8 +473,7 @@
         "component": "richtext",
         "valueType": "string",
         "name": "links",
-        "label": "Links",
-        "multi": true
+        "label": "Links"
       }
     ]
   },
