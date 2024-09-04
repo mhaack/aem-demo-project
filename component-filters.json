@@ -29,6 +29,13 @@
       ]
     },
     {
+      "id": "footer-section",
+      "components": [
+        "contact",
+        "link-group"
+      ]
+    },
+    {
       "id": "columns",
       "components": [
         "column"
