@@ -470,7 +470,7 @@
         "label": "Title"
       },
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "links",
         "label": "Links",
