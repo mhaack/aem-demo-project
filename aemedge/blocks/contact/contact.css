@@ -104,6 +104,8 @@
 }
 
 .contact-wrapper {
+  width: 100px;
+
   & > div:has(> .logo-lang-picker) {
     display: grid;
     column-gap: var(--udexGridGutters);
