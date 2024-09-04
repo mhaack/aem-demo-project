@@ -6,8 +6,8 @@ export default async function decorate(block) {
     const img = block.firstElementChild.querySelector('img');
     if (img) {
       block.lastElementChild.firstElementChild.before(img.closest('div'));
-      block.firstElementChild.remove();
     }
+    block.firstElementChild.remove();
   }
 
   decorateButtons(block);
