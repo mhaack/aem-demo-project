@@ -2,6 +2,7 @@ import { createOptimizedPicture, toClassName } from '../../scripts/aem.js';
 import { div, domEl } from '../../scripts/dom-builder.js';
 import { applyLayout, capitalize } from '../../scripts/utils.js';
 import MediaPlayer from '../../libs/mediaPlayer/mediaPlayer.js';
+import { moveInstrumentation } from '../../scripts/scripts.js';
 
 /**
  * Decorate Cards (colors) variant.
@@ -126,6 +127,7 @@ export default function decorate(block) {
       }
     });
     const li = document.createElement('li');
+    moveInstrumentation(row, li);
     li.append(cardDiv);
     ul.append(li);
   });
