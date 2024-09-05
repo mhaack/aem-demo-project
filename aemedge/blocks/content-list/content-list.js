@@ -72,7 +72,7 @@ function getPictureCard(article, config, placeholders, tags, author) {
   const tagLabel = placeholders[toCamelCase(priority)] || '';
   const infoUpdatedLabel = placeholders.updatedOn || 'Updated on';
   const info = getInfo(article, config, infoUpdatedLabel);
-  const link = cardUrl !== '0' ? cardUrl : path;
+  const link = cardUrl !== '' ? cardUrl : path;
   return new PictureCard(title, link, contentType?.label || '', info, author, image, tagLabel);
 }
 

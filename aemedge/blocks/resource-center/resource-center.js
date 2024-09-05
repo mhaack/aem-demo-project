@@ -65,7 +65,7 @@ function getPictureCard(article, config, placeholders, tags, author) {
       image, path, title, priority, cardUrl,
     } = article;
     const tagLabel = placeholders[toCamelCase(priority)] || '';
-    const link = cardUrl !== '0' ? cardUrl : path;
+    const link = cardUrl !== '' ? cardUrl : path;
     const infoType = config.info || 'authorAndUpdated';
     let info = getInfo(article, author, infoType, placeholders);
     if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
