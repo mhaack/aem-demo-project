@@ -491,10 +491,10 @@
     "fields": [
       {
         "component": "aem-content",
-        "valueType": "string",
-        "name": "link",
-        "label": "Link",
-        "multi": true
+        "name": "reference",
+        "value": "",
+        "label": "Article",
+        "valueType": "string"
       }
     ]
   },
@@ -552,7 +552,8 @@
         "component": "text",
         "valueType": "string",
         "name": "key-value",
-        "label": "KV"
+        "label": "KV",
+        "hidden": true
       }
     ]
   },
@@ -592,15 +593,9 @@
       },
       {
         "component": "text",
-        "name": "linkTitle",
-        "label": "Link Title",
+        "name": "linkText",
+        "label": "Link Text",
         "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "linkType",
-        "value": "h3",
-        "label": "Title Type"
       }
     ]
   }
