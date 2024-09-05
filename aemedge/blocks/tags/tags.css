@@ -1,5 +1,3 @@
-@import url("/aemedge/libs/tag/tag.css");
-
 main .tags div.tag-list {
     display: flex;
     flex-wrap: wrap;

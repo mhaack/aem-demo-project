@@ -1,5 +1,3 @@
-@import url("/aemedge/libs/pictureCard/pictureCard.css");
-
 .featured-articles {
   & ul {
     display: grid;
