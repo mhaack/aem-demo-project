@@ -80,16 +80,7 @@ function getPictureCard(article, placeholders, tags, author, eager) {
 
 export default async function decorateBlock(block) {
   const horizontal = block.classList.contains('horizontal');
-  const links = Array.from(block.querySelectorAll('a')).map((link) => new URL(link.href).pathname).map((path) => {
-    let p = path;
-    if (p.endsWith('.html')) {
-      p = p.slice(0, -5);
-    }
-    if (p.startsWith('/content/sap')) {
-      p = p.slice(12);
-    }
-    return p;
-  })
+  const links = Array.from(block.querySelectorAll('a')).map((link) => new URL(link.href).pathname);
   if (links.length > 0) {
     const articles = await fetchPages(links);
     articles.sort(
