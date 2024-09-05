@@ -324,7 +324,8 @@
                   "resourceType": "core/franklin/components/block/v1/block",
                   "template": {
                     "name": "Featured Articles",
-                    "filter": "featured-articles"
+                    "filter": "featured-articles",
+                    "model": "featured-articles"
                   }
                 }
               }

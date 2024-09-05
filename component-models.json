@@ -576,6 +576,24 @@
     ]
   },
   {
+    "id": "featured-articles",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Horizontal",
+            "value": "horizontal"
+          }
+        ]
+      }
+    ]
+  },  
+  {
     "id": "card",
     "fields": [
       {
