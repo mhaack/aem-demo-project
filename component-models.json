@@ -558,6 +558,24 @@
     ]
   },
   {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Image as icons",
+            "value": "icons"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
