@@ -122,7 +122,8 @@
                   "template": {
                     "name": "Hero",
                     "model": "hero",
-                    "titleType": "h1"
+                    "hero_titleType": "h1",
+                    "hero_eyebrowType": "h6"
                   }
                 }
               }
@@ -355,6 +356,67 @@
                     "name": "Resource Center",
                     "model": "resource-center",
                     "key-value": true
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Cards",
+            "id": "cards",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Cards",
+                    "filter": "cards"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Card",
+            "id": "card",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block/item",
+                  "template": {
+                    "name": "Card",
+                    "model": "card"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Tiles",
+            "id": "tiles",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "Tiles",
+                    "filter": "tiles"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "title": "Tile",
+            "id": "tile",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block/item",
+                  "template": {
+                    "name": "Tile",
+                    "model": "tile",
+                    "titleType": "h3"
                   }
                 }
               }

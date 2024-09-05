@@ -183,6 +183,18 @@
           {
             "name": "Additional Reading",
             "value": "additional reading"
+          },
+          {
+            "name": "Divider Top",
+            "value": "divider top"
+          },
+          {
+            "name": "Blue background with white text",
+            "value": "background blue 7, text neutral white"
+          },
+          {
+            "name": "Indigo background",
+            "value": "background indigo 9"
           }
         ]
       },
@@ -271,6 +283,20 @@
         "name": "hero_imageAlt",
         "label": "Alt",
         "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_eyebrow",
+        "label": "Eyebrow",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_eyebrowType",
+        "value": "h6",
+        "hidden": true
       },
       {
         "component": "text",
@@ -503,6 +529,54 @@
         "valueType": "string",
         "name": "Info",
         "label": "Info"
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "tile",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "link",
+        "label": "Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Link Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "linkType",
+        "value": "h3",
+        "label": "Title Type"
       }
     ]
   }

@@ -14,6 +14,7 @@
         "title",
         "hero",
         "quote",
+        "cards",
         "columns",
         "fragment",
         "fast-facts",
@@ -43,6 +44,18 @@
         "image",
         "button",
         "title"
+      ]
+    },
+    {
+      "id": "cards",
+      "components": [
+        "card"
+      ]
+    },
+    {
+      "id": "tiles",
+      "components": [
+        "tile"
       ]
     },
     {
