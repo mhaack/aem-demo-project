@@ -182,7 +182,6 @@ async function getArticles(tags, editorConfig, nonFilterParams, id, startPage = 
     (tag) => path === tag['topic-path'] || path === tag['news-path'],
   );
   return ffetch(`${window.hlx.codeBasePath}/articles-index.json`, 'sapContentHubArticles')
-    .sheet(`${sortType}-${sortDirection.toLowerCase()}`)
     .filter((entry) => getPathFilter(entry, author, matchedPathTags))
     .filter((entry) => entry.path !== window.location.pathname)
     .filter((entry) => excludedArticlesFilter(entry, editorConfig))

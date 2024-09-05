@@ -509,8 +509,14 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "Tags",
+        "name": "tags",
         "label": "Tags"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "authors",
+        "label": "Authors"
       },
       {
         "component": "text",
@@ -521,14 +527,20 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "Limit",
+        "name": "limit",
         "label": "Limit"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "Info",
+        "name": "info",
         "label": "Info"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "key-value",
+        "label": "KV"
       }
     ]
   },
