@@ -81,8 +81,20 @@
           {
             "component": "text",
             "valueType": "string",
-            "name": " global-nav",
+            "name": "global-nav",
             "label": "Global Nav Override"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": " cardC2A",
+            "label": "Card C2A Text"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "cardUrl",
+            "label": "Card URL"
           }
         ]
       }
