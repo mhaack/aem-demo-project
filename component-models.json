@@ -71,6 +71,18 @@
               { "name": "Enabled", "value": "Yes" },
               { "name": "Disabled", "value": "" }
             ]
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "template",
+            "label": "Template"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": " global-nav",
+            "label": "Global Nav Override"
           }
         ]
       }
