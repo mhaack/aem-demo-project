@@ -5,6 +5,7 @@ import {
   li,
   ul,
 } from '../../scripts/dom-builder.js';
+import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default function decorate(block) {
   const listElement = ul();
@@ -22,6 +23,7 @@ export default function decorate(block) {
       }
     });
     const listItemElement = li(cardDiv);
+    moveInstrumentation(row, listItemElement);
     if (cardDiv.children.length > 0) {
       const cardLink = cardDiv
         .children[cardDiv.children.length - 1]
