@@ -65,7 +65,7 @@ function getPictureCard(article, config, placeholders, tags, author) {
       image, path, title, priority, cardUrl,
     } = article;
     const tagLabel = placeholders[toCamelCase(priority)] || '';
-    const link = cardUrl !== '' ? cardUrl : path;
+    const link = cardUrl !== '' ? cardUrl : window.location.hostname.endsWith('adobeaemcloud.com') ? `/content/sap${path}.html`: path;
     const infoType = config.info || 'authorAndUpdated';
     let info = getInfo(article, author, infoType, placeholders);
     if (article.cardC2A && article.cardC2A !== '' && article.cardC2A !== '0') {
