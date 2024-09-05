@@ -118,7 +118,7 @@ export default async function decorateBlock(block) {
     articles.forEach(getArticle);
 
     applyLayout(cardList, cardList);
+    block.innerHTML = '';
     block.append(cardList);
   }
-  block.querySelector('div').remove();
 }
