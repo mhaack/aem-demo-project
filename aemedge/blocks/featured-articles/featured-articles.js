@@ -46,7 +46,7 @@ function getTagLabel(article, placeholders) {
 
 function getPictureCard(article, placeholders, tags, author, eager) {
   const tagLabel = getTagLabel(article, placeholders);
-  const url = getMetadata('card-url', article) || new URL(getMetadata('og:url', article)).pathname;
+  const url = getMetadata('card-url', article) || (getMetadata('og:url', article).startsWith('https://') ? new URL(getMetadata('og:url', article)).pathname : getMetadata('og:url', article));
   const infoUpdatedLabel = isNewsPage() ? 'Published on' : (placeholders.updatedOn || 'Updated on');
   const info = getMetadata('card-c2a', article) || `${infoUpdatedLabel} ${formatDate(getMetadata('published-time', article))}`;
 
