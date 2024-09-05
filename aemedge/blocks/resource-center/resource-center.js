@@ -98,7 +98,7 @@ function getCard(article, tags, placeholders) {
 
 function matchTags(entry, config) {
   if (!config.tags) return true;
-  return config.tags.some((item) => JSON.parse(entry.tags).some((tag) => tag.startsWith(item.trim())));
+  return config.tags.some((item) => entry.tags.some((tag) => tag.startsWith(item.trim())));
 }
 
 function matchAuthors(entry, config) {
@@ -143,7 +143,7 @@ function getTagFilter(entry, params, nonFilterParams, id) {
     }
   });
   filterTags = filterTags.flat();
-  return filterTags.every((item) => JSON.parse(entry.tags).includes(item));
+  return filterTags.every((item) => entry.tags.includes(item));
 }
 
 function getDateFilter(entry, params, id) {
