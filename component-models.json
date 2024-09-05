@@ -87,13 +87,13 @@
           {
             "component": "text",
             "valueType": "string",
-            "name": " cardC2A",
+            "name": "card-c2a",
             "label": "Card C2A Text"
           },
           {
             "component": "text",
             "valueType": "string",
-            "name": "cardUrl",
+            "name": "card-url",
             "label": "Card URL"
           }
         ]
