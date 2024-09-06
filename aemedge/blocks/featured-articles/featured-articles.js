@@ -18,6 +18,7 @@ import {
   fetchProfiles,
   applyLayout,
 } from '../../scripts/utils.js';
+import { moveInstrumentation } from '../../scripts/scripts.js';
 
 /**
  * @param {string} publishedTime
@@ -103,6 +104,10 @@ export default async function decorateBlock(block) {
         displayAuthor,
         article === articles[0],
       );
+      card.setAttribute('data-aue-model', 'card');
+      card.setAttribute('data-aue-label', 'Card');
+      card.setAttribute('data-aue-type', 'component');
+
       cardList.append(card.render(horizontal || articles.length === 1));
     }
 
