@@ -1,7 +1,9 @@
 {
     "mappings": [
-        "/content/sap:/",
-        "/content/sap/:/",
+        "/content/sap/en:/",
+        "/content/sap/en/:/",
+        "/content/sap/de/:/de/",
+        "/content/sap/fr/:/fr/",
         "/content/sap/metadata:/metadata.json",
         "/content/sap/redirects:/redirects.json",
         "/content/sap/configuration:/.helix/config.json",
