@@ -104,11 +104,12 @@ export default async function decorateBlock(block) {
         displayAuthor,
         article === articles[0],
       );
-      card.setAttribute('data-aue-model', 'card');
-      card.setAttribute('data-aue-label', 'Card');
-      card.setAttribute('data-aue-type', 'component');
 
-      cardList.append(card.render(horizontal || articles.length === 1));
+      const cardEL = card.render(horizontal || articles.length === 1);
+      cardEL.setAttribute('data-aue-model', 'card');
+      cardEL.setAttribute('data-aue-label', 'Card');
+      cardEL.setAttribute('data-aue-type', 'component');
+      cardList.append(cardEL);
     }
 
     articles.forEach(getArticle);
