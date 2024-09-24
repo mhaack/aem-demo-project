@@ -121,12 +121,12 @@
     "fields": [
       {
         "component": "text",
-        "name": "title",
+        "name": "jcr:title",
         "label": "Title"
       },
       {
         "component": "select",
-        "name": "titleType",
+        "name": "type",
         "label": "Title Type",
         "options": [
           {
