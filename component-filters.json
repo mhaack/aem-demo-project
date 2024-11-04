@@ -1,74 +1,143 @@
 [
-    {
-      "id": "main",
-      "components": [
-        "section"
-      ]
-    },
-    {
-      "id": "section",
-      "components": [
-        "text",
-        "image",
-        "button",
-        "title",
-        "hero",
-        "quote",
-        "cards",
-        "tiles",
-        "columns",
-        "fragment",
-        "fast-facts",
-        "promo",
-        "text-large",
-        "resource-center",
-        "embed",
-        "featured-articles",
-        "related-articles",
-        "tags",
-        "profiles",
-        "social-sharing",
-        "contact",
-        "link-group"
-      ]
-    },
-    {
-      "id": "columns",
-      "components": [
-        "column"
-      ]
-    },
-    {
-      "id": "column",
-      "components": [
-        "text",
-        "image",
-        "button",
-        "title"
-      ]
-    },
-    {
-      "id": "cards",
-      "components": [
-        "card"
-      ]
-    },
-    {
-      "id": "tiles",
-      "components": [
-        "tile"
-      ]
-    },
-    {
-      "id": "fast-facts",
-      "components": [
-        "fast-fact"
-      ]
-    },
-    {
-      "id": "featured-articles",
-      "components": [
-        "featured-article"
-      ]
-    }
-  ]
+  {
+    "id": "main",
+    "components": [
+      "section",
+      "hero-section"
+    ]
+  },
+  {
+    "id": "section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "accordion",
+      "cards",
+      "collection",
+      "contact",
+      "contact-cards",
+      "embed",
+      "error",
+      "error-buttons",
+      "fast-facts",
+      "featured-articles",
+      "footnote",
+      "fragment",
+      "full-width-image",
+      "lightbox",
+      "link-group",
+      "list-external",
+      "list-external-dynamic",
+      "merchandising-dynamic",
+      "profiles",
+      "promo",
+      "quote",
+      "related-articles",
+      "resource-center",
+      "social-profile",
+      "social-sharing",
+      "table",
+      "tags",
+      "text-large",
+      "tiles"
+    ]
+  },
+  {
+    "id": "hero-section",
+    "components": [
+      "hero"
+    ]
+  },
+  {
+    "id": "accordion",
+    "components": [
+      "accordion-item"
+    ]
+  },
+  {
+    "id": "cards",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "collection",
+    "components": [
+      "collection-item"
+    ]
+  },
+  {
+    "id": "contact",
+    "components": [
+      "contact-item"
+    ]
+  },
+  {
+    "id": "embed",
+    "components": [
+      "embed-subtitle"
+    ]
+  },
+  {
+    "id": "fast-facts",
+    "components": [
+      "fast-fact"
+    ]
+  },
+  {
+    "id": "featured-articles",
+    "components": [
+      "featured-article"
+    ]
+  },
+  {
+    "id": "list-external",
+    "components": [
+      "list-external-item"
+    ]
+  },
+  {
+    "id": "profiles",
+    "components": [
+      "profile"
+    ]
+  },
+  {
+    "id": "table",
+    "components": [
+      "table-row"
+    ]
+  },
+  {
+    "id": "table-2-columns",
+    "components": [
+      "table-col-2"
+    ]
+  },
+  {
+    "id": "table-3-columns",
+    "components": [
+      "table-col-3"
+    ]
+  },
+  {
+    "id": "table-4-columns",
+    "components": [
+      "table-col-4"
+    ]
+  },
+  {
+    "id": "table-5-columns",
+    "components": [
+      "table-col-5"
+    ]
+  },
+  {
+    "id": "tiles",
+    "components": [
+      "tile"
+    ]
+  }
+]

@@ -9,37 +9,6 @@
           {
             "component": "text",
             "valueType": "string",
-            "name": "jcr:title",
-            "label": "Title"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "image",
-            "label": "Page Image"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "jcr:description",
-            "label": "Description"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "cq:canonicalUrl",
-            "label": "Canonical"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "keywords",
-            "multi": true,
-            "label": "Keywords"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
             "name": "tags",
             "multi": true,
             "label": "Tags"
@@ -68,15 +37,35 @@
             "name": "toc",
             "valueType": "string",
             "options": [
-              { "name": "Enabled", "value": "Yes" },
-              { "name": "Disabled", "value": "" }
+              {
+                "name": "Enabled",
+                "value": "Yes"
+              },
+              {
+                "name": "Disabled",
+                "value": ""
+              }
             ]
           },
           {
-            "component": "text",
-            "valueType": "string",
+            "component": "select",
+            "label": "Template",
             "name": "template",
-            "label": "Template"
+            "valueType": "string",
+            "options": [
+              {
+                "name": "L1",
+                "value": "hub-l1"
+              },
+              {
+                "name": "L2",
+                "value": "hub-l2"
+              },
+              {
+                "name": "L3/Article",
+                "value": "article"
+              }
+            ]
           },
           {
             "component": "text",
@@ -87,12 +76,21 @@
           {
             "component": "text",
             "valueType": "string",
+            "name": "permaLink",
+            "label": "Permalink",
+            "description": "For Secured News Publishing Only"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "description": "For L3 Proxy Card pages only",
             "name": "card-c2a",
             "label": "Card C2A Text"
           },
           {
             "component": "text",
             "valueType": "string",
+            "description": "For L3 Proxy Card pages only",
             "name": "card-url",
             "label": "Card URL"
           }
@@ -105,7 +103,7 @@
     "fields": [
       {
         "component": "reference",
-        "name": "fileReference",
+        "name": "image",
         "label": "Image",
         "multi": false
       },
@@ -200,60 +198,913 @@
     "id": "section",
     "fields": [
       {
+        "component": "select",
+        "name": "location",
+        "label": "Location",
+        "options": [
+          {
+            "name": "Document Header",
+            "value": "document-header"
+          },
+          {
+            "name": "Document Footer",
+            "value": "document-footer"
+          },
+          {
+            "name": "Sidebar",
+            "value": "sidebar"
+          }
+        ]
+      },
+      {
         "component": "multiselect",
         "name": "style",
         "label": "Style",
         "options": [
           {
             "name": "Additional Reading",
-            "value": "additional reading"
+            "value": "additional-reading"
           },
           {
             "name": "Divider Top",
-            "value": "divider top"
+            "value": "divider-top"
           },
           {
-            "name": "Blue background with white text",
-            "value": "background blue 7, text neutral white"
+            "name": "Background Blue 1",
+            "value": "background-blue-1"
           },
           {
-            "name": "Indigo background",
-            "value": "background indigo 9"
+            "name": "Background Blue 2",
+            "value": "background-blue-2"
           },
           {
-            "name": "Green background 1",
-            "value": "background green 1"
+            "name": "Background Blue 3",
+            "value": "background-blue-3"
           },
           {
-            "name": "Green background 2",
-            "value": "background green 2"
+            "name": "Background Blue 4",
+            "value": "background-blue-4"
           },
           {
-            "name": "Blue background 1",
-            "value": "Background blue 1"
+            "name": "Background Blue 5",
+            "value": "background-blue-5"
           },
           {
-            "name": "Blue background 2",
-            "value": "Background blue 2"
+            "name": "Background Blue 6",
+            "value": "background-blue-6"
+          },
+          {
+            "name": "Background Blue 7",
+            "value": "background-blue-7"
+          },
+          {
+            "name": "Background Blue 8",
+            "value": "background-blue-8"
+          },
+          {
+            "name": "Background Blue 9",
+            "value": "background-blue-9"
+          },
+          {
+            "name": "Background Blue 10",
+            "value": "background-blue-10"
+          },
+          {
+            "name": "Background Blue 11",
+            "value": "background-blue-11"
+          },
+          {
+            "name": "Background Grey 1",
+            "value": "background-grey-1"
+          },
+          {
+            "name": "Background Grey 2",
+            "value": "background-grey-2"
+          },
+          {
+            "name": "Background Grey 3",
+            "value": "background-grey-3"
+          },
+          {
+            "name": "Background Grey 4",
+            "value": "background-grey-4"
+          },
+          {
+            "name": "Background Grey 5",
+            "value": "background-grey-5"
+          },
+          {
+            "name": "Background Grey 6",
+            "value": "background-grey-6"
+          },
+          {
+            "name": "Background Grey 7",
+            "value": "background-grey-7"
+          },
+          {
+            "name": "Background Grey 8",
+            "value": "background-grey-8"
+          },
+          {
+            "name": "Background Grey 9",
+            "value": "background-grey-9"
+          },
+          {
+            "name": "Background Grey 10",
+            "value": "background-grey-10"
+          },
+          {
+            "name": "Background Grey 11",
+            "value": "background-grey-11"
+          },
+          {
+            "name": "Background Teal 1",
+            "value": "background-teal-1"
+          },
+          {
+            "name": "Background Teal 2",
+            "value": "background-teal-2"
+          },
+          {
+            "name": "Background Teal 3",
+            "value": "background-teal-3"
+          },
+          {
+            "name": "Background Teal 4",
+            "value": "background-teal-4"
+          },
+          {
+            "name": "Background Teal 5",
+            "value": "background-teal-5"
+          },
+          {
+            "name": "Background Teal 6",
+            "value": "background-teal-6"
+          },
+          {
+            "name": "Background Teal 7",
+            "value": "background-teal-7"
+          },
+          {
+            "name": "Background Teal 8",
+            "value": "background-teal-8"
+          },
+          {
+            "name": "Background Teal 9",
+            "value": "background-teal-9"
+          },
+          {
+            "name": "Background Teal 10",
+            "value": "background-teal-10"
+          },
+          {
+            "name": "Background Teal 11",
+            "value": "background-teal-11"
+          },
+          {
+            "name": "Background Green 1",
+            "value": "background-green-1"
+          },
+          {
+            "name": "Background Green 2",
+            "value": "background-green-2"
+          },
+          {
+            "name": "Background Green 3",
+            "value": "background-green-3"
+          },
+          {
+            "name": "Background Green 4",
+            "value": "background-green-4"
+          },
+          {
+            "name": "Background Green 5",
+            "value": "background-green-5"
+          },
+          {
+            "name": "Background Green 6",
+            "value": "background-green-6"
+          },
+          {
+            "name": "Background Green 7",
+            "value": "background-green-7"
+          },
+          {
+            "name": "Background Green 8",
+            "value": "background-green-8"
+          },
+          {
+            "name": "Background Green 9",
+            "value": "background-green-9"
+          },
+          {
+            "name": "Background Green 10",
+            "value": "background-green-10"
+          },
+          {
+            "name": "Background Green 11",
+            "value": "background-green-11"
+          },
+          {
+            "name": "Background Mango 1",
+            "value": "background-mango-1"
+          },
+          {
+            "name": "Background Mango 2",
+            "value": "background-mango-2"
+          },
+          {
+            "name": "Background Mango 3",
+            "value": "background-mango-3"
+          },
+          {
+            "name": "Background Mango 4",
+            "value": "background-mango-4"
+          },
+          {
+            "name": "Background Mango 5",
+            "value": "background-mango-5"
+          },
+          {
+            "name": "Background Mango 6",
+            "value": "background-mango-6"
+          },
+          {
+            "name": "Background Mango 7",
+            "value": "background-mango-7"
+          },
+          {
+            "name": "Background Mango 8",
+            "value": "background-mango-8"
+          },
+          {
+            "name": "Background Mango 9",
+            "value": "background-mango-9"
+          },
+          {
+            "name": "Background Mango 10",
+            "value": "background-mango-10"
+          },
+          {
+            "name": "Background Mango 11",
+            "value": "background-mango-11"
+          },
+          {
+            "name": "Background Red 1",
+            "value": "background-red-1"
+          },
+          {
+            "name": "Background Red 2",
+            "value": "background-red-2"
+          },
+          {
+            "name": "Background Red 3",
+            "value": "background-red-3"
+          },
+          {
+            "name": "Background Red 4",
+            "value": "background-red-4"
+          },
+          {
+            "name": "Background Red 5",
+            "value": "background-red-5"
+          },
+          {
+            "name": "Background Red 6",
+            "value": "background-red-6"
+          },
+          {
+            "name": "Background Red 7",
+            "value": "background-red-7"
+          },
+          {
+            "name": "Background Red 8",
+            "value": "background-red-8"
+          },
+          {
+            "name": "Background Red 9",
+            "value": "background-red-9"
+          },
+          {
+            "name": "Background Red 10",
+            "value": "background-red-10"
+          },
+          {
+            "name": "Background Red 11",
+            "value": "background-red-11"
+          },
+          {
+            "name": "Background Raspberry 1",
+            "value": "background-raspberry-1"
+          },
+          {
+            "name": "Background Raspberry 2",
+            "value": "background-raspberry-2"
+          },
+          {
+            "name": "Background Raspberry 3",
+            "value": "background-raspberry-3"
+          },
+          {
+            "name": "Background Raspberry 4",
+            "value": "background-raspberry-4"
+          },
+          {
+            "name": "Background Raspberry 5",
+            "value": "background-raspberry-5"
+          },
+          {
+            "name": "Background Raspberry 6",
+            "value": "background-raspberry-6"
+          },
+          {
+            "name": "Background Raspberry 7",
+            "value": "background-raspberry-7"
+          },
+          {
+            "name": "Background Raspberry 8",
+            "value": "background-raspberry-8"
+          },
+          {
+            "name": "Background Raspberry 9",
+            "value": "background-raspberry-9"
+          },
+          {
+            "name": "Background Raspberry 10",
+            "value": "background-raspberry-10"
+          },
+          {
+            "name": "Background Raspberry 11",
+            "value": "background-raspberry-11"
+          },
+          {
+            "name": "Background Pink 1",
+            "value": "background-pink-1"
+          },
+          {
+            "name": "Background Pink 2",
+            "value": "background-pink-2"
+          },
+          {
+            "name": "Background Pink 3",
+            "value": "background-pink-3"
+          },
+          {
+            "name": "Background Pink 4",
+            "value": "background-pink-4"
+          },
+          {
+            "name": "Background Pink 5",
+            "value": "background-pink-5"
+          },
+          {
+            "name": "Background Pink 6",
+            "value": "background-pink-6"
+          },
+          {
+            "name": "Background Pink 7",
+            "value": "background-pink-7"
+          },
+          {
+            "name": "Background Pink 8",
+            "value": "background-pink-8"
+          },
+          {
+            "name": "Background Pink 9",
+            "value": "background-pink-9"
+          },
+          {
+            "name": "Background Pink 10",
+            "value": "background-pink-10"
+          },
+          {
+            "name": "Background Pink 11",
+            "value": "background-pink-11"
+          },
+          {
+            "name": "Background Indigo 1",
+            "value": "background-indigo-1"
+          },
+          {
+            "name": "Background Indigo 2",
+            "value": "background-indigo-2"
+          },
+          {
+            "name": "Background Indigo 3",
+            "value": "background-indigo-3"
+          },
+          {
+            "name": "Background Indigo 4",
+            "value": "background-indigo-4"
+          },
+          {
+            "name": "Background Indigo 5",
+            "value": "background-indigo-5"
+          },
+          {
+            "name": "Background Indigo 6",
+            "value": "background-indigo-6"
+          },
+          {
+            "name": "Background Indigo 7",
+            "value": "background-indigo-7"
+          },
+          {
+            "name": "Background Indigo 8",
+            "value": "background-indigo-8"
+          },
+          {
+            "name": "Background Indigo 9",
+            "value": "background-indigo-9"
+          },
+          {
+            "name": "Background Indigo 10",
+            "value": "background-indigo-10"
+          },
+          {
+            "name": "Background Indigo 11",
+            "value": "background-indigo-11"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "hero-section",
+    "fields": [
       {
-        "component": "select",
-        "name": "location",
-        "label": "Location",
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
         "options": [
           {
-            "name": "main",
-            "value": "main"
-          }, 
+            "name": "Background Blue 1",
+            "value": "background-blue-1"
+          },
           {
-            "name": "sidebar",
-            "value": "sidebar"
-          }, 
+            "name": "Background Blue 2",
+            "value": "background-blue-2"
+          },
           {
-            "name": "document-footer",
-            "value": "document-footer"
+            "name": "Background Blue 3",
+            "value": "background-blue-3"
+          },
+          {
+            "name": "Background Blue 4",
+            "value": "background-blue-4"
+          },
+          {
+            "name": "Background Blue 5",
+            "value": "background-blue-5"
+          },
+          {
+            "name": "Background Blue 6",
+            "value": "background-blue-6"
+          },
+          {
+            "name": "Background Blue 7",
+            "value": "background-blue-7"
+          },
+          {
+            "name": "Background Blue 8",
+            "value": "background-blue-8"
+          },
+          {
+            "name": "Background Blue 9",
+            "value": "background-blue-9"
+          },
+          {
+            "name": "Background Blue 10",
+            "value": "background-blue-10"
+          },
+          {
+            "name": "Background Blue 11",
+            "value": "background-blue-11"
+          },
+          {
+            "name": "Background Grey 1",
+            "value": "background-grey-1"
+          },
+          {
+            "name": "Background Grey 2",
+            "value": "background-grey-2"
+          },
+          {
+            "name": "Background Grey 3",
+            "value": "background-grey-3"
+          },
+          {
+            "name": "Background Grey 4",
+            "value": "background-grey-4"
+          },
+          {
+            "name": "Background Grey 5",
+            "value": "background-grey-5"
+          },
+          {
+            "name": "Background Grey 6",
+            "value": "background-grey-6"
+          },
+          {
+            "name": "Background Grey 7",
+            "value": "background-grey-7"
+          },
+          {
+            "name": "Background Grey 8",
+            "value": "background-grey-8"
+          },
+          {
+            "name": "Background Grey 9",
+            "value": "background-grey-9"
+          },
+          {
+            "name": "Background Grey 10",
+            "value": "background-grey-10"
+          },
+          {
+            "name": "Background Grey 11",
+            "value": "background-grey-11"
+          },
+          {
+            "name": "Background Teal 1",
+            "value": "background-teal-1"
+          },
+          {
+            "name": "Background Teal 2",
+            "value": "background-teal-2"
+          },
+          {
+            "name": "Background Teal 3",
+            "value": "background-teal-3"
+          },
+          {
+            "name": "Background Teal 4",
+            "value": "background-teal-4"
+          },
+          {
+            "name": "Background Teal 5",
+            "value": "background-teal-5"
+          },
+          {
+            "name": "Background Teal 6",
+            "value": "background-teal-6"
+          },
+          {
+            "name": "Background Teal 7",
+            "value": "background-teal-7"
+          },
+          {
+            "name": "Background Teal 8",
+            "value": "background-teal-8"
+          },
+          {
+            "name": "Background Teal 9",
+            "value": "background-teal-9"
+          },
+          {
+            "name": "Background Teal 10",
+            "value": "background-teal-10"
+          },
+          {
+            "name": "Background Teal 11",
+            "value": "background-teal-11"
+          },
+          {
+            "name": "Background Green 1",
+            "value": "background-green-1"
+          },
+          {
+            "name": "Background Green 2",
+            "value": "background-green-2"
+          },
+          {
+            "name": "Background Green 3",
+            "value": "background-green-3"
+          },
+          {
+            "name": "Background Green 4",
+            "value": "background-green-4"
+          },
+          {
+            "name": "Background Green 5",
+            "value": "background-green-5"
+          },
+          {
+            "name": "Background Green 6",
+            "value": "background-green-6"
+          },
+          {
+            "name": "Background Green 7",
+            "value": "background-green-7"
+          },
+          {
+            "name": "Background Green 8",
+            "value": "background-green-8"
+          },
+          {
+            "name": "Background Green 9",
+            "value": "background-green-9"
+          },
+          {
+            "name": "Background Green 10",
+            "value": "background-green-10"
+          },
+          {
+            "name": "Background Green 11",
+            "value": "background-green-11"
+          },
+          {
+            "name": "Background Mango 1",
+            "value": "background-mango-1"
+          },
+          {
+            "name": "Background Mango 2",
+            "value": "background-mango-2"
+          },
+          {
+            "name": "Background Mango 3",
+            "value": "background-mango-3"
+          },
+          {
+            "name": "Background Mango 4",
+            "value": "background-mango-4"
+          },
+          {
+            "name": "Background Mango 5",
+            "value": "background-mango-5"
+          },
+          {
+            "name": "Background Mango 6",
+            "value": "background-mango-6"
+          },
+          {
+            "name": "Background Mango 7",
+            "value": "background-mango-7"
+          },
+          {
+            "name": "Background Mango 8",
+            "value": "background-mango-8"
+          },
+          {
+            "name": "Background Mango 9",
+            "value": "background-mango-9"
+          },
+          {
+            "name": "Background Mango 10",
+            "value": "background-mango-10"
+          },
+          {
+            "name": "Background Mango 11",
+            "value": "background-mango-11"
+          },
+          {
+            "name": "Background Red 1",
+            "value": "background-red-1"
+          },
+          {
+            "name": "Background Red 2",
+            "value": "background-red-2"
+          },
+          {
+            "name": "Background Red 3",
+            "value": "background-red-3"
+          },
+          {
+            "name": "Background Red 4",
+            "value": "background-red-4"
+          },
+          {
+            "name": "Background Red 5",
+            "value": "background-red-5"
+          },
+          {
+            "name": "Background Red 6",
+            "value": "background-red-6"
+          },
+          {
+            "name": "Background Red 7",
+            "value": "background-red-7"
+          },
+          {
+            "name": "Background Red 8",
+            "value": "background-red-8"
+          },
+          {
+            "name": "Background Red 9",
+            "value": "background-red-9"
+          },
+          {
+            "name": "Background Red 10",
+            "value": "background-red-10"
+          },
+          {
+            "name": "Background Red 11",
+            "value": "background-red-11"
+          },
+          {
+            "name": "Background Raspberry 1",
+            "value": "background-raspberry-1"
+          },
+          {
+            "name": "Background Raspberry 2",
+            "value": "background-raspberry-2"
+          },
+          {
+            "name": "Background Raspberry 3",
+            "value": "background-raspberry-3"
+          },
+          {
+            "name": "Background Raspberry 4",
+            "value": "background-raspberry-4"
+          },
+          {
+            "name": "Background Raspberry 5",
+            "value": "background-raspberry-5"
+          },
+          {
+            "name": "Background Raspberry 6",
+            "value": "background-raspberry-6"
+          },
+          {
+            "name": "Background Raspberry 7",
+            "value": "background-raspberry-7"
+          },
+          {
+            "name": "Background Raspberry 8",
+            "value": "background-raspberry-8"
+          },
+          {
+            "name": "Background Raspberry 9",
+            "value": "background-raspberry-9"
+          },
+          {
+            "name": "Background Raspberry 10",
+            "value": "background-raspberry-10"
+          },
+          {
+            "name": "Background Raspberry 11",
+            "value": "background-raspberry-11"
+          },
+          {
+            "name": "Background Pink 1",
+            "value": "background-pink-1"
+          },
+          {
+            "name": "Background Pink 2",
+            "value": "background-pink-2"
+          },
+          {
+            "name": "Background Pink 3",
+            "value": "background-pink-3"
+          },
+          {
+            "name": "Background Pink 4",
+            "value": "background-pink-4"
+          },
+          {
+            "name": "Background Pink 5",
+            "value": "background-pink-5"
+          },
+          {
+            "name": "Background Pink 6",
+            "value": "background-pink-6"
+          },
+          {
+            "name": "Background Pink 7",
+            "value": "background-pink-7"
+          },
+          {
+            "name": "Background Pink 8",
+            "value": "background-pink-8"
+          },
+          {
+            "name": "Background Pink 9",
+            "value": "background-pink-9"
+          },
+          {
+            "name": "Background Pink 10",
+            "value": "background-pink-10"
+          },
+          {
+            "name": "Background Pink 11",
+            "value": "background-pink-11"
+          },
+          {
+            "name": "Background Indigo 1",
+            "value": "background-indigo-1"
+          },
+          {
+            "name": "Background Indigo 2",
+            "value": "background-indigo-2"
+          },
+          {
+            "name": "Background Indigo 3",
+            "value": "background-indigo-3"
+          },
+          {
+            "name": "Background Indigo 4",
+            "value": "background-indigo-4"
+          },
+          {
+            "name": "Background Indigo 5",
+            "value": "background-indigo-5"
+          },
+          {
+            "name": "Background Indigo 6",
+            "value": "background-indigo-6"
+          },
+          {
+            "name": "Background Indigo 7",
+            "value": "background-indigo-7"
+          },
+          {
+            "name": "Background Indigo 8",
+            "value": "background-indigo-8"
+          },
+          {
+            "name": "Background Indigo 9",
+            "value": "background-indigo-9"
+          },
+          {
+            "name": "Background Indigo 10",
+            "value": "background-indigo-10"
+          },
+          {
+            "name": "Background Indigo 11",
+            "value": "background-indigo-11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Ignore Preceding Heading",
+            "value": "no-heading"
+          },
+          {
+            "name": "Expand All Button",
+            "value": "expand-all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content",
+        "valueType": "string",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Image as icons",
+            "value": "icons"
+          },
+          {
+            "name": "Image as logo",
+            "value": "logo"
+          },
+          {
+            "name": "Image as pictogram",
+            "value": "pictogram"
+          },
+          {
+            "name": "Large Image/Video",
+            "value": "large-media"
+          },
+          {
+            "name": "Medium Image/Video",
+            "value": "middle-media"
           }
         ]
       }
@@ -265,98 +1116,221 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
+        "name": "media_image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "media_imageAlt",
+        "label": "Alt Text"
+      },
+      {
+        "component": "select",
+        "name": "media_iconBackgroundColour",
+        "label": "Icon Background Colour",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Blue",
+            "value": "Background blue 2"
+          },
+          {
+            "name": "Green",
+            "value": "Background green 2"
+          },
+          {
+            "name": "Grey",
+            "value": "Background grey 2"
+          },
+          {
+            "name": "Indigo",
+            "value": "Background indigo 2"
+          },
+          {
+            "name": "Mango",
+            "value": "Background mango 2"
+          },
+          {
+            "name": "Pink",
+            "value": "Background pink 2"
+          },
+          {
+            "name": "Raspberry",
+            "value": "Background raspberry 2"
+          },
+          {
+            "name": "Red",
+            "value": "Background red 2"
+          },
+          {
+            "name": "Teal",
+            "value": "Background teal 2"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "media_video",
+        "label": "Video"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card_title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "card_titleType",
+        "hidden": true
       },
       {
         "component": "richtext",
-        "name": "text",
-        "value": "",
+        "name": "card_text",
         "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "card_link",
+        "label": "Link 1"
+      },
+      {
+        "component": "text",
+        "name": "card_linkText",
+        "label": "Link 1 Text"
+      },
+      {
+        "component": "text",
+        "name": "card_linkTitle",
+        "label": "Link 1 Title"
+      },
+      {
+        "component": "select",
+        "name": "card_linkType",
+        "label": "Link 1 Type",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "card_link2",
+        "label": "Link 2"
+      },
+      {
+        "component": "text",
+        "name": "card_link2Text",
+        "label": "Link 2 Text"
+      },
+      {
+        "component": "text",
+        "name": "card_link2Title",
+        "label": "Link 2 Title"
+      },
+      {
+        "component": "select",
+        "name": "card_link2Type",
+        "label": "Link 2 Type",
+        "options": [
+          {
+            "name": "default",
+            "value": ""
+          },
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "collection-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "item_eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "item_eyebrowType",
+        "hidden": true
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "item_link",
+        "label": "Link",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "item_linkTitle",
+        "label": "Link Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "item_linkText",
+        "label": "Link Text",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "item_detail",
+        "label": "Detail",
         "valueType": "string"
       }
     ]
   },
   {
-    "id": "columns",
+    "id": "contact-cards",
     "fields": [
       {
         "component": "text",
-        "valueType": "number",
-        "name": "columns",
-        "value": "",
-        "label": "Columns"
-      },
-      {
-        "component": "text",
-        "valueType": "number",
-        "name": "rows",
-        "value": "",
-        "label": "Rows"
+        "valueType": "string",
+        "name": "region",
+        "label": "Region",
+        "value": "global",
+        "required": true
       }
     ]
   },
   {
-    "id": "fragment",
+    "id": "contact-item",
     "fields": [
       {
-        "component": "aem-content",
-        "name": "reference",
-        "label": "Reference"
-      }
-    ]
-  },
-  {
-    "id": "hero",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "hero_image",
-        "label": "Image",
-        "multi": false
-      },
-      {
         "component": "text",
-        "valueType": "string",
-        "name": "hero_imageAlt",
-        "label": "Alt",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "hero_eyebrow",
-        "label": "Eyebrow",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "hero_eyebrowType",
-        "value": "h6",
-        "hidden": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "hero_title",
-        "label": "Title",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "hero_titleType",
-        "value": "h1",
-        "hidden": true
+        "name": "icon",
+        "label": "Icon",
+        "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "hero_text",
-        "value": "",
-        "label": "Text",
+        "name": "content",
+        "label": "Content",
         "valueType": "string"
       }
     ]
@@ -369,54 +1343,816 @@
         "valueType": "string",
         "name": "embed_image",
         "label": "Image",
-        "multi": false
+        "condition": {
+          "!==": [
+            {
+              "var": "classes"
+            },
+            "pdf"
+          ]
+        }
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "emebd_imageAlt",
+        "name": "embed_imageAlt",
+        "label": "Image Alt",
+        "condition": {
+          "!==": [
+            {
+              "var": "classes"
+            },
+            "pdf"
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "name": "embed_link",
+        "label": "Link",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "embed_linkTitle",
+        "label": "Link Title",
+        "valueType": "string",
+        "condition": {
+          "===": [
+            {
+              "var": "classes"
+            },
+            "pdf"
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "name": "embed_linkText",
+        "label": "Link Text",
+        "valueType": "string",
+        "condition": {
+          "===": [
+            {
+              "var": "classes"
+            },
+            "pdf"
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "name": "pdfTitle",
+        "label": "PDF Title",
+        "description": "Title of the PDF. If the title is not provided, the PDF file name will be used.",
+        "valueType": "string",
+        "condition": {
+          "===": [
+            {
+              "var": "classes"
+            },
+            "pdf"
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "name": "pdfCaption",
+        "label": "PDF Caption",
+        "description": "Caption (if provided) is displayed in the modal.",
+        "valueType": "string",
+        "condition": {
+          "===": [
+            {
+              "var": "classes"
+            },
+            "pdf"
+          ]
+        }
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Type",
+        "value": "",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Video",
+            "value": ""
+          },
+          {
+            "name": "PDF",
+            "value": "pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "embed-subtitle",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "caption-iso",
+        "label": "ISO Code",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "caption-label",
+        "label": "Caption Label",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "caption-link",
+        "label": "Caption Link",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "error-buttons",
+    "fields": [
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "links_link1",
+        "label": "Link 1"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link1Title",
+        "label": "Link 1 Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link1Text",
+        "label": "Link 1 Text"
+      },
+      {
+        "component": "select",
+        "name": "links_link1Type",
+        "label": "Link 1 Type",
+        "value": "primary",
+        "options": [
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "links_link2",
+        "label": "Link 2"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link2Title",
+        "label": "Link 2 Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link2Text",
+        "label": "Link 2 Text"
+      },
+      {
+        "component": "select",
+        "name": "links_link2Type",
+        "label": "Link 2 Type",
+        "value": "secondary",
+        "options": [
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "error",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "titleType",
+        "hidden": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Text"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "links_link1",
+        "label": "Link 1"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link1Title",
+        "label": "Link 1 Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link1Text",
+        "label": "Link 1 Text"
+      },
+      {
+        "component": "select",
+        "name": "links_link1Type",
+        "label": "Link 1 Type",
+        "value": "primary",
+        "options": [
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "links_link2",
+        "label": "Link 2"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link2Title",
+        "label": "Link 2 Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "links_link2Text",
+        "label": "Link 2 Text"
+      },
+      {
+        "component": "select",
+        "name": "links_link2Type",
+        "label": "Link 2 Type",
+        "value": "secondary",
+        "options": [
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fast-facts",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Text Blue",
+            "value": "text-blue"
+          },
+          {
+            "name": "Text Green",
+            "value": "text-green"
+          },
+          {
+            "name": "Text Grey",
+            "value": "text-grey"
+          },
+          {
+            "name": "Text Indigo",
+            "value": "text-indigo"
+          },
+          {
+            "name": "Text Mango",
+            "value": "text-mango"
+          },
+          {
+            "name": "Text Pink",
+            "value": "text-pink"
+          },
+          {
+            "name": "Text Raspberry",
+            "value": "text-raspberry"
+          },
+          {
+            "name": "Text Red",
+            "value": "text-red"
+          },
+          {
+            "name": "Text Teal",
+            "value": "text-teal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fast-fact",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "number_number",
+        "label": "Number"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "number_numberType",
+        "value": "h3",
+        "hidden": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "number_unit",
+        "label": "Unit"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text_eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text_eyebrowType",
+        "hidden": true
+      },
+      {
+        "component": "text",
+        "name": "text_title",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "text_titleType",
+        "valueType": "string",
+        "hidden": true
+      },
+      {
+        "component": "richtext",
+        "name": "text_text",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Link Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Link Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "featured-article",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "page",
+        "label": "Page",
+        "valueType": "string",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "featured-articles",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Horizontal",
+            "value": "horizontal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "footnote",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "fragment",
+    "fields": [
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "link",
+        "label": "Fragment Link",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "full-width-image",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "valueType": "string",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "hero",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "background-image",
+        "label": "Background Image"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "hero_image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_imageAlt",
         "label": "Alt"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "embed_link",
-        "label": "Link"
+        "name": "hero_video",
+        "label": "Video"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "embed_linkText",
-        "label": "Link Text"
+        "name": "hero_eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_eyebrowType",
+        "hidden": true
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "hero_eyebrow_link",
+        "label": "Eyebrow Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_eyebrow_linkTitle",
+        "label": "Eyebrow Link Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_eyebrow_linkText",
+        "label": "Eyebrow Link Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_title",
+        "label": "Title",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_titleType",
+        "hidden": true
+      },
+      {
+        "component": "richtext",
+        "name": "hero_text",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "hero_link1",
+        "label": "Link 1"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_link1Title",
+        "label": "Link 1 Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_link1Text",
+        "label": "Link 1 Text"
+      },
+      {
+        "component": "select",
+        "name": "hero_link1Type",
+        "label": "Link 1 Type",
+        "value": "primary",
+        "options": [
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "hero_link2",
+        "label": "Link 2"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_link2Title",
+        "label": "Link 2 Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "hero_link2Text",
+        "label": "Link 2 Text"
+      },
+      {
+        "component": "select",
+        "name": "hero_link2Type",
+        "label": "Link 2 Type",
+        "value": "secondary",
+        "options": [
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Hero Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Full Background Image",
+            "value": "full background image"
+          },
+          {
+            "name": "Media Blend",
+            "value": "media blend"
+          },
+          {
+            "name": "Text White",
+            "value": "text-white"
+          },
+          {
+            "name": "Fixed Height Small",
+            "value": "fixed-height-small"
+          },
+          {
+            "name": "Fixed Height Large",
+            "value": "fixed-height-large"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "quote",
+    "id": "lightbox",
     "fields": [
       {
-        "component": "richtext",
+        "component": "reference",
         "valueType": "string",
-        "name": "quote",
-        "value": "",
-        "label": "Quote Text"
+        "name": "lightbox_image",
+        "label": "Image",
+        "required": true
       },
       {
         "component": "text",
+        "valueType": "string",
+        "name": "lightbox_imageAlt",
+        "label": "Image Alt",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "lightbox_caption",
+        "label": "Caption"
+      }
+    ]
+  },
+  {
+    "id": "link-group",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "link-list",
+        "label": "Link List"
+      }
+    ]
+  },
+  {
+    "id": "list-external-dynamic",
+    "fields": [
+      {
+        "component": "aem-content",
         "valueType": "string",
         "name": "source",
-        "label": "Quote source"
+        "label": "Source"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "value": 6,
+        "name": "limit",
+        "label": "Limit"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "value": "Read more on",
+        "name": "reading-label",
+        "label": "Reading Label"
       }
     ]
   },
   {
-    "id": "text-large",
+    "id": "list-external-item",
     "fields": [
       {
-        "component": "richtext",
+        "component": "text",
         "valueType": "string",
-        "name": "text",
-        "label": "Text"
+        "name": "title",
+        "label": "Title",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "link",
+        "label": "Link",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "linkTitle",
+        "label": "Link Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "linkText",
+        "label": "Link Text",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "merchandising-dynamic",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "value": 6,
+        "name": "limit",
+        "label": "Limit"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "products",
+        "label": "Products",
+        "multi": true
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Horizontal",
+            "value": "horizontal"
+          },
+          {
+            "name": "Show More Button",
+            "value": "show-more"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "profile",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "profile-page",
+        "label": "Profile Page",
+        "required": true
       }
     ]
   },
@@ -431,185 +2167,155 @@
       },
       {
         "component": "text",
-        "name": "promo_title",
-        "label": "Title"
+        "name": "imageAlt",
+        "label": "Alt Text"
       },
       {
         "component": "text",
-        "name": "promo_titleType",
-        "value": "h2",
+        "valueType": "string",
+        "name": "content_eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_eyebrowType",
         "hidden": true
       },
       {
         "component": "text",
-        "name": "promo_text",
+        "valueType": "string",
+        "name": "content_title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_titleType",
+        "hidden": true
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "content_text",
         "label": "Text"
       },
       {
-        "component": "text",
+        "component": "aem-content",
         "valueType": "string",
-        "name": "promo_link",
-        "label": "Promo Link"
+        "name": "content_link",
+        "label": "Link"
       },
       {
-        "name": "promo_linkText",
         "component": "text",
-        "label": "Promo Link Text"
+        "valueType": "string",
+        "name": "content_linkTitle",
+        "label": "Link Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_linkText",
+        "label": "Link Text"
       },
       {
         "component": "select",
-        "name": "promo_linkType",
-        "label": "Promo Link Type",
-        "valueType": "string",
+        "name": "content_linkType",
+        "label": "Link Type",
         "value": "primary",
         "options": [
           {
-            "name": "Primary",
+            "name": "primary",
             "value": "primary"
           },
           {
-            "name": "Secondary",
+            "name": "secondary",
             "value": "secondary"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "fast-fact",
-    "fields": [
-  
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "fact_number",
-        "label": "Number"
       },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "fact_numberType",
-        "value": "h4",
-        "hidden": true
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "fact_unit",
-        "label": "Unit"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "fact_unitType",
-        "value": "h5",
-        "hidden": true
-      },
-      {
-        "component": "richtext",
-        "name": "fact_text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "featured-article",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "reference",
-        "value": "",
-        "label": "Article",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "link-group",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "label": "Title"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "links",
-        "label": "Links"
-      }
-    ]
-  },
-  {
-    "id": "resource-center",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "tags",
-        "label": "Tags"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "authors",
-        "label": "Authors"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "content-type",
-        "label": "Content Type"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "limit",
-        "label": "Limit"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "info",
-        "label": "Info"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "key-value",
-        "label": "KV",
-        "hidden": true
-      }
-    ]
-  },
-  {
-    "id": "cards",
-    "fields": [
       {
         "component": "multiselect",
         "name": "classes",
-        "value": "",
-        "label": "Style",
+        "label": "Promo Style",
         "valueType": "string",
         "options": [
           {
-            "name": "Image as icons",
-            "value": "icons"
+            "name": "Blue",
+            "value": "blue"
+          },
+          {
+            "name": "Logo",
+            "value": "logo"
           }
         ]
       }
     ]
   },
   {
-    "id": "featured-articles",
+    "id": "quote",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quote-text",
+        "label": "Quote Text",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author-info",
+        "label": "Author Info"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "linkTitle",
+        "label": "Link Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "linkText",
+        "label": "Link Text"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "logo",
+        "label": "Logo"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Quote Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Small",
+            "value": "small"
+          },
+          {
+            "name": "No Avatar",
+            "value": "no-avatar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "related-articles",
     "fields": [
       {
         "component": "multiselect",
         "name": "classes",
-        "value": "",
         "label": "Style",
         "valueType": "string",
         "options": [
@@ -620,22 +2326,437 @@
         ]
       }
     ]
-  },  
+  },
   {
-    "id": "card",
+    "id": "resource-center",
     "fields": [
       {
-        "component": "reference",
+        "component": "text",
         "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
+        "name": "tags",
+        "label": "Tags",
+        "multi": true
       },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "authors",
+        "label": "Authors",
+        "multi": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content-type",
+        "label": "Content Type",
+        "multi": true
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "value": 6,
+        "name": "limit",
+        "label": "Limit"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "info",
+        "label": "Info",
+        "options": [
+          {
+            "name": "Author",
+            "value": "author"
+          },
+          {
+            "name": "Author and Publication Date",
+            "value": "authorAndPublicationDate"
+          },
+          {
+            "name": "Author and Reading Time",
+            "value": "authorAndReadingTime"
+          },
+          {
+            "name": "Publication Date",
+            "value": "publicationDate"
+          },
+          {
+            "name": "Reading Time",
+            "value": "readingTime"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "page-size",
+        "label": "Page Size",
+        "value": 6
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "sort",
+        "label": "Sort",
+        "value": "latest",
+        "options": [
+          {
+            "name": "Latest",
+            "value": "latest"
+          },
+          {
+            "name": "Oldest",
+            "value": "oldest"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "excluded-articles",
+        "label": "Excluded Articles"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "date-range",
+        "label": "Date Range"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "topic",
+        "label": "Topic"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "topic-label",
+        "label": "Topic Label",
+        "condition": {
+          "if": [
+            {
+              "var": "topic"
+            },
+            true,
+            false
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "industry",
+        "label": "Industry"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "industry-label",
+        "label": "Industry Label",
+        "condition": {
+          "if": [
+            {
+              "var": "industry"
+            },
+            true,
+            false
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "sap-event",
+        "label": "SAP Event"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "sap-event-label",
+        "label": "SAP Event Label",
+        "condition": {
+          "if": [
+            {
+              "var": "sap-event"
+            },
+            true,
+            false
+          ]
+        }
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "other-event",
+        "label": "Other Event"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "other-event-label",
+        "label": "Other Event Label",
+        "condition": {
+          "if": [
+            {
+              "var": "other-event"
+            },
+            true,
+            false
+          ]
+        }
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "RC Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Horizontal",
+            "value": "horizontal"
+          },
+          {
+            "name": "Text Only",
+            "value": "text-only"
+          },
+          {
+            "name": "Carousel",
+            "value": "carousel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "social-profile",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "icon-list",
+        "label": "Icon List",
+        "description": "List icons as hyperlinks",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "table",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Options",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Border",
+            "children": [
+              {
+                "name": "Striped",
+                "value": "striped"
+              },
+              {
+                "name": "Bordered",
+                "value": "bordered"
+              }
+            ]
+          },
+          {
+            "name": "Header",
+            "children": [
+              {
+                "name": "No Header",
+                "value": "no-header"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "filter",
+        "label": "Columns",
+        "valueType": "string",
+        "value": "table",
+        "options": [
+          {
+            "name": "1 Column",
+            "value": "table"
+          },
+          {
+            "name": "2 Columns",
+            "value": "table-2-columns"
+          },
+          {
+            "name": "3 Columns",
+            "value": "table-3-columns"
+          },
+          {
+            "name": "4 Columns",
+            "value": "table-4-columns"
+          },
+          {
+            "name": "5 Columns",
+            "value": "table-5-columns"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "index",
+        "label": "Index"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Options",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Search Type",
+            "children": [
+              {
+                "name": "Minimal",
+                "value": "minimal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "table-row",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1"
+      }
+    ]
+  },
+  {
+    "id": "table-col-2",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2"
+      }
+    ]
+  },
+  {
+    "id": "table-col-3",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column3"
+      }
+    ]
+  },
+  {
+    "id": "table-col-4",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column3"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column4"
+      }
+    ]
+  },
+  {
+    "id": "table-col-5",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column1"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column2"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column3"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column4"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column5text",
+        "label": "Column5"
+      }
+    ]
+  },
+  {
+    "id": "text-large",
+    "fields": [
       {
         "component": "richtext",
         "name": "text",
         "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "required": true
       }
     ]
   },
@@ -646,20 +2767,36 @@
         "component": "reference",
         "valueType": "string",
         "name": "image",
-        "label": "Image",
-        "multi": false
+        "label": "Image"
       },
       {
         "component": "text",
-        "name": "link",
-        "label": "Link",
-        "valueType": "string"
+        "name": "imageAlt",
+        "label": "Alt Text"
       },
       {
         "component": "text",
-        "name": "linkText",
-        "label": "Link Text",
-        "valueType": "string"
+        "valueType": "string",
+        "name": "content_title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_titleType",
+        "hidden": true
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "content_text",
+        "label": "Text"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "content_link",
+        "label": "Link"
       }
     ]
   }
