@@ -258,8 +258,20 @@ const transformFastFacts = (main, document) => {
 
       const cell2 = document.createElement('div');
       const eyebrow = document.createElement('h6');
-      eyebrow.textContent = row.querySelector('h6') ? row.querySelector('h6') : '&nbsp;';
-      cell2.append(eyebrow);
+      eyebrow.textContent = '&nbsp;';
+      const oldEyebrow = row.querySelector('h6');
+      if (oldEyebrow) {
+        eyebrow.textContent = oldEyebrow.textContent;
+        oldEyebrow.remove();
+      }     
+      const title = document.createElement('h3');
+      title.textContent = '&nbsp;'
+      const oldTitle = row.querySelector('p>strong');
+      if (oldTitle) {
+        title.textContent = oldTitle.textContent;
+        oldTitle.parentElement.remove();
+      }      
+      cell2.append(eyebrow, title);      
       cell2.append(row.querySelector('p'));
 
       const cell3 = document.createElement('div');
