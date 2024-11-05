@@ -47,7 +47,7 @@ const makeAEMPath = (link) => {
     newLink.pathname = `/content/sapdx/countries/en_us${newLink.pathname}`;
     link.href = newLink.pathname
     //link.href = `/content/sapdx/countries/en_us${link.href.substring(21)}`;
-    link.textContent = link.getAttribute('href');
+    //link.textContent = link.getAttribute('href');
   }
   return link;
 }
@@ -302,6 +302,7 @@ const transformFeaturedArticles = (main, document) => {
       row.append(cell);
       rows.push(row);
       link = makeAEMPath(link);
+      link.textContent = link.getAttribute('href');
     });
 
     const block = featuredArticles.parentElement;
@@ -360,6 +361,7 @@ const transformFragmentURLs = (main, document) => {
     fragments.forEach((fragment) => {
       const rows = [];
       const link = makeAEMPath(fragment).cloneNode(true);
+      link.textContent = link.getAttribute('href');
       const row = document.createElement('div');
       row.append(link);
       rows.push(row);
