@@ -41,16 +41,16 @@ const getDocumentMetadata = (name, document) => {
   return meta || '';
 };
 
-const makeAEMPath = (link) => {  
+const makeAEMPath = (link) => {
   if (link.href.startsWith('http://localhost:3001')) {
     const newLink = new URL(link);
     newLink.pathname = `/content/sapdx/countries/en_us${newLink.pathname}`;
-    link.href = newLink.pathname
+    link.href = newLink.pathname;
     //link.href = `/content/sapdx/countries/en_us${link.href.substring(21)}`;
     //link.textContent = link.getAttribute('href');
   }
   return link;
-}
+};
 
 const getMetadata = (document) => {
   const meta = {};
@@ -66,7 +66,7 @@ const getMetadata = (document) => {
   }
 
   const img = getDocumentMetadata('og:image', document);
-  if (img) {
+  if (img && img.indexOf('default-meta-image.png') === -1) {
     const el = document.createElement('img');
     el.src = img;
     meta.Image = el;
@@ -143,7 +143,7 @@ const getMetadata = (document) => {
   const modifiedTime = getDocumentMetadata('modified-time', document);
   if (modifiedTime) {
     meta['modified-time'] = modifiedTime;
-  } 
+  }
 
   const toc = getDocumentMetadata('toc', document);
   if (toc) {
@@ -160,6 +160,19 @@ const getMetadata = (document) => {
     meta['card-url'] = cardUrl;
   }
 
+  let sideNav = getDocumentMetadata('sidenav', document);
+  if (sideNav) {
+    if (sideNav.indexOf('hlx.page') > 0) {
+      sideNav = 'https://main--builder-prospect-aem-dev--sapudex.aem.page' + sideNav.substring(sideNav.indexOf('hlx.page') + 8, sideNav.length);
+    }
+    meta['sidenav'] = sideNav;
+  }
+
+  const template = getDocumentMetadata('template', document);
+  if (template && template !== 'article') {
+    meta['Template'] = template;
+  }
+  
   return meta;
 };
 
@@ -168,7 +181,7 @@ const cleanUpHeadings = (main, document) => {
     // remove all inner elements
     heading.textContent = heading.textContent;
   });
-}
+};
 
 const transformHero = (main, document) => {
   main.querySelectorAll('main div.hero').forEach((hero) => {
@@ -183,14 +196,34 @@ const transformHero = (main, document) => {
         h6.textContent = '&nbsp;';
         firstRow.querySelector('h1').before(h6);
       }
+
+      // move background image to the first row
+      if (firstRow.childElementCount === 2 && firstRow.lastElementChild.querySelector('img')) {
+        const img = firstRow.lastElementChild.querySelector('img');
+        firstRow.lastElementChild.remove();
+        cell1.append(img);
+      }
     }
 
     hero.insertBefore(row, hero.firstChild);
-    if (hero.parentElement.childElementCount > 1) {
+
+    // hero allone in a section logic
+    const heroSection = hero.parentElement;
+
+    if (
+      heroSection.childElementCount === 2 &&
+      heroSection.lastElementChild.classList.contains('section-metadata')
+    ) {
+      // we have only here and metadata
+      return;
+    }
+
+    if (heroSection.childElementCount > 1) {
+      // hero is not alone in a section
       hero.after(document.createElement('hr'));
     }
   });
-}
+};
 
 const transformPromo = (main, document) => {
   main.querySelectorAll('main div.promo').forEach((promo) => {
@@ -217,13 +250,13 @@ const transformPromo = (main, document) => {
 
     // add dummy h4 if not present
     const lastRowCell = promo.lastElementChild.firstElementChild;
-      if (!lastRowCell.querySelector('h4')) {
-        const h4 = document.createElement('h4');
-        h4.textContent = '&nbsp;';
-        lastRowCell.querySelector('h2').before(h4);
-      }
+    if (!lastRowCell.querySelector('h4')) {
+      const h4 = document.createElement('h4');
+      h4.textContent = '&nbsp;';
+      lastRowCell.querySelector('h2').before(h4);
+    }
   });
-}
+};
 
 const transformQuote = (main, document) => {
   main.querySelectorAll('main div.quote').forEach((quote) => {
@@ -240,14 +273,21 @@ const transformQuote = (main, document) => {
       row.append(cell1);
       firstRow.after(row);
     }
+    // if (quote.childElementCount === 3) {
+    //   const row = document.createElement('div');
+    //   const cell1 = document.createElement('div');
+    //   if (quote.querySelector('img')) {
+    //     cell1.append(quote.querySelector('img'));
+    //   }
+    //   row.append(cell1);
+    //   quote.lastElementChild.after(row);
+    // }
   });
-}
+};
 
 const transformFastFacts = (main, document) => {
   main.querySelectorAll('main div.fast-facts').forEach((quote) => {
     for (const row of quote.children) {
-      console.log(row);
-
       const newRow = document.createElement('div');
       const cell1 = document.createElement('div');
       const number = document.createElement('h3');
@@ -263,31 +303,60 @@ const transformFastFacts = (main, document) => {
       if (oldEyebrow) {
         eyebrow.textContent = oldEyebrow.textContent;
         oldEyebrow.remove();
-      }     
+      }
       const title = document.createElement('h3');
-      title.textContent = '&nbsp;'
+      title.textContent = '&nbsp;';
       const oldTitle = row.querySelector('p>strong');
       if (oldTitle) {
         title.textContent = oldTitle.textContent;
         oldTitle.parentElement.remove();
-      }      
-      cell2.append(eyebrow, title);      
+      }
+      cell2.append(eyebrow, title);
       cell2.append(row.querySelector('p'));
 
       const cell3 = document.createElement('div');
       if (row.querySelector('a')) {
         cell3.append(row.querySelector('a'));
       }
-
-      newRow.append(cell1, cell2,cell3);
-
-      
-      console.log(newRow);
+      newRow.append(cell1, cell2, cell3);
       row.replaceWith(newRow);
-
-    };
+    }
   });
-}
+};
+
+const transformTable = (main, document) => {
+  main.querySelectorAll('main div.table').forEach((table) => {
+    // add dummy row for the filter value
+    const columns = table.firstElementChild.childElementCount;
+    const filterRow = document.createElement('div');
+    const filterCell = document.createElement('div');
+    filterCell.textContent = columns === 1 ? 'table-1-column' : `table-${columns}-columns`;
+    filterRow.append(filterCell);
+    table.firstElementChild.before(filterRow);
+
+    for (const row of table.children) {
+      const cell1 = document.createElement('div');
+      cell1.textContent = 'key-value';
+      row.firstElementChild.before(cell1);
+      console.log(row.outerHTML);
+    }
+  });
+};
+
+const transformTiles = (main, document) => {
+  main.querySelectorAll('main div.tiles').forEach((titles) => {
+    // extract the link from title
+    titles.querySelectorAll('h2, h3, h4, h5, h6').forEach((heading) => {
+      const cell = heading.closest('div');
+
+      const headingLink = heading.querySelector('a')
+      if (headingLink) {
+        cell.append(headingLink);
+        heading.textContent = headingLink.textContent;
+      }
+    });
+  });
+};
 
 
 const transformFeaturedArticles = (main, document) => {
@@ -307,18 +376,17 @@ const transformFeaturedArticles = (main, document) => {
 
     const block = featuredArticles.parentElement;
     block.innerHTML = '';
-    block.append(...rows); 
+    block.append(...rows);
   });
 };
-
 
 const transformResourceCenter = (main, document) => {
   main.querySelectorAll('main div.resource-center').forEach((rc) => {
     const row = document.createElement('div');
     const cell1 = document.createElement('div');
-    cell1.textContent = "key-value";
+    cell1.textContent = 'key-value';
     const cell2 = document.createElement('div');
-    cell2.textContent = "true";
+    cell2.textContent = 'true';
     row.append(cell1, cell2);
     rc.append(row);
   });
@@ -329,7 +397,7 @@ const transformContent = (main, document) => {
   sections.forEach((section, index) => {
     const sectionBreack = document.createElement('hr');
     if (index < sections.length - 1) {
-        section.append(sectionBreack);
+      section.append(sectionBreack);
     }
 
     const blocks = [...section.querySelectorAll('div[class]')];
@@ -341,34 +409,37 @@ const transformContent = (main, document) => {
       [...block.children].forEach((div) => {
         const columns = [...div.children];
 
-        // for section-metadata block, the key column should be lowercased  
+        // for section-metadata block, the key column should be lowercased
         if (blockName === 'section-metadata') {
           columns[0].textContent = columns[0].textContent.toLowerCase();
         }
-        
+
         rows.push(columns);
       });
 
-
-      const hlxBlock = createBlock(document, {  name: blockName, variants: blockVariants, cells: rows });
+      const hlxBlock = createBlock(document, {
+        name: blockName,
+        variants: blockVariants,
+        cells: rows,
+      });
       block.replaceWith(hlxBlock);
     });
   });
 };
 
 const transformFragmentURLs = (main, document) => {
-    const fragments = [...main.querySelectorAll('a[href^="/fragments/"]')];
-    fragments.forEach((fragment) => {
-      const rows = [];
-      const link = makeAEMPath(fragment).cloneNode(true);
-      link.textContent = link.getAttribute('href');
-      const row = document.createElement('div');
-      row.append(link);
-      rows.push(row);
-      const embedBlock = createBlock(document, { name: 'fragment', cells: [rows] });
-      fragment.parentElement.replaceWith(embedBlock);
-    });
-}
+  const fragments = [...main.querySelectorAll('a[href^="/fragments/"]')];
+  fragments.forEach((fragment) => {
+    const rows = [];
+    const link = makeAEMPath(fragment).cloneNode(true);
+    link.textContent = link.getAttribute('href');
+    const row = document.createElement('div');
+    row.append(link);
+    rows.push(row);
+    const embedBlock = createBlock(document, { name: 'fragment', cells: [rows] });
+    fragment.parentElement.replaceWith(embedBlock);
+  });
+};
 
 const transformLinkCollection = (main, document) => {
   main.querySelectorAll('main div.collection').forEach((collection) => {
@@ -379,15 +450,21 @@ const transformLinkCollection = (main, document) => {
 };
 
 const cleanUpMediabusImages = (main) => {
-    const images = [...main.querySelectorAll('img')];
-    images.forEach((img) => {
-        if (img.src.includes('media')) {
-            img.src = img.src.substring(0, img.src.indexOf('?'));
-        }
-    });
-}
+  const images = [...main.querySelectorAll('img')];
+  images.forEach((img) => {
+    if (img.src.includes('media')) {
+      img.src = img.src.substring(0, img.src.indexOf('?'));
+    }
+  });
+};
 
 export default {
+
+  preprocess: ({ document, url, html, params }) => {
+    const main = document.body;
+    transformTiles(main, document);
+  },
+
   /**
    * Apply DOM operations to the provided document and return
    * the root element to be then transformed to Markdown.
@@ -399,7 +476,10 @@ export default {
    */
   transformDOM: ({
     // eslint-disable-next-line no-unused-vars
-    document, url, html, params,
+    document,
+    url,
+    html,
+    params,
   }) => {
     // define the main element: the one that will be transformed to Markdown
     const main = document.body;
@@ -412,6 +492,7 @@ export default {
     transformPromo(main, document);
     transformQuote(main, document);
     transformFastFacts(main, document);
+    transformTable(main, document);
     transformFeaturedArticles(main, document);
     transformLinkCollection(main, document);
     transformResourceCenter(main, document);
@@ -420,11 +501,10 @@ export default {
 
     const metadata = getMetadata(document);
     const metadataBlock = createBlock(document, {
-        name: 'Metadata',
-        cells: metadata,
-      });
+      name: 'Metadata',
+      cells: metadata,
+    });
     main.append(metadataBlock);
-
 
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
@@ -445,7 +525,10 @@ export default {
    */
   generateDocumentPath: ({
     // eslint-disable-next-line no-unused-vars
-    document, url, html, params,
+    document,
+    url,
+    html,
+    params,
   }) => {
     let p = new URL(url).pathname;
     if (p.endsWith('/')) {

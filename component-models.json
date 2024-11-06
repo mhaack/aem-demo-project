@@ -82,6 +82,12 @@
           {
             "component": "text",
             "valueType": "string",
+            "name": "sidenav",
+            "label": "Custom Side Nav"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
             "name": "permaLink",
             "label": "Permalink",
             "description": "For Secured News Publishing Only"
@@ -2803,6 +2809,11 @@
         "valueType": "string",
         "name": "content_link",
         "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "content_linkText",
+        "label": "Link Text"
       }
     ]
   }
