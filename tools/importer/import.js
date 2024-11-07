@@ -455,17 +455,6 @@ const transformResourceCenter = (main, document) => {
 
     rc.innerHTML = '';
     rc.append(...rows);
-
-
-
-    // add key-value marker row at the end
-    const row = document.createElement('div');
-    const cell1 = document.createElement('div');
-    cell1.textContent = 'key-value';
-    const cell2 = document.createElement('div');
-    cell2.textContent = 'true';
-    row.append(cell1, cell2);
-    rc.append(row);
   });
 };
 
