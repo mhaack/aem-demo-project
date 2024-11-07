@@ -358,6 +358,22 @@ const transformTiles = (main, document) => {
   });
 };
 
+const transformProfiles = (main, document) => {
+  main.querySelectorAll('main div.profiles').forEach((profiles) => {
+    // wrap the profile links in a div
+    profiles.querySelectorAll('a').forEach((link, index) => {
+      link = makeAEMPath(link);
+      link.textContent = link.getAttribute('href');
+      if (index > 0) {
+        const row = document.createElement('div');
+        const cell = document.createElement('div');
+        cell.append(link);
+        row.append(cell);
+        profiles.append(row);
+      }
+    });
+  });
+};
 
 const transformFeaturedArticles = (main, document) => {
   main.querySelectorAll('main div.featured-articles > div').forEach((featuredArticles) => {
@@ -493,6 +509,7 @@ export default {
     transformQuote(main, document);
     transformFastFacts(main, document);
     transformTable(main, document);
+    transformProfiles(main, document);
     transformFeaturedArticles(main, document);
     transformLinkCollection(main, document);
     transformResourceCenter(main, document);

@@ -70,6 +70,10 @@
               {
                 "name": "L3/Article",
                 "value": "article"
+              },
+              {
+                "name": "L3 Proxy Page",
+                "value": "proxy-l3"
               }
             ]
           },
@@ -83,7 +87,7 @@
             "component": "text",
             "valueType": "string",
             "name": "sidenav",
-            "label": "Custom Side Nav"
+            "label": "Side Navigation"
           },
           {
             "component": "text",
@@ -105,6 +109,12 @@
             "description": "For L3 Proxy Card pages only",
             "name": "card-url",
             "label": "Card URL"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "robots",
+            "label": "Robots"
           }
         ]
       }
@@ -131,12 +141,12 @@
     "fields": [
       {
         "component": "text",
-        "name": "jcr:title",
+        "name": "title",
         "label": "Title"
       },
       {
         "component": "select",
-        "name": "type",
+        "name": "titleType",
         "label": "Title Type",
         "options": [
           {
