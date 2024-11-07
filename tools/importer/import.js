@@ -12,6 +12,26 @@
 /* global WebImporter */
 /* eslint-disable no-console, class-methods-use-this */
 
+const RC_FIELDS = [
+  'tags',
+  'authors',
+  'content-type',
+  'limit',
+  'info',
+  'page-size',
+  'sort',
+  'excluded-articles',
+  'date-range',
+  'topic',
+  'topic-label',
+  'industry',
+  'industry-label',
+  'sap-event',
+  'sap-event-label',
+  'other-event',
+  'other-event-label',
+];
+
 const createBlock = (document, { name, variants = [], cells: data }) => {
   const headerRow = variants.length ? [`${name} (${variants.join(', ')})`] : [name];
   let blockRows = data;
@@ -51,6 +71,16 @@ const makeAEMPath = (link) => {
   }
   return link;
 };
+
+function toClassName(name) {
+  return typeof name === 'string'
+    ? name
+      .toLowerCase()
+      .replace(/[^0-9a-z]/gi, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '')
+    : '';
+}
 
 const getMetadata = (document) => {
   const meta = {};
@@ -163,7 +193,9 @@ const getMetadata = (document) => {
   let sideNav = getDocumentMetadata('sidenav', document);
   if (sideNav) {
     if (sideNav.indexOf('hlx.page') > 0) {
-      sideNav = 'https://main--builder-prospect-aem-dev--sapudex.aem.page' + sideNav.substring(sideNav.indexOf('hlx.page') + 8, sideNav.length);
+      sideNav =
+        'https://main--builder-prospect-aem-dev--sapudex.aem.page' +
+        sideNav.substring(sideNav.indexOf('hlx.page') + 8, sideNav.length);
     }
     meta['sidenav'] = sideNav;
   }
@@ -177,7 +209,7 @@ const getMetadata = (document) => {
   if (name) {
     meta['Name'] = name;
   }
-  
+
   return meta;
 };
 
@@ -354,7 +386,7 @@ const transformTiles = (main, document) => {
     titles.querySelectorAll('h2, h3, h4, h5, h6').forEach((heading) => {
       const cell = heading.closest('div');
 
-      const headingLink = heading.querySelector('a')
+      const headingLink = heading.querySelector('a');
       if (headingLink) {
         cell.append(headingLink);
         heading.textContent = headingLink.textContent;
@@ -403,6 +435,30 @@ const transformFeaturedArticles = (main, document) => {
 
 const transformResourceCenter = (main, document) => {
   main.querySelectorAll('main div.resource-center').forEach((rc) => {
+    // resort the rows based on the RC_FIELDS
+    const rows = [];
+    RC_FIELDS.forEach((field) => {
+      let newRow = document.createElement('div');
+      const cell1 = document.createElement('div');
+      const cell2 = document.createElement('div');
+      cell1.textContent = field;
+      cell2.textContent = '';
+      newRow.append(cell1, cell2);
+      [...rc.children].forEach((row) => {
+        if (toClassName(row.firstElementChild.textContent) === field) {
+          row.firstElementChild.textContent = toClassName(row.firstElementChild.textContent);
+          newRow = row
+        } 
+      });
+      rows.push(newRow);
+    });
+
+    rc.innerHTML = '';
+    rc.append(...rows);
+
+
+
+    // add key-value marker row at the end
     const row = document.createElement('div');
     const cell1 = document.createElement('div');
     cell1.textContent = 'key-value';
@@ -480,7 +536,6 @@ const cleanUpMediabusImages = (main) => {
 };
 
 export default {
-
   preprocess: ({ document, url, html, params }) => {
     const main = document.body;
     transformTiles(main, document);
