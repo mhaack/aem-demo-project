@@ -172,6 +172,11 @@ const getMetadata = (document) => {
   if (template && template !== 'article') {
     meta['Template'] = template;
   }
+
+  const name = getDocumentMetadata('name', document);
+  if (name) {
+    meta['Name'] = name;
+  }
   
   return meta;
 };
