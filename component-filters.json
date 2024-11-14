@@ -30,12 +30,15 @@
       "link-group",
       "list-external",
       "list-external-dynamic",
+      "merchandising-category",
       "merchandising-dynamic",
       "profiles",
       "promo",
+      "promo-list",
       "quote",
       "related-articles",
       "resource-center",
+      "section-tabs",
       "social-profile",
       "social-sharing",
       "table",
@@ -99,15 +102,33 @@
     ]
   },
   {
+    "id": "merchandising-category",
+    "components": [
+      "category-item"
+    ]
+  },
+  {
     "id": "profiles",
     "components": [
       "profile"
     ]
   },
   {
-    "id": "table",
+    "id": "promo-list",
     "components": [
-      "table-row"
+      "promo-item"
+    ]
+  },
+  {
+    "id": "section-tabs",
+    "components": [
+      "section-tab"
+    ]
+  },
+  {
+    "id": "table-1-column",
+    "components": [
+      "table-col-1"
     ]
   },
   {
@@ -132,6 +153,24 @@
     "id": "table-5-columns",
     "components": [
       "table-col-5"
+    ]
+  },
+  {
+    "id": "table-6-columns",
+    "components": [
+      "table-col-6"
+    ]
+  },
+  {
+    "id": "table-7-columns",
+    "components": [
+      "table-col-7"
+    ]
+  },
+  {
+    "id": "table-8-columns",
+    "components": [
+      "table-col-8"
     ]
   },
   {

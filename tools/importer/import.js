@@ -363,20 +363,21 @@ const transformFastFacts = (main, document) => {
 
 const transformTable = (main, document) => {
   main.querySelectorAll('main div.table').forEach((table) => {
-    // add dummy row for the filter value
     const columns = table.firstElementChild.childElementCount;
+
+    // add dummy row for the filter value
     const filterRow = document.createElement('div');
     const filterCell = document.createElement('div');
     filterCell.textContent = columns === 1 ? 'table-1-column' : `table-${columns}-columns`;
     filterRow.append(filterCell);
     table.firstElementChild.before(filterRow);
 
-    for (const row of table.children) {
-      const cell1 = document.createElement('div');
-      cell1.textContent = 'key-value';
-      row.firstElementChild.before(cell1);
-      console.log(row.outerHTML);
-    }
+    // for (const row of table.children) {
+    //   const cell1 = document.createElement('div');
+    //   cell1.textContent = 'key-value';
+    //   row.firstElementChild.before(cell1);
+    //   console.log(row.outerHTML);
+    // }
   });
 };
 
@@ -468,7 +469,7 @@ const transformContent = (main, document) => {
 
     const blocks = [...section.querySelectorAll('div[class]')];
     blocks.forEach((block) => {
-      const blockName = block.classList.item(0);
+      let blockName = block.classList.item(0);
       const blockVariants = [...block.classList].slice(1);
 
       const rows = [];
@@ -482,6 +483,14 @@ const transformContent = (main, document) => {
 
         rows.push(columns);
       });
+
+      // special case for table blocks
+      if (blockName === 'table') {
+        const rowCount = rows[1].length
+        if (rowCount > 1) {
+          blockName = `table-col-${rowCount}`;
+        }
+      }
 
       const hlxBlock = createBlock(document, {
         name: blockName,
@@ -523,6 +532,21 @@ const cleanUpMediabusImages = (main) => {
     }
   });
 };
+
+const fixSAPURLs = (main) => {
+  const CONTENTHUB_KNOWN_PATHS = ['/blogs', '/research', '/resources', '/design', '/content/sapdx',];
+  const links = [...main.querySelectorAll('a')];
+  links.forEach((link) => {
+    if (link.hostname === 'localhost') {
+      if (CONTENTHUB_KNOWN_PATHS.some((path) => link.pathname.startsWith(path))) {
+        // do nothing on known paths
+        return;
+      }    
+      link.href = 'https://www.sap.com' + link.pathname;
+      console.log(link.href);
+    }
+  });
+}
 
 export default {
   preprocess: ({ document, url, html, params }) => {
@@ -575,6 +599,7 @@ export default {
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
     cleanUpMediabusImages(main);
+    fixSAPURLs(main);
     WebImporter.rules.convertIcons(main, document);
 
     return main;

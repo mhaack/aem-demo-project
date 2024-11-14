@@ -74,6 +74,10 @@
               {
                 "name": "L3 Proxy Page",
                 "value": "proxy-l3"
+              },
+              {
+                "name": "Profile",
+                "value": "profile"
               }
             ]
           },
@@ -114,7 +118,8 @@
             "component": "text",
             "valueType": "string",
             "name": "robots",
-            "label": "Robots"
+            "label": "Robots",
+            "description": "Index control via robots"
           },
           {
             "component": "text",
@@ -243,6 +248,12 @@
             "value": "sidebar"
           }
         ]
+      },
+      {
+        "component": "text",
+        "name": "tab-id",
+        "label": "Tab ID",
+        "valueType": "string"
       },
       {
         "component": "multiselect",
@@ -2139,6 +2150,234 @@
     ]
   },
   {
+    "id": "merchandising-category",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Style",
+        "value": "vertical",
+        "valueType": "string",
+        "required": true,
+        "options": [
+          {
+            "name": "Tabs (vertical)",
+            "value": "vertical"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "category-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title",
+        "description": "If no title is set, the block will use the selected category as the title.",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "category",
+        "label": "Category",
+        "valueType": "string",
+        "required": true,
+        "options": [
+          {
+            "name": "Accounting and Financial Close",
+            "value": "accounting-and-financial-close"
+          },
+          {
+            "name": "Accounts Receivable, Billing, and Revenue Management",
+            "value": "accounts-receivable-billing-and-revenue-management"
+          },
+          {
+            "name": "Analytics",
+            "value": "analytics"
+          },
+          {
+            "name": "Application Development and Automation",
+            "value": "application-development-and-automation"
+          },
+          {
+            "name": "Artificial Intelligence",
+            "value": "artificial-intelligence"
+          },
+          {
+            "name": "Business Transformation Management",
+            "value": "business-transformation-management"
+          },
+          {
+            "name": "Commerce",
+            "value": "commerce"
+          },
+          {
+            "name": "Core HR and Payroll",
+            "value": "core-hr-and-payroll"
+          },
+          {
+            "name": "Customer Data",
+            "value": "customer-data"
+          },
+          {
+            "name": "Employee Experience Management",
+            "value": "employee-experience-management"
+          },
+          {
+            "name": "Enterprise Asset Management",
+            "value": "enterprise-asset-management"
+          },
+          {
+            "name": "Enterprise Resource Planning",
+            "value": "enterprise-resource-planning"
+          },
+          {
+            "name": "Extended Planning and Analysis",
+            "value": "extended-planning-and-analysis"
+          },
+          {
+            "name": "External Workforce and Services",
+            "value": "external-workforce-and-services"
+          },
+          {
+            "name": "Financial Management",
+            "value": "financial-management"
+          },
+          {
+            "name": "Financial Planning and Analysis",
+            "value": "financial-planning-and-analysis"
+          },
+          {
+            "name": "Governance, Risk, Compliance, and Cybersecurity",
+            "value": "governance-risk-compliance-and-cybersecurity"
+          },
+          {
+            "name": "HR Analytics and Workforce Planning",
+            "value": "hr-analytics-and-workforce-planning"
+          },
+          {
+            "name": "Integration",
+            "value": "integration"
+          },
+          {
+            "name": "Invoices and Payments",
+            "value": "invoices-and-payments"
+          },
+          {
+            "name": "Manufacturing",
+            "value": "manufacturing"
+          },
+          {
+            "name": "Marketing",
+            "value": "marketing"
+          },
+          {
+            "name": "Procurement",
+            "value": "procurement"
+          },
+          {
+            "name": "Product Lifecycle Management",
+            "value": "product-lifecycle-management"
+          },
+          {
+            "name": "Sales Performance Management",
+            "value": "sales-performance-management"
+          },
+          {
+            "name": "Sales",
+            "value": "sales"
+          },
+          {
+            "name": "Service",
+            "value": "service"
+          },
+          {
+            "name": "Services and Support",
+            "value": "services-and-support"
+          },
+          {
+            "name": "Sourcing and Contracts",
+            "value": "sourcing-and-contracts"
+          },
+          {
+            "name": "Supplier Management",
+            "value": "supplier-management"
+          },
+          {
+            "name": "Supply Chain Logistics",
+            "value": "supply-chain-logistics"
+          },
+          {
+            "name": "Supply Chain Planning",
+            "value": "supply-chain-planning"
+          },
+          {
+            "name": "Talent Management",
+            "value": "talent-management"
+          },
+          {
+            "name": "Tax Management",
+            "value": "tax-management"
+          },
+          {
+            "name": "Training and Adoption",
+            "value": "training-and-adoption"
+          },
+          {
+            "name": "Travel and Expense",
+            "value": "travel-and-expense"
+          },
+          {
+            "name": "Treasury Management",
+            "value": "treasury-management"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "label": "Technical IDs",
+        "name": "technical-ids-container",
+        "valueType": "string",
+        "description": "Set up to 4 technical ids to retrieve these products from the selected category. If no technical id's are being set, the block will use the currently selected category and retrieve the first 4 products that match this category.",
+        "collapsible": false,
+        "fields": [
+          {
+            "component": "text-input",
+            "label": "Technical ID 1",
+            "name": "technical-id-1",
+            "valueType": "string"
+          },
+          {
+            "component": "text-input",
+            "label": "Technical ID 2",
+            "name": "technical-id-2",
+            "valueType": "string"
+          },
+          {
+            "component": "text-input",
+            "label": "Technical ID 3",
+            "name": "technical-id-3",
+            "valueType": "string"
+          },
+          {
+            "component": "text-input",
+            "label": "Technical ID 4",
+            "name": "technical-id-4",
+            "valueType": "string"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "description",
+        "label": "Description"
+      }
+    ]
+  },
+  {
     "id": "merchandising-dynamic",
     "fields": [
       {
@@ -2168,6 +2407,10 @@
           {
             "name": "Show More Button",
             "value": "show-more"
+          },
+          {
+            "name": "Carousel",
+            "value": "carousel"
           }
         ]
       }
@@ -2181,6 +2424,112 @@
         "name": "profile-page",
         "label": "Profile Page",
         "required": true
+      }
+    ]
+  },
+  {
+    "id": "promo-list",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Title"
+      }
+    ]
+  },
+  {
+    "id": "promo-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_eyebrowType",
+        "hidden": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_title",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_titleType",
+        "hidden": true
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "content_text",
+        "label": "Text"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "content_link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_linkTitle",
+        "label": "Link Title"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "content_linkText",
+        "label": "Link Text"
+      },
+      {
+        "component": "select",
+        "name": "content_linkType",
+        "label": "Link Type",
+        "value": "primary",
+        "options": [
+          {
+            "name": "primary",
+            "value": "primary"
+          },
+          {
+            "name": "secondary",
+            "value": "secondary"
+          }
+        ]
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Promo Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Blue",
+            "value": "blue"
+          },
+          {
+            "name": "Logo",
+            "value": "logo"
+          }
+        ]
       }
     ]
   },
@@ -2557,6 +2906,23 @@
     ]
   },
   {
+    "id": "section-tab",
+    "fields": [
+      {
+        "component": "text",
+        "name": "label",
+        "label": "Section Tab Label",
+        "required": true
+      },
+      {
+        "component": "text",
+        "name": "section-id",
+        "label": "Section ID",
+        "required": true
+      }
+    ]
+  },
+  {
     "id": "social-profile",
     "fields": [
       {
@@ -2611,7 +2977,7 @@
         "options": [
           {
             "name": "1 Column",
-            "value": "table"
+            "value": "table-1-column"
           },
           {
             "name": "2 Columns",
@@ -2628,6 +2994,18 @@
           {
             "name": "5 Columns",
             "value": "table-5-columns"
+          },
+          {
+            "name": "6 Columns",
+            "value": "table-6-columns"
+          },
+          {
+            "name": "7 Columns",
+            "value": "table-7-columns"
+          },
+          {
+            "name": "7 Columns",
+            "value": "table-8-columns"
           }
         ]
       }
@@ -2662,13 +3040,13 @@
     ]
   },
   {
-    "id": "table-row",
+    "id": "table-col-1",
     "fields": [
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column1text",
-        "label": "Column1"
+        "label": "Column 1"
       }
     ]
   },
@@ -2679,13 +3057,13 @@
         "component": "richtext",
         "valueType": "string",
         "name": "column1text",
-        "label": "Column1"
+        "label": "Column 1"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column2text",
-        "label": "Column2"
+        "label": "Column 2"
       }
     ]
   },
@@ -2696,19 +3074,19 @@
         "component": "richtext",
         "valueType": "string",
         "name": "column1text",
-        "label": "Column1"
+        "label": "Column 1"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column2text",
-        "label": "Column2"
+        "label": "Column 2"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column3text",
-        "label": "Column3"
+        "label": "Column 3"
       }
     ]
   },
@@ -2719,25 +3097,25 @@
         "component": "richtext",
         "valueType": "string",
         "name": "column1text",
-        "label": "Column1"
+        "label": "Column 1"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column2text",
-        "label": "Column2"
+        "label": "Column 2"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column3text",
-        "label": "Column3"
+        "label": "Column 3"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column4text",
-        "label": "Column4"
+        "label": "Column 4"
       }
     ]
   },
@@ -2748,31 +3126,172 @@
         "component": "richtext",
         "valueType": "string",
         "name": "column1text",
-        "label": "Column1"
+        "label": "Column 1"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column2text",
-        "label": "Column2"
+        "label": "Column 2"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column3text",
-        "label": "Column3"
+        "label": "Column 3"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column4text",
-        "label": "Column4"
+        "label": "Column 4"
       },
       {
         "component": "richtext",
         "valueType": "string",
         "name": "column5text",
-        "label": "Column5"
+        "label": "Column 5"
+      }
+    ]
+  },
+  {
+    "id": "table-col-6",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column 1"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column 2"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column 3"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column 4"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column5text",
+        "label": "Column 5"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column6text",
+        "label": "Column 6"
+      }
+    ]
+  },
+  {
+    "id": "table-col-7",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column 1"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column 2"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column 3"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column 4"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column5text",
+        "label": "Column 5"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column6text",
+        "label": "Column 6"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column7text",
+        "label": "Column 7"
+      }
+    ]
+  },
+  {
+    "id": "table-col-8",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column1text",
+        "label": "Column 1"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column2text",
+        "label": "Column 2"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column3text",
+        "label": "Column 3"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column4text",
+        "label": "Column 4"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column5text",
+        "label": "Column 5"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column6text",
+        "label": "Column 6"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column7text",
+        "label": "Column 7"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "column8text",
+        "label": "Column 8"
       }
     ]
   },
@@ -2825,11 +3344,6 @@
         "valueType": "string",
         "name": "content_link",
         "label": "Link"
-      },
-      {
-        "component": "text",
-        "name": "content_linkText",
-        "label": "Link Text"
       }
     ]
   }
