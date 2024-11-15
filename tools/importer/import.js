@@ -285,8 +285,16 @@ const transformPromo = (main, document) => {
       h3Title.replaceWith(h2Title);
     }
 
-    // add dummy h4 if not present
     const lastRowCell = promo.lastElementChild.firstElementChild;
+    // add dummy h2 if not present
+    const h2Title = promo.querySelector('h2');
+    if (!h2Title) {
+      const h2Title = document.createElement('h2');
+      h2Title.textContent = '&nbsp;';;
+      lastRowCell.firstElementChild.before(h2Title);
+    }
+
+    // add dummy h4 if not present
     if (!lastRowCell.querySelector('h4')) {
       const h4 = document.createElement('h4');
       h4.textContent = '&nbsp;';
@@ -384,14 +392,23 @@ const transformTable = (main, document) => {
 const transformTiles = (main, document) => {
   main.querySelectorAll('main div.tiles').forEach((titles) => {
     // extract the link from title
-    titles.querySelectorAll('h2, h3, h4, h5, h6').forEach((heading) => {
-      const cell = heading.closest('div');
+    titles.querySelectorAll('a').forEach((link) => {
+      const cell = link.closest('div');
 
-      const headingLink = heading.querySelector('a');
-      if (headingLink) {
-        cell.append(headingLink);
-        heading.textContent = headingLink.textContent;
+      if (link.closest('h2, h3, h4, h5')) {
+        const heading = link.closest('h2, h3, h4, h5');
+        const headingLink = heading.querySelector('a');
+        if (headingLink) {
+          cell.append(headingLink);
+          heading.textContent = headingLink.textContent;
+        }
+      } else {
+        const h3 = document.createElement('h3');
+        h3.textContent = link.textContent;
+        link.before(h3);
       }
+
+      
     });
   });
 };
