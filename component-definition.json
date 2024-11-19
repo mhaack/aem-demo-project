@@ -1034,8 +1034,7 @@
                     "sling:resourceType": "core/franklin/components/block/v1/block/item",
                     "jcr:primaryType": "nt:unstructured",
                     "name": "Tile",
-                    "model": "tile",
-                    "content_titleType": "h3"
+                    "model": "tile"
                   }
                 }
               }
@@ -1051,8 +1050,7 @@
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Tile",
-                  "model": "tile",
-                  "content_titleType": "h3"
+                  "model": "tile"
                 }
               }
             }

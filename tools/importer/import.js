@@ -54,7 +54,7 @@ const createBlock = (document, { name, variants = [], cells: data }) => {
 };
 
 const getDocumentMetadata = (name, document) => {
-  const attr = name && name.includes(':') ? 'property' : 'name';
+  const attr = name && name.includes(':') && !name.includes('twitter:')  ? 'property' : 'name';
   const meta = [...document.head.querySelectorAll(`meta[${attr}="${name}"]`)]
     .map((m) => m.content)
     .join(', ');
@@ -110,7 +110,7 @@ const getMetadata = (document) => {
   const ogtitle = getDocumentMetadata('og:title', document);
   if (ogtitle && ogtitle !== meta.Title) {
     if (meta.Title) {
-      meta['og:title'] = ogtitle;
+      meta['_og_title'] = ogtitle;
     } else {
       meta.Title = ogtitle;
     }
@@ -119,25 +119,25 @@ const getMetadata = (document) => {
   const ogdesc = getDocumentMetadata('og:description', document);
   if (ogdesc && ogdesc !== meta.Description) {
     if (meta.Description) {
-      meta['og:description'] = ogdesc;
+      meta['_og_description'] = ogdesc;
     } else {
       meta.Description = ogdesc;
     }
   }
 
   const ttitle = getDocumentMetadata('twitter:title', document);
-  if (ttitle && ttitle !== meta.Title) {
+  if (ttitle && ttitle !== meta.Title && ttitle !== ogtitle) {
     if (meta.Title) {
-      meta['twitter:title'] = ttitle;
+      meta['_twitter_title'] = ttitle;
     } else {
       meta.Title = ttitle;
     }
   }
 
   const tdesc = getDocumentMetadata('twitter:description', document);
-  if (tdesc && tdesc !== meta.Description) {
+  if (tdesc && tdesc !== meta.Description && tdesc !== ogdesc) {
     if (meta.Description) {
-      meta['twitter:description'] = tdesc;
+      meta['_twitter_description'] = tdesc;
     } else {
       meta.Description = tdesc;
     }
@@ -147,7 +147,7 @@ const getMetadata = (document) => {
   if (timg && timg !== img) {
     const el = document.createElement('img');
     el.src = timg;
-    meta['twitter:image'] = el;
+    meta['_twitter_image'] = el;
 
     const imgAlt = getDocumentMetadata('twitter:image:alt', document);
     if (imgAlt) {
@@ -208,6 +208,26 @@ const getMetadata = (document) => {
   const name = getDocumentMetadata('name', document);
   if (name) {
     meta['Name'] = name;
+  }
+
+  const td1 = getDocumentMetadata('twitter:data1', document);
+  if (td1) {
+    meta['_twitter_data1'] = td1;
+  }
+
+  const tl1 = getDocumentMetadata('_twitter_label1', document);
+  if (tl1) {
+    meta['_twitter_label1'] = tl1;
+  }
+
+  const td2 = getDocumentMetadata('twitter:data2', document);
+  if (td2) {
+    meta['_twitter_data2'] = td2;
+  }
+
+  const tl2 = getDocumentMetadata('twitter:label2', document);
+  if (tl2) {
+    meta['_twitter_label2'] = tl2;
   }
 
   return meta;
@@ -397,15 +417,17 @@ const transformTiles = (main, document) => {
 
       if (link.closest('h2, h3, h4, h5')) {
         const heading = link.closest('h2, h3, h4, h5');
+        const p = document.createElement('p');
+        p.textContent = heading.textContent;
         const headingLink = heading.querySelector('a');
         if (headingLink) {
-          cell.append(headingLink);
-          heading.textContent = headingLink.textContent;
+          cell.append(p, headingLink);
+          heading.remove();
         }
       } else {
-        const h3 = document.createElement('h3');
-        h3.textContent = link.textContent;
-        link.before(h3);
+        const p = document.createElement('p');
+        p.textContent = link.textContent;
+        link.before(p);
       }
 
       

@@ -90,6 +90,12 @@
           {
             "component": "text",
             "valueType": "string",
+            "name": "nav",
+            "label": "Secondary Navigation"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
             "name": "sidenav",
             "label": "Side Navigation"
           },
@@ -126,6 +132,30 @@
             "valueType": "string",
             "name": "name",
             "label": "Profile Name"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "_twitter_data1",
+            "label": "Twitter Data 1"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "_twitter_data2",
+            "label": "Twitter Data 2"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "_twitter_label1",
+            "label": "Twitter Label 1"
+          },
+          {
+            "component": "text",
+            "valueType": "string",
+            "name": "_twitter_label2",
+            "label": "Twitter Label 2"
           }
         ]
       }
@@ -2417,6 +2447,23 @@
     ]
   },
   {
+    "id": "profiles",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Horizontal",
+            "value": "horizontal"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "profile",
     "fields": [
       {
@@ -2664,12 +2711,6 @@
         "label": "Link Text"
       },
       {
-        "component": "reference",
-        "valueType": "string",
-        "name": "logo",
-        "label": "Logo"
-      },
-      {
         "component": "multiselect",
         "name": "classes",
         "label": "Quote Style",
@@ -2682,6 +2723,10 @@
           {
             "name": "No Avatar",
             "value": "no-avatar"
+          },
+          {
+            "name": "Avatar Right Aligned",
+            "value": "avatar-right"
           }
         ]
       }
@@ -2945,7 +2990,7 @@
         "valueType": "string",
         "options": [
           {
-            "name": "Border",
+            "name": "Style",
             "children": [
               {
                 "name": "Striped",
@@ -2954,6 +2999,14 @@
               {
                 "name": "Bordered",
                 "value": "bordered"
+              },
+              {
+                "name": "Column based",
+                "value": "col-based"
+              },
+              {
+                "name": "Row based",
+                "value": "row-based"
               }
             ]
           },
@@ -3004,7 +3057,7 @@
             "value": "table-7-columns"
           },
           {
-            "name": "7 Columns",
+            "name": "8 Columns",
             "value": "table-8-columns"
           }
         ]
@@ -3324,20 +3377,8 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "content_title",
-        "label": "Title"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "content_titleType",
-        "hidden": true
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "content_text",
-        "label": "Text"
+        "name": "content_label",
+        "label": "Headline"
       },
       {
         "component": "aem-content",
