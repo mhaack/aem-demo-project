@@ -194,7 +194,7 @@ const getMetadata = (document) => {
   if (sideNav) {
     if (sideNav.indexOf('hlx.page') > 0) {
       sideNav =
-        'https://main--builder-prospect-aem-dev--sapudex.aem.page' +
+        'https://main--builder-prospect-aem-prod--sapudex.aem.page' +
         sideNav.substring(sideNav.indexOf('hlx.page') + 8, sideNav.length);
     }
     meta['sidenav'] = sideNav;
@@ -573,7 +573,7 @@ const cleanUpMediabusImages = (main) => {
 };
 
 const fixSAPURLs = (main) => {
-  const CONTENTHUB_KNOWN_PATHS = ['/blogs', '/research', '/resources', '/design', '/content/sapdx',];
+  const CONTENTHUB_KNOWN_PATHS = ['/blogs', '/research', '/resources', '/design', '/content/sapdx', '/topics',];
   const links = [...main.querySelectorAll('a')];
   links.forEach((link) => {
     if (link.hostname === 'localhost') {
